@@ -79,5 +79,26 @@
       <node concept="2iRkQZ" id="4pht$XsqZ2c" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="DUXtH0uZj8">
+    <ref role="1XX52x" to="d0tf:DUXtH0uYK3" resolve="ConvertFromLionWeb" />
+    <node concept="3EZMnI" id="DUXtH0uZjY" role="2wV5jI">
+      <node concept="3EZMnI" id="DUXtH0uZkT" role="3EZMnx">
+        <node concept="VPM3Z" id="DUXtH0uZkV" role="3F10Kt" />
+        <node concept="PMmxH" id="DUXtH0uZnT" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0A7n" id="DUXtH0uZri" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="DUXtH0uZkY" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="DUXtH0uZtM" role="3EZMnx" />
+      <node concept="3F2HdR" id="DUXtH0uZxh" role="3EZMnx">
+        <ref role="1NtTu8" to="d0tf:DUXtH0uZbo" resolve="metamodels" />
+        <node concept="2iRkQZ" id="DUXtH0uZxj" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="DUXtH0uZk1" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

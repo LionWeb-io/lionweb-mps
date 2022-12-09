@@ -11,6 +11,8 @@
     <import index="hypd" ref="r:aa31e43e-9240-4f4d-b6db-5c1c9a86c59e(jetbrains.mps.lang.project.structure)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="dydc" ref="r:303e2235-6078-45d3-bca1-4bd6b06c2770(io.lionweb.mps.converter.m2.lioncore2mps)" />
+    <import index="zj1j" ref="r:afdf88c6-003c-454f-85c3-e72d4fc9ce83(io.lionweb.mps.converter.m2.mps2lioncore)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" implicit="true" />
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
@@ -117,6 +119,9 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
       <concept id="1206482823744" name="jetbrains.mps.lang.smodel.structure.Model_AddRootOperation" flags="nn" index="3BYIHo">
         <child id="1206482823746" name="nodeArgument" index="3BYIHq" />
       </concept>
@@ -152,7 +157,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="4pht$XsqZqy">
-    <property role="TrG5h" value="RunConverter" />
+    <property role="TrG5h" value="RunConverterToLionWeb" />
     <ref role="2ZfgGC" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionWeb" />
     <node concept="2S6ZIM" id="4pht$XsqZqz" role="2ZfVej">
       <node concept="3clFbS" id="4pht$XsqZq$" role="2VODD2">
@@ -295,12 +300,12 @@
           <node concept="3cpWsn" id="4pht$XsrO4k" role="3cpWs9">
             <property role="TrG5h" value="converter" />
             <node concept="3uibUv" id="4pht$XsrO0q" role="1tU5fm">
-              <ref role="3uigEE" to="en45:2ju2syjqsvz" resolve="Mps2LionCoreConverter" />
+              <ref role="3uigEE" to="zj1j:2ju2syjqsvz" resolve="Mps2LionCoreConverter" />
             </node>
             <node concept="2ShNRf" id="4pht$XsrO4l" role="33vP2m">
               <node concept="1pGfFk" id="4pht$XsrO4m" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="en45:4pht$XsrCIY" resolve="Mps2LionCoreConverter" />
+                <ref role="37wK5l" to="zj1j:4pht$XsrCIY" resolve="Mps2LionCoreConverter" />
                 <node concept="37vLTw" id="4pht$XsrO4n" role="37wK5m">
                   <ref role="3cqZAo" node="4pht$XsrqRM" resolve="structureAspects" />
                 </node>
@@ -350,7 +355,7 @@
                     <ref role="3cqZAo" node="4pht$XsrO4k" resolve="converter" />
                   </node>
                   <node concept="liA8E" id="4pht$XsrPca" role="2OqNvi">
-                    <ref role="37wK5l" to="en45:2ju2syjqvB6" resolve="convert" />
+                    <ref role="37wK5l" to="zj1j:2ju2syjqvB6" resolve="convert" />
                   </node>
                 </node>
               </node>
@@ -384,6 +389,97 @@
                       <property role="TrG5h" value="it" />
                       <node concept="2jxLKc" id="4pht$XsrY7P" role="1tU5fm" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="DUXtH0vluJ">
+    <property role="TrG5h" value="RunConverterFromLionWeb" />
+    <ref role="2ZfgGC" to="d0tf:DUXtH0uYK3" resolve="ConvertFromLionWeb" />
+    <node concept="2S6ZIM" id="DUXtH0vluK" role="2ZfVej">
+      <node concept="3clFbS" id="DUXtH0vluL" role="2VODD2">
+        <node concept="3clFbF" id="DUXtH0vlLd" role="3cqZAp">
+          <node concept="Xl_RD" id="DUXtH0vlLc" role="3clFbG">
+            <property role="Xl_RC" value="Run Converter" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="DUXtH0vluM" role="2ZfgGD">
+      <node concept="3clFbS" id="DUXtH0vluN" role="2VODD2">
+        <node concept="3cpWs8" id="DUXtH0vqGn" role="3cqZAp">
+          <node concept="3cpWsn" id="DUXtH0vqGo" role="3cpWs9">
+            <property role="TrG5h" value="converter" />
+            <node concept="3uibUv" id="DUXtH0vqCI" role="1tU5fm">
+              <ref role="3uigEE" to="dydc:DUXtGZNHQR" resolve="LionCore2MpsConverter" />
+            </node>
+            <node concept="2ShNRf" id="DUXtH0vqGp" role="33vP2m">
+              <node concept="1pGfFk" id="DUXtH0vqGq" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
+                <node concept="2OqwBi" id="DUXtH0vqGr" role="37wK5m">
+                  <node concept="2OqwBi" id="DUXtH0vqGs" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="DUXtH0vqGt" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="DUXtH0vqGu" role="2OqNvi">
+                      <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="metamodels" />
+                    </node>
+                  </node>
+                  <node concept="13MTOL" id="DUXtH0vqGv" role="2OqNvi">
+                    <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3J1_TO" id="DUXtH0vqVP" role="3cqZAp">
+          <node concept="3uVAMA" id="DUXtH0vtYh" role="1zxBo5">
+            <node concept="XOnhg" id="DUXtH0vtYi" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="DUXtH0vtYj" role="1tU5fm">
+                <node concept="3uibUv" id="DUXtH0vu2f" role="nSUat">
+                  <ref role="3uigEE" to="en45:2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="DUXtH0vtYk" role="1zc67A">
+              <node concept="2xdQw9" id="DUXtH0vu6b" role="3cqZAp">
+                <property role="2xdLsb" value="gZ5fh_4/error" />
+                <node concept="2OqwBi" id="DUXtH0vuog" role="9lYJi">
+                  <node concept="37vLTw" id="DUXtH0vu77" role="2Oq$k0">
+                    <ref role="3cqZAo" node="DUXtH0vtYi" resolve="e" />
+                  </node>
+                  <node concept="liA8E" id="DUXtH0vuT7" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="DUXtH0vuVL" role="9lYJj">
+                  <ref role="3cqZAo" node="DUXtH0vtYi" resolve="e" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="DUXtH0vqVR" role="1zxBo7">
+            <node concept="3cpWs8" id="DUXtH0vrC1" role="3cqZAp">
+              <node concept="3cpWsn" id="DUXtH0vrC2" role="3cpWs9">
+                <property role="TrG5h" value="result" />
+                <node concept="3rvAFt" id="DUXtH0vr_D" role="1tU5fm">
+                  <node concept="3Tqbb2" id="DUXtH0vr_J" role="3rvQeY">
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                  </node>
+                  <node concept="H_c77" id="DUXtH0vr_I" role="3rvSg0" />
+                </node>
+                <node concept="2OqwBi" id="DUXtH0vrC3" role="33vP2m">
+                  <node concept="37vLTw" id="DUXtH0vrC4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="DUXtH0vqGo" resolve="converter" />
+                  </node>
+                  <node concept="liA8E" id="DUXtH0vrC5" role="2OqNvi">
+                    <ref role="37wK5l" to="dydc:DUXtGZOjwG" resolve="convert" />
                   </node>
                 </node>
               </node>

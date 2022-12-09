@@ -58,6 +58,9 @@
       <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertToLionWeb" flags="ng" index="qeN9c">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
+      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo">
+        <child id="755186209566487256" name="metamodels" index="1a0gs3" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -862,6 +865,15 @@
       <property role="TrG5h" value="boolean" />
       <property role="2RzON1" value="1082983657063" />
       <ref role="2RzRJv" node="4pht$XsxJGE" resolve="jetbrains.mps.lang.core" />
+    </node>
+  </node>
+  <node concept="1a0hBo" id="DUXtH0viqD">
+    <property role="TrG5h" value="Import LIonWeb" />
+    <node concept="2RzRkq" id="DUXtH0viqE" role="1a0gs3">
+      <ref role="2RzRkr" node="4pht$XsxJG4" resolve="io.lionweb.mps.m3" />
+    </node>
+    <node concept="2RzRkq" id="DUXtH0viqG" role="1a0gs3">
+      <ref role="2RzRkr" node="4pht$XsxJGE" resolve="jetbrains.mps.lang.core" />
     </node>
   </node>
 </model>
