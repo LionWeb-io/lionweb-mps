@@ -878,11 +878,70 @@
   </node>
   <node concept="2RzRRF" id="DUXtH0VBtX">
     <property role="2RzRSo" value="835e5207-6613-439f-a8ea-d1b98a89a27c" />
-    <property role="TrG5h" value="Test123" />
+    <property role="TrG5h" value="a.b.c.Test123" />
     <node concept="2RzPWn" id="DUXtH0VBIG" role="2RzR6B">
       <property role="2RzON1" value="9158c221-8668-4d5d-9db5-c99f081bb65f" />
       <property role="TrG5h" value="Hello" />
       <ref role="2RzRJv" node="DUXtH0VBtX" resolve="Test123" />
+      <node concept="2RzOeU" id="DUXtH19m4Z" role="2RzPPN">
+        <property role="2RzON1" value="e616eb7e-5f8e-47bf-96c2-941257eab492" />
+        <property role="TrG5h" value="text" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2RzRJv" node="DUXtH0VBIG" resolve="Hello" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOte" id="DUXtH19m54" role="2RzPPN">
+        <property role="2RzON1" value="4a47a0a3-0860-4e1f-ab6c-b71f76c526ea" />
+        <property role="TrG5h" value="greetings" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzRJv" node="DUXtH0VBIG" resolve="Hello" />
+        <ref role="2RzQvY" node="DUXtH19m5d" resolve="IGreeting" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="DUXtH19m5d" role="2RzR6B">
+      <property role="2RzON1" value="521bd988-cf78-4e77-89bc-a311027c8c7e" />
+      <property role="TrG5h" value="IGreeting" />
+      <ref role="2RzRJv" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
+    </node>
+    <node concept="2RzPWn" id="DUXtH19m5p" role="2RzR6B">
+      <property role="2RzON1" value="d63c1e98-ccef-4c8f-a29f-25c1f8d61b46" />
+      <property role="TrG5h" value="SimpleGreeting" />
+      <ref role="2RzRJv" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
+      <node concept="2RzOeU" id="DUXtH19m5$" role="2RzPPN">
+        <property role="2RzON1" value="70eac515-bf22-4b2e-a145-28764ff9572a" />
+        <property role="TrG5h" value="name" />
+        <ref role="2RzRJv" node="DUXtH19m5p" resolve="SimpleGreeting" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzQOr" id="DUXtH19m5w" role="2RzQ4z">
+        <ref role="2RzQOs" node="DUXtH19m5d" resolve="IGreeting" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="DUXtH19m5K" role="2RzR6B">
+      <property role="2RzON1" value="2a0344df-b26e-4c88-a7bb-66f5f33790e0" />
+      <property role="TrG5h" value="PersonGreeting" />
+      <ref role="2RzRJv" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
+      <node concept="2RzQOr" id="DUXtH19m5U" role="2RzQ4z">
+        <ref role="2RzQOs" node="DUXtH19m5d" resolve="IGreeting" />
+      </node>
+      <node concept="2RzOpR" id="DUXtH19m6l" role="2RzPPN">
+        <property role="2RzON1" value="51f2dad9-21b5-46f5-80ea-ee2afeadb9ff" />
+        <property role="TrG5h" value="person" />
+        <ref role="2RzRJv" node="DUXtH19m5K" resolve="PersonGreeting" />
+        <ref role="2RzQvY" node="DUXtH19m67" resolve="Person" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="DUXtH19m67" role="2RzR6B">
+      <property role="2RzON1" value="8dfad1ac-f3f9-4a05-8c6f-5fc25c687efe" />
+      <property role="TrG5h" value="Person" />
+      <ref role="2RzRJv" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
+      <node concept="2RzOeU" id="DUXtH19m6j" role="2RzPPN">
+        <property role="2RzON1" value="86bb0ca3-cec7-466c-ab72-13a194db688c" />
+        <property role="TrG5h" value="bla" />
+        <ref role="2RzRJv" node="DUXtH19m67" resolve="Person" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+      </node>
     </node>
   </node>
   <node concept="1a0hBo" id="DUXtH0VBII">

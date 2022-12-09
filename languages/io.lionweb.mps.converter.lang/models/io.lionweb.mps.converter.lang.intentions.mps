@@ -82,7 +82,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -496,16 +495,21 @@
             <node concept="3uibUv" id="DUXtH10yWZ" role="1tU5fm">
               <ref role="3uigEE" to="3ju5:~IFile" resolve="IFile" />
             </node>
-            <node concept="2OqwBi" id="DUXtH10z13" role="33vP2m">
-              <node concept="2OqwBi" id="DUXtH10z14" role="2Oq$k0">
-                <node concept="37vLTw" id="DUXtH10z15" role="2Oq$k0">
-                  <ref role="3cqZAo" node="DUXtH10wsG" resolve="lang" />
+            <node concept="2OqwBi" id="DUXtH11bqC" role="33vP2m">
+              <node concept="2OqwBi" id="DUXtH10z13" role="2Oq$k0">
+                <node concept="2OqwBi" id="DUXtH10z14" role="2Oq$k0">
+                  <node concept="37vLTw" id="DUXtH10z15" role="2Oq$k0">
+                    <ref role="3cqZAo" node="DUXtH10wsG" resolve="lang" />
+                  </node>
+                  <node concept="liA8E" id="DUXtH10z16" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c4:~AbstractModule.getDescriptorFile()" resolve="getDescriptorFile" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="DUXtH10z16" role="2OqNvi">
-                  <ref role="37wK5l" to="z1c4:~AbstractModule.getDescriptorFile()" resolve="getDescriptorFile" />
+                <node concept="liA8E" id="DUXtH10z17" role="2OqNvi">
+                  <ref role="37wK5l" to="3ju5:~IFile.getParent()" resolve="getParent" />
                 </node>
               </node>
-              <node concept="liA8E" id="DUXtH10z17" role="2OqNvi">
+              <node concept="liA8E" id="DUXtH11ccT" role="2OqNvi">
                 <ref role="37wK5l" to="3ju5:~IFile.getParent()" resolve="getParent" />
               </node>
             </node>
@@ -522,16 +526,6 @@
               <node concept="liA8E" id="DUXtH10_Ue" role="2OqNvi">
                 <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2xdQw9" id="DUXtH10zAy" role="3cqZAp">
-          <node concept="3cpWs3" id="DUXtH10$jZ" role="9lYJi">
-            <node concept="37vLTw" id="DUXtH10$qE" role="3uHU7w">
-              <ref role="3cqZAo" node="DUXtH10z12" resolve="parent" />
-            </node>
-            <node concept="Xl_RD" id="DUXtH10zA$" role="3uHU7B">
-              <property role="Xl_RC" value="parent: " />
             </node>
           </node>
         </node>
