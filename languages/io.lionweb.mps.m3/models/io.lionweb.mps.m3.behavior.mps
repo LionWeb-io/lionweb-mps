@@ -241,7 +241,27 @@
   <node concept="13h7C7" id="2ju2syjkyD7">
     <ref role="13h7C2" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
     <node concept="13hLZK" id="2ju2syjkyD8" role="13h7CW">
-      <node concept="3clFbS" id="2ju2syjkyD9" role="2VODD2" />
+      <node concept="3clFbS" id="2ju2syjkyD9" role="2VODD2">
+        <node concept="3clFbF" id="DUXtH0Vysk" role="3cqZAp">
+          <node concept="37vLTI" id="DUXtH0Vysl" role="3clFbG">
+            <node concept="2OqwBi" id="DUXtH0Vysm" role="37vLTx">
+              <node concept="2YIFZM" id="DUXtH0Vysn" role="2Oq$k0">
+                <ref role="37wK5l" to="33ny:~UUID.randomUUID()" resolve="randomUUID" />
+                <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
+              </node>
+              <node concept="liA8E" id="DUXtH0Vyso" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~UUID.toString()" resolve="toString" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="DUXtH0Vysp" role="37vLTJ">
+              <node concept="13iPFW" id="DUXtH0Vysq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="DUXtH0Vysr" role="2OqNvi">
+                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="2ju2syjkyEC" role="13h7CS">
       <property role="TrG5h" value="namespaceQualifier" />

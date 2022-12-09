@@ -876,5 +876,20 @@
       <ref role="2RzRkr" node="4pht$XsxJGE" resolve="jetbrains.mps.lang.core" />
     </node>
   </node>
+  <node concept="2RzRRF" id="DUXtH0VBtX">
+    <property role="2RzRSo" value="835e5207-6613-439f-a8ea-d1b98a89a27c" />
+    <property role="TrG5h" value="Test123" />
+    <node concept="2RzPWn" id="DUXtH0VBIG" role="2RzR6B">
+      <property role="2RzON1" value="9158c221-8668-4d5d-9db5-c99f081bb65f" />
+      <property role="TrG5h" value="Hello" />
+      <ref role="2RzRJv" node="DUXtH0VBtX" resolve="Test123" />
+    </node>
+  </node>
+  <node concept="1a0hBo" id="DUXtH0VBII">
+    <property role="TrG5h" value="Convert Test123" />
+    <node concept="2RzRkq" id="DUXtH0VBZt" role="1a0gs3">
+      <ref role="2RzRkr" node="DUXtH0VBtX" resolve="Test123" />
+    </node>
+  </node>
 </model>
 
