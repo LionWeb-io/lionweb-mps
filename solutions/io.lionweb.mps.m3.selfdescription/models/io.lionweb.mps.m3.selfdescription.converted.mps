@@ -893,10 +893,9 @@
       <node concept="2RzOte" id="DUXtH19m54" role="2RzPPN">
         <property role="2RzON1" value="4a47a0a3-0860-4e1f-ab6c-b71f76c526ea" />
         <property role="TrG5h" value="greetings" />
-        <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
         <ref role="2RzRJv" node="DUXtH0VBIG" resolve="Hello" />
-        <ref role="2RzQvY" node="DUXtH19m5d" resolve="IGreeting" />
+        <ref role="2RzQvY" node="DUXtH19m67" resolve="Person" />
       </node>
     </node>
     <node concept="2RzPaY" id="DUXtH19m5d" role="2RzR6B">
