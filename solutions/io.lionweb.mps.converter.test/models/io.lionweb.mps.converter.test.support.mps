@@ -14,6 +14,7 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
@@ -101,6 +102,7 @@
           <node concept="37vLTw" id="3ePT3MiWVCV" role="37wK5m">
             <ref role="3cqZAo" node="3ePT3MiWVCE" resolve="sLanguage" />
           </node>
+          <node concept="10Nm6u" id="3ePT3Mj2hbv" role="37wK5m" />
           <node concept="37vLTw" id="3ePT3MiWVCW" role="37wK5m">
             <ref role="3cqZAo" node="3ePT3MiWVCG" resolve="structure" />
           </node>
