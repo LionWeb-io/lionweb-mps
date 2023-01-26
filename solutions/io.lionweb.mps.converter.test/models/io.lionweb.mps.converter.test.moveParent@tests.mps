@@ -143,7 +143,6 @@
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
       <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="id" index="2RzON1" />
-        <reference id="2656571587264868887" name="container" index="2RzRJv" />
       </concept>
       <concept id="2656571587264858738" name="io.lionweb.mps.m3.structure.Property" flags="ng" index="2RzOeU">
         <reference id="2656571587265467165" name="type" index="2Rx9Fl" />
@@ -569,24 +568,20 @@
         <node concept="2RzPWn" id="3ePT3MiT$lv" role="2RzR6B">
           <property role="2RzON1" value="111" />
           <property role="TrG5h" value="C1" />
-          <ref role="2RzRJv" node="3ePT3MiT$lu" resolve="MoveParentA" />
           <node concept="2RzOeU" id="3ePT3MiT$lw" role="2RzPPN">
             <property role="2RzON1" value="222" />
             <property role="TrG5h" value="P1" />
-            <ref role="2RzRJv" node="3ePT3MiT$lv" resolve="C1" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOeU" id="3ePT3MiT$lx" role="2RzPPN">
             <property role="2RzON1" value="333" />
             <property role="TrG5h" value="P2" />
-            <ref role="2RzRJv" node="3ePT3MiT$lv" resolve="C1" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
         </node>
         <node concept="2RzPWn" id="3ePT3MiT$ly" role="2RzR6B">
           <property role="2RzON1" value="444" />
           <property role="TrG5h" value="C2" />
-          <ref role="2RzRJv" node="3ePT3MiT$lu" resolve="MoveParentA" />
         </node>
         <node concept="3xLA65" id="3ePT3MiT$lC" role="lGtFl">
           <property role="TrG5h" value="mmA" />
@@ -600,22 +595,18 @@
         <node concept="2RzPWn" id="3ePT3MiT$lQ" role="2RzR6B">
           <property role="2RzON1" value="111" />
           <property role="TrG5h" value="C1" />
-          <ref role="2RzRJv" node="3ePT3MiT$lP" resolve="MoveParentB" />
           <node concept="2RzOeU" id="3ePT3MiT$lR" role="2RzPPN">
             <property role="2RzON1" value="333" />
             <property role="TrG5h" value="P2" />
-            <ref role="2RzRJv" node="3ePT3MiT$lQ" resolve="C1" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
         </node>
         <node concept="2RzPWn" id="3ePT3MiT$lS" role="2RzR6B">
           <property role="2RzON1" value="444" />
           <property role="TrG5h" value="C2" />
-          <ref role="2RzRJv" node="3ePT3MiT$lP" resolve="MoveParentB" />
           <node concept="2RzOeU" id="3ePT3MiT$lT" role="2RzPPN">
             <property role="2RzON1" value="222" />
             <property role="TrG5h" value="P1" />
-            <ref role="2RzRJv" node="3ePT3MiT$lQ" resolve="C1" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
         </node>
@@ -631,24 +622,20 @@
     <node concept="2RzPWn" id="3ePT3MiTyKA" role="2RzR6B">
       <property role="2RzON1" value="111" />
       <property role="TrG5h" value="C1" />
-      <ref role="2RzRJv" node="3ePT3MiTyKz" resolve="MoveParentA" />
       <node concept="2RzOeU" id="3ePT3MiTyKD" role="2RzPPN">
         <property role="2RzON1" value="222" />
         <property role="TrG5h" value="P1" />
-        <ref role="2RzRJv" node="3ePT3MiTyKA" resolve="C1" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="3ePT3MiTyKI" role="2RzPPN">
         <property role="2RzON1" value="333" />
         <property role="TrG5h" value="P2" />
-        <ref role="2RzRJv" node="3ePT3MiTyKA" resolve="C1" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
     <node concept="2RzPWn" id="3ePT3MiTyKR" role="2RzR6B">
       <property role="2RzON1" value="444" />
       <property role="TrG5h" value="C2" />
-      <ref role="2RzRJv" node="3ePT3MiTyKz" resolve="MoveParentA" />
     </node>
   </node>
   <node concept="2RzRRF" id="3ePT3MiTyKX">
@@ -657,22 +644,18 @@
     <node concept="2RzPWn" id="3ePT3MiTyKY" role="2RzR6B">
       <property role="2RzON1" value="111" />
       <property role="TrG5h" value="C1" />
-      <ref role="2RzRJv" node="3ePT3MiTyKX" resolve="MoveParentA" />
       <node concept="2RzOeU" id="3ePT3MiTyL0" role="2RzPPN">
         <property role="2RzON1" value="333" />
         <property role="TrG5h" value="P2" />
-        <ref role="2RzRJv" node="3ePT3MiTyKY" resolve="C1" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
     <node concept="2RzPWn" id="3ePT3MiTyL1" role="2RzR6B">
       <property role="2RzON1" value="444" />
       <property role="TrG5h" value="C2" />
-      <ref role="2RzRJv" node="3ePT3MiTyKX" resolve="MoveParentA" />
       <node concept="2RzOeU" id="3ePT3MiTyKZ" role="2RzPPN">
         <property role="2RzON1" value="222" />
         <property role="TrG5h" value="P1" />
-        <ref role="2RzRJv" node="3ePT3MiTyKY" resolve="C1" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
