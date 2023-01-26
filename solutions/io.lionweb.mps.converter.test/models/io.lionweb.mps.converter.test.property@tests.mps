@@ -971,7 +971,7 @@
           </node>
           <node concept="359W_D" id="59Df55l3oZY" role="3tpDZB">
             <ref role="359W_E" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-            <ref role="359W_F" to="tpce:f_TKVDF" resolve="linkDeclaration" />
+            <ref role="359W_F" to="tpce:f_TKVDG" resolve="propertyDeclaration" />
           </node>
         </node>
         <node concept="3vlDli" id="59Df55l3oZZ" role="3cqZAp">
