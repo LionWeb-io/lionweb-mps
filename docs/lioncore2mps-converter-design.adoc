@@ -1,0 +1,187 @@
+= Design of LIonCore to MPS Converter
+
+== Overview
+
+=== Public Interface
+.Public Interface
+[plantuml, public-interface, svg]
+----
+class LionCore2MpsConverter {
+    new(ILanguageLookup, LionCoreConstants, Metamodel[])
+    convert(): IImportedLanguage[]
+}
+
+LionCore2MpsConverter .> ILanguageLookup
+LionCore2MpsConverter .> LionCoreConstants
+LionCore2MpsConverter ..> IImportedLanguage
+
+interface ILanguageLookup {
+    createImportedLanguage(Metamodel): IImportedLanguage
+}
+
+ILanguageLookup ..> IImportedLanguage
+
+interface IImportedLanguage {
+    getLanguage(): SLanguage
+    getRootNodes(): node[]
+
+    apply(ILanguageCreator): string[]
+}
+
+IImportedLanguage .> ILanguageCreator
+
+interface ILanguageCreator {
+    createLanguage(namespace, id): Language
+}
+
+class LionCoreConstants {
+    LC_STRING_TYPE: PrimitiveType
+    MPS_STRING_TYPE: PrimitiveDataTypeDeclaration
+
+    LC_BOOLEAN_TYPE: PrimitiveType
+    MPS_BOOLEAN_TYPE: PrimitiveDataTypeDeclaration
+
+    MPS_BASE_CONCEPT: ConceptDeclaration
+
+    new(SRepository)
+}
+----
+
+=== Main Converter Workflow
+[plantuml, main-converter, svg]
+----
+actor caller
+participant LionCore2MpsConverter as conv
+participant ILanguageLookup as lookup
+collections AImportedLanguage as langs
+
+caller --> conv **: new(metamodels)
+
+caller -> conv ++: convert()
+    conv -> conv ++: createImportedLanguages(metamodels)
+        conv -> lookup ++: createImportedLanguage(metamodel)
+            lookup --> langs **
+        return importedLanguage
+    return importedLanguages
+    conv -> langs ++: register()
+    return lionCore2MpsMap
+    conv -> conv: mergeAllMaps()
+    conv -> langs: convert(mergedMap)
+    conv -> langs: link(mergedMap)
+return importedLanguages
+
+caller -> langs ++: apply()
+return messages
+----
+
+== Internal Structure
+=== Imported Language Hierarchy
+
+.Imported Language Hierarchy
+[plantuml, imported-language, svg]
+----
+interface IImportedLanguage {
+    getLanguage(): SLanguage
+    getRootNodes(): node[]
+
+    apply(ILanguageCreator): string[]
+}
+
+abstract class AImportedLanguage implements IImportedLanguage {
+    new(Metamodel, SLanguage, LionCoreConstants)
+
+    getLanguage(): SLanguage
+    getRootNodes(): node[]
+    register(): ILionCore2MpsMap
+    convert(ILionCore2MpsMap)
+    link(ILionCore2MpsMap)
+    getMap(): ILionCore2MpsMap
+}
+
+abstract class ADeltaImportedLanguage extends AImportedLanguage {
+    new(Metamodel, SLanguage, Language, model, LionCoreConstants)
+
+    getDeltas(): IDelta
+    getModel(): model
+}
+
+class ReadonlyImportedLanguage extends ADeltaImportedLanguage
+
+class ExistingImportedLanguage extends ADeltaImportedLanguage
+
+class NewImportedLanguage extends ADeltaImportedLanguage
+----
+
+=== Deltas
+
+.Deltas
+[plantuml, deltas, svg]
+----
+
+interface IDelta
+
+abstract class ALanguageDelta implements IDelta {
+    changedLanguage: SLanguage
+}
+
+class RenameLanguageDelta extends ALanguageDelta {
+    oldName: string
+    newName: string
+}
+
+abstract class ANodeDelta implements IDelta {
+    changedNode: SNode
+}
+
+abstract class AParentedDelta extends ANodeDelta {
+    parent: SNode
+    changedLink: SContainmentLink
+}
+
+class AddDelta extends AParentedDelta {
+    getNew(): node
+}
+
+class RemoveDelta extends AParentedDelta {
+    getRemmoved(): node
+}
+----
+
+.Node Deltas
+[plantuml, node-deltas, svg]
+----
+
+interface IDelta
+
+abstract class ANodeDelta implements IDelta {
+    changedNode: SNode
+}
+
+class ChangeConceptDelta extends ANodeDelta {
+    oldConcept: SAbstractConcept
+    newConcept: SAbstractConcept
+}
+
+class ChangeLinkDelta extends ANodeDelta {
+    oldValue: SNode
+    newValue: SNode
+    changedLink: SAbstractLink
+}
+
+class ChangePropertyDelta extends ANodeDelta {
+    oldValue: string
+    newValue: string
+    changedLink: SProperty
+}
+
+class MoveModelDelta extends ANodeDelta {
+    oldModel: SModel
+    newModel: SModel
+    oldParent: SNode
+}
+
+class MoveParentDelta extends ANodeDelta {
+    oldParent: SNode
+    newParent: SNode
+}
+----
