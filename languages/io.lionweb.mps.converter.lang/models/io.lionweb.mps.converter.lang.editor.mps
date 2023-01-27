@@ -100,5 +100,25 @@
       <node concept="2iRkQZ" id="DUXtH0uZk1" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="z1IqfFS$kM">
+    <ref role="1XX52x" to="d0tf:z1IqfFSzDB" resolve="ImportFromJson" />
+    <node concept="3EZMnI" id="z1IqfFS$me" role="2wV5jI">
+      <node concept="3EZMnI" id="z1IqfFS$mf" role="3EZMnx">
+        <node concept="VPM3Z" id="z1IqfFS$mg" role="3F10Kt" />
+        <node concept="PMmxH" id="z1IqfFS$mh" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0A7n" id="z1IqfFS$mi" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="z1IqfFS$mj" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="z1IqfFS$mk" role="3EZMnx" />
+      <node concept="3F0A7n" id="z1IqfFS$s2" role="3EZMnx">
+        <ref role="1NtTu8" to="d0tf:z1IqfFS$3G" resolve="path" />
+      </node>
+      <node concept="2iRkQZ" id="z1IqfFS$mn" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
