@@ -10,7 +10,6 @@
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
       <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="id" index="2RzON1" />
-        <reference id="2656571587264868887" name="container" index="2RzRJv" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Metamodel" flags="ng" index="2RzRRF">
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
@@ -28,12 +27,10 @@
     <node concept="2RzSJf" id="2ju2syjnJjX" role="2RzR6B">
       <property role="2RzON1" value="e8250c46-4380-43e4-8973-93572f9f107b" />
       <property role="TrG5h" value="String" />
-      <ref role="2RzRJv" node="2ju2syjnJjW" resolve="Built-in DataTypes" />
     </node>
     <node concept="2RzSJf" id="2ju2syjnJk2" role="2RzR6B">
       <property role="2RzON1" value="2ddad55b-b529-4503-84b4-de77e89ce41b" />
       <property role="TrG5h" value="Boolean" />
-      <ref role="2RzRJv" node="2ju2syjnJjW" resolve="Built-in DataTypes" />
     </node>
   </node>
 </model>

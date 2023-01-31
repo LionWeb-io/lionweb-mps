@@ -229,24 +229,6 @@
           </node>
         </node>
       </node>
-      <node concept="3EZMnI" id="2ju2syjmIN9" role="3EZMnx">
-        <node concept="2iRfu4" id="2ju2syjmINa" role="2iSdaV" />
-        <node concept="VPM3Z" id="2ju2syjmINb" role="3F10Kt" />
-        <node concept="3EZMnI" id="2ju2syjmINc" role="3EZMnx">
-          <node concept="3F0ifn" id="2ju2syjmINd" role="3EZMnx">
-            <property role="3F0ifm" value="container" />
-          </node>
-          <node concept="3XFhqQ" id="2ju2syjmINe" role="3EZMnx" />
-          <node concept="2iRfu4" id="2ju2syjmINf" role="2iSdaV" />
-          <node concept="VPM3Z" id="2ju2syjmINg" role="3F10Kt" />
-          <node concept="1iCGBv" id="2ju2syjmINh" role="3EZMnx">
-            <ref role="1NtTu8" to="h3y3:2ju2syjkn8n" resolve="container" />
-            <node concept="1sVBvm" id="2ju2syjmINi" role="1sWHZn">
-              <node concept="3SHvHV" id="2ju2syjmINj" role="2wV5jI" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="2ju2syjmJgh">

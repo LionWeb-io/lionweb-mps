@@ -52,12 +52,6 @@
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="NamespacedEntity" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="2ju2syjkn8n" role="1TKVEi">
-      <property role="IQ2ns" value="2656571587264868887" />
-      <property role="20kJfa" value="container" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2ju2syjkn10" resolve="NamespaceProvider" />
-    </node>
     <node concept="1TJgyi" id="2ju2syjkkdB" role="1TKVEl">
       <property role="IQ2nx" value="2656571587264856935" />
       <property role="TrG5h" value="simpleName" />
