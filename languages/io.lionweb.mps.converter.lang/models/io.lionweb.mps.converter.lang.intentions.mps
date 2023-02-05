@@ -24,6 +24,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" implicit="true" />
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -838,10 +839,19 @@
               <node concept="1pGfFk" id="z1IqfFSG9w" role="2ShVmc">
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="2OqwBi" id="z1IqfFSG9x" role="37wK5m">
-                  <node concept="2Sf5sV" id="z1IqfFSG9y" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="z1IqfFSG9z" role="2OqNvi">
-                    <ref role="3TsBF5" to="d0tf:z1IqfFS$3G" resolve="path" />
+                <node concept="2OqwBi" id="5sACIIs$wsr" role="37wK5m">
+                  <node concept="2YIFZM" id="5sACIIsz6Ny" role="2Oq$k0">
+                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal()" resolve="getGlobal" />
+                    <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                  </node>
+                  <node concept="liA8E" id="5sACIIs$wVy" role="2OqNvi">
+                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
+                    <node concept="2OqwBi" id="5sACIIs$ysM" role="37wK5m">
+                      <node concept="2Sf5sV" id="5sACIIs$ybC" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="5sACIIs$yI_" role="2OqNvi">
+                        <ref role="3TsBF5" to="d0tf:z1IqfFS$3G" resolve="path" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
