@@ -6,13 +6,11 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
-    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wy2b" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson(org.lionweb.lioncore.java/)" />
     <import index="g8af" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization(org.lionweb.lioncore.java/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="t3jk" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model(org.lionweb.lioncore.java/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
     <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
@@ -312,11 +310,9 @@
             <node concept="3uibUv" id="z1IqfFwwqm" role="1tU5fm">
               <ref role="3uigEE" to="g8af:~JsonSerialization" resolve="JsonSerialization" />
             </node>
-            <node concept="2ShNRf" id="z1IqfFwwuR" role="33vP2m">
-              <node concept="1pGfFk" id="z1IqfFwwuS" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="g8af:~JsonSerialization.&lt;init&gt;()" resolve="JsonSerialization" />
-              </node>
+            <node concept="2YIFZM" id="2A0cGJdRciQ" role="33vP2m">
+              <ref role="37wK5l" to="g8af:~JsonSerialization.getStandardSerialization()" resolve="getStandardSerialization" />
+              <ref role="1Pybhc" to="g8af:~JsonSerialization" resolve="JsonSerialization" />
             </node>
           </node>
         </node>
@@ -945,7 +941,7 @@
                         <ref role="3cqZAo" node="z1IqfFx1JO" resolve="jsonMm" />
                       </node>
                       <node concept="liA8E" id="z1IqfFx5mH" role="2OqNvi">
-                        <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                        <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                       </node>
                     </node>
                   </node>
@@ -1242,7 +1238,7 @@
                             <ref role="3cqZAo" node="z1IqfFJIK_" resolve="jsonCons" />
                           </node>
                           <node concept="liA8E" id="z1IqfFJNZo" role="2OqNvi">
-                            <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                            <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                           </node>
                         </node>
                       </node>
@@ -1307,7 +1303,7 @@
                               <ref role="3cqZAo" node="z1IqfFJSRo" resolve="iface" />
                             </node>
                             <node concept="liA8E" id="z1IqfFJV$J" role="2OqNvi">
-                              <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                             </node>
                           </node>
                         </node>
@@ -1352,12 +1348,21 @@
           <node concept="2GrKxI" id="z1IqfFK_SF" role="2Gsz3X">
             <property role="TrG5h" value="jsonFeat" />
           </node>
-          <node concept="2OqwBi" id="z1IqfFKErQ" role="2GsD0m">
-            <node concept="37vLTw" id="z1IqfFKDIo" role="2Oq$k0">
-              <ref role="3cqZAo" node="z1IqfFJ$3r" resolve="json" />
-            </node>
-            <node concept="liA8E" id="z1IqfFKFei" role="2OqNvi">
-              <ref role="37wK5l" to="tozv:~FeaturesContainer.getFeatures()" resolve="getFeatures" />
+          <node concept="1eOMI4" id="4287tKAb3iW" role="2GsD0m">
+            <node concept="10QFUN" id="4287tKAb3iV" role="1eOMHV">
+              <node concept="2OqwBi" id="4287tKAb3iS" role="10QFUP">
+                <node concept="37vLTw" id="4287tKAb3iT" role="2Oq$k0">
+                  <ref role="3cqZAo" node="z1IqfFJ$3r" resolve="json" />
+                </node>
+                <node concept="liA8E" id="4287tKAb3iU" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~FeaturesContainer.getFeatures()" resolve="getFeatures" />
+                </node>
+              </node>
+              <node concept="_YKpA" id="4287tKAb6Hr" role="10QFUM">
+                <node concept="3uibUv" id="4287tKAb9um" role="_ZDj9">
+                  <ref role="3uigEE" to="tozv:~Feature" resolve="Feature" />
+                </node>
+              </node>
             </node>
           </node>
           <node concept="3clFbS" id="z1IqfFK_SJ" role="2LFqv$">
@@ -1736,7 +1741,7 @@
                             <ref role="3cqZAo" node="z1IqfFKQ6r" resolve="cont" />
                           </node>
                           <node concept="liA8E" id="z1IqfFKULB" role="2OqNvi">
-                            <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                            <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                           </node>
                         </node>
                       </node>
@@ -1841,7 +1846,7 @@
                               <ref role="3cqZAo" node="z1IqfFLbJ4" resolve="ref" />
                             </node>
                             <node concept="liA8E" id="z1IqfFLgM0" role="2OqNvi">
-                              <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                             </node>
                           </node>
                         </node>
@@ -1939,7 +1944,7 @@
                               <ref role="3cqZAo" node="z1IqfFLnQo" resolve="prop" />
                             </node>
                             <node concept="liA8E" id="z1IqfFLt66" role="2OqNvi">
-                              <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                             </node>
                           </node>
                         </node>
@@ -2298,7 +2303,7 @@
                             <ref role="3cqZAo" node="z1IqfFK3KP" resolve="pt" />
                           </node>
                           <node concept="liA8E" id="z1IqfFK6Wk" role="2OqNvi">
-                            <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                            <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                           </node>
                         </node>
                       </node>
@@ -2375,7 +2380,7 @@
                               <ref role="3cqZAo" node="z1IqfFKd8G" resolve="enmJson" />
                             </node>
                             <node concept="liA8E" id="z1IqfFUIig" role="2OqNvi">
-                              <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                             </node>
                           </node>
                         </node>
@@ -2528,7 +2533,7 @@
                         <ref role="3cqZAo" node="z1IqfFKlNz" resolve="json" />
                       </node>
                       <node concept="liA8E" id="z1IqfFKoNP" role="2OqNvi">
-                        <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                        <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                       </node>
                     </node>
                   </node>
@@ -2635,7 +2640,7 @@
                   <ref role="3cqZAo" node="z1IqfG9kRx" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfG9KWJ" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfG9BfD" role="3ElQJh">
@@ -2678,7 +2683,7 @@
                   <ref role="3cqZAo" node="z1IqfGbbT9" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfGbuOP" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfGbk09" role="3ElQJh">
@@ -2731,7 +2736,7 @@
                   <ref role="3cqZAo" node="z1IqfG9Xf$" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfG9Xfu" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfG9Xfv" role="3ElQJh">
@@ -2774,7 +2779,7 @@
                   <ref role="3cqZAo" node="z1IqfGbIzY" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfGbIzT" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfGbIzU" role="3ElQJh">
@@ -2827,7 +2832,7 @@
                   <ref role="3cqZAo" node="z1IqfG9Xvp" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfG9Xvj" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfG9Xvk" role="3ElQJh">
@@ -2870,7 +2875,7 @@
                   <ref role="3cqZAo" node="z1IqfGbNZX" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfGbNZS" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfGbNZT" role="3ElQJh">
@@ -2923,7 +2928,7 @@
                   <ref role="3cqZAo" node="z1IqfG9XJA" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfG9XJw" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfG9XJx" role="3ElQJh">
@@ -2966,7 +2971,7 @@
                   <ref role="3cqZAo" node="z1IqfGbRts" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfGbRtn" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfGbRto" role="3ElQJh">
@@ -3019,7 +3024,7 @@
                   <ref role="3cqZAo" node="z1IqfGaJ2v" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfGaJ2p" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfGaJ2q" role="3ElQJh">
@@ -3062,7 +3067,7 @@
                   <ref role="3cqZAo" node="z1IqfGbUOQ" resolve="json" />
                 </node>
                 <node concept="liA8E" id="z1IqfGbUOL" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~BaseNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="z1IqfGbUOM" role="3ElQJh">
