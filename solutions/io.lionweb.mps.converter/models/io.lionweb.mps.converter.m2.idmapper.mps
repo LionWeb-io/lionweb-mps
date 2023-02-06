@@ -280,7 +280,7 @@
     <node concept="3clFb_" id="6VkSF6bdqVF" role="jymVt">
       <property role="TrG5h" value="mapDataType" />
       <node concept="37vLTG" id="6VkSF6bdqVG" role="3clF46">
-        <property role="TrG5h" value="primitive" />
+        <property role="TrG5h" value="datatype" />
         <node concept="16syzq" id="6VkSF6bdqVH" role="1tU5fm">
           <ref role="16sUi3" node="6VkSF6bddMh" resolve="DATATYPE" />
         </node>

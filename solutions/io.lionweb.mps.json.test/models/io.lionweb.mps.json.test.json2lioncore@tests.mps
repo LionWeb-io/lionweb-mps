@@ -24,6 +24,8 @@
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="c9jv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson.stream(org.lionweb.lioncore.java/)" />
     <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
+    <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
+    <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -61,6 +63,9 @@
       </concept>
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
+      </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -535,6 +540,12 @@
                       <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                       <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                     </node>
+                    <node concept="2ShNRf" id="6VkSF6ctE01" role="37wK5m">
+                      <node concept="HV5vD" id="6VkSF6ctE03" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonLanguageIdMapper" />
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="5sACIIs$aUV" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIszZVK" resolve="metamodels" />
                     </node>
@@ -833,6 +844,12 @@
                     <node concept="2YIFZM" id="5sACIIs_h1a" role="37wK5m">
                       <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                       <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    </node>
+                    <node concept="2ShNRf" id="6VkSF6ct_Co" role="37wK5m">
+                      <node concept="HV5vD" id="6VkSF6ctDvO" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonLanguageIdMapper" />
+                      </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs_h1b" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIs_h0Q" resolve="metamodels" />
@@ -1166,6 +1183,12 @@
                 <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
                   <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                   <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                </node>
+                <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
+                  <node concept="HV5vD" id="6VkSF6ctHtr" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+                  </node>
                 </node>
                 <node concept="2ShNRf" id="5sACIIt1V86" role="37wK5m">
                   <node concept="2HTt$P" id="5sACIIt1V87" role="2ShVmc">
