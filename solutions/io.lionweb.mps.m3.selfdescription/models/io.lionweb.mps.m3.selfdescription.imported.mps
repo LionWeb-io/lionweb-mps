@@ -36,6 +36,9 @@
       <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.ConceptInterfaceReference" flags="ng" index="2RzQOr">
         <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
       </concept>
+      <concept id="2656571587264871634" name="io.lionweb.mps.m3.structure.MetamodelReference" flags="ng" index="2RzRkq">
+        <reference id="2656571587264871635" name="metamodel" index="2RzRkr" />
+      </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Metamodel" flags="ng" index="2RzRRF">
         <property id="2656571587264870352" name="id" index="2RzRSo" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
@@ -43,6 +46,9 @@
       <concept id="2656571587264872967" name="io.lionweb.mps.m3.structure.PrimitiveType" flags="ng" index="2RzSJf" />
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
+      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo">
+        <child id="755186209566487256" name="metamodels" index="1a0gs3" />
+      </concept>
       <concept id="630989536496859751" name="io.lionweb.mps.converter.lang.structure.ImportFromJson" flags="ng" index="3z8Sf4">
         <property id="630989536496861420" name="path" index="3z8Z_f" />
       </concept>
@@ -598,6 +604,12 @@
       <property role="2RzON1" value="LIonCore_M3_EnumerationLiteral" />
       <property role="TrG5h" value="EnumerationLiteral" />
       <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
+    </node>
+  </node>
+  <node concept="1a0hBo" id="6VkSF6aHijY">
+    <property role="TrG5h" value="Library to MPS" />
+    <node concept="2RzRkq" id="6VkSF6aHis6" role="1a0gs3">
+      <ref role="2RzRkr" node="5sACIIs$OuV" resolve="library" />
     </node>
   </node>
 </model>

@@ -13,6 +13,8 @@
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
+    <import index="58k5" ref="r:085d8b5e-61a2-49e9-a34e-565f4024917d(io.lionweb.mps.converter.m2.idmapper.declarationnode)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -311,6 +313,18 @@
           <node concept="37vLTw" id="3ePT3MiWVCX" role="37wK5m">
             <ref role="3cqZAo" node="3ePT3MiWVCI" resolve="constants" />
           </node>
+          <node concept="2ShNRf" id="6VkSF6c5kJw" role="37wK5m">
+            <node concept="HV5vD" id="6VkSF6c5kJx" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+            </node>
+          </node>
+          <node concept="2ShNRf" id="6VkSF6c5kJy" role="37wK5m">
+            <node concept="HV5vD" id="6VkSF6c5kJz" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="HV5vE" to="58k5:6VkSF6b37gQ" resolve="DeclarationNodeLanguageIdMapper" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -404,6 +418,18 @@
               </node>
               <node concept="37vLTw" id="3ePT3MiU3dM" role="37wK5m">
                 <ref role="3cqZAo" node="59Df55kqxhU" resolve="constants" />
+              </node>
+              <node concept="2ShNRf" id="6VkSF6bW8IN" role="37wK5m">
+                <node concept="HV5vD" id="6VkSF6bWazG" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+                </node>
+              </node>
+              <node concept="2ShNRf" id="6VkSF6bWaKy" role="37wK5m">
+                <node concept="HV5vD" id="6VkSF6bWc_D" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="HV5vE" to="58k5:6VkSF6b37gQ" resolve="DeclarationNodeLanguageIdMapper" />
+                </node>
               </node>
             </node>
           </node>

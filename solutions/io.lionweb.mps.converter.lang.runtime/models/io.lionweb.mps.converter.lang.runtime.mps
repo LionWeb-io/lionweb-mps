@@ -191,6 +191,7 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1184963466173" name="jetbrains.mps.baseLanguage.collections.structure.ToArrayOperation" flags="nn" index="3_kTaI" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="31378964227347002" name="jetbrains.mps.baseLanguage.collections.structure.SelectNotNullOperation" flags="ng" index="1KnU$U" />
     </language>
@@ -801,9 +802,12 @@
             <node concept="2ShNRf" id="4pht$XsrO4l" role="33vP2m">
               <node concept="1pGfFk" id="4pht$XsrO4m" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="zj1j:4pht$XsrCIY" resolve="Mps2LionCoreConverter" />
-                <node concept="37vLTw" id="4pht$XsrO4n" role="37wK5m">
-                  <ref role="3cqZAo" node="4pht$XsrqRM" resolve="structureAspects" />
+                <ref role="37wK5l" to="zj1j:2ju2syjqswT" resolve="Mps2LionCoreConverter" />
+                <node concept="2OqwBi" id="6VkSF6caefI" role="37wK5m">
+                  <node concept="37vLTw" id="4pht$XsrO4n" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4pht$XsrqRM" resolve="structureAspects" />
+                  </node>
+                  <node concept="3_kTaI" id="6VkSF6caeRy" role="2OqNvi" />
                 </node>
               </node>
             </node>

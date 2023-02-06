@@ -538,6 +538,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6VkSF6c7gnu" role="3cqZAp">
+          <node concept="1rXfSq" id="6VkSF6c7gnv" role="3clFbG">
+            <ref role="37wK5l" node="z1IqfG9XJi" resolve="recordDataType" />
+            <node concept="2OqwBi" id="6VkSF6c7gnw" role="37wK5m">
+              <node concept="37vLTw" id="6VkSF6c7gnx" role="2Oq$k0">
+                <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
+              </node>
+              <node concept="2PDubS" id="6VkSF6c7gny" role="2OqNvi">
+                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6VkSF6c7gnz" role="37wK5m">
+              <node concept="37vLTw" id="6VkSF6c7gn$" role="2Oq$k0">
+                <ref role="3cqZAo" node="z1IqfG6Zp1" resolve="constants" />
+              </node>
+              <node concept="2OwXpG" id="6VkSF6c7gn_" role="2OqNvi">
+                <ref role="2Oxat5" to="en45:48csSBPf4M9" resolve="LC_INTEGER_TYPE" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="z1IqfGftFF" role="3cqZAp">
           <node concept="1PaTwC" id="z1IqfGftFG" role="1aUNEU">
             <node concept="3oM_SD" id="z1IqfGftXB" role="1PaTwD">
@@ -583,6 +604,26 @@
                 <property role="Xl_RC" value="LIonCore_M3_String" />
               </node>
               <node concept="37vLTw" id="z1IqfGfyGR" role="3ElQJh">
+                <ref role="3cqZAo" node="z1IqfG8ZQW" resolve="dataTypeIds" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6VkSF6c7ib$" role="3cqZAp">
+          <node concept="37vLTI" id="6VkSF6c7ib_" role="3clFbG">
+            <node concept="2OqwBi" id="6VkSF6c7ibA" role="37vLTx">
+              <node concept="37vLTw" id="6VkSF6c7ibB" role="2Oq$k0">
+                <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
+              </node>
+              <node concept="2PDubS" id="6VkSF6c7ibC" role="2OqNvi">
+                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
+              </node>
+            </node>
+            <node concept="3EllGN" id="6VkSF6c7ibD" role="37vLTJ">
+              <node concept="Xl_RD" id="6VkSF6c7ibE" role="3ElVtu">
+                <property role="Xl_RC" value="LIonCore_M3_integer" />
+              </node>
+              <node concept="37vLTw" id="6VkSF6c7ibF" role="3ElQJh">
                 <ref role="3cqZAo" node="z1IqfG8ZQW" resolve="dataTypeIds" />
               </node>
             </node>
@@ -3265,6 +3306,27 @@
               </node>
               <node concept="2PDubS" id="5sACIIsA0tX" role="2OqNvi">
                 <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getString()" resolve="getString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6VkSF6c7odD" role="3cqZAp">
+          <node concept="1rXfSq" id="6VkSF6c7odE" role="3clFbG">
+            <ref role="37wK5l" node="5sACIIsA0Gm" resolve="recordDataType" />
+            <node concept="2OqwBi" id="6VkSF6c7odF" role="37wK5m">
+              <node concept="37vLTw" id="6VkSF6c7odG" role="2Oq$k0">
+                <ref role="3cqZAo" node="5sACIIsA0ul" resolve="constants" />
+              </node>
+              <node concept="2OwXpG" id="6VkSF6c7odH" role="2OqNvi">
+                <ref role="2Oxat5" to="en45:48csSBPf4M9" resolve="LC_INTEGER_TYPE" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6VkSF6c7odI" role="37wK5m">
+              <node concept="37vLTw" id="6VkSF6c7odJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="5sACIIsA0un" resolve="builtins" />
+              </node>
+              <node concept="2PDubS" id="6VkSF6c7odK" role="2OqNvi">
+                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
               </node>
             </node>
           </node>
