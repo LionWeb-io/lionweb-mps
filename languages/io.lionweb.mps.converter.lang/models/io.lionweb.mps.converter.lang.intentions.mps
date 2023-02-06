@@ -27,6 +27,7 @@
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="g3az" ref="r:e45778bd-f0ea-44bf-9316-68791f46fac0(io.lionweb.mps.converter.m2.language2lioncore)" />
     <import index="gkni" ref="r:02305548-3e8d-4e78-b276-85a6e515bf18(io.lionweb.mps.converter.lang.runtime)" />
+    <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" implicit="true" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" implicit="true" />
@@ -770,12 +771,12 @@
               <node concept="3cpWsn" id="z1IqfFSTuS" role="3cpWs9">
                 <property role="TrG5h" value="converter" />
                 <node concept="3uibUv" id="z1IqfFSTrW" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:z1IqfFwV_H" resolve="Json2LionCoreConverter" />
+                  <ref role="3uigEE" to="9pi3:z1IqfFwV_H" resolve="Json2LionCoreConverter" />
                 </node>
                 <node concept="2ShNRf" id="z1IqfFSTuT" role="33vP2m">
                   <node concept="1pGfFk" id="z1IqfFSTuU" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="6peh:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
+                    <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2ShNRf" id="z1IqfG7caI" role="37wK5m">
                       <node concept="1pGfFk" id="z1IqfG7deJ" role="2ShVmc">
                         <property role="373rjd" value="true" />
@@ -817,7 +818,7 @@
                     <ref role="3cqZAo" node="z1IqfFSTuS" resolve="converter" />
                   </node>
                   <node concept="liA8E" id="z1IqfFSTRh" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:z1IqfFwZOY" resolve="convert" />
+                    <ref role="37wK5l" to="9pi3:z1IqfFwZOY" resolve="convert" />
                   </node>
                 </node>
               </node>

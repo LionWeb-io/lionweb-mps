@@ -23,6 +23,7 @@
     <import index="wy2b" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson(org.lionweb.lioncore.java/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="c9jv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson.stream(org.lionweb.lioncore.java/)" />
+    <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -505,12 +506,12 @@
               <node concept="3cpWsn" id="5sACIIs$aUJ" role="3cpWs9">
                 <property role="TrG5h" value="converter" />
                 <node concept="3uibUv" id="5sACIIs$aOh" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:z1IqfFwV_H" resolve="Json2LionCoreConverter" />
+                  <ref role="3uigEE" to="9pi3:z1IqfFwV_H" resolve="Json2LionCoreConverter" />
                 </node>
                 <node concept="2ShNRf" id="5sACIIs$aUK" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIs$aUL" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="6peh:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
+                    <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2ShNRf" id="5sACIIs$aUM" role="37wK5m">
                       <node concept="1pGfFk" id="5sACIIs$aUN" role="2ShVmc">
                         <property role="373rjd" value="true" />
@@ -554,7 +555,7 @@
                     <ref role="3cqZAo" node="5sACIIs$aUJ" resolve="converter" />
                   </node>
                   <node concept="liA8E" id="5sACIIs$bVO" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:z1IqfFwZOY" resolve="convert" />
+                    <ref role="37wK5l" to="9pi3:z1IqfFwZOY" resolve="convert" />
                   </node>
                 </node>
               </node>
@@ -804,12 +805,12 @@
               <node concept="3cpWsn" id="5sACIIs_h0Y" role="3cpWs9">
                 <property role="TrG5h" value="converter" />
                 <node concept="3uibUv" id="5sACIIs_h0Z" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:z1IqfFwV_H" resolve="Json2LionCoreConverter" />
+                  <ref role="3uigEE" to="9pi3:z1IqfFwV_H" resolve="Json2LionCoreConverter" />
                 </node>
                 <node concept="2ShNRf" id="5sACIIs_h10" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIs_h11" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="6peh:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
+                    <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2ShNRf" id="5sACIIs_h12" role="37wK5m">
                       <node concept="1pGfFk" id="5sACIIs_h13" role="2ShVmc">
                         <property role="373rjd" value="true" />
@@ -853,7 +854,7 @@
                     <ref role="3cqZAo" node="5sACIIs_h0Y" resolve="converter" />
                   </node>
                   <node concept="liA8E" id="5sACIIs_h1i" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:z1IqfFwZOY" resolve="convert" />
+                    <ref role="37wK5l" to="9pi3:z1IqfFwZOY" resolve="convert" />
                   </node>
                 </node>
               </node>
@@ -1137,12 +1138,12 @@
           <node concept="3cpWsn" id="5sACIIt1V7U" role="3cpWs9">
             <property role="TrG5h" value="converter" />
             <node concept="3uibUv" id="5sACIIt1V2c" role="1tU5fm">
-              <ref role="3uigEE" to="6peh:5sACIIsA0s2" resolve="LionCore2JsonConverter" />
+              <ref role="3uigEE" to="9pi3:5sACIIsA0s2" resolve="LionCore2JsonConverter" />
             </node>
             <node concept="2ShNRf" id="5sACIIt1V7V" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIt1V7W" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="6peh:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
+                <ref role="37wK5l" to="9pi3:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
                 <node concept="2ShNRf" id="5sACIIt1V7X" role="37wK5m">
                   <node concept="1pGfFk" id="5sACIIt1V7Y" role="2ShVmc">
                     <property role="373rjd" value="true" />
@@ -1193,7 +1194,7 @@
                 <ref role="3cqZAo" node="5sACIIt1V7U" resolve="converter" />
               </node>
               <node concept="liA8E" id="5sACIIt1W7j" role="2OqNvi">
-                <ref role="37wK5l" to="6peh:5sACIIsA0ut" resolve="convert" />
+                <ref role="37wK5l" to="9pi3:5sACIIsA0ut" resolve="convert" />
               </node>
             </node>
           </node>
