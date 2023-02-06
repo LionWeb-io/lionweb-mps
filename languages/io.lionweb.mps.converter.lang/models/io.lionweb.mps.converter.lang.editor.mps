@@ -54,7 +54,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="4pht$XsqZ0T">
-    <ref role="1XX52x" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionWeb" />
+    <ref role="1XX52x" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionCore" />
     <node concept="3EZMnI" id="4pht$XsqZ29" role="2wV5jI">
       <node concept="3EZMnI" id="4pht$XsqZbo" role="3EZMnx">
         <node concept="VPM3Z" id="4pht$XsqZbq" role="3F10Kt" />

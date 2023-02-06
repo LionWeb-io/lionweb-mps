@@ -192,6 +192,7 @@
     <property role="EcuMT" value="2656571587264865491" />
     <property role="TrG5h" value="ConceptInterfaceReference" />
     <property role="3GE5qa" value="featuresContainer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2ju2syjkmjk" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="2656571587264865492" />
@@ -243,6 +244,7 @@
   <node concept="1TIwiD" id="2ju2syjknNi">
     <property role="EcuMT" value="2656571587264871634" />
     <property role="TrG5h" value="MetamodelReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2ju2syjknNj" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="2656571587264871635" />

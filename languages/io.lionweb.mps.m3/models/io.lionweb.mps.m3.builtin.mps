@@ -32,6 +32,10 @@
       <property role="2RzON1" value="2ddad55b-b529-4503-84b4-de77e89ce41b" />
       <property role="TrG5h" value="Boolean" />
     </node>
+    <node concept="2RzSJf" id="48csSBPfMBo" role="2RzR6B">
+      <property role="2RzON1" value="46849612-4c6c-4308-b782-d1555a1397f3" />
+      <property role="TrG5h" value="Integer" />
+    </node>
   </node>
 </model>
 

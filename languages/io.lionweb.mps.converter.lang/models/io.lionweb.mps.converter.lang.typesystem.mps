@@ -292,7 +292,7 @@
     </node>
     <node concept="1YaCAy" id="4pht$Xswmvh" role="1YuTPh">
       <property role="TrG5h" value="convertToLionWeb" />
-      <ref role="1YaFvo" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionWeb" />
+      <ref role="1YaFvo" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionCore" />
     </node>
   </node>
   <node concept="Q5z_Y" id="4pht$XswGps">
@@ -305,7 +305,7 @@
               <node concept="Q6c8r" id="4pht$XswGAx" role="2Oq$k0" />
               <node concept="1mIQ4w" id="4pht$XswGWi" role="2OqNvi">
                 <node concept="chp4Y" id="4pht$XswH0d" role="cj9EA">
-                  <ref role="cht4Q" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionWeb" />
+                  <ref role="cht4Q" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionCore" />
                 </node>
               </node>
             </node>
@@ -318,11 +318,11 @@
           <node concept="3cpWsn" id="4pht$XswOYQ" role="3cpWs9">
             <property role="TrG5h" value="convertNode" />
             <node concept="3Tqbb2" id="4pht$XswMzv" role="1tU5fm">
-              <ref role="ehGHo" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionWeb" />
+              <ref role="ehGHo" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionCore" />
             </node>
             <node concept="1PxgMI" id="4pht$XswOYR" role="33vP2m">
               <node concept="chp4Y" id="4pht$XswOYS" role="3oSUPX">
-                <ref role="cht4Q" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionWeb" />
+                <ref role="cht4Q" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionCore" />
               </node>
               <node concept="Q6c8r" id="4pht$XswOYT" role="1m5AlR" />
             </node>

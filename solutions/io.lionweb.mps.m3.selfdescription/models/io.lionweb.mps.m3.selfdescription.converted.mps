@@ -54,7 +54,7 @@
       <concept id="2656571587264873619" name="io.lionweb.mps.m3.structure.EnumerationLiteral" flags="ng" index="2RzSPr" />
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
-      <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertToLionWeb" flags="ng" index="qeN9c">
+      <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertToLionCore" flags="ng" index="qeN9c">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
       <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo">
@@ -829,6 +829,652 @@
     <node concept="2RzSJf" id="3ePT3Mb3neO" role="2RzR6B">
       <property role="TrG5h" value="boolean" />
       <property role="2RzON1" value="1082983657063" />
+    </node>
+  </node>
+  <node concept="2RzRRF" id="48csSBOAW6o">
+    <property role="2RzRSo" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
+    <property role="TrG5h" value="io.lionweb.mps.m3" />
+    <node concept="2RzPWn" id="48csSBOAW6p" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="Concept" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264861919" />
+      <ref role="2RzPfO" node="48csSBOAW6C" resolve="FeaturesContainer" />
+      <node concept="2RzOeU" id="48csSBOAW6q" role="2RzPPN">
+        <property role="TrG5h" value="abstract" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264861919/2656571587264862414" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+      </node>
+      <node concept="2RzOte" id="48csSBOAW6r" role="2RzPPN">
+        <property role="TrG5h" value="implements" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264861919/2656571587264866539" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6v" resolve="ConceptInterfaceReference" />
+      </node>
+      <node concept="2RzOpR" id="48csSBOAW6s" role="2RzPPN">
+        <property role="TrG5h" value="extends" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264861919/2656571587264862780" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW6p" resolve="Concept" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6t" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="ConceptInterface" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264863094" />
+      <ref role="2RzPfO" node="48csSBOAW6C" resolve="FeaturesContainer" />
+      <node concept="2RzOte" id="48csSBOAW6u" role="2RzPPN">
+        <property role="TrG5h" value="extends" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264863094/2656571587264865653" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6v" resolve="ConceptInterfaceReference" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6v" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="ConceptInterfaceReference" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264865491" />
+      <ref role="2RzPfO" node="48csSBOAW71" />
+      <node concept="2RzOpR" id="48csSBOAW6w" role="2RzPPN">
+        <property role="TrG5h" value="conceptInterface" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264865491/2656571587264865492" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW6t" resolve="ConceptInterface" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6x" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="Containment" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264859782" />
+      <ref role="2RzPfO" node="48csSBOAW6E" resolve="Link" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6y" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="DataType" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264872498" />
+      <ref role="2RzPfO" node="48csSBOAW6M" resolve="MetamodelElement" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6z" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="Enumeration" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264873280" />
+      <ref role="2RzPfO" node="48csSBOAW6y" resolve="DataType" />
+      <node concept="2RzOte" id="48csSBOAW6$" role="2RzPPN">
+        <property role="TrG5h" value="literals" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264873280/2656571587264874244" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6_" resolve="EnumerationLiteral" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW84" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW6P" resolve="NamespaceProvider" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6_" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="EnumerationLiteral" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264873619" />
+      <ref role="2RzPfO" node="48csSBOAW6Q" resolve="NamespacedEntity" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6A" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="Feature" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264858085" />
+      <ref role="2RzPfO" node="48csSBOAW6Q" resolve="NamespacedEntity" />
+      <node concept="2RzOeU" id="48csSBOAW6B" role="2RzPPN">
+        <property role="TrG5h" value="optional" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264858085/2656571587264858528" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6C" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="FeaturesContainer" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264860434" />
+      <ref role="2RzPfO" node="48csSBOAW6M" resolve="MetamodelElement" />
+      <node concept="2RzOte" id="48csSBOAW6D" role="2RzPPN">
+        <property role="TrG5h" value="features" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264860434/2656571587264861371" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6A" resolve="Feature" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW85" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW6P" resolve="NamespaceProvider" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6E" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="Link" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264859051" />
+      <ref role="2RzPfO" node="48csSBOAW6A" resolve="Feature" />
+      <node concept="2RzOeU" id="48csSBOAW6F" role="2RzPPN">
+        <property role="TrG5h" value="multiple" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264859051/2656571587264859572" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+      </node>
+      <node concept="2RzOpR" id="48csSBOAW6G" role="2RzPPN">
+        <property role="TrG5h" value="type" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264859051/2656571587264867894" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW6C" resolve="FeaturesContainer" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6H" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="Metamodel" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264869411" />
+      <ref role="2RzPfO" node="48csSBOAW71" />
+      <node concept="2RzOeU" id="48csSBOAW6I" role="2RzPPN">
+        <property role="TrG5h" value="qualifiedName" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264869411/2656571587264870012" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW6J" role="2RzPPN">
+        <property role="TrG5h" value="id" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264869411/2656571587264870352" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOte" id="48csSBOAW6K" role="2RzPPN">
+        <property role="TrG5h" value="elements" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264869411/2656571587264870511" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6M" resolve="MetamodelElement" />
+      </node>
+      <node concept="2RzOte" id="48csSBOAW6L" role="2RzPPN">
+        <property role="TrG5h" value="dependsOn" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264869411/2656571587264871163" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6N" resolve="MetamodelReference" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW86" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW6P" resolve="NamespaceProvider" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW87" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7h" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6M" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="MetamodelElement" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264857616" />
+      <ref role="2RzPfO" node="48csSBOAW6Q" resolve="NamespacedEntity" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6N" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="MetamodelReference" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264871634" />
+      <ref role="2RzPfO" node="48csSBOAW71" />
+      <node concept="2RzOpR" id="48csSBOAW6O" role="2RzPPN">
+        <property role="TrG5h" value="metamodel" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264871634/2656571587264871635" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW6H" resolve="Metamodel" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW6P" role="2RzR6B">
+      <property role="TrG5h" value="NamespaceProvider" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264868416" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6Q" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="NamespacedEntity" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/7434462380790650845" />
+      <ref role="2RzPfO" node="48csSBOAW71" />
+      <node concept="2RzOeU" id="48csSBOAW6R" role="2RzPPN">
+        <property role="TrG5h" value="simpleName" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/7434462380790650845/2656571587264856935" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW6S" role="2RzPPN">
+        <property role="TrG5h" value="id" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/7434462380790650845/2656571587264857353" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW88" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7h" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6T" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="PrimitiveType" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264872967" />
+      <ref role="2RzPfO" node="48csSBOAW6y" resolve="DataType" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6U" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="Property" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264858738" />
+      <ref role="2RzPfO" node="48csSBOAW6A" resolve="Feature" />
+      <node concept="2RzOpR" id="48csSBOAW6V" role="2RzPPN">
+        <property role="TrG5h" value="type" />
+        <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264858738/2656571587265467165" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW6y" resolve="DataType" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6W" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="Reference" />
+      <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/2656571587264860095" />
+      <ref role="2RzPfO" node="48csSBOAW6E" resolve="Link" />
+    </node>
+    <node concept="2RzRkq" id="48csSBOAW83" role="2RzRcN">
+      <ref role="2RzRkr" node="48csSBOAW6X" />
+    </node>
+  </node>
+  <node concept="2RzRRF" id="48csSBOAW6X">
+    <property role="2RzRSo" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
+    <property role="TrG5h" value="jetbrains.mps.lang.core" />
+    <node concept="2RzPWn" id="48csSBOAW6Y" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="Attribute" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/5169995583184591161" />
+      <ref role="2RzPfO" node="48csSBOAW71" resolve="BaseConcept" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW6Z" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="BaseCommentAttribute" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4452961908202556907" />
+      <ref role="2RzPfO" node="48csSBOAW77" resolve="ChildAttribute" />
+      <node concept="2RzOte" id="48csSBOAW70" role="2RzPPN">
+        <property role="TrG5h" value="commentedNode" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4452961908202556907/3078666699043039389" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW71" resolve="BaseConcept" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW89" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7m" resolve="ISkipConstraintsChecking" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW8a" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7e" resolve="IDontApplyTypesystemRules" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW8b" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7p" resolve="ISuppressErrors" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW71" role="2RzR6B">
+      <property role="2RzP46" value="true" />
+      <property role="TrG5h" value="BaseConcept" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1133920641626" />
+      <node concept="2RzOeU" id="48csSBOAW72" role="2RzPPN">
+        <property role="TrG5h" value="shortDescription" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1133920641626/1156234966388" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW73" role="2RzPPN">
+        <property role="TrG5h" value="virtualPackage" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1133920641626/1193676396447" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOte" id="48csSBOAW74" role="2RzPPN">
+        <property role="TrG5h" value="smodelAttribute" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1133920641626/5169995583184591170" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="48csSBOAW6Y" resolve="Attribute" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW75" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="BasePlaceholder" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3717301156197626279" />
+      <ref role="2RzPfO" node="48csSBOAW77" resolve="ChildAttribute" />
+      <node concept="2RzOte" id="48csSBOAW76" role="2RzPPN">
+        <property role="TrG5h" value="content" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3717301156197626279/3717301156197626301" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW7j" resolve="IPlaceholderContent" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW77" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="ChildAttribute" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/709746936026466394" />
+      <ref role="2RzPfO" node="48csSBOAW6Y" resolve="Attribute" />
+      <node concept="2RzOeU" id="48csSBOAW78" role="2RzPPN">
+        <property role="TrG5h" value="role_DebugInfo" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/709746936026466394/709746936026609029" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW79" role="2RzPPN">
+        <property role="TrG5h" value="linkId" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/709746936026466394/709746936026609031" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7a" role="2RzR6B">
+      <property role="TrG5h" value="IAntisuppressErrors" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1047408822409601647" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7b" role="2RzR6B">
+      <property role="TrG5h" value="ICanSuppressErrors" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3393165121846091586" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7c" role="2RzR6B">
+      <property role="TrG5h" value="IContainer" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1233160296597" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7d" role="2RzR6B">
+      <property role="TrG5h" value="IDeprecatable" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1224608834445" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7e" role="2RzR6B">
+      <property role="TrG5h" value="IDontApplyTypesystemRules" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/2216760464199502422" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7f" role="2RzR6B">
+      <property role="TrG5h" value="IDontSubstituteByDefault" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1835621062190663819" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7g" role="2RzR6B">
+      <property role="TrG5h" value="IMetaLevelChanger" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/201537367881071930" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7h" role="2RzR6B">
+      <property role="TrG5h" value="INamedConcept" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7i" role="2RzR6B">
+      <property role="TrG5h" value="IOldCommentContainer" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4123120730935488432" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7j" role="2RzR6B">
+      <property role="TrG5h" value="IPlaceholderContent" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4058177569375150038" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7k" role="2RzR6B">
+      <property role="TrG5h" value="IResolveInfo" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1196978630214" />
+      <node concept="2RzOeU" id="48csSBOAW7l" role="2RzPPN">
+        <property role="TrG5h" value="resolveInfo" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1196978630214/1196978656277" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7m" role="2RzR6B">
+      <property role="TrG5h" value="ISkipConstraintsChecking" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/5831887615299457091" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7n" role="2RzR6B">
+      <property role="TrG5h" value="ISmartReferent" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/7094926192234036184" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7o" role="2RzR6B">
+      <property role="TrG5h" value="IStubForAnotherConcept" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/155087542027447621" />
+      <node concept="2RzQOr" id="48csSBOAW8c" role="2RzQMX">
+        <ref role="2RzQOs" node="48csSBOAW7v" resolve="InterfacePart" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7p" role="2RzR6B">
+      <property role="TrG5h" value="ISuppressErrors" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3393165121846091587" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7q" role="2RzR6B">
+      <property role="TrG5h" value="IType" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1234971358450" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7r" role="2RzR6B">
+      <property role="TrG5h" value="IWrapper" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1221647093812" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7s" role="2RzR6B">
+      <property role="TrG5h" value="ImplementationContainer" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1319728274783151479" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7t" role="2RzR6B">
+      <property role="TrG5h" value="ImplementationPart" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1319728274783077719" />
+      <node concept="2RzQOr" id="48csSBOAW8d" role="2RzQMX">
+        <ref role="2RzQOs" node="48csSBOAW7O" resolve="ScopeFacade" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7u" role="2RzR6B">
+      <property role="TrG5h" value="ImplementationWithStubPart" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/6999738288738427190" />
+      <node concept="2RzQOr" id="48csSBOAW8e" role="2RzQMX">
+        <ref role="2RzQOs" node="48csSBOAW7t" resolve="ImplementationPart" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7v" role="2RzR6B">
+      <property role="TrG5h" value="InterfacePart" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1319728274784973096" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7w" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="LinkAttribute" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049745" />
+      <ref role="2RzPfO" node="48csSBOAW6Y" resolve="Attribute" />
+      <node concept="2RzOeU" id="48csSBOAW7x" role="2RzPPN">
+        <property role="TrG5h" value="role_DebugInfo" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049745/1757699476691236116" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7y" role="2RzPPN">
+        <property role="TrG5h" value="linkId" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049745/1341860900488019036" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7z" role="2RzR6B">
+      <property role="TrG5h" value="MigrationAnnotation" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436979359251" />
+      <node concept="2RzQOr" id="48csSBOAW8f" role="2RzQMX">
+        <ref role="2RzQOs" node="48csSBOAW7$" resolve="MigrationAnnotation_old" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7$" role="2RzR6B">
+      <property role="TrG5h" value="MigrationAnnotation_old" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/2482611074347614920" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7_" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="MigrationDataAnnotation" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436978668945" />
+      <ref role="2RzPfO" node="48csSBOAW7B" resolve="NodeAttribute" />
+      <node concept="2RzOte" id="48csSBOAW7A" role="2RzPPN">
+        <property role="TrG5h" value="dataNode" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436978668945/6807933448470330574" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW71" resolve="BaseConcept" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW8g" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7z" resolve="MigrationAnnotation" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7B" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="NodeAttribute" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049748" />
+      <ref role="2RzPfO" node="48csSBOAW6Y" resolve="Attribute" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7C" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="PropertyAttribute" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049750" />
+      <ref role="2RzPfO" node="48csSBOAW6Y" resolve="Attribute" />
+      <node concept="2RzOeU" id="48csSBOAW7D" role="2RzPPN">
+        <property role="TrG5h" value="name_DebugInfo" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049750/1757699476691236117" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7E" role="2RzPPN">
+        <property role="TrG5h" value="propertyId" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049750/1341860900487648621" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7F" role="2RzPPN">
+        <property role="TrG5h" value="enumUsageMigrated" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3364660638048049750/1189424455254633007" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7G" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="ReviewMigration" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436979359238" />
+      <ref role="2RzPfO" node="48csSBOAW7B" resolve="NodeAttribute" />
+      <node concept="2RzOeU" id="48csSBOAW7H" role="2RzPPN">
+        <property role="TrG5h" value="reasonShort" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436979359238/8703179436979359239" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7I" role="2RzPPN">
+        <property role="TrG5h" value="todo" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436979359238/8703179436979359240" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7J" role="2RzPPN">
+        <property role="TrG5h" value="readableId" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/8703179436979359238/8703179436979359241" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW8h" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7z" resolve="MigrationAnnotation" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7K" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="ReviewMigration_old" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/2482611074346661065" />
+      <ref role="2RzPfO" node="48csSBOAW7B" resolve="NodeAttribute" />
+      <node concept="2RzOeU" id="48csSBOAW7L" role="2RzPPN">
+        <property role="TrG5h" value="reasonShort" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/2482611074346661065/2482611074346661078" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7M" role="2RzPPN">
+        <property role="TrG5h" value="todo" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/2482611074346661065/2482611074346661073" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7N" role="2RzPPN">
+        <property role="TrG5h" value="readableId" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/2482611074346661065/2482611074347169514" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW8i" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7$" resolve="MigrationAnnotation_old" />
+      </node>
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7O" role="2RzR6B">
+      <property role="TrG5h" value="ScopeFacade" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3361475375157466558" />
+    </node>
+    <node concept="2RzPaY" id="48csSBOAW7P" role="2RzR6B">
+      <property role="TrG5h" value="ScopeProvider" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/3734116213129792499" />
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7Q" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="SideTransformInfo" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853369165" />
+      <ref role="2RzPfO" node="48csSBOAW7B" resolve="NodeAttribute" />
+      <node concept="2RzOeU" id="48csSBOAW7R" role="2RzPPN">
+        <property role="TrG5h" value="side" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853369165/779128492853699361" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" node="48csSBOAW80" resolve="SideTransformSide" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7S" role="2RzPPN">
+        <property role="TrG5h" value="cellId" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853369165/779128492853934523" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7T" role="2RzPPN">
+        <property role="TrG5h" value="anchorTag" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853369165/779128492853935960" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7U" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="SuppressErrorsAnnotation" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4222318806802425298" />
+      <ref role="2RzPfO" node="48csSBOAW7B" resolve="NodeAttribute" />
+      <node concept="2RzOeU" id="48csSBOAW7V" role="2RzPPN">
+        <property role="TrG5h" value="filter" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4222318806802425298/2423417345669755629" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7W" role="2RzPPN">
+        <property role="TrG5h" value="message" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4222318806802425298/8575328350543493365" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="48csSBOAW7X" role="2RzPPN">
+        <property role="TrG5h" value="comment" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/4222318806802425298/8575328350543493371" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzQOr" id="48csSBOAW8j" role="2RzQ4z">
+        <ref role="2RzQOs" node="48csSBOAW7p" resolve="ISuppressErrors" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="48csSBOAW7Y" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="TrG5h" value="TypeAnnotated" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/5259630923505770665" />
+      <ref role="2RzPfO" node="48csSBOAW71" resolve="BaseConcept" />
+      <node concept="2RzOte" id="48csSBOAW7Z" role="2RzPPN">
+        <property role="TrG5h" value="annotation" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/5259630923505770665/5259630923505770666" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="48csSBOAW71" resolve="BaseConcept" />
+      </node>
+    </node>
+    <node concept="2RzSE8" id="48csSBOAW80" role="2RzR6B">
+      <property role="TrG5h" value="SideTransformSide" />
+      <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853700076" />
+      <node concept="2RzSPr" id="48csSBOAW81" role="2RzSVc">
+        <property role="TrG5h" value="right" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853700076/779128492853700077" />
+      </node>
+      <node concept="2RzSPr" id="48csSBOAW82" role="2RzSVc">
+        <property role="TrG5h" value="left" />
+        <property role="2RzON1" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/779128492853700076/779128492853702223" />
+      </node>
     </node>
   </node>
 </model>

@@ -45,7 +45,7 @@
   </registry>
   <node concept="1TIwiD" id="4pht$Xsq$g3">
     <property role="EcuMT" value="5066961138993480707" />
-    <property role="TrG5h" value="ConvertToLionWeb" />
+    <property role="TrG5h" value="ConvertToLionCore" />
     <property role="34LRSv" value="Convert to LIonWeb" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
@@ -90,6 +90,18 @@
       <property role="IQ2nx" value="630989536496861420" />
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="48csSBOOT6J">
+    <property role="EcuMT" value="4759305942578991535" />
+    <property role="TrG5h" value="TestContainer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="48csSBOOTdg" role="1TKVEi">
+      <property role="IQ2ns" value="4759305942578991952" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contents" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
 </model>
