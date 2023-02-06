@@ -410,6 +410,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6VkSF6cun_Q" role="3cqZAp" />
         <node concept="3cpWs8" id="DUXtH10TMF" role="3cqZAp">
           <node concept="3cpWsn" id="DUXtH10TMG" role="3cpWs9">
             <property role="TrG5h" value="creator" />
@@ -776,7 +777,7 @@
                 <node concept="2ShNRf" id="z1IqfFSTuT" role="33vP2m">
                   <node concept="1pGfFk" id="z1IqfFSTuU" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
+                    <ref role="37wK5l" to="9pi3:6VkSF6cpxvU" resolve="Json2LionCoreConverter" />
                     <node concept="2ShNRf" id="z1IqfG7caI" role="37wK5m">
                       <node concept="1pGfFk" id="z1IqfG7deJ" role="2ShVmc">
                         <property role="373rjd" value="true" />
@@ -793,10 +794,6 @@
                           </node>
                         </node>
                       </node>
-                    </node>
-                    <node concept="2YIFZM" id="z1IqfG7fHt" role="37wK5m">
-                      <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                     </node>
                     <node concept="37vLTw" id="z1IqfFSTuV" role="37wK5m">
                       <ref role="3cqZAo" node="z1IqfFSQk_" resolve="jsonMetamodels" />

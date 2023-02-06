@@ -1253,26 +1253,6 @@
         <node concept="3clFbH" id="5sACIIt21CT" role="3cqZAp" />
         <node concept="3J1_TO" id="5sACIIt1PlO" role="3cqZAp">
           <node concept="3clFbS" id="5sACIIt1PlP" role="1zxBo7">
-            <node concept="3cpWs8" id="5sACIIt25Bj" role="3cqZAp">
-              <node concept="3cpWsn" id="5sACIIt25Bk" role="3cpWs9">
-                <property role="TrG5h" value="serializer" />
-                <node concept="3uibUv" id="5sACIIt25uv" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="Serializer" />
-                </node>
-                <node concept="2ShNRf" id="5sACIIt25Bl" role="33vP2m">
-                  <node concept="1pGfFk" id="5sACIIt25Bm" role="2ShVmc">
-                    <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="6peh:5sACIIs_LbU" resolve="Serializer" />
-                    <node concept="2OqwBi" id="5sACIIt25Bn" role="37wK5m">
-                      <node concept="37vLTw" id="5sACIIt25Bo" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
-                      </node>
-                      <node concept="1uHKPH" id="5sACIIt25Bp" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="5sACIIt4yop" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIt4yoq" role="3cpWs9">
                 <property role="TrG5h" value="stream" />
@@ -1317,7 +1297,28 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="5sACIIt25Bj" role="3cqZAp">
+              <node concept="3cpWsn" id="5sACIIt25Bk" role="3cpWs9">
+                <property role="TrG5h" value="serializer" />
+                <node concept="3uibUv" id="5sACIIt25uv" role="1tU5fm">
+                  <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="Serializer" />
+                </node>
+                <node concept="2ShNRf" id="5sACIIt25Bl" role="33vP2m">
+                  <node concept="1pGfFk" id="5sACIIt25Bm" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="6peh:5sACIIs_LbU" resolve="Serializer" />
+                    <node concept="37vLTw" id="6VkSF6c$M5F" role="37wK5m">
+                      <ref role="3cqZAo" node="5sACIIt4_44" resolve="jsonWriter" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="5sACIIt3ejC" role="3cqZAp">
+              <node concept="15s5l7" id="6VkSF6c_iGT" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type org.lionweb.lioncore.java.metamodel.Metamodel is not a subtype of ? extends Node&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959032b(jetbrains.mps.baseLanguage.collections.typesystem)/5108199730660924415,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
+                <property role="huDt6" value="Error: type org.lionweb.lioncore.java.metamodel.Metamodel is not a subtype of ? extends Node" />
+              </node>
               <node concept="3cpWsn" id="5sACIIt3ejD" role="3cpWs9">
                 <property role="TrG5h" value="jsonElement" />
                 <node concept="3uibUv" id="5sACIIt3cB7" role="1tU5fm">
@@ -1328,9 +1329,9 @@
                     <ref role="3cqZAo" node="5sACIIt25Bk" resolve="serializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5sACIIt3WTb" resolve="serialize" />
+                    <ref role="37wK5l" to="6peh:6VkSF6c$iAh" resolve="serialize" />
                     <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
-                      <ref role="3cqZAo" node="5sACIIt4_44" resolve="jsonWriter" />
+                      <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
                     </node>
                   </node>
                 </node>

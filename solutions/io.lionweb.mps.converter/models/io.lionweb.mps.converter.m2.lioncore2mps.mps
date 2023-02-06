@@ -609,7 +609,7 @@
     <node concept="312cEg" id="6VkSF6b7TI5" role="jymVt">
       <property role="TrG5h" value="lcIdMapper" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="6VkSF6b7TI6" role="1B3o_S" />
+      <node concept="3Tmbuc" id="6VkSF6cvH2S" role="1B3o_S" />
       <node concept="3uibUv" id="6VkSF6b7TI8" role="1tU5fm">
         <ref role="3uigEE" to="t47h:6VkSF6biukl" resolve="ILionCoreLanguageIdMapper" />
       </node>
@@ -617,7 +617,7 @@
     <node concept="312cEg" id="6VkSF6blc1q" role="jymVt">
       <property role="TrG5h" value="mpsIdMapper" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="6VkSF6blc1r" role="1B3o_S" />
+      <node concept="3Tmbuc" id="6VkSF6cvVmR" role="1B3o_S" />
       <node concept="3uibUv" id="6VkSF6blc1t" role="1tU5fm">
         <ref role="3uigEE" to="58k5:6VkSF6bi$2H" resolve="IDeclarationNodeLanguageIdMapper" />
       </node>
@@ -3001,12 +3001,15 @@
                     <ref role="37wK5l" to="c17a:~SLanguage.getQualifiedName()" resolve="getQualifiedName" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="22JgUX1nnK" role="37wK5m">
-                  <node concept="37vLTw" id="22JgUX1nnL" role="2Oq$k0">
-                    <ref role="3cqZAo" node="DUXtH0$iPr" resolve="metamodel" />
+                <node concept="2OqwBi" id="6VkSF6cwfeH" role="37wK5m">
+                  <node concept="37vLTw" id="6VkSF6cwbz6" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6VkSF6b7TI5" resolve="lcIdMapper" />
                   </node>
-                  <node concept="3TrcHB" id="22JgUX1nnM" role="2OqNvi">
-                    <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+                  <node concept="liA8E" id="6VkSF6cwiIf" role="2OqNvi">
+                    <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
+                    <node concept="37vLTw" id="6VkSF6cwkVU" role="37wK5m">
+                      <ref role="3cqZAo" node="DUXtH0$iPr" resolve="metamodel" />
+                    </node>
                   </node>
                 </node>
               </node>

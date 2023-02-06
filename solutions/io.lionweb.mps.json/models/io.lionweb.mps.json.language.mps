@@ -26,6 +26,7 @@
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
     <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="sp3y" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model.impl(org.lionweb.lioncore.java/)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
@@ -412,11 +413,30 @@
             <property role="TrG5h" value="extended" />
           </node>
           <node concept="3clFbS" id="48csSBOkP_y" role="2LFqv$">
+            <node concept="3clFbF" id="6VkSF6cyzce" role="3cqZAp">
+              <node concept="2OqwBi" id="6VkSF6cyzcb" role="3clFbG">
+                <node concept="10M0yZ" id="6VkSF6cyzcc" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" />
+                </node>
+                <node concept="liA8E" id="6VkSF6cyzcd" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                  <node concept="3cpWs3" id="6VkSF6cy$vP" role="37wK5m">
+                    <node concept="2GrUjf" id="6VkSF6cy$I4" role="3uHU7w">
+                      <ref role="2Gs0qQ" node="48csSBOkP_x" resolve="extended" />
+                    </node>
+                    <node concept="Xl_RD" id="6VkSF6cyzuR" role="3uHU7B">
+                      <property role="Xl_RC" value="extended: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbJ" id="48csSBOkP_z" role="3cqZAp">
               <node concept="3clFbS" id="48csSBOkP_$" role="3clFbx">
                 <node concept="3clFbF" id="48csSBOkRue" role="3cqZAp">
                   <node concept="1rXfSq" id="48csSBOkRuc" role="3clFbG">
-                    <ref role="37wK5l" node="48csSBOkJqg" resolve="createMetamodel" />
+                    <ref role="37wK5l" node="48csSBNReAr" resolve="createElements" />
                     <node concept="2OqwBi" id="48csSBOkTdS" role="37wK5m">
                       <node concept="2GrUjf" id="48csSBOkSL5" role="2Oq$k0">
                         <ref role="2Gs0qQ" node="48csSBOkP_x" resolve="extended" />

@@ -43,7 +43,6 @@
         <property id="2656571587264870352" name="id" index="2RzRSo" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
       </concept>
-      <concept id="2656571587264872967" name="io.lionweb.mps.m3.structure.PrimitiveType" flags="ng" index="2RzSJf" />
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
       <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo">
@@ -290,99 +289,6 @@
     <property role="TrG5h" value="Import Library" />
     <property role="3z8Z_f" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
   </node>
-  <node concept="2RzRRF" id="5sACIIs$OuV">
-    <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
-    <property role="TrG5h" value="library" />
-    <node concept="2RzSJf" id="5sACIIs$OuW" role="2RzR6B">
-      <property role="2RzON1" value="INhBvWyXvxwNsePuX0rdNGB_J9hi85cTb1Q0APXCyJ0" />
-      <property role="TrG5h" value="String" />
-    </node>
-    <node concept="2RzSJf" id="5sACIIs$OuX" role="2RzR6B">
-      <property role="2RzON1" value="uHmTCy63BV23cvXwFSumVwK1DOh4IZvIyAnRJjW9eQI" />
-      <property role="TrG5h" value="boolean" />
-    </node>
-    <node concept="2RzSJf" id="5sACIIs$OuY" role="2RzR6B">
-      <property role="2RzON1" value="gVp8_QSmXE2k4pd-sQZgjYMoW95SLLaVIH4yMYqqbt4" />
-      <property role="TrG5h" value="int" />
-    </node>
-    <node concept="2RzPWn" id="5sACIIs$OuZ" role="2RzR6B">
-      <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="OcDK2GESljInG-ApIqtkXUoA2UeviB97u0UuiZzM0Hs" />
-      <property role="TrG5h" value="Book" />
-      <node concept="2RzOeU" id="5sACIIs$Ov0" role="2RzPPN">
-        <property role="2RzON1" value="Ei9m_HbdmEYg_EwMLLVZ71ERRBZyXH8GHVyOVia8Sqg" />
-        <property role="TrG5h" value="title" />
-        <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" node="5sACIIs$OuW" resolve="String" />
-      </node>
-      <node concept="2RzOeU" id="5sACIIs$Ov1" role="2RzPPN">
-        <property role="2RzON1" value="OJhF8vB_qRMrA8A9a-H0LsByONdYtHGmQ-lk9rUHUc4" />
-        <property role="TrG5h" value="pages" />
-        <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" node="5sACIIs$OuY" resolve="int" />
-      </node>
-      <node concept="2RzOpR" id="5sACIIs$Ov2" role="2RzPPN">
-        <property role="2RzON1" value="9ATCb8nXEuQAL3NOY-EUZwuThpIQnQ2C_2n97IRGA_g" />
-        <property role="TrG5h" value="author" />
-        <property role="2RzO1C" value="false" />
-        <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$Ov6" resolve="Writer" />
-      </node>
-    </node>
-    <node concept="2RzPWn" id="5sACIIs$Ov3" role="2RzR6B">
-      <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="Pk1NRJfHMt4eSja2kpXia7x8vj6Vzc6WQCUzT3aVeYY" />
-      <property role="TrG5h" value="Library" />
-      <node concept="2RzOeU" id="5sACIIs$Ov4" role="2RzPPN">
-        <property role="2RzON1" value="LdgCnVXNgZD7CLbBhBin2Rcdumx4qZUYz_jh2QnP5z8" />
-        <property role="TrG5h" value="name" />
-        <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" node="5sACIIs$OuW" resolve="String" />
-      </node>
-      <node concept="2RzOte" id="5sACIIs$Ov5" role="2RzPPN">
-        <property role="2RzON1" value="TFS1ME6sEyRbkRchsr8zaZCcj_uF1LM0LXK24gbnxZM" />
-        <property role="TrG5h" value="books" />
-        <property role="2RzO1C" value="false" />
-        <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$OuZ" resolve="Book" />
-      </node>
-    </node>
-    <node concept="2RzPWn" id="5sACIIs$Ov6" role="2RzR6B">
-      <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="DuBg-a_slgc_VOG0huySkSWi3rZQX1Q20EEd2f7lvLE" />
-      <property role="TrG5h" value="Writer" />
-      <node concept="2RzOeU" id="5sACIIs$Ov7" role="2RzPPN">
-        <property role="2RzON1" value="onRRrZaasiOtDU2qFJgyW8OVz8p5-hqQu0Vlc_7Aq6s" />
-        <property role="TrG5h" value="name" />
-        <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" node="5sACIIs$OuW" resolve="String" />
-      </node>
-    </node>
-    <node concept="2RzPWn" id="5sACIIs$Ov8" role="2RzR6B">
-      <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="nNUEzZ7it7d2HoHPAtk5rGO4SsqVA3hAlBwkK1KP8QU" />
-      <property role="TrG5h" value="GuideBookWriter" />
-      <ref role="2RzPfO" node="5sACIIs$Ov6" resolve="Writer" />
-      <node concept="2RzOeU" id="5sACIIs$Ov9" role="2RzPPN">
-        <property role="2RzON1" value="PoZyl6WXh-Cz5h2RspK1NL6zX9DdLwGpUUC-ygQmHMA" />
-        <property role="TrG5h" value="countries" />
-        <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" node="5sACIIs$OuW" resolve="String" />
-      </node>
-    </node>
-    <node concept="2RzPWn" id="5sACIIs$Ova" role="2RzR6B">
-      <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="RDa_L8gbU8XgW9z46oMysBi1Hb7vjcS8O8LUgXlFpeU" />
-      <property role="TrG5h" value="SpecialistBookWriter" />
-      <ref role="2RzPfO" node="5sACIIs$Ov6" resolve="Writer" />
-      <node concept="2RzOeU" id="5sACIIs$Ovb" role="2RzPPN">
-        <property role="2RzON1" value="DbVixG73dI8xIF9TAoq2GOZru4CRQfRD8gG7TkFCZuU" />
-        <property role="TrG5h" value="subject" />
-        <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" node="5sACIIs$OuW" resolve="String" />
-      </node>
-    </node>
-  </node>
   <node concept="2RzRRF" id="5sACIIs$PgG">
     <property role="2RzRSo" value="LIonCore_M3" />
     <property role="TrG5h" value="LIonCore.M3" />
@@ -609,7 +515,87 @@
   <node concept="1a0hBo" id="6VkSF6aHijY">
     <property role="TrG5h" value="Library to MPS" />
     <node concept="2RzRkq" id="6VkSF6aHis6" role="1a0gs3">
-      <ref role="2RzRkr" node="5sACIIs$OuV" resolve="library" />
+      <ref role="2RzRkr" node="6VkSF6cu7LM" resolve="library" />
+    </node>
+  </node>
+  <node concept="2RzRRF" id="6VkSF6cu7LM">
+    <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
+    <property role="TrG5h" value="library" />
+    <node concept="2RzPWn" id="6VkSF6cu7LQ" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="2RzON1" value="OcDK2GESljInG-ApIqtkXUoA2UeviB97u0UuiZzM0Hs" />
+      <property role="TrG5h" value="Book" />
+      <node concept="2RzOeU" id="6VkSF6cu7LR" role="2RzPPN">
+        <property role="2RzON1" value="Ei9m_HbdmEYg_EwMLLVZ71ERRBZyXH8GHVyOVia8Sqg" />
+        <property role="TrG5h" value="title" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="6VkSF6cu7LS" role="2RzPPN">
+        <property role="2RzON1" value="OJhF8vB_qRMrA8A9a-H0LsByONdYtHGmQ-lk9rUHUc4" />
+        <property role="TrG5h" value="pages" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" resolve="Integer" />
+      </node>
+      <node concept="2RzOpR" id="6VkSF6cu7LT" role="2RzPPN">
+        <property role="2RzON1" value="9ATCb8nXEuQAL3NOY-EUZwuThpIQnQ2C_2n97IRGA_g" />
+        <property role="TrG5h" value="author" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2RzQvY" node="6VkSF6cu7LX" resolve="Writer" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="6VkSF6cu7LU" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="2RzON1" value="Pk1NRJfHMt4eSja2kpXia7x8vj6Vzc6WQCUzT3aVeYY" />
+      <property role="TrG5h" value="Library" />
+      <node concept="2RzOeU" id="6VkSF6cu7LV" role="2RzPPN">
+        <property role="2RzON1" value="LdgCnVXNgZD7CLbBhBin2Rcdumx4qZUYz_jh2QnP5z8" />
+        <property role="TrG5h" value="name" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOte" id="6VkSF6cu7LW" role="2RzPPN">
+        <property role="2RzON1" value="TFS1ME6sEyRbkRchsr8zaZCcj_uF1LM0LXK24gbnxZM" />
+        <property role="TrG5h" value="books" />
+        <property role="2RzO1C" value="false" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="6VkSF6cu7LQ" resolve="Book" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="6VkSF6cu7LX" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="2RzON1" value="DuBg-a_slgc_VOG0huySkSWi3rZQX1Q20EEd2f7lvLE" />
+      <property role="TrG5h" value="Writer" />
+      <node concept="2RzOeU" id="6VkSF6cu7LY" role="2RzPPN">
+        <property role="2RzON1" value="onRRrZaasiOtDU2qFJgyW8OVz8p5-hqQu0Vlc_7Aq6s" />
+        <property role="TrG5h" value="name" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="6VkSF6cu7LZ" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="2RzON1" value="nNUEzZ7it7d2HoHPAtk5rGO4SsqVA3hAlBwkK1KP8QU" />
+      <property role="TrG5h" value="GuideBookWriter" />
+      <ref role="2RzPfO" node="6VkSF6cu7LX" resolve="Writer" />
+      <node concept="2RzOeU" id="6VkSF6cu7M0" role="2RzPPN">
+        <property role="2RzON1" value="PoZyl6WXh-Cz5h2RspK1NL6zX9DdLwGpUUC-ygQmHMA" />
+        <property role="TrG5h" value="countries" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="6VkSF6cu7M1" role="2RzR6B">
+      <property role="2RzP46" value="false" />
+      <property role="2RzON1" value="RDa_L8gbU8XgW9z46oMysBi1Hb7vjcS8O8LUgXlFpeU" />
+      <property role="TrG5h" value="SpecialistBookWriter" />
+      <ref role="2RzPfO" node="6VkSF6cu7LX" resolve="Writer" />
+      <node concept="2RzOeU" id="6VkSF6cu7M2" role="2RzPPN">
+        <property role="2RzON1" value="DbVixG73dI8xIF9TAoq2GOZru4CRQfRD8gG7TkFCZuU" />
+        <property role="TrG5h" value="subject" />
+        <property role="2RzO1C" value="false" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
     </node>
   </node>
 </model>

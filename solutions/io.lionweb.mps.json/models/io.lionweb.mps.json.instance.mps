@@ -315,11 +315,6 @@
     <node concept="3clFb_" id="48csSBNwdJC" role="jymVt">
       <property role="TrG5h" value="convert" />
       <node concept="3clFbS" id="48csSBNwdJF" role="3clF47">
-        <node concept="3clFbF" id="48csSBN$F1n" role="3cqZAp">
-          <node concept="1rXfSq" id="48csSBN$F1l" role="3clFbG">
-            <ref role="37wK5l" node="48csSBNwdJC" resolve="convert" />
-          </node>
-        </node>
         <node concept="3clFbF" id="48csSBNwi6m" role="3cqZAp">
           <node concept="1rXfSq" id="48csSBNwi6l" role="3clFbG">
             <ref role="37wK5l" node="48csSBNwhUl" resolve="register" />
@@ -359,14 +354,6 @@
             <ref role="3cqZAo" node="48csSBNwcys" resolve="inputNodes" />
           </node>
           <node concept="3clFbS" id="48csSBOl54W" role="2LFqv$">
-            <node concept="3clFbF" id="48csSBQ1ia8" role="3cqZAp">
-              <node concept="1rXfSq" id="48csSBQ1ia7" role="3clFbG">
-                <ref role="37wK5l" node="48csSBNwwqE" resolve="registerNode" />
-                <node concept="2GrUjf" id="48csSBQ1ive" role="37wK5m">
-                  <ref role="2Gs0qQ" node="48csSBOl54U" resolve="mps" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="48csSBQ1lAl" role="3cqZAp">
               <node concept="1rXfSq" id="48csSBQ1lAj" role="3clFbG">
                 <ref role="37wK5l" node="48csSBQ1kac" resolve="traverse" />
@@ -1366,8 +1353,23 @@
         </node>
       </node>
       <node concept="3clFbS" id="48csSBNwz1q" role="3clF47">
-        <node concept="3clFbF" id="48csSBNwz1t" role="3cqZAp">
-          <node concept="10Nm6u" id="48csSBNwz1s" role="3clFbG" />
+        <node concept="3clFbF" id="6VkSF6czChT" role="3cqZAp">
+          <node concept="2YIFZM" id="6VkSF6czFxb" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.unmodifiableList(java.util.List)" resolve="unmodifiableList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="2YIFZM" id="6VkSF6czQSl" role="37wK5m">
+              <ref role="37wK5l" to="3o3z:~Lists.newCopyOnWriteArrayList(java.lang.Iterable)" resolve="newCopyOnWriteArrayList" />
+              <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
+              <node concept="2OqwBi" id="6VkSF6czQSm" role="37wK5m">
+                <node concept="37vLTw" id="6VkSF6czQSn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="48csSBNxFto" resolve="children" />
+                </node>
+                <node concept="liA8E" id="6VkSF6czU1D" role="2OqNvi">
+                  <ref role="37wK5l" to="3o3z:~Multimap.values()" resolve="values" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="48csSBNwz1r" role="2AJF6D">
@@ -1769,20 +1771,20 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6VkSF6czrE2" role="3cqZAp">
+          <node concept="1rXfSq" id="6VkSF6czrE0" role="3clFbG">
+            <ref role="37wK5l" node="48csSBNwwqE" resolve="registerNode" />
+            <node concept="37vLTw" id="6VkSF6czrT6" role="37wK5m">
+              <ref role="3cqZAo" node="6VkSF6aF16m" resolve="mps" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6VkSF6aF3CV" role="3cqZAp" />
         <node concept="2Gpval" id="6VkSF6aF16p" role="3cqZAp">
           <node concept="2GrKxI" id="6VkSF6aF16q" role="2Gsz3X">
             <property role="TrG5h" value="child" />
           </node>
           <node concept="3clFbS" id="6VkSF6aF16r" role="2LFqv$">
-            <node concept="3clFbF" id="6VkSF6aF16s" role="3cqZAp">
-              <node concept="1rXfSq" id="6VkSF6aF16t" role="3clFbG">
-                <ref role="37wK5l" node="48csSBNwwqE" resolve="registerNode" />
-                <node concept="2GrUjf" id="6VkSF6aF16u" role="37wK5m">
-                  <ref role="2Gs0qQ" node="6VkSF6aF16q" resolve="decendant" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="6VkSF6aF5W0" role="3cqZAp">
               <node concept="1rXfSq" id="6VkSF6aF5VY" role="3clFbG">
                 <ref role="37wK5l" node="6VkSF6aF16j" resolve="traverse" />
@@ -1828,14 +1830,6 @@
                   <node concept="liA8E" id="6VkSF6aF8ZE" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SReference.getTargetNode()" resolve="getTargetNode" />
                   </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6VkSF6aF7Pi" role="3cqZAp">
-              <node concept="1rXfSq" id="6VkSF6aF7Ph" role="3clFbG">
-                <ref role="37wK5l" node="48csSBNwwqE" resolve="registerNode" />
-                <node concept="37vLTw" id="6VkSF6aF8ZF" role="37wK5m">
-                  <ref role="3cqZAo" node="6VkSF6aF8ZB" resolve="targetNode" />
                 </node>
               </node>
             </node>
