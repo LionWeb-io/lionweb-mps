@@ -26,6 +26,7 @@
     <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
+    <import index="t3jk" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model(org.lionweb.lioncore.java/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -234,6 +235,9 @@
       <concept id="1235573135402" name="jetbrains.mps.baseLanguage.collections.structure.SingletonSequenceCreator" flags="nn" index="2HTt$P">
         <child id="1235573175711" name="elementType" index="2HTBi0" />
         <child id="1235573187520" name="singletonValue" index="2HTEbv" />
+      </concept>
+      <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
+        <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -1187,7 +1191,7 @@
                 <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
                   <node concept="HV5vD" id="6VkSF6ctHtr" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+                    <ref role="HV5vE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
                   </node>
                 </node>
                 <node concept="2ShNRf" id="5sACIIt1V86" role="37wK5m">
@@ -1250,7 +1254,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5sACIIt21CT" role="3cqZAp" />
+        <node concept="3clFbH" id="1lCmc_Cb9GY" role="3cqZAp" />
         <node concept="3J1_TO" id="5sACIIt1PlO" role="3cqZAp">
           <node concept="3clFbS" id="5sACIIt1PlP" role="1zxBo7">
             <node concept="3cpWs8" id="5sACIIt4yop" role="3cqZAp">
@@ -1314,24 +1318,21 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="5sACIIt3ejC" role="3cqZAp">
-              <node concept="15s5l7" id="6VkSF6c_iGT" role="lGtFl">
-                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type org.lionweb.lioncore.java.metamodel.Metamodel is not a subtype of ? extends Node&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959032b(jetbrains.mps.baseLanguage.collections.typesystem)/5108199730660924415,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
-                <property role="huDt6" value="Error: type org.lionweb.lioncore.java.metamodel.Metamodel is not a subtype of ? extends Node" />
-              </node>
-              <node concept="3cpWsn" id="5sACIIt3ejD" role="3cpWs9">
-                <property role="TrG5h" value="jsonElement" />
-                <node concept="3uibUv" id="5sACIIt3cB7" role="1tU5fm">
-                  <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
+            <node concept="3clFbF" id="1lCmc_CdgjO" role="3cqZAp">
+              <node concept="2OqwBi" id="5sACIIt3ejE" role="3clFbG">
+                <node concept="37vLTw" id="5sACIIt3ejF" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIt25Bk" resolve="serializer" />
                 </node>
-                <node concept="2OqwBi" id="5sACIIt3ejE" role="33vP2m">
-                  <node concept="37vLTw" id="5sACIIt3ejF" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5sACIIt25Bk" resolve="serializer" />
-                  </node>
-                  <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:6VkSF6c$iAh" resolve="serialize" />
-                    <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
+                <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
+                  <ref role="37wK5l" to="6peh:6VkSF6c$iAh" resolve="serialize" />
+                  <node concept="2OqwBi" id="1lCmc_CaE11" role="37wK5m">
+                    <node concept="37vLTw" id="5sACIIt3ejH" role="2Oq$k0">
                       <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+                    </node>
+                    <node concept="UnYns" id="1lCmc_CaF9Z" role="2OqNvi">
+                      <node concept="3uibUv" id="1lCmc_CaFBb" role="UnYnz">
+                        <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1406,6 +1407,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1lCmc_CcRR7" role="3cqZAp" />
             <node concept="3cpWs8" id="5sACIIt4HMT" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIt4HMU" role="3cpWs9">
                 <property role="TrG5h" value="expected" />
@@ -1519,42 +1521,56 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3vlDli" id="5sACIIt306y" role="3cqZAp">
-                  <node concept="37vLTw" id="5sACIIt30nX" role="3tpDZB">
-                    <ref role="3cqZAo" node="5sACIIt2Yl9" resolve="expectedRead" />
-                  </node>
-                  <node concept="37vLTw" id="5sACIIt30Cw" role="3tpDZA">
-                    <ref role="3cqZAo" node="5sACIIt2Zl2" resolve="actualRead" />
-                  </node>
-                </node>
                 <node concept="3vlDli" id="5sACIIt2JtR" role="3cqZAp">
-                  <node concept="2ShNRf" id="5sACIIt31dc" role="3tpDZB">
-                    <node concept="1pGfFk" id="5sACIIt32uU" role="2ShVmc">
-                      <property role="373rjd" value="true" />
-                      <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[],int,int)" resolve="String" />
-                      <node concept="37vLTw" id="5sACIIt32ZT" role="37wK5m">
-                        <ref role="3cqZAo" node="5sACIIt2_$C" resolve="expectedBuf" />
+                  <node concept="2OqwBi" id="1lCmc_CcX$R" role="3tpDZB">
+                    <node concept="2ShNRf" id="5sACIIt31dc" role="2Oq$k0">
+                      <node concept="1pGfFk" id="5sACIIt32uU" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[],int,int)" resolve="String" />
+                        <node concept="37vLTw" id="5sACIIt32ZT" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIt2_$C" resolve="expectedBuf" />
+                        </node>
+                        <node concept="3cmrfG" id="5sACIIt34lz" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                        <node concept="37vLTw" id="5sACIIt34DA" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIt2Yl9" resolve="expectedRead" />
+                        </node>
                       </node>
-                      <node concept="3cmrfG" id="5sACIIt34lz" role="37wK5m">
-                        <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="liA8E" id="1lCmc_CcYLj" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                      <node concept="Xl_RD" id="1lCmc_CcZ8T" role="37wK5m">
+                        <property role="Xl_RC" value="\r" />
                       </node>
-                      <node concept="37vLTw" id="5sACIIt34DA" role="37wK5m">
-                        <ref role="3cqZAo" node="5sACIIt2Yl9" resolve="expectedRead" />
+                      <node concept="Xl_RD" id="1lCmc_Cd0NU" role="37wK5m">
+                        <property role="Xl_RC" value="" />
                       </node>
                     </node>
                   </node>
-                  <node concept="2ShNRf" id="5sACIIt35Gp" role="3tpDZA">
-                    <node concept="1pGfFk" id="5sACIIt37hR" role="2ShVmc">
-                      <property role="373rjd" value="true" />
-                      <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[],int,int)" resolve="String" />
-                      <node concept="37vLTw" id="5sACIIt37zA" role="37wK5m">
-                        <ref role="3cqZAo" node="5sACIIt2Doz" resolve="actualBuf" />
+                  <node concept="2OqwBi" id="1lCmc_Cd1c7" role="3tpDZA">
+                    <node concept="2ShNRf" id="5sACIIt35Gp" role="2Oq$k0">
+                      <node concept="1pGfFk" id="5sACIIt37hR" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[],int,int)" resolve="String" />
+                        <node concept="37vLTw" id="5sACIIt37zA" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIt2Doz" resolve="actualBuf" />
+                        </node>
+                        <node concept="3cmrfG" id="5sACIIt38sj" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                        <node concept="37vLTw" id="5sACIIt38Js" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIt2Zl2" resolve="actualRead" />
+                        </node>
                       </node>
-                      <node concept="3cmrfG" id="5sACIIt38sj" role="37wK5m">
-                        <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="liA8E" id="1lCmc_Cd22F" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence)" resolve="replace" />
+                      <node concept="Xl_RD" id="1lCmc_Cd2r2" role="37wK5m">
+                        <property role="Xl_RC" value="\r" />
                       </node>
-                      <node concept="37vLTw" id="5sACIIt38Js" role="37wK5m">
-                        <ref role="3cqZAo" node="5sACIIt2Zl2" resolve="actualRead" />
+                      <node concept="Xl_RD" id="1lCmc_Cd4P7" role="37wK5m">
+                        <property role="Xl_RC" value="" />
                       </node>
                     </node>
                   </node>
