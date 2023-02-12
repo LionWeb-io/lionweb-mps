@@ -5174,14 +5174,24 @@
                 <node concept="2ShNRf" id="5sACIIsVxH3" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIsV$cX" role="2ShVmc">
                     <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="tozv:~PrimitiveType.&lt;init&gt;(java.lang.String)" resolve="PrimitiveType" />
-                    <node concept="2OqwBi" id="5sACIIsVFCW" role="37wK5m">
-                      <node concept="37vLTw" id="5sACIIsVCFJ" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5sACIIsVkso" resolve="ptMps" />
-                      </node>
-                      <node concept="3TrcHB" id="5sACIIsVHSW" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
+                    <ref role="37wK5l" to="tozv:~PrimitiveType.&lt;init&gt;()" resolve="PrimitiveType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1lCmc_Cc0Gh" role="3cqZAp">
+              <node concept="2OqwBi" id="1lCmc_Cc3PT" role="3clFbG">
+                <node concept="37vLTw" id="1lCmc_Cc0Gf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsA0Cw" resolve="ptJson" />
+                </node>
+                <node concept="liA8E" id="1lCmc_Cc8in" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.setSimpleName(java.lang.String)" resolve="setSimpleName" />
+                  <node concept="2OqwBi" id="1lCmc_CccMq" role="37wK5m">
+                    <node concept="37vLTw" id="1lCmc_CcaqU" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5sACIIsVkso" resolve="ptMps" />
+                    </node>
+                    <node concept="3TrcHB" id="1lCmc_Ccf2X" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
                 </node>
