@@ -131,6 +131,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -138,6 +141,7 @@
   </registry>
   <node concept="312cEu" id="2ju2syjsDLi">
     <property role="TrG5h" value="UnknownConceptException" />
+    <property role="3GE5qa" value="exceptions" />
     <node concept="312cEg" id="2ju2syjFs2B" role="jymVt">
       <property role="TrG5h" value="unknown" />
       <property role="3TUv4t" value="true" />
@@ -249,6 +253,7 @@
   </node>
   <node concept="312cEu" id="2ju2syjEfUL">
     <property role="TrG5h" value="TargetUnavailableException" />
+    <property role="3GE5qa" value="exceptions" />
     <node concept="3clFbW" id="2ju2syjEjJi" role="jymVt">
       <node concept="3cqZAl" id="2ju2syjEjJj" role="3clF45" />
       <node concept="3Tm1VV" id="2ju2syjEjJk" role="1B3o_S" />
@@ -416,6 +421,7 @@
   </node>
   <node concept="312cEu" id="2ju2syjEg4P">
     <property role="TrG5h" value="MpsLionCoreConverterException" />
+    <property role="3GE5qa" value="exceptions" />
     <node concept="3Tm1VV" id="2ju2syjEg4Q" role="1B3o_S" />
     <node concept="3uibUv" id="2ju2syjEg6x" role="1zkMxy">
       <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
@@ -492,6 +498,7 @@
   <node concept="312cEu" id="2ju2syjG72b">
     <property role="TrG5h" value="ATargetException" />
     <property role="1sVAO0" value="true" />
+    <property role="3GE5qa" value="exceptions" />
     <node concept="312cEg" id="2ju2syjG7oj" role="jymVt">
       <property role="TrG5h" value="source" />
       <property role="3TUv4t" value="true" />
@@ -720,6 +727,7 @@
   </node>
   <node concept="312cEu" id="2ju2syjG8_0">
     <property role="TrG5h" value="TargetInvalidException" />
+    <property role="3GE5qa" value="exceptions" />
     <node concept="3clFbW" id="2ju2syjG8Gm" role="jymVt">
       <node concept="3cqZAl" id="2ju2syjG8Gn" role="3clF45" />
       <node concept="3Tm1VV" id="2ju2syjG8Go" role="1B3o_S" />
@@ -1078,6 +1086,7 @@
   </node>
   <node concept="312cEu" id="48csSBO3vyi">
     <property role="TrG5h" value="NotAnAdapterException" />
+    <property role="3GE5qa" value="exceptions" />
     <node concept="3clFbW" id="48csSBO3vGQ" role="jymVt">
       <node concept="3cqZAl" id="48csSBO3vGS" role="3clF45" />
       <node concept="3Tm1VV" id="48csSBO3vGT" role="1B3o_S" />
@@ -1127,6 +1136,82 @@
     </node>
     <node concept="3Tm1VV" id="48csSBO3vyj" role="1B3o_S" />
     <node concept="3uibUv" id="48csSBO3xIT" role="1zkMxy">
+      <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    </node>
+  </node>
+  <node concept="312cEu" id="2fx6VTRTIfH">
+    <property role="3GE5qa" value="exceptions" />
+    <property role="TrG5h" value="LanguageUnavailableException" />
+    <node concept="3clFbW" id="2fx6VTRTIZH" role="jymVt">
+      <node concept="3cqZAl" id="2fx6VTRTIZJ" role="3clF45" />
+      <node concept="3Tm1VV" id="2fx6VTRTIZK" role="1B3o_S" />
+      <node concept="3clFbS" id="2fx6VTRTIZL" role="3clF47">
+        <node concept="XkiVB" id="2fx6VTRTJ3J" role="3cqZAp">
+          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <node concept="3cpWs3" id="2fx6VTRTKlk" role="37wK5m">
+            <node concept="37vLTw" id="2fx6VTRTKlZ" role="3uHU7w">
+              <ref role="3cqZAo" node="2fx6VTRTJ10" resolve="name" />
+            </node>
+            <node concept="3cpWs3" id="2fx6VTRTKrl" role="3uHU7B">
+              <node concept="3cpWs3" id="2fx6VTRTJPB" role="3uHU7B">
+                <node concept="Xl_RD" id="2fx6VTRTJhT" role="3uHU7B">
+                  <property role="Xl_RC" value="Language unavailable: id=" />
+                </node>
+                <node concept="37vLTw" id="2fx6VTRTJQQ" role="3uHU7w">
+                  <ref role="3cqZAo" node="2fx6VTRTJ0q" resolve="id" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="2fx6VTRTKd8" role="3uHU7w">
+                <property role="Xl_RC" value=",name=" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2fx6VTRTJ0q" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="3uibUv" id="2fx6VTRTJ0p" role="1tU5fm">
+          <ref role="3uigEE" to="e8bb:~SLanguageId" resolve="SLanguageId" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2fx6VTRTJ10" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="2fx6VTRTJ1W" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2fx6VTRTIfI" role="1B3o_S" />
+    <node concept="3uibUv" id="2fx6VTRTIM$" role="1zkMxy">
+      <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    </node>
+  </node>
+  <node concept="312cEu" id="2fx6VTSMEpg">
+    <property role="TrG5h" value="DescriptorUnavailableException" />
+    <property role="3GE5qa" value="exceptions" />
+    <node concept="3clFbW" id="2fx6VTSMEph" role="jymVt">
+      <node concept="3cqZAl" id="2fx6VTSMEpi" role="3clF45" />
+      <node concept="3Tm1VV" id="2fx6VTSMEpj" role="1B3o_S" />
+      <node concept="3clFbS" id="2fx6VTSMEpk" role="3clF47">
+        <node concept="XkiVB" id="2fx6VTSMEpl" role="3cqZAp">
+          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <node concept="3cpWs3" id="2fx6VTSMEpm" role="37wK5m">
+            <node concept="37vLTw" id="2fx6VTSMEpn" role="3uHU7w">
+              <ref role="3cqZAo" node="2fx6VTSMEpz" resolve="target" />
+            </node>
+            <node concept="Xl_RD" id="2fx6VTSMLu5" role="3uHU7B">
+              <property role="Xl_RC" value="Cannot handle without Descriptor: " />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2fx6VTSMEpz" role="3clF46">
+        <property role="TrG5h" value="target" />
+        <node concept="3uibUv" id="2fx6VTSMEp$" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2fx6VTSMEp_" role="1B3o_S" />
+    <node concept="3uibUv" id="2fx6VTSMEpA" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
     </node>
   </node>
