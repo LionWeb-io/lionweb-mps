@@ -7,7 +7,6 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
-    <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
   </languages>
   <imports>
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
@@ -16,7 +15,6 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
@@ -1790,6 +1788,31 @@
               </node>
             </node>
           </node>
+          <node concept="1_3QMl" id="2fx6VTT1SOx" role="1_3QMm">
+            <node concept="3gn64h" id="2fx6VTT1SOz" role="3Kbmr1">
+              <ref role="3gnhBz" to="tpce:fKAz7CR" resolve="ConstrainedDataTypeDeclaration" />
+            </node>
+            <node concept="3clFbS" id="2fx6VTT1SO_" role="3Kbo56">
+              <node concept="3clFbF" id="2fx6VTT1YPw" role="3cqZAp">
+                <node concept="37vLTI" id="2fx6VTT1YPx" role="3clFbG">
+                  <node concept="1rXfSq" id="2fx6VTT1YPy" role="37vLTx">
+                    <ref role="37wK5l" node="2ju2syjsB72" resolve="createPrimitiveType" />
+                    <node concept="1PxgMI" id="2fx6VTT1YPz" role="37wK5m">
+                      <node concept="chp4Y" id="2fx6VTT1YP$" role="3oSUPX">
+                        <ref role="cht4Q" to="tpce:fKAz7CR" resolve="ConstrainedDataTypeDeclaration" />
+                      </node>
+                      <node concept="37vLTw" id="2fx6VTT1YP_" role="1m5AlR">
+                        <ref role="3cqZAo" node="2ju2syjs5ne" resolve="dataType" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2fx6VTT1YPA" role="37vLTJ">
+                    <ref role="3cqZAo" node="2ju2syjs6l0" resolve="result" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3clFbH" id="2ju2syjsOLD" role="3cqZAp" />
         <node concept="3cpWs6" id="2ju2syjsPDy" role="3cqZAp">
@@ -3128,7 +3151,7 @@
       <node concept="37vLTG" id="2ju2syjsCZe" role="3clF46">
         <property role="TrG5h" value="primitiveType" />
         <node concept="3Tqbb2" id="2ju2syjsCZf" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:fKQkHSB" resolve="PrimitiveDataTypeDeclaration" />
+          <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
         </node>
       </node>
     </node>
