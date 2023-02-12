@@ -25687,7 +25687,7 @@
           <node concept="2ShNRf" id="6VkSF6bW8IN" role="37wK5m">
             <node concept="HV5vD" id="6VkSF6bWazG" role="2ShVmc">
               <property role="373rjd" value="true" />
-              <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+              <ref role="HV5vE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
             </node>
           </node>
           <node concept="2ShNRf" id="6VkSF6bWaKy" role="37wK5m">

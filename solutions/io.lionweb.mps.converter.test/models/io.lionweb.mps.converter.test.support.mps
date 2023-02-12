@@ -316,10 +316,10 @@
               <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
             </node>
           </node>
-          <node concept="2ShNRf" id="6VkSF6c5kJy" role="37wK5m">
-            <node concept="HV5vD" id="6VkSF6c5kJz" role="2ShVmc">
+          <node concept="2ShNRf" id="2fx6VTTEWXk" role="37wK5m">
+            <node concept="HV5vD" id="2fx6VTTEWXl" role="2ShVmc">
               <property role="373rjd" value="true" />
-              <ref role="HV5vE" to="58k5:6VkSF6b37gQ" resolve="DeclarationNodeLanguageIdMapper" />
+              <ref role="HV5vE" to="58k5:2fx6VTTDQCB" resolve="DeclarationNodeCompatibleLanguageIdMapper" />
             </node>
           </node>
         </node>
@@ -425,7 +425,7 @@
               <node concept="2ShNRf" id="6VkSF6bWaKy" role="37wK5m">
                 <node concept="HV5vD" id="6VkSF6bWc_D" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="HV5vE" to="58k5:6VkSF6b37gQ" resolve="DeclarationNodeLanguageIdMapper" />
+                  <ref role="HV5vE" to="58k5:2fx6VTTDQCB" resolve="DeclarationNodeCompatibleLanguageIdMapper" />
                 </node>
               </node>
             </node>
