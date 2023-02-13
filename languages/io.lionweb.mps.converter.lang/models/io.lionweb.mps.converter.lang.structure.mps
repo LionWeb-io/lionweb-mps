@@ -2,12 +2,13 @@
 <model ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)">
   <persistence version="9" />
   <languages>
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -17,6 +18,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -66,15 +68,11 @@
     <property role="34LRSv" value="Convert from LIonWeb" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="DUXtH0uZbo" role="1TKVEi">
-      <property role="IQ2ns" value="755186209566487256" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="metamodels" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
-    </node>
     <node concept="PrWs8" id="DUXtH0uYUG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="7qGUpN3Cisn" role="PzmwI">
+      <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="z1IqfFSzDB">
@@ -102,6 +100,35 @@
       <property role="20kJfa" value="contents" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7qGUpN3ChNP">
+    <property role="EcuMT" value="8551466651976015093" />
+    <property role="TrG5h" value="ExportToJson" />
+    <property role="34LRSv" value="Export to JSON" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="7qGUpN3Ci3p" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="7qGUpN3CiCo" role="PzmwI">
+      <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
+    </node>
+    <node concept="1TJgyi" id="7qGUpN3Cigr" role="1TKVEl">
+      <property role="IQ2nx" value="8551466651976016923" />
+      <property role="TrG5h" value="path" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7qGUpN3Cils">
+    <property role="EcuMT" value="8551466651976017244" />
+    <property role="TrG5h" value="IMetamodelReferenceContainer" />
+    <node concept="1TJgyj" id="DUXtH0uZbo" role="1TKVEi">
+      <property role="IQ2ns" value="755186209566487256" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="metamodels" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
     </node>
   </node>
 </model>

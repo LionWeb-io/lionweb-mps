@@ -45,9 +45,10 @@
       </concept>
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
-      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo">
+      <concept id="8551466651976017244" name="&lt;unknown&gt;" flags="ng" index="2P3sN0">
         <child id="755186209566487256" name="metamodels" index="1a0gs3" />
       </concept>
+      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo" />
       <concept id="630989536496859751" name="io.lionweb.mps.converter.lang.structure.ImportFromJson" flags="ng" index="3z8Sf4">
         <property id="630989536496861420" name="path" index="3z8Z_f" />
       </concept>

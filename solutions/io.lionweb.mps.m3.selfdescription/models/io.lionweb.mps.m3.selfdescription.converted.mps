@@ -57,9 +57,10 @@
       <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertToLionCore" flags="ng" index="qeN9c">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
-      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo">
+      <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.IMetamodelReferenceContainer" flags="ng" index="2P3sN0">
         <child id="755186209566487256" name="metamodels" index="1a0gs3" />
       </concept>
+      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertFromLionWeb" flags="ng" index="1a0hBo" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -153,7 +154,7 @@
   <node concept="1a0hBo" id="DUXtH0VBII">
     <property role="TrG5h" value="Convert Test123" />
     <node concept="2RzRkq" id="DUXtH0VBZt" role="1a0gs3">
-      <ref role="2RzRkr" node="DUXtH0VBtX" resolve="Test123" />
+      <ref role="2RzRkr" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
     </node>
   </node>
   <node concept="qeN9c" id="2fx6VTT1ItG">
