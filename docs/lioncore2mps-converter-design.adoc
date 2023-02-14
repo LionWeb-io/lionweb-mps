@@ -1,5 +1,8 @@
 = Design of LIonCore to MPS Converter
 
+== Variants
+image::M3-language-variants.svg[]
+
 == Overview
 
 === Public Interface

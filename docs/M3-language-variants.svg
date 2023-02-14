@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="180mm"
+   height="130mm"
+   overflow="hidden"
+   version="1.1"
+   id="svg136"
+   sodipodi:docname="M3-language-variants.svg"
+   viewBox="0 0 680.31582 491.3392"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview138"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0234375"
+     inkscape:cx="286.29008"
+     inkscape:cy="250.62595"
+     inkscape:window-width="3721"
+     inkscape:window-height="2131"
+     inkscape:window-x="2510"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg136" />
+  <defs
+     id="defs74">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath476">
+      <g
+         id="g480">
+        <rect
+           x="0"
+           y="0"
+           width="1280"
+           height="720"
+           id="rect478" />
+      </g>
+    </clipPath>
+  </defs>
+  <path
+     d="M 825.978,497.961 406.784,190.746 407.967,189.133 827.16,496.348 Z M 406.088,193.955 402,186 l 8.817,1.503 z"
+     fill="#4472c4"
+     id="path78"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <rect
+     x="811.5"
+     y="498.5"
+     width="124"
+     height="67"
+     stroke="#ed7d31"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffffff"
+     id="rect80"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text82"
+     x="547.68793"
+     y="446.36166"
+     clip-path="none">SLanguage</text>
+  <rect
+     x="291.5"
+     y="498.5"
+     width="125"
+     height="67"
+     stroke="#ed7d31"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffffff"
+     id="rect84"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text86"
+     x="34.023895"
+     y="432.36166"
+     clip-path="none">Language</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text88"
+     x="36.043884"
+     y="461.36166"
+     clip-path="none">structur</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text90"
+     x="112.9639"
+     y="461.36166"
+     clip-path="none">e</text>
+  <rect
+     x="291.5"
+     y="116.5"
+     width="125"
+     height="68"
+     stroke="#ed7d31"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffffff"
+     id="rect92"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text94"
+     x="36.996887"
+     y="50.36166"
+     clip-path="none">LIonCore</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text96"
+     x="39.503906"
+     y="79.361664"
+     clip-path="none">MPS M3</text>
+  <rect
+     x="811.5"
+     y="116.5"
+     width="124"
+     height="68"
+     stroke="#ed7d31"
+     stroke-width="1.33333"
+     stroke-miterlimit="8"
+     fill="#ffffff"
+     id="rect98"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text100"
+     x="556.16193"
+     y="50.36166"
+     clip-path="none">LIonCore</text>
+  <text
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text102"
+     x="560.2149"
+     y="79.361664"
+     clip-path="none">Java M3</text>
+  <path
+     d="m 416,134 387.655,-1e-4 v -2 L 416,132 Z m 386.321,2.9999 8,-4 -8,-4 z"
+     fill="#4472c4"
+     id="path104"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <path
+     d="m 329,497.99 10e-5,-307.324 h -2 L 327,497.99 Z m 3.0001,-305.99 -4,-8 -4,8 z"
+     fill="#4472c4"
+     id="path106"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     transform="rotate(36.282709)"
+     id="text108"
+     x="278.4996"
+     y="-11.718009"
+     clip-path="none">Language2LionCoreConverter</text>
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     transform="rotate(-90)"
+     id="text110"
+     x="-368.36166"
+     y="44.885895"
+     clip-path="none">Mps2LionCoreConverter</text>
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     transform="rotate(90)"
+     id="text112"
+     x="127.36166"
+     y="-115.7879"
+     clip-path="none">LionCore2MpsConverter</text>
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text114"
+     x="219.93791"
+     y="33.36166"
+     clip-path="none">LionCore2JsonConverter</text>
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text116"
+     x="219.93791"
+     y="98.361664"
+     clip-path="none">Json2LionCoreConverter</text>
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     transform="rotate(90)"
+     id="text118"
+     x="124.36166"
+     y="-635.29291"
+     clip-path="none">Json2LanguageConverter</text>
+  <text
+     fill="#4472c4"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     transform="rotate(-90)"
+     id="text120"
+     x="-371.36166"
+     y="564.04993"
+     clip-path="none">Language2JsonConverter</text>
+  <path
+     d="M 810.321,170 H 422.666 v -2 H 810.321 Z M 424,173 l -8,-4 8,-4 z"
+     fill="#4472c4"
+     id="path122"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <path
+     d="m 383,184 v 307.324 h -2 V 184 Z m 3,305.99 -4,8 -4,-8 z"
+     fill="#4472c4"
+     id="path124"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <path
+     d="m 845,497.99 10e-5,-307.324 h -2 L 843,497.99 Z m 3.0001,-305.99 -4,-8 -4,8 z"
+     fill="#4472c4"
+     id="path126"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <path
+     d="m 900,184 v 307.324 h -2 V 184 Z m 3,305.99 -4,8 -4,-8 z"
+     fill="#4472c4"
+     id="path128"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <path
+     d="m 416,530 h 387.655 v 2 H 416 Z m 386.321,-3 8,4 -8,4 z"
+     fill="#7c7c7c"
+     id="path130"
+     clip-path="none"
+     transform="translate(-273.34209,-92.638341)" />
+  <text
+     fill="#7c7c7c"
+     font-family="Calibri, Calibri_MSFontService, sans-serif"
+     font-weight="400"
+     font-size="24px"
+     id="text132"
+     x="264.93091"
+     y="431.36166"
+     clip-path="none">MPS Generator</text>
+</svg>
