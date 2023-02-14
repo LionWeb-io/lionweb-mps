@@ -27,6 +27,8 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="t3jk" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model(org.lionweb.lioncore.java/)" />
+    <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -205,9 +207,16 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
+        <child id="3542851458883491298" name="languageId" index="2V$M_3" />
+      </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
+      <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
+        <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
+        <property id="3542851458883439832" name="languageId" index="2V$B1T" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -240,7 +249,12 @@
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
     </language>
   </registry>
   <node concept="2XOHcx" id="3ePT3MiXrx5">
@@ -248,7 +262,7 @@
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="TrG5h" value="importJson" />
+    <property role="TrG5h" value="importJson2Language_TestLang" />
     <node concept="1LZb2c" id="5sACIIszQ81" role="1SL9yI">
       <property role="TrG5h" value="library" />
       <node concept="3cqZAl" id="5sACIIszQ82" role="3clF45" />
@@ -265,7 +279,7 @@
               <node concept="liA8E" id="5sACIIsz6Nz" role="2OqNvi">
                 <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String)" resolve="expandPath" />
                 <node concept="Xl_RD" id="5sACIIsz6N$" role="37wK5m">
-                  <property role="Xl_RC" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
+                  <property role="Xl_RC" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-noEnums-metamodel.json" />
                 </node>
               </node>
             </node>
@@ -378,7 +392,7 @@
             </node>
             <node concept="3vlDli" id="5sACIIsz$47" role="3cqZAp">
               <node concept="Xl_RD" id="5sACIIsz$dz" role="3tpDZB">
-                <property role="Xl_RC" value="library" />
+                <property role="Xl_RC" value="io.lionweb.mps.converter.TestLang.noEnums" />
               </node>
               <node concept="2OqwBi" id="5sACIIsz_Tc" role="3tpDZA">
                 <node concept="2OqwBi" id="5sACIIsz$GA" role="2Oq$k0">
@@ -390,6 +404,75 @@
                 <node concept="liA8E" id="5sACIIszA_q" role="2OqNvi">
                   <ref role="37wK5l" to="tozv:~Metamodel.getQualifiedName()" resolve="getQualifiedName" />
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="39$JcGEIh9x" role="3cqZAp" />
+            <node concept="3cpWs8" id="39$JcGEIub1" role="3cqZAp">
+              <node concept="3cpWsn" id="39$JcGEIub2" role="3cpWs9">
+                <property role="TrG5h" value="converter" />
+                <node concept="3uibUv" id="39$JcGEIu0d" role="1tU5fm">
+                  <ref role="3uigEE" to="5els:2fx6VTRFhMk" resolve="Json2LanguageConverter" />
+                </node>
+                <node concept="2ShNRf" id="39$JcGEIub3" role="33vP2m">
+                  <node concept="1pGfFk" id="39$JcGEIub4" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="5els:39$JcGEN9vN" resolve="Json2LanguageConverter" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="39$JcGEIumc" role="3cqZAp" />
+            <node concept="3cpWs8" id="39$JcGELlAq" role="3cqZAp">
+              <node concept="3cpWsn" id="39$JcGELlAr" role="3cpWs9">
+                <property role="TrG5h" value="converted" />
+                <node concept="3rvAFt" id="39$JcGELiVr" role="1tU5fm">
+                  <node concept="3uibUv" id="39$JcGELiVx" role="3rvQeY">
+                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                  </node>
+                  <node concept="3uibUv" id="39$JcGELiVw" role="3rvSg0">
+                    <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="39$JcGELlAs" role="33vP2m">
+                  <node concept="37vLTw" id="39$JcGELlAt" role="2Oq$k0">
+                    <ref role="3cqZAo" node="39$JcGEIub2" resolve="converter" />
+                  </node>
+                  <node concept="liA8E" id="39$JcGELlAu" role="2OqNvi">
+                    <ref role="37wK5l" to="5els:2fx6VTRFqyl" resolve="convert" />
+                    <node concept="37vLTw" id="39$JcGELlAv" role="37wK5m">
+                      <ref role="3cqZAo" node="2A0cGJdREpB" resolve="metamodels" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="39$JcGELoZo" role="3cqZAp" />
+            <node concept="3vlDli" id="39$JcGELpud" role="3cqZAp">
+              <node concept="3cmrfG" id="39$JcGELpTt" role="3tpDZB">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="39$JcGELqvW" role="3tpDZA">
+                <node concept="37vLTw" id="39$JcGELq5h" role="2Oq$k0">
+                  <ref role="3cqZAo" node="39$JcGELlAr" resolve="converted" />
+                </node>
+                <node concept="34oBXx" id="39$JcGELrUr" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3vlDli" id="39$JcGF99Ky" role="3cqZAp">
+              <node concept="pHN19" id="39$JcGF99YT" role="3tpDZB">
+                <node concept="2V$Bhx" id="39$JcGF9aaB" role="2V$M_3">
+                  <property role="2V$B1T" value="08caad75-8246-4427-bb4d-8444b6c5c729" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLang" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="39$JcGF9cdE" role="3tpDZA">
+                <node concept="2OqwBi" id="39$JcGF9aMn" role="2Oq$k0">
+                  <node concept="37vLTw" id="39$JcGF9ami" role="2Oq$k0">
+                    <ref role="3cqZAo" node="39$JcGELlAr" resolve="converted" />
+                  </node>
+                  <node concept="1uHKPH" id="39$JcGF9bNt" role="2OqNvi" />
+                </node>
+                <node concept="3AV6Ez" id="39$JcGF9dco" role="2OqNvi" />
               </node>
             </node>
           </node>
