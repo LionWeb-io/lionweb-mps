@@ -1,0 +1,74 @@
+@startuml
+hide empty members
+
+interface SLanguage
+
+SLanguage -> SModule: getSourceModule()
+
+abstract class SLanguageAdapter implements SLanguage
+SLanguageAdapter -> LanguageRuntime: getLanguageDescriptor()
+
+abstract class LanguageRuntime
+LanguageRuntime -> SLanguage: getIdentity()
+LanguageRuntime -> SLanguageId: getId()
+
+interface SModule
+SModule -> SModuleReference: getModuleReference()
+
+interface ReloadableModule extends SModule
+
+class Language implements ReloadableModule
+'Language -> LanguageDescriptor: getModuleDescriptor()
+'class LanguageDescriptor extends ModuleDescriptor
+
+
+interface SModuleReference
+SModuleReference -> SModule: resolve(SRepository)
+
+class SLanguageId
+
+'class MPSLanguage extends Language implements DependentLanguage
+
+
+'package MetaAdapterFactory {
+    note "MetaAdapterFactory::\ngetLanguage(SModuleReference):\nSLanguage" as getLanguageRef
+    SModuleReference ..> getLanguageRef
+    getLanguageRef ..> SLanguage
+
+    note "MetaAdapterFactory::\ngetLanguage(SLanguageId, languageName):\nSLanguage" as getLanguage_Id
+    SLanguageId ..> getLanguage_Id
+    getLanguage_Id ..> SLanguage
+
+'    getLanguageRef -[hidden]-> getLanguage_Id
+'}
+'SLanguage <.. MetaAdapterFactory
+
+
+'package LanguageRegistry {
+    note "LanguageRegistry::\ngetLanguage(SLanguage):\nLanguageRuntime" as getSLanguageRuntime
+    SLanguage ..> getSLanguageRuntime
+    getSLanguageRuntime ..> LanguageRuntime
+
+    note "LanguageRegistry::\ngetLanguage(SLanguageId):\nLanguageRuntime" as getLanguageIdRuntime
+    SLanguageId ..> getLanguageIdRuntime
+    getLanguageIdRuntime ..> LanguageRuntime
+
+'    getSLanguageRuntime -[hidden]-> getLanguageIdRuntime
+
+    note "LanguageRegistry::\ngetLanguage(Language):\nLanguageRuntime" as getLanguageRuntime
+    Language ..> getLanguageRuntime
+    getLanguageRuntime ..> LanguageRuntime
+
+'    getLanguageIdRuntime -[hidden]-> getLanguageRuntime
+'}
+'LanguageRuntime <.. LanguageRegistry
+
+'package MetaIdByDeclaration {
+    note "MetaIdByDeclaration::\ngetLanguageId(Language):\nSLanguageId" as getLanguageId
+    Language ..> getLanguageId
+    getLanguageId ..> SLanguageId
+'}
+'SLanguageId <.. MetaIdByDeclaration
+
+
+@enduml
