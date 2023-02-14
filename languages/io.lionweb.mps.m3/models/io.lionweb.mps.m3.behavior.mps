@@ -12,6 +12,7 @@
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -863,6 +864,71 @@
     </node>
     <node concept="13hLZK" id="2ju2syjm86M" role="13h7CW">
       <node concept="3clFbS" id="2ju2syjm86N" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="39$JcGGNEqr">
+    <property role="3GE5qa" value="featuresContainer" />
+    <ref role="13h7C2" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+    <node concept="13i0hz" id="hEwIBtc" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="hEwIBtd" role="3clF47">
+        <node concept="3clFbF" id="39$JcGGNOM_" role="3cqZAp">
+          <node concept="3cpWs3" id="39$JcGGNPov" role="3clFbG">
+            <node concept="2OqwBi" id="39$JcGGNQ7W" role="3uHU7w">
+              <node concept="2OqwBi" id="39$JcGGNPxt" role="2Oq$k0">
+                <node concept="13iPFW" id="39$JcGGNPpp" role="2Oq$k0" />
+                <node concept="3TrEf2" id="39$JcGGNPE3" role="2OqNvi">
+                  <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="39$JcGGNQtD" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="39$JcGGNOM$" role="3uHU7B">
+              <property role="Xl_RC" value="-&gt;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4dKd5TsFYTn" role="3clF45" />
+      <node concept="3Tm1VV" id="hJrm0DC" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="39$JcGGNEqs" role="13h7CW">
+      <node concept="3clFbS" id="39$JcGGNEqt" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="39$JcGGNQKy">
+    <ref role="13h7C2" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
+    <node concept="13i0hz" id="39$JcGGNQNh" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="39$JcGGNQNi" role="3clF47">
+        <node concept="3clFbF" id="39$JcGGNQNj" role="3cqZAp">
+          <node concept="3cpWs3" id="39$JcGGNQNk" role="3clFbG">
+            <node concept="2OqwBi" id="39$JcGGNQNl" role="3uHU7w">
+              <node concept="2OqwBi" id="39$JcGGNQNm" role="2Oq$k0">
+                <node concept="13iPFW" id="39$JcGGNQNn" role="2Oq$k0" />
+                <node concept="3TrEf2" id="39$JcGGNQNo" role="2OqNvi">
+                  <ref role="3Tt5mk" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="39$JcGGNQNp" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="39$JcGGNQNq" role="3uHU7B">
+              <property role="Xl_RC" value="-&gt;" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="39$JcGGNQNr" role="3clF45" />
+      <node concept="3Tm1VV" id="39$JcGGNQNs" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="39$JcGGNQKz" role="13h7CW">
+      <node concept="3clFbS" id="39$JcGGNQK$" role="2VODD2" />
     </node>
   </node>
 </model>
