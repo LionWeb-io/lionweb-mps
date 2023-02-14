@@ -13,7 +13,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)</dependency>
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
