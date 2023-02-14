@@ -54,7 +54,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="4pht$XsqZ0T">
-    <ref role="1XX52x" to="d0tf:4pht$Xsq$g3" resolve="ConvertToLionCore" />
+    <ref role="1XX52x" to="d0tf:4pht$Xsq$g3" resolve="ConvertLanguageToLionCore" />
     <node concept="3EZMnI" id="4pht$XsqZ29" role="2wV5jI">
       <node concept="3EZMnI" id="4pht$XsqZbo" role="3EZMnx">
         <node concept="VPM3Z" id="4pht$XsqZbq" role="3F10Kt" />
@@ -80,7 +80,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="DUXtH0uZj8">
-    <ref role="1XX52x" to="d0tf:DUXtH0uYK3" resolve="ConvertFromLionWeb" />
+    <ref role="1XX52x" to="d0tf:DUXtH0uYK3" resolve="ConvertLanguageFromLionCore" />
     <node concept="3EZMnI" id="DUXtH0uZjY" role="2wV5jI">
       <node concept="3EZMnI" id="DUXtH0uZkT" role="3EZMnx">
         <node concept="VPM3Z" id="DUXtH0uZkV" role="3F10Kt" />
@@ -101,7 +101,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="z1IqfFS$kM">
-    <ref role="1XX52x" to="d0tf:z1IqfFSzDB" resolve="ConvertJson" />
+    <ref role="1XX52x" to="d0tf:z1IqfFSzDB" resolve="ImportLanguageFromJson" />
     <node concept="3EZMnI" id="z1IqfFS$me" role="2wV5jI">
       <node concept="3EZMnI" id="z1IqfFS$mf" role="3EZMnx">
         <node concept="VPM3Z" id="z1IqfFS$mg" role="3F10Kt" />
@@ -121,7 +121,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7qGUpN3Cvai">
-    <ref role="1XX52x" to="d0tf:7qGUpN3ChNP" resolve="ExportToJson" />
+    <ref role="1XX52x" to="d0tf:7qGUpN3ChNP" resolve="ExportLanguageToJson" />
     <node concept="3EZMnI" id="7qGUpN3Cvcm" role="2wV5jI">
       <node concept="3EZMnI" id="7qGUpN3Cvcn" role="3EZMnx">
         <node concept="VPM3Z" id="7qGUpN3Cvco" role="3F10Kt" />
@@ -143,6 +143,34 @@
         <node concept="2iRkQZ" id="7qGUpN3Cvcu" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="7qGUpN3Cvcv" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="39$JcGF9nxz">
+    <ref role="1XX52x" to="d0tf:39$JcGF9mnt" resolve="ExportInstanceToJson" />
+    <node concept="3EZMnI" id="39$JcGF9nzd" role="2wV5jI">
+      <node concept="3EZMnI" id="39$JcGF9n$8" role="3EZMnx">
+        <node concept="VPM3Z" id="39$JcGF9n$a" role="3F10Kt" />
+        <node concept="PMmxH" id="39$JcGF9nAI" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0A7n" id="39$JcGF9nDD" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="39$JcGF9n$d" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="39$JcGF9nEV" role="3EZMnx" />
+      <node concept="3F0A7n" id="39$JcGF9nI0" role="3EZMnx">
+        <ref role="1NtTu8" to="d0tf:39$JcGF9m$w" resolve="path" />
+      </node>
+      <node concept="3F0A7n" id="39$JcGFaisw" role="3EZMnx">
+        <ref role="1NtTu8" to="d0tf:39$JcGFaigm" resolve="scope" />
+      </node>
+      <node concept="3F0ifn" id="39$JcGF9nIX" role="3EZMnx" />
+      <node concept="3F2HdR" id="39$JcGF9nLi" role="3EZMnx">
+        <ref role="1NtTu8" to="d0tf:39$JcGF9mYy" resolve="instances" />
+        <node concept="2iRkQZ" id="39$JcGF9nLk" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="39$JcGF9nzg" role="2iSdaV" />
     </node>
   </node>
 </model>

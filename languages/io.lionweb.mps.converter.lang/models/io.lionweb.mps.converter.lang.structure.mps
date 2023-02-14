@@ -12,6 +12,16 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -47,8 +57,8 @@
   </registry>
   <node concept="1TIwiD" id="4pht$Xsq$g3">
     <property role="EcuMT" value="5066961138993480707" />
-    <property role="TrG5h" value="ConvertToLionCore" />
-    <property role="34LRSv" value="Convert to LIonWeb" />
+    <property role="TrG5h" value="ConvertLanguageToLionCore" />
+    <property role="34LRSv" value="Convert Language to LIonCore" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="4pht$XsqYrz" role="1TKVEi">
@@ -64,8 +74,8 @@
   </node>
   <node concept="1TIwiD" id="DUXtH0uYK3">
     <property role="EcuMT" value="755186209566485507" />
-    <property role="TrG5h" value="ConvertFromLionWeb" />
-    <property role="34LRSv" value="Convert from LIonWeb" />
+    <property role="TrG5h" value="ConvertLanguageFromLionCore" />
+    <property role="34LRSv" value="Convert Language from LIonCore" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="DUXtH0uYUG" role="PzmwI">
@@ -77,9 +87,9 @@
   </node>
   <node concept="1TIwiD" id="z1IqfFSzDB">
     <property role="EcuMT" value="630989536496859751" />
-    <property role="TrG5h" value="ImportFromJson" />
+    <property role="TrG5h" value="ImportLanguageFromJson" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Import from JSON" />
+    <property role="34LRSv" value="Import Language from JSON" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="z1IqfFSzOc" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -93,6 +103,7 @@
   <node concept="1TIwiD" id="48csSBOOT6J">
     <property role="EcuMT" value="4759305942578991535" />
     <property role="TrG5h" value="TestContainer" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyj" id="48csSBOOTdg" role="1TKVEi">
       <property role="IQ2ns" value="4759305942578991952" />
@@ -104,8 +115,8 @@
   </node>
   <node concept="1TIwiD" id="7qGUpN3ChNP">
     <property role="EcuMT" value="8551466651976015093" />
-    <property role="TrG5h" value="ExportToJson" />
-    <property role="34LRSv" value="Export to JSON" />
+    <property role="TrG5h" value="ExportLanguageToJson" />
+    <property role="34LRSv" value="Export Language to JSON" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="7qGUpN3Ci3p" role="PzmwI">
@@ -129,6 +140,61 @@
       <property role="20kJfa" value="metamodels" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39$JcGF9mnt">
+    <property role="EcuMT" value="3631234780355716573" />
+    <property role="TrG5h" value="ExportInstanceToJson" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Export Instance to JSON" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="39$JcGF9mYy" role="1TKVEi">
+      <property role="IQ2ns" value="3631234780355719074" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="instances" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="39$JcGF9n8k" resolve="NodeRef" />
+    </node>
+    <node concept="1TJgyi" id="39$JcGF9m$w" role="1TKVEl">
+      <property role="IQ2nx" value="3631234780355717408" />
+      <property role="TrG5h" value="path" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="39$JcGFaigm" role="1TKVEl">
+      <property role="IQ2nx" value="3631234780355961878" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="39$JcGFainj" resolve="ExportScope" />
+    </node>
+    <node concept="PrWs8" id="39$JcGF9mvA" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39$JcGF9n8k">
+    <property role="EcuMT" value="3631234780355719700" />
+    <property role="TrG5h" value="NodeRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="39$JcGF9nff" role="1TKVEi">
+      <property role="IQ2ns" value="3631234780355720143" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="25R3W" id="39$JcGFainj">
+    <property role="3F6X1D" value="3631234780355962323" />
+    <property role="TrG5h" value="ExportScope" />
+    <ref role="1H5jkz" node="39$JcGFaink" resolve="listed" />
+    <node concept="25R33" id="39$JcGFaink" role="25R1y">
+      <property role="3tVfz5" value="3631234780355962324" />
+      <property role="TrG5h" value="listed" />
+    </node>
+    <node concept="25R33" id="39$JcGFainl" role="25R1y">
+      <property role="3tVfz5" value="3631234780355962325" />
+      <property role="TrG5h" value="descendants" />
+    </node>
+    <node concept="25R33" id="39$JcGFaino" role="25R1y">
+      <property role="3tVfz5" value="3631234780355962328" />
+      <property role="TrG5h" value="closure" />
     </node>
   </node>
 </model>
