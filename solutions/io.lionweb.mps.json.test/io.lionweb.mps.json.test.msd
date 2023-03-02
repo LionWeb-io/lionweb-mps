@@ -20,6 +20,7 @@
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />
     <language slang="l:01cf0d82-8d29-4fc4-be96-28abaf4ad33d:io.lionweb.mps.m3" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
