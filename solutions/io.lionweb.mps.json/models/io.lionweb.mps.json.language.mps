@@ -26,6 +26,7 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
+    <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="sp3y" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model.impl(org.lionweb.lioncore.java/)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
@@ -44,6 +45,9 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
+        <child id="1076505808688" name="condition" index="2$JKZa" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -232,6 +236,12 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1237467461002" name="jetbrains.mps.baseLanguage.collections.structure.GetIteratorOperation" flags="nn" index="uNJiE" />
+      <concept id="1237467705688" name="jetbrains.mps.baseLanguage.collections.structure.IteratorType" flags="in" index="uOF1S">
+        <child id="1237467730343" name="elementType" index="uOL27" />
+      </concept>
+      <concept id="1237470895604" name="jetbrains.mps.baseLanguage.collections.structure.HasNextOperation" flags="nn" index="v0PNk" />
+      <concept id="1237471031357" name="jetbrains.mps.baseLanguage.collections.structure.GetNextOperation" flags="nn" index="v1n4t" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -247,10 +257,15 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435808" name="initValue" index="HW$Y0" />
+        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      </concept>
       <concept id="1201306600024" name="jetbrains.mps.baseLanguage.collections.structure.ContainsKeyOperation" flags="nn" index="2Nt0df">
         <child id="1201654602639" name="key" index="38cxEo" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
@@ -593,75 +608,117 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="48csSBNRe_M" role="3cqZAp">
-          <node concept="37vLTI" id="48csSBNRe_N" role="3clFbG">
-            <node concept="2OqwBi" id="48csSBNRe_O" role="37vLTx">
-              <node concept="37vLTw" id="48csSBNRe_P" role="2Oq$k0">
-                <ref role="3cqZAo" node="48csSBNSpzW" resolve="constants" />
-              </node>
-              <node concept="2PDubS" id="48csSBPELey" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getString()" resolve="getString" />
+        <node concept="3clFbH" id="4TKJARV8geF" role="3cqZAp" />
+        <node concept="3cpWs8" id="4TKJARV8gT1" role="3cqZAp">
+          <node concept="3cpWsn" id="4TKJARV8gT2" role="3cpWs9">
+            <property role="TrG5h" value="jsonDataTypeIter" />
+            <node concept="uOF1S" id="4TKJARV8gT3" role="1tU5fm">
+              <node concept="3uibUv" id="4TKJARV8gT4" role="uOL27">
+                <ref role="3uigEE" to="tozv:~DataType" resolve="DataType" />
               </node>
             </node>
-            <node concept="3EllGN" id="48csSBNRe_R" role="37vLTJ">
-              <node concept="10M0yZ" id="48csSBNSErj" role="3ElVtu">
-                <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.STRING" resolve="STRING" />
-                <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+            <node concept="2OqwBi" id="4TKJARV8gT5" role="33vP2m">
+              <node concept="2YIFZM" id="4TKJARV8gT6" role="2Oq$k0">
+                <ref role="37wK5l" to="6peh:39$JcGFQlAu" resolve="listJsonPrimitiveTypes" />
+                <ref role="1Pybhc" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
+                <node concept="37vLTw" id="4TKJARV8gT7" role="37wK5m">
+                  <ref role="3cqZAo" node="48csSBNSpzW" resolve="builtins" />
+                </node>
               </node>
-              <node concept="2OqwBi" id="48csSBNRe_V" role="3ElQJh">
-                <node concept="Xjq3P" id="48csSBNRe_W" role="2Oq$k0" />
-                <node concept="2OwXpG" id="48csSBNRe_X" role="2OqNvi">
-                  <ref role="2Oxat5" node="48csSBNRe$5" resolve="dataTypes" />
+              <node concept="uNJiE" id="4TKJARV8gT8" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4TKJARV8gT9" role="3cqZAp">
+          <node concept="1PaTwC" id="4TKJARV8gTa" role="1aUNEU">
+            <node concept="3oM_SD" id="4TKJARV8gTb" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV8gTc" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV8gTd" role="1PaTwD">
+              <property role="3oM_SC" value="list" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV8gTe" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV8gTf" role="1PaTwD">
+              <property role="3oM_SC" value="LionCoreConstants.listSLanguagePrimitiveTypes()" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4TKJARV8gTg" role="3cqZAp">
+          <node concept="3cpWsn" id="4TKJARV8gTh" role="3cpWs9">
+            <property role="TrG5h" value="sDataTypeIter" />
+            <node concept="uOF1S" id="4TKJARV8gTi" role="1tU5fm">
+              <node concept="3uibUv" id="4TKJARV8gTj" role="uOL27">
+                <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4TKJARV8gTk" role="33vP2m">
+              <node concept="2ShNRf" id="4TKJARV8gTl" role="2Oq$k0">
+                <node concept="Tc6Ow" id="4TKJARV8gTm" role="2ShVmc">
+                  <node concept="3uibUv" id="4TKJARV8gTn" role="HW$YZ">
+                    <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+                  </node>
+                  <node concept="10M0yZ" id="4TKJARV8gTo" role="HW$Y0">
+                    <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.BOOLEAN" resolve="BOOLEAN" />
+                    <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+                  </node>
+                  <node concept="10M0yZ" id="4TKJARV8gTp" role="HW$Y0">
+                    <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.INTEGER" resolve="INTEGER" />
+                    <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+                  </node>
+                  <node concept="10M0yZ" id="4TKJARV8gTq" role="HW$Y0">
+                    <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.STRING" resolve="STRING" />
+                    <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+                  </node>
+                </node>
+              </node>
+              <node concept="uNJiE" id="4TKJARV8gTr" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="2$JKZl" id="4TKJARV8gTI" role="3cqZAp">
+          <node concept="3clFbS" id="4TKJARV8gTJ" role="2LFqv$">
+            <node concept="3clFbF" id="4TKJARV8gTK" role="3cqZAp">
+              <node concept="37vLTI" id="4TKJARV8gTL" role="3clFbG">
+                <node concept="2OqwBi" id="4TKJARV8gTM" role="37vLTx">
+                  <node concept="37vLTw" id="4TKJARV8gTN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4TKJARV8gT2" resolve="jsonDataTypeIter" />
+                  </node>
+                  <node concept="v1n4t" id="4TKJARV8gTO" role="2OqNvi" />
+                </node>
+                <node concept="3EllGN" id="4TKJARV8gTP" role="37vLTJ">
+                  <node concept="2OqwBi" id="4TKJARV8gTQ" role="3ElVtu">
+                    <node concept="37vLTw" id="4TKJARV8gTR" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4TKJARV8gTh" resolve="sDataTypeIter" />
+                    </node>
+                    <node concept="v1n4t" id="4TKJARV8gTS" role="2OqNvi" />
+                  </node>
+                  <node concept="2OqwBi" id="4TKJARV8gTT" role="3ElQJh">
+                    <node concept="Xjq3P" id="4TKJARV8gTU" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="4TKJARV8gTV" role="2OqNvi">
+                      <ref role="2Oxat5" node="48csSBNRe$5" resolve="dataTypes" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="48csSBNRe_Y" role="3cqZAp">
-          <node concept="37vLTI" id="48csSBNRe_Z" role="3clFbG">
-            <node concept="2OqwBi" id="48csSBNReA0" role="37vLTx">
-              <node concept="37vLTw" id="48csSBNReA1" role="2Oq$k0">
-                <ref role="3cqZAo" node="48csSBNSpzW" resolve="constants" />
+          <node concept="1Wc70l" id="4TKJARV8gTW" role="2$JKZa">
+            <node concept="2OqwBi" id="4TKJARV8gTX" role="3uHU7w">
+              <node concept="37vLTw" id="4TKJARV8gTY" role="2Oq$k0">
+                <ref role="3cqZAo" node="4TKJARV8gTh" resolve="sDataTypeIter" />
               </node>
-              <node concept="2PDubS" id="48csSBPELDi" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
-              </node>
+              <node concept="v0PNk" id="4TKJARV8gTZ" role="2OqNvi" />
             </node>
-            <node concept="3EllGN" id="48csSBNReA3" role="37vLTJ">
-              <node concept="2OqwBi" id="48csSBNReA7" role="3ElQJh">
-                <node concept="Xjq3P" id="48csSBNReA8" role="2Oq$k0" />
-                <node concept="2OwXpG" id="48csSBNReA9" role="2OqNvi">
-                  <ref role="2Oxat5" node="48csSBNRe$5" resolve="dataTypes" />
-                </node>
+            <node concept="2OqwBi" id="4TKJARV8gU0" role="3uHU7B">
+              <node concept="37vLTw" id="4TKJARV8gU1" role="2Oq$k0">
+                <ref role="3cqZAo" node="4TKJARV8gT2" resolve="jsonDataTypeIter" />
               </node>
-              <node concept="10M0yZ" id="48csSBNSFoe" role="3ElVtu">
-                <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.BOOLEAN" resolve="BOOLEAN" />
-                <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="48csSBPELXs" role="3cqZAp">
-          <node concept="37vLTI" id="48csSBPELXt" role="3clFbG">
-            <node concept="2OqwBi" id="48csSBPELXu" role="37vLTx">
-              <node concept="37vLTw" id="48csSBPELXv" role="2Oq$k0">
-                <ref role="3cqZAo" node="48csSBNSpzW" resolve="builtins" />
-              </node>
-              <node concept="2PDubS" id="48csSBPELXw" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
-              </node>
-            </node>
-            <node concept="3EllGN" id="48csSBPELXx" role="37vLTJ">
-              <node concept="2OqwBi" id="48csSBPELXy" role="3ElQJh">
-                <node concept="Xjq3P" id="48csSBPELXz" role="2Oq$k0" />
-                <node concept="2OwXpG" id="48csSBPELX$" role="2OqNvi">
-                  <ref role="2Oxat5" node="48csSBNRe$5" resolve="dataTypes" />
-                </node>
-              </node>
-              <node concept="10M0yZ" id="48csSBPEMtE" role="3ElVtu">
-                <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.INTEGER" resolve="INTEGER" />
-                <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
-              </node>
+              <node concept="v0PNk" id="4TKJARV8gU2" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -4667,75 +4724,117 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2fx6VTRFqxy" role="3cqZAp">
-          <node concept="37vLTI" id="2fx6VTRFqxz" role="3clFbG">
-            <node concept="10M0yZ" id="2fx6VTRHMKH" role="37vLTx">
-              <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.STRING" resolve="STRING" />
-              <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
-            </node>
-            <node concept="3EllGN" id="2fx6VTRFqxB" role="37vLTJ">
-              <node concept="2OqwBi" id="2fx6VTRFqxD" role="3ElQJh">
-                <node concept="Xjq3P" id="2fx6VTRFqxE" role="2Oq$k0" />
-                <node concept="2OwXpG" id="2fx6VTRFqxF" role="2OqNvi">
-                  <ref role="2Oxat5" node="2fx6VTRFqwE" resolve="dataTypes" />
-                </node>
+        <node concept="3clFbH" id="4TKJARV6mnF" role="3cqZAp" />
+        <node concept="3cpWs8" id="39$JcGFOmsB" role="3cqZAp">
+          <node concept="3cpWsn" id="39$JcGFOmsC" role="3cpWs9">
+            <property role="TrG5h" value="jsonDataTypeIter" />
+            <node concept="uOF1S" id="39$JcGFOmoE" role="1tU5fm">
+              <node concept="3uibUv" id="4TKJARV7gjb" role="uOL27">
+                <ref role="3uigEE" to="tozv:~DataType" resolve="DataType" />
               </node>
-              <node concept="2OqwBi" id="2fx6VTRHLsv" role="3ElVtu">
-                <node concept="37vLTw" id="2fx6VTRHLsw" role="2Oq$k0">
+            </node>
+            <node concept="2OqwBi" id="39$JcGFOmsD" role="33vP2m">
+              <node concept="2YIFZM" id="4TKJARV7kMU" role="2Oq$k0">
+                <ref role="37wK5l" to="6peh:39$JcGFQlAu" resolve="listJsonPrimitiveTypes" />
+                <ref role="1Pybhc" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
+                <node concept="37vLTw" id="4TKJARV7liS" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqy0" resolve="builtins" />
                 </node>
-                <node concept="2PDubS" id="2fx6VTRHLsx" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getString()" resolve="getString" />
+              </node>
+              <node concept="uNJiE" id="39$JcGFOmsH" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4TKJARV7Cm0" role="3cqZAp">
+          <node concept="1PaTwC" id="4TKJARV7Cm1" role="1aUNEU">
+            <node concept="3oM_SD" id="4TKJARV7COJ" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV7COL" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV7COO" role="1PaTwD">
+              <property role="3oM_SC" value="list" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV7COS" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="4TKJARV7DDe" role="1PaTwD">
+              <property role="3oM_SC" value="LionCoreConstants.listSLanguagePrimitiveTypes()" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="39$JcGFOvA3" role="3cqZAp">
+          <node concept="3cpWsn" id="39$JcGFOvA4" role="3cpWs9">
+            <property role="TrG5h" value="sDataTypeIter" />
+            <node concept="uOF1S" id="39$JcGFOvyk" role="1tU5fm">
+              <node concept="3uibUv" id="4TKJARV7mOf" role="uOL27">
+                <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4TKJARV7zxL" role="33vP2m">
+              <node concept="2ShNRf" id="39$JcGFCaZX" role="2Oq$k0">
+                <node concept="Tc6Ow" id="39$JcGFCbrr" role="2ShVmc">
+                  <node concept="3uibUv" id="39$JcGFCdyU" role="HW$YZ">
+                    <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+                  </node>
+                  <node concept="10M0yZ" id="39$JcGFClgy" role="HW$Y0">
+                    <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.BOOLEAN" resolve="BOOLEAN" />
+                    <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+                  </node>
+                  <node concept="10M0yZ" id="39$JcGFCls8" role="HW$Y0">
+                    <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.INTEGER" resolve="INTEGER" />
+                    <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+                  </node>
+                  <node concept="10M0yZ" id="39$JcGFClBA" role="HW$Y0">
+                    <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.STRING" resolve="STRING" />
+                    <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+                  </node>
+                </node>
+              </node>
+              <node concept="uNJiE" id="4TKJARV7$Ge" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="2$JKZl" id="39$JcGFOwSa" role="3cqZAp">
+          <node concept="3clFbS" id="39$JcGFOwSc" role="2LFqv$">
+            <node concept="3clFbF" id="39$JcGFOzY6" role="3cqZAp">
+              <node concept="37vLTI" id="4TKJARV7HAW" role="3clFbG">
+                <node concept="2OqwBi" id="4TKJARV7IBT" role="37vLTx">
+                  <node concept="37vLTw" id="4TKJARV7I3y" role="2Oq$k0">
+                    <ref role="3cqZAo" node="39$JcGFOvA4" resolve="mpsDataTypeIter" />
+                  </node>
+                  <node concept="v1n4t" id="4TKJARV7Je8" role="2OqNvi" />
+                </node>
+                <node concept="3EllGN" id="4TKJARV7Ftt" role="37vLTJ">
+                  <node concept="2OqwBi" id="4TKJARV7GtQ" role="3ElVtu">
+                    <node concept="37vLTw" id="4TKJARV7FUe" role="2Oq$k0">
+                      <ref role="3cqZAo" node="39$JcGFOmsC" resolve="jsonDataTypeIter" />
+                    </node>
+                    <node concept="v1n4t" id="4TKJARV7H3A" role="2OqNvi" />
+                  </node>
+                  <node concept="2OqwBi" id="4TKJARV7E7f" role="3ElQJh">
+                    <node concept="Xjq3P" id="4TKJARV7DEI" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="4TKJARV7EI3" role="2OqNvi">
+                      <ref role="2Oxat5" node="2fx6VTRFqwE" resolve="dataTypes" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="2fx6VTRHWMe" role="3cqZAp">
-          <node concept="37vLTI" id="2fx6VTRHWMf" role="3clFbG">
-            <node concept="10M0yZ" id="2fx6VTRI1FO" role="37vLTx">
-              <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.BOOLEAN" resolve="BOOLEAN" />
-              <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+          <node concept="1Wc70l" id="39$JcGFOyHf" role="2$JKZa">
+            <node concept="2OqwBi" id="39$JcGFOznC" role="3uHU7w">
+              <node concept="37vLTw" id="39$JcGFOyYc" role="2Oq$k0">
+                <ref role="3cqZAo" node="39$JcGFOvA4" resolve="mpsDataTypeIter" />
+              </node>
+              <node concept="v0PNk" id="39$JcGFOzMr" role="2OqNvi" />
             </node>
-            <node concept="3EllGN" id="2fx6VTRHWMh" role="37vLTJ">
-              <node concept="2OqwBi" id="2fx6VTRHWMi" role="3ElQJh">
-                <node concept="Xjq3P" id="2fx6VTRHWMj" role="2Oq$k0" />
-                <node concept="2OwXpG" id="2fx6VTRHWMk" role="2OqNvi">
-                  <ref role="2Oxat5" node="2fx6VTRFqwE" resolve="dataTypes" />
-                </node>
+            <node concept="2OqwBi" id="39$JcGFOxIq" role="3uHU7B">
+              <node concept="37vLTw" id="39$JcGFOxcx" role="2Oq$k0">
+                <ref role="3cqZAo" node="39$JcGFOmsC" resolve="lcDataTypeIter" />
               </node>
-              <node concept="2OqwBi" id="2fx6VTRHWMl" role="3ElVtu">
-                <node concept="37vLTw" id="2fx6VTRHWMm" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2fx6VTRFqy0" resolve="builtins" />
-                </node>
-                <node concept="2PDubS" id="2fx6VTRHWMn" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2fx6VTRHWNo" role="3cqZAp">
-          <node concept="37vLTI" id="2fx6VTRHWNp" role="3clFbG">
-            <node concept="10M0yZ" id="2fx6VTRI25$" role="37vLTx">
-              <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.INTEGER" resolve="INTEGER" />
-              <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
-            </node>
-            <node concept="3EllGN" id="2fx6VTRHWNr" role="37vLTJ">
-              <node concept="2OqwBi" id="2fx6VTRHWNs" role="3ElQJh">
-                <node concept="Xjq3P" id="2fx6VTRHWNt" role="2Oq$k0" />
-                <node concept="2OwXpG" id="2fx6VTRHWNu" role="2OqNvi">
-                  <ref role="2Oxat5" node="2fx6VTRFqwE" resolve="dataTypes" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="2fx6VTRHWNv" role="3ElVtu">
-                <node concept="37vLTw" id="2fx6VTRHWNw" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2fx6VTRFqy0" resolve="builtins" />
-                </node>
-                <node concept="2PDubS" id="2fx6VTRI0mE" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
-                </node>
-              </node>
+              <node concept="v0PNk" id="39$JcGFOyan" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -5590,7 +5689,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqDO" resolve="json" />
                 </node>
                 <node concept="liA8E" id="2fx6VTRS2Ws" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~Metamodel.getQualifiedName()" resolve="getQualifiedName" />
+                  <ref role="37wK5l" to="tozv:~Metamodel.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -5611,7 +5710,7 @@
                       <ref role="3cqZAo" node="2fx6VTRFqDO" resolve="json" />
                     </node>
                     <node concept="liA8E" id="2fx6VTRUvnt" role="2OqNvi">
-                      <ref role="37wK5l" to="tozv:~Metamodel.getQualifiedName()" resolve="getQualifiedName" />
+                      <ref role="37wK5l" to="tozv:~Metamodel.getName()" resolve="getName" />
                     </node>
                   </node>
                 </node>

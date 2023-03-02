@@ -55,9 +55,6 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -789,72 +786,46 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="z1IqfGftFF" role="3cqZAp">
-          <node concept="1PaTwC" id="z1IqfGftFG" role="1aUNEU">
-            <node concept="3oM_SD" id="z1IqfGftXB" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
-            </node>
-            <node concept="3oM_SD" id="z1IqfGftXD" role="1PaTwD">
-              <property role="3oM_SC" value="fixme" />
-            </node>
+        <node concept="2Gpval" id="4TKJARV4022" role="3cqZAp">
+          <node concept="2GrKxI" id="4TKJARV4024" role="2Gsz3X">
+            <property role="TrG5h" value="builtin" />
           </node>
-        </node>
-        <node concept="3clFbF" id="z1IqfGfuiR" role="3cqZAp">
-          <node concept="37vLTI" id="z1IqfGfwaA" role="3clFbG">
-            <node concept="2OqwBi" id="z1IqfGfx6e" role="37vLTx">
-              <node concept="37vLTw" id="z1IqfGfwzR" role="2Oq$k0">
-                <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
-              </node>
-              <node concept="2PDubS" id="z1IqfGfysd" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
-              </node>
-            </node>
-            <node concept="3EllGN" id="z1IqfGfuXA" role="37vLTJ">
-              <node concept="Xl_RD" id="z1IqfGfveE" role="3ElVtu">
-                <property role="Xl_RC" value="LIonCore_M3_boolean" />
-              </node>
-              <node concept="37vLTw" id="z1IqfGfuiP" role="3ElQJh">
-                <ref role="3cqZAo" node="z1IqfG8ZQW" resolve="dataTypeIds" />
+          <node concept="3clFbS" id="4TKJARV4028" role="2LFqv$">
+            <node concept="3clFbF" id="z1IqfGfuiR" role="3cqZAp">
+              <node concept="37vLTI" id="z1IqfGfwaA" role="3clFbG">
+                <node concept="2GrUjf" id="4TKJARV4laE" role="37vLTx">
+                  <ref role="2Gs0qQ" node="4TKJARV4024" resolve="builtin" />
+                </node>
+                <node concept="3EllGN" id="z1IqfGfuXA" role="37vLTJ">
+                  <node concept="37vLTw" id="z1IqfGfuiP" role="3ElQJh">
+                    <ref role="3cqZAo" node="z1IqfG8ZQW" resolve="dataTypeIds" />
+                  </node>
+                  <node concept="2OqwBi" id="4TKJARV3VKX" role="3ElVtu">
+                    <node concept="37vLTw" id="4TKJARV4jYS" role="2Oq$k0">
+                      <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
+                    </node>
+                    <node concept="liA8E" id="4TKJARV3WUU" role="2OqNvi">
+                      <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="z1IqfGfyGK" role="3cqZAp">
-          <node concept="37vLTI" id="z1IqfGfyGL" role="3clFbG">
-            <node concept="2OqwBi" id="z1IqfGfyGM" role="37vLTx">
-              <node concept="37vLTw" id="z1IqfGfyGN" role="2Oq$k0">
-                <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
-              </node>
-              <node concept="2PDubS" id="z1IqfGfyGO" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getString()" resolve="getString" />
+          <node concept="2OqwBi" id="4TKJARV5eZq" role="2GsD0m">
+            <node concept="2ShNRf" id="4TKJARV44nL" role="2Oq$k0">
+              <node concept="HV5vD" id="4TKJARV5eoJ" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="HV5vE" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
               </node>
             </node>
-            <node concept="3EllGN" id="z1IqfGfyGP" role="37vLTJ">
-              <node concept="Xl_RD" id="z1IqfGfyGQ" role="3ElVtu">
-                <property role="Xl_RC" value="LIonCore_M3_String" />
-              </node>
-              <node concept="37vLTw" id="z1IqfGfyGR" role="3ElQJh">
-                <ref role="3cqZAo" node="z1IqfG8ZQW" resolve="dataTypeIds" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6VkSF6c7ib$" role="3cqZAp">
-          <node concept="37vLTI" id="6VkSF6c7ib_" role="3clFbG">
-            <node concept="2OqwBi" id="6VkSF6c7ibA" role="37vLTx">
-              <node concept="37vLTw" id="6VkSF6c7ibB" role="2Oq$k0">
-                <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
-              </node>
-              <node concept="2PDubS" id="6VkSF6c7ibC" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
-              </node>
-            </node>
-            <node concept="3EllGN" id="6VkSF6c7ibD" role="37vLTJ">
-              <node concept="Xl_RD" id="6VkSF6c7ibE" role="3ElVtu">
-                <property role="Xl_RC" value="LIonCore_M3_integer" />
-              </node>
-              <node concept="37vLTw" id="6VkSF6c7ibF" role="3ElQJh">
-                <ref role="3cqZAo" node="z1IqfG8ZQW" resolve="dataTypeIds" />
+            <node concept="2PDubS" id="4TKJARV5fA8" role="2OqNvi">
+              <ref role="37wK5l" to="6peh:39$JcGFQlAu" resolve="listJsonPrimitiveTypes" />
+              <node concept="2OqwBi" id="4TKJARV5gGs" role="37wK5m">
+                <node concept="Xjq3P" id="4TKJARV5g9D" role="2Oq$k0" />
+                <node concept="2OwXpG" id="4TKJARV5h9r" role="2OqNvi">
+                  <ref role="2Oxat5" node="39$JcGF2la_" resolve="builtins" />
+                </node>
               </node>
             </node>
           </node>
@@ -1123,7 +1094,7 @@
                         <ref role="3cqZAo" node="z1IqfFx1JO" resolve="json" />
                       </node>
                       <node concept="liA8E" id="z1IqfFx5mM" role="2OqNvi">
-                        <ref role="37wK5l" to="tozv:~Metamodel.getQualifiedName()" resolve="getQualifiedName" />
+                        <ref role="37wK5l" to="tozv:~Metamodel.getName()" resolve="getName" />
                       </node>
                     </node>
                   </node>

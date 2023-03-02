@@ -21,6 +21,7 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
+    <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -154,6 +155,12 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569906740" name="parameter" index="1bW2Oz" />
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
@@ -716,12 +723,30 @@
                   <ref role="3cqZAo" node="48csSBQ1qnm" resolve="json" />
                 </node>
                 <node concept="liA8E" id="48csSBQ3nt9" role="2OqNvi">
-                  <ref role="37wK5l" to="t3jk:~HasFeatureValues.addReferredNode(org.lionweb.lioncore.java.metamodel.Reference,org.lionweb.lioncore.java.model.Node)" resolve="addReferredNode" />
+                  <ref role="37wK5l" to="t3jk:~HasFeatureValues.addReferenceValue(org.lionweb.lioncore.java.metamodel.Reference,org.lionweb.lioncore.java.model.ReferenceValue)" resolve="addReferenceValue" />
                   <node concept="37vLTw" id="48csSBQ3nta" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBQ3nsT" resolve="metaJson" />
                   </node>
-                  <node concept="37vLTw" id="48csSBQ3ntb" role="37wK5m">
-                    <ref role="3cqZAo" node="48csSBQ3nt2" resolve="target" />
+                  <node concept="2ShNRf" id="4TKJARUI6Y1" role="37wK5m">
+                    <node concept="1pGfFk" id="4TKJARUI6Xw" role="2ShVmc">
+                      <ref role="37wK5l" to="t3jk:~ReferenceValue.&lt;init&gt;(org.lionweb.lioncore.java.model.Node,java.lang.String)" resolve="ReferenceValue" />
+                      <node concept="37vLTw" id="4TKJARUI822" role="37wK5m">
+                        <ref role="3cqZAo" node="48csSBQ3nt2" resolve="target" />
+                      </node>
+                      <node concept="2OqwBi" id="4TKJARUIbtB" role="37wK5m">
+                        <node concept="2OqwBi" id="4TKJARUI9WX" role="2Oq$k0">
+                          <node concept="2GrUjf" id="4TKJARUI9lf" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="48csSBQ3iFX" resolve="mpsRef" />
+                          </node>
+                          <node concept="liA8E" id="4TKJARUIaJW" role="2OqNvi">
+                            <ref role="37wK5l" to="mhbf:~SReference.describeTarget()" resolve="describeTarget" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="4TKJARUIcjU" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -938,7 +963,7 @@
           <ref role="3uigEE" to="tozv:~Reference" resolve="Reference" />
         </node>
         <node concept="3uibUv" id="48csSBNyvOI" role="11_B2D">
-          <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+          <ref role="3uigEE" to="t3jk:~ReferenceValue" resolve="ReferenceValue" />
         </node>
       </node>
       <node concept="2YIFZM" id="48csSBNyvOJ" role="33vP2m">
@@ -1512,19 +1537,50 @@
           <node concept="2YIFZM" id="6VkSF6aDAND" role="3clFbG">
             <ref role="37wK5l" to="33ny:~Collections.unmodifiableList(java.util.List)" resolve="unmodifiableList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <node concept="2YIFZM" id="6VkSF6aDANE" role="37wK5m">
-              <ref role="37wK5l" to="3o3z:~Lists.newCopyOnWriteArrayList(java.lang.Iterable)" resolve="newCopyOnWriteArrayList" />
-              <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
-              <node concept="2OqwBi" id="6VkSF6aDANF" role="37wK5m">
-                <node concept="37vLTw" id="6VkSF6aDANG" role="2Oq$k0">
-                  <ref role="3cqZAo" node="48csSBNyvOE" resolve="references" />
-                </node>
-                <node concept="liA8E" id="6VkSF6aDANH" role="2OqNvi">
-                  <ref role="37wK5l" to="3o3z:~Multimap.get(java.lang.Object)" resolve="get" />
-                  <node concept="37vLTw" id="6VkSF6aDANI" role="37wK5m">
-                    <ref role="3cqZAo" node="6VkSF6aD_rF" resolve="reference" />
+            <node concept="2OqwBi" id="4TKJARUINk4" role="37wK5m">
+              <node concept="2OqwBi" id="4TKJARUItS2" role="2Oq$k0">
+                <node concept="2OqwBi" id="4TKJARUIpnA" role="2Oq$k0">
+                  <node concept="2OqwBi" id="6VkSF6aDANF" role="2Oq$k0">
+                    <node concept="37vLTw" id="6VkSF6aDANG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="48csSBNyvOE" resolve="references" />
+                    </node>
+                    <node concept="liA8E" id="6VkSF6aDANH" role="2OqNvi">
+                      <ref role="37wK5l" to="3o3z:~Multimap.get(java.lang.Object)" resolve="get" />
+                      <node concept="37vLTw" id="6VkSF6aDANI" role="37wK5m">
+                        <ref role="3cqZAo" node="6VkSF6aD_rF" resolve="reference" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4TKJARUIqQp" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Collection.stream()" resolve="stream" />
                   </node>
                 </node>
+                <node concept="liA8E" id="4TKJARUIvyH" role="2OqNvi">
+                  <ref role="37wK5l" to="1ctc:~Stream.map(java.util.function.Function)" resolve="map" />
+                  <node concept="1bVj0M" id="4TKJARUIx5I" role="37wK5m">
+                    <node concept="37vLTG" id="4TKJARUIzu9" role="1bW2Oz">
+                      <property role="TrG5h" value="rv" />
+                      <node concept="3uibUv" id="4TKJARUIBJ5" role="1tU5fm">
+                        <ref role="3uigEE" to="t3jk:~ReferenceValue" resolve="ReferenceValue" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="4TKJARUIx5J" role="1bW5cS">
+                      <node concept="3clFbF" id="4TKJARUID3C" role="3cqZAp">
+                        <node concept="2OqwBi" id="4TKJARUIE5Y" role="3clFbG">
+                          <node concept="37vLTw" id="4TKJARUID3B" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4TKJARUIzu9" resolve="rv" />
+                          </node>
+                          <node concept="liA8E" id="4TKJARUIFp_" role="2OqNvi">
+                            <ref role="37wK5l" to="t3jk:~ReferenceValue.getReferred()" resolve="getReferred" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="4TKJARUIPkB" role="2OqNvi">
+                <ref role="37wK5l" to="1ctc:~Stream.toList()" resolve="toList" />
               </node>
             </node>
           </node>
@@ -1548,41 +1604,84 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6VkSF6aDtL7" role="jymVt" />
-    <node concept="3clFb_" id="48csSBNwz2b" role="jymVt">
-      <property role="TrG5h" value="addReferredNode" />
-      <node concept="3Tm1VV" id="48csSBNwz2c" role="1B3o_S" />
-      <node concept="3cqZAl" id="48csSBNwz2e" role="3clF45" />
-      <node concept="37vLTG" id="48csSBNwz2f" role="3clF46">
+    <node concept="3clFb_" id="4TKJARUIfdO" role="jymVt">
+      <property role="TrG5h" value="getReferenceValues" />
+      <node concept="3Tm1VV" id="4TKJARUIfdP" role="1B3o_S" />
+      <node concept="3uibUv" id="4TKJARUIfdS" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="4TKJARUIfdT" role="11_B2D">
+          <ref role="3uigEE" to="t3jk:~ReferenceValue" resolve="ReferenceValue" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4TKJARUIfdU" role="3clF46">
         <property role="TrG5h" value="reference" />
-        <node concept="3uibUv" id="48csSBNwz2g" role="1tU5fm">
+        <node concept="3uibUv" id="4TKJARUIfdV" role="1tU5fm">
           <ref role="3uigEE" to="tozv:~Reference" resolve="Reference" />
         </node>
       </node>
-      <node concept="37vLTG" id="48csSBNwz2h" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3uibUv" id="48csSBNwz2i" role="1tU5fm">
-          <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="48csSBNwz2k" role="3clF47">
-        <node concept="3clFbF" id="48csSBNyBjX" role="3cqZAp">
-          <node concept="2OqwBi" id="48csSBNyCL$" role="3clFbG">
-            <node concept="37vLTw" id="48csSBNyBjW" role="2Oq$k0">
-              <ref role="3cqZAo" node="48csSBNyvOE" resolve="references" />
-            </node>
-            <node concept="liA8E" id="48csSBNyGC9" role="2OqNvi">
-              <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
-              <node concept="37vLTw" id="48csSBNyHXk" role="37wK5m">
-                <ref role="3cqZAo" node="48csSBNwz2f" resolve="reference" />
-              </node>
-              <node concept="37vLTw" id="48csSBNyJXA" role="37wK5m">
-                <ref role="3cqZAo" node="48csSBNwz2h" resolve="node" />
+      <node concept="3clFbS" id="4TKJARUIfdY" role="3clF47">
+        <node concept="3clFbF" id="4TKJARUImuN" role="3cqZAp">
+          <node concept="2YIFZM" id="4TKJARUImuO" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.unmodifiableList(java.util.List)" resolve="unmodifiableList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="2YIFZM" id="4TKJARUImuP" role="37wK5m">
+              <ref role="37wK5l" to="3o3z:~Lists.newCopyOnWriteArrayList(java.lang.Iterable)" resolve="newCopyOnWriteArrayList" />
+              <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
+              <node concept="2OqwBi" id="4TKJARUImuQ" role="37wK5m">
+                <node concept="37vLTw" id="4TKJARUImuR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="48csSBNyvOE" resolve="references" />
+                </node>
+                <node concept="liA8E" id="4TKJARUImuS" role="2OqNvi">
+                  <ref role="37wK5l" to="3o3z:~Multimap.get(java.lang.Object)" resolve="get" />
+                  <node concept="37vLTw" id="4TKJARUImuT" role="37wK5m">
+                    <ref role="3cqZAo" node="4TKJARUIfdU" resolve="reference" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="48csSBNwz2l" role="2AJF6D">
+      <node concept="2AHcQZ" id="4TKJARUIfdZ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4TKJARUIWfu" role="jymVt" />
+    <node concept="3clFb_" id="4TKJARUIfe2" role="jymVt">
+      <property role="TrG5h" value="addReferenceValue" />
+      <node concept="3Tm1VV" id="4TKJARUIfe3" role="1B3o_S" />
+      <node concept="3cqZAl" id="4TKJARUIfe5" role="3clF45" />
+      <node concept="37vLTG" id="4TKJARUIfe6" role="3clF46">
+        <property role="TrG5h" value="reference" />
+        <node concept="3uibUv" id="4TKJARUIfe7" role="1tU5fm">
+          <ref role="3uigEE" to="tozv:~Reference" resolve="Reference" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4TKJARUIfe9" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="4TKJARUIfea" role="1tU5fm">
+          <ref role="3uigEE" to="t3jk:~ReferenceValue" resolve="ReferenceValue" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4TKJARUIfed" role="3clF47">
+        <node concept="3clFbF" id="4TKJARUJ03M" role="3cqZAp">
+          <node concept="2OqwBi" id="4TKJARUJ28W" role="3clFbG">
+            <node concept="37vLTw" id="4TKJARUJ03L" role="2Oq$k0">
+              <ref role="3cqZAo" node="48csSBNyvOE" resolve="references" />
+            </node>
+            <node concept="liA8E" id="4TKJARUJ4TW" role="2OqNvi">
+              <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+              <node concept="37vLTw" id="4TKJARUJ6U_" role="37wK5m">
+                <ref role="3cqZAo" node="4TKJARUIfe6" resolve="reference" />
+              </node>
+              <node concept="37vLTw" id="4TKJARUJ92g" role="37wK5m">
+                <ref role="3cqZAo" node="4TKJARUIfe9" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4TKJARUIfee" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
