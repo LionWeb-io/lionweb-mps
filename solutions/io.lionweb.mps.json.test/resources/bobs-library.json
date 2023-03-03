@@ -25,7 +25,8 @@
       "references": {
         "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ": [
           {
-            "reference": "{id-jack-london}"
+            "reference": "{id-jack-london}",
+            "resolveInfo": null
           }
         ]
       }
