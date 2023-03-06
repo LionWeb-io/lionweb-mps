@@ -731,10 +731,20 @@
           <node concept="3clFbS" id="6VkSF6c$B85" role="3clFbx">
             <node concept="3clFbF" id="6VkSF6c$B86" role="3cqZAp">
               <node concept="2OqwBi" id="6VkSF6c$B87" role="3clFbG">
-                <node concept="2ShNRf" id="6VkSF6c$B88" role="2Oq$k0">
-                  <node concept="1pGfFk" id="6VkSF6c$B89" role="2ShVmc">
-                    <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="wy2b:~Gson.&lt;init&gt;()" resolve="Gson" />
+                <node concept="2OqwBi" id="4ei1_3SZtkM" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4ei1_3SZsjt" role="2Oq$k0">
+                    <node concept="2ShNRf" id="6VkSF6c$B88" role="2Oq$k0">
+                      <node concept="1pGfFk" id="6VkSF6c$B89" role="2ShVmc">
+                        <property role="373rjd" value="true" />
+                        <ref role="37wK5l" to="wy2b:~GsonBuilder.&lt;init&gt;()" resolve="GsonBuilder" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4ei1_3SZsQ6" role="2OqNvi">
+                      <ref role="37wK5l" to="wy2b:~GsonBuilder.serializeNulls()" resolve="serializeNulls" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4ei1_3SZtRD" role="2OqNvi">
+                    <ref role="37wK5l" to="wy2b:~GsonBuilder.create()" resolve="create" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6VkSF6c$B8a" role="2OqNvi">
