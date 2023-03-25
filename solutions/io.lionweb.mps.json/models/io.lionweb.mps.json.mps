@@ -68,6 +68,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -111,6 +112,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
@@ -207,7 +209,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="z1IqfFwqjS" role="1B3o_S" />
       <node concept="3uibUv" id="z1IqfFwqjU" role="1tU5fm">
-        <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
+        <ref role="3uigEE" to="guwi:~Reader" resolve="Reader" />
       </node>
     </node>
     <node concept="2tJIrI" id="z1IqfFwqqe" role="jymVt" />
@@ -223,8 +225,14 @@
                 <ref role="2Oxat5" node="z1IqfFwqjR" resolve="input" />
               </node>
             </node>
-            <node concept="37vLTw" id="z1IqfFwqk1" role="37vLTx">
-              <ref role="3cqZAo" node="z1IqfFwqi3" resolve="input" />
+            <node concept="2ShNRf" id="5wsogBctgTh" role="37vLTx">
+              <node concept="1pGfFk" id="5wsogBctgTi" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
+                <node concept="37vLTw" id="5wsogBctgTj" role="37wK5m">
+                  <ref role="3cqZAo" node="z1IqfFwqi3" resolve="input" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -233,6 +241,32 @@
         <property role="TrG5h" value="input" />
         <node concept="3uibUv" id="z1IqfFwqi2" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wsogBcth7p" role="jymVt" />
+    <node concept="3clFbW" id="5wsogBctgVc" role="jymVt">
+      <node concept="3cqZAl" id="5wsogBctgVd" role="3clF45" />
+      <node concept="3Tm1VV" id="5wsogBctgVe" role="1B3o_S" />
+      <node concept="3clFbS" id="5wsogBctgVf" role="3clF47">
+        <node concept="3clFbF" id="5wsogBctgVg" role="3cqZAp">
+          <node concept="37vLTI" id="5wsogBctgVh" role="3clFbG">
+            <node concept="2OqwBi" id="5wsogBctgVi" role="37vLTJ">
+              <node concept="Xjq3P" id="5wsogBctgVj" role="2Oq$k0" />
+              <node concept="2OwXpG" id="5wsogBctgVk" role="2OqNvi">
+                <ref role="2Oxat5" node="z1IqfFwqjR" resolve="input" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5wsogBcthnN" role="37vLTx">
+              <ref role="3cqZAo" node="5wsogBctgVo" resolve="input" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5wsogBctgVo" role="3clF46">
+        <property role="TrG5h" value="input" />
+        <node concept="3uibUv" id="5wsogBctgVp" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~Reader" resolve="Reader" />
         </node>
       </node>
     </node>
@@ -398,14 +432,8 @@
           <node concept="2YIFZM" id="5wsogBc3ZWW" role="3cqZAk">
             <ref role="37wK5l" to="wy2b:~JsonParser.parseReader(java.io.Reader)" resolve="parseReader" />
             <ref role="1Pybhc" to="wy2b:~JsonParser" resolve="JsonParser" />
-            <node concept="2ShNRf" id="5wsogBc3ZWX" role="37wK5m">
-              <node concept="1pGfFk" id="5wsogBc3ZWY" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
-                <node concept="37vLTw" id="5wsogBc3ZWZ" role="37wK5m">
-                  <ref role="3cqZAo" node="z1IqfFwqjR" resolve="input" />
-                </node>
-              </node>
+            <node concept="37vLTw" id="5wsogBcthuL" role="37wK5m">
+              <ref role="3cqZAo" node="z1IqfFwqjR" resolve="input" />
             </node>
           </node>
         </node>
@@ -430,22 +458,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5sACIIs_LbT" role="jymVt" />
-    <node concept="3clFbW" id="6VkSF6c$g$3" role="jymVt">
-      <node concept="3cqZAl" id="6VkSF6c$g$5" role="3clF45" />
-      <node concept="3Tm1VV" id="6VkSF6c$g$6" role="1B3o_S" />
-      <node concept="3clFbS" id="6VkSF6c$g$7" role="3clF47">
-        <node concept="1VxSAg" id="6VkSF6c$h7y" role="3cqZAp">
-          <ref role="37wK5l" node="5sACIIs_LbU" resolve="Serializer" />
-          <node concept="10QFUN" id="6VkSF6c$ho4" role="37wK5m">
-            <node concept="10Nm6u" id="6VkSF6c$ho3" role="10QFUP" />
-            <node concept="3uibUv" id="6VkSF6c$hnZ" role="10QFUM">
-              <ref role="3uigEE" to="c9jv:~JsonWriter" resolve="JsonWriter" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6VkSF6c$g1D" role="jymVt" />
     <node concept="3clFbW" id="6VkSF6c$eaY" role="jymVt">
       <node concept="37vLTG" id="6VkSF6c$fUF" role="3clF46">
         <property role="TrG5h" value="output" />
@@ -471,6 +483,7 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbT" id="5wsogBcwlHQ" role="37wK5m" />
         </node>
       </node>
     </node>
@@ -481,6 +494,10 @@
         <node concept="3uibUv" id="6VkSF6c$dxf" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
         </node>
+      </node>
+      <node concept="37vLTG" id="5wsogBcwl3n" role="3clF46">
+        <property role="TrG5h" value="prettyPrint" />
+        <node concept="10P_77" id="5wsogBcwl3o" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="6VkSF6c$d0V" role="3clF45" />
       <node concept="3Tm1VV" id="6VkSF6c$d0W" role="1B3o_S" />
@@ -495,6 +512,9 @@
                 <ref role="3cqZAo" node="6VkSF6c$dxe" resolve="writer" />
               </node>
             </node>
+          </node>
+          <node concept="37vLTw" id="5wsogBcwlxW" role="37wK5m">
+            <ref role="3cqZAo" node="5wsogBcwl3n" resolve="prettyPrint" />
           </node>
         </node>
       </node>
@@ -517,12 +537,36 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="5wsogBcwcnJ" role="3cqZAp">
+          <node concept="3clFbS" id="5wsogBcwcnL" role="3clFbx">
+            <node concept="3clFbF" id="39$JcGHfDIU" role="3cqZAp">
+              <node concept="2OqwBi" id="39$JcGHfDIV" role="3clFbG">
+                <node concept="37vLTw" id="39$JcGHfDIW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIs_LbQ" resolve="writer" />
+                </node>
+                <node concept="liA8E" id="39$JcGHfDIX" role="2OqNvi">
+                  <ref role="37wK5l" to="c9jv:~JsonWriter.setIndent(java.lang.String)" resolve="setIndent" />
+                  <node concept="Xl_RD" id="39$JcGHfDIY" role="37wK5m">
+                    <property role="Xl_RC" value="  " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="5wsogBcwcvI" role="3clFbw">
+            <ref role="3cqZAo" node="5wsogBcwbD7" resolve="prettyPrint" />
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="6VkSF6c$bHn" role="3clF46">
         <property role="TrG5h" value="jsonWriter" />
         <node concept="3uibUv" id="6VkSF6c$bHo" role="1tU5fm">
           <ref role="3uigEE" to="c9jv:~JsonWriter" resolve="JsonWriter" />
         </node>
+      </node>
+      <node concept="37vLTG" id="5wsogBcwbD7" role="3clF46">
+        <property role="TrG5h" value="prettyPrint" />
+        <node concept="10P_77" id="5wsogBcwbNL" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="5sACIIt3Zre" role="jymVt" />
