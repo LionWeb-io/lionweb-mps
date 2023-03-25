@@ -213,7 +213,7 @@
                 <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
               </node>
               <node concept="3TrcHB" id="59Df55kvp4c" role="2OqNvi">
-                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
               </node>
             </node>
             <node concept="1YBJjd" id="59Df55kvpjz" role="37wK5m">
@@ -251,7 +251,7 @@
                           <ref role="3cqZAo" node="59Df55kvxtK" resolve="it" />
                         </node>
                         <node concept="3TrcHB" id="59Df55kvyEE" role="2OqNvi">
-                          <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="id" />
+                          <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="59Df55kvyWS" role="37wK5m">
@@ -337,7 +337,7 @@
                   <ref role="QpYPw" node="59Df55kvWK6" resolve="assignNewId" />
                 </node>
                 <node concept="Xl_RD" id="59Df55kvOV$" role="2MkJ7o">
-                  <property role="Xl_RC" value="duplicate id" />
+                  <property role="Xl_RC" value="duplicate key" />
                 </node>
                 <node concept="2GrUjf" id="59Df55kvOYU" role="1urrMF">
                   <ref role="2Gs0qQ" node="59Df55kvLAJ" resolve="value" />
@@ -383,7 +383,7 @@
                 <node concept="Q6c8r" id="59Df55kvXWf" role="1m5AlR" />
               </node>
               <node concept="3TrcHB" id="59Df55kvY$D" role="2OqNvi">
-                <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="id" />
+                <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
               </node>
             </node>
             <node concept="2OqwBi" id="2ju2syjnCrI" role="37vLTx">
@@ -403,7 +403,7 @@
       <node concept="3clFbS" id="59Df55kvWKy" role="2VODD2">
         <node concept="3clFbF" id="59Df55kvWQN" role="3cqZAp">
           <node concept="Xl_RD" id="59Df55kvWQM" role="3clFbG">
-            <property role="Xl_RC" value="Assign new id" />
+            <property role="Xl_RC" value="Assign new key" />
           </node>
         </node>
       </node>

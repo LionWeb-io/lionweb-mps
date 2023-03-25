@@ -26050,7 +26050,7 @@
                         <ref role="3cqZAo" node="3ePT3MiTASV" resolve="it" />
                       </node>
                       <node concept="3TrcHB" id="3ePT3MiTD5L" role="2OqNvi">
-                        <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+                        <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
                       </node>
                     </node>
                   </node>
@@ -26319,7 +26319,7 @@
                 <ref role="3cqZAo" node="59Df55l9vw3" resolve="metamodel" />
               </node>
               <node concept="3TrcHB" id="59Df55ky4jm" role="2OqNvi">
-                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
               </node>
             </node>
           </node>

@@ -568,7 +568,7 @@
                             <ref role="3cqZAo" node="59Df55kqzUG" resolve="metamodel" />
                           </node>
                           <node concept="3TrcHB" id="59Df55lutTr" role="2OqNvi">
-                            <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+                            <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="59Df55lusBc" role="3uHU7B">
@@ -581,7 +581,7 @@
                             </node>
                           </node>
                           <node concept="3TrcHB" id="59Df55lut7y" role="2OqNvi">
-                            <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="id" />
+                            <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
                           </node>
                         </node>
                       </node>
