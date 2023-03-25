@@ -44,8 +44,8 @@
       <property role="TrG5h" value="JSON" />
     </node>
     <node concept="2RzPWn" id="39$JcGFBN1$" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_BaseConcept" />
-      <property role="TrG5h" value="BaseConcept" />
+      <property role="2RzON1" value="LIonCore_M3_Node" />
+      <property role="TrG5h" value="Node" />
     </node>
   </node>
 </model>
