@@ -234,6 +234,11 @@
       <property role="TrG5h" value="key" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="2chztJeDvZC" role="1TKVEl">
+      <property role="IQ2nx" value="2526956841135898600" />
+      <property role="TrG5h" value="version" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="PrWs8" id="2ju2syjknmE" role="PzmwI">
       <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
     </node>

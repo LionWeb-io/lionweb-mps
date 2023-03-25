@@ -89,7 +89,7 @@
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
       <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
-        <property id="2656571587264857353" name="id" index="2RzON1" />
+        <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
         <property id="2656571587264859572" name="multiple" index="2RzOhW" />
@@ -108,8 +108,9 @@
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn" />
-      <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Metamodel" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="id" index="2RzRSo" />
+      <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
+        <property id="2656571587264870352" name="key" index="2RzRSo" />
+        <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
       </concept>
     </language>
@@ -334,6 +335,7 @@
       <node concept="2RzRRF" id="59Df55kqJn0" role="1qenE9">
         <property role="2RzRSo" value="93" />
         <property role="TrG5h" value="AddReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kqJn7" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -362,6 +364,7 @@
       <node concept="2RzRRF" id="59Df55krQSJ" role="1qenE9">
         <property role="2RzRSo" value="93" />
         <property role="TrG5h" value="AddReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55ky1ry" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -570,6 +573,7 @@
       <node concept="2RzRRF" id="59Df55l08lI" role="1qenE9">
         <property role="2RzRSo" value="97" />
         <property role="TrG5h" value="ChangeMultipleReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55l08lJ" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -600,6 +604,7 @@
       <node concept="2RzRRF" id="59Df55l08lQ" role="1qenE9">
         <property role="2RzRSo" value="97" />
         <property role="TrG5h" value="ChangeMultipleReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55l08lR" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -796,6 +801,7 @@
       <node concept="2RzRRF" id="59Df55kZVTB" role="1qenE9">
         <property role="2RzRSo" value="98" />
         <property role="TrG5h" value="ChangeOptionalReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZVTC" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -826,6 +832,7 @@
       <node concept="2RzRRF" id="59Df55kZVTM" role="1qenE9">
         <property role="2RzRSo" value="98" />
         <property role="TrG5h" value="ChangeOptionalReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZVTN" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1024,6 +1031,7 @@
       <node concept="2RzRRF" id="59Df55kZQov" role="1qenE9">
         <property role="2RzRSo" value="96" />
         <property role="TrG5h" value="ChangeTypeReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZQow" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1062,6 +1070,7 @@
       <node concept="2RzRRF" id="59Df55kZQoB" role="1qenE9">
         <property role="2RzRSo" value="96" />
         <property role="TrG5h" value="ChangeTypeReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZQoC" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1263,6 +1272,7 @@
       <node concept="2RzRRF" id="59Df55kZGcv" role="1qenE9">
         <property role="2RzRSo" value="94" />
         <property role="TrG5h" value="RemoveReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZGcw" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1304,6 +1314,7 @@
       <node concept="2RzRRF" id="59Df55kZGcA" role="1qenE9">
         <property role="2RzRSo" value="94" />
         <property role="TrG5h" value="RemoveReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZGcB" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1481,6 +1492,7 @@
       <node concept="2RzRRF" id="59Df55kZMhE" role="1qenE9">
         <property role="2RzRSo" value="95" />
         <property role="TrG5h" value="RenameReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZMhF" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1509,6 +1521,7 @@
       <node concept="2RzRRF" id="59Df55kZMhO" role="1qenE9">
         <property role="2RzRSo" value="95" />
         <property role="TrG5h" value="RenameReference" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kZMhP" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />

@@ -107,6 +107,17 @@
         </node>
         <node concept="2iRfu4" id="2ju2syjmDqy" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="2chztJeDw62" role="3EZMnx">
+        <node concept="VPM3Z" id="2chztJeDw64" role="3F10Kt" />
+        <node concept="3F0ifn" id="2chztJeDw66" role="3EZMnx">
+          <property role="3F0ifm" value="version" />
+        </node>
+        <node concept="3XFhqQ" id="2chztJeDwc$" role="3EZMnx" />
+        <node concept="3F0A7n" id="2chztJeDwgm" role="3EZMnx">
+          <ref role="1NtTu8" to="h3y3:2chztJeDvZC" resolve="version" />
+        </node>
+        <node concept="2iRfu4" id="2chztJeDw67" role="2iSdaV" />
+      </node>
       <node concept="3F0ifn" id="2ju2syjmGEP" role="3EZMnx" />
       <node concept="3F0ifn" id="2ju2syjmGIv" role="3EZMnx">
         <property role="3F0ifm" value="depends on" />

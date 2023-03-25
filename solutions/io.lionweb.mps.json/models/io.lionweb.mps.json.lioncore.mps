@@ -1061,6 +1061,40 @@
     <node concept="3clFb_" id="z1IqfFx1Ej" role="jymVt">
       <property role="TrG5h" value="registerMetamodel" />
       <node concept="3clFbS" id="z1IqfFx1Em" role="3clF47">
+        <node concept="3cpWs8" id="2chztJeGZ_w" role="3cqZAp">
+          <node concept="3cpWsn" id="2chztJeGZ_x" role="3cpWs9">
+            <property role="TrG5h" value="version" />
+            <node concept="10Oyi0" id="2chztJeGYoR" role="1tU5fm" />
+            <node concept="2YIFZM" id="2chztJeHee$" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+              <node concept="2OqwBi" id="2chztJeHmsA" role="37wK5m">
+                <node concept="37vLTw" id="2chztJeHjb9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="z1IqfFx1JO" resolve="json" />
+                </node>
+                <node concept="liA8E" id="2chztJeHsvg" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~Metamodel.getVersion()" resolve="getVersion" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2chztJeHz8m" role="3cqZAp">
+          <node concept="1PaTwC" id="2chztJeHz8n" role="1aUNEU">
+            <node concept="3oM_SD" id="2chztJeHA8D" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="2chztJeHAsO" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+            </node>
+            <node concept="3oM_SD" id="2chztJeHAsR" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="2chztJeHAsV" role="1PaTwD">
+              <property role="3oM_SC" value="NumberFormatException" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="z1IqfFx5m_" role="3cqZAp">
           <node concept="3cpWsn" id="z1IqfFx5mA" role="3cpWs9">
             <property role="TrG5h" value="mps" />
@@ -1097,6 +1131,12 @@
                         <ref role="37wK5l" to="tozv:~Metamodel.getName()" resolve="getName" />
                       </node>
                     </node>
+                  </node>
+                </node>
+                <node concept="2pJxcG" id="2chztJeGisx" role="2pJxcM">
+                  <ref role="2pJxcJ" to="h3y3:2chztJeDvZC" resolve="version" />
+                  <node concept="37vLTw" id="2chztJeGZ_B" role="28ntcv">
+                    <ref role="3cqZAo" node="2chztJeGZ_x" resolve="i" />
                   </node>
                 </node>
               </node>
@@ -4078,6 +4118,28 @@
                   <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
                   <node concept="37vLTw" id="6VkSF6cqDMy" role="37wK5m">
                     <ref role="3cqZAo" node="5sACIIsA0wZ" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2chztJeHK39" role="3cqZAp">
+          <node concept="2OqwBi" id="2chztJeHMzh" role="3clFbG">
+            <node concept="37vLTw" id="2chztJeHK37" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsGImw" resolve="json" />
+            </node>
+            <node concept="liA8E" id="2chztJeHPNn" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Metamodel.setVersion(java.lang.String)" resolve="setVersion" />
+              <node concept="2YIFZM" id="2chztJeI5GP" role="37wK5m">
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
+                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                <node concept="2OqwBi" id="2chztJeHTEv" role="37wK5m">
+                  <node concept="37vLTw" id="2chztJeHSfs" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5sACIIsA0wZ" resolve="mps" />
+                  </node>
+                  <node concept="3TrcHB" id="2chztJeHW9N" role="2OqNvi">
+                    <ref role="3TsBF5" to="h3y3:2chztJeDvZC" resolve="version" />
                   </node>
                 </node>
               </node>

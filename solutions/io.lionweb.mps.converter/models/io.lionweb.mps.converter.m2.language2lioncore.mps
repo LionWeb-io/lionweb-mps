@@ -1721,6 +1721,19 @@
                   </node>
                 </node>
               </node>
+              <node concept="2pJxcG" id="2chztJeE$93" role="2pJxcM">
+                <ref role="2pJxcJ" to="h3y3:2chztJeDvZC" resolve="version" />
+                <node concept="WxPPo" id="2chztJeEBRR" role="28ntcv">
+                  <node concept="2OqwBi" id="2chztJeEFYt" role="WxPPp">
+                    <node concept="37vLTw" id="2chztJeEBRP" role="2Oq$k0">
+                      <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
+                    </node>
+                    <node concept="liA8E" id="2chztJeEKlv" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SLanguage.getLanguageVersion()" resolve="getLanguageVersion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
