@@ -47,9 +47,6 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
-      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
-        <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -66,9 +63,6 @@
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -96,7 +90,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -141,10 +134,6 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
-      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
-      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
-        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
-      </concept>
       <concept id="2644386474302386080" name="jetbrains.mps.lang.smodel.structure.PropertyIdRefExpression" flags="nn" index="355D3s">
         <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
@@ -628,32 +617,20 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="59Df55kYjKr" role="3cqZAp">
-          <node concept="3cpWsn" id="59Df55kYjKs" role="3cpWs9">
+        <node concept="3cpWs8" id="5wsogBcxcz2" role="3cqZAp">
+          <node concept="3cpWsn" id="5wsogBcxcz3" role="3cpWs9">
             <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="59Df55kYjJ8" role="1tU5fm">
+            <node concept="3uibUv" id="5wsogBcxcz4" role="1tU5fm">
               <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
             </node>
-            <node concept="2ShNRf" id="59Df55kYjKt" role="33vP2m">
-              <node concept="1pGfFk" id="59Df55kYjKu" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="2OqwBi" id="59Df55kYjKv" role="37wK5m">
-                  <node concept="2JrnkZ" id="59Df55kYjKw" role="2Oq$k0">
-                    <node concept="2OqwBi" id="59Df55kYjKx" role="2JrQYb">
-                      <node concept="2OqwBi" id="59Df55kYjKy" role="2Oq$k0">
-                        <node concept="35c_gC" id="59Df55kYjKz" role="2Oq$k0">
-                          <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                        </node>
-                        <node concept="FGMqu" id="59Df55kYjK$" role="2OqNvi" />
-                      </node>
-                      <node concept="I4A8Y" id="59Df55kYjK_" role="2OqNvi" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="59Df55kYjKA" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                  </node>
+            <node concept="2YIFZM" id="5wsogBcwyAf" role="33vP2m">
+              <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
+              <ref role="1Pybhc" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+              <node concept="2OqwBi" id="59Df55kYjKy" role="37wK5m">
+                <node concept="35c_gC" id="59Df55kYjKz" role="2Oq$k0">
+                  <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
                 </node>
+                <node concept="FGMqu" id="59Df55kYjK$" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -771,7 +748,7 @@
             </node>
             <node concept="2OqwBi" id="59Df55l3IPw" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l3IPx" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55kYjKs" resolve="constants" />
+                <ref role="3cqZAo" node="5wsogBcxcz3" resolve="constants" />
               </node>
               <node concept="2OwXpG" id="59Df55l3IPy" role="2OqNvi">
                 <ref role="2Oxat5" to="en45:DUXtH0nRhx" resolve="MPS_BOOLEAN_TYPE" />
@@ -799,7 +776,7 @@
             </node>
             <node concept="2OqwBi" id="59Df55l3J55" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l3J56" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55kYjKs" resolve="constants" />
+                <ref role="3cqZAo" node="5wsogBcxcz3" resolve="constants" />
               </node>
               <node concept="2OwXpG" id="59Df55l3J57" role="2OqNvi">
                 <ref role="2Oxat5" to="en45:DUXtH0nMqB" resolve="MPS_STRING_TYPE" />

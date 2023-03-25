@@ -19,6 +19,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="xx25" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.types(MPS.Core/)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -60,6 +61,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -94,6 +98,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -1422,6 +1427,67 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wsogBcwuqr" role="jymVt" />
+    <node concept="2YIFZL" id="5wsogBcwU5V" role="jymVt">
+      <property role="TrG5h" value="create" />
+      <node concept="3clFbS" id="5wsogBcwU5W" role="3clF47">
+        <node concept="3clFbF" id="5wsogBcwU5X" role="3cqZAp">
+          <node concept="2ShNRf" id="5wsogBcwU5Y" role="3clFbG">
+            <node concept="1pGfFk" id="5wsogBcwU5Z" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" node="DUXtGZOlxP" resolve="LionCoreConstants" />
+              <node concept="2OqwBi" id="5wsogBcwU60" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcwUYs" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5wsogBcwU67" resolve="model" />
+                </node>
+                <node concept="liA8E" id="5wsogBcwU64" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5wsogBcwU65" role="1B3o_S" />
+      <node concept="3uibUv" id="5wsogBcwU66" role="3clF45">
+        <ref role="3uigEE" node="DUXtGZOlwJ" resolve="LionCoreConstants" />
+      </node>
+      <node concept="37vLTG" id="5wsogBcwU67" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="3uibUv" id="5wsogBcwU68" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wsogBcwWtf" role="jymVt" />
+    <node concept="2YIFZL" id="5wsogBcwvr1" role="jymVt">
+      <property role="TrG5h" value="create" />
+      <node concept="3clFbS" id="5wsogBcwvr4" role="3clF47">
+        <node concept="3clFbF" id="5wsogBcwvUs" role="3cqZAp">
+          <node concept="1rXfSq" id="5wsogBcwV47" role="3clFbG">
+            <ref role="37wK5l" node="5wsogBcwU5V" resolve="create" />
+            <node concept="2OqwBi" id="5wsogBcwViu" role="37wK5m">
+              <node concept="37vLTw" id="5wsogBcwV6m" role="2Oq$k0">
+                <ref role="3cqZAo" node="5wsogBcwvSi" resolve="node" />
+              </node>
+              <node concept="liA8E" id="5wsogBcwVtB" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5wsogBcwuWD" role="1B3o_S" />
+      <node concept="3uibUv" id="5wsogBcwvq9" role="3clF45">
+        <ref role="3uigEE" node="DUXtGZOlwJ" resolve="LionCoreConstants" />
+      </node>
+      <node concept="37vLTG" id="5wsogBcwvSi" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3uibUv" id="5wsogBcwvSh" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
         </node>
       </node>
     </node>

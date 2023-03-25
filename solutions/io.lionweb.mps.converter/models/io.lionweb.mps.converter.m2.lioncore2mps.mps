@@ -66,9 +66,6 @@
         <child id="1224071154656" name="expression" index="0kSFX" />
       </concept>
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
-      <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
-        <child id="1219921048460" name="componentType" index="8Xvag" />
-      </concept>
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -552,7 +549,6 @@
       <concept id="1240216724530" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashMapCreator" flags="nn" index="32Fmki" />
       <concept id="1240217271293" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashSetCreator" flags="nn" index="32HrFt" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
-      <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1167380149909" name="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation" flags="nn" index="3dhRuq" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
@@ -4720,63 +4716,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="DUXtGZP0Oe" role="jymVt" />
-    <node concept="3clFbW" id="DUXtGZObMF" role="jymVt">
-      <node concept="3cqZAl" id="DUXtGZObMI" role="3clF45" />
-      <node concept="3Tm1VV" id="DUXtGZObMJ" role="1B3o_S" />
-      <node concept="3clFbS" id="DUXtGZObMK" role="3clF47">
-        <node concept="1VxSAg" id="DUXtGZObVm" role="3cqZAp">
-          <ref role="37wK5l" node="DUXtGZObPM" resolve="LionCore2MpsConverter" />
-          <node concept="37vLTw" id="3ePT3MiTN2S" role="37wK5m">
-            <ref role="3cqZAo" node="3ePT3MiTMEx" resolve="languageLookup" />
-          </node>
-          <node concept="2ShNRf" id="DUXtH0U92k" role="37wK5m">
-            <node concept="1pGfFk" id="DUXtH0U92l" role="2ShVmc">
-              <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-              <node concept="2OqwBi" id="3ePT3Mj0zLy" role="37wK5m">
-                <node concept="2JrnkZ" id="3ePT3Mj0zLz" role="2Oq$k0">
-                  <node concept="2OqwBi" id="3ePT3Mj0zL$" role="2JrQYb">
-                    <node concept="2OqwBi" id="3ePT3Mj0zL_" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3ePT3Mj0$hX" role="2Oq$k0">
-                        <node concept="37vLTw" id="3ePT3Mj0zLA" role="2Oq$k0">
-                          <ref role="3cqZAo" node="DUXtGZObNp" resolve="metamodels" />
-                        </node>
-                        <node concept="39bAoz" id="3ePT3Mj0$wl" role="2OqNvi" />
-                      </node>
-                      <node concept="1uHKPH" id="3ePT3Mj0zLB" role="2OqNvi" />
-                    </node>
-                    <node concept="I4A8Y" id="3ePT3Mj0zLC" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="3ePT3Mj0zLD" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="DUXtGZOc0r" role="37wK5m">
-            <node concept="37vLTw" id="DUXtGZObX_" role="2Oq$k0">
-              <ref role="3cqZAo" node="DUXtGZObNp" resolve="metamodels" />
-            </node>
-            <node concept="39bAoz" id="DUXtGZOc4p" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="3ePT3MiTMEx" role="3clF46">
-        <property role="TrG5h" value="languageLookup" />
-        <node concept="3uibUv" id="3ePT3MiTMEy" role="1tU5fm">
-          <ref role="3uigEE" node="3ePT3MiTAog" resolve="ILanguageLookup" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="DUXtGZObNp" role="3clF46">
-        <property role="TrG5h" value="metamodels" />
-        <node concept="8X2XB" id="DUXtGZObNS" role="1tU5fm">
-          <node concept="3Tqbb2" id="DUXtGZObNo" role="8Xvag">
-            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="DUXtGZObPj" role="jymVt" />
     <node concept="3clFbW" id="DUXtGZObPM" role="jymVt">
       <node concept="3cqZAl" id="DUXtGZObPO" role="3clF45" />
       <node concept="3Tm1VV" id="DUXtGZObPP" role="1B3o_S" />

@@ -146,9 +146,6 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
-      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
-        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -287,23 +284,14 @@
             <node concept="3uibUv" id="2fx6VTTfJmu" role="1tU5fm">
               <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
             </node>
-            <node concept="2ShNRf" id="2fx6VTTfJEp" role="33vP2m">
-              <node concept="1pGfFk" id="2fx6VTTfJEq" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="2OqwBi" id="2fx6VTTfJEr" role="37wK5m">
-                  <node concept="2JrnkZ" id="2fx6VTTfJEs" role="2Oq$k0">
-                    <node concept="2OqwBi" id="2fx6VTTfJEt" role="2JrQYb">
-                      <node concept="37vLTw" id="2fx6VTTfJEu" role="2Oq$k0">
-                        <ref role="3cqZAo" node="48csSBOFxtv" resolve="convertToLionCore" />
-                      </node>
-                      <node concept="I4A8Y" id="2fx6VTTfJEv" role="2OqNvi" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="2fx6VTTfJEw" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                  </node>
+            <node concept="2YIFZM" id="5wsogBcwyAf" role="33vP2m">
+              <ref role="37wK5l" to="en45:5wsogBcwU5V" resolve="create" />
+              <ref role="1Pybhc" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+              <node concept="2OqwBi" id="5wsogBcx9Lo" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcx98R" role="2Oq$k0">
+                  <ref role="3cqZAo" node="48csSBOFxtv" resolve="convertToLionCore" />
                 </node>
+                <node concept="I4A8Y" id="5wsogBcxanh" role="2OqNvi" />
               </node>
             </node>
           </node>
