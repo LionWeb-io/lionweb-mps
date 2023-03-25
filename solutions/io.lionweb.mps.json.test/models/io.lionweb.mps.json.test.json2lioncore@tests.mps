@@ -371,7 +371,7 @@
                     <ref role="3cqZAo" node="2A0cGJdRE9I" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="2A0cGJdREpE" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:z1IqfFwqy3" resolve="unserialze" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
                   </node>
                 </node>
               </node>
@@ -602,7 +602,7 @@
                     <ref role="3cqZAo" node="5sACIIszZVC" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIszZVP" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:z1IqfFwqy3" resolve="unserialze" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
                   </node>
                 </node>
               </node>
@@ -908,7 +908,7 @@
                     <ref role="3cqZAo" node="5sACIIs_h0I" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIs_h0V" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:z1IqfFwqy3" resolve="unserialze" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
                   </node>
                 </node>
               </node>

@@ -1867,6 +1867,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5wsogBcl2SX" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBcl5$L" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBcl2SV" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsGImw" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBcla99" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Metamodel.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBcldt6" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcldt7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBcldt8" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
+                  <node concept="37vLTw" id="5wsogBcldt9" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2chztJeIRb4" role="3cqZAp">
           <node concept="2OqwBi" id="2chztJeIUe4" role="3clFbG">
             <node concept="37vLTw" id="2chztJeIRb2" role="2Oq$k0">
@@ -2819,6 +2840,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5wsogBclnVG" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBclnVH" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBclnVI" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsLHga" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBclnVJ" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBclnVK" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBclnVL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBclnVM" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxt" resolve="mapConcept" />
+                  <node concept="37vLTw" id="5wsogBclnVN" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNReHT" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="48csSBPQhHn" role="3cqZAp" />
         <node concept="3clFbF" id="48csSBPQtwU" role="3cqZAp">
           <node concept="37vLTw" id="48csSBPQtwS" role="3clFbG">
@@ -3185,6 +3227,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5wsogBclNsk" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBclNsl" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBclNsm" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsNv$Z" resolve="jsonIface" />
+            </node>
+            <node concept="liA8E" id="5wsogBclNsn" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBclNso" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBclNsp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBclNsq" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxz" resolve="mapIface" />
+                  <node concept="37vLTw" id="5wsogBclNsr" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNReK4" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="48csSBPQXdL" role="3cqZAp" />
       </node>
       <node concept="3uibUv" id="48csSBPHzni" role="3clF45">
@@ -3418,6 +3481,27 @@
                 <node concept="liA8E" id="6VkSF6cj1kP" role="2OqNvi">
                   <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
                   <node concept="37vLTw" id="6VkSF6cj5$D" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wsogBclUqE" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBclUqF" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBclUqG" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsA0Ad" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBclUqH" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBclUqI" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBclUqJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBclUqK" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
+                  <node concept="37vLTw" id="5wsogBclUqL" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
                   </node>
                 </node>
@@ -3753,6 +3837,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5wsogBcm3wa" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBcm3wb" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBcm3wc" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsPjNh" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBcm3wd" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBcm3we" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcm3wf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBcm3wg" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                  <node concept="37vLTw" id="5wsogBcm3wh" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNReNN" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5sACIIsQwDJ" role="3cqZAp">
           <node concept="2OqwBi" id="5sACIIsQwDK" role="3clFbG">
             <node concept="37vLTw" id="5sACIIsQwDL" role="2Oq$k0">
@@ -3894,6 +3999,27 @@
                 <node concept="liA8E" id="6VkSF6cjFX1" role="2OqNvi">
                   <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
                   <node concept="37vLTw" id="6VkSF6cjLi7" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNReOn" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wsogBcmbZB" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBcmbZC" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBcmbZD" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsA0_A" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBcmbZE" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBcmbZF" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcmbZG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBcmbZH" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
+                  <node concept="37vLTw" id="5wsogBcmbZI" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReOn" resolve="mps" />
                   </node>
                 </node>
@@ -4045,6 +4171,27 @@
                 <node concept="liA8E" id="6VkSF6ck2fn" role="2OqNvi">
                   <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
                   <node concept="37vLTw" id="6VkSF6ck51a" role="37wK5m">
+                    <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wsogBcmjnM" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBcmjnN" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBcmjnO" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsA0CX" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBcmjnP" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBcmjnQ" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcmjnR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBcmjnS" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
+                  <node concept="37vLTw" id="5wsogBcmjnT" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
                   </node>
                 </node>
@@ -4223,7 +4370,22 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="48csSBPUYau" role="3cqZAp" />
+        <node concept="3SKdUt" id="5wsogBcmyeh" role="3cqZAp">
+          <node concept="1PaTwC" id="5wsogBcmyei" role="1aUNEU">
+            <node concept="3oM_SD" id="5wsogBcm_R$" role="1PaTwD">
+              <property role="3oM_SC" value="TODO:" />
+            </node>
+            <node concept="3oM_SD" id="5wsogBcm_TB" role="1PaTwD">
+              <property role="3oM_SC" value="Why" />
+            </node>
+            <node concept="3oM_SD" id="5wsogBcm_TE" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="5wsogBcm_TI" role="1PaTwD">
+              <property role="3oM_SC" value="setKey()" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="48csSBPV2aW" role="3cqZAp">
           <node concept="37vLTw" id="48csSBPV2aU" role="3clFbG">
             <ref role="3cqZAo" node="5sACIIsY8xf" resolve="json" />
@@ -4300,6 +4462,27 @@
                     <node concept="liA8E" id="6VkSF6ckFre" role="2OqNvi">
                       <ref role="37wK5l" to="teza:6VkSF6aIYxV" resolve="mapPrimitive" />
                       <node concept="37vLTw" id="6VkSF6ckKOe" role="37wK5m">
+                        <ref role="3cqZAo" node="48csSBNRePQ" resolve="mps" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5wsogBcm_TN" role="3cqZAp">
+              <node concept="2OqwBi" id="5wsogBcm_TO" role="3clFbG">
+                <node concept="37vLTw" id="5wsogBcm_TP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsA0Cw" resolve="json" />
+                </node>
+                <node concept="liA8E" id="5wsogBcm_TQ" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                  <node concept="2OqwBi" id="5wsogBcm_TR" role="37wK5m">
+                    <node concept="37vLTw" id="5wsogBcm_TS" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
+                    </node>
+                    <node concept="liA8E" id="5wsogBcm_TT" role="2OqNvi">
+                      <ref role="37wK5l" to="teza:6VkSF6aIYxV" resolve="mapPrimitive" />
+                      <node concept="37vLTw" id="5wsogBcm_TU" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBNRePQ" resolve="mps" />
                       </node>
                     </node>
@@ -4483,6 +4666,24 @@
                             <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
                           </node>
                           <node concept="37vLTw" id="48csSBPYNfF" role="2Oq$k0">
+                            <ref role="3cqZAo" node="48csSBPXn7N" resolve="template" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="5wsogBcmHnZ" role="3cqZAp">
+                    <node concept="2OqwBi" id="5wsogBcmHo0" role="3clFbG">
+                      <node concept="37vLTw" id="5wsogBcmHo1" role="2Oq$k0">
+                        <ref role="3cqZAo" node="48csSBPX2HT" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="5wsogBcmHo2" role="2OqNvi">
+                        <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                        <node concept="2OqwBi" id="5wsogBcmHo3" role="37wK5m">
+                          <node concept="liA8E" id="5wsogBcmHo4" role="2OqNvi">
+                            <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+                          </node>
+                          <node concept="37vLTw" id="5wsogBcmHo5" role="2Oq$k0">
                             <ref role="3cqZAo" node="48csSBPXn7N" resolve="template" />
                           </node>
                         </node>

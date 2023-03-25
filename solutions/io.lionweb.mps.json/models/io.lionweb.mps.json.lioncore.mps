@@ -4124,6 +4124,27 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5wsogBcmWGj" role="3cqZAp">
+          <node concept="2OqwBi" id="5wsogBcmWGk" role="3clFbG">
+            <node concept="37vLTw" id="5wsogBcmWGl" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsGImw" resolve="json" />
+            </node>
+            <node concept="liA8E" id="5wsogBcmWGm" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Metamodel.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="2OqwBi" id="5wsogBcmWGn" role="37wK5m">
+                <node concept="37vLTw" id="5wsogBcmWGo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="5wsogBcmWGp" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
+                  <node concept="37vLTw" id="5wsogBcmWGq" role="37wK5m">
+                    <ref role="3cqZAo" node="5sACIIsA0wZ" resolve="mps" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2chztJeHK39" role="3cqZAp">
           <node concept="2OqwBi" id="2chztJeHMzh" role="3clFbG">
             <node concept="37vLTw" id="2chztJeHK37" role="2Oq$k0">
@@ -4456,6 +4477,27 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="5wsogBcn2Fp" role="3cqZAp">
+              <node concept="2OqwBi" id="5wsogBcn2Fq" role="3clFbG">
+                <node concept="37vLTw" id="5wsogBcn2Fr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsLHga" resolve="jsonCons" />
+                </node>
+                <node concept="liA8E" id="5wsogBcn2Fs" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                  <node concept="2OqwBi" id="5wsogBcn2Ft" role="37wK5m">
+                    <node concept="37vLTw" id="5wsogBcn2Fu" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                    </node>
+                    <node concept="liA8E" id="5wsogBcn2Fv" role="2OqNvi">
+                      <ref role="37wK5l" to="teza:6VkSF6aIYxt" resolve="mapConcept" />
+                      <node concept="37vLTw" id="5wsogBcn2Fw" role="37wK5m">
+                        <ref role="3cqZAo" node="5sACIIsA0xE" resolve="mpsCons" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="5sACIIsM_XI" role="3cqZAp">
               <node concept="37vLTI" id="5sACIIsMEWg" role="3clFbG">
                 <node concept="37vLTw" id="5sACIIsMIuX" role="37vLTx">
@@ -4531,6 +4573,27 @@
                       <node concept="liA8E" id="6VkSF6cqYu7" role="2OqNvi">
                         <ref role="37wK5l" to="teza:6VkSF6aIYxz" resolve="mapIface" />
                         <node concept="37vLTw" id="6VkSF6cr1zx" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIsA0y9" resolve="mpsIface" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5wsogBcn7Is" role="3cqZAp">
+                <node concept="2OqwBi" id="5wsogBcn7It" role="3clFbG">
+                  <node concept="37vLTw" id="5wsogBcn7Iu" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5sACIIsNv$Z" resolve="jsonIface" />
+                  </node>
+                  <node concept="liA8E" id="5wsogBcn7Iv" role="2OqNvi">
+                    <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                    <node concept="2OqwBi" id="5wsogBcn7Iw" role="37wK5m">
+                      <node concept="37vLTw" id="5wsogBcn7Ix" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                      </node>
+                      <node concept="liA8E" id="5wsogBcn7Iy" role="2OqNvi">
+                        <ref role="37wK5l" to="teza:6VkSF6aIYxz" resolve="mapIface" />
+                        <node concept="37vLTw" id="5wsogBcn7Iz" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIsA0y9" resolve="mpsIface" />
                         </node>
                       </node>
@@ -4958,6 +5021,27 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="5wsogBcncQ3" role="3cqZAp">
+              <node concept="2OqwBi" id="5wsogBcncQ4" role="3clFbG">
+                <node concept="37vLTw" id="5wsogBcncQ5" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsPjNh" resolve="jsonCont" />
+                </node>
+                <node concept="liA8E" id="5wsogBcncQ6" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                  <node concept="2OqwBi" id="5wsogBcncQ7" role="37wK5m">
+                    <node concept="37vLTw" id="5wsogBcncQ8" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                    </node>
+                    <node concept="liA8E" id="5wsogBcncQ9" role="2OqNvi">
+                      <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                      <node concept="37vLTw" id="5wsogBcncQa" role="37wK5m">
+                        <ref role="3cqZAo" node="5sACIIsA0$W" resolve="mpsCont" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="5sACIIsQwDJ" role="3cqZAp">
               <node concept="2OqwBi" id="5sACIIsQwDK" role="3clFbG">
                 <node concept="37vLTw" id="5sACIIsQwDL" role="2Oq$k0">
@@ -5079,6 +5163,27 @@
                       <node concept="liA8E" id="6VkSF6crnUy" role="2OqNvi">
                         <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
                         <node concept="37vLTw" id="6VkSF6crpTn" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIsRl4F" resolve="mpsRef" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5wsogBcni5a" role="3cqZAp">
+                <node concept="2OqwBi" id="5wsogBcni5b" role="3clFbG">
+                  <node concept="37vLTw" id="5wsogBcni5c" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5sACIIsA0_A" resolve="jsonRef" />
+                  </node>
+                  <node concept="liA8E" id="5wsogBcni5d" role="2OqNvi">
+                    <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                    <node concept="2OqwBi" id="5wsogBcni5e" role="37wK5m">
+                      <node concept="37vLTw" id="5wsogBcni5f" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                      </node>
+                      <node concept="liA8E" id="5wsogBcni5g" role="2OqNvi">
+                        <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
+                        <node concept="37vLTw" id="5wsogBcni5h" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIsRl4F" resolve="mpsRef" />
                         </node>
                       </node>
@@ -5208,6 +5313,27 @@
                       <node concept="liA8E" id="6VkSF6cr$Zl" role="2OqNvi">
                         <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
                         <node concept="37vLTw" id="6VkSF6crD6k" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIsSvAJ" resolve="mpsProp" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5wsogBcnnq9" role="3cqZAp">
+                <node concept="2OqwBi" id="5wsogBcnnqa" role="3clFbG">
+                  <node concept="37vLTw" id="5wsogBcnnqb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5sACIIsA0Ad" resolve="jsonProp" />
+                  </node>
+                  <node concept="liA8E" id="5wsogBcnnqc" role="2OqNvi">
+                    <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                    <node concept="2OqwBi" id="5wsogBcnnqd" role="37wK5m">
+                      <node concept="37vLTw" id="5wsogBcnnqe" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                      </node>
+                      <node concept="liA8E" id="5wsogBcnnqf" role="2OqNvi">
+                        <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
+                        <node concept="37vLTw" id="5wsogBcnnqg" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIsSvAJ" resolve="mpsProp" />
                         </node>
                       </node>
@@ -5641,6 +5767,27 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="5wsogBcnsOM" role="3cqZAp">
+              <node concept="2OqwBi" id="5wsogBcnsON" role="3clFbG">
+                <node concept="37vLTw" id="5wsogBcnsOO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsA0Cw" resolve="ptJson" />
+                </node>
+                <node concept="liA8E" id="5wsogBcnsOP" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                  <node concept="2OqwBi" id="5wsogBcnsOQ" role="37wK5m">
+                    <node concept="37vLTw" id="5wsogBcnsOR" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                    </node>
+                    <node concept="liA8E" id="5wsogBcnsOS" role="2OqNvi">
+                      <ref role="37wK5l" to="teza:6VkSF6aIYxV" resolve="mapPrimitive" />
+                      <node concept="37vLTw" id="5wsogBcnsOT" role="37wK5m">
+                        <ref role="3cqZAo" node="5sACIIsVkso" resolve="ptMps" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="5sACIIsA0C_" role="3cqZAp">
               <node concept="37vLTI" id="5sACIIsA0CA" role="3clFbG">
                 <node concept="37vLTw" id="5sACIIsA0CN" role="37vLTJ">
@@ -5736,6 +5883,27 @@
                       <node concept="liA8E" id="6VkSF6cs20o" role="2OqNvi">
                         <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
                         <node concept="37vLTw" id="6VkSF6cs44C" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIsWsCl" resolve="enmMps" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5wsogBcnylg" role="3cqZAp">
+                <node concept="2OqwBi" id="5wsogBcnylh" role="3clFbG">
+                  <node concept="37vLTw" id="5wsogBcnyli" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5sACIIsA0CX" resolve="enmJson" />
+                  </node>
+                  <node concept="liA8E" id="5wsogBcnylj" role="2OqNvi">
+                    <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                    <node concept="2OqwBi" id="5wsogBcnylk" role="37wK5m">
+                      <node concept="37vLTw" id="5wsogBcnyll" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                      </node>
+                      <node concept="liA8E" id="5wsogBcnylm" role="2OqNvi">
+                        <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
+                        <node concept="37vLTw" id="5wsogBcnyln" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIsWsCl" resolve="enmMps" />
                         </node>
                       </node>
@@ -5893,6 +6061,22 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5wsogBcnK7o" role="3cqZAp">
+          <node concept="1PaTwC" id="5wsogBcnK7p" role="1aUNEU">
+            <node concept="3oM_SD" id="5wsogBcnMR4" role="1PaTwD">
+              <property role="3oM_SC" value="TODO:" />
+            </node>
+            <node concept="3oM_SD" id="5wsogBcnMR6" role="1PaTwD">
+              <property role="3oM_SC" value="why" />
+            </node>
+            <node concept="3oM_SD" id="5wsogBcnMR9" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="5wsogBcnMRd" role="1PaTwD">
+              <property role="3oM_SC" value="setKey()?" />
             </node>
           </node>
         </node>
