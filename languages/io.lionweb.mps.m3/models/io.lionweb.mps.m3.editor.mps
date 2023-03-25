@@ -153,7 +153,7 @@
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F0A7n" id="2ju2syjmGYw" role="3EZMnx">
-        <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="2iRfu4" id="2ju2syjmGW0" role="2iSdaV" />
     </node>
@@ -171,7 +171,7 @@
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
         <node concept="3F0A7n" id="2ju2syjmI2o" role="3EZMnx">
-          <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="2iRfu4" id="2ju2syjmHVI" role="2iSdaV" />
       </node>
@@ -200,7 +200,7 @@
     <ref role="1XX52x" to="h3y3:2ju2syjkoij" resolve="EnumerationLiteral" />
     <node concept="3EZMnI" id="2ju2syjmIlj" role="2wV5jI">
       <node concept="3F0A7n" id="2ju2syjmInQ" role="3EZMnx">
-        <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="2iRfu4" id="2ju2syjmIlm" role="2iSdaV" />
     </node>
@@ -244,7 +244,7 @@
       <node concept="3EZMnI" id="2ju2syjmK52" role="3EZMnx">
         <node concept="2iRfu4" id="2ju2syjmK53" role="2iSdaV" />
         <node concept="3F0A7n" id="2ju2syjmK0O" role="3EZMnx">
-          <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="PMmxH" id="2ju2syjmKXR" role="3EZMnx">
           <ref role="PMmxG" node="2ju2syjmKXO" resolve="FeatureColon" />
@@ -284,7 +284,7 @@
       <node concept="3EZMnI" id="2ju2syjmMwn" role="3EZMnx">
         <node concept="2iRfu4" id="2ju2syjmMwo" role="2iSdaV" />
         <node concept="3F0A7n" id="2ju2syjmMwp" role="3EZMnx">
-          <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="PMmxH" id="2ju2syjmMwq" role="3EZMnx">
           <ref role="PMmxG" node="2ju2syjmKXO" resolve="FeatureColon" />
@@ -321,7 +321,7 @@
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
         <node concept="3F0A7n" id="2ju2syjmSiN" role="3EZMnx">
-          <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0ifn" id="2ju2syjmSiO" role="3EZMnx">
           <property role="3F0ifm" value="extends" />
@@ -382,7 +382,7 @@
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
         <node concept="3F0A7n" id="2ju2syjmRjZ" role="3EZMnx">
-          <ref role="1NtTu8" to="h3y3:2ju2syjkkdB" resolve="simpleName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0ifn" id="2ju2syjmRAL" role="3EZMnx">
           <property role="3F0ifm" value="extends" />
