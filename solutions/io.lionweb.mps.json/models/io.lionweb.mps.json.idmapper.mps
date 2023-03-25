@@ -8,8 +8,8 @@
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
     <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
-    <import index="sp3y" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model.impl(org.lionweb.lioncore.java/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="sp3y" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model.impl(org.lionweb.lioncore.java/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -144,7 +144,7 @@
               <ref role="3cqZAo" node="6VkSF6clvYb" resolve="language" />
             </node>
             <node concept="liA8E" id="6VkSF6clzj0" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+              <ref role="37wK5l" to="tozv:~Metamodel.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -171,7 +171,7 @@
               <ref role="3cqZAo" node="6VkSF6clvYZ" resolve="featuresContainer" />
             </node>
             <node concept="liA8E" id="6VkSF6clBLE" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+              <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -197,8 +197,8 @@
             <node concept="37vLTw" id="6VkSF6clEye" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clvZH" resolve="concept" />
             </node>
-            <node concept="liA8E" id="6VkSF6clGFU" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcE$pW" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -224,8 +224,8 @@
             <node concept="37vLTw" id="6VkSF6clJw_" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw0u" resolve="iface" />
             </node>
-            <node concept="liA8E" id="6VkSF6clNmN" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEA3B" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -251,8 +251,8 @@
             <node concept="37vLTw" id="6VkSF6clQgw" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw1f" resolve="property" />
             </node>
-            <node concept="liA8E" id="6VkSF6clSvv" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEBHi" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -278,8 +278,8 @@
             <node concept="37vLTw" id="6VkSF6clVt_" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw23" resolve="link" />
             </node>
-            <node concept="liA8E" id="6VkSF6clXCW" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEDmT" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -305,8 +305,8 @@
             <node concept="37vLTw" id="6VkSF6cm0Fk" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw2L" resolve="containment" />
             </node>
-            <node concept="liA8E" id="6VkSF6cm4Hj" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEF0i" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -332,8 +332,8 @@
             <node concept="37vLTw" id="6VkSF6cm7PL" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw3y" resolve="reference" />
             </node>
-            <node concept="liA8E" id="6VkSF6cmbN_" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEGDH" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -359,8 +359,8 @@
             <node concept="37vLTw" id="6VkSF6cmeYx" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw4j" resolve="primitive" />
             </node>
-            <node concept="liA8E" id="6VkSF6cmhf2" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEIj8" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -386,8 +386,8 @@
             <node concept="37vLTw" id="6VkSF6cmnbX" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw54" resolve="primitive" />
             </node>
-            <node concept="liA8E" id="6VkSF6cmpBS" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEJWx" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -413,8 +413,8 @@
             <node concept="37vLTw" id="6VkSF6cmsVo" role="2Oq$k0">
               <ref role="3cqZAo" node="6VkSF6clw5P" resolve="enm" />
             </node>
-            <node concept="liA8E" id="6VkSF6cmvtb" role="2OqNvi">
-              <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+            <node concept="liA8E" id="5wsogBcEL_P" role="2OqNvi">
+              <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>

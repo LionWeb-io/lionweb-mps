@@ -4680,11 +4680,11 @@
                       <node concept="liA8E" id="5wsogBcmHo2" role="2OqNvi">
                         <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
                         <node concept="2OqwBi" id="5wsogBcmHo3" role="37wK5m">
-                          <node concept="liA8E" id="5wsogBcmHo4" role="2OqNvi">
-                            <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
-                          </node>
                           <node concept="37vLTw" id="5wsogBcmHo5" role="2Oq$k0">
                             <ref role="3cqZAo" node="48csSBPXn7N" resolve="template" />
+                          </node>
+                          <node concept="liA8E" id="6VkSF6clBLE" role="2OqNvi">
+                            <ref role="37wK5l" to="tozv:~MetamodelElement.getKey()" resolve="getKey" />
                           </node>
                         </node>
                       </node>
