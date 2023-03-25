@@ -503,7 +503,7 @@
                     </node>
                   </node>
                   <node concept="13MTOL" id="DUXtH0vqGv" role="2OqNvi">
-                    <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+                    <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="language" />
                   </node>
                 </node>
               </node>
@@ -832,7 +832,7 @@
                 <property role="TrG5h" value="mpsMetamodels" />
                 <node concept="A3Dl8" id="z1IqfFSTOW" role="1tU5fm">
                   <node concept="3Tqbb2" id="z1IqfFSTOZ" role="A3Ik2">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="z1IqfFSTRf" role="33vP2m">
@@ -1106,7 +1106,7 @@
                         </node>
                       </node>
                       <node concept="13MTOL" id="7qGUpN3CCsZ" role="2OqNvi">
-                        <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+                        <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="language" />
                       </node>
                     </node>
                   </node>

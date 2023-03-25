@@ -139,7 +139,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="metamodels" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
+      <ref role="20lvS9" to="h3y3:2ju2syjknNi" resolve="LanguageReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="39$JcGF9mnt">

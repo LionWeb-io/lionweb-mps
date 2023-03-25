@@ -93,9 +93,9 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjkkog">
     <property role="EcuMT" value="2656571587264857616" />
-    <property role="TrG5h" value="MetamodelElement" />
+    <property role="TrG5h" value="LanguageElement" />
     <property role="R5$K7" value="true" />
-    <property role="34LRSv" value="MetamodelElement" />
+    <property role="34LRSv" value="LanguageElement" />
     <ref role="1TJDcQ" node="6sGx2ln21vt" resolve="NamespacedEntity" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkkv_">
@@ -163,7 +163,7 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="featuresContainer" />
     <property role="34LRSv" value="FeaturesContainer" />
-    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="MetamodelElement" />
+    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
     <node concept="1TJgyj" id="2ju2syjkliV" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264861371" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -230,8 +230,8 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjkngz">
     <property role="EcuMT" value="2656571587264869411" />
-    <property role="TrG5h" value="Metamodel" />
-    <property role="34LRSv" value="Metamodel" />
+    <property role="TrG5h" value="Language" />
+    <property role="34LRSv" value="Language" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="1TJgyi" id="2ju2syjknpW" role="1TKVEl">
@@ -255,14 +255,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjkkog" resolve="MetamodelElement" />
+      <ref role="20lvS9" node="2ju2syjkkog" resolve="LanguageElement" />
     </node>
     <node concept="1TJgyj" id="2ju2syjknFV" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264871163" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dependsOn" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjknNi" resolve="MetamodelReference" />
+      <ref role="20lvS9" node="2ju2syjknNi" resolve="LanguageReference" />
     </node>
     <node concept="1irR5M" id="39$JcGF7lf0" role="rwd14">
       <property role="2$rrk2" value="1" />
@@ -284,12 +284,12 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjknNi">
     <property role="EcuMT" value="2656571587264871634" />
-    <property role="TrG5h" value="MetamodelReference" />
+    <property role="TrG5h" value="LanguageReference" />
     <node concept="1TJgyj" id="2ju2syjknNj" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="2656571587264871635" />
-      <property role="20kJfa" value="metamodel" />
-      <ref role="20lvS9" node="2ju2syjkngz" resolve="Metamodel" />
+      <property role="20kJfa" value="language" />
+      <ref role="20lvS9" node="2ju2syjkngz" resolve="Language" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ju2syjko0M">
@@ -298,7 +298,7 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="dataType" />
     <property role="34LRSv" value="DataType" />
-    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="MetamodelElement" />
+    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
   </node>
   <node concept="1TIwiD" id="2ju2syjko87">
     <property role="EcuMT" value="2656571587264872967" />

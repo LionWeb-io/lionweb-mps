@@ -795,10 +795,10 @@
               <node concept="2ShNRf" id="59Df55lu8nh" role="37wK5m">
                 <node concept="32Fmki" id="59Df55lu8Pm" role="2ShVmc">
                   <node concept="3Tqbb2" id="59Df55lu9pz" role="3rHrn6">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                   <node concept="3Tqbb2" id="59Df55lu9Ah" role="3rHtpV">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                   <node concept="3Mi1_Z" id="59Df55lu9V_" role="3Mj9YC">
                     <node concept="3Milgn" id="59Df55lua1B" role="3MiYds">

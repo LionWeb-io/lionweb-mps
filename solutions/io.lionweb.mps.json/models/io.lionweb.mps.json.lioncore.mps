@@ -330,7 +330,7 @@
           <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
         </node>
         <node concept="3Tqbb2" id="z1IqfFwZYB" role="3rvSg0">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
       <node concept="2ShNRf" id="z1IqfFx02x" role="33vP2m">
@@ -339,7 +339,7 @@
             <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
           </node>
           <node concept="3Tqbb2" id="z1IqfFx02l" role="3rHtpV">
-            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
           </node>
         </node>
       </node>
@@ -885,7 +885,7 @@
       <node concept="3Tm1VV" id="z1IqfFwZyG" role="1B3o_S" />
       <node concept="A3Dl8" id="z1IqfFwZ$C" role="3clF45">
         <node concept="3Tqbb2" id="z1IqfFwZOV" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>
@@ -1065,11 +1065,11 @@
           <node concept="3cpWsn" id="z1IqfFx5mA" role="3cpWs9">
             <property role="TrG5h" value="mps" />
             <node concept="3Tqbb2" id="z1IqfFx5hG" role="1tU5fm">
-              <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+              <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
             </node>
             <node concept="2pJPEk" id="z1IqfFx5mB" role="33vP2m">
               <node concept="2pJPED" id="z1IqfFx5mC" role="2pJPEn">
-                <ref role="2pJxaS" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                <ref role="2pJxaS" to="h3y3:2ju2syjkngz" resolve="Language" />
                 <node concept="2pJxcG" id="z1IqfFx5mD" role="2pJxcM">
                   <ref role="2pJxcJ" to="h3y3:2ju2syjknvg" resolve="id" />
                   <node concept="WxPPo" id="6VkSF6cmJpc" role="28ntcv">
@@ -1121,7 +1121,7 @@
               <node concept="3cpWsn" id="z1IqfFVLEY" role="3cpWs9">
                 <property role="TrG5h" value="mpsElement" />
                 <node concept="3Tqbb2" id="z1IqfFVLET" role="1tU5fm">
-                  <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="MetamodelElement" />
+                  <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
                 </node>
               </node>
             </node>
@@ -1241,7 +1241,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="z1IqfFUmGz" role="3clF45">
-        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
       </node>
     </node>
     <node concept="3clFb_" id="z1IqfFLHgE" role="jymVt">
@@ -1273,9 +1273,9 @@
                 <node concept="TSZUe" id="z1IqfFMOa9" role="2OqNvi">
                   <node concept="2pJPEk" id="z1IqfFMPg0" role="25WWJ7">
                     <node concept="2pJPED" id="z1IqfFMPg2" role="2pJPEn">
-                      <ref role="2pJxaS" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
+                      <ref role="2pJxaS" to="h3y3:2ju2syjknNi" resolve="LanguageReference" />
                       <node concept="2pIpSj" id="z1IqfFMRpS" role="2pJxcM">
-                        <ref role="2pIpSl" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+                        <ref role="2pIpSl" to="h3y3:2ju2syjknNj" resolve="language" />
                         <node concept="36biLy" id="z1IqfFMSHj" role="28nt2d">
                           <node concept="1rXfSq" id="z1IqfGeygw" role="36biLW">
                             <ref role="37wK5l" node="z1IqfGb8g8" resolve="lookupMetamodel" />
@@ -1304,7 +1304,7 @@
       <node concept="37vLTG" id="z1IqfFLXEm" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3Tqbb2" id="z1IqfFLYCj" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>
@@ -2872,7 +2872,7 @@
       </node>
       <node concept="3Tmbuc" id="z1IqfG9elK" role="1B3o_S" />
       <node concept="3Tqbb2" id="z1IqfG9htW" role="3clF45">
-        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
       </node>
       <node concept="37vLTG" id="z1IqfG9kRx" role="3clF46">
         <property role="TrG5h" value="json" />
@@ -2883,7 +2883,7 @@
       <node concept="37vLTG" id="z1IqfG9mSG" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3Tqbb2" id="z1IqfG9oTD" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>
@@ -2913,7 +2913,7 @@
       </node>
       <node concept="3Tmbuc" id="z1IqfGb4mb" role="1B3o_S" />
       <node concept="3Tqbb2" id="z1IqfGb7Yx" role="3clF45">
-        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
       </node>
       <node concept="37vLTG" id="z1IqfGbbT9" role="3clF46">
         <property role="TrG5h" value="json" />
@@ -3340,7 +3340,7 @@
       <node concept="3Tm6S6" id="5sACIIsA0s4" role="1B3o_S" />
       <node concept="A3Dl8" id="5sACIIsA0s5" role="1tU5fm">
         <node concept="3Tqbb2" id="5sACIIsAit1" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>
@@ -3351,7 +3351,7 @@
       <node concept="3Tm6S6" id="5sACIIsA0s9" role="1B3o_S" />
       <node concept="3rvAFt" id="5sACIIsA0sa" role="1tU5fm">
         <node concept="3Tqbb2" id="5sACIIsA0sc" role="3rvQeY">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
         <node concept="3uibUv" id="5sACIIsAwA6" role="3rvSg0">
           <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
@@ -3360,7 +3360,7 @@
       <node concept="2ShNRf" id="5sACIIsADeB" role="33vP2m">
         <node concept="32Fmki" id="5sACIIsADdJ" role="2ShVmc">
           <node concept="3Tqbb2" id="5sACIIsADdK" role="3rHrn6">
-            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
           </node>
           <node concept="3uibUv" id="5sACIIsADdL" role="3rHtpV">
             <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
@@ -3375,14 +3375,14 @@
       <node concept="3rvAFt" id="5sACIIsA0sj" role="1tU5fm">
         <node concept="17QB3L" id="5sACIIsA0sk" role="3rvQeY" />
         <node concept="3Tqbb2" id="5sACIIsAGKN" role="3rvSg0">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
       <node concept="2ShNRf" id="5sACIIsAS4H" role="33vP2m">
         <node concept="32Fmki" id="5sACIIsAS3P" role="2ShVmc">
           <node concept="17QB3L" id="5sACIIsAS3Q" role="3rHrn6" />
           <node concept="3Tqbb2" id="5sACIIsAS3R" role="3rHtpV">
-            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
           </node>
         </node>
       </node>
@@ -3594,7 +3594,7 @@
         <property role="TrG5h" value="mpsMetamodels" />
         <node concept="A3Dl8" id="6VkSF6cqcNY" role="1tU5fm">
           <node concept="3Tqbb2" id="6VkSF6cqcNZ" role="A3Ik2">
-            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
           </node>
         </node>
       </node>
@@ -3833,7 +3833,7 @@
         <property role="TrG5h" value="mpsMetamodels" />
         <node concept="A3Dl8" id="5sACIIsA0uq" role="1tU5fm">
           <node concept="3Tqbb2" id="5sACIIsGg6c" role="A3Ik2">
-            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+            <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
           </node>
         </node>
       </node>
@@ -4214,7 +4214,7 @@
       <node concept="37vLTG" id="5sACIIsA0wZ" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3Tqbb2" id="5sACIIsGsrZ" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
       <node concept="3uibUv" id="5sACIIsGpKH" role="3clF45">
@@ -4238,7 +4238,7 @@
               </node>
             </node>
             <node concept="13MTOL" id="5sACIIsK8J4" role="2OqNvi">
-              <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+              <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="language" />
             </node>
           </node>
           <node concept="3clFbS" id="5sACIIsA0x9" role="2LFqv$">
@@ -4277,7 +4277,7 @@
       <node concept="37vLTG" id="5sACIIsA0xq" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3Tqbb2" id="5sACIIsA0xr" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
       <node concept="37vLTG" id="5sACIIsA0xo" role="3clF46">
@@ -5941,7 +5941,7 @@
       <node concept="37vLTG" id="5sACIIsA0EU" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3Tqbb2" id="5sACIIsA0EV" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
       <node concept="37vLTG" id="5sACIIsA0ES" role="3clF46">
@@ -5982,7 +5982,7 @@
       <node concept="37vLTG" id="5sACIIsA0F8" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3Tqbb2" id="5sACIIsDgOL" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>

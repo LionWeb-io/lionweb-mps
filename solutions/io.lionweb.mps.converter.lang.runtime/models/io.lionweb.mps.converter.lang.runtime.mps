@@ -230,7 +230,7 @@
       <node concept="3Tm1VV" id="48csSBOFx_y" role="1B3o_S" />
       <node concept="A3Dl8" id="48csSBOFxAR" role="3clF45">
         <node concept="3Tqbb2" id="48csSBOFxBa" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>
@@ -390,7 +390,7 @@
                     <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
                   </node>
                   <node concept="3Tqbb2" id="2fx6VTTfDTk" role="3rvSg0">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                 </node>
               </node>
@@ -409,7 +409,7 @@
       <node concept="3Tm1VV" id="2fx6VTTfDTp" role="1B3o_S" />
       <node concept="A3Dl8" id="2fx6VTTfDTq" role="3clF45">
         <node concept="3Tqbb2" id="2fx6VTTfDTr" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>
@@ -613,7 +613,7 @@
                 <node concept="3rvAFt" id="48csSBOFDo7" role="1tU5fm">
                   <node concept="H_c77" id="48csSBOFUKl" role="3rvQeY" />
                   <node concept="3Tqbb2" id="48csSBOFDo9" role="3rvSg0">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                 </node>
               </node>
@@ -632,7 +632,7 @@
       <node concept="3Tm1VV" id="48csSBOFDoe" role="1B3o_S" />
       <node concept="A3Dl8" id="48csSBOFDof" role="3clF45">
         <node concept="3Tqbb2" id="48csSBOFDog" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
       </node>
     </node>

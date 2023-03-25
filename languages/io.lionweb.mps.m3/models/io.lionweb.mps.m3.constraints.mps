@@ -152,7 +152,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2ju2syjmDAZ">
-    <ref role="1M2myG" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+    <ref role="1M2myG" to="h3y3:2ju2syjkngz" resolve="Language" />
     <node concept="EnEH3" id="2ju2syjmDCC" role="1MhHOB">
       <ref role="EomxK" to="h3y3:2ju2syjknpW" resolve="qualifiedName" />
       <node concept="Eqf_E" id="2ju2syjmDIz" role="EtsB7">
@@ -218,7 +218,7 @@
                     <node concept="2Xjw5R" id="59Df55kqKFz" role="2OqNvi">
                       <node concept="1xMEDy" id="59Df55kqKF_" role="1xVPHs">
                         <node concept="chp4Y" id="59Df55kqKMd" role="ri$Ld">
-                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Language" />
                         </node>
                       </node>
                     </node>
@@ -257,7 +257,7 @@
                     <node concept="2Xjw5R" id="59Df55krqLh" role="2OqNvi">
                       <node concept="1xMEDy" id="59Df55krqLi" role="1xVPHs">
                         <node concept="chp4Y" id="59Df55krqLj" role="ri$Ld">
-                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Language" />
                         </node>
                       </node>
                     </node>
@@ -296,7 +296,7 @@
                     <node concept="2Xjw5R" id="59Df55l4xfg" role="2OqNvi">
                       <node concept="1xMEDy" id="59Df55l4xfh" role="1xVPHs">
                         <node concept="chp4Y" id="59Df55l4xfi" role="ri$Ld">
-                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Language" />
                         </node>
                       </node>
                     </node>
@@ -335,7 +335,7 @@
                     <node concept="2Xjw5R" id="59Df55l4xUH" role="2OqNvi">
                       <node concept="1xMEDy" id="59Df55l4xUI" role="1xVPHs">
                         <node concept="chp4Y" id="59Df55l4xUJ" role="ri$Ld">
-                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Language" />
                         </node>
                       </node>
                     </node>

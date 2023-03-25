@@ -83,9 +83,9 @@
     </node>
   </node>
   <node concept="24kQdi" id="2ju2syjknNk">
-    <ref role="1XX52x" to="h3y3:2ju2syjknNi" resolve="MetamodelReference" />
+    <ref role="1XX52x" to="h3y3:2ju2syjknNi" resolve="LanguageReference" />
     <node concept="1iCGBv" id="2ju2syjknNl" role="2wV5jI">
-      <ref role="1NtTu8" to="h3y3:2ju2syjknNj" resolve="metamodel" />
+      <ref role="1NtTu8" to="h3y3:2ju2syjknNj" resolve="language" />
       <node concept="1sVBvm" id="2ju2syjknNm" role="1sWHZn">
         <node concept="3F0A7n" id="2ju2syjknNn" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -95,7 +95,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2ju2syjmDnS">
-    <ref role="1XX52x" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+    <ref role="1XX52x" to="h3y3:2ju2syjkngz" resolve="Language" />
     <node concept="3EZMnI" id="2ju2syjmDp8" role="2wV5jI">
       <node concept="3EZMnI" id="2ju2syjmDqt" role="3EZMnx">
         <node concept="VPM3Z" id="2ju2syjmDqv" role="3F10Kt" />

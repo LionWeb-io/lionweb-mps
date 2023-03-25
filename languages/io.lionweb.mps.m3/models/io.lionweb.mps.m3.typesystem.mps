@@ -350,7 +350,7 @@
     </node>
     <node concept="1YaCAy" id="59Df55kvlh5" role="1YuTPh">
       <property role="TrG5h" value="metamodel" />
-      <ref role="1YaFvo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+      <ref role="1YaFvo" to="h3y3:2ju2syjkngz" resolve="Language" />
     </node>
   </node>
   <node concept="Q5z_Y" id="59Df55kvWK6">
