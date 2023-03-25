@@ -103,7 +103,7 @@
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         </node>
         <node concept="3F0A7n" id="2ju2syjmDxc" role="3EZMnx">
-          <ref role="1NtTu8" to="h3y3:2ju2syjknpW" resolve="qualifiedName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="2iRfu4" id="2ju2syjmDqy" role="2iSdaV" />
       </node>

@@ -234,11 +234,6 @@
     <property role="34LRSv" value="Language" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="2ju2syjknpW" role="1TKVEl">
-      <property role="IQ2nx" value="2656571587264870012" />
-      <property role="TrG5h" value="qualifiedName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="2ju2syjknvg" role="1TKVEl">
       <property role="IQ2nx" value="2656571587264870352" />
       <property role="TrG5h" value="key" />
