@@ -484,7 +484,7 @@
                 <ref role="3cqZAo" node="z1IqfFwwuQ" resolve="jsonSerialization" />
               </node>
               <node concept="liA8E" id="z1IqfFwx18" role="2OqNvi">
-                <ref role="37wK5l" to="g8af:~JsonSerialization.unserialize(com.google.gson.JsonElement)" resolve="unserialize" />
+                <ref role="37wK5l" to="g8af:~JsonSerialization.unserializeToNode(com.google.gson.JsonElement)" resolve="unserializeToNode" />
                 <node concept="37vLTw" id="z1IqfFwx19" role="37wK5m">
                   <ref role="3cqZAo" node="z1IqfFwvf5" resolve="jsonElement" />
                 </node>
@@ -1327,7 +1327,7 @@
               <ref role="3cqZAo" node="6VkSF6c$yDL" resolve="jsonSerialization" />
             </node>
             <node concept="liA8E" id="6VkSF6c$yDS" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~JsonSerialization.serialize(java.util.List)" resolve="serialize" />
+              <ref role="37wK5l" to="g8af:~JsonSerialization.serializeNodesToJson(java.util.List)" resolve="serializeNodesToJson" />
               <node concept="2OqwBi" id="2fx6VTTPYGY" role="37wK5m">
                 <node concept="37vLTw" id="6VkSF6c$yDZ" role="2Oq$k0">
                   <ref role="3cqZAo" node="6VkSF6c$yDX" resolve="nodes" />

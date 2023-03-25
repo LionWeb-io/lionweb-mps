@@ -147,6 +147,9 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -2602,8 +2605,10 @@
                 <property role="TrG5h" value="jsonChildren" />
                 <node concept="3uibUv" id="2fx6VTSxWlO" role="1tU5fm">
                   <ref role="3uigEE" to="33ny:~List" resolve="List" />
-                  <node concept="3uibUv" id="2fx6VTSxWlR" role="11_B2D">
-                    <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                  <node concept="3qUE_q" id="2chztJeyoSk" role="11_B2D">
+                    <node concept="3uibUv" id="2chztJeytsX" role="3qUE_r">
+                      <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                    </node>
                   </node>
                 </node>
                 <node concept="2OqwBi" id="2fx6VTSxWYl" role="33vP2m">
