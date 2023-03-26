@@ -5,20 +5,13 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3" version="0" />
-    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
   </languages>
   <imports>
     <import index="dydc" ref="r:303e2235-6078-45d3-bca1-4bd6b06c2770(io.lionweb.mps.converter.m2.lioncore2mps)" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
-    <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
-    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="xbe" ref="r:912ab958-fa26-4eb6-bc68-3a80eb1c49c4(io.lionweb.mps.converter.test.support)" />
-    <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -101,7 +94,7 @@
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
       <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
-        <property id="2656571587264857353" name="id" index="2RzON1" />
+        <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
         <reference id="2656571587264867894" name="type" index="2RzQvY" />
@@ -116,8 +109,9 @@
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn" />
-      <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Metamodel" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="id" index="2RzRSo" />
+      <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
+        <property id="2656571587264870352" name="key" index="2RzRSo" />
+        <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
       </concept>
       <concept id="2656571587264873280" name="io.lionweb.mps.m3.structure.Enumeration" flags="ng" index="2RzSE8">
@@ -337,6 +331,7 @@
       <node concept="2RzRRF" id="3ePT3MiT$lu" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000aa" />
         <property role="TrG5h" value="MoveParentFeatureContainer" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="3ePT3MiT$lv" role="2RzR6B">
           <property role="2RzON1" value="111" />
           <property role="TrG5h" value="C1" />
@@ -364,6 +359,7 @@
       <node concept="2RzRRF" id="3ePT3MiT$lP" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000aa" />
         <property role="TrG5h" value="MoveParentFeatureContainer" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="3ePT3MiT$lQ" role="2RzR6B">
           <property role="2RzON1" value="111" />
           <property role="TrG5h" value="C1" />
@@ -447,6 +443,7 @@
       <node concept="2RzRRF" id="59Df55kqJn0" role="1qenE9">
         <property role="2RzRSo" value="1" />
         <property role="TrG5h" value="Same" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55kqJn7" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -510,6 +507,7 @@
       <node concept="2RzRRF" id="59Df55krQSJ" role="1qenE9">
         <property role="2RzRSo" value="1" />
         <property role="TrG5h" value="Same" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzPWn" id="59Df55ky1ry" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -728,6 +726,7 @@
       <node concept="2RzRRF" id="59Df55loTY2" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000aa" />
         <property role="TrG5h" value="MoveParentEnum" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzSE8" id="59Df55loULo" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="E1" />
@@ -753,6 +752,7 @@
       <node concept="2RzRRF" id="59Df55loTY9" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000aa" />
         <property role="TrG5h" value="MoveParentEnum" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzSE8" id="59Df55loVdC" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="E1" />
@@ -802,10 +802,10 @@
               <node concept="2ShNRf" id="59Df55lu8nh" role="37wK5m">
                 <node concept="32Fmki" id="59Df55lu8Pm" role="2ShVmc">
                   <node concept="3Tqbb2" id="59Df55lu9pz" role="3rHrn6">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                   <node concept="3Tqbb2" id="59Df55lu9Ah" role="3rHtpV">
-                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Metamodel" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                   </node>
                   <node concept="3Mi1_Z" id="59Df55lu9V_" role="3Mj9YC">
                     <node concept="3Milgn" id="59Df55lua1B" role="3MiYds">
@@ -973,6 +973,7 @@
       <node concept="2RzRRF" id="59Df55loWJ3" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000aa" />
         <property role="TrG5h" value="MoveMetamodel1" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzSE8" id="59Df55loWJ4" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="E1" />
@@ -994,6 +995,7 @@
       <node concept="2RzRRF" id="59Df55loXoL" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000bb" />
         <property role="TrG5h" value="MoveMetamodel2" />
+        <property role="3HH78N" value="1" />
         <node concept="3xLA65" id="59Df55loXoQ" role="lGtFl">
           <property role="TrG5h" value="mmA2" />
         </node>
@@ -1003,6 +1005,7 @@
       <node concept="2RzRRF" id="59Df55loXCH" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000aa" />
         <property role="TrG5h" value="MoveMetamodel1" />
+        <property role="3HH78N" value="1" />
         <node concept="3xLA65" id="59Df55loXCL" role="lGtFl">
           <property role="TrG5h" value="mmB1" />
         </node>
@@ -1012,6 +1015,7 @@
       <node concept="2RzRRF" id="59Df55loXCE" role="1qenE9">
         <property role="2RzRSo" value="00000000-0000-4000-0000-0000000000bb" />
         <property role="TrG5h" value="MoveMetamodel2" />
+        <property role="3HH78N" value="1" />
         <node concept="2RzSE8" id="59Df55loXCI" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="E1" />

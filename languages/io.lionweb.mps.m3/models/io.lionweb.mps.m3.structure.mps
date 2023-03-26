@@ -8,7 +8,31 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="2756621024541681841" name="jetbrains.mps.lang.resources.structure.Primitive" flags="ng" index="1irPi6">
+        <child id="1860120738943552529" name="fillColor" index="3PKjn_" />
+        <child id="1860120738943552531" name="borderColor" index="3PKjnB" />
+      </concept>
+      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
+        <property id="2756621024541681854" name="text" index="1irPi9" />
+        <child id="1860120738943552534" name="color" index="3PKjny" />
+      </concept>
+      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
+        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
+        <child id="2756621024541675110" name="layers" index="1irR9h" />
+      </concept>
+      <concept id="2756621024541675104" name="jetbrains.mps.lang.resources.structure.Circle" flags="ng" index="1irR9n" />
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -23,6 +47,7 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -52,14 +77,9 @@
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="NamespacedEntity" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="2ju2syjkkdB" role="1TKVEl">
-      <property role="IQ2nx" value="2656571587264856935" />
-      <property role="TrG5h" value="simpleName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="2ju2syjkkk9" role="1TKVEl">
       <property role="IQ2nx" value="2656571587264857353" />
-      <property role="TrG5h" value="id" />
+      <property role="TrG5h" value="key" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="2ju2syjmzI5" role="PzmwI">
@@ -68,9 +88,9 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjkkog">
     <property role="EcuMT" value="2656571587264857616" />
-    <property role="TrG5h" value="MetamodelElement" />
+    <property role="TrG5h" value="LanguageElement" />
     <property role="R5$K7" value="true" />
-    <property role="34LRSv" value="MetamodelElement" />
+    <property role="34LRSv" value="LanguageElement" />
     <ref role="1TJDcQ" node="6sGx2ln21vt" resolve="NamespacedEntity" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkkv_">
@@ -138,7 +158,7 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="featuresContainer" />
     <property role="34LRSv" value="FeaturesContainer" />
-    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="MetamodelElement" />
+    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
     <node concept="1TJgyj" id="2ju2syjkliV" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264861371" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -205,19 +225,19 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjkngz">
     <property role="EcuMT" value="2656571587264869411" />
-    <property role="TrG5h" value="Metamodel" />
-    <property role="34LRSv" value="Metamodel" />
+    <property role="TrG5h" value="Language" />
+    <property role="34LRSv" value="Language" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyi" id="2ju2syjknpW" role="1TKVEl">
-      <property role="IQ2nx" value="2656571587264870012" />
-      <property role="TrG5h" value="qualifiedName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="2ju2syjknvg" role="1TKVEl">
       <property role="IQ2nx" value="2656571587264870352" />
-      <property role="TrG5h" value="id" />
+      <property role="TrG5h" value="key" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2chztJeDvZC" role="1TKVEl">
+      <property role="IQ2nx" value="2526956841135898600" />
+      <property role="TrG5h" value="version" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="2ju2syjknmE" role="PzmwI">
       <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
@@ -230,24 +250,41 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjkkog" resolve="MetamodelElement" />
+      <ref role="20lvS9" node="2ju2syjkkog" resolve="LanguageElement" />
     </node>
     <node concept="1TJgyj" id="2ju2syjknFV" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264871163" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dependsOn" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjknNi" resolve="MetamodelReference" />
+      <ref role="20lvS9" node="2ju2syjknNi" resolve="LanguageReference" />
+    </node>
+    <node concept="1irR5M" id="39$JcGF7lf0" role="rwd14">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irR9n" id="39$JcGF7WHi" role="1irR9h">
+        <node concept="3PKj8D" id="39$JcGF7WHs" role="3PKjn_">
+          <property role="3PKj8l" value="00ff00" />
+        </node>
+        <node concept="3PKj8D" id="39$JcGF7WHu" role="3PKjnB">
+          <property role="3PKj8l" value="80ff80" />
+        </node>
+      </node>
+      <node concept="1irPie" id="39$JcGF7lfk" role="1irR9h">
+        <property role="1irPi9" value="L" />
+        <node concept="3PKj8D" id="39$JcGF7lfs" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="2ju2syjknNi">
     <property role="EcuMT" value="2656571587264871634" />
-    <property role="TrG5h" value="MetamodelReference" />
+    <property role="TrG5h" value="LanguageReference" />
     <node concept="1TJgyj" id="2ju2syjknNj" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="2656571587264871635" />
-      <property role="20kJfa" value="metamodel" />
-      <ref role="20lvS9" node="2ju2syjkngz" resolve="Metamodel" />
+      <property role="20kJfa" value="language" />
+      <ref role="20lvS9" node="2ju2syjkngz" resolve="Language" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ju2syjko0M">
@@ -256,7 +293,7 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="dataType" />
     <property role="34LRSv" value="DataType" />
-    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="MetamodelElement" />
+    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
   </node>
   <node concept="1TIwiD" id="2ju2syjko87">
     <property role="EcuMT" value="2656571587264872967" />
@@ -288,6 +325,12 @@
     <property role="TrG5h" value="EnumerationLiteral" />
     <property role="34LRSv" value="EnumerationLiteral" />
     <ref role="1TJDcQ" node="6sGx2ln21vt" resolve="NamespacedEntity" />
+  </node>
+  <node concept="Az7Fb" id="39$JcGFBYkI">
+    <property role="3F6X1D" value="3631234780363744558" />
+    <property role="3GE5qa" value="dataType" />
+    <property role="TrG5h" value="JSON" />
+    <property role="FLfZY" value=".*" />
   </node>
 </model>
 
