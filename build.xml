@@ -51,6 +51,7 @@
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         <depends>com.intellij.modules.mps</depends>
+        <depends>com.intellij.modules.platform</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -70,6 +71,7 @@
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
         <depends>com.intellij.modules.mps</depends>
+        <depends>com.intellij.modules.platform</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
