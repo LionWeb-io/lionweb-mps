@@ -13,6 +13,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json.test/io.lionweb.mps.json.test.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json/io.lionweb.mps.json.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.lionweb.lioncore.java/org.lionweb.lioncore.java.msd" folder="" />
     </projectModules>
   </component>
