@@ -59,6 +59,7 @@
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
@@ -85,10 +86,15 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -759,22 +765,16 @@
       <node concept="3clFbS" id="2fx6VTSt4eM" role="3clF47">
         <node concept="3cpWs8" id="2fx6VTSuwpD" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTSuwpE" role="3cpWs9">
-            <property role="TrG5h" value="decode" />
+            <property role="TrG5h" value="regular" />
             <node concept="17QB3L" id="2fx6VTSuQyM" role="1tU5fm" />
             <node concept="3cpWs3" id="5wsogBctz3Q" role="33vP2m">
-              <node concept="3cpWs3" id="5wsogBctNuU" role="3uHU7B">
-                <node concept="10M0yZ" id="5wsogBctPET" role="3uHU7w">
-                  <ref role="3cqZAo" to="w1kc:~SNodeId$Foreign.ID_PREFIX" resolve="ID_PREFIX" />
-                  <ref role="1PxDUh" to="w1kc:~SNodeId$Foreign" resolve="Foreign" />
+              <node concept="3cpWs3" id="5wsogBctEI_" role="3uHU7B">
+                <node concept="10M0yZ" id="5wsogBctH3A" role="3uHU7B">
+                  <ref role="3cqZAo" to="w1kc:~SNodeId.TYPE" resolve="TYPE" />
+                  <ref role="1PxDUh" to="w1kc:~SNodeId" resolve="SNodeId" />
                 </node>
-                <node concept="3cpWs3" id="5wsogBctEI_" role="3uHU7B">
-                  <node concept="10M0yZ" id="5wsogBctH3A" role="3uHU7B">
-                    <ref role="3cqZAo" to="w1kc:~SNodeId.TYPE" resolve="TYPE" />
-                    <ref role="1PxDUh" to="w1kc:~SNodeId" resolve="SNodeId" />
-                  </node>
-                  <node concept="Xl_RD" id="5wsogBctzLb" role="3uHU7w">
-                    <property role="Xl_RC" value=":" />
-                  </node>
+                <node concept="Xl_RD" id="5wsogBctzLb" role="3uHU7w">
+                  <property role="Xl_RC" value=":" />
                 </node>
               </node>
               <node concept="2OqwBi" id="2fx6VTSL_fl" role="3uHU7w">
@@ -788,6 +788,18 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="2q_M4ySI9kB" role="3cqZAp">
+          <node concept="3cpWsn" id="2q_M4ySI9kC" role="3cpWs9">
+            <property role="TrG5h" value="persistenceFacade" />
+            <node concept="3uibUv" id="2q_M4ySI9ch" role="1tU5fm">
+              <ref role="3uigEE" to="dush:~PersistenceFacade" resolve="PersistenceFacade" />
+            </node>
+            <node concept="2YIFZM" id="2q_M4ySI9kD" role="33vP2m">
+              <ref role="37wK5l" to="dush:~PersistenceFacade.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="dush:~PersistenceFacade" resolve="PersistenceFacade" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2fx6VTSuUWy" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTSuUWz" role="3cpWs9">
             <property role="TrG5h" value="id" />
@@ -795,16 +807,74 @@
               <ref role="3uigEE" to="mhbf:~SNodeId" resolve="SNodeId" />
             </node>
             <node concept="2OqwBi" id="2fx6VTSuUW$" role="33vP2m">
-              <node concept="2YIFZM" id="2fx6VTSuUW_" role="2Oq$k0">
-                <ref role="37wK5l" to="dush:~PersistenceFacade.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="dush:~PersistenceFacade" resolve="PersistenceFacade" />
+              <node concept="37vLTw" id="2q_M4ySI9kE" role="2Oq$k0">
+                <ref role="3cqZAo" node="2q_M4ySI9kC" resolve="instance" />
               </node>
               <node concept="liA8E" id="2fx6VTSuUWA" role="2OqNvi">
                 <ref role="37wK5l" to="dush:~PersistenceFacade.createNodeId(java.lang.String)" resolve="createNodeId" />
                 <node concept="37vLTw" id="2fx6VTSuUWB" role="37wK5m">
-                  <ref role="3cqZAo" node="2fx6VTSuwpE" resolve="decode" />
+                  <ref role="3cqZAo" node="2fx6VTSuwpE" resolve="regular" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2q_M4ySHYVS" role="3cqZAp">
+          <node concept="3clFbS" id="2q_M4ySHYVU" role="3clFbx">
+            <node concept="3cpWs8" id="2q_M4ySHNIB" role="3cqZAp">
+              <node concept="3cpWsn" id="2q_M4ySHNIC" role="3cpWs9">
+                <property role="TrG5h" value="foreign" />
+                <node concept="17QB3L" id="2q_M4ySHNID" role="1tU5fm" />
+                <node concept="3cpWs3" id="2q_M4ySHNIE" role="33vP2m">
+                  <node concept="3cpWs3" id="2q_M4ySHNIF" role="3uHU7B">
+                    <node concept="10M0yZ" id="2q_M4ySHNIG" role="3uHU7w">
+                      <ref role="3cqZAo" to="w1kc:~SNodeId$Foreign.ID_PREFIX" resolve="ID_PREFIX" />
+                      <ref role="1PxDUh" to="w1kc:~SNodeId$Foreign" resolve="Foreign" />
+                    </node>
+                    <node concept="3cpWs3" id="2q_M4ySHNIH" role="3uHU7B">
+                      <node concept="10M0yZ" id="2q_M4ySHNII" role="3uHU7B">
+                        <ref role="3cqZAo" to="w1kc:~SNodeId.TYPE" resolve="TYPE" />
+                        <ref role="1PxDUh" to="w1kc:~SNodeId" resolve="SNodeId" />
+                      </node>
+                      <node concept="Xl_RD" id="2q_M4ySHNIJ" role="3uHU7w">
+                        <property role="Xl_RC" value=":" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2q_M4ySHNIK" role="3uHU7w">
+                    <node concept="37vLTw" id="2q_M4ySHNIL" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2fx6VTSt4eV" resolve="json" />
+                    </node>
+                    <node concept="liA8E" id="2q_M4ySHNIM" role="2OqNvi">
+                      <ref role="37wK5l" to="9b9d:~SerializedNode.getID()" resolve="getID" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2q_M4ySI7_u" role="3cqZAp">
+              <node concept="37vLTI" id="2q_M4ySI8u7" role="3clFbG">
+                <node concept="2OqwBi" id="2q_M4ySIdMt" role="37vLTx">
+                  <node concept="37vLTw" id="2q_M4ySIcGX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2q_M4ySI9kC" resolve="persistenceFacade" />
+                  </node>
+                  <node concept="liA8E" id="2q_M4ySIeHC" role="2OqNvi">
+                    <ref role="37wK5l" to="dush:~PersistenceFacade.createNodeId(java.lang.String)" resolve="createNodeId" />
+                    <node concept="37vLTw" id="2q_M4ySIfWl" role="37wK5m">
+                      <ref role="3cqZAo" node="2q_M4ySHNIC" resolve="foreign" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2q_M4ySI7_s" role="37vLTJ">
+                  <ref role="3cqZAo" node="2fx6VTSuUWz" resolve="id" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2q_M4ySI0IY" role="3clFbw">
+            <node concept="10Nm6u" id="2q_M4ySI1Ao" role="3uHU7w" />
+            <node concept="37vLTw" id="2q_M4ySHZMI" role="3uHU7B">
+              <ref role="3cqZAo" node="2fx6VTSuUWz" resolve="id" />
             </node>
           </node>
         </node>
