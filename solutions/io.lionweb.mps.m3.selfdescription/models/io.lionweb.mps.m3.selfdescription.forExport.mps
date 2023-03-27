@@ -24,34 +24,15 @@
       </concept>
     </language>
   </registry>
-  <node concept="Ir9ja" id="~2784852159255967192">
-    <property role="3B8ISX" value="Bob's Library2" />
-    <node concept="13mcDM" id="~7986257291429437690" role="TmxoL">
-      <property role="3sq1ZX" value="Explorer Book2" />
-      <property role="19ZP2z" value="123" />
-      <ref role="WQnOL" node="~7986257291429437700" />
-    </node>
-  </node>
-  <node concept="2Ke3v$" id="~7986257291429437700">
-    <property role="ZnR3n" value="Alaska" />
-    <property role="SNCrW" value="Jack London2" />
-  </node>
-  <node concept="Ir9ja" id="2q_M4ySuuNX">
-    <property role="3B8ISX" value="Bob's Library2" />
-    <node concept="13mcDM" id="2q_M4ySuuNY" role="TmxoL">
-      <property role="3sq1ZX" value="Explorer Book2" />
-      <property role="19ZP2z" value="123" />
-      <ref role="WQnOL" node="2q_M4ySuuNZ" />
-    </node>
-  </node>
-  <node concept="2Ke3v$" id="2q_M4ySuuNZ">
-    <property role="ZnR3n" value="Alaska" />
-    <property role="SNCrW" value="Jack London2" />
-  </node>
   <node concept="Ir9ja" id="2q_M4ySrBno">
-    <property role="3B8ISX" value="Bob's Library2" />
-    <node concept="13mcDM" id="6VkSF6cxA3U" role="TmxoL">
+    <property role="3B8ISX" value="Bob's Library3" />
+    <node concept="13mcDM" id="6VkSF6cxA2X" role="TmxoL">
       <property role="3sq1ZX" value="Explorer Book2" />
+      <property role="19ZP2z" value="123" />
+      <ref role="WQnOL" node="6VkSF6cxA44" />
+    </node>
+    <node concept="13mcDM" id="6VkSF6cxA2N" role="TmxoL">
+      <property role="3sq1ZX" value="Explorer Book9" />
       <property role="19ZP2z" value="123" />
       <ref role="WQnOL" node="6VkSF6cxA44" />
     </node>
@@ -59,6 +40,11 @@
   <node concept="2Ke3v$" id="6VkSF6cxA44">
     <property role="ZnR3n" value="Alaska" />
     <property role="SNCrW" value="Jack London2" />
+  </node>
+  <node concept="13mcDM" id="6VkSF6cxA43">
+    <property role="3sq1ZX" value="Explorer Book9" />
+    <property role="19ZP2z" value="123" />
+    <ref role="WQnOL" to=":6VkSF6cxA44" />
   </node>
 </model>
 
