@@ -71,9 +71,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -473,7 +470,6 @@
             </node>
             <node concept="2ShNRf" id="5wsogBcjSCA" role="33vP2m">
               <node concept="1pGfFk" id="5wsogBcjSCB" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="sp3y:~DynamicNode.&lt;init&gt;(java.lang.String,org.lionweb.lioncore.java.metamodel.Concept)" resolve="DynamicNode" />
                 <node concept="37vLTw" id="5wsogBcjSCC" role="37wK5m">
                   <ref role="3cqZAo" node="5wsogBcjRdj" resolve="nodeId" />
@@ -700,17 +696,7 @@
               <node concept="3cpWsn" id="17P16AUjrbd" role="3cpWs9">
                 <property role="TrG5h" value="resolveInfo" />
                 <node concept="17QB3L" id="17P16AUkyic" role="1tU5fm" />
-                <node concept="1rXfSq" id="17P16AUk$U$" role="33vP2m">
-                  <ref role="37wK5l" node="17P16AUjS_V" resolve="extractResolveInfo" />
-                  <node concept="2OqwBi" id="17P16AUjrbe" role="37wK5m">
-                    <node concept="2GrUjf" id="17P16AUjrbf" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="48csSBQ3iFX" resolve="mpsRef" />
-                    </node>
-                    <node concept="liA8E" id="17P16AUjrbg" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SReference.describeTarget()" resolve="describeTarget" />
-                    </node>
-                  </node>
-                </node>
+                <node concept="10Nm6u" id="3t31ufDryqR" role="33vP2m" />
               </node>
             </node>
             <node concept="3clFbF" id="48csSBQ3nt6" role="3cqZAp">
@@ -773,76 +759,34 @@
           </node>
         </node>
         <node concept="3clFbJ" id="17P16AUk2p6" role="3cqZAp">
-          <node concept="3eNFk2" id="17P16AUkbjI" role="3eNLev">
-            <node concept="3clFbS" id="17P16AUkbjK" role="3eOfB_">
-              <node concept="3clFbF" id="17P16AUk2p8" role="3cqZAp">
-                <node concept="37vLTI" id="17P16AUk2p9" role="3clFbG">
-                  <node concept="2OqwBi" id="17P16AUk2pa" role="37vLTx">
-                    <node concept="1eOMI4" id="17P16AUk2pb" role="2Oq$k0">
-                      <node concept="10QFUN" id="17P16AUk2pc" role="1eOMHV">
-                        <node concept="37vLTw" id="17P16AUk2pd" role="10QFUP">
-                          <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
-                        </node>
-                        <node concept="3uibUv" id="17P16AUk2pe" role="10QFUM">
-                          <ref role="3uigEE" to="mhbf:~ResolveInfo$S" resolve="S" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="17P16AUk2pf" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~ResolveInfo$S.getValue()" resolve="getValue" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="17P16AUk2pg" role="37vLTJ">
-                    <ref role="3cqZAo" node="17P16AUk2p3" resolve="result" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2ZW3vV" id="17P16AUkcAQ" role="3eO9$A">
-              <node concept="3uibUv" id="17P16AUkcAR" role="2ZW6by">
-                <ref role="3uigEE" to="mhbf:~ResolveInfo$S" resolve="S" />
-              </node>
-              <node concept="37vLTw" id="17P16AUkcAS" role="2ZW6bz">
-                <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
-              </node>
-            </node>
-          </node>
           <node concept="3clFbS" id="17P16AUk2p7" role="3clFbx">
-            <node concept="3clFbF" id="17P16AUkhhs" role="3cqZAp">
-              <node concept="37vLTI" id="17P16AUkpWi" role="3clFbG">
-                <node concept="37vLTw" id="17P16AUko_k" role="37vLTJ">
-                  <ref role="3cqZAo" node="17P16AUk2p3" resolve="result" />
-                </node>
-                <node concept="2OqwBi" id="17P16AUkjYt" role="37vLTx">
-                  <node concept="1eOMI4" id="17P16AUki9_" role="2Oq$k0">
-                    <node concept="10QFUN" id="17P16AUki9$" role="1eOMHV">
-                      <node concept="37vLTw" id="17P16AUki9z" role="10QFUP">
+            <node concept="3clFbF" id="17P16AUk2p8" role="3cqZAp">
+              <node concept="37vLTI" id="17P16AUk2p9" role="3clFbG">
+                <node concept="2OqwBi" id="17P16AUk2pa" role="37vLTx">
+                  <node concept="1eOMI4" id="17P16AUk2pb" role="2Oq$k0">
+                    <node concept="10QFUN" id="17P16AUk2pc" role="1eOMHV">
+                      <node concept="37vLTw" id="17P16AUk2pd" role="10QFUP">
                         <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
                       </node>
-                      <node concept="3uibUv" id="17P16AUkj13" role="10QFUM">
-                        <ref role="3uigEE" to="g3l6:~ResolveInfoExt" resolve="ResolveInfoExt" />
+                      <node concept="3uibUv" id="17P16AUk2pe" role="10QFUM">
+                        <ref role="3uigEE" to="mhbf:~ResolveInfo$S" resolve="ResolveInfo.S" />
                       </node>
                     </node>
                   </node>
-                  <node concept="liA8E" id="17P16AUkkTb" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                  <node concept="liA8E" id="17P16AUk2pf" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~ResolveInfo$S.getValue()" resolve="getValue" />
                   </node>
                 </node>
+                <node concept="37vLTw" id="17P16AUk2pg" role="37vLTJ">
+                  <ref role="3cqZAo" node="17P16AUk2p3" resolve="result" />
+                </node>
               </node>
-            </node>
-          </node>
-          <node concept="2ZW3vV" id="17P16AUk2ph" role="3clFbw">
-            <node concept="3uibUv" id="17P16AUk2pi" role="2ZW6by">
-              <ref role="3uigEE" to="g3l6:~ResolveInfoExt" resolve="ResolveInfoExt" />
-            </node>
-            <node concept="37vLTw" id="17P16AUk2pj" role="2ZW6bz">
-              <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
             </node>
           </node>
           <node concept="3eNFk2" id="17P16AUk2pk" role="3eNLev">
             <node concept="2ZW3vV" id="17P16AUk2pl" role="3eO9$A">
               <node concept="3uibUv" id="17P16AUk2pm" role="2ZW6by">
-                <ref role="3uigEE" to="mhbf:~ResolveInfo$PS" resolve="PS" />
+                <ref role="3uigEE" to="mhbf:~ResolveInfo$CM" resolve="ResolveInfo.CM" />
               </node>
               <node concept="37vLTw" id="17P16AUk2pn" role="2ZW6bz">
                 <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
@@ -858,16 +802,16 @@
                           <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
                         </node>
                         <node concept="3uibUv" id="17P16AUk2pv" role="10QFUM">
-                          <ref role="3uigEE" to="mhbf:~ResolveInfo$PS" resolve="PS" />
+                          <ref role="3uigEE" to="mhbf:~ResolveInfo$CM" resolve="ResolveInfo.CM" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="17P16AUk2pw" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~ResolveInfo$PS.getValue()" resolve="getValue" />
+                      <ref role="37wK5l" to="mhbf:~ResolveInfo$CM.getValue()" resolve="getValue" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="17P16AUk2px" role="37vLTJ">
-                    <ref role="3cqZAo" node="17P16AUk2p3" resolve="resolveInfoString" />
+                    <ref role="3cqZAo" node="17P16AUk2p3" resolve="result" />
                   </node>
                 </node>
               </node>
@@ -890,6 +834,14 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="3t31ufDrAfj" role="3clFbw">
+            <node concept="3uibUv" id="3t31ufDrAfk" role="2ZW6by">
+              <ref role="3uigEE" to="mhbf:~ResolveInfo$S" resolve="ResolveInfo.S" />
+            </node>
+            <node concept="37vLTw" id="3t31ufDrAfl" role="2ZW6bz">
+              <ref role="3cqZAo" node="17P16AUk37b" resolve="resolveInfo" />
             </node>
           </node>
         </node>
@@ -1095,7 +1047,7 @@
       </node>
       <node concept="3clFbS" id="6VkSF6aDUhX" role="3clF47" />
       <node concept="2AHcQZ" id="6VkSF6aDUhY" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -1187,7 +1139,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="6VkSF6aDU_j" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -1326,7 +1278,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="6VkSF6aF16z" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>

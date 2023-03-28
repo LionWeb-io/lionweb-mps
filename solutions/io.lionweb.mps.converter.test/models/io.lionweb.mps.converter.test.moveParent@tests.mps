@@ -22,7 +22,6 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -174,7 +173,6 @@
     </language>
   </registry>
   <node concept="1lH9Xt" id="3ePT3MiTyKy">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="MoveParentFeatureContainer" />
     <node concept="1LZb2c" id="3ePT3MiT$m7" role="1SL9yI">
       <property role="TrG5h" value="moveParent" />
@@ -268,7 +266,7 @@
           <node concept="2OqwBi" id="59Df55l3oZP" role="3tpDZA">
             <node concept="2OqwBi" id="59Df55l3oZQ" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l3oZR" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55l3oZI" resolve="ad" />
+                <ref role="3cqZAo" node="59Df55l3oZI" resolve="mpd" />
               </node>
               <node concept="liA8E" id="59Df55l3oZS" role="2OqNvi">
                 <ref role="37wK5l" to="dydc:3ePT3Mi7feP" resolve="getChanged" />
@@ -394,7 +392,6 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="59Df55kqJic">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="Same" />
     <node concept="1LZb2c" id="59Df55krRDD" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -514,12 +511,12 @@
           <node concept="2RzOeU" id="59Df55ky1rz" role="2RzPPN">
             <property role="2RzON1" value="100" />
             <property role="TrG5h" value="C1p" />
-            <ref role="2Rx9Fl" node="59Df55ky1rE" />
+            <ref role="2Rx9Fl" node="59Df55ky1rE" resolve="E1" />
           </node>
           <node concept="2RzOte" id="59Df55ky1r$" role="2RzPPN">
             <property role="2RzON1" value="101" />
             <property role="TrG5h" value="C1c" />
-            <ref role="2RzQvY" node="59Df55ky1rA" />
+            <ref role="2RzQvY" node="59Df55ky1rA" resolve="I1" />
           </node>
           <node concept="2RzOpR" id="59Df55ky1r_" role="2RzPPN">
             <property role="2RzON1" value="102" />
@@ -533,7 +530,7 @@
           <node concept="2RzOeU" id="59Df55ky1rB" role="2RzPPN">
             <property role="2RzON1" value="200" />
             <property role="TrG5h" value="I1p" />
-            <ref role="2Rx9Fl" node="59Df55ky1rH" />
+            <ref role="2Rx9Fl" node="59Df55ky1rH" resolve="P1" />
           </node>
           <node concept="2RzOte" id="59Df55ky1rC" role="2RzPPN">
             <property role="2RzON1" value="201" />
@@ -569,7 +566,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55loTX4">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="MoveParentEnum" />
     <node concept="1LZb2c" id="59Df55loTX5" role="1SL9yI">
       <property role="TrG5h" value="moveParent" />
@@ -782,7 +778,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55loWI5">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="MoveMetamodel" />
     <node concept="1LZb2c" id="59Df55loWI6" role="1SL9yI">
       <property role="TrG5h" value="moveParent" />
@@ -913,7 +908,7 @@
           <node concept="2OqwBi" id="59Df55loWIF" role="3tpDZA">
             <node concept="2OqwBi" id="59Df55loWIG" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55loWIH" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55loWI$" resolve="mpd" />
+                <ref role="3cqZAo" node="59Df55loWI$" resolve="mmd" />
               </node>
               <node concept="liA8E" id="59Df55loWII" role="2OqNvi">
                 <ref role="37wK5l" to="dydc:3ePT3Mi74o2" resolve="getChanged" />

@@ -39,9 +39,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -213,7 +210,6 @@
           </node>
           <node concept="2ShNRf" id="39$JcGGBTyj" role="33vP2m">
             <node concept="1pGfFk" id="39$JcGGBU1G" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
               <node concept="2OqwBi" id="39$JcGGC038" role="37wK5m">
                 <node concept="2OqwBi" id="39$JcGGBXOx" role="2Oq$k0">
@@ -320,7 +316,7 @@
               <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
             </node>
             <node concept="3Cnw8n" id="4pht$XswGpv" role="1urrFz">
-              <ref role="QpYPw" node="4pht$XswGps" resolve="fix_" />
+              <ref role="QpYPw" node="4pht$XswGps" resolve="fix_AddMissingExtendedLanguages" />
             </node>
           </node>
         </node>
@@ -390,7 +386,6 @@
             </node>
             <node concept="2ShNRf" id="39$JcGGC7Fz" role="33vP2m">
               <node concept="1pGfFk" id="39$JcGGC7F$" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
                 <node concept="2OqwBi" id="39$JcGGC7F_" role="37wK5m">
                   <node concept="2OqwBi" id="39$JcGGC7FA" role="2Oq$k0">
@@ -462,7 +457,7 @@
               <node concept="2OqwBi" id="4pht$XswMxv" role="3clFbG">
                 <node concept="2OqwBi" id="4pht$XswKFM" role="2Oq$k0">
                   <node concept="37vLTw" id="4pht$XswOYU" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4pht$XswOYQ" resolve="node" />
+                    <ref role="3cqZAo" node="4pht$XswOYQ" resolve="convertNode" />
                   </node>
                   <node concept="3Tsc0h" id="4pht$XswKOZ" role="2OqNvi">
                     <ref role="3TtcxE" to="d0tf:4pht$XsqYrz" resolve="languages" />

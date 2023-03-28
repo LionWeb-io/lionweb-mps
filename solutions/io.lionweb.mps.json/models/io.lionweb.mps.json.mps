@@ -81,9 +81,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -227,7 +224,6 @@
             </node>
             <node concept="2ShNRf" id="5wsogBctgTh" role="37vLTx">
               <node concept="1pGfFk" id="5wsogBctgTi" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
                 <node concept="37vLTw" id="5wsogBctgTj" role="37wK5m">
                   <ref role="3cqZAo" node="z1IqfFwqi3" resolve="input" />
@@ -293,7 +289,6 @@
             </node>
             <node concept="2ShNRf" id="2chztJeSDG6" role="33vP2m">
               <node concept="1pGfFk" id="2chztJeSDG7" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="g8af:~LowLevelJsonSerialization.&lt;init&gt;()" resolve="LowLevelJsonSerialization" />
               </node>
             </node>
@@ -472,7 +467,6 @@
           <ref role="37wK5l" node="6VkSF6c$d0T" resolve="Serializer" />
           <node concept="2ShNRf" id="6VkSF6c$hAg" role="37wK5m">
             <node concept="1pGfFk" id="6VkSF6c$hAh" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="guwi:~OutputStreamWriter.&lt;init&gt;(java.io.OutputStream,java.nio.charset.Charset)" resolve="OutputStreamWriter" />
               <node concept="37vLTw" id="6VkSF6c$hAi" role="37wK5m">
                 <ref role="3cqZAo" node="6VkSF6c$fUF" resolve="output" />
@@ -506,7 +500,6 @@
           <ref role="37wK5l" node="5sACIIs_LbU" resolve="Serializer" />
           <node concept="2ShNRf" id="6VkSF6c$hR1" role="37wK5m">
             <node concept="1pGfFk" id="6VkSF6c$hR2" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="c9jv:~JsonWriter.&lt;init&gt;(java.io.Writer)" resolve="JsonWriter" />
               <node concept="37vLTw" id="6VkSF6c$hR3" role="37wK5m">
                 <ref role="3cqZAo" node="6VkSF6c$dxe" resolve="writer" />
@@ -529,7 +522,7 @@
             <node concept="2OqwBi" id="5sACIIs_Lc0" role="37vLTJ">
               <node concept="Xjq3P" id="5sACIIs_Lc1" role="2Oq$k0" />
               <node concept="2OwXpG" id="5sACIIs_Lc2" role="2OqNvi">
-                <ref role="2Oxat5" node="5sACIIs_LbQ" resolve="input" />
+                <ref role="2Oxat5" node="5sACIIs_LbQ" resolve="writer" />
               </node>
             </node>
             <node concept="37vLTw" id="5sACIIs_Lc3" role="37vLTx">
@@ -681,7 +674,6 @@
                   <node concept="2OqwBi" id="4ei1_3SZsjt" role="2Oq$k0">
                     <node concept="2ShNRf" id="6VkSF6c$B88" role="2Oq$k0">
                       <node concept="1pGfFk" id="6VkSF6c$B89" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="wy2b:~GsonBuilder.&lt;init&gt;()" resolve="GsonBuilder" />
                       </node>
                     </node>
@@ -696,7 +688,7 @@
                 <node concept="liA8E" id="6VkSF6c$B8a" role="2OqNvi">
                   <ref role="37wK5l" to="wy2b:~Gson.toJson(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter)" resolve="toJson" />
                   <node concept="37vLTw" id="6VkSF6c$B8$" role="37wK5m">
-                    <ref role="3cqZAo" node="6VkSF6c$B8y" resolve="result" />
+                    <ref role="3cqZAo" node="6VkSF6c$B8y" resolve="json" />
                   </node>
                   <node concept="37vLTw" id="6VkSF6c$B8c" role="37wK5m">
                     <ref role="3cqZAo" node="5sACIIs_LbQ" resolve="writer" />
@@ -722,7 +714,6 @@
                   <node concept="YS8fn" id="6VkSF6c$B8l" role="3cqZAp">
                     <node concept="2ShNRf" id="6VkSF6c$B8m" role="YScLw">
                       <node concept="1pGfFk" id="6VkSF6c$B8n" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
                         <node concept="37vLTw" id="6VkSF6c$B8o" role="37wK5m">
                           <ref role="3cqZAo" node="6VkSF6c$B8p" resolve="e" />
@@ -752,7 +743,7 @@
         <node concept="3clFbH" id="6VkSF6c$B8v" role="3cqZAp" />
         <node concept="3clFbF" id="6VkSF6c$B8w" role="3cqZAp">
           <node concept="37vLTw" id="6VkSF6c$B8_" role="3clFbG">
-            <ref role="3cqZAo" node="6VkSF6c$B8y" resolve="result" />
+            <ref role="3cqZAo" node="6VkSF6c$B8y" resolve="json" />
           </node>
         </node>
       </node>
@@ -767,7 +758,7 @@
     <node concept="312cEu" id="4TKJARUNnyh" role="jymVt">
       <property role="TrG5h" value="BooleanSerializer" />
       <node concept="3uibUv" id="4TKJARUNor9" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveSerializer" />
+        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="4TKJARUNouW" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -882,7 +873,6 @@
           <node concept="YS8fn" id="4TKJARUN9du" role="3cqZAp">
             <node concept="2ShNRf" id="4TKJARUNdzC" role="YScLw">
               <node concept="1pGfFk" id="4TKJARUNfgv" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                 <node concept="3cpWs3" id="4TKJARUNEjH" role="37wK5m">
                   <node concept="37vLTw" id="4TKJARUNE$a" role="3uHU7w">
@@ -897,7 +887,7 @@
           </node>
         </node>
         <node concept="2AHcQZ" id="4TKJARUNov_" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" />
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
     </node>
@@ -905,7 +895,7 @@
     <node concept="312cEu" id="4TKJARUNHrF" role="jymVt">
       <property role="TrG5h" value="JsonSerializer" />
       <node concept="3uibUv" id="4TKJARUNI$z" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveSerializer" />
+        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="4TKJARUNIFM" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -927,7 +917,6 @@
                 <node concept="2OqwBi" id="4TKJARUNMWp" role="3cqZAk">
                   <node concept="2ShNRf" id="4TKJARUNMhS" role="2Oq$k0">
                     <node concept="1pGfFk" id="4TKJARUNMJN" role="2ShVmc">
-                      <property role="373rjd" value="true" />
                       <ref role="37wK5l" to="wy2b:~Gson.&lt;init&gt;()" resolve="Gson" />
                     </node>
                   </node>
@@ -1010,7 +999,6 @@
           <node concept="YS8fn" id="4TKJARUNTG1" role="3cqZAp">
             <node concept="2ShNRf" id="4TKJARUNTG2" role="YScLw">
               <node concept="1pGfFk" id="4TKJARUNTG3" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                 <node concept="3cpWs3" id="4TKJARUNTG4" role="37wK5m">
                   <node concept="37vLTw" id="4TKJARUNTG5" role="3uHU7w">
@@ -1025,7 +1013,7 @@
           </node>
         </node>
         <node concept="2AHcQZ" id="4TKJARUNJiQ" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" />
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
     </node>
@@ -1033,7 +1021,7 @@
     <node concept="312cEu" id="4TKJARUNWza" role="jymVt">
       <property role="TrG5h" value="IntegerSerializer" />
       <node concept="3uibUv" id="4TKJARUNXzj" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveSerializer" />
+        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="4TKJARUNXF1" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -1129,7 +1117,6 @@
           <node concept="YS8fn" id="4TKJARUO882" role="3cqZAp">
             <node concept="2ShNRf" id="4TKJARUO883" role="YScLw">
               <node concept="1pGfFk" id="4TKJARUO884" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                 <node concept="3cpWs3" id="4TKJARUO885" role="37wK5m">
                   <node concept="37vLTw" id="4TKJARUO886" role="3uHU7w">
@@ -1144,7 +1131,7 @@
           </node>
         </node>
         <node concept="2AHcQZ" id="4TKJARUNY7E" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" />
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
     </node>
@@ -1210,8 +1197,7 @@
               </node>
               <node concept="2ShNRf" id="4TKJARUO9wh" role="37wK5m">
                 <node concept="HV5vD" id="4TKJARUOb1x" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="4TKJARUNnyh" resolve="BooleanSerializer" />
+                  <ref role="HV5vE" node="4TKJARUNnyh" resolve="Serializer.BooleanSerializer" />
                 </node>
               </node>
             </node>
@@ -1235,8 +1221,7 @@
               </node>
               <node concept="2ShNRf" id="4TKJARUOczD" role="37wK5m">
                 <node concept="HV5vD" id="4TKJARUOdST" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="4TKJARUNHrF" resolve="JsonSerializer" />
+                  <ref role="HV5vE" node="4TKJARUNHrF" resolve="Serializer.JsonSerializer" />
                 </node>
               </node>
             </node>
@@ -1260,8 +1245,7 @@
               </node>
               <node concept="2ShNRf" id="4TKJARUOfQ1" role="37wK5m">
                 <node concept="HV5vD" id="4TKJARUOgPY" role="2ShVmc">
-                  <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="4TKJARUNWza" resolve="IntegerSerializer" />
+                  <ref role="HV5vE" node="4TKJARUNWza" resolve="Serializer.IntegerSerializer" />
                 </node>
               </node>
             </node>

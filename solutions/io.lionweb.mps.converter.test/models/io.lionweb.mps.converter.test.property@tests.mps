@@ -25,7 +25,6 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -166,7 +165,6 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="59Df55kYarR">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RenameProperty" />
     <node concept="1LZb2c" id="59Df55kYarS" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -363,7 +361,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kXTfq">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RemoveProperty" />
     <node concept="1LZb2c" id="59Df55kXTfr" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -591,7 +588,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kYhnb">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ChangeTypeProperty" />
     <node concept="1LZb2c" id="59Df55kYhnc" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -836,7 +832,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kXjzy">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="AddProperty" />
     <node concept="1LZb2c" id="59Df55kXjzz" role="1SL9yI">
       <property role="TrG5h" value="same" />

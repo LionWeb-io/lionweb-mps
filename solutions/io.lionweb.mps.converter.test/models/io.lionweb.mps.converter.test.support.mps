@@ -67,9 +67,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -307,13 +304,11 @@
           </node>
           <node concept="2ShNRf" id="6VkSF6c5kJw" role="37wK5m">
             <node concept="HV5vD" id="6VkSF6c5kJx" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
             </node>
           </node>
           <node concept="2ShNRf" id="2fx6VTTEWXk" role="37wK5m">
             <node concept="HV5vD" id="2fx6VTTEWXl" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="HV5vE" to="58k5:2fx6VTTDQCB" resolve="DeclarationNodeCompatibleLanguageIdMapper" />
             </node>
           </node>
@@ -341,7 +336,7 @@
             <node concept="2OqwBi" id="59Df55kqxp7" role="37vLTJ">
               <node concept="Xjq3P" id="59Df55kqxt$" role="2Oq$k0" />
               <node concept="2OwXpG" id="59Df55kqxpa" role="2OqNvi">
-                <ref role="2Oxat5" node="59Df55kqxhU" resolve="myConstants" />
+                <ref role="2Oxat5" node="59Df55kqxhU" resolve="constants" />
               </node>
             </node>
             <node concept="37vLTw" id="59Df55kqxi4" role="37vLTx">
@@ -384,7 +379,6 @@
             <node concept="2OqwBi" id="59Df55lbR2l" role="33vP2m">
               <node concept="2ShNRf" id="59Df55lbQ1j" role="2Oq$k0">
                 <node concept="HV5vD" id="59Df55lbQRd" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="dydc:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
                 </node>
               </node>
@@ -400,7 +394,6 @@
         <node concept="3cpWs6" id="3ePT3MiU3dH" role="3cqZAp">
           <node concept="2ShNRf" id="3ePT3MiU3dI" role="3cqZAk">
             <node concept="1pGfFk" id="3ePT3MiU3dJ" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="dydc:DUXtH0BGWn" resolve="NewImportedLanguage" />
               <node concept="37vLTw" id="3ePT3MiU3dK" role="37wK5m">
                 <ref role="3cqZAo" node="59Df55kqwhH" resolve="metamodel" />
@@ -413,13 +406,11 @@
               </node>
               <node concept="2ShNRf" id="6VkSF6bW8IN" role="37wK5m">
                 <node concept="HV5vD" id="6VkSF6bWazG" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
                 </node>
               </node>
               <node concept="2ShNRf" id="6VkSF6bWaKy" role="37wK5m">
                 <node concept="HV5vD" id="6VkSF6bWc_D" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="58k5:2fx6VTTDQCB" resolve="DeclarationNodeCompatibleLanguageIdMapper" />
                 </node>
               </node>
@@ -428,7 +419,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="59Df55kqwhK" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -462,7 +453,7 @@
             <node concept="2OqwBi" id="59Df55kq_BB" role="37vLTJ">
               <node concept="Xjq3P" id="59Df55kq_G4" role="2Oq$k0" />
               <node concept="2OwXpG" id="59Df55kq_BE" role="2OqNvi">
-                <ref role="2Oxat5" node="59Df55kq_n9" resolve="myImportedLanguage" />
+                <ref role="2Oxat5" node="59Df55kq_n9" resolve="importedLanguages" />
               </node>
             </node>
             <node concept="2OqwBi" id="59Df55lrT6Z" role="37vLTx">
@@ -482,7 +473,7 @@
             <node concept="2OqwBi" id="59Df55kq_VM" role="37vLTJ">
               <node concept="Xjq3P" id="59Df55kqA1h" role="2Oq$k0" />
               <node concept="2OwXpG" id="59Df55kq_VP" role="2OqNvi">
-                <ref role="2Oxat5" node="59Df55kq_IT" resolve="myConstants" />
+                <ref role="2Oxat5" node="59Df55kq_IT" resolve="constants" />
               </node>
             </node>
             <node concept="37vLTw" id="59Df55kq_J3" role="37vLTx">
@@ -621,7 +612,6 @@
         <node concept="3clFbF" id="3ePT3MiXg5k" role="3cqZAp">
           <node concept="2ShNRf" id="3ePT3MiXg5l" role="3clFbG">
             <node concept="1pGfFk" id="3ePT3MiXg5m" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" node="3ePT3MiWVCB" resolve="TestExistingImportedLanguage" />
               <node concept="37vLTw" id="3ePT3MiXg5n" role="37wK5m">
                 <ref role="3cqZAo" node="59Df55kqzUG" resolve="metamodel" />
@@ -645,7 +635,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="59Df55kqzUJ" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -731,11 +721,9 @@
             </node>
             <node concept="2ShNRf" id="59Df55loYfg" role="33vP2m">
               <node concept="1pGfFk" id="59Df55loYfh" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
                 <node concept="2ShNRf" id="59Df55loYfi" role="37wK5m">
                   <node concept="1pGfFk" id="59Df55loYfj" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" node="59Df55kqwSf" resolve="NewImportedLanguageLookup" />
                     <node concept="37vLTw" id="59Df55loYfk" role="37wK5m">
                       <ref role="3cqZAo" node="5wsogBcxeRL" resolve="constants" />
@@ -747,7 +735,7 @@
                 </node>
                 <node concept="2OqwBi" id="59Df55lp1xW" role="37wK5m">
                   <node concept="37vLTw" id="59Df55lp0Qo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="59Df55loZEE" resolve="mpa" />
+                    <ref role="3cqZAo" node="59Df55loZEE" resolve="map" />
                   </node>
                   <node concept="3lbrtF" id="59Df55lp2rH" role="2OqNvi" />
                 </node>
@@ -783,11 +771,9 @@
             </node>
             <node concept="2ShNRf" id="59Df55loYfA" role="33vP2m">
               <node concept="1pGfFk" id="59Df55loYfB" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
                 <node concept="2ShNRf" id="59Df55loYfC" role="37wK5m">
                   <node concept="1pGfFk" id="59Df55loYfD" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" node="59Df55kq$KG" resolve="ExistingImportedLanguageLookup" />
                     <node concept="37vLTw" id="59Df55loYfE" role="37wK5m">
                       <ref role="3cqZAo" node="59Df55loYfr" resolve="importedA" />

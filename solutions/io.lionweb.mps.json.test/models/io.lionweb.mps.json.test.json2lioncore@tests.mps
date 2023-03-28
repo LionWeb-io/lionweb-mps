@@ -37,7 +37,6 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -84,9 +83,6 @@
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -236,7 +232,6 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="importJson2Language_TestLang" />
     <node concept="1LZb2c" id="5sACIIszQ81" role="1SL9yI">
       <property role="TrG5h" value="library" />
@@ -267,7 +262,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIszewV" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIszgc5" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.io.File)" resolve="FileInputStream" />
                     <node concept="37vLTw" id="5sACIIszggG" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIszam9" resolve="file" />
@@ -284,11 +278,9 @@
                 </node>
                 <node concept="2ShNRf" id="2A0cGJdRE9J" role="33vP2m">
                   <node concept="1pGfFk" id="2A0cGJdRE9K" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Unserializer" />
                     <node concept="2ShNRf" id="2A0cGJdRE9L" role="37wK5m">
                       <node concept="1pGfFk" id="2A0cGJdRE9M" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~BufferedInputStream.&lt;init&gt;(java.io.InputStream)" resolve="BufferedInputStream" />
                         <node concept="37vLTw" id="4287tKAdqBR" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIsjktS" resolve="inputStream" />
@@ -353,7 +345,6 @@
                 </node>
                 <node concept="2ShNRf" id="39$JcGEIub3" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGEIub4" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="5els:39$JcGEN9vN" resolve="Json2LanguageConverter" />
                   </node>
                 </node>
@@ -430,7 +421,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIszZSx">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="json2LionCore_Library" />
     <node concept="1LZb2c" id="5sACIIszZVf" role="1SL9yI">
       <property role="TrG5h" value="library" />
@@ -461,7 +451,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIszZV$" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIszZV_" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.io.File)" resolve="FileInputStream" />
                     <node concept="37vLTw" id="5sACIIszZVA" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIszZVq" resolve="file" />
@@ -478,11 +467,9 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIszZVE" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIszZVF" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Unserializer" />
                     <node concept="2ShNRf" id="5sACIIszZVG" role="37wK5m">
                       <node concept="1pGfFk" id="5sACIIszZVH" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~BufferedInputStream.&lt;init&gt;(java.io.InputStream)" resolve="BufferedInputStream" />
                         <node concept="37vLTw" id="5sACIIszZVI" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIszZVy" resolve="inputStream" />
@@ -520,7 +507,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIs$aUK" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIs$aUL" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2YIFZM" id="5wsogBcxjuE" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
@@ -535,8 +521,7 @@
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ctE01" role="37wK5m">
                       <node concept="HV5vD" id="6VkSF6ctE03" role="2ShVmc">
-                        <property role="373rjd" value="true" />
-                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonLanguageIdMapper" />
+                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs$aUV" role="37wK5m">
@@ -704,7 +689,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIs_h0k">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="json2LionCore_LIonCore" />
     <node concept="1LZb2c" id="5sACIIs_h0l" role="1SL9yI">
       <property role="TrG5h" value="library" />
@@ -735,7 +719,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIs_h0E" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIs_h0F" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.io.File)" resolve="FileInputStream" />
                     <node concept="37vLTw" id="5sACIIs_h0G" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIs_h0w" resolve="file" />
@@ -752,11 +735,9 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIs_h0K" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIs_h0L" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Unserializer" />
                     <node concept="2ShNRf" id="5sACIIs_h0M" role="37wK5m">
                       <node concept="1pGfFk" id="5sACIIs_h0N" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~BufferedInputStream.&lt;init&gt;(java.io.InputStream)" resolve="BufferedInputStream" />
                         <node concept="37vLTw" id="5sACIIs_h0O" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIs_h0C" resolve="inputStream" />
@@ -794,7 +775,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIs_h10" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIs_h11" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2YIFZM" id="5wsogBcxiJg" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
@@ -809,8 +789,7 @@
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ct_Co" role="37wK5m">
                       <node concept="HV5vD" id="6VkSF6ctDvO" role="2ShVmc">
-                        <property role="373rjd" value="true" />
-                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonLanguageIdMapper" />
+                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs_h1b" role="37wK5m">
@@ -1164,7 +1143,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIt1Plz">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="lionCore2Json_Library" />
     <node concept="1LZb2c" id="5sACIIt1Pl$" role="1SL9yI">
       <property role="TrG5h" value="library" />
@@ -1178,7 +1156,6 @@
             </node>
             <node concept="2ShNRf" id="5sACIIt1V7V" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIt1V7W" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="9pi3:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
                 <node concept="2YIFZM" id="5wsogBcwyAf" role="37wK5m">
                   <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
@@ -1193,7 +1170,6 @@
                 </node>
                 <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
                   <node concept="HV5vD" id="6VkSF6ctHtr" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="HV5vE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
                   </node>
                 </node>
@@ -1268,7 +1244,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIt4yor" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIt4yos" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~CharArrayWriter.&lt;init&gt;()" resolve="CharArrayWriter" />
                   </node>
                 </node>
@@ -1282,7 +1257,6 @@
                 </node>
                 <node concept="2ShNRf" id="5wsogBcwr5Q" role="33vP2m">
                   <node concept="1pGfFk" id="5wsogBcwr5R" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:6VkSF6c$d0T" resolve="Serializer" />
                     <node concept="37vLTw" id="5wsogBcwr5S" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIt4yoq" resolve="stream" />
@@ -1331,8 +1305,8 @@
             <node concept="3clFbF" id="5sACIIt3tIF" role="3cqZAp">
               <node concept="2OqwBi" id="5sACIIt3tIC" role="3clFbG">
                 <node concept="10M0yZ" id="5sACIIt3tID" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" />
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
                 <node concept="liA8E" id="5sACIIt3tIE" role="2OqNvi">
                   <ref role="37wK5l" to="guwi:~PrintStream.println(int)" resolve="println" />
@@ -1368,11 +1342,9 @@
               <node concept="2OqwBi" id="5wsogBcvnVX" role="3clFbG">
                 <node concept="2ShNRf" id="5wsogBcvl7G" role="2Oq$k0">
                   <node concept="1pGfFk" id="5wsogBcvmnT" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="643a:5wsogBcuZdW" resolve="ReaderAsserter" />
                     <node concept="2ShNRf" id="5wsogBcvp$X" role="37wK5m">
                       <node concept="1pGfFk" id="5wsogBcvp$Y" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
                         <node concept="37vLTw" id="5wsogBcvp$Z" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
@@ -1381,7 +1353,6 @@
                     </node>
                     <node concept="2ShNRf" id="5wsogBcvpSA" role="37wK5m">
                       <node concept="1pGfFk" id="5wsogBcvpSB" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~CharArrayReader.&lt;init&gt;(char[])" resolve="CharArrayReader" />
                         <node concept="2OqwBi" id="5wsogBcvpSC" role="37wK5m">
                           <node concept="37vLTw" id="5wsogBcvpSD" role="2Oq$k0">
@@ -1406,7 +1377,6 @@
               <node concept="YS8fn" id="5sACIIt2Qkb" role="3cqZAp">
                 <node concept="2ShNRf" id="5sACIIt2QXV" role="YScLw">
                   <node concept="1pGfFk" id="5sACIIt2SIu" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="37vLTw" id="5sACIIt2T2A" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIt1PmK" resolve="e" />

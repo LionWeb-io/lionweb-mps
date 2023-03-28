@@ -77,9 +77,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -551,8 +548,7 @@
           </node>
           <node concept="2ShNRf" id="6VkSF6cpPcz" role="37wK5m">
             <node concept="HV5vD" id="6VkSF6cpQab" role="2ShVmc">
-              <property role="373rjd" value="true" />
-              <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonLanguageIdMapper" />
+              <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
             </node>
           </node>
           <node concept="37vLTw" id="6VkSF6cpRgi" role="37wK5m">
@@ -611,7 +607,7 @@
             <node concept="2OqwBi" id="6VkSF6cliJq" role="37vLTJ">
               <node concept="Xjq3P" id="6VkSF6clj5y" role="2Oq$k0" />
               <node concept="2OwXpG" id="6VkSF6cliJt" role="2OqNvi">
-                <ref role="2Oxat5" node="6VkSF6clct8" resolve="myIdMapper" />
+                <ref role="2Oxat5" node="6VkSF6clct8" resolve="idMapper" />
               </node>
             </node>
             <node concept="37vLTw" id="6VkSF6clcti" role="37vLTx">
@@ -681,13 +677,13 @@
                 <ref role="37wK5l" node="z1IqfG9XJi" resolve="recordDataType" />
                 <node concept="2OqwBi" id="39$JcGFRjFL" role="37wK5m">
                   <node concept="37vLTw" id="39$JcGFRjk3" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39$JcGFRbiI" resolve="jsonIter" />
+                    <ref role="3cqZAo" node="39$JcGFRbiI" resolve="jsonDataTypeIter" />
                   </node>
                   <node concept="v1n4t" id="39$JcGFRkeG" role="2OqNvi" />
                 </node>
                 <node concept="2OqwBi" id="39$JcGFRlHJ" role="37wK5m">
                   <node concept="37vLTw" id="39$JcGFRlce" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39$JcGFR2Oc" resolve="lcIter" />
+                    <ref role="3cqZAo" node="39$JcGFR2Oc" resolve="lcDataTypeIter" />
                   </node>
                   <node concept="v1n4t" id="39$JcGFRmhD" role="2OqNvi" />
                 </node>
@@ -697,13 +693,13 @@
           <node concept="1Wc70l" id="39$JcGFRgww" role="2$JKZa">
             <node concept="2OqwBi" id="39$JcGFRh$x" role="3uHU7w">
               <node concept="37vLTw" id="39$JcGFRgYe" role="2Oq$k0">
-                <ref role="3cqZAo" node="39$JcGFR2Oc" resolve="lcIter" />
+                <ref role="3cqZAo" node="39$JcGFR2Oc" resolve="lcDataTypeIter" />
               </node>
               <node concept="v0PNk" id="39$JcGFRil0" role="2OqNvi" />
             </node>
             <node concept="2OqwBi" id="39$JcGFRf3L" role="3uHU7B">
               <node concept="37vLTw" id="39$JcGFRetY" role="2Oq$k0">
-                <ref role="3cqZAo" node="39$JcGFRbiI" resolve="jsonIter" />
+                <ref role="3cqZAo" node="39$JcGFRbiI" resolve="jsonDataTypeIter" />
               </node>
               <node concept="v0PNk" id="39$JcGFRfMP" role="2OqNvi" />
             </node>
@@ -815,7 +811,6 @@
           <node concept="2OqwBi" id="4TKJARV5eZq" role="2GsD0m">
             <node concept="2ShNRf" id="4TKJARV44nL" role="2Oq$k0">
               <node concept="HV5vD" id="4TKJARV5eoJ" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="HV5vE" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
               </node>
             </node>
@@ -1136,7 +1131,7 @@
                 <node concept="2pJxcG" id="2chztJeGisx" role="2pJxcM">
                   <ref role="2pJxcJ" to="h3y3:2chztJeDvZC" resolve="version" />
                   <node concept="37vLTw" id="2chztJeGZ_B" role="28ntcv">
-                    <ref role="3cqZAo" node="2chztJeGZ_x" resolve="i" />
+                    <ref role="3cqZAo" node="2chztJeGZ_x" resolve="version" />
                   </node>
                 </node>
               </node>
@@ -1233,7 +1228,6 @@
                   <node concept="YS8fn" id="z1IqfFJCW6" role="3cqZAp">
                     <node concept="2ShNRf" id="z1IqfFJDiC" role="YScLw">
                       <node concept="1pGfFk" id="z1IqfFJDVc" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                       </node>
                     </node>
@@ -1521,7 +1515,6 @@
               <node concept="YS8fn" id="z1IqfFJWK$" role="3cqZAp">
                 <node concept="2ShNRf" id="z1IqfFJX1D" role="YScLw">
                   <node concept="1pGfFk" id="z1IqfFJXOY" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                   </node>
                 </node>
@@ -2190,7 +2183,6 @@
               <node concept="YS8fn" id="z1IqfFL$oB" role="3cqZAp">
                 <node concept="2ShNRf" id="z1IqfFL_0y" role="YScLw">
                   <node concept="1pGfFk" id="z1IqfFLAaH" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                   </node>
                 </node>
@@ -2706,7 +2698,6 @@
               <node concept="YS8fn" id="z1IqfFKvIo" role="3cqZAp">
                 <node concept="2ShNRf" id="z1IqfFKwah" role="YScLw">
                   <node concept="1pGfFk" id="z1IqfFKwRw" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                   </node>
                 </node>
@@ -3615,7 +3606,6 @@
           </node>
           <node concept="2ShNRf" id="6VkSF6cqo9D" role="37wK5m">
             <node concept="HV5vD" id="6VkSF6cqoYR" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="HV5vE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
             </node>
           </node>
@@ -3675,7 +3665,7 @@
             <node concept="2OqwBi" id="6VkSF6cq2wS" role="37vLTJ">
               <node concept="Xjq3P" id="6VkSF6cq2GB" role="2Oq$k0" />
               <node concept="2OwXpG" id="6VkSF6cq2wV" role="2OqNvi">
-                <ref role="2Oxat5" node="6VkSF6cpXbj" resolve="myIdMapper" />
+                <ref role="2Oxat5" node="6VkSF6cpXbj" resolve="idMapper" />
               </node>
             </node>
             <node concept="37vLTw" id="6VkSF6cpXbt" role="37vLTx">
@@ -3744,13 +3734,13 @@
                 <ref role="37wK5l" node="5sACIIsA0Gm" resolve="recordDataType" />
                 <node concept="2OqwBi" id="39$JcGFT0RU" role="37wK5m">
                   <node concept="37vLTw" id="39$JcGFT0RV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39$JcGFT0RF" resolve="lcIter" />
+                    <ref role="3cqZAo" node="39$JcGFT0RF" resolve="lcDataTypeIter" />
                   </node>
                   <node concept="v1n4t" id="39$JcGFT0RW" role="2OqNvi" />
                 </node>
                 <node concept="2OqwBi" id="39$JcGFT0RR" role="37wK5m">
                   <node concept="37vLTw" id="39$JcGFT0RS" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39$JcGFT0Rz" resolve="jsonIter" />
+                    <ref role="3cqZAo" node="39$JcGFT0Rz" resolve="jsonDataTypeIter" />
                   </node>
                   <node concept="v1n4t" id="39$JcGFT0RT" role="2OqNvi" />
                 </node>
@@ -3760,13 +3750,13 @@
           <node concept="1Wc70l" id="39$JcGFT0RX" role="2$JKZa">
             <node concept="2OqwBi" id="39$JcGFT2Hl" role="3uHU7B">
               <node concept="37vLTw" id="39$JcGFT2Hm" role="2Oq$k0">
-                <ref role="3cqZAo" node="39$JcGFT0RF" resolve="lcIter" />
+                <ref role="3cqZAo" node="39$JcGFT0RF" resolve="lcDataTypeIter" />
               </node>
               <node concept="v0PNk" id="39$JcGFT2Hn" role="2OqNvi" />
             </node>
             <node concept="2OqwBi" id="39$JcGFT2Ho" role="3uHU7w">
               <node concept="37vLTw" id="39$JcGFT2Hp" role="2Oq$k0">
-                <ref role="3cqZAo" node="39$JcGFT0Rz" resolve="jsonIter" />
+                <ref role="3cqZAo" node="39$JcGFT0Rz" resolve="jsonDataTypeIter" />
               </node>
               <node concept="v0PNk" id="39$JcGFT2Hq" role="2OqNvi" />
             </node>
@@ -4089,7 +4079,6 @@
             </node>
             <node concept="2ShNRf" id="5sACIIsGOsT" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIsGR8p" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="tozv:~Metamodel.&lt;init&gt;(java.lang.String)" resolve="Metamodel" />
                 <node concept="2OqwBi" id="5sACIIsHSyW" role="37wK5m">
                   <node concept="37vLTw" id="5sACIIsHPkW" role="2Oq$k0">
@@ -4257,7 +4246,6 @@
                   <node concept="YS8fn" id="5sACIIsA0wJ" role="3cqZAp">
                     <node concept="2ShNRf" id="5sACIIsA0wK" role="YScLw">
                       <node concept="1pGfFk" id="5sACIIsA0wL" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                       </node>
                     </node>
@@ -4424,7 +4412,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIsLHgb" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIsLHgc" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="tozv:~Concept.&lt;init&gt;(java.lang.String)" resolve="Concept" />
                     <node concept="2OqwBi" id="5sACIIsLHgd" role="37wK5m">
                       <node concept="37vLTw" id="5sACIIsLHge" role="2Oq$k0">
@@ -4545,7 +4532,6 @@
                   </node>
                   <node concept="2ShNRf" id="5sACIIsN_zw" role="33vP2m">
                     <node concept="1pGfFk" id="5sACIIsNCBI" role="2ShVmc">
-                      <property role="373rjd" value="true" />
                       <ref role="37wK5l" to="tozv:~ConceptInterface.&lt;init&gt;(java.lang.String)" resolve="ConceptInterface" />
                       <node concept="2OqwBi" id="5sACIIsNL$y" role="37wK5m">
                         <node concept="37vLTw" id="5sACIIsNHsK" role="2Oq$k0">
@@ -4618,7 +4604,6 @@
               <node concept="YS8fn" id="5sACIIsA0yv" role="3cqZAp">
                 <node concept="2ShNRf" id="5sACIIsA0yw" role="YScLw">
                   <node concept="1pGfFk" id="5sACIIsA0yx" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                   </node>
                 </node>
@@ -4986,7 +4971,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIsPXW0" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIsQ0Uw" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="tozv:~Containment.&lt;init&gt;(java.lang.String)" resolve="Containment" />
                     <node concept="2OqwBi" id="5sACIIsQaoI" role="37wK5m">
                       <node concept="37vLTw" id="5sACIIsQ7lo" role="2Oq$k0">
@@ -5135,7 +5119,6 @@
                   </node>
                   <node concept="2ShNRf" id="5sACIIsRA07" role="33vP2m">
                     <node concept="1pGfFk" id="5sACIIsRBZv" role="2ShVmc">
-                      <property role="373rjd" value="true" />
                       <ref role="37wK5l" to="tozv:~Reference.&lt;init&gt;(java.lang.String)" resolve="Reference" />
                       <node concept="2OqwBi" id="5sACIIsRJ$e" role="37wK5m">
                         <node concept="37vLTw" id="5sACIIsRGxw" role="2Oq$k0">
@@ -5275,7 +5258,6 @@
                   </node>
                   <node concept="2ShNRf" id="5sACIIsSCFe" role="33vP2m">
                     <node concept="1pGfFk" id="5sACIIsSF_0" role="2ShVmc">
-                      <property role="373rjd" value="true" />
                       <ref role="37wK5l" to="tozv:~Property.&lt;init&gt;()" resolve="Property" />
                     </node>
                   </node>
@@ -5376,7 +5358,6 @@
               <node concept="YS8fn" id="5sACIIsA0AF" role="3cqZAp">
                 <node concept="2ShNRf" id="5sACIIsA0AG" role="YScLw">
                   <node concept="1pGfFk" id="5sACIIsA0AH" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                   </node>
                 </node>
@@ -5722,7 +5703,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIsVxH3" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIsV$cX" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="tozv:~PrimitiveType.&lt;init&gt;()" resolve="PrimitiveType" />
                   </node>
                 </node>
@@ -5845,7 +5825,6 @@
                   </node>
                   <node concept="2ShNRf" id="5sACIIsWB6F" role="33vP2m">
                     <node concept="1pGfFk" id="5sACIIsWDMd" role="2ShVmc">
-                      <property role="373rjd" value="true" />
                       <ref role="37wK5l" to="tozv:~Enumeration.&lt;init&gt;()" resolve="Enumeration" />
                     </node>
                   </node>
@@ -5959,7 +5938,6 @@
               <node concept="YS8fn" id="5sACIIsA0D_" role="3cqZAp">
                 <node concept="2ShNRf" id="5sACIIsA0DA" role="YScLw">
                   <node concept="1pGfFk" id="5sACIIsA0DB" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
                   </node>
                 </node>
@@ -6029,7 +6007,6 @@
             </node>
             <node concept="2ShNRf" id="5sACIIsYcKX" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIsYf13" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="tozv:~EnumerationLiteral.&lt;init&gt;(java.lang.String)" resolve="EnumerationLiteral" />
                 <node concept="2OqwBi" id="5sACIIsYlMS" role="37wK5m">
                   <node concept="37vLTw" id="5sACIIsYj0_" role="2Oq$k0">

@@ -34,7 +34,6 @@
       </concept>
       <concept id="1225469856668" name="jetbrains.mps.lang.test.structure.ModelExpression" flags="nn" index="1jGwE1" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -72,9 +71,6 @@
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -200,8 +196,6 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
-      <concept id="2285351689971718149" name="jetbrains.mps.lang.smodel.structure.AggregationLinkType" flags="ig" index="3GbmH5" />
-      <concept id="2285351689971718193" name="jetbrains.mps.lang.smodel.structure.AssociationLinkType" flags="ig" index="3GbmHL" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -253,7 +247,6 @@
     </language>
   </registry>
   <node concept="1lH9Xt" id="2fx6VTSST_7">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="TestDeclarationNodeLanguageIdMapper" />
     <node concept="1LZb2c" id="2fx6VTSSTAD" role="1SL9yI">
       <property role="TrG5h" value="Language" />
@@ -1002,7 +995,6 @@
         <node concept="3cpWs6" id="2fx6VTSZ1G8" role="3cqZAp">
           <node concept="2ShNRf" id="2fx6VTSZ1G9" role="3cqZAk">
             <node concept="HV5vD" id="2fx6VTSZ1Ga" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="HV5vE" to="58k5:6VkSF6b37gQ" resolve="DeclarationNodeLanguageIdMapper" />
             </node>
           </node>
@@ -1014,7 +1006,6 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="2fx6VTSZ8hj">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="TestSLanguageBase64IdMapper" />
     <node concept="1LZb2c" id="2fx6VTSZ8hk" role="1SL9yI">
       <property role="TrG5h" value="Language" />
@@ -1274,11 +1265,13 @@
         <node concept="3cpWs8" id="2fx6VTSZ8jm" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTSZ8jn" role="3cpWs9">
             <property role="TrG5h" value="input" />
-            <node concept="359W_D" id="2fx6VTSZm7p" role="33vP2m">
+            <node concept="359W_D" id="3t31ufDy7W1" role="33vP2m">
               <ref role="359W_E" to="qa91:2fx6VTSS$mN" resolve="TestConceptBase" />
               <ref role="359W_F" to="qa91:2fx6VTSS_io" resolve="one" />
             </node>
-            <node concept="3GbmH5" id="2fx6VTSZmmm" role="1tU5fm" />
+            <node concept="3uibUv" id="3t31ufDy7Sf" role="1tU5fm">
+              <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+            </node>
           </node>
         </node>
         <node concept="3vlDli" id="2fx6VTSZ8jx" role="3cqZAp">
@@ -1345,7 +1338,9 @@
               <ref role="359W_E" to="qa91:2fx6VTSS$mN" resolve="TestConceptBase" />
               <ref role="359W_F" to="qa91:2fx6VTSSAcY" resolve="refOne" />
             </node>
-            <node concept="3GbmHL" id="2fx6VTSZmII" role="1tU5fm" />
+            <node concept="3uibUv" id="3t31ufDy84d" role="1tU5fm">
+              <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+            </node>
           </node>
         </node>
         <node concept="3vlDli" id="2fx6VTSZ8k4" role="3cqZAp">
@@ -1694,11 +1689,9 @@
         <node concept="3cpWs6" id="2fx6VTSZ8mh" role="3cqZAp">
           <node concept="2ShNRf" id="2fx6VTSZfjl" role="3cqZAk">
             <node concept="1pGfFk" id="2fx6VTSZfHF" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="faaz:2fx6VTSN_nk" resolve="SLanguageBase64IdMapper" />
               <node concept="2ShNRf" id="2fx6VTSZg4R" role="37wK5m">
                 <node concept="1pGfFk" id="2fx6VTSZgMp" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
                   <node concept="2OqwBi" id="2fx6VTSZhE4" role="37wK5m">
                     <node concept="1jGwE1" id="2fx6VTSZh9I" role="2Oq$k0" />

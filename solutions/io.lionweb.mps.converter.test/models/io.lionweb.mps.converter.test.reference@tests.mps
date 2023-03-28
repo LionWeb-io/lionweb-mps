@@ -21,7 +21,6 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -164,7 +163,6 @@
     </language>
   </registry>
   <node concept="1lH9Xt" id="59Df55kqJic">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="AddReference" />
     <node concept="1LZb2c" id="59Df55krRDD" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -404,7 +402,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l08l5">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ChangeMultipleReference" />
     <node concept="1LZb2c" id="59Df55l08l6" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -632,7 +629,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kZVT4">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ChangeOptionalReference" />
     <node concept="1LZb2c" id="59Df55kZVT5" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -860,7 +856,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kZQnW">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ChangeTypeReference" />
     <node concept="1LZb2c" id="59Df55kZQnX" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -1101,7 +1096,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kZGcc">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RemoveReference" />
     <node concept="1LZb2c" id="59Df55kZGcd" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -1341,7 +1335,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55kZMh8">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RenameReference" />
     <node concept="1LZb2c" id="59Df55kZMh9" role="1SL9yI">
       <property role="TrG5h" value="same" />

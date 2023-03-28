@@ -25,7 +25,7 @@
     </language>
   </registry>
   <node concept="Ir9ja" id="2q_M4ySrBno">
-    <property role="3B8ISX" value="Bob's Library3" />
+    <property role="3B8ISX" value="Bob's Library5" />
     <node concept="13mcDM" id="6VkSF6cxA2X" role="TmxoL">
       <property role="3sq1ZX" value="Explorer Book2" />
       <property role="19ZP2z" value="123" />
@@ -44,7 +44,7 @@
   <node concept="13mcDM" id="6VkSF6cxA43">
     <property role="3sq1ZX" value="Explorer Book9" />
     <property role="19ZP2z" value="123" />
-    <ref role="WQnOL" to=":6VkSF6cxA44" />
+    <ref role="WQnOL" node="6VkSF6cxA44" />
   </node>
 </model>
 

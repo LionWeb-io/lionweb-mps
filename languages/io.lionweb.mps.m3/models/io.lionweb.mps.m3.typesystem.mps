@@ -6,8 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
   </imports>
   <registry>
@@ -205,8 +205,8 @@
             <node concept="3Tqbb2" id="59Df55kvmvu" role="11_B2D" />
           </node>
           <node concept="2YIFZM" id="59Df55kvlRv" role="33vP2m">
-            <ref role="37wK5l" to="3o3z:~LinkedHashMultimap.create()" resolve="create" />
             <ref role="1Pybhc" to="3o3z:~LinkedHashMultimap" resolve="LinkedHashMultimap" />
+            <ref role="37wK5l" to="3o3z:~LinkedHashMultimap.create()" resolve="create" />
           </node>
         </node>
       </node>

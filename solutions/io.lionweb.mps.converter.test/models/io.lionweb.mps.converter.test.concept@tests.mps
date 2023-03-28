@@ -23,7 +23,6 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -167,7 +166,6 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="59Df55kqJic">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="AddConcept" />
     <node concept="1LZb2c" id="59Df55krRDD" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -386,7 +384,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4mSt">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RemoveConcept" />
     <node concept="1LZb2c" id="59Df55l4mSu" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -480,7 +477,7 @@
           <node concept="2OqwBi" id="59Df55l4mT3" role="3tpDZA">
             <node concept="2OqwBi" id="59Df55l4mT4" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l4mT5" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55l4mSW" resolve="ad" />
+                <ref role="3cqZAo" node="59Df55l4mSW" resolve="rd" />
               </node>
               <node concept="liA8E" id="59Df55l4mT6" role="2OqNvi">
                 <ref role="37wK5l" to="dydc:3ePT3MikYcb" resolve="getChanged" />
@@ -494,7 +491,7 @@
         <node concept="3vlDli" id="59Df55l4mT8" role="3cqZAp">
           <node concept="2OqwBi" id="59Df55l4mT9" role="3tpDZA">
             <node concept="37vLTw" id="59Df55l4mTa" role="2Oq$k0">
-              <ref role="3cqZAo" node="59Df55l4mSW" resolve="ad" />
+              <ref role="3cqZAo" node="59Df55l4mSW" resolve="rd" />
             </node>
             <node concept="liA8E" id="59Df55l4mTb" role="2OqNvi">
               <ref role="37wK5l" to="dydc:22JgV7DxPK" resolve="getChangedLink" />
@@ -506,7 +503,7 @@
           <node concept="2OqwBi" id="59Df55l4mTe" role="3tpDZA">
             <node concept="2OqwBi" id="59Df55l4mTf" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l4mTg" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55l4mSW" resolve="ad" />
+                <ref role="3cqZAo" node="59Df55l4mSW" resolve="rd" />
               </node>
               <node concept="liA8E" id="59Df55l4mTh" role="2OqNvi">
                 <ref role="37wK5l" to="dydc:22JgUX69WM" resolve="getRemoved" />
@@ -518,7 +515,7 @@
           </node>
           <node concept="2OqwBi" id="59Df55l4mTj" role="3tpDZB">
             <node concept="3xONca" id="59Df55l4mTk" role="2Oq$k0">
-              <ref role="3xOPvv" node="59Df55l4mTH" resolve="added" />
+              <ref role="3xOPvv" node="59Df55l4mTH" resolve="removed" />
             </node>
             <node concept="2qgKlT" id="59Df55l4mTl" role="2OqNvi">
               <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
@@ -529,7 +526,7 @@
           <node concept="2OqwBi" id="59Df55l4mTn" role="3tpDZA">
             <node concept="2OqwBi" id="59Df55l4mTo" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l4mTp" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55l4mSW" resolve="ad" />
+                <ref role="3cqZAo" node="59Df55l4mSW" resolve="rd" />
               </node>
               <node concept="liA8E" id="59Df55l4mTq" role="2OqNvi">
                 <ref role="37wK5l" to="dydc:22JgUX699Q" resolve="getParent" />
@@ -610,7 +607,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4rEm">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RenameConcept" />
     <node concept="1LZb2c" id="59Df55l4rEn" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -802,12 +798,12 @@
           <node concept="2RzOte" id="59Df55l4rFz" role="2RzPPN">
             <property role="2RzON1" value="101" />
             <property role="TrG5h" value="C1c" />
-            <ref role="2RzQvY" node="59Df55l4rFx" resolve="C1" />
+            <ref role="2RzQvY" node="59Df55l4rFx" resolve="C1Renamed" />
           </node>
           <node concept="2RzOpR" id="59Df55l4rF$" role="2RzPPN">
             <property role="2RzON1" value="102" />
             <property role="TrG5h" value="C1r" />
-            <ref role="2RzQvY" node="59Df55l4rFx" resolve="C1" />
+            <ref role="2RzQvY" node="59Df55l4rFx" resolve="C1Renamed" />
           </node>
         </node>
         <node concept="3xLA65" id="59Df55l4rFB" role="lGtFl">
@@ -817,7 +813,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4vzs">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="AddSupertypeConcept" />
     <node concept="1LZb2c" id="59Df55l4vzt" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -1044,7 +1039,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4BGg">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RemoveSupertypeConcept" />
     <node concept="1LZb2c" id="59Df55l4BGh" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -1271,7 +1265,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4GXk">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="AddInterfaceConcept" />
     <node concept="1LZb2c" id="59Df55l4GXl" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -1376,7 +1369,7 @@
         <node concept="3vlDli" id="59Df55l4GXZ" role="3cqZAp">
           <node concept="2OqwBi" id="59Df55l4GY0" role="3tpDZA">
             <node concept="37vLTw" id="59Df55l4GY1" role="2Oq$k0">
-              <ref role="3cqZAo" node="59Df55l4GXN" resolve="cld" />
+              <ref role="3cqZAo" node="59Df55l4GXN" resolve="ad" />
             </node>
             <node concept="liA8E" id="59Df55l4GY2" role="2OqNvi">
               <ref role="37wK5l" to="dydc:22JgV7DxPK" resolve="getChangedLink" />
@@ -1409,7 +1402,7 @@
           <node concept="2OqwBi" id="59Df55l4GYa" role="3tpDZA">
             <node concept="2OqwBi" id="59Df55l4GYb" role="2Oq$k0">
               <node concept="37vLTw" id="59Df55l4GYc" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55l4GXN" resolve="cld" />
+                <ref role="3cqZAo" node="59Df55l4GXN" resolve="ad" />
               </node>
               <node concept="liA8E" id="59Df55l4GYd" role="2OqNvi">
                 <ref role="37wK5l" to="dydc:22JgUX69wX" resolve="getNew" />
@@ -1518,7 +1511,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4Vb6">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="RemoveInterfaceConcept" />
     <node concept="1LZb2c" id="59Df55l4Vb7" role="1SL9yI">
       <property role="TrG5h" value="same" />
@@ -1765,7 +1757,6 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="59Df55l4Zih">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="ChangeAbstractConcept" />
     <node concept="1LZb2c" id="59Df55l4Zii" role="1SL9yI">
       <property role="TrG5h" value="same" />

@@ -82,9 +82,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -280,7 +277,6 @@
           <node concept="2OqwBi" id="48csSBOIkR8" role="2GsD0m">
             <node concept="2ShNRf" id="48csSBOIkR9" role="2Oq$k0">
               <node concept="1pGfFk" id="48csSBOIkRa" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="gkni:48csSBOFwsp" resolve="ToLionCore" />
                 <node concept="2Sf5sV" id="48csSBOIkRb" role="37wK5m" />
               </node>
@@ -357,7 +353,7 @@
             </node>
             <node concept="10QFUN" id="DUXtH10wEr" role="33vP2m">
               <node concept="37vLTw" id="DUXtH10wEq" role="10QFUP">
-                <ref role="3cqZAo" node="DUXtH10vq_" resolve="languaModule" />
+                <ref role="3cqZAo" node="DUXtH10vq_" resolve="module" />
               </node>
               <node concept="3uibUv" id="DUXtH10wEp" role="10QFUM">
                 <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
@@ -448,7 +444,6 @@
             </node>
             <node concept="2ShNRf" id="DUXtH10TMH" role="33vP2m">
               <node concept="1pGfFk" id="DUXtH10TMI" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dydc:DUXtH0Y5bV" resolve="ProjectLanguageCreator" />
                 <node concept="37vLTw" id="DUXtH10TMJ" role="37wK5m">
                   <ref role="3cqZAo" node="DUXtH10z12" resolve="parent" />
@@ -468,7 +463,6 @@
             </node>
             <node concept="2ShNRf" id="3diEf07pPh9" role="33vP2m">
               <node concept="1pGfFk" id="3diEf07pPha" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
                 <node concept="37vLTw" id="3diEf07pPhb" role="37wK5m">
                   <ref role="3cqZAo" node="3diEf07pO0O" resolve="repository" />
@@ -485,11 +479,9 @@
             </node>
             <node concept="2ShNRf" id="DUXtH0vqGp" role="33vP2m">
               <node concept="1pGfFk" id="DUXtH0vqGq" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
                 <node concept="2ShNRf" id="3diEf07pJAg" role="37wK5m">
                   <node concept="1pGfFk" id="3diEf07pLrK" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="dydc:3ePT3MiTFY8" resolve="InstalledLanguageLookup" />
                     <node concept="37vLTw" id="3diEf07pPhc" role="37wK5m">
                       <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
@@ -663,7 +655,6 @@
             </node>
             <node concept="2ShNRf" id="z1IqfFSG9v" role="33vP2m">
               <node concept="1pGfFk" id="z1IqfFSG9w" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                 <node concept="2OqwBi" id="5sACIIs$wsr" role="37wK5m">
                   <node concept="2YIFZM" id="5sACIIsz6Ny" role="2Oq$k0">
@@ -745,11 +736,9 @@
                 </node>
                 <node concept="2ShNRf" id="z1IqfFSMnJ" role="33vP2m">
                   <node concept="1pGfFk" id="z1IqfFSMnK" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~BufferedInputStream.&lt;init&gt;(java.io.InputStream)" resolve="BufferedInputStream" />
                     <node concept="2ShNRf" id="z1IqfFSMnL" role="37wK5m">
                       <node concept="1pGfFk" id="z1IqfFSMnM" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~FileInputStream.&lt;init&gt;(java.io.File)" resolve="FileInputStream" />
                         <node concept="37vLTw" id="z1IqfFSMnN" role="37wK5m">
                           <ref role="3cqZAo" node="z1IqfFSG9u" resolve="file" />
@@ -769,7 +758,6 @@
                 </node>
                 <node concept="2ShNRf" id="z1IqfFSPZF" role="33vP2m">
                   <node concept="1pGfFk" id="z1IqfFSPZG" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Unserializer" />
                     <node concept="37vLTw" id="z1IqfFSPZH" role="37wK5m">
                       <ref role="3cqZAo" node="z1IqfFSMnI" resolve="inputStream" />
@@ -805,7 +793,6 @@
                 </node>
                 <node concept="2ShNRf" id="z1IqfFSTuT" role="33vP2m">
                   <node concept="1pGfFk" id="z1IqfFSTuU" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="9pi3:6VkSF6cpxvU" resolve="Json2LionCoreConverter" />
                     <node concept="2YIFZM" id="5wsogBcx5Qd" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
@@ -944,7 +931,6 @@
           <node concept="2OqwBi" id="48csSBOG0O0" role="2GsD0m">
             <node concept="2ShNRf" id="48csSBOG0O1" role="2Oq$k0">
               <node concept="1pGfFk" id="48csSBOG0O2" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="gkni:48csSBOFwsp" resolve="ToLionCore" />
                 <node concept="2Sf5sV" id="48csSBOG0O3" role="37wK5m" />
               </node>
@@ -979,7 +965,6 @@
             </node>
             <node concept="2ShNRf" id="7qGUpN3BVbj" role="33vP2m">
               <node concept="1pGfFk" id="7qGUpN3BVbk" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                 <node concept="2OqwBi" id="7qGUpN3BVbl" role="37wK5m">
                   <node concept="2YIFZM" id="7qGUpN3BVbm" role="2Oq$k0">
@@ -1061,7 +1046,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIt1V7V" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIt1V7W" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="9pi3:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
                     <node concept="2YIFZM" id="5wsogBcx4Nt" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
@@ -1074,7 +1058,6 @@
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
                       <node concept="HV5vD" id="6VkSF6ctHtr" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="HV5vE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
                       </node>
                     </node>
@@ -1121,7 +1104,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIt4yor" role="33vP2m">
                   <node concept="1pGfFk" id="7qGUpN3CLJ1" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~FileWriter.&lt;init&gt;(java.io.File)" resolve="FileWriter" />
                     <node concept="37vLTw" id="7qGUpN3CLQx" role="37wK5m">
                       <ref role="3cqZAo" node="7qGUpN3BVbh" resolve="file" />
@@ -1138,7 +1120,6 @@
                 </node>
                 <node concept="2ShNRf" id="5sACIIt25Bl" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIt25Bm" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:6VkSF6c$d0T" resolve="Serializer" />
                     <node concept="37vLTw" id="6VkSF6c$M5F" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIt4yoq" resolve="fileWriter" />
@@ -1233,7 +1214,6 @@
             </node>
             <node concept="2ShNRf" id="39$JcGF9weu" role="33vP2m">
               <node concept="1pGfFk" id="39$JcGF9wev" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                 <node concept="2OqwBi" id="39$JcGF9wew" role="37wK5m">
                   <node concept="2YIFZM" id="39$JcGF9wex" role="2Oq$k0">
@@ -1315,7 +1295,6 @@
                 </node>
                 <node concept="2ShNRf" id="39$JcGF9MRz" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGF9MR$" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="faaz:2fx6VTSN_nk" resolve="SLanguageBase64IdMapper" />
                     <node concept="2YIFZM" id="5wsogBcwyAf" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
@@ -1361,13 +1340,12 @@
                     <node concept="3X5gDF" id="39$JcGFakZk" role="3X5gFO">
                       <node concept="2ShNRf" id="39$JcGF9QSR" role="3X5gDC">
                         <node concept="1pGfFk" id="39$JcGF9QSS" role="2ShVmc">
-                          <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="lai5:6VkSF6aDU2Q" resolve="ListedMps2LionWebConverter" />
                           <node concept="37vLTw" id="39$JcGF9QST" role="37wK5m">
                             <ref role="3cqZAo" node="39$JcGF9MRy" resolve="mapper" />
                           </node>
                           <node concept="37vLTw" id="39$JcGFaljx" role="37wK5m">
-                            <ref role="3cqZAo" node="39$JcGFaljr" resolve="seq" />
+                            <ref role="3cqZAo" node="39$JcGFaljr" resolve="input" />
                           </node>
                         </node>
                       </node>
@@ -1380,7 +1358,6 @@
                     <node concept="3X5gDF" id="39$JcGFalOb" role="3X5gFO">
                       <node concept="2ShNRf" id="39$JcGFalOW" role="3X5gDC">
                         <node concept="1pGfFk" id="39$JcGFalOX" role="2ShVmc">
-                          <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="lai5:6VkSF6aDU_3" resolve="DecendantMps2LionWebConverter" />
                           <node concept="37vLTw" id="39$JcGFas3Q" role="37wK5m">
                             <ref role="3cqZAo" node="39$JcGF9MRy" resolve="mapper" />
@@ -1399,7 +1376,6 @@
                     <node concept="3X5gDF" id="39$JcGFalOV" role="3X5gFO">
                       <node concept="2ShNRf" id="39$JcGFapwE" role="3X5gDC">
                         <node concept="1pGfFk" id="39$JcGFarJU" role="2ShVmc">
-                          <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="lai5:6VkSF6aF169" resolve="ClosureMps2LionWebConverter" />
                           <node concept="37vLTw" id="39$JcGFalOY" role="37wK5m">
                             <ref role="3cqZAo" node="39$JcGF9MRy" resolve="mapper" />
@@ -1447,7 +1423,6 @@
                 </node>
                 <node concept="2ShNRf" id="39$JcGF9wfv" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGF9wfw" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="guwi:~FileWriter.&lt;init&gt;(java.io.File)" resolve="FileWriter" />
                     <node concept="37vLTw" id="39$JcGF9wfx" role="37wK5m">
                       <ref role="3cqZAo" node="39$JcGF9wes" resolve="file" />
@@ -1464,7 +1439,6 @@
                 </node>
                 <node concept="2ShNRf" id="39$JcGF9wfK" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGF9wfL" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:6VkSF6c$d0T" resolve="Serializer" />
                     <node concept="37vLTw" id="39$JcGF9wfM" role="37wK5m">
                       <ref role="3cqZAo" node="39$JcGF9wft" resolve="fileWriter" />

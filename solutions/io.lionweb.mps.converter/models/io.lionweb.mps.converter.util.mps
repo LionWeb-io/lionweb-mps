@@ -87,9 +87,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -263,7 +260,6 @@
         <node concept="3clFbF" id="2fx6VTSzjTJ" role="3cqZAp">
           <node concept="2ShNRf" id="2fx6VTSzk$a" role="3clFbG">
             <node concept="1pGfFk" id="2fx6VTSzl6e" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(byte[],java.nio.charset.Charset)" resolve="String" />
               <node concept="2OqwBi" id="2fx6VTSzk0g" role="37wK5m">
                 <node concept="2YIFZM" id="2fx6VTSzjV7" role="2Oq$k0">
@@ -435,7 +431,6 @@
                 </node>
                 <node concept="2ShNRf" id="DUXtH13mnc" role="33vP2m">
                   <node concept="1pGfFk" id="DUXtH13mnd" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(byte[])" resolve="BigInteger" />
                     <node concept="37vLTw" id="DUXtH18flR" role="37wK5m">
                       <ref role="3cqZAo" node="DUXtH130D2" resolve="digest" />
@@ -464,7 +459,6 @@
               <node concept="YS8fn" id="DUXtH13OlY" role="3cqZAp">
                 <node concept="2ShNRf" id="DUXtH13PL3" role="YScLw">
                   <node concept="1pGfFk" id="DUXtH13TDq" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="37vLTw" id="DUXtH13V4d" role="37wK5m">
                       <ref role="3cqZAo" node="DUXtH13HwZ" resolve="e" />
@@ -512,7 +506,7 @@
                     <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
                     <node concept="2OqwBi" id="6VkSF6cv0AC" role="37wK5m">
                       <node concept="37vLTw" id="6VkSF6cv0AD" role="2Oq$k0">
-                        <ref role="3cqZAo" node="39$JcGEMoSS" resolve="id" />
+                        <ref role="3cqZAo" node="39$JcGEMoSS" resolve="lioncoreLanguageId" />
                       </node>
                       <node concept="liA8E" id="6VkSF6cv0AE" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.getBytes()" resolve="getBytes" />
@@ -532,13 +526,13 @@
                 <ref role="37wK5l" to="33ny:~UUID.fromString(java.lang.String)" resolve="fromString" />
                 <ref role="1Pybhc" to="33ny:~UUID" resolve="UUID" />
                 <node concept="37vLTw" id="6VkSF6cuG0w" role="37wK5m">
-                  <ref role="3cqZAo" node="39$JcGEMoSS" resolve="id" />
+                  <ref role="3cqZAo" node="39$JcGEMoSS" resolve="lioncoreLanguageId" />
                 </node>
               </node>
             </node>
             <node concept="3cpWs6" id="6VkSF6cuJsC" role="3cqZAp">
               <node concept="37vLTw" id="6VkSF6cuL$t" role="3cqZAk">
-                <ref role="3cqZAo" node="39$JcGEMoSS" resolve="id" />
+                <ref role="3cqZAo" node="39$JcGEMoSS" resolve="lioncoreLanguageId" />
               </node>
             </node>
           </node>
@@ -1038,7 +1032,6 @@
         <node concept="YS8fn" id="39$JcGGnSs1" role="3cqZAp">
           <node concept="2ShNRf" id="39$JcGGnSs2" role="YScLw">
             <node concept="1pGfFk" id="39$JcGGnSs3" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
               <node concept="3cpWs3" id="39$JcGGnSs4" role="37wK5m">
                 <node concept="37vLTw" id="39$JcGGnSs5" role="3uHU7w">
@@ -1401,7 +1394,7 @@
         <node concept="3clFbH" id="39$JcGGLzkx" role="3cqZAp" />
         <node concept="3clFbF" id="4pht$Xswpcb" role="3cqZAp">
           <node concept="37vLTw" id="39$JcGGLf_a" role="3clFbG">
-            <ref role="3cqZAo" node="39$JcGGLf$x" resolve="seq" />
+            <ref role="3cqZAo" node="39$JcGGLf$x" resolve="result" />
           </node>
         </node>
       </node>
@@ -1456,11 +1449,18 @@
                           <node concept="1rXfSq" id="39$JcGGLUoN" role="3uHU7B">
                             <ref role="37wK5l" node="39$JcGGLJm2" resolve="isInCore" />
                             <node concept="2OqwBi" id="39$JcGGLFBg" role="37wK5m">
-                              <node concept="37vLTw" id="39$JcGGLEYS" role="2Oq$k0">
-                                <ref role="3cqZAo" node="39$JcGGLEhL" resolve="it" />
+                              <node concept="1eOMI4" id="3t31ufDnj7M" role="2Oq$k0">
+                                <node concept="10QFUN" id="3t31ufDnj7L" role="1eOMHV">
+                                  <node concept="37vLTw" id="3t31ufDnj7K" role="10QFUP">
+                                    <ref role="3cqZAo" node="39$JcGGLEhL" resolve="it" />
+                                  </node>
+                                  <node concept="3uibUv" id="3t31ufDnkr0" role="10QFUM">
+                                    <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+                                  </node>
+                                </node>
                               </node>
                               <node concept="liA8E" id="39$JcGGLGve" role="2OqNvi">
-                                <ref role="37wK5l" to="c17a:~SAbstractConcept.getSuperConcept()" resolve="getSuperConcept" />
+                                <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
                               </node>
                             </node>
                           </node>
@@ -1547,11 +1547,18 @@
             <node concept="1eOMI4" id="39$JcGGMh$m" role="2Oq$k0">
               <node concept="10QFUN" id="39$JcGGMh$n" role="1eOMHV">
                 <node concept="2OqwBi" id="39$JcGGMh$o" role="10QFUP">
-                  <node concept="37vLTw" id="39$JcGGMh$B" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39$JcGGMh$_" resolve="it" />
+                  <node concept="1eOMI4" id="3t31ufDnfrL" role="2Oq$k0">
+                    <node concept="10QFUN" id="3t31ufDnfrK" role="1eOMHV">
+                      <node concept="37vLTw" id="3t31ufDnfrJ" role="10QFUP">
+                        <ref role="3cqZAo" node="39$JcGGMh$_" resolve="it" />
+                      </node>
+                      <node concept="3uibUv" id="3t31ufDngEI" role="10QFUM">
+                        <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
+                      </node>
+                    </node>
                   </node>
                   <node concept="liA8E" id="39$JcGGMh$q" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getSuperInterfaces()" resolve="getSuperInterfaces" />
+                    <ref role="37wK5l" to="c17a:~SInterfaceConcept.getSuperInterfaces()" resolve="getSuperInterfaces" />
                   </node>
                 </node>
                 <node concept="A3Dl8" id="39$JcGGMh$r" role="10QFUM">
@@ -1706,7 +1713,7 @@
         </node>
         <node concept="3clFbF" id="39$JcGGLKS7" role="3cqZAp">
           <node concept="37vLTw" id="39$JcGH2O7D" role="3clFbG">
-            <ref role="3cqZAo" node="39$JcGH2O7_" resolve="b" />
+            <ref role="3cqZAo" node="39$JcGH2O7_" resolve="result" />
           </node>
         </node>
       </node>

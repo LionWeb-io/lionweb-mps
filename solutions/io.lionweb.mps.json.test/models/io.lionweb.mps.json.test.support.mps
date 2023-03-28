@@ -65,9 +65,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -166,11 +163,11 @@
             <node concept="2OqwBi" id="5wsogBcsD0L" role="37vLTJ">
               <node concept="Xjq3P" id="5wsogBcsD1y" role="2Oq$k0" />
               <node concept="2OwXpG" id="5wsogBcsD0O" role="2OqNvi">
-                <ref role="2Oxat5" node="5wsogBcsCYF" resolve="myFile" />
+                <ref role="2Oxat5" node="5wsogBcsCYF" resolve="contents" />
               </node>
             </node>
             <node concept="37vLTw" id="5wsogBcsCYP" role="37vLTx">
-              <ref role="3cqZAo" node="5wsogBcsCXB" resolve="file" />
+              <ref role="3cqZAo" node="5wsogBcsCXB" resolve="contents" />
             </node>
           </node>
         </node>
@@ -195,7 +192,6 @@
             </node>
             <node concept="2ShNRf" id="5wsogBcsHoo" role="37vLTx">
               <node concept="1pGfFk" id="5wsogBcsI1z" role="2ShVmc">
-                <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[])" resolve="String" />
                 <node concept="2OqwBi" id="5wsogBcsIpq" role="37wK5m">
                   <node concept="37vLTw" id="5wsogBcsI3v" role="2Oq$k0">
@@ -252,7 +248,6 @@
               <node concept="YS8fn" id="5wsogBcsNw6" role="3cqZAp">
                 <node concept="2ShNRf" id="5wsogBcsNyL" role="YScLw">
                   <node concept="1pGfFk" id="5wsogBcsO33" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="37vLTw" id="5wsogBcsO75" role="37wK5m">
                       <ref role="3cqZAo" node="5wsogBcsNpJ" resolve="e" />
@@ -373,7 +368,7 @@
             <node concept="2OqwBi" id="5wsogBcuZiE" role="37vLTJ">
               <node concept="Xjq3P" id="5wsogBcuZjr" role="2Oq$k0" />
               <node concept="2OwXpG" id="5wsogBcuZiH" role="2OqNvi">
-                <ref role="2Oxat5" node="5wsogBcuZgC" resolve="myExpected" />
+                <ref role="2Oxat5" node="5wsogBcuZgC" resolve="expected" />
               </node>
             </node>
             <node concept="37vLTw" id="5wsogBcuZgM" role="37vLTx">
@@ -386,7 +381,7 @@
             <node concept="2OqwBi" id="5wsogBcuZmr" role="37vLTJ">
               <node concept="Xjq3P" id="5wsogBcuZnW" role="2Oq$k0" />
               <node concept="2OwXpG" id="5wsogBcuZmu" role="2OqNvi">
-                <ref role="2Oxat5" node="5wsogBcuZkn" resolve="myActual" />
+                <ref role="2Oxat5" node="5wsogBcuZkn" resolve="actual" />
               </node>
             </node>
             <node concept="37vLTw" id="5wsogBcuZkx" role="37vLTx">
@@ -490,7 +485,6 @@
                   <node concept="2OqwBi" id="1lCmc_CcX$R" role="3tpDZB">
                     <node concept="2ShNRf" id="5sACIIt31dc" role="2Oq$k0">
                       <node concept="1pGfFk" id="5sACIIt32uU" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[],int,int)" resolve="String" />
                         <node concept="37vLTw" id="5sACIIt32ZT" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIt2_$C" resolve="expectedBuf" />
@@ -516,7 +510,6 @@
                   <node concept="2OqwBi" id="1lCmc_Cd1c7" role="3tpDZA">
                     <node concept="2ShNRf" id="5sACIIt35Gp" role="2Oq$k0">
                       <node concept="1pGfFk" id="5sACIIt37hR" role="2ShVmc">
-                        <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(char[],int,int)" resolve="String" />
                         <node concept="37vLTw" id="5sACIIt37zA" role="37wK5m">
                           <ref role="3cqZAo" node="5sACIIt2Doz" resolve="actualBuf" />
@@ -583,7 +576,6 @@
               <node concept="YS8fn" id="5wsogBcv2zb" role="3cqZAp">
                 <node concept="2ShNRf" id="5wsogBcv2IU" role="YScLw">
                   <node concept="1pGfFk" id="5wsogBcv3Q9" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="37vLTw" id="5wsogBcv437" role="37wK5m">
                       <ref role="3cqZAo" node="5wsogBcv1LA" resolve="e" />
@@ -616,7 +608,6 @@
         <node concept="3clFbF" id="5wsogBcvCHD" role="3cqZAp">
           <node concept="2ShNRf" id="5wsogBcvJKH" role="3clFbG">
             <node concept="1pGfFk" id="5wsogBcvKlM" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
               <node concept="2OqwBi" id="5sACIIt1PlE" role="37wK5m">
                 <node concept="2YIFZM" id="5sACIIt1PlF" role="2Oq$k0">
