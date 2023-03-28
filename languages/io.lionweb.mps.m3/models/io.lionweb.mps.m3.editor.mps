@@ -77,7 +77,7 @@
       <node concept="1sVBvm" id="2ju2syjkmjn" role="1sWHZn">
         <node concept="3F0A7n" id="2ju2syjkmjo" role="2wV5jI">
           <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>
@@ -89,7 +89,7 @@
       <node concept="1sVBvm" id="2ju2syjknNm" role="1sWHZn">
         <node concept="3F0A7n" id="2ju2syjknNn" role="2wV5jI">
           <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

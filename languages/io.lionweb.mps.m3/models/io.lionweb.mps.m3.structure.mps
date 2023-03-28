@@ -76,7 +76,7 @@
     <property role="TrG5h" value="NamespacedEntity" />
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="NamespacedEntity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ju2syjkkk9" role="1TKVEl">
       <property role="IQ2nx" value="2656571587264857353" />
       <property role="TrG5h" value="key" />
@@ -228,7 +228,7 @@
     <property role="TrG5h" value="Language" />
     <property role="34LRSv" value="Language" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2ju2syjknvg" role="1TKVEl">
       <property role="IQ2nx" value="2656571587264870352" />
       <property role="TrG5h" value="key" />

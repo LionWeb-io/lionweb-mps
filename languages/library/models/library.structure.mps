@@ -54,7 +54,7 @@
       <property role="20kJfa" value="author" />
       <property role="IQ2ns" value="2709281790400409694" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6VkSF6cxwUf" />
+      <ref role="20lvS9" node="6VkSF6cxwUf" resolve="Writer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6VkSF6cxwUc">

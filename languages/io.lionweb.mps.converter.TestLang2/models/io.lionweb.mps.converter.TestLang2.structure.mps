@@ -59,7 +59,7 @@
   <node concept="1TIwiD" id="2fx6VTSSzMg">
     <property role="EcuMT" value="2585378165973204112" />
     <property role="TrG5h" value="TestConceptPlain" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="PlHQZ" id="2fx6VTSSzPk">
     <property role="EcuMT" value="2585378165973204308" />
@@ -99,7 +99,7 @@
   <node concept="1TIwiD" id="2fx6VTSS$mN">
     <property role="EcuMT" value="2585378165973206451" />
     <property role="TrG5h" value="TestConceptBase" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2fx6VTSSA2I" role="1TKVEi">
       <property role="IQ2ns" value="2585378165973213358" />
       <property role="20kJfa" value="refZeroToOne" />

@@ -289,7 +289,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="6VkSF6bvLFg" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="6VkSF6bvOQq" role="jymVt" />
@@ -638,7 +638,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="6VkSF6bCzf9" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="6VkSF6bCzfa" role="jymVt" />

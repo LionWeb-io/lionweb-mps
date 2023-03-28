@@ -189,7 +189,7 @@
       <node concept="37vLTG" id="6VkSF6aR7SA" role="3clF46">
         <property role="TrG5h" value="featuresContainer" />
         <node concept="16syzq" id="6VkSF6aR7S_" role="1tU5fm">
-          <ref role="16sUi3" node="6VkSF6aQME4" resolve="FEATURE_CONTAINER" />
+          <ref role="16sUi3" node="6VkSF6aQME4" resolve="FEATURES_CONTAINER" />
         </node>
       </node>
     </node>

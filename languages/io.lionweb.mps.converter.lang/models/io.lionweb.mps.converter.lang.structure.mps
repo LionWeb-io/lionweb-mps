@@ -60,7 +60,7 @@
     <property role="TrG5h" value="ConvertLanguageToLionCore" />
     <property role="34LRSv" value="Convert Language to LIonCore" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4pht$XsqYrz" role="1TKVEi">
       <property role="IQ2ns" value="5066961138993587939" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -77,7 +77,7 @@
     <property role="TrG5h" value="ConvertLanguageFromLionCore" />
     <property role="34LRSv" value="Convert Language from LIonCore" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="DUXtH0uYUG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -90,7 +90,7 @@
     <property role="TrG5h" value="ImportLanguageFromJson" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Import Language from JSON" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="z1IqfFSzOc" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -104,7 +104,7 @@
     <property role="EcuMT" value="4759305942578991535" />
     <property role="TrG5h" value="TestContainer" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="48csSBOOTdg" role="1TKVEi">
       <property role="IQ2ns" value="4759305942578991952" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -118,7 +118,7 @@
     <property role="TrG5h" value="ExportLanguageToJson" />
     <property role="34LRSv" value="Export Language to JSON" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7qGUpN3Ci3p" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -147,7 +147,7 @@
     <property role="TrG5h" value="ExportInstanceToJson" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Export Instance to JSON" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="39$JcGF9mYy" role="1TKVEi">
       <property role="IQ2ns" value="3631234780355719074" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -172,7 +172,7 @@
   <node concept="1TIwiD" id="39$JcGF9n8k">
     <property role="EcuMT" value="3631234780355719700" />
     <property role="TrG5h" value="NodeRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="39$JcGF9nff" role="1TKVEi">
       <property role="IQ2ns" value="3631234780355720143" />
       <property role="20kJfa" value="target" />
