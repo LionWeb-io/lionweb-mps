@@ -17,3 +17,7 @@ junit*.properties
 
 # IntelliJ projects (for debugging)
 *.iml
+artifacts
+build
+**/.DS_Store
+.gradle
