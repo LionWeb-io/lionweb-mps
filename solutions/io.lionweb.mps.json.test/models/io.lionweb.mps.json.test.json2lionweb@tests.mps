@@ -341,11 +341,11 @@
           <node concept="3cpWsn" id="5sACIIt25Bk" role="3cpWs9">
             <property role="TrG5h" value="serializer" />
             <node concept="3uibUv" id="5sACIIt25uv" role="1tU5fm">
-              <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="Serializer" />
+              <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="M1Serializer" />
             </node>
             <node concept="2ShNRf" id="5sACIIt25Bl" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIt25Bm" role="2ShVmc">
-                <ref role="37wK5l" to="6peh:6VkSF6c$d0T" resolve="Serializer" />
+                <ref role="37wK5l" to="6peh:5s4Z0e0nc6h" resolve="M1Serializer" />
                 <node concept="37vLTw" id="6VkSF6c$M5F" role="37wK5m">
                   <ref role="3cqZAo" node="39$JcGHfDIK" resolve="stream" />
                 </node>
