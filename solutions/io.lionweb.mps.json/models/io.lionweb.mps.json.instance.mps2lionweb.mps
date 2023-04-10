@@ -492,6 +492,48 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="5s4Z0e0uRGH" role="3cqZAp">
+          <node concept="3cpWsn" id="5s4Z0e0uRGI" role="3cpWs9">
+            <property role="TrG5h" value="parent" />
+            <node concept="3uibUv" id="5s4Z0e0uRGG" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="5s4Z0e0uRGJ" role="33vP2m">
+              <node concept="37vLTw" id="5s4Z0e0uRGK" role="2Oq$k0">
+                <ref role="3cqZAo" node="48csSBNwwXQ" resolve="mps" />
+              </node>
+              <node concept="liA8E" id="5s4Z0e0uRGL" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SNode.getParent()" resolve="getParent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5s4Z0e0uRSn" role="3cqZAp">
+          <node concept="3clFbS" id="5s4Z0e0uRSp" role="3clFbx">
+            <node concept="3clFbF" id="5s4Z0e0uS9n" role="3cqZAp">
+              <node concept="2OqwBi" id="5s4Z0e0uSgZ" role="3clFbG">
+                <node concept="37vLTw" id="5s4Z0e0uS9l" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5wsogBcjSC_" resolve="json" />
+                </node>
+                <node concept="liA8E" id="5s4Z0e0uSo2" role="2OqNvi">
+                  <ref role="37wK5l" to="9b9d:~SerializedNode.setParentNodeID(java.lang.String)" resolve="setParentNodeID" />
+                  <node concept="1rXfSq" id="5s4Z0e0uSBI" role="37wK5m">
+                    <ref role="37wK5l" node="48csSBNwrT4" resolve="extractNodeId" />
+                    <node concept="37vLTw" id="5s4Z0e0uSJw" role="37wK5m">
+                      <ref role="3cqZAo" node="5s4Z0e0uRGI" resolve="parent" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5s4Z0e0uS8N" role="3clFbw">
+            <node concept="10Nm6u" id="5s4Z0e0uS96" role="3uHU7w" />
+            <node concept="37vLTw" id="5s4Z0e0uRTx" role="3uHU7B">
+              <ref role="3cqZAo" node="5s4Z0e0uRGI" resolve="parent" />
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="48csSBNyTkn" role="3cqZAp">
           <node concept="2GrKxI" id="48csSBNyTkp" role="2Gsz3X">
             <property role="TrG5h" value="mpsProp" />

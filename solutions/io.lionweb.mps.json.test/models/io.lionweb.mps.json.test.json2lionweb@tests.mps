@@ -25,6 +25,7 @@
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="h2gc" ref="r:c9b5090c-7263-4642-b8f4-1265e3a15687(library.structure)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -187,6 +188,7 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -259,6 +261,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="6VkSF6cxRd1" role="3cqZAp" />
+        <node concept="3clFbF" id="5s4Z0e0v8qU" role="3cqZAp">
+          <node concept="2OqwBi" id="5s4Z0e0v8JP" role="3clFbG">
+            <node concept="3xONca" id="5s4Z0e0v8qS" role="2Oq$k0">
+              <ref role="3xOPvv" node="6VkSF6cxHRd" resolve="library" />
+            </node>
+            <node concept="3YRAZt" id="5s4Z0e0v929" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5s4Z0e0vaZI" role="3cqZAp">
+          <node concept="2OqwBi" id="5s4Z0e0vbqd" role="3clFbG">
+            <node concept="3xONca" id="5s4Z0e0vaZG" role="2Oq$k0">
+              <ref role="3xOPvv" node="17P16AUiFR$" resolve="jackLondon" />
+            </node>
+            <node concept="3YRAZt" id="5s4Z0e0vbUk" role="2OqNvi" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="6VkSF6cxU6y" role="3cqZAp">
           <node concept="3cpWsn" id="6VkSF6cxU6z" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -511,25 +529,30 @@
         <node concept="3J1_TO" id="5wsogBcvg56" role="3cqZAp">
           <node concept="3clFbS" id="5wsogBcvg57" role="1zxBo7">
             <node concept="3clFbF" id="5wsogBcv6es" role="3cqZAp">
-              <node concept="2ShNRf" id="5wsogBcv6eo" role="3clFbG">
-                <node concept="1pGfFk" id="5wsogBcv7nz" role="2ShVmc">
-                  <ref role="37wK5l" to="643a:5wsogBcuZdW" resolve="ReaderAsserter" />
-                  <node concept="2ShNRf" id="5wsogBcv928" role="37wK5m">
-                    <node concept="1pGfFk" id="5wsogBcv929" role="2ShVmc">
-                      <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
-                      <node concept="37vLTw" id="5wsogBcv92a" role="37wK5m">
-                        <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
+              <node concept="2OqwBi" id="5s4Z0e0uHyz" role="3clFbG">
+                <node concept="2ShNRf" id="5wsogBcv6eo" role="2Oq$k0">
+                  <node concept="1pGfFk" id="5wsogBcv7nz" role="2ShVmc">
+                    <ref role="37wK5l" to="643a:5wsogBcuZdW" resolve="ReaderAsserter" />
+                    <node concept="2ShNRf" id="5wsogBcv928" role="37wK5m">
+                      <node concept="1pGfFk" id="5wsogBcv929" role="2ShVmc">
+                        <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
+                        <node concept="37vLTw" id="5wsogBcv92a" role="37wK5m">
+                          <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="5wsogBcv9mS" role="37wK5m">
+                      <node concept="1pGfFk" id="5wsogBcv9mT" role="2ShVmc">
+                        <ref role="37wK5l" to="guwi:~StringReader.&lt;init&gt;(java.lang.String)" resolve="StringReader" />
+                        <node concept="37vLTw" id="5wsogBcv9mU" role="37wK5m">
+                          <ref role="3cqZAo" node="17P16AUi3Jz" resolve="actualString" />
+                        </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="2ShNRf" id="5wsogBcv9mS" role="37wK5m">
-                    <node concept="1pGfFk" id="5wsogBcv9mT" role="2ShVmc">
-                      <ref role="37wK5l" to="guwi:~StringReader.&lt;init&gt;(java.lang.String)" resolve="StringReader" />
-                      <node concept="37vLTw" id="5wsogBcv9mU" role="37wK5m">
-                        <ref role="3cqZAo" node="17P16AUi3Jz" resolve="actualString" />
-                      </node>
-                    </node>
-                  </node>
+                </node>
+                <node concept="liA8E" id="5s4Z0e0uHNw" role="2OqNvi">
+                  <ref role="37wK5l" to="643a:5wsogBcuZyW" resolve="assertEqual" />
                 </node>
               </node>
             </node>
@@ -731,14 +754,14 @@
           </node>
         </node>
         <node concept="3vlDli" id="2A0cGJdREGh" role="3cqZAp">
-          <node concept="3cmrfG" id="2A0cGJdRGeu" role="3tpDZB">
-            <property role="3cmrfH" value="4" />
-          </node>
           <node concept="2OqwBi" id="2A0cGJdRGmz" role="3tpDZA">
             <node concept="37vLTw" id="2A0cGJdRGhV" role="2Oq$k0">
               <ref role="3cqZAo" node="2A0cGJdREpB" resolve="serializedNodes" />
             </node>
             <node concept="34oBXx" id="2A0cGJdRHQ5" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="5s4Z0e0uPtO" role="3tpDZB">
+            <property role="3cmrfH" value="3" />
           </node>
         </node>
         <node concept="3clFbH" id="39$JcGEIh9x" role="3cqZAp" />
