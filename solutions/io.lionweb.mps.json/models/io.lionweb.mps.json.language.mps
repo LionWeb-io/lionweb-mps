@@ -1859,22 +1859,12 @@
             <node concept="2ShNRf" id="5sACIIsGOsT" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIsGR8p" role="2ShVmc">
                 <ref role="37wK5l" to="tozv:~Metamodel.&lt;init&gt;(java.lang.String)" resolve="Metamodel" />
-                <node concept="2OqwBi" id="48csSBPQ1O4" role="37wK5m">
-                  <node concept="2OqwBi" id="48csSBPPOd6" role="2Oq$k0">
-                    <node concept="2OqwBi" id="48csSBPPOd7" role="2Oq$k0">
-                      <node concept="37vLTw" id="48csSBPPOd8" role="2Oq$k0">
-                        <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
-                      </node>
-                      <node concept="liA8E" id="48csSBPPOd9" role="2OqNvi">
-                        <ref role="37wK5l" to="c17a:~SLanguage.getSourceModuleReference()" resolve="getSourceModuleReference" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="48csSBPPOda" role="2OqNvi">
-                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
-                    </node>
+                <node concept="2OqwBi" id="48csSBPPOd7" role="37wK5m">
+                  <node concept="37vLTw" id="48csSBPPOd8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
                   </node>
-                  <node concept="liA8E" id="48csSBPQ4EE" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                  <node concept="liA8E" id="48csSBPPOd9" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SLanguage.getQualifiedName()" resolve="getQualifiedName" />
                   </node>
                 </node>
               </node>
