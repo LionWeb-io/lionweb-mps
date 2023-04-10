@@ -296,7 +296,7 @@
             <property role="TrG5h" value="nodes" />
             <node concept="_YKpA" id="6VkSF6cxYO1" role="1tU5fm">
               <node concept="3uibUv" id="6VkSF6cxYO3" role="_ZDj9">
-                <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
               </node>
             </node>
             <node concept="2OqwBi" id="6VkSF6cxXuy" role="33vP2m">
