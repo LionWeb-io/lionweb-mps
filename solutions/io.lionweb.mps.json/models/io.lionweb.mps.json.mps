@@ -1174,7 +1174,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="5s4Z0e0n9Xy" role="1tU5fm">
           <node concept="3uibUv" id="5s4Z0e0n9Xz" role="A3Ik2">
-            <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+            <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
           </node>
         </node>
       </node>
@@ -1194,7 +1194,7 @@
               <node concept="2ShNRf" id="5s4Z0e0n9XF" role="37wK5m">
                 <node concept="2HTt$P" id="5s4Z0e0n9XG" role="2ShVmc">
                   <node concept="3uibUv" id="5s4Z0e0n9XH" role="2HTBi0">
-                    <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
                   </node>
                   <node concept="37vLTw" id="5s4Z0e0n9XI" role="2HTEbv">
                     <ref role="3cqZAo" node="5s4Z0e0n9XP" resolve="node" />
@@ -1221,7 +1221,7 @@
       <node concept="37vLTG" id="5s4Z0e0n9XP" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="5s4Z0e0n9XQ" role="1tU5fm">
-          <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+          <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
         </node>
       </node>
     </node>
@@ -1671,7 +1671,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="5s4Z0e0na0N" role="1tU5fm">
           <node concept="3uibUv" id="5s4Z0e0na0O" role="A3Ik2">
-            <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+            <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
           </node>
         </node>
       </node>

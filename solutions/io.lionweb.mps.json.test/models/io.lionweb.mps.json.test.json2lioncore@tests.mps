@@ -216,9 +216,6 @@
         <child id="1235573175711" name="elementType" index="2HTBi0" />
         <child id="1235573187520" name="singletonValue" index="2HTEbv" />
       </concept>
-      <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
-        <child id="4611582986551314344" name="requestedType" index="UnYnz" />
-      </concept>
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
@@ -1275,15 +1272,8 @@
                 </node>
                 <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
                   <ref role="37wK5l" to="6peh:5s4Z0e0n9Xi" resolve="serialize" />
-                  <node concept="2OqwBi" id="1lCmc_CaE11" role="37wK5m">
-                    <node concept="37vLTw" id="5sACIIt3ejH" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
-                    </node>
-                    <node concept="UnYns" id="1lCmc_CaF9Z" role="2OqNvi">
-                      <node concept="3uibUv" id="1lCmc_CaFBb" role="UnYnz">
-                        <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
+                    <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
                   </node>
                 </node>
               </node>

@@ -233,9 +233,6 @@
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
-      <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
-        <child id="4611582986551314344" name="requestedType" index="UnYnz" />
-      </concept>
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -1138,15 +1135,8 @@
                 </node>
                 <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
                   <ref role="37wK5l" to="6peh:5s4Z0e0n9Xi" resolve="serialize" />
-                  <node concept="2OqwBi" id="1lCmc_CaE11" role="37wK5m">
-                    <node concept="37vLTw" id="5sACIIt3ejH" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7qGUpN3CFOe" resolve="metamodels" />
-                    </node>
-                    <node concept="UnYns" id="1lCmc_CaF9Z" role="2OqNvi">
-                      <node concept="3uibUv" id="1lCmc_CaFBb" role="UnYnz">
-                        <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
+                    <ref role="3cqZAo" node="7qGUpN3CFOe" resolve="metamodels" />
                   </node>
                 </node>
               </node>
