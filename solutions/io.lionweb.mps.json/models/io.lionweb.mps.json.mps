@@ -1437,7 +1437,7 @@
               <ref role="3cqZAo" node="6VkSF6c$yDL" resolve="jsonSerialization" />
             </node>
             <node concept="liA8E" id="6VkSF6c$yDS" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~JsonSerialization.serializeTreesToJson(org.lionweb.lioncore.java.model.Node...)" resolve="serializeTreesToJson" />
+              <ref role="37wK5l" to="g8af:~JsonSerialization.serializeTreesToJsonElement(org.lionweb.lioncore.java.model.Node...)" resolve="serializeTreesToJsonElement" />
               <node concept="2OqwBi" id="2fx6VTTPYGY" role="37wK5m">
                 <node concept="37vLTw" id="6VkSF6c$yDZ" role="2Oq$k0">
                   <ref role="3cqZAo" node="6VkSF6c$yDX" resolve="nodes" />
