@@ -18,7 +18,6 @@
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:01cf0d82-8d29-4fc4-be96-28abaf4ad33d:io.lionweb.mps.m3" version="0" />
