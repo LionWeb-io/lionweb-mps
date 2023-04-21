@@ -999,6 +999,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="pF$g2pgeCd" role="3bR31x">
+          <node concept="3LXTmp" id="pF$g2pgeCe" role="3rtmxm">
+            <node concept="398BVA" id="pF$g2pgeCf" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
+              <node concept="2Ry0Ak" id="pF$g2pgeCg" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="pF$g2pgeCh" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestLang" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="pF$g2pgeCj" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5wsogBcGDXu" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1038,6 +1054,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="pF$g2pgeBK" role="3bR31x">
+          <node concept="3LXTmp" id="pF$g2pgeBL" role="3rtmxm">
+            <node concept="398BVA" id="pF$g2pgeBM" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
+              <node concept="2Ry0Ak" id="pF$g2pgeBN" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="pF$g2pgeBO" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestLang2" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="pF$g2pgeBQ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5wsogBcGDY_" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1074,6 +1106,22 @@
             </node>
             <node concept="3qWCbU" id="5wsogBcGE0_" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="pF$g2pgeBj" role="3bR31x">
+          <node concept="3LXTmp" id="pF$g2pgeBk" role="3rtmxm">
+            <node concept="398BVA" id="pF$g2pgeBl" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
+              <node concept="2Ry0Ak" id="pF$g2pgeBm" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="pF$g2pgeBn" role="2Ry0An">
+                  <property role="2Ry0Am" value="library" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="pF$g2pgeBp" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
           </node>
         </node>

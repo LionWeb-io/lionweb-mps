@@ -60,6 +60,12 @@ task<Sync>("resolveLibs") {
     }
 }
 
-tasks.generateBuildscript {
-    dependsOn("resolveLibs")
+tasks{
+    generateBuildscript {
+        dependsOn("resolveLibs")
+    }
+
+    checkMps {
+        buildScript.set(file("build-tests.xml"))
+    }
 }
