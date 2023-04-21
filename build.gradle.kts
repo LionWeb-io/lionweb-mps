@@ -5,7 +5,7 @@ plugins {
 
 val libs by configurations.creating
 
-val artifactsDir = File(rootDir, "artifacts")
+val lioncoreJavaDir = File(rootDir, "solutions/org.lionweb.lioncore.java/libs")
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -45,7 +45,7 @@ publishing {
 
 task<Sync>("resolveLibs") {
     from(libs)
-    into(File(buildDir, "libs"))
+    into(lioncoreJavaDir)
 
     rename { filename ->
         val ra = libs.resolvedConfiguration.resolvedArtifacts.find { ra: ResolvedArtifact -> ra.file.name == filename }!!
@@ -59,4 +59,8 @@ task<Sync>("resolveLibs") {
         println("renaming $filename to $finalName")
         finalName
     }
+}
+
+tasks.assembleMps {
+    dependsOn("resolveLibs")
 }
