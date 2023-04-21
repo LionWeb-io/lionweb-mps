@@ -21,3 +21,4 @@ junit*.properties
 # Gradle build
 .gradle/
 build/
+.mps-caches/
