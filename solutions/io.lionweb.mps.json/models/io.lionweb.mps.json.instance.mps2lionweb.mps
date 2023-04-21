@@ -160,6 +160,9 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
       <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
         <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
       </concept>
@@ -169,6 +172,7 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1079,6 +1083,56 @@
     </node>
     <node concept="2tJIrI" id="48csSBQ2Z3G" role="jymVt" />
     <node concept="3Tm1VV" id="48csSBNvYv1" role="1B3o_S" />
+    <node concept="3UR2Jj" id="3Kqiw5yA3U5" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yA3U6" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA3U7" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts MPS " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA5f2" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA5fd" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA5ff" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA5fm" role="92FcQ">
+              <ref role="VXe09" to="w1kc:~SNode" resolve="SNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA5Fr" role="1dT_Ay">
+          <property role="1dT_AB" value="s to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA5FW" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA5G7" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA5G9" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA5Gg" role="92FcQ">
+              <ref role="VXe09" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA5FV" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yA5HG" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA5HH" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yA5HW" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA5HX" role="1dT_Ay">
+          <property role="1dT_AB" value="Subclasses implement " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA6lo" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA6lu" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA6lw" role="2XjZqd" />
+            <node concept="VXe0Z" id="3Kqiw5yA6lB" role="92FcQ">
+              <ref role="VXe0S" node="48csSBQ1kac" resolve="traverse" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA6ln" role="1dT_Ay">
+          <property role="1dT_AB" value=" to decide which nodes besides the input nodes should be processed." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6VkSF6aDTO9">
     <property role="TrG5h" value="ListedMps2LionWebConverter" />
@@ -1131,9 +1185,41 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3Kqiw5yA6rg" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yA6DV" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA6DW" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts only the MPS " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA6DX" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA6DY" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA6DZ" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA6E0" role="92FcQ">
+              <ref role="VXe09" to="w1kc:~SNode" resolve="SNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA6E1" role="1dT_Ay">
+          <property role="1dT_AB" value="s listed in the constructor to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA6E2" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA6E3" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA6E4" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA6E5" role="92FcQ">
+              <ref role="VXe09" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA6E6" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yA6rh" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA6ri" role="1dT_Ay" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6VkSF6aDU_0">
-    <property role="TrG5h" value="DecendantMps2LionWebConverter" />
+    <property role="TrG5h" value="DescendantMps2LionWebConverter" />
     <node concept="3Tm1VV" id="6VkSF6aDU_1" role="1B3o_S" />
     <node concept="3uibUv" id="6VkSF6aDU_2" role="1zkMxy">
       <ref role="3uigEE" node="48csSBNvYv0" resolve="AMps2LionWebConverter" />
@@ -1221,6 +1307,38 @@
       </node>
       <node concept="2AHcQZ" id="6VkSF6aDU_j" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3Kqiw5yA6QK" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yA6Zw" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA6Zx" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts all MPS " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA6Zy" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA6Zz" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA6Z$" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA6Z_" role="92FcQ">
+              <ref role="VXe09" to="w1kc:~SNode" resolve="SNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA6ZA" role="1dT_Ay">
+          <property role="1dT_AB" value="s listed in the constructor, and all descendants, to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA6ZB" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA6ZC" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA6ZD" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA6ZE" role="92FcQ">
+              <ref role="VXe09" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA6ZF" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yA6QL" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA6QM" role="1dT_Ay" />
       </node>
     </node>
   </node>
@@ -1360,6 +1478,38 @@
       </node>
       <node concept="2AHcQZ" id="6VkSF6aF16z" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3Kqiw5yA7z_" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yA7JL" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA7JM" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts the transitive closure of all MPS " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA7JN" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA7JO" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA7JP" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA7JQ" role="92FcQ">
+              <ref role="VXe09" to="w1kc:~SNode" resolve="SNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA7JR" role="1dT_Ay">
+          <property role="1dT_AB" value="s listed in the constructor, all descendants, and all references to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yA7JS" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yA7JT" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yA7JU" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yA7JV" role="92FcQ">
+              <ref role="VXe09" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yA7JW" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yA7zA" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yA7zB" role="1dT_Ay" />
       </node>
     </node>
   </node>
