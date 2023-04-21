@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
+    <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
   </imports>
   <registry>
@@ -25,6 +25,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -79,6 +82,9 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
+        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -171,6 +177,9 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
+      <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
+        <child id="1226511765987" name="elementType" index="2hN53Y" />
+      </concept>
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -181,13 +190,8 @@
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
-      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
-        <child id="1197683466920" name="keyType" index="3rvQeY" />
-        <child id="1197683475734" name="valueType" index="3rvSg0" />
-      </concept>
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
-      <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
       <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
         <child id="5686963296372573084" name="elementType" index="3O5elw" />
       </concept>
@@ -200,13 +204,16 @@
         <node concept="3cpWsn" id="59Df55kvloj" role="3cpWs9">
           <property role="TrG5h" value="ids" />
           <node concept="3uibUv" id="59Df55kvlok" role="1tU5fm">
-            <ref role="3uigEE" to="3o3z:~Multimap" resolve="Multimap" />
+            <ref role="3uigEE" to="yg2w:~MultiMap" resolve="MultiMap" />
             <node concept="17QB3L" id="59Df55kvmjW" role="11_B2D" />
             <node concept="3Tqbb2" id="59Df55kvmvu" role="11_B2D" />
           </node>
-          <node concept="2YIFZM" id="59Df55kvlRv" role="33vP2m">
-            <ref role="1Pybhc" to="3o3z:~LinkedHashMultimap" resolve="LinkedHashMultimap" />
-            <ref role="37wK5l" to="3o3z:~LinkedHashMultimap.create()" resolve="create" />
+          <node concept="2ShNRf" id="3Kqiw5ysb$C" role="33vP2m">
+            <node concept="1pGfFk" id="3Kqiw5ysb$_" role="2ShVmc">
+              <ref role="37wK5l" to="yg2w:~MultiMap.&lt;init&gt;()" resolve="MultiMap" />
+              <node concept="17QB3L" id="3Kqiw5ysb$A" role="1pMfVU" />
+              <node concept="3Tqbb2" id="3Kqiw5ysb$B" role="1pMfVU" />
+            </node>
           </node>
         </node>
       </node>
@@ -216,7 +223,7 @@
             <ref role="3cqZAo" node="59Df55kvloj" resolve="ids" />
           </node>
           <node concept="liA8E" id="59Df55kvoum" role="2OqNvi">
-            <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+            <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
             <node concept="2OqwBi" id="59Df55kvoOS" role="37wK5m">
               <node concept="1YBJjd" id="59Df55kvo$_" role="2Oq$k0">
                 <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
@@ -254,7 +261,7 @@
                       <ref role="3cqZAo" node="59Df55kvloj" resolve="ids" />
                     </node>
                     <node concept="liA8E" id="59Df55kvy1T" role="2OqNvi">
-                      <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                      <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
                       <node concept="2OqwBi" id="59Df55kvyo2" role="37wK5m">
                         <node concept="37vLTw" id="59Df55kvya7" role="2Oq$k0">
                           <ref role="3cqZAo" node="59Df55kvxtK" resolve="it" />
@@ -285,19 +292,22 @@
         </node>
         <node concept="2OqwBi" id="59Df55kvDtd" role="2GsD0m">
           <node concept="1eOMI4" id="59Df55kvAJ5" role="2Oq$k0">
-            <node concept="10QFUN" id="59Df55kvAJ4" role="1eOMHV">
-              <node concept="2OqwBi" id="59Df55kvAJ1" role="10QFUP">
-                <node concept="37vLTw" id="59Df55kvAJ2" role="2Oq$k0">
+            <node concept="10QFUN" id="3Kqiw5ysefi" role="1eOMHV">
+              <node concept="2OqwBi" id="3Kqiw5yseff" role="10QFUP">
+                <node concept="37vLTw" id="3Kqiw5ysefg" role="2Oq$k0">
                   <ref role="3cqZAo" node="59Df55kvloj" resolve="ids" />
                 </node>
-                <node concept="liA8E" id="59Df55kvAJ3" role="2OqNvi">
-                  <ref role="37wK5l" to="3o3z:~Multimap.asMap()" resolve="asMap" />
+                <node concept="liA8E" id="3Kqiw5ysefh" role="2OqNvi">
+                  <ref role="37wK5l" to="yg2w:~MultiMap.entrySet()" resolve="entrySet" />
                 </node>
               </node>
-              <node concept="3rvAFt" id="59Df55kvCys" role="10QFUM">
-                <node concept="17QB3L" id="59Df55kvCD$" role="3rvQeY" />
-                <node concept="3vKaQO" id="59Df55kvCSt" role="3rvSg0">
-                  <node concept="3Tqbb2" id="59Df55kvD0O" role="3O5elw" />
+              <node concept="2hMVRd" id="3Kqiw5yseok" role="10QFUM">
+                <node concept="3uibUv" id="3Kqiw5yseJE" role="2hN53Y">
+                  <ref role="3uigEE" to="33ny:~Map$Entry" resolve="Map.Entry" />
+                  <node concept="17QB3L" id="3Kqiw5ysfhi" role="11_B2D" />
+                  <node concept="3vKaQO" id="3Kqiw5ysfMt" role="11_B2D">
+                    <node concept="3Tqbb2" id="3Kqiw5ysgbY" role="3O5elw" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -315,7 +325,9 @@
                         <node concept="37vLTw" id="59Df55kvEKu" role="2Oq$k0">
                           <ref role="3cqZAo" node="59Df55kvEyq" resolve="it" />
                         </node>
-                        <node concept="3AV6Ez" id="59Df55kvGt6" role="2OqNvi" />
+                        <node concept="liA8E" id="3Kqiw5yshQi" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                        </node>
                       </node>
                       <node concept="34oBXx" id="59Df55kvIzC" role="2OqNvi" />
                     </node>
@@ -338,7 +350,9 @@
               <node concept="2GrUjf" id="59Df55kvLK5" role="2Oq$k0">
                 <ref role="2Gs0qQ" node="59Df55kv_O3" resolve="entry" />
               </node>
-              <node concept="3AV6Ez" id="59Df55kvNvM" role="2OqNvi" />
+              <node concept="liA8E" id="3Kqiw5ysiE9" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+              </node>
             </node>
             <node concept="3clFbS" id="59Df55kvLAL" role="2LFqv$">
               <node concept="2MkqsV" id="59Df55kvOUz" role="3cqZAp">

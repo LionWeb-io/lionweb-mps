@@ -44,7 +44,7 @@
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="58k5" ref="r:085d8b5e-61a2-49e9-a34e-565f4024917d(io.lionweb.mps.converter.m2.idmapper.declarationnode)" />
-    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
+    <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -227,7 +227,9 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
+        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
+      </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -569,7 +571,6 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
-      <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
       <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
         <child id="1197932505799" name="map" index="3ElQJh" />
         <child id="1197932525128" name="key" index="3ElVtu" />
@@ -24486,7 +24487,7 @@
           <node concept="3cpWsn" id="3ePT3MiimSt" role="3cpWs9">
             <property role="TrG5h" value="idMap" />
             <node concept="3uibUv" id="3ePT3Miimum" role="1tU5fm">
-              <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+              <ref role="3uigEE" to="yg2w:~SetBasedMultiMap" resolve="SetBasedMultiMap" />
               <node concept="17QB3L" id="3ePT3MiivLR" role="11_B2D" />
               <node concept="3uibUv" id="3ePT3MiygE7" role="11_B2D">
                 <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
@@ -24535,7 +24536,7 @@
       <property role="TrG5h" value="mapChangedIds" />
       <node concept="3Tmbuc" id="3ePT3MiOJto" role="1B3o_S" />
       <node concept="3uibUv" id="3ePT3MiOz9C" role="3clF45">
-        <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+        <ref role="3uigEE" to="yg2w:~SetBasedMultiMap" resolve="SetBasedMultiMap" />
         <node concept="17QB3L" id="3ePT3MiOz9D" role="11_B2D" />
         <node concept="3uibUv" id="3ePT3MiOz9E" role="11_B2D">
           <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
@@ -24546,15 +24547,20 @@
           <node concept="3cpWsn" id="3ePT3MiOz8R" role="3cpWs9">
             <property role="TrG5h" value="idMap" />
             <node concept="3uibUv" id="3ePT3MiOz8S" role="1tU5fm">
-              <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+              <ref role="3uigEE" to="yg2w:~SetBasedMultiMap" resolve="SetBasedMultiMap" />
               <node concept="17QB3L" id="3ePT3MiOz8T" role="11_B2D" />
               <node concept="3uibUv" id="3ePT3MiOz8U" role="11_B2D">
                 <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
               </node>
             </node>
-            <node concept="2YIFZM" id="3ePT3MiOz8V" role="33vP2m">
-              <ref role="1Pybhc" to="3o3z:~LinkedHashMultimap" resolve="LinkedHashMultimap" />
-              <ref role="37wK5l" to="3o3z:~LinkedHashMultimap.create()" resolve="create" />
+            <node concept="2ShNRf" id="3Kqiw5yxvbf" role="33vP2m">
+              <node concept="1pGfFk" id="3Kqiw5yxvak" role="2ShVmc">
+                <ref role="37wK5l" to="yg2w:~SetBasedMultiMap.&lt;init&gt;()" resolve="SetBasedMultiMap" />
+                <node concept="17QB3L" id="3Kqiw5yxval" role="1pMfVU" />
+                <node concept="3uibUv" id="3Kqiw5yxvam" role="1pMfVU">
+                  <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -24617,7 +24623,7 @@
                       <ref role="3cqZAo" node="3ePT3MiOz8R" resolve="idMap" />
                     </node>
                     <node concept="liA8E" id="3ePT3MiOz9n" role="2OqNvi">
-                      <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                      <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
                       <node concept="37vLTw" id="3ePT3MiOz9o" role="37wK5m">
                         <ref role="3cqZAo" node="3ePT3MiOz9e" resolve="id" />
                       </node>
@@ -24666,7 +24672,7 @@
       <node concept="37vLTG" id="3ePT3MiON$w" role="3clF46">
         <property role="TrG5h" value="idMap" />
         <node concept="3uibUv" id="3ePT3MiON$x" role="1tU5fm">
-          <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+          <ref role="3uigEE" to="yg2w:~SetBasedMultiMap" resolve="SetBasedMultiMap" />
           <node concept="17QB3L" id="3ePT3MiON$y" role="11_B2D" />
           <node concept="3uibUv" id="3ePT3MiON$z" role="11_B2D">
             <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
@@ -24685,14 +24691,17 @@
                         <ref role="3cqZAo" node="3ePT3MiON$w" resolve="idMap" />
                       </node>
                       <node concept="liA8E" id="3ePT3MiONz2" role="2OqNvi">
-                        <ref role="37wK5l" to="3o3z:~SetMultimap.asMap()" resolve="asMap" />
+                        <ref role="37wK5l" to="yg2w:~MultiMap.entrySet()" resolve="entrySet" />
                       </node>
                     </node>
-                    <node concept="3rvAFt" id="3ePT3MiONz3" role="10QFUM">
-                      <node concept="17QB3L" id="3ePT3MiONz4" role="3rvQeY" />
-                      <node concept="3vKaQO" id="3ePT3MiSR6v" role="3rvSg0">
-                        <node concept="3uibUv" id="3ePT3MiSR6x" role="3O5elw">
-                          <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
+                    <node concept="2hMVRd" id="3Kqiw5yx_Oq" role="10QFUM">
+                      <node concept="3uibUv" id="3Kqiw5yxH3k" role="2hN53Y">
+                        <ref role="3uigEE" to="33ny:~Map$Entry" resolve="Map.Entry" />
+                        <node concept="17QB3L" id="3Kqiw5yxP68" role="11_B2D" />
+                        <node concept="3vKaQO" id="3Kqiw5yx_Ot" role="11_B2D">
+                          <node concept="3uibUv" id="3Kqiw5yx_Ou" role="3O5elw">
+                            <ref role="3uigEE" node="3ePT3MiuPwu" resolve="MoveDetector.MoveRecord" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -24711,7 +24720,9 @@
                               <node concept="37vLTw" id="3ePT3MiONzf" role="2Oq$k0">
                                 <ref role="3cqZAo" node="3ePT3MiONzi" resolve="it" />
                               </node>
-                              <node concept="3AV6Ez" id="3ePT3MiONzg" role="2OqNvi" />
+                              <node concept="liA8E" id="3Kqiw5yxRM$" role="2OqNvi">
+                                <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                              </node>
                             </node>
                             <node concept="34oBXx" id="3ePT3MiONzh" role="2OqNvi" />
                           </node>
@@ -24738,7 +24749,9 @@
                             <node concept="37vLTw" id="3ePT3MiONzs" role="2Oq$k0">
                               <ref role="3cqZAo" node="3ePT3MiON$b" resolve="it" />
                             </node>
-                            <node concept="3AV6Ez" id="3ePT3MiONzt" role="2OqNvi" />
+                            <node concept="liA8E" id="3Kqiw5yxVbJ" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                            </node>
                           </node>
                           <node concept="34oBXx" id="3ePT3MiONzu" role="2OqNvi" />
                         </node>
@@ -24763,7 +24776,9 @@
                             <node concept="37vLTw" id="3ePT3MiONzB" role="2Oq$k0">
                               <ref role="3cqZAo" node="3ePT3MiON$b" resolve="it" />
                             </node>
-                            <node concept="3AV6Ez" id="3ePT3MiONzC" role="2OqNvi" />
+                            <node concept="liA8E" id="3Kqiw5yxX$c" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                            </node>
                           </node>
                           <node concept="1uHKPH" id="3ePT3MiONzD" role="2OqNvi" />
                         </node>
@@ -24780,7 +24795,9 @@
                             <node concept="37vLTw" id="3ePT3MiONzJ" role="2Oq$k0">
                               <ref role="3cqZAo" node="3ePT3MiON$b" resolve="it" />
                             </node>
-                            <node concept="3AV6Ez" id="3ePT3MiONzK" role="2OqNvi" />
+                            <node concept="liA8E" id="3Kqiw5yy0sU" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                            </node>
                           </node>
                           <node concept="1yVyf7" id="3ePT3MiONzL" role="2OqNvi" />
                         </node>
@@ -24865,7 +24882,9 @@
                           <node concept="37vLTw" id="3ePT3MiON$k" role="2Oq$k0">
                             <ref role="3cqZAo" node="3ePT3MiON$s" resolve="it" />
                           </node>
-                          <node concept="3AV6Ez" id="3ePT3MiON$l" role="2OqNvi" />
+                          <node concept="liA8E" id="3Kqiw5yy3hT" role="2OqNvi">
+                            <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                          </node>
                         </node>
                         <node concept="1uHKPH" id="3ePT3MiON$m" role="2OqNvi" />
                       </node>
@@ -24874,7 +24893,9 @@
                           <node concept="37vLTw" id="3ePT3MiON$p" role="2Oq$k0">
                             <ref role="3cqZAo" node="3ePT3MiON$s" resolve="it" />
                           </node>
-                          <node concept="3AV6Ez" id="3ePT3MiON$q" role="2OqNvi" />
+                          <node concept="liA8E" id="3Kqiw5yy5tr" role="2OqNvi">
+                            <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
+                          </node>
                         </node>
                         <node concept="1yVyf7" id="3ePT3MiON$r" role="2OqNvi" />
                       </node>

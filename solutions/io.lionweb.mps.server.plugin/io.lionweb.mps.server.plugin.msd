@@ -16,7 +16,6 @@
     <dependency reexport="false">23865718-e2ed-41b5-a132-0da1d04e266d(jetbrains.mps.ide.httpsupport.manager)</dependency>
     <dependency reexport="false">4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)</dependency>
     <dependency reexport="false">39d4fcb0-6a78-41ac-8e8f-01bb784b65fc(io.lionweb.mps.json)</dependency>
-    <dependency reexport="false">ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
   </dependencies>
   <languageVersions>

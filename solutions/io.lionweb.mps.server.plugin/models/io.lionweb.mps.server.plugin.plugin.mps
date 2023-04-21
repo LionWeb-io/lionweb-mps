@@ -27,7 +27,6 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
     <import index="9xw8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:io.netty.handler.codec.http(MPS.IDEA/)" />
     <import index="k9nz" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.text(MPS.IDEA/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
@@ -35,6 +34,7 @@
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
     <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
     <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
+    <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="iil0" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:io.netty.buffer(MPS.IDEA/)" implicit="true" />
   </imports>
@@ -167,7 +167,9 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
+        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
+      </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -1645,7 +1647,7 @@
           <node concept="3cpWsn" id="2q_M4ySQu4W" role="3cpWs9">
             <property role="TrG5h" value="presentChildren" />
             <node concept="3uibUv" id="2q_M4ySQu4X" role="1tU5fm">
-              <ref role="3uigEE" to="3o3z:~Multimap" resolve="Multimap" />
+              <ref role="3uigEE" to="yg2w:~MultiMap" resolve="MultiMap" />
               <node concept="3uibUv" id="2q_M4ySQu4Y" role="11_B2D">
                 <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
               </node>
@@ -1653,9 +1655,16 @@
                 <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
               </node>
             </node>
-            <node concept="2YIFZM" id="2q_M4ySQu50" role="33vP2m">
-              <ref role="1Pybhc" to="3o3z:~LinkedHashMultimap" resolve="LinkedHashMultimap" />
-              <ref role="37wK5l" to="3o3z:~LinkedHashMultimap.create()" resolve="create" />
+            <node concept="2ShNRf" id="3Kqiw5ytOr8" role="33vP2m">
+              <node concept="1pGfFk" id="3Kqiw5ytOqT" role="2ShVmc">
+                <ref role="37wK5l" to="yg2w:~MultiMap.&lt;init&gt;()" resolve="MultiMap" />
+                <node concept="3uibUv" id="3Kqiw5ytOqU" role="1pMfVU">
+                  <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+                </node>
+                <node concept="3uibUv" id="3Kqiw5ytOqV" role="1pMfVU">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -1678,7 +1687,7 @@
                   <ref role="3cqZAo" node="2q_M4ySQu4W" resolve="presentChildren" />
                 </node>
                 <node concept="liA8E" id="2q_M4ySQu5a" role="2OqNvi">
-                  <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                  <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
                   <node concept="2OqwBi" id="2q_M4ySQu5b" role="37wK5m">
                     <node concept="2GrUjf" id="2q_M4ySQu5c" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="2q_M4ySQu52" resolve="presentChild" />
@@ -1834,7 +1843,7 @@
                       <ref role="3cqZAo" node="2q_M4ySQu4W" resolve="presentChildren" />
                     </node>
                     <node concept="liA8E" id="2q_M4ySQu6b" role="2OqNvi">
-                      <ref role="37wK5l" to="3o3z:~Multimap.remove(java.lang.Object,java.lang.Object)" resolve="remove" />
+                      <ref role="37wK5l" to="yg2w:~MultiMap.removeValue(java.lang.Object,java.lang.Object)" resolve="removeValue" />
                       <node concept="2OqwBi" id="2q_M4ySQu6c" role="37wK5m">
                         <node concept="37vLTw" id="2q_M4ySQu6d" role="2Oq$k0">
                           <ref role="3cqZAo" node="2q_M4ySQu5n" resolve="presentChild" />
@@ -1944,7 +1953,7 @@
               <ref role="3cqZAo" node="2q_M4ySQu4W" resolve="presentChildren" />
             </node>
             <node concept="liA8E" id="2q_M4ySQu6o" role="2OqNvi">
-              <ref role="37wK5l" to="3o3z:~Multimap.values()" resolve="values" />
+              <ref role="37wK5l" to="yg2w:~MultiMap.values()" resolve="values" />
             </node>
           </node>
           <node concept="3clFbS" id="2q_M4ySQu6p" role="2LFqv$">
