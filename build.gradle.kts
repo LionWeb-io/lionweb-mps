@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2022.2")
+    "mps"("com.jetbrains:mps:2021.1.4")
 }
 
 group = "io.lionweb"
