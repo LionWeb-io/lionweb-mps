@@ -262,31 +262,14 @@
           <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="cl" />
         </dependencies>
         <uses />
-        <library jar="../../core.jar" />
-        <library jar="../../gson-2.10.1.jar" />
-        <classpath>
-          <entry path="." />
-        </classpath>
-        <sources jar="org.lionweb.lioncore.java-src.jar" descriptor="org.lionweb.lioncore.java.msd" />
+        <library jar="../../gson.jar" />
+        <library jar="../../lioncore-java-core.jar" />
+        <sources jar="." descriptor="org.lionweb.lioncore.java.msd" />
       </module>
     </echoxml>
     <jar destfile="${build.layout}/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/org.lionweb.lioncore.java" />
-      <fileset dir="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/org.lionweb.lioncore.java.jar" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.lionweb.lioncore.java-models">
-      <fileset dir="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/models" includes="**/*.mps, **/*.mpsr, **/.model" />
-    </copyModels>
-    <jar destfile="${build.layout}/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java-src.jar" duplicate="preserve">
-      <fileset dir="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/source_gen">
-        <exclude name="**/trace.info" />
-        <exclude name="**/exports" />
-        <exclude name="**/checkpoints" />
-        <exclude name="**/*.mps" />
-      </fileset>
       <zipfileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/org.lionweb.lioncore.java.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.lionweb.lioncore.java-models" prefix="module/models" />
+      <fileset dir="${build.tmp}/default/org.lionweb.lioncore.java.jar" />
     </jar>
     <mkdir dir="${build.layout}/io.lionweb.mps/languages" />
     <mkdir dir="${build.layout}/io.lionweb.mps/languages/lionweb-mps.converter.lang" />
@@ -430,10 +413,10 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.converter.lang.runtime-models" prefix="module/models" />
     </jar>
     <copy todir="${build.layout}/io.lionweb.mps">
-      <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/core.jar" />
+      <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/lioncore-java-core.jar" />
     </copy>
     <copy todir="${build.layout}/io.lionweb.mps">
-      <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson-2.10.1.jar" />
+      <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson.jar" />
     </copy>
     <echo file="${build.layout}/build.properties">io.lionweb.mps.version=${version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
@@ -449,7 +432,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.org.lionweb.lioncore.java, java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime" />
+  <target name="compileJava" depends="java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime" />
   
   <target name="processResources" />
   
@@ -702,7 +685,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.io.lionweb.mps.json" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.m3, java.compile.org.lionweb.lioncore.java, fetchDependencies">
+  <target name="java.compile.io.lionweb.mps.json" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.m3, fetchDependencies">
     <mkdir dir="${lioncore-mps.home}/solutions/io.lionweb.mps.json/source_gen" />
     <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.json" />
     <javac destdir="${build.tmp}/java/out/io.lionweb.mps.json" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -740,9 +723,8 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3" />
-        <pathelement path="${build.tmp}/java/out/org.lionweb.lioncore.java" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/core.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson-2.10.1.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/lioncore-java-core.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -754,22 +736,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.lionweb.lioncore.java">
-    <mkdir dir="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.lionweb.lioncore.java" />
-    <javac destdir="${build.tmp}/java/out/org.lionweb.lioncore.java" fork="true" encoding="utf8" includeantruntime="false" debug="true">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/core.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson-2.10.1.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.java.modules.cycle.1" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.m3, java.compile.org.lionweb.lioncore.java, fetchDependencies">
+  <target name="java.compile.java.modules.cycle.1" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.m3, fetchDependencies">
     <mkdir dir="${build.tmp}/java.modules.cycle.1" />
     <javac destdir="${build.tmp}/java.modules.cycle.1" fork="true" encoding="utf8" nowarn="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -807,8 +774,8 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/core.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson-2.10.1.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/lioncore-java-core.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -830,12 +797,11 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.json" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3" />
-        <pathelement path="${build.tmp}/java/out/org.lionweb.lioncore.java" />
       </classpath>
     </javac>
   </target>
   
-  <target name="java.compile.io.lionweb.mps.converter.lang" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.m3, java.compile.org.lionweb.lioncore.java, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.io.lionweb.mps.converter.lang" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.m3, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${lioncore-mps.home}/languages/io.lionweb.mps.converter.lang/source_gen" />
     <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.converter.lang" />
     <javac destdir="${build.tmp}/java/out/io.lionweb.mps.converter.lang" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -874,11 +840,10 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3" />
-        <pathelement path="${build.tmp}/java/out/org.lionweb.lioncore.java" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/core.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson-2.10.1.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/gson.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/libs/lioncore-java-core.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -970,6 +935,5 @@
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.converter.lang.runtime/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.json/source_gen" />
     <delete dir="${lioncore-mps.home}/languages/io.lionweb.mps.m3/source_gen" />
-    <delete dir="${lioncore-mps.home}/solutions/org.lionweb.lioncore.java/source_gen" />
   </target>
 </project>

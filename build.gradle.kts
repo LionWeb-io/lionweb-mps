@@ -56,11 +56,10 @@ task<Sync>("resolveLibs") {
             finalName = "${ra.name}.${ra.extension}"
         }
         logger.info("renaming $filename to $finalName")
-        println("renaming $filename to $finalName")
         finalName
     }
 }
 
-tasks.assembleMps {
+tasks.generateBuildscript {
     dependsOn("resolveLibs")
 }

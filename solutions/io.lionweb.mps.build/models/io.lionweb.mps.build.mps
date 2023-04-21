@@ -125,6 +125,7 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
+        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -208,8 +209,8 @@
                 <property role="2Ry0Am" value="org.lionweb.lioncore.java" />
                 <node concept="2Ry0Ak" id="5wsogBcGDKv" role="2Ry0An">
                   <property role="2Ry0Am" value="libs" />
-                  <node concept="2Ry0Ak" id="5wsogBcGDKw" role="2Ry0An">
-                    <property role="2Ry0Am" value="core.jar" />
+                  <node concept="2Ry0Ak" id="36dvFBW80LB" role="2Ry0An">
+                    <property role="2Ry0Am" value="lioncore-java-core.jar" />
                   </node>
                 </node>
               </node>
@@ -225,8 +226,8 @@
                 <property role="2Ry0Am" value="org.lionweb.lioncore.java" />
                 <node concept="2Ry0Ak" id="5wsogBcGDK_" role="2Ry0An">
                   <property role="2Ry0Am" value="libs" />
-                  <node concept="2Ry0Ak" id="5wsogBcGDKA" role="2Ry0An">
-                    <property role="2Ry0Am" value="gson-2.10.1.jar" />
+                  <node concept="2Ry0Ak" id="36dvFBW80Lh" role="2Ry0An">
+                    <property role="2Ry0Am" value="gson.jar" />
                   </node>
                 </node>
               </node>
@@ -509,6 +510,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.lionweb.lioncore.java" />
         <property role="3LESm3" value="9d6d7230-3178-4b3f-a837-7c0180c86207" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="5wsogBcGDM8" role="3LF7KH">
           <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
           <node concept="2Ry0Ak" id="5wsogBcGDM9" role="iGT6I">
@@ -526,18 +528,18 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5wsogBcGDMe" role="3bR37C">
-          <node concept="1BurEX" id="5wsogBcGDMf" role="1SiIV1">
-            <node concept="398BVA" id="5wsogBcGDMg" role="1BurEY">
+        <node concept="1SiIV0" id="36dvFBW80Kf" role="3bR37C">
+          <node concept="1BurEX" id="36dvFBW80Kg" role="1SiIV1">
+            <node concept="398BVA" id="36dvFBW80K5" role="1BurEY">
               <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
-              <node concept="2Ry0Ak" id="5wsogBcGDMh" role="iGT6I">
+              <node concept="2Ry0Ak" id="36dvFBW80K6" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="5wsogBcGDMi" role="2Ry0An">
+                <node concept="2Ry0Ak" id="36dvFBW80K7" role="2Ry0An">
                   <property role="2Ry0Am" value="org.lionweb.lioncore.java" />
-                  <node concept="2Ry0Ak" id="5wsogBcGDMj" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="36dvFBW80K8" role="2Ry0An">
                     <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="5wsogBcGDMk" role="2Ry0An">
-                      <property role="2Ry0Am" value="core.jar" />
+                    <node concept="2Ry0Ak" id="36dvFBW80K9" role="2Ry0An">
+                      <property role="2Ry0Am" value="gson.jar" />
                     </node>
                   </node>
                 </node>
@@ -545,44 +547,22 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5wsogBcGDMl" role="3bR37C">
-          <node concept="1BurEX" id="5wsogBcGDMm" role="1SiIV1">
-            <node concept="398BVA" id="5wsogBcGDMn" role="1BurEY">
+        <node concept="1SiIV0" id="36dvFBW80Kr" role="3bR37C">
+          <node concept="1BurEX" id="36dvFBW80Ks" role="1SiIV1">
+            <node concept="398BVA" id="36dvFBW80Kh" role="1BurEY">
               <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
-              <node concept="2Ry0Ak" id="5wsogBcGDMo" role="iGT6I">
+              <node concept="2Ry0Ak" id="36dvFBW80Ki" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="5wsogBcGDMp" role="2Ry0An">
+                <node concept="2Ry0Ak" id="36dvFBW80Kj" role="2Ry0An">
                   <property role="2Ry0Am" value="org.lionweb.lioncore.java" />
-                  <node concept="2Ry0Ak" id="5wsogBcGDMq" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="36dvFBW80Kk" role="2Ry0An">
                     <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="5wsogBcGDMr" role="2Ry0An">
-                      <property role="2Ry0Am" value="gson-2.10.1.jar" />
+                    <node concept="2Ry0Ak" id="36dvFBW80Kl" role="2Ry0An">
+                      <property role="2Ry0Am" value="lioncore-java-core.jar" />
                     </node>
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="5wsogBcGDMs" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="5wsogBcGDMt" role="1HemKq">
-            <node concept="398BVA" id="5wsogBcGDMu" role="3LXTmr">
-              <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
-              <node concept="2Ry0Ak" id="5wsogBcGDMv" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="5wsogBcGDMw" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.lionweb.lioncore.java" />
-                  <node concept="2Ry0Ak" id="5wsogBcGDMx" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="5wsogBcGDMy" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -775,7 +755,7 @@
         <ref role="m$_y1" node="5wsogBcGDKB" resolve="io.lionweb.mps" />
       </node>
       <node concept="m$f5U" id="5wsogBcGDTL" role="m$_yh">
-        <ref role="m$f5T" node="5wsogBcGDQO" resolve="lionweb-mps-tests" />
+        <ref role="m$f5T" node="5wsogBcGDQO" resolve="lionweb-mps.tests" />
       </node>
       <node concept="3_J27D" id="5wsogBcGDPx" role="m$_yQ">
         <node concept="3Mxwew" id="5wsogBcGDPy" role="3MwsjC">

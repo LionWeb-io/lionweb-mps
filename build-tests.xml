@@ -786,9 +786,8 @@
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java.jar" />
-        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/core.jar" />
-        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/gson-2.10.1.jar" />
+        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/gson.jar" />
+        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lioncore-java-core.jar" />
       </classpath>
     </javac>
   </target>
@@ -849,9 +848,8 @@
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.matcher.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-testing/languages/languageDesign/jetbrains.mps.lang.test.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java.jar" />
-        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/core.jar" />
-        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/gson-2.10.1.jar" />
+        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/gson.jar" />
+        <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lioncore-java-core.jar" />
       </classpath>
     </javac>
   </target>
