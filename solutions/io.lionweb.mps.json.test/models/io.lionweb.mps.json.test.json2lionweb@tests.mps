@@ -79,6 +79,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -122,9 +123,11 @@
         <child id="8276990574895933173" name="catchBody" index="1zc67A" />
         <child id="8276990574895933172" name="throwable" index="1zc67B" />
       </concept>
+      <concept id="5351203823916832286" name="jetbrains.mps.baseLanguage.structure.ResourceVariable" flags="ng" index="3J1hQo" />
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+        <child id="5351203823916750334" name="resource" index="3J1_TS" />
       </concept>
     </language>
     <language id="537f9cb0-0f25-3c76-8b86-308f45010100" name="library">
@@ -533,13 +536,8 @@
                 <node concept="2ShNRf" id="5wsogBcv6eo" role="2Oq$k0">
                   <node concept="1pGfFk" id="5wsogBcv7nz" role="2ShVmc">
                     <ref role="37wK5l" to="643a:5wsogBcuZdW" resolve="ReaderAsserter" />
-                    <node concept="2ShNRf" id="5wsogBcv928" role="37wK5m">
-                      <node concept="1pGfFk" id="5wsogBcv929" role="2ShVmc">
-                        <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
-                        <node concept="37vLTw" id="5wsogBcv92a" role="37wK5m">
-                          <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="19nRYgRB1OB" role="37wK5m">
+                      <ref role="3cqZAo" node="19nRYgRB0FD" resolve="reader" />
                     </node>
                     <node concept="2ShNRf" id="5wsogBcv9mS" role="37wK5m">
                       <node concept="1pGfFk" id="5wsogBcv9mT" role="2ShVmc">
@@ -574,7 +572,22 @@
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="5wsogBcvg5c" role="1tU5fm">
                 <node concept="3uibUv" id="5wsogBcvg58" role="nSUat">
-                  <ref role="3uigEE" to="guwi:~FileNotFoundException" resolve="FileNotFoundException" />
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3J1hQo" id="19nRYgRB0FD" role="3J1_TS">
+            <property role="3TUv4t" value="true" />
+            <property role="TrG5h" value="reader" />
+            <node concept="3uibUv" id="19nRYgRB21M" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~FileReader" resolve="FileReader" />
+            </node>
+            <node concept="2ShNRf" id="19nRYgRB1O$" role="33vP2m">
+              <node concept="1pGfFk" id="19nRYgRB1O_" role="2ShVmc">
+                <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
+                <node concept="37vLTw" id="19nRYgRB1OA" role="37wK5m">
+                  <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
                 </node>
               </node>
             </node>
