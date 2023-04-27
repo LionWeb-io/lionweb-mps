@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.m3/io.lionweb.mps.m3.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test/io.lionweb.mps.converter.test.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter/io.lionweb.mps.converter.msd" folder="" />

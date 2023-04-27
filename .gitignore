@@ -17,3 +17,8 @@ junit*.properties
 
 # IntelliJ projects (for debugging)
 *.iml
+
+# Gradle build
+.gradle/
+build/
+.mps-caches/
