@@ -210,18 +210,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -4313,28 +4303,17 @@
             </node>
           </node>
           <node concept="3clFbS" id="5sACIIsA0x9" role="2LFqv$">
-            <node concept="3SKdUt" id="5sACIIsKg8M" role="3cqZAp">
-              <node concept="1PaTwC" id="5sACIIsKg8N" role="1aUNEU">
-                <node concept="3oM_SD" id="5sACIIsKiC6" role="1PaTwD">
-                  <property role="3oM_SC" value="TODO" />
+            <node concept="3clFbF" id="5sACIIsJLo2" role="3cqZAp">
+              <node concept="2OqwBi" id="5sACIIsJNgi" role="3clFbG">
+                <node concept="37vLTw" id="5sACIIsJLo0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsA0xo" resolve="json" />
                 </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="5sACIIsKiDe" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="5sACIIsJLo2" role="8Wnug">
-                <node concept="2OqwBi" id="5sACIIsJNgi" role="3clFbG">
-                  <node concept="37vLTw" id="5sACIIsJLo0" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5sACIIsA0xo" resolve="json" />
-                  </node>
-                  <node concept="liA8E" id="5sACIIsJQ4c" role="2OqNvi">
-                    <ref role="37wK5l" to="tozv:~Metamodel.dependsOn()" resolve="dependsOn" />
-                    <node concept="1rXfSq" id="5sACIIsJV43" role="37wK5m">
-                      <ref role="37wK5l" node="5sACIIsA0EW" resolve="lookupMetamodel" />
-                      <node concept="2GrUjf" id="5sACIIsJZEl" role="37wK5m">
-                        <ref role="2Gs0qQ" node="5sACIIsA0x5" resolve="depends" />
-                      </node>
+                <node concept="liA8E" id="5sACIIsJQ4c" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~Metamodel.addDependency(org.lionweb.lioncore.java.metamodel.Metamodel)" resolve="addDependency" />
+                  <node concept="1rXfSq" id="5sACIIsJV43" role="37wK5m">
+                    <ref role="37wK5l" node="5sACIIsA0EW" resolve="lookupMetamodel" />
+                    <node concept="2GrUjf" id="5sACIIsJZEl" role="37wK5m">
+                      <ref role="2Gs0qQ" node="5sACIIsA0x5" resolve="depends" />
                     </node>
                   </node>
                 </node>
@@ -5269,7 +5248,7 @@
                     <ref role="3cqZAo" node="5sACIIsA0Ad" resolve="jsonProp" />
                   </node>
                   <node concept="liA8E" id="5sACIIsSRZ3" role="2OqNvi">
-                    <ref role="37wK5l" to="tozv:~Feature.setname(java.lang.String)" resolve="setname" />
+                    <ref role="37wK5l" to="tozv:~Feature.setName(java.lang.String)" resolve="setName" />
                     <node concept="2OqwBi" id="5sACIIsT4yw" role="37wK5m">
                       <node concept="37vLTw" id="5sACIIsSUkK" role="2Oq$k0">
                         <ref role="3cqZAo" node="5sACIIsSvAJ" resolve="mpsProp" />

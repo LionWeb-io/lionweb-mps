@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.7")
+    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.9")
 }
 
 group = "io.lionweb"
