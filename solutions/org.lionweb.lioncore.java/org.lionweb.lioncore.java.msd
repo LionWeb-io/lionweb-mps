@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="org.lionweb.lioncore.java" uuid="9d6d7230-3178-4b3f-a837-7c0180c86207" moduleVersion="0" compileInMPS="true">
   <models>
-    <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="models" />
-    </modelRoot>
     <modelRoot contentPath="${module}/libs" type="java_classes">
-      <sourceRoot location="core.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/libs" type="java_classes">
-      <sourceRoot location="gson-2.10.1.jar" />
+      <sourceRoot location="gson.jar" />
+      <sourceRoot location="lioncore-java-core.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -17,8 +12,8 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/libs/core.jar" />
-    <stubModelEntry path="${module}/libs/gson-2.10.1.jar" />
+    <stubModelEntry path="${module}/libs/gson.jar" />
+    <stubModelEntry path="${module}/libs/lioncore-java-core.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

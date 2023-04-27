@@ -3,6 +3,10 @@ plugins {
     `maven-publish`
 }
 
+val libs by configurations.creating
+
+val lioncoreJavaDir = File(rootDir, "solutions/org.lionweb.lioncore.java/libs")
+
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
@@ -10,6 +14,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
+    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.7")
 }
 
 group = "io.lionweb"
@@ -35,5 +40,32 @@ publishing {
                 }
             }
         }
+    }
+}
+
+task<Sync>("resolveLibs") {
+    from(libs)
+    into(lioncoreJavaDir)
+
+    rename { filename ->
+        val ra = libs.resolvedConfiguration.resolvedArtifacts.find { ra: ResolvedArtifact -> ra.file.name == filename }!!
+        var finalName: String
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        logger.info("renaming $filename to $finalName")
+        finalName
+    }
+}
+
+tasks{
+    generateBuildscript {
+        dependsOn("resolveLibs")
+    }
+
+    checkMps {
+        buildScript.set(file("build-tests.xml"))
     }
 }

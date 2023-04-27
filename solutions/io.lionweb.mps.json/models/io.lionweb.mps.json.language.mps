@@ -3519,7 +3519,7 @@
               <ref role="3cqZAo" node="5sACIIsA0Ad" resolve="json" />
             </node>
             <node concept="liA8E" id="5sACIIsSRZ3" role="2OqNvi">
-              <ref role="37wK5l" to="tozv:~Feature.setSimpleName(java.lang.String)" resolve="setSimpleName" />
+              <ref role="37wK5l" to="tozv:~Feature.setname(java.lang.String)" resolve="setname" />
               <node concept="2OqwBi" id="5sACIIsT4yw" role="37wK5m">
                 <node concept="37vLTw" id="5sACIIsSUkK" role="2Oq$k0">
                   <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
@@ -4201,7 +4201,7 @@
               <ref role="3cqZAo" node="5sACIIsA0CX" resolve="json" />
             </node>
             <node concept="liA8E" id="5sACIIsWPfV" role="2OqNvi">
-              <ref role="37wK5l" to="tozv:~MetamodelElement.setSimpleName(java.lang.String)" resolve="setSimpleName" />
+              <ref role="37wK5l" to="tozv:~MetamodelElement.setName(java.lang.String)" resolve="setName" />
               <node concept="2OqwBi" id="5sACIIsWVDg" role="37wK5m">
                 <node concept="37vLTw" id="5sACIIsWT4I" role="2Oq$k0">
                   <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
@@ -4698,8 +4698,8 @@
                             <node concept="37vLTw" id="48csSBPYIlz" role="2Oq$k0">
                               <ref role="3cqZAo" node="48csSBPXn7N" resolve="template" />
                             </node>
-                            <node concept="liA8E" id="48csSBPX2I1" role="2OqNvi">
-                              <ref role="37wK5l" to="tozv:~MetamodelElement.getSimpleName()" resolve="getSimpleName" />
+                            <node concept="liA8E" id="4XRZmlyZHGA" role="2OqNvi">
+                              <ref role="37wK5l" to="tozv:~MetamodelElement.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>
@@ -6561,7 +6561,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqK9" resolve="json" />
                 </node>
                 <node concept="liA8E" id="2fx6VTS6IW9" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~MetamodelElement.getSimpleName()" resolve="getSimpleName" />
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -6662,7 +6662,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqMm" resolve="json" />
                 </node>
                 <node concept="liA8E" id="2fx6VTS9BSK" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~MetamodelElement.getSimpleName()" resolve="getSimpleName" />
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -6763,8 +6763,8 @@
                 <node concept="37vLTw" id="2fx6VTSavTx" role="2Oq$k0">
                   <ref role="3cqZAo" node="2fx6VTRFqNZ" resolve="json" />
                 </node>
-                <node concept="liA8E" id="2fx6VTSavTy" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~Feature.getSimpleName()" resolve="getSimpleName" />
+                <node concept="liA8E" id="4XRZmlyZ2H_" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~Feature.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -6864,8 +6864,8 @@
                 <node concept="37vLTw" id="2fx6VTSbgEI" role="2Oq$k0">
                   <ref role="3cqZAo" node="2fx6VTRFqQh" resolve="json" />
                 </node>
-                <node concept="liA8E" id="2fx6VTSbgEJ" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~Feature.getSimpleName()" resolve="getSimpleName" />
+                <node concept="liA8E" id="4XRZmlyZ9SA" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~Feature.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -6965,8 +6965,8 @@
                 <node concept="37vLTw" id="2fx6VTSc3Pi" role="2Oq$k0">
                   <ref role="3cqZAo" node="2fx6VTRFqRb" resolve="json" />
                 </node>
-                <node concept="liA8E" id="2fx6VTSc3Pj" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~Feature.getSimpleName()" resolve="getSimpleName" />
+                <node concept="liA8E" id="4XRZmlyZh7z" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~Feature.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -7066,8 +7066,8 @@
                 <node concept="37vLTw" id="2fx6VTSd98x" role="2Oq$k0">
                   <ref role="3cqZAo" node="2fx6VTRFqSl" resolve="json" />
                 </node>
-                <node concept="liA8E" id="2fx6VTSd98y" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~MetamodelElement.getSimpleName()" resolve="getSimpleName" />
+                <node concept="liA8E" id="4XRZmlyZojD" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -7426,8 +7426,8 @@
                 <node concept="37vLTw" id="2fx6VTSiMZ7" role="2Oq$k0">
                   <ref role="3cqZAo" node="2fx6VTRFqUR" resolve="json" />
                 </node>
-                <node concept="liA8E" id="2fx6VTSiMZ8" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~MetamodelElement.getSimpleName()" resolve="getSimpleName" />
+                <node concept="liA8E" id="4XRZmlyZqdI" role="2OqNvi">
+                  <ref role="37wK5l" to="tozv:~MetamodelElement.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
