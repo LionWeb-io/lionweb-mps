@@ -914,110 +914,26 @@
         <property role="2RzRSo" value="LIonCore_M3" />
         <property role="TrG5h" value="LIonCore.M3" />
         <property role="3HH78N" value="1" />
-        <node concept="2RzPWn" id="5sACIIs$PgH" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="LIonCore_M3_NamespacedEntity" />
-          <property role="TrG5h" value="NamespacedEntity" />
-          <node concept="2RzOeU" id="5sACIIs$PgI" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_NamespacedEntity_simpleName" />
-            <property role="TrG5h" value="simpleName" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-          <node concept="2RzOeU" id="5sACIIs$PgJ" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_NamespacedEntity_qualifiedName" />
-            <property role="TrG5h" value="qualifiedName" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-        </node>
-        <node concept="2RzPaY" id="5sACIIs$PgK" role="2RzR6B">
-          <property role="2RzON1" value="LIonCore_M3_NamespaceProvider" />
-          <property role="TrG5h" value="NamespaceProvider" />
-          <node concept="2RzOeU" id="5sACIIs$PgL" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_NamespaceProvider_namespaceQualifier" />
-            <property role="TrG5h" value="namespaceQualifier" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_Metamodel" />
-          <property role="TrG5h" value="Metamodel" />
-          <node concept="2RzOeU" id="5sACIIs$PgN" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Metamodel_qualifiedName" />
-            <property role="TrG5h" value="qualifiedName" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-          <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Metamodel_elements" />
-            <property role="TrG5h" value="elements" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="MetamodelElement" />
-          </node>
-          <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Metamodel_dependsOn" />
-            <property role="TrG5h" value="dependsOn" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$PgM" resolve="Metamodel" />
-          </node>
-          <node concept="2RzQOr" id="5sACIIs$Phf" role="2RzQ4z">
-            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="LIonCore_M3_MetamodelElement" />
-          <property role="TrG5h" value="MetamodelElement" />
-          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="LIonCore_M3_FeaturesContainer" />
-          <property role="TrG5h" value="FeaturesContainer" />
-          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
-          <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_FeaturesContainer_features" />
-            <property role="TrG5h" value="features" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
-          </node>
-          <node concept="2RzOpR" id="5sACIIs$PgT" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_FeaturesContainer_allFeatures" />
-            <property role="TrG5h" value="allFeatures" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
-          </node>
-          <node concept="2RzQOr" id="5sACIIs$Phg" role="2RzQ4z">
-            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
-          </node>
-        </node>
         <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
           <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_Concept" />
+          <property role="2RzON1" value="Concept" />
           <property role="TrG5h" value="Concept" />
           <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
           <node concept="2RzOeU" id="5sACIIs$PgV" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Concept_abstract" />
+            <property role="2RzON1" value="abstract" />
             <property role="TrG5h" value="abstract" />
             <property role="2RzO1C" value="false" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
           <node concept="2RzOpR" id="5sACIIs$PgW" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Concept_extends" />
+            <property role="2RzON1" value="Concept_extends" />
             <property role="TrG5h" value="extends" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="false" />
             <ref role="2RzQvY" node="5sACIIs$PgU" resolve="Concept" />
           </node>
           <node concept="2RzOpR" id="5sACIIs$PgX" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Concept_implements" />
+            <property role="2RzON1" value="implements" />
             <property role="TrG5h" value="implements" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
@@ -1026,100 +942,38 @@
         </node>
         <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
           <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_ConceptInterface" />
+          <property role="2RzON1" value="ConceptInterface" />
           <property role="TrG5h" value="ConceptInterface" />
           <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
           <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_ConceptInterface_extends" />
+            <property role="2RzON1" value="ConceptInterface_extends" />
             <property role="TrG5h" value="extends" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="5sACIIs$PgY" resolve="ConceptInterface" />
           </node>
         </node>
-        <node concept="2RzPWn" id="5sACIIs$Ph0" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="LIonCore_M3_Feature" />
-          <property role="TrG5h" value="Feature" />
-          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
-          <node concept="2RzOeU" id="5sACIIs$Ph1" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Feature_optional" />
-            <property role="TrG5h" value="optional" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
-          <node concept="2RzOeU" id="5sACIIs$Ph2" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Feature_derived" />
-            <property role="TrG5h" value="derived" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$Ph3" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="LIonCore_M3_Link" />
-          <property role="TrG5h" value="Link" />
-          <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
-          <node concept="2RzOeU" id="5sACIIs$Ph4" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Link_multiple" />
-            <property role="TrG5h" value="multiple" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
-          <node concept="2RzOpR" id="5sACIIs$Ph5" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Link_type" />
-            <property role="TrG5h" value="type" />
-            <property role="2RzO1C" value="false" />
-            <property role="2RzOhW" value="false" />
-            <ref role="2RzQvY" node="5sACIIs$PgR" resolve="FeaturesContainer" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$Ph6" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_Reference" />
-          <property role="TrG5h" value="Reference" />
-          <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$Ph7" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_Property" />
-          <property role="TrG5h" value="Property" />
-          <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
-          <node concept="2RzOpR" id="5sACIIs$Ph8" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Property_type" />
-            <property role="TrG5h" value="type" />
-            <property role="2RzO1C" value="false" />
-            <property role="2RzOhW" value="false" />
-            <ref role="2RzQvY" node="5sACIIs$Ph9" resolve="DataType" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$Ph9" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="LIonCore_M3_DataType" />
-          <property role="TrG5h" value="DataType" />
-          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$Pha" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_PrimitiveType" />
-          <property role="TrG5h" value="PrimitiveType" />
-          <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
-        </node>
         <node concept="2RzPWn" id="5sACIIs$Phb" role="2RzR6B">
           <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_Containment" />
+          <property role="2RzON1" value="Containment" />
           <property role="TrG5h" value="Containment" />
           <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
         </node>
+        <node concept="2RzPWn" id="5sACIIs$Ph9" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="DataType" />
+          <property role="TrG5h" value="DataType" />
+          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
+        </node>
         <node concept="2RzPWn" id="5sACIIs$Phc" role="2RzR6B">
           <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_Enumeration" />
+          <property role="2RzON1" value="Enumeration" />
           <property role="TrG5h" value="Enumeration" />
           <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
           <node concept="2RzOte" id="5sACIIs$Phd" role="2RzPPN">
-            <property role="2RzON1" value="LIonCore_M3_Enumeration_literals" />
+            <property role="2RzON1" value="literals" />
             <property role="TrG5h" value="literals" />
-            <property role="2RzO1C" value="false" />
+            <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="5sACIIs$Phe" resolve="EnumerationLiteral" />
           </node>
@@ -1129,9 +983,167 @@
         </node>
         <node concept="2RzPWn" id="5sACIIs$Phe" role="2RzR6B">
           <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="LIonCore_M3_EnumerationLiteral" />
+          <property role="2RzON1" value="EnumerationLiteral" />
           <property role="TrG5h" value="EnumerationLiteral" />
           <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
+          <node concept="2RzQOr" id="19nRYgR_psZ" role="2RzQ4z">
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$Ph0" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="Feature" />
+          <property role="TrG5h" value="Feature" />
+          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
+          <node concept="2RzOeU" id="5sACIIs$Ph1" role="2RzPPN">
+            <property role="2RzON1" value="optional" />
+            <property role="TrG5h" value="optional" />
+            <property role="2RzO1C" value="false" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="2RzOeU" id="5sACIIs$Ph2" role="2RzPPN">
+            <property role="2RzON1" value="derived" />
+            <property role="TrG5h" value="derived" />
+            <property role="2RzO1C" value="false" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="2RzQOr" id="19nRYgR_ptZ" role="2RzQ4z">
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="FeaturesContainer" />
+          <property role="TrG5h" value="FeaturesContainer" />
+          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
+          <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
+            <property role="2RzON1" value="features" />
+            <property role="TrG5h" value="features" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
+          </node>
+          <node concept="2RzQOr" id="5sACIIs$Phg" role="2RzQ4z">
+            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
+          </node>
+        </node>
+        <node concept="2RzPaY" id="19nRYgR_pax" role="2RzR6B">
+          <property role="2RzON1" value="HasKey" />
+          <property role="TrG5h" value="HasKey" />
+          <node concept="2RzOeU" id="19nRYgR_pqW" role="2RzPPN">
+            <property role="2RzON1" value="key" />
+            <property role="TrG5h" value="key" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$Ph3" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="Link" />
+          <property role="TrG5h" value="Link" />
+          <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
+          <node concept="2RzOeU" id="5sACIIs$Ph4" role="2RzPPN">
+            <property role="2RzON1" value="multiple" />
+            <property role="TrG5h" value="multiple" />
+            <property role="2RzO1C" value="false" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="2RzOpR" id="5sACIIs$Ph5" role="2RzPPN">
+            <property role="2RzON1" value="Link_type" />
+            <property role="TrG5h" value="type" />
+            <property role="2RzO1C" value="false" />
+            <property role="2RzOhW" value="false" />
+            <ref role="2RzQvY" node="5sACIIs$PgR" resolve="FeaturesContainer" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="Metamodel" />
+          <property role="TrG5h" value="Metamodel" />
+          <node concept="2RzOeU" id="5sACIIs$PgN" role="2RzPPN">
+            <property role="2RzON1" value="Metamodel_name" />
+            <property role="TrG5h" value="name" />
+            <property role="2RzO1C" value="false" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzOeU" id="19nRYgR_HTb" role="2RzPPN">
+            <property role="2RzON1" value="version" />
+            <property role="TrG5h" value="version" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
+            <property role="2RzON1" value="dependsOn" />
+            <property role="TrG5h" value="dependsOn" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$PgM" resolve="Metamodel" />
+          </node>
+          <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
+            <property role="2RzON1" value="elements" />
+            <property role="TrG5h" value="elements" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="MetamodelElement" />
+          </node>
+          <node concept="2RzQOr" id="5sACIIs$Phf" role="2RzQ4z">
+            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
+          </node>
+          <node concept="2RzQOr" id="19nRYgR_prW" role="2RzQ4z">
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="MetamodelElement" />
+          <property role="TrG5h" value="MetamodelElement" />
+          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
+          <node concept="2RzQOr" id="19nRYgR_prZ" role="2RzQ4z">
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgH" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="NamespacedEntity" />
+          <property role="TrG5h" value="NamespacedEntity" />
+          <node concept="2RzOeU" id="5sACIIs$PgI" role="2RzPPN">
+            <property role="2RzON1" value="NamespacedEntity_name" />
+            <property role="TrG5h" value="name" />
+            <property role="2RzO1C" value="false" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzOeU" id="19nRYgR_Qx5" role="2RzPPN">
+            <property role="2RzON1" value="qualifiedName" />
+            <property role="TrG5h" value="qualifiedName" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+        </node>
+        <node concept="2RzPaY" id="5sACIIs$PgK" role="2RzR6B">
+          <property role="2RzON1" value="NamespaceProvider" />
+          <property role="TrG5h" value="NamespaceProvider" />
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$Pha" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="PrimitiveType" />
+          <property role="TrG5h" value="PrimitiveType" />
+          <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$Ph7" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="Property" />
+          <property role="TrG5h" value="Property" />
+          <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
+          <node concept="2RzOpR" id="5sACIIs$Ph8" role="2RzPPN">
+            <property role="2RzON1" value="Property_type" />
+            <property role="TrG5h" value="type" />
+            <property role="2RzO1C" value="false" />
+            <property role="2RzOhW" value="false" />
+            <ref role="2RzQvY" node="5sACIIs$Ph9" resolve="DataType" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$Ph6" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="Reference" />
+          <property role="TrG5h" value="Reference" />
+          <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
         </node>
         <node concept="3xLA65" id="5sACIIs_is2" role="lGtFl">
           <property role="TrG5h" value="expected" />
