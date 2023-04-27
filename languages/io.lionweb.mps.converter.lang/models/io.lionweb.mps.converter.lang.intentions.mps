@@ -233,9 +233,6 @@
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
-      <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
-        <child id="4611582986551314344" name="requestedType" index="UnYnz" />
-      </concept>
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -1116,11 +1113,11 @@
               <node concept="3cpWsn" id="5sACIIt25Bk" role="3cpWs9">
                 <property role="TrG5h" value="serializer" />
                 <node concept="3uibUv" id="5sACIIt25uv" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="Serializer" />
+                  <ref role="3uigEE" to="6peh:5s4Z0e0n9Xg" resolve="M2Serializer" />
                 </node>
                 <node concept="2ShNRf" id="5sACIIt25Bl" role="33vP2m">
                   <node concept="1pGfFk" id="5sACIIt25Bm" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:6VkSF6c$d0T" resolve="Serializer" />
+                    <ref role="37wK5l" to="6peh:5s4Z0e0nceW" resolve="M2Serializer" />
                     <node concept="37vLTw" id="6VkSF6c$M5F" role="37wK5m">
                       <ref role="3cqZAo" node="5sACIIt4yoq" resolve="fileWriter" />
                     </node>
@@ -1137,16 +1134,9 @@
                   <ref role="3cqZAo" node="5sACIIt25Bk" resolve="serializer" />
                 </node>
                 <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
-                  <ref role="37wK5l" to="6peh:6VkSF6c$iAh" resolve="serialize" />
-                  <node concept="2OqwBi" id="1lCmc_CaE11" role="37wK5m">
-                    <node concept="37vLTw" id="5sACIIt3ejH" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7qGUpN3CFOe" resolve="metamodels" />
-                    </node>
-                    <node concept="UnYns" id="1lCmc_CaF9Z" role="2OqNvi">
-                      <node concept="3uibUv" id="1lCmc_CaFBb" role="UnYnz">
-                        <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
-                      </node>
-                    </node>
+                  <ref role="37wK5l" to="6peh:5s4Z0e0n9Xi" resolve="serialize" />
+                  <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
+                    <ref role="3cqZAo" node="7qGUpN3CFOe" resolve="metamodels" />
                   </node>
                 </node>
               </node>
@@ -1401,7 +1391,7 @@
                 <property role="TrG5h" value="output" />
                 <node concept="A3Dl8" id="39$JcGF9RAa" role="1tU5fm">
                   <node concept="3uibUv" id="39$JcGF9RAd" role="A3Ik2">
-                    <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                    <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="39$JcGF9RE7" role="33vP2m">
@@ -1435,11 +1425,11 @@
               <node concept="3cpWsn" id="39$JcGF9wfI" role="3cpWs9">
                 <property role="TrG5h" value="serializer" />
                 <node concept="3uibUv" id="39$JcGF9wfJ" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="Serializer" />
+                  <ref role="3uigEE" to="6peh:5sACIIs_LbP" resolve="M1Serializer" />
                 </node>
                 <node concept="2ShNRf" id="39$JcGF9wfK" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGF9wfL" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:6VkSF6c$d0T" resolve="Serializer" />
+                    <ref role="37wK5l" to="6peh:5s4Z0e0nc6h" resolve="M1Serializer" />
                     <node concept="37vLTw" id="39$JcGF9wfM" role="37wK5m">
                       <ref role="3cqZAo" node="39$JcGF9wft" resolve="fileWriter" />
                     </node>

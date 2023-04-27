@@ -8,6 +8,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
@@ -194,6 +195,28 @@
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
+    </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
@@ -419,6 +442,38 @@
       </node>
       <node concept="2AHcQZ" id="51EPk3t0Exx" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3Kqiw5yAszP" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yAupP" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAupQ" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts the transitive closure of MPS " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAupR" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAupS" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAupT" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAupU" role="92FcQ">
+              <ref role="VXe09" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAupV" role="1dT_Ay">
+          <property role="1dT_AB" value="s to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAupW" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAupX" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAupY" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAupZ" role="92FcQ">
+              <ref role="VXe09" to="tozv:~Metamodel" resolve="Metamodel" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAuq0" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yAszQ" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAszR" role="1dT_Ay" />
       </node>
     </node>
   </node>
@@ -1859,22 +1914,12 @@
             <node concept="2ShNRf" id="5sACIIsGOsT" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIsGR8p" role="2ShVmc">
                 <ref role="37wK5l" to="tozv:~Metamodel.&lt;init&gt;(java.lang.String)" resolve="Metamodel" />
-                <node concept="2OqwBi" id="48csSBPQ1O4" role="37wK5m">
-                  <node concept="2OqwBi" id="48csSBPPOd6" role="2Oq$k0">
-                    <node concept="2OqwBi" id="48csSBPPOd7" role="2Oq$k0">
-                      <node concept="37vLTw" id="48csSBPPOd8" role="2Oq$k0">
-                        <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
-                      </node>
-                      <node concept="liA8E" id="48csSBPPOd9" role="2OqNvi">
-                        <ref role="37wK5l" to="c17a:~SLanguage.getSourceModuleReference()" resolve="getSourceModuleReference" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="48csSBPPOda" role="2OqNvi">
-                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
-                    </node>
+                <node concept="2OqwBi" id="48csSBPPOd7" role="37wK5m">
+                  <node concept="37vLTw" id="48csSBPPOd8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
                   </node>
-                  <node concept="liA8E" id="48csSBPQ4EE" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                  <node concept="liA8E" id="48csSBPPOd9" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SLanguage.getQualifiedName()" resolve="getQualifiedName" />
                   </node>
                 </node>
               </node>
@@ -4739,6 +4784,45 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="48csSBNRePS" role="1B3o_S" />
+    <node concept="3UR2Jj" id="3Kqiw5yAhqw" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yAhqx" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAhqy" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts MPS " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAmh$" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAmhE" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAmhG" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAmhN" role="92FcQ">
+              <ref role="VXe09" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAmhz" role="1dT_Ay">
+          <property role="1dT_AB" value="s to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAmHN" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAmHY" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAmI0" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAmI7" role="92FcQ">
+              <ref role="VXe09" to="tozv:~Metamodel" resolve="Metamodel" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAmHM" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yAndi" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAndj" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yAndy" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAsfp" role="1dT_Ay">
+          <property role="1dT_AB" value="The source of this converter are compiled languages inside MPS." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2fx6VTRFhMk">
     <property role="TrG5h" value="Json2LanguageConverter" />
@@ -7409,6 +7493,45 @@
     </node>
     <node concept="2tJIrI" id="2fx6VTRFqw3" role="jymVt" />
     <node concept="3Tm1VV" id="2fx6VTRFhMl" role="1B3o_S" />
+    <node concept="3UR2Jj" id="3Kqiw5yACG2" role="lGtFl">
+      <node concept="TZ5HA" id="3Kqiw5yACG3" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yACG4" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAJaT" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAJaZ" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAJb1" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAJb8" role="92FcQ">
+              <ref role="VXe09" to="tozv:~Metamodel" resolve="Metamodel" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAJaS" role="1dT_Ay">
+          <property role="1dT_AB" value="s to compiled " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAOSP" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAOT0" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAOT2" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAOT9" role="92FcQ">
+              <ref role="VXe09" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAOSO" role="1dT_Ay">
+          <property role="1dT_AB" value="s present in MPS." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yAOUo" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAOUp" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3Kqiw5yAOUC" role="TZ5H$">
+        <node concept="1dT_AC" id="3Kqiw5yAOUD" role="1dT_Ay">
+          <property role="1dT_AB" value="Fails if any part of the source language is not present in MPS." />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
