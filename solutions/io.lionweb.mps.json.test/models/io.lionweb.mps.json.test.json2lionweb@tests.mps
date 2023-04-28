@@ -14,18 +14,14 @@
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="t3jk" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model(org.lionweb.lioncore.java/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="c9jv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson.stream(org.lionweb.lioncore.java/)" />
-    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="9b9d" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization.data(org.lionweb.lioncore.java/)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="h2gc" ref="r:c9b5090c-7263-4642-b8f4-1265e3a15687(library.structure)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -79,6 +75,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -122,9 +119,11 @@
         <child id="8276990574895933173" name="catchBody" index="1zc67A" />
         <child id="8276990574895933172" name="throwable" index="1zc67B" />
       </concept>
+      <concept id="5351203823916832286" name="jetbrains.mps.baseLanguage.structure.ResourceVariable" flags="ng" index="3J1hQo" />
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+        <child id="5351203823916750334" name="resource" index="3J1_TS" />
       </concept>
     </language>
     <language id="537f9cb0-0f25-3c76-8b86-308f45010100" name="library">
@@ -533,13 +532,8 @@
                 <node concept="2ShNRf" id="5wsogBcv6eo" role="2Oq$k0">
                   <node concept="1pGfFk" id="5wsogBcv7nz" role="2ShVmc">
                     <ref role="37wK5l" to="643a:5wsogBcuZdW" resolve="ReaderAsserter" />
-                    <node concept="2ShNRf" id="5wsogBcv928" role="37wK5m">
-                      <node concept="1pGfFk" id="5wsogBcv929" role="2ShVmc">
-                        <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
-                        <node concept="37vLTw" id="5wsogBcv92a" role="37wK5m">
-                          <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="19nRYgRB1OB" role="37wK5m">
+                      <ref role="3cqZAo" node="19nRYgRB0FD" resolve="reader" />
                     </node>
                     <node concept="2ShNRf" id="5wsogBcv9mS" role="37wK5m">
                       <node concept="1pGfFk" id="5wsogBcv9mT" role="2ShVmc">
@@ -574,7 +568,22 @@
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="5wsogBcvg5c" role="1tU5fm">
                 <node concept="3uibUv" id="5wsogBcvg58" role="nSUat">
-                  <ref role="3uigEE" to="guwi:~FileNotFoundException" resolve="FileNotFoundException" />
+                  <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3J1hQo" id="19nRYgRB0FD" role="3J1_TS">
+            <property role="3TUv4t" value="true" />
+            <property role="TrG5h" value="reader" />
+            <node concept="3uibUv" id="19nRYgRB21M" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~FileReader" resolve="FileReader" />
+            </node>
+            <node concept="2ShNRf" id="19nRYgRB1O$" role="33vP2m">
+              <node concept="1pGfFk" id="19nRYgRB1O_" role="2ShVmc">
+                <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
+                <node concept="37vLTw" id="19nRYgRB1OA" role="37wK5m">
+                  <ref role="3cqZAo" node="5sACIIt1PlJ" resolve="file" />
                 </node>
               </node>
             </node>
