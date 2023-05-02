@@ -31,6 +31,7 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
+    <import index="58k5" ref="r:085d8b5e-61a2-49e9-a34e-565f4024917d(io.lionweb.mps.converter.m2.idmapper.declarationnode)" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" implicit="true" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" implicit="true" />
@@ -496,6 +497,37 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="1apSfP9MIg7" role="3cqZAp">
+          <node concept="3cpWsn" id="1apSfP9MIg8" role="3cpWs9">
+            <property role="TrG5h" value="installedLanguageLookup" />
+            <node concept="3uibUv" id="1apSfP9MIdZ" role="1tU5fm">
+              <ref role="3uigEE" to="dydc:3ePT3MiTARf" resolve="InstalledLanguageLookup" />
+            </node>
+            <node concept="2ShNRf" id="1apSfP9MIg9" role="33vP2m">
+              <node concept="1pGfFk" id="1apSfP9MIga" role="2ShVmc">
+                <ref role="37wK5l" to="dydc:59Df55lbkhY" resolve="InstalledLanguageLookup" />
+                <node concept="37vLTw" id="1apSfP9MIgb" role="37wK5m">
+                  <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
+                </node>
+                <node concept="2ShNRf" id="1apSfP9MIgc" role="37wK5m">
+                  <node concept="HV5vD" id="1apSfP9MIgd" role="2ShVmc">
+                    <ref role="HV5vE" to="dydc:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="1apSfP9MIge" role="37wK5m">
+                  <node concept="HV5vD" id="1apSfP9MIgf" role="2ShVmc">
+                    <ref role="HV5vE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="1apSfP9MIgg" role="37wK5m">
+                  <node concept="HV5vD" id="1apSfP9MIgh" role="2ShVmc">
+                    <ref role="HV5vE" to="58k5:6VkSF6b37gQ" resolve="DeclarationNodeLanguageIdMapper" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="DUXtH0vqGn" role="3cqZAp">
           <node concept="3cpWsn" id="DUXtH0vqGo" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -505,13 +537,8 @@
             <node concept="2ShNRf" id="DUXtH0vqGp" role="33vP2m">
               <node concept="1pGfFk" id="DUXtH0vqGq" role="2ShVmc">
                 <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
-                <node concept="2ShNRf" id="3diEf07pJAg" role="37wK5m">
-                  <node concept="1pGfFk" id="3diEf07pLrK" role="2ShVmc">
-                    <ref role="37wK5l" to="dydc:3ePT3MiTFY8" resolve="InstalledLanguageLookup" />
-                    <node concept="37vLTw" id="3diEf07pPhc" role="37wK5m">
-                      <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="1apSfP9MIgi" role="37wK5m">
+                  <ref role="3cqZAo" node="1apSfP9MIg8" resolve="installedLanguageLookup" />
                 </node>
                 <node concept="37vLTw" id="3diEf07pQjy" role="37wK5m">
                   <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
