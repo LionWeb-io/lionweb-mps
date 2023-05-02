@@ -24,6 +24,13 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -42,20 +49,28 @@
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -70,6 +85,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -89,6 +107,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
@@ -144,6 +163,105 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="1apSfP9KFMq" role="3cqZAp">
+          <node concept="3cpWsn" id="1apSfP9KFMt" role="3cpWs9">
+            <property role="TrG5h" value="failed" />
+            <node concept="10P_77" id="1apSfP9KFMo" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1apSfP9KEcS" role="3cqZAp">
+          <node concept="3clFbS" id="1apSfP9KEcU" role="3clFbx">
+            <node concept="3clFbF" id="1apSfP9KGhk" role="3cqZAp">
+              <node concept="37vLTI" id="1apSfP9KGAq" role="3clFbG">
+                <node concept="37vLTw" id="1apSfP9KGhi" role="37vLTJ">
+                  <ref role="3cqZAo" node="1apSfP9KFMt" resolve="failed" />
+                </node>
+                <node concept="22lmx$" id="39$JcGF9weH" role="37vLTx">
+                  <node concept="1eOMI4" id="39$JcGF9weI" role="3uHU7w">
+                    <node concept="2OqwBi" id="39$JcGF9weJ" role="1eOMHV">
+                      <node concept="37vLTw" id="39$JcGF9weK" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
+                      </node>
+                      <node concept="liA8E" id="39$JcGF9weL" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1eOMI4" id="39$JcGF9weM" role="3uHU7B">
+                    <node concept="1Wc70l" id="39$JcGF9weN" role="1eOMHV">
+                      <node concept="3fqX7Q" id="39$JcGF9weO" role="3uHU7w">
+                        <node concept="2OqwBi" id="39$JcGF9weP" role="3fr31v">
+                          <node concept="37vLTw" id="39$JcGF9weQ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
+                          </node>
+                          <node concept="liA8E" id="39$JcGF9weR" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~File.canWrite()" resolve="canWrite" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="39$JcGF9weS" role="3uHU7B">
+                        <node concept="37vLTw" id="39$JcGF9weT" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
+                        </node>
+                        <node concept="liA8E" id="39$JcGF9weU" role="2OqNvi">
+                          <ref role="37wK5l" to="guwi:~File.isFile()" resolve="isFile" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="1apSfP9KEn3" role="3clFbw">
+            <ref role="3cqZAo" node="1apSfP9KE5S" resolve="writable" />
+          </node>
+          <node concept="9aQIb" id="1apSfP9KGYa" role="9aQIa">
+            <node concept="3clFbS" id="1apSfP9KGYb" role="9aQI4">
+              <node concept="3clFbF" id="1apSfP9KH2Z" role="3cqZAp">
+                <node concept="37vLTI" id="1apSfP9KHph" role="3clFbG">
+                  <node concept="37vLTw" id="1apSfP9KH2Y" role="37vLTJ">
+                    <ref role="3cqZAo" node="1apSfP9KFMt" resolve="failed" />
+                  </node>
+                  <node concept="22lmx$" id="1apSfP9KHyf" role="37vLTx">
+                    <node concept="3fqX7Q" id="1apSfP9KHyg" role="3uHU7w">
+                      <node concept="2OqwBi" id="1apSfP9KHyh" role="3fr31v">
+                        <node concept="37vLTw" id="1apSfP9KHyi" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
+                        </node>
+                        <node concept="liA8E" id="1apSfP9KHyj" role="2OqNvi">
+                          <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="22lmx$" id="1apSfP9KHyk" role="3uHU7B">
+                      <node concept="3fqX7Q" id="1apSfP9KHyl" role="3uHU7B">
+                        <node concept="2OqwBi" id="1apSfP9KHym" role="3fr31v">
+                          <node concept="37vLTw" id="1apSfP9KHyn" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
+                          </node>
+                          <node concept="liA8E" id="1apSfP9KHyo" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~File.canRead()" resolve="canRead" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3fqX7Q" id="1apSfP9KHyp" role="3uHU7w">
+                        <node concept="2OqwBi" id="1apSfP9KHyq" role="3fr31v">
+                          <node concept="37vLTw" id="1apSfP9KHyr" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
+                          </node>
+                          <node concept="liA8E" id="1apSfP9KHys" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~File.isFile()" resolve="isFile" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="z1IqfFSGcA" role="3cqZAp">
           <node concept="3clFbS" id="z1IqfFSGcC" role="3clFbx">
             <node concept="2xdQw9" id="z1IqfFSJbs" role="3cqZAp">
@@ -161,39 +279,8 @@
               <node concept="10Nm6u" id="1apSfP9E$_P" role="3cqZAk" />
             </node>
           </node>
-          <node concept="22lmx$" id="z1IqfFSICa" role="3clFbw">
-            <node concept="3fqX7Q" id="z1IqfFSIFN" role="3uHU7w">
-              <node concept="2OqwBi" id="z1IqfFSIZL" role="3fr31v">
-                <node concept="37vLTw" id="z1IqfFSIGi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
-                </node>
-                <node concept="liA8E" id="z1IqfFSJ6v" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
-                </node>
-              </node>
-            </node>
-            <node concept="22lmx$" id="z1IqfFSHJ_" role="3uHU7B">
-              <node concept="3fqX7Q" id="z1IqfFSGm2" role="3uHU7B">
-                <node concept="2OqwBi" id="z1IqfFSGDH" role="3fr31v">
-                  <node concept="37vLTw" id="z1IqfFSGmx" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
-                  </node>
-                  <node concept="liA8E" id="z1IqfFSHg$" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.canRead()" resolve="canRead" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3fqX7Q" id="z1IqfFSHNa" role="3uHU7w">
-                <node concept="2OqwBi" id="z1IqfFSHQ3" role="3fr31v">
-                  <node concept="37vLTw" id="z1IqfFSHPd" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
-                  </node>
-                  <node concept="liA8E" id="z1IqfFSI9S" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~File.isFile()" resolve="isFile" />
-                  </node>
-                </node>
-              </node>
-            </node>
+          <node concept="37vLTw" id="1apSfP9KHJe" role="3clFbw">
+            <ref role="3cqZAo" node="1apSfP9KFMt" resolve="failed" />
           </node>
         </node>
         <node concept="3cpWs6" id="1apSfP9E$Gq" role="3cqZAp">
@@ -201,6 +288,10 @@
             <ref role="3cqZAo" node="1apSfP9Ext5" resolve="file" />
           </node>
         </node>
+      </node>
+      <node concept="37vLTG" id="1apSfP9KE5S" role="3clF46">
+        <property role="TrG5h" value="writable" />
+        <node concept="10P_77" id="1apSfP9KE5R" role="1tU5fm" />
       </node>
     </node>
     <node concept="13hLZK" id="4na9S9Ya_mA" role="13h7CW">
