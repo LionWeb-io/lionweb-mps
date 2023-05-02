@@ -469,9 +469,10 @@
       <node concept="3Tm1VV" id="39$JcGEIAYZ" role="1B3o_S" />
       <node concept="17QB3L" id="39$JcGEIAZ0" role="3clF45" />
       <node concept="3clFbS" id="39$JcGEIAZ1" role="3clF47">
-        <node concept="3clFbF" id="39$JcGEJnmX" role="3cqZAp">
-          <node concept="1rXfSq" id="39$JcGEJnmV" role="3clFbG">
-            <ref role="37wK5l" node="39$JcGEJ6R7" resolve="convertToMpsId" />
+        <node concept="3clFbF" id="3LWE6BD$l8L" role="3cqZAp">
+          <node concept="2YIFZM" id="3LWE6BD$n6T" role="3clFbG">
+            <ref role="37wK5l" to="apzt:39$JcGEMoSG" resolve="toMpsLanguage" />
+            <ref role="1Pybhc" to="apzt:39$JcGEMmRp" resolve="MpsCompatibleIdEncoder" />
             <node concept="2OqwBi" id="39$JcGEIAZ3" role="37wK5m">
               <node concept="37vLTw" id="39$JcGEIAZ4" role="2Oq$k0">
                 <ref role="3cqZAo" node="39$JcGEIAYX" resolve="language" />
