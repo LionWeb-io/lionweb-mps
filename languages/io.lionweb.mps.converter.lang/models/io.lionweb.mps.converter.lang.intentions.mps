@@ -1329,9 +1329,14 @@
                 <node concept="2ShNRf" id="1apSfP9EUOb" role="33vP2m">
                   <node concept="1pGfFk" id="1apSfP9EUOc" role="2ShVmc">
                     <ref role="37wK5l" to="pe0e:2q_M4yT3_Ol" resolve="MergingLionWeb2MpsConverter" />
-                    <node concept="2ShNRf" id="1apSfP9Fd38" role="37wK5m">
-                      <node concept="HV5vD" id="1apSfP9FelP" role="2ShVmc">
-                        <ref role="HV5vE" to="j5yh:5GtAzeJzX5t" resolve="JsonMpsCompatibleLanguageIdMapper" />
+                    <node concept="2ShNRf" id="9wS6Vcwj9o" role="37wK5m">
+                      <node concept="1pGfFk" id="9wS6VcwvpA" role="2ShVmc">
+                        <ref role="37wK5l" to="pe0e:9wS6VcuJV$" resolve="ConcatenatingMetaPointerLookup" />
+                        <node concept="2ShNRf" id="1apSfP9Fd38" role="37wK5m">
+                          <node concept="HV5vD" id="1apSfP9FelP" role="2ShVmc">
+                            <ref role="HV5vE" to="j5yh:5GtAzeJzX5t" resolve="JsonMpsCompatibleLanguageIdMapper" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                     <node concept="37vLTw" id="1apSfP9EUOf" role="37wK5m">

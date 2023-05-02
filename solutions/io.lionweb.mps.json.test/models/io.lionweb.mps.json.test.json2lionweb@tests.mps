@@ -783,9 +783,14 @@
             <node concept="2ShNRf" id="39$JcGEIub3" role="33vP2m">
               <node concept="1pGfFk" id="39$JcGEIub4" role="2ShVmc">
                 <ref role="37wK5l" to="pe0e:2fx6VTRFgWC" resolve="LionWeb2MpsConverter" />
-                <node concept="2ShNRf" id="5wsogBcrJ2A" role="37wK5m">
-                  <node concept="HV5vD" id="5wsogBcrOGx" role="2ShVmc">
-                    <ref role="HV5vE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+                <node concept="2ShNRf" id="9wS6VcwgfC" role="37wK5m">
+                  <node concept="1pGfFk" id="9wS6VcwgNh" role="2ShVmc">
+                    <ref role="37wK5l" to="pe0e:5wsogBcp_Fx" resolve="DirectMetaPointerLookup" />
+                    <node concept="2ShNRf" id="5wsogBcrJ2A" role="37wK5m">
+                      <node concept="HV5vD" id="5wsogBcrOGx" role="2ShVmc">
+                        <ref role="HV5vE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="37vLTw" id="5wsogBcrRgJ" role="37wK5m">
