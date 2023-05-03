@@ -49,10 +49,11 @@
       <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.IMetamodelReferenceContainer" flags="ng" index="2P3sN0">
         <child id="755186209566487256" name="metamodels" index="1a0gs3" />
       </concept>
-      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageFromLionCore" flags="ng" index="1a0hBo" />
-      <concept id="630989536496859751" name="io.lionweb.mps.converter.lang.structure.ImportLanguageFromJson" flags="ng" index="3z8Sf4">
-        <property id="630989536496861420" name="path" index="3z8Z_f" />
+      <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
+        <property id="5028875375328515031" name="path" index="VS7hl" />
       </concept>
+      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageFromLionCore" flags="ng" index="1a0hBo" />
+      <concept id="630989536496859751" name="io.lionweb.mps.converter.lang.structure.ImportLanguageFromJson" flags="ng" index="3z8Sf4" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -62,7 +63,7 @@
   </registry>
   <node concept="3z8Sf4" id="z1IqfFTojq">
     <property role="TrG5h" value="Import LIonCore" />
-    <property role="3z8Z_f" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
   </node>
   <node concept="2RzRRF" id="7pLZNi2wTGx">
     <property role="2RzRSo" value="LIonCore_M3" />
@@ -290,7 +291,7 @@
   </node>
   <node concept="3z8Sf4" id="5sACIIs$jqC">
     <property role="TrG5h" value="Import Library" />
-    <property role="3z8Z_f" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
   </node>
   <node concept="2RzRRF" id="5sACIIs$PgG">
     <property role="2RzRSo" value="LIonCore_M3" />

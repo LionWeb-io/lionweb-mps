@@ -24,6 +24,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -90,15 +91,7 @@
     <property role="TrG5h" value="ImportLanguageFromJson" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Import Language from JSON" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="z1IqfFSzOc" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyi" id="z1IqfFS$3G" role="1TKVEl">
-      <property role="IQ2nx" value="630989536496861420" />
-      <property role="TrG5h" value="path" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
+    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
   </node>
   <node concept="1TIwiD" id="48csSBOOT6J">
     <property role="EcuMT" value="4759305942578991535" />
@@ -118,17 +111,9 @@
     <property role="TrG5h" value="ExportLanguageToJson" />
     <property role="34LRSv" value="Export Language to JSON" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7qGUpN3Ci3p" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
     <node concept="PrWs8" id="7qGUpN3CiCo" role="PzmwI">
       <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
-    </node>
-    <node concept="1TJgyi" id="7qGUpN3Cigr" role="1TKVEl">
-      <property role="IQ2nx" value="8551466651976016923" />
-      <property role="TrG5h" value="path" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="PlHQZ" id="7qGUpN3Cils">
@@ -147,7 +132,7 @@
     <property role="TrG5h" value="ExportInstanceToJson" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Export Instance to JSON" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
     <node concept="1TJgyj" id="39$JcGF9mYy" role="1TKVEi">
       <property role="IQ2ns" value="3631234780355719074" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -155,18 +140,10 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="39$JcGF9n8k" resolve="NodeRef" />
     </node>
-    <node concept="1TJgyi" id="39$JcGF9m$w" role="1TKVEl">
-      <property role="IQ2nx" value="3631234780355717408" />
-      <property role="TrG5h" value="path" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="39$JcGFaigm" role="1TKVEl">
       <property role="IQ2nx" value="3631234780355961878" />
       <property role="TrG5h" value="scope" />
       <ref role="AX2Wp" node="39$JcGFainj" resolve="ExportScope" />
-    </node>
-    <node concept="PrWs8" id="39$JcGF9mvA" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="39$JcGF9n8k">
@@ -195,6 +172,27 @@
     <node concept="25R33" id="39$JcGFaino" role="25R1y">
       <property role="3tVfz5" value="3631234780355962328" />
       <property role="TrG5h" value="closure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4na9S9Ya_ff">
+    <property role="EcuMT" value="5028875375328515023" />
+    <property role="TrG5h" value="ImportInstanceFromJson" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Import Instance from JSON" />
+    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+  </node>
+  <node concept="1TIwiD" id="4na9S9Ya_fk">
+    <property role="EcuMT" value="5028875375328515028" />
+    <property role="TrG5h" value="APathConverter" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4na9S9Ya_fl" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="4na9S9Ya_fn" role="1TKVEl">
+      <property role="IQ2nx" value="5028875375328515031" />
+      <property role="TrG5h" value="path" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

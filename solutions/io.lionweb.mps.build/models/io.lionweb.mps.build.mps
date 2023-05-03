@@ -678,6 +678,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="3LWE6BDzx7x" role="3bR37C">
+          <node concept="3bR9La" id="3LWE6BDzx7y" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5wsogBcGDNb" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -740,6 +745,21 @@
         <node concept="1SiIV0" id="5wsogBcGDNv" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDNw" role="1SiIV1">
             <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3LWE6BDzx7F" role="3bR37C">
+          <node concept="3bR9La" id="3LWE6BDzx7G" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3LWE6BDzx7H" role="3bR37C">
+          <node concept="3bR9La" id="3LWE6BDzx7I" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3LWE6BDzx7J" role="3bR37C">
+          <node concept="3bR9La" id="3LWE6BDzx7K" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
           </node>
         </node>
       </node>
