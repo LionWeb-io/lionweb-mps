@@ -24,3 +24,30 @@
 * `io.lionweb.mps.converter.lang` and its runtime `io.lionweb.mps.converter.lang.runtime` make it easier to use and test all aforementioned converters
 * `io.lionweb.mps.m3.selfdescription` is a playground
 * The remaining languages are used inside the tests.
+
+## Build
+
+It is suggested to use JDK 11. Later JDKs could cause errors.
+
+## Publishing
+
+Run:
+
+`./gradlew publish`
+
+To publish to either Sonatype (for snapshot versions, i.e., versions ending with `-SNAPSHOT`) or to Maven Central.
+For doing that you need to configure your sonatype credentials in ~/.gradle/gradle.properties:
+
+```
+ossrhUsername=<username>
+ossrhPassword=<password>
+```
+
+In order to be able to publish you need to register on sonatype and then asked to be added to the list of users 
+authorized to publish under io.lionweb.
+
+Alternatively one can use Maven Local while testing:
+
+```
+`./gradlew publishToMavenLocal`
+```
