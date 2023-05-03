@@ -24,3 +24,7 @@
 * `io.lionweb.mps.converter.lang` and its runtime `io.lionweb.mps.converter.lang.runtime` make it easier to use and test all aforementioned converters
 * `io.lionweb.mps.m3.selfdescription` is a playground
 * The remaining languages are used inside the tests.
+
+## Build
+
+It is suggested to use JDK 11. Later JDKs could cause errors.

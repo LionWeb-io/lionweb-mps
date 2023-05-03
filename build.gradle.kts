@@ -18,7 +18,7 @@ dependencies {
 }
 
 group = "io.lionweb"
-version = "0.0.1"
+version = "0.0.1-SNAPSHOT"
 
 publishing {
     publications {
