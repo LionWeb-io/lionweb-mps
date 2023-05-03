@@ -20,13 +20,74 @@ dependencies {
 group = "io.lionweb"
 version = "0.0.1-SNAPSHOT"
 
+
+task<Jar>("sourcesJar") {
+    archiveClassifier.set("sources")
+}
+
+task<Jar>("javadocJar") {
+    archiveClassifier.set("javadoc")
+}
+
 publishing {
+
+    repositories {
+        maven {
+            val releaseRepo = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
+            val snapshotRepo = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+            val isReleaseVersion = !(version as String).endsWith("-SNAPSHOT")
+            url = java.net.URI(if (isReleaseVersion) releaseRepo else snapshotRepo)
+            println("isReleaseVersion $isReleaseVersion")
+            println("publishing to $url")
+            credentials {
+                username = project.findProperty("ossrhUsername") as? String ?: throw RuntimeException("Specify osshrUsername to publish to Maven Central")
+                password = project.findProperty("ossrhPassword") as? String ?: throw RuntimeException("Specify osshrPassword to publish to Maven Central")
+            }
+        }
+    }
+
     publications {
         register<MavenPublication>("mpsPlugin") {
             from(components["mps"])
-
+            groupId = "io.lionweb.lioncore-mps"
+            artifact(tasks.getByName("sourcesJar"))
+            artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
             // versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
+
+            println("VERSION ${project.version}")
+
+            pom {
+                name.set("lioncore-mps")
+                description.set("MPS APIs for the LIonWeb system")
+                version = project.version as String
+                packaging = "zip"
+                url.set("https://github.com/LIonWeb-org/lioncore-mps")
+
+                scm {
+                    connection.set("scm:git:https://github.com/LIonWeb-org/lioncore-mps.git")
+                    developerConnection.set("scm:git:git@github.com:LIonWeb-org/lioncore-mps.git")
+                    url.set("https://github.com/LIonWeb-org/lioncore-mps.git")
+                }
+
+                licenses {
+                    license {
+                        name.set("Apache Licenve V2.0")
+                        url.set("https://www.apache.org/licenses/LICENSE-2.0")
+                        distribution.set("repo")
+                    }
+                }
+
+                // The developers entry is strictly required by Maven Central
+                developers {
+                    developer {
+                        id.set("enikao")
+                        name.set("Niko Stotz")
+                        email.set("niko.stotz@nikostotz.de")
+                    }
+                }
+
+            }
         }
     }
     repositories {
