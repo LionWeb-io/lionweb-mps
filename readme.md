@@ -45,3 +45,9 @@ ossrhPassword=<password>
 
 In order to be able to publish you need to register on sonatype and then asked to be added to the list of users 
 authorized to publish under io.lionweb.
+
+Alternatively one can use Maven Local while testing:
+
+```
+`./gradlew publishToMavenLocal`
+```
