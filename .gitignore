@@ -25,4 +25,5 @@ junit*.properties
 artifacts
 .gradle/
 build/
-.mps-caches/
+.mps-caches
+.vscode
