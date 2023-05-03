@@ -27,3 +27,4 @@ artifacts
 build/
 .mps-caches
 .vscode
+.idea
