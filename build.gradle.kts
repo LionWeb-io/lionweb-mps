@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.10")
+    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.12")
 }
 
 group = "io.lionweb"
@@ -40,8 +40,8 @@ publishing {
             println("isReleaseVersion $isReleaseVersion")
             println("publishing to $url")
             credentials {
-                username = project.findProperty("ossrhUsername") as? String ?: throw RuntimeException("Specify osshrUsername to publish to Maven Central")
-                password = project.findProperty("ossrhPassword") as? String ?: throw RuntimeException("Specify osshrPassword to publish to Maven Central")
+                username = project.findProperty("ossrhUsername") as String?
+                password = project.findProperty("ossrhPassword") as String?
             }
         }
     }
