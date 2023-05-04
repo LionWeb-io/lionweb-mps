@@ -356,6 +356,66 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="6fYiNFaW8NT" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="io.lionweb.mps.structure.attribute" />
+        <property role="3LESm3" value="411e5b27-8a76-482e-8af8-1704262b4468" />
+        <node concept="398BVA" id="6fYiNFaW8OF" role="3LF7KH">
+          <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
+          <node concept="2Ry0Ak" id="6fYiNFaW8PH" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="6fYiNFaW8Qq" role="2Ry0An">
+              <property role="2Ry0Am" value="io.lionweb.mps.structure.attribute" />
+              <node concept="2Ry0Ak" id="6fYiNFaW8R7" role="2Ry0An">
+                <property role="2Ry0Am" value="io.lionweb.mps.structure.attribute.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fYiNFaW8R_" role="3bR37C">
+          <node concept="3bR9La" id="6fYiNFaW8RA" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="6fYiNFaW8RJ" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="6fYiNFaW8RK" role="1HemKq">
+            <node concept="398BVA" id="6fYiNFaW8RB" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
+              <node concept="2Ry0Ak" id="6fYiNFaW8RC" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="6fYiNFaW8RD" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.structure.attribute" />
+                  <node concept="2Ry0Ak" id="6fYiNFaW8RE" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="6fYiNFaW8RL" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6fYiNFaW8Te" role="3bR31x">
+          <node concept="3LXTmp" id="6fYiNFaW8Tf" role="3rtmxm">
+            <node concept="398BVA" id="6fYiNFaW8Tg" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
+              <node concept="2Ry0Ak" id="6fYiNFaW8Th" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="6fYiNFaW8Ti" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.structure.attribute" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="6fYiNFaW8Tk" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="5wsogBcGDLj" role="3989C9">
       <property role="TrG5h" value="lionweb-mps.converter" />
@@ -430,6 +490,16 @@
             <node concept="3qWCbU" id="5wsogBcGDLH" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fYiNFaW8LJ" role="3bR37C">
+          <node concept="3bR9La" id="6fYiNFaW8LK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fYiNFaW8Uz" role="3bR37C">
+          <node concept="3bR9La" id="6fYiNFaW8U$" role="1SiIV1">
+            <ref role="3bR37D" node="6fYiNFaW8NT" resolve="io.lionweb.mps.structure.attribute" />
           </node>
         </node>
       </node>
