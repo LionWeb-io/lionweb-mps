@@ -3123,9 +3123,6 @@
               <property role="TrG5h" value="primitive" />
             </node>
           </node>
-          <node concept="2RzRkq" id="2fx6VTT92I8" role="2RzRcN">
-            <ref role="2RzRkr" node="2fx6VTT92GX" resolve="jetbrains.mps.lang.core" />
-          </node>
           <node concept="3xLA65" id="2fx6VTT95k7" role="lGtFl">
             <property role="TrG5h" value="expectedTestLang" />
           </node>
@@ -4362,9 +4359,6 @@
               <property role="TrG5h" value="TestLiteral3" />
               <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
             </node>
-          </node>
-          <node concept="2RzRkq" id="2fx6VTT9uuL" role="2RzRcN">
-            <ref role="2RzRkr" node="2fx6VTT9uuN" resolve="jetbrains.mps.lang.core" />
           </node>
           <node concept="3xLA65" id="2fx6VTT9uuM" role="lGtFl">
             <property role="TrG5h" value="expectedTestLang" />

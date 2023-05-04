@@ -102,6 +102,7 @@
     <node concept="2RzPWn" id="DUXtH0VBIG" role="2RzR6B">
       <property role="2RzON1" value="9158c221-8668-4d5d-9db5-c99f081bb65f" />
       <property role="TrG5h" value="Hello" />
+      <ref role="2RzPfO" node="2qVVyx12AT0" resolve="Bla" />
       <node concept="2RzOeU" id="DUXtH19m4Z" role="2RzPPN">
         <property role="2RzON1" value="e616eb7e-5f8e-47bf-96c2-941257eab492" />
         <property role="TrG5h" value="text" />
@@ -152,11 +153,17 @@
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
+    <node concept="2RzRkq" id="2qVVyx12AT3" role="2RzRcN">
+      <ref role="2RzRkr" node="2qVVyx12ASX" resolve="DependingLang" />
+    </node>
   </node>
   <node concept="1a0hBo" id="DUXtH0VBII">
     <property role="TrG5h" value="Convert Test123" />
     <node concept="2RzRkq" id="DUXtH0VBZt" role="1a0gs3">
       <ref role="2RzRkr" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
+    </node>
+    <node concept="2RzRkq" id="2qVVyx133G9" role="1a0gs3">
+      <ref role="2RzRkr" node="2qVVyx12ASX" resolve="DependingLang" />
     </node>
   </node>
   <node concept="qeN9c" id="2fx6VTT1ItG">
@@ -2180,6 +2187,15 @@
     <node concept="2RzSJf" id="2chztJeOtBY" role="2RzR6B">
       <property role="2RzON1" value="LIonCore_M3_Boolean" />
       <property role="TrG5h" value="Boolean" />
+    </node>
+  </node>
+  <node concept="2RzRRF" id="2qVVyx12ASX">
+    <property role="2RzRSo" value="063e44a6-f2f8-4e6e-8ca0-b31c22830ebc" />
+    <property role="TrG5h" value="DependingLang" />
+    <property role="3HH78N" value="1" />
+    <node concept="2RzPWn" id="2qVVyx12AT0" role="2RzR6B">
+      <property role="2RzON1" value="4333b9ed-904b-4957-bf2c-216d157905e7" />
+      <property role="TrG5h" value="Bla" />
     </node>
   </node>
 </model>

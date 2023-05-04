@@ -1,6 +1,11 @@
 {
   "serializationFormatVersion": "1",
-  "metamodels": [],
+  "metamodels": [
+    {
+      "version": "1",
+      "key": "LIonCore_M3"
+    }
+  ],
   "nodes": [
     {
       "id": "txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow",
