@@ -304,11 +304,11 @@
           <node concept="3cpWsn" id="3LWE6BDyInl" role="3cpWs9">
             <property role="TrG5h" value="converter" />
             <node concept="3uibUv" id="3LWE6BDyIk5" role="1tU5fm">
-              <ref role="3uigEE" to="gkni:3LWE6BDxKHt" resolve="LanguageFromLionCoreConverter" />
+              <ref role="3uigEE" to="gkni:3LWE6BDxKHt" resolve="FromLionCore" />
             </node>
             <node concept="2ShNRf" id="3LWE6BDyInm" role="33vP2m">
               <node concept="1pGfFk" id="3LWE6BDyInn" role="2ShVmc">
-                <ref role="37wK5l" to="gkni:3LWE6BDxL$1" resolve="LanguageFromLionCoreConverter" />
+                <ref role="37wK5l" to="gkni:3LWE6BDxL$1" resolve="FromLionCore" />
                 <node concept="2OqwBi" id="3LWE6BDyIno" role="37wK5m">
                   <node concept="2JrnkZ" id="3LWE6BDyInp" role="2Oq$k0">
                     <node concept="2OqwBi" id="3LWE6BDyInq" role="2JrQYb">
@@ -1007,11 +1007,22 @@
                 </node>
                 <node concept="2ShNRf" id="39$JcGF9MRz" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGF9MR$" role="2ShVmc">
-                    <ref role="37wK5l" to="faaz:2fx6VTSN_nk" resolve="SLanguageBase64IdMapper" />
+                    <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
                     <node concept="2YIFZM" id="5wsogBcwyAf" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
                       <ref role="1Pybhc" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
                       <node concept="2Sf5sV" id="5wsogBcx35U" role="37wK5m" />
+                    </node>
+                    <node concept="2OqwBi" id="6fYiNFaRq_V" role="37wK5m">
+                      <node concept="liA8E" id="6fYiNFaRqSy" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                      </node>
+                      <node concept="2JrnkZ" id="6fYiNFaRqA4" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6fYiNFaRpLm" role="2JrQYb">
+                          <node concept="2Sf5sV" id="6fYiNFaRpn6" role="2Oq$k0" />
+                          <node concept="I4A8Y" id="6fYiNFaRq6h" role="2OqNvi" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

@@ -4,6 +4,7 @@
   <languages>
     <use id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3" version="0" />
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="4d2616f8-36ac-305a-b609-88a097f24d95" name="a.b.c.Test123" version="1" />
   </languages>
   <imports>
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
@@ -55,13 +56,31 @@
       <concept id="2656571587264873619" name="io.lionweb.mps.m3.structure.EnumerationLiteral" flags="ng" index="2RzSPr" />
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
+      <concept id="3631234780355719700" name="io.lionweb.mps.converter.lang.structure.NodeRef" flags="ng" index="pgsVv">
+        <reference id="3631234780355720143" name="target" index="pgsW4" />
+      </concept>
+      <concept id="3631234780355716573" name="io.lionweb.mps.converter.lang.structure.ExportInstanceToJson" flags="ng" index="pgt$m">
+        <property id="3631234780355961878" name="scope" index="pjpzt" />
+        <child id="3631234780355719074" name="instances" index="pgtdD" />
+      </concept>
       <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageToLionCore" flags="ng" index="qeN9c">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
       <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.IMetamodelReferenceContainer" flags="ng" index="2P3sN0">
         <child id="755186209566487256" name="metamodels" index="1a0gs3" />
       </concept>
+      <concept id="8551466651976015093" name="io.lionweb.mps.converter.lang.structure.ExportLanguageToJson" flags="ng" index="2P3vlD" />
+      <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
+        <property id="5028875375328515031" name="path" index="VS7hl" />
+      </concept>
       <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageFromLionCore" flags="ng" index="1a0hBo" />
+    </language>
+    <language id="4d2616f8-36ac-305a-b609-88a097f24d95" name="a.b.c.Test123">
+      <concept id="227214817229623750" name="a.b.c.Test123.structure.Person" flags="ng" index="ByAHE" />
+      <concept id="3380248407825777395" name="a.b.c.Test123.structure.Hello" flags="ng" index="2JS0NR">
+        <property id="-7118922665128056379" name="text" index="1sD2x8" />
+        <child id="3564149123177487111" name="greetings" index="1sXvQT" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -96,35 +115,35 @@
     </node>
   </node>
   <node concept="2RzRRF" id="DUXtH0VBtX">
-    <property role="2RzRSo" value="835e5207-6613-439f-a8ea-d1b98a89a27c" />
+    <property role="2RzRSo" value="a-b-c-Test123" />
     <property role="TrG5h" value="a.b.c.Test123" />
     <property role="3HH78N" value="1" />
     <node concept="2RzPWn" id="DUXtH0VBIG" role="2RzR6B">
-      <property role="2RzON1" value="9158c221-8668-4d5d-9db5-c99f081bb65f" />
+      <property role="2RzON1" value="Hello123" />
       <property role="TrG5h" value="Hello" />
       <ref role="2RzPfO" node="2qVVyx12AT0" resolve="Bla" />
       <node concept="2RzOeU" id="DUXtH19m4Z" role="2RzPPN">
-        <property role="2RzON1" value="e616eb7e-5f8e-47bf-96c2-941257eab492" />
+        <property role="2RzON1" value="text123" />
         <property role="TrG5h" value="text" />
         <property role="2RzO1C" value="true" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="DUXtH19m54" role="2RzPPN">
-        <property role="2RzON1" value="4a47a0a3-0860-4e1f-ab6c-b71f76c526ea" />
+        <property role="2RzON1" value="greetings123" />
         <property role="TrG5h" value="greetings" />
         <property role="2RzOhW" value="true" />
         <ref role="2RzQvY" node="DUXtH19m67" resolve="Person" />
       </node>
     </node>
     <node concept="2RzPaY" id="DUXtH19m5d" role="2RzR6B">
-      <property role="2RzON1" value="521bd988-cf78-4e77-89bc-a311027c8c7e" />
+      <property role="2RzON1" value="IGreeting123" />
       <property role="TrG5h" value="IGreeting" />
     </node>
     <node concept="2RzPWn" id="DUXtH19m5p" role="2RzR6B">
-      <property role="2RzON1" value="d63c1e98-ccef-4c8f-a29f-25c1f8d61b46" />
+      <property role="2RzON1" value="SimpleGreeting123" />
       <property role="TrG5h" value="SimpleGreeting" />
       <node concept="2RzOeU" id="DUXtH19m5$" role="2RzPPN">
-        <property role="2RzON1" value="70eac515-bf22-4b2e-a145-28764ff9572a" />
+        <property role="2RzON1" value="name123" />
         <property role="TrG5h" value="name" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
@@ -133,22 +152,22 @@
       </node>
     </node>
     <node concept="2RzPWn" id="DUXtH19m5K" role="2RzR6B">
-      <property role="2RzON1" value="2a0344df-b26e-4c88-a7bb-66f5f33790e0" />
+      <property role="2RzON1" value="PersonGreeting123" />
       <property role="TrG5h" value="PersonGreeting" />
       <node concept="2RzQOr" id="DUXtH19m5U" role="2RzQ4z">
         <ref role="2RzQOs" node="DUXtH19m5d" resolve="IGreeting" />
       </node>
       <node concept="2RzOpR" id="DUXtH19m6l" role="2RzPPN">
-        <property role="2RzON1" value="51f2dad9-21b5-46f5-80ea-ee2afeadb9ff" />
+        <property role="2RzON1" value="person123" />
         <property role="TrG5h" value="person" />
         <ref role="2RzQvY" node="DUXtH19m67" resolve="Person" />
       </node>
     </node>
     <node concept="2RzPWn" id="DUXtH19m67" role="2RzR6B">
-      <property role="2RzON1" value="8dfad1ac-f3f9-4a05-8c6f-5fc25c687efe" />
+      <property role="2RzON1" value="Person123" />
       <property role="TrG5h" value="Person" />
       <node concept="2RzOeU" id="DUXtH19m6j" role="2RzPPN">
-        <property role="2RzON1" value="86bb0ca3-cec7-466c-ab72-13a194db688c" />
+        <property role="2RzON1" value="bla123" />
         <property role="TrG5h" value="bla" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
@@ -2196,6 +2215,28 @@
     <node concept="2RzPWn" id="2qVVyx12AT0" role="2RzR6B">
       <property role="2RzON1" value="4333b9ed-904b-4957-bf2c-216d157905e7" />
       <property role="TrG5h" value="Bla" />
+    </node>
+  </node>
+  <node concept="2P3vlD" id="6fYiNFaW4cY">
+    <property role="TrG5h" value="Export Test123 to JSON" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/Test123-metamodel.json" />
+    <node concept="2RzRkq" id="6fYiNFaW4et" role="1a0gs3">
+      <ref role="2RzRkr" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
+    </node>
+    <node concept="2RzRkq" id="6fYiNFaW4ev" role="1a0gs3">
+      <ref role="2RzRkr" node="2qVVyx12ASX" resolve="DependingLang" />
+    </node>
+  </node>
+  <node concept="2JS0NR" id="6fYiNFaW6wI">
+    <property role="1sD2x8" value="Bla Bla Blubb" />
+    <node concept="ByAHE" id="6fYiNFaW6wJ" role="1sXvQT" />
+  </node>
+  <node concept="pgt$m" id="6fYiNFaW6$i">
+    <property role="TrG5h" value="Export Test123 instance to JSON" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/Test123-instance.json" />
+    <property role="pjpzt" value="39$JcGFaino/closure" />
+    <node concept="pgsVv" id="6fYiNFaW6$l" role="pgtdD">
+      <ref role="pgsW4" node="6fYiNFaW6wI" />
     </node>
   </node>
 </model>

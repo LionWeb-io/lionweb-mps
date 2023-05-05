@@ -20,6 +20,7 @@
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
@@ -523,6 +524,9 @@
               <node concept="37vLTw" id="6VkSF6c1odb" role="37wK5m">
                 <ref role="3cqZAo" node="48csSBNSpzW" resolve="constants" />
               </node>
+              <node concept="37vLTw" id="6fYiNFaMVan" role="37wK5m">
+                <ref role="3cqZAo" node="6fYiNFaMQc4" resolve="repository" />
+              </node>
             </node>
           </node>
           <node concept="37vLTw" id="6VkSF6c1pi5" role="37wK5m">
@@ -535,6 +539,12 @@
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="48csSBNSpzX" role="1tU5fm">
           <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6fYiNFaMQc4" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="6fYiNFaMQCl" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
         </node>
       </node>
     </node>

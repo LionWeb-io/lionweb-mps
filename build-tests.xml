@@ -447,6 +447,7 @@
       <library file="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.json/io.lionweb.mps.json.jar" />
       <library file="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java.jar" />
       <library file="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.m3/io.lionweb.mps.m3.jar" />
+      <library file="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.m3/io.lionweb.mps.structure.attribute.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/collections.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -471,6 +472,7 @@
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.constraints.rules.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.constraints.rulesAndMessages.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.structure.jar" />
+      <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.typesystem.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.general-purpose.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.language-descriptor.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editor.runtime.jar" />
@@ -612,6 +614,7 @@
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.constraints.rules.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.constraints.rulesAndMessages.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.structure.jar" />
+      <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.typesystem.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.general-purpose.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.language-descriptor.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editor.runtime.jar" />
@@ -1010,6 +1013,7 @@
       <pathelement location="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.json/io.lionweb.mps.json.jar" />
       <pathelement location="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java.jar" />
       <pathelement location="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.m3/io.lionweb.mps.m3.jar" />
+      <pathelement location="${artifacts.io.lionweb.mps}/io.lionweb.mps/languages/lionweb-mps.m3/io.lionweb.mps.structure.attribute.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/collections.runtime.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
@@ -1034,6 +1038,7 @@
       <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.constraints.rules.jar" />
       <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.constraints.rulesAndMessages.jar" />
       <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.structure.jar" />
+      <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.typesystem.jar" />
       <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.general-purpose.jar" />
       <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.language-descriptor.jar" />
       <pathelement location="${artifacts.mps}/languages/editor/jetbrains.mps.editor.runtime.jar" />

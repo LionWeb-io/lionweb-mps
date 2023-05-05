@@ -18,7 +18,7 @@ dependencies {
 }
 
 group = "io.lionweb"
-version = "0.0.2-SNAPSHOT"
+version = "0.0.3-SNAPSHOT"
 
 
 task<Jar>("sourcesJar") {
