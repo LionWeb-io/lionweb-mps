@@ -618,9 +618,17 @@
                       <ref role="37wK5l" to="lai5:6VkSF6aF169" resolve="ClosureMps2LionWebConverter" />
                       <node concept="2ShNRf" id="6VkSF6cxU6A" role="37wK5m">
                         <node concept="1pGfFk" id="6VkSF6cxU6B" role="2ShVmc">
-                          <ref role="37wK5l" to="faaz:2fx6VTSN_nk" resolve="SLanguageBase64IdMapper" />
+                          <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
                           <node concept="37vLTw" id="6VkSF6cxU6C" role="37wK5m">
                             <ref role="3cqZAo" node="6VkSF6cxRfg" resolve="constants" />
+                          </node>
+                          <node concept="2OqwBi" id="7ltvcPUhfOw" role="37wK5m">
+                            <node concept="37vLTw" id="7ltvcPUhfy_" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2q_M4ySHuAq" resolve="model" />
+                            </node>
+                            <node concept="liA8E" id="7ltvcPUhgvN" role="2OqNvi">
+                              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -766,9 +774,17 @@
                       <ref role="37wK5l" to="5els:6VkSF6cslnE" resolve="IndirectLanguage2JsonConverter" />
                       <node concept="2ShNRf" id="5s4Z0e0syGI" role="37wK5m">
                         <node concept="1pGfFk" id="5s4Z0e0syGJ" role="2ShVmc">
-                          <ref role="37wK5l" to="faaz:2fx6VTSN_nk" resolve="SLanguageBase64IdMapper" />
+                          <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
                           <node concept="37vLTw" id="5s4Z0e0syGK" role="37wK5m">
                             <ref role="3cqZAo" node="5s4Z0e0syG$" resolve="constants" />
+                          </node>
+                          <node concept="2OqwBi" id="7ltvcPUhgVW" role="37wK5m">
+                            <node concept="37vLTw" id="7ltvcPUhgVX" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2q_M4ySHuAq" resolve="model" />
+                            </node>
+                            <node concept="liA8E" id="7ltvcPUhgVY" role="2OqNvi">
+                              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                            </node>
                           </node>
                         </node>
                       </node>
