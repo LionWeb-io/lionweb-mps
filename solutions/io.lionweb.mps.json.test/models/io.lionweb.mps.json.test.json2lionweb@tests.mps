@@ -16,12 +16,12 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="9b9d" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization.data(org.lionweb.lioncore.java/)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="h2gc" ref="r:c9b5090c-7263-4642-b8f4-1265e3a15687(library.structure)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -327,7 +327,7 @@
             <property role="TrG5h" value="nodes" />
             <node concept="_YKpA" id="6VkSF6cxYO1" role="1tU5fm">
               <node concept="3uibUv" id="6VkSF6cxYO3" role="_ZDj9">
-                <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+                <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
               </node>
             </node>
             <node concept="2OqwBi" id="6VkSF6cxXuy" role="33vP2m">
@@ -763,7 +763,7 @@
             <property role="TrG5h" value="serializedNodes" />
             <node concept="_YKpA" id="2A0cGJdREog" role="1tU5fm">
               <node concept="3uibUv" id="2A0cGJdREoj" role="_ZDj9">
-                <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+                <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
               </node>
             </node>
             <node concept="2OqwBi" id="2A0cGJdREpC" role="33vP2m">
@@ -803,6 +803,19 @@
                     <node concept="2ShNRf" id="5wsogBcrJ2A" role="37wK5m">
                       <node concept="HV5vD" id="5wsogBcrOGx" role="2ShVmc">
                         <ref role="HV5vE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1bT$FEXjb4X" role="37wK5m">
+                      <node concept="2JrnkZ" id="1bT$FEXjaRp" role="2Oq$k0">
+                        <node concept="2OqwBi" id="1bT$FEXj9OI" role="2JrQYb">
+                          <node concept="3xONca" id="1bT$FEXj97R" role="2Oq$k0">
+                            <ref role="3xOPvv" node="5wsogBcup$e" resolve="container" />
+                          </node>
+                          <node concept="I4A8Y" id="1bT$FEXja35" role="2OqNvi" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1bT$FEXjbmL" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
                       </node>
                     </node>
                   </node>
