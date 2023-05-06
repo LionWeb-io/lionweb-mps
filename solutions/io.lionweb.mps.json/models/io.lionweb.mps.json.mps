@@ -9,15 +9,15 @@
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="wy2b" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson(org.lionweb.lioncore.java/)" />
-    <import index="g8af" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization(org.lionweb.lioncore.java/)" />
-    <import index="t3jk" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model(org.lionweb.lioncore.java/)" />
-    <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
-    <import index="c9jv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson.stream(org.lionweb.lioncore.java/)" />
+    <import index="wy2b" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson(io.lionweb.lioncore.java/)" />
+    <import index="c9jv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson.stream(io.lionweb.lioncore.java/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
-    <import index="9b9d" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization.data(org.lionweb.lioncore.java/)" />
+    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
+    <import index="jxh5" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization(io.lionweb.lioncore.java/)" />
+    <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="sp3y" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model.impl(org.lionweb.lioncore.java/)" implicit="true" />
+    <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -318,11 +318,11 @@
           <node concept="3cpWsn" id="2chztJeSDG5" role="3cpWs9">
             <property role="TrG5h" value="serialization" />
             <node concept="3uibUv" id="2chztJeSDEO" role="1tU5fm">
-              <ref role="3uigEE" to="g8af:~LowLevelJsonSerialization" resolve="LowLevelJsonSerialization" />
+              <ref role="3uigEE" to="jxh5:~LowLevelJsonSerialization" resolve="LowLevelJsonSerialization" />
             </node>
             <node concept="2ShNRf" id="2chztJeSDG6" role="33vP2m">
-              <node concept="1pGfFk" id="2chztJeSDG7" role="2ShVmc">
-                <ref role="37wK5l" to="g8af:~LowLevelJsonSerialization.&lt;init&gt;()" resolve="LowLevelJsonSerialization" />
+              <node concept="1pGfFk" id="4OO9PkkA_$E" role="2ShVmc">
+                <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.&lt;init&gt;()" resolve="LowLevelJsonSerialization" />
               </node>
             </node>
           </node>
@@ -331,14 +331,14 @@
           <node concept="3cpWsn" id="5wsogBc33Ic" role="3cpWs9">
             <property role="TrG5h" value="chunk" />
             <node concept="3uibUv" id="5wsogBc33vt" role="1tU5fm">
-              <ref role="3uigEE" to="9b9d:~SerializedChunk" resolve="SerializedChunk" />
+              <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
             </node>
             <node concept="2OqwBi" id="5wsogBc33Id" role="33vP2m">
               <node concept="37vLTw" id="5wsogBc33Ie" role="2Oq$k0">
                 <ref role="3cqZAo" node="2chztJeSDG5" resolve="serialization" />
               </node>
               <node concept="liA8E" id="5wsogBc33If" role="2OqNvi">
-                <ref role="37wK5l" to="g8af:~LowLevelJsonSerialization.unserializeSerializationBlock(com.google.gson.JsonElement)" resolve="unserializeSerializationBlock" />
+                <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.unserializeSerializationBlock(com.google.gson.JsonElement)" resolve="unserializeSerializationBlock" />
                 <node concept="37vLTw" id="5wsogBc33Ig" role="37wK5m">
                   <ref role="3cqZAo" node="z1IqfFwvf5" resolve="jsonElement" />
                 </node>
@@ -351,7 +351,7 @@
             <property role="TrG5h" value="result" />
             <node concept="_YKpA" id="5wsogBc35tY" role="1tU5fm">
               <node concept="3uibUv" id="5wsogBc35u0" role="_ZDj9">
-                <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+                <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
               </node>
             </node>
             <node concept="2OqwBi" id="5wsogBc34SM" role="33vP2m">
@@ -359,7 +359,7 @@
                 <ref role="3cqZAo" node="5wsogBc33Ic" resolve="chunk" />
               </node>
               <node concept="liA8E" id="5wsogBc34SO" role="2OqNvi">
-                <ref role="37wK5l" to="9b9d:~SerializedChunk.getNodes()" resolve="getNodes" />
+                <ref role="37wK5l" to="xfsv:~SerializedChunk.getNodes()" resolve="getNodes" />
               </node>
             </node>
           </node>
@@ -373,7 +373,7 @@
       <node concept="3Tm1VV" id="z1IqfFwquI" role="1B3o_S" />
       <node concept="_YKpA" id="z1IqfFwqz$" role="3clF45">
         <node concept="3uibUv" id="z1IqfFwYfQ" role="_ZDj9">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
     </node>
@@ -396,11 +396,11 @@
           <node concept="3cpWsn" id="5wsogBc40MM" role="3cpWs9">
             <property role="TrG5h" value="standardSerialization" />
             <node concept="3uibUv" id="5wsogBc40Ko" role="1tU5fm">
-              <ref role="3uigEE" to="g8af:~JsonSerialization" resolve="JsonSerialization" />
+              <ref role="3uigEE" to="jxh5:~JsonSerialization" resolve="JsonSerialization" />
             </node>
             <node concept="2YIFZM" id="5wsogBc40MN" role="33vP2m">
-              <ref role="37wK5l" to="g8af:~JsonSerialization.getStandardSerialization()" resolve="getStandardSerialization" />
-              <ref role="1Pybhc" to="g8af:~JsonSerialization" resolve="JsonSerialization" />
+              <ref role="1Pybhc" to="jxh5:~JsonSerialization" resolve="JsonSerialization" />
+              <ref role="37wK5l" to="jxh5:~JsonSerialization.getStandardSerialization()" resolve="getStandardSerialization" />
             </node>
           </node>
         </node>
@@ -409,7 +409,7 @@
             <property role="TrG5h" value="result" />
             <node concept="_YKpA" id="5wsogBc41MR" role="1tU5fm">
               <node concept="3uibUv" id="5wsogBc41MT" role="_ZDj9">
-                <ref role="3uigEE" to="t3jk:~Node" resolve="Node" />
+                <ref role="3uigEE" to="1ppu:~Node" resolve="Node" />
               </node>
             </node>
             <node concept="2OqwBi" id="5wsogBc41$R" role="33vP2m">
@@ -417,7 +417,7 @@
                 <ref role="3cqZAo" node="5wsogBc40MM" resolve="standardSerialization" />
               </node>
               <node concept="liA8E" id="5wsogBc41$T" role="2OqNvi">
-                <ref role="37wK5l" to="g8af:~JsonSerialization.unserializeToNodes(com.google.gson.JsonElement)" resolve="unserializeToNodes" />
+                <ref role="37wK5l" to="jxh5:~JsonSerialization.unserializeToNodes(com.google.gson.JsonElement)" resolve="unserializeToNodes" />
                 <node concept="37vLTw" id="5wsogBc41$U" role="37wK5m">
                   <ref role="3cqZAo" node="5wsogBc410R" resolve="jsonElement" />
                 </node>
@@ -433,7 +433,7 @@
               </node>
               <node concept="UnYns" id="5wsogBc43Em" role="2OqNvi">
                 <node concept="3uibUv" id="5wsogBc43X2" role="UnYnz">
-                  <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                  <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                 </node>
               </node>
             </node>
@@ -444,7 +444,7 @@
       <node concept="3Tm1VV" id="5wsogBc3YO8" role="1B3o_S" />
       <node concept="_YKpA" id="5wsogBc3YT9" role="3clF45">
         <node concept="3uibUv" id="5wsogBc3YTs" role="_ZDj9">
-          <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+          <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
         </node>
       </node>
     </node>
@@ -587,7 +587,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="6VkSF6c$jem" role="1tU5fm">
           <node concept="3uibUv" id="2fx6VTTRAP_" role="A3Ik2">
-            <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
         </node>
       </node>
@@ -607,7 +607,7 @@
               <node concept="2ShNRf" id="2fx6VTTQ1OG" role="37wK5m">
                 <node concept="2HTt$P" id="2fx6VTTQ2FV" role="2ShVmc">
                   <node concept="3uibUv" id="2fx6VTTQ2Wh" role="2HTBi0">
-                    <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+                    <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
                   </node>
                   <node concept="37vLTw" id="2fx6VTTQ3dF" role="2HTEbv">
                     <ref role="3cqZAo" node="6VkSF6c$if4" resolve="node" />
@@ -634,7 +634,7 @@
       <node concept="37vLTG" id="6VkSF6c$if4" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="6VkSF6c$if3" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
     </node>
@@ -649,7 +649,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="2fx6VTTPW$A" role="1tU5fm">
           <node concept="3uibUv" id="2fx6VTTQ0Js" role="A3Ik2">
-            <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
         </node>
       </node>
@@ -658,11 +658,11 @@
           <node concept="3cpWsn" id="5s4Z0e0bZx9" role="3cpWs9">
             <property role="TrG5h" value="serializedChunk" />
             <node concept="3uibUv" id="5s4Z0e0bYSW" role="1tU5fm">
-              <ref role="3uigEE" to="9b9d:~SerializedChunk" resolve="SerializedChunk" />
+              <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
             </node>
             <node concept="2ShNRf" id="5s4Z0e0bZxa" role="33vP2m">
-              <node concept="1pGfFk" id="5s4Z0e0bZxb" role="2ShVmc">
-                <ref role="37wK5l" to="9b9d:~SerializedChunk.&lt;init&gt;()" resolve="SerializedChunk" />
+              <node concept="1pGfFk" id="4OO9PkkAuLI" role="2ShVmc">
+                <ref role="37wK5l" to="xfsv:~SerializedChunk.&lt;init&gt;()" resolve="SerializedChunk" />
               </node>
             </node>
           </node>
@@ -673,7 +673,7 @@
               <ref role="3cqZAo" node="5s4Z0e0bZx9" resolve="serializedChunk" />
             </node>
             <node concept="liA8E" id="5s4Z0e0c3Zd" role="2OqNvi">
-              <ref role="37wK5l" to="9b9d:~SerializedChunk.setSerializationFormatVersion(java.lang.String)" resolve="setSerializationFormatVersion" />
+              <ref role="37wK5l" to="xfsv:~SerializedChunk.setSerializationFormatVersion(java.lang.String)" resolve="setSerializationFormatVersion" />
               <node concept="Xl_RD" id="5s4Z0e0c5VN" role="37wK5m">
                 <property role="Xl_RC" value="1" />
               </node>
@@ -694,7 +694,7 @@
                   <ref role="3cqZAo" node="5s4Z0e0bZx9" resolve="serializedChunk" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0ceju" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~SerializedChunk.addNode(org.lionweb.lioncore.java.serialization.data.SerializedNode)" resolve="addNode" />
+                  <ref role="37wK5l" to="xfsv:~SerializedChunk.addNode(io.lionweb.lioncore.java.serialization.data.SerializedNode)" resolve="addNode" />
                   <node concept="2GrUjf" id="5s4Z0e0cf2T" role="37wK5m">
                     <ref role="2Gs0qQ" node="5s4Z0e0cale" resolve="n" />
                   </node>
@@ -721,11 +721,11 @@
           <node concept="3cpWsn" id="5s4Z0e0bQQa" role="3cpWs9">
             <property role="TrG5h" value="serialization" />
             <node concept="3uibUv" id="5s4Z0e0bQQb" role="1tU5fm">
-              <ref role="3uigEE" to="g8af:~LowLevelJsonSerialization" resolve="LowLevelJsonSerialization" />
+              <ref role="3uigEE" to="jxh5:~LowLevelJsonSerialization" resolve="LowLevelJsonSerialization" />
             </node>
             <node concept="2ShNRf" id="5s4Z0e0bQQc" role="33vP2m">
-              <node concept="1pGfFk" id="5s4Z0e0bQQd" role="2ShVmc">
-                <ref role="37wK5l" to="g8af:~LowLevelJsonSerialization.&lt;init&gt;()" resolve="LowLevelJsonSerialization" />
+              <node concept="1pGfFk" id="4OO9PkkAwJp" role="2ShVmc">
+                <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.&lt;init&gt;()" resolve="LowLevelJsonSerialization" />
               </node>
             </node>
           </node>
@@ -737,7 +737,7 @@
               <ref role="3cqZAo" node="5s4Z0e0bQQa" resolve="serialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0bQQi" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~LowLevelJsonSerialization.serializeToJsonElement(org.lionweb.lioncore.java.serialization.data.SerializedChunk)" resolve="serializeToJsonElement" />
+              <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.serializeToJsonElement(io.lionweb.lioncore.java.serialization.data.SerializedChunk)" resolve="serializeToJsonElement" />
               <node concept="37vLTw" id="5s4Z0e0bSKM" role="37wK5m">
                 <ref role="3cqZAo" node="5s4Z0e0bPDe" resolve="serializedChunk" />
               </node>
@@ -752,7 +752,7 @@
       <node concept="37vLTG" id="5s4Z0e0bPDe" role="3clF46">
         <property role="TrG5h" value="serializedChunk" />
         <node concept="3uibUv" id="5s4Z0e0bPDd" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedChunk" resolve="SerializedChunk" />
+          <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
         </node>
       </node>
     </node>
@@ -768,7 +768,7 @@
       <node concept="37vLTG" id="39$JcGFQG95" role="3clF46">
         <property role="TrG5h" value="builtins" />
         <node concept="3uibUv" id="39$JcGFQGa6" role="1tU5fm">
-          <ref role="3uigEE" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+          <ref role="3uigEE" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
         </node>
       </node>
       <node concept="3clFbS" id="39$JcGFQlAx" role="3clF47">
@@ -776,14 +776,14 @@
           <node concept="2ShNRf" id="39$JcGFQDTk" role="3clFbG">
             <node concept="Tc6Ow" id="39$JcGFQEMi" role="2ShVmc">
               <node concept="3uibUv" id="39$JcGFQFvt" role="HW$YZ">
-                <ref role="3uigEE" to="tozv:~DataType" resolve="DataType" />
+                <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
               </node>
               <node concept="2OqwBi" id="39$JcGFQGAX" role="HW$Y0">
                 <node concept="37vLTw" id="39$JcGFQGdn" role="2Oq$k0">
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQH99" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
                 </node>
               </node>
               <node concept="2OqwBi" id="39$JcGFQHpv" role="HW$Y0">
@@ -791,7 +791,7 @@
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQHK1" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
                 </node>
               </node>
               <node concept="2OqwBi" id="39$JcGFQI6R" role="HW$Y0">
@@ -799,7 +799,7 @@
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQIfx" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getString()" resolve="getString" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getString()" resolve="getString" />
                 </node>
               </node>
               <node concept="2OqwBi" id="39$JcGFQIzs" role="HW$Y0">
@@ -807,7 +807,7 @@
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQIHk" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
                 </node>
               </node>
             </node>
@@ -817,7 +817,7 @@
       <node concept="3Tm1VV" id="39$JcGFQl_Q" role="1B3o_S" />
       <node concept="_YKpA" id="39$JcGFQlAe" role="3clF45">
         <node concept="3uibUv" id="39$JcGFQlAr" role="_ZDj9">
-          <ref role="3uigEE" to="tozv:~DataType" resolve="DataType" />
+          <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
         </node>
       </node>
     </node>
@@ -827,7 +827,7 @@
       <node concept="37vLTG" id="39$JcGGbiH3" role="3clF46">
         <property role="TrG5h" value="builtins" />
         <node concept="3uibUv" id="39$JcGGbiH4" role="1tU5fm">
-          <ref role="3uigEE" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+          <ref role="3uigEE" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
         </node>
       </node>
       <node concept="3clFbS" id="39$JcGGbiH5" role="3clF47">
@@ -835,7 +835,7 @@
           <node concept="2ShNRf" id="39$JcGGbiH7" role="3clFbG">
             <node concept="Tc6Ow" id="39$JcGGbiH8" role="2ShVmc">
               <node concept="3uibUv" id="39$JcGGbiH9" role="HW$YZ">
-                <ref role="3uigEE" to="tozv:~FeaturesContainer" resolve="FeaturesContainer" />
+                <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
               </node>
               <node concept="10Nm6u" id="39$JcGGbkjk" role="HW$Y0" />
             </node>
@@ -845,7 +845,7 @@
       <node concept="3Tm1VV" id="39$JcGGbiHm" role="1B3o_S" />
       <node concept="_YKpA" id="39$JcGGbiHn" role="3clF45">
         <node concept="3uibUv" id="39$JcGGbiHo" role="_ZDj9">
-          <ref role="3uigEE" to="tozv:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
         </node>
       </node>
     </node>
@@ -1197,7 +1197,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="5s4Z0e0n9Xy" role="1tU5fm">
           <node concept="3uibUv" id="5s4Z0e0n9Xz" role="A3Ik2">
-            <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+            <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
           </node>
         </node>
       </node>
@@ -1217,7 +1217,7 @@
               <node concept="2ShNRf" id="5s4Z0e0n9XF" role="37wK5m">
                 <node concept="2HTt$P" id="5s4Z0e0n9XG" role="2ShVmc">
                   <node concept="3uibUv" id="5s4Z0e0n9XH" role="2HTBi0">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                   <node concept="37vLTw" id="5s4Z0e0n9XI" role="2HTEbv">
                     <ref role="3cqZAo" node="5s4Z0e0n9XP" resolve="node" />
@@ -1244,7 +1244,7 @@
       <node concept="37vLTG" id="5s4Z0e0n9XP" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="5s4Z0e0n9XQ" role="1tU5fm">
-          <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+          <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
         </node>
       </node>
     </node>
@@ -1253,7 +1253,7 @@
     <node concept="312cEu" id="5s4Z0e0n9XT" role="jymVt">
       <property role="TrG5h" value="VerbatimSerializer" />
       <node concept="3uibUv" id="5s4Z0e0n9XU" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
+        <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="5s4Z0e0n9XV" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -1303,7 +1303,7 @@
     <node concept="312cEu" id="5s4Z0e0n9Yf" role="jymVt">
       <property role="TrG5h" value="BooleanSerializer" />
       <node concept="3uibUv" id="5s4Z0e0n9Yg" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
+        <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="5s4Z0e0n9Yh" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -1441,7 +1441,7 @@
     <node concept="312cEu" id="5s4Z0e0n9Z6" role="jymVt">
       <property role="TrG5h" value="JsonSerializer" />
       <node concept="3uibUv" id="5s4Z0e0n9Z7" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
+        <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="5s4Z0e0n9Z8" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -1568,7 +1568,7 @@
     <node concept="312cEu" id="5s4Z0e0n9ZW" role="jymVt">
       <property role="TrG5h" value="IntegerSerializer" />
       <node concept="3uibUv" id="5s4Z0e0n9ZX" role="EKbjA">
-        <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
+        <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
         <node concept="3uibUv" id="5s4Z0e0n9ZY" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -1694,7 +1694,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="5s4Z0e0na0N" role="1tU5fm">
           <node concept="3uibUv" id="5s4Z0e0na0O" role="A3Ik2">
-            <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+            <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
           </node>
         </node>
       </node>
@@ -1703,11 +1703,11 @@
           <node concept="3cpWsn" id="5s4Z0e0na0S" role="3cpWs9">
             <property role="TrG5h" value="jsonSerialization" />
             <node concept="3uibUv" id="5s4Z0e0na0T" role="1tU5fm">
-              <ref role="3uigEE" to="g8af:~JsonSerialization" resolve="JsonSerialization" />
+              <ref role="3uigEE" to="jxh5:~JsonSerialization" resolve="JsonSerialization" />
             </node>
             <node concept="2YIFZM" id="5s4Z0e0na0U" role="33vP2m">
-              <ref role="37wK5l" to="g8af:~JsonSerialization.getStandardSerialization()" resolve="getStandardSerialization" />
-              <ref role="1Pybhc" to="g8af:~JsonSerialization" resolve="JsonSerialization" />
+              <ref role="1Pybhc" to="jxh5:~JsonSerialization" resolve="JsonSerialization" />
+              <ref role="37wK5l" to="jxh5:~JsonSerialization.getStandardSerialization()" resolve="getStandardSerialization" />
             </node>
           </node>
         </node>
@@ -1715,14 +1715,14 @@
           <node concept="3cpWsn" id="5s4Z0e0na0X" role="3cpWs9">
             <property role="TrG5h" value="primitiveValuesSerialization" />
             <node concept="3uibUv" id="5s4Z0e0na0Y" role="1tU5fm">
-              <ref role="3uigEE" to="g8af:~PrimitiveValuesSerialization" resolve="PrimitiveValuesSerialization" />
+              <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization" resolve="PrimitiveValuesSerialization" />
             </node>
             <node concept="2OqwBi" id="5s4Z0e0na0Z" role="33vP2m">
               <node concept="37vLTw" id="5s4Z0e0na10" role="2Oq$k0">
                 <ref role="3cqZAo" node="5s4Z0e0na0S" resolve="jsonSerialization" />
               </node>
               <node concept="liA8E" id="5s4Z0e0na11" role="2OqNvi">
-                <ref role="37wK5l" to="g8af:~JsonSerialization.getPrimitiveValuesSerialization()" resolve="getPrimitiveValuesSerialization" />
+                <ref role="37wK5l" to="jxh5:~JsonSerialization.getPrimitiveValuesSerialization()" resolve="getPrimitiveValuesSerialization" />
               </node>
             </node>
           </node>
@@ -1733,14 +1733,14 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na16" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="2OqwBi" id="5s4Z0e0na17" role="37wK5m">
                 <node concept="2YIFZM" id="5s4Z0e0na18" role="2Oq$k0">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
-                  <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0na19" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="tzx8:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="2ShNRf" id="5s4Z0e0na1a" role="37wK5m">
@@ -1757,14 +1757,14 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na1g" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="2OqwBi" id="5s4Z0e0na1h" role="37wK5m">
                 <node concept="2YIFZM" id="5s4Z0e0na1i" role="2Oq$k0">
-                  <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
+                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0na1j" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="tzx8:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="2ShNRf" id="5s4Z0e0na1k" role="37wK5m">
@@ -1781,14 +1781,14 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na1q" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="2OqwBi" id="5s4Z0e0na1r" role="37wK5m">
                 <node concept="2YIFZM" id="5s4Z0e0na1s" role="2Oq$k0">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
-                  <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0na1t" role="2OqNvi">
-                  <ref role="37wK5l" to="sp3y:~M3Node.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="tzx8:~M3Node.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="2ShNRf" id="5s4Z0e0na1u" role="37wK5m">
@@ -1813,7 +1813,7 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na1E" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="Xl_RD" id="5s4Z0e0na1F" role="37wK5m">
                 <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzQyNjk4NDI1MDM3MjYyMDc4MTg" />
               </node>
@@ -1838,7 +1838,7 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na1Q" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="Xl_RD" id="5s4Z0e0na1R" role="37wK5m">
                 <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzEwODQxOTkxNzk3MDM" />
               </node>
@@ -1863,7 +1863,7 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na22" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="Xl_RD" id="5s4Z0e0na23" role="37wK5m">
                 <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzEwODQxOTc3ODI3MjI" />
               </node>
@@ -1888,7 +1888,7 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na2e" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="Xl_RD" id="5s4Z0e0na2f" role="37wK5m">
                 <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzY0OTEwNzc5NTk2MzQ2NTA2ODg" />
               </node>
@@ -1916,7 +1916,7 @@
               <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0na2r" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,org.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
+              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="Xl_RD" id="5s4Z0e0na2s" role="37wK5m">
                 <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzY0OTEwNzc5NTk2MzQ2NjIzMzM" />
               </node>
@@ -1935,7 +1935,7 @@
               <ref role="3cqZAo" node="5s4Z0e0na0S" resolve="jsonSerialization" />
             </node>
             <node concept="liA8E" id="5s4Z0e0nb8J" role="2OqNvi">
-              <ref role="37wK5l" to="g8af:~JsonSerialization.serializeTreesToJsonElement(org.lionweb.lioncore.java.model.Node...)" resolve="serializeTreesToJsonElement" />
+              <ref role="37wK5l" to="jxh5:~JsonSerialization.serializeTreesToJsonElement(io.lionweb.lioncore.java.model.Node...)" resolve="serializeTreesToJsonElement" />
               <node concept="2OqwBi" id="5s4Z0e0obmK" role="37wK5m">
                 <node concept="37vLTw" id="5s4Z0e0nb9i" role="2Oq$k0">
                   <ref role="3cqZAo" node="5s4Z0e0na0M" resolve="nodes" />

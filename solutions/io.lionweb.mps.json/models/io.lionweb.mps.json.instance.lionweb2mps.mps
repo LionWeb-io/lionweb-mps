@@ -7,16 +7,12 @@
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
-    <import index="9b9d" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization.data(org.lionweb.lioncore.java/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
-    <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="t3jk" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.model(org.lionweb.lioncore.java/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
@@ -24,6 +20,8 @@
     <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="vxxo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.concept(MPS.Core/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
+    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
   </imports>
   <registry>
@@ -280,7 +278,7 @@
       <node concept="3Tm6S6" id="2fx6VTRF0q4" role="1B3o_S" />
       <node concept="A3Dl8" id="2fx6VTRF0q5" role="1tU5fm">
         <node concept="3uibUv" id="2fx6VTRF0q6" role="A3Ik2">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
     </node>
@@ -291,7 +289,7 @@
       <node concept="3Tm6S6" id="2fx6VTRF0q9" role="1B3o_S" />
       <node concept="3rvAFt" id="2fx6VTRF0qa" role="1tU5fm">
         <node concept="3uibUv" id="2fx6VTRF0qb" role="3rvQeY">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
         <node concept="3uibUv" id="2fx6VTRF0qc" role="3rvSg0">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -300,7 +298,7 @@
       <node concept="2ShNRf" id="2fx6VTRF0qd" role="33vP2m">
         <node concept="32Fmki" id="2fx6VTRF0qe" role="2ShVmc">
           <node concept="3uibUv" id="2fx6VTRF0qf" role="3rHrn6">
-            <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
           <node concept="3uibUv" id="2fx6VTRF0qg" role="3rHtpV">
             <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -315,14 +313,14 @@
       <node concept="3rvAFt" id="2fx6VTRF0qj" role="1tU5fm">
         <node concept="17QB3L" id="2fx6VTSLSCe" role="3rvQeY" />
         <node concept="3uibUv" id="2fx6VTRF0ql" role="3rvSg0">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
       <node concept="2ShNRf" id="2fx6VTRF0qm" role="33vP2m">
         <node concept="32Fmki" id="2fx6VTRF0qn" role="2ShVmc">
           <node concept="17QB3L" id="2fx6VTSLU39" role="3rHrn6" />
           <node concept="3uibUv" id="2fx6VTRF0qp" role="3rHtpV">
-            <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
         </node>
       </node>
@@ -378,7 +376,7 @@
         <property role="TrG5h" value="inputNodes" />
         <node concept="A3Dl8" id="2fx6VTRFh7x" role="1tU5fm">
           <node concept="3uibUv" id="2fx6VTRFh8Z" role="A3Ik2">
-            <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
         </node>
       </node>
@@ -483,14 +481,14 @@
           <node concept="3cpWsn" id="2fx6VTStO5q" role="3cpWs9">
             <property role="TrG5h" value="jsonMeta" />
             <node concept="3uibUv" id="2fx6VTStNBb" role="1tU5fm">
-              <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+              <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
             </node>
             <node concept="2OqwBi" id="2fx6VTStO5r" role="33vP2m">
               <node concept="37vLTw" id="2fx6VTStO5s" role="2Oq$k0">
                 <ref role="3cqZAo" node="2fx6VTSt4dH" resolve="json" />
               </node>
               <node concept="liA8E" id="2fx6VTStO5t" role="2OqNvi">
-                <ref role="37wK5l" to="9b9d:~SerializedNode.getConcept()" resolve="getConcept" />
+                <ref role="37wK5l" to="xfsv:~SerializedNode.getConcept()" resolve="getConcept" />
               </node>
             </node>
           </node>
@@ -545,7 +543,7 @@
               <ref role="3cqZAo" node="2fx6VTSt4dH" resolve="json" />
             </node>
             <node concept="liA8E" id="5wsogBcqqWt" role="2OqNvi">
-              <ref role="37wK5l" to="9b9d:~SerializedNode.getProperties()" resolve="getProperties" />
+              <ref role="37wK5l" to="xfsv:~SerializedNode.getProperties()" resolve="getProperties" />
             </node>
           </node>
           <node concept="3clFbS" id="2fx6VTSt4dm" role="2LFqv$">
@@ -558,7 +556,7 @@
                     <ref role="2Gs0qQ" node="2fx6VTSt4di" resolve="jsonProp" />
                   </node>
                   <node concept="liA8E" id="5wsogBcq$d3" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~SerializedPropertyValue.getValue()" resolve="getValue" />
+                    <ref role="37wK5l" to="xfsv:~SerializedPropertyValue.getValue()" resolve="getValue" />
                   </node>
                 </node>
               </node>
@@ -583,7 +581,7 @@
                         <ref role="2Gs0qQ" node="2fx6VTSt4di" resolve="jsonProp" />
                       </node>
                       <node concept="liA8E" id="5wsogBcqBO$" role="2OqNvi">
-                        <ref role="37wK5l" to="9b9d:~SerializedPropertyValue.getMetaPointer()" resolve="getMetaPointer" />
+                        <ref role="37wK5l" to="xfsv:~SerializedPropertyValue.getMetaPointer()" resolve="getMetaPointer" />
                       </node>
                     </node>
                   </node>
@@ -627,7 +625,7 @@
       <node concept="37vLTG" id="2fx6VTSt4dH" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="2fx6VTSt4dI" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
     </node>
@@ -644,7 +642,7 @@
               <ref role="3cqZAo" node="2fx6VTSt4eF" resolve="json" />
             </node>
             <node concept="liA8E" id="5wsogBcqESE" role="2OqNvi">
-              <ref role="37wK5l" to="9b9d:~SerializedNode.getContainments()" resolve="getContainments" />
+              <ref role="37wK5l" to="xfsv:~SerializedNode.getContainments()" resolve="getContainments" />
             </node>
           </node>
           <node concept="3clFbS" id="2fx6VTSt4dR" role="2LFqv$">
@@ -673,7 +671,7 @@
                         <ref role="2Gs0qQ" node="2fx6VTSt4dN" resolve="jsonCont" />
                       </node>
                       <node concept="liA8E" id="5wsogBcqHXI" role="2OqNvi">
-                        <ref role="37wK5l" to="9b9d:~SerializedContainmentValue.getMetaPointer()" resolve="getMetaPointer" />
+                        <ref role="37wK5l" to="xfsv:~SerializedContainmentValue.getMetaPointer()" resolve="getMetaPointer" />
                       </node>
                     </node>
                   </node>
@@ -692,7 +690,7 @@
                     <ref role="2Gs0qQ" node="2fx6VTSt4dN" resolve="jsonCont" />
                   </node>
                   <node concept="liA8E" id="5wsogBcqLg3" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~SerializedContainmentValue.getValue()" resolve="getValue" />
+                    <ref role="37wK5l" to="xfsv:~SerializedContainmentValue.getValue()" resolve="getValue" />
                   </node>
                 </node>
               </node>
@@ -750,7 +748,7 @@
               <ref role="3cqZAo" node="2fx6VTSt4eF" resolve="json" />
             </node>
             <node concept="liA8E" id="5wsogBcqQxi" role="2OqNvi">
-              <ref role="37wK5l" to="9b9d:~SerializedNode.getReferences()" resolve="getReferences" />
+              <ref role="37wK5l" to="xfsv:~SerializedNode.getReferences()" resolve="getReferences" />
             </node>
           </node>
           <node concept="3clFbS" id="2fx6VTSt4ei" role="2LFqv$">
@@ -779,7 +777,7 @@
                         <ref role="2Gs0qQ" node="2fx6VTSt4ee" resolve="jsonRef" />
                       </node>
                       <node concept="liA8E" id="5wsogBcqSfn" role="2OqNvi">
-                        <ref role="37wK5l" to="9b9d:~SerializedReferenceValue.getMetaPointer()" resolve="getMetaPointer" />
+                        <ref role="37wK5l" to="xfsv:~SerializedReferenceValue.getMetaPointer()" resolve="getMetaPointer" />
                       </node>
                     </node>
                   </node>
@@ -792,7 +790,7 @@
                 <node concept="3uibUv" id="2fx6VTSyt_O" role="1tU5fm">
                   <ref role="3uigEE" to="33ny:~List" resolve="List" />
                   <node concept="3uibUv" id="2fx6VTSyt_P" role="11_B2D">
-                    <ref role="3uigEE" to="9b9d:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
+                    <ref role="3uigEE" to="xfsv:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5wsogBcqUlG" role="33vP2m">
@@ -800,7 +798,7 @@
                     <ref role="2Gs0qQ" node="2fx6VTSt4ee" resolve="jsonRef" />
                   </node>
                   <node concept="liA8E" id="5wsogBcqVh4" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~SerializedReferenceValue.getValue()" resolve="getValue" />
+                    <ref role="37wK5l" to="xfsv:~SerializedReferenceValue.getValue()" resolve="getValue" />
                   </node>
                 </node>
               </node>
@@ -826,7 +824,7 @@
                           <ref role="2Gs0qQ" node="2fx6VTSyt_V" resolve="jsonEntry" />
                         </node>
                         <node concept="liA8E" id="5wsogBcr5SC" role="2OqNvi">
-                          <ref role="37wK5l" to="9b9d:~SerializedReferenceValue$Entry.getReference()" resolve="getReference" />
+                          <ref role="37wK5l" to="xfsv:~SerializedReferenceValue$Entry.getReference()" resolve="getReference" />
                         </node>
                       </node>
                     </node>
@@ -859,7 +857,7 @@
       <node concept="37vLTG" id="2fx6VTSt4eF" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="2fx6VTSt4eG" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
       <node concept="37vLTG" id="2fx6VTSt4eH" role="3clF46">
@@ -925,7 +923,7 @@
       <node concept="37vLTG" id="2q_M4yT5m9Y" role="3clF46">
         <property role="TrG5h" value="entry" />
         <node concept="3uibUv" id="2q_M4yT5m9Z" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
+          <ref role="3uigEE" to="xfsv:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
         </node>
       </node>
     </node>
@@ -997,7 +995,7 @@
                 <ref role="3cqZAo" node="2fx6VTSt4eV" resolve="json" />
               </node>
               <node concept="liA8E" id="2q_M4yT42ya" role="2OqNvi">
-                <ref role="37wK5l" to="9b9d:~SerializedNode.getID()" resolve="getID" />
+                <ref role="37wK5l" to="xfsv:~SerializedNode.getID()" resolve="getID" />
               </node>
             </node>
           </node>
@@ -1010,7 +1008,7 @@
       <node concept="37vLTG" id="2fx6VTSt4eV" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="2fx6VTSt4eW" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
     </node>
@@ -1169,7 +1167,7 @@
                   <ref role="3cqZAo" node="2fx6VTSt4fi" resolve="json" />
                 </node>
                 <node concept="liA8E" id="2fx6VTSLMah" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~SerializedNode.getID()" resolve="getID" />
+                  <ref role="37wK5l" to="xfsv:~SerializedNode.getID()" resolve="getID" />
                 </node>
               </node>
               <node concept="37vLTw" id="2fx6VTSt4fd" role="3ElQJh">
@@ -1191,7 +1189,7 @@
       <node concept="37vLTG" id="2fx6VTSt4fi" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="2fx6VTSt4fj" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
       </node>
       <node concept="37vLTG" id="2fx6VTSt4fk" role="3clF46">
@@ -1239,7 +1237,7 @@
           <node concept="92FcH" id="3Kqiw5y_U11" role="qph3F">
             <node concept="TZ5HA" id="3Kqiw5y_U13" role="2XjZqd" />
             <node concept="VXe08" id="3Kqiw5y_U$1" role="92FcQ">
-              <ref role="VXe09" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+              <ref role="VXe09" to="xfsv:~SerializedNode" resolve="SerializedNode" />
             </node>
           </node>
         </node>
@@ -1292,7 +1290,7 @@
       <node concept="37vLTG" id="5wsogBcpocW" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="5wsogBcpocV" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
     </node>
@@ -1312,7 +1310,7 @@
       <node concept="37vLTG" id="5wsogBcqs2o" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="5wsogBcqs2p" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
     </node>
@@ -1332,7 +1330,7 @@
       <node concept="37vLTG" id="5wsogBcqs6q" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="5wsogBcqs6r" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
     </node>
@@ -1352,7 +1350,7 @@
       <node concept="37vLTG" id="5wsogBcqu6_" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="5wsogBcqu6A" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
     </node>
@@ -1504,7 +1502,7 @@
         <property role="TrG5h" value="inputNodes" />
         <node concept="A3Dl8" id="2q_M4yT3_Oy" role="1tU5fm">
           <node concept="3uibUv" id="2q_M4yT3_Oz" role="A3Ik2">
-            <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
         </node>
       </node>
@@ -1693,7 +1691,7 @@
       <node concept="37vLTG" id="2q_M4yT5nst" role="3clF46">
         <property role="TrG5h" value="entry" />
         <node concept="3uibUv" id="2q_M4yT5nsu" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
+          <ref role="3uigEE" to="xfsv:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
         </node>
       </node>
       <node concept="3clFbS" id="2q_M4yT5nsv" role="3clF47">
@@ -1744,7 +1742,7 @@
                             <ref role="3cqZAo" node="2q_M4yT5nst" resolve="entry" />
                           </node>
                           <node concept="liA8E" id="2q_M4yT5qmr" role="2OqNvi">
-                            <ref role="37wK5l" to="9b9d:~SerializedReferenceValue$Entry.getReference()" resolve="getReference" />
+                            <ref role="37wK5l" to="xfsv:~SerializedReferenceValue$Entry.getReference()" resolve="getReference" />
                           </node>
                         </node>
                       </node>
@@ -3002,7 +3000,7 @@
           <node concept="92FcH" id="3Kqiw5yA1ca" role="qph3F">
             <node concept="TZ5HA" id="3Kqiw5yA1cc" role="2XjZqd" />
             <node concept="VXe08" id="3Kqiw5yA221" role="92FcQ">
-              <ref role="VXe09" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+              <ref role="VXe09" to="xfsv:~SerializedNode" resolve="SerializedNode" />
             </node>
           </node>
         </node>
@@ -3362,7 +3360,7 @@
       <node concept="37vLTG" id="9wS6VcuPc9" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="9wS6VcuPca" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
       <node concept="3clFbS" id="9wS6VcuPcb" role="3clF47">
@@ -3385,22 +3383,22 @@
           <node concept="3cpWsn" id="9wS6VcuPcj" role="3cpWs9">
             <property role="TrG5h" value="concept" />
             <node concept="3uibUv" id="9wS6VcuPck" role="1tU5fm">
-              <ref role="3uigEE" to="tozv:~Concept" resolve="Concept" />
+              <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPcl" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPcm" role="2Oq$k0">
-                <node concept="1pGfFk" id="9wS6VcuPcn" role="2ShVmc">
-                  <ref role="37wK5l" to="tozv:~Concept.&lt;init&gt;()" resolve="Concept" />
+                <node concept="1pGfFk" id="4OO9PkkATp5" role="2ShVmc">
+                  <ref role="37wK5l" to="loul:~Concept.&lt;init&gt;()" resolve="Concept" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPco" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="loul:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPcp" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPcq" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPc9" resolve="metaPointer" />
                   </node>
                   <node concept="liA8E" id="9wS6VcuPcr" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                    <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                   </node>
                 </node>
               </node>
@@ -3462,7 +3460,7 @@
                   <ref role="3cqZAo" node="9wS6VcuPc9" resolve="metaPointer" />
                 </node>
                 <node concept="liA8E" id="9wS6VcuPd5" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                  <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                 </node>
               </node>
             </node>
@@ -3516,7 +3514,7 @@
       <node concept="37vLTG" id="9wS6VcuPdn" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="9wS6VcuPdo" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
       <node concept="3clFbS" id="9wS6VcuPdp" role="3clF47">
@@ -3533,22 +3531,22 @@
           <node concept="3cpWsn" id="9wS6VcuPdv" role="3cpWs9">
             <property role="TrG5h" value="property" />
             <node concept="3uibUv" id="9wS6VcuPdw" role="1tU5fm">
-              <ref role="3uigEE" to="tozv:~Property" resolve="Property" />
+              <ref role="3uigEE" to="loul:~Property" resolve="Property" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPdx" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPdy" role="2Oq$k0">
-                <node concept="1pGfFk" id="9wS6VcuPdz" role="2ShVmc">
-                  <ref role="37wK5l" to="tozv:~Property.&lt;init&gt;()" resolve="Property" />
+                <node concept="1pGfFk" id="4OO9PkkATp1" role="2ShVmc">
+                  <ref role="37wK5l" to="loul:~Property.&lt;init&gt;()" resolve="Property" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPd$" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="loul:~Feature.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPd_" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPdA" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPdn" resolve="metaPointer" />
                   </node>
                   <node concept="liA8E" id="9wS6VcuPdB" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                    <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                   </node>
                 </node>
               </node>
@@ -3610,7 +3608,7 @@
                   <ref role="3cqZAo" node="9wS6VcuPdn" resolve="metaPointer" />
                 </node>
                 <node concept="liA8E" id="9wS6VcuPee" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                  <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                 </node>
               </node>
             </node>
@@ -3664,7 +3662,7 @@
       <node concept="37vLTG" id="9wS6VcuPew" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="9wS6VcuPex" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
       <node concept="3clFbS" id="9wS6VcuPey" role="3clF47">
@@ -3681,22 +3679,22 @@
           <node concept="3cpWsn" id="9wS6VcuPeC" role="3cpWs9">
             <property role="TrG5h" value="containment" />
             <node concept="3uibUv" id="9wS6VcuPeD" role="1tU5fm">
-              <ref role="3uigEE" to="tozv:~Containment" resolve="Containment" />
+              <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPeE" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPeF" role="2Oq$k0">
-                <node concept="1pGfFk" id="9wS6VcuPeG" role="2ShVmc">
-                  <ref role="37wK5l" to="tozv:~Containment.&lt;init&gt;()" resolve="Containment" />
+                <node concept="1pGfFk" id="4OO9PkkATp3" role="2ShVmc">
+                  <ref role="37wK5l" to="loul:~Containment.&lt;init&gt;()" resolve="Containment" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPeH" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="loul:~Feature.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPeI" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPeJ" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPew" resolve="metaPointer" />
                   </node>
                   <node concept="liA8E" id="9wS6VcuPeK" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                    <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                   </node>
                 </node>
               </node>
@@ -3758,7 +3756,7 @@
                   <ref role="3cqZAo" node="9wS6VcuPew" resolve="metaPointer" />
                 </node>
                 <node concept="liA8E" id="9wS6VcuPfn" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                  <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                 </node>
               </node>
             </node>
@@ -3812,7 +3810,7 @@
       <node concept="37vLTG" id="9wS6VcuPfD" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="9wS6VcuPfE" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
       <node concept="3clFbS" id="9wS6VcuPfF" role="3clF47">
@@ -3829,22 +3827,22 @@
           <node concept="3cpWsn" id="9wS6VcuPfL" role="3cpWs9">
             <property role="TrG5h" value="reference" />
             <node concept="3uibUv" id="9wS6VcuPfM" role="1tU5fm">
-              <ref role="3uigEE" to="tozv:~Reference" resolve="Reference" />
+              <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPfN" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPfO" role="2Oq$k0">
-                <node concept="1pGfFk" id="9wS6VcuPfP" role="2ShVmc">
-                  <ref role="37wK5l" to="tozv:~Reference.&lt;init&gt;()" resolve="Reference" />
+                <node concept="1pGfFk" id="4OO9PkkAToX" role="2ShVmc">
+                  <ref role="37wK5l" to="loul:~Reference.&lt;init&gt;()" resolve="Reference" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPfQ" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="loul:~Feature.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPfR" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPfS" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPfD" resolve="metaPointer" />
                   </node>
                   <node concept="liA8E" id="9wS6VcuPfT" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                    <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                   </node>
                 </node>
               </node>
@@ -3906,7 +3904,7 @@
                   <ref role="3cqZAo" node="9wS6VcuPfD" resolve="metaPointer" />
                 </node>
                 <node concept="liA8E" id="9wS6VcuPgw" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~MetaPointer.getKey()" resolve="getKey" />
+                  <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
                 </node>
               </node>
             </node>
@@ -3954,7 +3952,7 @@
       <node concept="37vLTG" id="9wS6VcuPgK" role="3clF46">
         <property role="TrG5h" value="metaPointer" />
         <node concept="3uibUv" id="9wS6VcuPgL" role="1tU5fm">
-          <ref role="3uigEE" to="9b9d:~MetaPointer" resolve="MetaPointer" />
+          <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
       <node concept="3clFbS" id="9wS6VcuPgM" role="3clF47">
@@ -3962,35 +3960,35 @@
           <node concept="3cpWsn" id="9wS6VcuPgO" role="3cpWs9">
             <property role="TrG5h" value="metamodel" />
             <node concept="3uibUv" id="9wS6VcuPgP" role="1tU5fm">
-              <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+              <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPgQ" role="33vP2m">
               <node concept="2OqwBi" id="9wS6VcuPgR" role="2Oq$k0">
                 <node concept="2ShNRf" id="9wS6VcuPgS" role="2Oq$k0">
-                  <node concept="1pGfFk" id="9wS6VcuPgT" role="2ShVmc">
-                    <ref role="37wK5l" to="tozv:~Metamodel.&lt;init&gt;()" resolve="Metamodel" />
+                  <node concept="1pGfFk" id="4OO9PkkAToZ" role="2ShVmc">
+                    <ref role="37wK5l" to="loul:~Metamodel.&lt;init&gt;()" resolve="Metamodel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="9wS6VcuPgU" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~Metamodel.setKey(java.lang.String)" resolve="setKey" />
+                  <ref role="37wK5l" to="loul:~Metamodel.setKey(java.lang.String)" resolve="setKey" />
                   <node concept="2OqwBi" id="9wS6VcuPgV" role="37wK5m">
                     <node concept="37vLTw" id="9wS6VcuPgW" role="2Oq$k0">
                       <ref role="3cqZAo" node="9wS6VcuPgK" resolve="metaPointer" />
                     </node>
                     <node concept="liA8E" id="9wS6VcuPgX" role="2OqNvi">
-                      <ref role="37wK5l" to="9b9d:~MetaPointer.getMetamodel()" resolve="getMetamodel" />
+                      <ref role="37wK5l" to="xfsv:~MetaPointer.getMetamodel()" resolve="getMetamodel" />
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPgY" role="2OqNvi">
-                <ref role="37wK5l" to="tozv:~Metamodel.setVersion(java.lang.String)" resolve="setVersion" />
+                <ref role="37wK5l" to="loul:~Metamodel.setVersion(java.lang.String)" resolve="setVersion" />
                 <node concept="2OqwBi" id="9wS6VcuPgZ" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPh0" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPgK" resolve="metaPointer" />
                   </node>
                   <node concept="liA8E" id="9wS6VcuPh1" role="2OqNvi">
-                    <ref role="37wK5l" to="9b9d:~MetaPointer.getVersion()" resolve="getVersion" />
+                    <ref role="37wK5l" to="xfsv:~MetaPointer.getVersion()" resolve="getVersion" />
                   </node>
                 </node>
               </node>
@@ -4046,7 +4044,7 @@
                   <ref role="3cqZAo" node="9wS6VcuPgK" resolve="metaPointer" />
                 </node>
                 <node concept="liA8E" id="9wS6VcuPhl" role="2OqNvi">
-                  <ref role="37wK5l" to="9b9d:~MetaPointer.getMetamodel()" resolve="getMetamodel" />
+                  <ref role="37wK5l" to="xfsv:~MetaPointer.getMetamodel()" resolve="getMetamodel" />
                 </node>
               </node>
             </node>

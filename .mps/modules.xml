@@ -2,21 +2,21 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang/io.lionweb.mps.converter.TestLang.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.m3/io.lionweb.mps.m3.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test/io.lionweb.mps.converter.test.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter/io.lionweb.mps.converter.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json.test/io.lionweb.mps.json.test.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json/io.lionweb.mps.json.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.lionweb.lioncore.java/org.lionweb.lioncore.java.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang/io.lionweb.mps.converter.TestLang.mpl" folder="test" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" folder="test" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.m3/io.lionweb.mps.m3.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.lioncore.java/io.lionweb.lioncore.java.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="build" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test/io.lionweb.mps.converter.test.msd" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter/io.lionweb.mps.converter.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json.test/io.lionweb.mps.json.test.msd" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json/io.lionweb.mps.json.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="lang" />
     </projectModules>
   </component>
 </project>

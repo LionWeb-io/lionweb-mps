@@ -5,7 +5,7 @@ plugins {
 
 val libs by configurations.creating
 
-val lioncoreJavaDir = File(rootDir, "solutions/org.lionweb.lioncore.java/libs")
+val lioncoreJavaDir = File(rootDir, "solutions/io.lionweb.lioncore.java/libs")
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -14,11 +14,11 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.12")
+    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.14")
 }
 
 group = "io.lionweb"
-version = "0.0.3-SNAPSHOT"
+version = "0.0.5-SNAPSHOT"
 
 
 task<Jar>("sourcesJar") {
