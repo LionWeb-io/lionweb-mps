@@ -37,8 +37,8 @@ publishing {
             val snapshotRepo = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
             val isReleaseVersion = !(version as String).endsWith("-SNAPSHOT")
             url = java.net.URI(if (isReleaseVersion) releaseRepo else snapshotRepo)
-            println("isReleaseVersion $isReleaseVersion")
-            println("publishing to $url")
+            // println("isReleaseVersion $isReleaseVersion")
+            // println("publishing to $url")
             credentials {
                 username = project.findProperty("ossrhUsername") as String?
                 password = project.findProperty("ossrhPassword") as String?
