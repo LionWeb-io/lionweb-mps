@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.lionweb.lioncore.java" uuid="9d6d7230-3178-4b3f-a837-7c0180c86207" moduleVersion="0" compileInMPS="true">
+<solution name="io.lionweb.lioncore.java" uuid="9d6d7230-3178-4b3f-a837-7c0180c86207" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="gson.jar" />
@@ -27,7 +27,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-    <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(org.lionweb.lioncore.java)" version="0" />
+    <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lioncore.java)" version="0" />
   </dependencyVersions>
 </solution>
 

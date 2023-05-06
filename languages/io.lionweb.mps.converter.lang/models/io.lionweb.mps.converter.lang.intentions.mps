@@ -9,34 +9,19 @@
   <imports>
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="dydc" ref="r:303e2235-6078-45d3-bca1-4bd6b06c2770(io.lionweb.mps.converter.m2.lioncore2mps)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
-    <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="3s15" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.workbench(MPS.Workbench/)" />
-    <import index="ddhc" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide(MPS.IDEA/)" />
-    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
-    <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
     <import index="gkni" ref="r:02305548-3e8d-4e78-b276-85a6e515bf18(io.lionweb.mps.converter.lang.runtime)" />
     <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" />
     <import index="lai5" ref="r:42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0(io.lionweb.mps.json.instance.mps2lionweb)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
-    <import index="9b9d" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.serialization.data(org.lionweb.lioncore.java/)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
-    <import index="58k5" ref="r:085d8b5e-61a2-49e9-a34e-565f4024917d(io.lionweb.mps.converter.m2.idmapper.declarationnode)" />
-    <import index="y8s3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.project(MPS.Core/)" />
-    <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
-    <import index="jlff" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs(MPS.IDEA/)" />
-    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
-    <import index="mw71" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.persistence.def.v9(MPS.Core/)" />
+    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -510,7 +495,7 @@
                 <property role="TrG5h" value="jsonMetamodels" />
                 <node concept="_YKpA" id="z1IqfFSQiz" role="1tU5fm">
                   <node concept="3uibUv" id="z1IqfFSQiA" role="_ZDj9">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="z1IqfFSQkA" role="33vP2m">
@@ -836,8 +821,8 @@
                       <node concept="2Sf5sV" id="5wsogBcx5aF" role="37wK5m" />
                     </node>
                     <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
-                      <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
                       <node concept="HV5vD" id="6VkSF6ctHtr" role="2ShVmc">
@@ -865,7 +850,7 @@
                 <property role="TrG5h" value="metamodels" />
                 <node concept="A3Dl8" id="7qGUpN3CFJH" role="1tU5fm">
                   <node concept="3uibUv" id="7qGUpN3CFJK" role="A3Ik2">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="7qGUpN3CFOf" role="33vP2m">
@@ -1124,7 +1109,7 @@
                 <property role="TrG5h" value="output" />
                 <node concept="A3Dl8" id="39$JcGF9RAa" role="1tU5fm">
                   <node concept="3uibUv" id="39$JcGF9RAd" role="A3Ik2">
-                    <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+                    <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="39$JcGF9RE7" role="33vP2m">
@@ -1320,7 +1305,7 @@
                 <property role="TrG5h" value="jsonNodes" />
                 <node concept="_YKpA" id="1apSfP9EUO2" role="1tU5fm">
                   <node concept="3uibUv" id="1apSfP9EUO3" role="_ZDj9">
-                    <ref role="3uigEE" to="9b9d:~SerializedNode" resolve="SerializedNode" />
+                    <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="1apSfP9EUO4" role="33vP2m">
