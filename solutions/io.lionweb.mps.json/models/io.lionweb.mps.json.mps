@@ -16,6 +16,7 @@
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="jxh5" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization(io.lionweb.lioncore.java/)" />
     <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lioncore.java/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
@@ -139,6 +140,7 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+        <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
@@ -566,6 +568,13 @@
                 </node>
                 <node concept="ANE8D" id="2fx6VTTQ52H" role="2OqNvi" />
               </node>
+              <node concept="2YIFZM" id="5glO5qKZ1iC" role="37wK5m">
+                <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
+                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                <node concept="3uibUv" id="5glO5qKZ2iW" role="3PaCim">
+                  <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -592,6 +601,61 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5glO5qKYPJ7" role="jymVt" />
+    <node concept="3clFb_" id="5glO5qKYPf3" role="jymVt">
+      <property role="TrG5h" value="serialize" />
+      <node concept="3clFbS" id="5glO5qKYPf4" role="3clF47">
+        <node concept="3cpWs8" id="5glO5qKYPf5" role="3cqZAp">
+          <node concept="3cpWsn" id="5glO5qKYPf6" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="3uibUv" id="5glO5qKYPf7" role="1tU5fm">
+              <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
+            </node>
+            <node concept="1rXfSq" id="5glO5qKYPf8" role="33vP2m">
+              <ref role="37wK5l" node="6VkSF6c$yE2" resolve="convert" />
+              <node concept="2OqwBi" id="5glO5qKYPf9" role="37wK5m">
+                <node concept="37vLTw" id="5glO5qKYPfa" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5glO5qKYPfi" resolve="nodes" />
+                </node>
+                <node concept="ANE8D" id="5glO5qKYPfb" role="2OqNvi" />
+              </node>
+              <node concept="37vLTw" id="5glO5qKZ3Ym" role="37wK5m">
+                <ref role="3cqZAo" node="5glO5qKYQ0t" resolve="languages" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5glO5qKYPfc" role="3cqZAp" />
+        <node concept="3cpWs6" id="5glO5qKYPfd" role="3cqZAp">
+          <node concept="1rXfSq" id="5glO5qKYPfe" role="3cqZAk">
+            <ref role="37wK5l" node="6VkSF6c$B8C" resolve="write" />
+            <node concept="37vLTw" id="5glO5qKYPff" role="37wK5m">
+              <ref role="3cqZAo" node="5glO5qKYPf6" resolve="result" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5glO5qKYPfg" role="1B3o_S" />
+      <node concept="3uibUv" id="5glO5qKYPfh" role="3clF45">
+        <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
+      </node>
+      <node concept="37vLTG" id="5glO5qKYPfi" role="3clF46">
+        <property role="TrG5h" value="nodes" />
+        <node concept="A3Dl8" id="5glO5qKYPfj" role="1tU5fm">
+          <node concept="3uibUv" id="5glO5qKYPfk" role="A3Ik2">
+            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5glO5qKYQ0t" role="3clF46">
+        <property role="TrG5h" value="languages" />
+        <node concept="A3Dl8" id="5glO5qKYQfl" role="1tU5fm">
+          <node concept="3uibUv" id="5glO5qKYRq_" role="A3Ik2">
+            <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6VkSF6c$CM5" role="jymVt" />
     <node concept="3clFb_" id="5sACIIt41dL" role="jymVt">
       <property role="TrG5h" value="serialize" />
@@ -612,6 +676,13 @@
                   <node concept="37vLTw" id="2fx6VTTQ3dF" role="2HTEbv">
                     <ref role="3cqZAo" node="6VkSF6c$if4" resolve="node" />
                   </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="5glO5qKZ3im" role="37wK5m">
+                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
+                <node concept="3uibUv" id="5glO5qKZ3in" role="3PaCim">
+                  <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
                 </node>
               </node>
             </node>
@@ -650,6 +721,14 @@
         <node concept="A3Dl8" id="2fx6VTTPW$A" role="1tU5fm">
           <node concept="3uibUv" id="2fx6VTTQ0Js" role="A3Ik2">
             <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5glO5qKYSj7" role="3clF46">
+        <property role="TrG5h" value="languages" />
+        <node concept="A3Dl8" id="5glO5qKYSj8" role="1tU5fm">
+          <node concept="3uibUv" id="5glO5qKYSj9" role="A3Ik2">
+            <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
           </node>
         </node>
       </node>
@@ -697,6 +776,29 @@
                   <ref role="37wK5l" to="xfsv:~SerializedChunk.addNode(io.lionweb.lioncore.java.serialization.data.SerializedNode)" resolve="addNode" />
                   <node concept="2GrUjf" id="5s4Z0e0cf2T" role="37wK5m">
                     <ref role="2Gs0qQ" node="5s4Z0e0cale" resolve="n" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="5glO5qKYVRJ" role="3cqZAp">
+          <node concept="2GrKxI" id="5glO5qKYVRL" role="2Gsz3X">
+            <property role="TrG5h" value="l" />
+          </node>
+          <node concept="37vLTw" id="5glO5qKYWRM" role="2GsD0m">
+            <ref role="3cqZAo" node="5glO5qKYSj7" resolve="languages" />
+          </node>
+          <node concept="3clFbS" id="5glO5qKYVRP" role="2LFqv$">
+            <node concept="3clFbF" id="5glO5qKYTQb" role="3cqZAp">
+              <node concept="2OqwBi" id="5glO5qKYUhJ" role="3clFbG">
+                <node concept="37vLTw" id="5glO5qKYTQ9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5s4Z0e0bZx9" resolve="serializedChunk" />
+                </node>
+                <node concept="liA8E" id="5glO5qKYUW6" role="2OqNvi">
+                  <ref role="37wK5l" to="xfsv:~SerializedChunk.addMetamodel(io.lionweb.lioncore.java.serialization.data.MetamodelKeyVersion)" resolve="addMetamodel" />
+                  <node concept="2GrUjf" id="5glO5qKYYgd" role="37wK5m">
+                    <ref role="2Gs0qQ" node="5glO5qKYVRL" resolve="l" />
                   </node>
                 </node>
               </node>

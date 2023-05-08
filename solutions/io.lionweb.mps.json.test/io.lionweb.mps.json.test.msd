@@ -20,6 +20,7 @@
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
     <dependency reexport="false">537f9cb0-0f25-3c76-8b86-308f45010100(library)</dependency>
     <dependency reexport="false">97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)</dependency>
+    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />

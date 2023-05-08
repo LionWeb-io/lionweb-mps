@@ -213,6 +213,9 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
+        <child id="1226511765987" name="elementType" index="2hN53Y" />
+      </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -735,6 +738,16 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="5glO5qKZre9" role="3cqZAp">
+          <node concept="3cpWsn" id="5glO5qKZrea" role="3cpWs9">
+            <property role="TrG5h" value="languages" />
+            <node concept="2hMVRd" id="5glO5qKZr7i" role="1tU5fm">
+              <node concept="3uibUv" id="5glO5qKZr7l" role="2hN53Y">
+                <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1QHqEK" id="2q_M4ySrd_M" role="3cqZAp">
           <node concept="1QHqEC" id="2q_M4ySrd_O" role="1QHqEI">
             <node concept="3clFbS" id="2q_M4ySrd_Q" role="1bW5cS">
@@ -810,6 +823,21 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="5glO5qKZrvp" role="3cqZAp">
+                <node concept="37vLTI" id="5glO5qKZrvr" role="3clFbG">
+                  <node concept="2OqwBi" id="5glO5qKZreb" role="37vLTx">
+                    <node concept="37vLTw" id="5glO5qKZrec" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6VkSF6cxU6z" resolve="converter" />
+                    </node>
+                    <node concept="liA8E" id="5glO5qKZred" role="2OqNvi">
+                      <ref role="37wK5l" to="lai5:5glO5qKYIk9" resolve="getLanguages" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5glO5qKZrvv" role="37vLTJ">
+                    <ref role="3cqZAo" node="5glO5qKZrea" resolve="languages" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node concept="2OqwBi" id="2q_M4ySrdLq" role="ukAjM">
@@ -859,9 +887,12 @@
               <ref role="3cqZAo" node="5sACIIt25Bk" resolve="serializer" />
             </node>
             <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
-              <ref role="37wK5l" to="6peh:6VkSF6c$iAh" resolve="serialize" />
+              <ref role="37wK5l" to="6peh:5glO5qKYPf3" resolve="serialize" />
               <node concept="37vLTw" id="39$JcGHfG9R" role="37wK5m">
                 <ref role="3cqZAo" node="6VkSF6cxVxa" resolve="nodes" />
+              </node>
+              <node concept="37vLTw" id="5glO5qKZu2f" role="37wK5m">
+                <ref role="3cqZAo" node="5glO5qKZrea" resolve="languages" />
               </node>
             </node>
           </node>

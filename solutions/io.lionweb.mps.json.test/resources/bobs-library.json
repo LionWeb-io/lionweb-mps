@@ -1,6 +1,11 @@
 {
   "serializationFormatVersion": "1",
-  "metamodels": [],
+  "metamodels": [
+    {
+      "version": "0",
+      "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
+    }
+  ],
   "nodes": [
     {
       "id": "{id-lib}",
