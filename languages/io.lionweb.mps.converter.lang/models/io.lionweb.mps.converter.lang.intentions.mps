@@ -25,6 +25,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1331,6 +1332,12 @@
                         <node concept="2ShNRf" id="1apSfP9Fd38" role="37wK5m">
                           <node concept="HV5vD" id="1apSfP9FelP" role="2ShVmc">
                             <ref role="HV5vE" to="j5yh:5GtAzeJzX5t" resolve="JsonMpsCompatibleLanguageIdMapper" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="1bT$FEXiN7P" role="37wK5m">
+                          <node concept="1XNTG" id="1bT$FEXiMY3" role="2Oq$k0" />
+                          <node concept="liA8E" id="1bT$FEXiNiG" role="2OqNvi">
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
                       </node>

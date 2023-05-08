@@ -16,7 +16,6 @@
     <dependency reexport="true">9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lioncore.java)</dependency>
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
     <dependency reexport="false">4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)</dependency>
-    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)</dependency>
   </dependencies>
   <languageVersions>
@@ -25,6 +24,7 @@
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
     <language slang="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <language slang="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
     <language slang="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" version="5" />
@@ -36,7 +36,6 @@
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
-    <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lioncore.java)" version="0" />
     <module reference="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" version="0" />

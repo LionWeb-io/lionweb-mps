@@ -16,7 +16,6 @@
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">411e5b27-8a76-482e-8af8-1704262b4468(io.lionweb.mps.structure.attribute)</dependency>

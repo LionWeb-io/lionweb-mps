@@ -11,7 +11,6 @@
   <imports>
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="tozv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:org.lionweb.lioncore.java.metamodel(org.lionweb.lioncore.java/)" />
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
     <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
@@ -20,6 +19,7 @@
     <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
+    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
@@ -277,7 +277,7 @@
                 <property role="TrG5h" value="metamodels" />
                 <node concept="_YKpA" id="2A0cGJdREog" role="1tU5fm">
                   <node concept="3uibUv" id="2A0cGJdREoj" role="_ZDj9">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="2A0cGJdREpC" role="33vP2m">
@@ -313,7 +313,7 @@
                   <node concept="1uHKPH" id="5sACIIsz_xi" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="5sACIIszA_q" role="2OqNvi">
-                  <ref role="37wK5l" to="tozv:~Metamodel.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="loul:~Metamodel.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -337,7 +337,7 @@
                 <property role="TrG5h" value="converted" />
                 <node concept="3rvAFt" id="39$JcGELiVr" role="1tU5fm">
                   <node concept="3uibUv" id="39$JcGELiVx" role="3rvQeY">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                   <node concept="3uibUv" id="39$JcGELiVw" role="3rvSg0">
                     <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
@@ -476,7 +476,7 @@
                 <property role="TrG5h" value="metamodels" />
                 <node concept="_YKpA" id="5sACIIszZVL" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIszZVM" role="_ZDj9">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5sACIIszZVN" role="33vP2m">
@@ -507,8 +507,8 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="5sACIIs$aUU" role="37wK5m">
-                      <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ctE01" role="37wK5m">
                       <node concept="HV5vD" id="6VkSF6ctE03" role="2ShVmc">
@@ -754,7 +754,7 @@
                 <property role="TrG5h" value="metamodels" />
                 <node concept="_YKpA" id="5sACIIs_h0R" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIs_h0S" role="_ZDj9">
-                    <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5sACIIs_h0T" role="33vP2m">
@@ -785,8 +785,8 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="5sACIIs_h1a" role="37wK5m">
-                      <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ct_Co" role="37wK5m">
                       <node concept="HV5vD" id="6VkSF6ctDvO" role="2ShVmc">
@@ -1204,8 +1204,8 @@
                   </node>
                 </node>
                 <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
-                  <ref role="37wK5l" to="tozv:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                  <ref role="1Pybhc" to="tozv:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                 </node>
                 <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
                   <node concept="HV5vD" id="6VkSF6ctHtr" role="2ShVmc">
@@ -1231,7 +1231,7 @@
             <property role="TrG5h" value="metamodels" />
             <node concept="A3Dl8" id="5sACIIt1W1p" role="1tU5fm">
               <node concept="3uibUv" id="5sACIIt1W1s" role="A3Ik2">
-                <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+                <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
               </node>
             </node>
             <node concept="2OqwBi" id="5sACIIt1W7h" role="33vP2m">
@@ -1262,7 +1262,7 @@
           </node>
           <node concept="2ZW3vV" id="5sACIIt20R1" role="3vwVQn">
             <node concept="3uibUv" id="5sACIIt21eC" role="2ZW6by">
-              <ref role="3uigEE" to="tozv:~Metamodel" resolve="Metamodel" />
+              <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
             </node>
             <node concept="2OqwBi" id="5sACIIt1ZVA" role="2ZW6bz">
               <node concept="37vLTw" id="5sACIIt1YTh" role="2Oq$k0">
