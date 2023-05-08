@@ -119,6 +119,7 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -223,10 +224,14 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1237909114519" name="jetbrains.mps.baseLanguage.collections.structure.GetValuesOperation" flags="nn" index="T8wYR" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
         <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
+      <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
+        <child id="1240687658305" name="delimiter" index="3uJOhx" />
       </concept>
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -1176,6 +1181,60 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5glO5qL6EwO" role="3cqZAp" />
+        <node concept="2xdQw9" id="5glO5qL6FBr" role="3cqZAp">
+          <property role="2xdLsb" value="h1akgim/info" />
+          <node concept="3cpWs3" id="5glO5qL6Pbz" role="9lYJi">
+            <node concept="2OqwBi" id="5glO5qL6VLv" role="3uHU7w">
+              <node concept="2OqwBi" id="5glO5qL6RbM" role="2Oq$k0">
+                <node concept="37vLTw" id="5glO5qL6Q8F" role="2Oq$k0">
+                  <ref role="3cqZAo" node="DUXtH0vrC2" resolve="importedLanguages" />
+                </node>
+                <node concept="3$u5V9" id="5glO5qL6St4" role="2OqNvi">
+                  <node concept="1bVj0M" id="5glO5qL6St6" role="23t8la">
+                    <node concept="3clFbS" id="5glO5qL6St7" role="1bW5cS">
+                      <node concept="3clFbF" id="5glO5qL6TaT" role="3cqZAp">
+                        <node concept="2OqwBi" id="5glO5qL6TOm" role="3clFbG">
+                          <node concept="37vLTw" id="5glO5qL6TaS" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5glO5qL6St8" resolve="it" />
+                          </node>
+                          <node concept="liA8E" id="5glO5qL6UXt" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="5glO5qL6St8" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="5glO5qL6St9" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uJxvA" id="5glO5qL6X2g" role="2OqNvi">
+                <node concept="Xl_RD" id="5glO5qL6Yk8" role="3uJOhx">
+                  <property role="Xl_RC" value=", " />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs3" id="5glO5qL6MjG" role="3uHU7B">
+              <node concept="3cpWs3" id="5glO5qL6H5P" role="3uHU7B">
+                <node concept="Xl_RD" id="5glO5qL6FBt" role="3uHU7B">
+                  <property role="Xl_RC" value="imported " />
+                </node>
+                <node concept="2OqwBi" id="5glO5qL6JDU" role="3uHU7w">
+                  <node concept="37vLTw" id="5glO5qL6I7L" role="2Oq$k0">
+                    <ref role="3cqZAo" node="DUXtH0vrC2" resolve="importedLanguages" />
+                  </node>
+                  <node concept="34oBXx" id="5glO5qL6Kxp" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5glO5qL6N3Y" role="3uHU7w">
+                <property role="Xl_RC" value=" languages: " />
               </node>
             </node>
           </node>
