@@ -519,11 +519,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5wsogBcGDLt" role="3bR37C">
-          <node concept="3bR9La" id="5wsogBcGDLu" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="5wsogBcGDLv" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDLw" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
@@ -604,11 +599,6 @@
         <node concept="1SiIV0" id="5wsogBcGDLQ" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDLR" role="1SiIV1">
             <ref role="3bR37D" node="5wsogBcGDKV" resolve="io.lionweb.mps.m3" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5wsogBcGDLS" role="3bR37C">
-          <node concept="3bR9La" id="5wsogBcGDLT" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
         <node concept="1SiIV0" id="5wsogBcGDLU" role="3bR37C">
@@ -745,11 +735,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5wsogBcGDMJ" role="3bR37C">
-          <node concept="3bR9La" id="5wsogBcGDMK" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="5wsogBcGDML" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDMM" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
@@ -820,11 +805,6 @@
             <node concept="3qWCbU" id="5wsogBcGDNa" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3LWE6BDzx7x" role="3bR37C">
-          <node concept="3bR9La" id="3LWE6BDzx7y" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
       </node>
@@ -1122,6 +1102,11 @@
         <node concept="1SiIV0" id="5wsogBcGE1A" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGE1B" role="1SiIV1">
             <ref role="3bR37D" node="5wsogBcGDY_" resolve="library" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5glO5qL4gQ5" role="3bR37C">
+          <node concept="3bR9La" id="5glO5qL4gQ6" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
       </node>
