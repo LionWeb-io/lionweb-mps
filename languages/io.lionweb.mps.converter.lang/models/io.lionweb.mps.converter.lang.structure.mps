@@ -11,6 +11,11 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
@@ -36,6 +41,7 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -72,6 +78,9 @@
     <node concept="PrWs8" id="4pht$XsqYcT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1QGGSu" id="5glO5qL5ZAJ" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/mps2lionweb.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="DUXtH0uYK3">
     <property role="EcuMT" value="755186209566485507" />
@@ -85,6 +94,9 @@
     <node concept="PrWs8" id="7qGUpN3Cisn" role="PzmwI">
       <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
     </node>
+    <node concept="1QGGSu" id="5glO5qL5M2n" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/lionweb2mps.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="z1IqfFSzDB">
     <property role="EcuMT" value="630989536496859751" />
@@ -92,6 +104,9 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Import Language from JSON" />
     <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+    <node concept="1QGGSu" id="5glO5qL6ePs" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/json2language.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="48csSBOOT6J">
     <property role="EcuMT" value="4759305942578991535" />
@@ -114,6 +129,9 @@
     <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
     <node concept="PrWs8" id="7qGUpN3CiCo" role="PzmwI">
       <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
+    </node>
+    <node concept="1QGGSu" id="5glO5qL6eP_" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/language2json.png" />
     </node>
   </node>
   <node concept="PlHQZ" id="7qGUpN3Cils">
@@ -144,6 +162,9 @@
       <property role="IQ2nx" value="3631234780355961878" />
       <property role="TrG5h" value="scope" />
       <ref role="AX2Wp" node="39$JcGFainj" resolve="ExportScope" />
+    </node>
+    <node concept="1QGGSu" id="5glO5qL6ePy" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/instance2json.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="39$JcGF9n8k">
@@ -180,6 +201,9 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Import Instance from JSON" />
     <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+    <node concept="1QGGSu" id="5glO5qL6ePv" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/json2instance.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4na9S9Ya_fk">
     <property role="EcuMT" value="5028875375328515028" />

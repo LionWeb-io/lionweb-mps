@@ -9,21 +9,8 @@
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="2756621024541681841" name="jetbrains.mps.lang.resources.structure.Primitive" flags="ng" index="1irPi6">
-        <child id="1860120738943552529" name="fillColor" index="3PKjn_" />
-        <child id="1860120738943552531" name="borderColor" index="3PKjnB" />
-      </concept>
-      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
-        <property id="2756621024541681854" name="text" index="1irPi9" />
-        <child id="1860120738943552534" name="color" index="3PKjny" />
-      </concept>
-      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
-        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
-        <child id="2756621024541675110" name="layers" index="1irR9h" />
-      </concept>
-      <concept id="2756621024541675104" name="jetbrains.mps.lang.resources.structure.Circle" flags="ng" index="1irR9n" />
-      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
-        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -259,22 +246,8 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2ju2syjknNi" resolve="LanguageReference" />
     </node>
-    <node concept="1irR5M" id="39$JcGF7lf0" role="rwd14">
-      <property role="2$rrk2" value="1" />
-      <node concept="1irR9n" id="39$JcGF7WHi" role="1irR9h">
-        <node concept="3PKj8D" id="39$JcGF7WHs" role="3PKjn_">
-          <property role="3PKj8l" value="00ff00" />
-        </node>
-        <node concept="3PKj8D" id="39$JcGF7WHu" role="3PKjnB">
-          <property role="3PKj8l" value="80ff80" />
-        </node>
-      </node>
-      <node concept="1irPie" id="39$JcGF7lfk" role="1irR9h">
-        <property role="1irPi9" value="L" />
-        <node concept="3PKj8D" id="39$JcGF7lfs" role="3PKjny">
-          <property role="3PKj8l" value="000000" />
-        </node>
-      </node>
+    <node concept="1QGGSu" id="5glO5qL4Zox" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/lionweb-language.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ju2syjknNi">
