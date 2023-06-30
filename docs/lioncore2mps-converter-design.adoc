@@ -177,8 +177,8 @@ interface ILanguageIdExtractor<RESULT\n LANGUAGE\n FEATURES_CONTAINER\n CONCEPT\
 interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
 interface IDeclarationNodeLanguageIdMapper<LANGUAGE=\nmodel> extends ILanguageIdMapper
 interface ISLanguageIdMapper<LANGUAGE=\nSLanguage> extends ILanguageIdMapper
-interface ILionCoreLanguageIdMapper<LANGUAGE=\nLanguage> extends ILanguageIdMapper
-interface IJsonLanguageIdMapper<LANGUAGE=\nMetamodel> extends ILanguageIdMapper
+interface ILionCoreLanguageIdMapper<LANGUAGE=\nnode<m3.Language>> extends ILanguageIdMapper
+interface IJsonLanguageIdMapper<LANGUAGE=\njson.Language> extends ILanguageIdMapper
 
 interface ISLanguageIdExtractor<RESULT=Object\n LANGUAGE=SLanguage> extends ILanguageIdExtractor
 ----
@@ -215,7 +215,7 @@ hide empty members
 
 interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
 
-interface IDeclarationNodeLanguageIdMapper<LANGUAGE=model\n AbstractConceptDeclaration\n ConceptDeclaration\n InterfaceConceptDeclaration\n PropertyDeclaration\n LinkDeclaration\n LinkDeclaration\n LinkDeclaration\n DataTypeDeclaration\n DataTypeDeclaration\n EnumerationDeclaration\n EnumerationMemberDeclaration> extends ILanguageIdMapper
+interface IDeclarationNodeLanguageIdMapper<LANGUAGE=model\n node<AbstractConceptDeclaration>\n node<ConceptDeclaration>\n node<InterfaceConceptDeclaration>\n node<PropertyDeclaration>\n node<LinkDeclaration>\n node<LinkDeclaration>\n node<LinkDeclaration>\n node<DataTypeDeclaration>\n node<DataTypeDeclaration>\n node<EnumerationDeclaration>\n node<EnumerationMemberDeclaration>> extends ILanguageIdMapper
 
 abstract class ADeclarationNodeLanguageIdMapper implements IDeclarationNodeLanguageIdMapper
 class DeclarationNodeCompatibleLanguageIdMapper extends ADeclarationNodeLanguageIdMapper
@@ -262,7 +262,7 @@ hide empty members
 
 interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
 
-interface ILionCoreLanguageIdMapper<Language\n FeaturesContainer\n Concept\n ConceptInterface\n Property\n Link\n Containment\n Reference\n DataType\n PrimitiveType\n Enumeration\n EnumerationLiteral> extends ILanguageIdMapper
+interface ILionCoreLanguageIdMapper<node<Language>\n node<FeaturesContainer>\n node<Concept>\n node<ConceptInterface>\n node<Property>\n node<Link>\n node<Containment>\n node<Reference>\n node<DataType>\n node<PrimitiveType>\n node<Enumeration>\n node<EnumerationLiteral>> extends ILanguageIdMapper
 
 class LionCoreLanguageIdMapper implements ILionCoreLanguageIdMapper
 class LionCoreMpsCompatibleLanguageIdMapper implements ILionCoreLanguageIdMapper
@@ -288,7 +288,7 @@ hide empty members
 
 interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
 
-interface IJsonLanguageIdMapper<Metamodel\n FeaturesContainer\n Concept\n ConceptInterface\n Property\n Link\n Containment\n Reference\n DataType\n PrimitiveType\n Enumeration\n EnumerationLiteral> extends ILanguageIdMapper
+interface IJsonLanguageIdMapper<Language\n FeaturesContainer\n Concept\n ConceptInterface\n Property\n Link\n Containment\n Reference\n DataType\n PrimitiveType\n Enumeration\n EnumerationLiteral> extends ILanguageIdMapper
 
 class JsonBase64LanguageIdMapper implements IJsonLanguageIdMapper
 class JsonDirectLanguageIdMapper implements IJsonLanguageIdMapper
@@ -548,15 +548,15 @@ LIonWeb bulk protocol implementation that serves the MPS repository.
 Possible URLs:
 
 minimal:::
-`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7( )`
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(%20)[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7( )`]
 +
-(Note the pair of parenthesis with a whitespace at the end.)
+(Note the pair of parenthesis enclosing a whitespace at the end.)
 
 including name:::
-`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)`
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)`]
 
 including project:::
-`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS`
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS`]
 +
 `project` parameter can also be used with minimal model id.
 
@@ -564,14 +564,14 @@ including project:::
 LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
 
 minimal:::
-`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d( )`
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(%20)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d( )`]
 +
-(Note the pair of parenthesis with a whitespace at the end.)
+(Note the pair of parenthesis enclosing a whitespace at the end.)
 
 including name:::
-`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)`
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)`]
 
 including project:::
-`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS`
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS`]
 +
 `project` parameter can also be used with minimal module id.
