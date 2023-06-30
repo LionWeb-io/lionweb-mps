@@ -544,6 +544,7 @@ Solution `io.lionweb.mps.server.plugin` adds some endpoints to the MPS http serv
 
 `/lionweb/bulk`::
 LIonWeb bulk protocol implementation that serves the MPS repository.
+Supports GET and POST requests.
 +
 Possible URLs:
 
@@ -562,6 +563,7 @@ http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bd
 
 `/lionweb/language`::
 LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
+Supports GET requests.
 
 minimal:::
 http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(%20)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d( )`]
