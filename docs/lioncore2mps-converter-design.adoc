@@ -1,84 +1,432 @@
+:link-LionCore2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A08a4d3db-1d32-4a82-9df0-5b66cc2b1164%28io.lionweb.mps.json.lioncore%29%2F6279885863242958594
+:link-Json2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3A08a4d3db-1d32-4a82-9df0-5b66cc2b1164%28io.lionweb.mps.json.lioncore%29%2F630989536490666349
+:link-Mps2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3Aafdf88c6-003c-454f-85c3-e72d4fc9ce83%28io.lionweb.mps.converter.m2.mps2lioncore%29%2F2656571587266463715
+:link-LionCore2MpsConverter: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F755186209555144119
+:link-Language2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3Ae45778bd-f0ea-44bf-9316-68791f46fac0%28io.lionweb.mps.converter.m2.language2lioncore%29%2F4759305942562826472
+:link-IndirectLanguage2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3Ae45778bd-f0ea-44bf-9316-68791f46fac0%28io.lionweb.mps.converter.m2.language2lioncore%29%2F4759305942570562814
+:link-Language2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F4759305942562826472
+:link-IndirectLanguage2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F4759305942570562814
+:link-Json2LanguageConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F2585378165952945300
+
+:link-LionWeb2MpsConverter: http://127.0.0.1:63320/node?ref=r%3A00cfecac-5da5-48e5-8a70-507b9f69321c%28io.lionweb.mps.json.instance.lionweb2mps%29%2F2585378165952866695
+:link-AMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F4759305942556731328
+:link-ClosureMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F7986257291398353286
+:link-DescendantMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F7986257291398064448
+:link-ListedMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F7986257291398061321
+
+:link-SLanguage: http://127.0.0.1:63320/node?ref=8865b7a8-5271-43d3-884c-6fd1d9cfdd34%2Fjava%3Aorg.jetbrains.mps.openapi.language%28MPS.OpenAPI%2F%29%2F%7ESLanguage
+:link-Language: http://127.0.0.1:63320/node?ref=6ed54515-acc8-4d1e-a16c-9fd6cfe951ea%2Fjava%3Ajetbrains.mps.smodel%28MPS.Core%2F%29%2F%7ELanguage
+:link-SLanguageAdapter: http://127.0.0.1:63320/node?ref=6ed54515-acc8-4d1e-a16c-9fd6cfe951ea%2Fjava%3Ajetbrains.mps.smodel.adapter.structure.language%28MPS.Core%2F%29%2F%7ESLanguageAdapter
+:link-LanguageRuntime: http://127.0.0.1:63320/node?ref=6ed54515-acc8-4d1e-a16c-9fd6cfe951ea%2Fjava%3Ajetbrains.mps.smodel.language%28MPS.Core%2F%29%2F%7ELanguageRuntime
+:link-SLanguageId: http://127.0.0.1:63320/node?ref=6ed54515-acc8-4d1e-a16c-9fd6cfe951ea%2Fjava%3Ajetbrains.mps.smodel.adapter.ids%28MPS.Core%2F%29%2F%7ESLanguageId
+
+:link-ILanguageLookup: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F3726135215532697104
+
+:link-IImportedLanguage: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F36799617969071123
+:link-ExistingImportedLanguage: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F36799617970290621
+:link-ReadonlyImportedLanguage: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F755186209568755786
+:link-NewImportedLanguage: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F755186209568767555 
+
+:link-ILanguageCreator: http://127.0.0.1:63320/node?ref=r%3A303e2235-6078-45d3-bca1-4bd6b06c2770%28io.lionweb.mps.converter.m2.lioncore2mps%29%2F36799617970567305
+:link-LionCoreConstants: http://127.0.0.1:63320/node?ref=r%3A22b51c3d-d5d6-4746-9401-f324f9429ada%28io.lionweb.mps.converter.m2%29%2F755186209555306543
+
+:link-LionCoreConstants: http://127.0.0.1:63320/node?ref=r%3A22b51c3d-d5d6-4746-9401-f324f9429ada%28io.lionweb.mps.converter.m2%29%2F755186209555306543
+:link-JsonBuiltins: http://127.0.0.1:63320/node?ref=r%3A677983a1-6578-432d-8175-68c906e0375c%28io.lionweb.mps.json%29%2F3631234780367508809
+:link-IdEncoder: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F2585378165967625423
+:link-MpsCompatibleIdEncoder: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F3631234780349689305
+:link-LanguageExtensionFinder: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F5066961138994997345
+:link-LionWebAttributeFinder: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F465557625272401568
+:link-MpsLanguageConverter: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F3631234780376153588
+
 = Design of LIonCore to MPS Converter
 
-== Variants
+== Representations of Languages
 image::M3-language-variants.svg[]
 
-== Overview
+[[LionCore-M3, LIonCore MPS M3]]
+LIonCore MPS M3::
+Module `io.lionweb.mps.m3` contains LIonCore meta-meta-model as MPS language.
+Mainly used to test conversion between MPS and LIonCore concepts.
 
-=== Public Interface
-.Public Interface
-[plantuml, public-interface, svg]
+[[JSON-M3, Java JSON]]
+LIonCore Java M3::
+Module `org.lionweb.lioncore.java` contains LIonCore meta-meta-model as Java classes.
+Used to serialize / unserialize LIonWeb M2 and M1 models to / from JSON.
+
+[[LanguageStructure, MPS Language structure]]
+Language structure::
+Module `jetbrains.mps.lang.structure` contains MPS meta-meta-model as MPS language.
+Used to define languages inside MPS.
+
+[[SLanguage, SLanguage]]
+{link-SLanguage}[`SLanguage`] interfaces::
+Model `org.jetbrains.mps.openapi.language` contains MPS meta-meta-model as Java interfaces.
+Used by MPS to represent deployed language interfaces.
+
+{link-IImportedLanguage}[``IImportedLanguage``]s::
+MPS is very picky how to change already existing languages.
+This interface separates _converting_ to an MPS language from _importing_ the MPS language.
+
+{link-ExistingImportedLanguage}[``ExistingImportedLanguage``]:::
+Applies only changes from the imported language to an already existing MPS language.
+
+{link-ReadonlyImportedLanguage}[``ReadonlyImportedLanguage``]:::
+Represents existing MPS languages that cannot be changed (e.g. because they are part of plugins, or core MPS).
+Any detected change from the imported language throws an exception.
+
+{link-NewImportedLanguage}[``NewImportedLanguage``]:::
+Simply creates an imported, not yet existing language.
+
+[[internal-representations]]
+=== Internal representations
+NOTE: The following representations are only used internally in MPS.
+The diagram shows how to get from one representation to another.
+
+[plantuml%interactive,mps-language-classes,svg,subs="attributes+"]
 ----
-class LionCore2MpsConverter {
-    new(ILanguageLookup, LionCoreConstants, Metamodel[])
-    convert(): IImportedLanguage[]
-}
-
-LionCore2MpsConverter .> ILanguageLookup
-LionCore2MpsConverter .> LionCoreConstants
-LionCore2MpsConverter ..> IImportedLanguage
-
-interface ILanguageLookup {
-    createImportedLanguage(Metamodel): IImportedLanguage
-}
-
-ILanguageLookup ..> IImportedLanguage
-
-interface IImportedLanguage {
-    getLanguage(): SLanguage
-    getRootNodes(): node[]
-
-    apply(ILanguageCreator): string[]
-}
-
-IImportedLanguage .> ILanguageCreator
-
-interface ILanguageCreator {
-    createLanguage(namespace, id): Language
-}
-
-class LionCoreConstants {
-    LC_STRING_TYPE: PrimitiveType
-    MPS_STRING_TYPE: PrimitiveDataTypeDeclaration
-
-    LC_BOOLEAN_TYPE: PrimitiveType
-    MPS_BOOLEAN_TYPE: PrimitiveDataTypeDeclaration
-
-    MPS_BASE_CONCEPT: ConceptDeclaration
-
-    new(SRepository)
-}
+include::mps-language-classes.puml[]
 ----
 
-=== Main Converter Workflow
-[plantuml, main-converter, svg]
+{link-Language}[`Language`] class::
+Model `jetbrains.mps.smodel` contains a language as module.
+
+{link-SLanguageAdapter}[`SLanguageAdapter`] class::
+Model `jetbrains.mps.smodel.adapter.structure` (and contained models) contain MPS meta-meta-model as Java classes.
+
+{link-LanguageRuntime}[`LanguageRuntime`] class::
+Model `jetbrains.mps.smodel.language` contains the runtime representation of a language with all its aspects.
+
+[[SLanguageId, SLanguageId]]
+{link-SLanguageId}[`SLanguageId`] class::
+Model `jetbrains.mps.smodel.adapter.ids` contains a unique identifier for a language.
+
+
+== Available Converters
+=== M2
+{link-LionCore2JsonConverter}[LionCore2JsonConverter]::
+Exports LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3` to LIonWeb JSON ``Language``s.
+
+{link-Json2LionCoreConverter}[Json2LionCoreConverter]::
+Imports LIonWeb JSON ``Language``s to LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3`.
+
+{link-Mps2LionCoreConverter}[Mps2LionCoreConverter]::
+Converts MPS language structure models to to LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3`.
+The converted language does _not_ need to be deployed.
+
+{link-LionCore2MpsConverter}[LionCore2MpsConverter]::
+Converts LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3` to ``AImportedLanguage``s.
+
+{link-Language2LionCoreConverter}[Language2LionCoreConverter]::
+Converts deployed MPS ``SLanguage``s to to LIonWeb M2 ``Language``s expressed in MPS `language io.lionweb.mps.m3`.
+
+{link-IndirectLanguage2LionCoreConverter}[IndirectLanguage2LionCoreConverter]:::
+Converts the transitive closure of deployed MPS ``SLanguage``s to LIonWeb M2 ``Language``s expressed in MPS `language io.lionweb.mps.m3`.
+
+{link-Language2JsonConverter}[Language2JsonConverter]::
+Converts MPS ``SLanguage``s to LIonWeb JSON ``Language``s.
+The source of this converter are compiled languages inside MPS.
+
+{link-IndirectLanguage2JsonConverter}[IndirectLanguage2JsonConverter]:::
+Converts the transitive closure of MPS ``SLanguage``s to LIonWeb JSON ``Language``s.
+
+{link-Json2LanguageConverter}[Json2LanguageConverter]::
+Converts LIonWeb JSON ``Language``s to compiled ``SLanguage``s present in MPS.
+Fails if any part of the source language is not present in MPS.
+
+=== M1
+{link-LionWeb2MpsConverter}[LionWeb2MpsConverter]::
+Converts a sequence of ``SerializedNode``s (originating from parsed LIonWeb JSON) to MPS ``SNode``s.
+Handles every `SerializedNode` as a new MPS `SNode`.
+Assumes all used languages are present as built languages in MPS.
+
+{link-AMps2LionWebConverter}[AMps2LionWebConverter]::
+Converts MPS ``SNode``s to LIonWeb JSON ``SerializedNode``s.
+Subclasses decide which nodes besides the input nodes should be processed:
+
+{link-ClosureMps2LionWebConverter}[ClosureMps2LionWebConverter]:::
+Converts the transitive closure of all MPS ``SNode``s listed in the constructor, all descendants, and all references to LIonWeb JSON ``SerializedNode``s.
+
+{link-DescendantMps2LionWebConverter}[DescendantMps2LionWebConverter]:::
+Converts all MPS ``SNode``s listed in the constructor, and all descendants, to LIonWeb JSON ``SerializedNode``s.
+
+{link-ListedMps2LionWebConverter}[ListedMps2LionWebConverter]:::
+Converts only the MPS ``SNode``s listed in the constructor to LIonWeb JSON ``SerializedNode``s.
+
+== Available id mappers
+.Overview
+[plantuml%interactive, id-mappers-overview, svg]
 ----
-actor caller
-participant LionCore2MpsConverter as conv
-participant ILanguageLookup as lookup
-collections AImportedLanguage as langs
+hide empty members
+'left to right direction
 
-caller --> conv **: new(metamodels)
+interface ILanguageIdExtractor<RESULT\n LANGUAGE\n FEATURES_CONTAINER\n CONCEPT\n IFACE\n PROPERTY\n LINK\n CONTAINMENT\n REFERENCE\n DATATYPE\n PRIMITIVE\n ENUM\n ENUM_LITERAL> {
+  mapLanguage(language: LANGUAGE): RESULT 
+  mapFeaturesContainer(featuresContainer: FEATURES_CONTAINER): RESULT 
+  mapConcept(concept: CONCEPT): RESULT 
+  mapIface(iface: IFACE): RESULT 
+  mapProperty(property: PROPERTY): RESULT 
+  mapLink(link: LINK): RESULT 
+  mapContainment(containment: CONTAINMENT): RESULT 
+  mapReference(reference: REFERENCE): RESULT 
+  mapDataType(datatype: DATATYPE): RESULT 
+  mapPrimitive(primitive: PRIMITIVE): RESULT 
+  mapEnum(enm: ENUM): RESULT 
+  mapEnumLiteral(literal: ENUM_LITERAL): RESULT
+}
 
-caller -> conv ++: convert()
-    conv -> conv ++: createImportedLanguages(metamodels)
-        conv -> lookup ++: createImportedLanguage(metamodel)
-            lookup --> langs **
-        return importedLanguage
-    return importedLanguages
-    conv -> langs ++: register()
-    return lionCore2MpsMap
-    conv -> conv: mergeAllMaps()
-    conv -> langs: convert(mergedMap)
-    conv -> langs: link(mergedMap)
-return importedLanguages
+interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
+interface IDeclarationNodeLanguageIdMapper<LANGUAGE=\nmodel> extends ILanguageIdMapper
+interface ISLanguageIdMapper<LANGUAGE=\nSLanguage> extends ILanguageIdMapper
+interface ILionCoreLanguageIdMapper<LANGUAGE=\nnode<m3.Language>> extends ILanguageIdMapper
+interface IJsonLanguageIdMapper<LANGUAGE=\njson.Language> extends ILanguageIdMapper
 
-caller -> langs ++: apply()
-return messages
+interface ISLanguageIdExtractor<RESULT=Object\n LANGUAGE=SLanguage> extends ILanguageIdExtractor
 ----
 
-== Internal Structure
-=== Imported Language Hierarchy
+=== ISLanguageIdExtractor
+Maps <<SLanguage>> elements to <<SLanguageId>>s.
+
+[plantuml%interactive, slanguage-id-extractor, svg]
+----
+hide empty members
+'left to right direction
+
+interface ILanguageIdExtractor
+
+interface ISLanguageIdExtractor<RESULT=Object\n SLanguage\n SAbstractConcept\n SConcept\n SInterfaceConcept\n SProperty\n SAbstractLink\n SContainmentLink\n SReferenceLink\n SDataType\n SDataType\n SEnumeration\n SEnumerationLiteral> extends ILanguageIdExtractor
+
+class SLanguageCompleteIdExtractor implements ISLanguageIdExtractor
+----
+
+=== ILanguageIdMapper
+==== IDeclarationNodeLanguageIdMapper
+Maps <<LanguageStructure>> elements to strings.
+
+DeclarationNodeCompatibleLanguageIdMapper::
+Returns either a key or the element's id.
+
+DeclarationNodeLanguageIdMapper::
+Returns either a key or the element's id, Base64_url encoded.
+
+[plantuml%interactive, declaration-node-language-id-mappers, svg]
+----
+hide empty members
+'left to right direction
+
+interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
+
+interface IDeclarationNodeLanguageIdMapper<LANGUAGE=model\n node<AbstractConceptDeclaration>\n node<ConceptDeclaration>\n node<InterfaceConceptDeclaration>\n node<PropertyDeclaration>\n node<LinkDeclaration>\n node<LinkDeclaration>\n node<LinkDeclaration>\n node<DataTypeDeclaration>\n node<DataTypeDeclaration>\n node<EnumerationDeclaration>\n node<EnumerationMemberDeclaration>> extends ILanguageIdMapper
+
+abstract class ADeclarationNodeLanguageIdMapper implements IDeclarationNodeLanguageIdMapper
+class DeclarationNodeCompatibleLanguageIdMapper extends ADeclarationNodeLanguageIdMapper
+class DeclarationNodeLanguageIdMapper extends ADeclarationNodeLanguageIdMapper
+----
+
+==== ISLanguageIdMapper
+Maps <<SLanguage>> elements to strings.
+
+SLanguageBase64IdMapper::
+Returns either a key or the element's <<ISLanguageIdExtractor>>, encoded in Base64_url.
+
+SLanguageLongIdMapper::
+Returns either a key or the element's <<ISLanguageIdExtractor>> as long.
+
+
+[plantuml%interactive, slanguage-id-mappers, svg]
+----
+hide empty members
+'left to right direction
+
+interface ISLanguageIdMapper<SLanguage\n SAbstractConcept\n SConcept\n SInterfaceConcept\n SProperty\n SAbstractLink\n SContainmentLink\n SReferenceLink\n SDataType\n SDataType\n SEnumeration\n SEnumerationLiteral> extends ILanguageIdMapper
+
+
+abstract class ASLanguageIdMapper implements ISLanguageIdMapper
+class SLanguageBase64IdMapper extends ASLanguageIdMapper
+class SLanguageLongIdMapper extends ASLanguageIdMapper
+----
+
+==== ILionCoreLanguageIdMapper
+Maps <<LionCore-M3>> elements to strings.
+
+LionCoreLanguageIdMapper::
+Returns the element's key.
+
+LionCoreMpsCompatibleLanguageIdMapper::
+Returns the element's key as long, either parsed or part of the MD5 checksum.
+
+
+[plantuml%interactive, lioncore-language-id-mappers, svg]
+----
+hide empty members
+'left to right direction
+
+interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
+
+interface ILionCoreLanguageIdMapper<node<Language>\n node<FeaturesContainer>\n node<Concept>\n node<ConceptInterface>\n node<Property>\n node<Link>\n node<Containment>\n node<Reference>\n node<DataType>\n node<PrimitiveType>\n node<Enumeration>\n node<EnumerationLiteral>> extends ILanguageIdMapper
+
+class LionCoreLanguageIdMapper implements ILionCoreLanguageIdMapper
+class LionCoreMpsCompatibleLanguageIdMapper implements ILionCoreLanguageIdMapper
+----
+
+==== IJsonLanguageIdMapper
+Maps <<JSON-M3>> elements to strings.
+
+JsonBase64LanguageIdMapper::
+Returns the element's key, decoded from Base64_url.
+
+JsonDirectLanguageIdMapper::
+Returns the element's key.
+
+JsonMpsCompatibleLanguageIdMapper::
+Returns the element's key as long, either parsed or part of the MD5 checksum.
+
+
+[plantuml%interactive, json-language-id-mappers, svg]
+----
+hide empty members
+'left to right direction
+
+interface ILanguageIdMapper<RESULT=string> extends ILanguageIdExtractor
+
+interface IJsonLanguageIdMapper<Language\n FeaturesContainer\n Concept\n ConceptInterface\n Property\n Link\n Containment\n Reference\n DataType\n PrimitiveType\n Enumeration\n EnumerationLiteral> extends ILanguageIdMapper
+
+class JsonBase64LanguageIdMapper implements IJsonLanguageIdMapper
+class JsonDirectLanguageIdMapper implements IJsonLanguageIdMapper
+class JsonMpsCompatibleLanguageIdMapper implements IJsonLanguageIdMapper
+----
+
+== Supporting classes
+
+{link-LionCoreConstants}[LionCoreConstants]::
+Access to constants like built-in elements in different language representations.
+
+{link-JsonBuiltins}[JsonBuiltins]::
+Access to constants like built-in elements in <<JSON-M3>>.
+
+{link-IdEncoder}[IdEncoder]::
+Encodes and decodes with Base64_url.
+
+{link-MpsCompatibleIdEncoder}[MpsCompatibleIdEncoder]::
+Unsafe shenanigans to coerce LIonWeb ids to MPS ids.
+
+{link-LanguageExtensionFinder}[LanguageExtensionFinder]::
+Finds all languages extended and/or needed by a language.
+
+{link-LionWebAttributeFinder}[LionWebAttributeFinder]::
+We store additional information (like concept's keys) in ``SNodeAttribute``s.
+This class helps accessing them.
+
+{link-MpsLanguageConverter}[MpsLanguageConverter]::
+Easy access to all the <<internal-representations, conversions>> between language representations.
+
+== Supporting MPS Languages
+
+`io.lionweb.mps.converter.lang`::
+Concepts to conveniently use the converters.
+
+`io.lionweb.mps.structure.attribute`::
+``SNodeAttribute``s to store additional information (like concept's keys) in language's structure aspect. 
+
+// == Overview
+// 
+// === Public Interface
+// .Public Interface
+// [plantuml%interactive,public-interface,svg,subs="attributes+"]
+// ----
+// class LionCore2MpsConverter [[{link-LionCore2MpsConverter}]] {
+//     new(ILanguageLookup, LionCoreConstants, Metamodel[])
+//     convert(): IImportedLanguage[]
+// }
+// 
+// LionCore2MpsConverter .> ILanguageLookup
+// LionCore2MpsConverter .> LionCoreConstants
+// LionCore2MpsConverter ..> IImportedLanguage
+// 
+// interface ILanguageLookup [[{link-ILanguageLookup}]] {
+//     createImportedLanguage(Metamodel): IImportedLanguage
+// }
+// 
+// ILanguageLookup ..> IImportedLanguage
+// 
+// interface IImportedLanguage [[{link-IImportedLanguage}]] {
+//     getLanguage(): SLanguage
+//     getRootNodes(): node[]
+// 
+//     apply(ILanguageCreator): string[]
+// }
+// 
+// IImportedLanguage .> ILanguageCreator
+// 
+// interface ILanguageCreator [[{link-ILanguageCreator}]] {
+//     createLanguage(namespace, id): Language
+// }
+// 
+// class LionCoreConstants [[{link-LionCoreConstants}]] {
+//     LC_STRING_TYPE: PrimitiveType
+//     MPS_STRING_TYPE: PrimitiveDataTypeDeclaration
+// 
+//     LC_BOOLEAN_TYPE: PrimitiveType
+//     MPS_BOOLEAN_TYPE: PrimitiveDataTypeDeclaration
+// 
+//     MPS_BASE_CONCEPT: ConceptDeclaration
+// 
+//     new(SRepository)
+// }
+// ----
+// 
+// === Main Converter Workflow
+// [plantuml, main-converter, svg]
+// ----
+// actor caller
+// participant LionCore2MpsConverter as conv
+// participant ILanguageLookup as lookup
+// collections AImportedLanguage as langs
+// 
+// caller --> conv **: new(metamodels)
+// 
+// caller -> conv ++: convert()
+//     conv -> conv ++: createImportedLanguages(metamodels)
+//         conv -> lookup ++: createImportedLanguage(metamodel)
+//             lookup --> langs **
+//         return importedLanguage
+//     return importedLanguages
+//     conv -> langs ++: register()
+//     return lionCore2MpsMap
+//     conv -> conv: mergeAllMaps()
+//     conv -> langs: convert(mergedMap)
+//     conv -> langs: link(mergedMap)
+// return importedLanguages
+// 
+// caller -> langs ++: apply()
+// return messages
+// ----
+
+== Java JSON
+
+=== MetaPointerLookup
+Converts <<JSON-M3>> ``MetaPointer``s to <<SLanguage>> elements.
+
+[plantuml, meta-pointer-lookup, svg]
+----
+interface IMetaPointerLookup {
+  lookupConcept(metaPointer: MetaPointer): SConcept
+  lookupProperty(concept: SConcept, metaPointer: MetaPointer): SProperty
+  lookupContainment(concept: SConcept, metaPointer: MetaPointer): SContainmentLink
+  lookupReference(concept: SConcept, metaPointer: MetaPointer): SReferenceLink
+}
+
+abstract class AMetaPointerLookup implements IMetaPointerLookup {
+  new(idMapper: IJsonLanguageIdMapper, repository:SRepository)
+}
+
+class ConcatenatingMetaPointerLookup extends AMetaPointerLookup
+
+class DirectMetaPointerLookup extends AMetaPointerLookup
+----
+
+The opposite is `MetaPointerCreator`.
+
+== Imported Languages
 
 .Imported Language Hierarchy
 [plantuml, imported-language, svg]
@@ -188,3 +536,44 @@ class MoveParentDelta extends ANodeDelta {
     newParent: SNode
 }
 ----
+
+== MPS as LIonWeb repository
+
+=== HTTP interface
+Solution `io.lionweb.mps.server.plugin` adds some endpoints to the MPS http server:
+
+`/lionweb/bulk`::
+LIonWeb bulk protocol implementation that serves the MPS repository.
+Supports GET and POST requests.
++
+Possible URLs:
+
+minimal:::
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(%20)[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7( )`]
++
+(Note the pair of parenthesis enclosing a whitespace at the end.)
+
+including name:::
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)`]
+
+including project:::
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS`]
++
+`project` parameter can also be used with minimal model id.
+
+`/lionweb/language`::
+LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
+Supports GET requests.
+
+minimal:::
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(%20)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d( )`]
++
+(Note the pair of parenthesis enclosing a whitespace at the end.)
+
+including name:::
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)`]
+
+including project:::
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS`]
++
+`project` parameter can also be used with minimal module id.

@@ -952,6 +952,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="39$JcGFQlla" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1ilOlIESDA4" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIESDA5" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIESDA6" role="1dT_Ay">
+          <property role="1dT_AB" value="Access to constants like built-in elements in Java JSON." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5s4Z0e0n9EM">
     <property role="TrG5h" value="ASerializer" />

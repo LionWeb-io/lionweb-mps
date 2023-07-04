@@ -5612,6 +5612,13 @@
         </node>
       </node>
     </node>
+    <node concept="3UR2Jj" id="1ilOlIEOU4l" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEOU4m" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEOU4n" role="1dT_Ay">
+          <property role="1dT_AB" value="Simply creates an imported, not yet existing language." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="DUXtGZNHQR">
     <property role="TrG5h" value="LionCore2MpsConverter" />
@@ -6287,6 +6294,24 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="DUXtGZNHQS" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1ilOlIEO1$I" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEO1$J" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEO1$K" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts LIonWeb M2 languages expressed in MPS language io.lionweb.mps.m3 to " />
+        </node>
+        <node concept="1dT_AA" id="1ilOlIEOaXt" role="1dT_Ay">
+          <node concept="92FcH" id="1ilOlIEOaXz" role="qph3F">
+            <node concept="TZ5HA" id="1ilOlIEOaX_" role="2XjZqd" />
+            <node concept="VXe08" id="1ilOlIEOcXF" role="92FcQ">
+              <ref role="VXe09" node="DUXtH0$h7e" resolve="AImportedLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="1ilOlIEOaXs" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="DUXtH0BD1a">
     <property role="TrG5h" value="ReadonlyImportedLanguage" />
@@ -6448,6 +6473,23 @@
             <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="1ilOlIEON1k" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEON1l" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEON1m" role="1dT_Ay">
+          <property role="1dT_AB" value="Represents existing MPS languages that cannot be changed (e.g. because they are part of plugins, or core MPS)." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1ilOlIEOPwY" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEOPwZ" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1ilOlIEOQ2V" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEOQ2W" role="1dT_Ay">
+          <property role="1dT_AB" value="Any detected change from the imported language throws an exception." />
         </node>
       </node>
     </node>
@@ -10553,6 +10595,13 @@
         <property role="TrG5h" value="link" />
         <node concept="3uibUv" id="22JgV7LYnU" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SAbstractLink" resolve="SAbstractLink" />
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="1ilOlIEOIkL" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEOIkM" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEOIkN" role="1dT_Ay">
+          <property role="1dT_AB" value="Applies only changes from the imported language to an already existing MPS language." />
         </node>
       </node>
     </node>

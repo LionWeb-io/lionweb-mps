@@ -8,6 +8,7 @@
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
@@ -155,6 +156,28 @@
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
@@ -209,6 +232,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -3327,6 +3353,25 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="z1IqfFwV_I" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1ilOlIENjBX" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIENjBY" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIENqga" role="1dT_Ay">
+          <property role="1dT_AB" value="Imports LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="1ilOlIENqgb" role="1dT_Ay">
+          <node concept="92FcH" id="1ilOlIENqgc" role="qph3F">
+            <node concept="TZ5HA" id="1ilOlIENqgd" role="2XjZqd" />
+            <node concept="VXe08" id="1ilOlIENqge" role="92FcQ">
+              <ref role="VXe09" to="loul:~Metamodel" resolve="Metamodel" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="1ilOlIENqgf" role="1dT_Ay">
+          <property role="1dT_AB" value="s to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+        </node>
+        <node concept="1dT_AC" id="1ilOlIENjBZ" role="1dT_Ay" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5sACIIsA0s2">
     <property role="TrG5h" value="LionCore2JsonConverter" />
@@ -6572,6 +6617,24 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5sACIIsA0Hy" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1ilOlIEMGkT" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEMGkU" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEMGkV" role="1dT_Ay">
+          <property role="1dT_AB" value="Exports LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3 to LIonWeb JSON " />
+        </node>
+        <node concept="1dT_AA" id="3Kqiw5yAmHN" role="1dT_Ay">
+          <node concept="92FcH" id="3Kqiw5yAmHY" role="qph3F">
+            <node concept="TZ5HA" id="3Kqiw5yAmI0" role="2XjZqd" />
+            <node concept="VXe08" id="3Kqiw5yAmI7" role="92FcQ">
+              <ref role="VXe09" to="loul:~Metamodel" resolve="Metamodel" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3Kqiw5yAmHM" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -171,6 +171,10 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
@@ -181,12 +185,16 @@
       <concept id="2217234381367049075" name="jetbrains.mps.baseLanguage.javadoc.structure.CodeInlineDocTag" flags="ng" index="VVOAv">
         <child id="3106559687488741665" name="line" index="2Xj1qM" />
       </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
       <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
         <child id="6962838954693749192" name="tag" index="qph3F" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
@@ -3988,6 +3996,29 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="48csSBNRePS" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1ilOlIEP2UD" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEP2UE" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEP2UF" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts deployed MPS " />
+        </node>
+        <node concept="1dT_AA" id="1ilOlIEP8BN" role="1dT_Ay">
+          <node concept="92FcH" id="1ilOlIEP8BT" role="qph3F">
+            <node concept="TZ5HA" id="1ilOlIEP8BV" role="2XjZqd" />
+            <node concept="VXe08" id="1ilOlIEP8C2" role="92FcQ">
+              <ref role="VXe09" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="1ilOlIEP8BM" role="1dT_Ay">
+          <property role="1dT_AB" value="s " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1ilOlIEP95o" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEP95p" role="1dT_Ay">
+          <property role="1dT_AB" value=" to to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="48csSBOkJjY">
     <property role="TrG5h" value="IndirectLanguage2LionCoreConverter" />
@@ -4095,6 +4126,29 @@
       </node>
       <node concept="2AHcQZ" id="48csSBOkJqO" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="1ilOlIEPqhC" role="lGtFl">
+      <node concept="TZ5HA" id="1ilOlIEPqhD" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEPqhE" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts the transitive closure of deployed MPS " />
+        </node>
+        <node concept="1dT_AA" id="1ilOlIEPqnY" role="1dT_Ay">
+          <node concept="92FcH" id="1ilOlIEPqo4" role="qph3F">
+            <node concept="TZ5HA" id="1ilOlIEPqo6" role="2XjZqd" />
+            <node concept="VXe08" id="1ilOlIEPqod" role="92FcQ">
+              <ref role="VXe09" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="1ilOlIEPqnX" role="1dT_Ay">
+          <property role="1dT_AB" value="s " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="1ilOlIEPqD0" role="TZ5H$">
+        <node concept="1dT_AC" id="1ilOlIEPqD1" role="1dT_Ay">
+          <property role="1dT_AB" value=" to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+        </node>
       </node>
     </node>
   </node>
