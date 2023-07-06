@@ -67,6 +67,13 @@
         <property id="7205279169712116354" name="key" index="2DM1AS" />
       </concept>
       <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LIonWebElementKey" flags="ng" index="2DM1AW" />
+      <concept id="6461713321117473366" name="io.lionweb.mps.structure.attribute.structure.LIonWebSmartReference" flags="ng" index="3Kckhh">
+        <reference id="6461713321117473439" name="reference" index="3Kckio" />
+      </concept>
+      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LIonWebOptionalProperty" flags="ng" index="3KvT9W" />
+      <concept id="6461713321120959620" name="io.lionweb.mps.structure.attribute.structure.LIonWebPartitionConcept" flags="ng" index="3KvTa3">
+        <property id="6461713321120959627" name="partition" index="3KvTac" />
+      </concept>
     </language>
   </registry>
   <node concept="1TIwiD" id="2ju2syjkkog">
@@ -81,6 +88,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPoy" role="lGtFl">
       <property role="2DM1AS" value="LanguageElement" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPgUE" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkkv_">
     <property role="EcuMT" value="2656571587264858085" />
@@ -96,6 +104,7 @@
       <node concept="2DM1AW" id="5AGBwuDAPpD" role="lGtFl">
         <property role="2DM1AS" value="Feature-optional" />
       </node>
+      <node concept="3KvT9W" id="5AGBwuDOW8Z" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="6jTTMHCZ76E" role="PzmwI">
       <ref role="PrY4T" node="6jTTMHCXLTP" resolve="NamespacedEntity" />
@@ -122,6 +131,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPpt" role="lGtFl">
       <property role="2DM1AS" value="Property" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPg$3" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkkIF">
     <property role="EcuMT" value="2656571587264859051" />
@@ -146,10 +156,12 @@
       <node concept="2DM1AW" id="5AGBwuDAPpz" role="lGtFl">
         <property role="2DM1AS" value="Link-multiple" />
       </node>
+      <node concept="3KvT9W" id="5AGBwuDOW8W" role="lGtFl" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPpx" role="lGtFl">
       <property role="2DM1AS" value="Link" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPcLG" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkkU6">
     <property role="EcuMT" value="2656571587264859782" />
@@ -160,6 +172,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPpF" role="lGtFl">
       <property role="2DM1AS" value="Containment" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDOW9e" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkkYZ">
     <property role="EcuMT" value="2656571587264860095" />
@@ -170,6 +183,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPpr" role="lGtFl">
       <property role="2DM1AS" value="Reference" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPg$6" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkl4i">
     <property role="EcuMT" value="2656571587264860434" />
@@ -194,6 +208,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPoI" role="lGtFl">
       <property role="2DM1AS" value="FeaturesContainer" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPgU$" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjklrv">
     <property role="EcuMT" value="2656571587264861919" />
@@ -226,6 +241,7 @@
       <node concept="2DM1AW" id="5AGBwuDAPoS" role="lGtFl">
         <property role="2DM1AS" value="Concept-abstract" />
       </node>
+      <node concept="3KvT9W" id="5AGBwuDOW8Q" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="5AGBwuDAPoU" role="1TKVEl">
       <property role="IQ2nx" value="6461713321117308474" />
@@ -234,10 +250,12 @@
       <node concept="2DM1AW" id="5AGBwuDAPoY" role="lGtFl">
         <property role="2DM1AS" value="Concept-partition" />
       </node>
+      <node concept="3KvT9W" id="5AGBwuDOW8T" role="lGtFl" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPoQ" role="lGtFl">
       <property role="2DM1AS" value="Concept" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPg$9" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjklHQ">
     <property role="EcuMT" value="2656571587264863094" />
@@ -258,6 +276,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPoM" role="lGtFl">
       <property role="2DM1AS" value="ConceptInterface" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPg$c" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkmjj">
     <property role="EcuMT" value="2656571587264865491" />
@@ -268,6 +287,12 @@
       <property role="IQ2ns" value="2656571587264865492" />
       <property role="20kJfa" value="conceptInterface" />
       <ref role="20lvS9" node="2ju2syjklHQ" resolve="ConceptInterface" />
+    </node>
+    <node concept="3Kckhh" id="5AGBwuDBEGU" role="lGtFl">
+      <ref role="3Kckio" node="2ju2syjkmzF" resolve="implements" />
+    </node>
+    <node concept="3Kckhh" id="5AGBwuDBRXv" role="lGtFl">
+      <ref role="3Kckio" node="2ju2syjkmlP" resolve="extends" />
     </node>
   </node>
   <node concept="PlHQZ" id="2ju2syjkn10">
@@ -290,6 +315,7 @@
       <node concept="2DM1AW" id="5AGBwuDAPoA" role="lGtFl">
         <property role="2DM1AS" value="Language-key" />
       </node>
+      <node concept="3KvT9W" id="5AGBwuDOW7I" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="2chztJeDvZC" role="1TKVEl">
       <property role="IQ2nx" value="2526956841135898600" />
@@ -298,6 +324,7 @@
       <node concept="2DM1AW" id="5AGBwuDAPoC" role="lGtFl">
         <property role="2DM1AS" value="Language-version" />
       </node>
+      <node concept="3KvT9W" id="5AGBwuDOW7L" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="2ju2syjknmE" role="PzmwI">
       <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
@@ -331,6 +358,9 @@
     <node concept="2DM1AW" id="5AGBwuDAPo$" role="lGtFl">
       <property role="2DM1AS" value="Language" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDPgUB" role="lGtFl">
+      <property role="3KvTac" value="true" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2ju2syjknNi">
     <property role="EcuMT" value="2656571587264871634" />
@@ -341,6 +371,10 @@
       <property role="20kJfa" value="language" />
       <ref role="20lvS9" node="2ju2syjkngz" resolve="Language" />
     </node>
+    <node concept="3Kckhh" id="5AGBwuDByG7" role="lGtFl">
+      <ref role="3Kckio" node="2ju2syjknFV" resolve="dependsOn" />
+    </node>
+    <node concept="3KvTa3" id="5AGBwuDPgUH" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjko0M">
     <property role="EcuMT" value="2656571587264872498" />
@@ -352,6 +386,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPqR" role="lGtFl">
       <property role="2DM1AS" value="DataType" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDOW92" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjko87">
     <property role="EcuMT" value="2656571587264872967" />
@@ -362,6 +397,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPpH" role="lGtFl">
       <property role="2DM1AS" value="PrimitiveType" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDOW9b" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkod0">
     <property role="EcuMT" value="2656571587264873280" />
@@ -385,6 +421,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPpL" role="lGtFl">
       <property role="2DM1AS" value="Enumeration" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDOW95" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkoij">
     <property role="EcuMT" value="2656571587264873619" />
@@ -398,6 +435,7 @@
     <node concept="2DM1AW" id="5AGBwuDAPpJ" role="lGtFl">
       <property role="2DM1AS" value="EnumerationLiteral" />
     </node>
+    <node concept="3KvTa3" id="5AGBwuDOW98" role="lGtFl" />
   </node>
   <node concept="Az7Fb" id="39$JcGFBYkI">
     <property role="3F6X1D" value="3631234780363744558" />
@@ -413,6 +451,7 @@
       <property role="IQ2nx" value="2656571587264857353" />
       <property role="TrG5h" value="key" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="3KvT9W" id="5AGBwuDOW7G" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="2ju2syjmzI5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
