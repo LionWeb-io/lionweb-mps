@@ -2456,6 +2456,81 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5AGBwuFL51Q" role="jymVt" />
+    <node concept="3clFb_" id="5AGBwuFL9yX" role="jymVt">
+      <property role="TrG5h" value="findLanguageByKey" />
+      <node concept="3clFbS" id="5AGBwuFL9z0" role="3clF47">
+        <node concept="2Gpval" id="pPZz6cRjHe" role="3cqZAp">
+          <node concept="2GrKxI" id="pPZz6cRjHg" role="2Gsz3X">
+            <property role="TrG5h" value="lang" />
+          </node>
+          <node concept="3clFbS" id="pPZz6cRjHk" role="2LFqv$">
+            <node concept="3cpWs8" id="pPZz6cRzth" role="3cqZAp">
+              <node concept="3cpWsn" id="pPZz6cRzti" role="3cpWs9">
+                <property role="TrG5h" value="attributeKey" />
+                <node concept="17QB3L" id="pPZz6cRz3q" role="1tU5fm" />
+                <node concept="1rXfSq" id="5AGBwuFLpQe" role="33vP2m">
+                  <ref role="37wK5l" node="6fYiNFaviJP" resolve="findKeyFromLanguage" />
+                  <node concept="2GrUjf" id="5AGBwuFLr2a" role="37wK5m">
+                    <ref role="2Gs0qQ" node="pPZz6cRjHg" resolve="lang" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="pPZz6cRuDk" role="3cqZAp">
+              <node concept="1Wc70l" id="pPZz6cRZbE" role="3clFbw">
+                <node concept="2OqwBi" id="pPZz6cS15E" role="3uHU7w">
+                  <node concept="2GrUjf" id="pPZz6cS0el" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="pPZz6cRjHg" resolve="lang" />
+                  </node>
+                  <node concept="liA8E" id="pPZz6cS2sH" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SLanguage.isValid()" resolve="isValid" />
+                  </node>
+                </node>
+                <node concept="17R0WA" id="pPZz6cRXam" role="3uHU7B">
+                  <node concept="37vLTw" id="pPZz6cRVTZ" role="3uHU7B">
+                    <ref role="3cqZAo" node="5AGBwuFLb_T" resolve="languageKey" />
+                  </node>
+                  <node concept="37vLTw" id="pPZz6cRXZp" role="3uHU7w">
+                    <ref role="3cqZAo" node="pPZz6cRzti" resolve="attributeKey" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="pPZz6cRuDm" role="3clFbx">
+                <node concept="3cpWs6" id="pPZz6cS3lA" role="3cqZAp">
+                  <node concept="2GrUjf" id="1bT$FEXrxcu" role="3cqZAk">
+                    <ref role="2Gs0qQ" node="pPZz6cRjHg" resolve="lang" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="pPZz6cRhq7" role="2GsD0m">
+            <node concept="2YIFZM" id="pPZz6cRdu8" role="2Oq$k0">
+              <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance(org.jetbrains.mps.openapi.module.SRepository)" resolve="getInstance" />
+              <ref role="1Pybhc" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+              <node concept="37vLTw" id="pPZz6cRgvY" role="37wK5m">
+                <ref role="3cqZAo" node="pPZz6cPzAy" resolve="repository" />
+              </node>
+            </node>
+            <node concept="liA8E" id="pPZz6cRiao" role="2OqNvi">
+              <ref role="37wK5l" to="vndm:~LanguageRegistry.getAllLanguages()" resolve="getAllLanguages" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5AGBwuFLwgF" role="3cqZAp">
+          <node concept="10Nm6u" id="5AGBwuFLxtv" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5AGBwuFL7Rk" role="1B3o_S" />
+      <node concept="3uibUv" id="5AGBwuFL9dh" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+      </node>
+      <node concept="37vLTG" id="5AGBwuFLb_T" role="3clF46">
+        <property role="TrG5h" value="languageKey" />
+        <node concept="17QB3L" id="5AGBwuFLb_S" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="pPZz6cPwBq" role="jymVt" />
     <node concept="3clFb_" id="6fYiNFaviJP" role="jymVt">
       <property role="TrG5h" value="findKeyFromLanguage" />

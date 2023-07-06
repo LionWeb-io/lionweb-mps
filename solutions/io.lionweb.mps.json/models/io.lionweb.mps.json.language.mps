@@ -1615,16 +1615,24 @@
               <node concept="1bVj0M" id="5AGBwuFexjn" role="23t8la">
                 <node concept="3clFbS" id="5AGBwuFexjo" role="1bW5cS">
                   <node concept="3clFbF" id="5AGBwuFeAh6" role="3cqZAp">
-                    <node concept="3fqX7Q" id="5AGBwuFeAh4" role="3clFbG">
-                      <node concept="2OqwBi" id="5AGBwuFeGV9" role="3fr31v">
-                        <node concept="37vLTw" id="5AGBwuFeDhY" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
-                        </node>
-                        <node concept="liA8E" id="5AGBwuFeLdG" role="2OqNvi">
-                          <ref role="37wK5l" to="apzt:5AGBwuFc9IG" resolve="isSmartReference" />
-                          <node concept="37vLTw" id="5AGBwuFePyP" role="37wK5m">
-                            <ref role="3cqZAo" node="5AGBwuFexjp" resolve="it" />
+                    <node concept="3fqX7Q" id="5AGBwuFOwB_" role="3clFbG">
+                      <node concept="2YIFZM" id="5AGBwuFOwBB" role="3fr31v">
+                        <ref role="37wK5l" to="33ny:~Objects.requireNonNullElse(java.lang.Object,java.lang.Object)" resolve="requireNonNullElse" />
+                        <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+                        <node concept="2OqwBi" id="5AGBwuFOwBC" role="37wK5m">
+                          <node concept="37vLTw" id="5AGBwuFOwBD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                           </node>
+                          <node concept="liA8E" id="5AGBwuFOwBE" role="2OqNvi">
+                            <ref role="37wK5l" to="apzt:5AGBwuFc9IG" resolve="isSmartReference" />
+                            <node concept="37vLTw" id="5AGBwuFOwBF" role="37wK5m">
+                              <ref role="3cqZAo" node="5AGBwuFexjp" resolve="it" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="10M0yZ" id="5AGBwuFOBjo" role="37wK5m">
+                          <ref role="3cqZAo" to="wyt6:~Boolean.FALSE" resolve="FALSE" />
+                          <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                         </node>
                       </node>
                     </node>

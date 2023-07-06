@@ -564,6 +564,7 @@ http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bd
 `/lionweb/language`::
 LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
 Supports GET requests.
+Addresses languages by their MPS module id.
 
 minimal:::
 http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(%20)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d( )`]
@@ -577,3 +578,14 @@ including project:::
 http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS`]
 +
 `project` parameter can also be used with minimal module id.
+
+`/lionweb/language/key`::
+LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
+Supports GET requests.
+Addresses languages by their key. 
+
+minimal:::
+http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language[`http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language`]
+
+including project:::
+http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language&project=LIonCore-MPS`]
