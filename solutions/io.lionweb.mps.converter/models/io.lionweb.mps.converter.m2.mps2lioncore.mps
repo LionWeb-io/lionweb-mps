@@ -985,6 +985,26 @@
               </node>
             </node>
             <node concept="3clFbH" id="2ju2syjtYef" role="3cqZAp" />
+            <node concept="3cpWs8" id="5AGBwuFdOiR" role="3cqZAp">
+              <node concept="3cpWsn" id="5AGBwuFdOil" role="3cpWs9">
+                <property role="TrG5h" value="conceptDeclarations" />
+                <node concept="A3Dl8" id="5AGBwuFdOiP" role="1tU5fm">
+                  <node concept="3Tqbb2" id="5AGBwuFdOiQ" role="A3Ik2">
+                    <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2ju2syjqC54" role="33vP2m">
+                  <node concept="2GrUjf" id="2ju2syjqC0z" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="2ju2syjqykA" resolve="lang" />
+                  </node>
+                  <node concept="2SmgA7" id="2ju2syjqCcd" role="2OqNvi">
+                    <node concept="chp4Y" id="2ju2syjqCgA" role="1dBWTz">
+                      <ref role="cht4Q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="2Gpval" id="2ju2syjqBzE" role="3cqZAp">
               <node concept="2GrKxI" id="2ju2syjqBzH" role="2Gsz3X">
                 <property role="TrG5h" value="concept" />
@@ -1038,20 +1058,32 @@
                 </node>
               </node>
               <node concept="2OqwBi" id="5AGBwuDU1Gw" role="2GsD0m">
-                <node concept="2OqwBi" id="5AGBwuDEgQU" role="2Oq$k0">
-                  <node concept="37vLTw" id="5AGBwuDEdAQ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
+                <node concept="2OqwBi" id="5AGBwuFdOj6" role="2Oq$k0">
+                  <node concept="37vLTw" id="5AGBwuFdOj7" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5AGBwuFdOil" resolve="conceptDeclarations" />
                   </node>
-                  <node concept="liA8E" id="5AGBwuDEsS$" role="2OqNvi">
-                    <ref role="37wK5l" to="apzt:5AGBwuDDeSZ" resolve="skipSmartReferences" />
-                    <node concept="2OqwBi" id="2ju2syjqC54" role="37wK5m">
-                      <node concept="2GrUjf" id="2ju2syjqC0z" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="2ju2syjqykA" resolve="lang" />
-                      </node>
-                      <node concept="2SmgA7" id="2ju2syjqCcd" role="2OqNvi">
-                        <node concept="chp4Y" id="2ju2syjqCgA" role="1dBWTz">
-                          <ref role="cht4Q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                  <node concept="3zZkjj" id="5AGBwuFdOj8" role="2OqNvi">
+                    <node concept="1bVj0M" id="5AGBwuFdOj9" role="23t8la">
+                      <node concept="3clFbS" id="5AGBwuFdOja" role="1bW5cS">
+                        <node concept="3clFbF" id="5AGBwuFdOjb" role="3cqZAp">
+                          <node concept="3fqX7Q" id="5AGBwuFdOjc" role="3clFbG">
+                            <node concept="2OqwBi" id="5AGBwuFdYYI" role="3fr31v">
+                              <node concept="37vLTw" id="5AGBwuFe4rT" role="2Oq$k0">
+                                <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
+                              </node>
+                              <node concept="liA8E" id="5AGBwuFdYYL" role="2OqNvi">
+                                <ref role="37wK5l" to="apzt:5AGBwuDEYg1" resolve="isSmartReference" />
+                                <node concept="37vLTw" id="5AGBwuFdOje" role="37wK5m">
+                                  <ref role="3cqZAo" node="5AGBwuFdOjf" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                         </node>
+                      </node>
+                      <node concept="Rh6nW" id="5AGBwuFdOjf" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="5AGBwuFdOjg" role="1tU5fm" />
                       </node>
                     </node>
                   </node>

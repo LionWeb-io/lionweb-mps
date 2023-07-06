@@ -13,6 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">9ccd1228-8082-4d7d-953e-0ef0386dcd6a(io.lionweb.mps.json.test)</dependency>
+    <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:063e44a6-f2f8-4e6e-8ca0-b31c22830ebc:DependingLang" version="1" />
