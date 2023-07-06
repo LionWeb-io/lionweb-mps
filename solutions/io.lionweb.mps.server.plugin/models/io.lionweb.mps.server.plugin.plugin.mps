@@ -197,8 +197,15 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -371,6 +378,10 @@
           <node concept="9aQIb" id="2C20kjVP1ch" role="9aQIa">
             <node concept="3clFbS" id="2C20kjVP1ci" role="9aQI4">
               <node concept="3clFbF" id="3f2P4cbB4nA" role="3cqZAp">
+                <node concept="15s5l7" id="6jTTMHD8SRK" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: getInstance():MPSModuleRepository is deprecated&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
+                  <property role="huDt6" value="Warning: getInstance():MPSModuleRepository is deprecated" />
+                </node>
                 <node concept="37vLTI" id="3f2P4cbB4xw" role="3clFbG">
                   <node concept="37vLTw" id="3f2P4cbB4n$" role="37vLTJ">
                     <ref role="3cqZAo" node="3f2P4cbASb0" resolve="repository" />
@@ -1250,6 +1261,10 @@
           </node>
         </node>
         <node concept="3cpWs8" id="39$JcGEIub1" role="3cqZAp">
+          <node concept="15s5l7" id="6jTTMHD8Scx" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: Unused variable&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4056233746948448436]&quot;;" />
+            <property role="huDt6" value="Warning: Unused variable" />
+          </node>
           <node concept="3cpWsn" id="39$JcGEIub2" role="3cpWs9">
             <property role="TrG5h" value="converter" />
             <node concept="3uibUv" id="39$JcGEIu0d" role="1tU5fm">
@@ -1540,6 +1555,10 @@
           <node concept="9aQIb" id="7lvh169VygG" role="9aQIa">
             <node concept="3clFbS" id="7lvh169VygH" role="9aQI4">
               <node concept="3clFbF" id="7lvh169Vyy1" role="3cqZAp">
+                <node concept="15s5l7" id="6jTTMHD8T3f" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: getInstance():MPSModuleRepository is deprecated&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
+                  <property role="huDt6" value="Warning: getInstance():MPSModuleRepository is deprecated" />
+                </node>
                 <node concept="37vLTI" id="7lvh169VyAv" role="3clFbG">
                   <node concept="37vLTw" id="7lvh169Vyy0" role="37vLTJ">
                     <ref role="3cqZAo" node="7lvh169VxXL" resolve="repository" />

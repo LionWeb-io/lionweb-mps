@@ -1013,6 +1013,10 @@
                   <node concept="1bVj0M" id="2qVVyx0ZCX0" role="23t8la">
                     <node concept="3clFbS" id="2qVVyx0ZCX1" role="1bW5cS">
                       <node concept="3clFbF" id="2qVVyx0ZHxj" role="3cqZAp">
+                        <node concept="15s5l7" id="6jTTMHD6Dk7" role="lGtFl">
+                          <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: EnumerationDataTypeDeclaration_Old is deprecated since build 19.1 (Use EnumerationDeclaration instead)&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
+                          <property role="huDt6" value="Warning: EnumerationDataTypeDeclaration_Old is deprecated since build 19.1 (Use EnumerationDeclaration instead)" />
+                        </node>
                         <node concept="3fqX7Q" id="2qVVyx0ZPGL" role="3clFbG">
                           <node concept="2OqwBi" id="2qVVyx100$X" role="3fr31v">
                             <node concept="37vLTw" id="2qVVyx0ZXAG" role="2Oq$k0">

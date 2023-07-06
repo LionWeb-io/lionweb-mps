@@ -1984,12 +1984,11 @@
               <node concept="2YIFZM" id="2chztJeJ8dp" role="37wK5m">
                 <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                <node concept="2OqwBi" id="2chztJeJdQE" role="37wK5m">
-                  <node concept="37vLTw" id="2chztJeJb$r" role="2Oq$k0">
+                <node concept="2YIFZM" id="6jTTMHD7X37" role="37wK5m">
+                  <ref role="37wK5l" to="apzt:6jTTMHD72KX" resolve="getLanguageVersion" />
+                  <ref role="1Pybhc" to="apzt:6jTTMHD72IS" resolve="MpsLanguageUtil" />
+                  <node concept="37vLTw" id="6jTTMHD81ew" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
-                  </node>
-                  <node concept="liA8E" id="2chztJeJhdE" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SLanguage.getLanguageVersion()" resolve="getLanguageVersion" />
                   </node>
                 </node>
               </node>
@@ -2843,23 +2842,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBO4wcS" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBO4_En" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBO4_Eo" role="3cpWs9">
-            <property role="TrG5h" value="concept" />
-            <node concept="3uibUv" id="48csSBO4_Ep" role="1tU5fm">
-              <ref role="3uigEE" to="vxxo:~SConceptAdapter" resolve="SConceptAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBO4K1W" role="33vP2m">
-              <node concept="37vLTw" id="48csSBO4K1V" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNReHT" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBO4K1U" role="10QFUM">
-                <ref role="3uigEE" to="vxxo:~SConceptAdapter" resolve="SConceptAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBPQf3U" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsLHg9" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsLHga" role="3cpWs9">
             <property role="TrG5h" value="json" />
@@ -3242,23 +3224,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBO6G8N" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBO7yPE" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBO7yPF" role="3cpWs9">
-            <property role="TrG5h" value="iface" />
-            <node concept="3uibUv" id="48csSBO7yPG" role="1tU5fm">
-              <ref role="3uigEE" to="vxxo:~SInterfaceConceptAdapter" resolve="SInterfaceConceptAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBO7yPH" role="33vP2m">
-              <node concept="37vLTw" id="48csSBO7yPI" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNReK4" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBO7yPJ" role="10QFUM">
-                <ref role="3uigEE" to="vxxo:~SInterfaceConceptAdapter" resolve="SInterfaceConceptAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBO7yPf" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsNv$Y" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsNv$Z" role="3cpWs9">
             <property role="TrG5h" value="jsonIface" />
@@ -3489,23 +3454,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBO8OH3" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBO8VXy" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBO8VXz" role="3cpWs9">
-            <property role="TrG5h" value="prop" />
-            <node concept="3uibUv" id="48csSBO8VX$" role="1tU5fm">
-              <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBO94px" role="33vP2m">
-              <node concept="37vLTw" id="48csSBO94pw" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBO94pv" role="10QFUM">
-                <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBO9BPY" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsA0Ac" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsA0Ad" role="3cpWs9">
             <property role="TrG5h" value="json" />
@@ -3630,6 +3578,10 @@
           </node>
         </node>
         <node concept="3clFbJ" id="48csSBNReLA" role="3cqZAp">
+          <node concept="15s5l7" id="6jTTMHD8iQY" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: This condition is always true&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4235809288654205433]&quot;;" />
+            <property role="huDt6" value="Warning: This condition is always true" />
+          </node>
           <node concept="3y3z36" id="48csSBO9SmP" role="3clFbw">
             <node concept="10Nm6u" id="48csSBO9Uys" role="3uHU7w" />
             <node concept="37vLTw" id="48csSBO9Pu2" role="3uHU7B">
@@ -3844,23 +3796,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBOaVtp" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBOb3BP" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBOb3BQ" role="3cpWs9">
-            <property role="TrG5h" value="containment" />
-            <node concept="3uibUv" id="48csSBOb3BR" role="1tU5fm">
-              <ref role="3uigEE" to="wb4m:~SContainmentLinkAdapter" resolve="SContainmentLinkAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBObhiI" role="33vP2m">
-              <node concept="37vLTw" id="48csSBObhiH" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNReNN" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBObhiG" role="10QFUM">
-                <ref role="3uigEE" to="wb4m:~SContainmentLinkAdapter" resolve="SContainmentLinkAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBOaYbL" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsPjNg" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsPjNh" role="3cpWs9">
             <property role="TrG5h" value="json" />
@@ -4011,23 +3946,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBOc6vA" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBOc6vB" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBOc6vC" role="3cpWs9">
-            <property role="TrG5h" value="reference" />
-            <node concept="3uibUv" id="48csSBOc6vD" role="1tU5fm">
-              <ref role="3uigEE" to="rzjr:~SReferenceLinkAdapter" resolve="SReferenceLinkAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBOc6vE" role="33vP2m">
-              <node concept="37vLTw" id="48csSBOc6vF" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNReOn" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBOc6vG" role="10QFUM">
-                <ref role="3uigEE" to="rzjr:~SReferenceLinkAdapter" resolve="SReferenceLinkAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBOds9P" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsA0__" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsA0_A" role="3cpWs9">
             <property role="TrG5h" value="json" />
@@ -4171,23 +4089,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBOdyEv" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBOdyEw" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBOdyEx" role="3cpWs9">
-            <property role="TrG5h" value="enm" />
-            <node concept="3uibUv" id="48csSBOdyEy" role="1tU5fm">
-              <ref role="3uigEE" to="xx25:~SEnumerationAdapter" resolve="SEnumerationAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBOdyEz" role="33vP2m">
-              <node concept="37vLTw" id="48csSBOdyE$" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBOdyE_" role="10QFUM">
-                <ref role="3uigEE" to="xx25:~SEnumerationAdapter" resolve="SEnumerationAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBOdvSl" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsA0CW" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsA0CX" role="3cpWs9">
             <property role="TrG5h" value="json" />
@@ -4371,23 +4272,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBOeqSk" role="3cqZAp" />
-        <node concept="3cpWs8" id="48csSBOeqSl" role="3cqZAp">
-          <node concept="3cpWsn" id="48csSBOeqSm" role="3cpWs9">
-            <property role="TrG5h" value="lit" />
-            <node concept="3uibUv" id="48csSBOeqSn" role="1tU5fm">
-              <ref role="3uigEE" to="xx25:~SEnumerationAdapter$SEnumLiteralAdapter" resolve="SEnumerationAdapter.SEnumLiteralAdapter" />
-            </node>
-            <node concept="10QFUN" id="48csSBOeqSo" role="33vP2m">
-              <node concept="37vLTw" id="48csSBOeqSp" role="10QFUP">
-                <ref role="3cqZAo" node="48csSBNRePv" resolve="mps" />
-              </node>
-              <node concept="3uibUv" id="48csSBOeqSq" role="10QFUM">
-                <ref role="3uigEE" to="xx25:~SEnumerationAdapter$SEnumLiteralAdapter" resolve="SEnumerationAdapter.SEnumLiteralAdapter" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="48csSBOeqSr" role="3cqZAp" />
         <node concept="3cpWs8" id="5sACIIsY8xe" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIsY8xf" role="3cpWs9">
             <property role="TrG5h" value="json" />
@@ -4469,6 +4353,10 @@
       <property role="TrG5h" value="createPrimitiveType" />
       <node concept="3clFbS" id="48csSBNReP$" role="3clF47">
         <node concept="3clFbJ" id="48csSBOg4yz" role="3cqZAp">
+          <node concept="15s5l7" id="6jTTMHD8ekH" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: SDataTypeAdapter is deprecated&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
+            <property role="huDt6" value="Warning: SDataTypeAdapter is deprecated" />
+          </node>
           <node concept="3clFbS" id="48csSBOg4y_" role="3clFbx">
             <node concept="3cpWs8" id="48csSBOhmGI" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBOhmGJ" role="3cpWs9">
