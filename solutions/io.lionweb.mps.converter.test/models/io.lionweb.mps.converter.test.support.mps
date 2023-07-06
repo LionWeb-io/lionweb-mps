@@ -13,7 +13,9 @@
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="58k5" ref="r:085d8b5e-61a2-49e9-a34e-565f4024917d(io.lionweb.mps.converter.m2.idmapper.declarationnode)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="thsk" ref="r:447870ec-a286-434e-af5e-1c7a4b8f1b8c(io.lionweb.mps.m3.behavior)" implicit="true" />
   </imports>
@@ -142,8 +144,12 @@
       </concept>
       <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
@@ -312,6 +318,21 @@
               <ref role="HV5vE" to="58k5:2fx6VTTDQCB" resolve="DeclarationNodeCompatibleLanguageIdMapper" />
             </node>
           </node>
+          <node concept="2ShNRf" id="5AGBwuES9AB" role="37wK5m">
+            <node concept="1pGfFk" id="5AGBwuESaCU" role="2ShVmc">
+              <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+              <node concept="2OqwBi" id="5AGBwuESd1v" role="37wK5m">
+                <node concept="2JrnkZ" id="5AGBwuEScOk" role="2Oq$k0">
+                  <node concept="37vLTw" id="5AGBwuESaXv" role="2JrQYb">
+                    <ref role="3cqZAo" node="3ePT3MiWVCG" resolve="structure" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5AGBwuESdhv" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -412,6 +433,24 @@
               <node concept="2ShNRf" id="6VkSF6bWaKy" role="37wK5m">
                 <node concept="HV5vD" id="6VkSF6bWc_D" role="2ShVmc">
                   <ref role="HV5vE" to="58k5:2fx6VTTDQCB" resolve="DeclarationNodeCompatibleLanguageIdMapper" />
+                </node>
+              </node>
+              <node concept="2ShNRf" id="5AGBwuETcdQ" role="37wK5m">
+                <node concept="1pGfFk" id="5AGBwuETcA8" role="2ShVmc">
+                  <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+                  <node concept="2OqwBi" id="5AGBwuETdsa" role="37wK5m">
+                    <node concept="2JrnkZ" id="5AGBwuETdjK" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5AGBwuETcSa" role="2JrQYb">
+                        <node concept="37vLTw" id="5AGBwuETcES" role="2Oq$k0">
+                          <ref role="3cqZAo" node="59Df55kqwhH" resolve="metamodel" />
+                        </node>
+                        <node concept="I4A8Y" id="5AGBwuETd6q" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5AGBwuETdFg" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
