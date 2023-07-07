@@ -9817,7 +9817,7 @@
     <node concept="2tJIrI" id="3ePT3MiWDGY" role="jymVt" />
     <node concept="3clFbW" id="3ePT3MiWDYd" role="jymVt">
       <node concept="37vLTG" id="3ePT3MiWDYe" role="3clF46">
-        <property role="TrG5h" value="metamodel" />
+        <property role="TrG5h" value="lcLanguage" />
         <node concept="3Tqbb2" id="3ePT3MiWDYf" role="1tU5fm">
           <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
@@ -9868,7 +9868,7 @@
         <node concept="XkiVB" id="3ePT3MiWDYp" role="3cqZAp">
           <ref role="37wK5l" node="3ePT3MiV7FK" resolve="ADeltaImportedLanguage" />
           <node concept="37vLTw" id="3ePT3MiWDYq" role="37wK5m">
-            <ref role="3cqZAo" node="3ePT3MiWDYe" resolve="metamodel" />
+            <ref role="3cqZAo" node="3ePT3MiWDYe" resolve="lcLanguage" />
           </node>
           <node concept="37vLTw" id="3ePT3MiWDYr" role="37wK5m">
             <ref role="3cqZAo" node="3ePT3MiWDYg" resolve="sLanguage" />
