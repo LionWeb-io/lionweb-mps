@@ -1956,13 +1956,13 @@
       </node>
     </node>
     <node concept="3clFb_" id="39$JcGG9rXU" role="jymVt">
-      <property role="TrG5h" value="listLcFeaturesContainers" />
+      <property role="TrG5h" value="listLcClassifiers" />
       <node concept="3clFbS" id="39$JcGG9rXX" role="3clF47">
         <node concept="3clFbF" id="39$JcGG9spt" role="3cqZAp">
           <node concept="2ShNRf" id="39$JcGG9spu" role="3clFbG">
             <node concept="Tc6Ow" id="39$JcGG9spv" role="2ShVmc">
               <node concept="3Tqbb2" id="39$JcGG9spw" role="HW$YZ">
-                <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+                <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
               </node>
               <node concept="37vLTw" id="39$JcGG9spx" role="HW$Y0">
                 <ref role="3cqZAo" node="39$JcGFBNUw" resolve="LC_BASE_CONCEPT" />
@@ -1976,7 +1976,7 @@
       </node>
       <node concept="3Tm1VV" id="39$JcGG9ry2" role="1B3o_S" />
       <node concept="2I9FWS" id="39$JcGG9rXo" role="3clF45">
-        <ref role="2I9WkF" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+        <ref role="2I9WkF" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
       </node>
     </node>
     <node concept="3clFb_" id="5AGBwuFIOKh" role="jymVt">
@@ -2032,7 +2032,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="39$JcGG9tBP" role="jymVt">
-      <property role="TrG5h" value="listMpsFeaturesContainers" />
+      <property role="TrG5h" value="listMpsClassifiers" />
       <node concept="3clFbS" id="39$JcGG9tBQ" role="3clF47">
         <node concept="3clFbF" id="39$JcGG9tBR" role="3cqZAp">
           <node concept="2ShNRf" id="39$JcGG9tBS" role="3clFbG">
@@ -2113,7 +2113,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="39$JcGG9vEq" role="jymVt">
-      <property role="TrG5h" value="listSLanguageFeaturesContainers" />
+      <property role="TrG5h" value="listSLanguageClassifiers" />
       <node concept="3clFbS" id="39$JcGG9vEr" role="3clF47">
         <node concept="3clFbF" id="39$JcGG9vEs" role="3cqZAp">
           <node concept="2ShNRf" id="39$JcGG9vEt" role="3clFbG">

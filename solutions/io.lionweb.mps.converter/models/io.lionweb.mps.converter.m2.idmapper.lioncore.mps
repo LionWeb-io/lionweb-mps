@@ -94,7 +94,7 @@
         <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
       </node>
       <node concept="3Tqbb2" id="6VkSF6biw8F" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
       </node>
       <node concept="3Tqbb2" id="6VkSF6biw8G" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
@@ -159,20 +159,20 @@
     </node>
     <node concept="2tJIrI" id="6VkSF6bb56$" role="jymVt" />
     <node concept="3clFb_" id="6VkSF6bb3je" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="6VkSF6bb3jg" role="1B3o_S" />
       <node concept="17QB3L" id="6VkSF6bb3jF" role="3clF45" />
       <node concept="37vLTG" id="6VkSF6bb3ji" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3Tqbb2" id="6VkSF6bb3jE" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
         </node>
       </node>
       <node concept="3clFbS" id="6VkSF6bb3jG" role="3clF47">
         <node concept="3clFbF" id="6VkSF6beGcm" role="3cqZAp">
           <node concept="2OqwBi" id="6VkSF6beGk5" role="3clFbG">
             <node concept="37vLTw" id="6VkSF6beGcl" role="2Oq$k0">
-              <ref role="3cqZAo" node="6VkSF6bb3ji" resolve="featuresContainer" />
+              <ref role="3cqZAo" node="6VkSF6bb3ji" resolve="classifier" />
             </node>
             <node concept="3TrcHB" id="6VkSF6beHCC" role="2OqNvi">
               <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
@@ -493,13 +493,13 @@
     </node>
     <node concept="2tJIrI" id="6VkSF6bCzee" role="jymVt" />
     <node concept="3clFb_" id="6VkSF6bCzef" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="6VkSF6bCzeg" role="1B3o_S" />
       <node concept="17QB3L" id="6VkSF6bCzeh" role="3clF45" />
       <node concept="37vLTG" id="6VkSF6bCzei" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3Tqbb2" id="6VkSF6bCzej" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
         </node>
       </node>
       <node concept="3clFbS" id="6VkSF6bCzek" role="3clF47">
@@ -508,7 +508,7 @@
             <ref role="37wK5l" node="DUXtH12usz" resolve="convertId" />
             <node concept="2OqwBi" id="6VkSF6bCzem" role="37wK5m">
               <node concept="37vLTw" id="6VkSF6bCzen" role="2Oq$k0">
-                <ref role="3cqZAo" node="6VkSF6bCzei" resolve="featuresContainer" />
+                <ref role="3cqZAo" node="6VkSF6bCzei" resolve="classifier" />
               </node>
               <node concept="3TrcHB" id="6VkSF6bCzeo" role="2OqNvi">
                 <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />

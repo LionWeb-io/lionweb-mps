@@ -70,7 +70,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="2ju2syjkmjl">
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <ref role="1XX52x" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
     <node concept="1iCGBv" id="2ju2syjkmjm" role="2wV5jI">
       <ref role="1NtTu8" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
@@ -320,7 +320,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2ju2syjmJuh">
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <ref role="1XX52x" to="h3y3:2ju2syjklrv" resolve="Concept" />
     <node concept="PMmxH" id="2ju2syjmJvx" role="6VMZX">
       <ref role="PMmxG" node="2ju2syjmIMX" resolve="NamespacedEntity_Inspector" />
@@ -404,7 +404,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2ju2syjmJx_">
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <ref role="1XX52x" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
     <node concept="3EZMnI" id="2ju2syjmRcJ" role="2wV5jI">
       <node concept="3EZMnI" id="2ju2syjmRdE" role="3EZMnx">

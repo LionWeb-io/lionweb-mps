@@ -226,14 +226,14 @@
             <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
             <node concept="2OqwBi" id="59Df55kvoOS" role="37wK5m">
               <node concept="1YBJjd" id="59Df55kvo$_" role="2Oq$k0">
-                <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
+                <ref role="1YBMHb" node="59Df55kvlh5" resolve="language" />
               </node>
               <node concept="3TrcHB" id="59Df55kvp4c" role="2OqNvi">
                 <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
               </node>
             </node>
             <node concept="1YBJjd" id="59Df55kvpjz" role="37wK5m">
-              <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
+              <ref role="1YBMHb" node="59Df55kvlh5" resolve="language" />
             </node>
           </node>
         </node>
@@ -242,7 +242,7 @@
         <node concept="2OqwBi" id="59Df55kvrAf" role="3clFbG">
           <node concept="2OqwBi" id="59Df55kvmTF" role="2Oq$k0">
             <node concept="1YBJjd" id="59Df55kvmGR" role="2Oq$k0">
-              <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
+              <ref role="1YBMHb" node="59Df55kvlh5" resolve="language" />
             </node>
             <node concept="2Rf3mk" id="59Df55kvnb2" role="2OqNvi">
               <node concept="1xMEDy" id="59Df55kvnb4" role="1xVPHs">
@@ -372,7 +372,7 @@
       </node>
     </node>
     <node concept="1YaCAy" id="59Df55kvlh5" role="1YuTPh">
-      <property role="TrG5h" value="metamodel" />
+      <property role="TrG5h" value="language" />
       <ref role="1YaFvo" to="h3y3:2ju2syjkngz" resolve="Language" />
     </node>
   </node>

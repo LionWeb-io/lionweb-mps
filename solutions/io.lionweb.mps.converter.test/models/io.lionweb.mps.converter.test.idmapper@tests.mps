@@ -375,7 +375,7 @@
           </node>
           <node concept="2OqwBi" id="2fx6VTSYSPP" role="3tpDZA">
             <node concept="liA8E" id="2fx6VTSYSPS" role="2OqNvi">
-              <ref role="37wK5l" to="58k5:6fYiNFatXyP" resolve="mapFeaturesContainer" />
+              <ref role="37wK5l" to="58k5:6fYiNFatXyP" resolve="mapClassifier" />
               <node concept="37vLTw" id="2fx6VTSYSPT" role="37wK5m">
                 <ref role="3cqZAo" node="2fx6VTSYPyt" resolve="input" />
               </node>
@@ -455,7 +455,7 @@
           </node>
           <node concept="2OqwBi" id="2fx6VTSYTky" role="3tpDZA">
             <node concept="liA8E" id="2fx6VTSYTk_" role="2OqNvi">
-              <ref role="37wK5l" to="58k5:6fYiNFatXyP" resolve="mapFeaturesContainer" />
+              <ref role="37wK5l" to="58k5:6fYiNFatXyP" resolve="mapClassifier" />
               <node concept="37vLTw" id="2fx6VTSYTkA" role="37wK5m">
                 <ref role="3cqZAo" node="2fx6VTSYTeF" resolve="input" />
               </node>
@@ -1112,7 +1112,7 @@
           </node>
           <node concept="2OqwBi" id="2fx6VTSZ8ib" role="3tpDZA">
             <node concept="liA8E" id="2fx6VTSZ8ic" role="2OqNvi">
-              <ref role="37wK5l" to="faaz:2fx6VTSN_nL" resolve="mapFeaturesContainer" />
+              <ref role="37wK5l" to="faaz:2fx6VTSN_nL" resolve="mapClassifier" />
               <node concept="37vLTw" id="2fx6VTSZ8id" role="37wK5m">
                 <ref role="3cqZAo" node="2fx6VTSZ8hS" resolve="input" />
               </node>
@@ -1180,7 +1180,7 @@
           </node>
           <node concept="2OqwBi" id="2fx6VTSZ8iH" role="3tpDZA">
             <node concept="liA8E" id="2fx6VTSZ8iI" role="2OqNvi">
-              <ref role="37wK5l" to="faaz:2fx6VTSN_nL" resolve="mapFeaturesContainer" />
+              <ref role="37wK5l" to="faaz:2fx6VTSN_nL" resolve="mapClassifier" />
               <node concept="37vLTw" id="2fx6VTSZ8iJ" role="37wK5m">
                 <ref role="3cqZAo" node="2fx6VTSZ8iq" resolve="input" />
               </node>

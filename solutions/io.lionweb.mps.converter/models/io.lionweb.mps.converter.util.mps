@@ -2822,7 +2822,7 @@
                         <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="5AGBwuFKii0" role="2OqNvi">
-                        <ref role="37wK5l" to="en45:39$JcGG9vEq" resolve="listSLanguageFeaturesContainers" />
+                        <ref role="37wK5l" to="en45:39$JcGG9vEq" resolve="listSLanguageClassifiers" />
                       </node>
                     </node>
                     <node concept="2WmjW8" id="5AGBwuFKii1" role="2OqNvi">
@@ -2851,7 +2851,7 @@
                             <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                           </node>
                           <node concept="liA8E" id="5AGBwuFKihP" role="2OqNvi">
-                            <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcFeaturesContainers" />
+                            <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcClassifiers" />
                           </node>
                         </node>
                       </node>

@@ -144,7 +144,7 @@
       <property role="IQ2ns" value="2656571587264867894" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2ju2syjkl4i" resolve="FeaturesContainer" />
+      <ref role="20lvS9" node="2ju2syjkl4i" resolve="Classifier" />
       <node concept="2DM1AW" id="5AGBwuDAPp_" role="lGtFl">
         <property role="2DM1AS" value="Link-type" />
       </node>
@@ -187,10 +187,10 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjkl4i">
     <property role="EcuMT" value="2656571587264860434" />
-    <property role="TrG5h" value="FeaturesContainer" />
+    <property role="TrG5h" value="Classifier" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="featuresContainer" />
-    <property role="34LRSv" value="FeaturesContainer" />
+    <property role="3GE5qa" value="classifier" />
+    <property role="34LRSv" value="Classifier" />
     <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
     <node concept="1TJgyj" id="2ju2syjkliV" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264861371" />
@@ -199,23 +199,23 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2ju2syjkkv_" resolve="Feature" />
       <node concept="2DM1AW" id="5AGBwuDAPoK" role="lGtFl">
-        <property role="2DM1AS" value="FeaturesContainer-features" />
+        <property role="2DM1AS" value="Classifier-features" />
       </node>
     </node>
     <node concept="PrWs8" id="2ju2syjkn6H" role="PzmwI">
       <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPoI" role="lGtFl">
-      <property role="2DM1AS" value="FeaturesContainer" />
+      <property role="2DM1AS" value="Classifier" />
     </node>
     <node concept="3KvTa3" id="5AGBwuDPgU$" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjklrv">
     <property role="EcuMT" value="2656571587264861919" />
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <property role="TrG5h" value="Concept" />
     <property role="34LRSv" value="Concept" />
-    <ref role="1TJDcQ" node="2ju2syjkl4i" resolve="FeaturesContainer" />
+    <ref role="1TJDcQ" node="2ju2syjkl4i" resolve="Classifier" />
     <node concept="1TJgyj" id="2ju2syjkmzF" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264866539" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -259,10 +259,10 @@
   </node>
   <node concept="1TIwiD" id="2ju2syjklHQ">
     <property role="EcuMT" value="2656571587264863094" />
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <property role="TrG5h" value="ConceptInterface" />
     <property role="34LRSv" value="ConceptInterface" />
-    <ref role="1TJDcQ" node="2ju2syjkl4i" resolve="FeaturesContainer" />
+    <ref role="1TJDcQ" node="2ju2syjkl4i" resolve="Classifier" />
     <node concept="1TJgyj" id="2ju2syjkmlP" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264865653" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -281,7 +281,7 @@
   <node concept="1TIwiD" id="2ju2syjkmjj">
     <property role="EcuMT" value="2656571587264865491" />
     <property role="TrG5h" value="ConceptInterfaceReference" />
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <node concept="1TJgyj" id="2ju2syjkmjk" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="2656571587264865492" />

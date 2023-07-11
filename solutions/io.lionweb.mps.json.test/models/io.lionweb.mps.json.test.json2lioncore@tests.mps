@@ -285,7 +285,7 @@
                     <ref role="3cqZAo" node="2A0cGJdRE9I" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="2A0cGJdREpE" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
                   </node>
                 </node>
               </node>
@@ -473,7 +473,7 @@
             </node>
             <node concept="3cpWs8" id="5sACIIszZVJ" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIszZVK" role="3cpWs9">
-                <property role="TrG5h" value="metamodels" />
+                <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5sACIIszZVL" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIszZVM" role="_ZDj9">
                     <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
@@ -484,7 +484,7 @@
                     <ref role="3cqZAo" node="5sACIIszZVC" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIszZVP" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
                   </node>
                 </node>
               </node>
@@ -516,7 +516,7 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs$aUV" role="37wK5m">
-                      <ref role="3cqZAo" node="5sACIIszZVK" resolve="metamodels" />
+                      <ref role="3cqZAo" node="5sACIIszZVK" resolve="languages" />
                     </node>
                   </node>
                 </node>
@@ -751,7 +751,7 @@
             </node>
             <node concept="3cpWs8" id="5sACIIs_h0P" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIs_h0Q" role="3cpWs9">
-                <property role="TrG5h" value="metamodels" />
+                <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5sACIIs_h0R" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIs_h0S" role="_ZDj9">
                     <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
@@ -762,7 +762,7 @@
                     <ref role="3cqZAo" node="5sACIIs_h0I" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIs_h0V" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
                   </node>
                 </node>
               </node>
@@ -794,7 +794,7 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs_h1b" role="37wK5m">
-                      <ref role="3cqZAo" node="5sACIIs_h0Q" resolve="metamodels" />
+                      <ref role="3cqZAo" node="5sACIIs_h0Q" resolve="languages" />
                     </node>
                   </node>
                 </node>
@@ -1228,7 +1228,7 @@
         </node>
         <node concept="3cpWs8" id="5sACIIt1W7f" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIt1W7g" role="3cpWs9">
-            <property role="TrG5h" value="metamodels" />
+            <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="5sACIIt1W1p" role="1tU5fm">
               <node concept="3uibUv" id="5sACIIt1W1s" role="A3Ik2">
                 <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
@@ -1250,7 +1250,7 @@
           </node>
           <node concept="2OqwBi" id="5sACIIt1X_e" role="3tpDZA">
             <node concept="37vLTw" id="5sACIIt1Xko" role="2Oq$k0">
-              <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+              <ref role="3cqZAo" node="5sACIIt1W7g" resolve="languages" />
             </node>
             <node concept="34oBXx" id="5sACIIt1Y8L" role="2OqNvi" />
           </node>
@@ -1266,7 +1266,7 @@
             </node>
             <node concept="2OqwBi" id="5sACIIt1ZVA" role="2ZW6bz">
               <node concept="37vLTw" id="5sACIIt1YTh" role="2Oq$k0">
-                <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+                <ref role="3cqZAo" node="5sACIIt1W7g" resolve="languages" />
               </node>
               <node concept="1uHKPH" id="5sACIIt20rw" role="2OqNvi" />
             </node>
@@ -1302,7 +1302,7 @@
                 <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
                   <ref role="37wK5l" to="6peh:5s4Z0e0n9Xi" resolve="serialize" />
                   <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
-                    <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+                    <ref role="3cqZAo" node="5sACIIt1W7g" resolve="languages" />
                   </node>
                 </node>
               </node>

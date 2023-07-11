@@ -381,7 +381,7 @@
     </node>
     <node concept="2tJIrI" id="5wsogBc3YCM" role="jymVt" />
     <node concept="3clFb_" id="5wsogBc3YTv" role="jymVt">
-      <property role="TrG5h" value="unserializeMetamodels" />
+      <property role="TrG5h" value="unserializeLanguages" />
       <node concept="3clFbS" id="5wsogBc3YTy" role="3clF47">
         <node concept="3cpWs8" id="5wsogBc410Q" role="3cqZAp">
           <node concept="3cpWsn" id="5wsogBc410R" role="3cpWs9">
@@ -925,7 +925,7 @@
     </node>
     <node concept="2tJIrI" id="39$JcGGbiRJ" role="jymVt" />
     <node concept="2YIFZL" id="39$JcGGbiH2" role="jymVt">
-      <property role="TrG5h" value="listJsonFeaturesContainers" />
+      <property role="TrG5h" value="listJsonClassifiers" />
       <node concept="37vLTG" id="39$JcGGbiH3" role="3clF46">
         <property role="TrG5h" value="builtins" />
         <node concept="3uibUv" id="39$JcGGbiH4" role="1tU5fm">

@@ -629,7 +629,7 @@
         <ref role="3uigEE" to="dydc:DUXtH0$h7e" resolve="AImportedLanguage" />
       </node>
       <node concept="37vLTG" id="59Df55kqzUG" role="3clF46">
-        <property role="TrG5h" value="metamodel" />
+        <property role="TrG5h" value="lcLanguage" />
         <node concept="3Tqbb2" id="59Df55kqzUH" role="1tU5fm">
           <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
@@ -671,7 +671,7 @@
                       <node concept="17R0WA" id="59Df55lrW7o" role="3clFbG">
                         <node concept="2OqwBi" id="59Df55lutHU" role="3uHU7w">
                           <node concept="37vLTw" id="59Df55lrW7p" role="2Oq$k0">
-                            <ref role="3cqZAo" node="59Df55kqzUG" resolve="metamodel" />
+                            <ref role="3cqZAo" node="59Df55kqzUG" resolve="lcLanguage" />
                           </node>
                           <node concept="3TrcHB" id="59Df55lutTr" role="2OqNvi">
                             <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
@@ -683,7 +683,7 @@
                               <ref role="3cqZAo" node="59Df55lrW7t" resolve="it" />
                             </node>
                             <node concept="liA8E" id="59Df55lrW7s" role="2OqNvi">
-                              <ref role="37wK5l" to="dydc:59Df55lq2B1" resolve="getMetamodel" />
+                              <ref role="37wK5l" to="dydc:59Df55lq2B1" resolve="getLcLanguage" />
                             </node>
                           </node>
                           <node concept="3TrcHB" id="59Df55lut7y" role="2OqNvi">
@@ -734,14 +734,14 @@
             <node concept="1pGfFk" id="3ePT3MiXg5m" role="2ShVmc">
               <ref role="37wK5l" node="3ePT3MiWVCB" resolve="TestExistingImportedLanguage" />
               <node concept="37vLTw" id="3ePT3MiXg5n" role="37wK5m">
-                <ref role="3cqZAo" node="59Df55kqzUG" resolve="metamodel" />
+                <ref role="3cqZAo" node="59Df55kqzUG" resolve="lcLanguage" />
               </node>
               <node concept="2OqwBi" id="3ePT3MiXg5o" role="37wK5m">
                 <node concept="37vLTw" id="3ePT3MiXg5p" role="2Oq$k0">
                   <ref role="3cqZAo" node="59Df55lrW7h" resolve="importedLanguage" />
                 </node>
                 <node concept="liA8E" id="3ePT3MiXg5q" role="2OqNvi">
-                  <ref role="37wK5l" to="dydc:22JgUWVu8V" resolve="getLanguage" />
+                  <ref role="37wK5l" to="dydc:22JgUWVu8V" resolve="getSLanguage" />
                 </node>
               </node>
               <node concept="37vLTw" id="3ePT3MiXg5r" role="37wK5m">
@@ -1057,7 +1057,7 @@
     <node concept="3Tm1VV" id="59Df55krSgw" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="48csSBPyj1E">
-    <property role="TrG5h" value="MetamodelSorter" />
+    <property role="TrG5h" value="LanguageSorter" />
     <node concept="2YIFZL" id="48csSBPyH1i" role="jymVt">
       <property role="TrG5h" value="sort" />
       <node concept="37vLTG" id="48csSBORtoV" role="3clF46">
@@ -1256,7 +1256,7 @@
                         </node>
                         <node concept="1_3QMl" id="48csSBOD63o" role="1_3QMm">
                           <node concept="3gn64h" id="48csSBOD63p" role="3Kbmr1">
-                            <ref role="3gnhBz" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+                            <ref role="3gnhBz" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                           </node>
                           <node concept="3clFbS" id="48csSBOD63q" role="3Kbo56">
                             <node concept="3clFbF" id="48csSBPAaB7" role="3cqZAp">
@@ -1265,10 +1265,10 @@
                                   <ref role="3cqZAo" node="48csSBOEWNK" resolve="out" />
                                 </node>
                                 <node concept="1rXfSq" id="48csSBPAdV8" role="37vLTx">
-                                  <ref role="37wK5l" node="48csSBPyHfq" resolve="sortFc" />
+                                  <ref role="37wK5l" node="48csSBPyHfq" resolve="sortClassifier" />
                                   <node concept="1PxgMI" id="48csSBOENCv" role="37wK5m">
                                     <node concept="chp4Y" id="48csSBOENCw" role="3oSUPX">
-                                      <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+                                      <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                                     </node>
                                     <node concept="37vLTw" id="48csSBOENCx" role="1m5AlR">
                                       <ref role="3cqZAo" node="48csSBOCY7x" resolve="it" />
@@ -1409,11 +1409,11 @@
     </node>
     <node concept="2tJIrI" id="48csSBPyHgX" role="jymVt" />
     <node concept="2YIFZL" id="48csSBPyHfq" role="jymVt">
-      <property role="TrG5h" value="sortFc" />
+      <property role="TrG5h" value="sortClassifier" />
       <node concept="37vLTG" id="48csSBPyHfr" role="3clF46">
         <property role="TrG5h" value="in" />
         <node concept="3Tqbb2" id="48csSBPyHfs" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
         </node>
       </node>
       <node concept="3Tm1VV" id="48csSBPyHft" role="1B3o_S" />
@@ -1712,7 +1712,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="48csSBPyHfv" role="3clF45">
-        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
       </node>
     </node>
     <node concept="2tJIrI" id="48csSBPyHmO" role="jymVt" />

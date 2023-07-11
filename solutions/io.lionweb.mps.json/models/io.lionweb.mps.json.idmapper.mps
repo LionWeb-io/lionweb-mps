@@ -157,11 +157,11 @@
     </node>
     <node concept="2tJIrI" id="6VkSF6cl$CM" role="jymVt" />
     <node concept="3clFb_" id="6VkSF6clvYV" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="6VkSF6clvYX" role="1B3o_S" />
       <node concept="17QB3L" id="6VkSF6clvZC" role="3clF45" />
       <node concept="37vLTG" id="6VkSF6clvYZ" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="6VkSF6clvZD" role="1tU5fm">
           <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
         </node>
@@ -170,7 +170,7 @@
         <node concept="3clFbF" id="6VkSF6cl_Zm" role="3cqZAp">
           <node concept="2OqwBi" id="6VkSF6clAio" role="3clFbG">
             <node concept="37vLTw" id="6VkSF6cl_Zl" role="2Oq$k0">
-              <ref role="3cqZAo" node="6VkSF6clvYZ" resolve="featuresContainer" />
+              <ref role="3cqZAo" node="6VkSF6clvYZ" resolve="classifier" />
             </node>
             <node concept="liA8E" id="6VkSF6clBLE" role="2OqNvi">
               <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
@@ -490,11 +490,11 @@
     </node>
     <node concept="2tJIrI" id="39$JcGEIAZ7" role="jymVt" />
     <node concept="3clFb_" id="39$JcGEIAZ8" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="39$JcGEIAZ9" role="1B3o_S" />
       <node concept="17QB3L" id="39$JcGEIAZa" role="3clF45" />
       <node concept="37vLTG" id="39$JcGEIAZb" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="39$JcGEIAZc" role="1tU5fm">
           <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
         </node>
@@ -505,7 +505,7 @@
             <ref role="37wK5l" node="39$JcGEJ6R7" resolve="convertToMpsId" />
             <node concept="2OqwBi" id="39$JcGEIAZf" role="37wK5m">
               <node concept="37vLTw" id="39$JcGEIAZg" role="2Oq$k0">
-                <ref role="3cqZAo" node="39$JcGEIAZb" resolve="featuresContainer" />
+                <ref role="3cqZAo" node="39$JcGEIAZb" resolve="classifier" />
               </node>
               <node concept="liA8E" id="39$JcGEIAZh" role="2OqNvi">
                 <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
@@ -878,11 +878,11 @@
     </node>
     <node concept="2tJIrI" id="5GtAzeJ$pi5" role="jymVt" />
     <node concept="3clFb_" id="5GtAzeJzZcV" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="5GtAzeJzZcX" role="1B3o_S" />
       <node concept="17QB3L" id="5GtAzeJzZdC" role="3clF45" />
       <node concept="37vLTG" id="5GtAzeJzZcZ" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="5GtAzeJzZdD" role="1tU5fm">
           <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
         </node>
@@ -893,7 +893,7 @@
             <ref role="37wK5l" node="DUXtH12usz" resolve="convertId" />
             <node concept="2OqwBi" id="5GtAzeJ$xkN" role="37wK5m">
               <node concept="37vLTw" id="5GtAzeJ$x2l" role="2Oq$k0">
-                <ref role="3cqZAo" node="5GtAzeJzZcZ" resolve="featuresContainer" />
+                <ref role="3cqZAo" node="5GtAzeJzZcZ" resolve="classifier" />
               </node>
               <node concept="liA8E" id="5GtAzeJ$z9q" role="2OqNvi">
                 <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />

@@ -39,7 +39,7 @@
     <property role="3HH78N" value="1" />
     <property role="2RzRSo" value="LIonCore-builtins" />
     <node concept="2RzSJf" id="2ju2syjnJjX" role="2RzR6B">
-      <property role="2RzON1" value=" LIonCore-builtins-String" />
+      <property role="2RzON1" value="LIonCore-builtins-String" />
       <property role="TrG5h" value="String" />
     </node>
     <node concept="2RzSJf" id="2ju2syjnJk2" role="2RzR6B">

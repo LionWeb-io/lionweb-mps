@@ -607,7 +607,7 @@
         </node>
         <node concept="3clFbF" id="5glO5qKXKft" role="3cqZAp">
           <node concept="1rXfSq" id="5glO5qKXKfs" role="3clFbG">
-            <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerMetamodel" />
+            <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
             <node concept="37vLTw" id="5glO5qKXKfr" role="37wK5m">
               <ref role="3cqZAo" node="48csSBOm9Lz" resolve="metaPointer" />
             </node>
@@ -762,7 +762,7 @@
             </node>
             <node concept="3clFbF" id="5glO5qKXX5M" role="3cqZAp">
               <node concept="1rXfSq" id="5glO5qKXX5K" role="3clFbG">
-                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerMetamodel" />
+                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
                 <node concept="37vLTw" id="5glO5qKXYPp" role="37wK5m">
                   <ref role="3cqZAo" node="48csSBOlAo$" resolve="metaPointerProp" />
                 </node>
@@ -839,7 +839,7 @@
             </node>
             <node concept="3clFbF" id="51$RJlOKNgS" role="3cqZAp">
               <node concept="1rXfSq" id="51$RJlOKNgT" role="3clFbG">
-                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerMetamodel" />
+                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
                 <node concept="37vLTw" id="51$RJlOKNgU" role="37wK5m">
                   <ref role="3cqZAo" node="51$RJlOKNgM" resolve="metaPointerProp" />
                 </node>
@@ -1186,7 +1186,7 @@
             </node>
             <node concept="3clFbF" id="5glO5qKY20W" role="3cqZAp">
               <node concept="1rXfSq" id="5glO5qKY20U" role="3clFbG">
-                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerMetamodel" />
+                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
                 <node concept="37vLTw" id="5glO5qKY4zF" role="37wK5m">
                   <ref role="3cqZAo" node="5glO5qKT4Uu" resolve="metaPointer" />
                 </node>
@@ -1313,7 +1313,7 @@
             </node>
             <node concept="3clFbF" id="5AGBwuFpMQ5" role="3cqZAp">
               <node concept="1rXfSq" id="5AGBwuFpMQ6" role="3clFbG">
-                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerMetamodel" />
+                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
                 <node concept="37vLTw" id="5AGBwuFpMQ7" role="37wK5m">
                   <ref role="3cqZAo" node="5AGBwuFpMPX" resolve="metaPointer" />
                 </node>
@@ -1474,7 +1474,7 @@
             </node>
             <node concept="3clFbF" id="5glO5qKY7wy" role="3cqZAp">
               <node concept="1rXfSq" id="5glO5qKY7ww" role="3clFbG">
-                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerMetamodel" />
+                <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
                 <node concept="37vLTw" id="5glO5qKYaJ_" role="37wK5m">
                   <ref role="3cqZAo" node="5glO5qKT6nx" resolve="metaPointer" />
                 </node>
@@ -1931,7 +1931,7 @@
     </node>
     <node concept="2tJIrI" id="48csSBQ2Z3G" role="jymVt" />
     <node concept="3clFb_" id="5glO5qKXKfo" role="jymVt">
-      <property role="TrG5h" value="registerMetamodel" />
+      <property role="TrG5h" value="registerLanguage" />
       <node concept="3Tmbuc" id="5glO5qKXMdU" role="1B3o_S" />
       <node concept="3cqZAl" id="5glO5qKXKfq" role="3clF45" />
       <node concept="37vLTG" id="5glO5qKXKfi" role="3clF46">
@@ -2580,7 +2580,7 @@
                   <ref role="3cqZAo" node="5s4Z0e0f92p" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0fj1X" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aR3TD" resolve="mapFeaturesContainer" />
+                  <ref role="37wK5l" to="teza:6VkSF6aR3TD" resolve="mapClassifier" />
                   <node concept="37vLTw" id="5s4Z0e0fjmV" role="37wK5m">
                     <ref role="3cqZAo" node="5s4Z0e0f9ko" resolve="concept" />
                   </node>
