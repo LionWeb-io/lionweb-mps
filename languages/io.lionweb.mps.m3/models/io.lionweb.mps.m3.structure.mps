@@ -202,9 +202,6 @@
         <property role="2DM1AS" value="Classifier-features" />
       </node>
     </node>
-    <node concept="PrWs8" id="2ju2syjkn6H" role="PzmwI">
-      <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
-    </node>
     <node concept="2DM1AW" id="5AGBwuDAPoI" role="lGtFl">
       <property role="2DM1AS" value="Classifier" />
     </node>
@@ -295,13 +292,6 @@
       <ref role="3Kckio" node="2ju2syjkmlP" resolve="extends" />
     </node>
   </node>
-  <node concept="PlHQZ" id="2ju2syjkn10">
-    <property role="EcuMT" value="2656571587264868416" />
-    <property role="TrG5h" value="NamespaceProvider" />
-    <node concept="2DM1AW" id="5AGBwuDAPmq" role="lGtFl">
-      <property role="2DM1AS" value="NamespaceProvider" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2ju2syjkngz">
     <property role="EcuMT" value="2656571587264869411" />
     <property role="TrG5h" value="Language" />
@@ -316,9 +306,6 @@
         <property role="2DM1AS" value="Language-version" />
       </node>
       <node concept="3KvT9W" id="5AGBwuDOW7L" role="lGtFl" />
-    </node>
-    <node concept="PrWs8" id="2ju2syjknmE" role="PzmwI">
-      <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
     </node>
     <node concept="PrWs8" id="2ju2syjmD$6" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -408,9 +395,6 @@
       <node concept="2DM1AW" id="5AGBwuDAPqP" role="lGtFl">
         <property role="2DM1AS" value="Enumeration-literals" />
       </node>
-    </node>
-    <node concept="PrWs8" id="2ju2syjkzc8" role="PzmwI">
-      <ref role="PrY4T" node="2ju2syjkn10" resolve="NamespaceProvider" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPpL" role="lGtFl">
       <property role="2DM1AS" value="Enumeration" />
