@@ -89,7 +89,7 @@
   </node>
   <node concept="1TIwiD" id="6fYiNFad_a6">
     <property role="EcuMT" value="7205279169712116358" />
-    <property role="TrG5h" value="LIonWebElementKey" />
+    <property role="TrG5h" value="LIonWebEntityKey" />
     <property role="34LRSv" value="LIonWeb key" />
     <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALIonWebNodeAttribute" />
     <node concept="M6xJ_" id="6fYiNFad_a7" role="lGtFl">

@@ -4076,7 +4076,7 @@
                 <node concept="liA8E" id="6fYiNFaGIfK" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
                   <node concept="35c_gC" id="6fYiNFaGIfL" role="37wK5m">
-                    <ref role="35c_gD" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                    <ref role="35c_gD" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                   </node>
                 </node>
               </node>

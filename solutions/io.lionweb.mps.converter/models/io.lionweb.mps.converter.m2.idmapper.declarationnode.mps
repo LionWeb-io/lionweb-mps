@@ -1298,7 +1298,7 @@
               </node>
               <node concept="3CFZ6_" id="6fYiNFavnqB" role="2OqNvi">
                 <node concept="3CFYIy" id="6fYiNFavo8B" role="3CFYIz">
-                  <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                  <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                 </node>
               </node>
             </node>

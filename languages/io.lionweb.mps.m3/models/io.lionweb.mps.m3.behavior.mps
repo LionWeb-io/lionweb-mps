@@ -329,11 +329,11 @@
       <node concept="17QB3L" id="7jdzMalQyrr" role="3clF45" />
     </node>
     <node concept="13i0hz" id="59Df55kqLli" role="13h7CS">
-      <property role="TrG5h" value="allVisibleElements" />
+      <property role="TrG5h" value="allVisibleEntities" />
       <node concept="3Tm1VV" id="59Df55kqLlj" role="1B3o_S" />
       <node concept="A3Dl8" id="59Df55kqLpn" role="3clF45">
         <node concept="3Tqbb2" id="59Df55kqLvM" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
         </node>
       </node>
       <node concept="3clFbS" id="59Df55kqLll" role="3clF47">
@@ -358,7 +358,7 @@
         <node concept="3cpWs6" id="59Df55krp55" role="3cqZAp">
           <node concept="2OqwBi" id="59Df55krp57" role="3cqZAk">
             <node concept="BsUDl" id="59Df55krp58" role="2Oq$k0">
-              <ref role="37wK5l" node="59Df55kqNMM" resolve="collectVisibleElementsRecusive" />
+              <ref role="37wK5l" node="59Df55kqNMM" resolve="collectVisibleEntitiesRecusive" />
               <node concept="37vLTw" id="59Df55krp59" role="37wK5m">
                 <ref role="3cqZAo" node="59Df55krohX" resolve="visitedLanguages" />
               </node>
@@ -386,7 +386,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="59Df55krp5m" role="2OqNvi">
-                  <ref role="37wK5l" node="59Df55kqNMM" resolve="collectVisibleElementsRecusive" />
+                  <ref role="37wK5l" node="59Df55kqNMM" resolve="collectVisibleEntitiesRecusive" />
                   <node concept="37vLTw" id="59Df55krp5n" role="37wK5m">
                     <ref role="3cqZAo" node="59Df55krohX" resolve="visitedLanguages" />
                   </node>
@@ -398,7 +398,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="59Df55kqNMM" role="13h7CS">
-      <property role="TrG5h" value="collectVisibleElementsRecusive" />
+      <property role="TrG5h" value="collectVisibleEntitiesRecusive" />
       <node concept="37vLTG" id="59Df55kqOsS" role="3clF46">
         <property role="TrG5h" value="visitedLanguages" />
         <node concept="2hMVRd" id="59Df55kqOtC" role="1tU5fm">
@@ -410,7 +410,7 @@
       <node concept="3Tmbuc" id="59Df55kqNWH" role="1B3o_S" />
       <node concept="A3Dl8" id="59Df55kqNZs" role="3clF45">
         <node concept="3Tqbb2" id="59Df55kqO1N" role="A3Ik2">
-          <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
         </node>
       </node>
       <node concept="3clFbS" id="59Df55kqNMP" role="3clF47">
@@ -448,13 +448,13 @@
             <property role="TrG5h" value="result" />
             <node concept="A3Dl8" id="59Df55kreSo" role="1tU5fm">
               <node concept="3Tqbb2" id="59Df55kriGD" role="A3Ik2">
-                <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+                <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
               </node>
             </node>
             <node concept="2OqwBi" id="59Df55kqV1z" role="33vP2m">
               <node concept="13iPFW" id="59Df55kqV1$" role="2Oq$k0" />
               <node concept="3Tsc0h" id="59Df55kqV1_" role="2OqNvi">
-                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
               </node>
             </node>
           </node>
@@ -487,7 +487,7 @@
                         </node>
                       </node>
                       <node concept="2qgKlT" id="59Df55krcud" role="2OqNvi">
-                        <ref role="37wK5l" node="59Df55kqNMM" resolve="collectVisibleElementsRecusive" />
+                        <ref role="37wK5l" node="59Df55kqNMM" resolve="collectVisibleEntitiesRecusive" />
                         <node concept="37vLTw" id="59Df55krd0j" role="37wK5m">
                           <ref role="3cqZAo" node="59Df55kqOsS" resolve="visitedLanguages" />
                         </node>

@@ -1156,7 +1156,7 @@
         <node concept="3clFbH" id="z1IqfFx7jV" role="3cqZAp" />
         <node concept="2Gpval" id="z1IqfFx7vt" role="3cqZAp">
           <node concept="2GrKxI" id="z1IqfFx7vv" role="2Gsz3X">
-            <property role="TrG5h" value="jsonElement" />
+            <property role="TrG5h" value="jsonEntity" />
           </node>
           <node concept="2OqwBi" id="z1IqfFx8AW" role="2GsD0m">
             <node concept="37vLTw" id="z1IqfFx8eR" role="2Oq$k0">
@@ -1169,9 +1169,9 @@
           <node concept="3clFbS" id="z1IqfFx7vz" role="2LFqv$">
             <node concept="3cpWs8" id="z1IqfFVLEV" role="3cqZAp">
               <node concept="3cpWsn" id="z1IqfFVLEY" role="3cpWs9">
-                <property role="TrG5h" value="lcElement" />
+                <property role="TrG5h" value="lcEntity" />
                 <node concept="3Tqbb2" id="z1IqfFVLET" role="1tU5fm">
-                  <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+                  <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
                 </node>
               </node>
             </node>
@@ -1181,21 +1181,21 @@
                   <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
                 </node>
                 <node concept="2GrUjf" id="z1IqfFxag1" role="2ZW6bz">
-                  <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonElement" />
+                  <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonEntity" />
                 </node>
               </node>
               <node concept="3clFbS" id="z1IqfFxa2s" role="3clFbx">
                 <node concept="3clFbF" id="z1IqfFJ$ir" role="3cqZAp">
                   <node concept="37vLTI" id="z1IqfFVRUC" role="3clFbG">
                     <node concept="37vLTw" id="z1IqfFVTJA" role="37vLTJ">
-                      <ref role="3cqZAo" node="z1IqfFVLEY" resolve="lcElement" />
+                      <ref role="3cqZAo" node="z1IqfFVLEY" resolve="lcEntity" />
                     </node>
                     <node concept="1rXfSq" id="z1IqfFJ$iq" role="37vLTx">
                       <ref role="37wK5l" node="z1IqfFJzK6" resolve="registerClassifier" />
                       <node concept="1eOMI4" id="z1IqfFJ_1C" role="37wK5m">
                         <node concept="10QFUN" id="z1IqfFJ_1B" role="1eOMHV">
                           <node concept="2GrUjf" id="z1IqfFJ_1A" role="10QFUP">
-                            <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonElement" />
+                            <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonEntity" />
                           </node>
                           <node concept="3uibUv" id="z1IqfFJ_1_" role="10QFUM">
                             <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
@@ -1212,21 +1212,21 @@
                     <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
                   </node>
                   <node concept="2GrUjf" id="z1IqfFJ_$V" role="2ZW6bz">
-                    <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonElement" />
+                    <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonEntity" />
                   </node>
                 </node>
                 <node concept="3clFbS" id="z1IqfFJ_n5" role="3eOfB_">
                   <node concept="3clFbF" id="z1IqfFJBFn" role="3cqZAp">
                     <node concept="37vLTI" id="z1IqfFVVyh" role="3clFbG">
                       <node concept="37vLTw" id="z1IqfFVXp3" role="37vLTJ">
-                        <ref role="3cqZAo" node="z1IqfFVLEY" resolve="lcElement" />
+                        <ref role="3cqZAo" node="z1IqfFVLEY" resolve="lcEntity" />
                       </node>
                       <node concept="1rXfSq" id="z1IqfFJBFo" role="37vLTx">
                         <ref role="37wK5l" node="z1IqfFJAFf" resolve="registerDataType" />
                         <node concept="1eOMI4" id="z1IqfFJBFp" role="37wK5m">
                           <node concept="10QFUN" id="z1IqfFJBFq" role="1eOMHV">
                             <node concept="2GrUjf" id="z1IqfFJBFr" role="10QFUP">
-                              <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonElement" />
+                              <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonEntity" />
                             </node>
                             <node concept="3uibUv" id="z1IqfFJBFs" role="10QFUM">
                               <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
@@ -1257,12 +1257,12 @@
                     <ref role="3cqZAo" node="z1IqfFx5mA" resolve="lc" />
                   </node>
                   <node concept="3Tsc0h" id="z1IqfFW5kL" role="2OqNvi">
-                    <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                    <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
                   </node>
                 </node>
                 <node concept="TSZUe" id="z1IqfFWegN" role="2OqNvi">
                   <node concept="37vLTw" id="z1IqfFWgDt" role="25WWJ7">
-                    <ref role="3cqZAo" node="z1IqfFVLEY" resolve="lcElement" />
+                    <ref role="3cqZAo" node="z1IqfFVLEY" resolve="lcEntity" />
                   </node>
                 </node>
               </node>
@@ -4193,20 +4193,20 @@
         <node concept="3clFbH" id="5sACIIsA0w9" role="3cqZAp" />
         <node concept="2Gpval" id="5sACIIsA0wa" role="3cqZAp">
           <node concept="2GrKxI" id="5sACIIsA0wb" role="2Gsz3X">
-            <property role="TrG5h" value="lcElement" />
+            <property role="TrG5h" value="lcEntity" />
           </node>
           <node concept="2OqwBi" id="5sACIIsIa6d" role="2GsD0m">
             <node concept="37vLTw" id="5sACIIsI8vw" role="2Oq$k0">
               <ref role="3cqZAo" node="5sACIIsA0wZ" resolve="lc" />
             </node>
             <node concept="3Tsc0h" id="5sACIIsIcAW" role="2OqNvi">
-              <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+              <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
             </node>
           </node>
           <node concept="3clFbS" id="5sACIIsA0wf" role="2LFqv$">
             <node concept="3cpWs8" id="5sACIIsA0wg" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIsA0wh" role="3cpWs9">
-                <property role="TrG5h" value="jsonElement" />
+                <property role="TrG5h" value="jsonEntity" />
                 <node concept="3uibUv" id="5sACIIsIhbl" role="1tU5fm">
                   <ref role="3uigEE" to="loul:~MetamodelElement" resolve="MetamodelElement" />
                 </node>
@@ -4215,7 +4215,7 @@
             <node concept="3clFbJ" id="5sACIIsA0wj" role="3cqZAp">
               <node concept="2OqwBi" id="5sACIIsIqj8" role="3clFbw">
                 <node concept="2GrUjf" id="5sACIIsIohL" role="2Oq$k0">
-                  <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcElement" />
+                  <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcEntity" />
                 </node>
                 <node concept="1mIQ4w" id="5sACIIsIsbw" role="2OqNvi">
                   <node concept="chp4Y" id="5sACIIsIuHB" role="cj9EA">
@@ -4227,7 +4227,7 @@
                 <node concept="3clFbF" id="5sACIIsA0wo" role="3cqZAp">
                   <node concept="37vLTI" id="5sACIIsA0wp" role="3clFbG">
                     <node concept="37vLTw" id="5sACIIsA0wq" role="37vLTJ">
-                      <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonElement" />
+                      <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonEntity" />
                     </node>
                     <node concept="1rXfSq" id="5sACIIsA0wr" role="37vLTx">
                       <ref role="37wK5l" node="5sACIIsA0xt" resolve="registerClassifier" />
@@ -4236,7 +4236,7 @@
                           <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                         </node>
                         <node concept="2GrUjf" id="5sACIIsA0wu" role="1m5AlR">
-                          <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcElement" />
+                          <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcEntity" />
                         </node>
                       </node>
                     </node>
@@ -4246,7 +4246,7 @@
               <node concept="3eNFk2" id="5sACIIsA0ww" role="3eNLev">
                 <node concept="2OqwBi" id="5sACIIsIJb$" role="3eO9$A">
                   <node concept="2GrUjf" id="5sACIIsIHsU" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcElement" />
+                    <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcEntity" />
                   </node>
                   <node concept="1mIQ4w" id="5sACIIsINEX" role="2OqNvi">
                     <node concept="chp4Y" id="5sACIIsIQaz" role="cj9EA">
@@ -4258,7 +4258,7 @@
                   <node concept="3clFbF" id="5sACIIsA0w_" role="3cqZAp">
                     <node concept="37vLTI" id="5sACIIsA0wA" role="3clFbG">
                       <node concept="37vLTw" id="5sACIIsA0wB" role="37vLTJ">
-                        <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonElement" />
+                        <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonEntity" />
                       </node>
                       <node concept="1rXfSq" id="5sACIIsA0wC" role="37vLTx">
                         <ref role="37wK5l" node="5sACIIsA0Cm" resolve="registerDataType" />
@@ -4267,7 +4267,7 @@
                             <ref role="cht4Q" to="h3y3:2ju2syjko0M" resolve="DataType" />
                           </node>
                           <node concept="2GrUjf" id="5sACIIsA0wF" role="1m5AlR">
-                            <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcElement" />
+                            <ref role="2Gs0qQ" node="5sACIIsA0wb" resolve="lcEntity" />
                           </node>
                         </node>
                       </node>
@@ -4295,7 +4295,7 @@
                 <node concept="liA8E" id="5sACIIsJft0" role="2OqNvi">
                   <ref role="37wK5l" to="loul:~Metamodel.addElement(io.lionweb.lioncore.java.metamodel.MetamodelElement)" resolve="addElement" />
                   <node concept="37vLTw" id="5sACIIsJkl1" role="37wK5m">
-                    <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonElement" />
+                    <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonEntity" />
                   </node>
                 </node>
               </node>

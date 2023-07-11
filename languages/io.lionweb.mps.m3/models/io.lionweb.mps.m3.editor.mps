@@ -132,7 +132,7 @@
       </node>
       <node concept="3F0ifn" id="2ju2syjmGNV" role="3EZMnx" />
       <node concept="3F2HdR" id="2ju2syjmGR8" role="3EZMnx">
-        <ref role="1NtTu8" to="h3y3:2ju2syjknxJ" resolve="elements" />
+        <ref role="1NtTu8" to="h3y3:2ju2syjknxJ" resolve="entities" />
         <node concept="2EHx9g" id="2ju2syjmGS_" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="2ju2syjmDpb" role="2iSdaV" />

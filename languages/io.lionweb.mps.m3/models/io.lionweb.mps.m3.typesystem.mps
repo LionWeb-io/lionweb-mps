@@ -198,7 +198,7 @@
     </language>
   </registry>
   <node concept="18kY7G" id="59Df55kvlh2">
-    <property role="TrG5h" value="check_LanguageElement_uniqueKeys" />
+    <property role="TrG5h" value="check_LanguageEntity_uniqueKeys" />
     <node concept="3clFbS" id="59Df55kvlh3" role="18ibNy">
       <node concept="3cpWs8" id="59Df55kvloi" role="3cqZAp">
         <node concept="3cpWsn" id="59Df55kvloj" role="3cpWs9">

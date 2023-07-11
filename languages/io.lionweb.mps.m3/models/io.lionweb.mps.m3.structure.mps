@@ -66,7 +66,7 @@
       <concept id="7205279169712116353" name="io.lionweb.mps.structure.attribute.structure.ILionWebKey" flags="ng" index="2DM1AV">
         <property id="7205279169712116354" name="key" index="2DM1AS" />
       </concept>
-      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LIonWebElementKey" flags="ng" index="2DM1AW" />
+      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LIonWebEntityKey" flags="ng" index="2DM1AW" />
       <concept id="6461713321117473366" name="io.lionweb.mps.structure.attribute.structure.LIonWebSmartReference" flags="ng" index="3Kckhh">
         <reference id="6461713321117473439" name="reference" index="3Kckio" />
       </concept>
@@ -78,15 +78,15 @@
   </registry>
   <node concept="1TIwiD" id="2ju2syjkkog">
     <property role="EcuMT" value="2656571587264857616" />
-    <property role="TrG5h" value="LanguageElement" />
+    <property role="TrG5h" value="LanguageEntity" />
     <property role="R5$K7" value="true" />
-    <property role="34LRSv" value="LanguageElement" />
+    <property role="34LRSv" value="LanguageEntity" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6jTTMHCZ76G" role="PzmwI">
       <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPoy" role="lGtFl">
-      <property role="2DM1AS" value="LanguageElement" />
+      <property role="2DM1AS" value="LanguageEntity" />
     </node>
     <node concept="3KvTa3" id="5AGBwuDPgUE" role="lGtFl" />
   </node>
@@ -191,7 +191,7 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="classifier" />
     <property role="34LRSv" value="Classifier" />
-    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
+    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageEntity" />
     <node concept="1TJgyj" id="2ju2syjkliV" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264861371" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -316,11 +316,11 @@
     <node concept="1TJgyj" id="2ju2syjknxJ" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264870511" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="elements" />
+      <property role="20kJfa" value="entities" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjkkog" resolve="LanguageElement" />
+      <ref role="20lvS9" node="2ju2syjkkog" resolve="LanguageEntity" />
       <node concept="2DM1AW" id="5AGBwuDAPoE" role="lGtFl">
-        <property role="2DM1AS" value="Language-elements" />
+        <property role="2DM1AS" value="Language-entities" />
       </node>
     </node>
     <node concept="1TJgyj" id="2ju2syjknFV" role="1TKVEi">
@@ -363,7 +363,7 @@
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="dataType" />
     <property role="34LRSv" value="DataType" />
-    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageElement" />
+    <ref role="1TJDcQ" node="2ju2syjkkog" resolve="LanguageEntity" />
     <node concept="2DM1AW" id="5AGBwuDAPqR" role="lGtFl">
       <property role="2DM1AS" value="DataType" />
     </node>

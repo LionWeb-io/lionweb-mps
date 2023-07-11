@@ -1191,9 +1191,9 @@
         </node>
         <node concept="3cpWs8" id="48csSBOBo6F" role="3cqZAp">
           <node concept="3cpWsn" id="48csSBOBo6G" role="3cpWs9">
-            <property role="TrG5h" value="elements" />
+            <property role="TrG5h" value="entities" />
             <node concept="2I9FWS" id="48csSBOBpNt" role="1tU5fm">
-              <ref role="2I9WkF" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+              <ref role="2I9WkF" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
             </node>
             <node concept="2OqwBi" id="48csSBOBopm" role="33vP2m">
               <node concept="2OqwBi" id="48csSBOCWwz" role="2Oq$k0">
@@ -1203,7 +1203,7 @@
                       <ref role="3cqZAo" node="48csSBPyH5c" resolve="in" />
                     </node>
                     <node concept="3Tsc0h" id="48csSBOBo6K" role="2OqNvi">
-                      <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                      <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
                     </node>
                   </node>
                   <node concept="2S7cBI" id="48csSBOBo6L" role="2OqNvi">
@@ -1241,7 +1241,7 @@
                         <node concept="3cpWsn" id="48csSBOEWNK" role="3cpWs9">
                           <property role="TrG5h" value="out" />
                           <node concept="3Tqbb2" id="48csSBOEWNF" role="1tU5fm">
-                            <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+                            <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
                           </node>
                           <node concept="37vLTw" id="48csSBOHqxH" role="33vP2m">
                             <ref role="3cqZAo" node="48csSBOCY7x" resolve="it" />
@@ -1356,7 +1356,7 @@
                 <ref role="3cqZAo" node="48csSBPyH5c" resolve="in" />
               </node>
               <node concept="3Tsc0h" id="48csSBOBw5L" role="2OqNvi">
-                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
               </node>
             </node>
             <node concept="2Kehj3" id="48csSBOB_H6" role="2OqNvi" />
@@ -1387,12 +1387,12 @@
                 <ref role="3cqZAo" node="48csSBPyH5c" resolve="in" />
               </node>
               <node concept="3Tsc0h" id="48csSBOBFna" role="2OqNvi">
-                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
               </node>
             </node>
             <node concept="X8dFx" id="48csSBOBSVX" role="2OqNvi">
               <node concept="37vLTw" id="48csSBOBT6t" role="25WWJ7">
-                <ref role="3cqZAo" node="48csSBOBo6G" resolve="elements" />
+                <ref role="3cqZAo" node="48csSBOBo6G" resolve="entities" />
               </node>
             </node>
           </node>
