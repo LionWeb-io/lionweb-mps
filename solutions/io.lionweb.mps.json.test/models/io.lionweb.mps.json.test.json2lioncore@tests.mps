@@ -131,7 +131,7 @@
       </concept>
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -147,7 +147,7 @@
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY" />
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -159,7 +159,6 @@
         <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
       </concept>
@@ -607,9 +606,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIszZSy" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIs$OuV" role="1qenE9">
-        <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <property role="TrG5h" value="library" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <node concept="2RzSJf" id="5sACIIs$OuW" role="2RzR6B">
           <property role="2RzON1" value="INhBvWyXvxwNsePuX0rdNGB_J9hi85cTb1Q0APXCyJ0" />
           <property role="TrG5h" value="String" />
@@ -941,9 +940,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIs_h1$" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIs$PgG" role="1qenE9">
-        <property role="2RzRSo" value="LIonCore_M3" />
         <property role="TrG5h" value="LIonCore.M3" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="LIonCore_M3" />
         <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="2RzON1" value="Concept" />
@@ -1447,9 +1446,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIt1PmN" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIt1PmO" role="1qenE9">
-        <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <property role="TrG5h" value="library" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <node concept="2RzSJf" id="5sACIIt1PmP" role="2RzR6B">
           <property role="2RzON1" value="INhBvWyXvxwNsePuX0rdNGB_J9hi85cTb1Q0APXCyJ0" />
           <property role="TrG5h" value="String" />

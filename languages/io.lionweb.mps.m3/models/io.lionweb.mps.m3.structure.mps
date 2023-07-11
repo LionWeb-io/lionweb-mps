@@ -83,7 +83,7 @@
     <property role="34LRSv" value="LanguageElement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6jTTMHCZ76G" role="PzmwI">
-      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="NamespacedEntity" />
+      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPoy" role="lGtFl">
       <property role="2DM1AS" value="LanguageElement" />
@@ -107,7 +107,7 @@
       <node concept="3KvT9W" id="5AGBwuDOW8Z" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="6jTTMHCZ76E" role="PzmwI">
-      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="NamespacedEntity" />
+      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPpB" role="lGtFl">
       <property role="2DM1AS" value="Feature" />
@@ -308,15 +308,6 @@
     <property role="34LRSv" value="Language" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="2ju2syjknvg" role="1TKVEl">
-      <property role="IQ2nx" value="2656571587264870352" />
-      <property role="TrG5h" value="key" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="5AGBwuDAPoA" role="lGtFl">
-        <property role="2DM1AS" value="Language-key" />
-      </node>
-      <node concept="3KvT9W" id="5AGBwuDOW7I" role="lGtFl" />
-    </node>
     <node concept="1TJgyi" id="2chztJeDvZC" role="1TKVEl">
       <property role="IQ2nx" value="2526956841135898600" />
       <property role="TrG5h" value="version" />
@@ -331,6 +322,9 @@
     </node>
     <node concept="PrWs8" id="2ju2syjmD$6" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="7jdzMalHnvm" role="PzmwI">
+      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
     </node>
     <node concept="1TJgyj" id="2ju2syjknxJ" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264870511" />
@@ -430,7 +424,7 @@
     <property role="34LRSv" value="EnumerationLiteral" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6jTTMHCZ76C" role="PzmwI">
-      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="NamespacedEntity" />
+      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPpJ" role="lGtFl">
       <property role="2DM1AS" value="EnumerationLiteral" />
@@ -444,7 +438,7 @@
     <property role="FLfZY" value=".*" />
   </node>
   <node concept="PlHQZ" id="6jTTMHCXLTP">
-    <property role="TrG5h" value="NamespacedEntity" />
+    <property role="TrG5h" value="IKeyed" />
     <property role="34LRSv" value="NamespacedEntity" />
     <property role="EcuMT" value="7434462380790650845" />
     <node concept="1TJgyi" id="2ju2syjkkk9" role="1TKVEl">
@@ -452,12 +446,15 @@
       <property role="TrG5h" value="key" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="3KvT9W" id="5AGBwuDOW7G" role="lGtFl" />
+      <node concept="2DM1AW" id="7jdzMalGTw9" role="lGtFl">
+        <property role="2DM1AS" value="IKeyed-key" />
+      </node>
     </node>
     <node concept="PrWs8" id="2ju2syjmzI5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPow" role="lGtFl">
-      <property role="2DM1AS" value="NamespacedEntity" />
+      <property role="2DM1AS" value="IKeyed" />
     </node>
   </node>
   <node concept="2DM1_0" id="5AGBwuDAKCg">

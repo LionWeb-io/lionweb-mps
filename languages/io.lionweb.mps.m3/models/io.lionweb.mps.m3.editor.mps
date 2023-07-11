@@ -150,7 +150,7 @@
           <node concept="2iRfu4" id="2ju2syjmJMt" role="2iSdaV" />
           <node concept="VPM3Z" id="2ju2syjmJMu" role="3F10Kt" />
           <node concept="3F0A7n" id="2ju2syjmJMv" role="3EZMnx">
-            <ref role="1NtTu8" to="h3y3:2ju2syjknvg" resolve="key" />
+            <ref role="1NtTu8" to="h3y3:2ju2syjkkk9" resolve="key" />
           </node>
         </node>
       </node>
@@ -222,7 +222,7 @@
   <node concept="PKFIW" id="2ju2syjmIMX">
     <property role="TrG5h" value="NamespacedEntity_Inspector" />
     <property role="3GE5qa" value="dataType" />
-    <ref role="1XX52x" to="h3y3:6jTTMHCXLTP" resolve="NamespacedEntity" />
+    <ref role="1XX52x" to="h3y3:6jTTMHCXLTP" resolve="IKeyed" />
     <node concept="3EZMnI" id="2ju2syjmIMY" role="2wV5jI">
       <node concept="2iRkQZ" id="2ju2syjmIMZ" role="2iSdaV" />
       <node concept="3EZMnI" id="2ju2syjmIN0" role="3EZMnx">

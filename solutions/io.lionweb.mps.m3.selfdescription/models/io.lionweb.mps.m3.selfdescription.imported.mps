@@ -9,7 +9,7 @@
   </imports>
   <registry>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -25,7 +25,7 @@
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY" />
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -40,13 +40,12 @@
         <reference id="2656571587264871635" name="language" index="2RzRkr" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
       </concept>
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
-      <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.IMetamodelReferenceContainer" flags="ng" index="2P3sN0">
+      <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.ILanguageReferenceContainer" flags="ng" index="2P3sN0">
         <child id="755186209566487256" name="metamodels" index="1a0gs3" />
       </concept>
       <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
@@ -66,9 +65,9 @@
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
   </node>
   <node concept="2RzRRF" id="7pLZNi2wTGx">
-    <property role="2RzRSo" value="LIonCore_M3" />
     <property role="TrG5h" value="LIonCore.M3" />
     <property role="3HH78N" value="1" />
+    <property role="2RzON1" value="LIonCore_M3" />
     <node concept="2RzPWn" id="7pLZNi2wTGy" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LIonCore_M3_NamespacedEntity" />
@@ -294,9 +293,9 @@
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
   </node>
   <node concept="2RzRRF" id="5sACIIs$PgG">
-    <property role="2RzRSo" value="LIonCore_M3" />
     <property role="TrG5h" value="LIonCore.M3" />
     <property role="3HH78N" value="1" />
+    <property role="2RzON1" value="LIonCore_M3" />
     <node concept="2RzPWn" id="5sACIIs$PgH" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LIonCore_M3_NamespacedEntity" />
@@ -524,9 +523,9 @@
     </node>
   </node>
   <node concept="2RzRRF" id="6VkSF6cu7LM">
-    <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
     <property role="TrG5h" value="library" />
     <property role="3HH78N" value="1" />
+    <property role="2RzON1" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
     <node concept="2RzPWn" id="6VkSF6cu7LQ" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="OcDK2GESljInG-ApIqtkXUoA2UeviB97u0UuiZzM0Hs" />

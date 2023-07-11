@@ -208,7 +208,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="2ju2syjkoSa">
-    <ref role="13h7C2" to="h3y3:6jTTMHCXLTP" resolve="NamespacedEntity" />
+    <ref role="13h7C2" to="h3y3:6jTTMHCXLTP" resolve="IKeyed" />
     <node concept="13i0hz" id="2ju2syjkoW7" role="13h7CS">
       <property role="TrG5h" value="qualifiedName" />
       <node concept="3Tm1VV" id="2ju2syjkoW8" role="1B3o_S" />
@@ -319,7 +319,7 @@
             <node concept="2OqwBi" id="DUXtH0Vysp" role="37vLTJ">
               <node concept="13iPFW" id="DUXtH0Vysq" role="2Oq$k0" />
               <node concept="3TrcHB" id="DUXtH0Vysr" role="2OqNvi">
-                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+                <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
               </node>
             </node>
           </node>

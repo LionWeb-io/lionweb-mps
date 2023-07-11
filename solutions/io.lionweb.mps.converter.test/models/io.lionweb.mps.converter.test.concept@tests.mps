@@ -90,7 +90,7 @@
       </concept>
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -102,7 +102,7 @@
       <concept id="2656571587264860095" name="io.lionweb.mps.m3.structure.Reference" flags="ng" index="2RzOpR" />
       <concept id="2656571587264859782" name="io.lionweb.mps.m3.structure.Containment" flags="ng" index="2RzOte" />
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY" />
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -114,7 +114,6 @@
         <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
       </concept>
@@ -319,9 +318,9 @@
     </node>
     <node concept="1qefOq" id="59Df55kqJmZ" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55kqJn0" role="1qenE9">
-        <property role="2RzRSo" value="997" />
         <property role="TrG5h" value="AddConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="997" />
         <node concept="2RzPWn" id="59Df55kqJn7" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -348,9 +347,9 @@
     </node>
     <node concept="1qefOq" id="59Df55krQSI" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55krQSJ" role="1qenE9">
-        <property role="2RzRSo" value="997" />
         <property role="TrG5h" value="AddConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="997" />
         <node concept="2RzPWn" id="59Df55ky1ry" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -542,9 +541,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4mTv" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4mTw" role="1qenE9">
-        <property role="2RzRSo" value="998" />
         <property role="TrG5h" value="RemoveConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="998" />
         <node concept="2RzPWn" id="59Df55l4mTx" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -578,9 +577,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4mTA" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4mTB" role="1qenE9">
-        <property role="2RzRSo" value="998" />
         <property role="TrG5h" value="RemoveConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="998" />
         <node concept="2RzPWn" id="59Df55l4mTC" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -755,9 +754,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4rFo" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4rFp" role="1qenE9">
-        <property role="2RzRSo" value="999" />
         <property role="TrG5h" value="RenameConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="999" />
         <node concept="2RzPWn" id="59Df55l4rFq" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -784,9 +783,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4rFv" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4rFw" role="1qenE9">
-        <property role="2RzRSo" value="999" />
         <property role="TrG5h" value="RenameConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="999" />
         <node concept="2RzPWn" id="59Df55l4rFx" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1Renamed" />
@@ -969,9 +968,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4v$u" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4v$v" role="1qenE9">
-        <property role="2RzRSo" value="1" />
         <property role="TrG5h" value="AddSupertypeConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="1" />
         <node concept="2RzPWn" id="59Df55l4v$w" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1002,9 +1001,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4v$_" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4v$A" role="1qenE9">
-        <property role="2RzRSo" value="1" />
         <property role="TrG5h" value="AddSupertypeConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="1" />
         <node concept="2RzPWn" id="59Df55l4v$B" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1195,9 +1194,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4BHe" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4BHf" role="1qenE9">
-        <property role="2RzRSo" value="9992" />
         <property role="TrG5h" value="RemoveSupertypeConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="9992" />
         <node concept="2RzPWn" id="59Df55l4BHg" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1232,9 +1231,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4BHm" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4BHn" role="1qenE9">
-        <property role="2RzRSo" value="9992" />
         <property role="TrG5h" value="RemoveSupertypeConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="9992" />
         <node concept="2RzPWn" id="59Df55l4BHo" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1425,9 +1424,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4GYi" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4GYj" role="1qenE9">
-        <property role="2RzRSo" value="1" />
         <property role="TrG5h" value="AddInterfaceConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="1" />
         <node concept="2RzPWn" id="59Df55l4GYk" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1465,9 +1464,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4GYq" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4GYr" role="1qenE9">
-        <property role="2RzRSo" value="1" />
         <property role="TrG5h" value="AddInterfaceConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="1" />
         <node concept="2RzPWn" id="59Df55l4GYs" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1671,9 +1670,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4Vc5" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4Vc6" role="1qenE9">
-        <property role="2RzRSo" value="9993" />
         <property role="TrG5h" value="AddInterfaceConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="9993" />
         <node concept="2RzPWn" id="59Df55l4Vc7" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1714,9 +1713,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4Vcf" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4Vcg" role="1qenE9">
-        <property role="2RzRSo" value="9993" />
         <property role="TrG5h" value="AddInterfaceConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="9993" />
         <node concept="2RzPWn" id="59Df55l4Vch" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1905,9 +1904,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4Zjj" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4Zjk" role="1qenE9">
-        <property role="2RzRSo" value="9994" />
         <property role="TrG5h" value="ChangeAbstractConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="9994" />
         <node concept="2RzPWn" id="59Df55l4Zjl" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />
@@ -1934,9 +1933,9 @@
     </node>
     <node concept="1qefOq" id="59Df55l4Zjq" role="1SKRRt">
       <node concept="2RzRRF" id="59Df55l4Zjr" role="1qenE9">
-        <property role="2RzRSo" value="9994" />
         <property role="TrG5h" value="ChangeAbstractConcept" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="9994" />
         <node concept="2RzPWn" id="59Df55l4Zjs" role="2RzR6B">
           <property role="2RzON1" value="10" />
           <property role="TrG5h" value="C1" />

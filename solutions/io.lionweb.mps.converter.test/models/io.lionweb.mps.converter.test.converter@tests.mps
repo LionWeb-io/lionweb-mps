@@ -115,7 +115,7 @@
       </concept>
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -133,7 +133,7 @@
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY">
         <child id="2656571587264865653" name="extends" index="2RzQMX" />
       </concept>
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -148,7 +148,6 @@
         <reference id="2656571587264871635" name="language" index="2RzRkr" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="elements" index="2RzR6B" />
         <child id="2656571587264871163" name="dependsOn" index="2RzRcN" />
@@ -494,9 +493,9 @@
     <node concept="1qefOq" id="48csSBOZRSQ" role="1SKRRt">
       <node concept="2QRY8A" id="2fx6VTTnYmj" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTTnYmk" role="2QRY3p">
-          <property role="2RzRSo" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <property role="TrG5h" value="io.lionweb.mps.m3" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <node concept="2RzPWn" id="2fx6VTTnYml" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="NamespacedEntity" />
@@ -743,9 +742,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTTnYn0" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTTnYn1" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -1652,9 +1651,9 @@
     <node concept="1qefOq" id="48csSBPBtmM" role="1SKRRt">
       <node concept="2QRY8A" id="48csSBPBtmN" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTTnBpd" role="2QRY3p">
-          <property role="2RzRSo" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <property role="TrG5h" value="io.lionweb.mps.m3" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <node concept="2RzPWn" id="2fx6VTTnBpe" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="NamespacedEntity" />
@@ -1899,9 +1898,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTTnBpM" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTTnBpN" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -2566,7 +2565,7 @@
               <ref role="3xOPvv" node="2fx6VTT95k7" resolve="expectedTestLang" />
             </node>
             <node concept="3TrcHB" id="2fx6VTT9ike" role="2OqNvi">
-              <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+              <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
             </node>
           </node>
         </node>
@@ -2879,9 +2878,9 @@
     <node concept="1qefOq" id="2fx6VTT93OV" role="1SKRRt">
       <node concept="2QRY8A" id="2fx6VTT93PG" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTT92Gp" role="2QRY3p">
-          <property role="2RzRSo" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <property role="TrG5h" value="io.lionweb.mps.converter.TestLang" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <node concept="2RzPWn" id="2fx6VTT92Gq" role="2RzR6B">
             <property role="2RzP46" value="false" />
             <property role="TrG5h" value="TestConceptPlain" />
@@ -3128,9 +3127,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTT92GX" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTT92GY" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -3799,7 +3798,7 @@
               <ref role="3xOPvv" node="2fx6VTT9uuM" resolve="expectedTestLang" />
             </node>
             <node concept="3TrcHB" id="2fx6VTT9us0" role="2OqNvi">
-              <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+              <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
             </node>
           </node>
         </node>
@@ -4122,9 +4121,9 @@
     <node concept="1qefOq" id="2fx6VTT9utV" role="1SKRRt">
       <node concept="2QRY8A" id="2fx6VTT9utW" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTT9utX" role="2QRY3p">
-          <property role="2RzRSo" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <property role="TrG5h" value="io.lionweb.mps.converter.TestLang" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <node concept="2RzPWn" id="2fx6VTT9utY" role="2RzR6B">
             <property role="2RzP46" value="false" />
             <property role="TrG5h" value="TestConceptPlain" />
@@ -4365,9 +4364,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTT9uuN" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTT9uuO" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -5006,9 +5005,9 @@
     </node>
     <node concept="1qefOq" id="39$JcGH1Wyu" role="1SKRRt">
       <node concept="2RzRRF" id="39$JcGH6Cgu" role="1qenE9">
-        <property role="2RzRSo" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <property role="TrG5h" value="io.lionweb.mps.converter.TestLang2" />
         <property role="3HH78N" value="0" />
+        <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <node concept="2RzPWn" id="39$JcGH6Cgv" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptPlain" />
@@ -5429,9 +5428,9 @@
     </node>
     <node concept="1qefOq" id="39$JcGH7B7h" role="1SKRRt">
       <node concept="2RzRRF" id="39$JcGH7B7i" role="1qenE9">
-        <property role="2RzRSo" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <property role="TrG5h" value="io.lionweb.mps.converter.TestLang2" />
         <property role="3HH78N" value="0" />
+        <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <node concept="2RzPWn" id="39$JcGH7B7j" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptPlain" />
