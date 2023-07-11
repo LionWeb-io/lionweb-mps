@@ -119,7 +119,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
@@ -303,7 +305,7 @@
     </node>
     <node concept="2tJIrI" id="z1IqfFwqsp" role="jymVt" />
     <node concept="3clFb_" id="z1IqfFwqy3" role="jymVt">
-      <property role="TrG5h" value="unserialze" />
+      <property role="TrG5h" value="unserialize" />
       <node concept="3clFbS" id="z1IqfFwqy6" role="3clF47">
         <node concept="3cpWs8" id="z1IqfFwvf4" role="3cqZAp">
           <node concept="3cpWsn" id="z1IqfFwvf5" role="3cpWs9">
@@ -458,12 +460,41 @@
         <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
       </node>
       <node concept="3clFbS" id="5wsogBc3ZWQ" role="3clF47">
+        <node concept="3cpWs8" id="3Y4a1GwIWob" role="3cqZAp">
+          <node concept="3cpWsn" id="3Y4a1GwIWoc" role="3cpWs9">
+            <property role="TrG5h" value="jsonReader" />
+            <node concept="3uibUv" id="3Y4a1GwIWlw" role="1tU5fm">
+              <ref role="3uigEE" to="c9jv:~JsonReader" resolve="JsonReader" />
+            </node>
+            <node concept="2ShNRf" id="3Y4a1GwIWod" role="33vP2m">
+              <node concept="1pGfFk" id="3Y4a1GwIWoe" role="2ShVmc">
+                <ref role="37wK5l" to="c9jv:~JsonReader.&lt;init&gt;(java.io.Reader)" resolve="JsonReader" />
+                <node concept="37vLTw" id="3Y4a1GwIWof" role="37wK5m">
+                  <ref role="3cqZAo" node="z1IqfFwqjR" resolve="input" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Y4a1GwIUp$" role="3cqZAp">
+          <node concept="2OqwBi" id="3Y4a1GwIV7r" role="3clFbG">
+            <node concept="37vLTw" id="3Y4a1GwIWog" role="2Oq$k0">
+              <ref role="3cqZAo" node="3Y4a1GwIWoc" resolve="jsonReader" />
+            </node>
+            <node concept="liA8E" id="3Y4a1GwIVse" role="2OqNvi">
+              <ref role="37wK5l" to="c9jv:~JsonReader.setLenient(boolean)" resolve="setLenient" />
+              <node concept="3clFbT" id="3Y4a1GwIVJt" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="5wsogBc3ZX0" role="3cqZAp">
           <node concept="2YIFZM" id="5wsogBc3ZWW" role="3cqZAk">
-            <ref role="37wK5l" to="wy2b:~JsonParser.parseReader(java.io.Reader)" resolve="parseReader" />
             <ref role="1Pybhc" to="wy2b:~JsonParser" resolve="JsonParser" />
+            <ref role="37wK5l" to="wy2b:~JsonParser.parseReader(com.google.gson.stream.JsonReader)" resolve="parseReader" />
             <node concept="37vLTw" id="5wsogBcthuL" role="37wK5m">
-              <ref role="3cqZAo" node="z1IqfFwqjR" resolve="input" />
+              <ref role="3cqZAo" node="3Y4a1GwIWoc" resolve="jsonReader" />
             </node>
           </node>
         </node>

@@ -21,6 +21,8 @@
     <import index="xx25" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.types(MPS.Core/)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="234s" ref="r:c798b861-d641-45c1-bec6-e39cbda50960(io.lionweb.mps.structure.attribute.structure)" implicit="true" />
   </imports>
   <registry>
@@ -31,6 +33,12 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -1112,6 +1120,9 @@
         <node concept="3uibUv" id="DUXtGZOlyY" role="1tU5fm">
           <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
         </node>
+        <node concept="2AHcQZ" id="1f4Qr8VrtMq" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="3cqZAl" id="DUXtGZOlxR" role="3clF45" />
       <node concept="3Tm1VV" id="DUXtGZOlxS" role="1B3o_S" />
@@ -1831,6 +1842,12 @@
         <node concept="3uibUv" id="5wsogBcwU68" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
         </node>
+        <node concept="2AHcQZ" id="1f4Qr8VEJJ7" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1f4Qr8VEJNu" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="5wsogBcwWtf" role="jymVt" />
@@ -1840,12 +1857,16 @@
         <node concept="3clFbF" id="5wsogBcwvUs" role="3cqZAp">
           <node concept="1rXfSq" id="5wsogBcwV47" role="3clFbG">
             <ref role="37wK5l" node="5wsogBcwU5V" resolve="create" />
-            <node concept="2OqwBi" id="5wsogBcwViu" role="37wK5m">
-              <node concept="37vLTw" id="5wsogBcwV6m" role="2Oq$k0">
-                <ref role="3cqZAo" node="5wsogBcwvSi" resolve="node" />
-              </node>
-              <node concept="liA8E" id="5wsogBcwVtB" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+            <node concept="2YIFZM" id="1f4Qr8VEK8E" role="37wK5m">
+              <ref role="37wK5l" to="33ny:~Objects.requireNonNull(java.lang.Object)" resolve="requireNonNull" />
+              <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+              <node concept="2OqwBi" id="1f4Qr8VEKma" role="37wK5m">
+                <node concept="37vLTw" id="1f4Qr8VEKah" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5wsogBcwvSi" resolve="node" />
+                </node>
+                <node concept="liA8E" id="1f4Qr8VEKvv" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+                </node>
               </node>
             </node>
           </node>
@@ -1860,6 +1881,12 @@
         <node concept="3uibUv" id="5wsogBcwvSh" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
         </node>
+        <node concept="2AHcQZ" id="1f4Qr8VEJUA" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1f4Qr8VEJRf" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="39$JcGG9_XI" role="jymVt" />
@@ -1922,6 +1949,12 @@
         <node concept="3uibUv" id="39$JcGG9C5P" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
         </node>
+        <node concept="2AHcQZ" id="1f4Qr8VEMLS" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1f4Qr8VELxD" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="39$JcGFBR6J" role="jymVt" />
@@ -2181,6 +2214,9 @@
       <node concept="37vLTG" id="39$JcGFC1$_" role="3clF46">
         <property role="TrG5h" value="mpsConcept" />
         <node concept="3Tqbb2" id="39$JcGFC1$$" role="1tU5fm" />
+        <node concept="2AHcQZ" id="1f4Qr8VENH3" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="DUXtGZOlwK" role="1B3o_S" />
