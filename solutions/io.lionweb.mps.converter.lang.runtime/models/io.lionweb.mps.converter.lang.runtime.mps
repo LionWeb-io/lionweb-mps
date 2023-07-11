@@ -753,7 +753,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="3LWE6BDxOkW" role="37vLTx">
-              <ref role="3cqZAo" node="3LWE6BDxL$s" resolve="languages" />
+              <ref role="3cqZAo" node="3LWE6BDxL$s" resolve="lcLanguages" />
             </node>
           </node>
         </node>
@@ -778,7 +778,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="3LWE6BDxL$s" role="3clF46">
-        <property role="TrG5h" value="languages" />
+        <property role="TrG5h" value="lcLanguages" />
         <node concept="A3Dl8" id="3LWE6BDxL_a" role="1tU5fm">
           <node concept="3Tqbb2" id="3LWE6BDxMVV" role="A3Ik2">
             <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />

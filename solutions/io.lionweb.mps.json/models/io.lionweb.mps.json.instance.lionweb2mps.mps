@@ -1349,7 +1349,7 @@
       </node>
       <node concept="TZ5HA" id="3Kqiw5y_UBc" role="TZ5H$">
         <node concept="1dT_AC" id="3Kqiw5y_UBd" role="1dT_Ay">
-          <property role="1dT_AB" value="Assumes all used metamodels are present as built languages in MPS." />
+          <property role="1dT_AB" value="Assumes all used json languages are present as built languages in MPS." />
         </node>
       </node>
     </node>

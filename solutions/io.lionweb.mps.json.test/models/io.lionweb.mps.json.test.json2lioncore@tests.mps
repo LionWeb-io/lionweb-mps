@@ -131,7 +131,7 @@
       </concept>
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -147,7 +147,7 @@
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY" />
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -159,9 +159,8 @@
         <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
-        <child id="2656571587264870511" name="elements" index="2RzR6B" />
+        <child id="2656571587264870511" name="entities" index="2RzR6B" />
       </concept>
       <concept id="2656571587264872967" name="io.lionweb.mps.m3.structure.PrimitiveType" flags="ng" index="2RzSJf" />
     </language>
@@ -285,7 +284,7 @@
                     <ref role="3cqZAo" node="2A0cGJdRE9I" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="2A0cGJdREpE" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
                   </node>
                 </node>
               </node>
@@ -473,7 +472,7 @@
             </node>
             <node concept="3cpWs8" id="5sACIIszZVJ" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIszZVK" role="3cpWs9">
-                <property role="TrG5h" value="metamodels" />
+                <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5sACIIszZVL" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIszZVM" role="_ZDj9">
                     <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
@@ -484,7 +483,7 @@
                     <ref role="3cqZAo" node="5sACIIszZVC" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIszZVP" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
                   </node>
                 </node>
               </node>
@@ -516,7 +515,7 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs$aUV" role="37wK5m">
-                      <ref role="3cqZAo" node="5sACIIszZVK" resolve="metamodels" />
+                      <ref role="3cqZAo" node="5sACIIszZVK" resolve="languages" />
                     </node>
                   </node>
                 </node>
@@ -607,9 +606,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIszZSy" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIs$OuV" role="1qenE9">
-        <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <property role="TrG5h" value="library" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <node concept="2RzSJf" id="5sACIIs$OuW" role="2RzR6B">
           <property role="2RzON1" value="INhBvWyXvxwNsePuX0rdNGB_J9hi85cTb1Q0APXCyJ0" />
           <property role="TrG5h" value="String" />
@@ -751,7 +750,7 @@
             </node>
             <node concept="3cpWs8" id="5sACIIs_h0P" role="3cqZAp">
               <node concept="3cpWsn" id="5sACIIs_h0Q" role="3cpWs9">
-                <property role="TrG5h" value="metamodels" />
+                <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5sACIIs_h0R" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIs_h0S" role="_ZDj9">
                     <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
@@ -762,7 +761,7 @@
                     <ref role="3cqZAo" node="5sACIIs_h0I" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5sACIIs_h0V" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeMetamodels" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
                   </node>
                 </node>
               </node>
@@ -794,7 +793,7 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs_h1b" role="37wK5m">
-                      <ref role="3cqZAo" node="5sACIIs_h0Q" resolve="metamodels" />
+                      <ref role="3cqZAo" node="5sACIIs_h0Q" resolve="languages" />
                     </node>
                   </node>
                 </node>
@@ -941,9 +940,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIs_h1$" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIs$PgG" role="1qenE9">
-        <property role="2RzRSo" value="LIonCore_M3" />
         <property role="TrG5h" value="LIonCore.M3" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="LIonCore_M3" />
         <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="2RzON1" value="Concept" />
@@ -1228,7 +1227,7 @@
         </node>
         <node concept="3cpWs8" id="5sACIIt1W7f" role="3cqZAp">
           <node concept="3cpWsn" id="5sACIIt1W7g" role="3cpWs9">
-            <property role="TrG5h" value="metamodels" />
+            <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="5sACIIt1W1p" role="1tU5fm">
               <node concept="3uibUv" id="5sACIIt1W1s" role="A3Ik2">
                 <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
@@ -1250,7 +1249,7 @@
           </node>
           <node concept="2OqwBi" id="5sACIIt1X_e" role="3tpDZA">
             <node concept="37vLTw" id="5sACIIt1Xko" role="2Oq$k0">
-              <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+              <ref role="3cqZAo" node="5sACIIt1W7g" resolve="languages" />
             </node>
             <node concept="34oBXx" id="5sACIIt1Y8L" role="2OqNvi" />
           </node>
@@ -1266,7 +1265,7 @@
             </node>
             <node concept="2OqwBi" id="5sACIIt1ZVA" role="2ZW6bz">
               <node concept="37vLTw" id="5sACIIt1YTh" role="2Oq$k0">
-                <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+                <ref role="3cqZAo" node="5sACIIt1W7g" resolve="languages" />
               </node>
               <node concept="1uHKPH" id="5sACIIt20rw" role="2OqNvi" />
             </node>
@@ -1302,7 +1301,7 @@
                 <node concept="liA8E" id="5sACIIt3ejG" role="2OqNvi">
                   <ref role="37wK5l" to="6peh:5s4Z0e0n9Xi" resolve="serialize" />
                   <node concept="37vLTw" id="5sACIIt3ejH" role="37wK5m">
-                    <ref role="3cqZAo" node="5sACIIt1W7g" resolve="metamodels" />
+                    <ref role="3cqZAo" node="5sACIIt1W7g" resolve="languages" />
                   </node>
                 </node>
               </node>
@@ -1447,9 +1446,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIt1PmN" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIt1PmO" role="1qenE9">
-        <property role="2RzRSo" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <property role="TrG5h" value="library" />
         <property role="3HH78N" value="1" />
+        <property role="2RzON1" value="txjxNU9yRzEuyghtmgJK_l-nF93qWt7d1vErz5RbLow" />
         <node concept="2RzSJf" id="5sACIIt1PmP" role="2RzR6B">
           <property role="2RzON1" value="INhBvWyXvxwNsePuX0rdNGB_J9hi85cTb1Q0APXCyJ0" />
           <property role="TrG5h" value="String" />

@@ -94,7 +94,7 @@
                   <node concept="2Sf5sV" id="5AGBwuDAM5o" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="5AGBwuDAMkb" role="2OqNvi">
                     <node concept="3CFYIy" id="5AGBwuDAMo2" role="3CFYIz">
-                      <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                      <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                     </node>
                   </node>
                 </node>
@@ -107,7 +107,7 @@
               <node concept="2Sf5sV" id="5AGBwuDAL0B" role="2Oq$k0" />
               <node concept="3CFZ6_" id="5AGBwuDALpi" role="2OqNvi">
                 <node concept="3CFYIy" id="5AGBwuDALCR" role="3CFYIz">
-                  <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                  <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                 </node>
               </node>
             </node>
@@ -121,7 +121,7 @@
                     <node concept="2Sf5sV" id="5AGBwuDAMPA" role="2Oq$k0" />
                     <node concept="3CFZ6_" id="5AGBwuDAMXF" role="2OqNvi">
                       <node concept="3CFYIy" id="5AGBwuDAMXU" role="3CFYIz">
-                        <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                        <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                       </node>
                     </node>
                   </node>

@@ -115,7 +115,7 @@
       </concept>
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -133,7 +133,7 @@
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY">
         <child id="2656571587264865653" name="extends" index="2RzQMX" />
       </concept>
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -148,9 +148,8 @@
         <reference id="2656571587264871635" name="language" index="2RzRkr" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
-        <child id="2656571587264870511" name="elements" index="2RzR6B" />
+        <child id="2656571587264870511" name="entities" index="2RzR6B" />
         <child id="2656571587264871163" name="dependsOn" index="2RzRcN" />
       </concept>
       <concept id="2656571587264873280" name="io.lionweb.mps.m3.structure.Enumeration" flags="ng" index="2RzSE8">
@@ -314,7 +313,7 @@
         <node concept="3clFbF" id="48csSBPAv03" role="3cqZAp">
           <node concept="2YIFZM" id="48csSBPAw5S" role="3clFbG">
             <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
             <node concept="2ShNRf" id="48csSBP1iHt" role="37wK5m">
               <node concept="Tc6Ow" id="48csSBP1iHu" role="2ShVmc">
                 <node concept="3Tqbb2" id="48csSBP1iHv" role="HW$YZ">
@@ -338,7 +337,7 @@
             </node>
             <node concept="2YIFZM" id="48csSBPABfe" role="33vP2m">
               <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
               <node concept="37vLTw" id="48csSBP1iHC" role="37wK5m">
                 <ref role="3cqZAo" node="48csSBOH78N" resolve="converted" />
               </node>
@@ -494,9 +493,9 @@
     <node concept="1qefOq" id="48csSBOZRSQ" role="1SKRRt">
       <node concept="2QRY8A" id="2fx6VTTnYmj" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTTnYmk" role="2QRY3p">
-          <property role="2RzRSo" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <property role="TrG5h" value="io.lionweb.mps.m3" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <node concept="2RzPWn" id="2fx6VTTnYml" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="NamespacedEntity" />
@@ -743,9 +742,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTTnYn0" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTTnYn1" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -1472,7 +1471,7 @@
         <node concept="3clFbF" id="48csSBPBtm0" role="3cqZAp">
           <node concept="2YIFZM" id="48csSBPBtm1" role="3clFbG">
             <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
             <node concept="2ShNRf" id="48csSBPBtm2" role="37wK5m">
               <node concept="Tc6Ow" id="48csSBPBtm3" role="2ShVmc">
                 <node concept="3Tqbb2" id="48csSBPBtm4" role="HW$YZ">
@@ -1496,7 +1495,7 @@
             </node>
             <node concept="2YIFZM" id="48csSBPBtma" role="33vP2m">
               <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
               <node concept="37vLTw" id="48csSBPBtmb" role="37wK5m">
                 <ref role="3cqZAo" node="48csSBPBtlJ" resolve="converted" />
               </node>
@@ -1652,9 +1651,9 @@
     <node concept="1qefOq" id="48csSBPBtmM" role="1SKRRt">
       <node concept="2QRY8A" id="48csSBPBtmN" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTTnBpd" role="2QRY3p">
-          <property role="2RzRSo" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <property role="TrG5h" value="io.lionweb.mps.m3" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDFjZjBkODItOGQyOS00ZmM0LWJlOTYtMjhhYmFmNGFkMzNk" />
           <node concept="2RzPWn" id="2fx6VTTnBpe" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="NamespacedEntity" />
@@ -1899,9 +1898,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTTnBpM" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTTnBpN" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -2379,7 +2378,7 @@
         <node concept="3clFbF" id="2fx6VTT95kw" role="3cqZAp">
           <node concept="2YIFZM" id="2fx6VTT95kx" role="3clFbG">
             <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
             <node concept="2ShNRf" id="2fx6VTT95ky" role="37wK5m">
               <node concept="Tc6Ow" id="2fx6VTT95kz" role="2ShVmc">
                 <node concept="3Tqbb2" id="2fx6VTT95k$" role="HW$YZ">
@@ -2403,7 +2402,7 @@
             </node>
             <node concept="2YIFZM" id="2fx6VTT95kE" role="33vP2m">
               <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
               <node concept="37vLTw" id="2fx6VTT95kF" role="37wK5m">
                 <ref role="3cqZAo" node="2fx6VTT95kf" resolve="converted" />
               </node>
@@ -2566,7 +2565,7 @@
               <ref role="3xOPvv" node="2fx6VTT95k7" resolve="expectedTestLang" />
             </node>
             <node concept="3TrcHB" id="2fx6VTT9ike" role="2OqNvi">
-              <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+              <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
             </node>
           </node>
         </node>
@@ -2879,9 +2878,9 @@
     <node concept="1qefOq" id="2fx6VTT93OV" role="1SKRRt">
       <node concept="2QRY8A" id="2fx6VTT93PG" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTT92Gp" role="2QRY3p">
-          <property role="2RzRSo" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <property role="TrG5h" value="io.lionweb.mps.converter.TestLang" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <node concept="2RzPWn" id="2fx6VTT92Gq" role="2RzR6B">
             <property role="2RzP46" value="false" />
             <property role="TrG5h" value="TestConceptPlain" />
@@ -3128,9 +3127,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTT92GX" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTT92GY" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -3611,7 +3610,7 @@
         <node concept="3clFbF" id="2fx6VTT9ur7" role="3cqZAp">
           <node concept="2YIFZM" id="2fx6VTT9ur8" role="3clFbG">
             <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
             <node concept="2ShNRf" id="2fx6VTT9ur9" role="37wK5m">
               <node concept="Tc6Ow" id="2fx6VTT9ura" role="2ShVmc">
                 <node concept="3Tqbb2" id="2fx6VTT9urb" role="HW$YZ">
@@ -3635,7 +3634,7 @@
             </node>
             <node concept="2YIFZM" id="2fx6VTT9urh" role="33vP2m">
               <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
               <node concept="37vLTw" id="2fx6VTT9uri" role="37wK5m">
                 <ref role="3cqZAo" node="2fx6VTT9uqQ" resolve="converted" />
               </node>
@@ -3799,7 +3798,7 @@
               <ref role="3xOPvv" node="2fx6VTT9uuM" resolve="expectedTestLang" />
             </node>
             <node concept="3TrcHB" id="2fx6VTT9us0" role="2OqNvi">
-              <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+              <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
             </node>
           </node>
         </node>
@@ -4122,9 +4121,9 @@
     <node concept="1qefOq" id="2fx6VTT9utV" role="1SKRRt">
       <node concept="2QRY8A" id="2fx6VTT9utW" role="1qenE9">
         <node concept="2RzRRF" id="2fx6VTT9utX" role="2QRY3p">
-          <property role="2RzRSo" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <property role="TrG5h" value="io.lionweb.mps.converter.TestLang" />
           <property role="3HH78N" value="0" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
           <node concept="2RzPWn" id="2fx6VTT9utY" role="2RzR6B">
             <property role="2RzP46" value="false" />
             <property role="TrG5h" value="TestConceptPlain" />
@@ -4365,9 +4364,9 @@
           </node>
         </node>
         <node concept="2RzRRF" id="2fx6VTT9uuN" role="2QRY3p">
-          <property role="2RzRSo" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <property role="TrG5h" value="jetbrains.mps.lang.core" />
           <property role="3HH78N" value="2" />
+          <property role="2RzON1" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
           <node concept="2RzPWn" id="2fx6VTT9uuO" role="2RzR6B">
             <property role="2RzP46" value="true" />
             <property role="TrG5h" value="BaseConcept" />
@@ -4845,7 +4844,7 @@
         <node concept="3clFbF" id="39$JcGH1Wvm" role="3cqZAp">
           <node concept="2YIFZM" id="39$JcGH1Wvn" role="3clFbG">
             <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
             <node concept="2ShNRf" id="39$JcGH1Wvo" role="37wK5m">
               <node concept="Tc6Ow" id="39$JcGH1Wvp" role="2ShVmc">
                 <node concept="3Tqbb2" id="39$JcGH1Wvq" role="HW$YZ">
@@ -4866,7 +4865,7 @@
             </node>
             <node concept="2YIFZM" id="39$JcGH1Wvw" role="33vP2m">
               <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
               <node concept="37vLTw" id="39$JcGH1Wvx" role="37wK5m">
                 <ref role="3cqZAo" node="39$JcGH1Wv5" resolve="converted" />
               </node>
@@ -5006,9 +5005,9 @@
     </node>
     <node concept="1qefOq" id="39$JcGH1Wyu" role="1SKRRt">
       <node concept="2RzRRF" id="39$JcGH6Cgu" role="1qenE9">
-        <property role="2RzRSo" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <property role="TrG5h" value="io.lionweb.mps.converter.TestLang2" />
         <property role="3HH78N" value="0" />
+        <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <node concept="2RzPWn" id="39$JcGH6Cgv" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptPlain" />
@@ -5267,7 +5266,7 @@
         <node concept="3clFbF" id="39$JcGH1W_4" role="3cqZAp">
           <node concept="2YIFZM" id="39$JcGH1W_5" role="3clFbG">
             <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
             <node concept="2ShNRf" id="39$JcGH1W_6" role="37wK5m">
               <node concept="Tc6Ow" id="39$JcGH1W_7" role="2ShVmc">
                 <node concept="3Tqbb2" id="39$JcGH1W_8" role="HW$YZ">
@@ -5288,7 +5287,7 @@
             </node>
             <node concept="2YIFZM" id="39$JcGH1W_e" role="33vP2m">
               <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="MetamodelSorter" />
+              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
               <node concept="37vLTw" id="39$JcGH1W_f" role="37wK5m">
                 <ref role="3cqZAo" node="39$JcGH1W$M" resolve="converted" />
               </node>
@@ -5429,9 +5428,9 @@
     </node>
     <node concept="1qefOq" id="39$JcGH7B7h" role="1SKRRt">
       <node concept="2RzRRF" id="39$JcGH7B7i" role="1qenE9">
-        <property role="2RzRSo" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <property role="TrG5h" value="io.lionweb.mps.converter.TestLang2" />
         <property role="3HH78N" value="0" />
+        <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0" />
         <node concept="2RzPWn" id="39$JcGH7B7j" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptPlain" />

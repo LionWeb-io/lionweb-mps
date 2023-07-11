@@ -9,7 +9,7 @@
   </imports>
   <registry>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.NamespacedEntity" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -25,7 +25,7 @@
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
       <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY" />
-      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.FeaturesContainer" flags="ng" index="2RzPzq">
+      <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
@@ -37,9 +37,8 @@
         <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
-        <property id="2656571587264870352" name="key" index="2RzRSo" />
         <property id="2526956841135898600" name="version" index="3HH78N" />
-        <child id="2656571587264870511" name="elements" index="2RzR6B" />
+        <child id="2656571587264870511" name="entities" index="2RzR6B" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -50,8 +49,8 @@
   </registry>
   <node concept="2RzRRF" id="2ju2syjnA_T">
     <property role="TrG5h" value="LIonWeb-core" />
-    <property role="2RzRSo" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
     <property role="3HH78N" value="1" />
+    <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
     <node concept="2RzPWn" id="2ju2syjo7cK" role="2RzR6B">
       <property role="2RzON1" value="7434462380790650845" />
       <property role="TrG5h" value="NamespacedEntity" />

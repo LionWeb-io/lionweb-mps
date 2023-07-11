@@ -1089,11 +1089,11 @@
     </node>
     <node concept="2tJIrI" id="6fYiNFatXyO" role="jymVt" />
     <node concept="3clFb_" id="6fYiNFatXyP" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="6fYiNFatXyQ" role="1B3o_S" />
       <node concept="17QB3L" id="6fYiNFatXyR" role="3clF45" />
       <node concept="37vLTG" id="6fYiNFatXyS" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3Tqbb2" id="6fYiNFatXyT" role="1tU5fm">
           <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
@@ -1113,7 +1113,7 @@
                       <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
                     </node>
                     <node concept="37vLTw" id="6fYiNFatXz3" role="1m5AlR">
-                      <ref role="3cqZAo" node="6fYiNFatXyS" resolve="featuresContainer" />
+                      <ref role="3cqZAo" node="6fYiNFatXyS" resolve="classifier" />
                     </node>
                   </node>
                 </node>
@@ -1122,7 +1122,7 @@
           </node>
           <node concept="2OqwBi" id="6fYiNFatXz4" role="1_3QMn">
             <node concept="37vLTw" id="6fYiNFatXz5" role="2Oq$k0">
-              <ref role="3cqZAo" node="6fYiNFatXyS" resolve="featuresContainer" />
+              <ref role="3cqZAo" node="6fYiNFatXyS" resolve="classifier" />
             </node>
             <node concept="2yIwOk" id="6fYiNFatXz6" role="2OqNvi" />
           </node>
@@ -1139,7 +1139,7 @@
                       <ref role="cht4Q" to="tpce:h0PlHMJ" resolve="InterfaceConceptDeclaration" />
                     </node>
                     <node concept="37vLTw" id="6fYiNFatXze" role="1m5AlR">
-                      <ref role="3cqZAo" node="6fYiNFatXyS" resolve="featuresContainer" />
+                      <ref role="3cqZAo" node="6fYiNFatXyS" resolve="classifier" />
                     </node>
                   </node>
                 </node>
@@ -1152,7 +1152,7 @@
             <node concept="1pGfFk" id="6fYiNFatXzh" role="2ShVmc">
               <ref role="37wK5l" to="en45:2ju2syjsDNa" resolve="UnknownConceptException" />
               <node concept="37vLTw" id="6fYiNFatXzi" role="37wK5m">
-                <ref role="3cqZAo" node="6fYiNFatXyS" resolve="featuresContainer" />
+                <ref role="3cqZAo" node="6fYiNFatXyS" resolve="classifier" />
               </node>
             </node>
           </node>
@@ -1298,7 +1298,7 @@
               </node>
               <node concept="3CFZ6_" id="6fYiNFavnqB" role="2OqNvi">
                 <node concept="3CFYIy" id="6fYiNFavo8B" role="3CFYIz">
-                  <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                  <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                 </node>
               </node>
             </node>

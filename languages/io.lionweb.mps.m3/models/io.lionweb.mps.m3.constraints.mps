@@ -75,9 +75,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="2ju2syjmDAZ">
-    <ref role="1M2myG" to="h3y3:2ju2syjkngz" resolve="Language" />
-  </node>
   <node concept="1M2fIO" id="59Df55kqJrF">
     <property role="3GE5qa" value="feature" />
     <ref role="1M2myG" to="h3y3:2ju2syjkkIF" resolve="Link" />
@@ -102,12 +99,12 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="59Df55krprA" role="2OqNvi">
-                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleElements" />
+                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleEntities" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="59Df55krqhR" role="2OqNvi">
                   <node concept="chp4Y" id="59Df55krqmw" role="v3oSu">
-                    <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+                    <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                   </node>
                 </node>
               </node>
@@ -141,7 +138,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="59Df55krqLk" role="2OqNvi">
-                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleElements" />
+                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleEntities" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="59Df55krqLl" role="2OqNvi">
@@ -157,7 +154,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="59Df55l4wCa">
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <ref role="1M2myG" to="h3y3:2ju2syjklrv" resolve="Concept" />
     <node concept="1N5Pfh" id="59Df55l4wH3" role="1Mr941">
       <ref role="1N5Vy1" to="h3y3:2ju2syjklCW" resolve="extends" />
@@ -180,7 +177,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="59Df55l4xfj" role="2OqNvi">
-                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleElements" />
+                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleEntities" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="59Df55l4xfk" role="2OqNvi">
@@ -196,7 +193,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="59Df55l4xO2">
-    <property role="3GE5qa" value="featuresContainer" />
+    <property role="3GE5qa" value="classifier" />
     <ref role="1M2myG" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
     <node concept="1N5Pfh" id="59Df55l4xSV" role="1Mr941">
       <ref role="1N5Vy1" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
@@ -219,7 +216,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="59Df55l4xUK" role="2OqNvi">
-                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleElements" />
+                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleEntities" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="59Df55l4xUL" role="2OqNvi">

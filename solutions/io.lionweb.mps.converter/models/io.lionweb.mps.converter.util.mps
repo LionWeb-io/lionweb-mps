@@ -2822,7 +2822,7 @@
                         <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="5AGBwuFKii0" role="2OqNvi">
-                        <ref role="37wK5l" to="en45:39$JcGG9vEq" resolve="listSLanguageFeaturesContainers" />
+                        <ref role="37wK5l" to="en45:39$JcGG9vEq" resolve="listSLanguageClassifiers" />
                       </node>
                     </node>
                     <node concept="2WmjW8" id="5AGBwuFKii1" role="2OqNvi">
@@ -2851,7 +2851,7 @@
                             <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                           </node>
                           <node concept="liA8E" id="5AGBwuFKihP" role="2OqNvi">
-                            <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcFeaturesContainers" />
+                            <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcClassifiers" />
                           </node>
                         </node>
                       </node>
@@ -4076,7 +4076,7 @@
                 <node concept="liA8E" id="6fYiNFaGIfK" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
                   <node concept="35c_gC" id="6fYiNFaGIfL" role="37wK5m">
-                    <ref role="35c_gD" to="234s:6fYiNFad_a6" resolve="LIonWebElementKey" />
+                    <ref role="35c_gD" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
                   </node>
                 </node>
               </node>

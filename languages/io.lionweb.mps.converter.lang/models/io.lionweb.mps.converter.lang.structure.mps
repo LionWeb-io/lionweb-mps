@@ -92,7 +92,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="7qGUpN3Cisn" role="PzmwI">
-      <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
+      <ref role="PrY4T" node="7qGUpN3Cils" resolve="ILanguageReferenceContainer" />
     </node>
     <node concept="1QGGSu" id="5glO5qL5M2n" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/lionweb2mps.png" />
@@ -128,7 +128,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
     <node concept="PrWs8" id="7qGUpN3CiCo" role="PzmwI">
-      <ref role="PrY4T" node="7qGUpN3Cils" resolve="IMetamodelReferenceContainer" />
+      <ref role="PrY4T" node="7qGUpN3Cils" resolve="ILanguageReferenceContainer" />
     </node>
     <node concept="1QGGSu" id="5glO5qL6eP_" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/language2json.png" />
@@ -136,7 +136,7 @@
   </node>
   <node concept="PlHQZ" id="7qGUpN3Cils">
     <property role="EcuMT" value="8551466651976017244" />
-    <property role="TrG5h" value="IMetamodelReferenceContainer" />
+    <property role="TrG5h" value="ILanguageReferenceContainer" />
     <node concept="1TJgyj" id="DUXtH0uZbo" role="1TKVEi">
       <property role="IQ2ns" value="755186209566487256" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

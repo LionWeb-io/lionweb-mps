@@ -198,7 +198,7 @@
     </language>
   </registry>
   <node concept="18kY7G" id="59Df55kvlh2">
-    <property role="TrG5h" value="check_LanguageElement_uniqueKeys" />
+    <property role="TrG5h" value="check_LanguageEntity_uniqueKeys" />
     <node concept="3clFbS" id="59Df55kvlh3" role="18ibNy">
       <node concept="3cpWs8" id="59Df55kvloi" role="3cqZAp">
         <node concept="3cpWsn" id="59Df55kvloj" role="3cpWs9">
@@ -226,14 +226,14 @@
             <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
             <node concept="2OqwBi" id="59Df55kvoOS" role="37wK5m">
               <node concept="1YBJjd" id="59Df55kvo$_" role="2Oq$k0">
-                <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
+                <ref role="1YBMHb" node="59Df55kvlh5" resolve="language" />
               </node>
               <node concept="3TrcHB" id="59Df55kvp4c" role="2OqNvi">
-                <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+                <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
               </node>
             </node>
             <node concept="1YBJjd" id="59Df55kvpjz" role="37wK5m">
-              <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
+              <ref role="1YBMHb" node="59Df55kvlh5" resolve="language" />
             </node>
           </node>
         </node>
@@ -242,12 +242,12 @@
         <node concept="2OqwBi" id="59Df55kvrAf" role="3clFbG">
           <node concept="2OqwBi" id="59Df55kvmTF" role="2Oq$k0">
             <node concept="1YBJjd" id="59Df55kvmGR" role="2Oq$k0">
-              <ref role="1YBMHb" node="59Df55kvlh5" resolve="metamodel" />
+              <ref role="1YBMHb" node="59Df55kvlh5" resolve="language" />
             </node>
             <node concept="2Rf3mk" id="59Df55kvnb2" role="2OqNvi">
               <node concept="1xMEDy" id="59Df55kvnb4" role="1xVPHs">
                 <node concept="chp4Y" id="59Df55kvnhC" role="ri$Ld">
-                  <ref role="cht4Q" to="h3y3:6jTTMHCXLTP" resolve="NamespacedEntity" />
+                  <ref role="cht4Q" to="h3y3:6jTTMHCXLTP" resolve="IKeyed" />
                 </node>
               </node>
             </node>
@@ -372,7 +372,7 @@
       </node>
     </node>
     <node concept="1YaCAy" id="59Df55kvlh5" role="1YuTPh">
-      <property role="TrG5h" value="metamodel" />
+      <property role="TrG5h" value="language" />
       <ref role="1YaFvo" to="h3y3:2ju2syjkngz" resolve="Language" />
     </node>
   </node>
@@ -386,7 +386,7 @@
               <node concept="Q6c8r" id="59Df55kvXff" role="2Oq$k0" />
               <node concept="1mIQ4w" id="59Df55kvXj7" role="2OqNvi">
                 <node concept="chp4Y" id="59Df55kvXEp" role="cj9EA">
-                  <ref role="cht4Q" to="h3y3:6jTTMHCXLTP" resolve="NamespacedEntity" />
+                  <ref role="cht4Q" to="h3y3:6jTTMHCXLTP" resolve="IKeyed" />
                 </node>
               </node>
             </node>
@@ -401,7 +401,7 @@
               <node concept="1PxgMI" id="59Df55kvYeX" role="2Oq$k0">
                 <property role="1BlNFB" value="true" />
                 <node concept="chp4Y" id="59Df55kvYfI" role="3oSUPX">
-                  <ref role="cht4Q" to="h3y3:6jTTMHCXLTP" resolve="NamespacedEntity" />
+                  <ref role="cht4Q" to="h3y3:6jTTMHCXLTP" resolve="IKeyed" />
                 </node>
                 <node concept="Q6c8r" id="59Df55kvXWf" role="1m5AlR" />
               </node>

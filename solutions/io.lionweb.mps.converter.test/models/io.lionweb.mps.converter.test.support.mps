@@ -18,6 +18,7 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="thsk" ref="r:447870ec-a286-434e-af5e-1c7a4b8f1b8c(io.lionweb.mps.m3.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -629,7 +630,7 @@
         <ref role="3uigEE" to="dydc:DUXtH0$h7e" resolve="AImportedLanguage" />
       </node>
       <node concept="37vLTG" id="59Df55kqzUG" role="3clF46">
-        <property role="TrG5h" value="metamodel" />
+        <property role="TrG5h" value="lcLanguage" />
         <node concept="3Tqbb2" id="59Df55kqzUH" role="1tU5fm">
           <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
         </node>
@@ -671,10 +672,10 @@
                       <node concept="17R0WA" id="59Df55lrW7o" role="3clFbG">
                         <node concept="2OqwBi" id="59Df55lutHU" role="3uHU7w">
                           <node concept="37vLTw" id="59Df55lrW7p" role="2Oq$k0">
-                            <ref role="3cqZAo" node="59Df55kqzUG" resolve="metamodel" />
+                            <ref role="3cqZAo" node="59Df55kqzUG" resolve="lcLanguage" />
                           </node>
                           <node concept="3TrcHB" id="59Df55lutTr" role="2OqNvi">
-                            <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+                            <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="59Df55lusBc" role="3uHU7B">
@@ -683,11 +684,11 @@
                               <ref role="3cqZAo" node="59Df55lrW7t" resolve="it" />
                             </node>
                             <node concept="liA8E" id="59Df55lrW7s" role="2OqNvi">
-                              <ref role="37wK5l" to="dydc:59Df55lq2B1" resolve="getMetamodel" />
+                              <ref role="37wK5l" to="dydc:59Df55lq2B1" resolve="getLcLanguage" />
                             </node>
                           </node>
                           <node concept="3TrcHB" id="59Df55lut7y" role="2OqNvi">
-                            <ref role="3TsBF5" to="h3y3:2ju2syjknvg" resolve="key" />
+                            <ref role="3TsBF5" to="h3y3:2ju2syjkkk9" resolve="key" />
                           </node>
                         </node>
                       </node>
@@ -734,14 +735,14 @@
             <node concept="1pGfFk" id="3ePT3MiXg5m" role="2ShVmc">
               <ref role="37wK5l" node="3ePT3MiWVCB" resolve="TestExistingImportedLanguage" />
               <node concept="37vLTw" id="3ePT3MiXg5n" role="37wK5m">
-                <ref role="3cqZAo" node="59Df55kqzUG" resolve="metamodel" />
+                <ref role="3cqZAo" node="59Df55kqzUG" resolve="lcLanguage" />
               </node>
               <node concept="2OqwBi" id="3ePT3MiXg5o" role="37wK5m">
                 <node concept="37vLTw" id="3ePT3MiXg5p" role="2Oq$k0">
                   <ref role="3cqZAo" node="59Df55lrW7h" resolve="importedLanguage" />
                 </node>
                 <node concept="liA8E" id="3ePT3MiXg5q" role="2OqNvi">
-                  <ref role="37wK5l" to="dydc:22JgUWVu8V" resolve="getLanguage" />
+                  <ref role="37wK5l" to="dydc:22JgUWVu8V" resolve="getSLanguage" />
                 </node>
               </node>
               <node concept="37vLTw" id="3ePT3MiXg5r" role="37wK5m">
@@ -1057,7 +1058,7 @@
     <node concept="3Tm1VV" id="59Df55krSgw" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="48csSBPyj1E">
-    <property role="TrG5h" value="MetamodelSorter" />
+    <property role="TrG5h" value="LanguageSorter" />
     <node concept="2YIFZL" id="48csSBPyH1i" role="jymVt">
       <property role="TrG5h" value="sort" />
       <node concept="37vLTG" id="48csSBORtoV" role="3clF46">
@@ -1105,7 +1106,7 @@
                           <ref role="3cqZAo" node="48csSBORv_E" resolve="it" />
                         </node>
                         <node concept="2qgKlT" id="48csSBORwjX" role="2OqNvi">
-                          <ref role="37wK5l" to="thsk:2ju2syjktq1" resolve="namespaceQualifier" />
+                          <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
                         </node>
                       </node>
                     </node>
@@ -1168,8 +1169,8 @@
                               <ref role="3Tt5mk" to="h3y3:2ju2syjknNj" resolve="language" />
                             </node>
                           </node>
-                          <node concept="2qgKlT" id="48csSBOBlWF" role="2OqNvi">
-                            <ref role="37wK5l" to="thsk:2ju2syjktq1" resolve="namespaceQualifier" />
+                          <node concept="2qgKlT" id="7jdzMalQtIs" role="2OqNvi">
+                            <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
                           </node>
                         </node>
                       </node>
@@ -1190,9 +1191,9 @@
         </node>
         <node concept="3cpWs8" id="48csSBOBo6F" role="3cqZAp">
           <node concept="3cpWsn" id="48csSBOBo6G" role="3cpWs9">
-            <property role="TrG5h" value="elements" />
+            <property role="TrG5h" value="entities" />
             <node concept="2I9FWS" id="48csSBOBpNt" role="1tU5fm">
-              <ref role="2I9WkF" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+              <ref role="2I9WkF" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
             </node>
             <node concept="2OqwBi" id="48csSBOBopm" role="33vP2m">
               <node concept="2OqwBi" id="48csSBOCWwz" role="2Oq$k0">
@@ -1202,7 +1203,7 @@
                       <ref role="3cqZAo" node="48csSBPyH5c" resolve="in" />
                     </node>
                     <node concept="3Tsc0h" id="48csSBOBo6K" role="2OqNvi">
-                      <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                      <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
                     </node>
                   </node>
                   <node concept="2S7cBI" id="48csSBOBo6L" role="2OqNvi">
@@ -1240,7 +1241,7 @@
                         <node concept="3cpWsn" id="48csSBOEWNK" role="3cpWs9">
                           <property role="TrG5h" value="out" />
                           <node concept="3Tqbb2" id="48csSBOEWNF" role="1tU5fm">
-                            <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageElement" />
+                            <ref role="ehGHo" to="h3y3:2ju2syjkkog" resolve="LanguageEntity" />
                           </node>
                           <node concept="37vLTw" id="48csSBOHqxH" role="33vP2m">
                             <ref role="3cqZAo" node="48csSBOCY7x" resolve="it" />
@@ -1256,7 +1257,7 @@
                         </node>
                         <node concept="1_3QMl" id="48csSBOD63o" role="1_3QMm">
                           <node concept="3gn64h" id="48csSBOD63p" role="3Kbmr1">
-                            <ref role="3gnhBz" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+                            <ref role="3gnhBz" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                           </node>
                           <node concept="3clFbS" id="48csSBOD63q" role="3Kbo56">
                             <node concept="3clFbF" id="48csSBPAaB7" role="3cqZAp">
@@ -1265,10 +1266,10 @@
                                   <ref role="3cqZAo" node="48csSBOEWNK" resolve="out" />
                                 </node>
                                 <node concept="1rXfSq" id="48csSBPAdV8" role="37vLTx">
-                                  <ref role="37wK5l" node="48csSBPyHfq" resolve="sortFc" />
+                                  <ref role="37wK5l" node="48csSBPyHfq" resolve="sortClassifier" />
                                   <node concept="1PxgMI" id="48csSBOENCv" role="37wK5m">
                                     <node concept="chp4Y" id="48csSBOENCw" role="3oSUPX">
-                                      <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+                                      <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                                     </node>
                                     <node concept="37vLTw" id="48csSBOENCx" role="1m5AlR">
                                       <ref role="3cqZAo" node="48csSBOCY7x" resolve="it" />
@@ -1355,7 +1356,7 @@
                 <ref role="3cqZAo" node="48csSBPyH5c" resolve="in" />
               </node>
               <node concept="3Tsc0h" id="48csSBOBw5L" role="2OqNvi">
-                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
               </node>
             </node>
             <node concept="2Kehj3" id="48csSBOB_H6" role="2OqNvi" />
@@ -1386,12 +1387,12 @@
                 <ref role="3cqZAo" node="48csSBPyH5c" resolve="in" />
               </node>
               <node concept="3Tsc0h" id="48csSBOBFna" role="2OqNvi">
-                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="elements" />
+                <ref role="3TtcxE" to="h3y3:2ju2syjknxJ" resolve="entities" />
               </node>
             </node>
             <node concept="X8dFx" id="48csSBOBSVX" role="2OqNvi">
               <node concept="37vLTw" id="48csSBOBT6t" role="25WWJ7">
-                <ref role="3cqZAo" node="48csSBOBo6G" resolve="elements" />
+                <ref role="3cqZAo" node="48csSBOBo6G" resolve="entities" />
               </node>
             </node>
           </node>
@@ -1409,11 +1410,11 @@
     </node>
     <node concept="2tJIrI" id="48csSBPyHgX" role="jymVt" />
     <node concept="2YIFZL" id="48csSBPyHfq" role="jymVt">
-      <property role="TrG5h" value="sortFc" />
+      <property role="TrG5h" value="sortClassifier" />
       <node concept="37vLTG" id="48csSBPyHfr" role="3clF46">
         <property role="TrG5h" value="in" />
         <node concept="3Tqbb2" id="48csSBPyHfs" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+          <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
         </node>
       </node>
       <node concept="3Tm1VV" id="48csSBPyHft" role="1B3o_S" />
@@ -1712,7 +1713,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="48csSBPyHfv" role="3clF45">
-        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="FeaturesContainer" />
+        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
       </node>
     </node>
     <node concept="2tJIrI" id="48csSBPyHmO" role="jymVt" />

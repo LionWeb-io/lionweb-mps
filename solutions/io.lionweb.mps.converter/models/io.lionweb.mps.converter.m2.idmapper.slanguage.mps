@@ -361,13 +361,13 @@
     </node>
     <node concept="2tJIrI" id="6VkSF6aHEbd" role="jymVt" />
     <node concept="3clFb_" id="6VkSF6aRpUV" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="6VkSF6aRpUX" role="1B3o_S" />
       <node concept="3uibUv" id="6VkSF6aRpV2" role="3clF45">
         <ref role="3uigEE" to="e8bb:~SConceptId" resolve="SConceptId" />
       </node>
       <node concept="37vLTG" id="6VkSF6aRpUZ" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="6VkSF6aRpV1" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
         </node>
@@ -379,7 +379,7 @@
               <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
             </node>
             <node concept="37vLTw" id="6VkSF6aRu0q" role="2ZW6bz">
-              <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="featuresContainer" />
+              <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="classifier" />
             </node>
           </node>
           <node concept="3clFbS" id="6VkSF6aRtAc" role="3clFbx">
@@ -389,7 +389,7 @@
                 <node concept="1eOMI4" id="6VkSF6aRxyr" role="37wK5m">
                   <node concept="10QFUN" id="6VkSF6aRxyq" role="1eOMHV">
                     <node concept="37vLTw" id="6VkSF6aRxyp" role="10QFUP">
-                      <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="featuresContainer" />
+                      <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="classifier" />
                     </node>
                     <node concept="3uibUv" id="6VkSF6aRxyo" role="10QFUM">
                       <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
@@ -405,7 +405,7 @@
                 <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
               </node>
               <node concept="37vLTw" id="6VkSF6aRyCr" role="2ZW6bz">
-                <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="featuresContainer" />
+                <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="classifier" />
               </node>
             </node>
             <node concept="3clFbS" id="6VkSF6aRyd_" role="3eOfB_">
@@ -415,7 +415,7 @@
                   <node concept="1eOMI4" id="6VkSF6aR_KQ" role="37wK5m">
                     <node concept="10QFUN" id="6VkSF6aR_KP" role="1eOMHV">
                       <node concept="37vLTw" id="6VkSF6aR_KO" role="10QFUP">
-                        <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="featuresContainer" />
+                        <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="classifier" />
                       </node>
                       <node concept="3uibUv" id="6VkSF6aR_KN" role="10QFUM">
                         <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
@@ -433,7 +433,7 @@
                   <node concept="1pGfFk" id="6VkSF6aRFjC" role="2ShVmc">
                     <ref role="37wK5l" to="en45:48csSBOixuC" resolve="UnknownConceptException" />
                     <node concept="37vLTw" id="6VkSF6aRFON" role="37wK5m">
-                      <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="featuresContainer" />
+                      <ref role="3cqZAo" node="6VkSF6aRpUZ" resolve="classifier" />
                     </node>
                   </node>
                 </node>
@@ -1489,11 +1489,11 @@
     </node>
     <node concept="2tJIrI" id="6VkSF6aJOxn" role="jymVt" />
     <node concept="3clFb_" id="6VkSF6aRJZh" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="6VkSF6aRJZj" role="1B3o_S" />
       <node concept="17QB3L" id="6VkSF6aRJZH" role="3clF45" />
       <node concept="37vLTG" id="6VkSF6aRJZl" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="6VkSF6aRJZI" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
         </node>
@@ -1510,7 +1510,7 @@
               <node concept="liA8E" id="pPZz6cPFkB" role="2OqNvi">
                 <ref role="37wK5l" to="apzt:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
                 <node concept="37vLTw" id="pPZz6cPFkC" role="37wK5m">
-                  <ref role="3cqZAo" node="6VkSF6aRJZl" resolve="featuresContainer" />
+                  <ref role="3cqZAo" node="6VkSF6aRJZl" resolve="classifier" />
                 </node>
               </node>
             </node>
@@ -1522,9 +1522,9 @@
                     <ref role="3cqZAo" node="6fYiNFaAztk" resolve="extractor" />
                   </node>
                   <node concept="liA8E" id="2fx6VTSNxVq" role="2OqNvi">
-                    <ref role="37wK5l" node="6VkSF6aRpUV" resolve="mapFeaturesContainer" />
+                    <ref role="37wK5l" node="6VkSF6aRpUV" resolve="mapClassifier" />
                     <node concept="37vLTw" id="2fx6VTSNxVr" role="37wK5m">
-                      <ref role="3cqZAo" node="6VkSF6aRJZl" resolve="featuresContainer" />
+                      <ref role="3cqZAo" node="6VkSF6aRJZl" resolve="classifier" />
                     </node>
                   </node>
                 </node>
@@ -2240,11 +2240,11 @@
     </node>
     <node concept="2tJIrI" id="2fx6VTSN_nK" role="jymVt" />
     <node concept="3clFb_" id="2fx6VTSN_nL" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3Tm1VV" id="2fx6VTSN_nM" role="1B3o_S" />
       <node concept="17QB3L" id="2fx6VTSN_nN" role="3clF45" />
       <node concept="37vLTG" id="2fx6VTSN_nO" role="3clF46">
-        <property role="TrG5h" value="featuresContainer" />
+        <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="2fx6VTSN_nP" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
         </node>
@@ -2261,7 +2261,7 @@
               <node concept="liA8E" id="pPZz6cPFmB" role="2OqNvi">
                 <ref role="37wK5l" to="apzt:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
                 <node concept="37vLTw" id="pPZz6cPFmC" role="37wK5m">
-                  <ref role="3cqZAo" node="2fx6VTSN_nO" resolve="featuresContainer" />
+                  <ref role="3cqZAo" node="2fx6VTSN_nO" resolve="classifier" />
                 </node>
               </node>
             </node>
@@ -2272,9 +2272,9 @@
                   <ref role="3cqZAo" node="6fYiNFaAztk" resolve="extractor" />
                 </node>
                 <node concept="liA8E" id="6fYiNFaIqFF" role="2OqNvi">
-                  <ref role="37wK5l" node="6VkSF6aRpUV" resolve="mapFeaturesContainer" />
+                  <ref role="37wK5l" node="6VkSF6aRpUV" resolve="mapClassifier" />
                   <node concept="37vLTw" id="6fYiNFaIqFG" role="37wK5m">
-                    <ref role="3cqZAo" node="2fx6VTSN_nO" resolve="featuresContainer" />
+                    <ref role="3cqZAo" node="2fx6VTSN_nO" resolve="classifier" />
                   </node>
                 </node>
               </node>

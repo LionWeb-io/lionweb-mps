@@ -90,7 +90,7 @@
       <property role="TrG5h" value="LANGUAGE" />
     </node>
     <node concept="16euLQ" id="6VkSF6aRcen" role="16eVyc">
-      <property role="TrG5h" value="FEATURES_CONTAINER" />
+      <property role="TrG5h" value="CLASSIFIER" />
     </node>
     <node concept="16euLQ" id="6VkSF6aHjKv" role="16eVyc">
       <property role="TrG5h" value="CONCEPT" />
@@ -129,7 +129,7 @@
         <ref role="16sUi3" node="6VkSF6aHjJY" resolve="LANGUAGE" />
       </node>
       <node concept="16syzq" id="6VkSF6aRjVy" role="11_B2D">
-        <ref role="16sUi3" node="6VkSF6aRcen" resolve="FEATURES_CONTAINER" />
+        <ref role="16sUi3" node="6VkSF6aRcen" resolve="CLASSIFIER" />
       </node>
       <node concept="16syzq" id="6VkSF6aJ0O2" role="11_B2D">
         <ref role="16sUi3" node="6VkSF6aHjKv" resolve="CONCEPT" />
@@ -180,7 +180,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="6VkSF6aR3TD" role="jymVt">
-      <property role="TrG5h" value="mapFeaturesContainer" />
+      <property role="TrG5h" value="mapClassifier" />
       <node concept="3clFbS" id="6VkSF6aR3TG" role="3clF47" />
       <node concept="3Tm1VV" id="6VkSF6aR3TH" role="1B3o_S" />
       <node concept="16syzq" id="6VkSF6aQZql" role="3clF45">
@@ -189,7 +189,7 @@
       <node concept="37vLTG" id="6VkSF6aR7SA" role="3clF46">
         <property role="TrG5h" value="featuresContainer" />
         <node concept="16syzq" id="6VkSF6aR7S_" role="1tU5fm">
-          <ref role="16sUi3" node="6VkSF6aQME4" resolve="FEATURES_CONTAINER" />
+          <ref role="16sUi3" node="6VkSF6aQME4" resolve="CLASSIFIER" />
         </node>
       </node>
     </node>
@@ -341,7 +341,7 @@
       <property role="TrG5h" value="LANGUAGE" />
     </node>
     <node concept="16euLQ" id="6VkSF6aQME4" role="16eVyc">
-      <property role="TrG5h" value="FEATURES_CONTAINER" />
+      <property role="TrG5h" value="CLASSIFIER" />
     </node>
     <node concept="16euLQ" id="6VkSF6aIYyf" role="16eVyc">
       <property role="TrG5h" value="CONCEPT" />
