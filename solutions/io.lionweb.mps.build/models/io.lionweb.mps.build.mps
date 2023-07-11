@@ -308,11 +308,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5wsogBcGDL0" role="3bR37C">
-          <node concept="3bR9La" id="5wsogBcGDL1" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="5wsogBcGDL2" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDL3" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
@@ -359,6 +354,11 @@
             <node concept="3qWCbU" id="5wsogBcGDLi" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7jdzMalStiX" role="3bR37C">
+          <node concept="3bR9La" id="7jdzMalStiY" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
       </node>
