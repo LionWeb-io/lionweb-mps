@@ -222,7 +222,7 @@
   <node concept="PKFIW" id="2ju2syjmIMX">
     <property role="TrG5h" value="NamespacedEntity_Inspector" />
     <property role="3GE5qa" value="dataType" />
-    <ref role="1XX52x" to="h3y3:6sGx2ln21vt" resolve="NamespacedEntity" />
+    <ref role="1XX52x" to="h3y3:6jTTMHCXLTP" resolve="NamespacedEntity" />
     <node concept="3EZMnI" id="2ju2syjmIMY" role="2wV5jI">
       <node concept="2iRkQZ" id="2ju2syjmIMZ" role="2iSdaV" />
       <node concept="3EZMnI" id="2ju2syjmIN0" role="3EZMnx">
@@ -358,11 +358,14 @@
         <node concept="3EZMnI" id="2ju2syjmSiV" role="3EZMnx">
           <node concept="3EZMnI" id="2ju2syjovow" role="3EZMnx">
             <node concept="VPM3Z" id="2ju2syjovoy" role="3F10Kt" />
-            <node concept="3F0ifn" id="2ju2syjovry" role="3EZMnx">
-              <property role="3F0ifm" value="abstract" />
-            </node>
-            <node concept="PMmxH" id="2ju2syjovvi" role="3EZMnx">
-              <ref role="PMmxG" node="2ju2syjmKXO" resolve="FeatureColon" />
+            <node concept="3EZMnI" id="5AGBwuDR5jn" role="3EZMnx">
+              <node concept="2iRfu4" id="5AGBwuDR5jo" role="2iSdaV" />
+              <node concept="3F0ifn" id="2ju2syjovry" role="3EZMnx">
+                <property role="3F0ifm" value="abstract" />
+              </node>
+              <node concept="PMmxH" id="2ju2syjovvi" role="3EZMnx">
+                <ref role="PMmxG" node="2ju2syjmKXO" resolve="FeatureColon" />
+              </node>
             </node>
             <node concept="3XFhqQ" id="2ju2syjovyD" role="3EZMnx" />
             <node concept="3F0A7n" id="2ju2syjovC5" role="3EZMnx">
@@ -370,12 +373,29 @@
             </node>
             <node concept="2iRfu4" id="2ju2syjovo_" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="5AGBwuDAPp4" role="3EZMnx">
+            <node concept="VPM3Z" id="5AGBwuDAPp5" role="3F10Kt" />
+            <node concept="3EZMnI" id="5AGBwuDR5jC" role="3EZMnx">
+              <node concept="2iRfu4" id="5AGBwuDR5jD" role="2iSdaV" />
+              <node concept="3F0ifn" id="5AGBwuDAPp6" role="3EZMnx">
+                <property role="3F0ifm" value="partition" />
+              </node>
+              <node concept="PMmxH" id="5AGBwuDAPp7" role="3EZMnx">
+                <ref role="PMmxG" node="2ju2syjmKXO" resolve="FeatureColon" />
+              </node>
+            </node>
+            <node concept="3XFhqQ" id="5AGBwuDAPp8" role="3EZMnx" />
+            <node concept="3F0A7n" id="5AGBwuDAPp9" role="3EZMnx">
+              <ref role="1NtTu8" to="h3y3:5AGBwuDAPoU" resolve="partition" />
+            </node>
+            <node concept="2iRfu4" id="5AGBwuDAPpa" role="2iSdaV" />
+          </node>
           <node concept="VPM3Z" id="2ju2syjmSiW" role="3F10Kt" />
           <node concept="3F2HdR" id="2ju2syjmSiX" role="3EZMnx">
             <ref role="1NtTu8" to="h3y3:2ju2syjkliV" resolve="features" />
             <node concept="2EHx9g" id="2ju2syjo7gX" role="2czzBx" />
           </node>
-          <node concept="2iRkQZ" id="2ju2syjmSiZ" role="2iSdaV" />
+          <node concept="2EHx9g" id="5AGBwuDR5jk" role="2iSdaV" />
         </node>
         <node concept="2iRfu4" id="2ju2syjmSj0" role="2iSdaV" />
       </node>

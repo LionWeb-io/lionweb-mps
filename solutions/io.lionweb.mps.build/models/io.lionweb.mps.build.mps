@@ -421,6 +421,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5AGBwuFPhe$" role="3bR37C">
+          <node concept="3bR9La" id="5AGBwuFPhe_" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="4OO9PkkNNqM" role="3989C9">
@@ -571,6 +576,11 @@
             <ref role="3bR37D" node="6fYiNFaW8NT" resolve="io.lionweb.mps.structure.attribute" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5AGBwuFPheQ" role="3bR37C">
+          <node concept="3bR9La" id="5AGBwuFPheR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="5wsogBcGDLI" role="3989C9">
@@ -637,6 +647,11 @@
           <node concept="3bR9La" id="5wsogBcGDM6" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="5wsogBcGDM7" resolve="io.lionweb.lioncore.java" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5AGBwuFPhf0" role="3bR37C">
+          <node concept="3bR9La" id="5AGBwuFPhf1" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>
@@ -805,6 +820,11 @@
             <node concept="3qWCbU" id="5wsogBcGDNa" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5AGBwuFPhfu" role="3bR37C">
+          <node concept="3bR9La" id="5AGBwuFPhfv" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
       </node>
@@ -985,6 +1005,7 @@
         </node>
         <node concept="1SiIV0" id="5wsogBcGDRV" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDRW" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
           </node>
         </node>

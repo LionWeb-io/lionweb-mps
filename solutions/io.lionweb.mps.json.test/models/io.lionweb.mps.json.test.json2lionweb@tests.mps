@@ -325,6 +325,14 @@
             <node concept="2ShNRf" id="6VkSF6cxU6$" role="33vP2m">
               <node concept="1pGfFk" id="6VkSF6cxU6_" role="2ShVmc">
                 <ref role="37wK5l" to="lai5:6VkSF6aF169" resolve="ClosureMps2LionWebConverter" />
+                <node concept="2ShNRf" id="1cDE0S25zBq" role="37wK5m">
+                  <node concept="1pGfFk" id="1cDE0S25_bZ" role="2ShVmc">
+                    <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+                    <node concept="37vLTw" id="1cDE0S25Ayi" role="37wK5m">
+                      <ref role="3cqZAo" node="5glO5qKWPiJ" resolve="repository" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="2ShNRf" id="6VkSF6cxU6A" role="37wK5m">
                   <node concept="1pGfFk" id="6VkSF6cxU6B" role="2ShVmc">
                     <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />

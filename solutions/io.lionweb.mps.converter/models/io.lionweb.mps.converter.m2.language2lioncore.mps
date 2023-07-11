@@ -63,6 +63,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
@@ -1737,13 +1740,12 @@
               </node>
               <node concept="2pJxcG" id="2chztJeE$93" role="2pJxcM">
                 <ref role="2pJxcJ" to="h3y3:2chztJeDvZC" resolve="version" />
-                <node concept="WxPPo" id="2chztJeEBRR" role="28ntcv">
-                  <node concept="2OqwBi" id="2chztJeEFYt" role="WxPPp">
-                    <node concept="37vLTw" id="2chztJeEBRP" role="2Oq$k0">
+                <node concept="WxPPo" id="6jTTMHD7tY7" role="28ntcv">
+                  <node concept="2YIFZM" id="6jTTMHD7$Mu" role="WxPPp">
+                    <ref role="37wK5l" to="apzt:6jTTMHD72KX" resolve="getLanguageVersion" />
+                    <ref role="1Pybhc" to="apzt:6jTTMHD72IS" resolve="MpsLanguageUtil" />
+                    <node concept="37vLTw" id="6jTTMHD7Cu3" role="37wK5m">
                       <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
-                    </node>
-                    <node concept="liA8E" id="2chztJeEKlv" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SLanguage.getLanguageVersion()" resolve="getLanguageVersion" />
                     </node>
                   </node>
                 </node>
@@ -3839,6 +3841,10 @@
         </node>
         <node concept="3clFbH" id="39$JcGH0g0O" role="3cqZAp" />
         <node concept="3clFbJ" id="48csSBOg4yz" role="3cqZAp">
+          <node concept="15s5l7" id="6jTTMHD4JIv" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: SDataTypeAdapter is deprecated&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
+            <property role="huDt6" value="Warning: SDataTypeAdapter is deprecated" />
+          </node>
           <node concept="3clFbS" id="48csSBOg4y_" role="3clFbx">
             <node concept="3cpWs8" id="48csSBOhmGI" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBOhmGJ" role="3cpWs9">

@@ -75,9 +75,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="2ju2syjm$5g">
-    <ref role="1M2myG" to="h3y3:6sGx2ln21vt" resolve="NamespacedEntity" />
-  </node>
   <node concept="1M2fIO" id="2ju2syjmDAZ">
     <ref role="1M2myG" to="h3y3:2ju2syjkngz" resolve="Language" />
   </node>
