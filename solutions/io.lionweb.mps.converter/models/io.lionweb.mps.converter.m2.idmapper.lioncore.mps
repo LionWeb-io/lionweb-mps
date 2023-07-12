@@ -88,8 +88,15 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
   </registry>
@@ -124,6 +131,14 @@
       <node concept="3clFbS" id="5M3rB6Ax$oZ" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Ay1Mb" role="3cqZAp">
           <ref role="37wK5l" node="5M3rB6AY3WH" resolve="ALionCoreKeyMapper" />
+          <node concept="15s5l7" id="5M3rB6BmS42" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;node&lt;Language&gt;,node&lt;Classifier&gt;,node&lt;Concept&gt;,node&lt;ConceptInterface&gt;,node&lt;Property&gt;,node&lt;Link&gt;,node&lt;Containment&gt;,node&lt;Reference&gt;,node&lt;DataType&gt;,node&lt;PrimitiveType&gt;,node&lt;Enumeration&gt;,node&lt;EnumerationLiteral&gt;&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902b1(jetbrains.mps.lang.typesystem.typesystem)/1269166727599073781,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
+            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;node&lt;Language&gt;,node&lt;Classifier&gt;,node&lt;Concept&gt;,node&lt;ConceptInterface&gt;,node&lt;Property&gt;,node&lt;Link&gt;,node&lt;Containment&gt;,node&lt;Reference&gt;,node&lt;DataType&gt;,node&lt;PrimitiveType&gt;,node&lt;Enumeration&gt;,node&lt;EnumerationLiteral&gt;&gt;" />
+          </node>
+          <node concept="15s5l7" id="5M3rB6BmRSg" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+            <property role="huDt6" value="Error: Incompatible method signature" />
+          </node>
           <node concept="2ShNRf" id="5M3rB6Ay2EW" role="37wK5m">
             <node concept="1pGfFk" id="5M3rB6Ay41Y" role="2ShVmc">
               <ref role="37wK5l" to="teza:5M3rB6AxNJt" resolve="MpsCompatibleKeyConverter" />
@@ -511,6 +526,7 @@
   <node concept="312cEu" id="5M3rB6AY2W3">
     <property role="TrG5h" value="ALionCoreKeyMapper" />
     <property role="1sVAO0" value="true" />
+    <node concept="2tJIrI" id="5M3rB6Bq2zq" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6AY2W4" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAAOr" role="1zkMxy">
       <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />

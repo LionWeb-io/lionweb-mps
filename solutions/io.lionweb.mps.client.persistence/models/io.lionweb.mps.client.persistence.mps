@@ -1237,8 +1237,21 @@
                     <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="7jdzMamei2B" role="37wK5m">
-                  <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
+                <node concept="2ShNRf" id="5M3rB6BZe7r" role="37wK5m">
+                  <node concept="1pGfFk" id="5M3rB6BZeTi" role="2ShVmc">
+                    <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                    <node concept="37vLTw" id="5M3rB6BZfbZ" role="37wK5m">
+                      <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
+                    </node>
+                    <node concept="2ShNRf" id="5M3rB6BZfGQ" role="37wK5m">
+                      <node concept="1pGfFk" id="5M3rB6BZgkE" role="2ShVmc">
+                        <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                        <node concept="37vLTw" id="5M3rB6BZgJI" role="37wK5m">
+                          <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -1369,6 +1382,22 @@
     <node concept="3clFb_" id="7jdzMamdt5M" role="jymVt">
       <property role="TrG5h" value="save" />
       <node concept="3clFbS" id="7jdzMamdt5P" role="3clF47">
+        <node concept="3cpWs8" id="5M3rB6Bilq$" role="3cqZAp">
+          <node concept="3cpWsn" id="5M3rB6Bilq_" role="3cpWs9">
+            <property role="TrG5h" value="constants" />
+            <node concept="3uibUv" id="5M3rB6BikSX" role="1tU5fm">
+              <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+            </node>
+            <node concept="2ShNRf" id="5M3rB6BilqA" role="33vP2m">
+              <node concept="1pGfFk" id="5M3rB6BilqB" role="2ShVmc">
+                <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <node concept="37vLTw" id="5M3rB6BilqC" role="37wK5m">
+                  <ref role="3cqZAo" node="7jdzMame$Pf" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7jdzMameNa2" role="3cqZAp">
           <node concept="3cpWsn" id="7jdzMameNa3" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
@@ -1377,9 +1406,12 @@
             </node>
             <node concept="2ShNRf" id="7jdzMameNa4" role="33vP2m">
               <node concept="1pGfFk" id="7jdzMameNa5" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                 <node concept="37vLTw" id="7jdzMameNa6" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMame$Pf" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="5M3rB6Bimni" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6Bilq_" resolve="constants" />
                 </node>
               </node>
             </node>
@@ -1397,13 +1429,8 @@
                 <node concept="37vLTw" id="5M3rB6Bcm0P" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMameNa3" resolve="attributeFinder" />
                 </node>
-                <node concept="2ShNRf" id="7jdzMameH3n" role="37wK5m">
-                  <node concept="1pGfFk" id="7jdzMameH3o" role="2ShVmc">
-                    <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-                    <node concept="37vLTw" id="7jdzMameH3p" role="37wK5m">
-                      <ref role="3cqZAo" node="7jdzMame$Pf" resolve="repository" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="5M3rB6BilqD" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6Bilq_" resolve="constants" />
                 </node>
               </node>
             </node>
@@ -1446,8 +1473,13 @@
                 <node concept="37vLTw" id="7jdzMameNa7" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMameNa3" resolve="attributeFinder" />
                 </node>
-                <node concept="37vLTw" id="7jdzMameJPi" role="37wK5m">
-                  <ref role="3cqZAo" node="7jdzMameH3k" resolve="mapper" />
+                <node concept="2ShNRf" id="5M3rB6BZnmT" role="37wK5m">
+                  <node concept="1pGfFk" id="5M3rB6BZo6J" role="2ShVmc">
+                    <ref role="37wK5l" to="lai5:5s4Z0e0f4ae" resolve="MetaPointerCreator" />
+                    <node concept="37vLTw" id="5M3rB6BZolQ" role="37wK5m">
+                      <ref role="3cqZAo" node="7jdzMameH3k" resolve="mapper" />
+                    </node>
+                  </node>
                 </node>
                 <node concept="37vLTw" id="7jdzMameL9A" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMameL9y" resolve="mpsNodes" />

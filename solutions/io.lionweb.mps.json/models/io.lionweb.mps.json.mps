@@ -17,6 +17,7 @@
     <import index="jxh5" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization(io.lionweb.lioncore.java/)" />
     <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lioncore.java/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
@@ -275,6 +276,9 @@
         <node concept="3uibUv" id="z1IqfFwqi2" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BO9VJ" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5wsogBcth7p" role="jymVt" />
@@ -300,6 +304,9 @@
         <property role="TrG5h" value="input" />
         <node concept="3uibUv" id="5wsogBctgVp" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~Reader" resolve="Reader" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BO9Y4" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
     </node>
@@ -505,6 +512,9 @@
       <node concept="3uibUv" id="5wsogBc3ZX8" role="Sfmx6">
         <ref role="3uigEE" to="wy2b:~JsonIOException" resolve="JsonIOException" />
       </node>
+      <node concept="2AHcQZ" id="5M3rB6BOa7T" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="3Tm1VV" id="z1IqfFwqdb" role="1B3o_S" />
   </node>
@@ -529,6 +539,9 @@
         <property role="TrG5h" value="jsonWriter" />
         <node concept="3uibUv" id="5s4Z0e0nc6D" role="1tU5fm">
           <ref role="3uigEE" to="c9jv:~JsonWriter" resolve="JsonWriter" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BNYRO" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="37vLTG" id="5s4Z0e0nc6F" role="3clF46">
@@ -556,6 +569,9 @@
         <node concept="3uibUv" id="5s4Z0e0nc6q" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BNYYN" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="5s4Z0e0nc6s" role="3clF46">
         <property role="TrG5h" value="prettyPrint" />
@@ -578,6 +594,9 @@
         <property role="TrG5h" value="output" />
         <node concept="3uibUv" id="5s4Z0e0nc6f" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~OutputStream" resolve="OutputStream" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BNZ7N" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
     </node>
@@ -630,6 +649,9 @@
             <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="5M3rB6BO2DP" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="5glO5qKYPJ7" role="jymVt" />
@@ -686,6 +708,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="5M3rB6BO27G" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="2tJIrI" id="6VkSF6c$CM5" role="jymVt" />
     <node concept="3clFb_" id="5sACIIt41dL" role="jymVt">
@@ -738,6 +763,12 @@
         <node concept="3uibUv" id="6VkSF6c$if3" role="1tU5fm">
           <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BNZvu" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5M3rB6BO1__" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="51EPk3t1Dce" role="jymVt" />
@@ -845,6 +876,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="5M3rB6BO12o" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="2tJIrI" id="5s4Z0e0bN2t" role="jymVt" />
     <node concept="3clFb_" id="5s4Z0e0bOUO" role="jymVt">
@@ -887,6 +921,12 @@
         <node concept="3uibUv" id="5s4Z0e0bPDd" role="1tU5fm">
           <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BNZW6" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5M3rB6BO0ux" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="3Tm1VV" id="5sACIIs_LcA" role="1B3o_S" />
@@ -902,6 +942,9 @@
         <property role="TrG5h" value="builtins" />
         <node concept="3uibUv" id="39$JcGFQGa6" role="1tU5fm">
           <ref role="3uigEE" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BNYhG" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="3clFbS" id="39$JcGFQlAx" role="3clF47">
@@ -962,6 +1005,9 @@
         <node concept="3uibUv" id="39$JcGGbiH4" role="1tU5fm">
           <ref role="3uigEE" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BNYjB" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="3clFbS" id="39$JcGGbiH5" role="3clF47">
         <node concept="3clFbF" id="39$JcGGbiH6" role="3cqZAp">
@@ -1009,6 +1055,9 @@
         <node concept="3uibUv" id="6VkSF6c$fUG" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~OutputStream" resolve="OutputStream" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BJXmR" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="3cqZAl" id="6VkSF6c$eb0" role="3clF45" />
       <node concept="3Tm1VV" id="6VkSF6c$eb1" role="1B3o_S" />
@@ -1037,6 +1086,9 @@
         <property role="TrG5h" value="writer" />
         <node concept="3uibUv" id="6VkSF6c$dxf" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BNXBx" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="37vLTG" id="5wsogBcwl3n" role="3clF46">
@@ -1106,6 +1158,9 @@
         <node concept="3uibUv" id="6VkSF6c$bHo" role="1tU5fm">
           <ref role="3uigEE" to="c9jv:~JsonWriter" resolve="JsonWriter" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BNXGS" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="5wsogBcwbD7" role="3clF46">
         <property role="TrG5h" value="prettyPrint" />
@@ -1123,6 +1178,9 @@
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="6VkSF6c$B8z" role="1tU5fm">
           <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BNXPT" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="3clFbS" id="6VkSF6c$B83" role="3clF47">
@@ -1213,6 +1271,9 @@
       <node concept="3uibUv" id="6VkSF6c$B93" role="Sfmx6">
         <ref role="3uigEE" to="wy2b:~JsonIOException" resolve="JsonIOException" />
       </node>
+      <node concept="2AHcQZ" id="5M3rB6BNY1J" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="2tJIrI" id="5s4Z0e0n9UG" role="jymVt" />
     <node concept="2tJIrI" id="5s4Z0e0n9N0" role="jymVt" />
@@ -1247,6 +1308,9 @@
         <node concept="3uibUv" id="5s4Z0e0nceS" role="1tU5fm">
           <ref role="3uigEE" to="c9jv:~JsonWriter" resolve="JsonWriter" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BO4n5" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="5s4Z0e0nceT" role="3clF46">
         <property role="TrG5h" value="prettyPrint" />
@@ -1273,6 +1337,9 @@
         <node concept="3uibUv" id="5s4Z0e0ncf4" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BO4tM" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="5s4Z0e0ncf5" role="3clF46">
         <property role="TrG5h" value="prettyPrint" />
@@ -1295,6 +1362,9 @@
         <property role="TrG5h" value="output" />
         <node concept="3uibUv" id="5s4Z0e0ncff" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~OutputStream" resolve="OutputStream" />
+        </node>
+        <node concept="2AHcQZ" id="5M3rB6BO4DO" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
     </node>
@@ -1341,6 +1411,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="5M3rB6BO5xZ" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
     <node concept="2tJIrI" id="5s4Z0e0n9X$" role="jymVt" />
     <node concept="3clFb_" id="5s4Z0e0n9X_" role="jymVt">
@@ -1386,6 +1459,12 @@
         <node concept="3uibUv" id="5s4Z0e0n9XQ" role="1tU5fm">
           <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
         </node>
+        <node concept="2AHcQZ" id="5M3rB6BO7$f" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5M3rB6BO70j" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="5s4Z0e0n9XR" role="jymVt" />
@@ -2085,6 +2164,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="5M3rB6BO8In" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="3Tm1VV" id="5s4Z0e0na38" role="1B3o_S" />

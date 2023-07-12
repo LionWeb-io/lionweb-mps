@@ -1514,6 +1514,14 @@
       <node concept="3clFbS" id="6fYiNFaC6ep" role="3clF47">
         <node concept="XkiVB" id="6fYiNFaC6eq" role="3cqZAp">
           <ref role="37wK5l" node="5M3rB6B2OEL" resolve="ASLanguageKeyMapper" />
+          <node concept="15s5l7" id="5M3rB6BmSRA" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToLionWebKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;SLanguage,SAbstractConcept,SConcept,SInterfaceConcept,SProperty,SAbstractLink,SContainmentLink,SReferenceLink,SDataType,SDataType,SEnumeration,SEnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
+            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToLionWebKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;SLanguage,SAbstractConcept,SConcept,SInterfaceConcept,SProperty,SAbstractLink,SContainmentLink,SReferenceLink,SDataType,SDataType,SEnumeration,SEnumerationLiteral&gt;" />
+          </node>
+          <node concept="15s5l7" id="5M3rB6BmSHa" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
+            <property role="huDt6" value="Error: Incompatible method signature" />
+          </node>
           <node concept="2ShNRf" id="5M3rB6AyQ6X" role="37wK5m">
             <node concept="1pGfFk" id="5M3rB6AySP7" role="2ShVmc">
               <ref role="37wK5l" node="5M3rB6_Y03H" resolve="SLanguageAttributeKeyMapper" />
