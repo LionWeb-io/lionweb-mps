@@ -1040,6 +1040,9 @@
             <node concept="2ShNRf" id="5M3rB6CnBh9" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6CnBha" role="2ShVmc">
                 <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
+                <node concept="37vLTw" id="4n8SsXjtAwG" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6CnAgr" resolve="constants" />
+                </node>
               </node>
             </node>
           </node>

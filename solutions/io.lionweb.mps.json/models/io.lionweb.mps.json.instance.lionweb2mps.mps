@@ -23,10 +23,7 @@
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
     <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
   </imports>
@@ -4209,6 +4206,9 @@
                 <node concept="3uibUv" id="pPZz6cSk4p" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
                 </node>
+                <node concept="3uibUv" id="if73NDFG4K" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                </node>
               </node>
             </node>
             <node concept="3clFbS" id="pPZz6cSiY_" role="1zc67A">
@@ -4563,6 +4563,9 @@
                 <node concept="3uibUv" id="1bT$FEXbs1$" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
                 </node>
+                <node concept="3uibUv" id="if73NDFNHt" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                </node>
               </node>
             </node>
             <node concept="3clFbS" id="1bT$FEXbs1_" role="1zc67A">
@@ -4900,6 +4903,9 @@
               <node concept="nSUau" id="1bT$FEXcwwL" role="1tU5fm">
                 <node concept="3uibUv" id="1bT$FEXcwwM" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
+                </node>
+                <node concept="3uibUv" id="if73NDFVgg" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
                 </node>
               </node>
             </node>
@@ -5239,6 +5245,9 @@
                 <node concept="3uibUv" id="1bT$FEXdz0S" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
                 </node>
+                <node concept="3uibUv" id="if73NDF$gP" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                </node>
               </node>
             </node>
             <node concept="3clFbS" id="1bT$FEXdz0T" role="1zc67A">
@@ -5492,6 +5501,9 @@
               <node concept="nSUau" id="pPZz6cQV98" role="1tU5fm">
                 <node concept="3uibUv" id="pPZz6cQVJY" role="nSUat">
                   <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
+                </node>
+                <node concept="3uibUv" id="if73NDG2t9" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
                 </node>
               </node>
             </node>

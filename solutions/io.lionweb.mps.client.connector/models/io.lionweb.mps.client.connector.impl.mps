@@ -1446,7 +1446,7 @@
                   <node concept="liA8E" id="7kbN1mNiEs8" role="2OqNvi">
                     <ref role="37wK5l" to="5zyv:~CompletableFuture.get(long,java.util.concurrent.TimeUnit)" resolve="get" />
                     <node concept="3cmrfG" id="7kbN1mNiGRM" role="37wK5m">
-                      <property role="3cmrfH" value="60" />
+                      <property role="3cmrfH" value="10" />
                     </node>
                     <node concept="Rm8GO" id="7kbN1mNiKWY" role="37wK5m">
                       <ref role="Rm8GQ" to="5zyv:~TimeUnit.SECONDS" resolve="SECONDS" />

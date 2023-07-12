@@ -317,6 +317,41 @@
               </node>
             </node>
             <node concept="3clFbH" id="39$JcGEIh9x" role="3cqZAp" />
+            <node concept="3cpWs8" id="4n8SsXjtzMC" role="3cqZAp">
+              <node concept="3cpWsn" id="4n8SsXjtzMD" role="3cpWs9">
+                <property role="TrG5h" value="constants" />
+                <node concept="3uibUv" id="4n8SsXjtynu" role="1tU5fm">
+                  <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+                </node>
+                <node concept="2ShNRf" id="4n8SsXjtzME" role="33vP2m">
+                  <node concept="1pGfFk" id="4n8SsXjtzMF" role="2ShVmc">
+                    <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                    <node concept="2OqwBi" id="4n8SsXjtzMG" role="37wK5m">
+                      <node concept="1jGwE1" id="4n8SsXjtzMH" role="2Oq$k0" />
+                      <node concept="liA8E" id="4n8SsXjtzMI" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4n8SsXjt$61" role="3cqZAp">
+              <node concept="3cpWsn" id="4n8SsXjt$62" role="3cpWs9">
+                <property role="TrG5h" value="mapper" />
+                <node concept="3uibUv" id="4n8SsXjtzYK" role="1tU5fm">
+                  <ref role="3uigEE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+                </node>
+                <node concept="2ShNRf" id="4n8SsXjt$63" role="33vP2m">
+                  <node concept="1pGfFk" id="4n8SsXjt$64" role="2ShVmc">
+                    <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
+                    <node concept="37vLTw" id="4n8SsXjt$p8" role="37wK5m">
+                      <ref role="3cqZAo" node="4n8SsXjtzMD" resolve="constants" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="39$JcGEIub1" role="3cqZAp">
               <node concept="3cpWsn" id="39$JcGEIub2" role="3cpWs9">
                 <property role="TrG5h" value="converter" />
@@ -330,21 +365,11 @@
                       <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                       <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
-                    <node concept="2ShNRf" id="5M3rB6BDA_e" role="37wK5m">
-                      <node concept="1pGfFk" id="5M3rB6BDB1k" role="2ShVmc">
-                        <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-                        <node concept="2OqwBi" id="5M3rB6BDBBQ" role="37wK5m">
-                          <node concept="1jGwE1" id="5M3rB6BDBgb" role="2Oq$k0" />
-                          <node concept="liA8E" id="5M3rB6BDBY5" role="2OqNvi">
-                            <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="4n8SsXjtzMJ" role="37wK5m">
+                      <ref role="3cqZAo" node="4n8SsXjtzMD" resolve="constants" />
                     </node>
-                    <node concept="2ShNRf" id="39$JcGELgyX" role="37wK5m">
-                      <node concept="1pGfFk" id="5M3rB6AB6Db" role="2ShVmc">
-                        <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
-                      </node>
+                    <node concept="37vLTw" id="4n8SsXjt$65" role="37wK5m">
+                      <ref role="3cqZAo" node="4n8SsXjt$62" resolve="mapper" />
                     </node>
                   </node>
                 </node>

@@ -4,16 +4,13 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
   <imports>
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
-    <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
-    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
-    <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
   <registry>
@@ -135,6 +132,10 @@
       <node concept="3clFbS" id="5M3rB6_MVsH" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Av$rz" role="3cqZAp">
           <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
+          <node concept="15s5l7" id="4n8SsXjurNy" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
+            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
+          </node>
           <node concept="15s5l7" id="5M3rB6BPtOg" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToMpsKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902b1(jetbrains.mps.lang.typesystem.typesystem)/1269166727599073781,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
             <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToMpsKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
@@ -142,6 +143,19 @@
           <node concept="15s5l7" id="5M3rB6BPtly" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
             <property role="huDt6" value="Error: Incompatible method signature" />
+          </node>
+          <node concept="2ShNRf" id="4n8SsXjto_e" role="37wK5m">
+            <node concept="1pGfFk" id="4n8SsXjtqhd" role="2ShVmc">
+              <ref role="37wK5l" to="teza:5M3rB6_P82N" resolve="BuiltinKeyMapper" />
+              <node concept="37vLTw" id="4n8SsXjtunT" role="37wK5m">
+                <ref role="3cqZAo" node="4n8SsXjtsT0" resolve="constants" />
+              </node>
+              <node concept="2ShNRf" id="4n8SsXjtqJX" role="37wK5m">
+                <node concept="HV5vD" id="4n8SsXjtr1e" role="2ShVmc">
+                  <ref role="HV5vE" node="5M3rB6A0Hk2" resolve="JsonKeyMapper" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="2ShNRf" id="5M3rB6AvAsN" role="37wK5m">
             <node concept="1pGfFk" id="5M3rB6AvDdC" role="2ShVmc">
@@ -153,6 +167,15 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4n8SsXjtsT0" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4n8SsXjtsSZ" role="1tU5fm">
+          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        </node>
+        <node concept="2AHcQZ" id="4n8SsXjttQ2" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
     </node>
