@@ -54,9 +54,6 @@
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -316,6 +313,22 @@
             <node concept="3YRAZt" id="5s4Z0e0vbUk" role="2OqNvi" />
           </node>
         </node>
+        <node concept="3cpWs8" id="5M3rB6Bc$r_" role="3cqZAp">
+          <node concept="3cpWsn" id="5M3rB6Bc$rA" role="3cpWs9">
+            <property role="TrG5h" value="attributeFinder" />
+            <node concept="3uibUv" id="5M3rB6BczhG" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+            </node>
+            <node concept="2ShNRf" id="5M3rB6Bc$rB" role="33vP2m">
+              <node concept="1pGfFk" id="5M3rB6Bc$rC" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+                <node concept="37vLTw" id="5M3rB6Bc$rD" role="37wK5m">
+                  <ref role="3cqZAo" node="5glO5qKWPiJ" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="6VkSF6cxU6y" role="3cqZAp">
           <node concept="3cpWsn" id="6VkSF6cxU6z" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -325,22 +338,17 @@
             <node concept="2ShNRf" id="6VkSF6cxU6$" role="33vP2m">
               <node concept="1pGfFk" id="6VkSF6cxU6_" role="2ShVmc">
                 <ref role="37wK5l" to="lai5:6VkSF6aF169" resolve="ClosureMps2LionWebConverter" />
-                <node concept="2ShNRf" id="1cDE0S25zBq" role="37wK5m">
-                  <node concept="1pGfFk" id="1cDE0S25_bZ" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
-                    <node concept="37vLTw" id="1cDE0S25Ayi" role="37wK5m">
-                      <ref role="3cqZAo" node="5glO5qKWPiJ" resolve="repository" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="5M3rB6Bc$rE" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6Bc$rA" resolve="attributeFinder" />
                 </node>
                 <node concept="2ShNRf" id="6VkSF6cxU6A" role="37wK5m">
                   <node concept="1pGfFk" id="6VkSF6cxU6B" role="2ShVmc">
                     <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
+                    <node concept="37vLTw" id="5M3rB6BcA$1" role="37wK5m">
+                      <ref role="3cqZAo" node="5M3rB6Bc$rA" resolve="attributeFinder" />
+                    </node>
                     <node concept="37vLTw" id="6VkSF6cxU6C" role="37wK5m">
                       <ref role="3cqZAo" node="6VkSF6cxRfg" resolve="constants" />
-                    </node>
-                    <node concept="37vLTw" id="5glO5qKWPiQ" role="37wK5m">
-                      <ref role="3cqZAo" node="5glO5qKWPiJ" resolve="repository" />
                     </node>
                   </node>
                 </node>
@@ -993,8 +1001,8 @@
                   <node concept="1pGfFk" id="9wS6VcwgNh" role="2ShVmc">
                     <ref role="37wK5l" to="pe0e:5wsogBcp_Fx" resolve="DirectMetaPointerLookup" />
                     <node concept="2ShNRf" id="5wsogBcrJ2A" role="37wK5m">
-                      <node concept="HV5vD" id="5wsogBcrOGx" role="2ShVmc">
-                        <ref role="HV5vE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+                      <node concept="1pGfFk" id="5M3rB6BcBHf" role="2ShVmc">
+                        <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="1bT$FEXjb4X" role="37wK5m">

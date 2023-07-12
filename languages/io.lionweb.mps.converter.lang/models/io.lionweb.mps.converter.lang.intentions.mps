@@ -1140,13 +1140,13 @@
                 <node concept="2ShNRf" id="39$JcGF9MRz" role="33vP2m">
                   <node concept="1pGfFk" id="39$JcGF9MR$" role="2ShVmc">
                     <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
+                    <node concept="37vLTw" id="5M3rB6Bb3UA" role="37wK5m">
+                      <ref role="3cqZAo" node="5AGBwuFztQw" resolve="attributeFinder" />
+                    </node>
                     <node concept="2YIFZM" id="5wsogBcwyAf" role="37wK5m">
                       <ref role="37wK5l" to="en45:5wsogBcwvr1" resolve="create" />
                       <ref role="1Pybhc" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
                       <node concept="2Sf5sV" id="5wsogBcx35U" role="37wK5m" />
-                    </node>
-                    <node concept="37vLTw" id="5AGBwuFzutm" role="37wK5m">
-                      <ref role="3cqZAo" node="5AGBwuFzutf" resolve="repository" />
                     </node>
                   </node>
                 </node>

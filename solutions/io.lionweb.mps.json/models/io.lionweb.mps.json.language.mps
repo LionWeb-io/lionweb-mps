@@ -58,9 +58,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -335,11 +332,11 @@
     <node concept="3clFbW" id="6VkSF6cslnE" role="jymVt">
       <node concept="37vLTG" id="6VkSF6csnVa" role="3clF46">
         <property role="TrG5h" value="idMapper" />
-        <node concept="3uibUv" id="6VkSF6csnVb" role="1tU5fm">
-          <ref role="3uigEE" to="faaz:6VkSF6biMee" resolve="ISLanguageIdMapper" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8VrtMq" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6B2QnO" role="1tU5fm">
+          <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
         </node>
       </node>
       <node concept="37vLTG" id="5AGBwuFmS0V" role="3clF46">
@@ -423,11 +420,11 @@
       </node>
       <node concept="37vLTG" id="6VkSF6cl5eO" role="3clF46">
         <property role="TrG5h" value="idMapper" />
-        <node concept="3uibUv" id="6VkSF6cl5eP" role="1tU5fm">
-          <ref role="3uigEE" to="faaz:6VkSF6biMee" resolve="ISLanguageIdMapper" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8Vrv4Q" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6B3iz_" role="1tU5fm">
+          <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
         </node>
       </node>
       <node concept="37vLTG" id="5AGBwuFmOV2" role="3clF46">
@@ -580,8 +577,8 @@
       <property role="TrG5h" value="idMapper" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="6VkSF6cgpcR" role="1B3o_S" />
-      <node concept="3uibUv" id="6VkSF6cgpcT" role="1tU5fm">
-        <ref role="3uigEE" to="faaz:6VkSF6biMee" resolve="ISLanguageIdMapper" />
+      <node concept="3uibUv" id="5M3rB6B3pFL" role="1tU5fm">
+        <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
       </node>
     </node>
     <node concept="312cEg" id="5AGBwuFaSOK" role="jymVt">
@@ -915,11 +912,11 @@
       </node>
       <node concept="37vLTG" id="6VkSF6cgoHH" role="3clF46">
         <property role="TrG5h" value="idMapper" />
-        <node concept="3uibUv" id="6VkSF6cgp7v" role="1tU5fm">
-          <ref role="3uigEE" to="faaz:6VkSF6biMee" resolve="ISLanguageIdMapper" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8VhhdV" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6B3Dea" role="1tU5fm">
+          <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
         </node>
       </node>
       <node concept="37vLTG" id="5AGBwuFaS4W" role="3clF46">
@@ -2180,7 +2177,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6cgYiv" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
                   <node concept="37vLTw" id="6VkSF6ch2xv" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
                   </node>
@@ -2201,7 +2198,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBcldt8" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
                   <node concept="37vLTw" id="5wsogBcldt9" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
                   </node>
@@ -2471,7 +2468,7 @@
                 <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="6VkSF6chhqA" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aR3TD" resolve="mapClassifier" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
                 <node concept="37vLTw" id="6VkSF6chkJO" role="37wK5m">
                   <ref role="3cqZAo" node="48csSBNReFP" resolve="mps" />
                 </node>
@@ -2572,7 +2569,7 @@
                       <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                     </node>
                     <node concept="liA8E" id="6VkSF6chFHM" role="2OqNvi">
-                      <ref role="37wK5l" to="teza:6VkSF6aR3TD" resolve="mapClassifier" />
+                      <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
                       <node concept="37vLTw" id="6VkSF6chMrC" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBP37BP" resolve="owner" />
                       </node>
@@ -2715,7 +2712,7 @@
                       <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                     </node>
                     <node concept="liA8E" id="6VkSF6ci3xy" role="2OqNvi">
-                      <ref role="37wK5l" to="teza:6VkSF6aR3TD" resolve="mapClassifier" />
+                      <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
                       <node concept="37vLTw" id="6VkSF6ci3xz" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBP4UHu" resolve="owner" />
                       </node>
@@ -2819,7 +2816,7 @@
                       <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                     </node>
                     <node concept="liA8E" id="6VkSF6ci6Hm" role="2OqNvi">
-                      <ref role="37wK5l" to="teza:6VkSF6aR3TD" resolve="mapClassifier" />
+                      <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
                       <node concept="37vLTw" id="6VkSF6ci6Hn" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBP55JG" resolve="owner" />
                       </node>
@@ -3204,7 +3201,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6cinxe" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxt" resolve="mapConcept" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5nK" resolve="mapConcept" />
                   <node concept="37vLTw" id="6VkSF6cirKl" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReHT" resolve="mps" />
                   </node>
@@ -3225,7 +3222,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBclnVM" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxt" resolve="mapConcept" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5nK" resolve="mapConcept" />
                   <node concept="37vLTw" id="5wsogBclnVN" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReHT" resolve="mps" />
                   </node>
@@ -3580,7 +3577,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6ciHB5" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxz" resolve="mapIface" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5oJ" resolve="mapIface" />
                   <node concept="37vLTw" id="6VkSF6ciKPQ" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReK4" resolve="mps" />
                   </node>
@@ -3601,7 +3598,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBclNsq" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxz" resolve="mapIface" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5oJ" resolve="mapIface" />
                   <node concept="37vLTw" id="5wsogBclNsr" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReK4" resolve="mps" />
                   </node>
@@ -3832,7 +3829,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6cj1kP" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5pI" resolve="mapProperty" />
                   <node concept="37vLTw" id="6VkSF6cj5$D" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
                   </node>
@@ -3853,7 +3850,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBclUqK" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5pI" resolve="mapProperty" />
                   <node concept="37vLTw" id="5wsogBclUqL" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
                   </node>
@@ -4261,7 +4258,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6cjowp" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5rG" resolve="mapContainment" />
                   <node concept="37vLTw" id="6VkSF6cjt7w" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReNN" resolve="mps" />
                   </node>
@@ -4282,7 +4279,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBcm3wg" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5rG" resolve="mapContainment" />
                   <node concept="37vLTw" id="5wsogBcm3wh" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReNN" resolve="mps" />
                   </node>
@@ -4388,7 +4385,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5AGBwuFisVP" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5rG" resolve="mapContainment" />
                   <node concept="37vLTw" id="5AGBwuFisVQ" role="37wK5m">
                     <ref role="3cqZAo" node="5AGBwuFhCuj" resolve="mps" />
                   </node>
@@ -4409,7 +4406,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5AGBwuFisVX" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5rG" resolve="mapContainment" />
                   <node concept="37vLTw" id="5AGBwuFisVY" role="37wK5m">
                     <ref role="3cqZAo" node="5AGBwuFhCuj" resolve="mps" />
                   </node>
@@ -4538,7 +4535,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6cjFX1" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5sF" resolve="mapReference" />
                   <node concept="37vLTw" id="6VkSF6cjLi7" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReOn" resolve="mps" />
                   </node>
@@ -4559,7 +4556,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBcmbZH" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5sF" resolve="mapReference" />
                   <node concept="37vLTw" id="5wsogBcmbZI" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReOn" resolve="mps" />
                   </node>
@@ -4697,7 +4694,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6ck2fn" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5vC" resolve="mapEnum" />
                   <node concept="37vLTw" id="6VkSF6ck51a" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
                   </node>
@@ -4718,7 +4715,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="5wsogBcmjnS" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5vC" resolve="mapEnum" />
                   <node concept="37vLTw" id="5wsogBcmjnT" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
                   </node>
@@ -4876,7 +4873,7 @@
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                 </node>
                 <node concept="liA8E" id="6VkSF6cklHP" role="2OqNvi">
-                  <ref role="37wK5l" to="teza:6VkSF6aIYy7" resolve="mapEnumLiteral" />
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5wB" resolve="mapEnumLiteral" />
                   <node concept="37vLTw" id="6VkSF6ckqQL" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNRePv" resolve="mps" />
                   </node>
@@ -4984,7 +4981,7 @@
                       <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                     </node>
                     <node concept="liA8E" id="6VkSF6ckFre" role="2OqNvi">
-                      <ref role="37wK5l" to="teza:6VkSF6aIYxV" resolve="mapPrimitive" />
+                      <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
                       <node concept="37vLTw" id="6VkSF6ckKOe" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBNRePQ" resolve="mps" />
                       </node>
@@ -5005,7 +5002,7 @@
                       <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
                     </node>
                     <node concept="liA8E" id="5wsogBcm_TT" role="2OqNvi">
-                      <ref role="37wK5l" to="teza:6VkSF6aIYxV" resolve="mapPrimitive" />
+                      <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
                       <node concept="37vLTw" id="5wsogBcm_TU" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBNRePQ" resolve="mps" />
                       </node>
@@ -5316,7 +5313,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="2fx6VTRFqwj" role="1B3o_S" />
       <node concept="3uibUv" id="2fx6VTRFqwk" role="1tU5fm">
-        <ref role="3uigEE" to="j5yh:6VkSF6clvpt" resolve="IJsonLanguageIdMapper" />
+        <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
       </node>
     </node>
     <node concept="2tJIrI" id="2fx6VTRFqwl" role="jymVt" />
@@ -5475,8 +5472,8 @@
             <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
           </node>
           <node concept="2ShNRf" id="39$JcGELgyX" role="37wK5m">
-            <node concept="HV5vD" id="39$JcGELilF" role="2ShVmc">
-              <ref role="HV5vE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+            <node concept="1pGfFk" id="5M3rB6AB6Db" role="2ShVmc">
+              <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
             </node>
           </node>
         </node>
@@ -5640,7 +5637,7 @@
       <node concept="37vLTG" id="2fx6VTRFqy2" role="3clF46">
         <property role="TrG5h" value="idMapper" />
         <node concept="3uibUv" id="2fx6VTRFqy3" role="1tU5fm">
-          <ref role="3uigEE" to="j5yh:6VkSF6clvpt" resolve="IJsonLanguageIdMapper" />
+          <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VrJMN" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -6509,7 +6506,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTRQ$7Z" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxn" resolve="mapLanguage" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
                 <node concept="37vLTw" id="2fx6VTRQ$80" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqDO" resolve="json" />
                 </node>
@@ -7102,7 +7099,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTS6guD" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxt" resolve="mapConcept" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5nK" resolve="mapConcept" />
                 <node concept="37vLTw" id="2fx6VTS6guE" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqK9" resolve="json" />
                 </node>
@@ -7209,7 +7206,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTS9l5g" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxz" resolve="mapIface" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5oJ" resolve="mapIface" />
                 <node concept="37vLTw" id="2fx6VTS9l5h" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqMm" resolve="json" />
                 </node>
@@ -7317,7 +7314,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTSa3nZ" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxD" resolve="mapProperty" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5pI" resolve="mapProperty" />
                 <node concept="37vLTw" id="2fx6VTSa3o0" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqNZ" resolve="json" />
                 </node>
@@ -7424,7 +7421,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTSaQk6" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxJ" resolve="mapContainment" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5rG" resolve="mapContainment" />
                 <node concept="37vLTw" id="2fx6VTSaQk7" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqQh" resolve="json" />
                 </node>
@@ -7531,7 +7528,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTSbk5l" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxP" resolve="mapReference" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5sF" resolve="mapReference" />
                 <node concept="37vLTw" id="2fx6VTSbk5m" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqRb" resolve="json" />
                 </node>
@@ -7638,7 +7635,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTScnfW" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYy1" resolve="mapEnum" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5vC" resolve="mapEnum" />
                 <node concept="37vLTw" id="2fx6VTScnfX" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqSl" resolve="json" />
                 </node>
@@ -7793,7 +7790,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTSf9yW" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYy7" resolve="mapEnumLiteral" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5wB" resolve="mapEnumLiteral" />
                 <node concept="37vLTw" id="2fx6VTSf9yX" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqT3" resolve="json" />
                 </node>
@@ -8013,7 +8010,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqwi" resolve="idMapper" />
               </node>
               <node concept="liA8E" id="2fx6VTSi1oS" role="2OqNvi">
-                <ref role="37wK5l" to="teza:6VkSF6aIYxV" resolve="mapPrimitive" />
+                <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
                 <node concept="37vLTw" id="2fx6VTSi1oT" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTRFqUR" resolve="json" />
                 </node>

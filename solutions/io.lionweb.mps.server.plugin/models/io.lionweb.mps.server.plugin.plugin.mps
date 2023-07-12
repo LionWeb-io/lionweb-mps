@@ -898,6 +898,22 @@
                 </node>
               </node>
               <node concept="3clFbH" id="6VkSF6cxRd1" role="3cqZAp" />
+              <node concept="3cpWs8" id="5M3rB6BbVf$" role="3cqZAp">
+                <node concept="3cpWsn" id="5M3rB6BbVf_" role="3cpWs9">
+                  <property role="TrG5h" value="attributeFinder" />
+                  <node concept="3uibUv" id="5M3rB6BbV8B" role="1tU5fm">
+                    <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+                  </node>
+                  <node concept="2ShNRf" id="5M3rB6BbVfA" role="33vP2m">
+                    <node concept="1pGfFk" id="5M3rB6BbVfB" role="2ShVmc">
+                      <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+                      <node concept="37vLTw" id="5M3rB6BbVfC" role="37wK5m">
+                        <ref role="3cqZAo" node="5AGBwuFzCQT" resolve="repository" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs8" id="6VkSF6cxU6y" role="3cqZAp">
                 <node concept="3cpWsn" id="6VkSF6cxU6z" role="3cpWs9">
                   <property role="TrG5h" value="converter" />
@@ -907,22 +923,17 @@
                   <node concept="2ShNRf" id="6VkSF6cxU6$" role="33vP2m">
                     <node concept="1pGfFk" id="6VkSF6cxU6_" role="2ShVmc">
                       <ref role="37wK5l" to="lai5:6VkSF6aF169" resolve="ClosureMps2LionWebConverter" />
-                      <node concept="2ShNRf" id="5AGBwuFzDCD" role="37wK5m">
-                        <node concept="1pGfFk" id="5AGBwuFzIgF" role="2ShVmc">
-                          <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
-                          <node concept="37vLTw" id="5AGBwuFzIwS" role="37wK5m">
-                            <ref role="3cqZAo" node="5AGBwuFzCQT" resolve="repository" />
-                          </node>
-                        </node>
+                      <node concept="37vLTw" id="5M3rB6BbVfD" role="37wK5m">
+                        <ref role="3cqZAo" node="5M3rB6BbVf_" resolve="attributeFinder" />
                       </node>
                       <node concept="2ShNRf" id="6VkSF6cxU6A" role="37wK5m">
                         <node concept="1pGfFk" id="6VkSF6cxU6B" role="2ShVmc">
                           <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
+                          <node concept="37vLTw" id="5M3rB6BbWlt" role="37wK5m">
+                            <ref role="3cqZAo" node="5M3rB6BbVf_" resolve="attributeFinder" />
+                          </node>
                           <node concept="37vLTw" id="6VkSF6cxU6C" role="37wK5m">
                             <ref role="3cqZAo" node="6VkSF6cxRfg" resolve="constants" />
-                          </node>
-                          <node concept="37vLTw" id="5AGBwuFzCQY" role="37wK5m">
-                            <ref role="3cqZAo" node="5AGBwuFzCQT" resolve="repository" />
                           </node>
                         </node>
                       </node>
@@ -1101,11 +1112,16 @@
                       <node concept="2ShNRf" id="5s4Z0e0syGI" role="37wK5m">
                         <node concept="1pGfFk" id="5s4Z0e0syGJ" role="2ShVmc">
                           <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
+                          <node concept="2ShNRf" id="5M3rB6BbPL7" role="37wK5m">
+                            <node concept="1pGfFk" id="5M3rB6BbUb1" role="2ShVmc">
+                              <ref role="37wK5l" to="apzt:pPZz6cPzhB" resolve="LionWebAttributeFinder" />
+                              <node concept="37vLTw" id="5M3rB6BbUG8" role="37wK5m">
+                                <ref role="3cqZAo" node="5AGBwuFmVsY" resolve="repository" />
+                              </node>
+                            </node>
+                          </node>
                           <node concept="37vLTw" id="5s4Z0e0syGK" role="37wK5m">
                             <ref role="3cqZAo" node="5s4Z0e0syG$" resolve="constants" />
-                          </node>
-                          <node concept="37vLTw" id="5AGBwuFmVt2" role="37wK5m">
-                            <ref role="3cqZAo" node="5AGBwuFmVsY" resolve="repository" />
                           </node>
                         </node>
                       </node>

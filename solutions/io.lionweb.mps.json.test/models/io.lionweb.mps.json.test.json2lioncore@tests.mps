@@ -510,8 +510,8 @@
                       <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ctE01" role="37wK5m">
-                      <node concept="HV5vD" id="6VkSF6ctE03" role="2ShVmc">
-                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
+                      <node concept="1pGfFk" id="5M3rB6BcCP0" role="2ShVmc">
+                        <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs$aUV" role="37wK5m">
@@ -788,8 +788,8 @@
                       <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ct_Co" role="37wK5m">
-                      <node concept="HV5vD" id="6VkSF6ctDvO" role="2ShVmc">
-                        <ref role="HV5vE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
+                      <node concept="1pGfFk" id="5M3rB6BcCja" role="2ShVmc">
+                        <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="5sACIIs_h1b" role="37wK5m">
