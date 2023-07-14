@@ -1,6 +1,6 @@
 {
   "serializationFormatVersion": "1",
-  "metamodels": [
+  "languages": [
     {
       "version": "0",
       "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
@@ -10,14 +10,14 @@
     {
       "id": "{id-lib}",
       "concept": {
-        "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
       },
       "properties": [
         {
           "property": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw"
           },
@@ -27,7 +27,7 @@
       "children": [
         {
           "containment": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvLTYzOTI0NjgyNTk0NDA3MjQ1MzE"
           },
@@ -42,14 +42,14 @@
     {
       "id": "{id-explorer-book}",
       "concept": {
-        "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
       },
       "properties": [
         {
           "property": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy02NDc2MDE3NTAyOTM2MDY4MTk5"
           },
@@ -57,7 +57,7 @@
         },
         {
           "property": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy00Mzg2MTUwNjczNDI5OTQ5NTUy"
           },
@@ -68,7 +68,7 @@
       "references": [
         {
           "reference": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ"
           },
@@ -85,14 +85,14 @@
     {
       "id": "{id-jack-london}",
       "concept": {
-        "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
       },
       "properties": [
         {
           "property": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYzLzY0Njg3ODM4NDUzODY0MzUxNjY"
           },
@@ -100,7 +100,7 @@
         },
         {
           "property": {
-            "metamodel": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTcvLTQ0MDQ1Mzk3MTU3MTg0MzkyNjM"
           },

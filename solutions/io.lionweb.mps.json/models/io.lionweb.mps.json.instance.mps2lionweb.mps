@@ -346,13 +346,13 @@
       <node concept="3Tm6S6" id="5glO5qKXp8R" role="1B3o_S" />
       <node concept="2hMVRd" id="5glO5qKXqHj" role="1tU5fm">
         <node concept="3uibUv" id="5glO5qKYeV7" role="2hN53Y">
-          <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+          <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
         </node>
       </node>
       <node concept="2ShNRf" id="5glO5qKXsw5" role="33vP2m">
         <node concept="32HrFt" id="5glO5qKXsvM" role="2ShVmc">
           <node concept="3uibUv" id="5glO5qKYgDW" role="HW$YZ">
-            <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+            <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
           </node>
         </node>
       </node>
@@ -474,7 +474,7 @@
       <property role="TrG5h" value="getLanguages" />
       <node concept="2hMVRd" id="5glO5qKYIka" role="3clF45">
         <node concept="3uibUv" id="5glO5qKYIkb" role="2hN53Y">
-          <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+          <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5glO5qKYIkc" role="1B3o_S" />
@@ -2054,13 +2054,13 @@
             <node concept="TSZUe" id="5glO5qKXKfa" role="2OqNvi">
               <node concept="2ShNRf" id="5glO5qKYvt$" role="25WWJ7">
                 <node concept="1pGfFk" id="5glO5qKYx7O" role="2ShVmc">
-                  <ref role="37wK5l" to="xfsv:~MetamodelKeyVersion.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="MetamodelKeyVersion" />
+                  <ref role="37wK5l" to="xfsv:~LanguageKeyVersion.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="LanguageKeyVersion" />
                   <node concept="2OqwBi" id="5glO5qKY_Bg" role="37wK5m">
                     <node concept="37vLTw" id="5glO5qKY$8K" role="2Oq$k0">
                       <ref role="3cqZAo" node="5glO5qKXKfi" resolve="metaPointer" />
                     </node>
                     <node concept="liA8E" id="5glO5qKYASL" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~MetaPointer.getMetamodel()" resolve="getMetamodel" />
+                      <ref role="37wK5l" to="xfsv:~MetaPointer.getLanguage()" resolve="getLanguage" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="5glO5qKYFpC" role="37wK5m">

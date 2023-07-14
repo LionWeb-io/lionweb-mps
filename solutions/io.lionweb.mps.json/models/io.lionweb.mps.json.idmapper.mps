@@ -7,10 +7,10 @@
   </languages>
   <imports>
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
-    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
   <registry>
@@ -216,7 +216,7 @@
                       <node concept="37vLTG" id="5M3rB6AwG$E" role="3clF46">
                         <property role="TrG5h" value="literal" />
                         <node concept="3uibUv" id="5M3rB6AwG$F" role="1tU5fm">
-                          <ref role="3uigEE" to="loul:~EnumerationLiteral" resolve="EnumerationLiteral" />
+                          <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
                         </node>
                       </node>
                       <node concept="3Tm1VV" id="5M3rB6AwG$G" role="1B3o_S" />
@@ -231,7 +231,7 @@
                               <ref role="3cqZAo" node="5M3rB6AwG$E" resolve="literal" />
                             </node>
                             <node concept="liA8E" id="5M3rB6AwOsB" role="2OqNvi">
-                              <ref role="37wK5l" to="loul:~EnumerationLiteral.getName()" resolve="getName" />
+                              <ref role="37wK5l" to="imb3:~EnumerationLiteral.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>
@@ -256,40 +256,40 @@
     <node concept="3uibUv" id="5M3rB6A0N8y" role="EKbjA">
       <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
       <node concept="3uibUv" id="5M3rB6A0N8z" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8$" role="11_B2D">
-        <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8_" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
+        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8A" role="11_B2D">
-        <ref role="3uigEE" to="loul:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8B" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Property" resolve="Property" />
+        <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8C" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Link" resolve="Link" />
+        <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8D" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
+        <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8E" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
+        <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8F" role="11_B2D">
-        <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+        <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8G" role="11_B2D">
-        <ref role="3uigEE" to="loul:~PrimitiveType" resolve="PrimitiveType" />
+        <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8H" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Enumeration" resolve="Enumeration" />
+        <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8I" role="11_B2D">
-        <ref role="3uigEE" to="loul:~EnumerationLiteral" resolve="EnumerationLiteral" />
+        <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
       </node>
     </node>
     <node concept="3clFb_" id="5M3rB6A0Hk5" role="jymVt">
@@ -297,7 +297,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hk6" role="3clF46">
         <property role="TrG5h" value="language" />
         <node concept="3uibUv" id="5M3rB6A0Hk7" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0Hk8" role="1B3o_S" />
@@ -309,7 +309,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hk6" resolve="language" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hke" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~Metamodel.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -326,7 +326,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hkk" role="3clF46">
         <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="5M3rB6A0Hkl" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
         </node>
       </node>
       <node concept="3clFbS" id="5M3rB6A0Hkm" role="3clF47">
@@ -336,7 +336,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hkk" resolve="classifier" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hkq" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -351,7 +351,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hku" role="3clF46">
         <property role="TrG5h" value="concept" />
         <node concept="3uibUv" id="5M3rB6A0Hkv" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
+          <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0Hkw" role="1B3o_S" />
@@ -363,7 +363,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hku" resolve="concept" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HkA" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -378,7 +378,7 @@
       <node concept="37vLTG" id="5M3rB6A0HkE" role="3clF46">
         <property role="TrG5h" value="iface" />
         <node concept="3uibUv" id="5M3rB6A0HkF" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~ConceptInterface" resolve="ConceptInterface" />
+          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0HkG" role="1B3o_S" />
@@ -390,7 +390,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HkE" resolve="iface" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HkM" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -405,7 +405,7 @@
       <node concept="37vLTG" id="5M3rB6A0HkQ" role="3clF46">
         <property role="TrG5h" value="property" />
         <node concept="3uibUv" id="5M3rB6A0HkR" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Property" resolve="Property" />
+          <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0HkS" role="1B3o_S" />
@@ -417,7 +417,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HkQ" resolve="property" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HkY" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~Feature.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -434,7 +434,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hl4" role="3clF46">
         <property role="TrG5h" value="link" />
         <node concept="3uibUv" id="5M3rB6A0Hl5" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Link" resolve="Link" />
+          <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
         </node>
       </node>
       <node concept="3clFbS" id="5M3rB6A0Hl6" role="3clF47">
@@ -444,7 +444,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hl4" resolve="link" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hla" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~Feature.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -459,7 +459,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hle" role="3clF46">
         <property role="TrG5h" value="containment" />
         <node concept="3uibUv" id="5M3rB6A0Hlf" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
+          <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0Hlg" role="1B3o_S" />
@@ -471,7 +471,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hle" resolve="containment" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hlm" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~Feature.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -486,7 +486,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hlq" role="3clF46">
         <property role="TrG5h" value="reference" />
         <node concept="3uibUv" id="5M3rB6A0Hlr" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
+          <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0Hls" role="1B3o_S" />
@@ -498,7 +498,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hlq" resolve="reference" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hly" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~Feature.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -513,7 +513,7 @@
       <node concept="37vLTG" id="5M3rB6A0HlA" role="3clF46">
         <property role="TrG5h" value="datatype" />
         <node concept="3uibUv" id="5M3rB6A0HlB" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+          <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0HlC" role="1B3o_S" />
@@ -525,7 +525,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HlA" resolve="datatype" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HlI" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -540,7 +540,7 @@
       <node concept="37vLTG" id="5M3rB6A0HlM" role="3clF46">
         <property role="TrG5h" value="primitive" />
         <node concept="3uibUv" id="5M3rB6A0HlN" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~PrimitiveType" resolve="PrimitiveType" />
+          <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0HlO" role="1B3o_S" />
@@ -552,7 +552,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HlM" resolve="primitive" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HlU" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -567,7 +567,7 @@
       <node concept="37vLTG" id="5M3rB6A0HlY" role="3clF46">
         <property role="TrG5h" value="enm" />
         <node concept="3uibUv" id="5M3rB6A0HlZ" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Enumeration" resolve="Enumeration" />
+          <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0Hm0" role="1B3o_S" />
@@ -579,7 +579,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HlY" resolve="enm" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hm6" role="2OqNvi">
-              <ref role="37wK5l" to="loul:~MetamodelElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -594,7 +594,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hma" role="3clF46">
         <property role="TrG5h" value="literal" />
         <node concept="3uibUv" id="5M3rB6A0Hmb" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~EnumerationLiteral" resolve="EnumerationLiteral" />
+          <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0Hmc" role="1B3o_S" />
@@ -624,78 +624,78 @@
     <node concept="3uibUv" id="5M3rB6AAAOr" role="1zkMxy">
       <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
       <node concept="3uibUv" id="5M3rB6AAAR6" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAAR7" role="11_B2D">
-        <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAAR8" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
+        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAAR9" role="11_B2D">
-        <ref role="3uigEE" to="loul:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARa" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Property" resolve="Property" />
+        <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARb" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Link" resolve="Link" />
+        <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARc" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
+        <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARd" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
+        <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARe" role="11_B2D">
-        <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+        <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARf" role="11_B2D">
-        <ref role="3uigEE" to="loul:~PrimitiveType" resolve="PrimitiveType" />
+        <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARg" role="11_B2D">
-        <ref role="3uigEE" to="loul:~Enumeration" resolve="Enumeration" />
+        <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAARh" role="11_B2D">
-        <ref role="3uigEE" to="loul:~EnumerationLiteral" resolve="EnumerationLiteral" />
+        <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAASI" role="11_B2D">
         <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
         <node concept="3uibUv" id="5M3rB6AAAUc" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUd" role="11_B2D">
-          <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUe" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
+          <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUf" role="11_B2D">
-          <ref role="3uigEE" to="loul:~ConceptInterface" resolve="ConceptInterface" />
+          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUg" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Property" resolve="Property" />
+          <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUh" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Link" resolve="Link" />
+          <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUi" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
+          <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUj" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
+          <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUk" role="11_B2D">
-          <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+          <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUl" role="11_B2D">
-          <ref role="3uigEE" to="loul:~PrimitiveType" resolve="PrimitiveType" />
+          <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUm" role="11_B2D">
-          <ref role="3uigEE" to="loul:~Enumeration" resolve="Enumeration" />
+          <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUn" role="11_B2D">
-          <ref role="3uigEE" to="loul:~EnumerationLiteral" resolve="EnumerationLiteral" />
+          <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
         </node>
       </node>
     </node>
@@ -708,40 +708,40 @@
           <node concept="3uibUv" id="5M3rB6AADYc" role="8Xvag">
             <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
             <node concept="3uibUv" id="5M3rB6AADYd" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYe" role="11_B2D">
-              <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+              <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYf" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
+              <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYg" role="11_B2D">
-              <ref role="3uigEE" to="loul:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYh" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Property" resolve="Property" />
+              <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYi" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Link" resolve="Link" />
+              <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYj" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
+              <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYk" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
+              <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYl" role="11_B2D">
-              <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+              <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYm" role="11_B2D">
-              <ref role="3uigEE" to="loul:~PrimitiveType" resolve="PrimitiveType" />
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYn" role="11_B2D">
-              <ref role="3uigEE" to="loul:~Enumeration" resolve="Enumeration" />
+              <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYo" role="11_B2D">
-              <ref role="3uigEE" to="loul:~EnumerationLiteral" resolve="EnumerationLiteral" />
+              <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
             </node>
           </node>
         </node>

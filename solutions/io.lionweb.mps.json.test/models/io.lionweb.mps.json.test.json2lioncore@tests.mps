@@ -19,11 +19,10 @@
     <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
-    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
   </imports>
   <registry>
@@ -146,12 +145,15 @@
       <concept id="2656571587264858085" name="io.lionweb.mps.m3.structure.Feature" flags="ng" index="2RzOSH">
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
-      <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY" />
+      <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY">
+        <child id="2656571587264865653" name="extends" index="2RzQMX" />
+      </concept>
       <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
         <child id="2656571587264861371" name="features" index="2RzPPN" />
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
         <property id="2656571587264862414" name="abstract" index="2RzP46" />
+        <property id="6461713321117308474" name="partition" index="3KdWwX" />
         <reference id="2656571587264862780" name="extends" index="2RzPfO" />
         <child id="2656571587264866539" name="implements" index="2RzQ4z" />
       </concept>
@@ -178,7 +180,6 @@
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
       </concept>
-      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
@@ -200,11 +201,6 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="1237467461002" name="jetbrains.mps.baseLanguage.collections.structure.GetIteratorOperation" flags="nn" index="uNJiE" />
-      <concept id="1237467705688" name="jetbrains.mps.baseLanguage.collections.structure.IteratorType" flags="in" index="uOF1S">
-        <child id="1237467730343" name="elementType" index="uOL27" />
-      </concept>
-      <concept id="1237471031357" name="jetbrains.mps.baseLanguage.collections.structure.GetNextOperation" flags="nn" index="v1n4t" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -273,10 +269,10 @@
             </node>
             <node concept="3cpWs8" id="2A0cGJdREpA" role="3cqZAp">
               <node concept="3cpWsn" id="2A0cGJdREpB" role="3cpWs9">
-                <property role="TrG5h" value="metamodels" />
+                <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="2A0cGJdREog" role="1tU5fm">
                   <node concept="3uibUv" id="2A0cGJdREoj" role="_ZDj9">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="2A0cGJdREpC" role="33vP2m">
@@ -295,7 +291,7 @@
               </node>
               <node concept="2OqwBi" id="2A0cGJdRGmz" role="3tpDZA">
                 <node concept="37vLTw" id="2A0cGJdRGhV" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2A0cGJdREpB" resolve="metamodels" />
+                  <ref role="3cqZAo" node="2A0cGJdREpB" resolve="languages" />
                 </node>
                 <node concept="34oBXx" id="2A0cGJdRHQ5" role="2OqNvi" />
               </node>
@@ -307,12 +303,12 @@
               <node concept="2OqwBi" id="5sACIIsz_Tc" role="3tpDZA">
                 <node concept="2OqwBi" id="5sACIIsz$GA" role="2Oq$k0">
                   <node concept="37vLTw" id="5sACIIsz$mb" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2A0cGJdREpB" resolve="metamodels" />
+                    <ref role="3cqZAo" node="2A0cGJdREpB" resolve="languages" />
                   </node>
                   <node concept="1uHKPH" id="5sACIIsz_xi" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="5sACIIszA_q" role="2OqNvi">
-                  <ref role="37wK5l" to="loul:~Metamodel.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="imb3:~Language.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -362,8 +358,8 @@
                   <node concept="1pGfFk" id="39$JcGEIub4" role="2ShVmc">
                     <ref role="37wK5l" to="5els:2fx6VTRFqxi" resolve="Json2LanguageConverter" />
                     <node concept="2YIFZM" id="39$JcGEIvG7" role="37wK5m">
-                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="37vLTw" id="4n8SsXjtzMJ" role="37wK5m">
                       <ref role="3cqZAo" node="4n8SsXjtzMD" resolve="constants" />
@@ -381,7 +377,7 @@
                 <property role="TrG5h" value="converted" />
                 <node concept="3rvAFt" id="39$JcGELiVr" role="1tU5fm">
                   <node concept="3uibUv" id="39$JcGELiVx" role="3rvQeY">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                   <node concept="3uibUv" id="39$JcGELiVw" role="3rvSg0">
                     <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
@@ -394,7 +390,7 @@
                   <node concept="liA8E" id="39$JcGELlAu" role="2OqNvi">
                     <ref role="37wK5l" to="5els:2fx6VTRFqyl" resolve="convert" />
                     <node concept="37vLTw" id="39$JcGELlAv" role="37wK5m">
-                      <ref role="3cqZAo" node="2A0cGJdREpB" resolve="metamodels" />
+                      <ref role="3cqZAo" node="2A0cGJdREpB" resolve="languages" />
                     </node>
                   </node>
                 </node>
@@ -520,7 +516,7 @@
                 <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5sACIIszZVL" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIszZVM" role="_ZDj9">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5sACIIszZVN" role="33vP2m">
@@ -566,8 +562,8 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="5sACIIs$aUU" role="37wK5m">
-                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ctE01" role="37wK5m">
                       <node concept="1pGfFk" id="5M3rB6BcCP0" role="2ShVmc">
@@ -813,7 +809,7 @@
                 <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5sACIIs_h0R" role="1tU5fm">
                   <node concept="3uibUv" id="5sACIIs_h0S" role="_ZDj9">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5sACIIs_h0T" role="33vP2m">
@@ -859,8 +855,8 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="5sACIIs_h1a" role="37wK5m">
-                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="2ShNRf" id="6VkSF6ct_Co" role="37wK5m">
                       <node concept="1pGfFk" id="5M3rB6BcCja" role="2ShVmc">
@@ -902,63 +898,6 @@
                   <ref role="3cqZAo" node="5sACIIs_h1d" resolve="converted" />
                 </node>
                 <node concept="34oBXx" id="5sACIIs_h1o" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="3cpWs8" id="4TKJARV3jlt" role="3cqZAp">
-              <node concept="3cpWsn" id="4TKJARV3jlu" role="3cpWs9">
-                <property role="TrG5h" value="convertedIter" />
-                <node concept="uOF1S" id="4TKJARV3j7q" role="1tU5fm">
-                  <node concept="3Tqbb2" id="4TKJARV3j7t" role="uOL27">
-                    <ref role="ehGHo" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="4TKJARV3jlv" role="33vP2m">
-                  <node concept="2OqwBi" id="4TKJARV3jlw" role="2Oq$k0">
-                    <node concept="2OqwBi" id="4TKJARV3jlx" role="2Oq$k0">
-                      <node concept="37vLTw" id="4TKJARV3jly" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5sACIIs_h1d" resolve="converted" />
-                      </node>
-                      <node concept="1uHKPH" id="4TKJARV3jlz" role="2OqNvi" />
-                    </node>
-                    <node concept="2Rf3mk" id="4TKJARV3jl$" role="2OqNvi" />
-                  </node>
-                  <node concept="uNJiE" id="4TKJARV3jl_" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="4TKJARV3n7H" role="3cqZAp">
-              <node concept="3cpWsn" id="4TKJARV3n7I" role="3cpWs9">
-                <property role="TrG5h" value="expectedIter" />
-                <node concept="uOF1S" id="4TKJARV3n0D" role="1tU5fm">
-                  <node concept="3Tqbb2" id="4TKJARV3n0G" role="uOL27">
-                    <ref role="ehGHo" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="4TKJARV3n7J" role="33vP2m">
-                  <node concept="2OqwBi" id="4TKJARV3n7K" role="2Oq$k0">
-                    <node concept="3xONca" id="4TKJARV3n7L" role="2Oq$k0">
-                      <ref role="3xOPvv" node="5sACIIs_is2" resolve="expected" />
-                    </node>
-                    <node concept="2Rf3mk" id="4TKJARV3n7M" role="2OqNvi" />
-                  </node>
-                  <node concept="uNJiE" id="4TKJARV3n7N" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="4TKJARV3zxV" role="3cqZAp">
-              <node concept="2OqwBi" id="4TKJARV3zYE" role="3clFbG">
-                <node concept="37vLTw" id="4TKJARV3zxT" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4TKJARV3jlu" resolve="convertedIter" />
-                </node>
-                <node concept="v1n4t" id="4TKJARV3$v$" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="4TKJARV3_0F" role="3cqZAp">
-              <node concept="2OqwBi" id="4TKJARV3_ja" role="3clFbG">
-                <node concept="37vLTw" id="4TKJARV3_0D" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4TKJARV3n7I" resolve="expectedIter" />
-                </node>
-                <node concept="v1n4t" id="4TKJARV3_Dw" role="2OqNvi" />
               </node>
             </node>
             <node concept="JA50E" id="5sACIIs_h1q" role="3cqZAp">
@@ -1017,27 +956,45 @@
       <node concept="2RzRRF" id="5sACIIs$PgG" role="1qenE9">
         <property role="TrG5h" value="LIonCore.M3" />
         <property role="3HH78N" value="1" />
-        <property role="2RzON1" value="LIonCore_M3" />
+        <property role="2RzON1" value="LIonCore-M3" />
+        <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="Classifier" />
+          <property role="TrG5h" value="Classifier" />
+          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="LanguageEntity" />
+          <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
+            <property role="2RzON1" value="Classifier-features" />
+            <property role="TrG5h" value="features" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
+          </node>
+        </node>
         <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="2RzON1" value="Concept" />
           <property role="TrG5h" value="Concept" />
-          <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
+          <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
           <node concept="2RzOeU" id="5sACIIs$PgV" role="2RzPPN">
-            <property role="2RzON1" value="abstract" />
+            <property role="2RzON1" value="Concept-abstract" />
             <property role="TrG5h" value="abstract" />
             <property role="2RzO1C" value="false" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
+          <node concept="2RzOeU" id="7m$Awvumb$m" role="2RzPPN">
+            <property role="2RzON1" value="Concept-partition" />
+            <property role="TrG5h" value="partition" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
           <node concept="2RzOpR" id="5sACIIs$PgW" role="2RzPPN">
-            <property role="2RzON1" value="Concept_extends" />
+            <property role="2RzON1" value="Concept-extends" />
             <property role="TrG5h" value="extends" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="false" />
             <ref role="2RzQvY" node="5sACIIs$PgU" resolve="Concept" />
           </node>
           <node concept="2RzOpR" id="5sACIIs$PgX" role="2RzPPN">
-            <property role="2RzON1" value="implements" />
+            <property role="2RzON1" value="Concept-implements" />
             <property role="TrG5h" value="implements" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
@@ -1048,9 +1005,9 @@
           <property role="2RzP46" value="false" />
           <property role="2RzON1" value="ConceptInterface" />
           <property role="TrG5h" value="ConceptInterface" />
-          <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
+          <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
           <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
-            <property role="2RzON1" value="ConceptInterface_extends" />
+            <property role="2RzON1" value="ConceptInterface-extends" />
             <property role="TrG5h" value="extends" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
@@ -1067,7 +1024,7 @@
           <property role="2RzP46" value="true" />
           <property role="2RzON1" value="DataType" />
           <property role="TrG5h" value="DataType" />
-          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
+          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="LanguageEntity" />
         </node>
         <node concept="2RzPWn" id="5sACIIs$Phc" role="2RzR6B">
           <property role="2RzP46" value="false" />
@@ -1075,69 +1032,81 @@
           <property role="TrG5h" value="Enumeration" />
           <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
           <node concept="2RzOte" id="5sACIIs$Phd" role="2RzPPN">
-            <property role="2RzON1" value="literals" />
+            <property role="2RzON1" value="Enumeration-literals" />
             <property role="TrG5h" value="literals" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="5sACIIs$Phe" resolve="EnumerationLiteral" />
-          </node>
-          <node concept="2RzQOr" id="5sACIIs$Phh" role="2RzQ4z">
-            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
           </node>
         </node>
         <node concept="2RzPWn" id="5sACIIs$Phe" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="2RzON1" value="EnumerationLiteral" />
           <property role="TrG5h" value="EnumerationLiteral" />
-          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
           <node concept="2RzQOr" id="19nRYgR_psZ" role="2RzQ4z">
-            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
           </node>
         </node>
         <node concept="2RzPWn" id="5sACIIs$Ph0" role="2RzR6B">
           <property role="2RzP46" value="true" />
           <property role="2RzON1" value="Feature" />
           <property role="TrG5h" value="Feature" />
-          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
           <node concept="2RzOeU" id="5sACIIs$Ph1" role="2RzPPN">
-            <property role="2RzON1" value="optional" />
+            <property role="2RzON1" value="Feature-optional" />
             <property role="TrG5h" value="optional" />
             <property role="2RzO1C" value="false" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
-          <node concept="2RzOeU" id="5sACIIs$Ph2" role="2RzPPN">
-            <property role="2RzON1" value="derived" />
-            <property role="TrG5h" value="derived" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
           <node concept="2RzQOr" id="19nRYgR_ptZ" role="2RzQ4z">
-            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="FeaturesContainer" />
-          <property role="TrG5h" value="FeaturesContainer" />
-          <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
-          <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
-            <property role="2RzON1" value="features" />
-            <property role="TrG5h" value="features" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
-          </node>
-          <node concept="2RzQOr" id="5sACIIs$Phg" role="2RzQ4z">
-            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
           </node>
         </node>
         <node concept="2RzPaY" id="19nRYgR_pax" role="2RzR6B">
-          <property role="2RzON1" value="HasKey" />
-          <property role="TrG5h" value="HasKey" />
+          <property role="2RzON1" value="IKeyed" />
+          <property role="TrG5h" value="IKeyed" />
           <node concept="2RzOeU" id="19nRYgR_pqW" role="2RzPPN">
-            <property role="2RzON1" value="key" />
+            <property role="2RzON1" value="IKeyed-key" />
             <property role="TrG5h" value="key" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzQOr" id="7m$Awvumb$t" role="2RzQMX">
+            <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="Language" />
+          <property role="TrG5h" value="Language" />
+          <property role="3KdWwX" value="true" />
+          <node concept="2RzOeU" id="19nRYgR_HTb" role="2RzPPN">
+            <property role="2RzON1" value="Language-version" />
+            <property role="TrG5h" value="version" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
+            <property role="2RzON1" value="Language-dependsOn" />
+            <property role="TrG5h" value="dependsOn" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$PgM" resolve="Language" />
+          </node>
+          <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
+            <property role="2RzON1" value="Language-entities" />
+            <property role="TrG5h" value="entities" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="LanguageEntity" />
+          </node>
+          <node concept="2RzQOr" id="19nRYgR_prW" role="2RzQ4z">
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
+          <property role="2RzP46" value="true" />
+          <property role="2RzON1" value="LanguageEntity" />
+          <property role="TrG5h" value="LanguageEntity" />
+          <node concept="2RzQOr" id="19nRYgR_prZ" role="2RzQ4z">
+            <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
           </node>
         </node>
         <node concept="2RzPWn" id="5sACIIs$Ph3" role="2RzR6B">
@@ -1146,83 +1115,18 @@
           <property role="TrG5h" value="Link" />
           <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
           <node concept="2RzOeU" id="5sACIIs$Ph4" role="2RzPPN">
-            <property role="2RzON1" value="multiple" />
+            <property role="2RzON1" value="Link-multiple" />
             <property role="TrG5h" value="multiple" />
             <property role="2RzO1C" value="false" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
           <node concept="2RzOpR" id="5sACIIs$Ph5" role="2RzPPN">
-            <property role="2RzON1" value="Link_type" />
+            <property role="2RzON1" value="Link-type" />
             <property role="TrG5h" value="type" />
             <property role="2RzO1C" value="false" />
             <property role="2RzOhW" value="false" />
-            <ref role="2RzQvY" node="5sACIIs$PgR" resolve="FeaturesContainer" />
+            <ref role="2RzQvY" node="5sACIIs$PgR" resolve="Classifier" />
           </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="Metamodel" />
-          <property role="TrG5h" value="Metamodel" />
-          <node concept="2RzOeU" id="5sACIIs$PgN" role="2RzPPN">
-            <property role="2RzON1" value="Metamodel_name" />
-            <property role="TrG5h" value="name" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-          <node concept="2RzOeU" id="19nRYgR_HTb" role="2RzPPN">
-            <property role="2RzON1" value="version" />
-            <property role="TrG5h" value="version" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-          <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
-            <property role="2RzON1" value="dependsOn" />
-            <property role="TrG5h" value="dependsOn" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$PgM" resolve="Metamodel" />
-          </node>
-          <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
-            <property role="2RzON1" value="elements" />
-            <property role="TrG5h" value="elements" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="MetamodelElement" />
-          </node>
-          <node concept="2RzQOr" id="5sACIIs$Phf" role="2RzQ4z">
-            <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
-          </node>
-          <node concept="2RzQOr" id="19nRYgR_prW" role="2RzQ4z">
-            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="MetamodelElement" />
-          <property role="TrG5h" value="MetamodelElement" />
-          <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
-          <node concept="2RzQOr" id="19nRYgR_prZ" role="2RzQ4z">
-            <ref role="2RzQOs" node="19nRYgR_pax" resolve="HasKey" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgH" role="2RzR6B">
-          <property role="2RzP46" value="true" />
-          <property role="2RzON1" value="NamespacedEntity" />
-          <property role="TrG5h" value="NamespacedEntity" />
-          <node concept="2RzOeU" id="5sACIIs$PgI" role="2RzPPN">
-            <property role="2RzON1" value="NamespacedEntity_name" />
-            <property role="TrG5h" value="name" />
-            <property role="2RzO1C" value="false" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-          <node concept="2RzOeU" id="19nRYgR_Qx5" role="2RzPPN">
-            <property role="2RzON1" value="qualifiedName" />
-            <property role="TrG5h" value="qualifiedName" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-        </node>
-        <node concept="2RzPaY" id="5sACIIs$PgK" role="2RzR6B">
-          <property role="2RzON1" value="NamespaceProvider" />
-          <property role="TrG5h" value="NamespaceProvider" />
         </node>
         <node concept="2RzPWn" id="5sACIIs$Pha" role="2RzR6B">
           <property role="2RzP46" value="false" />
@@ -1236,7 +1140,7 @@
           <property role="TrG5h" value="Property" />
           <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
           <node concept="2RzOpR" id="5sACIIs$Ph8" role="2RzPPN">
-            <property role="2RzON1" value="Property_type" />
+            <property role="2RzON1" value="Property-type" />
             <property role="TrG5h" value="type" />
             <property role="2RzO1C" value="false" />
             <property role="2RzOhW" value="false" />
@@ -1293,8 +1197,8 @@
                   </node>
                 </node>
                 <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
-                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                  <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                 </node>
                 <node concept="2ShNRf" id="6VkSF6ctGeS" role="37wK5m">
                   <node concept="1pGfFk" id="5M3rB6CnrDS" role="2ShVmc">
@@ -1320,7 +1224,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="5sACIIt1W1p" role="1tU5fm">
               <node concept="3uibUv" id="5sACIIt1W1s" role="A3Ik2">
-                <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="5sACIIt1W7h" role="33vP2m">
@@ -1351,7 +1255,7 @@
           </node>
           <node concept="2ZW3vV" id="5sACIIt20R1" role="3vwVQn">
             <node concept="3uibUv" id="5sACIIt21eC" role="2ZW6by">
-              <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
             </node>
             <node concept="2OqwBi" id="5sACIIt1ZVA" role="2ZW6bz">
               <node concept="37vLTw" id="5sACIIt1YTh" role="2Oq$k0">

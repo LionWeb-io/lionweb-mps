@@ -21,9 +21,9 @@
     <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="vxxo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.concept(MPS.Core/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
-    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
   </imports>
@@ -4089,16 +4089,16 @@
           <node concept="3cpWsn" id="9wS6VcuPcj" role="3cpWs9">
             <property role="TrG5h" value="tempConcept" />
             <node concept="3uibUv" id="9wS6VcuPck" role="1tU5fm">
-              <ref role="3uigEE" to="loul:~Concept" resolve="Concept" />
+              <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPcl" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPcm" role="2Oq$k0">
                 <node concept="1pGfFk" id="4OO9PkkATp5" role="2ShVmc">
-                  <ref role="37wK5l" to="loul:~Concept.&lt;init&gt;()" resolve="Concept" />
+                  <ref role="37wK5l" to="imb3:~Concept.&lt;init&gt;()" resolve="Concept" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPco" role="2OqNvi">
-                <ref role="37wK5l" to="loul:~MetamodelElement.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="37vLTw" id="pPZz6cSz0O" role="37wK5m">
                   <ref role="3cqZAo" node="pPZz6cSz0K" resolve="conceptKey" />
                 </node>
@@ -4435,16 +4435,16 @@
           <node concept="3cpWsn" id="9wS6VcuPdv" role="3cpWs9">
             <property role="TrG5h" value="tempProperty" />
             <node concept="3uibUv" id="9wS6VcuPdw" role="1tU5fm">
-              <ref role="3uigEE" to="loul:~Property" resolve="Property" />
+              <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPdx" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPdy" role="2Oq$k0">
                 <node concept="1pGfFk" id="4OO9PkkATp1" role="2ShVmc">
-                  <ref role="37wK5l" to="loul:~Property.&lt;init&gt;()" resolve="Property" />
+                  <ref role="37wK5l" to="imb3:~Property.&lt;init&gt;()" resolve="Property" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPd$" role="2OqNvi">
-                <ref role="37wK5l" to="loul:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPd_" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPdA" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPdn" resolve="metaPointer" />
@@ -4776,16 +4776,16 @@
           <node concept="3cpWsn" id="9wS6VcuPeC" role="3cpWs9">
             <property role="TrG5h" value="tempContainment" />
             <node concept="3uibUv" id="9wS6VcuPeD" role="1tU5fm">
-              <ref role="3uigEE" to="loul:~Containment" resolve="Containment" />
+              <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPeE" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPeF" role="2Oq$k0">
                 <node concept="1pGfFk" id="4OO9PkkATp3" role="2ShVmc">
-                  <ref role="37wK5l" to="loul:~Containment.&lt;init&gt;()" resolve="Containment" />
+                  <ref role="37wK5l" to="imb3:~Containment.&lt;init&gt;()" resolve="Containment" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPeH" role="2OqNvi">
-                <ref role="37wK5l" to="loul:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPeI" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPeJ" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPew" resolve="metaPointer" />
@@ -5117,16 +5117,16 @@
           <node concept="3cpWsn" id="9wS6VcuPfL" role="3cpWs9">
             <property role="TrG5h" value="tempReference" />
             <node concept="3uibUv" id="9wS6VcuPfM" role="1tU5fm">
-              <ref role="3uigEE" to="loul:~Reference" resolve="Reference" />
+              <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPfN" role="33vP2m">
               <node concept="2ShNRf" id="9wS6VcuPfO" role="2Oq$k0">
                 <node concept="1pGfFk" id="4OO9PkkAToX" role="2ShVmc">
-                  <ref role="37wK5l" to="loul:~Reference.&lt;init&gt;()" resolve="Reference" />
+                  <ref role="37wK5l" to="imb3:~Reference.&lt;init&gt;()" resolve="Reference" />
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPfQ" role="2OqNvi">
-                <ref role="37wK5l" to="loul:~Feature.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="2OqwBi" id="9wS6VcuPfR" role="37wK5m">
                   <node concept="37vLTw" id="9wS6VcuPfS" role="2Oq$k0">
                     <ref role="3cqZAo" node="9wS6VcuPfD" resolve="metaPointer" />
@@ -5377,7 +5377,7 @@
                 <ref role="3cqZAo" node="9wS6VcuPgK" resolve="metaPointer" />
               </node>
               <node concept="liA8E" id="pPZz6cRAZG" role="2OqNvi">
-                <ref role="37wK5l" to="xfsv:~MetaPointer.getMetamodel()" resolve="getMetamodel" />
+                <ref role="37wK5l" to="xfsv:~MetaPointer.getLanguage()" resolve="getLanguage" />
               </node>
             </node>
           </node>
@@ -5450,26 +5450,26 @@
         <node concept="3clFbH" id="1bT$FEXaBVy" role="3cqZAp" />
         <node concept="3cpWs8" id="9wS6VcuPgN" role="3cqZAp">
           <node concept="3cpWsn" id="9wS6VcuPgO" role="3cpWs9">
-            <property role="TrG5h" value="metamodel" />
+            <property role="TrG5h" value="language" />
             <node concept="3uibUv" id="9wS6VcuPgP" role="1tU5fm">
-              <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
             </node>
             <node concept="2OqwBi" id="9wS6VcuPgQ" role="33vP2m">
               <node concept="2OqwBi" id="9wS6VcuPgR" role="2Oq$k0">
                 <node concept="2ShNRf" id="9wS6VcuPgS" role="2Oq$k0">
                   <node concept="1pGfFk" id="4OO9PkkAToZ" role="2ShVmc">
-                    <ref role="37wK5l" to="loul:~Metamodel.&lt;init&gt;()" resolve="Metamodel" />
+                    <ref role="37wK5l" to="imb3:~Language.&lt;init&gt;()" resolve="Language" />
                   </node>
                 </node>
                 <node concept="liA8E" id="9wS6VcuPgU" role="2OqNvi">
-                  <ref role="37wK5l" to="loul:~Metamodel.setKey(java.lang.String)" resolve="setKey" />
+                  <ref role="37wK5l" to="imb3:~Language.setKey(java.lang.String)" resolve="setKey" />
                   <node concept="37vLTw" id="pPZz6cRAZI" role="37wK5m">
                     <ref role="3cqZAo" node="pPZz6cRAZD" resolve="languageKey" />
                   </node>
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPgY" role="2OqNvi">
-                <ref role="37wK5l" to="loul:~Metamodel.setVersion(java.lang.String)" resolve="setVersion" />
+                <ref role="37wK5l" to="imb3:~Language.setVersion(java.lang.String)" resolve="setVersion" />
                 <node concept="37vLTw" id="pPZz6cRGcq" role="37wK5m">
                   <ref role="3cqZAo" node="pPZz6cRGcl" resolve="languageVersion" />
                 </node>
@@ -5488,7 +5488,7 @@
               <node concept="liA8E" id="9wS6VcuPh7" role="2OqNvi">
                 <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
                 <node concept="37vLTw" id="9wS6VcuPh8" role="37wK5m">
-                  <ref role="3cqZAo" node="9wS6VcuPgO" resolve="metamodel" />
+                  <ref role="3cqZAo" node="9wS6VcuPgO" resolve="language" />
                 </node>
               </node>
             </node>
