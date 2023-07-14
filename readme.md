@@ -4,7 +4,7 @@
 * MPS version 2021.1
 * _lioncore-java_
   
-  Refer to [lioncore-java solution readme](solutions/org.lionweb.lioncore.java/readme.md) for hints how to update this dependency.
+  For updating to a newer version of this dependency, change the version number in `build.gradle.kts` and run `./gradlew resolveLibs` .
 
 ## Setup
 * run `./gradlew resolveLibs` to download required libraries.
