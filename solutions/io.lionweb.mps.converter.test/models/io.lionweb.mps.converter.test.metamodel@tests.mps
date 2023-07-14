@@ -11,12 +11,14 @@
     <import index="xbe" ref="r:912ab958-fa26-4eb6-bc68-3a80eb1c49c4(io.lionweb.mps.converter.test.support)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" />
     <import index="dydc" ref="r:303e2235-6078-45d3-bca1-4bd6b06c2770(io.lionweb.mps.converter.m2.lioncore2mps)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
+      <concept id="1225469856668" name="jetbrains.mps.lang.test.structure.ModelExpression" flags="nn" index="1jGwE1" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
@@ -144,43 +146,69 @@
       <property role="TrG5h" value="same" />
       <node concept="3cqZAl" id="59Df55kYarT" role="3clF45" />
       <node concept="3clFbS" id="59Df55kYarU" role="3clF47">
-        <node concept="3cpWs8" id="59Df55kYarV" role="3cqZAp">
-          <node concept="3cpWsn" id="59Df55kYarW" role="3cpWs9">
-            <property role="TrG5h" value="deltas" />
-            <node concept="_YKpA" id="59Df55kYarX" role="1tU5fm">
-              <node concept="3uibUv" id="59Df55kYarY" role="_ZDj9">
-                <ref role="3uigEE" to="dydc:3ePT3Mb75pO" resolve="IDelta" />
-              </node>
+        <node concept="3cpWs8" id="5M3rB6CjYKA" role="3cqZAp">
+          <node concept="3cpWsn" id="5M3rB6CjYKB" role="3cpWs9">
+            <property role="TrG5h" value="deltaCalculator" />
+            <node concept="3uibUv" id="5M3rB6CjYJz" role="1tU5fm">
+              <ref role="3uigEE" to="xbe:59Df55krSgv" resolve="DeltaCalculator" />
             </node>
-            <node concept="2YIFZM" id="59Df55kYarZ" role="33vP2m">
-              <ref role="37wK5l" to="xbe:59Df55krSsQ" resolve="calcDeltas" />
+            <node concept="2YIFZM" id="5M3rB6CjYKC" role="33vP2m">
+              <ref role="37wK5l" to="xbe:5M3rB6CiqRW" resolve="getDefault" />
               <ref role="1Pybhc" to="xbe:59Df55krSgv" resolve="DeltaCalculator" />
-              <node concept="3xONca" id="59Df55kYas0" role="37wK5m">
-                <ref role="3xOPvv" node="59Df55kYasu" resolve="mmA" />
-              </node>
-              <node concept="3xONca" id="59Df55kYas1" role="37wK5m">
-                <ref role="3xOPvv" node="59Df55kYas$" resolve="mmB" />
+              <node concept="2OqwBi" id="5M3rB6CjYKD" role="37wK5m">
+                <node concept="1jGwE1" id="5M3rB6CjYKE" role="2Oq$k0" />
+                <node concept="liA8E" id="5M3rB6CjYKF" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="59Df55l46Ig" role="3cqZAp" />
-        <node concept="3vlDli" id="59Df55l2MIP" role="3cqZAp">
-          <node concept="3cmrfG" id="59Df55l2MMC" role="3tpDZB">
+        <node concept="3cpWs8" id="59Df55krRDG" role="3cqZAp">
+          <node concept="3cpWsn" id="59Df55krRDH" role="3cpWs9">
+            <property role="TrG5h" value="deltas" />
+            <node concept="_YKpA" id="59Df55krRDI" role="1tU5fm">
+              <node concept="3uibUv" id="59Df55krRDJ" role="_ZDj9">
+                <ref role="3uigEE" to="dydc:3ePT3Mb75pO" resolve="IDelta" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5M3rB6CjZWt" role="33vP2m">
+              <node concept="37vLTw" id="5M3rB6CjZLq" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M3rB6CjYKB" resolve="deltaCalculator" />
+              </node>
+              <node concept="liA8E" id="5M3rB6Ck0d7" role="2OqNvi">
+                <ref role="37wK5l" to="xbe:5M3rB6Ci34L" resolve="calcDeltas" />
+                <node concept="3xONca" id="5M3rB6Ck0kE" role="37wK5m">
+                  <ref role="3xOPvv" node="59Df55kYasu" resolve="mmA" />
+                </node>
+                <node concept="3xONca" id="5M3rB6Ck0Hm" role="37wK5m">
+                  <ref role="3xOPvv" node="59Df55kYas$" resolve="mmB" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59Df55l3oYT" role="3cqZAp" />
+        <node concept="3vlDli" id="59Df55l3oZr" role="3cqZAp">
+          <node concept="3cmrfG" id="59Df55l3oZs" role="3tpDZB">
             <property role="3cmrfH" value="1" />
           </node>
-          <node concept="2OqwBi" id="59Df55l2NvG" role="3tpDZA">
-            <node concept="37vLTw" id="59Df55l2MPq" role="2Oq$k0">
-              <ref role="3cqZAo" node="59Df55kYarW" resolve="deltas" />
+          <node concept="2OqwBi" id="59Df55l3oZt" role="3tpDZA">
+            <node concept="37vLTw" id="59Df55l3oZu" role="2Oq$k0">
+              <ref role="3cqZAo" node="59Df55krRDH" resolve="deltas" />
             </node>
-            <node concept="34oBXx" id="59Df55l2Ot1" role="2OqNvi" />
+            <node concept="34oBXx" id="59Df55l3oZv" role="2OqNvi" />
           </node>
-          <node concept="3_1$Yv" id="59Df55l2QOC" role="3_9lra">
-            <node concept="2YIFZM" id="59Df55l2QY1" role="3_1BAH">
-              <ref role="37wK5l" to="xbe:59Df55kZ6mr" resolve="toString" />
-              <ref role="1Pybhc" to="xbe:59Df55krSgv" resolve="DeltaCalculator" />
-              <node concept="37vLTw" id="59Df55l2R2G" role="37wK5m">
-                <ref role="3cqZAo" node="59Df55kYarW" resolve="deltas" />
+          <node concept="3_1$Yv" id="59Df55l3oZw" role="3_9lra">
+            <node concept="2OqwBi" id="5M3rB6Ck1jw" role="3_1BAH">
+              <node concept="37vLTw" id="5M3rB6Ck19Y" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M3rB6CjYKB" resolve="deltaCalculator" />
+              </node>
+              <node concept="liA8E" id="5M3rB6Ck1_f" role="2OqNvi">
+                <ref role="37wK5l" to="xbe:5M3rB6Ci3Ry" resolve="toString" />
+                <node concept="37vLTw" id="5M3rB6Ck1NJ" role="37wK5m">
+                  <ref role="3cqZAo" node="59Df55krRDH" resolve="deltas" />
+                </node>
               </node>
             </node>
           </node>
@@ -193,7 +221,7 @@
             </node>
             <node concept="2OqwBi" id="59Df55l2Q4T" role="33vP2m">
               <node concept="37vLTw" id="59Df55l2Q4U" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55kYarW" resolve="deltas" />
+                <ref role="3cqZAo" node="59Df55krRDH" resolve="deltas" />
               </node>
               <node concept="1uHKPH" id="59Df55l2Q4V" role="2OqNvi" />
             </node>
