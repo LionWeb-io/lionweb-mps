@@ -20,11 +20,11 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
-    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" implicit="true" />
@@ -357,7 +357,7 @@
                   <node concept="2OqwBi" id="3LWE6BDyInv" role="2Oq$k0">
                     <node concept="2Sf5sV" id="3LWE6BDyInw" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="3LWE6BDyInx" role="2OqNvi">
-                      <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="metamodels" />
+                      <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="languages" />
                     </node>
                   </node>
                   <node concept="13MTOL" id="3LWE6BDyIny" role="2OqNvi">
@@ -536,7 +536,7 @@
                 <property role="TrG5h" value="jsonLanguages" />
                 <node concept="_YKpA" id="z1IqfFSQiz" role="1tU5fm">
                   <node concept="3uibUv" id="z1IqfFSQiA" role="_ZDj9">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="z1IqfFSQkA" role="33vP2m">
@@ -611,8 +611,8 @@
                       <ref role="3cqZAo" node="5M3rB6C9CRl" resolve="constants" />
                     </node>
                     <node concept="2YIFZM" id="5M3rB6BJ3pM" role="37wK5m">
-                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="37vLTw" id="5M3rB6C9D6$" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9D6x" resolve="mapper" />
@@ -1024,8 +1024,8 @@
                       <ref role="3cqZAo" node="5M3rB6C9AIf" resolve="constants" />
                     </node>
                     <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
-                      <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="37vLTw" id="5M3rB6C9ATK" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9ATH" resolve="mapper" />
@@ -1034,7 +1034,7 @@
                       <node concept="2OqwBi" id="7qGUpN3CwQg" role="2Oq$k0">
                         <node concept="2Sf5sV" id="7qGUpN3CwDq" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="7qGUpN3Cx7w" role="2OqNvi">
-                          <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="metamodels" />
+                          <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="languages" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="7qGUpN3CCsZ" role="2OqNvi">
@@ -1051,7 +1051,7 @@
                 <property role="TrG5h" value="languages" />
                 <node concept="A3Dl8" id="7qGUpN3CFJH" role="1tU5fm">
                   <node concept="3uibUv" id="7qGUpN3CFJK" role="A3Ik2">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="7qGUpN3CFOf" role="33vP2m">

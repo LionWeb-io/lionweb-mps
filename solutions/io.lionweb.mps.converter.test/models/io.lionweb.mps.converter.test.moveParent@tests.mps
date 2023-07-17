@@ -909,7 +909,7 @@
                 <property role="3oM_SC" value="between" />
               </node>
               <node concept="3oM_SD" id="5glO5qL3XSd" role="1PaTwD">
-                <property role="3oM_SC" value="metamodels" />
+                <property role="3oM_SC" value="languages" />
               </node>
               <node concept="3oM_SD" id="5glO5qL3W9i" role="1PaTwD">
                 <property role="3oM_SC" value="yet" />

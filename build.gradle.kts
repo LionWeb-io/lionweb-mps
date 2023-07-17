@@ -14,7 +14,13 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.14")
+    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.24")
+}
+
+configurations.getByName("libs") {
+    attributes {
+        attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
+    }
 }
 
 group = "io.lionweb"

@@ -12,12 +12,12 @@
     <import index="wy2b" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson(io.lionweb.lioncore.java/)" />
     <import index="c9jv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson.stream(io.lionweb.lioncore.java/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
-    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="jxh5" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization(io.lionweb.lioncore.java/)" />
     <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lioncore.java/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
@@ -444,7 +444,7 @@
               </node>
               <node concept="UnYns" id="5wsogBc43Em" role="2OqNvi">
                 <node concept="3uibUv" id="5wsogBc43X2" role="UnYnz">
-                  <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                  <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                 </node>
               </node>
             </node>
@@ -455,7 +455,7 @@
       <node concept="3Tm1VV" id="5wsogBc3YO8" role="1B3o_S" />
       <node concept="_YKpA" id="5wsogBc3YT9" role="3clF45">
         <node concept="3uibUv" id="5wsogBc3YTs" role="_ZDj9">
-          <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
         </node>
       </node>
     </node>
@@ -622,7 +622,7 @@
                 <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                 <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                 <node concept="3uibUv" id="5glO5qKZ2iW" role="3PaCim">
-                  <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+                  <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
                 </node>
               </node>
             </node>
@@ -704,7 +704,7 @@
         <property role="TrG5h" value="languages" />
         <node concept="A3Dl8" id="5glO5qKYQfl" role="1tU5fm">
           <node concept="3uibUv" id="5glO5qKYRq_" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+            <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
           </node>
         </node>
       </node>
@@ -738,7 +738,7 @@
                 <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                 <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                 <node concept="3uibUv" id="5glO5qKZ3in" role="3PaCim">
-                  <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+                  <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
                 </node>
               </node>
             </node>
@@ -790,7 +790,7 @@
         <property role="TrG5h" value="languages" />
         <node concept="A3Dl8" id="5glO5qKYSj8" role="1tU5fm">
           <node concept="3uibUv" id="5glO5qKYSj9" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+            <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
           </node>
         </node>
       </node>
@@ -858,7 +858,7 @@
                   <ref role="3cqZAo" node="5s4Z0e0bZx9" resolve="serializedChunk" />
                 </node>
                 <node concept="liA8E" id="5glO5qKYUW6" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedChunk.addMetamodel(io.lionweb.lioncore.java.serialization.data.MetamodelKeyVersion)" resolve="addMetamodel" />
+                  <ref role="37wK5l" to="xfsv:~SerializedChunk.addLanguage(io.lionweb.lioncore.java.serialization.data.UsedLanguage)" resolve="addLanguage" />
                   <node concept="2GrUjf" id="5glO5qKYYgd" role="37wK5m">
                     <ref role="2Gs0qQ" node="5glO5qKYVRL" resolve="l" />
                   </node>
@@ -941,7 +941,7 @@
       <node concept="37vLTG" id="39$JcGFQG95" role="3clF46">
         <property role="TrG5h" value="builtins" />
         <node concept="3uibUv" id="39$JcGFQGa6" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+          <ref role="3uigEE" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BNYhG" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -952,14 +952,14 @@
           <node concept="2ShNRf" id="39$JcGFQDTk" role="3clFbG">
             <node concept="Tc6Ow" id="39$JcGFQEMi" role="2ShVmc">
               <node concept="3uibUv" id="39$JcGFQFvt" role="HW$YZ">
-                <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+                <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
               </node>
               <node concept="2OqwBi" id="39$JcGFQGAX" role="HW$Y0">
                 <node concept="37vLTw" id="39$JcGFQGdn" role="2Oq$k0">
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQH99" role="2OqNvi">
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
                 </node>
               </node>
               <node concept="2OqwBi" id="39$JcGFQHpv" role="HW$Y0">
@@ -967,7 +967,7 @@
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQHK1" role="2OqNvi">
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
                 </node>
               </node>
               <node concept="2OqwBi" id="39$JcGFQI6R" role="HW$Y0">
@@ -975,7 +975,7 @@
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQIfx" role="2OqNvi">
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getString()" resolve="getString" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getString()" resolve="getString" />
                 </node>
               </node>
               <node concept="2OqwBi" id="39$JcGFQIzs" role="HW$Y0">
@@ -983,7 +983,7 @@
                   <ref role="3cqZAo" node="39$JcGFQG95" resolve="builtins" />
                 </node>
                 <node concept="2PDubS" id="39$JcGFQIHk" role="2OqNvi">
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
                 </node>
               </node>
             </node>
@@ -993,7 +993,7 @@
       <node concept="3Tm1VV" id="39$JcGFQl_Q" role="1B3o_S" />
       <node concept="_YKpA" id="39$JcGFQlAe" role="3clF45">
         <node concept="3uibUv" id="39$JcGFQlAr" role="_ZDj9">
-          <ref role="3uigEE" to="loul:~DataType" resolve="DataType" />
+          <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
         </node>
       </node>
     </node>
@@ -1003,7 +1003,7 @@
       <node concept="37vLTG" id="39$JcGGbiH3" role="3clF46">
         <property role="TrG5h" value="builtins" />
         <node concept="3uibUv" id="39$JcGGbiH4" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+          <ref role="3uigEE" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BNYjB" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -1014,9 +1014,24 @@
           <node concept="2ShNRf" id="39$JcGGbiH7" role="3clFbG">
             <node concept="Tc6Ow" id="39$JcGGbiH8" role="2ShVmc">
               <node concept="3uibUv" id="39$JcGGbiH9" role="HW$YZ">
-                <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+                <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
               </node>
-              <node concept="10Nm6u" id="39$JcGGbkjk" role="HW$Y0" />
+              <node concept="2OqwBi" id="7m$AwvunaWp" role="HW$Y0">
+                <node concept="37vLTw" id="7m$AwvunazK" role="2Oq$k0">
+                  <ref role="3cqZAo" node="39$JcGGbiH3" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="7m$AwvunbP_" role="2OqNvi">
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getNode()" resolve="getNode" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7m$Awvuncht" role="HW$Y0">
+                <node concept="37vLTw" id="7m$AwvunbSO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="39$JcGGbiH3" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="7m$AwvuncGp" role="2OqNvi">
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getINamed()" resolve="getINamed" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -1024,7 +1039,7 @@
       <node concept="3Tm1VV" id="39$JcGGbiHm" role="1B3o_S" />
       <node concept="_YKpA" id="39$JcGGbiHn" role="3clF45">
         <node concept="3uibUv" id="39$JcGGbiHo" role="_ZDj9">
-          <ref role="3uigEE" to="loul:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
     </node>
@@ -1382,7 +1397,7 @@
               <ref role="37wK5l" node="5s4Z0e0na0J" resolve="convert" />
               <node concept="2OqwBi" id="5s4Z0e0n9Xo" role="37wK5m">
                 <node concept="37vLTw" id="5s4Z0e0n9Xp" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5s4Z0e0n9Xx" resolve="nodes" />
+                  <ref role="3cqZAo" node="5s4Z0e0n9Xx" resolve="languages" />
                 </node>
                 <node concept="ANE8D" id="5s4Z0e0n9Xq" role="2OqNvi" />
               </node>
@@ -1404,10 +1419,10 @@
         <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
       </node>
       <node concept="37vLTG" id="5s4Z0e0n9Xx" role="3clF46">
-        <property role="TrG5h" value="nodes" />
+        <property role="TrG5h" value="languages" />
         <node concept="A3Dl8" id="5s4Z0e0n9Xy" role="1tU5fm">
-          <node concept="3uibUv" id="5s4Z0e0n9Xz" role="A3Ik2">
-            <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+          <node concept="3uibUv" id="7m$AwvtZ_tm" role="A3Ik2">
+            <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
           </node>
         </node>
       </node>
@@ -1430,10 +1445,10 @@
               <node concept="2ShNRf" id="5s4Z0e0n9XF" role="37wK5m">
                 <node concept="2HTt$P" id="5s4Z0e0n9XG" role="2ShVmc">
                   <node concept="3uibUv" id="5s4Z0e0n9XH" role="2HTBi0">
-                    <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
                   </node>
                   <node concept="37vLTw" id="5s4Z0e0n9XI" role="2HTEbv">
-                    <ref role="3cqZAo" node="5s4Z0e0n9XP" resolve="node" />
+                    <ref role="3cqZAo" node="5s4Z0e0n9XP" resolve="language" />
                   </node>
                 </node>
               </node>
@@ -1455,9 +1470,9 @@
         <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
       </node>
       <node concept="37vLTG" id="5s4Z0e0n9XP" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3uibUv" id="5s4Z0e0n9XQ" role="1tU5fm">
-          <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+        <property role="TrG5h" value="language" />
+        <node concept="3uibUv" id="7m$AwvtZyFl" role="1tU5fm">
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BO7$f" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -1910,10 +1925,10 @@
         <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
       </node>
       <node concept="37vLTG" id="5s4Z0e0na0M" role="3clF46">
-        <property role="TrG5h" value="nodes" />
+        <property role="TrG5h" value="languages" />
         <node concept="A3Dl8" id="5s4Z0e0na0N" role="1tU5fm">
           <node concept="3uibUv" id="5s4Z0e0na0O" role="A3Ik2">
-            <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+            <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
           </node>
         </node>
       </node>
@@ -1955,8 +1970,8 @@
               <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="2OqwBi" id="5s4Z0e0na17" role="37wK5m">
                 <node concept="2YIFZM" id="5s4Z0e0na18" role="2Oq$k0">
-                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
+                  <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getBoolean()" resolve="getBoolean" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0na19" role="2OqNvi">
                   <ref role="37wK5l" to="tzx8:~M3Node.getID()" resolve="getID" />
@@ -1979,8 +1994,8 @@
               <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="2OqwBi" id="5s4Z0e0na1h" role="37wK5m">
                 <node concept="2YIFZM" id="5s4Z0e0na1i" role="2Oq$k0">
-                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
+                  <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getJSON()" resolve="getJSON" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0na1j" role="2OqNvi">
                   <ref role="37wK5l" to="tzx8:~M3Node.getID()" resolve="getID" />
@@ -2003,8 +2018,8 @@
               <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
               <node concept="2OqwBi" id="5s4Z0e0na1r" role="37wK5m">
                 <node concept="2YIFZM" id="5s4Z0e0na1s" role="2Oq$k0">
-                  <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
+                  <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInteger()" resolve="getInteger" />
                 </node>
                 <node concept="liA8E" id="5s4Z0e0na1t" role="2OqNvi">
                   <ref role="37wK5l" to="tzx8:~M3Node.getID()" resolve="getID" />
@@ -2157,7 +2172,7 @@
               <ref role="37wK5l" to="jxh5:~JsonSerialization.serializeTreesToJsonElement(io.lionweb.lioncore.java.model.Node...)" resolve="serializeTreesToJsonElement" />
               <node concept="2OqwBi" id="5s4Z0e0obmK" role="37wK5m">
                 <node concept="37vLTw" id="5s4Z0e0nb9i" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5s4Z0e0na0M" resolve="nodes" />
+                  <ref role="3cqZAo" node="5s4Z0e0na0M" resolve="languages" />
                 </node>
                 <node concept="3_kTaI" id="5s4Z0e0obQW" role="2OqNvi" />
               </node>

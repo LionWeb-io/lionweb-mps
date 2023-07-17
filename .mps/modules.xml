@@ -12,16 +12,16 @@
       <modulePath path="$PROJECT_DIR$/solutions/bla/bla.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.lioncore.java/io.lionweb.lioncore.java.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="build" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="lang" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" folder="lang" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="client" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" folder="client" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test/io.lionweb.mps.converter.test.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter/io.lionweb.mps.converter.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json.test/io.lionweb.mps.json.test.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json/io.lionweb.mps.json.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="test" />
-      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="server" />
     </projectModules>
   </component>
 </project>

@@ -94,7 +94,7 @@
       </node>
       <node concept="3F0ifn" id="DUXtH0uZtM" role="3EZMnx" />
       <node concept="3F2HdR" id="DUXtH0uZxh" role="3EZMnx">
-        <ref role="1NtTu8" to="d0tf:DUXtH0uZbo" resolve="metamodels" />
+        <ref role="1NtTu8" to="d0tf:DUXtH0uZbo" resolve="languages" />
         <node concept="2iRkQZ" id="DUXtH0uZxj" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="DUXtH0uZk1" role="2iSdaV" />
@@ -139,7 +139,7 @@
       </node>
       <node concept="3F0ifn" id="7qGUpN3Cvcs" role="3EZMnx" />
       <node concept="3F2HdR" id="7qGUpN3Cvct" role="3EZMnx">
-        <ref role="1NtTu8" to="d0tf:DUXtH0uZbo" resolve="metamodels" />
+        <ref role="1NtTu8" to="d0tf:DUXtH0uZbo" resolve="languages" />
         <node concept="2iRkQZ" id="7qGUpN3Cvcu" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="7qGUpN3Cvcv" role="2iSdaV" />

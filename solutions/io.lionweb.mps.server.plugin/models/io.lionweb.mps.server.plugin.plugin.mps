@@ -29,9 +29,9 @@
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
     <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
-    <import index="loul" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.metamodel(io.lionweb.lioncore.java/)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="iil0" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:io.netty.buffer(MPS.IDEA/)" implicit="true" />
   </imports>
@@ -855,7 +855,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="2hMVRd" id="5glO5qKZr7i" role="1tU5fm">
               <node concept="3uibUv" id="5glO5qKZr7l" role="2hN53Y">
-                <ref role="3uigEE" to="xfsv:~MetamodelKeyVersion" resolve="MetamodelKeyVersion" />
+                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
               </node>
             </node>
           </node>
@@ -1092,9 +1092,9 @@
       <node concept="3clFbS" id="5s4Z0e0syF7" role="3clF47">
         <node concept="3cpWs8" id="5s4Z0e0syGs" role="3cqZAp">
           <node concept="3cpWsn" id="5s4Z0e0syGt" role="3cpWs9">
-            <property role="TrG5h" value="metamodel" />
+            <property role="TrG5h" value="language" />
             <node concept="3uibUv" id="5s4Z0e0tDu0" role="1tU5fm">
-              <ref role="3uigEE" to="loul:~Metamodel" resolve="Metamodel" />
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
             </node>
           </node>
         </node>
@@ -1187,8 +1187,8 @@
                     <node concept="1pGfFk" id="5s4Z0e0syGH" role="2ShVmc">
                       <ref role="37wK5l" to="5els:48csSBOkJm_" resolve="IndirectLanguage2JsonConverter" />
                       <node concept="2YIFZM" id="6VkSF6csn8N" role="37wK5m">
-                        <ref role="37wK5l" to="loul:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                        <ref role="1Pybhc" to="loul:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                       </node>
                       <node concept="37vLTw" id="5M3rB6BCfpW" role="37wK5m">
                         <ref role="3cqZAo" node="5s4Z0e0syG$" resolve="constants" />
@@ -1230,7 +1230,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="5s4Z0e0syGW" role="37vLTJ">
-                    <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="metamodel" />
+                    <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="language" />
                   </node>
                 </node>
               </node>
@@ -1285,7 +1285,7 @@
             <node concept="liA8E" id="5s4Z0e0syHf" role="2OqNvi">
               <ref role="37wK5l" to="6peh:5s4Z0e0n9X_" resolve="serialize" />
               <node concept="37vLTw" id="5s4Z0e0syHg" role="37wK5m">
-                <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="metamodel" />
+                <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="language" />
               </node>
             </node>
           </node>
