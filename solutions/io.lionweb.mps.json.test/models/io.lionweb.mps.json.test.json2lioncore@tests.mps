@@ -243,7 +243,7 @@
               <ref role="37wK5l" to="643a:5wsogBcvCyw" resolve="expandTestFile" />
               <ref role="1Pybhc" to="643a:5wsogBcvCwV" resolve="TestPathExpander" />
               <node concept="Xl_RD" id="5wsogBcvPKo" role="37wK5m">
-                <property role="Xl_RC" value="TestLang-noEnums-metamodel.json" />
+                <property role="Xl_RC" value="TestLang-metamodel.json" />
               </node>
             </node>
           </node>
@@ -302,7 +302,7 @@
             </node>
             <node concept="3vlDli" id="5sACIIsz$47" role="3cqZAp">
               <node concept="Xl_RD" id="5sACIIsz$dz" role="3tpDZB">
-                <property role="Xl_RC" value="io.lionweb.mps.converter.TestLang.noEnums" />
+                <property role="Xl_RC" value="io.lionweb.mps.converter.TestLang" />
               </node>
               <node concept="2OqwBi" id="5sACIIsz_Tc" role="3tpDZA">
                 <node concept="2OqwBi" id="5sACIIsz$GA" role="2Oq$k0">

@@ -16,7 +16,7 @@
             "version": "1",
             "key": "LIonCore-builtins-INamed-name"
           },
-          "value": "io.lionweb.mps.converter.TestLang.noEnums"
+          "value": "io.lionweb.mps.converter.TestLang"
         },
         {"property":{"language":"LIonCore-M3","version":"1","key":"Language-version"},"value":null},
         {"property":{"language":"LIonCore-M3","version":"1","key":"IKeyed-key"},"value":"MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5"}
@@ -1537,6 +1537,14 @@
             "key": "LIonCore-builtins-INamed-name"
           },
           "value": "TestLiteral1"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDU4Mw"
         }
       ],
       "children": [],
@@ -1559,7 +1567,14 @@
           },
           "value": "TestLiteral2"
         },
-        {"property":{"language":"LIonCore-M3","version":"1","key":"IKeyed-key"},"value":null}
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDYyMw"
+        }
       ],
       "children": [],
       "references": []
@@ -1614,7 +1629,7 @@
           },
           "value": "TestLiteral3"
         },
-        {"property":{"language":"LIonCore-M3","version":"1","key":"IKeyed-key"},"value":null}
+        {"property":{"language":"LIonCore-M3","version":"1","key":"IKeyed-key"},"value":"MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw"}
       ],
       "children": [],
       "references": []
