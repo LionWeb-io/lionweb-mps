@@ -576,8 +576,8 @@
         <node concept="3uibUv" id="48csSBNRMLX" role="3rvQeY">
           <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
         </node>
-        <node concept="3uibUv" id="48csSBPDVL4" role="3rvSg0">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+        <node concept="3uibUv" id="3IncSZJbk7i" role="3rvSg0">
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
       <node concept="2ShNRf" id="48csSBNRe$0" role="33vP2m">
@@ -585,8 +585,8 @@
           <node concept="3uibUv" id="48csSBNRPv2" role="3rHrn6">
             <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
           </node>
-          <node concept="3uibUv" id="48csSBPDZdb" role="3rHtpV">
-            <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <node concept="3uibUv" id="3IncSZJbeLd" role="3rHtpV">
+            <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
           </node>
         </node>
       </node>
@@ -1243,11 +1243,11 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="48csSBQ0c$e" role="1B3o_S" />
-      <node concept="3uibUv" id="48csSBQ0c$f" role="3clF45">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-      </node>
       <node concept="2AHcQZ" id="1f4Qr8Vid9X" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="3IncSZJb8di" role="3clF45">
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
     </node>
     <node concept="2tJIrI" id="48csSBNBjwe" role="jymVt" />
@@ -1728,14 +1728,14 @@
             <node concept="3cpWs8" id="48csSBNReAQ" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBNReAR" role="3cpWs9">
                 <property role="TrG5h" value="newClassifier" />
-                <node concept="3uibUv" id="48csSBPFSPN" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="1rXfSq" id="48csSBNReAT" role="33vP2m">
                   <ref role="37wK5l" node="48csSBNReEp" resolve="createClassifier" />
                   <node concept="2GrUjf" id="48csSBNReAU" role="37wK5m">
                     <ref role="2Gs0qQ" node="48csSBNReAK" resolve="concept" />
                   </node>
+                </node>
+                <node concept="3uibUv" id="3IncSZJbvR8" role="1tU5fm">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -1745,7 +1745,7 @@
                   <ref role="3cqZAo" node="48csSBNReA$" resolve="language" />
                 </node>
                 <node concept="liA8E" id="48csSBPJGe5" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Language.addElement(io.lionweb.lioncore.java.language.LanguageElement)" resolve="addElement" />
+                  <ref role="37wK5l" to="imb3:~Language.addElement(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="addElement" />
                   <node concept="37vLTw" id="48csSBPJPx_" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReAR" resolve="newClassifier" />
                   </node>
@@ -1879,7 +1879,7 @@
                   <ref role="3cqZAo" node="48csSBNReA$" resolve="language" />
                 </node>
                 <node concept="liA8E" id="48csSBPK7Sg" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Language.addElement(io.lionweb.lioncore.java.language.LanguageElement)" resolve="addElement" />
+                  <ref role="37wK5l" to="imb3:~Language.addElement(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="addElement" />
                   <node concept="37vLTw" id="48csSBPK7Sh" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReBg" resolve="newDataType" />
                   </node>
@@ -2353,7 +2353,7 @@
             <property role="TrG5h" value="result" />
             <node concept="10Nm6u" id="48csSBNReEv" role="33vP2m" />
             <node concept="3uibUv" id="48csSBPGvda" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+              <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
             </node>
           </node>
         </node>
@@ -2502,7 +2502,7 @@
                       <ref role="3cqZAo" node="48csSBNReEt" resolve="result" />
                     </node>
                     <node concept="liA8E" id="48csSBPKLoh" role="2OqNvi">
-                      <ref role="37wK5l" to="imb3:~FeaturesContainer.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
+                      <ref role="37wK5l" to="imb3:~Classifier.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
                       <node concept="37vLTw" id="48csSBPKPJY" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBNReF6" resolve="newProp" />
                       </node>
@@ -2645,7 +2645,7 @@
                       <ref role="3cqZAo" node="48csSBNReEt" resolve="result" />
                     </node>
                     <node concept="liA8E" id="48csSBPL3we" role="2OqNvi">
-                      <ref role="37wK5l" to="imb3:~FeaturesContainer.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
+                      <ref role="37wK5l" to="imb3:~Classifier.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
                       <node concept="37vLTw" id="48csSBPL6kU" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBNReFv" resolve="newLink" />
                       </node>
@@ -2749,7 +2749,7 @@
                       <ref role="3cqZAo" node="48csSBNReEt" resolve="result" />
                     </node>
                     <node concept="liA8E" id="48csSBPLf4k" role="2OqNvi">
-                      <ref role="37wK5l" to="imb3:~FeaturesContainer.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
+                      <ref role="37wK5l" to="imb3:~Classifier.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
                       <node concept="37vLTw" id="48csSBPLkqa" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBO0LlM" resolve="newReference" />
                       </node>
@@ -2809,9 +2809,6 @@
         </node>
       </node>
       <node concept="3Tmbuc" id="48csSBNReFN" role="1B3o_S" />
-      <node concept="3uibUv" id="48csSBPGlb4" role="3clF45">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-      </node>
       <node concept="37vLTG" id="48csSBNReFP" role="3clF46">
         <property role="TrG5h" value="mps" />
         <node concept="3uibUv" id="48csSBNZ1xx" role="1tU5fm">
@@ -2823,6 +2820,9 @@
       </node>
       <node concept="2AHcQZ" id="1f4Qr8Vlg4v" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="3IncSZJb0t9" role="3clF45">
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
     </node>
     <node concept="3clFb_" id="48csSBNReFR" role="jymVt">
@@ -2969,11 +2969,11 @@
       </node>
       <node concept="37vLTG" id="48csSBNReGD" role="3clF46">
         <property role="TrG5h" value="json" />
-        <node concept="3uibUv" id="48csSBPGPLq" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8VlxBO" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="3IncSZJbGth" role="1tU5fm">
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
     </node>
@@ -3190,7 +3190,7 @@
               <ref role="3cqZAo" node="5sACIIsLHga" resolve="json" />
             </node>
             <node concept="liA8E" id="5wsogBclnVJ" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
               <node concept="2OqwBi" id="5wsogBclnVK" role="37wK5m">
                 <node concept="37vLTw" id="5wsogBclnVL" role="2Oq$k0">
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
@@ -3237,9 +3237,6 @@
             <node concept="3cpWs8" id="48csSBNReHZ" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBNReI0" role="3cpWs9">
                 <property role="TrG5h" value="extended" />
-                <node concept="3uibUv" id="48csSBPHnjz" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="3EllGN" id="48csSBNReI2" role="33vP2m">
                   <node concept="2OqwBi" id="48csSBNReI3" role="3ElVtu">
                     <node concept="37vLTw" id="48csSBNReI4" role="2Oq$k0">
@@ -3255,6 +3252,9 @@
                       <ref role="2Oxat5" node="48csSBNRezV" resolve="classifiers" />
                     </node>
                   </node>
+                </node>
+                <node concept="3uibUv" id="3IncSZJbREJ" role="1tU5fm">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -3377,9 +3377,6 @@
             <node concept="3cpWs8" id="48csSBNReJ0" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBNReJ1" role="3cpWs9">
                 <property role="TrG5h" value="implemented" />
-                <node concept="3uibUv" id="48csSBPHtI9" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="3EllGN" id="48csSBNReJ3" role="33vP2m">
                   <node concept="2GrUjf" id="48csSBNReJ4" role="3ElVtu">
                     <ref role="2Gs0qQ" node="48csSBNReIR" resolve="impl" />
@@ -3390,6 +3387,9 @@
                       <ref role="2Oxat5" node="48csSBNRezV" resolve="classifiers" />
                     </node>
                   </node>
+                </node>
+                <node concept="3uibUv" id="3IncSZJbLm6" role="1tU5fm">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -3566,7 +3566,7 @@
               <ref role="3cqZAo" node="5sACIIsNv$Z" resolve="jsonIface" />
             </node>
             <node concept="liA8E" id="5wsogBclNsn" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
               <node concept="2OqwBi" id="5wsogBclNso" role="37wK5m">
                 <node concept="37vLTw" id="5wsogBclNsp" role="2Oq$k0">
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
@@ -3619,9 +3619,6 @@
             <node concept="3cpWs8" id="48csSBNReKi" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBNReKj" role="3cpWs9">
                 <property role="TrG5h" value="implemented" />
-                <node concept="3uibUv" id="48csSBPHHYR" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="3EllGN" id="48csSBNReKl" role="33vP2m">
                   <node concept="2GrUjf" id="48csSBNReKm" role="3ElVtu">
                     <ref role="2Gs0qQ" node="48csSBNReK9" resolve="ext" />
@@ -3632,6 +3629,9 @@
                       <ref role="2Oxat5" node="48csSBNRezV" resolve="classifiers" />
                     </node>
                   </node>
+                </node>
+                <node concept="3uibUv" id="3IncSZJboOZ" role="1tU5fm">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -4009,8 +4009,8 @@
             <node concept="3cpWs8" id="48csSBNReMJ" role="3cqZAp">
               <node concept="3cpWsn" id="48csSBNReMK" role="3cpWs9">
                 <property role="TrG5h" value="classifier" />
-                <node concept="3uibUv" id="48csSBPI7e9" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                <node concept="3uibUv" id="3IncSZJbAir" role="1tU5fm">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -4135,7 +4135,7 @@
                   <ref role="3cqZAo" node="48csSBNReNf" resolve="json" />
                 </node>
                 <node concept="liA8E" id="48csSBPOS71" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Link.setType(io.lionweb.lioncore.java.language.FeaturesContainer)" resolve="setType" />
+                  <ref role="37wK5l" to="imb3:~Link.setType(io.lionweb.lioncore.java.language.Classifier)" resolve="setType" />
                   <node concept="37vLTw" id="48csSBPOUS2" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReMK" resolve="classifier" />
                   </node>
@@ -4644,7 +4644,7 @@
               <ref role="3cqZAo" node="5sACIIsA0CX" resolve="json" />
             </node>
             <node concept="liA8E" id="5sACIIsWPfV" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.setName(java.lang.String)" resolve="setName" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setName(java.lang.String)" resolve="setName" />
               <node concept="2OqwBi" id="5sACIIsWVDg" role="37wK5m">
                 <node concept="37vLTw" id="5sACIIsWT4I" role="2Oq$k0">
                   <ref role="3cqZAo" node="48csSBNRePa" resolve="mps" />
@@ -4683,7 +4683,7 @@
               <ref role="3cqZAo" node="5sACIIsA0CX" resolve="json" />
             </node>
             <node concept="liA8E" id="5wsogBcmjnP" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
               <node concept="2OqwBi" id="5wsogBcmjnQ" role="37wK5m">
                 <node concept="37vLTw" id="5wsogBcmjnR" role="2Oq$k0">
                   <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
@@ -4970,7 +4970,7 @@
                   <ref role="3cqZAo" node="5sACIIsA0Cw" resolve="json" />
                 </node>
                 <node concept="liA8E" id="5wsogBcm_TQ" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                   <node concept="2OqwBi" id="5wsogBcm_TR" role="37wK5m">
                     <node concept="37vLTw" id="5wsogBcm_TS" role="2Oq$k0">
                       <ref role="3cqZAo" node="6VkSF6cgpcQ" resolve="idMapper" />
@@ -5141,7 +5141,7 @@
                               <ref role="3cqZAo" node="48csSBPXn7N" resolve="template" />
                             </node>
                             <node concept="liA8E" id="4XRZmlyZHGA" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                              <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>
@@ -5172,13 +5172,13 @@
                         <ref role="3cqZAo" node="48csSBPX2HT" resolve="json" />
                       </node>
                       <node concept="liA8E" id="5wsogBcmHo2" role="2OqNvi">
-                        <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                        <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                         <node concept="2OqwBi" id="5wsogBcmHo3" role="37wK5m">
                           <node concept="37vLTw" id="5wsogBcmHo5" role="2Oq$k0">
                             <ref role="3cqZAo" node="48csSBPXn7N" resolve="template" />
                           </node>
                           <node concept="liA8E" id="6VkSF6clBLE" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+                            <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
                           </node>
                         </node>
                       </node>
@@ -5320,17 +5320,17 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="2fx6VTRFqwx" role="1B3o_S" />
       <node concept="3rvAFt" id="2fx6VTRFqwy" role="1tU5fm">
-        <node concept="3uibUv" id="2fx6VTRFqwz" role="3rvQeY">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-        </node>
         <node concept="3uibUv" id="2fx6VTRFqw$" role="3rvSg0">
           <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+        </node>
+        <node concept="3uibUv" id="3IncSZJav2P" role="3rvQeY">
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
       <node concept="2ShNRf" id="2fx6VTRGmj2" role="33vP2m">
         <node concept="32Fmki" id="2fx6VTRGmi$" role="2ShVmc">
           <node concept="3uibUv" id="2fx6VTRGmi_" role="3rHrn6">
-            <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+            <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
           </node>
           <node concept="3uibUv" id="2fx6VTRGmiA" role="3rHtpV">
             <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
@@ -5795,11 +5795,11 @@
             <node concept="1rXfSq" id="2fx6VTRFqzN" role="10QFUP">
               <ref role="37wK5l" node="2fx6VTRFq$9" resolve="convert" />
               <node concept="10QFUN" id="2fx6VTRFqzO" role="37wK5m">
-                <node concept="3uibUv" id="2fx6VTRFqzP" role="10QFUM">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="37vLTw" id="2fx6VTRFqzQ" role="10QFUP">
                   <ref role="3cqZAo" node="2fx6VTRFqzI" resolve="json" />
+                </node>
+                <node concept="3uibUv" id="3IncSZJaz_b" role="10QFUM">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -5835,11 +5835,11 @@
             <node concept="1rXfSq" id="2fx6VTRFq$1" role="10QFUP">
               <ref role="37wK5l" node="2fx6VTRFq$9" resolve="convert" />
               <node concept="10QFUN" id="2fx6VTRFq$2" role="37wK5m">
-                <node concept="3uibUv" id="2fx6VTRFq$3" role="10QFUM">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="37vLTw" id="2fx6VTRFq$4" role="10QFUP">
                   <ref role="3cqZAo" node="2fx6VTRFqzW" resolve="json" />
+                </node>
+                <node concept="3uibUv" id="3IncSZJaBd8" role="10QFUM">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
             </node>
@@ -5862,11 +5862,11 @@
       <property role="TrG5h" value="convert" />
       <node concept="37vLTG" id="2fx6VTRFq$a" role="3clF46">
         <property role="TrG5h" value="json" />
-        <node concept="3uibUv" id="2fx6VTRFq$b" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8VsAEk" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="3IncSZJaGKL" role="1tU5fm">
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
       <node concept="3clFbS" id="2fx6VTRFq$c" role="3clF47">
@@ -5892,7 +5892,7 @@
                     <ref role="3cqZAo" node="2fx6VTRFq$a" resolve="json" />
                   </node>
                   <node concept="liA8E" id="2fx6VTRFq$o" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~LanguageElement.getLanguage()" resolve="getLanguage" />
+                    <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
                   </node>
                 </node>
               </node>
@@ -6155,7 +6155,7 @@
                     <ref role="3cqZAo" node="2fx6VTRFq_F" resolve="json" />
                   </node>
                   <node concept="liA8E" id="2fx6VTRMFAf" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~LanguageElement.getLanguage()" resolve="getLanguage" />
+                    <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
                   </node>
                 </node>
               </node>
@@ -6221,7 +6221,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="2fx6VTRFqAi" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~LanguageElement.getLanguage()" resolve="getLanguage" />
+                    <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
                   </node>
                 </node>
               </node>
@@ -6309,14 +6309,14 @@
                   <node concept="3cpWsn" id="2fx6VTSpaos" role="3cpWs9">
                     <property role="TrG5h" value="jsonClassifier" />
                     <node concept="3uibUv" id="2fx6VTSp9aH" role="1tU5fm">
-                      <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                      <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                     </node>
                     <node concept="10QFUN" id="2fx6VTSpaot" role="33vP2m">
                       <node concept="2GrUjf" id="2fx6VTSpaou" role="10QFUP">
                         <ref role="2Gs0qQ" node="2fx6VTRFqAF" resolve="entity" />
                       </node>
                       <node concept="3uibUv" id="2fx6VTSpaov" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                       </node>
                     </node>
                   </node>
@@ -6352,11 +6352,11 @@
                 </node>
               </node>
               <node concept="2ZW3vV" id="2fx6VTSoMxv" role="3clFbw">
-                <node concept="3uibUv" id="2fx6VTSoPW3" role="2ZW6by">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
                 <node concept="2GrUjf" id="2fx6VTSoFKN" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="2fx6VTRFqAF" resolve="entity" />
+                </node>
+                <node concept="3uibUv" id="39$JcGGbiHo" role="2ZW6by">
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
               </node>
               <node concept="3eNFk2" id="2fx6VTSpANf" role="3eNLev">
@@ -6697,7 +6697,7 @@
                 <ref role="3cqZAo" node="2fx6VTRFqHS" resolve="json" />
               </node>
               <node concept="liA8E" id="2fx6VTSX044" role="2OqNvi">
-                <ref role="37wK5l" to="imb3:~FeaturesContainer.getFeatures()" resolve="getFeatures" />
+                <ref role="37wK5l" to="imb3:~Classifier.getFeatures()" resolve="getFeatures" />
               </node>
             </node>
           </node>
@@ -6913,7 +6913,7 @@
       <node concept="37vLTG" id="2fx6VTRFqHS" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="2fx6VTRFqHT" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VuzNz" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -7094,7 +7094,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqK9" resolve="json" />
                 </node>
                 <node concept="liA8E" id="2fx6VTS6IW9" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -7201,7 +7201,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqMm" resolve="json" />
                 </node>
                 <node concept="liA8E" id="2fx6VTS9BSK" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -7630,7 +7630,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqSl" resolve="json" />
                 </node>
                 <node concept="liA8E" id="4XRZmlyZojD" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -8005,7 +8005,7 @@
                   <ref role="3cqZAo" node="2fx6VTRFqUR" resolve="json" />
                 </node>
                 <node concept="liA8E" id="4XRZmlyZqdI" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                 </node>
               </node>
             </node>

@@ -418,7 +418,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="2hMVRd" id="5glO5qKZaIX" role="1tU5fm">
               <node concept="3uibUv" id="5glO5qKZaJ0" role="2hN53Y">
-                <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
               </node>
             </node>
             <node concept="2OqwBi" id="5glO5qKZaNb" role="33vP2m">
@@ -446,7 +446,7 @@
           <node concept="3cpWsn" id="5glO5qKZNxZ" role="3cpWs9">
             <property role="TrG5h" value="actual" />
             <node concept="3uibUv" id="5glO5qKZMBV" role="1tU5fm">
-              <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+              <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
             </node>
             <node concept="2OqwBi" id="5glO5qKZNy0" role="33vP2m">
               <node concept="37vLTw" id="5glO5qKZNy1" role="2Oq$k0">
@@ -460,11 +460,11 @@
           <node concept="3cpWsn" id="5glO5qL0trp" role="3cpWs9">
             <property role="TrG5h" value="expected" />
             <node concept="3uibUv" id="5glO5qL0tm4" role="1tU5fm">
-              <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+              <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
             </node>
             <node concept="2ShNRf" id="5glO5qL0trq" role="33vP2m">
               <node concept="1pGfFk" id="5glO5qL0trr" role="2ShVmc">
-                <ref role="37wK5l" to="xfsv:~LanguageKeyVersion.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="LanguageKeyVersion" />
+                <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
                 <node concept="2YIFZM" id="5glO5qL0trs" role="37wK5m">
                   <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
                   <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
@@ -510,7 +510,7 @@
                   <ref role="3cqZAo" node="5glO5qKZNxZ" resolve="actual" />
                 </node>
                 <node concept="liA8E" id="5glO5qL0K8O" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~LanguageKeyVersion.getVersion()" resolve="getVersion" />
+                  <ref role="37wK5l" to="xfsv:~UsedLanguage.getVersion()" resolve="getVersion" />
                 </node>
               </node>
               <node concept="3cpWs3" id="5glO5qL0Gnu" role="3uHU7B">
@@ -527,7 +527,7 @@
                               <ref role="3cqZAo" node="5glO5qL0trp" resolve="expected" />
                             </node>
                             <node concept="liA8E" id="5glO5qL0yWM" role="2OqNvi">
-                              <ref role="37wK5l" to="xfsv:~LanguageKeyVersion.getKey()" resolve="getKey" />
+                              <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
                             </node>
                           </node>
                         </node>
@@ -540,7 +540,7 @@
                           <ref role="3cqZAo" node="5glO5qL0trp" resolve="expected" />
                         </node>
                         <node concept="liA8E" id="5glO5qL0Bgj" role="2OqNvi">
-                          <ref role="37wK5l" to="xfsv:~LanguageKeyVersion.getVersion()" resolve="getVersion" />
+                          <ref role="37wK5l" to="xfsv:~UsedLanguage.getVersion()" resolve="getVersion" />
                         </node>
                       </node>
                     </node>
@@ -553,7 +553,7 @@
                       <ref role="3cqZAo" node="5glO5qKZNxZ" resolve="actual" />
                     </node>
                     <node concept="liA8E" id="5glO5qL0FV9" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~LanguageKeyVersion.getKey()" resolve="getKey" />
+                      <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
                     </node>
                   </node>
                 </node>

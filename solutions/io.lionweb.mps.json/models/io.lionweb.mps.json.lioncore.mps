@@ -240,13 +240,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -391,7 +384,7 @@
       <node concept="3Tm6S6" id="z1IqfFx05R" role="1B3o_S" />
       <node concept="3rvAFt" id="z1IqfFx089" role="1tU5fm">
         <node concept="3uibUv" id="z1IqfFx08m" role="3rvQeY">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="3Tqbb2" id="z1IqfFx08p" role="3rvSg0">
           <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
@@ -400,7 +393,7 @@
       <node concept="2ShNRf" id="z1IqfFx0cs" role="33vP2m">
         <node concept="32Fmki" id="z1IqfFx0ce" role="2ShVmc">
           <node concept="3uibUv" id="z1IqfFx0cf" role="3rHrn6">
-            <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+            <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
           </node>
           <node concept="3Tqbb2" id="z1IqfFx0cg" role="3rHtpV">
             <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
@@ -415,14 +408,14 @@
       <node concept="3rvAFt" id="z1IqfG8NFK" role="1tU5fm">
         <node concept="17QB3L" id="z1IqfG8NFL" role="3rvQeY" />
         <node concept="3uibUv" id="z1IqfG8NFM" role="3rvSg0">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
       <node concept="2ShNRf" id="z1IqfG8NFN" role="33vP2m">
         <node concept="32Fmki" id="z1IqfG8NFO" role="2ShVmc">
           <node concept="17QB3L" id="z1IqfG8NFP" role="3rHrn6" />
           <node concept="3uibUv" id="z1IqfG8NFQ" role="3rHtpV">
-            <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+            <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
           </node>
         </node>
       </node>
@@ -747,7 +740,7 @@
             <property role="TrG5h" value="jsonClassifierIter" />
             <node concept="2YL$Hu" id="5M3rB6BDRj7" role="1tU5fm">
               <node concept="3uibUv" id="5M3rB6BDRj8" role="uOL27">
-                <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
               </node>
             </node>
             <node concept="2OqwBi" id="5M3rB6BDRj9" role="33vP2m">
@@ -1130,7 +1123,7 @@
             <node concept="3clFbJ" id="z1IqfFxa2q" role="3cqZAp">
               <node concept="2ZW3vV" id="z1IqfFxaHT" role="3clFbw">
                 <node concept="3uibUv" id="z1IqfFJyPW" role="2ZW6by">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                  <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                 </node>
                 <node concept="2GrUjf" id="z1IqfFxag1" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonEntity" />
@@ -1150,7 +1143,7 @@
                             <ref role="2Gs0qQ" node="z1IqfFx7vv" resolve="jsonEntity" />
                           </node>
                           <node concept="3uibUv" id="z1IqfFJ_1_" role="10QFUM">
-                            <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                            <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
                           </node>
                         </node>
                       </node>
@@ -1327,7 +1320,7 @@
       <node concept="37vLTG" id="z1IqfFJ$3r" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="z1IqfFJ$gE" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BFkJg" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -1423,7 +1416,7 @@
                             <ref role="3cqZAo" node="z1IqfFJIK_" resolve="cons" />
                           </node>
                           <node concept="liA8E" id="4XRZmlz0um6" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                            <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                           </node>
                         </node>
                       </node>
@@ -1491,7 +1484,7 @@
                               <ref role="3cqZAo" node="z1IqfFJSRo" resolve="iface" />
                             </node>
                             <node concept="liA8E" id="4XRZmlz0y0W" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                              <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>
@@ -1529,7 +1522,7 @@
                   <ref role="3cqZAo" node="z1IqfFJ$3r" resolve="json" />
                 </node>
                 <node concept="liA8E" id="4287tKAb3iU" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~FeaturesContainer.getFeatures()" resolve="getFeatures" />
+                  <ref role="37wK5l" to="imb3:~Classifier.getFeatures()" resolve="getFeatures" />
                 </node>
               </node>
               <node concept="_YKpA" id="4287tKAb6Hr" role="10QFUM">
@@ -1684,7 +1677,7 @@
       <node concept="37vLTG" id="z1IqfFMYZJ" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="z1IqfFMYZI" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BFrPe" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -2600,7 +2593,7 @@
                             <ref role="3cqZAo" node="z1IqfFK3KP" resolve="pt" />
                           </node>
                           <node concept="liA8E" id="4XRZmlz0se8" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                            <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                           </node>
                         </node>
                       </node>
@@ -2680,7 +2673,7 @@
                               <ref role="3cqZAo" node="z1IqfFKd8G" resolve="enmJson" />
                             </node>
                             <node concept="liA8E" id="4XRZmlz0_fF" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~LanguageElement.getName()" resolve="getName" />
+                              <ref role="37wK5l" to="imb3:~LanguageEntity.getName()" resolve="getName" />
                             </node>
                           </node>
                         </node>
@@ -3083,7 +3076,7 @@
       <node concept="37vLTG" id="z1IqfG9Xf$" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="z1IqfG9Xf_" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BHzDE" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -3133,7 +3126,7 @@
       <node concept="37vLTG" id="z1IqfGbIzY" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="z1IqfGbIzZ" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BHJd$" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -3586,7 +3579,7 @@
           <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
         </node>
         <node concept="3uibUv" id="5sACIIsB0AZ" role="3rvSg0">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
       <node concept="2ShNRf" id="5sACIIsB90m" role="33vP2m">
@@ -3595,7 +3588,7 @@
             <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
           </node>
           <node concept="3uibUv" id="5sACIIsB8Zw" role="3rHtpV">
-            <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+            <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
           </node>
         </node>
       </node>
@@ -3931,116 +3924,79 @@
           </node>
         </node>
         <node concept="3clFbH" id="5M3rB6BJsJL" role="3cqZAp" />
-        <node concept="3SKdUt" id="5M3rB6Cp4aQ" role="3cqZAp">
-          <node concept="1PaTwC" id="5M3rB6Cp4aR" role="1aUNEU">
-            <node concept="3oM_SD" id="5M3rB6Cp4aS" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
+        <node concept="3cpWs8" id="5M3rB6BJsJM" role="3cqZAp">
+          <node concept="3cpWsn" id="5M3rB6BJsJN" role="3cpWs9">
+            <property role="TrG5h" value="lcClassifierIter" />
+            <node concept="uOF1S" id="5M3rB6BJsJO" role="1tU5fm">
+              <node concept="3Tqbb2" id="5M3rB6BJsJP" role="uOL27">
+                <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
+              </node>
             </node>
-            <node concept="3oM_SD" id="5M3rB6Cp4aT" role="1PaTwD">
-              <property role="3oM_SC" value="reactivate" />
-            </node>
-            <node concept="3oM_SD" id="5M3rB6Cp4aU" role="1PaTwD">
-              <property role="3oM_SC" value="once" />
-            </node>
-            <node concept="3oM_SD" id="5M3rB6Cp4aV" role="1PaTwD">
-              <property role="3oM_SC" value="Lionweb-java" />
-            </node>
-            <node concept="3oM_SD" id="5M3rB6Cp4aW" role="1PaTwD">
-              <property role="3oM_SC" value="knows" />
-            </node>
-            <node concept="3oM_SD" id="5M3rB6Cp4aX" role="1PaTwD">
-              <property role="3oM_SC" value="about" />
-            </node>
-            <node concept="3oM_SD" id="5M3rB6Cp4aY" role="1PaTwD">
-              <property role="3oM_SC" value="Node" />
+            <node concept="2OqwBi" id="5M3rB6BJsJQ" role="33vP2m">
+              <node concept="2OqwBi" id="5M3rB6BJsJR" role="2Oq$k0">
+                <node concept="37vLTw" id="5M3rB6BJsKq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="5M3rB6BJsJT" role="2OqNvi">
+                  <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcClassifiers" />
+                </node>
+              </node>
+              <node concept="uNJiE" id="5M3rB6BJsJU" role="2OqNvi" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="5M3rB6CpbbJ" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="5M3rB6BJsJM" role="8Wnug">
-            <node concept="3cpWsn" id="5M3rB6BJsJN" role="3cpWs9">
-              <property role="TrG5h" value="lcClassifierIter" />
-              <node concept="uOF1S" id="5M3rB6BJsJO" role="1tU5fm">
-                <node concept="3Tqbb2" id="5M3rB6BJsJP" role="uOL27">
-                  <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
+        <node concept="3cpWs8" id="5M3rB6BJsJV" role="3cqZAp">
+          <node concept="3cpWsn" id="5M3rB6BJsJW" role="3cpWs9">
+            <property role="TrG5h" value="jsonClassifierIter" />
+            <node concept="2YL$Hu" id="5M3rB6BJsJX" role="1tU5fm">
+              <node concept="3uibUv" id="5M3rB6BJsJY" role="uOL27">
+                <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5M3rB6BJsJZ" role="33vP2m">
+              <node concept="2YIFZM" id="5M3rB6BJsK0" role="2Oq$k0">
+                <ref role="37wK5l" to="6peh:39$JcGGbiH2" resolve="listJsonClassifiers" />
+                <ref role="1Pybhc" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
+                <node concept="37vLTw" id="5M3rB6BJsKp" role="37wK5m">
+                  <ref role="3cqZAo" node="39$JcGF4Bup" resolve="builtins" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="5M3rB6BJsJQ" role="33vP2m">
-                <node concept="2OqwBi" id="5M3rB6BJsJR" role="2Oq$k0">
-                  <node concept="37vLTw" id="5M3rB6BJsKq" role="2Oq$k0">
-                    <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="5M3rB6BJsJT" role="2OqNvi">
-                    <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcClassifiers" />
-                  </node>
-                </node>
-                <node concept="uNJiE" id="5M3rB6BJsJU" role="2OqNvi" />
-              </node>
+              <node concept="uNJiE" id="5M3rB6BJsK2" role="2OqNvi" />
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="5M3rB6CpbbK" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="5M3rB6BJsJV" role="8Wnug">
-            <node concept="3cpWsn" id="5M3rB6BJsJW" role="3cpWs9">
-              <property role="TrG5h" value="jsonClassifierIter" />
-              <node concept="2YL$Hu" id="5M3rB6BJsJX" role="1tU5fm">
-                <node concept="3uibUv" id="5M3rB6BJsJY" role="uOL27">
-                  <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="5M3rB6BJsJZ" role="33vP2m">
-                <node concept="2YIFZM" id="5M3rB6BJsK0" role="2Oq$k0">
-                  <ref role="37wK5l" to="6peh:39$JcGGbiH2" resolve="listJsonClassifiers" />
-                  <ref role="1Pybhc" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
-                  <node concept="37vLTw" id="5M3rB6BJsKp" role="37wK5m">
-                    <ref role="3cqZAo" node="39$JcGF4Bup" resolve="builtins" />
+        <node concept="2$JKZl" id="5M3rB6BJsK3" role="3cqZAp">
+          <node concept="3clFbS" id="5M3rB6BJsK4" role="2LFqv$">
+            <node concept="3clFbF" id="5M3rB6BJsK5" role="3cqZAp">
+              <node concept="1rXfSq" id="5M3rB6BJsK6" role="3clFbG">
+                <ref role="37wK5l" node="5sACIIsA0Fa" resolve="recordClassifier" />
+                <node concept="2OqwBi" id="5M3rB6BJsK7" role="37wK5m">
+                  <node concept="37vLTw" id="5M3rB6BJsK8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5M3rB6BJsJN" resolve="lcClassifierIter" />
                   </node>
+                  <node concept="v1n4t" id="5M3rB6BJsK9" role="2OqNvi" />
                 </node>
-                <node concept="uNJiE" id="5M3rB6BJsK2" role="2OqNvi" />
+                <node concept="2OqwBi" id="5M3rB6BJsKa" role="37wK5m">
+                  <node concept="37vLTw" id="5M3rB6BJsKb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5M3rB6BJsJW" resolve="jsonClassifierIter" />
+                  </node>
+                  <node concept="v1n4t" id="5M3rB6BJsKc" role="2OqNvi" />
+                </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="1X3_iC" id="5M3rB6CpbbL" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="2$JKZl" id="5M3rB6BJsK3" role="8Wnug">
-            <node concept="3clFbS" id="5M3rB6BJsK4" role="2LFqv$">
-              <node concept="3clFbF" id="5M3rB6BJsK5" role="3cqZAp">
-                <node concept="1rXfSq" id="5M3rB6BJsK6" role="3clFbG">
-                  <ref role="37wK5l" node="5sACIIsA0Fa" resolve="recordClassifier" />
-                  <node concept="2OqwBi" id="5M3rB6BJsK7" role="37wK5m">
-                    <node concept="37vLTw" id="5M3rB6BJsK8" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5M3rB6BJsJN" resolve="lcClassifierIter" />
-                    </node>
-                    <node concept="v1n4t" id="5M3rB6BJsK9" role="2OqNvi" />
-                  </node>
-                  <node concept="2OqwBi" id="5M3rB6BJsKa" role="37wK5m">
-                    <node concept="37vLTw" id="5M3rB6BJsKb" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5M3rB6BJsJW" resolve="jsonClassifierIter" />
-                    </node>
-                    <node concept="v1n4t" id="5M3rB6BJsKc" role="2OqNvi" />
-                  </node>
-                </node>
+          <node concept="1Wc70l" id="5M3rB6BJsKd" role="2$JKZa">
+            <node concept="2OqwBi" id="5M3rB6BJsKe" role="3uHU7B">
+              <node concept="37vLTw" id="5M3rB6BJsKf" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M3rB6BJsJN" resolve="lcClassifierIter" />
               </node>
+              <node concept="v0PNk" id="5M3rB6BJsKg" role="2OqNvi" />
             </node>
-            <node concept="1Wc70l" id="5M3rB6BJsKd" role="2$JKZa">
-              <node concept="2OqwBi" id="5M3rB6BJsKe" role="3uHU7B">
-                <node concept="37vLTw" id="5M3rB6BJsKf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5M3rB6BJsJN" resolve="lcClassifierIter" />
-                </node>
-                <node concept="v0PNk" id="5M3rB6BJsKg" role="2OqNvi" />
+            <node concept="2OqwBi" id="5M3rB6BJsKh" role="3uHU7w">
+              <node concept="37vLTw" id="5M3rB6BJsKi" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M3rB6BJsJW" resolve="jsonClassifierIter" />
               </node>
-              <node concept="2OqwBi" id="5M3rB6BJsKh" role="3uHU7w">
-                <node concept="37vLTw" id="5M3rB6BJsKi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5M3rB6BJsJW" resolve="jsonClassifierIter" />
-                </node>
-                <node concept="v0PNk" id="5M3rB6BJsKj" role="2OqNvi" />
-              </node>
+              <node concept="v0PNk" id="5M3rB6BJsKj" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -4352,7 +4308,7 @@
               <node concept="3cpWsn" id="5sACIIsA0wh" role="3cpWs9">
                 <property role="TrG5h" value="jsonEntity" />
                 <node concept="3uibUv" id="5sACIIsIhbl" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~LanguageElement" resolve="LanguageElement" />
+                  <ref role="3uigEE" to="imb3:~LanguageEntity" resolve="LanguageEntity" />
                 </node>
               </node>
             </node>
@@ -4437,7 +4393,7 @@
                   <ref role="3cqZAo" node="5sACIIsGImw" resolve="json" />
                 </node>
                 <node concept="liA8E" id="5sACIIsJft0" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Language.addElement(io.lionweb.lioncore.java.language.LanguageElement)" resolve="addElement" />
+                  <ref role="37wK5l" to="imb3:~Language.addElement(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="addElement" />
                   <node concept="37vLTw" id="5sACIIsJkl1" role="37wK5m">
                     <ref role="3cqZAo" node="5sACIIsA0wh" resolve="jsonEntity" />
                   </node>
@@ -4554,7 +4510,7 @@
           <node concept="3cpWsn" id="5sACIIsA0xy" role="3cpWs9">
             <property role="TrG5h" value="json" />
             <node concept="3uibUv" id="5sACIIsKCnr" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+              <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
             </node>
           </node>
         </node>
@@ -4652,7 +4608,7 @@
                   <ref role="3cqZAo" node="5sACIIsLHga" resolve="jsonCons" />
                 </node>
                 <node concept="liA8E" id="5wsogBcn2Fs" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                   <node concept="2OqwBi" id="5wsogBcn2Ft" role="37wK5m">
                     <node concept="37vLTw" id="5wsogBcn2Fu" role="2Oq$k0">
                       <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
@@ -4754,7 +4710,7 @@
                     <ref role="3cqZAo" node="5sACIIsNv$Z" resolve="jsonIface" />
                   </node>
                   <node concept="liA8E" id="5wsogBcn7Iv" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                    <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                     <node concept="2OqwBi" id="5wsogBcn7Iw" role="37wK5m">
                       <node concept="37vLTw" id="5wsogBcn7Ix" role="2Oq$k0">
                         <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
@@ -4813,7 +4769,7 @@
                   <ref role="3cqZAo" node="5sACIIsA0xy" resolve="json" />
                 </node>
                 <node concept="liA8E" id="5sACIIsOmjg" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~FeaturesContainer.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
+                  <ref role="37wK5l" to="imb3:~Classifier.addFeature(io.lionweb.lioncore.java.language.Feature)" resolve="addFeature" />
                   <node concept="1rXfSq" id="5sACIIsOoX8" role="37wK5m">
                     <ref role="37wK5l" node="5sACIIsA0$O" resolve="registerFeature" />
                     <node concept="2GrUjf" id="5sACIIsOGFz" role="37wK5m">
@@ -4840,7 +4796,7 @@
       </node>
       <node concept="3Tmbuc" id="5sACIIsA0yU" role="1B3o_S" />
       <node concept="3uibUv" id="5sACIIsKnCI" role="3clF45">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
       <node concept="2AHcQZ" id="5M3rB6BKtf2" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -4956,7 +4912,7 @@
       <node concept="37vLTG" id="5sACIIsA0z_" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="5sACIIsA0zA" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BK$od" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -5739,7 +5695,7 @@
                   <ref role="3cqZAo" node="5sACIIsA0BT" resolve="json" />
                 </node>
                 <node concept="liA8E" id="5sACIIsTTAT" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Link.setType(io.lionweb.lioncore.java.language.FeaturesContainer)" resolve="setType" />
+                  <ref role="37wK5l" to="imb3:~Link.setType(io.lionweb.lioncore.java.language.Classifier)" resolve="setType" />
                   <node concept="1rXfSq" id="5sACIIsTVVI" role="37wK5m">
                     <ref role="37wK5l" node="5sACIIsA0Fy" resolve="lookupClassifier" />
                     <node concept="2OqwBi" id="5sACIIsTZEk" role="37wK5m">
@@ -5944,7 +5900,7 @@
                   <ref role="3cqZAo" node="5sACIIsA0Cw" resolve="ptJson" />
                 </node>
                 <node concept="liA8E" id="1lCmc_Cc8in" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.setName(java.lang.String)" resolve="setName" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.setName(java.lang.String)" resolve="setName" />
                   <node concept="2OqwBi" id="1lCmc_CccMq" role="37wK5m">
                     <node concept="37vLTw" id="1lCmc_CcaqU" role="2Oq$k0">
                       <ref role="3cqZAo" node="5sACIIsVkso" resolve="ptLc" />
@@ -5983,7 +5939,7 @@
                   <ref role="3cqZAo" node="5sACIIsA0Cw" resolve="ptJson" />
                 </node>
                 <node concept="liA8E" id="5wsogBcnsOP" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                  <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                   <node concept="2OqwBi" id="5wsogBcnsOQ" role="37wK5m">
                     <node concept="37vLTw" id="5wsogBcnsOR" role="2Oq$k0">
                       <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
@@ -6066,7 +6022,7 @@
                     <ref role="3cqZAo" node="5sACIIsA0CX" resolve="enmJson" />
                   </node>
                   <node concept="liA8E" id="5sACIIsWPfV" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~LanguageElement.setName(java.lang.String)" resolve="setName" />
+                    <ref role="37wK5l" to="imb3:~LanguageEntity.setName(java.lang.String)" resolve="setName" />
                     <node concept="2OqwBi" id="5sACIIsWVDg" role="37wK5m">
                       <node concept="37vLTw" id="5sACIIsWT4I" role="2Oq$k0">
                         <ref role="3cqZAo" node="5sACIIsWsCl" resolve="enmLc" />
@@ -6105,7 +6061,7 @@
                     <ref role="3cqZAo" node="5sACIIsA0CX" resolve="enmJson" />
                   </node>
                   <node concept="liA8E" id="5wsogBcnylj" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                    <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                     <node concept="2OqwBi" id="5wsogBcnylk" role="37wK5m">
                       <node concept="37vLTw" id="5wsogBcnyll" role="2Oq$k0">
                         <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
@@ -6521,7 +6477,7 @@
       </node>
       <node concept="3Tmbuc" id="5sACIIsA0Fs" role="1B3o_S" />
       <node concept="3uibUv" id="5sACIIsDtST" role="3clF45">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
       <node concept="37vLTG" id="5sACIIsA0Fw" role="3clF46">
         <property role="TrG5h" value="lc" />
@@ -6535,7 +6491,7 @@
       <node concept="37vLTG" id="5sACIIsA0Fu" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="5sACIIsA0Fv" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BMpnR" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -6571,7 +6527,7 @@
       </node>
       <node concept="3Tmbuc" id="5sACIIsA0FG" role="1B3o_S" />
       <node concept="3uibUv" id="5sACIIsDOcd" role="3clF45">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
       <node concept="37vLTG" id="5sACIIsA0FI" role="3clF46">
         <property role="TrG5h" value="lc" />

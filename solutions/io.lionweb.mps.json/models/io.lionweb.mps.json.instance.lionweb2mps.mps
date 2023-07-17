@@ -4098,7 +4098,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="9wS6VcuPco" role="2OqNvi">
-                <ref role="37wK5l" to="imb3:~LanguageElement.setKey(java.lang.String)" resolve="setKey" />
+                <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
                 <node concept="37vLTw" id="pPZz6cSz0O" role="37wK5m">
                   <ref role="3cqZAo" node="pPZz6cSz0K" resolve="conceptKey" />
                 </node>

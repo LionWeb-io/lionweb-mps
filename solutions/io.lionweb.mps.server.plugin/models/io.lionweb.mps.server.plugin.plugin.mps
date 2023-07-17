@@ -855,7 +855,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="2hMVRd" id="5glO5qKZr7i" role="1tU5fm">
               <node concept="3uibUv" id="5glO5qKZr7l" role="2hN53Y">
-                <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
               </node>
             </node>
           </node>
@@ -1092,7 +1092,7 @@
       <node concept="3clFbS" id="5s4Z0e0syF7" role="3clF47">
         <node concept="3cpWs8" id="5s4Z0e0syGs" role="3cqZAp">
           <node concept="3cpWsn" id="5s4Z0e0syGt" role="3cpWs9">
-            <property role="TrG5h" value="metamodel" />
+            <property role="TrG5h" value="language" />
             <node concept="3uibUv" id="5s4Z0e0tDu0" role="1tU5fm">
               <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
             </node>
@@ -1230,7 +1230,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="5s4Z0e0syGW" role="37vLTJ">
-                    <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="metamodel" />
+                    <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="language" />
                   </node>
                 </node>
               </node>
@@ -1285,7 +1285,7 @@
             <node concept="liA8E" id="5s4Z0e0syHf" role="2OqNvi">
               <ref role="37wK5l" to="6peh:5s4Z0e0n9X_" resolve="serialize" />
               <node concept="37vLTw" id="5s4Z0e0syHg" role="37wK5m">
-                <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="metamodel" />
+                <ref role="3cqZAo" node="5s4Z0e0syGt" resolve="language" />
               </node>
             </node>
           </node>

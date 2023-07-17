@@ -132,15 +132,11 @@
       <node concept="3clFbS" id="5M3rB6_MVsH" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Av$rz" role="3cqZAp">
           <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
-          <node concept="15s5l7" id="4n8SsXjurNy" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
-            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
+          <node concept="15s5l7" id="3IncSZJiBD5" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
+            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
           </node>
-          <node concept="15s5l7" id="5M3rB6BPtOg" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToMpsKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902b1(jetbrains.mps.lang.typesystem.typesystem)/1269166727599073781,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
-            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToMpsKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
-          </node>
-          <node concept="15s5l7" id="5M3rB6BPtly" role="lGtFl">
+          <node concept="15s5l7" id="3IncSZJiBkZ" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
             <property role="huDt6" value="Error: Incompatible method signature" />
           </node>
@@ -193,11 +189,11 @@
       <node concept="3clFbS" id="5M3rB6AwpRQ" role="3clF47">
         <node concept="XkiVB" id="5M3rB6AxSXT" role="3cqZAp">
           <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
-          <node concept="15s5l7" id="5M3rB6BPuDl" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902b1(jetbrains.mps.lang.typesystem.typesystem)/1269166727599073781,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
-            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Metamodel,FeaturesContainer,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
+          <node concept="15s5l7" id="3IncSZJiDdH" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902b1(jetbrains.mps.lang.typesystem.typesystem)/1269166727599073781,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
+            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
           </node>
-          <node concept="15s5l7" id="5M3rB6BPupG" role="lGtFl">
+          <node concept="15s5l7" id="3IncSZJiCY5" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
             <property role="huDt6" value="Error: Incompatible method signature" />
           </node>
@@ -258,8 +254,8 @@
       <node concept="3uibUv" id="5M3rB6A0N8z" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
-      <node concept="3uibUv" id="5M3rB6A0N8$" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+      <node concept="3uibUv" id="39$JcGGbiHo" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
       <node concept="3uibUv" id="5M3rB6A0N8_" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
@@ -326,7 +322,7 @@
       <node concept="37vLTG" id="5M3rB6A0Hkk" role="3clF46">
         <property role="TrG5h" value="classifier" />
         <node concept="3uibUv" id="5M3rB6A0Hkl" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
       <node concept="3clFbS" id="5M3rB6A0Hkm" role="3clF47">
@@ -336,7 +332,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hkk" resolve="classifier" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hkq" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -363,7 +359,7 @@
               <ref role="3cqZAo" node="5M3rB6A0Hku" resolve="concept" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HkA" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -390,7 +386,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HkE" resolve="iface" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HkM" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -525,7 +521,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HlA" resolve="datatype" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HlI" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -552,7 +548,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HlM" resolve="primitive" />
             </node>
             <node concept="liA8E" id="5M3rB6A0HlU" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -579,7 +575,7 @@
               <ref role="3cqZAo" node="5M3rB6A0HlY" resolve="enm" />
             </node>
             <node concept="liA8E" id="5M3rB6A0Hm6" role="2OqNvi">
-              <ref role="37wK5l" to="imb3:~LanguageElement.getKey()" resolve="getKey" />
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
             </node>
           </node>
         </node>
@@ -627,7 +623,7 @@
         <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAAR7" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAAR8" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
@@ -665,7 +661,7 @@
           <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUd" role="11_B2D">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUe" role="11_B2D">
           <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
@@ -711,7 +707,7 @@
               <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYe" role="11_B2D">
-              <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+              <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYf" role="11_B2D">
               <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />

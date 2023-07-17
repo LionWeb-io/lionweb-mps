@@ -140,7 +140,7 @@
     <node concept="1TJgyj" id="DUXtH0uZbo" role="1TKVEi">
       <property role="IQ2ns" value="755186209566487256" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="metamodels" />
+      <property role="20kJfa" value="languages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="h3y3:2ju2syjknNi" resolve="LanguageReference" />
     </node>

@@ -622,7 +622,7 @@
                 <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                 <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                 <node concept="3uibUv" id="5glO5qKZ2iW" role="3PaCim">
-                  <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+                  <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
                 </node>
               </node>
             </node>
@@ -704,7 +704,7 @@
         <property role="TrG5h" value="languages" />
         <node concept="A3Dl8" id="5glO5qKYQfl" role="1tU5fm">
           <node concept="3uibUv" id="5glO5qKYRq_" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+            <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
           </node>
         </node>
       </node>
@@ -738,7 +738,7 @@
                 <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                 <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
                 <node concept="3uibUv" id="5glO5qKZ3in" role="3PaCim">
-                  <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+                  <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
                 </node>
               </node>
             </node>
@@ -790,7 +790,7 @@
         <property role="TrG5h" value="languages" />
         <node concept="A3Dl8" id="5glO5qKYSj8" role="1tU5fm">
           <node concept="3uibUv" id="5glO5qKYSj9" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~LanguageKeyVersion" resolve="LanguageKeyVersion" />
+            <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
           </node>
         </node>
       </node>
@@ -858,7 +858,7 @@
                   <ref role="3cqZAo" node="5s4Z0e0bZx9" resolve="serializedChunk" />
                 </node>
                 <node concept="liA8E" id="5glO5qKYUW6" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedChunk.addLanguage(io.lionweb.lioncore.java.serialization.data.LanguageKeyVersion)" resolve="addLanguage" />
+                  <ref role="37wK5l" to="xfsv:~SerializedChunk.addLanguage(io.lionweb.lioncore.java.serialization.data.UsedLanguage)" resolve="addLanguage" />
                   <node concept="2GrUjf" id="5glO5qKYYgd" role="37wK5m">
                     <ref role="2Gs0qQ" node="5glO5qKYVRL" resolve="l" />
                   </node>
@@ -1014,7 +1014,7 @@
           <node concept="2ShNRf" id="39$JcGGbiH7" role="3clFbG">
             <node concept="Tc6Ow" id="39$JcGGbiH8" role="2ShVmc">
               <node concept="3uibUv" id="39$JcGGbiH9" role="HW$YZ">
-                <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+                <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
               </node>
               <node concept="2OqwBi" id="7m$AwvunaWp" role="HW$Y0">
                 <node concept="37vLTw" id="7m$AwvunazK" role="2Oq$k0">
@@ -1039,7 +1039,7 @@
       <node concept="3Tm1VV" id="39$JcGGbiHm" role="1B3o_S" />
       <node concept="_YKpA" id="39$JcGGbiHn" role="3clF45">
         <node concept="3uibUv" id="39$JcGGbiHo" role="_ZDj9">
-          <ref role="3uigEE" to="imb3:~FeaturesContainer" resolve="FeaturesContainer" />
+          <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
         </node>
       </node>
     </node>
