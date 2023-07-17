@@ -50,6 +50,9 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -228,6 +231,14 @@
         <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
       </node>
     </node>
+    <node concept="312cEg" id="3zvxfLhv2ck" role="jymVt">
+      <property role="TrG5h" value="idDeserializer" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="3zvxfLhv1AH" role="1B3o_S" />
+      <node concept="3uibUv" id="3zvxfLhv2bv" role="1tU5fm">
+        <ref role="3uigEE" to="apzt:3zvxfLhsBRw" resolve="MpsIdDeserializer" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6VkSF6aIsjD" role="jymVt" />
     <node concept="3clFbW" id="6VkSF6aIt83" role="jymVt">
       <node concept="37vLTG" id="48csSBNSpzW" role="3clF46">
@@ -248,6 +259,21 @@
               <node concept="Xjq3P" id="6VkSF6aIu5D" role="2Oq$k0" />
               <node concept="2OwXpG" id="6VkSF6aIuyn" role="2OqNvi">
                 <ref role="2Oxat5" node="48csSBNRezH" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3zvxfLhv2LP" role="3cqZAp">
+          <node concept="37vLTI" id="3zvxfLhv3aB" role="3clFbG">
+            <node concept="2ShNRf" id="3zvxfLhv3cT" role="37vLTx">
+              <node concept="HV5vD" id="3zvxfLhv3nn" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:3zvxfLhsBRw" resolve="MpsIdDeserializer" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3zvxfLhv2R3" role="37vLTJ">
+              <node concept="Xjq3P" id="3zvxfLhv2LN" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3zvxfLhv2Z5" role="2OqNvi">
+                <ref role="2Oxat5" node="3zvxfLhv2ck" resolve="idDeserializer" />
               </node>
             </node>
           </node>
@@ -1164,7 +1190,7 @@
                         <property role="TrG5h" value="e" />
                         <node concept="nSUau" id="6VkSF6cbtso" role="1tU5fm">
                           <node concept="3uibUv" id="6VkSF6cbucT" role="nSUat">
-                            <ref role="3uigEE" to="wyt6:~NumberFormatException" resolve="NumberFormatException" />
+                            <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                           </node>
                         </node>
                       </node>
@@ -1230,20 +1256,24 @@
                           <node concept="3uibUv" id="6VkSF6cba2o" role="1tU5fm">
                             <ref role="3uigEE" to="e8bb:~SLanguageId" resolve="SLanguageId" />
                           </node>
-                          <node concept="2YIFZM" id="6VkSF6ccUMZ" role="33vP2m">
-                            <ref role="37wK5l" to="e8bb:~SLanguageId.deserialize(java.lang.String)" resolve="deserialize" />
-                            <ref role="1Pybhc" to="e8bb:~SLanguageId" resolve="SLanguageId" />
-                            <node concept="2OqwBi" id="6VkSF6ccXM2" role="37wK5m">
-                              <node concept="2OqwBi" id="6VkSF6ccWuz" role="2Oq$k0">
-                                <node concept="37vLTw" id="6VkSF6ccVBT" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="6VkSF6ccCbk" resolve="module" />
+                          <node concept="2OqwBi" id="3zvxfLhv4yr" role="33vP2m">
+                            <node concept="37vLTw" id="3zvxfLhv43P" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3zvxfLhv2ck" resolve="idDeserializer" />
+                            </node>
+                            <node concept="liA8E" id="3zvxfLhv51X" role="2OqNvi">
+                              <ref role="37wK5l" to="apzt:3zvxfLhsDcB" resolve="language" />
+                              <node concept="2OqwBi" id="6VkSF6ccXM2" role="37wK5m">
+                                <node concept="2OqwBi" id="6VkSF6ccWuz" role="2Oq$k0">
+                                  <node concept="37vLTw" id="6VkSF6ccVBT" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="6VkSF6ccCbk" resolve="module" />
+                                  </node>
+                                  <node concept="liA8E" id="6VkSF6ccXvu" role="2OqNvi">
+                                    <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
+                                  </node>
                                 </node>
-                                <node concept="liA8E" id="6VkSF6ccXvu" role="2OqNvi">
-                                  <ref role="37wK5l" to="lui2:~SModule.getModuleId()" resolve="getModuleId" />
+                                <node concept="liA8E" id="6VkSF6ccYHC" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                                 </node>
-                              </node>
-                              <node concept="liA8E" id="6VkSF6ccYHC" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                               </node>
                             </node>
                           </node>

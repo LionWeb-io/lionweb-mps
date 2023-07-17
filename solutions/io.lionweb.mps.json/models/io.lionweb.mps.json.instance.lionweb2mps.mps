@@ -60,6 +60,9 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -3779,6 +3782,14 @@
         <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
     </node>
+    <node concept="312cEg" id="3zvxfLhtJ1o" role="jymVt">
+      <property role="TrG5h" value="idDeserializer" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="3zvxfLhtGwi" role="1B3o_S" />
+      <node concept="3uibUv" id="3zvxfLhtIOD" role="1tU5fm">
+        <ref role="3uigEE" to="apzt:3zvxfLhsBRw" resolve="MpsIdDeserializer" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1bT$FEXaQAr" role="jymVt" />
     <node concept="2tJIrI" id="pPZz6cSvsQ" role="jymVt" />
     <node concept="312cEg" id="pPZz6cQsE7" role="jymVt">
@@ -3915,6 +3926,21 @@
             </node>
             <node concept="37vLTw" id="5M3rB6BAjR$" role="37vLTx">
               <ref role="3cqZAo" node="5M3rB6BAi43" resolve="attributeFinder" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3zvxfLhtLNC" role="3cqZAp">
+          <node concept="37vLTI" id="3zvxfLhtMDO" role="3clFbG">
+            <node concept="2ShNRf" id="3zvxfLhtMGe" role="37vLTx">
+              <node concept="HV5vD" id="3zvxfLhtNhT" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:3zvxfLhsBRw" resolve="MpsIdDeserializer" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3zvxfLhtM4e" role="37vLTJ">
+              <node concept="Xjq3P" id="3zvxfLhtLNA" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3zvxfLhtMms" role="2OqNvi">
+                <ref role="2Oxat5" node="3zvxfLhtJ1o" resolve="idDeserializer" />
+              </node>
             </node>
           </node>
         </node>
@@ -4137,11 +4163,15 @@
                 <node concept="3uibUv" id="9wS6VcuPcV" role="1tU5fm">
                   <ref role="3uigEE" to="e8bb:~SConceptId" resolve="SConceptId" />
                 </node>
-                <node concept="2YIFZM" id="9wS6VcuPcW" role="33vP2m">
-                  <ref role="37wK5l" to="e8bb:~SConceptId.deserialize(java.lang.String)" resolve="deserialize" />
-                  <ref role="1Pybhc" to="e8bb:~SConceptId" resolve="SConceptId" />
-                  <node concept="37vLTw" id="9wS6VcuPcX" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPct" resolve="mappedId" />
+                <node concept="2OqwBi" id="3zvxfLhtZrC" role="33vP2m">
+                  <node concept="37vLTw" id="3zvxfLhtXQi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3zvxfLhtJ1o" resolve="idDeserializer" />
+                  </node>
+                  <node concept="liA8E" id="3zvxfLhu1bM" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:3zvxfLhsDD4" resolve="concept" />
+                    <node concept="37vLTw" id="3zvxfLhu3tQ" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPct" resolve="mappedId" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4203,11 +4233,8 @@
             <node concept="XOnhg" id="pPZz6cSiYz" role="1zc67B">
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="pPZz6cSiY$" role="1tU5fm">
-                <node concept="3uibUv" id="pPZz6cSk4p" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
-                </node>
-                <node concept="3uibUv" id="if73NDFG4K" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                <node concept="3uibUv" id="3zvxfLhxVLm" role="nSUat">
+                  <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                 </node>
               </node>
             </node>
@@ -4489,11 +4516,15 @@
                 <node concept="3uibUv" id="9wS6VcuPe4" role="1tU5fm">
                   <ref role="3uigEE" to="e8bb:~SPropertyId" resolve="SPropertyId" />
                 </node>
-                <node concept="2YIFZM" id="9wS6VcuPe5" role="33vP2m">
-                  <ref role="37wK5l" to="e8bb:~SPropertyId.deserialize(java.lang.String)" resolve="deserialize" />
-                  <ref role="1Pybhc" to="e8bb:~SPropertyId" resolve="SPropertyId" />
-                  <node concept="37vLTw" id="9wS6VcuPe6" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPdD" resolve="mappedId" />
+                <node concept="2OqwBi" id="3zvxfLhw5y9" role="33vP2m">
+                  <node concept="37vLTw" id="3zvxfLhw48G" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3zvxfLhtJ1o" resolve="idDeserializer" />
+                  </node>
+                  <node concept="liA8E" id="3zvxfLhw7$3" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:3zvxfLhsEPR" resolve="property" />
+                    <node concept="37vLTw" id="3zvxfLhw9zp" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPdD" resolve="mappedId" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4560,11 +4591,8 @@
             <node concept="XOnhg" id="1bT$FEXbs1y" role="1zc67B">
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="1bT$FEXbs1z" role="1tU5fm">
-                <node concept="3uibUv" id="1bT$FEXbs1$" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
-                </node>
-                <node concept="3uibUv" id="if73NDFNHt" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                <node concept="3uibUv" id="3zvxfLhy00a" role="nSUat">
+                  <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                 </node>
               </node>
             </node>
@@ -4830,11 +4858,15 @@
                 <node concept="3uibUv" id="9wS6VcuPfd" role="1tU5fm">
                   <ref role="3uigEE" to="e8bb:~SContainmentLinkId" resolve="SContainmentLinkId" />
                 </node>
-                <node concept="2YIFZM" id="9wS6VcuPfe" role="33vP2m">
-                  <ref role="1Pybhc" to="e8bb:~SContainmentLinkId" resolve="SContainmentLinkId" />
-                  <ref role="37wK5l" to="e8bb:~SContainmentLinkId.deserialize(java.lang.String)" resolve="deserialize" />
-                  <node concept="37vLTw" id="9wS6VcuPff" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPeM" resolve="mappedId" />
+                <node concept="2OqwBi" id="3zvxfLhwNwO" role="33vP2m">
+                  <node concept="37vLTw" id="3zvxfLhwLUX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3zvxfLhtJ1o" resolve="idDeserializer" />
+                  </node>
+                  <node concept="liA8E" id="3zvxfLhwPQh" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:3zvxfLhsGhR" resolve="containment" />
+                    <node concept="37vLTw" id="3zvxfLhwS8_" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPeM" resolve="mappedId" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4901,11 +4933,8 @@
             <node concept="XOnhg" id="1bT$FEXcwwK" role="1zc67B">
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="1bT$FEXcwwL" role="1tU5fm">
-                <node concept="3uibUv" id="1bT$FEXcwwM" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
-                </node>
-                <node concept="3uibUv" id="if73NDFVgg" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                <node concept="3uibUv" id="3zvxfLhy3_U" role="nSUat">
+                  <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                 </node>
               </node>
             </node>
@@ -5171,11 +5200,15 @@
                 <node concept="3uibUv" id="9wS6VcuPgm" role="1tU5fm">
                   <ref role="3uigEE" to="e8bb:~SReferenceLinkId" resolve="SReferenceLinkId" />
                 </node>
-                <node concept="2YIFZM" id="9wS6VcuPgn" role="33vP2m">
-                  <ref role="1Pybhc" to="e8bb:~SReferenceLinkId" resolve="SReferenceLinkId" />
-                  <ref role="37wK5l" to="e8bb:~SReferenceLinkId.deserialize(java.lang.String)" resolve="deserialize" />
-                  <node concept="37vLTw" id="9wS6VcuPgo" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPfV" resolve="mappedId" />
+                <node concept="2OqwBi" id="3zvxfLhxNWZ" role="33vP2m">
+                  <node concept="37vLTw" id="3zvxfLhxNX0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3zvxfLhtJ1o" resolve="idDeserializer" />
+                  </node>
+                  <node concept="liA8E" id="3zvxfLhxNX1" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:3zvxfLhsIBm" resolve="reference" />
+                    <node concept="37vLTw" id="3zvxfLhxNX2" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPfV" resolve="mappedId" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -5242,11 +5275,8 @@
             <node concept="XOnhg" id="1bT$FEXdz0Q" role="1zc67B">
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="1bT$FEXdz0R" role="1tU5fm">
-                <node concept="3uibUv" id="1bT$FEXdz0S" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
-                </node>
-                <node concept="3uibUv" id="if73NDF$gP" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                <node concept="3uibUv" id="3zvxfLhy7IM" role="nSUat">
+                  <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                 </node>
               </node>
             </node>
@@ -5499,11 +5529,8 @@
             <node concept="XOnhg" id="pPZz6cQV97" role="1zc67B">
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="pPZz6cQV98" role="1tU5fm">
-                <node concept="3uibUv" id="pPZz6cQVJY" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
-                </node>
-                <node concept="3uibUv" id="if73NDG2t9" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~StringIndexOutOfBoundsException" resolve="StringIndexOutOfBoundsException" />
+                <node concept="3uibUv" id="3zvxfLhybc5" role="nSUat">
+                  <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                 </node>
               </node>
             </node>
@@ -5524,11 +5551,15 @@
                 <node concept="3uibUv" id="9wS6VcuPhb" role="1tU5fm">
                   <ref role="3uigEE" to="e8bb:~SLanguageId" resolve="SLanguageId" />
                 </node>
-                <node concept="2YIFZM" id="9wS6VcuPhc" role="33vP2m">
-                  <ref role="1Pybhc" to="e8bb:~SLanguageId" resolve="SLanguageId" />
-                  <ref role="37wK5l" to="e8bb:~SLanguageId.deserialize(java.lang.String)" resolve="deserialize" />
-                  <node concept="37vLTw" id="9wS6VcuPhd" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPh3" resolve="mappedId" />
+                <node concept="2OqwBi" id="3zvxfLhvn5V" role="33vP2m">
+                  <node concept="37vLTw" id="3zvxfLhvlwq" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3zvxfLhtJ1o" resolve="idDeserializer" />
+                  </node>
+                  <node concept="liA8E" id="3zvxfLhvpBk" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:3zvxfLhsDcB" resolve="language" />
+                    <node concept="37vLTw" id="3zvxfLhvrmL" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPh3" resolve="mappedId" />
+                    </node>
                   </node>
                 </node>
               </node>
