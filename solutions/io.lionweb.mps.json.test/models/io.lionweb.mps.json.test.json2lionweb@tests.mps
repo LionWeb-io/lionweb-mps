@@ -1085,6 +1085,11 @@
                 <node concept="37vLTw" id="5M3rB6CnBF6" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6CnBux" resolve="finder" />
                 </node>
+                <node concept="2ShNRf" id="A9P4gGxTSC" role="37wK5m">
+                  <node concept="1pGfFk" id="A9P4gGxUie" role="2ShVmc">
+                    <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

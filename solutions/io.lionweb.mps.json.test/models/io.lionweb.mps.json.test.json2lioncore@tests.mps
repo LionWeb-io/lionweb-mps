@@ -23,6 +23,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
+    <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
   </imports>
@@ -370,6 +371,11 @@
                     </node>
                     <node concept="37vLTw" id="4n8SsXjt$65" role="37wK5m">
                       <ref role="3cqZAo" node="4n8SsXjt$62" resolve="mapper" />
+                    </node>
+                    <node concept="2ShNRf" id="A9P4gGy9_t" role="37wK5m">
+                      <node concept="1pGfFk" id="A9P4gGyaKY" role="2ShVmc">
+                        <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                      </node>
                     </node>
                   </node>
                 </node>

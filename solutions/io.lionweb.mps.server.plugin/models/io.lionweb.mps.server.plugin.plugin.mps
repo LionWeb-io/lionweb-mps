@@ -1562,6 +1562,11 @@
                 <node concept="37vLTw" id="5M3rB6BZYpV" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BZYpO" resolve="attributeFinder" />
                 </node>
+                <node concept="2ShNRf" id="A9P4gGy1$U" role="37wK5m">
+                  <node concept="1pGfFk" id="A9P4gGy4Fj" role="2ShVmc">
+                    <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

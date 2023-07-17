@@ -58,9 +58,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -1173,11 +1170,11 @@
           <node concept="3cpWsn" id="2qVVyx0HbtK" role="3cpWs9">
             <property role="TrG5h" value="metaAdapterFactoryHelper" />
             <node concept="3uibUv" id="2qVVyx0HaIN" role="1tU5fm">
-              <ref role="3uigEE" to="dydc:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
             </node>
             <node concept="2ShNRf" id="2qVVyx0HbtL" role="33vP2m">
-              <node concept="HV5vD" id="2qVVyx0HbtM" role="2ShVmc">
-                <ref role="HV5vE" to="dydc:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              <node concept="1pGfFk" id="A9P4gGBorz" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
               </node>
             </node>
           </node>

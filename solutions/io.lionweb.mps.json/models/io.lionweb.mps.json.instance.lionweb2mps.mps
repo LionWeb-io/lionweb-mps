@@ -1693,6 +1693,9 @@
           <node concept="37vLTw" id="1bT$FEXgBrP" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6BANKy" resolve="attributeFinder" />
           </node>
+          <node concept="37vLTw" id="A9P4gGxQYH" role="37wK5m">
+            <ref role="3cqZAo" node="A9P4gGxQLT" resolve="metaAdapterFactoryHelper" />
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="5M3rB6BANKv" role="3clF46">
@@ -1710,6 +1713,15 @@
           <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BANK$" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="A9P4gGxQLT" role="3clF46">
+        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <node concept="3uibUv" id="A9P4gGxQLU" role="1tU5fm">
+          <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+        </node>
+        <node concept="2AHcQZ" id="A9P4gGxQLV" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -3501,6 +3513,9 @@
           <node concept="37vLTw" id="pPZz6cSbYD" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6BAl$2" resolve="attributeFinder" />
           </node>
+          <node concept="37vLTw" id="A9P4gGxQAS" role="37wK5m">
+            <ref role="3cqZAo" node="A9P4gGxQoZ" resolve="metaAdapterFactoryHelper" />
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="5M3rB6BAlzZ" role="3clF46">
@@ -3518,6 +3533,15 @@
           <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BAl$4" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="A9P4gGxQoZ" role="3clF46">
+        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <node concept="3uibUv" id="A9P4gGxQp0" role="1tU5fm">
+          <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+        </node>
+        <node concept="2AHcQZ" id="A9P4gGxQp1" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -3782,6 +3806,14 @@
         <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
     </node>
+    <node concept="312cEg" id="A9P4gGngul" role="jymVt">
+      <property role="TrG5h" value="metaAdapterFactoryHelper" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="A9P4gGngum" role="1B3o_S" />
+      <node concept="3uibUv" id="A9P4gGnguo" role="1tU5fm">
+        <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+      </node>
+    </node>
     <node concept="312cEg" id="3zvxfLhtJ1o" role="jymVt">
       <property role="TrG5h" value="idDeserializer" />
       <property role="3TUv4t" value="true" />
@@ -3929,6 +3961,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="A9P4gGngup" role="3cqZAp">
+          <node concept="37vLTI" id="A9P4gGngur" role="3clFbG">
+            <node concept="2OqwBi" id="A9P4gGnjvm" role="37vLTJ">
+              <node concept="Xjq3P" id="A9P4gGnjQT" role="2Oq$k0" />
+              <node concept="2OwXpG" id="A9P4gGnjvp" role="2OqNvi">
+                <ref role="2Oxat5" node="A9P4gGngul" resolve="metaAdapterFactoryHelper" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="A9P4gGnguv" role="37vLTx">
+              <ref role="3cqZAo" node="A9P4gGgsbc" resolve="metaAdapterFactoryHelper" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3zvxfLhtLNC" role="3cqZAp">
           <node concept="37vLTI" id="3zvxfLhtMDO" role="3clFbG">
             <node concept="2ShNRf" id="3zvxfLhtMGe" role="37vLTx">
@@ -3960,6 +4005,15 @@
           <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BAjg2" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="A9P4gGgsbc" role="3clF46">
+        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <node concept="3uibUv" id="A9P4gGg$xT" role="1tU5fm">
+          <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+        </node>
+        <node concept="2AHcQZ" id="A9P4gGpDvD" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -4178,18 +4232,22 @@
             </node>
             <node concept="3clFbF" id="pPZz6cSD7Z" role="3cqZAp">
               <node concept="37vLTI" id="pPZz6cSD81" role="3clFbG">
-                <node concept="2YIFZM" id="9wS6VcuPd1" role="37vLTx">
-                  <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getConcept(jetbrains.mps.smodel.adapter.ids.SConceptId,java.lang.String)" resolve="getConcept" />
-                  <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
-                  <node concept="37vLTw" id="9wS6VcuPd2" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPcU" resolve="id" />
-                  </node>
-                  <node concept="37vLTw" id="pPZz6cSz0P" role="37wK5m">
-                    <ref role="3cqZAo" node="pPZz6cSz0K" resolve="conceptKey" />
-                  </node>
-                </node>
                 <node concept="37vLTw" id="pPZz6cSD85" role="37vLTJ">
                   <ref role="3cqZAo" node="9wS6VcuPcZ" resolve="result" />
+                </node>
+                <node concept="2OqwBi" id="A9P4gGnpuD" role="37vLTx">
+                  <node concept="37vLTw" id="A9P4gGnnaG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="A9P4gGngul" resolve="metaAdapterFactoryHelper" />
+                  </node>
+                  <node concept="liA8E" id="A9P4gGnrli" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:A9P4gGnery" resolve="getConcept" />
+                    <node concept="37vLTw" id="A9P4gGnu80" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPcU" resolve="id" />
+                    </node>
+                    <node concept="37vLTw" id="A9P4gGnxFE" role="37wK5m">
+                      <ref role="3cqZAo" node="pPZz6cSz0K" resolve="conceptKey" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -4531,23 +4589,27 @@
             </node>
             <node concept="3clFbF" id="1bT$FEXbW9D" role="3cqZAp">
               <node concept="37vLTI" id="1bT$FEXbW9F" role="3clFbG">
-                <node concept="2YIFZM" id="9wS6VcuPea" role="37vLTx">
-                  <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
-                  <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getProperty(jetbrains.mps.smodel.adapter.ids.SPropertyId,java.lang.String)" resolve="getProperty" />
-                  <node concept="37vLTw" id="9wS6VcuPeb" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPe3" resolve="id" />
-                  </node>
-                  <node concept="2OqwBi" id="9wS6VcuPec" role="37wK5m">
-                    <node concept="37vLTw" id="9wS6VcuPed" role="2Oq$k0">
-                      <ref role="3cqZAo" node="9wS6VcuPdn" resolve="metaPointer" />
-                    </node>
-                    <node concept="liA8E" id="9wS6VcuPee" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="37vLTw" id="1bT$FEXbW9J" role="37vLTJ">
                   <ref role="3cqZAo" node="1bT$FEXbs0l" resolve="result" />
+                </node>
+                <node concept="2OqwBi" id="A9P4gGnQQO" role="37vLTx">
+                  <node concept="37vLTw" id="A9P4gGnOXS" role="2Oq$k0">
+                    <ref role="3cqZAo" node="A9P4gGngul" resolve="metaAdapterFactoryHelper" />
+                  </node>
+                  <node concept="liA8E" id="A9P4gGnT31" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:A9P4gGnELc" resolve="getProperty" />
+                    <node concept="37vLTw" id="9wS6VcuPeb" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPe3" resolve="id" />
+                    </node>
+                    <node concept="2OqwBi" id="9wS6VcuPec" role="37wK5m">
+                      <node concept="37vLTw" id="9wS6VcuPed" role="2Oq$k0">
+                        <ref role="3cqZAo" node="9wS6VcuPdn" resolve="metaPointer" />
+                      </node>
+                      <node concept="liA8E" id="9wS6VcuPee" role="2OqNvi">
+                        <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -4873,23 +4935,27 @@
             </node>
             <node concept="3clFbF" id="1bT$FEXd8pb" role="3cqZAp">
               <node concept="37vLTI" id="1bT$FEXd8pd" role="3clFbG">
-                <node concept="2YIFZM" id="9wS6VcuPfj" role="37vLTx">
-                  <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
-                  <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getContainmentLink(jetbrains.mps.smodel.adapter.ids.SContainmentLinkId,java.lang.String)" resolve="getContainmentLink" />
-                  <node concept="37vLTw" id="9wS6VcuPfk" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPfc" resolve="id" />
-                  </node>
-                  <node concept="2OqwBi" id="9wS6VcuPfl" role="37wK5m">
-                    <node concept="37vLTw" id="9wS6VcuPfm" role="2Oq$k0">
-                      <ref role="3cqZAo" node="9wS6VcuPew" resolve="metaPointer" />
-                    </node>
-                    <node concept="liA8E" id="9wS6VcuPfn" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="37vLTw" id="1bT$FEXd8ph" role="37vLTJ">
                   <ref role="3cqZAo" node="1bT$FEXcwvs" resolve="result" />
+                </node>
+                <node concept="2OqwBi" id="A9P4gGolkv" role="37vLTx">
+                  <node concept="37vLTw" id="A9P4gGoj7y" role="2Oq$k0">
+                    <ref role="3cqZAo" node="A9P4gGngul" resolve="metaAdapterFactoryHelper" />
+                  </node>
+                  <node concept="liA8E" id="A9P4gGoo83" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:A9P4gGoexA" resolve="getContainmentLink" />
+                    <node concept="37vLTw" id="9wS6VcuPfk" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPfc" resolve="id" />
+                    </node>
+                    <node concept="2OqwBi" id="9wS6VcuPfl" role="37wK5m">
+                      <node concept="37vLTw" id="9wS6VcuPfm" role="2Oq$k0">
+                        <ref role="3cqZAo" node="9wS6VcuPew" resolve="metaPointer" />
+                      </node>
+                      <node concept="liA8E" id="9wS6VcuPfn" role="2OqNvi">
+                        <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -5215,23 +5281,27 @@
             </node>
             <node concept="3clFbF" id="1bT$FEXe32$" role="3cqZAp">
               <node concept="37vLTI" id="1bT$FEXe32A" role="3clFbG">
-                <node concept="2YIFZM" id="9wS6VcuPgs" role="37vLTx">
-                  <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
-                  <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getReferenceLink(jetbrains.mps.smodel.adapter.ids.SReferenceLinkId,java.lang.String)" resolve="getReferenceLink" />
-                  <node concept="37vLTw" id="9wS6VcuPgt" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPgl" resolve="id" />
-                  </node>
-                  <node concept="2OqwBi" id="9wS6VcuPgu" role="37wK5m">
-                    <node concept="37vLTw" id="9wS6VcuPgv" role="2Oq$k0">
-                      <ref role="3cqZAo" node="9wS6VcuPfD" resolve="metaPointer" />
-                    </node>
-                    <node concept="liA8E" id="9wS6VcuPgw" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="37vLTw" id="1bT$FEXe32E" role="37vLTJ">
                   <ref role="3cqZAo" node="1bT$FEXdyZy" resolve="result" />
+                </node>
+                <node concept="2OqwBi" id="A9P4gGoFd$" role="37vLTx">
+                  <node concept="37vLTw" id="A9P4gGoD0c" role="2Oq$k0">
+                    <ref role="3cqZAo" node="A9P4gGngul" resolve="metaAdapterFactoryHelper" />
+                  </node>
+                  <node concept="liA8E" id="A9P4gGoHu7" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:A9P4gGoyuB" resolve="getReferenceLink" />
+                    <node concept="37vLTw" id="9wS6VcuPgt" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPgl" resolve="id" />
+                    </node>
+                    <node concept="2OqwBi" id="9wS6VcuPgu" role="37wK5m">
+                      <node concept="37vLTw" id="9wS6VcuPgv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="9wS6VcuPfD" resolve="metaPointer" />
+                      </node>
+                      <node concept="liA8E" id="9wS6VcuPgw" role="2OqNvi">
+                        <ref role="37wK5l" to="xfsv:~MetaPointer.getKey()" resolve="getKey" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -5566,18 +5636,22 @@
             </node>
             <node concept="3clFbF" id="pPZz6cQXYN" role="3cqZAp">
               <node concept="37vLTI" id="pPZz6cQXYP" role="3clFbG">
-                <node concept="2YIFZM" id="9wS6VcuPhh" role="37vLTx">
-                  <ref role="37wK5l" to="2k9e:~MetaAdapterFactory.getLanguage(jetbrains.mps.smodel.adapter.ids.SLanguageId,java.lang.String)" resolve="getLanguage" />
-                  <ref role="1Pybhc" to="2k9e:~MetaAdapterFactory" resolve="MetaAdapterFactory" />
-                  <node concept="37vLTw" id="9wS6VcuPhi" role="37wK5m">
-                    <ref role="3cqZAo" node="9wS6VcuPha" resolve="id" />
-                  </node>
-                  <node concept="37vLTw" id="pPZz6cRAZJ" role="37wK5m">
-                    <ref role="3cqZAo" node="pPZz6cRAZD" resolve="languageKey" />
-                  </node>
-                </node>
                 <node concept="37vLTw" id="pPZz6cQXYT" role="37vLTJ">
                   <ref role="3cqZAo" node="pPZz6cQJhN" resolve="result" />
+                </node>
+                <node concept="2OqwBi" id="A9P4gGp1_S" role="37vLTx">
+                  <node concept="37vLTw" id="A9P4gGp0lx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="A9P4gGngul" resolve="metaAdapterFactoryHelper" />
+                  </node>
+                  <node concept="liA8E" id="A9P4gGp3Bl" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:A9P4gGoU7o" resolve="getLanguage" />
+                    <node concept="37vLTw" id="9wS6VcuPhi" role="37wK5m">
+                      <ref role="3cqZAo" node="9wS6VcuPha" resolve="id" />
+                    </node>
+                    <node concept="37vLTw" id="pPZz6cRAZJ" role="37wK5m">
+                      <ref role="3cqZAo" node="pPZz6cRAZD" resolve="languageKey" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
