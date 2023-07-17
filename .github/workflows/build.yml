@@ -1,0 +1,19 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    name: Java 11 Build
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup java
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: 11
+    - name: Build languages
+      run: ./gradlew assembleMps
