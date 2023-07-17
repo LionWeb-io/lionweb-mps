@@ -16,4 +16,4 @@ jobs:
         distribution: 'adopt'
         java-version: 11
     - name: Build languages
-      run: ./gradlew build
+      run: ./gradlew assembleMps
