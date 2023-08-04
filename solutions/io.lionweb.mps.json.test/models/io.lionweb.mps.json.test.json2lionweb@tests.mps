@@ -8,6 +8,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
+    <use id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport" version="0" />
   </languages>
   <imports>
     <import index="lai5" ref="r:42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0(io.lionweb.mps.json.instance.mps2lionweb)" />
@@ -153,6 +154,9 @@
       <concept id="4759305942578991535" name="io.lionweb.mps.converter.lang.structure.TestContainer" flags="ng" index="2QRY8A">
         <child id="4759305942578991952" name="contents" index="2QRY3p" />
       </concept>
+    </language>
+    <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
+      <concept id="797107380639005765" name="io.lionweb.mps.testsupport.structure.AssertMatchVerbose" flags="ng" index="1PQTyP" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
@@ -1183,12 +1187,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="5wsogBcupiz" role="3cqZAp" />
-        <node concept="JA50E" id="5wsogBcu3KV" role="3cqZAp">
-          <node concept="3xONca" id="5wsogBcu569" role="JA92f">
-            <ref role="3xOPvv" node="5wsogBcup$e" resolve="container" />
-          </node>
-          <node concept="37vLTw" id="5wsogBcupJP" role="JAdkl">
+        <node concept="1PQTyP" id="5Thq89KVXw9" role="3cqZAp">
+          <node concept="37vLTw" id="5Thq89KVXwa" role="JAdkl">
             <ref role="3cqZAo" node="5wsogBcuonv" resolve="actual" />
+          </node>
+          <node concept="3xONca" id="5Thq89KVXwb" role="JA92f">
+            <ref role="3xOPvv" node="5wsogBcup$e" resolve="container" />
           </node>
         </node>
       </node>

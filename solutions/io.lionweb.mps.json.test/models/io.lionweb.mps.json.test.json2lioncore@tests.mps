@@ -7,6 +7,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport" version="0" />
   </languages>
   <imports>
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
@@ -165,6 +166,9 @@
         <child id="2656571587264870511" name="entities" index="2RzR6B" />
       </concept>
       <concept id="2656571587264872967" name="io.lionweb.mps.m3.structure.PrimitiveType" flags="ng" index="2RzSJf" />
+    </language>
+    <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
+      <concept id="797107380639005765" name="io.lionweb.mps.testsupport.structure.AssertMatchVerbose" flags="ng" index="1PQTyP" />
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
@@ -608,15 +612,15 @@
               </node>
             </node>
             <node concept="3clFbH" id="5sACIIs$f27" role="3cqZAp" />
-            <node concept="JA50E" id="5sACIIs$fn4" role="3cqZAp">
-              <node concept="3xONca" id="5sACIIs$fxu" role="JA92f">
-                <ref role="3xOPvv" node="5sACIIs$PXC" resolve="expected" />
-              </node>
-              <node concept="2OqwBi" id="5sACIIs$fQ9" role="JAdkl">
-                <node concept="37vLTw" id="5sACIIs$fE3" role="2Oq$k0">
+            <node concept="1PQTyP" id="5Thq89KVWmD" role="3cqZAp">
+              <node concept="2OqwBi" id="5Thq89KVWmE" role="JAdkl">
+                <node concept="37vLTw" id="5Thq89KVWmF" role="2Oq$k0">
                   <ref role="3cqZAo" node="5sACIIs$bVL" resolve="converted" />
                 </node>
-                <node concept="1uHKPH" id="5sACIIs$ghT" role="2OqNvi" />
+                <node concept="1uHKPH" id="5Thq89KVWmG" role="2OqNvi" />
+              </node>
+              <node concept="3xONca" id="5Thq89KVWmH" role="JA92f">
+                <ref role="3xOPvv" node="5sACIIs$PXC" resolve="expected" />
               </node>
             </node>
           </node>
@@ -900,15 +904,15 @@
                 <node concept="34oBXx" id="5sACIIs_h1o" role="2OqNvi" />
               </node>
             </node>
-            <node concept="JA50E" id="5sACIIs_h1q" role="3cqZAp">
-              <node concept="3xONca" id="5sACIIs_h1r" role="JA92f">
-                <ref role="3xOPvv" node="5sACIIs_is2" resolve="expected" />
-              </node>
-              <node concept="2OqwBi" id="5sACIIs_h1s" role="JAdkl">
-                <node concept="37vLTw" id="5sACIIs_h1t" role="2Oq$k0">
+            <node concept="1PQTyP" id="5Thq89KVW0j" role="3cqZAp">
+              <node concept="2OqwBi" id="5Thq89KVW0k" role="JAdkl">
+                <node concept="37vLTw" id="5Thq89KVW0l" role="2Oq$k0">
                   <ref role="3cqZAo" node="5sACIIs_h1d" resolve="converted" />
                 </node>
-                <node concept="1uHKPH" id="5sACIIs_h1u" role="2OqNvi" />
+                <node concept="1uHKPH" id="5Thq89KVW0m" role="2OqNvi" />
+              </node>
+              <node concept="3xONca" id="5Thq89KVW0n" role="JA92f">
+                <ref role="3xOPvv" node="5sACIIs_is2" resolve="expected" />
               </node>
             </node>
           </node>
