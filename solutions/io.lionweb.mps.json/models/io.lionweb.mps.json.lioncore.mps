@@ -22,6 +22,7 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -58,6 +59,9 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -95,6 +99,7 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -112,6 +117,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -207,6 +213,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -4453,6 +4460,50 @@
             </node>
           </node>
           <node concept="3clFbS" id="5sACIIsA0x9" role="2LFqv$">
+            <node concept="3cpWs8" id="5$DmpJ47TMM" role="3cqZAp">
+              <node concept="3cpWsn" id="5$DmpJ47TMP" role="3cpWs9">
+                <property role="TrG5h" value="languageWeDependOn" />
+                <node concept="3uibUv" id="5$DmpJ487yR" role="1tU5fm">
+                  <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                </node>
+                <node concept="1rXfSq" id="5sACIIsJV43" role="33vP2m">
+                  <ref role="37wK5l" node="5sACIIsA0EW" resolve="lookupLanguage" />
+                  <node concept="2GrUjf" id="5sACIIsJZEl" role="37wK5m">
+                    <ref role="2Gs0qQ" node="5sACIIsA0x5" resolve="depends" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="5$DmpJ48BCA" role="3cqZAp">
+              <node concept="3clFbS" id="5$DmpJ48BCC" role="3clFbx">
+                <node concept="YS8fn" id="5$DmpJ48QV0" role="3cqZAp">
+                  <node concept="2ShNRf" id="5$DmpJ48Ukn" role="YScLw">
+                    <node concept="1pGfFk" id="5$DmpJ48Zck" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="3cpWs3" id="5$DmpJ49d6C" role="37wK5m">
+                        <node concept="Xl_RD" id="5$DmpJ492gU" role="3uHU7B">
+                          <property role="Xl_RC" value="Unable to resolve language dependency to " />
+                        </node>
+                        <node concept="2OqwBi" id="5$DmpJ49kf_" role="3uHU7w">
+                          <node concept="2GrUjf" id="5$DmpJ49guR" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="5sACIIsA0x5" resolve="depends" />
+                          </node>
+                          <node concept="2qgKlT" id="5$DmpJ49kfA" role="2OqNvi">
+                            <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="5$DmpJ48JBq" role="3clFbw">
+                <node concept="10Nm6u" id="5$DmpJ48MC9" role="3uHU7w" />
+                <node concept="37vLTw" id="5$DmpJ48EX_" role="3uHU7B">
+                  <ref role="3cqZAo" node="5$DmpJ47TMP" resolve="languageWeDependOn" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="5sACIIsJLo2" role="3cqZAp">
               <node concept="2OqwBi" id="5sACIIsJNgi" role="3clFbG">
                 <node concept="37vLTw" id="5sACIIsJLo0" role="2Oq$k0">
@@ -4460,11 +4511,8 @@
                 </node>
                 <node concept="liA8E" id="5sACIIsJQ4c" role="2OqNvi">
                   <ref role="37wK5l" to="imb3:~Language.addDependency(io.lionweb.lioncore.java.language.Language)" resolve="addDependency" />
-                  <node concept="1rXfSq" id="5sACIIsJV43" role="37wK5m">
-                    <ref role="37wK5l" node="5sACIIsA0EW" resolve="lookupLanguage" />
-                    <node concept="2GrUjf" id="5sACIIsJZEl" role="37wK5m">
-                      <ref role="2Gs0qQ" node="5sACIIsA0x5" resolve="depends" />
-                    </node>
+                  <node concept="37vLTw" id="5$DmpJ48x5W" role="37wK5m">
+                    <ref role="3cqZAo" node="5$DmpJ47TMP" resolve="languageWeDependOn" />
                   </node>
                 </node>
               </node>

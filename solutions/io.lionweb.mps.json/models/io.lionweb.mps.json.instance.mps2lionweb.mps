@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0(io.lionweb.mps.json.instance.mps2lionweb)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
@@ -20,6 +21,7 @@
     <import index="xx25" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.types(MPS.Core/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
   </imports>
   <registry>
@@ -102,6 +104,7 @@
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
         <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -2808,21 +2811,76 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5$DmpJ4hujY" role="3cqZAp" />
+        <node concept="3cpWs8" id="5$DmpJ4k8iE" role="3cqZAp">
+          <node concept="3cpWsn" id="5$DmpJ4k8iH" role="3cpWs9">
+            <property role="TrG5h" value="langKey" />
+            <node concept="17QB3L" id="5$DmpJ4k8iC" role="1tU5fm" />
+            <node concept="1rXfSq" id="5$DmpJ4k9Ro" role="33vP2m">
+              <ref role="37wK5l" node="5s4Z0e0go9v" resolve="extractLanguageKey" />
+              <node concept="37vLTw" id="5$DmpJ4k9Rp" role="37wK5m">
+                <ref role="3cqZAo" node="5s4Z0e0lZGb" resolve="owner" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5$DmpJ4kbV0" role="3cqZAp">
+          <node concept="3cpWsn" id="5$DmpJ4kbV3" role="3cpWs9">
+            <property role="TrG5h" value="langVersion" />
+            <node concept="17QB3L" id="5$DmpJ4kbUY" role="1tU5fm" />
+            <node concept="1rXfSq" id="5$DmpJ4kdUp" role="33vP2m">
+              <ref role="37wK5l" node="5s4Z0e0gpy9" resolve="extractLanguageVersion" />
+              <node concept="37vLTw" id="5$DmpJ4kdUq" role="37wK5m">
+                <ref role="3cqZAo" node="5s4Z0e0lZGb" resolve="owner" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5$DmpJ4kgpm" role="3cqZAp" />
+        <node concept="3clFbJ" id="5$DmpJ4khD$" role="3cqZAp">
+          <node concept="3clFbS" id="5$DmpJ4khDA" role="3clFbx">
+            <node concept="3clFbF" id="5$DmpJ4kmLo" role="3cqZAp">
+              <node concept="37vLTI" id="5$DmpJ4koCF" role="3clFbG">
+                <node concept="37vLTw" id="5$DmpJ4kmLm" role="37vLTJ">
+                  <ref role="3cqZAo" node="5$DmpJ4kbV3" resolve="langVersion" />
+                </node>
+                <node concept="2OqwBi" id="5$DmpJ4ksOY" role="37vLTx">
+                  <node concept="2YIFZM" id="5$DmpJ4krMw" role="2Oq$k0">
+                    <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                    <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  </node>
+                  <node concept="liA8E" id="5$DmpJ4ktD_" role="2OqNvi">
+                    <ref role="37wK5l" to="imb3:~Language.getVersion()" resolve="getVersion" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="5$DmpJ4kiFw" role="3clFbw">
+            <node concept="2OqwBi" id="5$DmpJ4kltw" role="3uHU7w">
+              <node concept="2YIFZM" id="5$DmpJ4kkhU" role="2Oq$k0">
+                <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+              </node>
+              <node concept="liA8E" id="5$DmpJ4kmhD" role="2OqNvi">
+                <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5$DmpJ4ki3E" role="3uHU7B">
+              <ref role="3cqZAo" node="5$DmpJ4k8iH" resolve="langKey" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5$DmpJ4gRhT" role="3cqZAp" />
         <node concept="3clFbF" id="5s4Z0e0fjL3" role="3cqZAp">
           <node concept="2ShNRf" id="5s4Z0e0fjL4" role="3clFbG">
             <node concept="1pGfFk" id="5s4Z0e0fjL5" role="2ShVmc">
               <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
-              <node concept="1rXfSq" id="5s4Z0e0gqIz" role="37wK5m">
-                <ref role="37wK5l" node="5s4Z0e0go9v" resolve="extractLanguageKey" />
-                <node concept="37vLTw" id="5s4Z0e0lZGf" role="37wK5m">
-                  <ref role="3cqZAo" node="5s4Z0e0lZGb" resolve="owner" />
-                </node>
+              <node concept="37vLTw" id="5$DmpJ4kfZ7" role="37wK5m">
+                <ref role="3cqZAo" node="5$DmpJ4k8iH" resolve="langKey" />
               </node>
-              <node concept="1rXfSq" id="5s4Z0e0gqI_" role="37wK5m">
-                <ref role="37wK5l" node="5s4Z0e0gpy9" resolve="extractLanguageVersion" />
-                <node concept="37vLTw" id="5s4Z0e0lZGg" role="37wK5m">
-                  <ref role="3cqZAo" node="5s4Z0e0lZGb" resolve="owner" />
-                </node>
+              <node concept="37vLTw" id="5$DmpJ4kf9s" role="37wK5m">
+                <ref role="3cqZAo" node="5$DmpJ4kbV3" resolve="langVersion" />
               </node>
               <node concept="2OqwBi" id="5s4Z0e0fjLd" role="37wK5m">
                 <node concept="37vLTw" id="5s4Z0e0fjLe" role="2Oq$k0">

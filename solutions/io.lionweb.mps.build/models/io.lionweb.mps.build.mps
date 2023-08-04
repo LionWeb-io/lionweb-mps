@@ -599,8 +599,8 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1f4Qr8WT8nG" role="3bR37C">
-          <node concept="3bR9La" id="1f4Qr8WT8nH" role="1SiIV1">
+        <node concept="1SiIV0" id="fKtnirpu2p" role="3bR37C">
+          <node concept="3bR9La" id="fKtnirpu2q" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
@@ -765,14 +765,14 @@
             <ref role="3bR37D" node="5wsogBcGDM7" resolve="io.lionweb.lioncore.java" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5AGBwuFPhf0" role="3bR37C">
-          <node concept="3bR9La" id="5AGBwuFPhf1" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+        <node concept="1SiIV0" id="fKtnirpu2F" role="3bR37C">
+          <node concept="3bR9La" id="fKtnirpu2G" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1f4Qr8WT8o0" role="3bR37C">
-          <node concept="3bR9La" id="1f4Qr8WT8o1" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+        <node concept="1SiIV0" id="fKtnirpu2H" role="3bR37C">
+          <node concept="3bR9La" id="fKtnirpu2I" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>
@@ -943,13 +943,13 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5AGBwuFPhfu" role="3bR37C">
-          <node concept="3bR9La" id="5AGBwuFPhfv" role="1SiIV1">
+        <node concept="1SiIV0" id="fKtnirpu3b" role="3bR37C">
+          <node concept="3bR9La" id="fKtnirpu3c" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5M3rB6Csebt" role="3bR37C">
-          <node concept="3bR9La" id="5M3rB6Csebu" role="1SiIV1">
+        <node concept="1SiIV0" id="fKtnirpu3d" role="3bR37C">
+          <node concept="3bR9La" id="fKtnirpu3e" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
