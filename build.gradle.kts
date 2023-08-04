@@ -24,7 +24,7 @@ configurations.getByName("libs") {
 }
 
 group = "io.lionweb"
-version = "0.0.8-SNAPSHOT"
+version = "0.0.9"
 
 
 task<Jar>("sourcesJar") {
