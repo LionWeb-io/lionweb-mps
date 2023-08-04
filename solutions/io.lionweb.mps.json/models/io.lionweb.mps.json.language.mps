@@ -216,6 +216,7 @@
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
       </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
@@ -7878,7 +7879,7 @@
               <property role="TrG5h" value="e" />
               <node concept="nSUau" id="3zvxfLi0cSu" role="1tU5fm">
                 <node concept="3uibUv" id="3zvxfLi0iHY" role="nSUat">
-                  <ref role="3uigEE" to="6peh:3zvxfLhJ47X" resolve="LionwebJsonException" />
+                  <ref role="3uigEE" to="6peh:3zvxfLhJ47X" resolve="NodeLionwebJsonException" />
                 </node>
               </node>
             </node>
@@ -8518,7 +8519,7 @@
         <node concept="YS8fn" id="3zvxfLhIV_A" role="3cqZAp">
           <node concept="2ShNRf" id="3zvxfLhIZES" role="YScLw">
             <node concept="1pGfFk" id="3zvxfLhJ8no" role="2ShVmc">
-              <ref role="37wK5l" to="6peh:3zvxfLhJ4bW" resolve="LionwebJsonException" />
+              <ref role="37wK5l" to="6peh:3zvxfLhJ4bW" resolve="NodeLionwebJsonException" />
               <node concept="37vLTw" id="3zvxfLhJKAM" role="37wK5m">
                 <ref role="3cqZAo" node="3zvxfLhIQrH" resolve="node" />
               </node>
@@ -8541,6 +8542,13 @@
         <property role="TrG5h" value="e" />
         <node concept="3uibUv" id="3zvxfLhIiVt" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="A9P4gGIW68" role="lGtFl">
+        <node concept="TZ5HA" id="A9P4gGIW69" role="TZ5H$">
+          <node concept="1dT_AC" id="A9P4gGIW6a" role="1dT_Ay">
+            <property role="1dT_AB" value="Externalized into a method so we might _not_ stop on the first error in the future." />
+          </node>
         </node>
       </node>
     </node>
