@@ -30,6 +30,7 @@
     <import index="pwbt" ref="r:1aa38865-6d90-41bb-86e8-c2acb8fc829b(io.lionweb.mps.client.connector.impl)" />
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1620,21 +1621,31 @@
                 <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
                 <node concept="2ShNRf" id="6lVb1tfRdQi" role="37wK5m">
                   <node concept="1pGfFk" id="7jdzMamei2$" role="2ShVmc">
-                    <ref role="37wK5l" to="pe0e:5wsogBcp_Fx" resolve="DirectMetaPointerLookup" />
-                    <node concept="2ShNRf" id="7jdzMamei2_" role="37wK5m">
-                      <node concept="1pGfFk" id="5M3rB6Bclni" role="2ShVmc">
-                        <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
-                        <node concept="37vLTw" id="4n8SsXjtxDR" role="37wK5m">
-                          <ref role="3cqZAo" node="4n8SsXjtv1P" resolve="constants" />
-                        </node>
-                      </node>
-                    </node>
+                    <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
                     <node concept="37vLTw" id="4n8SsXjtvus" role="37wK5m">
                       <ref role="3cqZAo" node="4n8SsXjtvun" resolve="attributeFinder" />
                     </node>
-                    <node concept="2ShNRf" id="A9P4gGxRYK" role="37wK5m">
-                      <node concept="1pGfFk" id="A9P4gGxSJP" role="2ShVmc">
-                        <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                    <node concept="2ShNRf" id="3Lj28wlE9gO" role="37wK5m">
+                      <node concept="1pGfFk" id="3Lj28wlE9ZR" role="2ShVmc">
+                        <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
+                        <node concept="2ShNRf" id="7jdzMamei2_" role="37wK5m">
+                          <node concept="1pGfFk" id="5M3rB6Bclni" role="2ShVmc">
+                            <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
+                            <node concept="37vLTw" id="4n8SsXjtxDR" role="37wK5m">
+                              <ref role="3cqZAo" node="4n8SsXjtv1P" resolve="constants" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2ShNRf" id="A9P4gGxRYK" role="37wK5m">
+                          <node concept="1pGfFk" id="A9P4gGxSJP" role="2ShVmc">
+                            <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                          </node>
+                        </node>
+                        <node concept="2ShNRf" id="3Lj28wlEc4h" role="37wK5m">
+                          <node concept="HV5vD" id="3Lj28wlEcNj" role="2ShVmc">
+                            <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerMapper" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1894,6 +1905,10 @@
                     <ref role="37wK5l" to="lai5:5s4Z0e0f4ae" resolve="MetaPointerCreator" />
                     <node concept="37vLTw" id="5M3rB6BZolQ" role="37wK5m">
                       <ref role="3cqZAo" node="7jdzMameH3k" resolve="mapper" />
+                    </node>
+                    <node concept="2YIFZM" id="3Lj28wlE5Wx" role="37wK5m">
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                     </node>
                   </node>
                 </node>

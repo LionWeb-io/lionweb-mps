@@ -104,7 +104,6 @@
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
         <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
       </concept>
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -2690,6 +2689,14 @@
         <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
       </node>
     </node>
+    <node concept="312cEg" id="3Lj28wlDSZ5" role="jymVt">
+      <property role="TrG5h" value="builtins" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="3Lj28wlDSZ6" role="1B3o_S" />
+      <node concept="3uibUv" id="3Lj28wlDSZ8" role="1tU5fm">
+        <ref role="3uigEE" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5s4Z0e0f9jb" role="jymVt" />
     <node concept="3clFbW" id="5s4Z0e0f4ae" role="jymVt">
       <node concept="37vLTG" id="6VkSF6cl5eO" role="3clF46">
@@ -2699,6 +2706,15 @@
         </node>
         <node concept="3uibUv" id="5M3rB6B3hQd" role="1tU5fm">
           <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3Lj28wlDSK3" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="3Lj28wlDSRo" role="1tU5fm">
+          <ref role="3uigEE" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+        <node concept="2AHcQZ" id="3Lj28wlDUs7" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="3cqZAl" id="5s4Z0e0f4ag" role="3clF45" />
@@ -2714,6 +2730,19 @@
             </node>
             <node concept="37vLTw" id="5s4Z0e0f92z" role="37vLTx">
               <ref role="3cqZAo" node="6VkSF6cl5eO" resolve="idMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Lj28wlDSZ9" role="3cqZAp">
+          <node concept="37vLTI" id="3Lj28wlDSZb" role="3clFbG">
+            <node concept="2OqwBi" id="3Lj28wlDTR2" role="37vLTJ">
+              <node concept="Xjq3P" id="3Lj28wlDTY2" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3Lj28wlDTR5" role="2OqNvi">
+                <ref role="2Oxat5" node="3Lj28wlDSZ5" resolve="builtins" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3Lj28wlDSZf" role="37vLTx">
+              <ref role="3cqZAo" node="3Lj28wlDSK3" resolve="builtins" />
             </node>
           </node>
         </node>
@@ -2845,9 +2874,8 @@
                   <ref role="3cqZAo" node="5$DmpJ4kbV3" resolve="langVersion" />
                 </node>
                 <node concept="2OqwBi" id="5$DmpJ4ksOY" role="37vLTx">
-                  <node concept="2YIFZM" id="5$DmpJ4krMw" role="2Oq$k0">
-                    <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                  <node concept="37vLTw" id="3Lj28wlDYca" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Lj28wlDSZ5" resolve="builtins" />
                   </node>
                   <node concept="liA8E" id="5$DmpJ4ktD_" role="2OqNvi">
                     <ref role="37wK5l" to="imb3:~Language.getVersion()" resolve="getVersion" />
@@ -2856,18 +2884,17 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbC" id="5$DmpJ4kiFw" role="3clFbw">
+          <node concept="17R0WA" id="3Lj28wlDWoS" role="3clFbw">
+            <node concept="37vLTw" id="5$DmpJ4ki3E" role="3uHU7B">
+              <ref role="3cqZAo" node="5$DmpJ4k8iH" resolve="langKey" />
+            </node>
             <node concept="2OqwBi" id="5$DmpJ4kltw" role="3uHU7w">
-              <node concept="2YIFZM" id="5$DmpJ4kkhU" role="2Oq$k0">
-                <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+              <node concept="37vLTw" id="3Lj28wlDV_h" role="2Oq$k0">
+                <ref role="3cqZAo" node="3Lj28wlDSZ5" resolve="builtins" />
               </node>
               <node concept="liA8E" id="5$DmpJ4kmhD" role="2OqNvi">
                 <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
               </node>
-            </node>
-            <node concept="37vLTw" id="5$DmpJ4ki3E" role="3uHU7B">
-              <ref role="3cqZAo" node="5$DmpJ4k8iH" resolve="langKey" />
             </node>
           </node>
         </node>

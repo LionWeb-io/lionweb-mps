@@ -57,6 +57,9 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -951,6 +954,10 @@
                       <node concept="37vLTw" id="5M3rB6BCptF" role="37wK5m">
                         <ref role="3cqZAo" node="5M3rB6BCovx" resolve="mapper" />
                       </node>
+                      <node concept="2YIFZM" id="3Lj28wlE5Wx" role="37wK5m">
+                        <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1547,25 +1554,46 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="3Lj28wlMSdT" role="3cqZAp">
+          <node concept="3cpWsn" id="3Lj28wlMSdU" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerConverter" />
+            <node concept="3uibUv" id="3Lj28wlMS2y" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:3Lj28wlz81B" resolve="IMetaPointerConverter" />
+            </node>
+            <node concept="2ShNRf" id="3Lj28wlMSdV" role="33vP2m">
+              <node concept="1pGfFk" id="3Lj28wlMSdW" role="2ShVmc">
+                <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
+                <node concept="37vLTw" id="3Lj28wlMSdX" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6BZTDf" resolve="mapper" />
+                </node>
+                <node concept="2ShNRf" id="3Lj28wlMSdY" role="37wK5m">
+                  <node concept="1pGfFk" id="3Lj28wlMSdZ" role="2ShVmc">
+                    <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="3Lj28wlMSe0" role="37wK5m">
+                  <node concept="HV5vD" id="3Lj28wlMSe1" role="2ShVmc">
+                    <ref role="HV5vE" to="pe0e:6lVb1tfT0Qf" resolve="ConcatenatingMetaPointerMapper" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="5M3rB6BZUag" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BZUah" role="3cpWs9">
             <property role="TrG5h" value="metaPointerLookup" />
             <node concept="3uibUv" id="5M3rB6BZTY$" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:9wS6VcuJVv" resolve="ConcatenatingMetaPointerLookup" />
+              <ref role="3uigEE" to="pe0e:5wsogBcpo49" resolve="IMetaPointerLookup" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BZUai" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BZUaj" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:9wS6VcuJV$" resolve="ConcatenatingMetaPointerLookup" />
-                <node concept="37vLTw" id="5M3rB6BZUak" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6BZTDf" resolve="mapper" />
-                </node>
+                <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
                 <node concept="37vLTw" id="5M3rB6BZYpV" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BZYpO" resolve="attributeFinder" />
                 </node>
-                <node concept="2ShNRf" id="A9P4gGy1$U" role="37wK5m">
-                  <node concept="1pGfFk" id="A9P4gGy4Fj" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
-                  </node>
+                <node concept="37vLTw" id="3Lj28wlMSe2" role="37wK5m">
+                  <ref role="3cqZAo" node="3Lj28wlMSdU" resolve="metaPointerConverter" />
                 </node>
               </node>
             </node>
@@ -1584,8 +1612,21 @@
             <node concept="2ShNRf" id="39$JcGEIub3" role="33vP2m">
               <node concept="1pGfFk" id="39$JcGEIub4" role="2ShVmc">
                 <ref role="37wK5l" to="pe0e:2q_M4yT3_Ol" resolve="MergingLionWeb2MpsConverter" />
-                <node concept="37vLTw" id="5M3rB6BZUam" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6BZUah" resolve="metaPointerLookup" />
+                <node concept="2ShNRf" id="3Lj28wlMQft" role="37wK5m">
+                  <node concept="1pGfFk" id="3Lj28wlMRGR" role="2ShVmc">
+                    <ref role="37wK5l" to="pe0e:A9P4gGPiS7" resolve="DefaultingMetaPointerLookup" />
+                    <node concept="37vLTw" id="3Lj28wlMTrA" role="37wK5m">
+                      <ref role="3cqZAo" node="3Lj28wlMSdU" resolve="metaPointerConverter" />
+                    </node>
+                    <node concept="37vLTw" id="3Lj28wlMUfe" role="37wK5m">
+                      <ref role="3cqZAo" node="5M3rB6BZUah" resolve="metaPointerLookup" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="3Lj28wlMZbc" role="37wK5m">
+                  <node concept="HV5vD" id="3Lj28wlN069" role="2ShVmc">
+                    <ref role="HV5vE" to="pe0e:A9P4gGN7be" resolve="NodeIdCreator" />
+                  </node>
                 </node>
                 <node concept="37vLTw" id="5wsogBcrRgJ" role="37wK5m">
                   <ref role="3cqZAo" node="2q_M4yStIdH" resolve="jsonNodes" />
