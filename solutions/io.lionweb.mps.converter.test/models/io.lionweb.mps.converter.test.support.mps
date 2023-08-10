@@ -38,9 +38,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -405,7 +402,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5M3rB6CieG3" role="1B3o_S" />
       <node concept="3uibUv" id="5M3rB6CieG5" role="1tU5fm">
-        <ref role="3uigEE" to="dydc:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+        <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
       </node>
     </node>
     <node concept="312cEg" id="5M3rB6Cif8t" role="jymVt">
@@ -515,7 +512,7 @@
       <node concept="37vLTG" id="5M3rB6Ciez$" role="3clF46">
         <property role="TrG5h" value="metaAdapterFactoryHelper" />
         <node concept="3uibUv" id="5M3rB6CieBd" role="1tU5fm">
-          <ref role="3uigEE" to="dydc:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+          <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6CieDv" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -572,7 +569,7 @@
                 <ref role="3cqZAo" node="5M3rB6CieG2" resolve="metaAdapterFactoryHelper" />
               </node>
               <node concept="liA8E" id="59Df55lbRg9" role="2OqNvi">
-                <ref role="37wK5l" to="dydc:59Df55laZKQ" resolve="createLanguage" />
+                <ref role="37wK5l" to="apzt:59Df55laZKQ" resolve="createLanguage" />
                 <node concept="37vLTw" id="59Df55lbRv6" role="37wK5m">
                   <ref role="3cqZAo" node="59Df55kqwhH" resolve="lcLanguage" />
                 </node>
@@ -650,11 +647,11 @@
           <node concept="3cpWsn" id="5M3rB6CimvS" role="3cpWs9">
             <property role="TrG5h" value="metaAdapterFactoryHelper" />
             <node concept="3uibUv" id="5M3rB6CimtC" role="1tU5fm">
-              <ref role="3uigEE" to="dydc:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
             </node>
             <node concept="2ShNRf" id="5M3rB6CimvT" role="33vP2m">
-              <node concept="HV5vD" id="5M3rB6CimvU" role="2ShVmc">
-                <ref role="HV5vE" to="dydc:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              <node concept="1pGfFk" id="6lVb1tfPq$a" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
               </node>
             </node>
           </node>

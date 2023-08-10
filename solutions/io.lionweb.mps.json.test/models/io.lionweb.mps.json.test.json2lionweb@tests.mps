@@ -1084,16 +1084,26 @@
                 <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
                 <node concept="2ShNRf" id="5M3rB6CnBF3" role="37wK5m">
                   <node concept="1pGfFk" id="5M3rB6CnBF4" role="2ShVmc">
-                    <ref role="37wK5l" to="pe0e:5wsogBcp_Fx" resolve="DirectMetaPointerLookup" />
-                    <node concept="37vLTw" id="5M3rB6CnBF5" role="37wK5m">
-                      <ref role="3cqZAo" node="5M3rB6CnBh8" resolve="mapper" />
-                    </node>
-                    <node concept="37vLTw" id="5M3rB6CnBF6" role="37wK5m">
+                    <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
+                    <node concept="37vLTw" id="3Lj28wlAtR6" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6CnBux" resolve="finder" />
                     </node>
-                    <node concept="2ShNRf" id="A9P4gGxTSC" role="37wK5m">
-                      <node concept="1pGfFk" id="A9P4gGxUie" role="2ShVmc">
-                        <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                    <node concept="2ShNRf" id="3Lj28wlAtaZ" role="37wK5m">
+                      <node concept="1pGfFk" id="3Lj28wlAtyK" role="2ShVmc">
+                        <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
+                        <node concept="37vLTw" id="3Lj28wlAtGx" role="37wK5m">
+                          <ref role="3cqZAo" node="5M3rB6CnBh8" resolve="mapper" />
+                        </node>
+                        <node concept="2ShNRf" id="A9P4gGxTSC" role="37wK5m">
+                          <node concept="1pGfFk" id="A9P4gGxUie" role="2ShVmc">
+                            <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                          </node>
+                        </node>
+                        <node concept="2ShNRf" id="3Lj28wlyvJ2" role="37wK5m">
+                          <node concept="HV5vD" id="3Lj28wlywnF" role="2ShVmc">
+                            <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerMapper" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
