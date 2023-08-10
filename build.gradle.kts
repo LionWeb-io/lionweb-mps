@@ -2,6 +2,7 @@ plugins {
     id("com.specificlanguages.mps") version "1.5.0"
     `maven-publish`
     id("signing")
+    id("net.researchgate.release") version "3.0.2"
 }
 
 val libs by configurations.creating
@@ -25,7 +26,8 @@ configurations.getByName("libs") {
 }
 
 group = "io.lionweb"
-version = "0.0.9-SNAPSHOT"
+
+val isReleaseVersion = !(version as String).endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
@@ -61,8 +63,6 @@ publishing {
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
             // versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
-
-            println("VERSION ${project.version}")
 
             pom {
                 name.set("lionweb-mps")
@@ -145,4 +145,12 @@ if (isReleaseVersion) {
 
 signing {
     sign(publishing.publications["mpsPlugin"])
+}
+
+release {
+    buildTasks.set(listOf("publish"))
+    git {
+        requireBranch.set("")
+        pushToRemote.set("origin")
+    }
 }
