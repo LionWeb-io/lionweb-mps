@@ -1,6 +1,7 @@
 plugins {
     id("com.specificlanguages.mps") version "1.5.0"
     `maven-publish`
+    id("signing")
 }
 
 val libs by configurations.creating
@@ -135,4 +136,13 @@ tasks{
     checkMps {
         buildScript.set(file("build-tests.xml"))
     }
+}
+
+if (isReleaseVersion) {
+    tasks.withType(Sign::class) {
+    }
+}
+
+signing {
+    sign(publishing.publications["mpsPlugin"])
 }
