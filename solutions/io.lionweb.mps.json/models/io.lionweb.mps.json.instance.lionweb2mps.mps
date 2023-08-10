@@ -1761,6 +1761,9 @@
           <node concept="37vLTw" id="2q_M4yT3_Ov" role="37wK5m">
             <ref role="3cqZAo" node="2q_M4yT3_Os" resolve="metaPointerLookup" />
           </node>
+          <node concept="37vLTw" id="6lVb1tfAXc8" role="37wK5m">
+            <ref role="3cqZAo" node="6lVb1tfAWGh" resolve="nodeIdCreator" />
+          </node>
           <node concept="37vLTw" id="2q_M4yT3_O$" role="37wK5m">
             <ref role="3cqZAo" node="2q_M4yT3_Ow" resolve="inputNodes" />
           </node>
@@ -1782,9 +1785,18 @@
       <node concept="37vLTG" id="2q_M4yT3_Os" role="3clF46">
         <property role="TrG5h" value="metaPointerLookup" />
         <node concept="3uibUv" id="2q_M4yT3_Ou" role="1tU5fm">
-          <ref role="3uigEE" node="5wsogBcpo49" resolve="IMetaPointerLookup" />
+          <ref role="3uigEE" node="A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8W0trt" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6lVb1tfAWGh" role="3clF46">
+        <property role="TrG5h" value="nodeIdCreator" />
+        <node concept="3uibUv" id="6lVb1tfAWGi" role="1tU5fm">
+          <ref role="3uigEE" node="A9P4gGN5z5" resolve="INodeIdCreator" />
+        </node>
+        <node concept="2AHcQZ" id="6lVb1tfAWGj" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -6704,10 +6716,16 @@
               </node>
             </node>
             <node concept="3clFbS" id="A9P4gGPiTo" role="1zc67A">
-              <node concept="3SKdUt" id="A9P4gGPOVp" role="3cqZAp">
-                <node concept="1PaTwC" id="A9P4gGPOVq" role="1aUNEU">
-                  <node concept="3oM_SD" id="A9P4gGPPaL" role="1PaTwD">
-                    <property role="3oM_SC" value="fall-through" />
+              <node concept="YS8fn" id="6lVb1tfASAG" role="3cqZAp">
+                <node concept="2ShNRf" id="6lVb1tfASAH" role="YScLw">
+                  <node concept="1pGfFk" id="6lVb1tfASAI" role="2ShVmc">
+                    <ref role="37wK5l" to="6peh:A9P4gGMHUt" resolve="SerializedNodeLionwebJsonException" />
+                    <node concept="37vLTw" id="6lVb1tfASAJ" role="37wK5m">
+                      <ref role="3cqZAo" node="A9P4gGPiTb" resolve="conceptNode" />
+                    </node>
+                    <node concept="37vLTw" id="6lVb1tfASAK" role="37wK5m">
+                      <ref role="3cqZAo" node="A9P4gGPiTl" resolve="e" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6767,15 +6785,23 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="A9P4gGPRT8" role="3cqZAp">
-          <node concept="2OqwBi" id="A9P4gGPSP3" role="3cqZAk">
-            <node concept="37vLTw" id="A9P4gGPSyd" role="2Oq$k0">
-              <ref role="3cqZAo" node="A9P4gGPQGs" resolve="metaAdapterFactoryHelper" />
-            </node>
-            <node concept="liA8E" id="A9P4gGPTgz" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:A9P4gGnELc" resolve="getProperty" />
+            <node concept="YS8fn" id="6lVb1tfARvN" role="3cqZAp">
+              <node concept="2ShNRf" id="6lVb1tfARvO" role="YScLw">
+                <node concept="1pGfFk" id="6lVb1tfARvP" role="2ShVmc">
+                  <ref role="37wK5l" to="6peh:A9P4gGNNFf" resolve="SerializedNodeLionwebJsonException" />
+                  <node concept="37vLTw" id="6lVb1tfARvQ" role="37wK5m">
+                    <ref role="3cqZAo" node="A9P4gGPiTb" resolve="conceptNode" />
+                  </node>
+                  <node concept="3cpWs3" id="6lVb1tfARvR" role="37wK5m">
+                    <node concept="37vLTw" id="6lVb1tfARvS" role="3uHU7w">
+                      <ref role="3cqZAo" node="A9P4gGPiTw" resolve="metaPointer" />
+                    </node>
+                    <node concept="Xl_RD" id="6lVb1tfARvT" role="3uHU7B">
+                      <property role="Xl_RC" value="Cannot find property: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
