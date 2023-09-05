@@ -186,9 +186,6 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
-      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
-        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -361,6 +358,22 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="7Cdxs9E2hOg" role="3cqZAp">
+          <node concept="3cpWsn" id="7Cdxs9E2hOh" role="3cpWs9">
+            <property role="TrG5h" value="repository" />
+            <node concept="3uibUv" id="7Cdxs9E2gXi" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="7Cdxs9E2hOi" role="33vP2m">
+              <node concept="37vLTw" id="7Cdxs9E2hOj" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M3rB6C4AZi" resolve="model" />
+              </node>
+              <node concept="liA8E" id="7Cdxs9E2hOk" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2fx6VTTfJEn" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTTfJEo" role="3cpWs9">
             <property role="TrG5h" value="constants" />
@@ -370,35 +383,47 @@
             <node concept="2ShNRf" id="5M3rB6C4AZv" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6C4AZw" role="2ShVmc">
                 <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="2OqwBi" id="5M3rB6C4AZx" role="37wK5m">
-                  <node concept="37vLTw" id="5M3rB6C4AZy" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5M3rB6C4AZi" resolve="model" />
-                  </node>
-                  <node concept="liA8E" id="5M3rB6C4AZz" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                  </node>
+                <node concept="37vLTw" id="7Cdxs9E2hOl" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E2hOh" resolve="repository" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="5M3rB6BaK2f" role="3cqZAp">
-          <node concept="3cpWsn" id="5M3rB6BaK2g" role="3cpWs9">
-            <property role="TrG5h" value="repository" />
-            <node concept="3uibUv" id="5M3rB6BaJVm" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        <node concept="3cpWs8" id="7Cdxs9E3aNc" role="3cqZAp">
+          <node concept="3cpWsn" id="7Cdxs9E3aNd" role="3cpWs9">
+            <property role="TrG5h" value="attributeFinder" />
+            <node concept="3uibUv" id="7Cdxs9E3ae7" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
             </node>
-            <node concept="2OqwBi" id="5M3rB6BaK2h" role="33vP2m">
-              <node concept="2JrnkZ" id="5M3rB6BaK2i" role="2Oq$k0">
-                <node concept="2OqwBi" id="5M3rB6BaK2j" role="2JrQYb">
-                  <node concept="37vLTw" id="5M3rB6BaK2k" role="2Oq$k0">
-                    <ref role="3cqZAo" node="48csSBOFxtv" resolve="convertToLionCore" />
-                  </node>
-                  <node concept="I4A8Y" id="5M3rB6BaK2l" role="2OqNvi" />
+            <node concept="2ShNRf" id="7Cdxs9E3aNe" role="33vP2m">
+              <node concept="1pGfFk" id="7Cdxs9E3aNf" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <node concept="37vLTw" id="7Cdxs9E3aNg" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E2hOh" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="7Cdxs9E3aNh" role="37wK5m">
+                  <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
                 </node>
               </node>
-              <node concept="liA8E" id="5M3rB6BaK2m" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7Cdxs9E3cyv" role="3cqZAp">
+          <node concept="3cpWsn" id="7Cdxs9E3cyw" role="3cpWs9">
+            <property role="TrG5h" value="idMapper" />
+            <node concept="3uibUv" id="7Cdxs9E3cso" role="1tU5fm">
+              <ref role="3uigEE" to="faaz:2fx6VTSN_nf" resolve="SLanguageBase64IdMapper" />
+            </node>
+            <node concept="2ShNRf" id="7Cdxs9E3cyx" role="33vP2m">
+              <node concept="1pGfFk" id="7Cdxs9E3cyy" role="2ShVmc">
+                <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
+                <node concept="37vLTw" id="7Cdxs9E3cyz" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E3aNd" resolve="attributeFinder" />
+                </node>
+                <node concept="37vLTw" id="7Cdxs9E3cy$" role="37wK5m">
+                  <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
+                </node>
               </node>
             </node>
           </node>
@@ -412,24 +437,8 @@
             <node concept="2ShNRf" id="2fx6VTTfDSO" role="33vP2m">
               <node concept="1pGfFk" id="2fx6VTTfDSP" role="2ShVmc">
                 <ref role="37wK5l" to="g3az:6VkSF6c16Tl" resolve="Language2LionCoreConverter" />
-                <node concept="2ShNRf" id="6VkSF6c1n1j" role="37wK5m">
-                  <node concept="1pGfFk" id="6VkSF6c1nOE" role="2ShVmc">
-                    <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
-                    <node concept="2ShNRf" id="5M3rB6BaId$" role="37wK5m">
-                      <node concept="1pGfFk" id="5M3rB6BaJAT" role="2ShVmc">
-                        <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
-                        <node concept="37vLTw" id="5M3rB6BaKRc" role="37wK5m">
-                          <ref role="3cqZAo" node="5M3rB6BaK2g" resolve="repository" />
-                        </node>
-                        <node concept="37vLTw" id="5M3rB6BiOK9" role="37wK5m">
-                          <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="6VkSF6c1odb" role="37wK5m">
-                      <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="7Cdxs9E3cy_" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E3cyw" resolve="idMapper" />
                 </node>
                 <node concept="37vLTw" id="6VkSF6c1pi5" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
@@ -663,6 +672,22 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="7Cdxs9E2eUX" role="3cqZAp">
+          <node concept="3cpWsn" id="7Cdxs9E2eUY" role="3cpWs9">
+            <property role="TrG5h" value="repository" />
+            <node concept="3uibUv" id="7Cdxs9E2eio" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="7Cdxs9E2eUZ" role="33vP2m">
+              <node concept="37vLTw" id="7Cdxs9E2eV0" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M3rB6C4AZF" resolve="model" />
+              </node>
+              <node concept="liA8E" id="7Cdxs9E2eV1" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="5M3rB6BjKAX" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BjKAY" role="3cpWs9">
             <property role="TrG5h" value="constants" />
@@ -672,35 +697,9 @@
             <node concept="2ShNRf" id="5M3rB6C4AZS" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6C4AZT" role="2ShVmc">
                 <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="2OqwBi" id="5M3rB6C4AZU" role="37wK5m">
-                  <node concept="37vLTw" id="5M3rB6C4AZV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5M3rB6C4AZF" resolve="model" />
-                  </node>
-                  <node concept="liA8E" id="5M3rB6C4AZW" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                  </node>
+                <node concept="37vLTw" id="7Cdxs9E2eV2" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E2eUY" resolve="repository" />
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5M3rB6BjKB4" role="3cqZAp">
-          <node concept="3cpWsn" id="5M3rB6BjKB5" role="3cpWs9">
-            <property role="TrG5h" value="repository" />
-            <node concept="3uibUv" id="5M3rB6BjKB6" role="1tU5fm">
-              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-            </node>
-            <node concept="2OqwBi" id="5M3rB6BjKB7" role="33vP2m">
-              <node concept="2JrnkZ" id="5M3rB6BjKB8" role="2Oq$k0">
-                <node concept="2OqwBi" id="5M3rB6BjKB9" role="2JrQYb">
-                  <node concept="37vLTw" id="5M3rB6BjKBa" role="2Oq$k0">
-                    <ref role="3cqZAo" node="48csSBOFxtv" resolve="convertToLionCore" />
-                  </node>
-                  <node concept="I4A8Y" id="5M3rB6BjKBb" role="2OqNvi" />
-                </node>
-              </node>
-              <node concept="liA8E" id="5M3rB6BjKBc" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -716,7 +715,7 @@
               <node concept="1pGfFk" id="5M3rB6BjYy4" role="2ShVmc">
                 <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                 <node concept="37vLTw" id="5M3rB6BjYy5" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6BjKB5" resolve="repository" />
+                  <ref role="3cqZAo" node="7Cdxs9E2eUY" resolve="repository" />
                 </node>
                 <node concept="37vLTw" id="5M3rB6BjYy6" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BjKAY" resolve="constants" />

@@ -21,7 +21,6 @@
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-    <import index="thsk" ref="r:447870ec-a286-434e-af5e-1c7a4b8f1b8c(io.lionweb.mps.m3.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1830,8 +1829,8 @@
                                     <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
                                   </node>
                                 </node>
-                                <node concept="2qgKlT" id="48csSBOCaPy" role="2OqNvi">
-                                  <ref role="37wK5l" to="thsk:2ju2syjkoW7" resolve="qualifiedName" />
+                                <node concept="3TrcHB" id="7Cdxs9DWGiE" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                                 </node>
                               </node>
                             </node>
@@ -1932,8 +1931,8 @@
                                     <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
                                   </node>
                                 </node>
-                                <node concept="2qgKlT" id="48csSBOCqQY" role="2OqNvi">
-                                  <ref role="37wK5l" to="thsk:2ju2syjkoW7" resolve="qualifiedName" />
+                                <node concept="3TrcHB" id="7Cdxs9DWCQH" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                                 </node>
                               </node>
                             </node>
