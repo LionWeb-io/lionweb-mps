@@ -27,7 +27,8 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
+    <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
+    <import index="xbe" ref="r:912ab958-fa26-4eb6-bc68-3a80eb1c49c4(io.lionweb.mps.converter.test.support)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -48,6 +49,9 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -2039,6 +2043,416 @@
           <ref role="2sp9C9" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="4oHUzWXS8g_">
+    <property role="TrG5h" value="TestBuiltinKeyMapper" />
+    <node concept="1LZb2c" id="4oHUzWXSyga" role="1SL9yI">
+      <property role="TrG5h" value="m3" />
+      <node concept="3cqZAl" id="4oHUzWXSygb" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXSygf" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXSGB8" role="3cqZAp">
+          <node concept="2OqwBi" id="4oHUzWXSytw" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXSygB" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXSygE" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXSygG" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXSz34" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sDq" resolve="mapLanguage" />
+              <node concept="Xl_RD" id="5uFjJmiVmRz" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-M3" />
+              </node>
+            </node>
+          </node>
+          <node concept="Xl_RD" id="4oHUzWXTGfY" role="3tpDZB">
+            <property role="Xl_RC" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXTJ5L" role="1SL9yI">
+      <property role="TrG5h" value="builtins" />
+      <node concept="3cqZAl" id="4oHUzWXTJ5M" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXTJ5N" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXTJ5O" role="3cqZAp">
+          <node concept="2OqwBi" id="4oHUzWXTJ5P" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXTJ5Q" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXTJ5R" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXTJ5S" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXTJ5T" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sDq" resolve="mapLanguage" />
+              <node concept="Xl_RD" id="4oHUzWXTJ5U" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins" />
+              </node>
+            </node>
+          </node>
+          <node concept="Xl_RD" id="4oHUzWXTJ5V" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXTTmp" role="1SL9yI">
+      <property role="TrG5h" value="Node_classifier" />
+      <node concept="3cqZAl" id="4oHUzWXTTmq" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXTTmu" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXTT_u" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXTT_G" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1133920641626" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXTTMJ" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXTT_T" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXTT_W" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXTT_Y" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXTUvD" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sDR" resolve="mapClassifier" />
+              <node concept="Xl_RD" id="4oHUzWXTUA6" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-Node" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXTZVX" role="1SL9yI">
+      <property role="TrG5h" value="Node_concept" />
+      <node concept="3cqZAl" id="4oHUzWXTZVY" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXTZVZ" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXTZW0" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXTZW1" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1133920641626" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXTZW2" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXTZW3" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXTZW4" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXTZW5" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXTZW6" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sEj" resolve="mapConcept" />
+              <node concept="Xl_RD" id="4oHUzWXTZW7" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-Node" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXU0Az" role="1SL9yI">
+      <property role="TrG5h" value="INamed_classifier" />
+      <node concept="3cqZAl" id="4oHUzWXU0A$" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXU0A_" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXU0AA" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXU0AB" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXU0AC" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXU0AD" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXU0AE" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXU0AF" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXU0AG" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sDR" resolve="mapClassifier" />
+              <node concept="Xl_RD" id="4oHUzWXU0AH" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXU6LX" role="1SL9yI">
+      <property role="TrG5h" value="INamed_iface" />
+      <node concept="3cqZAl" id="4oHUzWXU6LY" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXU6LZ" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXU6M0" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXU6M1" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXU6M2" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXU6M3" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXU6M4" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXU6M5" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXU6M6" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sEJ" resolve="mapIface" />
+              <node concept="Xl_RD" id="4oHUzWXU6M7" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXU7Ck" role="1SL9yI">
+      <property role="TrG5h" value="INamed_name" />
+      <node concept="3cqZAl" id="4oHUzWXU7Cl" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXU7Cm" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXU7Cn" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXU7Co" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXU7Cp" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXU7Cq" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXU7Cr" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXU7Cs" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXU7Ct" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sFb" resolve="mapProperty" />
+              <node concept="Xl_RD" id="4oHUzWXU7Cu" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-INamed-name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXUltL" role="1SL9yI">
+      <property role="TrG5h" value="String_dataType" />
+      <node concept="3cqZAl" id="4oHUzWXUltM" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXUltQ" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXUlKw" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXUlKx" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1082983041843" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXUlKy" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXUlKz" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXUlK$" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXUlK_" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXUlKA" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXUlKB" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-String" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXV2nj" role="1SL9yI">
+      <property role="TrG5h" value="String_primitive" />
+      <node concept="3cqZAl" id="4oHUzWXV2nk" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXV2nl" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXV2nm" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXV2nn" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1082983041843" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXV2no" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXV2np" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXV2nq" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXV2nr" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXV2ns" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXV2nt" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-String" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXVc3b" role="1SL9yI">
+      <property role="TrG5h" value="Boolean_dataType" />
+      <node concept="3cqZAl" id="4oHUzWXVc3c" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXVc3d" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXVc3e" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXVc3f" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1082983657063" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXVc3g" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXVc3h" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXVc3i" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXVc3j" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXVc3k" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXVc3l" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXVc30" role="1SL9yI">
+      <property role="TrG5h" value="Boolean_primitive" />
+      <node concept="3cqZAl" id="4oHUzWXVc31" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXVc32" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXVc33" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXVc34" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1082983657063" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXVc35" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXVc36" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXVc37" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXVc38" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXVc39" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXVc3a" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXVbtO" role="1SL9yI">
+      <property role="TrG5h" value="Integer_dataType" />
+      <node concept="3cqZAl" id="4oHUzWXVbtP" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXVbtQ" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXVbtR" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXVbtS" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1082983657062" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXVbtT" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXVbtU" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXVbtV" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXVbtW" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXVbtX" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXVbtY" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXVbtD" role="1SL9yI">
+      <property role="TrG5h" value="Integer_primitive" />
+      <node concept="3cqZAl" id="4oHUzWXVbtE" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXVbtF" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXVbtG" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXVbtH" role="3tpDZB">
+            <property role="Xl_RC" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1082983657062" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXVbtI" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXVbtJ" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXVbtK" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXVbtL" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXVbtM" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXVbtN" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXVaWu" role="1SL9yI">
+      <property role="TrG5h" value="JSON_dataType" />
+      <node concept="3cqZAl" id="4oHUzWXVaWv" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXVaWw" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXVaWx" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXVaWy" role="3tpDZB">
+            <property role="Xl_RC" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/3631234780363744558" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXVaWz" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXVaW$" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXVaW_" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXVaWA" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXVaWB" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXVaWC" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4oHUzWXVaWj" role="1SL9yI">
+      <property role="TrG5h" value="JSON_primitive" />
+      <node concept="3cqZAl" id="4oHUzWXVaWk" role="3clF45" />
+      <node concept="3clFbS" id="4oHUzWXVaWl" role="3clF47">
+        <node concept="3vlDli" id="4oHUzWXVaWm" role="3cqZAp">
+          <node concept="Xl_RD" id="4oHUzWXVaWn" role="3tpDZB">
+            <property role="Xl_RC" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d/3631234780363744558" />
+          </node>
+          <node concept="2OqwBi" id="4oHUzWXVaWo" role="3tpDZA">
+            <node concept="2OqwBi" id="4oHUzWXVaWp" role="2Oq$k0">
+              <node concept="2WthIp" id="4oHUzWXVaWq" role="2Oq$k0" />
+              <node concept="2XshWL" id="4oHUzWXVaWr" role="2OqNvi">
+                <ref role="2WH_rO" node="4oHUzWXSwEI" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4oHUzWXVaWs" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
+              <node concept="Xl_RD" id="4oHUzWXVaWt" role="37wK5m">
+                <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="4oHUzWXSwEI" role="1qtyYc">
+      <property role="TrG5h" value="create" />
+      <node concept="3uibUv" id="4oHUzWXSwFf" role="3clF45">
+        <ref role="3uigEE" to="teza:5M3rB6_P044" resolve="BuiltinKeyMapper" />
+      </node>
+      <node concept="3clFbS" id="4oHUzWXSwEK" role="3clF47">
+        <node concept="3clFbF" id="4oHUzWXSwIB" role="3cqZAp">
+          <node concept="2ShNRf" id="4oHUzWXSwI_" role="3clFbG">
+            <node concept="1pGfFk" id="4oHUzWXSwWo" role="2ShVmc">
+              <ref role="37wK5l" to="teza:5M3rB6_P82N" resolve="BuiltinKeyMapper" />
+              <node concept="2ShNRf" id="4oHUzWXSwWU" role="37wK5m">
+                <node concept="1pGfFk" id="4oHUzWXSxbh" role="2ShVmc">
+                  <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                  <node concept="2OqwBi" id="4oHUzWXSxlt" role="37wK5m">
+                    <node concept="1jGwE1" id="4oHUzWXSxbW" role="2Oq$k0" />
+                    <node concept="liA8E" id="4oHUzWXSxtw" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2ShNRf" id="4oHUzWXSxAW" role="37wK5m">
+                <node concept="HV5vD" id="4oHUzWXSy6B" role="2ShVmc">
+                  <ref role="HV5vE" to="xbe:4oHUzWXSZnG" resolve="IdentityKeyMapper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="4oHUzWXSwEW" role="1B3o_S" />
     </node>
   </node>
 </model>

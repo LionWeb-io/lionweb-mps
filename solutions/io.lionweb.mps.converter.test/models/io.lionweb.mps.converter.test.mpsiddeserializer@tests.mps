@@ -83,7 +83,7 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRhRW">
-    <property role="TrG5h" value="Language" />
+    <property role="TrG5h" value="TestLanguage" />
     <node concept="1LZb2c" id="4oHUzWXRiK_" role="1SL9yI">
       <property role="TrG5h" value="validLowercase" />
       <node concept="3cqZAl" id="4oHUzWXRiKA" role="3clF45" />
@@ -211,7 +211,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRsxZ">
-    <property role="TrG5h" value="Concept" />
+    <property role="TrG5h" value="TestConcept" />
     <node concept="1LZb2c" id="4oHUzWXRsye" role="1SL9yI">
       <property role="TrG5h" value="valid" />
       <node concept="3cqZAl" id="4oHUzWXRsyf" role="3clF45" />
@@ -411,7 +411,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRz2u">
-    <property role="TrG5h" value="Property" />
+    <property role="TrG5h" value="TestProperty" />
     <node concept="1LZb2c" id="4oHUzWXRz2v" role="1SL9yI">
       <property role="TrG5h" value="valid" />
       <node concept="3cqZAl" id="4oHUzWXRz2w" role="3clF45" />
@@ -723,7 +723,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRD$r">
-    <property role="TrG5h" value="Containment" />
+    <property role="TrG5h" value="TestContainment" />
     <node concept="1LZb2c" id="4oHUzWXRD$s" role="1SL9yI">
       <property role="TrG5h" value="valid" />
       <node concept="3cqZAl" id="4oHUzWXRD$t" role="3clF45" />
@@ -1035,7 +1035,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRFh_">
-    <property role="TrG5h" value="Reference" />
+    <property role="TrG5h" value="TestReference" />
     <node concept="1LZb2c" id="4oHUzWXRFhA" role="1SL9yI">
       <property role="TrG5h" value="valid" />
       <node concept="3cqZAl" id="4oHUzWXRFhB" role="3clF45" />
@@ -1347,7 +1347,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRH$s">
-    <property role="TrG5h" value="DataType" />
+    <property role="TrG5h" value="TestDataType" />
     <node concept="1LZb2c" id="4oHUzWXRH$t" role="1SL9yI">
       <property role="TrG5h" value="valid" />
       <node concept="3cqZAl" id="4oHUzWXRH$u" role="3clF45" />
@@ -1547,7 +1547,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRIY$">
-    <property role="TrG5h" value="EnumerationLiteral" />
+    <property role="TrG5h" value="TestEnumerationLiteral" />
     <node concept="1LZb2c" id="4oHUzWXRIY_" role="1SL9yI">
       <property role="TrG5h" value="valid" />
       <node concept="3cqZAl" id="4oHUzWXRIYA" role="3clF45" />

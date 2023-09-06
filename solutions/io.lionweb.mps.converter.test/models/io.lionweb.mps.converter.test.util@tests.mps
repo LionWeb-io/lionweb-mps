@@ -96,7 +96,7 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="4oHUzWXQ8CB">
-    <property role="TrG5h" value="IdEncoder" />
+    <property role="TrG5h" value="TestIdEncoder" />
     <node concept="1LZb2c" id="4oHUzWXQ8Ft" role="1SL9yI">
       <property role="TrG5h" value="toMpsValid" />
       <node concept="3cqZAl" id="4oHUzWXQ8Fu" role="3clF45" />
@@ -272,7 +272,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="4oHUzWXRgvQ">
-    <property role="TrG5h" value="LanguageExtensionFinder" />
+    <property role="TrG5h" value="TestLanguageExtensionFinder" />
     <node concept="1qefOq" id="4oHUzWXRgvR" role="1SKRRt">
       <node concept="3SKdUt" id="4oHUzWXRgvV" role="1qenE9">
         <node concept="1PaTwC" id="4oHUzWXRgvW" role="1aUNEU">

@@ -1355,15 +1355,15 @@
               </node>
             </node>
             <node concept="2OqwBi" id="5Dsk3ls$rEc" role="37vLTx">
-              <node concept="2YIFZM" id="5Dsk3ls$n3E" role="2Oq$k0">
-                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getPropId(org.jetbrains.mps.openapi.model.SNode)" resolve="getPropId" />
+              <node concept="2YIFZM" id="4oHUzWXUGV$" role="2Oq$k0">
+                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getDatatypeId(org.jetbrains.mps.openapi.model.SNode)" resolve="getDatatypeId" />
                 <ref role="1Pybhc" to="e8bb:~MetaIdByDeclaration" resolve="MetaIdByDeclaration" />
-                <node concept="37vLTw" id="5Dsk3ls$nTX" role="37wK5m">
+                <node concept="37vLTw" id="4oHUzWXUGV_" role="37wK5m">
                   <ref role="3cqZAo" node="DUXtH0nMqB" resolve="MPS_STRING_TYPE" />
                 </node>
               </node>
               <node concept="liA8E" id="5Dsk3ls$sUg" role="2OqNvi">
-                <ref role="37wK5l" to="e8bb:~SPropertyId.toString()" resolve="toString" />
+                <ref role="37wK5l" to="e8bb:~SElementId.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -1472,15 +1472,15 @@
               </node>
             </node>
             <node concept="2OqwBi" id="5Dsk3ls$tJJ" role="37vLTx">
-              <node concept="2YIFZM" id="5Dsk3ls$tJK" role="2Oq$k0">
+              <node concept="2YIFZM" id="4oHUzWXUI$i" role="2Oq$k0">
+                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getDatatypeId(org.jetbrains.mps.openapi.model.SNode)" resolve="getDatatypeId" />
                 <ref role="1Pybhc" to="e8bb:~MetaIdByDeclaration" resolve="MetaIdByDeclaration" />
-                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getPropId(org.jetbrains.mps.openapi.model.SNode)" resolve="getPropId" />
-                <node concept="37vLTw" id="5Dsk3ls$tJL" role="37wK5m">
+                <node concept="37vLTw" id="4oHUzWXUI$j" role="37wK5m">
                   <ref role="3cqZAo" node="DUXtH0nRhx" resolve="MPS_BOOLEAN_TYPE" />
                 </node>
               </node>
               <node concept="liA8E" id="5Dsk3ls$tJM" role="2OqNvi">
-                <ref role="37wK5l" to="e8bb:~SPropertyId.toString()" resolve="toString" />
+                <ref role="37wK5l" to="e8bb:~SElementId.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -1589,15 +1589,15 @@
               </node>
             </node>
             <node concept="2OqwBi" id="5Dsk3ls$wmN" role="37vLTx">
-              <node concept="2YIFZM" id="5Dsk3ls$wmO" role="2Oq$k0">
+              <node concept="2YIFZM" id="4oHUzWXUKpH" role="2Oq$k0">
+                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getDatatypeId(org.jetbrains.mps.openapi.model.SNode)" resolve="getDatatypeId" />
                 <ref role="1Pybhc" to="e8bb:~MetaIdByDeclaration" resolve="MetaIdByDeclaration" />
-                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getPropId(org.jetbrains.mps.openapi.model.SNode)" resolve="getPropId" />
-                <node concept="37vLTw" id="5Dsk3ls$wmP" role="37wK5m">
+                <node concept="37vLTw" id="4oHUzWXUKpI" role="37wK5m">
                   <ref role="3cqZAo" node="48csSBPf4M6" resolve="MPS_INTEGER_TYPE" />
                 </node>
               </node>
               <node concept="liA8E" id="5Dsk3ls$wmQ" role="2OqNvi">
-                <ref role="37wK5l" to="e8bb:~SPropertyId.toString()" resolve="toString" />
+                <ref role="37wK5l" to="e8bb:~SElementId.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -1940,15 +1940,15 @@
               </node>
             </node>
             <node concept="2OqwBi" id="5Dsk3ls$BHY" role="37vLTx">
-              <node concept="2YIFZM" id="5Dsk3ls$BHZ" role="2Oq$k0">
+              <node concept="2YIFZM" id="4oHUzWXUO18" role="2Oq$k0">
+                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getDatatypeId(org.jetbrains.mps.openapi.model.SNode)" resolve="getDatatypeId" />
                 <ref role="1Pybhc" to="e8bb:~MetaIdByDeclaration" resolve="MetaIdByDeclaration" />
-                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getPropId(org.jetbrains.mps.openapi.model.SNode)" resolve="getPropId" />
-                <node concept="37vLTw" id="5Dsk3ls$BI0" role="37wK5m">
+                <node concept="37vLTw" id="4oHUzWXUO19" role="37wK5m">
                   <ref role="3cqZAo" node="39$JcGFBYPi" resolve="MPS_JSON_TYPE" />
                 </node>
               </node>
               <node concept="liA8E" id="5Dsk3ls$BI1" role="2OqNvi">
-                <ref role="37wK5l" to="e8bb:~SPropertyId.toString()" resolve="toString" />
+                <ref role="37wK5l" to="e8bb:~SElementId.toString()" resolve="toString" />
               </node>
             </node>
           </node>
