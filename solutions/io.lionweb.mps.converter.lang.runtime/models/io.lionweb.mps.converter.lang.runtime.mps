@@ -374,6 +374,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4oHUzWXfKvP" role="3cqZAp" />
         <node concept="3cpWs8" id="2fx6VTTfJEn" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTTfJEo" role="3cpWs9">
             <property role="TrG5h" value="constants" />
@@ -439,6 +440,9 @@
                 <ref role="37wK5l" to="g3az:6VkSF6c16Tl" resolve="Language2LionCoreConverter" />
                 <node concept="37vLTw" id="7Cdxs9E3cy_" role="37wK5m">
                   <ref role="3cqZAo" node="7Cdxs9E3cyw" resolve="idMapper" />
+                </node>
+                <node concept="37vLTw" id="4oHUzWXprtR" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E3aNd" resolve="attributeFinder" />
                 </node>
                 <node concept="37vLTw" id="6VkSF6c1pi5" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
@@ -688,6 +692,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4oHUzWXfHMR" role="3cqZAp" />
         <node concept="3cpWs8" id="5M3rB6BjKAX" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BjKAY" role="3cpWs9">
             <property role="TrG5h" value="constants" />
@@ -704,7 +709,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5M3rB6BjK_u" role="3cqZAp" />
         <node concept="3cpWs8" id="5M3rB6BjYy1" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BjYy2" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
@@ -726,7 +730,7 @@
         </node>
         <node concept="3cpWs8" id="5M3rB6BZPzF" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BZPzG" role="3cpWs9">
-            <property role="TrG5h" value="mapper" />
+            <property role="TrG5h" value="idMapper" />
             <node concept="3uibUv" id="5M3rB6BZ$Lb" role="1tU5fm">
               <ref role="3uigEE" to="58k5:6VkSF6b37gQ" resolve="MpsLanguageIdMapper" />
             </node>
@@ -750,7 +754,7 @@
               <node concept="1pGfFk" id="4pht$XsrO4m" role="2ShVmc">
                 <ref role="37wK5l" to="zj1j:4pht$XsrCIY" resolve="Mps2LionCoreConverter" />
                 <node concept="37vLTw" id="5M3rB6BZPzK" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6BZPzG" resolve="mapper" />
+                  <ref role="3cqZAo" node="5M3rB6BZPzG" resolve="idMapper" />
                 </node>
                 <node concept="37vLTw" id="5M3rB6Bk0vk" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BjYy2" resolve="attributeFinder" />

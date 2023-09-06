@@ -3179,6 +3179,35 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4oHUzWXAXnf" role="3cqZAp">
+          <node concept="2OqwBi" id="4oHUzWXB1v4" role="3clFbG">
+            <node concept="37vLTw" id="4oHUzWXAXnd" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsLHga" resolve="json" />
+            </node>
+            <node concept="liA8E" id="4oHUzWXB9xR" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~Concept.setPartition(boolean)" resolve="setPartition" />
+              <node concept="2YIFZM" id="4oHUzWXBldV" role="37wK5m">
+                <ref role="37wK5l" to="33ny:~Objects.requireNonNullElse(java.lang.Object,java.lang.Object)" resolve="requireNonNullElse" />
+                <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+                <node concept="2OqwBi" id="4oHUzWXBurG" role="37wK5m">
+                  <node concept="37vLTw" id="4oHUzWXBqe3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
+                  </node>
+                  <node concept="liA8E" id="4oHUzWXB$y$" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:5AGBwuFbj0U" resolve="isPartition" />
+                    <node concept="37vLTw" id="4oHUzWXBC0F" role="37wK5m">
+                      <ref role="3cqZAo" node="48csSBNReHT" resolve="mps" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="4oHUzWXBS6C" role="37wK5m">
+                  <ref role="3cqZAo" to="wyt6:~Boolean.FALSE" resolve="FALSE" />
+                  <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5sACIIsMaI2" role="3cqZAp">
           <node concept="2OqwBi" id="5sACIIsMdU_" role="3clFbG">
             <node concept="37vLTw" id="5sACIIsMaI0" role="2Oq$k0">
@@ -3856,15 +3885,23 @@
             </node>
             <node concept="liA8E" id="5sACIIsTaBi" role="2OqNvi">
               <ref role="37wK5l" to="imb3:~Feature.setOptional(boolean)" resolve="setOptional" />
-              <node concept="2OqwBi" id="5AGBwuFg7bv" role="37wK5m">
-                <node concept="37vLTw" id="5AGBwuFg38I" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
-                </node>
-                <node concept="liA8E" id="5AGBwuFgc3X" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:5AGBwuFbXgW" resolve="isOptional" />
-                  <node concept="37vLTw" id="5AGBwuFgh7G" role="37wK5m">
-                    <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
+              <node concept="2YIFZM" id="4oHUzWXAwlr" role="37wK5m">
+                <ref role="37wK5l" to="33ny:~Objects.requireNonNullElse(java.lang.Object,java.lang.Object)" resolve="requireNonNullElse" />
+                <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+                <node concept="2OqwBi" id="5AGBwuFg7bv" role="37wK5m">
+                  <node concept="37vLTw" id="5AGBwuFg38I" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                   </node>
+                  <node concept="liA8E" id="5AGBwuFgc3X" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:5AGBwuFbXgW" resolve="isOptional" />
+                    <node concept="37vLTw" id="5AGBwuFgh7G" role="37wK5m">
+                      <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="4oHUzWXAOpC" role="37wK5m">
+                  <ref role="3cqZAo" to="wyt6:~Boolean.TRUE" resolve="TRUE" />
+                  <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
                 </node>
               </node>
             </node>
