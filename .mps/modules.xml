@@ -5,6 +5,8 @@
       <modulePath path="$PROJECT_DIR$/languages/MultiRefLang/MultiRefLang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang/io.lionweb.mps.converter.TestLang.mpl" folder="test" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" folder="test" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" folder="test" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLangBroken/io.lionweb.mps.converter.TestLangBroken.mpl" folder="test" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" folder="lang" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.m3/io.lionweb.mps.m3.mpl" folder="lang" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" folder="lang" />
@@ -18,6 +20,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.disabled/io.lionweb.mps.converter.test.disabled.msd" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.usebroken/io.lionweb.mps.converter.test.usebroken.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test/io.lionweb.mps.converter.test.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter/io.lionweb.mps.converter.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.json.test/io.lionweb.mps.json.test.msd" folder="test" />
