@@ -1173,11 +1173,11 @@
           <node concept="3cpWsn" id="2qVVyx0HbtK" role="3cpWs9">
             <property role="TrG5h" value="metaAdapterFactoryHelper" />
             <node concept="3uibUv" id="2qVVyx0HaIN" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
             </node>
             <node concept="2ShNRf" id="2qVVyx0HbtL" role="33vP2m">
               <node concept="1pGfFk" id="A9P4gGBorz" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
               </node>
             </node>
           </node>
