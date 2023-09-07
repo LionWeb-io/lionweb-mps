@@ -1101,12 +1101,12 @@
                         </node>
                         <node concept="2ShNRf" id="A9P4gGxTSC" role="37wK5m">
                           <node concept="1pGfFk" id="A9P4gGxUie" role="2ShVmc">
-                            <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                            <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
                           </node>
                         </node>
                         <node concept="2ShNRf" id="3Lj28wlyvJ2" role="37wK5m">
                           <node concept="HV5vD" id="3Lj28wlywnF" role="2ShVmc">
-                            <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerMapper" />
+                            <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
                           </node>
                         </node>
                       </node>
