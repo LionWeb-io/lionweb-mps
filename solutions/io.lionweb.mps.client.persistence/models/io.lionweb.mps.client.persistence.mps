@@ -1908,9 +1908,8 @@
                     <node concept="37vLTw" id="5M3rB6BZolQ" role="37wK5m">
                       <ref role="3cqZAo" node="7jdzMameH3k" resolve="mapper" />
                     </node>
-                    <node concept="2YIFZM" id="3Lj28wlE5Wx" role="37wK5m">
-                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    <node concept="37vLTw" id="1ryFPTS755g" role="37wK5m">
+                      <ref role="3cqZAo" node="5M3rB6Bilq_" resolve="constants" />
                     </node>
                   </node>
                 </node>

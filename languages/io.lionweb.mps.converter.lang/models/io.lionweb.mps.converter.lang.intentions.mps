@@ -1280,9 +1280,8 @@
                     <node concept="37vLTw" id="5M3rB6BZqlC" role="37wK5m">
                       <ref role="3cqZAo" node="39$JcGF9MRy" resolve="mapper" />
                     </node>
-                    <node concept="2YIFZM" id="3Lj28wlE5Wx" role="37wK5m">
-                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                    <node concept="37vLTw" id="1ryFPTS76XP" role="37wK5m">
+                      <ref role="3cqZAo" node="5M3rB6BiIOr" resolve="constants" />
                     </node>
                   </node>
                 </node>
