@@ -32,6 +32,8 @@
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" />
     <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lioncore.java/)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
   </imports>
@@ -375,7 +377,7 @@
       <node concept="37vLTG" id="5AGBwuFmRql" role="3clF46">
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="5AGBwuFmRqm" role="1tU5fm">
-          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VruLn" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -393,7 +395,7 @@
       <node concept="37vLTG" id="5AGBwuFmOV2" role="3clF46">
         <property role="TrG5h" value="attributeFinder" />
         <node concept="3uibUv" id="5AGBwuFmOV3" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+          <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8Vrvos" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -540,7 +542,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5AGBwuFajTn" role="1B3o_S" />
       <node concept="3uibUv" id="5AGBwuFajTp" role="1tU5fm">
-        <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="6VkSF6cgpcQ" role="jymVt">
@@ -556,7 +558,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5AGBwuFaSOL" role="1B3o_S" />
       <node concept="3uibUv" id="5AGBwuFaSON" role="1tU5fm">
-        <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+        <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
     </node>
     <node concept="2tJIrI" id="48csSBNRezK" role="jymVt" />
@@ -779,7 +781,7 @@
       <node concept="37vLTG" id="5AGBwuFajbY" role="3clF46">
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="5AGBwuFajQP" role="1tU5fm">
-          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VhgJ4" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -797,7 +799,7 @@
       <node concept="37vLTG" id="5AGBwuFaS4W" role="3clF46">
         <property role="TrG5h" value="attributeFinder" />
         <node concept="3uibUv" id="5AGBwuFaSMf" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+          <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8Vhi5l" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -844,7 +846,7 @@
                   <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BBqZv" role="2OqNvi">
-                  <ref role="37wK5l" to="en45:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BBqZw" role="2OqNvi" />
@@ -1719,7 +1721,7 @@
                             <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                           </node>
                           <node concept="liA8E" id="5AGBwuFOwBE" role="2OqNvi">
-                            <ref role="37wK5l" to="apzt:5AGBwuFc9IG" resolve="isSmartReference" />
+                            <ref role="37wK5l" to="71yb:5AGBwuFc9IG" resolve="isSmartReference" />
                             <node concept="37vLTw" id="5AGBwuFOwBF" role="37wK5m">
                               <ref role="3cqZAo" node="5AGBwuFexjp" resolve="it" />
                             </node>
@@ -2631,7 +2633,7 @@
                       <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                     </node>
                     <node concept="liA8E" id="5AGBwuFgE2$" role="2OqNvi">
-                      <ref role="37wK5l" to="apzt:5AGBwuFdyB_" resolve="isSmartReferenceLink" />
+                      <ref role="37wK5l" to="71yb:5AGBwuFdyB_" resolve="isSmartReferenceLink" />
                       <node concept="2GrUjf" id="5AGBwuFgJ5X" role="37wK5m">
                         <ref role="2Gs0qQ" node="48csSBNReFp" resolve="containment" />
                       </node>
@@ -3194,7 +3196,7 @@
                     <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                   </node>
                   <node concept="liA8E" id="4oHUzWXB$y$" role="2OqNvi">
-                    <ref role="37wK5l" to="apzt:5AGBwuFbj0U" resolve="isPartition" />
+                    <ref role="37wK5l" to="71yb:5AGBwuFbj0U" resolve="isPartition" />
                     <node concept="37vLTw" id="4oHUzWXBC0F" role="37wK5m">
                       <ref role="3cqZAo" node="48csSBNReHT" resolve="mps" />
                     </node>
@@ -3893,7 +3895,7 @@
                     <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                   </node>
                   <node concept="liA8E" id="5AGBwuFgc3X" role="2OqNvi">
-                    <ref role="37wK5l" to="apzt:5AGBwuFbXgW" resolve="isOptional" />
+                    <ref role="37wK5l" to="71yb:5AGBwuFbXgW" resolve="isOptional" />
                     <node concept="37vLTw" id="5AGBwuFgh7G" role="37wK5m">
                       <ref role="3cqZAo" node="48csSBNReLs" resolve="mps" />
                     </node>
@@ -4080,7 +4082,7 @@
                         <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                       </node>
                       <node concept="liA8E" id="5AGBwuFlgge" role="2OqNvi">
-                        <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                        <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                         <node concept="37vLTw" id="5AGBwuFlggf" role="37wK5m">
                           <ref role="3cqZAo" node="48csSBNReNd" resolve="mps" />
                         </node>
@@ -4120,7 +4122,7 @@
                   <ref role="3cqZAo" node="5AGBwuFaSOK" resolve="attributeFinder" />
                 </node>
                 <node concept="liA8E" id="5AGBwuFjTMh" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:5AGBwuFdyB_" resolve="isSmartReferenceLink" />
+                  <ref role="37wK5l" to="71yb:5AGBwuFdyB_" resolve="isSmartReferenceLink" />
                   <node concept="37vLTw" id="5AGBwuFjYud" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReNd" resolve="mps" />
                   </node>
@@ -5568,7 +5570,7 @@
       <node concept="37vLTG" id="5M3rB6BCHyc" role="3clF46">
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="5M3rB6BCLYR" role="1tU5fm">
-          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BCWEL" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -5601,7 +5603,7 @@
       <node concept="37vLTG" id="5M3rB6BD1Mm" role="3clF46">
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="5M3rB6BD1Mn" role="1tU5fm">
-          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
       </node>
       <node concept="3clFbS" id="5M3rB6BD1LH" role="3clF47">
@@ -5639,7 +5641,7 @@
                   <ref role="3cqZAo" node="5M3rB6BD1Mm" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BD1LX" role="2OqNvi">
-                  <ref role="37wK5l" to="en45:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BD1LY" role="2OqNvi" />

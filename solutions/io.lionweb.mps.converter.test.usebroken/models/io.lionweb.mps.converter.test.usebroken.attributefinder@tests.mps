@@ -13,6 +13,8 @@
     <import index="ovqo" ref="r:684c009c-101c-4817-88f6-89243dcfbd1f(io.lionweb.mps.converter.TestLangBroken.structure)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -120,7 +122,7 @@
     <node concept="2XrIbr" id="4oHUzWXP2wC" role="1qtyYc">
       <property role="TrG5h" value="create" />
       <node concept="3uibUv" id="4oHUzWXP2wD" role="3clF45">
-        <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+        <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
       <node concept="3clFbS" id="4oHUzWXP2wE" role="3clF47">
         <node concept="3cpWs8" id="4oHUzWXP2wF" role="3cqZAp">
@@ -140,13 +142,13 @@
         <node concept="3clFbF" id="4oHUzWXP2wL" role="3cqZAp">
           <node concept="2ShNRf" id="4oHUzWXP2wM" role="3clFbG">
             <node concept="1pGfFk" id="4oHUzWXP2wN" role="2ShVmc">
-              <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+              <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
               <node concept="37vLTw" id="4oHUzWXP2wO" role="37wK5m">
                 <ref role="3cqZAo" node="4oHUzWXP2wG" resolve="repository" />
               </node>
               <node concept="2ShNRf" id="4oHUzWXP2wP" role="37wK5m">
                 <node concept="1pGfFk" id="4oHUzWXP2wQ" role="2ShVmc">
-                  <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                  <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                   <node concept="37vLTw" id="4oHUzWXP2wR" role="37wK5m">
                     <ref role="3cqZAo" node="4oHUzWXP2wG" resolve="repository" />
                   </node>
@@ -175,7 +177,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2x3" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP3aH" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP3aI" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP3aJ" role="2tJFKM">
@@ -217,7 +219,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2xf" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP3Ds" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP3Dt" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP3Du" role="2tJFKM">
@@ -259,7 +261,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2xr" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP3MR" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP3MS" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP3MT" role="2tJFKM">
@@ -301,7 +303,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2xB" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP422" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP423" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP424" role="2tJFKM">
@@ -343,7 +345,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2xN" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP4sv" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP4sw" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP4sx" role="2tJFKM">
@@ -385,7 +387,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2xZ" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP4MA" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP4MB" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP4MC" role="2tJFKM">
@@ -427,7 +429,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXP2yb" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuDIChe" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
                 <node concept="2OqwBi" id="4oHUzWXP5ez" role="37wK5m">
                   <node concept="2tJFMh" id="4oHUzWXP5e$" role="2Oq$k0">
                     <node concept="ZC_QK" id="4oHUzWXP5e_" role="2tJFKM">
@@ -458,7 +460,7 @@
     <node concept="2XrIbr" id="4oHUzWXOFpr" role="1qtyYc">
       <property role="TrG5h" value="create" />
       <node concept="3uibUv" id="4oHUzWXOFps" role="3clF45">
-        <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+        <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
       <node concept="3clFbS" id="4oHUzWXOFpt" role="3clF47">
         <node concept="3cpWs8" id="4oHUzWXOFpu" role="3cqZAp">
@@ -478,13 +480,13 @@
         <node concept="3clFbF" id="4oHUzWXOFp$" role="3cqZAp">
           <node concept="2ShNRf" id="4oHUzWXOFp_" role="3clFbG">
             <node concept="1pGfFk" id="4oHUzWXOFpA" role="2ShVmc">
-              <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+              <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
               <node concept="37vLTw" id="4oHUzWXOFpB" role="37wK5m">
                 <ref role="3cqZAo" node="4oHUzWXOFpv" resolve="repository" />
               </node>
               <node concept="2ShNRf" id="4oHUzWXOFpC" role="37wK5m">
                 <node concept="1pGfFk" id="4oHUzWXOFpD" role="2ShVmc">
-                  <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                  <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                   <node concept="37vLTw" id="4oHUzWXOFpE" role="37wK5m">
                     <ref role="3cqZAo" node="4oHUzWXOFpv" resolve="repository" />
                   </node>
@@ -513,7 +515,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXOFpQ" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXOFpR" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXOGel" resolve="BrokenConcept" />
                   <ref role="359W_F" to="ovqo:4oHUzWXOGem" resolve="cont" />
@@ -541,7 +543,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXOHiW" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXOHiX" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXOGel" resolve="BrokenConcept" />
                   <ref role="359W_F" to="ovqo:4oHUzWXOGeo" resolve="ref" />
@@ -569,7 +571,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXOO8b" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXOO8c" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXOOmd" resolve="BrokenSubConcept" />
                   <ref role="359W_F" to="ovqo:4oHUzWXOOsk" resolve="self" />
@@ -597,7 +599,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXOOMo" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXOOMp" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXOOIA" resolve="BrokenIfaceConcept" />
                   <ref role="359W_F" to="ovqo:4oHUzWXOOIB" resolve="self" />
@@ -625,7 +627,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXOQPY" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXOQPZ" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXOQOy" resolve="BrokenPropSource" />
                   <ref role="359W_F" to="ovqo:4oHUzWXOQOz" resolve="ref" />
@@ -653,7 +655,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXORf0" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXORf1" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXORdj" resolve="BrokenMultiLinkSource" />
                   <ref role="359W_F" to="ovqo:4oHUzWXORdk" resolve="ref" />
@@ -681,7 +683,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4oHUzWXORH$" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:5AGBwuFkotB" resolve="extractSmartTarget" />
+                <ref role="37wK5l" to="71yb:5AGBwuFkotB" resolve="extractSmartTarget" />
                 <node concept="359W_D" id="4oHUzWXORH_" role="37wK5m">
                   <ref role="359W_E" to="ovqo:4oHUzWXORD2" resolve="BrokenContainmentSource" />
                   <ref role="359W_F" to="ovqo:4oHUzWXORD3" resolve="ref" />

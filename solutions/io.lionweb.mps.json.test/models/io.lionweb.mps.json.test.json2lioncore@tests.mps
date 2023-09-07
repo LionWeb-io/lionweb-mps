@@ -24,6 +24,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
   </imports>
@@ -322,11 +323,11 @@
               <node concept="3cpWsn" id="4n8SsXjtzMD" role="3cpWs9">
                 <property role="TrG5h" value="constants" />
                 <node concept="3uibUv" id="4n8SsXjtynu" role="1tU5fm">
-                  <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+                  <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
                 </node>
                 <node concept="2ShNRf" id="4n8SsXjtzME" role="33vP2m">
                   <node concept="1pGfFk" id="4n8SsXjtzMF" role="2ShVmc">
-                    <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                    <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                     <node concept="2OqwBi" id="4n8SsXjtzMG" role="37wK5m">
                       <node concept="1jGwE1" id="4n8SsXjtzMH" role="2Oq$k0" />
                       <node concept="liA8E" id="4n8SsXjtzMI" role="2OqNvi">
@@ -374,7 +375,7 @@
                     </node>
                     <node concept="2ShNRf" id="A9P4gGy9_t" role="37wK5m">
                       <node concept="1pGfFk" id="A9P4gGyaKY" role="2ShVmc">
-                        <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryHelper" />
+                        <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
                       </node>
                     </node>
                   </node>
@@ -565,7 +566,7 @@
                     <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2ShNRf" id="5M3rB6C4DiI" role="37wK5m">
                       <node concept="1pGfFk" id="5M3rB6C4DiJ" role="2ShVmc">
-                        <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                        <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                         <node concept="37vLTw" id="5M3rB6Cnqi0" role="37wK5m">
                           <ref role="3cqZAo" node="5M3rB6CnpWI" resolve="repository" />
                         </node>
@@ -858,7 +859,7 @@
                     <ref role="37wK5l" to="9pi3:z1IqfFwVBn" resolve="Json2LionCoreConverter" />
                     <node concept="2ShNRf" id="5M3rB6C4Djc" role="37wK5m">
                       <node concept="1pGfFk" id="5M3rB6C4Djd" role="2ShVmc">
-                        <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                        <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                         <node concept="37vLTw" id="5M3rB6Cnpyo" role="37wK5m">
                           <ref role="3cqZAo" node="5M3rB6CnoRq" resolve="repository" />
                         </node>
@@ -1200,7 +1201,7 @@
                 <ref role="37wK5l" to="9pi3:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
                 <node concept="2ShNRf" id="5M3rB6C4DjE" role="37wK5m">
                   <node concept="1pGfFk" id="5M3rB6C4DjF" role="2ShVmc">
-                    <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                    <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                     <node concept="37vLTw" id="5M3rB6Cnt7O" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6CnrUX" resolve="repository" />
                     </node>

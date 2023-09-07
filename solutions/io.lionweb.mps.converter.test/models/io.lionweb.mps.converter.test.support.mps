@@ -12,6 +12,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="2k9e" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure(MPS.Core/)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -1592,12 +1593,12 @@
               <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
             </node>
             <node concept="2OqwBi" id="4oHUzWXZaGI" role="33vP2m">
-              <node concept="2YIFZM" id="4oHUzWXZaGJ" role="2Oq$k0">
-                <ref role="37wK5l" to="apzt:39$JcGGnzni" resolve="getInstance" />
-                <ref role="1Pybhc" to="apzt:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+              <node concept="2YIFZM" id="68Be_yKnMG" role="2Oq$k0">
+                <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
+                <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
               </node>
               <node concept="liA8E" id="4oHUzWXZaGK" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:39$JcGGnAUM" resolve="toSLanguage" />
+                <ref role="37wK5l" to="y7p:39$JcGGnAUM" resolve="toSLanguage" />
                 <node concept="2OqwBi" id="4oHUzWXZaGL" role="37wK5m">
                   <node concept="37vLTw" id="4oHUzWXZaGM" role="2Oq$k0">
                     <ref role="3cqZAo" node="4oHUzWXZ5W2" resolve="dataType" />

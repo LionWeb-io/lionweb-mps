@@ -21,6 +21,7 @@
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
@@ -312,7 +313,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="39$JcGF2lay" role="1B3o_S" />
       <node concept="3uibUv" id="39$JcGF2la$" role="1tU5fm">
-        <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="39$JcGF2la_" role="jymVt">
@@ -623,7 +624,7 @@
       <node concept="37vLTG" id="z1IqfG6Zp1" role="3clF46">
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="z1IqfG6ZxO" role="1tU5fm">
-          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BEWwV" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -699,7 +700,7 @@
                   <ref role="3cqZAo" node="39$JcGF2lax" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BDRiL" role="2OqNvi">
-                  <ref role="37wK5l" to="en45:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BDRiM" role="2OqNvi" />
@@ -776,7 +777,7 @@
                   <ref role="3cqZAo" node="39$JcGF2lax" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BDRjk" role="2OqNvi">
-                  <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcClassifiers" />
+                  <ref role="37wK5l" to="y7p:39$JcGG9rXU" resolve="listLcClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BDRjl" role="2OqNvi" />
@@ -2527,7 +2528,7 @@
                       <ref role="3cqZAo" node="39$JcGF2lax" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGFSuy6" role="2OqNvi">
-                      <ref role="37wK5l" to="en45:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                      <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                 </node>
@@ -3504,7 +3505,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="39$JcGF4Bum" role="1B3o_S" />
       <node concept="3uibUv" id="39$JcGF4Buo" role="1tU5fm">
-        <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="39$JcGF4Bup" role="jymVt">
@@ -3815,7 +3816,7 @@
       <node concept="37vLTG" id="5sACIIsA0ul" role="3clF46">
         <property role="TrG5h" value="constants" />
         <node concept="3uibUv" id="5sACIIsA0um" role="1tU5fm">
-          <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BJpDq" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -3868,7 +3869,7 @@
                   <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BJsJm" role="2OqNvi">
-                  <ref role="37wK5l" to="en45:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BJsJn" role="2OqNvi" />
@@ -3945,7 +3946,7 @@
                   <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BJsJT" role="2OqNvi">
-                  <ref role="37wK5l" to="en45:39$JcGG9rXU" resolve="listLcClassifiers" />
+                  <ref role="37wK5l" to="y7p:39$JcGG9rXU" resolve="listLcClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BJsJU" role="2OqNvi" />
@@ -5892,7 +5893,7 @@
                       <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGFT_BI" role="2OqNvi">
-                      <ref role="37wK5l" to="en45:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                      <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                   <node concept="2WmjW8" id="39$JcGFT_BJ" role="2OqNvi">

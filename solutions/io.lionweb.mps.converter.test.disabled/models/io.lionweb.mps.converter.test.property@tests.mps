@@ -19,6 +19,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="wabr" ref="r:102def02-b21c-453e-9dde-6bf50962dd8e(io.lionweb.mps.converter.test.disabled.support)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -705,11 +706,11 @@
           <node concept="3cpWsn" id="5wsogBcxcz3" role="3cpWs9">
             <property role="TrG5h" value="constants" />
             <node concept="3uibUv" id="5wsogBcxcz4" role="1tU5fm">
-              <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
             </node>
             <node concept="2ShNRf" id="5M3rB6C4Dig" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6C4Dih" role="2ShVmc">
-                <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                 <node concept="37vLTw" id="5M3rB6ChYbt" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6ChXCj" resolve="repository" />
                 </node>
@@ -837,7 +838,7 @@
                 <ref role="3cqZAo" node="5wsogBcxcz3" resolve="constants" />
               </node>
               <node concept="2OwXpG" id="59Df55l3IPy" role="2OqNvi">
-                <ref role="2Oxat5" to="en45:DUXtH0nRhx" resolve="MPS_BOOLEAN_TYPE" />
+                <ref role="2Oxat5" to="y7p:DUXtH0nRhx" resolve="MPS_BOOLEAN_TYPE" />
               </node>
             </node>
           </node>
@@ -865,7 +866,7 @@
                 <ref role="3cqZAo" node="5wsogBcxcz3" resolve="constants" />
               </node>
               <node concept="2OwXpG" id="59Df55l3J57" role="2OqNvi">
-                <ref role="2Oxat5" to="en45:DUXtH0nMqB" resolve="MPS_STRING_TYPE" />
+                <ref role="2Oxat5" to="y7p:DUXtH0nMqB" resolve="MPS_STRING_TYPE" />
               </node>
             </node>
           </node>

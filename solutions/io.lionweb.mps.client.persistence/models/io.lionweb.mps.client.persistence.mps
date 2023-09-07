@@ -31,6 +31,8 @@
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1579,11 +1581,11 @@
           <node concept="3cpWsn" id="4n8SsXjtv1P" role="3cpWs9">
             <property role="TrG5h" value="constants" />
             <node concept="3uibUv" id="4n8SsXjtuMX" role="1tU5fm">
-              <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
             </node>
             <node concept="2ShNRf" id="4n8SsXjtv1Q" role="33vP2m">
               <node concept="1pGfFk" id="4n8SsXjtv1R" role="2ShVmc">
-                <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                 <node concept="37vLTw" id="4n8SsXjtv1S" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
                 </node>
@@ -1595,11 +1597,11 @@
           <node concept="3cpWsn" id="4n8SsXjtvun" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
             <node concept="3uibUv" id="4n8SsXjtvj6" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+              <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
             </node>
             <node concept="2ShNRf" id="4n8SsXjtvuo" role="33vP2m">
               <node concept="1pGfFk" id="4n8SsXjtvup" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                 <node concept="37vLTw" id="4n8SsXjtvuq" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
                 </node>
@@ -1813,11 +1815,11 @@
           <node concept="3cpWsn" id="5M3rB6Bilq_" role="3cpWs9">
             <property role="TrG5h" value="constants" />
             <node concept="3uibUv" id="5M3rB6BikSX" role="1tU5fm">
-              <ref role="3uigEE" to="en45:DUXtGZOlwJ" resolve="LionCoreConstants" />
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BilqA" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BilqB" role="2ShVmc">
-                <ref role="37wK5l" to="en45:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                 <node concept="37vLTw" id="5M3rB6BilqC" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMame$Pf" resolve="repository" />
                 </node>
@@ -1829,11 +1831,11 @@
           <node concept="3cpWsn" id="7jdzMameNa3" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
             <node concept="3uibUv" id="7jdzMameN31" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+              <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
             </node>
             <node concept="2ShNRf" id="7jdzMameNa4" role="33vP2m">
               <node concept="1pGfFk" id="7jdzMameNa5" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                 <node concept="37vLTw" id="7jdzMameNa6" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMame$Pf" resolve="repository" />
                 </node>

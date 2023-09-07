@@ -147,7 +147,7 @@
       <property role="20kJfa" value="refZeroToOne" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
       <node concept="2DM1AW" id="4oHUzWXLs9s" role="lGtFl">
-        <property role="2DM1AS" value="My-Test3ZeroToOne" />
+        <property role="2DM1AS" value="My-Test3refZeroToOne" />
       </node>
     </node>
     <node concept="1TJgyj" id="2fx6VTSSAcY" role="1TKVEi">
