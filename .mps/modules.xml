@@ -28,6 +28,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.runtime/io.lionweb.mps.m3.runtime.msd" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="test" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="server" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.test/io.lionweb.mps.server.test.msd" folder="test" />
     </projectModules>
   </component>
 </project>
