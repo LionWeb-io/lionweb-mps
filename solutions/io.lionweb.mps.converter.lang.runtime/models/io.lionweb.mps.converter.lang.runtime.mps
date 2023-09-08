@@ -35,7 +35,6 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
-    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" implicit="true" />
@@ -397,11 +396,11 @@
           <node concept="3cpWsn" id="7Cdxs9E3aNd" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
             <node concept="3uibUv" id="7Cdxs9E3ae7" role="1tU5fm">
-              <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
             </node>
             <node concept="2ShNRf" id="7Cdxs9E3aNe" role="33vP2m">
               <node concept="1pGfFk" id="7Cdxs9E3aNf" role="2ShVmc">
-                <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                 <node concept="37vLTw" id="7Cdxs9E3aNg" role="37wK5m">
                   <ref role="3cqZAo" node="7Cdxs9E2hOh" resolve="repository" />
                 </node>
@@ -715,11 +714,11 @@
           <node concept="3cpWsn" id="5M3rB6BjYy2" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
             <node concept="3uibUv" id="5M3rB6BjYoF" role="1tU5fm">
-              <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BjYy3" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BjYy4" role="2ShVmc">
-                <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                 <node concept="37vLTw" id="5M3rB6BjYy5" role="37wK5m">
                   <ref role="3cqZAo" node="7Cdxs9E2eUY" resolve="repository" />
                 </node>
@@ -1209,7 +1208,7 @@
                     <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageIdMapper" />
                     <node concept="2ShNRf" id="5M3rB6BanGC" role="37wK5m">
                       <node concept="1pGfFk" id="5M3rB6BaEK6" role="2ShVmc">
-                        <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                        <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                         <node concept="37vLTw" id="5M3rB6BaFHp" role="37wK5m">
                           <ref role="3cqZAo" node="3LWE6BDyr_P" resolve="repository" />
                         </node>

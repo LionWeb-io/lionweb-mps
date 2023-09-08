@@ -7,7 +7,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
@@ -26,7 +25,6 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
-    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" implicit="true" />
@@ -1234,11 +1232,11 @@
               <node concept="3cpWsn" id="5AGBwuFztQw" role="3cpWs9">
                 <property role="TrG5h" value="attributeFinder" />
                 <node concept="3uibUv" id="5AGBwuFztQx" role="1tU5fm">
-                  <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+                  <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
                 </node>
                 <node concept="2ShNRf" id="5AGBwuFzu9R" role="33vP2m">
                   <node concept="1pGfFk" id="5AGBwuFzuq8" role="2ShVmc">
-                    <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                    <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                     <node concept="37vLTw" id="5AGBwuFzAQB" role="37wK5m">
                       <ref role="3cqZAo" node="5AGBwuFzutf" resolve="repository" />
                     </node>
@@ -1659,11 +1657,11 @@
               <node concept="3cpWsn" id="5M3rB6BZzVf" role="3cpWs9">
                 <property role="TrG5h" value="attributeFinder" />
                 <node concept="3uibUv" id="5M3rB6BZzS$" role="1tU5fm">
-                  <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+                  <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
                 </node>
                 <node concept="2ShNRf" id="5M3rB6BZzVg" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6BZzVh" role="2ShVmc">
-                    <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                    <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                     <node concept="37vLTw" id="5M3rB6BZzVi" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6BZyeP" resolve="repository" />
                     </node>

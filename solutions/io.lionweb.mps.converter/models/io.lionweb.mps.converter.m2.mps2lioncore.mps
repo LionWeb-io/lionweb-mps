@@ -27,7 +27,6 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
-    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -382,7 +381,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5AGBwuDD_bR" role="1B3o_S" />
       <node concept="3uibUv" id="5AGBwuDD_bT" role="1tU5fm">
-        <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+        <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
     </node>
     <node concept="312cEg" id="2ju2syjqsWH" role="jymVt">
@@ -693,7 +692,7 @@
       <node concept="37vLTG" id="5AGBwuDDq$X" role="3clF46">
         <property role="TrG5h" value="attributeFinder" />
         <node concept="3uibUv" id="5AGBwuDDsto" role="1tU5fm">
-          <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+          <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6B_8qz" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -1052,7 +1051,7 @@
                                 <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
                               </node>
                               <node concept="liA8E" id="5AGBwuFdYYL" role="2OqNvi">
-                                <ref role="37wK5l" to="71yb:5AGBwuDEYg1" resolve="isSmartReference" />
+                                <ref role="37wK5l" to="y7p:5AGBwuDEYg1" resolve="isSmartReference" />
                                 <node concept="37vLTw" id="5AGBwuFdOje" role="37wK5m">
                                   <ref role="3cqZAo" node="5AGBwuFdOjf" resolve="it" />
                                 </node>
@@ -2265,7 +2264,7 @@
                         <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
                       </node>
                       <node concept="liA8E" id="4oHUzWXzjAI" role="2OqNvi">
-                        <ref role="37wK5l" to="71yb:5AGBwuDPslO" resolve="isPartition" />
+                        <ref role="37wK5l" to="y7p:5AGBwuDPslO" resolve="isPartition" />
                         <node concept="37vLTw" id="4oHUzWXzpiN" role="37wK5m">
                           <ref role="3cqZAo" node="2ju2syjqGbd" resolve="concept" />
                         </node>
@@ -2826,7 +2825,7 @@
                         <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
                       </node>
                       <node concept="liA8E" id="4oHUzWXyeF_" role="2OqNvi">
-                        <ref role="37wK5l" to="71yb:5AGBwuDPHn0" resolve="isOptional" />
+                        <ref role="37wK5l" to="y7p:5AGBwuDPHn0" resolve="isOptional" />
                         <node concept="37vLTw" id="4oHUzWXyl6z" role="37wK5m">
                           <ref role="3cqZAo" node="2ju2syjruxF" resolve="prop" />
                         </node>
@@ -3009,7 +3008,7 @@
                         <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
                       </node>
                       <node concept="liA8E" id="5AGBwuDFrfb" role="2OqNvi">
-                        <ref role="37wK5l" to="71yb:5AGBwuDF2CR" resolve="isSmartReferenceLink" />
+                        <ref role="37wK5l" to="y7p:5AGBwuDF2CR" resolve="isSmartReferenceLink" />
                         <node concept="37vLTw" id="5AGBwuDFv9c" role="37wK5m">
                           <ref role="3cqZAo" node="2ju2syjr_Rz" resolve="link" />
                         </node>
@@ -3089,7 +3088,7 @@
                         <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
                       </node>
                       <node concept="liA8E" id="5AGBwuDM2L1" role="2OqNvi">
-                        <ref role="37wK5l" to="71yb:5AGBwuDIChe" resolve="extractSmartTarget" />
+                        <ref role="37wK5l" to="y7p:5AGBwuDIChe" resolve="extractSmartTarget" />
                         <node concept="37vLTw" id="5AGBwuDM2L2" role="37wK5m">
                           <ref role="3cqZAo" node="2ju2syjxQ_b" resolve="mps" />
                         </node>
@@ -3126,7 +3125,7 @@
                   <ref role="3cqZAo" node="5AGBwuDD_bQ" resolve="attributeFinder" />
                 </node>
                 <node concept="liA8E" id="5AGBwuDHy$N" role="2OqNvi">
-                  <ref role="37wK5l" to="71yb:5AGBwuDF2CR" resolve="isSmartReferenceLink" />
+                  <ref role="37wK5l" to="y7p:5AGBwuDF2CR" resolve="isSmartReferenceLink" />
                   <node concept="37vLTw" id="5AGBwuDHBwA" role="37wK5m">
                     <ref role="3cqZAo" node="2ju2syjxQ_b" resolve="mps" />
                   </node>

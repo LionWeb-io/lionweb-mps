@@ -25,8 +25,7 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
-    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
-    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
@@ -3435,7 +3434,7 @@
       <node concept="37vLTG" id="5M3rB6BAi43" role="3clF46">
         <property role="TrG5h" value="attributeFinder" />
         <node concept="3uibUv" id="5M3rB6BAi45" role="1tU5fm">
-          <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+          <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6BAjg2" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -7478,7 +7477,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="KVKr66xwLd" role="1B3o_S" />
       <node concept="3uibUv" id="KVKr66xwLe" role="1tU5fm">
-        <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+        <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
       </node>
     </node>
     <node concept="312cEg" id="KVKr66x_Qz" role="jymVt">
@@ -7510,7 +7509,7 @@
       <node concept="37vLTG" id="KVKr66xxc_" role="3clF46">
         <property role="TrG5h" value="attributeFinder" />
         <node concept="3uibUv" id="KVKr66xxcA" role="1tU5fm">
-          <ref role="3uigEE" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+          <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
         <node concept="2AHcQZ" id="KVKr66xxcB" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -7547,7 +7546,7 @@
               <ref role="3cqZAo" node="KVKr66xwLc" resolve="attributeFinder" />
             </node>
             <node concept="liA8E" id="KVKr66xyse" role="2OqNvi">
-              <ref role="37wK5l" to="71yb:5AGBwuFL9yX" resolve="findLanguageByKey" />
+              <ref role="37wK5l" to="y7p:5AGBwuFL9yX" resolve="findLanguageByKey" />
               <node concept="2OqwBi" id="KVKr66xz2n" role="37wK5m">
                 <node concept="37vLTw" id="KVKr66xysf" role="2Oq$k0">
                   <ref role="3cqZAo" node="KVKr66xvwk" resolve="metaPointer" />
@@ -7681,7 +7680,7 @@
                           <ref role="3cqZAo" node="KVKr66xwLc" resolve="attributeFinder" />
                         </node>
                         <node concept="liA8E" id="KVKr66xCm9" role="2OqNvi">
-                          <ref role="37wK5l" to="71yb:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
+                          <ref role="37wK5l" to="y7p:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
                           <node concept="37vLTw" id="KVKr66xCma" role="37wK5m">
                             <ref role="3cqZAo" node="KVKr66xCmj" resolve="it" />
                           </node>
@@ -7797,7 +7796,7 @@
                           <ref role="3cqZAo" node="KVKr66xwLc" resolve="attributeFinder" />
                         </node>
                         <node concept="liA8E" id="KVKr66xEDR" role="2OqNvi">
-                          <ref role="37wK5l" to="71yb:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
+                          <ref role="37wK5l" to="y7p:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
                           <node concept="37vLTw" id="KVKr66xEDS" role="37wK5m">
                             <ref role="3cqZAo" node="KVKr66xEDX" resolve="it" />
                           </node>
@@ -7903,7 +7902,7 @@
                           <ref role="3cqZAo" node="KVKr66xwLc" resolve="attributeFinder" />
                         </node>
                         <node concept="liA8E" id="KVKr66xHVW" role="2OqNvi">
-                          <ref role="37wK5l" to="71yb:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
+                          <ref role="37wK5l" to="y7p:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
                           <node concept="37vLTw" id="KVKr66xHVX" role="37wK5m">
                             <ref role="3cqZAo" node="KVKr66xHW2" resolve="it" />
                           </node>
@@ -8009,7 +8008,7 @@
                           <ref role="3cqZAo" node="KVKr66xwLc" resolve="attributeFinder" />
                         </node>
                         <node concept="liA8E" id="KVKr66xKdQ" role="2OqNvi">
-                          <ref role="37wK5l" to="71yb:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
+                          <ref role="37wK5l" to="y7p:6fYiNFaH3n7" resolve="findKeyFromAttribute" />
                           <node concept="37vLTw" id="KVKr66xKdR" role="37wK5m">
                             <ref role="3cqZAo" node="KVKr66xKdW" resolve="it" />
                           </node>
@@ -8077,7 +8076,7 @@
           <node concept="92FcH" id="68Be_yDKVn" role="qph3F">
             <node concept="TZ5HA" id="68Be_yDKVp" role="2XjZqd" />
             <node concept="VXe08" id="68Be_yDKVw" role="92FcQ">
-              <ref role="VXe09" to="71yb:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+              <ref role="VXe09" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
             </node>
           </node>
         </node>

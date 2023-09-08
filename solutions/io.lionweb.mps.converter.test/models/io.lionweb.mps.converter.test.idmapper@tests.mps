@@ -1641,7 +1641,7 @@
               <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageIdMapper" />
               <node concept="2ShNRf" id="5M3rB6Be6hk" role="37wK5m">
                 <node concept="1pGfFk" id="5M3rB6Be71f" role="2ShVmc">
-                  <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                  <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                   <node concept="37vLTw" id="5M3rB6Be7Xp" role="37wK5m">
                     <ref role="3cqZAo" node="4oHUzWXWE$5" resolve="repository" />
                   </node>
@@ -2944,7 +2944,7 @@
               <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
               <node concept="2ShNRf" id="5M3rB6BemwI" role="37wK5m">
                 <node concept="1pGfFk" id="5M3rB6BenGD" role="2ShVmc">
-                  <ref role="37wK5l" to="71yb:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                  <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
                   <node concept="37vLTw" id="5M3rB6BeosI" role="37wK5m">
                     <ref role="3cqZAo" node="5M3rB6Beo5l" resolve="repository" />
                   </node>
