@@ -1,0 +1,43 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [],
+  "nodes": [
+    {
+      "id": "{id-Test3Properties}",
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc5MA"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc4OA"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc4Ng"
+          },
+          "value": "false"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": null
+    }
+  ]
+}
