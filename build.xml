@@ -728,6 +728,43 @@
       <zipfileset file="${lioncore-mps.home}/solutions/io.lionweb.mps.m3.runtime/io.lionweb.mps.m3.runtime.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.m3.runtime-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.build.jar" />
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/io.lionweb.mps.build.jar/META-INF/module.xml">
+      <module namespace="io.lionweb.mps.build" type="solution" uuid="bf3c8943-8801-4969-9ac2-7403444bbefa">
+        <dependencies>
+          <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" />
+          <language id="l:0cf935df-4699-4e9c-a132-fa109541cba3:jetbrains.mps.build.mps" />
+          <language id="l:3600cb0a-44dd-4a5b-9968-22924406419e:jetbrains.mps.build.mps.tests" />
+          <language id="l:479c7a8c-02f9-43b5-9139-d910cb22f298:jetbrains.mps.core.xml" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="io.lionweb.mps.build-src.jar" descriptor="io.lionweb.mps.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/io.lionweb.mps/lib/io.lionweb.mps.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/io.lionweb.mps.build" />
+      <fileset dir="${lioncore-mps.home}/solutions/io.lionweb.mps.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/io.lionweb.mps.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.build-models">
+      <fileset dir="${lioncore-mps.home}/solutions/io.lionweb.mps.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/io.lionweb.mps/lib/io.lionweb.mps.build-src.jar" duplicate="preserve">
+      <fileset dir="${lioncore-mps.home}/solutions/io.lionweb.mps.build/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.build-models" prefix="module/models" />
+    </jar>
     <copy todir="${build.layout}/io.lionweb.mps/lib">
       <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lioncore.java/libs/lioncore-java-core.jar" />
     </copy>
@@ -748,7 +785,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.structure.attribute, java.compile.io.lionweb.mps.server.plugin, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.2, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.client.connector, java.compile.io.lionweb.mps.client.ideaPlugin, java.compile.io.lionweb.mps.client.persistence" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.structure.attribute, java.compile.io.lionweb.mps.server.plugin, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.2, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.client.connector, java.compile.io.lionweb.mps.client.ideaPlugin, java.compile.io.lionweb.mps.client.persistence, java.compile.io.lionweb.mps.build" />
   
   <target name="processResources" />
   
@@ -762,6 +799,7 @@
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}" logLevel="${mps.ant.log}">
       <plugin path="${artifacts.mps}/lib/mps-workbench.jar" />
+      <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" />
       <plugin path="${artifacts.mps}/plugins/mps-httpsupport" />
       <library file="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
@@ -794,6 +832,8 @@
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.language-descriptor.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editor.runtime.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editorlang.runtime.jar" />
+      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
+      <library file="${artifacts.mps}/languages/editor/typesystemIntegration.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.baseLanguage.lightweightdsl.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.access.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
@@ -872,6 +912,7 @@
       <library file="${artifacts.mps}/languages/tools/jetbrains.mps.tool.common.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.java.stub.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.kernel.jar" />
+      <library file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.project.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.refactoring.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.runtime.jar" />
@@ -879,6 +920,7 @@
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <chunk>
         <module file="${lioncore-mps.home}/solutions/io.lionweb.lioncore.java/io.lionweb.lioncore.java.msd" />
+        <module file="${basedir}/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" />
         <module file="${basedir}/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" />
         <module file="${lioncore-mps.home}/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" />
       </chunk>
@@ -1600,7 +1642,20 @@
     </javac>
   </target>
   
+  <target name="java.compile.io.lionweb.mps.build">
+    <mkdir dir="${lioncore-mps.home}/solutions/io.lionweb.mps.build/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.build" />
+    <javac destdir="${build.tmp}/java/out/io.lionweb.mps.build" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${lioncore-mps.home}/solutions/io.lionweb.mps.build/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+  </target>
+  
   <target name="cleanSources">
+    <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.build/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.client.ideaPlugin/source_gen" />
     <delete dir="${lioncore-mps.home}/languages/io.lionweb.mps.structure.attribute/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.client.connector/source_gen" />
