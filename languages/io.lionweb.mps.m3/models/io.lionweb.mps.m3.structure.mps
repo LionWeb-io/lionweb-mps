@@ -307,9 +307,6 @@
       </node>
       <node concept="3KvT9W" id="5AGBwuDOW7L" role="lGtFl" />
     </node>
-    <node concept="PrWs8" id="2ju2syjmD$6" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="PrWs8" id="7jdzMalHnvm" role="PzmwI">
       <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
     </node>

@@ -8,6 +8,7 @@
   <imports>
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
@@ -194,11 +195,11 @@
         <node concept="3cpWsn" id="39$JcGGBX3e" role="3cpWs9">
           <property role="TrG5h" value="mpsLanguageConverter" />
           <node concept="3uibUv" id="39$JcGGBX1O" role="1tU5fm">
-            <ref role="3uigEE" to="apzt:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+            <ref role="3uigEE" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
           </node>
-          <node concept="2YIFZM" id="39$JcGGBX3f" role="33vP2m">
-            <ref role="37wK5l" to="apzt:39$JcGGnzni" resolve="getInstance" />
-            <ref role="1Pybhc" to="apzt:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+          <node concept="2YIFZM" id="68Be_yKnMx" role="33vP2m">
+            <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
+            <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
           </node>
         </node>
       </node>
@@ -229,7 +230,7 @@
                             <ref role="3cqZAo" node="39$JcGGBX3e" resolve="mpsLanguageConverter" />
                           </node>
                           <node concept="liA8E" id="39$JcGGC4lp" role="2OqNvi">
-                            <ref role="37wK5l" to="apzt:39$JcGGnADo" resolve="toSLanguage" />
+                            <ref role="37wK5l" to="y7p:39$JcGGnADo" resolve="toSLanguage" />
                             <node concept="37vLTw" id="39$JcGGC4SU" role="37wK5m">
                               <ref role="3cqZAo" node="39$JcGGC2Nw" resolve="it" />
                             </node>
@@ -370,11 +371,11 @@
           <node concept="3cpWsn" id="39$JcGGC7Ft" role="3cpWs9">
             <property role="TrG5h" value="mpsLanguageConverter" />
             <node concept="3uibUv" id="39$JcGGC7Fu" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+              <ref role="3uigEE" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
             </node>
-            <node concept="2YIFZM" id="39$JcGGC7Fv" role="33vP2m">
-              <ref role="37wK5l" to="apzt:39$JcGGnzni" resolve="getInstance" />
-              <ref role="1Pybhc" to="apzt:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+            <node concept="2YIFZM" id="68Be_yKnMy" role="33vP2m">
+              <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
+              <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
             </node>
           </node>
         </node>
@@ -405,7 +406,7 @@
                               <ref role="3cqZAo" node="39$JcGGC7Ft" resolve="mpsLanguageConverter" />
                             </node>
                             <node concept="liA8E" id="39$JcGGC7FJ" role="2OqNvi">
-                              <ref role="37wK5l" to="apzt:39$JcGGnADo" resolve="toSLanguage" />
+                              <ref role="37wK5l" to="y7p:39$JcGGnADo" resolve="toSLanguage" />
                               <node concept="37vLTw" id="39$JcGGC7FK" role="37wK5m">
                                 <ref role="3cqZAo" node="39$JcGGC7FL" resolve="it" />
                               </node>
@@ -489,7 +490,7 @@
                                 <ref role="3cqZAo" node="39$JcGGC7Ft" resolve="mpsLanguageConverter" />
                               </node>
                               <node concept="liA8E" id="39$JcGGC8Io" role="2OqNvi">
-                                <ref role="37wK5l" to="apzt:39$JcGGnELF" resolve="toSLanguageId" />
+                                <ref role="37wK5l" to="y7p:39$JcGGnELF" resolve="toSLanguageId" />
                                 <node concept="2GrUjf" id="39$JcGGC8LK" role="37wK5m">
                                   <ref role="2Gs0qQ" node="4pht$Xstb9i" resolve="ext" />
                                 </node>

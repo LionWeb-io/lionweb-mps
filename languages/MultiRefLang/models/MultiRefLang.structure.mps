@@ -228,5 +228,41 @@
       <ref role="3Kckio" node="5AGBwuFD4ox" resolve="refs" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4oHUzWXO3Tk">
+    <property role="EcuMT" value="5056955513947831892" />
+    <property role="TrG5h" value="ContainerE" />
+    <ref role="1TJDcQ" node="5AGBwuFD4oh" resolve="AContainer" />
+    <node concept="1TJgyj" id="4oHUzWXO3Tl" role="1TKVEi">
+      <property role="IQ2ns" value="5056955513947831893" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contRef" />
+      <ref role="20lvS9" node="5AGBwuFD4oC" resolve="Referenced" />
+    </node>
+    <node concept="1TJgyj" id="4oHUzWXO3Tn" role="1TKVEi">
+      <property role="IQ2ns" value="5056955513947831895" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contRefRef" />
+      <ref role="20lvS9" node="5AGBwuFD4oH" resolve="ReferencedReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4oHUzWXO3Tq">
+    <property role="EcuMT" value="5056955513947831898" />
+    <property role="TrG5h" value="ContainerF" />
+    <ref role="1TJDcQ" node="5AGBwuFD4oh" resolve="AContainer" />
+    <node concept="1TJgyj" id="4oHUzWXO3Tr" role="1TKVEi">
+      <property role="IQ2ns" value="5056955513947831899" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contRef" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5AGBwuFD4oC" resolve="Referenced" />
+    </node>
+    <node concept="1TJgyj" id="4oHUzWXO3Ts" role="1TKVEi">
+      <property role="IQ2ns" value="5056955513947831900" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contRefRef" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5AGBwuFD4oH" resolve="ReferencedReference" />
+    </node>
+  </node>
 </model>
 

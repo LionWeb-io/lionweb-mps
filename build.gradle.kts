@@ -12,6 +12,7 @@ val lioncoreJavaDir = File(rootDir, "solutions/io.lionweb.lioncore.java/libs")
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
+	mavenLocal()
 }
 
 dependencies {
