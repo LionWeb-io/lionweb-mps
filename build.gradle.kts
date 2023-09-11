@@ -6,18 +6,22 @@ plugins {
 }
 
 val libs by configurations.creating
+val projectLoader by configurations.creating
 
 val lioncoreJavaDir = File(rootDir, "solutions/io.lionweb.lioncore.java/libs")
+val projectLoaderDir = File(rootDir, "solutions/de.itemis.mps.projectloader/libs")
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
+	maven(url = "https://projects.itemis.de/nexus/content/repositories/mbeddr/")
 	mavenLocal()
 }
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
     "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.28")
+	"projectLoader" ("de.itemis.mps:project-loader:2021.1.4.1.283.00a3fe6")
 }
 
 configurations.getByName("libs") {
@@ -118,6 +122,23 @@ task<Sync>("resolveLibs") {
 
     rename { filename ->
         val ra = libs.resolvedConfiguration.resolvedArtifacts.find { ra: ResolvedArtifact -> ra.file.name == filename }!!
+        var finalName: String
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        logger.info("renaming $filename to $finalName")
+        finalName
+    }
+}
+
+task<Sync>("resolveProjectLoader") {
+    from(projectLoader)
+    into(projectLoaderDir)
+
+    rename { filename ->
+        val ra = projectLoader.resolvedConfiguration.resolvedArtifacts.find { ra: ResolvedArtifact -> ra.file.name == filename }!!
         var finalName: String
         if (ra.classifier != null) {
             finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
