@@ -785,7 +785,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.structure.attribute, java.compile.io.lionweb.mps.server.plugin, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.2, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.client.connector, java.compile.io.lionweb.mps.client.ideaPlugin, java.compile.io.lionweb.mps.client.persistence, java.compile.io.lionweb.mps.build" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.structure.attribute, java.compile.io.lionweb.mps.server.plugin, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.2, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.client.connector, java.compile.io.lionweb.mps.client.ideaPlugin, java.compile.io.lionweb.mps.client.persistence, java.compile.io.lionweb.mps.build, java.compile.de.itemis.mps.projectloader, java.compile.io.lionweb.mps.cmdline" />
   
   <target name="processResources" />
   
@@ -919,6 +919,7 @@
       <library file="${artifacts.mps}/languages/workbench-stub.jar" />
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <chunk>
+        <module file="${basedir}/solutions/de.itemis.mps.projectloader/de.itemis.mps.projectloader.msd" />
         <module file="${lioncore-mps.home}/solutions/io.lionweb.lioncore.java/io.lionweb.lioncore.java.msd" />
         <module file="${basedir}/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" />
         <module file="${basedir}/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" />
@@ -927,6 +928,7 @@
       <chunk>
         <module file="${basedir}/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" />
         <module file="${basedir}/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" />
+        <module file="${basedir}/solutions/io.lionweb.mps.cmdline/io.lionweb.mps.cmdline.msd" />
         <module file="${lioncore-mps.home}/solutions/io.lionweb.mps.converter/io.lionweb.mps.converter.msd" />
         <module file="${lioncore-mps.home}/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" />
         <module file="${lioncore-mps.home}/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" />
@@ -1654,12 +1656,116 @@
     </javac>
   </target>
   
+  <target name="java.compile.de.itemis.mps.projectloader" depends="fetchDependencies">
+    <mkdir dir="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/de.itemis.mps.projectloader" />
+    <javac destdir="${build.tmp}/java/out/de.itemis.mps.projectloader" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-test.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/project-loader.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/kotlin-stdlib.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/kotlin-argparser.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/xenocom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ant/lib/ant.jar" />
+        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
+        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/java/lib/ecj-4.16.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.io.lionweb.mps.cmdline" depends="java.compile.de.itemis.mps.projectloader, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, fetchDependencies">
+    <mkdir dir="${lioncore-mps.home}/solutions/io.lionweb.mps.cmdline/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.cmdline" />
+    <javac destdir="${build.tmp}/java/out/io.lionweb.mps.cmdline" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${lioncore-mps.home}/solutions/io.lionweb.mps.cmdline/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-test.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <pathelement path="${build.tmp}/java/out/de.itemis.mps.projectloader" />
+        <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter" />
+        <pathelement path="${build.tmp}/java/out/io.lionweb.mps.json" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/project-loader.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/kotlin-stdlib.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/kotlin-argparser.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/libs/xenocom.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lioncore.java/libs/gson.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lioncore.java/libs/lioncore-java-core.jar" />
+        <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
+        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/java/lib/ecj-4.16.jar" />
+      </classpath>
+    </javac>
+  </target>
+  
   <target name="cleanSources">
+    <delete dir="${lioncore-mps.home}/solutions/de.itemis.mps.projectloader/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.build/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.client.ideaPlugin/source_gen" />
     <delete dir="${lioncore-mps.home}/languages/io.lionweb.mps.structure.attribute/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.client.connector/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.client.persistence/source_gen" />
+    <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.cmdline/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.converter/source_gen" />
     <delete dir="${lioncore-mps.home}/languages/io.lionweb.mps.converter.lang/source_gen" />
     <delete dir="${lioncore-mps.home}/solutions/io.lionweb.mps.converter.lang.runtime/source_gen" />
