@@ -1,0 +1,331 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [
+    {
+      "version": "1",
+      "key": "LIonCore-M3"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "Language"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Language-version"
+          },
+          "value": "0"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "io.lionweb.mps.converter.TestCustomDatatype"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Language-entities"
+          },
+          "children": [
+            "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
+            "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Language-dependsOn"
+          },
+          "targets": []
+        }
+      ],
+      "parent": null
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Concept-abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Concept-partition"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "TestCustomDatatype"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Classifier-features"
+          },
+          "children": [
+            "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTA4NQ",
+            "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4NQ",
+            "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4OA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Concept-extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Node",
+              "reference": "LIonCore-builtins-Node"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Concept-implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTA4NQ",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Feature-optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTA4NQ"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "str"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Property-type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore-builtins-String"
+            }
+          ]
+        }
+      ],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4NQ",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Feature-optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4NQ"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "prim"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Property-type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore-builtins-String"
+            }
+          ]
+        }
+      ],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4OA",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Feature-optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4OA"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "constr"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Property-type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ConstrainedStringDatatype",
+              "reference": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA"
+            }
+          ]
+        }
+      ],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "PrimitiveType"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "ConstrainedStringDatatype"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
+    }
+  ]
+}

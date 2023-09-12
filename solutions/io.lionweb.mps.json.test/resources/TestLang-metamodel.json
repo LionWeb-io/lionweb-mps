@@ -558,7 +558,7 @@
           "targets": [
             {
               "resolveInfo": "Node",
-              "reference": null
+              "reference": "LIonCore-builtins-Node"
             }
           ]
         }
