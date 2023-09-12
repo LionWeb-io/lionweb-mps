@@ -153,6 +153,7 @@ task<Sync>("resolveProjectLoader") {
 tasks{
     generateBuildscript {
         dependsOn("resolveLibs")
+		dependsOn("resolveProjectLoader")
     }
 
     checkMps {
