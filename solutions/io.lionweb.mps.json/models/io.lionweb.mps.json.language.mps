@@ -443,6 +443,9 @@
             <node concept="2ShNRf" id="51EPk3sB8lc" role="33vP2m">
               <node concept="1pGfFk" id="51EPk3sB8ld" role="2ShVmc">
                 <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <node concept="37vLTw" id="24j7TNHkdQi" role="37wK5m">
+                  <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
+                </node>
                 <node concept="2ShNRf" id="5M3rB6Bpi7M" role="37wK5m">
                   <node concept="2HTt$P" id="5M3rB6BpiE$" role="2ShVmc">
                     <node concept="3uibUv" id="5M3rB6BpiWs" role="2HTBi0">
@@ -476,7 +479,7 @@
               <ref role="3cqZAo" node="51EPk3sB8lb" resolve="finder" />
             </node>
             <node concept="liA8E" id="39$JcGGvo6p" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:51EPk3sDz0X" resolve="allRequiredLanguages" />
+              <ref role="37wK5l" to="apzt:51EPk3sDz0X" resolve="lwRequiredLanguages" />
             </node>
           </node>
         </node>
@@ -540,7 +543,7 @@
     <node concept="312cEg" id="5AGBwuFajTm" role="jymVt">
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="5AGBwuFajTn" role="1B3o_S" />
+      <node concept="3Tmbuc" id="24j7TNHk7jW" role="1B3o_S" />
       <node concept="3uibUv" id="5AGBwuFajTp" role="1tU5fm">
         <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
       </node>
@@ -2437,6 +2440,9 @@
             <node concept="2ShNRf" id="51EPk3sEbZO" role="2Oq$k0">
               <node concept="1pGfFk" id="51EPk3sEbZP" role="2ShVmc">
                 <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <node concept="37vLTw" id="24j7TNHkk16" role="37wK5m">
+                  <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
+                </node>
                 <node concept="2ShNRf" id="5M3rB6Bptcl" role="37wK5m">
                   <node concept="2HTt$P" id="5M3rB6BpxAc" role="2ShVmc">
                     <node concept="3uibUv" id="5M3rB6BpAUc" role="2HTBi0">
@@ -2450,7 +2456,7 @@
               </node>
             </node>
             <node concept="liA8E" id="39$JcGGwnP8" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:51EPk3sAgDS" resolve="allDependentLanguages" />
+              <ref role="37wK5l" to="apzt:24j7TNH9nhk" resolve="lwDependentLanguages" />
             </node>
           </node>
         </node>
