@@ -26,7 +26,6 @@
     <dependency reexport="false">76d927fd-3a5a-4e40-865b-7c2d329ca675(MultiRefLang)</dependency>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">7350a1d7-537e-4f0d-9965-e91c82522d7d(io.lionweb.mps.m3.runtime)</dependency>
-    <dependency reexport="false">754e95cf-5780-40da-99c6-8f6584d9c260(jetbrains.mps.debugger.java.customViewers.plugin)</dependency>
     <dependency reexport="false">ac1d3da7-5f56-482d-8c2c-cf6ea70b4f13(io.lionweb.mps.converter.TestCoreRefLang)</dependency>
     <dependency reexport="false">537f9cb0-0f25-3c76-8b86-308f45010100(library)</dependency>
   </dependencies>
@@ -63,7 +62,6 @@
     <module reference="01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)" version="0" />
     <module reference="7350a1d7-537e-4f0d-9965-e91c82522d7d(io.lionweb.mps.m3.runtime)" version="0" />
     <module reference="6c7879c0-b30c-4154-9b46-36c5f2b698b0(io.lionweb.mps.structure.attribute.runtime)" version="0" />
-    <module reference="754e95cf-5780-40da-99c6-8f6584d9c260(jetbrains.mps.debugger.java.customViewers.plugin)" version="0" />
     <module reference="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
