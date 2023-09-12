@@ -322,5 +322,86 @@
   <node concept="2DM1_0" id="5AGBwuDAKCg">
     <property role="2DM1AS" value="My-TestLang3" />
   </node>
+  <node concept="1TIwiD" id="6jI_U5eOwrW">
+    <property role="EcuMT" value="7272917167317845756" />
+    <property role="TrG5h" value="Test3Properties" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6jI_U5eOwrX" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845757" />
+      <property role="TrG5h" value="stringUndefined" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwrZ" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845759" />
+      <property role="TrG5h" value="stringOptional" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="3KvT9W" id="6jI_U5eOws2" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOws4" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845764" />
+      <property role="TrG5h" value="stringRequired" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="3KvT9W" id="6jI_U5eOws9" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsM" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845810" />
+      <property role="TrG5h" value="integerUndefined" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsK" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845808" />
+      <property role="TrG5h" value="integerOptional" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <node concept="3KvT9W" id="6jI_U5eOwsL" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsI" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845806" />
+      <property role="TrG5h" value="integerRequired" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <node concept="3KvT9W" id="6jI_U5eOwsJ" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsu" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845790" />
+      <property role="TrG5h" value="booleanUndefined" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwss" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845788" />
+      <property role="TrG5h" value="booleanOptional" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="3KvT9W" id="6jI_U5eOwst" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsq" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845786" />
+      <property role="TrG5h" value="booleanRequired" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="3KvT9W" id="6jI_U5eOwsr" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsf" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845775" />
+      <property role="TrG5h" value="jsonUndefined" />
+      <ref role="AX2Wp" to="h3y3:39$JcGFBYkI" resolve="JSON" />
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsd" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845773" />
+      <property role="TrG5h" value="jsonOptional" />
+      <ref role="AX2Wp" to="h3y3:39$JcGFBYkI" resolve="JSON" />
+      <node concept="3KvT9W" id="6jI_U5eOwse" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6jI_U5eOwsb" role="1TKVEl">
+      <property role="IQ2nx" value="7272917167317845771" />
+      <property role="TrG5h" value="jsonRequired" />
+      <ref role="AX2Wp" to="h3y3:39$JcGFBYkI" resolve="JSON" />
+      <node concept="3KvT9W" id="6jI_U5eOwsc" role="lGtFl" />
+    </node>
+  </node>
 </model>
 
