@@ -4674,6 +4674,24 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="3imNlOpwz4n" role="3cqZAp">
+              <node concept="2OqwBi" id="3imNlOpwA6t" role="3clFbG">
+                <node concept="37vLTw" id="3imNlOpwz4l" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5sACIIsLHga" resolve="jsonCons" />
+                </node>
+                <node concept="liA8E" id="3imNlOpwDjg" role="2OqNvi">
+                  <ref role="37wK5l" to="imb3:~Concept.setPartition(boolean)" resolve="setPartition" />
+                  <node concept="2OqwBi" id="3imNlOpwMR5" role="37wK5m">
+                    <node concept="37vLTw" id="3imNlOpwHQa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5sACIIsA0xE" resolve="lcCons" />
+                    </node>
+                    <node concept="3TrcHB" id="3imNlOpwRo8" role="2OqNvi">
+                      <ref role="3TsBF5" to="h3y3:5AGBwuDAPoU" resolve="partition" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="5sACIIsMaI2" role="3cqZAp">
               <node concept="2OqwBi" id="5sACIIsMdU_" role="3clFbG">
                 <node concept="37vLTw" id="5sACIIsMaI0" role="2Oq$k0">
@@ -6302,6 +6320,27 @@
                   </node>
                   <node concept="3TrcHB" id="5sACIIsYnQm" role="2OqNvi">
                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3imNlOpuIps" role="3cqZAp">
+          <node concept="2OqwBi" id="3imNlOpuLbU" role="3clFbG">
+            <node concept="37vLTw" id="3imNlOpuIpq" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sACIIsY8xf" resolve="json" />
+            </node>
+            <node concept="liA8E" id="3imNlOpuPkt" role="2OqNvi">
+              <ref role="37wK5l" to="tzx8:~M3Node.setID(java.lang.String)" resolve="setID" />
+              <node concept="2OqwBi" id="3imNlOpuTje" role="37wK5m">
+                <node concept="37vLTw" id="3imNlOpuTjf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6VkSF6cpXbj" resolve="idMapper" />
+                </node>
+                <node concept="liA8E" id="3imNlOpuTjg" role="2OqNvi">
+                  <ref role="37wK5l" to="teza:5M3rB6Ae5wB" resolve="mapEnumLiteral" />
+                  <node concept="37vLTw" id="3imNlOpuTjh" role="37wK5m">
+                    <ref role="3cqZAo" node="5sACIIsA0Ej" resolve="lc" />
                   </node>
                 </node>
               </node>

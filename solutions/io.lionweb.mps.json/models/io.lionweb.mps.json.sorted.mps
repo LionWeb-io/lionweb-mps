@@ -536,27 +536,29 @@
       </node>
       <node concept="3clFbS" id="3imNlOpsivT" role="3clF47">
         <node concept="3clFbF" id="3imNlOpsnSZ" role="3cqZAp">
-          <node concept="2OqwBi" id="3imNlOpsrW0" role="3clFbG">
-            <node concept="2ShNRf" id="3imNlOpsnST" role="2Oq$k0">
-              <node concept="HV5vD" id="3imNlOpspRJ" role="2ShVmc">
-                <ref role="HV5vE" node="3imNlOpatb2" resolve="MetaPointerComparator" />
+          <node concept="2YIFZM" id="3imNlOpxNOw" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Objects.compare(java.lang.Object,java.lang.Object,java.util.Comparator)" resolve="compare" />
+            <ref role="1Pybhc" to="33ny:~Objects" resolve="Objects" />
+            <node concept="2OqwBi" id="3imNlOpxR9U" role="37wK5m">
+              <node concept="Xjq3P" id="3imNlOpxPXD" role="2Oq$k0" />
+              <node concept="liA8E" id="3imNlOpxTac" role="2OqNvi">
+                <ref role="37wK5l" node="3imNlOpe8UA" resolve="getID" />
               </node>
             </node>
-            <node concept="liA8E" id="3imNlOpsu5p" role="2OqNvi">
-              <ref role="37wK5l" node="3imNlOpatgY" resolve="compare" />
-              <node concept="2OqwBi" id="3imNlOpswIi" role="37wK5m">
-                <node concept="Xjq3P" id="3imNlOpsvTF" role="2Oq$k0" />
-                <node concept="liA8E" id="3imNlOpsyL_" role="2OqNvi">
-                  <ref role="37wK5l" node="3imNlOpe8Uj" resolve="getConcept" />
-                </node>
+            <node concept="2OqwBi" id="3imNlOpxWeM" role="37wK5m">
+              <node concept="37vLTw" id="3imNlOpxVjK" role="2Oq$k0">
+                <ref role="3cqZAo" node="3imNlOpsivP" resolve="other" />
               </node>
-              <node concept="2OqwBi" id="3imNlOpsBYs" role="37wK5m">
-                <node concept="37vLTw" id="3imNlOpsB5J" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3imNlOpsivP" resolve="other" />
-                </node>
-                <node concept="liA8E" id="3imNlOpsE60" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedNode.getConcept()" resolve="getConcept" />
-                </node>
+              <node concept="liA8E" id="3imNlOpxYhK" role="2OqNvi">
+                <ref role="37wK5l" to="xfsv:~SerializedNode.getID()" resolve="getID" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="3imNlOpxNOB" role="37wK5m">
+              <ref role="1Pybhc" to="33ny:~Comparator" resolve="Comparator" />
+              <ref role="37wK5l" to="33ny:~Comparator.nullsLast(java.util.Comparator)" resolve="nullsLast" />
+              <node concept="2YIFZM" id="3imNlOpxNOC" role="37wK5m">
+                <ref role="37wK5l" to="33ny:~Comparator.naturalOrder()" resolve="naturalOrder" />
+                <ref role="1Pybhc" to="33ny:~Comparator" resolve="Comparator" />
               </node>
             </node>
           </node>

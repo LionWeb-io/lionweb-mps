@@ -213,13 +213,6 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
@@ -545,22 +538,53 @@
     <node concept="1qefOq" id="5ocQ9W1yqFp" role="1SKRRt">
       <node concept="2RzRRF" id="39$JcGF8Zh8" role="1qenE9">
         <property role="TrG5h" value="io.lionweb.mps.converter.TestLang" />
-        <property role="3HH78N" value="-1" />
+        <property role="3HH78N" value="0" />
         <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
-        <node concept="2RzPWn" id="39$JcGF8Zh9" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="TrG5h" value="TestConceptPlain" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQxMTI" />
+        <node concept="2RzSE8" id="39$JcGF8ZhA" role="2RzR6B">
+          <property role="TrG5h" value="TestEnumeration1" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODI" />
+          <node concept="2RzSPr" id="39$JcGF8ZhB" role="2RzSVc">
+            <property role="TrG5h" value="TestLiteral1" />
+            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDU4Mw" />
+          </node>
+          <node concept="2RzSPr" id="39$JcGF8ZhC" role="2RzSVc">
+            <property role="TrG5h" value="TestLiteral2" />
+            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDYyMw" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="39$JcGF8ZhD" role="2RzR6B">
+          <property role="TrG5h" value="TestEnumeration2" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjY" />
+          <node concept="2RzSPr" id="39$JcGF8ZhE" role="2RzSVc">
+            <property role="TrG5h" value="TestLiteral3" />
+            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
+          </node>
+        </node>
+        <node concept="2RzSJf" id="39$JcGF8Zh_" role="2RzR6B">
+          <property role="TrG5h" value="TestConstrainedDatatype" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2Njc" />
         </node>
         <node concept="2RzPWn" id="39$JcGF8Zha" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptNoExtends" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ5MDM" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+        </node>
+        <node concept="2RzPWn" id="39$JcGF8Zh9" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="TrG5h" value="TestConceptPlain" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQxMTI" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+        </node>
+        <node concept="2RzPaY" id="39$JcGF8Zhq" role="2RzR6B">
+          <property role="TrG5h" value="TestInterfacePlain" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQzMDg" />
         </node>
         <node concept="2RzPWn" id="39$JcGF8Zhb" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptBase" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
           <node concept="2RzOeU" id="39$JcGF8Zhc" role="2RzPPN">
             <property role="TrG5h" value="stringProp" />
             <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNjk1OQ" />
@@ -595,21 +619,7 @@
             <property role="TrG5h" value="primitiveProp" />
             <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTEzNw" />
             <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" node="39$JcGF8ZhF" resolve="TestPrimitiveDatatype" />
-          </node>
-          <node concept="2RzOpR" id="39$JcGF8Zhi" role="2RzPPN">
-            <property role="TrG5h" value="refZeroToOne" />
-            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMzM1OA" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="false" />
-            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
-          </node>
-          <node concept="2RzOpR" id="39$JcGF8Zhj" role="2RzPPN">
-            <property role="TrG5h" value="refOne" />
-            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxNDAxNA" />
-            <property role="2RzO1C" value="false" />
-            <property role="2RzOhW" value="false" />
-            <ref role="2RzQvY" node="39$JcGF8Zht" resolve="TestInterfaceExtends1" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOte" id="39$JcGF8Zhk" role="2RzPPN">
             <property role="TrG5h" value="zeroToOne" />
@@ -639,6 +649,20 @@
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="39$JcGF8Zho" resolve="TestConceptExtends1" />
           </node>
+          <node concept="2RzOpR" id="39$JcGF8Zhi" role="2RzPPN">
+            <property role="TrG5h" value="refZeroToOne" />
+            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMzM1OA" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="false" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="39$JcGF8Zhj" role="2RzPPN">
+            <property role="TrG5h" value="refOne" />
+            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxNDAxNA" />
+            <property role="2RzO1C" value="false" />
+            <property role="2RzOhW" value="false" />
+            <ref role="2RzQvY" node="39$JcGF8Zht" resolve="TestInterfaceExtends1" />
+          </node>
         </node>
         <node concept="2RzPWn" id="39$JcGF8Zho" role="2RzR6B">
           <property role="2RzP46" value="false" />
@@ -649,19 +673,6 @@
             <ref role="2RzQOs" node="39$JcGF8Zhr" resolve="TestInterfaceBase" />
           </node>
         </node>
-        <node concept="2RzPWn" id="39$JcGF8Zhp" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="TrG5h" value="TestConceptExtends2" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMjMyMDU" />
-          <ref role="2RzPfO" node="39$JcGF8Zho" resolve="TestConceptExtends1" />
-          <node concept="2RzQOr" id="39$JcGF8ZiT" role="2RzQ4z">
-            <ref role="2RzQOs" node="39$JcGF8Zhv" resolve="TestInterfaceExtends2" />
-          </node>
-        </node>
-        <node concept="2RzPaY" id="39$JcGF8Zhq" role="2RzR6B">
-          <property role="TrG5h" value="TestInterfacePlain" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQzMDg" />
-        </node>
         <node concept="2RzPaY" id="39$JcGF8Zhr" role="2RzR6B">
           <property role="TrG5h" value="TestInterfaceBase" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTQzODU" />
@@ -670,19 +681,6 @@
             <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTQzODUvMjU4NTM3ODE2NTk3MzIxNzc4Mg" />
             <property role="2RzO1C" value="true" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-        </node>
-        <node concept="2RzPaY" id="39$JcGF8Zht" role="2RzR6B">
-          <property role="TrG5h" value="TestInterfaceExtends1" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODc" />
-          <node concept="2RzOeU" id="39$JcGF8Zhu" role="2RzPPN">
-            <property role="TrG5h" value="testInterfaceExtends1Prop" />
-            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODcvMjU4NTM3ODE2NTk3MzIxODUzOA" />
-            <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
-          <node concept="2RzQOr" id="39$JcGF8ZiU" role="2RzQMX">
-            <ref role="2RzQOs" node="39$JcGF8Zhr" resolve="TestInterfaceBase" />
           </node>
         </node>
         <node concept="2RzPaY" id="39$JcGF8Zhv" role="2RzR6B">
@@ -712,6 +710,19 @@
             <ref role="2RzQOs" node="39$JcGF8Zht" resolve="TestInterfaceExtends1" />
           </node>
         </node>
+        <node concept="2RzPaY" id="39$JcGF8Zht" role="2RzR6B">
+          <property role="TrG5h" value="TestInterfaceExtends1" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODc" />
+          <node concept="2RzOeU" id="39$JcGF8Zhu" role="2RzPPN">
+            <property role="TrG5h" value="testInterfaceExtends1Prop" />
+            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODcvMjU4NTM3ODE2NTk3MzIxODUzOA" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="2RzQOr" id="39$JcGF8ZiU" role="2RzQMX">
+            <ref role="2RzQOs" node="39$JcGF8Zhr" resolve="TestInterfaceBase" />
+          </node>
+        </node>
         <node concept="2RzPaY" id="39$JcGF8Zhz" role="2RzR6B">
           <property role="TrG5h" value="TestInterfaceExtends3" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTYzMjk" />
@@ -721,6 +732,9 @@
             <property role="2RzO1C" value="true" />
             <ref role="2Rx9Fl" node="39$JcGF8Zh_" resolve="TestConstrainedDatatype" />
           </node>
+          <node concept="2RzQOr" id="3imNlOpxwcI" role="2RzQMX">
+            <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
           <node concept="2RzQOr" id="39$JcGF8ZiW" role="2RzQMX">
             <ref role="2RzQOs" node="39$JcGF8Zhr" resolve="TestInterfaceBase" />
           </node>
@@ -728,33 +742,14 @@
             <ref role="2RzQOs" node="39$JcGF8Zhv" resolve="TestInterfaceExtends2" />
           </node>
         </node>
-        <node concept="2RzSJf" id="39$JcGF8Zh_" role="2RzR6B">
-          <property role="TrG5h" value="TestConstrainedDatatype" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2Njc" />
-        </node>
-        <node concept="2RzSE8" id="39$JcGF8ZhA" role="2RzR6B">
-          <property role="TrG5h" value="TestEnumeration1" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODI" />
-          <node concept="2RzSPr" id="39$JcGF8ZhB" role="2RzSVc">
-            <property role="TrG5h" value="TestLiteral1" />
-            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDU4Mw" />
+        <node concept="2RzPWn" id="39$JcGF8Zhp" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="TrG5h" value="TestConceptExtends2" />
+          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMjMyMDU" />
+          <ref role="2RzPfO" node="39$JcGF8Zho" resolve="TestConceptExtends1" />
+          <node concept="2RzQOr" id="39$JcGF8ZiT" role="2RzQ4z">
+            <ref role="2RzQOs" node="39$JcGF8Zhv" resolve="TestInterfaceExtends2" />
           </node>
-          <node concept="2RzSPr" id="39$JcGF8ZhC" role="2RzSVc">
-            <property role="TrG5h" value="TestLiteral2" />
-            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDYyMw" />
-          </node>
-        </node>
-        <node concept="2RzSE8" id="39$JcGF8ZhD" role="2RzR6B">
-          <property role="TrG5h" value="TestEnumeration2" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjY" />
-          <node concept="2RzSPr" id="39$JcGF8ZhE" role="2RzSVc">
-            <property role="TrG5h" value="TestLiteral3" />
-            <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
-          </node>
-        </node>
-        <node concept="2RzSJf" id="39$JcGF8ZhF" role="2RzR6B">
-          <property role="TrG5h" value="TestPrimitiveDatatype" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ3MDc" />
         </node>
         <node concept="3xLA65" id="5ocQ9W1yrwl" role="lGtFl">
           <property role="TrG5h" value="testLang" />
@@ -879,11 +874,6 @@
             <property role="2RzO1C" value="false" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
-          <node concept="2RzOeU" id="7m$Awvumb$m" role="2RzPPN">
-            <property role="2RzON1" value="Concept-partition" />
-            <property role="TrG5h" value="partition" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
           <node concept="2RzOpR" id="5sACIIs$PgW" role="2RzPPN">
             <property role="2RzON1" value="Concept-extends" />
             <property role="TrG5h" value="extends" />
@@ -897,6 +887,11 @@
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="5sACIIs$PgY" resolve="ConceptInterface" />
+          </node>
+          <node concept="2RzOeU" id="7m$Awvumb$m" role="2RzPPN">
+            <property role="2RzON1" value="Concept-partition" />
+            <property role="TrG5h" value="partition" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
           </node>
         </node>
         <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
@@ -976,11 +971,6 @@
           <property role="2RzON1" value="Language" />
           <property role="TrG5h" value="Language" />
           <property role="3KdWwX" value="true" />
-          <node concept="2RzOeU" id="19nRYgR_HTb" role="2RzPPN">
-            <property role="2RzON1" value="Language-version" />
-            <property role="TrG5h" value="version" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
           <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
             <property role="2RzON1" value="Language-dependsOn" />
             <property role="TrG5h" value="dependsOn" />
@@ -994,6 +984,11 @@
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="LanguageEntity" />
+          </node>
+          <node concept="2RzOeU" id="19nRYgR_HTb" role="2RzPPN">
+            <property role="2RzON1" value="Language-version" />
+            <property role="TrG5h" value="version" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzQOr" id="19nRYgR_prW" role="2RzQ4z">
             <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
@@ -1263,31 +1258,27 @@
         <node concept="17QB3L" id="5ocQ9W1xU_g" role="1tU5fm" />
       </node>
     </node>
-    <node concept="1X3_iC" id="5ocQ9W1zvHj" role="lGtFl">
-      <property role="3V$3am" value="testMethods" />
-      <property role="3V$3ak" value="8585453e-6bfb-4d80-98de-b16074f1d86c/1216913645126/1217501895093" />
-      <node concept="1LZb2c" id="5ocQ9W1zt7m" role="8Wnug">
-        <property role="TrG5h" value="testLang" />
-        <node concept="3cqZAl" id="5ocQ9W1zt7n" role="3clF45" />
-        <node concept="3clFbS" id="5ocQ9W1zt7o" role="3clF47">
-          <node concept="3clFbF" id="5ocQ9W1zt7p" role="3cqZAp">
-            <node concept="2OqwBi" id="5ocQ9W1zt7q" role="3clFbG">
-              <node concept="2WthIp" id="5ocQ9W1zt7r" role="2Oq$k0" />
-              <node concept="2XshWL" id="5ocQ9W1zt7s" role="2OqNvi">
-                <ref role="2WH_rO" node="5ocQ9W1xUxD" resolve="convert" />
-                <node concept="3xONca" id="5ocQ9W1zt7t" role="2XxRq1">
-                  <ref role="3xOPvv" node="5ocQ9W1zt2I" resolve="testLang" />
-                </node>
-                <node concept="Xl_RD" id="5ocQ9W1ztEO" role="2XxRq1">
-                  <property role="Xl_RC" value="TestLang-metamodel.json" />
-                </node>
+    <node concept="1LZb2c" id="5ocQ9W1zt7m" role="1SL9yI">
+      <property role="TrG5h" value="testLang" />
+      <node concept="3cqZAl" id="5ocQ9W1zt7n" role="3clF45" />
+      <node concept="3clFbS" id="5ocQ9W1zt7o" role="3clF47">
+        <node concept="3clFbF" id="5ocQ9W1zt7p" role="3cqZAp">
+          <node concept="2OqwBi" id="5ocQ9W1zt7q" role="3clFbG">
+            <node concept="2WthIp" id="5ocQ9W1zt7r" role="2Oq$k0" />
+            <node concept="2XshWL" id="5ocQ9W1zt7s" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1xUxD" resolve="convert" />
+              <node concept="3xONca" id="5ocQ9W1zt7t" role="2XxRq1">
+                <ref role="3xOPvv" node="5ocQ9W1zt2I" resolve="testLang" />
+              </node>
+              <node concept="Xl_RD" id="5ocQ9W1ztEO" role="2XxRq1">
+                <property role="Xl_RC" value="TestLang-metamodel.json" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3uibUv" id="5ocQ9W1zt7v" role="Sfmx6">
-          <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-        </node>
+      </node>
+      <node concept="3uibUv" id="5ocQ9W1zt7v" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
     <node concept="1LZb2c" id="5sACIIt1Pl$" role="1SL9yI">
@@ -1313,79 +1304,74 @@
         <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
-    <node concept="1X3_iC" id="5ocQ9W1y5AH" role="lGtFl">
-      <property role="3V$3am" value="testMethods" />
-      <property role="3V$3ak" value="8585453e-6bfb-4d80-98de-b16074f1d86c/1216913645126/1217501895093" />
-      <node concept="1LZb2c" id="5ocQ9W1xZ16" role="8Wnug">
-        <property role="TrG5h" value="lionCore" />
-        <node concept="3cqZAl" id="5ocQ9W1xZ17" role="3clF45" />
-        <node concept="3clFbS" id="5ocQ9W1xZ18" role="3clF47">
-          <node concept="3clFbF" id="5ocQ9W1xZ19" role="3cqZAp">
-            <node concept="2OqwBi" id="5ocQ9W1xZ1a" role="3clFbG">
-              <node concept="2WthIp" id="5ocQ9W1xZ1b" role="2Oq$k0" />
-              <node concept="2XshWL" id="5ocQ9W1xZ1c" role="2OqNvi">
-                <ref role="2WH_rO" node="5ocQ9W1xUxD" resolve="convert" />
-                <node concept="3xONca" id="5ocQ9W1xZ1d" role="2XxRq1">
-                  <ref role="3xOPvv" node="5ocQ9W1xYTe" resolve="lionCore" />
-                </node>
-                <node concept="Xl_RD" id="5ocQ9W1xZ6I" role="2XxRq1">
-                  <property role="Xl_RC" value="lioncore.json" />
-                </node>
+    <node concept="1LZb2c" id="5ocQ9W1xZ16" role="1SL9yI">
+      <property role="TrG5h" value="lionCore" />
+      <node concept="3cqZAl" id="5ocQ9W1xZ17" role="3clF45" />
+      <node concept="3clFbS" id="5ocQ9W1xZ18" role="3clF47">
+        <node concept="3clFbF" id="5ocQ9W1xZ19" role="3cqZAp">
+          <node concept="2OqwBi" id="5ocQ9W1xZ1a" role="3clFbG">
+            <node concept="2WthIp" id="5ocQ9W1xZ1b" role="2Oq$k0" />
+            <node concept="2XshWL" id="5ocQ9W1xZ1c" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1xUxD" resolve="convert" />
+              <node concept="3xONca" id="5ocQ9W1xZ1d" role="2XxRq1">
+                <ref role="3xOPvv" node="5ocQ9W1xYTe" resolve="lionCore" />
+              </node>
+              <node concept="Xl_RD" id="5ocQ9W1xZ6I" role="2XxRq1">
+                <property role="Xl_RC" value="lioncore.json" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3uibUv" id="5ocQ9W1xZ1f" role="Sfmx6">
-          <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
         </node>
       </node>
+      <node concept="3uibUv" id="5ocQ9W1xZ1f" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
     </node>
-    <node concept="1X3_iC" id="5ocQ9W1zyog" role="lGtFl">
-      <property role="3V$3am" value="testMethods" />
-      <property role="3V$3ak" value="8585453e-6bfb-4d80-98de-b16074f1d86c/1216913645126/1217501895093" />
-      <node concept="1LZb2c" id="5ocQ9W1zvKz" role="8Wnug">
-        <property role="TrG5h" value="TestCustomDatatype" />
-        <node concept="3cqZAl" id="5ocQ9W1zvK$" role="3clF45" />
-        <node concept="3clFbS" id="5ocQ9W1zvK_" role="3clF47">
-          <node concept="3clFbF" id="5ocQ9W1zvKA" role="3cqZAp">
-            <node concept="2OqwBi" id="5ocQ9W1zvKB" role="3clFbG">
-              <node concept="2WthIp" id="5ocQ9W1zvKC" role="2Oq$k0" />
-              <node concept="2XshWL" id="5ocQ9W1zvKD" role="2OqNvi">
-                <ref role="2WH_rO" node="5ocQ9W1xUxD" resolve="convert" />
-                <node concept="3xONca" id="5ocQ9W1zvKE" role="2XxRq1">
-                  <ref role="3xOPvv" node="5ocQ9W1zwoj" resolve="TestCustomDatatype" />
-                </node>
-                <node concept="Xl_RD" id="5ocQ9W1xBe7" role="2XxRq1">
-                  <property role="Xl_RC" value="TestCustomDatatype-metamodel.json" />
-                </node>
+    <node concept="1LZb2c" id="5ocQ9W1zvKz" role="1SL9yI">
+      <property role="TrG5h" value="TestCustomDatatype" />
+      <node concept="3cqZAl" id="5ocQ9W1zvK$" role="3clF45" />
+      <node concept="3clFbS" id="5ocQ9W1zvK_" role="3clF47">
+        <node concept="3clFbF" id="5ocQ9W1zvKA" role="3cqZAp">
+          <node concept="2OqwBi" id="5ocQ9W1zvKB" role="3clFbG">
+            <node concept="2WthIp" id="5ocQ9W1zvKC" role="2Oq$k0" />
+            <node concept="2XshWL" id="5ocQ9W1zvKD" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1xUxD" resolve="convert" />
+              <node concept="3xONca" id="5ocQ9W1zvKE" role="2XxRq1">
+                <ref role="3xOPvv" node="5ocQ9W1zwoj" resolve="TestCustomDatatype" />
+              </node>
+              <node concept="Xl_RD" id="5ocQ9W1xBe7" role="2XxRq1">
+                <property role="Xl_RC" value="TestCustomDatatype-metamodel.json" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3uibUv" id="5ocQ9W1zvKG" role="Sfmx6">
-          <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-        </node>
+      </node>
+      <node concept="3uibUv" id="5ocQ9W1zvKG" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
       </node>
     </node>
     <node concept="1qefOq" id="5ocQ9W1zt23" role="1SKRRt">
       <node concept="2RzRRF" id="5ocQ9W1zt24" role="1qenE9">
         <property role="TrG5h" value="io.lionweb.mps.converter.TestLang" />
-        <property role="3HH78N" value="-1" />
+        <property role="3HH78N" value="0" />
         <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5" />
         <node concept="2RzPWn" id="5ocQ9W1zt25" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptPlain" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQxMTI" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
         </node>
         <node concept="2RzPWn" id="5ocQ9W1zt26" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptNoExtends" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ5MDM" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
         </node>
         <node concept="2RzPWn" id="5ocQ9W1zt27" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestConceptBase" />
           <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
           <node concept="2RzOeU" id="5ocQ9W1zt28" role="2RzPPN">
             <property role="TrG5h" value="stringProp" />
             <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNjk1OQ" />
@@ -1420,7 +1406,7 @@
             <property role="TrG5h" value="primitiveProp" />
             <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTEzNw" />
             <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" node="5ocQ9W1zt2H" resolve="TestPrimitiveDatatype" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOpR" id="5ocQ9W1zt2e" role="2RzPPN">
             <property role="TrG5h" value="refZeroToOne" />
@@ -1546,6 +1532,9 @@
             <property role="2RzO1C" value="true" />
             <ref role="2Rx9Fl" node="5ocQ9W1zt2B" resolve="TestConstrainedDatatype" />
           </node>
+          <node concept="2RzQOr" id="3imNlOpx_bm" role="2RzQMX">
+            <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
           <node concept="2RzQOr" id="5ocQ9W1zt2_" role="2RzQMX">
             <ref role="2RzQOs" node="5ocQ9W1zt2p" resolve="TestInterfaceBase" />
           </node>
@@ -1576,10 +1565,6 @@
             <property role="TrG5h" value="TestLiteral3" />
             <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
           </node>
-        </node>
-        <node concept="2RzSJf" id="5ocQ9W1zt2H" role="2RzR6B">
-          <property role="TrG5h" value="TestPrimitiveDatatype" />
-          <property role="2RzON1" value="MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ3MDc" />
         </node>
         <node concept="3xLA65" id="5ocQ9W1zt2I" role="lGtFl">
           <property role="TrG5h" value="testLang" />
@@ -1902,7 +1887,7 @@
             <property role="TrG5h" value="prim" />
             <property role="2RzON1" value="MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4NQ" />
             <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" node="5ocQ9W1zw9n" resolve="PrimitiveDatatype" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOeU" id="5ocQ9W1zw9l" role="2RzPPN">
             <property role="TrG5h" value="constr" />
@@ -1914,10 +1899,6 @@
         <node concept="2RzSJf" id="5ocQ9W1zw9m" role="2RzR6B">
           <property role="TrG5h" value="ConstrainedStringDatatype" />
           <property role="2RzON1" value="MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA" />
-        </node>
-        <node concept="2RzSJf" id="5ocQ9W1zw9n" role="2RzR6B">
-          <property role="TrG5h" value="PrimitiveDatatype" />
-          <property role="2RzON1" value="MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODM" />
         </node>
         <node concept="3xLA65" id="5ocQ9W1zwoj" role="lGtFl">
           <property role="TrG5h" value="TestCustomDatatype" />
