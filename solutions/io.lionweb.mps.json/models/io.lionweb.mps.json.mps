@@ -27,6 +27,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
+    <import index="m8w9" ref="r:6f1f08ee-098f-4244-ab7d-593d31c55c1e(io.lionweb.mps.json.sorted)" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" implicit="true" />
   </imports>
   <registry>
@@ -35,6 +36,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
@@ -206,6 +208,12 @@
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
       <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
     </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569906740" name="parameter" index="1bW2Oz" />
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
@@ -242,6 +250,9 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
+        <child id="1204796294226" name="closure" index="23t8la" />
+      </concept>
       <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
@@ -268,13 +279,14 @@
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
+      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1237909114519" name="jetbrains.mps.baseLanguage.collections.structure.GetValuesOperation" flags="nn" index="T8wYR" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
+      <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
-      <concept id="1184963466173" name="jetbrains.mps.baseLanguage.collections.structure.ToArrayOperation" flags="nn" index="3_kTaI" />
     </language>
   </registry>
   <node concept="312cEu" id="z1IqfFwqda">
@@ -945,8 +957,13 @@
             </node>
             <node concept="liA8E" id="5s4Z0e0bQQi" role="2OqNvi">
               <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.serializeToJsonElement(io.lionweb.lioncore.java.serialization.data.SerializedChunk)" resolve="serializeToJsonElement" />
-              <node concept="37vLTw" id="5s4Z0e0bSKM" role="37wK5m">
-                <ref role="3cqZAo" node="5s4Z0e0bPDe" resolve="serializedChunk" />
+              <node concept="2ShNRf" id="3imNlOpjjuI" role="37wK5m">
+                <node concept="1pGfFk" id="3imNlOpjkvx" role="2ShVmc">
+                  <ref role="37wK5l" to="m8w9:3imNlOpi5B0" resolve="SortedSerializedChunk" />
+                  <node concept="37vLTw" id="3imNlOpjkMS" role="37wK5m">
+                    <ref role="3cqZAo" node="5s4Z0e0bPDe" resolve="serializedChunk" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -2203,18 +2220,66 @@
           </node>
         </node>
         <node concept="3clFbH" id="5s4Z0e0na2v" role="3cqZAp" />
-        <node concept="3cpWs6" id="5s4Z0e0na2N" role="3cqZAp">
-          <node concept="2OqwBi" id="5s4Z0e0naMs" role="3cqZAk">
-            <node concept="37vLTw" id="5s4Z0e0na7v" role="2Oq$k0">
-              <ref role="3cqZAo" node="5s4Z0e0na0S" resolve="jsonSerialization" />
+        <node concept="3cpWs8" id="3imNlOpk0A9" role="3cqZAp">
+          <node concept="3cpWsn" id="3imNlOpk0Aa" role="3cpWs9">
+            <property role="TrG5h" value="chunk" />
+            <node concept="3uibUv" id="3imNlOpk08Q" role="1tU5fm">
+              <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
             </node>
-            <node concept="liA8E" id="5s4Z0e0nb8J" role="2OqNvi">
-              <ref role="37wK5l" to="jxh5:~JsonSerialization.serializeTreesToJsonElement(io.lionweb.lioncore.java.model.Node...)" resolve="serializeTreesToJsonElement" />
-              <node concept="2OqwBi" id="5s4Z0e0obmK" role="37wK5m">
-                <node concept="37vLTw" id="5s4Z0e0nb9i" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5s4Z0e0na0M" resolve="languages" />
+            <node concept="2OqwBi" id="3imNlOpk0Ab" role="33vP2m">
+              <node concept="37vLTw" id="3imNlOpk0Ac" role="2Oq$k0">
+                <ref role="3cqZAo" node="5s4Z0e0na0S" resolve="jsonSerialization" />
+              </node>
+              <node concept="liA8E" id="3imNlOpk0Ad" role="2OqNvi">
+                <ref role="37wK5l" to="jxh5:~JsonSerialization.serializeNodesToSerializationBlock(java.util.List)" resolve="serializeNodesToSerializationBlock" />
+                <node concept="2OqwBi" id="3imNlOptavb" role="37wK5m">
+                  <node concept="2OqwBi" id="3imNlOpk0Ae" role="2Oq$k0">
+                    <node concept="37vLTw" id="3imNlOpk0Af" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5s4Z0e0na0M" resolve="languages" />
+                    </node>
+                    <node concept="3goQfb" id="3imNlOpt6sx" role="2OqNvi">
+                      <node concept="1bVj0M" id="3imNlOpt6sz" role="23t8la">
+                        <node concept="3clFbS" id="3imNlOpt6s$" role="1bW5cS">
+                          <node concept="3clFbF" id="3imNlOpt7p5" role="3cqZAp">
+                            <node concept="2OqwBi" id="3imNlOpt8hK" role="3clFbG">
+                              <node concept="37vLTw" id="3imNlOpt7p4" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3imNlOpt6s_" resolve="it" />
+                              </node>
+                              <node concept="liA8E" id="3imNlOpt9v_" role="2OqNvi">
+                                <ref role="37wK5l" to="1ppu:~Node.thisAndAllDescendants()" resolve="thisAndAllDescendants" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="3imNlOpt6s_" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="3imNlOpt6sA" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="ANE8D" id="3imNlOptcfr" role="2OqNvi" />
                 </node>
-                <node concept="3_kTaI" id="5s4Z0e0obQW" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3imNlOpkb9G" role="3cqZAp">
+          <node concept="2OqwBi" id="3imNlOpkb9I" role="3cqZAk">
+            <node concept="2ShNRf" id="3imNlOpkb9J" role="2Oq$k0">
+              <node concept="1pGfFk" id="3imNlOpkb9K" role="2ShVmc">
+                <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.&lt;init&gt;()" resolve="LowLevelJsonSerialization" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3imNlOpkb9L" role="2OqNvi">
+              <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.serializeToJsonElement(io.lionweb.lioncore.java.serialization.data.SerializedChunk)" resolve="serializeToJsonElement" />
+              <node concept="2ShNRf" id="3imNlOpkb9M" role="37wK5m">
+                <node concept="1pGfFk" id="3imNlOpkb9N" role="2ShVmc">
+                  <ref role="37wK5l" to="m8w9:3imNlOpi5B0" resolve="SortedSerializedChunk" />
+                  <node concept="37vLTw" id="3imNlOpkb9O" role="37wK5m">
+                    <ref role="3cqZAo" node="3imNlOpk0Aa" resolve="chunk" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

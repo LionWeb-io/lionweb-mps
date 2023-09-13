@@ -766,22 +766,46 @@
         <property role="TrG5h" value="library" />
         <property role="3HH78N" value="0" />
         <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw" />
+        <node concept="2RzPWn" id="5ocQ9W1u7kR" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5" />
+          <property role="TrG5h" value="SpecialistBookWriter" />
+          <ref role="2RzPfO" node="5ocQ9W1u7kT" resolve="Writer" />
+          <node concept="2RzOeU" id="5ocQ9W1u7kS" role="2RzPPN">
+            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5Ly0xMDU4NzUxMzAyMDYwOTg0NjEy" />
+            <property role="TrG5h" value="subject" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5ocQ9W1u7kT" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYz" />
+          <property role="TrG5h" value="Writer" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="5ocQ9W1u7kU" role="2RzPPN">
+            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYzLzY0Njg3ODM4NDUzODY0MzUxNjY" />
+            <property role="TrG5h" value="name" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+        </node>
         <node concept="2RzPWn" id="5ocQ9W1u7kI" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx" />
           <property role="TrG5h" value="Book" />
           <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
-          <node concept="2RzOeU" id="5ocQ9W1u7kJ" role="2RzPPN">
-            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy02NDc2MDE3NTAyOTM2MDY4MTk5" />
-            <property role="TrG5h" value="title" />
-            <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
           <node concept="2RzOeU" id="5ocQ9W1u7kK" role="2RzPPN">
             <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy00Mzg2MTUwNjczNDI5OTQ5NTUy" />
             <property role="TrG5h" value="pages" />
             <property role="2RzO1C" value="true" />
             <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+          <node concept="2RzOeU" id="5ocQ9W1u7kJ" role="2RzPPN">
+            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy02NDc2MDE3NTAyOTM2MDY4MTk5" />
+            <property role="TrG5h" value="title" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOpR" id="5ocQ9W1u7kL" role="2RzPPN">
             <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ" />
@@ -807,12 +831,6 @@
           <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE" />
           <property role="TrG5h" value="Library" />
           <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
-          <node concept="2RzOeU" id="5ocQ9W1u7kP" role="2RzPPN">
-            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw" />
-            <property role="TrG5h" value="name" />
-            <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
           <node concept="2RzOte" id="5ocQ9W1u7kQ" role="2RzPPN">
             <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvLTYzOTI0NjgyNTk0NDA3MjQ1MzE" />
             <property role="TrG5h" value="books" />
@@ -820,26 +838,8 @@
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="5ocQ9W1u7kI" resolve="Book" />
           </node>
-        </node>
-        <node concept="2RzPWn" id="5ocQ9W1u7kR" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5" />
-          <property role="TrG5h" value="SpecialistBookWriter" />
-          <ref role="2RzPfO" node="5ocQ9W1u7kT" resolve="Writer" />
-          <node concept="2RzOeU" id="5ocQ9W1u7kS" role="2RzPPN">
-            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5Ly0xMDU4NzUxMzAyMDYwOTg0NjEy" />
-            <property role="TrG5h" value="subject" />
-            <property role="2RzO1C" value="true" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5ocQ9W1u7kT" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYz" />
-          <property role="TrG5h" value="Writer" />
-          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
-          <node concept="2RzOeU" id="5ocQ9W1u7kU" role="2RzPPN">
-            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYzLzY0Njg3ODM4NDUzODY0MzUxNjY" />
+          <node concept="2RzOeU" id="5ocQ9W1u7kP" role="2RzPPN">
+            <property role="2RzON1" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw" />
             <property role="TrG5h" value="name" />
             <property role="2RzO1C" value="true" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
@@ -1061,6 +1061,10 @@
         <property role="2RzON1" value="MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2" />
         <property role="TrG5h" value="io.lionweb.mps.converter.TestCustomDatatype" />
         <property role="3HH78N" value="0" />
+        <node concept="2RzSJf" id="5ocQ9W1zyMQ" role="2RzR6B">
+          <property role="TrG5h" value="ConstrainedStringDatatype" />
+          <property role="2RzON1" value="MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA" />
+        </node>
         <node concept="2RzPWn" id="5ocQ9W1zyMM" role="2RzR6B">
           <property role="2RzP46" value="false" />
           <property role="TrG5h" value="TestCustomDatatype" />
@@ -1085,10 +1089,6 @@
             <property role="2RzO1C" value="true" />
             <ref role="2Rx9Fl" node="5ocQ9W1zyMQ" resolve="ConstrainedStringDatatype" />
           </node>
-        </node>
-        <node concept="2RzSJf" id="5ocQ9W1zyMQ" role="2RzR6B">
-          <property role="TrG5h" value="ConstrainedStringDatatype" />
-          <property role="2RzON1" value="MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA" />
         </node>
         <node concept="3xLA65" id="5ocQ9W1zyMS" role="lGtFl">
           <property role="TrG5h" value="TestCustomDatatype" />
