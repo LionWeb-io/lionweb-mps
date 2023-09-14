@@ -22,6 +22,8 @@
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="v9f" ref="r:c3dd9d50-4761-4cfd-96ad-c9d9f1babb37(MultiRefLang.structure)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
@@ -1464,6 +1466,22 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="4R9pospczyL" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospczyM" role="3cpWs9">
+            <property role="TrG5h" value="constants" />
+            <node concept="3uibUv" id="4R9pospczy9" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospczyN" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospczyO" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <node concept="37vLTw" id="4R9pospczyP" role="37wK5m">
+                  <ref role="3cqZAo" node="68Be_yIJMJ" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="68Be_yJGsR" role="3cqZAp">
           <node concept="3cpWsn" id="68Be_yJGsS" role="3cpWs9">
             <property role="TrG5h" value="attribute" />
@@ -1479,13 +1497,21 @@
                     <node concept="37vLTw" id="68Be_yJGsX" role="37wK5m">
                       <ref role="3cqZAo" node="68Be_yIJMJ" resolve="repository" />
                     </node>
-                    <node concept="2ShNRf" id="68Be_yJGsY" role="37wK5m">
-                      <node concept="1pGfFk" id="68Be_yJGsZ" role="2ShVmc">
-                        <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                        <node concept="37vLTw" id="68Be_yJGt0" role="37wK5m">
-                          <ref role="3cqZAo" node="68Be_yIJMJ" resolve="repository" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="4R9pospczyQ" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9pospczyM" resolve="constants" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="4R9pospczqz" role="37wK5m">
+                  <node concept="1pGfFk" id="4R9pospczq$" role="2ShVmc">
+                    <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="4R9pospczq_" role="37wK5m">
+                  <node concept="1pGfFk" id="4R9pospczqA" role="2ShVmc">
+                    <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageCompleteIdExtractor" />
+                    <node concept="37vLTw" id="4R9pospczqB" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9pospczyM" resolve="constants" />
                     </node>
                   </node>
                 </node>
@@ -1746,6 +1772,22 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="4R9pospcaKT" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospcaKU" role="3cpWs9">
+            <property role="TrG5h" value="constants" />
+            <node concept="3uibUv" id="4R9pospcaIZ" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospcaKV" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospcaKW" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <node concept="37vLTw" id="4R9pospcaKX" role="37wK5m">
+                  <ref role="3cqZAo" node="68Be_yUJOl" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="68Be_yUJOq" role="3cqZAp">
           <node concept="3cpWsn" id="68Be_yUJOr" role="3cpWs9">
             <property role="TrG5h" value="attribute" />
@@ -1761,13 +1803,21 @@
                     <node concept="37vLTw" id="68Be_yUJOx" role="37wK5m">
                       <ref role="3cqZAo" node="68Be_yUJOl" resolve="repository" />
                     </node>
-                    <node concept="2ShNRf" id="68Be_yUJOy" role="37wK5m">
-                      <node concept="1pGfFk" id="68Be_yUJOz" role="2ShVmc">
-                        <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                        <node concept="37vLTw" id="68Be_yUJO$" role="37wK5m">
-                          <ref role="3cqZAo" node="68Be_yUJOl" resolve="repository" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="4R9pospcaKY" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9pospcaKU" resolve="constants" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="4R9pospccde" role="37wK5m">
+                  <node concept="1pGfFk" id="4R9pospcyCo" role="2ShVmc">
+                    <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="4R9pospcbml" role="37wK5m">
+                  <node concept="1pGfFk" id="4R9pospcbIi" role="2ShVmc">
+                    <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageCompleteIdExtractor" />
+                    <node concept="37vLTw" id="4R9pospcbTq" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9pospcaKU" resolve="constants" />
                     </node>
                   </node>
                 </node>

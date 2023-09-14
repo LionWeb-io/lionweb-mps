@@ -1,0 +1,107 @@
+{
+  "serializationFormatVersion": "1",
+  "languages": [],
+  "nodes": [
+    {
+      "id": "{id-unkeyed}",
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA2OA"
+          },
+          "value": "4R9pospAHR_/unkeyed"
+        },
+        {
+          "property": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "My-UnkeyedProp"
+          },
+          "value": "4R9pospAHRG/unkeyed"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE1ODc4MDI4MQ"
+          },
+          "children": [
+            "{id-Plain}"
+          ]
+        },
+        {
+          "containment": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "My-KeyedChild"
+          },
+          "children": [
+            "{id-NoExtends}"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA3NA"
+          },
+          "targets": [
+            {
+              "resolveInfo": null,
+              "reference": "{id-Plain}"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "My-TestLang3",
+            "version": "0",
+            "key": "My-UnkeyedRef"
+          },
+          "targets": [
+            {
+              "resolveInfo": null,
+              "reference": "{id-NoExtends}"
+            }
+          ]
+        }
+      ],
+      "parent": null
+    },
+    {
+      "id": "{id-Plain}",
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
+      },
+      "properties": [],
+      "children": [],
+      "references": [],
+      "parent": "{id-unkeyed}"
+    },
+    {
+      "id": "{id-NoExtends}",
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
+      },
+      "properties": [],
+      "children": [],
+      "references": [],
+      "parent": "{id-unkeyed}"
+    }
+  ]
+}
