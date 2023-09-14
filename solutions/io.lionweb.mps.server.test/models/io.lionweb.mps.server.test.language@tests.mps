@@ -704,8 +704,8 @@
                 </node>
                 <node concept="liA8E" id="6jI_U5eGTze" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
-                  <node concept="3cmrfG" id="6jI_U5eGTzf" role="37wK5m">
-                    <property role="3cmrfH" value="2" />
+                  <node concept="3cmrfG" id="4R9posq31x_" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
                   </node>
                 </node>
               </node>

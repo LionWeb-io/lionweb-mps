@@ -40,6 +40,9 @@
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -514,9 +517,9 @@
             </node>
             <node concept="3cpWs8" id="5ocQ9W1vI99" role="3cqZAp">
               <node concept="3cpWsn" id="5ocQ9W1vI9a" role="3cpWs9">
-                <property role="TrG5h" value="mapper" />
+                <property role="TrG5h" value="jsonKeyMapper" />
                 <node concept="3uibUv" id="5ocQ9W1vI9b" role="1tU5fm">
-                  <ref role="3uigEE" to="j5yh:39$JcGEIAYT" resolve="JsonBase64LanguageIdMapper" />
+                  <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
                 </node>
                 <node concept="2ShNRf" id="5ocQ9W1vI9c" role="33vP2m">
                   <node concept="1pGfFk" id="5ocQ9W1vI9d" role="2ShVmc">
@@ -524,6 +527,19 @@
                     <node concept="37vLTw" id="5ocQ9W1vI9e" role="37wK5m">
                       <ref role="3cqZAo" node="5ocQ9W1vI92" resolve="constants" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="4R9posq2mt7" role="3cqZAp">
+              <node concept="3cpWsn" id="4R9posq2mt8" role="3cpWs9">
+                <property role="TrG5h" value="metaAdapterFactoryHelper" />
+                <node concept="3uibUv" id="4R9posq2l1J" role="1tU5fm">
+                  <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+                </node>
+                <node concept="2ShNRf" id="4R9posq2mt9" role="33vP2m">
+                  <node concept="HV5vD" id="4R9posq2mta" role="2ShVmc">
+                    <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
                   </node>
                 </node>
               </node>
@@ -545,12 +561,10 @@
                       <ref role="3cqZAo" node="5ocQ9W1vI92" resolve="constants" />
                     </node>
                     <node concept="37vLTw" id="5ocQ9W1vI9m" role="37wK5m">
-                      <ref role="3cqZAo" node="5ocQ9W1vI9a" resolve="mapper" />
+                      <ref role="3cqZAo" node="5ocQ9W1vI9a" resolve="jsonKeyMapper" />
                     </node>
-                    <node concept="2ShNRf" id="5ocQ9W1vI9n" role="37wK5m">
-                      <node concept="1pGfFk" id="5ocQ9W1vI9o" role="2ShVmc">
-                        <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
-                      </node>
+                    <node concept="37vLTw" id="4R9posq2mtb" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9posq2mt8" resolve="metaAdapterFactoryHelper" />
                     </node>
                   </node>
                 </node>

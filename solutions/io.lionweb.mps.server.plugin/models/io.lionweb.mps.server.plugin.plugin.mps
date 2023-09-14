@@ -1372,9 +1372,9 @@
         </node>
         <node concept="3cpWs8" id="5M3rB6BZTDe" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BZTDf" role="3cpWs9">
-            <property role="TrG5h" value="mapper" />
+            <property role="TrG5h" value="jsonKeyMapper" />
             <node concept="3uibUv" id="5M3rB6BZScy" role="1tU5fm">
-              <ref role="3uigEE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
+              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BZTDg" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BZTDh" role="2ShVmc">
@@ -1418,6 +1418,32 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="4R9posq0Wte" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9posq0Wtf" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterFactoryHelper" />
+            <node concept="3uibUv" id="4R9posq0WhL" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+            </node>
+            <node concept="2ShNRf" id="4R9posq0Wtg" role="33vP2m">
+              <node concept="HV5vD" id="4R9posq0Wth" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9posq0Xcw" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9posq0Xcx" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerPostprocessor" />
+            <node concept="3uibUv" id="4R9posq0X2z" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:6lVb1tfSSkJ" resolve="IMetaPointerPostprocessor" />
+            </node>
+            <node concept="2ShNRf" id="4R9posq0Xcy" role="33vP2m">
+              <node concept="HV5vD" id="4R9posq0Xcz" role="2ShVmc">
+                <ref role="HV5vE" to="pe0e:6lVb1tfT0Qf" resolve="ConcatenatingMetaPointerPostprocessor" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="3Lj28wlMSdT" role="3cqZAp">
           <node concept="3cpWsn" id="3Lj28wlMSdU" role="3cpWs9">
             <property role="TrG5h" value="metaPointerConverter" />
@@ -1428,17 +1454,13 @@
               <node concept="1pGfFk" id="3Lj28wlMSdW" role="2ShVmc">
                 <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
                 <node concept="37vLTw" id="3Lj28wlMSdX" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6BZTDf" resolve="mapper" />
+                  <ref role="3cqZAo" node="5M3rB6BZTDf" resolve="jsonKeyMapper" />
                 </node>
-                <node concept="2ShNRf" id="3Lj28wlMSdY" role="37wK5m">
-                  <node concept="1pGfFk" id="3Lj28wlMSdZ" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
-                  </node>
+                <node concept="37vLTw" id="4R9posq0Wti" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9posq0Wtf" resolve="metaAdapterFactoryHelper" />
                 </node>
-                <node concept="2ShNRf" id="3Lj28wlMSe0" role="37wK5m">
-                  <node concept="HV5vD" id="3Lj28wlMSe1" role="2ShVmc">
-                    <ref role="HV5vE" to="pe0e:6lVb1tfT0Qf" resolve="ConcatenatingMetaPointerPostprocessor" />
-                  </node>
+                <node concept="37vLTw" id="4R9posq0Xc$" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9posq0Xcx" resolve="metaPointerPostprocessor" />
                 </node>
               </node>
             </node>
@@ -1460,10 +1482,26 @@
                   <ref role="3cqZAo" node="3Lj28wlMSdU" resolve="metaPointerConverter" />
                 </node>
                 <node concept="37vLTw" id="4R9pospdeJT" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6BZTDf" resolve="mapper" />
+                  <ref role="3cqZAo" node="5M3rB6BZTDf" resolve="jsonKeyMapper" />
                 </node>
                 <node concept="37vLTw" id="4R9pospdfnx" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BZZsc" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9posq0YYK" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9posq0YYL" role="3cpWs9">
+            <property role="TrG5h" value="cancellingMetaPointerLookup" />
+            <node concept="3uibUv" id="4R9posq0YPz" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:A9P4gGNs46" resolve="CancellingMetaPointerLookup" />
+            </node>
+            <node concept="2ShNRf" id="4R9posq0YYM" role="33vP2m">
+              <node concept="1pGfFk" id="4R9posq0YYN" role="2ShVmc">
+                <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
+                <node concept="37vLTw" id="4R9posq0YYO" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6BZUah" resolve="metaPointerLookup" />
                 </node>
               </node>
             </node>
@@ -1482,13 +1520,8 @@
             <node concept="2ShNRf" id="39$JcGEIub3" role="33vP2m">
               <node concept="1pGfFk" id="39$JcGEIub4" role="2ShVmc">
                 <ref role="37wK5l" to="pe0e:2q_M4yT3_Ol" resolve="MergingLionWeb2MpsConverter" />
-                <node concept="2ShNRf" id="3Lj28wlMQft" role="37wK5m">
-                  <node concept="1pGfFk" id="3Lj28wlMRGR" role="2ShVmc">
-                    <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
-                    <node concept="37vLTw" id="3Lj28wlMUfe" role="37wK5m">
-                      <ref role="3cqZAo" node="5M3rB6BZUah" resolve="metaPointerLookup" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="4R9posq0YYP" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9posq0YYL" resolve="cancellingMetaPointerLookup" />
                 </node>
                 <node concept="2ShNRf" id="3Lj28wlMZbc" role="37wK5m">
                   <node concept="HV5vD" id="3Lj28wlN069" role="2ShVmc">

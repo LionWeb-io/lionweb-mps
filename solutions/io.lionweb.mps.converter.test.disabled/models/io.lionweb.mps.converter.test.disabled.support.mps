@@ -22,7 +22,6 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
-    <import index="71yb" ref="r:02bbf108-5d22-47fe-80e2-9339648a786c(io.lionweb.mps.structure.attribute.runtime)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -347,7 +346,7 @@
                 <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
                 <node concept="2YIFZM" id="4oHUzWXdS3L" role="37wK5m">
                   <ref role="37wK5l" node="5M3rB6CijhX" resolve="getDefault" />
-                  <ref role="1Pybhc" node="59Df55kqwg7" resolve="NewImportedLanguageLookup" />
+                  <ref role="1Pybhc" node="59Df55kqwg7" resolve="NewImportedLanguageCreator" />
                   <node concept="37vLTw" id="5M3rB6CitWX" role="37wK5m">
                     <ref role="3cqZAo" node="5M3rB6Citbr" resolve="repository" />
                   </node>
@@ -396,7 +395,7 @@
                 <ref role="37wK5l" to="dydc:DUXtGZObPM" resolve="LionCore2MpsConverter" />
                 <node concept="2ShNRf" id="5M3rB6Ci3k7" role="37wK5m">
                   <node concept="1pGfFk" id="5M3rB6Ci3k8" role="2ShVmc">
-                    <ref role="37wK5l" node="59Df55kq$KG" resolve="ExistingImportedLanguageLookup" />
+                    <ref role="37wK5l" node="59Df55kq$KG" resolve="ExistingImportedLanguageCreator" />
                     <node concept="37vLTw" id="5M3rB6Ci3k9" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6Ci3jV" resolve="importedA" />
                     </node>
@@ -593,7 +592,7 @@
     <node concept="3Tm1VV" id="59Df55krSgw" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="59Df55kqzR9">
-    <property role="TrG5h" value="ExistingImportedLanguageLookup" />
+    <property role="TrG5h" value="ExistingImportedLanguageCreator" />
     <node concept="312cEg" id="59Df55kq_n9" role="jymVt">
       <property role="TrG5h" value="importedLanguages" />
       <property role="3TUv4t" value="true" />
@@ -669,7 +668,7 @@
     <node concept="2tJIrI" id="59Df55kq$Tv" role="jymVt" />
     <node concept="3Tm1VV" id="59Df55kqzRa" role="1B3o_S" />
     <node concept="3uibUv" id="59Df55kqzSP" role="EKbjA">
-      <ref role="3uigEE" to="dydc:3ePT3MiTAog" resolve="ILanguageLookup" />
+      <ref role="3uigEE" to="dydc:3ePT3MiTAog" resolve="IImportedLanguageCreator" />
     </node>
     <node concept="3clFb_" id="59Df55kqzUC" role="jymVt">
       <property role="TrG5h" value="createImportedLanguage" />
@@ -809,7 +808,7 @@
     </node>
   </node>
   <node concept="312cEu" id="59Df55kqwg7">
-    <property role="TrG5h" value="NewImportedLanguageLookup" />
+    <property role="TrG5h" value="NewImportedLanguageCreator" />
     <node concept="312cEg" id="59Df55kqxhU" role="jymVt">
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
@@ -819,11 +818,11 @@
       </node>
     </node>
     <node concept="312cEg" id="5M3rB6CieG2" role="jymVt">
-      <property role="TrG5h" value="metaAdapterFactoryHelper" />
+      <property role="TrG5h" value="metaAdapterFactoryModifier" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5M3rB6CieG3" role="1B3o_S" />
       <node concept="3uibUv" id="2qVVyx0HrNu" role="1tU5fm">
-        <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+        <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
       </node>
     </node>
     <node concept="312cEg" id="5M3rB6Cif8t" role="jymVt">
@@ -873,11 +872,11 @@
             <node concept="2OqwBi" id="5M3rB6CieTX" role="37vLTJ">
               <node concept="Xjq3P" id="5M3rB6CieWj" role="2Oq$k0" />
               <node concept="2OwXpG" id="5M3rB6CieU0" role="2OqNvi">
-                <ref role="2Oxat5" node="5M3rB6CieG2" resolve="metaAdapterFactoryHelper" />
+                <ref role="2Oxat5" node="5M3rB6CieG2" resolve="metaAdapterFactoryModifier" />
               </node>
             </node>
             <node concept="37vLTw" id="5M3rB6CieGc" role="37vLTx">
-              <ref role="3cqZAo" node="5M3rB6Ciez$" resolve="metaAdapterFactoryHelper" />
+              <ref role="3cqZAo" node="5M3rB6Ciez$" resolve="metaAdapterFactoryModifier" />
             </node>
           </node>
         </node>
@@ -931,9 +930,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="5M3rB6Ciez$" role="3clF46">
-        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <property role="TrG5h" value="metaAdapterFactoryModifier" />
         <node concept="3uibUv" id="5M3rB6CieBd" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6CieDv" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -953,18 +952,24 @@
         <node concept="3uibUv" id="5M3rB6CifPY" role="1tU5fm">
           <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsKeyMapper" />
         </node>
+        <node concept="2AHcQZ" id="4R9pospS2jm" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="5M3rB6CihCm" role="3clF46">
         <property role="TrG5h" value="attributeFinder" />
         <node concept="3uibUv" id="5M3rB6CihH3" role="1tU5fm">
           <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
         </node>
+        <node concept="2AHcQZ" id="4R9pospS2uq" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5M3rB6CiiFu" role="jymVt" />
     <node concept="3Tm1VV" id="59Df55kqwg8" role="1B3o_S" />
     <node concept="3uibUv" id="59Df55kqwhb" role="EKbjA">
-      <ref role="3uigEE" to="dydc:3ePT3MiTAog" resolve="ILanguageLookup" />
+      <ref role="3uigEE" to="dydc:3ePT3MiTAog" resolve="IImportedLanguageCreator" />
     </node>
     <node concept="3clFb_" id="59Df55kqwhD" role="jymVt">
       <property role="TrG5h" value="createImportedLanguage" />
@@ -987,7 +992,7 @@
             </node>
             <node concept="2OqwBi" id="59Df55lbR2l" role="33vP2m">
               <node concept="37vLTw" id="5M3rB6CihpU" role="2Oq$k0">
-                <ref role="3cqZAo" node="5M3rB6CieG2" resolve="metaAdapterFactoryHelper" />
+                <ref role="3cqZAo" node="5M3rB6CieG2" resolve="metaAdapterFactoryModifier" />
               </node>
               <node concept="liA8E" id="59Df55lbRg9" role="2OqNvi">
                 <ref role="37wK5l" to="apzt:59Df55laZKQ" resolve="createLanguage" />
@@ -1066,13 +1071,13 @@
         </node>
         <node concept="3cpWs8" id="5M3rB6CimvR" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6CimvS" role="3cpWs9">
-            <property role="TrG5h" value="metaAdapterFactoryHelper" />
+            <property role="TrG5h" value="metaAdapterFactoryModifier" />
             <node concept="3uibUv" id="5M3rB6CimtC" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
             </node>
             <node concept="2ShNRf" id="5M3rB6CimvT" role="33vP2m">
               <node concept="1pGfFk" id="6lVb1tfPq$a" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
+                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryModifier" />
               </node>
             </node>
           </node>
@@ -1128,12 +1133,12 @@
         <node concept="3clFbF" id="5M3rB6CijSN" role="3cqZAp">
           <node concept="2ShNRf" id="5M3rB6CijSL" role="3clFbG">
             <node concept="1pGfFk" id="5M3rB6CikeY" role="2ShVmc">
-              <ref role="37wK5l" node="59Df55kqwSf" resolve="NewImportedLanguageLookup" />
+              <ref role="37wK5l" node="59Df55kqwSf" resolve="NewImportedLanguageCreator" />
               <node concept="37vLTw" id="5M3rB6CikXQ" role="37wK5m">
                 <ref role="3cqZAo" node="5M3rB6CikXM" resolve="constants" />
               </node>
               <node concept="37vLTw" id="5M3rB6CimvV" role="37wK5m">
-                <ref role="3cqZAo" node="5M3rB6CimvS" resolve="metaAdapterFactoryHelper" />
+                <ref role="3cqZAo" node="5M3rB6CimvS" resolve="metaAdapterFactoryModifier" />
               </node>
               <node concept="37vLTw" id="5M3rB6CilnW" role="37wK5m">
                 <ref role="3cqZAo" node="5M3rB6CilnT" resolve="lcMapper" />
@@ -1150,7 +1155,7 @@
       </node>
       <node concept="3Tm1VV" id="5M3rB6Cij3P" role="1B3o_S" />
       <node concept="3uibUv" id="5M3rB6Cijg1" role="3clF45">
-        <ref role="3uigEE" node="59Df55kqwg7" resolve="NewImportedLanguageLookup" />
+        <ref role="3uigEE" node="59Df55kqwg7" resolve="NewImportedLanguageCreator" />
       </node>
       <node concept="37vLTG" id="5M3rB6CijOI" role="3clF46">
         <property role="TrG5h" value="repository" />

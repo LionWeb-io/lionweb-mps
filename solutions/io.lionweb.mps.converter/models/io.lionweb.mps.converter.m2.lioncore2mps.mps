@@ -973,9 +973,9 @@
         <node concept="17QB3L" id="2qVVyx0HrNs" role="_ZDj9" />
       </node>
       <node concept="37vLTG" id="2qVVyx0HrNt" role="3clF46">
-        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <property role="TrG5h" value="metaAdapterFactoryModifier" />
         <node concept="3uibUv" id="2qVVyx0HrNu" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VSoUf" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -1012,26 +1012,42 @@
             </node>
           </node>
           <node concept="3clFbS" id="2qVVyx0H_pt" role="2LFqv$">
+            <node concept="3cpWs8" id="4R9pospFFL8" role="3cqZAp">
+              <node concept="3cpWsn" id="4R9pospFFL9" role="3cpWs9">
+                <property role="TrG5h" value="language" />
+                <node concept="3uibUv" id="4R9pospFCDu" role="1tU5fm">
+                  <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                </node>
+                <node concept="2OqwBi" id="4R9pospFFLa" role="33vP2m">
+                  <node concept="37vLTw" id="4R9pospFFLb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2qVVyx0HrNt" resolve="metaAdapterFactoryModifier" />
+                  </node>
+                  <node concept="liA8E" id="4R9pospFFLc" role="2OqNvi">
+                    <ref role="37wK5l" to="apzt:59Df55laZKQ" resolve="createLanguage" />
+                    <node concept="2OqwBi" id="4R9pospFFLd" role="37wK5m">
+                      <node concept="2GrUjf" id="4R9pospFFLe" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="2qVVyx0H_pr" resolve="dependency" />
+                      </node>
+                      <node concept="3TrEf2" id="4R9pospFFLf" role="2OqNvi">
+                        <ref role="3Tt5mk" to="h3y3:2ju2syjknNj" resolve="language" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="2qVVyx0Is3d" role="3cqZAp">
               <node concept="3cpWsn" id="2qVVyx0Is3e" role="3cpWs9">
                 <property role="TrG5h" value="sDependency" />
                 <node concept="3uibUv" id="2qVVyx0IpTb" role="1tU5fm">
                   <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
                 </node>
-                <node concept="2OqwBi" id="2qVVyx0Is3f" role="33vP2m">
-                  <node concept="37vLTw" id="2qVVyx0Is3g" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2qVVyx0HrNt" resolve="metaAdapterFactoryHelper" />
+                <node concept="2OqwBi" id="4R9pospGro2" role="33vP2m">
+                  <node concept="37vLTw" id="4R9pospFFLg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4R9pospFFL9" resolve="language" />
                   </node>
-                  <node concept="liA8E" id="2qVVyx0Is3h" role="2OqNvi">
-                    <ref role="37wK5l" to="apzt:59Df55lb74u" resolve="lookupLanguage" />
-                    <node concept="2OqwBi" id="2qVVyx0Is3i" role="37wK5m">
-                      <node concept="2GrUjf" id="2qVVyx0Is3j" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="2qVVyx0H_pr" resolve="dependency" />
-                      </node>
-                      <node concept="3TrEf2" id="2qVVyx0Is3k" role="2OqNvi">
-                        <ref role="3Tt5mk" to="h3y3:2ju2syjknNj" resolve="language" />
-                      </node>
-                    </node>
+                  <node concept="liA8E" id="4R9pospGH21" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SLanguage.getSourceModule()" resolve="getSourceModule" />
                   </node>
                 </node>
               </node>
@@ -6433,11 +6449,11 @@
       </node>
     </node>
     <node concept="312cEg" id="3ePT3MiTJpW" role="jymVt">
-      <property role="TrG5h" value="languageLookup" />
+      <property role="TrG5h" value="importedLanguageCreator" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="3ePT3MiTJpX" role="1B3o_S" />
       <node concept="3uibUv" id="3ePT3MiTJpZ" role="1tU5fm">
-        <ref role="3uigEE" node="3ePT3MiTAog" resolve="ILanguageLookup" />
+        <ref role="3uigEE" node="3ePT3MiTAog" resolve="IImportedLanguageCreator" />
       </node>
     </node>
     <node concept="2tJIrI" id="DUXtGZP0Oe" role="jymVt" />
@@ -6450,11 +6466,11 @@
             <node concept="2OqwBi" id="3ePT3MiTLD8" role="37vLTJ">
               <node concept="Xjq3P" id="3ePT3MiTLZG" role="2Oq$k0" />
               <node concept="2OwXpG" id="3ePT3MiTLDb" role="2OqNvi">
-                <ref role="2Oxat5" node="3ePT3MiTJpW" resolve="languageLookup" />
+                <ref role="2Oxat5" node="3ePT3MiTJpW" resolve="importedLanguageCreator" />
               </node>
             </node>
             <node concept="37vLTw" id="3ePT3MiTJq6" role="37vLTx">
-              <ref role="3cqZAo" node="3ePT3MiTINd" resolve="languageLookup" />
+              <ref role="3cqZAo" node="3ePT3MiTINd" resolve="importedLanguageCreator" />
             </node>
           </node>
         </node>
@@ -6482,9 +6498,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="3ePT3MiTINd" role="3clF46">
-        <property role="TrG5h" value="languageLookup" />
+        <property role="TrG5h" value="importedLanguageCreator" />
         <node concept="3uibUv" id="3ePT3MiTJh_" role="1tU5fm">
-          <ref role="3uigEE" node="3ePT3MiTAog" resolve="ILanguageLookup" />
+          <ref role="3uigEE" node="3ePT3MiTAog" resolve="IImportedLanguageCreator" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6B_2lY" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -6859,7 +6875,7 @@
                       <node concept="3clFbF" id="3ePT3MiTQGs" role="3cqZAp">
                         <node concept="2OqwBi" id="3ePT3MiTSzZ" role="3clFbG">
                           <node concept="37vLTw" id="3ePT3MiTQGr" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3ePT3MiTJpW" resolve="languageLookup" />
+                            <ref role="3cqZAo" node="3ePT3MiTJpW" resolve="importedLanguageCreator" />
                           </node>
                           <node concept="liA8E" id="3ePT3MiTUeX" role="2OqNvi">
                             <ref role="37wK5l" node="3ePT3MiTAGL" resolve="createImportedLanguage" />
@@ -7057,9 +7073,9 @@
         <node concept="17QB3L" id="2qVVyx0QZuO" role="_ZDj9" />
       </node>
       <node concept="37vLTG" id="2qVVyx0QZuP" role="3clF46">
-        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <property role="TrG5h" value="metaAdapterFactoryModifier" />
         <node concept="3uibUv" id="KVKr66kmAI" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
         </node>
       </node>
       <node concept="2AHcQZ" id="2qVVyx0QZvW" role="2AJF6D">
@@ -10032,12 +10048,12 @@
         <node concept="17QB3L" id="2qVVyx0Hfsp" role="_ZDj9" />
       </node>
       <node concept="37vLTG" id="2qVVyx0Hfwf" role="3clF46">
-        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <property role="TrG5h" value="metaAdapterFactoryModifier" />
         <node concept="2AHcQZ" id="1f4Qr8VPBZa" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="KVKr66kfDK" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
         </node>
       </node>
     </node>
@@ -27489,7 +27505,7 @@
     <node concept="3Tm1VV" id="3ePT3MiNKFB" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3ePT3MiTAog">
-    <property role="TrG5h" value="ILanguageLookup" />
+    <property role="TrG5h" value="IImportedLanguageCreator" />
     <property role="3GE5qa" value="languageLookup" />
     <node concept="3clFb_" id="3ePT3MiTAGL" role="jymVt">
       <property role="TrG5h" value="createImportedLanguage" />
@@ -27515,7 +27531,7 @@
   </node>
   <node concept="312cEu" id="3ePT3MiTARf">
     <property role="3GE5qa" value="languageLookup" />
-    <property role="TrG5h" value="InstalledLanguageLookup" />
+    <property role="TrG5h" value="InstalledLanguageCreator" />
     <node concept="312cEg" id="3ePT3MiTG_$" role="jymVt">
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
@@ -27525,11 +27541,11 @@
       </node>
     </node>
     <node concept="312cEg" id="59Df55lbjoA" role="jymVt">
-      <property role="TrG5h" value="metaAdapterFactoryHelper" />
+      <property role="TrG5h" value="metaAdapterFactoryModifier" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="59Df55lbjoB" role="1B3o_S" />
       <node concept="3uibUv" id="59Df55lbjoD" role="1tU5fm">
-        <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+        <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
       </node>
     </node>
     <node concept="312cEg" id="6VkSF6bW3kM" role="jymVt">
@@ -27548,6 +27564,14 @@
         <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsKeyMapper" />
       </node>
     </node>
+    <node concept="312cEg" id="4R9pospMrhc" role="jymVt">
+      <property role="TrG5h" value="languageLookup" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="4R9pospMrhd" role="1B3o_S" />
+      <node concept="3uibUv" id="4R9pospMrhf" role="1tU5fm">
+        <ref role="3uigEE" to="apzt:4R9pospH1E7" resolve="ILanguageLookup" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3ePT3MiTGk6" role="jymVt" />
     <node concept="3clFbW" id="59Df55lbkhY" role="jymVt">
       <node concept="37vLTG" id="59Df55lbkhZ" role="3clF46">
@@ -27560,9 +27584,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="59Df55lbki1" role="3clF46">
-        <property role="TrG5h" value="metaAdapterFactoryHelper" />
+        <property role="TrG5h" value="metaAdapterFactoryModifier" />
         <node concept="3uibUv" id="59Df55lbki2" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+          <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
         </node>
         <node concept="2AHcQZ" id="59Df55lbPtr" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -27573,11 +27597,26 @@
         <node concept="3uibUv" id="5M3rB6B01Ow" role="1tU5fm">
           <ref role="3uigEE" to="t47h:5M3rB6AY2W3" resolve="ALionCoreKeyMapper" />
         </node>
+        <node concept="2AHcQZ" id="4R9pospMqbf" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
       </node>
       <node concept="37vLTG" id="6VkSF6bW3c7" role="3clF46">
         <property role="TrG5h" value="mpsIdMapper" />
         <node concept="3uibUv" id="5M3rB6B2nJq" role="1tU5fm">
           <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsKeyMapper" />
+        </node>
+        <node concept="2AHcQZ" id="4R9pospMqCZ" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4R9pospMr4m" role="3clF46">
+        <property role="TrG5h" value="languageLookup" />
+        <node concept="3uibUv" id="4R9pospMr8s" role="1tU5fm">
+          <ref role="3uigEE" to="apzt:4R9pospH1E7" resolve="ILanguageLookup" />
+        </node>
+        <node concept="2AHcQZ" id="4R9pospMrbL" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="3cqZAl" id="59Df55lbki3" role="3clF45" />
@@ -27601,11 +27640,11 @@
             <node concept="2OqwBi" id="59Df55lbkie" role="37vLTJ">
               <node concept="Xjq3P" id="59Df55lbkif" role="2Oq$k0" />
               <node concept="2OwXpG" id="59Df55lbkig" role="2OqNvi">
-                <ref role="2Oxat5" node="59Df55lbjoA" resolve="metaAdapterFactoryHelper" />
+                <ref role="2Oxat5" node="59Df55lbjoA" resolve="metaAdapterFactoryModifier" />
               </node>
             </node>
             <node concept="37vLTw" id="59Df55lbkih" role="37vLTx">
-              <ref role="3cqZAo" node="59Df55lbki1" resolve="metaAdapterFactoryHelper" />
+              <ref role="3cqZAo" node="59Df55lbki1" resolve="metaAdapterFactoryModifier" />
             </node>
           </node>
         </node>
@@ -27635,12 +27674,25 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4R9pospMrhg" role="3cqZAp">
+          <node concept="37vLTI" id="4R9pospMrhi" role="3clFbG">
+            <node concept="2OqwBi" id="4R9pospMs9K" role="37vLTJ">
+              <node concept="Xjq3P" id="4R9pospMsxD" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4R9pospMs9N" role="2OqNvi">
+                <ref role="2Oxat5" node="4R9pospMrhc" resolve="languageLookup" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4R9pospMrhm" role="37vLTx">
+              <ref role="3cqZAo" node="4R9pospMr4m" resolve="languageLookup" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="3ePT3MiTFF6" role="jymVt" />
     <node concept="3Tm1VV" id="3ePT3MiTARg" role="1B3o_S" />
     <node concept="3uibUv" id="3ePT3MiTASp" role="EKbjA">
-      <ref role="3uigEE" node="3ePT3MiTAog" resolve="ILanguageLookup" />
+      <ref role="3uigEE" node="3ePT3MiTAog" resolve="IImportedLanguageCreator" />
     </node>
     <node concept="3clFb_" id="3ePT3MiTASR" role="jymVt">
       <property role="TrG5h" value="createImportedLanguage" />
@@ -27700,10 +27752,10 @@
             </node>
             <node concept="2OqwBi" id="59Df55lbMkt" role="33vP2m">
               <node concept="37vLTw" id="59Df55lbLUX" role="2Oq$k0">
-                <ref role="3cqZAo" node="59Df55lbjoA" resolve="metaAdapterFactoryHelper" />
+                <ref role="3cqZAo" node="4R9pospMrhc" resolve="languageLookup" />
               </node>
               <node concept="liA8E" id="59Df55lbMIA" role="2OqNvi">
-                <ref role="37wK5l" to="apzt:59Df55lb74u" resolve="lookupLanguage" />
+                <ref role="37wK5l" to="apzt:4R9pospH2tC" resolve="lookupLanguage" />
                 <node concept="37vLTw" id="59Df55lbNec" role="37wK5m">
                   <ref role="3cqZAo" node="3ePT3MiTASV" resolve="lcLanguage" />
                 </node>
@@ -27761,7 +27813,7 @@
                 </node>
                 <node concept="2OqwBi" id="59Df55lbpTm" role="33vP2m">
                   <node concept="37vLTw" id="59Df55lbpy_" role="2Oq$k0">
-                    <ref role="3cqZAo" node="59Df55lbjoA" resolve="metaAdapterFactoryHelper" />
+                    <ref role="3cqZAo" node="59Df55lbjoA" resolve="metaAdapterFactoryModifier" />
                   </node>
                   <node concept="liA8E" id="59Df55lbqfS" role="2OqNvi">
                     <ref role="37wK5l" to="apzt:59Df55laZKQ" resolve="createLanguage" />
