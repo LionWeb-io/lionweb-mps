@@ -860,6 +860,11 @@
             <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="18UigYOLdkU" role="3bR37C">
+          <node concept="3bR9La" id="18UigYOLdkV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5wsogBcGDM7" role="2G$12L">
         <property role="BnDLt" value="true" />

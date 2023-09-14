@@ -317,6 +317,7 @@
           <module ref="537f9cb0-0f25-3c76-8b86-308f45010100(library)" kind="cl" />
         </dependencies>
         <uses>
+          <language id="l:11541b24-a02a-4586-a931-92521b3f6166:io.lionweb.mps.converter.TestCustomDatatype" />
           <language id="l:48d0f6eb-6186-4cec-83d1-7caedb05a494:io.lionweb.mps.converter.TestLang2" />
           <language id="l:099490a3-1e39-4ed1-bebc-8027665cecf9:io.lionweb.mps.converter.TestLang3" />
           <language id="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" />
@@ -911,6 +912,7 @@
           <module ref="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" kind="cl" />
         </dependencies>
         <uses>
+          <language id="l:411e5b27-8a76-482e-8af8-1704262b4468:io.lionweb.mps.structure.attribute" />
           <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
           <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
           <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
