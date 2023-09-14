@@ -494,7 +494,7 @@
       <property role="20kJfa" value="childKeyed" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
       <node concept="2DM1AW" id="4R9pospjkXV" role="lGtFl">
-        <property role="2DM1AS" value="My-KeyedChild" />
+        <property role="2DM1AS" value="My-UnkeyedChild" />
       </node>
     </node>
   </node>

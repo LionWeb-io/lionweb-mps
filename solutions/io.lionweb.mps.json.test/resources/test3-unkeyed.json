@@ -42,7 +42,7 @@
           "containment": {
             "language": "My-TestLang3",
             "version": "0",
-            "key": "My-KeyedChild"
+            "key": "My-UnkeyedChild"
           },
           "children": [
             "{id-NoExtends}"

@@ -7,6 +7,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -445,6 +446,16 @@
         <ref role="3uigEE" to="guwi:~Reader" resolve="Reader" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4R9posqbm$I" role="jymVt" />
+    <node concept="312cEg" id="4R9posqboqk" role="jymVt">
+      <property role="TrG5h" value="BUFSIZE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="4R9posqbnwC" role="1B3o_S" />
+      <node concept="10Oyi0" id="4R9posqbopT" role="1tU5fm" />
+      <node concept="2nou5x" id="4R9posqbpjr" role="33vP2m">
+        <property role="2noCCI" value="1000000" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5wsogBcuZsN" role="jymVt" />
     <node concept="3clFbW" id="5wsogBcuZdW" role="jymVt">
       <node concept="3cqZAl" id="5wsogBcuZdY" role="3clF45" />
@@ -517,8 +528,8 @@
                     <node concept="2ShNRf" id="5sACIIt2AQy" role="33vP2m">
                       <node concept="3$_iS1" id="5sACIIt2C4e" role="2ShVmc">
                         <node concept="3$GHV9" id="5sACIIt2C4g" role="3$GQph">
-                          <node concept="2nou5x" id="5sACIIt2Cpk" role="3$I4v7">
-                            <property role="2noCCI" value="10000" />
+                          <node concept="37vLTw" id="4R9posqeXiy" role="3$I4v7">
+                            <ref role="3cqZAo" node="4R9posqboqk" resolve="BUFSIZE" />
                           </node>
                         </node>
                         <node concept="10Pfzv" id="5sACIIt2C33" role="3$_nBY" />
@@ -535,8 +546,8 @@
                     <node concept="2ShNRf" id="5sACIIt2DoA" role="33vP2m">
                       <node concept="3$_iS1" id="5sACIIt2DoB" role="2ShVmc">
                         <node concept="3$GHV9" id="5sACIIt2DoC" role="3$GQph">
-                          <node concept="2nou5x" id="5sACIIt2DoD" role="3$I4v7">
-                            <property role="2noCCI" value="10000" />
+                          <node concept="37vLTw" id="4R9posqeX$b" role="3$I4v7">
+                            <ref role="3cqZAo" node="4R9posqboqk" resolve="BUFSIZE" />
                           </node>
                         </node>
                         <node concept="10Pfzv" id="5sACIIt2DoE" role="3$_nBY" />
@@ -1368,10 +1379,15 @@
                       <ref role="3cqZAo" node="24j7TNH2afO" resolve="reader" />
                     </node>
                     <node concept="2ShNRf" id="4$L4A$t57e6" role="37wK5m">
-                      <node concept="1pGfFk" id="4$L4A$t57e7" role="2ShVmc">
-                        <ref role="37wK5l" to="guwi:~StringReader.&lt;init&gt;(java.lang.String)" resolve="StringReader" />
-                        <node concept="37vLTw" id="4$L4A$t57e8" role="37wK5m">
-                          <ref role="3cqZAo" node="4$L4A$t54b5" resolve="actualString" />
+                      <node concept="1pGfFk" id="4R9posqasJH" role="2ShVmc">
+                        <ref role="37wK5l" to="guwi:~CharArrayReader.&lt;init&gt;(char[])" resolve="CharArrayReader" />
+                        <node concept="2OqwBi" id="4R9posqatG9" role="37wK5m">
+                          <node concept="37vLTw" id="4R9posqasTb" role="2Oq$k0">
+                            <ref role="3cqZAo" node="24j7TNH2aex" resolve="writer" />
+                          </node>
+                          <node concept="liA8E" id="4R9posqau_$" role="2OqNvi">
+                            <ref role="37wK5l" to="guwi:~CharArrayWriter.toCharArray()" resolve="toCharArray" />
+                          </node>
                         </node>
                       </node>
                     </node>

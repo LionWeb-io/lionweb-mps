@@ -3743,5 +3743,226 @@
     </node>
     <node concept="3Tm1VV" id="4R9posp5N7i" role="1B3o_S" />
   </node>
+  <node concept="312cEu" id="4R9posqrx51">
+    <property role="TrG5h" value="UsedLanguageLionwebJsonException" />
+    <node concept="3Tm1VV" id="4R9posqrx52" role="1B3o_S" />
+    <node concept="3uibUv" id="4R9posqrx53" role="1zkMxy">
+      <ref role="3uigEE" node="A9P4gGMFSK" resolve="ALionwebJsonException" />
+    </node>
+    <node concept="312cEg" id="4R9posqrx54" role="jymVt">
+      <property role="TrG5h" value="usedLanguage" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="4R9posqrx55" role="1B3o_S" />
+      <node concept="3uibUv" id="4R9posqrx56" role="1tU5fm">
+        <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4R9posqrx57" role="jymVt" />
+    <node concept="3clFbW" id="4R9posqrx58" role="jymVt">
+      <node concept="3cqZAl" id="4R9posqrx59" role="3clF45" />
+      <node concept="3Tm1VV" id="4R9posqrx5a" role="1B3o_S" />
+      <node concept="3clFbS" id="4R9posqrx5b" role="3clF47">
+        <node concept="XkiVB" id="4R9posqrx5c" role="3cqZAp">
+          <ref role="37wK5l" node="A9P4gGMFZo" resolve="ALionwebJsonException" />
+          <node concept="3cpWs3" id="4R9posqrx5d" role="37wK5m">
+            <node concept="Xl_RD" id="4R9posqrx5e" role="3uHU7w">
+              <property role="Xl_RC" value="]" />
+            </node>
+            <node concept="3cpWs3" id="4R9posqrx5f" role="3uHU7B">
+              <node concept="3cpWs3" id="4R9posqrx5g" role="3uHU7B">
+                <node concept="3cpWs3" id="4R9posqrx5h" role="3uHU7B">
+                  <node concept="Xl_RD" id="4R9posqrx5i" role="3uHU7B">
+                    <property role="Xl_RC" value="Exception while processing " />
+                  </node>
+                  <node concept="2OqwBi" id="4R9posqrx5j" role="3uHU7w">
+                    <node concept="2OqwBi" id="4R9posqrx5k" role="2Oq$k0">
+                      <node concept="37vLTw" id="4R9posqrx5l" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqrx5z" resolve="usedLanguage" />
+                      </node>
+                      <node concept="liA8E" id="4R9posqrx5m" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4R9posqrx5n" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="4R9posqrx5o" role="3uHU7w">
+                  <property role="Xl_RC" value="[" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4R9posqrx5p" role="3uHU7w">
+                <node concept="37vLTw" id="4R9posqrx5q" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4R9posqrx5z" resolve="usedLanguage" />
+                </node>
+                <node concept="liA8E" id="4R9posqrx5r" role="2OqNvi">
+                  <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="4R9posqrx5s" role="37wK5m">
+            <ref role="3cqZAo" node="4R9posqrx5A" resolve="cause" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4R9posqrx5t" role="3cqZAp">
+          <node concept="37vLTI" id="4R9posqrx5u" role="3clFbG">
+            <node concept="2OqwBi" id="4R9posqrx5v" role="37vLTJ">
+              <node concept="Xjq3P" id="4R9posqrx5w" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4R9posqrx5x" role="2OqNvi">
+                <ref role="2Oxat5" node="4R9posqrx54" resolve="usedLanguage" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4R9posqrx5y" role="37vLTx">
+              <ref role="3cqZAo" node="4R9posqrx5z" resolve="usedLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4R9posqrx5z" role="3clF46">
+        <property role="TrG5h" value="usedLanguage" />
+        <node concept="3uibUv" id="4R9posqrx5$" role="1tU5fm">
+          <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+        </node>
+        <node concept="2AHcQZ" id="4R9posqrx5_" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4R9posqrx5A" role="3clF46">
+        <property role="TrG5h" value="cause" />
+        <node concept="3uibUv" id="4R9posqrx5B" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4R9posqrx5C" role="jymVt" />
+    <node concept="3clFbW" id="4R9posqrx5D" role="jymVt">
+      <node concept="3cqZAl" id="4R9posqrx5E" role="3clF45" />
+      <node concept="3Tm1VV" id="4R9posqrx5F" role="1B3o_S" />
+      <node concept="3clFbS" id="4R9posqrx5G" role="3clF47">
+        <node concept="XkiVB" id="4R9posqrx5H" role="3cqZAp">
+          <ref role="37wK5l" node="A9P4gGMFZd" resolve="ALionwebJsonException" />
+          <node concept="3cpWs3" id="4R9posqrx5I" role="37wK5m">
+            <node concept="37vLTw" id="4R9posqrx5J" role="3uHU7w">
+              <ref role="3cqZAo" node="4R9posqrx68" resolve="message" />
+            </node>
+            <node concept="3cpWs3" id="4R9posqrx5K" role="3uHU7B">
+              <node concept="3cpWs3" id="4R9posqrx5L" role="3uHU7B">
+                <node concept="3cpWs3" id="4R9posqrx5M" role="3uHU7B">
+                  <node concept="3cpWs3" id="4R9posqrx5N" role="3uHU7B">
+                    <node concept="Xl_RD" id="4R9posqrx5O" role="3uHU7B">
+                      <property role="Xl_RC" value="Exception while processing " />
+                    </node>
+                    <node concept="2OqwBi" id="4R9posqrx5P" role="3uHU7w">
+                      <node concept="2OqwBi" id="4R9posqrx5Q" role="2Oq$k0">
+                        <node concept="37vLTw" id="4R9posqrx5R" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4R9posqrx65" resolve="usedLanguage" />
+                        </node>
+                        <node concept="liA8E" id="4R9posqrx5S" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4R9posqrx5T" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4R9posqrx5U" role="3uHU7w">
+                    <property role="Xl_RC" value="[" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4R9posqrx5V" role="3uHU7w">
+                  <node concept="37vLTw" id="4R9posqrx5W" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4R9posqrx65" resolve="usedLanguage" />
+                  </node>
+                  <node concept="liA8E" id="4R9posqrx5X" role="2OqNvi">
+                    <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+                  </node>
+                </node>
+              </node>
+              <node concept="Xl_RD" id="4R9posqrx5Y" role="3uHU7w">
+                <property role="Xl_RC" value="]: " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4R9posqrx5Z" role="3cqZAp">
+          <node concept="37vLTI" id="4R9posqrx60" role="3clFbG">
+            <node concept="2OqwBi" id="4R9posqrx61" role="37vLTJ">
+              <node concept="Xjq3P" id="4R9posqrx62" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4R9posqrx63" role="2OqNvi">
+                <ref role="2Oxat5" node="4R9posqrx54" resolve="usedLanguage" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4R9posqrx64" role="37vLTx">
+              <ref role="3cqZAo" node="4R9posqrx65" resolve="usedLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4R9posqrx65" role="3clF46">
+        <property role="TrG5h" value="usedLanguage" />
+        <node concept="3uibUv" id="4R9posqrx66" role="1tU5fm">
+          <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+        </node>
+        <node concept="2AHcQZ" id="4R9posqrx67" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4R9posqrx68" role="3clF46">
+        <property role="TrG5h" value="message" />
+        <node concept="17QB3L" id="4R9posqrx69" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4R9posqrx6a" role="jymVt" />
+    <node concept="3clFb_" id="4R9posqrx6b" role="jymVt">
+      <property role="TrG5h" value="getUsedLanguage" />
+      <node concept="3uibUv" id="4R9posqrx6c" role="3clF45">
+        <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+      </node>
+      <node concept="3Tm1VV" id="4R9posqrx6d" role="1B3o_S" />
+      <node concept="3clFbS" id="4R9posqrx6e" role="3clF47">
+        <node concept="3clFbF" id="4R9posqrx6f" role="3cqZAp">
+          <node concept="2OqwBi" id="4R9posqrx6g" role="3clFbG">
+            <node concept="Xjq3P" id="4R9posqrx6h" role="2Oq$k0" />
+            <node concept="2OwXpG" id="4R9posqrx6i" role="2OqNvi">
+              <ref role="2Oxat5" node="4R9posqrx54" resolve="usedLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4R9posqrx6j" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4R9posqrx6k" role="jymVt" />
+    <node concept="3clFb_" id="4R9posqrx6l" role="jymVt">
+      <property role="TrG5h" value="getId" />
+      <node concept="3Tm1VV" id="4R9posqrx6m" role="1B3o_S" />
+      <node concept="17QB3L" id="4R9posqrx6n" role="3clF45" />
+      <node concept="2AHcQZ" id="4R9posqrx6o" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3clFbS" id="4R9posqrx6p" role="3clF47">
+        <node concept="3clFbF" id="4R9posqrx6q" role="3cqZAp">
+          <node concept="2OqwBi" id="4R9posqrx6r" role="3clFbG">
+            <node concept="2OqwBi" id="4R9posqrx6s" role="2Oq$k0">
+              <node concept="Xjq3P" id="4R9posqrx6t" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4R9posqrx6u" role="2OqNvi">
+                <ref role="2Oxat5" node="4R9posqrx54" resolve="usedLanguage" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4R9posqrx6v" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4R9posqrx6w" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
 </model>
 

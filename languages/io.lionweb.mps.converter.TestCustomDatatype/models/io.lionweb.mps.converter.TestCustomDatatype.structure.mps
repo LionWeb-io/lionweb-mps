@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -30,9 +31,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute">
+      <concept id="7205279169712116353" name="io.lionweb.mps.structure.attribute.structure.ILionWebKey" flags="ng" index="2DM1AV">
+        <property id="7205279169712116354" name="key" index="2DM1AS" />
+      </concept>
+      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LIonWebEntityKey" flags="ng" index="2DM1AW" />
     </language>
   </registry>
   <node concept="Az7Fb" id="5ocQ9W1v8_q">
@@ -62,6 +72,31 @@
       <property role="IQ2nx" value="6200568964418669188" />
       <property role="TrG5h" value="constr" />
       <ref role="AX2Wp" node="5ocQ9W1v8_q" resolve="ConstrainedStringDatatype" />
+    </node>
+    <node concept="1TJgyi" id="4R9posq6dyC" role="1TKVEl">
+      <property role="IQ2nx" value="5605122842172119208" />
+      <property role="TrG5h" value="keyedPrim" />
+      <ref role="AX2Wp" node="4R9posq6dy_" resolve="KeyedPrimitiveDatatype" />
+    </node>
+    <node concept="1TJgyi" id="4R9posq6dyH" role="1TKVEl">
+      <property role="IQ2nx" value="5605122842172119213" />
+      <property role="TrG5h" value="keyedConstr" />
+      <ref role="AX2Wp" node="4R9posq6dyy" resolve="KeyedConstrainedStringDatatype" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="4R9posq6dyy">
+    <property role="3F6X1D" value="5605122842172119202" />
+    <property role="TrG5h" value="KeyedConstrainedStringDatatype" />
+    <property role="FLfZY" value="[a-zA-Z]*" />
+    <node concept="2DM1AW" id="4R9posq6dyz" role="lGtFl">
+      <property role="2DM1AS" value="My-KeyedConstrainedStringDatatype" />
+    </node>
+  </node>
+  <node concept="QkHVr" id="4R9posq6dy_">
+    <property role="3F6X1D" value="6200568964418669083" />
+    <property role="TrG5h" value="KeyedPrimitiveDatatype" />
+    <node concept="2DM1AW" id="4R9posq6dyA" role="lGtFl">
+      <property role="2DM1AS" value="My-KeyedPrimitiveDatatype" />
     </node>
   </node>
 </model>
