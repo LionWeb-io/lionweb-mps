@@ -1332,11 +1332,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="6jI_U5e9kTY" role="3bR37C">
-          <node concept="3bR9La" id="6jI_U5e9kTZ" role="1SiIV1">
-            <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="1E1JtA" id="oIR8hQg5OW" role="3989C9">
@@ -1724,6 +1719,7 @@
         </node>
         <node concept="1SiIV0" id="5wsogBcGDSo" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDSp" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="5wsogBcGDLJ" resolve="io.lionweb.mps.json" />
           </node>
         </node>
