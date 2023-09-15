@@ -241,11 +241,6 @@
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
-        <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
@@ -4875,22 +4870,6 @@
         <ref role="3uigEE" node="5wsogBcpo49" resolve="IMetaPointerLookup" />
       </node>
     </node>
-    <node concept="312cEg" id="18UigYOO3Ww" role="jymVt">
-      <property role="TrG5h" value="attributeFinder" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="18UigYOO3Wx" role="1B3o_S" />
-      <node concept="3uibUv" id="18UigYOO3Wz" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
-      </node>
-    </node>
-    <node concept="312cEg" id="18UigYOPOMX" role="jymVt">
-      <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="18UigYOPOMY" role="1B3o_S" />
-      <node concept="3uibUv" id="18UigYOPON0" role="1tU5fm">
-        <ref role="3uigEE" to="apzt:18UigYOOPKz" resolve="IMetaAdapterByDeclarationHelper" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="A9P4gGNt6_" role="jymVt" />
     <node concept="3clFbW" id="A9P4gGNs$J" role="jymVt">
       <node concept="3cqZAl" id="A9P4gGNs$L" role="3clF45" />
@@ -4909,32 +4888,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="18UigYOO3W$" role="3cqZAp">
-          <node concept="37vLTI" id="18UigYOO3WA" role="3clFbG">
-            <node concept="2OqwBi" id="18UigYOO4Wm" role="37vLTJ">
-              <node concept="Xjq3P" id="18UigYOO4XY" role="2Oq$k0" />
-              <node concept="2OwXpG" id="18UigYOO4Wp" role="2OqNvi">
-                <ref role="2Oxat5" node="18UigYOO3Ww" resolve="attributeFinder" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="18UigYOO3WE" role="37vLTx">
-              <ref role="3cqZAo" node="5AGBwuFn0Ua" resolve="attributeFinder" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="18UigYOPON1" role="3cqZAp">
-          <node concept="37vLTI" id="18UigYOPON3" role="3clFbG">
-            <node concept="2OqwBi" id="18UigYOPPSZ" role="37vLTJ">
-              <node concept="Xjq3P" id="18UigYOPPV_" role="2Oq$k0" />
-              <node concept="2OwXpG" id="18UigYOPPT2" role="2OqNvi">
-                <ref role="2Oxat5" node="18UigYOPOMX" resolve="metaAdapterByDeclarationHelper" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="18UigYOPON7" role="37vLTx">
-              <ref role="3cqZAo" node="18UigYOPO1u" resolve="metaAdapterByDeclarationHelper" />
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="37vLTG" id="A9P4gGNsFF" role="3clF46">
         <property role="TrG5h" value="delegate" />
@@ -4942,24 +4895,6 @@
           <ref role="3uigEE" node="5wsogBcpo49" resolve="IMetaPointerLookup" />
         </node>
         <node concept="2AHcQZ" id="18UigYOO32f" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5AGBwuFn0Ua" role="3clF46">
-        <property role="TrG5h" value="attributeFinder" />
-        <node concept="3uibUv" id="5AGBwuFn10l" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
-        </node>
-        <node concept="2AHcQZ" id="1f4Qr8Ve5Pk" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="18UigYOPO1u" role="3clF46">
-        <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
-        <node concept="3uibUv" id="18UigYOPOfZ" role="1tU5fm">
-          <ref role="3uigEE" to="apzt:18UigYOOPKz" resolve="IMetaAdapterByDeclarationHelper" />
-        </node>
-        <node concept="2AHcQZ" id="18UigYOPOqc" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -5726,103 +5661,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="18UigYONEOf" role="3cqZAp" />
-            <node concept="1X3_iC" id="18UigYOUSl4" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3cpWs8" id="18UigYONXxU" role="8Wnug">
-                <node concept="3cpWsn" id="18UigYONXxV" role="3cpWs9">
-                  <property role="TrG5h" value="cont" />
-                  <node concept="3uibUv" id="18UigYONWYz" role="1tU5fm">
-                    <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-                  </node>
-                  <node concept="1rXfSq" id="18UigYONXxW" role="33vP2m">
-                    <ref role="37wK5l" node="A9P4gGNKdF" resolve="lookupContainment" />
-                    <node concept="37vLTw" id="18UigYONXxX" role="37wK5m">
-                      <ref role="3cqZAo" node="A9P4gGNKdX" resolve="classifier" />
-                    </node>
-                    <node concept="37vLTw" id="18UigYONXxY" role="37wK5m">
-                      <ref role="3cqZAo" node="A9P4gGOSem" resolve="conceptNode" />
-                    </node>
-                    <node concept="2ShNRf" id="18UigYONXxZ" role="37wK5m">
-                      <node concept="1pGfFk" id="18UigYONXy0" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~SerializedContainmentValue.&lt;init&gt;(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="SerializedContainmentValue" />
-                        <node concept="37vLTw" id="18UigYONXy1" role="37wK5m">
-                          <ref role="3cqZAo" node="A9P4gGOPUf" resolve="metaPointer" />
-                        </node>
-                        <node concept="2YIFZM" id="18UigYONXy2" role="37wK5m">
-                          <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
-                          <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                          <node concept="3uibUv" id="18UigYONXy3" role="3PaCim">
-                            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="18UigYOUSl5" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbJ" id="18UigYONZcd" role="8Wnug">
-                <node concept="3clFbS" id="18UigYONZcf" role="3clFbx">
-                  <node concept="3cpWs8" id="18UigYOOhhj" role="3cqZAp">
-                    <node concept="3cpWsn" id="18UigYOOhhk" role="3cpWs9">
-                      <property role="TrG5h" value="smartTarget" />
-                      <node concept="3Tqbb2" id="18UigYOOctS" role="1tU5fm">
-                        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-                      </node>
-                      <node concept="2OqwBi" id="18UigYOOhhl" role="33vP2m">
-                        <node concept="37vLTw" id="18UigYOOhhm" role="2Oq$k0">
-                          <ref role="3cqZAo" node="18UigYOO3Ww" resolve="attributeFinder" />
-                        </node>
-                        <node concept="liA8E" id="18UigYOOhhn" role="2OqNvi">
-                          <ref role="37wK5l" to="y7p:5AGBwuFkotB" resolve="extractSmartTarget" />
-                          <node concept="37vLTw" id="18UigYOOtpc" role="37wK5m">
-                            <ref role="3cqZAo" node="18UigYONXxV" resolve="cont" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbJ" id="18UigYOPVKL" role="3cqZAp">
-                    <node concept="3clFbS" id="18UigYOPVKN" role="3clFbx">
-                      <node concept="3cpWs6" id="18UigYOO8T5" role="3cqZAp">
-                        <node concept="2OqwBi" id="18UigYOPRZ2" role="3cqZAk">
-                          <node concept="37vLTw" id="18UigYOPRfD" role="2Oq$k0">
-                            <ref role="3cqZAo" node="18UigYOPOMX" resolve="metaAdapterByDeclarationHelper" />
-                          </node>
-                          <node concept="liA8E" id="18UigYOPT52" role="2OqNvi">
-                            <ref role="37wK5l" to="apzt:18UigYOPtN3" resolve="getReferenceLink" />
-                            <node concept="37vLTw" id="18UigYOPTYP" role="37wK5m">
-                              <ref role="3cqZAo" node="18UigYOOhhk" resolve="smartTarget" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3y3z36" id="18UigYOPXBJ" role="3clFbw">
-                      <node concept="10Nm6u" id="18UigYOPYro" role="3uHU7w" />
-                      <node concept="37vLTw" id="18UigYOPWyB" role="3uHU7B">
-                        <ref role="3cqZAo" node="18UigYOOhhk" resolve="smartTarget" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="18UigYOO6jk" role="3clFbw">
-                  <node concept="37vLTw" id="18UigYOO5n9" role="2Oq$k0">
-                    <ref role="3cqZAo" node="18UigYOO3Ww" resolve="attributeFinder" />
-                  </node>
-                  <node concept="liA8E" id="18UigYOO7fy" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:5AGBwuFdyB_" resolve="isSmartReferenceLink" />
-                    <node concept="37vLTw" id="18UigYOO7TW" role="37wK5m">
-                      <ref role="3cqZAo" node="18UigYONXxV" resolve="cont" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="YS8fn" id="A9P4gGOPUz" role="3cqZAp">
               <node concept="2ShNRf" id="A9P4gGOPU$" role="YScLw">
                 <node concept="1pGfFk" id="A9P4gGOPU_" role="2ShVmc">
