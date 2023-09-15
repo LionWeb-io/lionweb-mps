@@ -1172,13 +1172,74 @@
         </node>
         <node concept="3cpWs8" id="2qVVyx0HbtJ" role="3cqZAp">
           <node concept="3cpWsn" id="2qVVyx0HbtK" role="3cpWs9">
-            <property role="TrG5h" value="metaAdapterFactoryHelper" />
+            <property role="TrG5h" value="metaAdapterFactoryModifier" />
             <node concept="3uibUv" id="2qVVyx0HaIN" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingMetaAdapterFactoryHelper" />
+              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
             </node>
             <node concept="2ShNRf" id="2qVVyx0HbtL" role="33vP2m">
               <node concept="1pGfFk" id="A9P4gGBorz" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
+                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryModifier" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9pospS39z" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospS39$" role="3cpWs9">
+            <property role="TrG5h" value="lionCoreKeyMapper" />
+            <node concept="3uibUv" id="4R9pospS0yx" role="1tU5fm">
+              <ref role="3uigEE" to="t47h:5M3rB6AY2W3" resolve="ALionCoreKeyMapper" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospS39_" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospS39A" role="2ShVmc">
+                <ref role="37wK5l" to="t47h:5M3rB6Ax$oV" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9pospS5TD" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospS5TE" role="3cpWs9">
+            <property role="TrG5h" value="attributeFinder" />
+            <node concept="3uibUv" id="4R9pospS5K_" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospS5TF" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospS5TG" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <node concept="37vLTw" id="4R9pospS5TH" role="37wK5m">
+                  <ref role="3cqZAo" node="3LWE6BDyr_P" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="4R9pospS5TI" role="37wK5m">
+                  <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9pospS7r1" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospS7r2" role="3cpWs9">
+            <property role="TrG5h" value="mpsKeyMapper" />
+            <node concept="3uibUv" id="4R9pospS7i4" role="1tU5fm">
+              <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsKeyMapper" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospS7r3" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospS7r4" role="2ShVmc">
+                <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageIdMapper" />
+                <node concept="37vLTw" id="4R9pospS7r5" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9pospS5TE" resolve="attributeFinder" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9pospSlUB" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospSlUC" role="3cpWs9">
+            <property role="TrG5h" value="languageLookup" />
+            <node concept="3uibUv" id="4R9pospSlN7" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:4R9pospH1E7" resolve="ILanguageLookup" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospSlUD" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospSlUE" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:4R9pospHc55" resolve="LanguageLookup" />
               </node>
             </node>
           </node>
@@ -1187,37 +1248,25 @@
           <node concept="3cpWsn" id="1apSfP9MIg8" role="3cpWs9">
             <property role="TrG5h" value="installedLanguageLookup" />
             <node concept="3uibUv" id="1apSfP9MIdZ" role="1tU5fm">
-              <ref role="3uigEE" to="dydc:3ePT3MiTARf" resolve="InstalledLanguageLookup" />
+              <ref role="3uigEE" to="dydc:3ePT3MiTARf" resolve="InstalledLanguageCreator" />
             </node>
             <node concept="2ShNRf" id="1apSfP9MIg9" role="33vP2m">
               <node concept="1pGfFk" id="1apSfP9MIga" role="2ShVmc">
-                <ref role="37wK5l" to="dydc:59Df55lbkhY" resolve="InstalledLanguageLookup" />
+                <ref role="37wK5l" to="dydc:59Df55lbkhY" resolve="InstalledLanguageCreator" />
                 <node concept="37vLTw" id="1apSfP9MIgb" role="37wK5m">
                   <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
                 </node>
                 <node concept="37vLTw" id="2qVVyx0HbtN" role="37wK5m">
-                  <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="metaAdapterFactoryHelper" />
+                  <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="metaAdapterFactoryModifier" />
                 </node>
-                <node concept="2ShNRf" id="1apSfP9MIge" role="37wK5m">
-                  <node concept="1pGfFk" id="5M3rB6BamOM" role="2ShVmc">
-                    <ref role="37wK5l" to="t47h:5M3rB6Ax$oV" resolve="LionCoreMpsCompatibleLanguageIdMapper" />
-                  </node>
+                <node concept="37vLTw" id="4R9pospS39B" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9pospS39$" resolve="lionCoreKeyMapper" />
                 </node>
-                <node concept="2ShNRf" id="1apSfP9MIgg" role="37wK5m">
-                  <node concept="1pGfFk" id="5M3rB6BanGE" role="2ShVmc">
-                    <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageIdMapper" />
-                    <node concept="2ShNRf" id="5M3rB6BanGC" role="37wK5m">
-                      <node concept="1pGfFk" id="5M3rB6BaEK6" role="2ShVmc">
-                        <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
-                        <node concept="37vLTw" id="5M3rB6BaFHp" role="37wK5m">
-                          <ref role="3cqZAo" node="3LWE6BDyr_P" resolve="repository" />
-                        </node>
-                        <node concept="37vLTw" id="5M3rB6BiMfm" role="37wK5m">
-                          <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="4R9pospS7r6" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9pospS7r2" resolve="mpsKeyMapper" />
+                </node>
+                <node concept="37vLTw" id="4R9pospSlUF" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9pospSlUC" resolve="languageLookup" />
                 </node>
               </node>
             </node>
@@ -1341,7 +1390,7 @@
                     <node concept="liA8E" id="2qVVyx0Hh2H" role="2OqNvi">
                       <ref role="37wK5l" to="dydc:2qVVyx0Hfuo" resolve="establishDependencies" />
                       <node concept="37vLTw" id="2qVVyx0HhuG" role="37wK5m">
-                        <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="metaAdapterFactoryHelper" />
+                        <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="metaAdapterFactoryModifier" />
                       </node>
                     </node>
                   </node>

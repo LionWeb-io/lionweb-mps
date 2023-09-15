@@ -1511,9 +1511,9 @@
             </node>
             <node concept="3cpWs8" id="5M3rB6BZyBF" role="3cqZAp">
               <node concept="3cpWsn" id="5M3rB6BZyBG" role="3cpWs9">
-                <property role="TrG5h" value="mapper" />
+                <property role="TrG5h" value="jsonKeyMapper" />
                 <node concept="3uibUv" id="5M3rB6BZyt0" role="1tU5fm">
-                  <ref role="3uigEE" to="j5yh:5GtAzeJzX5t" resolve="JsonMpsCompatibleLanguageIdMapper" />
+                  <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
                 </node>
                 <node concept="2ShNRf" id="5M3rB6BZyBH" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6BZyBI" role="2ShVmc">
@@ -1576,11 +1576,11 @@
                           <node concept="1pGfFk" id="3Lj28wlK2cR" role="2ShVmc">
                             <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
                             <node concept="37vLTw" id="5M3rB6BZyBJ" role="37wK5m">
-                              <ref role="3cqZAo" node="5M3rB6BZyBG" resolve="mapper" />
+                              <ref role="3cqZAo" node="5M3rB6BZyBG" resolve="jsonKeyMapper" />
                             </node>
                             <node concept="2ShNRf" id="A9P4gGxVmt" role="37wK5m">
-                              <node concept="1pGfFk" id="A9P4gGxVJV" role="2ShVmc">
-                                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
+                              <node concept="HV5vD" id="4R9pospMuFc" role="2ShVmc">
+                                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
                               </node>
                             </node>
                             <node concept="2ShNRf" id="3Lj28wlK2BC" role="37wK5m">
@@ -1589,6 +1589,12 @@
                               </node>
                             </node>
                           </node>
+                        </node>
+                        <node concept="37vLTw" id="4R9pospd0c8" role="37wK5m">
+                          <ref role="3cqZAo" node="5M3rB6BZyBG" resolve="jsonKeyMapper" />
+                        </node>
+                        <node concept="37vLTw" id="4R9pospd0rz" role="37wK5m">
+                          <ref role="3cqZAo" node="5M3rB6BZ$9x" resolve="constants" />
                         </node>
                       </node>
                     </node>

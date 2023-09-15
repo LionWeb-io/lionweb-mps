@@ -1633,6 +1633,9 @@
             <node concept="2ShNRf" id="39$JcGFpujw" role="2Oq$k0">
               <node concept="1pGfFk" id="39$JcGFpCSt" role="2ShVmc">
                 <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <node concept="37vLTw" id="24j7TNHeDQH" role="37wK5m">
+                  <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
+                </node>
                 <node concept="2ShNRf" id="39$JcGFpHej" role="37wK5m">
                   <node concept="2HTt$P" id="39$JcGFpKF6" role="2ShVmc">
                     <node concept="3uibUv" id="39$JcGFpNq8" role="2HTBi0">
@@ -1646,7 +1649,7 @@
               </node>
             </node>
             <node concept="liA8E" id="39$JcGFq8Rp" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:4pht$Xswp4H" resolve="allExtendedLanguages" />
+              <ref role="37wK5l" to="apzt:24j7TNH5GN0" resolve="lwExtendedLanguages" />
             </node>
           </node>
         </node>

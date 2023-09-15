@@ -20,16 +20,11 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
-    <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
-    <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
-    <import index="lai5" ref="r:42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0(io.lionweb.mps.json.instance.mps2lionweb)" />
-    <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="2tb6" ref="r:300426b0-cf40-47a1-9706-260afc20aaf9(io.lionweb.mps.client.connector.api)" />
     <import index="pwbt" ref="r:1aa38865-6d90-41bb-86e8-c2acb8fc829b(io.lionweb.mps.client.connector.impl)" />
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
-    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
   </imports>
   <registry>
@@ -221,6 +216,10 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
@@ -1575,103 +1574,19 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="4n8SsXjtv1O" role="3cqZAp">
-          <node concept="3cpWsn" id="4n8SsXjtv1P" role="3cpWs9">
-            <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="4n8SsXjtuMX" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
-            <node concept="2ShNRf" id="4n8SsXjtv1Q" role="33vP2m">
-              <node concept="1pGfFk" id="4n8SsXjtv1R" role="2ShVmc">
-                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="37vLTw" id="4n8SsXjtv1S" role="37wK5m">
-                  <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4n8SsXjtvum" role="3cqZAp">
-          <node concept="3cpWsn" id="4n8SsXjtvun" role="3cpWs9">
-            <property role="TrG5h" value="attributeFinder" />
-            <node concept="3uibUv" id="4n8SsXjtvj6" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
-            </node>
-            <node concept="2ShNRf" id="4n8SsXjtvuo" role="33vP2m">
-              <node concept="1pGfFk" id="4n8SsXjtvup" role="2ShVmc">
-                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
-                <node concept="37vLTw" id="4n8SsXjtvuq" role="37wK5m">
-                  <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
-                </node>
-                <node concept="37vLTw" id="4n8SsXjtvur" role="37wK5m">
-                  <ref role="3cqZAo" node="4n8SsXjtv1P" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="7jdzMamei2x" role="3cqZAp">
-          <node concept="3cpWsn" id="7jdzMamei2y" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerLookup" />
-            <node concept="3uibUv" id="7jdzMamehXH" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
-            </node>
-            <node concept="2ShNRf" id="7jdzMamei2z" role="33vP2m">
-              <node concept="1pGfFk" id="6lVb1tfRd$v" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
-                <node concept="2ShNRf" id="6lVb1tfRdQi" role="37wK5m">
-                  <node concept="1pGfFk" id="7jdzMamei2$" role="2ShVmc">
-                    <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
-                    <node concept="37vLTw" id="4n8SsXjtvus" role="37wK5m">
-                      <ref role="3cqZAo" node="4n8SsXjtvun" resolve="attributeFinder" />
-                    </node>
-                    <node concept="2ShNRf" id="3Lj28wlE9gO" role="37wK5m">
-                      <node concept="1pGfFk" id="3Lj28wlE9ZR" role="2ShVmc">
-                        <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
-                        <node concept="2ShNRf" id="7jdzMamei2_" role="37wK5m">
-                          <node concept="1pGfFk" id="5M3rB6Bclni" role="2ShVmc">
-                            <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
-                            <node concept="37vLTw" id="4n8SsXjtxDR" role="37wK5m">
-                              <ref role="3cqZAo" node="4n8SsXjtv1P" resolve="constants" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="2ShNRf" id="A9P4gGxRYK" role="37wK5m">
-                          <node concept="1pGfFk" id="A9P4gGxSJP" role="2ShVmc">
-                            <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingMetaAdapterFactoryHelper" />
-                          </node>
-                        </node>
-                        <node concept="2ShNRf" id="3Lj28wlEc4h" role="37wK5m">
-                          <node concept="HV5vD" id="3Lj28wlEcNj" role="2ShVmc">
-                            <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="7jdzMamel$g" role="3cqZAp">
-          <node concept="3cpWsn" id="7jdzMamel$h" role="3cpWs9">
+        <node concept="3cpWs8" id="4R9pospDS7J" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospDS7K" role="3cpWs9">
             <property role="TrG5h" value="converter" />
-            <node concept="3uibUv" id="7jdzMamelvd" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:2fx6VTREYA7" resolve="LionWeb2MpsConverter" />
+            <node concept="3uibUv" id="4R9pospDRUP" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:4R9posp5N7h" resolve="JsonToM1" />
             </node>
-            <node concept="2ShNRf" id="7jdzMamel$i" role="33vP2m">
-              <node concept="1pGfFk" id="7jdzMamel$j" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:2fx6VTRFgWC" resolve="LionWeb2MpsConverter" />
-                <node concept="37vLTw" id="7jdzMamel$k" role="37wK5m">
-                  <ref role="3cqZAo" node="7jdzMamei2y" resolve="metaPointerLookup" />
+            <node concept="2ShNRf" id="4R9pospDS7L" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospDS7M" role="2ShVmc">
+                <ref role="37wK5l" to="6peh:4R9posp5Osb" resolve="JsonToM1" />
+                <node concept="37vLTw" id="4R9pospDS7N" role="37wK5m">
+                  <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
                 </node>
-                <node concept="2ShNRf" id="6lVb1tfReDo" role="37wK5m">
-                  <node concept="HV5vD" id="6lVb1tfRfjS" role="2ShVmc">
-                    <ref role="HV5vE" to="pe0e:A9P4gGN7be" resolve="NodeIdCreator" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="7jdzMamel$l" role="37wK5m">
+                <node concept="37vLTw" id="4R9pospDS7O" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMamdPlM" resolve="jsonNodes" />
                 </node>
               </node>
@@ -1689,16 +1604,24 @@
             <node concept="2OqwBi" id="QE1$MycMK6" role="33vP2m">
               <node concept="2OqwBi" id="7jdzMamem_Q" role="2Oq$k0">
                 <node concept="37vLTw" id="7jdzMamem_R" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7jdzMamel$h" resolve="converter" />
+                  <ref role="3cqZAo" node="4R9pospDS7K" resolve="converter" />
                 </node>
                 <node concept="liA8E" id="7jdzMamem_S" role="2OqNvi">
-                  <ref role="37wK5l" to="pe0e:2fx6VTSt4c7" resolve="convert" />
+                  <ref role="37wK5l" to="6peh:4R9posp5P6F" resolve="convert" />
                 </node>
               </node>
               <node concept="3zZkjj" id="QE1$MycNfE" role="2OqNvi">
                 <node concept="1bVj0M" id="QE1$MycNfG" role="23t8la">
                   <node concept="3clFbS" id="QE1$MycNfH" role="1bW5cS">
                     <node concept="3clFbF" id="QE1$MycNBb" role="3cqZAp">
+                      <node concept="15s5l7" id="4R9posq0D3j" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  getParent():SNode (baseMethodDeclaration) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;baseMethodDeclaration&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)/6836281137582643899]&quot;;" />
+                        <property role="huDt6" value="The reference  getParent():SNode (baseMethodDeclaration) is out of search scope" />
+                      </node>
+                      <node concept="15s5l7" id="4R9posq0CES" role="lGtFl">
+                        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type node&lt;&gt; is not a strong subtype of org.jetbrains.mps.openapi.model.SNode&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1204065906120]&quot;;" />
+                        <property role="huDt6" value="Error: type node&lt;&gt; is not a strong subtype of org.jetbrains.mps.openapi.model.SNode" />
+                      </node>
                       <node concept="3clFbC" id="QE1$MycOLX" role="3clFbG">
                         <node concept="10Nm6u" id="QE1$MycPcX" role="3uHU7w" />
                         <node concept="2OqwBi" id="QE1$MycNZ7" role="3uHU7B">

@@ -606,6 +606,14 @@
         <ref role="3uigEE" to="e8bb:~SLanguageId" resolve="SLanguageId" />
       </node>
     </node>
+    <node concept="312cEg" id="4R9posq8YbX" role="jymVt">
+      <property role="TrG5h" value="SLANG_M3_LANGUAGE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="4R9posq8YbY" role="1B3o_S" />
+      <node concept="3uibUv" id="4R9posq8YbZ" role="1tU5fm">
+        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+      </node>
+    </node>
     <node concept="312cEg" id="5AGBwuFF_qd" role="jymVt">
       <property role="TrG5h" value="KEY_M3_LANGUAGE" />
       <property role="3TUv4t" value="true" />
@@ -625,6 +633,14 @@
       <node concept="17QB3L" id="1ryFPTS4Xtj" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="5AGBwuFFBkK" role="jymVt" />
+    <node concept="312cEg" id="4R9posq8ZVS" role="jymVt">
+      <property role="TrG5h" value="SLANG_CORE_LANGUAGE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="4R9posq8ZVT" role="1B3o_S" />
+      <node concept="3uibUv" id="4R9posq8ZVU" role="1tU5fm">
+        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+      </node>
+    </node>
     <node concept="312cEg" id="5AGBwuFFuSI" role="jymVt">
       <property role="TrG5h" value="SLANG_CORE_LANGUAGE_ID" />
       <property role="3TUv4t" value="true" />
@@ -1018,15 +1034,25 @@
           </node>
         </node>
         <node concept="3clFbH" id="48csSBPf5lN" role="3cqZAp" />
+        <node concept="3clFbF" id="4R9posq94$I" role="3cqZAp">
+          <node concept="37vLTI" id="4R9posq95QV" role="3clFbG">
+            <node concept="37vLTw" id="4R9posq94$G" role="37vLTJ">
+              <ref role="3cqZAo" node="4R9posq8YbX" resolve="SLANG_M3_LANGUAGE" />
+            </node>
+            <node concept="pHN19" id="39$JcGG9DVE" role="37vLTx">
+              <node concept="2V$Bhx" id="39$JcGG9E4U" role="2V$M_3">
+                <property role="2V$B1T" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
+                <property role="2V$B1Q" value="io.lionweb.mps.m3" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5AGBwuFFoHi" role="3cqZAp">
           <node concept="37vLTI" id="5AGBwuFFoHk" role="3clFbG">
             <node concept="1rXfSq" id="39$JcGG9DBC" role="37vLTx">
               <ref role="37wK5l" node="39$JcGG9B65" resolve="extractLanguageId" />
-              <node concept="pHN19" id="39$JcGG9DVE" role="37wK5m">
-                <node concept="2V$Bhx" id="39$JcGG9E4U" role="2V$M_3">
-                  <property role="2V$B1T" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
-                  <property role="2V$B1Q" value="io.lionweb.mps.m3" />
-                </node>
+              <node concept="37vLTw" id="4R9posq98Oc" role="37wK5m">
+                <ref role="3cqZAo" node="4R9posq8YbX" resolve="SLANG_M3_LANGUAGE" />
               </node>
             </node>
             <node concept="37vLTw" id="5AGBwuFFoHo" role="37vLTJ">
@@ -1150,15 +1176,25 @@
           </node>
         </node>
         <node concept="3clFbH" id="5AGBwuFFGHW" role="3cqZAp" />
+        <node concept="3clFbF" id="4R9posq9bae" role="3cqZAp">
+          <node concept="37vLTI" id="4R9posq9cvN" role="3clFbG">
+            <node concept="37vLTw" id="4R9posq9bac" role="37vLTJ">
+              <ref role="3cqZAo" node="4R9posq8ZVS" resolve="SLANG_CORE_LANGUAGE" />
+            </node>
+            <node concept="pHN19" id="4R9posq9dBl" role="37vLTx">
+              <node concept="2V$Bhx" id="4R9posq9dBm" role="2V$M_3">
+                <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
+                <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5AGBwuFFtUH" role="3cqZAp">
           <node concept="37vLTI" id="5AGBwuFFtUJ" role="3clFbG">
             <node concept="1rXfSq" id="39$JcGG9EyD" role="37vLTx">
               <ref role="37wK5l" node="39$JcGG9B65" resolve="extractLanguageId" />
-              <node concept="pHN19" id="39$JcGG9EyE" role="37wK5m">
-                <node concept="2V$Bhx" id="39$JcGG9EMK" role="2V$M_3">
-                  <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
-                </node>
+              <node concept="37vLTw" id="4R9posq9fO1" role="37wK5m">
+                <ref role="3cqZAo" node="4R9posq8ZVS" resolve="SLANG_CORE_LANGUAGE" />
               </node>
             </node>
             <node concept="37vLTw" id="5AGBwuFFtUN" role="37vLTJ">
@@ -2127,6 +2163,32 @@
       </node>
     </node>
     <node concept="2tJIrI" id="39$JcGFCahl" role="jymVt" />
+    <node concept="3clFb_" id="4R9posq8Wle" role="jymVt">
+      <property role="TrG5h" value="listSLanguages" />
+      <node concept="3clFbS" id="4R9posq8Wlh" role="3clF47">
+        <node concept="3clFbF" id="4R9posq9oSq" role="3cqZAp">
+          <node concept="2ShNRf" id="4R9posq9oSo" role="3clFbG">
+            <node concept="Tc6Ow" id="4R9posq9qnU" role="2ShVmc">
+              <node concept="3uibUv" id="4R9posq9sMb" role="HW$YZ">
+                <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+              </node>
+              <node concept="37vLTw" id="4R9posq9vjY" role="HW$Y0">
+                <ref role="3cqZAo" node="4R9posq8YbX" resolve="SLANG_M3_LANGUAGE" />
+              </node>
+              <node concept="37vLTw" id="4R9posq9yc2" role="HW$Y0">
+                <ref role="3cqZAo" node="4R9posq8ZVS" resolve="SLANG_CORE_LANGUAGE" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4R9posq8UE1" role="1B3o_S" />
+      <node concept="_YKpA" id="4R9posq8Wgv" role="3clF45">
+        <node concept="3uibUv" id="4R9posq8Wh5" role="_ZDj9">
+          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="39$JcGFCaKW" role="jymVt">
       <property role="TrG5h" value="listSLanguagePrimitiveTypes" />
       <node concept="3clFbS" id="39$JcGFCaKZ" role="3clF47">
@@ -2136,17 +2198,14 @@
               <node concept="3uibUv" id="39$JcGFCdyU" role="HW$YZ">
                 <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
               </node>
-              <node concept="10M0yZ" id="39$JcGFClgy" role="HW$Y0">
-                <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.BOOLEAN" resolve="BOOLEAN" />
-                <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+              <node concept="37vLTw" id="4R9posq9hW6" role="HW$Y0">
+                <ref role="3cqZAo" node="39$JcGGWAx4" resolve="SLANG_BOOLEAN_TYPE" />
               </node>
-              <node concept="10M0yZ" id="39$JcGFCls8" role="HW$Y0">
-                <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.INTEGER" resolve="INTEGER" />
-                <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+              <node concept="37vLTw" id="4R9posq9kMD" role="HW$Y0">
+                <ref role="3cqZAo" node="39$JcGGWu$v" resolve="SLANG_INTEGER_TYPE" />
               </node>
-              <node concept="10M0yZ" id="39$JcGFClBA" role="HW$Y0">
-                <ref role="3cqZAo" to="xx25:~SPrimitiveTypes.STRING" resolve="STRING" />
-                <ref role="1PxDUh" to="xx25:~SPrimitiveTypes" resolve="SPrimitiveTypes" />
+              <node concept="37vLTw" id="4R9posq9nqz" role="HW$Y0">
+                <ref role="3cqZAo" node="39$JcGGWFCK" resolve="SLANG_STRING_TYPE" />
               </node>
               <node concept="37vLTw" id="39$JcGFEBzM" role="HW$Y0">
                 <ref role="3cqZAo" node="39$JcGFCmtL" resolve="SLANG_JSON_TYPE" />

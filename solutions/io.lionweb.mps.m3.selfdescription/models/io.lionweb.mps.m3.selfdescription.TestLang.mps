@@ -84,7 +84,7 @@
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
       <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.ILanguageReferenceContainer" flags="ng" index="2P3sN0">
-        <child id="755186209566487256" name="metamodels" index="1a0gs3" />
+        <child id="755186209566487256" name="languages" index="1a0gs3" />
       </concept>
       <concept id="8551466651976015093" name="io.lionweb.mps.converter.lang.structure.ExportLanguageToJson" flags="ng" index="2P3vlD" />
       <concept id="4759305942578991535" name="io.lionweb.mps.converter.lang.structure.TestContainer" flags="ng" index="2QRY8A">

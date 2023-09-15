@@ -2953,6 +2953,112 @@
             <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
           </node>
         </node>
+        <node concept="2RzPWn" id="4R9pospkPwF" role="2RzR6B">
+          <property role="2RzON1" value="My-Test2ConceptKeyed" />
+          <property role="TrG5h" value="Test2ConceptKeyed" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="4R9pospBFPK" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA0OA" />
+            <property role="TrG5h" value="propUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospBFlx" resolve="Test2EnumUnkeyed" />
+          </node>
+          <node concept="2RzOeU" id="4R9pospBFRc" role="2RzPPN">
+            <property role="2RzON1" value="My-KeyedProp" />
+            <property role="TrG5h" value="propKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospBFe0" resolve="Test2EnumKeyed" />
+          </node>
+          <node concept="2RzOte" id="4R9pospkQOm" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE1ODc0MjkzMw" />
+            <property role="TrG5h" value="childUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOte" id="4R9pospkQOs" role="2RzPPN">
+            <property role="2RzON1" value="My-KeyedChild" />
+            <property role="TrG5h" value="childKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospBFRn" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA1NQ" />
+            <property role="TrG5h" value="refUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospBFRu" role="2RzPPN">
+            <property role="2RzON1" value="My-KeyedRef" />
+            <property role="TrG5h" value="refKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="4R9pospkQOy" role="2RzR6B">
+          <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODA" />
+          <property role="TrG5h" value="Test2ConceptUnkeyed" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="4R9pospBFR_" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA2OA" />
+            <property role="TrG5h" value="propUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospBFlx" resolve="Test2EnumUnkeyed" />
+          </node>
+          <node concept="2RzOeU" id="4R9pospBFRA" role="2RzPPN">
+            <property role="2RzON1" value="My-UnkeyedProp" />
+            <property role="TrG5h" value="propKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospBFe0" resolve="Test2EnumKeyed" />
+          </node>
+          <node concept="2RzOte" id="4R9pospkQOz" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE1ODc4MDI4MQ" />
+            <property role="TrG5h" value="childUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOte" id="4R9pospkQO$" role="2RzPPN">
+            <property role="2RzON1" value="My-UnkeyedChild" />
+            <property role="TrG5h" value="childKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospBFRF" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA3NA" />
+            <property role="TrG5h" value="refUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospBFRG" role="2RzPPN">
+            <property role="2RzON1" value="My-UnkeyedRef" />
+            <property role="TrG5h" value="refKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="4R9pospBFe0" role="2RzR6B">
+          <property role="2RzON1" value="My-Enum3" />
+          <property role="TrG5h" value="Test2EnumKeyed" />
+          <node concept="2RzSPr" id="4R9pospBFk5" role="2RzSVc">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNjM4NjMwMTkvNTYwNTEyMjg0MjE2Mzg2MzAyMA" />
+            <property role="TrG5h" value="unkeyed" />
+          </node>
+          <node concept="2RzSPr" id="4R9pospBFk2" role="2RzSVc">
+            <property role="2RzON1" value="My-EnumLiteralKeyed" />
+            <property role="TrG5h" value="keyed" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="4R9pospBFlx" role="2RzR6B">
+          <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNjM4NjMwMTI" />
+          <property role="TrG5h" value="Test2EnumUnkeyed" />
+          <node concept="2RzSPr" id="4R9pospBFly" role="2RzSVc">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNjM4NjMwMTIvNTYwNTEyMjg0MjE2Mzg2MzAxMw" />
+            <property role="TrG5h" value="unkeyed" />
+          </node>
+          <node concept="2RzSPr" id="4R9pospBFlz" role="2RzSVc">
+            <property role="2RzON1" value="My-EnumLiteralUnkeyed" />
+            <property role="TrG5h" value="keyed" />
+          </node>
+        </node>
         <node concept="3xLA65" id="39$JcGH6ECd" role="lGtFl">
           <property role="TrG5h" value="expected" />
         </node>
@@ -3287,6 +3393,112 @@
           <node concept="2RzSPr" id="39$JcGH7B7T" role="2RzSVc">
             <property role="TrG5h" value="TestLiteral3" />
             <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="4R9pospC3H0" role="2RzR6B">
+          <property role="2RzON1" value="My-Test2ConceptKeyed" />
+          <property role="TrG5h" value="Test2ConceptKeyed" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="4R9pospC3H1" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA0OA" />
+            <property role="TrG5h" value="propUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospC3Hh" resolve="Test2EnumUnkeyed" />
+          </node>
+          <node concept="2RzOeU" id="4R9pospC3H2" role="2RzPPN">
+            <property role="2RzON1" value="My-KeyedProp" />
+            <property role="TrG5h" value="propKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospC3He" resolve="Test2EnumKeyed" />
+          </node>
+          <node concept="2RzOte" id="4R9pospC3H3" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE1ODc0MjkzMw" />
+            <property role="TrG5h" value="childUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOte" id="4R9pospC3H4" role="2RzPPN">
+            <property role="2RzON1" value="My-KeyedChild" />
+            <property role="TrG5h" value="childKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospC3H5" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA1NQ" />
+            <property role="TrG5h" value="refUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospC3H6" role="2RzPPN">
+            <property role="2RzON1" value="My-KeyedRef" />
+            <property role="TrG5h" value="refKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="4R9pospC3H7" role="2RzR6B">
+          <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODA" />
+          <property role="TrG5h" value="Test2ConceptUnkeyed" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="4R9pospC3H8" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA2OA" />
+            <property role="TrG5h" value="propUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospC3Hh" resolve="Test2EnumUnkeyed" />
+          </node>
+          <node concept="2RzOeU" id="4R9pospC3H9" role="2RzPPN">
+            <property role="2RzON1" value="My-UnkeyedProp" />
+            <property role="TrG5h" value="propKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="4R9pospC3He" resolve="Test2EnumKeyed" />
+          </node>
+          <node concept="2RzOte" id="4R9pospC3Ha" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE1ODc4MDI4MQ" />
+            <property role="TrG5h" value="childUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOte" id="4R9pospC3Hb" role="2RzPPN">
+            <property role="2RzON1" value="My-UnkeyedChild" />
+            <property role="TrG5h" value="childKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospC3Hc" role="2RzPPN">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA3NA" />
+            <property role="TrG5h" value="refUnkeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+          <node concept="2RzOpR" id="4R9pospC3Hd" role="2RzPPN">
+            <property role="2RzON1" value="My-UnkeyedRef" />
+            <property role="TrG5h" value="refKeyed" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="4R9pospC3He" role="2RzR6B">
+          <property role="2RzON1" value="My-Enum3" />
+          <property role="TrG5h" value="Test2EnumKeyed" />
+          <node concept="2RzSPr" id="4R9pospC3Hf" role="2RzSVc">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNjM4NjMwMTkvNTYwNTEyMjg0MjE2Mzg2MzAyMA" />
+            <property role="TrG5h" value="unkeyed" />
+          </node>
+          <node concept="2RzSPr" id="4R9pospC3Hg" role="2RzSVc">
+            <property role="2RzON1" value="My-EnumLiteralKeyed" />
+            <property role="TrG5h" value="keyed" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="4R9pospC3Hh" role="2RzR6B">
+          <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNjM4NjMwMTI" />
+          <property role="TrG5h" value="Test2EnumUnkeyed" />
+          <node concept="2RzSPr" id="4R9pospC3Hi" role="2RzSVc">
+            <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzU2MDUxMjI4NDIxNjM4NjMwMTIvNTYwNTEyMjg0MjE2Mzg2MzAxMw" />
+            <property role="TrG5h" value="unkeyed" />
+          </node>
+          <node concept="2RzSPr" id="4R9pospC3Hj" role="2RzSVc">
+            <property role="2RzON1" value="My-EnumLiteralUnkeyed" />
+            <property role="TrG5h" value="keyed" />
           </node>
         </node>
         <node concept="3xLA65" id="39$JcGH7B7U" role="lGtFl">

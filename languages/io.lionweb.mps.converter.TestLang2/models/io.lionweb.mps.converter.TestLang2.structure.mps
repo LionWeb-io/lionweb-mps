@@ -2,6 +2,7 @@
 <model ref="r:33291a1d-c068-4dee-af5a-78a18bef2859(io.lionweb.mps.converter.TestLang2.structure)">
   <persistence version="9" />
   <languages>
+    <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -51,9 +52,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute">
+      <concept id="7205279169712116353" name="io.lionweb.mps.structure.attribute.structure.ILionWebKey" flags="ng" index="2DM1AV">
+        <property id="7205279169712116354" name="key" index="2DM1AS" />
+      </concept>
+      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LIonWebEntityKey" flags="ng" index="2DM1AW" />
     </language>
   </registry>
   <node concept="1TIwiD" id="2fx6VTSSzMg">
@@ -238,6 +248,134 @@
     <ref role="1TJDcQ" node="2fx6VTSS_Jq" resolve="TestConceptExtends1" />
     <node concept="PrWs8" id="2fx6VTSSCRd" role="PzmwI">
       <ref role="PrY4T" node="2fx6VTSSADZ" resolve="TestInterfaceExtends2" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4R9pospjbQk">
+    <property role="EcuMT" value="5605122842158742932" />
+    <property role="TrG5h" value="Test2ConceptKeyed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4R9pospAGqv" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842163857055" />
+      <property role="20kJfa" value="refUnkeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="4R9pospAGq$" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842163857060" />
+      <property role="20kJfa" value="refKeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="2DM1AW" id="4R9pospAGqE" role="lGtFl">
+        <property role="2DM1AS" value="My-KeyedRef" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="4R9pospAGqo" role="1TKVEl">
+      <property role="IQ2nx" value="5605122842163857048" />
+      <property role="TrG5h" value="propUnkeyed" />
+      <ref role="AX2Wp" node="4R9pospAHR$" resolve="Test2EnumUnkeyed" />
+    </node>
+    <node concept="1TJgyi" id="4R9pospAGqq" role="1TKVEl">
+      <property role="IQ2nx" value="5605122842163857050" />
+      <property role="TrG5h" value="propKeyed" />
+      <ref role="AX2Wp" node="4R9pospAHRF" resolve="Test2EnumKeyed" />
+      <node concept="2DM1AW" id="4R9pospAGqt" role="lGtFl">
+        <property role="2DM1AS" value="My-KeyedProp" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="4R9pospjbQl" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842158742933" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childUnkeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="4R9pospjbQn" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842158742935" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childKeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="2DM1AW" id="4R9pospjbQs" role="lGtFl">
+        <property role="2DM1AS" value="My-KeyedChild" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="4R9pospjbQq" role="lGtFl">
+      <property role="2DM1AS" value="My-Test2ConceptKeyed" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4R9pospjkXS">
+    <property role="EcuMT" value="5605122842158780280" />
+    <property role="TrG5h" value="Test2ConceptUnkeyed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4R9pospAGqM" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842163857074" />
+      <property role="20kJfa" value="refUnkeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="4R9pospAGqN" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842163857075" />
+      <property role="20kJfa" value="refKeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="2DM1AW" id="4R9pospAGqO" role="lGtFl">
+        <property role="2DM1AS" value="My-UnkeyedRef" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="4R9pospAGqG" role="1TKVEl">
+      <property role="IQ2nx" value="5605122842163857068" />
+      <property role="TrG5h" value="propUnkeyed" />
+      <ref role="AX2Wp" node="4R9pospAHR$" resolve="Test2EnumUnkeyed" />
+    </node>
+    <node concept="1TJgyi" id="4R9pospAGqH" role="1TKVEl">
+      <property role="IQ2nx" value="5605122842163857069" />
+      <property role="TrG5h" value="propKeyed" />
+      <ref role="AX2Wp" node="4R9pospAHRF" resolve="Test2EnumKeyed" />
+      <node concept="2DM1AW" id="4R9pospAGqI" role="lGtFl">
+        <property role="2DM1AS" value="My-UnkeyedProp" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="4R9pospjkXT" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842158780281" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childUnkeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="4R9pospjkXU" role="1TKVEi">
+      <property role="IQ2ns" value="5605122842158780282" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childKeyed" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      <node concept="2DM1AW" id="4R9pospjkXV" role="lGtFl">
+        <property role="2DM1AS" value="My-UnkeyedChild" />
+      </node>
+    </node>
+  </node>
+  <node concept="25R3W" id="4R9pospAHRF">
+    <property role="3F6X1D" value="5605122842163863019" />
+    <property role="TrG5h" value="Test2EnumKeyed" />
+    <node concept="25R33" id="4R9pospAHRG" role="25R1y">
+      <property role="3tVfz5" value="5605122842163863020" />
+      <property role="TrG5h" value="unkeyed" />
+    </node>
+    <node concept="25R33" id="4R9pospAHRH" role="25R1y">
+      <property role="3tVfz5" value="5605122842163863021" />
+      <property role="TrG5h" value="keyed" />
+      <node concept="2DM1AW" id="4R9pospAHRI" role="lGtFl">
+        <property role="2DM1AS" value="My-EnumLiteralKeyed" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="4R9pospAHRJ" role="lGtFl">
+      <property role="2DM1AS" value="My-Enum3" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4R9pospAHR$">
+    <property role="3F6X1D" value="5605122842163863012" />
+    <property role="TrG5h" value="Test2EnumUnkeyed" />
+    <node concept="25R33" id="4R9pospAHR_" role="25R1y">
+      <property role="3tVfz5" value="5605122842163863013" />
+      <property role="TrG5h" value="unkeyed" />
+    </node>
+    <node concept="25R33" id="4R9pospAHRA" role="25R1y">
+      <property role="3tVfz5" value="5605122842163863014" />
+      <property role="TrG5h" value="keyed" />
+      <node concept="2DM1AW" id="4R9pospAHRD" role="lGtFl">
+        <property role="2DM1AS" value="My-EnumLiteralUnkeyed" />
+      </node>
     </node>
   </node>
 </model>
