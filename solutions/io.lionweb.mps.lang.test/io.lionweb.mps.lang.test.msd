@@ -12,7 +12,6 @@
   </facets>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
     <dependency reexport="false">411e5b27-8a76-482e-8af8-1704262b4468(io.lionweb.mps.structure.attribute)</dependency>
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
   </dependencies>
@@ -35,10 +34,7 @@
     <module reference="02a5441c-a291-4aa6-aeca-3737aab7b155(io.lionweb.mps.lang.test)" version="0" />
     <module reference="01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)" version="0" />
     <module reference="411e5b27-8a76-482e-8af8-1704262b4468(io.lionweb.mps.structure.attribute)" version="0" />
-    <module reference="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
-    <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
   </dependencyVersions>
 </solution>
 
