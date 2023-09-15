@@ -52,8 +52,9 @@
         <child id="3631234780355719074" name="instances" index="pgtdD" />
       </concept>
       <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.ILanguageReferenceContainer" flags="ng" index="2P3sN0">
-        <child id="755186209566487256" name="metamodels" index="1a0gs3" />
+        <child id="755186209566487256" name="languages" index="1a0gs3" />
       </concept>
+      <concept id="5028875375328515023" name="io.lionweb.mps.converter.lang.structure.ImportInstanceFromJson" flags="ng" index="VS7hd" />
       <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
         <property id="5028875375328515031" name="path" index="VS7hl" />
       </concept>
@@ -69,7 +70,9 @@
       <concept id="-3165553798306856896" name="MultiRefLang.structure.ContainerC" flags="ng" index="1aAr7n">
         <child id="-537514129691302371" name="refs" index="3dtnIy" />
       </concept>
-      <concept id="-3930853173022635709" name="MultiRefLang.structure.ContainerA" flags="ng" index="1kHwiu" />
+      <concept id="-3930853173022635709" name="MultiRefLang.structure.ContainerA" flags="ng" index="1kHwiu">
+        <child id="-8129082181959260630" name="refs" index="3dsXjT" />
+      </concept>
       <concept id="-1174841954625493374" name="MultiRefLang.structure.Partition" flags="ng" index="1GS7BP">
         <child id="-3365534189494506652" name="referenced" index="2UX5co" />
         <child id="-2553238022203141127" name="containers" index="Z7C1M" />
@@ -79,6 +82,14 @@
       </concept>
       <concept id="6461713321151448621" name="MultiRefLang.structure.ReferencedReference" flags="ng" index="3M2dwE">
         <reference id="6461713321151448622" name="referenced" index="3M2dwD" />
+      </concept>
+      <concept id="5056955513947831898" name="MultiRefLang.structure.ContainerF" flags="ng" index="1VZth_">
+        <reference id="5056955513947831900" name="NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTgvNTA1Njk1NTUxMzk0NzgzMTkwMA" index="1VZthz" />
+        <child id="5056955513947831899" name="contRef" index="1VZth$" />
+      </concept>
+      <concept id="5056955513947831892" name="MultiRefLang.structure.ContainerE" flags="ng" index="1VZthF">
+        <reference id="5056955513947831895" name="NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTIvNTA1Njk1NTUxMzk0NzgzMTg5NQ" index="1VZthC" />
+        <child id="5056955513947831893" name="contRef" index="1VZthE" />
       </concept>
       <concept id="-5654237455737542076" name="MultiRefLang.structure.ContainerD" flags="ng" index="1YxzqT">
         <reference id="-3723121763163595507" name="ref" index="2RjOPQ" />
@@ -177,49 +188,73 @@
       </node>
     </node>
   </node>
-  <node concept="1GS7BP" id="5AGBwuFDreJ">
-    <property role="TrG5h" value="MyPartition" />
-    <node concept="1kHwiu" id="5AGBwuFDreM" role="Z7C1M">
-      <property role="TrG5h" value="aaa" />
-    </node>
-    <node concept="1Iv5zq" id="5AGBwuFDreS" role="Z7C1M">
-      <property role="TrG5h" value="bbb" />
-      <node concept="3M2dwE" id="5AGBwuFDreU" role="3a$kZk">
-        <ref role="3M2dwD" node="5AGBwuFDreL" resolve="r1" />
-      </node>
-      <node concept="3M2dwE" id="5AGBwuFDrfu" role="3a$kZk">
-        <ref role="3M2dwD" node="5AGBwuFDrfq" resolve="r3" />
-      </node>
-    </node>
-    <node concept="1aAr7n" id="5AGBwuFDrf4" role="Z7C1M">
-      <property role="TrG5h" value="ccc" />
-      <node concept="3M2dwE" id="5AGBwuFDrfx" role="3dtnIy">
-        <ref role="3M2dwD" node="5AGBwuFDrfn" resolve="r2" />
-      </node>
-      <node concept="3M2dwE" id="5AGBwuFDrfz" role="3dtnIy">
-        <ref role="3M2dwD" node="5AGBwuFDrfq" resolve="r3" />
-      </node>
-    </node>
-    <node concept="1YxzqT" id="5AGBwuFDrfg" role="Z7C1M">
-      <property role="TrG5h" value="ddd" />
-      <ref role="2RjOPQ" node="5AGBwuFDrfn" resolve="r2" />
-    </node>
-    <node concept="2BNX0F" id="5AGBwuFDreL" role="2UX5co">
-      <property role="TrG5h" value="r1" />
-    </node>
-    <node concept="2BNX0F" id="5AGBwuFDrfn" role="2UX5co">
-      <property role="TrG5h" value="r2" />
-    </node>
-    <node concept="2BNX0F" id="5AGBwuFDrfq" role="2UX5co">
-      <property role="TrG5h" value="r3" />
-    </node>
-  </node>
   <node concept="pgt$m" id="5AGBwuFDrfA">
     <property role="TrG5h" value="Export MyPartition" />
     <property role="pjpzt" value="39$JcGFainl/descendants" />
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.m3.selfdescription/source_gen/MyPartition.json" />
     <node concept="pgsVv" id="5AGBwuFDrfB" role="pgtdD">
       <ref role="pgsW4" node="5AGBwuFDreJ" resolve="MyPartition" />
+    </node>
+  </node>
+  <node concept="VS7hd" id="1apSfP9KDLZ">
+    <property role="TrG5h" value="Import MultiRefLang instance" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/multiRef.json" />
+  </node>
+  <node concept="1GS7BP" id="~id-part">
+    <property role="TrG5h" value="MyPartition" />
+    <node concept="2BNX0F" id="~id-r1" role="2UX5co">
+      <property role="TrG5h" value="r1" />
+    </node>
+    <node concept="2BNX0F" id="~id-r2" role="2UX5co">
+      <property role="TrG5h" value="r2" />
+    </node>
+    <node concept="2BNX0F" id="~id-r3" role="2UX5co">
+      <property role="TrG5h" value="r3" />
+    </node>
+    <node concept="1kHwiu" id="~id-aaa" role="Z7C1M">
+      <property role="TrG5h" value="aaa" />
+      <node concept="3M2dwE" id="18UigYP0HEK" role="3dsXjT">
+        <ref role="3M2dwD" node="~id-rE" resolve="rE" />
+      </node>
+      <node concept="3M2dwE" id="18UigYP0HEL" role="3dsXjT">
+        <ref role="3M2dwD" node="~id-rF" resolve="rF" />
+      </node>
+    </node>
+    <node concept="1Iv5zq" id="~id-bbb" role="Z7C1M">
+      <property role="TrG5h" value="bbb" />
+      <node concept="3M2dwE" id="18UigYP0HEM" role="3a$kZk">
+        <ref role="3M2dwD" node="~id-r1" resolve="r1" />
+      </node>
+      <node concept="3M2dwE" id="18UigYP0HEN" role="3a$kZk">
+        <ref role="3M2dwD" node="~id-r3" resolve="r3" />
+      </node>
+    </node>
+    <node concept="1aAr7n" id="~id-ccc" role="Z7C1M">
+      <property role="TrG5h" value="ccc" />
+      <node concept="3M2dwE" id="18UigYP0HEO" role="3dtnIy">
+        <ref role="3M2dwD" node="~id-r2" resolve="r2" />
+      </node>
+      <node concept="3M2dwE" id="18UigYP0HEP" role="3dtnIy">
+        <ref role="3M2dwD" node="~id-r3" resolve="r3" />
+      </node>
+    </node>
+    <node concept="1YxzqT" id="~id-ddd" role="Z7C1M">
+      <property role="TrG5h" value="ddd" />
+      <ref role="2RjOPQ" node="~id-r2" resolve="r2" />
+    </node>
+    <node concept="1VZthF" id="~id-eee" role="Z7C1M">
+      <property role="TrG5h" value="eee" />
+      <ref role="1VZthC" node="~id-rE" resolve="rE" />
+      <node concept="2BNX0F" id="~id-rE" role="1VZthE">
+        <property role="TrG5h" value="rE" />
+      </node>
+    </node>
+    <node concept="1VZth_" id="~id-fff" role="Z7C1M">
+      <property role="TrG5h" value="fff" />
+      <ref role="1VZthz" node="~id-rE" resolve="rE" />
+      <node concept="2BNX0F" id="~id-rF" role="1VZth$">
+        <property role="TrG5h" value="rF" />
+      </node>
     </node>
   </node>
 </model>

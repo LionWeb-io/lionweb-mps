@@ -3,7 +3,7 @@
   "languages": [],
   "nodes": [
     {
-      "id": "{id-part}",
+      "id": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -27,9 +27,9 @@
             "key": "180e505c-2fbf-4513-92d3-97d44cda3b43"
           },
           "children": [
-            "{id-r1}",
-            "{id-r2}",
-            "{id-r3}"
+            "id-r1",
+            "id-r2",
+            "id-r3"
           ]
         },
         {
@@ -39,12 +39,12 @@
             "key": "9af8b4ce-4d4d-428d-814b-a00fe9d4eead"
           },
           "children": [
-            "{id-aaa}",
-            "{id-bbb}",
-            "{id-ccc}",
-            "{id-ddd}",
-            "{id-eee}",
-            "{id-fff}"
+            "id-aaa",
+            "id-bbb",
+            "id-ccc",
+            "id-ddd",
+            "id-eee",
+            "id-fff"
           ]
         }
       ],
@@ -52,7 +52,7 @@
       "parent": null
     },
     {
-      "id": "{id-aaa}",
+      "id": "id-aaa",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -79,19 +79,19 @@
           "targets": [
             {
               "resolveInfo": "rE",
-              "reference": "{id-rE}"
+              "reference": "id-rE"
             },
             {
               "resolveInfo": "rF",
-              "reference": "{id-rF}"
+              "reference": "id-rF"
             }
           ]
         }
       ],
-      "parent": "{id-part}"
+      "parent": "id-part"
     },
     {
-      "id": "{id-bbb}",
+      "id": "id-bbb",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -118,19 +118,19 @@
           "targets": [
             {
               "resolveInfo": "r1",
-              "reference": "{id-r1}"
+              "reference": "id-r1"
             },
             {
               "resolveInfo": "r3",
-              "reference": "{id-r3}"
+              "reference": "id-r3"
             }
           ]
         }
       ],
-      "parent": "{id-part}"
+      "parent": "id-part"
     },
     {
-      "id": "{id-ccc}",
+      "id": "id-ccc",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -157,19 +157,19 @@
           "targets": [
             {
               "resolveInfo": "r2",
-              "reference": "{id-r2}"
+              "reference": "id-r2"
             },
             {
               "resolveInfo": "r3",
-              "reference": "{id-r3}"
+              "reference": "id-r3"
             }
           ]
         }
       ],
-      "parent": "{id-part}"
+      "parent": "id-part"
     },
     {
-      "id": "{id-ddd}",
+      "id": "id-ddd",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -196,15 +196,15 @@
           "targets": [
             {
               "resolveInfo": "r2",
-              "reference": "{id-r2}"
+              "reference": "id-r2"
             }
           ]
         }
       ],
-      "parent": "{id-part}"
+      "parent": "id-part"
     },
     {
-      "id": "{id-eee}",
+      "id": "id-eee",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -228,29 +228,15 @@
             "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTIvNTA1Njk1NTUxMzk0NzgzMTg5Mw"
           },
           "children": [
-            "{id-rE}"
+            "id-rE"
           ]
         }
       ],
-      "references": [
-        {
-          "reference": {
-            "language": "MyHappyLittleMulti-Reference_Language",
-            "version": "1",
-            "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTIvNTA1Njk1NTUxMzk0NzgzMTg5NQ"
-          },
-          "targets": [
-            {
-              "resolveInfo": "rE",
-              "reference": "{id-rE}"
-            }
-          ]
-        }
-      ],
-      "parent": "{id-part}"
+      "references": [],
+      "parent": "id-part"
     },
     {
-      "id": "{id-rE}",
+      "id": "id-rE",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -268,10 +254,10 @@
       ],
       "children": [],
       "references": [],
-      "parent": "{id-eee}"
+      "parent": "id-eee"
     },
     {
-      "id": "{id-fff}",
+      "id": "id-fff",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -295,29 +281,15 @@
             "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTgvNTA1Njk1NTUxMzk0NzgzMTg5OQ"
           },
           "children": [
-            "{id-rF}"
+            "id-rF"
           ]
         }
       ],
-      "references": [
-        {
-          "reference": {
-            "language": "MyHappyLittleMulti-Reference_Language",
-            "version": "1",
-            "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTgvNTA1Njk1NTUxMzk0NzgzMTkwMA"
-          },
-          "targets": [
-            {
-              "resolveInfo": "rE",
-              "reference": "{id-rE}"
-            }
-          ]
-        }
-      ],
-      "parent": "{id-part}"
+      "references": [],
+      "parent": "id-part"
     },
     {
-      "id": "{id-rF}",
+      "id": "id-rF",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -335,10 +307,10 @@
       ],
       "children": [],
       "references": [],
-      "parent": "{id-fff}"
+      "parent": "id-fff"
     },
     {
-      "id": "{id-r1}",
+      "id": "id-r1",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -356,10 +328,10 @@
       ],
       "children": [],
       "references": [],
-      "parent": "{id-part}"
+      "parent": "id-part"
     },
     {
-      "id": "{id-r2}",
+      "id": "id-r2",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -377,10 +349,10 @@
       ],
       "children": [],
       "references": [],
-      "parent": "{id-part}"
+      "parent": "id-part"
     },
     {
-      "id": "{id-r3}",
+      "id": "id-r3",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
@@ -398,7 +370,7 @@
       ],
       "children": [],
       "references": [],
-      "parent": "{id-part}"
+      "parent": "id-part"
     }
   ]
 }

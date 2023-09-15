@@ -4622,11 +4622,11 @@
           <node concept="2OqwBi" id="5AGBwuDDojb" role="3clFbG">
             <node concept="2OqwBi" id="5AGBwuDDlIT" role="2Oq$k0">
               <node concept="2OqwBi" id="5AGBwuDDjnV" role="2Oq$k0">
-                <node concept="37vLTw" id="5AGBwuDDiKn" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5AGBwuDEYLf" resolve="conceptDeclaration" />
-                </node>
                 <node concept="3Tsc0h" id="5AGBwuDDjW7" role="2OqNvi">
                   <ref role="3TtcxE" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+                </node>
+                <node concept="37vLTw" id="5AGBwuDDiKn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5AGBwuDEYLf" resolve="conceptDeclaration" />
                 </node>
               </node>
               <node concept="v3k3i" id="5AGBwuDDntJ" role="2OqNvi">

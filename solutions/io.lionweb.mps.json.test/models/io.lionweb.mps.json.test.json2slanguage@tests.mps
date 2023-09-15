@@ -781,6 +781,14 @@
                     <node concept="37vLTw" id="4R9pospDO9e" role="37wK5m">
                       <ref role="3cqZAo" node="4R9pospDO97" resolve="metaPointerLookup" />
                     </node>
+                    <node concept="37vLTw" id="18UigYOQEdj" role="37wK5m">
+                      <ref role="3cqZAo" node="5M3rB6CnBux" resolve="attributeFinder" />
+                    </node>
+                    <node concept="2ShNRf" id="18UigYOQDtj" role="37wK5m">
+                      <node concept="HV5vD" id="18UigYOQDP8" role="2ShVmc">
+                        <ref role="HV5vE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
