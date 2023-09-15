@@ -9,9 +9,10 @@
   <imports>
     <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="234s" ref="r:c798b861-d641-45c1-bec6-e39cbda50960(io.lionweb.mps.structure.attribute.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="234s" ref="r:c798b861-d641-45c1-bec6-e39cbda50960(io.lionweb.mps.structure.attribute.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -54,6 +55,7 @@
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
+        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -67,6 +69,10 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
+        <child id="1206060619838" name="condition" index="3eO9$A" />
+        <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -89,6 +95,8 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -103,6 +111,9 @@
       </concept>
       <concept id="1227096498176" name="jetbrains.mps.lang.typesystem.structure.PropertyMessageTarget" flags="ng" index="2ODE4t">
         <reference id="1227096521710" name="propertyDeclaration" index="2ODJFN" />
+      </concept>
+      <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
+        <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
       </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
@@ -131,21 +142,57 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
+      </concept>
+      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
+      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
+        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
       <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
         <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
       </concept>
       <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
+        <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
+      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
+        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -184,6 +231,9 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
         <child id="1226511765987" name="elementType" index="2hN53Y" />
@@ -199,8 +249,12 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
+      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
         <child id="5686963296372573084" name="elementType" index="3O5elw" />
       </concept>
@@ -522,6 +576,364 @@
     <node concept="1YaCAy" id="18UigYP4SFR" role="1YuTPh">
       <property role="TrG5h" value="iStructureElement" />
       <ref role="1YaFvo" to="tpce:1ob16QT2Pru" resolve="IStructureElement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="18UigYPcucK">
+    <property role="TrG5h" value="dontReuseSmartReferences" />
+    <node concept="3clFbS" id="18UigYPcucL" role="18ibNy">
+      <node concept="3clFbJ" id="18UigYPcvkt" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPcvkv" role="3clFbx">
+          <node concept="3cpWs6" id="18UigYPcwwM" role="3cqZAp" />
+        </node>
+        <node concept="3fqX7Q" id="18UigYPcvkN" role="3clFbw">
+          <node concept="2OqwBi" id="18UigYPcw9m" role="3fr31v">
+            <node concept="2OqwBi" id="18UigYPcvzA" role="2Oq$k0">
+              <node concept="1YBJjd" id="18UigYPcvl3" role="2Oq$k0">
+                <ref role="1YBMHb" node="18UigYPcucN" resolve="linkDeclaration" />
+              </node>
+              <node concept="3TrEf2" id="18UigYPcvTm" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpce:fA0lvVK" resolve="target" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="18UigYPcwsi" role="2OqNvi">
+              <node concept="chp4Y" id="18UigYPcwt0" role="cj9EA">
+                <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="18UigYPcwR3" role="3cqZAp">
+        <node concept="3cpWsn" id="18UigYPcwR4" role="3cpWs9">
+          <property role="TrG5h" value="smartRef" />
+          <node concept="2I9FWS" id="18UigYPcwJm" role="1tU5fm">
+            <ref role="2I9WkF" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+          </node>
+          <node concept="2OqwBi" id="18UigYPcwR5" role="33vP2m">
+            <node concept="1PxgMI" id="18UigYPcwR6" role="2Oq$k0">
+              <node concept="chp4Y" id="18UigYPcwR7" role="3oSUPX">
+                <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+              </node>
+              <node concept="2OqwBi" id="18UigYPcwR8" role="1m5AlR">
+                <node concept="1YBJjd" id="18UigYPcwR9" role="2Oq$k0">
+                  <ref role="1YBMHb" node="18UigYPcucN" resolve="linkDeclaration" />
+                </node>
+                <node concept="3TrEf2" id="18UigYPcwRa" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpce:fA0lvVK" resolve="target" />
+                </node>
+              </node>
+            </node>
+            <node concept="3CFZ6_" id="18UigYPcwRb" role="2OqNvi">
+              <node concept="3CFYIy" id="18UigYPcwRc" role="3CFYIz">
+                <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="18UigYPcx10" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPcx12" role="3clFbx">
+          <node concept="3cpWs6" id="18UigYPc_Em" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="18UigYPczs0" role="3clFbw">
+          <node concept="37vLTw" id="18UigYPcx1$" role="2Oq$k0">
+            <ref role="3cqZAo" node="18UigYPcwR4" resolve="smartRef" />
+          </node>
+          <node concept="1v1jN8" id="18UigYPc_DE" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="18UigYPc_F1" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPc_F3" role="3clFbx">
+          <node concept="2MkqsV" id="18UigYPcF$y" role="3cqZAp">
+            <node concept="Xl_RD" id="18UigYPcF$L" role="2MkJ7o">
+              <property role="Xl_RC" value="Don't use smart reference concepts anywhere else" />
+            </node>
+            <node concept="1YBJjd" id="18UigYPcFAL" role="1urrMF">
+              <ref role="1YBMHb" node="18UigYPcucN" resolve="linkDeclaration" />
+            </node>
+            <node concept="AMVWg" id="18UigYPcFBb" role="lGtFl">
+              <property role="TrG5h" value="reusedSmartReference" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="18UigYPc_FF" role="3clFbw">
+          <node concept="2OqwBi" id="18UigYPcFcR" role="3fr31v">
+            <node concept="2OqwBi" id="18UigYPcC6t" role="2Oq$k0">
+              <node concept="37vLTw" id="18UigYPc_FV" role="2Oq$k0">
+                <ref role="3cqZAo" node="18UigYPcwR4" resolve="smartRef" />
+              </node>
+              <node concept="3$u5V9" id="18UigYPcEkd" role="2OqNvi">
+                <node concept="1bVj0M" id="18UigYPcEkf" role="23t8la">
+                  <node concept="3clFbS" id="18UigYPcEkg" role="1bW5cS">
+                    <node concept="3clFbF" id="18UigYPcEp6" role="3cqZAp">
+                      <node concept="2OqwBi" id="18UigYPcEAw" role="3clFbG">
+                        <node concept="37vLTw" id="18UigYPcEp5" role="2Oq$k0">
+                          <ref role="3cqZAo" node="18UigYPcEkh" resolve="it" />
+                        </node>
+                        <node concept="3TrEf2" id="18UigYPcERw" role="2OqNvi">
+                          <ref role="3Tt5mk" to="234s:5AGBwuDBtEv" resolve="reference" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="18UigYPcEkh" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="18UigYPcEki" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3JPx81" id="18UigYPcFuv" role="2OqNvi">
+              <node concept="1YBJjd" id="18UigYPcFxx" role="25WWJ7">
+                <ref role="1YBMHb" node="18UigYPcucN" resolve="linkDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="18UigYPcucN" role="1YuTPh">
+      <property role="TrG5h" value="linkDeclaration" />
+      <ref role="1YaFvo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="18UigYPd3NA">
+    <property role="TrG5h" value="check_SmartReference" />
+    <node concept="3clFbS" id="18UigYPd3NB" role="18ibNy">
+      <node concept="3cpWs8" id="18UigYPd4JQ" role="3cqZAp">
+        <node concept="3cpWsn" id="18UigYPd4JR" role="3cpWs9">
+          <property role="TrG5h" value="host" />
+          <node concept="3Tqbb2" id="18UigYPd4JM" role="1tU5fm">
+            <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          </node>
+          <node concept="2OqwBi" id="18UigYPd4JS" role="33vP2m">
+            <node concept="1YBJjd" id="18UigYPd4JT" role="2Oq$k0">
+              <ref role="1YBMHb" node="18UigYPd4hd" resolve="smartRef" />
+            </node>
+            <node concept="2Xjw5R" id="18UigYPd4JU" role="2OqNvi">
+              <node concept="1xMEDy" id="18UigYPd4JV" role="1xVPHs">
+                <node concept="chp4Y" id="18UigYPd4JW" role="ri$Ld">
+                  <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="18UigYPd4hv" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPd4hx" role="3clFbx">
+          <node concept="3cpWs6" id="18UigYPdajI" role="3cqZAp" />
+        </node>
+        <node concept="17QLQc" id="18UigYPdaeX" role="3clFbw">
+          <node concept="1YBJjd" id="18UigYPdags" role="3uHU7w">
+            <ref role="1YBMHb" node="18UigYPd4hd" resolve="smartRef" />
+          </node>
+          <node concept="2OqwBi" id="18UigYPd7Ot" role="3uHU7B">
+            <node concept="2OqwBi" id="18UigYPd51r" role="2Oq$k0">
+              <node concept="37vLTw" id="18UigYPd4JX" role="2Oq$k0">
+                <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+              </node>
+              <node concept="3CFZ6_" id="18UigYPd5l$" role="2OqNvi">
+                <node concept="3CFYIy" id="18UigYPd5pI" role="3CFYIz">
+                  <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+                </node>
+              </node>
+            </node>
+            <node concept="1uHKPH" id="18UigYPd9D1" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="18UigYPdajL" role="3cqZAp" />
+      <node concept="3clFbJ" id="18UigYPdakt" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPdakv" role="3clFbx">
+          <node concept="2MkqsV" id="18UigYPddnz" role="3cqZAp">
+            <node concept="Xl_RD" id="18UigYPddnM" role="2MkJ7o">
+              <property role="Xl_RC" value="target of LIonWeb smart reference extends superconcept" />
+            </node>
+            <node concept="37vLTw" id="18UigYPddof" role="1urrMF">
+              <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+            </node>
+            <node concept="2OE7Q9" id="18UigYPddoA" role="1urrC5">
+              <ref role="2OEe5H" to="tpce:f_TJDff" resolve="extends" />
+            </node>
+            <node concept="AMVWg" id="18UigYPddoN" role="lGtFl">
+              <property role="TrG5h" value="smartRefSuperconcept" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="18UigYPdbK8" role="3clFbw">
+          <node concept="17QLQc" id="18UigYPdcrZ" role="3uHU7w">
+            <node concept="2OqwBi" id="18UigYPdcWB" role="3uHU7w">
+              <node concept="35c_gC" id="18UigYPdcsJ" role="2Oq$k0">
+                <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
+              </node>
+              <node concept="FGMqu" id="18UigYPddhU" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="18UigYPdc0F" role="3uHU7B">
+              <node concept="37vLTw" id="18UigYPdbKR" role="2Oq$k0">
+                <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+              </node>
+              <node concept="3TrEf2" id="18UigYPdcnO" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpce:f_TJDff" resolve="extends" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="18UigYPdbl7" role="3uHU7B">
+            <node concept="2OqwBi" id="18UigYPda_q" role="2Oq$k0">
+              <node concept="37vLTw" id="18UigYPdal0" role="2Oq$k0">
+                <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+              </node>
+              <node concept="3TrEf2" id="18UigYPdb28" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpce:f_TJDff" resolve="extends" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="18UigYPdbpC" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="18UigYPddpE" role="3cqZAp" />
+      <node concept="3clFbJ" id="18UigYPddr0" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPddr2" role="3clFbx">
+          <node concept="2MkqsV" id="18UigYPdhV0" role="3cqZAp">
+            <node concept="Xl_RD" id="18UigYPdhV1" role="2MkJ7o">
+              <property role="Xl_RC" value="target of LIonWeb smart reference implements interfaces" />
+            </node>
+            <node concept="37vLTw" id="18UigYPdhV2" role="1urrMF">
+              <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+            </node>
+            <node concept="2OE7Q9" id="18UigYPdhV3" role="1urrC5">
+              <ref role="2OEe5H" to="tpce:h0Pzm$Y" resolve="implements" />
+            </node>
+            <node concept="AMVWg" id="18UigYPdhV4" role="lGtFl">
+              <property role="TrG5h" value="smartRefInterfaces" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="18UigYPdfUU" role="3clFbw">
+          <node concept="2OqwBi" id="18UigYPddGi" role="2Oq$k0">
+            <node concept="37vLTw" id="18UigYPddrS" role="2Oq$k0">
+              <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+            </node>
+            <node concept="3Tsc0h" id="18UigYPde0N" role="2OqNvi">
+              <ref role="3TtcxE" to="tpce:h0Pzm$Y" resolve="implements" />
+            </node>
+          </node>
+          <node concept="3GX2aA" id="18UigYPdhUb" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="18UigYPdhZQ" role="3cqZAp" />
+      <node concept="3clFbJ" id="18UigYPdi1A" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPdi1C" role="3clFbx">
+          <node concept="2MkqsV" id="18UigYPdprm" role="3cqZAp">
+            <node concept="Xl_RD" id="18UigYPdpr_" role="2MkJ7o">
+              <property role="Xl_RC" value="target of LIonWeb smart reference has properties" />
+            </node>
+            <node concept="37vLTw" id="18UigYPdps2" role="1urrMF">
+              <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+            </node>
+            <node concept="AMVWg" id="18UigYPdpsp" role="lGtFl">
+              <property role="TrG5h" value="smartRefProperties" />
+            </node>
+            <node concept="2OE7Q9" id="18UigYPdpt5" role="1urrC5">
+              <ref role="2OEe5H" to="tpce:f_TKVDG" resolve="propertyDeclaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="18UigYPdmdW" role="3clFbw">
+          <node concept="2OqwBi" id="18UigYPdilW" role="2Oq$k0">
+            <node concept="37vLTw" id="18UigYPdi2F" role="2Oq$k0">
+              <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+            </node>
+            <node concept="3Tsc0h" id="18UigYPdiEt" role="2OqNvi">
+              <ref role="3TtcxE" to="tpce:f_TKVDG" resolve="propertyDeclaration" />
+            </node>
+          </node>
+          <node concept="3GX2aA" id="18UigYPdpqc" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="18UigYPdpti" role="3cqZAp" />
+      <node concept="3clFbJ" id="18UigYPdpvs" role="3cqZAp">
+        <node concept="3clFbS" id="18UigYPdpvu" role="3clFbx">
+          <node concept="2MkqsV" id="18UigYPdzGM" role="3cqZAp">
+            <node concept="Xl_RD" id="18UigYPdzH1" role="2MkJ7o">
+              <property role="Xl_RC" value="target of LIonWeb smart reference does not have exactly one link" />
+            </node>
+            <node concept="37vLTw" id="18UigYPdzHl" role="1urrMF">
+              <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+            </node>
+            <node concept="2OE7Q9" id="18UigYPdzHG" role="1urrC5">
+              <ref role="2OEe5H" to="tpce:f_TKVDF" resolve="linkDeclaration" />
+            </node>
+            <node concept="AMVWg" id="18UigYPdzHT" role="lGtFl">
+              <property role="TrG5h" value="smartRefLinks" />
+            </node>
+          </node>
+        </node>
+        <node concept="3y3z36" id="18UigYPdzfh" role="3clFbw">
+          <node concept="3cmrfG" id="18UigYPdzFd" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="18UigYPdtD8" role="3uHU7B">
+            <node concept="2OqwBi" id="18UigYPdpL8" role="2Oq$k0">
+              <node concept="37vLTw" id="18UigYPdpwI" role="2Oq$k0">
+                <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+              </node>
+              <node concept="3Tsc0h" id="18UigYPdq5D" role="2OqNvi">
+                <ref role="3TtcxE" to="tpce:f_TKVDF" resolve="linkDeclaration" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="18UigYPdwPo" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3eNFk2" id="18UigYPdDBy" role="3eNLev">
+          <node concept="3clFbS" id="18UigYPdDB$" role="3eOfB_">
+            <node concept="2MkqsV" id="18UigYPdDBh" role="3cqZAp">
+              <node concept="Xl_RD" id="18UigYPdEf_" role="2MkJ7o">
+                <property role="Xl_RC" value="target of LIonWeb smart reference does not have exactly one reference link" />
+              </node>
+              <node concept="37vLTw" id="18UigYPdEfT" role="1urrMF">
+                <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+              </node>
+              <node concept="2OE7Q9" id="18UigYPdEgg" role="1urrC5">
+                <ref role="2OEe5H" to="tpce:f_TKVDF" resolve="linkDeclaration" />
+              </node>
+              <node concept="AMVWg" id="18UigYPdEgt" role="lGtFl">
+                <property role="TrG5h" value="smartRefContainment" />
+              </node>
+            </node>
+          </node>
+          <node concept="17QLQc" id="18UigYPdCO1" role="3eO9$A">
+            <node concept="2OqwBi" id="18UigYPdDni" role="3uHU7w">
+              <node concept="1XH99k" id="18UigYPdCUv" role="2Oq$k0">
+                <ref role="1XH99l" to="tpce:3Ftr4R6BFyl" resolve="LinkMetaclass" />
+              </node>
+              <node concept="2ViDtV" id="18UigYPdD_D" role="2OqNvi">
+                <ref role="2ViDtZ" to="tpce:3Ftr4R6BFyn" resolve="reference" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="18UigYPdCgw" role="3uHU7B">
+              <node concept="2OqwBi" id="18UigYPd_Y0" role="2Oq$k0">
+                <node concept="2OqwBi" id="18UigYPd$38" role="2Oq$k0">
+                  <node concept="37vLTw" id="18UigYPdzMI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
+                  </node>
+                  <node concept="3Tsc0h" id="18UigYPd$nD" role="2OqNvi">
+                    <ref role="3TtcxE" to="tpce:f_TKVDF" resolve="linkDeclaration" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="18UigYPdBtd" role="2OqNvi" />
+              </node>
+              <node concept="3TrcHB" id="18UigYPdC_F" role="2OqNvi">
+                <ref role="3TsBF5" to="tpce:3Ftr4R6BH8$" resolve="metaClass" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="18UigYPd4hd" role="1YuTPh">
+      <property role="TrG5h" value="smartRef" />
+      <ref role="1YaFvo" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
     </node>
   </node>
 </model>
