@@ -1,3 +1,5 @@
+// based on https://github.com/specificlanguages/mps-gradle-plugin-sample
+
 plugins {
     id("com.specificlanguages.mps") version "1.5.0"
     `maven-publish`
