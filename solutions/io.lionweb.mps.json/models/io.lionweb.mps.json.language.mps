@@ -170,7 +170,6 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
-        <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
@@ -10770,14 +10769,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2ShNRf" id="4R9posqCbaQ" role="37wK5m">
-                      <node concept="1pGfFk" id="4R9posqCbaR" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~SerializedPropertyValue.&lt;init&gt;(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.lang.String)" resolve="SerializedPropertyValue" />
-                        <node concept="37vLTw" id="4R9posr5Mhs" role="37wK5m">
-                          <ref role="3cqZAo" node="4R9posr5Mhp" resolve="propertyMP" />
-                        </node>
-                        <node concept="10Nm6u" id="4R9posqCbaS" role="37wK5m" />
-                      </node>
+                    <node concept="37vLTw" id="18UigYPRB4n" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9posr5Mhp" resolve="propertyMP" />
                     </node>
                   </node>
                 </node>
@@ -10943,20 +10936,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2ShNRf" id="4R9posqFu79" role="37wK5m">
-                      <node concept="1pGfFk" id="4R9posqFu7a" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~SerializedContainmentValue.&lt;init&gt;(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="SerializedContainmentValue" />
-                        <node concept="37vLTw" id="4R9posrbBrs" role="37wK5m">
-                          <ref role="3cqZAo" node="4R9posrbb3p" resolve="containmentMP" />
-                        </node>
-                        <node concept="2YIFZM" id="4R9posqFZ_k" role="37wK5m">
-                          <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
-                          <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                          <node concept="3uibUv" id="4R9posqGaS3" role="3PaCim">
-                            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="18UigYPRSDe" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9posrbb3p" resolve="containmentMP" />
                     </node>
                   </node>
                 </node>
@@ -11122,20 +11103,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2ShNRf" id="4R9posqGD0o" role="37wK5m">
-                      <node concept="1pGfFk" id="4R9posqGD0p" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~SerializedReferenceValue.&lt;init&gt;(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="SerializedReferenceValue" />
-                        <node concept="37vLTw" id="4R9posrgPHH" role="37wK5m">
-                          <ref role="3cqZAo" node="4R9posrg6ec" resolve="referenceMP" />
-                        </node>
-                        <node concept="2YIFZM" id="4R9posqGD0s" role="37wK5m">
-                          <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
-                          <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                          <node concept="3uibUv" id="4R9posqGD0t" role="3PaCim">
-                            <ref role="3uigEE" to="xfsv:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="18UigYPS9RG" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9posrg6ec" resolve="referenceMP" />
                     </node>
                   </node>
                 </node>
@@ -11400,47 +11369,41 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2ShNRf" id="4R9posqSV76" role="37wK5m">
-                      <node concept="1pGfFk" id="4R9posqSV77" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~SerializedNode.&lt;init&gt;(java.lang.String,io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="SerializedNode" />
-                        <node concept="10Nm6u" id="4R9posqTI4i" role="37wK5m" />
-                        <node concept="2ShNRf" id="4R9posqU5LJ" role="37wK5m">
-                          <node concept="1pGfFk" id="4R9posqU8so" role="2ShVmc">
-                            <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
-                            <node concept="2OqwBi" id="4R9posqV7gO" role="37wK5m">
-                              <node concept="2OqwBi" id="4R9posqUHUg" role="2Oq$k0">
-                                <node concept="37vLTw" id="4R9posqUBGm" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4R9posqUjKD" resolve="jsonEnm" />
-                                </node>
-                                <node concept="liA8E" id="4R9posqUOvY" role="2OqNvi">
-                                  <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
-                                </node>
-                              </node>
-                              <node concept="liA8E" id="4R9posqVbOv" role="2OqNvi">
-                                <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
-                              </node>
+                    <node concept="2ShNRf" id="4R9posqU5LJ" role="37wK5m">
+                      <node concept="1pGfFk" id="4R9posqU8so" role="2ShVmc">
+                        <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
+                        <node concept="2OqwBi" id="4R9posqV7gO" role="37wK5m">
+                          <node concept="2OqwBi" id="4R9posqUHUg" role="2Oq$k0">
+                            <node concept="37vLTw" id="4R9posqUBGm" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4R9posqUjKD" resolve="jsonEnm" />
                             </node>
-                            <node concept="2OqwBi" id="4R9posqVn1F" role="37wK5m">
-                              <node concept="2OqwBi" id="4R9posqV1$0" role="2Oq$k0">
-                                <node concept="37vLTw" id="4R9posqUW6z" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4R9posqUjKD" resolve="jsonEnm" />
-                                </node>
-                                <node concept="liA8E" id="4R9posqViHy" role="2OqNvi">
-                                  <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
-                                </node>
-                              </node>
-                              <node concept="liA8E" id="4R9posqVt87" role="2OqNvi">
-                                <ref role="37wK5l" to="imb3:~Language.getVersion()" resolve="getVersion" />
-                              </node>
+                            <node concept="liA8E" id="4R9posqUOvY" role="2OqNvi">
+                              <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
                             </node>
-                            <node concept="2OqwBi" id="4R9posqVGWT" role="37wK5m">
-                              <node concept="37vLTw" id="4R9posqVCE8" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
-                              </node>
-                              <node concept="liA8E" id="4R9posqVN0u" role="2OqNvi">
-                                <ref role="37wK5l" to="imb3:~EnumerationLiteral.getKey()" resolve="getKey" />
-                              </node>
+                          </node>
+                          <node concept="liA8E" id="4R9posqVbOv" role="2OqNvi">
+                            <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="4R9posqVn1F" role="37wK5m">
+                          <node concept="2OqwBi" id="4R9posqV1$0" role="2Oq$k0">
+                            <node concept="37vLTw" id="4R9posqUW6z" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4R9posqUjKD" resolve="jsonEnm" />
                             </node>
+                            <node concept="liA8E" id="4R9posqViHy" role="2OqNvi">
+                              <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="4R9posqVt87" role="2OqNvi">
+                            <ref role="37wK5l" to="imb3:~Language.getVersion()" resolve="getVersion" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="4R9posqVGWT" role="37wK5m">
+                          <node concept="37vLTw" id="4R9posqVCE8" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
+                          </node>
+                          <node concept="liA8E" id="4R9posqVN0u" role="2OqNvi">
+                            <ref role="37wK5l" to="imb3:~EnumerationLiteral.getKey()" resolve="getKey" />
                           </node>
                         </node>
                       </node>

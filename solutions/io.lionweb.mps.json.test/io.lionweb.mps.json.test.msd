@@ -28,6 +28,7 @@
     <dependency reexport="false">76d927fd-3a5a-4e40-865b-7c2d329ca675(MultiRefLang)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:76d927fd-3a5a-4e40-865b-7c2d329ca675:MultiRefLang" version="1" />
     <language slang="l:11541b24-a02a-4586-a931-92521b3f6166:io.lionweb.mps.converter.TestCustomDatatype" version="0" />
     <language slang="l:48d0f6eb-6186-4cec-83d1-7caedb05a494:io.lionweb.mps.converter.TestLang2" version="0" />
     <language slang="l:099490a3-1e39-4ed1-bebc-8027665cecf9:io.lionweb.mps.converter.TestLang3" version="0" />

@@ -885,6 +885,10 @@
           <node concept="1QHqEC" id="2q_M4ySrd_O" role="1QHqEI">
             <node concept="3clFbS" id="2q_M4ySrd_Q" role="1bW5cS">
               <node concept="3cpWs8" id="5lijfVJV1U$" role="3cqZAp">
+                <node concept="15s5l7" id="18UigYPxLGS" role="lGtFl">
+                  <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type java.lang.Iterable&lt;SNode&gt; is not a subtype of sequence&lt;node&lt;&gt;&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2062135263152102048]&quot;;" />
+                  <property role="huDt6" value="Error: type java.lang.Iterable&lt;SNode&gt; is not a subtype of sequence&lt;node&lt;&gt;&gt;" />
+                </node>
                 <node concept="3cpWsn" id="5lijfVJV1U_" role="3cpWs9">
                   <property role="TrG5h" value="converter" />
                   <node concept="3uibUv" id="5lijfVJV1N4" role="1tU5fm">
