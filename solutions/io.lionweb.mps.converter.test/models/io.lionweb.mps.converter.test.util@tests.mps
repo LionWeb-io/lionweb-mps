@@ -696,6 +696,144 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="18UigYPVv4c" role="1SL9yI">
+      <property role="TrG5h" value="TestAllBuiltins" />
+      <node concept="3cqZAl" id="18UigYPVv4d" role="3clF45" />
+      <node concept="3clFbS" id="18UigYPVv4e" role="3clF47">
+        <node concept="3cpWs8" id="18UigYPVv4f" role="3cqZAp">
+          <node concept="3cpWsn" id="18UigYPVv4g" role="3cpWs9">
+            <property role="TrG5h" value="finder" />
+            <node concept="3uibUv" id="18UigYPVv4h" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:4pht$Xswmxx" resolve="LanguageExtensionFinder" />
+            </node>
+            <node concept="2ShNRf" id="18UigYPVv4i" role="33vP2m">
+              <node concept="1pGfFk" id="18UigYPVv4j" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <node concept="2ShNRf" id="18UigYPVv4k" role="37wK5m">
+                  <node concept="1pGfFk" id="18UigYPVv4l" role="2ShVmc">
+                    <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                    <node concept="2OqwBi" id="18UigYPVv4m" role="37wK5m">
+                      <node concept="1jGwE1" id="18UigYPVv4n" role="2Oq$k0" />
+                      <node concept="liA8E" id="18UigYPVv4o" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="18UigYPVv4p" role="37wK5m">
+                  <node concept="2HTt$P" id="18UigYPVv4q" role="2ShVmc">
+                    <node concept="3uibUv" id="18UigYPVv4r" role="2HTBi0">
+                      <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                    </node>
+                    <node concept="pHN19" id="18UigYPVv4s" role="2HTEbv">
+                      <node concept="2V$Bhx" id="18UigYPVvrB" role="2V$M_3">
+                        <property role="2V$B1T" value="206e8bdd-8d65-43dc-b920-f1fa1ac0627c" />
+                        <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAllBuiltins" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="18UigYPVv4u" role="3cqZAp">
+          <node concept="2ShNRf" id="18UigYPVv4v" role="3tpDZB">
+            <node concept="2i4dXS" id="18UigYPVv4w" role="2ShVmc">
+              <node concept="pHN19" id="18UigYPVv4x" role="HW$Y0">
+                <node concept="2V$Bhx" id="18UigYPVvx9" role="2V$M_3">
+                  <property role="2V$B1T" value="206e8bdd-8d65-43dc-b920-f1fa1ac0627c" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAllBuiltins" />
+                </node>
+              </node>
+              <node concept="pHN19" id="18UigYPVv4z" role="HW$Y0">
+                <node concept="2V$Bhx" id="18UigYPVv4$" role="2V$M_3">
+                  <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
+                  <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ShNRf" id="18UigYPVv4_" role="3tpDZA">
+            <node concept="2i4dXS" id="18UigYPVv4A" role="2ShVmc">
+              <node concept="2OqwBi" id="18UigYPVv4B" role="I$8f6">
+                <node concept="37vLTw" id="18UigYPVv4C" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18UigYPVv4g" resolve="finder" />
+                </node>
+                <node concept="liA8E" id="18UigYPVv4D" role="2OqNvi">
+                  <ref role="37wK5l" to="apzt:4pht$Xswp4H" resolve="allExtendedLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="18UigYPVv4E" role="3cqZAp">
+          <node concept="2ShNRf" id="18UigYPVv4F" role="3tpDZB">
+            <node concept="2i4dXS" id="18UigYPVv4G" role="2ShVmc" />
+          </node>
+          <node concept="2ShNRf" id="18UigYPVv4H" role="3tpDZA">
+            <node concept="2i4dXS" id="18UigYPVv4I" role="2ShVmc">
+              <node concept="2OqwBi" id="18UigYPVv4J" role="I$8f6">
+                <node concept="37vLTw" id="18UigYPVv4K" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18UigYPVv4g" resolve="finder" />
+                </node>
+                <node concept="liA8E" id="18UigYPVv4L" role="2OqNvi">
+                  <ref role="37wK5l" to="apzt:24j7TNH5GN0" resolve="lwExtendedLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="18UigYPVv4M" role="3cqZAp" />
+        <node concept="3vlDli" id="18UigYPVv4N" role="3cqZAp">
+          <node concept="2ShNRf" id="18UigYPVv4O" role="3tpDZA">
+            <node concept="2i4dXS" id="18UigYPVv4P" role="2ShVmc">
+              <node concept="2OqwBi" id="18UigYPVv4Q" role="I$8f6">
+                <node concept="37vLTw" id="18UigYPVv4R" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18UigYPVv4g" resolve="finder" />
+                </node>
+                <node concept="liA8E" id="18UigYPVv4S" role="2OqNvi">
+                  <ref role="37wK5l" to="apzt:51EPk3sAgDS" resolve="allDependentLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ShNRf" id="18UigYPVv4T" role="3tpDZB">
+            <node concept="2i4dXS" id="18UigYPVv4U" role="2ShVmc">
+              <node concept="pHN19" id="18UigYPVv4V" role="HW$Y0">
+                <node concept="2V$Bhx" id="18UigYPVv4W" role="2V$M_3">
+                  <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
+                  <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
+                </node>
+              </node>
+              <node concept="pHN19" id="18UigYPVv4X" role="HW$Y0">
+                <node concept="2V$Bhx" id="18UigYPVv4Y" role="2V$M_3">
+                  <property role="2V$B1T" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.m3" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="18UigYPVv4Z" role="3cqZAp">
+          <node concept="2ShNRf" id="18UigYPVv50" role="3tpDZA">
+            <node concept="2i4dXS" id="18UigYPVv51" role="2ShVmc">
+              <node concept="2OqwBi" id="18UigYPVv52" role="I$8f6">
+                <node concept="37vLTw" id="18UigYPVv53" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18UigYPVv4g" resolve="finder" />
+                </node>
+                <node concept="liA8E" id="18UigYPVv54" role="2OqNvi">
+                  <ref role="37wK5l" to="apzt:24j7TNH9nhk" resolve="lwDependentLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ShNRf" id="18UigYPVv55" role="3tpDZB">
+            <node concept="2i4dXS" id="18UigYPVv56" role="2ShVmc" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="24j7TNHlWJO">
     <property role="TrG5h" value="TestCoreUsage" />
