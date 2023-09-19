@@ -2367,7 +2367,7 @@
     </node>
     <node concept="1qefOq" id="2fx6VTT9utQ" role="1SKRRt">
       <node concept="qeN9c" id="2fx6VTT9utR" role="1qenE9">
-        <property role="TrG5h" value="Convert LIonWeb" />
+        <property role="TrG5h" value="Convert LionWeb" />
         <node concept="2V$Bhx" id="2fx6VTT9utS" role="qeD2G">
           <property role="2V$B1T" value="08caad75-8246-4427-bb4d-8444b6c5c729" />
           <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLang" />

@@ -103,11 +103,11 @@
   <node concept="24kQdi" id="6fYiNFad_f3">
     <ref role="1XX52x" to="234s:6fYiNFad_9U" resolve="LionWebLanguageKey" />
     <node concept="PMmxH" id="6fYiNFatsi9" role="2wV5jI">
-      <ref role="PMmxG" node="6fYiNFatshQ" resolve="LIonWebKey" />
+      <ref role="PMmxG" node="6fYiNFatshQ" resolve="LionWebKey" />
     </node>
   </node>
   <node concept="PKFIW" id="6fYiNFatshQ">
-    <property role="TrG5h" value="LIonWebKey" />
+    <property role="TrG5h" value="LionWebKey" />
     <ref role="1XX52x" to="234s:6fYiNFad_a1" resolve="ILionWebKey" />
     <node concept="3EZMnI" id="6fYiNFatshS" role="2wV5jI">
       <node concept="3F0ifn" id="6fYiNFatshZ" role="3EZMnx">
@@ -129,7 +129,7 @@
         <node concept="VPM3Z" id="5AGBwuDP8Z3" role="3F10Kt" />
         <node concept="3XFhqQ" id="5AGBwuDP8Zc" role="3EZMnx" />
         <node concept="PMmxH" id="6fYiNFatsiE" role="3EZMnx">
-          <ref role="PMmxG" node="6fYiNFatshQ" resolve="LIonWebKey" />
+          <ref role="PMmxG" node="6fYiNFatshQ" resolve="LionWebKey" />
         </node>
         <node concept="2iRfu4" id="5AGBwuDP8Z6" role="2iSdaV" />
       </node>

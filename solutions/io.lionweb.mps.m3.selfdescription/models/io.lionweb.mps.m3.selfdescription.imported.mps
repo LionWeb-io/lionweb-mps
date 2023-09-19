@@ -65,9 +65,9 @@
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
   </node>
   <node concept="2RzRRF" id="7pLZNi2wTGx">
-    <property role="TrG5h" value="LIonCore.M3" />
+    <property role="TrG5h" value="LionCore.M3" />
     <property role="3HH78N" value="1" />
-    <property role="2RzON1" value="LIonCore_M3" />
+    <property role="2RzON1" value="LionCore_M3" />
     <node concept="2RzPWn" id="7pLZNi2wTGy" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_NamespacedEntity" />
@@ -293,9 +293,9 @@
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
   </node>
   <node concept="2RzRRF" id="5sACIIs$PgG">
-    <property role="TrG5h" value="LIonCore.M3" />
+    <property role="TrG5h" value="LionCore.M3" />
     <property role="3HH78N" value="1" />
-    <property role="2RzON1" value="LIonCore_M3" />
+    <property role="2RzON1" value="LionCore_M3" />
     <node concept="2RzPWn" id="5sACIIs$PgH" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_NamespacedEntity" />

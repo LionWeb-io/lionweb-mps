@@ -48,9 +48,9 @@
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>io.lionweb.mps.tests</id>
         <name>io.lionweb.mps.tests</name>
-        <description>LIonWeb MPS Implementation tests</description>
+        <description>LionWeb MPS Implementation tests</description>
         <version>${io.lionweb.mps.version}</version>
-        <vendor url="https://github.com/LIonWeb-org/lioncore-mps">LIonWeb Project</vendor>
+        <vendor url="https://github.com/LionWeb-org/lioncore-mps">LionWeb Project</vendor>
         <depends>io.lionweb.mps</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>

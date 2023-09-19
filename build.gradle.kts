@@ -70,15 +70,15 @@ publishing {
 
             pom {
                 name.set("lionweb-mps")
-                description.set("MPS APIs for the LIonWeb system")
+                description.set("MPS APIs for the LionWeb system")
                 version = project.version as String
                 packaging = "zip"
-                url.set("https://github.com/LIonWeb-org/lioncore-mps")
+                url.set("https://github.com/LionWeb-org/lioncore-mps")
 
                 scm {
-                    connection.set("scm:git:https://github.com/LIonWeb-org/lioncore-mps.git")
-                    developerConnection.set("scm:git:git@github.com:LIonWeb-org/lioncore-mps.git")
-                    url.set("https://github.com/LIonWeb-org/lioncore-mps.git")
+                    connection.set("scm:git:https://github.com/LionWeb-org/lioncore-mps.git")
+                    developerConnection.set("scm:git:git@github.com:LionWeb-org/lioncore-mps.git")
+                    url.set("https://github.com/LionWeb-org/lioncore-mps.git")
                 }
 
                 licenses {

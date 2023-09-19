@@ -38,20 +38,20 @@
 :link-LionWebAttributeFinder: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F465557625272401568
 :link-MpsLanguageConverter: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F3631234780376153588
 
-= Design of LIonCore to MPS Converter
+= Design of LionCore to MPS Converter
 
 == Representations of Languages
 image::M3-language-variants.svg[]
 
-[[LionCore-M3, LIonCore MPS M3]]
-LIonCore MPS M3::
-Module `io.lionweb.mps.m3` contains LIonCore meta-meta-model as MPS language.
-Mainly used to test conversion between MPS and LIonCore concepts.
+[[LionCore-M3, LionCore MPS M3]]
+LionCore MPS M3::
+Module `io.lionweb.mps.m3` contains LionCore meta-meta-model as MPS language.
+Mainly used to test conversion between MPS and LionCore concepts.
 
 [[JSON-M3, Java JSON]]
-LIonCore Java M3::
-Module `org.lionweb.lioncore.java` contains LIonCore meta-meta-model as Java classes.
-Used to serialize / unserialize LIonWeb M2 and M1 models to / from JSON.
+LionCore Java M3::
+Module `org.lionweb.lioncore.java` contains LionCore meta-meta-model as Java classes.
+Used to serialize / unserialize LionWeb M2 and M1 models to / from JSON.
 
 [[LanguageStructure, MPS Language structure]]
 Language structure::
@@ -104,53 +104,53 @@ Model `jetbrains.mps.smodel.adapter.ids` contains a unique identifier for a lang
 == Available Converters
 === M2
 {link-LionCore2JsonConverter}[LionCore2JsonConverter]::
-Exports LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3` to LIonWeb JSON ``Language``s.
+Exports LionWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3` to LionWeb JSON ``Language``s.
 
 {link-Json2LionCoreConverter}[Json2LionCoreConverter]::
-Imports LIonWeb JSON ``Language``s to LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3`.
+Imports LionWeb JSON ``Language``s to LionWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3`.
 
 {link-Mps2LionCoreConverter}[Mps2LionCoreConverter]::
-Converts MPS language structure models to to LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3`.
+Converts MPS language structure models to to LionWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3`.
 The converted language does _not_ need to be deployed.
 
 {link-LionCore2MpsConverter}[LionCore2MpsConverter]::
-Converts LIonWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3` to ``AImportedLanguage``s.
+Converts LionWeb M2 ``Language``s expressed in MPS language `io.lionweb.mps.m3` to ``AImportedLanguage``s.
 
 {link-Language2LionCoreConverter}[Language2LionCoreConverter]::
-Converts deployed MPS ``SLanguage``s to to LIonWeb M2 ``Language``s expressed in MPS `language io.lionweb.mps.m3`.
+Converts deployed MPS ``SLanguage``s to to LionWeb M2 ``Language``s expressed in MPS `language io.lionweb.mps.m3`.
 
 {link-IndirectLanguage2LionCoreConverter}[IndirectLanguage2LionCoreConverter]:::
-Converts the transitive closure of deployed MPS ``SLanguage``s to LIonWeb M2 ``Language``s expressed in MPS `language io.lionweb.mps.m3`.
+Converts the transitive closure of deployed MPS ``SLanguage``s to LionWeb M2 ``Language``s expressed in MPS `language io.lionweb.mps.m3`.
 
 {link-Language2JsonConverter}[Language2JsonConverter]::
-Converts MPS ``SLanguage``s to LIonWeb JSON ``Language``s.
+Converts MPS ``SLanguage``s to LionWeb JSON ``Language``s.
 The source of this converter are compiled languages inside MPS.
 
 {link-IndirectLanguage2JsonConverter}[IndirectLanguage2JsonConverter]:::
-Converts the transitive closure of MPS ``SLanguage``s to LIonWeb JSON ``Language``s.
+Converts the transitive closure of MPS ``SLanguage``s to LionWeb JSON ``Language``s.
 
 {link-Json2LanguageConverter}[Json2LanguageConverter]::
-Converts LIonWeb JSON ``Language``s to compiled ``SLanguage``s present in MPS.
+Converts LionWeb JSON ``Language``s to compiled ``SLanguage``s present in MPS.
 Fails if any part of the source language is not present in MPS.
 
 === M1
 {link-LionWeb2MpsConverter}[LionWeb2MpsConverter]::
-Converts a sequence of ``SerializedNode``s (originating from parsed LIonWeb JSON) to MPS ``SNode``s.
+Converts a sequence of ``SerializedNode``s (originating from parsed LionWeb JSON) to MPS ``SNode``s.
 Handles every `SerializedNode` as a new MPS `SNode`.
 Assumes all used languages are present as built languages in MPS.
 
 {link-AMps2LionWebConverter}[AMps2LionWebConverter]::
-Converts MPS ``SNode``s to LIonWeb JSON ``SerializedNode``s.
+Converts MPS ``SNode``s to LionWeb JSON ``SerializedNode``s.
 Subclasses decide which nodes besides the input nodes should be processed:
 
 {link-ClosureMps2LionWebConverter}[ClosureMps2LionWebConverter]:::
-Converts the transitive closure of all MPS ``SNode``s listed in the constructor, all descendants, and all references to LIonWeb JSON ``SerializedNode``s.
+Converts the transitive closure of all MPS ``SNode``s listed in the constructor, all descendants, and all references to LionWeb JSON ``SerializedNode``s.
 
 {link-DescendantMps2LionWebConverter}[DescendantMps2LionWebConverter]:::
-Converts all MPS ``SNode``s listed in the constructor, and all descendants, to LIonWeb JSON ``SerializedNode``s.
+Converts all MPS ``SNode``s listed in the constructor, and all descendants, to LionWeb JSON ``SerializedNode``s.
 
 {link-ListedMps2LionWebConverter}[ListedMps2LionWebConverter]:::
-Converts only the MPS ``SNode``s listed in the constructor to LIonWeb JSON ``SerializedNode``s.
+Converts only the MPS ``SNode``s listed in the constructor to LionWeb JSON ``SerializedNode``s.
 
 == Available id mappers
 .Overview
@@ -307,7 +307,7 @@ Access to constants like built-in elements in <<JSON-M3>>.
 Encodes and decodes with Base64_url.
 
 {link-MpsCompatibleIdEncoder}[MpsCompatibleIdEncoder]::
-Unsafe shenanigans to coerce LIonWeb ids to MPS ids.
+Unsafe shenanigans to coerce LionWeb ids to MPS ids.
 
 {link-LanguageExtensionFinder}[LanguageExtensionFinder]::
 Finds all languages extended and/or needed by a language.
@@ -537,13 +537,13 @@ class MoveParentDelta extends ANodeDelta {
 }
 ----
 
-== MPS as LIonWeb repository
+== MPS as LionWeb repository
 
 === HTTP interface
 Solution `io.lionweb.mps.server.plugin` adds some endpoints to the MPS http server:
 
 `/lionweb/bulk`::
-LIonWeb bulk protocol implementation that serves the MPS repository.
+LionWeb bulk protocol implementation that serves the MPS repository.
 Supports GET and POST requests.
 +
 Possible URLs:
@@ -557,12 +557,12 @@ including name:::
 http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)`]
 
 including project:::
-http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LIonCore-MPS`]
+http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LionCore-MPS[`http://127.0.0.1:63320/lionweb/bulk?modelRef=r:e8b696c3-e87f-426c-ad83-fa5eb08bdac7(io.lionweb.mps.m3.selfdescription.forExport)&project=LionCore-MPS`]
 +
 `project` parameter can also be used with minimal model id.
 
 `/lionweb/language`::
-LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
+LionWeb bulk protocol (read-only) that serves MPS languages in LionCore.
 Supports GET requests.
 Addresses languages by their MPS module id.
 
@@ -575,12 +575,12 @@ including name:::
 http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)`]
 
 including project:::
-http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LIonCore-MPS`]
+http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LionCore-MPS[`http://127.0.0.1:63320/lionweb/language?moduleRef=97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)&project=LionCore-MPS`]
 +
 `project` parameter can also be used with minimal module id.
 
 `/lionweb/language/key`::
-LIonWeb bulk protocol (read-only) that serves MPS languages in LIonCore.
+LionWeb bulk protocol (read-only) that serves MPS languages in LionCore.
 Supports GET requests.
 Addresses languages by their key. 
 
@@ -588,4 +588,4 @@ minimal:::
 http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language[`http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language`]
 
 including project:::
-http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language&project=LIonCore-MPS[`http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language&project=LIonCore-MPS`]
+http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language&project=LionCore-MPS[`http://127.0.0.1:63320/lionweb/language/key?key=MyHappyLittleMulti-Reference_Language&project=LionCore-MPS`]

@@ -36,7 +36,7 @@
   <node concept="2RzRRF" id="2ju2syjnJjW">
     <property role="TrG5h" value="Built-in DataTypes" />
     <property role="3HH78N" value="1" />
-    <property role="2RzON1" value="LIonCore-builtins" />
+    <property role="2RzON1" value="LionCore-builtins" />
     <node concept="2RzSJf" id="2ju2syjnJjX" role="2RzR6B">
       <property role="2RzON1" value="LionCore-builtins-String" />
       <property role="TrG5h" value="String" />
