@@ -63,7 +63,7 @@
       <concept id="7205279169712116353" name="io.lionweb.mps.structure.attribute.structure.ILionWebKey" flags="ng" index="2DM1AV">
         <property id="7205279169712116354" name="key" index="2DM1AS" />
       </concept>
-      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LIonWebEntityKey" flags="ng" index="2DM1AW" />
+      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LionWebEntityKey" flags="ng" index="2DM1AW" />
     </language>
   </registry>
   <node concept="1TIwiD" id="2fx6VTSSzMg">

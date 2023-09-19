@@ -2201,7 +2201,7 @@
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="36be1Y" id="5AGBwuDWVbR" role="28nt2d">
                     <node concept="2pJPED" id="6fYiNFagCwQ" role="36be1Z">
-                      <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                      <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                       <node concept="2pJxcG" id="6fYiNFagTcO" role="2pJxcM">
                         <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                         <node concept="WxPPo" id="6fYiNFah3IM" role="28ntcv">
@@ -2217,7 +2217,7 @@
                       </node>
                     </node>
                     <node concept="2pJPED" id="5AGBwuDXzSF" role="36be1Z">
-                      <ref role="2pJxaS" to="234s:5AGBwuDOKM4" resolve="LIonWebPartitionConcept" />
+                      <ref role="2pJxaS" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
                       <node concept="2pJxcG" id="5AGBwuDXMbd" role="2pJxcM">
                         <ref role="2pJxcJ" to="234s:5AGBwuDOKMb" resolve="partition" />
                         <node concept="WxPPo" id="5AGBwuDXZGM" role="28ntcv">
@@ -2397,7 +2397,7 @@
                 <node concept="2pIpSj" id="6fYiNFahKk2" role="2pJxcM">
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="2pJPED" id="6fYiNFahKk3" role="28nt2d">
-                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                     <node concept="2pJxcG" id="6fYiNFahKk4" role="2pJxcM">
                       <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                       <node concept="WxPPo" id="6fYiNFahKk5" role="28ntcv">
@@ -2577,7 +2577,7 @@
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="36be1Y" id="5AGBwuDYSdf" role="28nt2d">
                     <node concept="2pJPED" id="6fYiNFaim7F" role="36be1Z">
-                      <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                      <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                       <node concept="2pJxcG" id="6fYiNFaim7G" role="2pJxcM">
                         <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                         <node concept="WxPPo" id="6fYiNFaim7H" role="28ntcv">
@@ -2593,7 +2593,7 @@
                       </node>
                     </node>
                     <node concept="2pJPED" id="5AGBwuDZsBs" role="36be1Z">
-                      <ref role="2pJxaS" to="234s:5AGBwuDOKLV" resolve="LIonWebOptionalProperty" />
+                      <ref role="2pJxaS" to="234s:5AGBwuDOKLV" resolve="LionWebOptionalProperty" />
                       <node concept="2pJxcG" id="5AGBwuDZOC$" role="2pJxcM">
                         <ref role="2pJxcJ" to="234s:5AGBwuDOKM2" resolve="optional" />
                         <node concept="WxPPo" id="5AGBwuE08T8" role="28ntcv">
@@ -2994,7 +2994,7 @@
                 <node concept="2pIpSj" id="6fYiNFaiMb8" role="2pJxcM">
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="2pJPED" id="6fYiNFaiMb9" role="28nt2d">
-                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                     <node concept="2pJxcG" id="6fYiNFaiMba" role="2pJxcM">
                       <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                       <node concept="WxPPo" id="6fYiNFaiMbb" role="28ntcv">
@@ -3759,7 +3759,7 @@
                 <node concept="2pIpSj" id="6fYiNFaje6L" role="2pJxcM">
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="2pJPED" id="6fYiNFaje6M" role="28nt2d">
-                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                     <node concept="2pJxcG" id="6fYiNFaje6N" role="2pJxcM">
                       <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                       <node concept="WxPPo" id="6fYiNFaje6O" role="28ntcv">
@@ -4015,7 +4015,7 @@
                 <node concept="2pIpSj" id="6fYiNFajQsR" role="2pJxcM">
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="2pJPED" id="6fYiNFajQsS" role="28nt2d">
-                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                     <node concept="2pJxcG" id="6fYiNFajQsT" role="2pJxcM">
                       <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                       <node concept="WxPPo" id="6fYiNFajQsU" role="28ntcv">
@@ -4217,7 +4217,7 @@
                 <node concept="2pIpSj" id="6fYiNFakmnr" role="2pJxcM">
                   <ref role="2pIpSl" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                   <node concept="2pJPED" id="6fYiNFakmns" role="28nt2d">
-                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                    <ref role="2pJxaS" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                     <node concept="2pJxcG" id="6fYiNFakmnt" role="2pJxcM">
                       <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                       <node concept="WxPPo" id="6fYiNFakmnu" role="28ntcv">
@@ -4552,7 +4552,7 @@
               <ref role="37wK5l" to="mhbf:~SModel.addRootNode(org.jetbrains.mps.openapi.model.SNode)" resolve="addRootNode" />
               <node concept="2pJPEk" id="6fYiNFaeCQm" role="37wK5m">
                 <node concept="2pJPED" id="6fYiNFaeCQn" role="2pJPEn">
-                  <ref role="2pJxaS" to="234s:6fYiNFad_9U" resolve="LIonWebLanguageKey" />
+                  <ref role="2pJxaS" to="234s:6fYiNFad_9U" resolve="LionWebLanguageKey" />
                   <node concept="2pJxcG" id="6fYiNFaeQ8$" role="2pJxcM">
                     <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                     <node concept="WxPPo" id="6fYiNFaeSy5" role="28ntcv">
@@ -6230,14 +6230,14 @@
                       </node>
                       <node concept="3CFZ6_" id="5AGBwuEKkTL" role="2OqNvi">
                         <node concept="3CFYIy" id="5AGBwuEKmV4" role="3CFYIz">
-                          <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+                          <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
                         </node>
                       </node>
                     </node>
                     <node concept="TSZUe" id="5AGBwuEKTtJ" role="2OqNvi">
                       <node concept="2pJPEk" id="5AGBwuEKwr2" role="25WWJ7">
                         <node concept="2pJPED" id="5AGBwuEKwr4" role="2pJPEn">
-                          <ref role="2pJxaS" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+                          <ref role="2pJxaS" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
                           <node concept="2pIpSj" id="5AGBwuEKDoD" role="2pJxcM">
                             <ref role="2pIpSl" to="234s:5AGBwuDBtEv" resolve="reference" />
                             <node concept="36biLy" id="5AGBwuEKFob" role="28nt2d">
