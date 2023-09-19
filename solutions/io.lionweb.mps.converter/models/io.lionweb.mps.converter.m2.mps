@@ -69,6 +69,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -97,6 +98,11 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
     </language>
   </registry>
@@ -966,6 +972,57 @@
     </node>
     <node concept="3Tm1VV" id="2fx6VTSMEp_" role="1B3o_S" />
     <node concept="3uibUv" id="2fx6VTSMEpA" role="1zkMxy">
+      <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    </node>
+  </node>
+  <node concept="312cEu" id="18UigYQKNkB">
+    <property role="3GE5qa" value="exceptions" />
+    <property role="TrG5h" value="AnnotatedUnavailableException" />
+    <node concept="3clFbW" id="18UigYQKOX$" role="jymVt">
+      <node concept="3cqZAl" id="18UigYQKOX_" role="3clF45" />
+      <node concept="3Tm1VV" id="18UigYQKOXA" role="1B3o_S" />
+      <node concept="3clFbS" id="18UigYQKOXB" role="3clF47">
+        <node concept="XkiVB" id="18UigYQKOXC" role="3cqZAp">
+          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <node concept="3cpWs3" id="18UigYQKOXF" role="37wK5m">
+            <node concept="3cpWs3" id="18UigYQKOXG" role="3uHU7B">
+              <node concept="3cpWs3" id="18UigYQKOXH" role="3uHU7B">
+                <node concept="Xl_RD" id="18UigYQKOXI" role="3uHU7B">
+                  <property role="Xl_RC" value="element " />
+                </node>
+                <node concept="2EnYce" id="18UigYQKOXJ" role="3uHU7w">
+                  <node concept="37vLTw" id="18UigYQKOXK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="18UigYQKOXQ" resolve="source" />
+                  </node>
+                  <node concept="2qgKlT" id="18UigYQKOXL" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                  </node>
+                </node>
+              </node>
+              <node concept="Xl_RD" id="18UigYQKOXM" role="3uHU7w">
+                <property role="Xl_RC" value=" declares more than one annotated classifier " />
+              </node>
+            </node>
+            <node concept="37vLTw" id="18UigYQKOXN" role="3uHU7w">
+              <ref role="3cqZAo" node="18UigYQKPo$" resolve="annotationTargets" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="18UigYQKOXQ" role="3clF46">
+        <property role="TrG5h" value="source" />
+        <node concept="3Tqbb2" id="18UigYQKOXR" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="18UigYQKPo$" role="3clF46">
+        <property role="TrG5h" value="annotationTargets" />
+        <node concept="A3Dl8" id="18UigYQKPp_" role="1tU5fm">
+          <node concept="3qTvmN" id="18UigYR8JUG" role="A3Ik2" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="18UigYQKOXs" role="jymVt" />
+    <node concept="3Tm1VV" id="18UigYQKNkC" role="1B3o_S" />
+    <node concept="3uibUv" id="18UigYQKNm5" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
     </node>
   </node>
