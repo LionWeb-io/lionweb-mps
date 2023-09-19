@@ -231,5 +231,79 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="18UigYQyrKK">
+    <property role="3GE5qa" value="classifier" />
+    <ref role="1M2myG" to="h3y3:18UigYQyrxa" resolve="Annotation" />
+    <node concept="1N5Pfh" id="18UigYQyrKL" role="1Mr941">
+      <ref role="1N5Vy1" to="h3y3:18UigYQyrxd" resolve="extends" />
+      <node concept="3dgokm" id="18UigYQyrMp" role="1N6uqs">
+        <node concept="3clFbS" id="18UigYQyrMq" role="2VODD2">
+          <node concept="3clFbF" id="18UigYQyrMr" role="3cqZAp">
+            <node concept="2YIFZM" id="18UigYQyrMs" role="3clFbG">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="18UigYQyrMt" role="37wK5m">
+                <node concept="2OqwBi" id="18UigYQyrMu" role="2Oq$k0">
+                  <node concept="2OqwBi" id="18UigYQyrMv" role="2Oq$k0">
+                    <node concept="2rP1CM" id="18UigYQyrMw" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="18UigYQyrMx" role="2OqNvi">
+                      <node concept="1xMEDy" id="18UigYQyrMy" role="1xVPHs">
+                        <node concept="chp4Y" id="18UigYQyrMz" role="ri$Ld">
+                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Language" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="18UigYQyrM$" role="2OqNvi">
+                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleEntities" />
+                  </node>
+                </node>
+                <node concept="v3k3i" id="18UigYQyrM_" role="2OqNvi">
+                  <node concept="chp4Y" id="18UigYQyrMA" role="v3oSu">
+                    <ref role="cht4Q" to="h3y3:18UigYQyrxa" resolve="Annotation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="18UigYQysad" role="1Mr941">
+      <ref role="1N5Vy1" to="h3y3:18UigYQyrxb" resolve="annotates" />
+      <node concept="3dgokm" id="18UigYQyscS" role="1N6uqs">
+        <node concept="3clFbS" id="18UigYQyscT" role="2VODD2">
+          <node concept="3clFbF" id="18UigYQyscU" role="3cqZAp">
+            <node concept="2YIFZM" id="18UigYQyscV" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="18UigYQyscW" role="37wK5m">
+                <node concept="2OqwBi" id="18UigYQyscX" role="2Oq$k0">
+                  <node concept="2OqwBi" id="18UigYQyscY" role="2Oq$k0">
+                    <node concept="2rP1CM" id="18UigYQyscZ" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="18UigYQysd0" role="2OqNvi">
+                      <node concept="1xMEDy" id="18UigYQysd1" role="1xVPHs">
+                        <node concept="chp4Y" id="18UigYQysd2" role="ri$Ld">
+                          <ref role="cht4Q" to="h3y3:2ju2syjkngz" resolve="Language" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="18UigYQysd3" role="2OqNvi">
+                    <ref role="37wK5l" to="thsk:59Df55kqLli" resolve="allVisibleEntities" />
+                  </node>
+                </node>
+                <node concept="v3k3i" id="18UigYQysd4" role="2OqNvi">
+                  <node concept="chp4Y" id="18UigYQysd5" role="v3oSu">
+                    <ref role="cht4Q" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

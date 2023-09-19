@@ -70,7 +70,9 @@
       <concept id="6461713321117473366" name="io.lionweb.mps.structure.attribute.structure.LionWebSmartReference" flags="ng" index="3Kckhh">
         <reference id="6461713321117473439" name="reference" index="3Kckio" />
       </concept>
-      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W" />
+      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W">
+        <property id="6461713321120959618" name="optional" index="3KvTa5" />
+      </concept>
       <concept id="6461713321120959620" name="io.lionweb.mps.structure.attribute.structure.LionWebPartitionConcept" flags="ng" index="3KvTa3">
         <property id="6461713321120959627" name="partition" index="3KvTac" />
       </concept>
@@ -291,6 +293,9 @@
     <node concept="3Kckhh" id="5AGBwuDBRXv" role="lGtFl">
       <ref role="3Kckio" node="2ju2syjkmlP" resolve="extends" />
     </node>
+    <node concept="3Kckhh" id="18UigYQyrxz" role="lGtFl">
+      <ref role="3Kckio" node="18UigYQyrxg" resolve="implements" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2ju2syjkngz">
     <property role="EcuMT" value="2656571587264869411" />
@@ -440,6 +445,54 @@
   </node>
   <node concept="2DM1_0" id="5AGBwuDAKCg">
     <property role="2DM1AS" value="LionCore-M3" />
+  </node>
+  <node concept="1TIwiD" id="18UigYQyrxa">
+    <property role="EcuMT" value="1313442573167736906" />
+    <property role="3GE5qa" value="classifier" />
+    <property role="TrG5h" value="Annotation" />
+    <property role="34LRSv" value="Annotation" />
+    <ref role="1TJDcQ" node="2ju2syjkl4i" resolve="Classifier" />
+    <node concept="1TJgyj" id="18UigYQyrxb" role="1TKVEi">
+      <property role="IQ2ns" value="1313442573167736907" />
+      <property role="20kJfa" value="annotates" />
+      <ref role="20lvS9" node="2ju2syjkl4i" resolve="Classifier" />
+      <node concept="2DM1AW" id="18UigYQyrxv" role="lGtFl">
+        <property role="2DM1AS" value="Annotation-annotates" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="18UigYQyrxd" role="1TKVEi">
+      <property role="IQ2ns" value="1313442573167736909" />
+      <property role="20kJfa" value="extends" />
+      <ref role="20lvS9" node="18UigYQyrxa" resolve="Annotation" />
+      <node concept="2DM1AW" id="18UigYQyrxx" role="lGtFl">
+        <property role="2DM1AS" value="Annotation-extends" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="18UigYQyrxg" role="1TKVEi">
+      <property role="IQ2ns" value="1313442573167736912" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="implements" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+      <node concept="2DM1AW" id="18UigYQyrxt" role="lGtFl">
+        <property role="2DM1AS" value="Annotation-implements" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="18UigYQyrxk" role="1TKVEl">
+      <property role="IQ2nx" value="1313442573167736916" />
+      <property role="TrG5h" value="multiple" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="2DM1AW" id="18UigYQyrxo" role="lGtFl">
+        <property role="2DM1AS" value="Annotation-multiple" />
+      </node>
+      <node concept="3KvT9W" id="18UigYQyrxq" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="18UigYQyrxm" role="lGtFl">
+      <property role="2DM1AS" value="Annotation" />
+    </node>
+    <node concept="3KvTa3" id="18UigYQyrxB" role="lGtFl" />
   </node>
 </model>
 
