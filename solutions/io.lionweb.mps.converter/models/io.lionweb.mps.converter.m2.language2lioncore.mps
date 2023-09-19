@@ -2013,7 +2013,7 @@
               </node>
             </node>
             <node concept="liA8E" id="39$JcGGmwqv" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:24j7TNH5GN0" resolve="lwExtendedLanguages" />
+              <ref role="37wK5l" to="apzt:18UigYQ2E3M" resolve="lwStructureDependencies" />
             </node>
           </node>
         </node>
@@ -4675,7 +4675,7 @@
               </node>
             </node>
             <node concept="liA8E" id="39$JcGGvo6p" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:24j7TNH5GN0" resolve="lwExtendedLanguages" />
+              <ref role="37wK5l" to="apzt:18UigYQ2E3M" resolve="lwStructureDependencies" />
             </node>
           </node>
         </node>

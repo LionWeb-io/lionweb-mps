@@ -1,3 +1,5 @@
+// based on https://github.com/specificlanguages/mps-gradle-plugin-sample
+
 plugins {
     id("com.specificlanguages.mps") version "1.5.0"
     `maven-publish`
@@ -18,6 +20,7 @@ repositories {
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
     "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.28")
+	"generation" ("de.itemis.mps:extensions:2021.1.2365.a4d7bb2")
 }
 
 configurations.getByName("libs") {
@@ -63,7 +66,7 @@ publishing {
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
-            // versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
+            versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
 
             pom {
                 name.set("lionweb-mps")

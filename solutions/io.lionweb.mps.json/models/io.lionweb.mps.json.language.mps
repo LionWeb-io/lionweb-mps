@@ -482,7 +482,7 @@
               <ref role="3cqZAo" node="51EPk3sB8lb" resolve="finder" />
             </node>
             <node concept="liA8E" id="39$JcGGvo6p" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:51EPk3sDz0X" resolve="lwRequiredLanguages" />
+              <ref role="37wK5l" to="apzt:18UigYQ2E3M" resolve="lwStructureDependencies" />
             </node>
           </node>
         </node>
@@ -2459,7 +2459,7 @@
               </node>
             </node>
             <node concept="liA8E" id="39$JcGGwnP8" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:24j7TNH9nhk" resolve="lwDependentLanguages" />
+              <ref role="37wK5l" to="apzt:18UigYQ2E3M" resolve="lwStructureDependencies" />
             </node>
           </node>
         </node>
