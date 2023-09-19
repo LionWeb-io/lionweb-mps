@@ -6944,7 +6944,7 @@
     <node concept="3UR2Jj" id="1ilOlIEO1$I" role="lGtFl">
       <node concept="TZ5HA" id="1ilOlIEO1$J" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIEO1$K" role="1dT_Ay">
-          <property role="1dT_AB" value="Converts LIonWeb M2 languages expressed in MPS language io.lionweb.mps.m3 to " />
+          <property role="1dT_AB" value="Converts LionWeb M2 languages expressed in MPS language io.lionweb.mps.m3 to " />
         </node>
         <node concept="1dT_AA" id="1ilOlIEOaXt" role="1dT_Ay">
           <node concept="92FcH" id="1ilOlIEOaXz" role="qph3F">
@@ -19599,7 +19599,7 @@
           <node concept="1dT_AC" id="3ePT3MhRgPy" role="1dT_Ay" />
         </node>
         <node concept="TUZQ0" id="3ePT3MhRgPz" role="3nqlJM">
-          <property role="TUZQ4" value="property value converted from LIonCore" />
+          <property role="TUZQ4" value="property value converted from LionCore" />
           <node concept="zr_55" id="3ePT3MhRgP_" role="zr_5Q">
             <ref role="zr_51" node="3ePT3McgJ40" resolve="lcValue" />
           </node>
@@ -20205,7 +20205,7 @@
           <node concept="1dT_AC" id="3ePT3MhTuWW" role="1dT_Ay" />
         </node>
         <node concept="TUZQ0" id="3ePT3MhTuWX" role="3nqlJM">
-          <property role="TUZQ4" value="List of all LIonCore nodes to consider." />
+          <property role="TUZQ4" value="List of all LionCore nodes to consider." />
           <node concept="zr_55" id="3ePT3MhTuWZ" role="zr_5Q">
             <ref role="zr_51" node="3ePT3Mcmd0z" resolve="lcList" />
           </node>
@@ -21571,19 +21571,19 @@
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhRlbF" role="3nqlJM">
-        <property role="TUZQ4" value="Common supertype of both LIonCore types." />
+        <property role="TUZQ4" value="Common supertype of both LionCore types." />
         <node concept="zr_56" id="3ePT3MhRlbH" role="zr_5Q">
           <ref role="zr_51" node="3ePT3McmcVF" resolve="LC_SUPER" />
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhRlbI" role="3nqlJM">
-        <property role="TUZQ4" value="First possible LIonCore type." />
+        <property role="TUZQ4" value="First possible LionCore type." />
         <node concept="zr_56" id="3ePT3MhRlbK" role="zr_5Q">
           <ref role="zr_51" node="3ePT3McmcWH" resolve="LC_A" />
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhRlbL" role="3nqlJM">
-        <property role="TUZQ4" value="Second possible LIonCore type." />
+        <property role="TUZQ4" value="Second possible LionCore type." />
         <node concept="zr_56" id="3ePT3MhRlbN" role="zr_5Q">
           <ref role="zr_51" node="3ePT3McmcXS" resolve="LC_B" />
         </node>
@@ -21741,7 +21741,7 @@
           <node concept="1dT_AC" id="3ePT3MhVKup" role="1dT_Ay" />
         </node>
         <node concept="TUZQ0" id="3ePT3MhVKuq" role="3nqlJM">
-          <property role="TUZQ4" value="List of all LIonCore nodes to consider." />
+          <property role="TUZQ4" value="List of all LionCore nodes to consider." />
           <node concept="zr_55" id="3ePT3MhVKus" role="zr_5Q">
             <ref role="zr_51" node="3ePT3Mf920K" resolve="lcList" />
           </node>
@@ -22404,7 +22404,7 @@
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhV2jM" role="3nqlJM">
-        <property role="TUZQ4" value="LIonCore type" />
+        <property role="TUZQ4" value="LionCore type" />
         <node concept="zr_56" id="3ePT3MhV2jO" role="zr_5Q">
           <ref role="zr_51" node="3ePT3Mf91XX" resolve="LC" />
         </node>
@@ -22596,13 +22596,13 @@
           <node concept="1dT_AC" id="3ePT3MhUiTE" role="1dT_Ay" />
         </node>
         <node concept="TUZQ0" id="3ePT3MhUiTF" role="3nqlJM">
-          <property role="TUZQ4" value="LIonCore hosting container." />
+          <property role="TUZQ4" value="LionCore hosting container." />
           <node concept="zr_55" id="3ePT3MhUiTH" role="zr_5Q">
             <ref role="zr_51" node="3ePT3Mg1PbW" resolve="lcContainer" />
           </node>
         </node>
         <node concept="TUZQ0" id="3ePT3MhUiTI" role="3nqlJM">
-          <property role="TUZQ4" value="LIonCore reference target." />
+          <property role="TUZQ4" value="LionCore reference target." />
           <node concept="zr_55" id="3ePT3MhUiTK" role="zr_5Q">
             <ref role="zr_51" node="3ePT3MglKVH" resolve="lcTarget" />
           </node>
@@ -23125,13 +23125,13 @@
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhTxIw" role="3nqlJM">
-        <property role="TUZQ4" value="LIonCore hosting type." />
+        <property role="TUZQ4" value="LionCore hosting type." />
         <node concept="zr_56" id="3ePT3MhTxIy" role="zr_5Q">
           <ref role="zr_51" node="3ePT3Mg1JSd" resolve="LC_CONTAINER" />
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhTxIz" role="3nqlJM">
-        <property role="TUZQ4" value="LIonCore targeted type." />
+        <property role="TUZQ4" value="LionCore targeted type." />
         <node concept="zr_56" id="3ePT3MhTxI_" role="zr_5Q">
           <ref role="zr_51" node="3ePT3MgkKbi" resolve="LC_TARGET" />
         </node>
@@ -23360,13 +23360,13 @@
           <node concept="1dT_AC" id="3ePT3MhWZnr" role="1dT_Ay" />
         </node>
         <node concept="TUZQ0" id="3ePT3MhWZns" role="3nqlJM">
-          <property role="TUZQ4" value="LIonCore hosting container." />
+          <property role="TUZQ4" value="LionCore hosting container." />
           <node concept="zr_55" id="3ePT3MhWZnu" role="zr_5Q">
             <ref role="zr_51" node="3ePT3Mg$j7$" resolve="lcContainer" />
           </node>
         </node>
         <node concept="TUZQ0" id="3ePT3MhWZnv" role="3nqlJM">
-          <property role="TUZQ4" value="LIonCore reference targets." />
+          <property role="TUZQ4" value="LionCore reference targets." />
           <node concept="zr_55" id="3ePT3MhWZnx" role="zr_5Q">
             <ref role="zr_51" node="3ePT3Mg$j7A" resolve="lcTargets" />
           </node>
@@ -24070,13 +24070,13 @@
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhVVG5" role="3nqlJM">
-        <property role="TUZQ4" value="LIonCore hosting type." />
+        <property role="TUZQ4" value="LionCore hosting type." />
         <node concept="zr_56" id="3ePT3MhVVG7" role="zr_5Q">
           <ref role="zr_51" node="3ePT3Mg$ja9" resolve="LC_CONTAINER" />
         </node>
       </node>
       <node concept="TUZQ0" id="3ePT3MhVVG8" role="3nqlJM">
-        <property role="TUZQ4" value="LIonCore targeted type." />
+        <property role="TUZQ4" value="LionCore targeted type." />
         <node concept="zr_56" id="3ePT3MhVVGa" role="zr_5Q">
           <ref role="zr_51" node="3ePT3Mg$jab" resolve="LC_TARGET" />
         </node>

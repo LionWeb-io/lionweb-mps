@@ -657,7 +657,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="7jdzMamcPfk" role="3K4GZi">
-              <property role="Xl_RC" value="(unconnected LIonWeb)" />
+              <property role="Xl_RC" value="(unconnected LionWeb)" />
             </node>
             <node concept="3y3z36" id="7jdzMamcMo3" role="3K4Cdx">
               <node concept="10Nm6u" id="7jdzMamcMOg" role="3uHU7w" />
@@ -837,7 +837,7 @@
                 <node concept="1pGfFk" id="7jdzMamb2TK" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
                   <node concept="Xl_RD" id="7jdzMamb2TL" role="37wK5m">
-                    <property role="Xl_RC" value="LIonWeb connector not set" />
+                    <property role="Xl_RC" value="LionWeb connector not set" />
                   </node>
                 </node>
               </node>
@@ -965,7 +965,7 @@
       <node concept="3clFbS" id="7jdzMambC8_" role="3clF47">
         <node concept="3clFbF" id="7jdzMambC8C" role="3cqZAp">
           <node concept="Xl_RD" id="7jdzMambCeC" role="3clFbG">
-            <property role="Xl_RC" value="LIonWeb Data Source" />
+            <property role="Xl_RC" value="LionWeb Data Source" />
           </node>
         </node>
       </node>
@@ -975,7 +975,7 @@
     </node>
   </node>
   <node concept="312cEu" id="7jdzMambCzI">
-    <property role="TrG5h" value="LIonWebDataSource" />
+    <property role="TrG5h" value="LionWebDataSource" />
     <node concept="3Tm1VV" id="7jdzMambCzJ" role="1B3o_S" />
     <node concept="3uibUv" id="7jdzMambCEu" role="1zkMxy">
       <ref role="3uigEE" to="ends:~DataSourceBase" resolve="DataSourceBase" />

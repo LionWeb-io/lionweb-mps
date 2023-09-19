@@ -811,7 +811,7 @@
     <node concept="3UR2Jj" id="1ilOlIESDR1" role="lGtFl">
       <node concept="TZ5HA" id="1ilOlIESDR2" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIESDR3" role="1dT_Ay">
-          <property role="1dT_AB" value="Unsafe shenanigans to coerce LIonWeb ids to MPS ids." />
+          <property role="1dT_AB" value="Unsafe shenanigans to coerce LionWeb ids to MPS ids." />
         </node>
       </node>
       <node concept="TZ5HI" id="4oHUzWXRgVs" role="3nqlJM">
@@ -1071,12 +1071,12 @@
           </node>
         </node>
       </node>
-      <node concept="3Tmbuc" id="18UigYQ7p2C" role="1B3o_S" />
       <node concept="A3Dl8" id="4pht$Xswp4d" role="3clF45">
         <node concept="3uibUv" id="4pht$Xswp4E" role="A3Ik2">
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
         </node>
       </node>
+      <node concept="3Tmbuc" id="18UigYQ7p2C" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="24j7TNH5_Ef" role="jymVt" />
     <node concept="3clFb_" id="24j7TNH5GN0" role="jymVt">
@@ -1127,12 +1127,12 @@
           </node>
         </node>
       </node>
-      <node concept="3Tmbuc" id="18UigYQ7ti7" role="1B3o_S" />
       <node concept="A3Dl8" id="51EPk3sAg9L" role="3clF45">
         <node concept="3uibUv" id="51EPk3sAgdi" role="A3Ik2">
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
         </node>
       </node>
+      <node concept="3Tmbuc" id="18UigYQ7ti7" role="1B3o_S" />
     </node>
     <node concept="3clFb_" id="24j7TNH9nhk" role="jymVt">
       <property role="TrG5h" value="lwDependentLanguages" />
@@ -1375,12 +1375,12 @@
           </node>
         </node>
       </node>
-      <node concept="3Tmbuc" id="18UigYQ7yzQ" role="1B3o_S" />
       <node concept="A3Dl8" id="24j7TNH3oiF" role="3clF45">
         <node concept="3uibUv" id="24j7TNH3oiG" role="A3Ik2">
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
         </node>
       </node>
+      <node concept="3Tmbuc" id="18UigYQ7yzQ" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="24j7TNH5xhw" role="jymVt" />
     <node concept="3clFb_" id="51EPk3sDz0X" role="jymVt">

@@ -1803,7 +1803,7 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3Kqiw5y_U0U" role="1dT_Ay">
-          <property role="1dT_AB" value="s (originating from parsed LIonWeb JSON) to MPS " />
+          <property role="1dT_AB" value="s (originating from parsed LionWeb JSON) to MPS " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yA5f2" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yA5fd" role="qph3F">
@@ -3711,7 +3711,7 @@
     <node concept="3UR2Jj" id="3Kqiw5y_Zj7" role="lGtFl">
       <node concept="TZ5HA" id="3Kqiw5y_Zj8" role="TZ5H$">
         <node concept="1dT_AC" id="3Kqiw5y_Zj9" role="1dT_Ay">
-          <property role="1dT_AB" value="Imports LIonWeb JSON " />
+          <property role="1dT_AB" value="Imports LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yA1c4" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yA1ca" role="qph3F">
@@ -4222,7 +4222,7 @@
     <node concept="3UR2Jj" id="3Lj28wlABWG" role="lGtFl">
       <node concept="TZ5HA" id="3Lj28wlABWH" role="TZ5H$">
         <node concept="1dT_AC" id="3Lj28wlABWI" role="1dT_Ay">
-          <property role="1dT_AB" value="Cached lookup of SLanguage elements, knows about LIonWeb annotations." />
+          <property role="1dT_AB" value="Cached lookup of SLanguage elements, knows about LionWeb annotations." />
         </node>
       </node>
       <node concept="TZ5HA" id="68Be_yD$gg" role="TZ5H$">
@@ -4264,7 +4264,7 @@
       </node>
       <node concept="TZ5HA" id="68Be_yDCXf" role="TZ5H$">
         <node concept="1dT_AC" id="68Be_yDCXg" role="1dT_Ay">
-          <property role="1dT_AB" value="3. Try lookup of LIonWeb keys in attributes " />
+          <property role="1dT_AB" value="3. Try lookup of LionWeb keys in attributes " />
         </node>
         <node concept="1dT_AA" id="68Be_yDD8F" role="1dT_Ay">
           <node concept="92FcH" id="68Be_yDD8L" role="qph3F">

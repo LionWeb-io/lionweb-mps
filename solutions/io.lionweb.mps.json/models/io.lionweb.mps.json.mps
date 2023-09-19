@@ -1357,7 +1357,7 @@
     <node concept="3UR2Jj" id="3Kqiw5yATqc" role="lGtFl">
       <node concept="TZ5HA" id="3Kqiw5yATqd" role="TZ5H$">
         <node concept="1dT_AC" id="3Kqiw5yATqe" role="1dT_Ay">
-          <property role="1dT_AB" value="Abstract base class to help serializing LIonWeb JSON models." />
+          <property role="1dT_AB" value="Abstract base class to help serializing LionWeb JSON models." />
         </node>
       </node>
     </node>

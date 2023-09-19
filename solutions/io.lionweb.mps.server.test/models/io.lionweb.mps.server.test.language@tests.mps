@@ -466,7 +466,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="6jI_U5eGcEi" role="3tpDZB">
-              <property role="Xl_RC" value="LIonCore-builtins-String" />
+              <property role="Xl_RC" value="LionCore-builtins-String" />
             </node>
           </node>
         </node>
@@ -603,7 +603,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="6jI_U5eGhkW" role="3tpDZB">
-              <property role="Xl_RC" value="LIonCore-builtins-Node" />
+              <property role="Xl_RC" value="LionCore-builtins-Node" />
             </node>
           </node>
         </node>
@@ -734,7 +734,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="6jI_U5eGvHd" role="3tpDZB">
-              <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+              <property role="Xl_RC" value="LionCore-builtins-INamed" />
             </node>
           </node>
         </node>

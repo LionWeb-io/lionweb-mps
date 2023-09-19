@@ -254,7 +254,7 @@
               <node concept="liA8E" id="4oHUzWXGmNb" role="2OqNvi">
                 <ref role="37wK5l" to="y7p:5AGBwuFL9yX" resolve="findLanguageByKey" />
                 <node concept="Xl_RD" id="4oHUzWXGmNc" role="37wK5m">
-                  <property role="Xl_RC" value="LIonCore-M3" />
+                  <property role="Xl_RC" value="LionCore-M3" />
                 </node>
               </node>
             </node>
@@ -293,7 +293,7 @@
               <node concept="liA8E" id="4oHUzWXGmR9" role="2OqNvi">
                 <ref role="37wK5l" to="y7p:5AGBwuFL9yX" resolve="findLanguageByKey" />
                 <node concept="Xl_RD" id="4oHUzWXGmRa" role="37wK5m">
-                  <property role="Xl_RC" value="LIonCore-builtins" />
+                  <property role="Xl_RC" value="LionCore-builtins" />
                 </node>
               </node>
             </node>
@@ -565,7 +565,7 @@
             <ref role="3cqZAo" node="4oHUzWXGBwM" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXGBSE" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-M3" />
+            <property role="Xl_RC" value="LionCore-M3" />
           </node>
         </node>
       </node>
@@ -602,7 +602,7 @@
             <ref role="3cqZAo" node="4oHUzWXGB_x" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXGB_G" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins" />
+            <property role="Xl_RC" value="LionCore-builtins" />
           </node>
         </node>
       </node>
@@ -778,7 +778,7 @@
             <ref role="3cqZAo" node="4oHUzWXGFrn" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXGFry" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-M3" />
+            <property role="Xl_RC" value="LionCore-M3" />
           </node>
         </node>
       </node>
@@ -827,7 +827,7 @@
             <ref role="3cqZAo" node="4oHUzWXGFrB" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXGFrM" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins" />
+            <property role="Xl_RC" value="LionCore-builtins" />
           </node>
         </node>
       </node>
@@ -1747,7 +1747,7 @@
             <ref role="3cqZAo" node="4oHUzWXLEM7" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXLEMh" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins-String" />
+            <property role="Xl_RC" value="LionCore-builtins-String" />
           </node>
         </node>
       </node>
@@ -1782,7 +1782,7 @@
             <ref role="3cqZAo" node="4oHUzWXLEMm" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXLEMw" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+            <property role="Xl_RC" value="LionCore-builtins-Integer" />
           </node>
         </node>
       </node>
@@ -1817,7 +1817,7 @@
             <ref role="3cqZAo" node="4oHUzWXLEM_" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXLEMJ" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+            <property role="Xl_RC" value="LionCore-builtins-Boolean" />
           </node>
         </node>
       </node>
@@ -1868,7 +1868,7 @@
             <ref role="3cqZAo" node="4oHUzWXLEMU" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXLEN4" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+            <property role="Xl_RC" value="LionCore-builtins-JSON" />
           </node>
         </node>
       </node>
@@ -1902,7 +1902,7 @@
             <ref role="3cqZAo" node="4oHUzWXLJlZ" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXLJm9" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins-Node" />
+            <property role="Xl_RC" value="LionCore-builtins-Node" />
           </node>
         </node>
       </node>
@@ -1936,7 +1936,7 @@
             <ref role="3cqZAo" node="4oHUzWXLKpQ" resolve="key" />
           </node>
           <node concept="Xl_RD" id="4oHUzWXLKq0" role="3tpDZB">
-            <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+            <property role="Xl_RC" value="LionCore-builtins-INamed" />
           </node>
         </node>
       </node>

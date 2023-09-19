@@ -767,7 +767,7 @@
         <node concept="3clFbF" id="3szW5_UqtVz" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqtV$" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_UqwyM" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-String" />
+              <property role="Xl_RC" value="LionCore-builtins-String" />
             </node>
             <node concept="2OqwBi" id="3szW5_UqtVB" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_UqtVC" role="2Oq$k0" />
@@ -884,7 +884,7 @@
         <node concept="3clFbF" id="3szW5_UqybX" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqybY" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_Uq_c7" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+              <property role="Xl_RC" value="LionCore-builtins-Boolean" />
             </node>
             <node concept="2OqwBi" id="3szW5_Uqyc1" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_Uqyc2" role="2Oq$k0" />
@@ -1001,7 +1001,7 @@
         <node concept="3clFbF" id="3szW5_UqABL" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqABM" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_UqD5j" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+              <property role="Xl_RC" value="LionCore-builtins-Integer" />
             </node>
             <node concept="2OqwBi" id="3szW5_UqABP" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_UqABQ" role="2Oq$k0" />
@@ -1146,7 +1146,7 @@
               <ref role="3cqZAo" node="5AGBwuFF_qd" resolve="KEY_M3_LANGUAGE" />
             </node>
             <node concept="Xl_RD" id="5uFjJmiVmRz" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-M3" />
+              <property role="Xl_RC" value="LionCore-M3" />
             </node>
           </node>
         </node>
@@ -1239,7 +1239,7 @@
         <node concept="3clFbF" id="5uFjJmiVoPY" role="3cqZAp">
           <node concept="37vLTI" id="5uFjJmiVoPZ" role="3clFbG">
             <node concept="Xl_RD" id="5uFjJmiVrK4" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins" />
+              <property role="Xl_RC" value="LionCore-builtins" />
             </node>
             <node concept="37vLTw" id="5uFjJmiVoQ9" role="37vLTJ">
               <ref role="3cqZAo" node="5AGBwuFFBJV" resolve="KEY_BUILTIN_LANGUAGE" />
@@ -1392,7 +1392,7 @@
         <node concept="3clFbF" id="3szW5_UqECW" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqECX" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_UqHea" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+              <property role="Xl_RC" value="LionCore-builtins-JSON" />
             </node>
             <node concept="2OqwBi" id="3szW5_UqED0" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_UqED1" role="2Oq$k0" />
@@ -1546,7 +1546,7 @@
         <node concept="3clFbF" id="3szW5_UqIDK" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqIDL" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_UqLD2" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-Node" />
+              <property role="Xl_RC" value="LionCore-builtins-Node" />
             </node>
             <node concept="2OqwBi" id="3szW5_UqIDO" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_UqIDP" role="2Oq$k0" />
@@ -1699,7 +1699,7 @@
         <node concept="3clFbF" id="3szW5_UqMDD" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqMDE" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_UqPab" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+              <property role="Xl_RC" value="LionCore-builtins-INamed" />
             </node>
             <node concept="2OqwBi" id="3szW5_UqMDH" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_UqMDI" role="2Oq$k0" />
@@ -1870,7 +1870,7 @@
         <node concept="3clFbF" id="3szW5_UqQv2" role="3cqZAp">
           <node concept="37vLTI" id="3szW5_UqQv3" role="3clFbG">
             <node concept="Xl_RD" id="3szW5_UqSSK" role="37vLTx">
-              <property role="Xl_RC" value="LIonCore-builtins-INamed-name" />
+              <property role="Xl_RC" value="LionCore-builtins-INamed-name" />
             </node>
             <node concept="2OqwBi" id="3szW5_UqQv6" role="37vLTJ">
               <node concept="Xjq3P" id="3szW5_UqQv7" role="2Oq$k0" />
@@ -3736,7 +3736,7 @@
                 <node concept="liA8E" id="5M3rB6_W0yT" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
                   <node concept="35c_gC" id="5M3rB6_W0yU" role="37wK5m">
-                    <ref role="35c_gD" to="234s:6fYiNFad_9U" resolve="LIonWebLanguageKey" />
+                    <ref role="35c_gD" to="234s:6fYiNFad_9U" resolve="LionWebLanguageKey" />
                   </node>
                 </node>
               </node>
@@ -4160,7 +4160,7 @@
           <node concept="3cpWsn" id="4oHUzWXEmNd" role="3cpWs9">
             <property role="TrG5h" value="partition" />
             <node concept="3Tqbb2" id="4oHUzWXEk_1" role="1tU5fm">
-              <ref role="ehGHo" to="234s:5AGBwuDOKM4" resolve="LIonWebPartitionConcept" />
+              <ref role="ehGHo" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
             </node>
             <node concept="2OqwBi" id="4oHUzWXEmNe" role="33vP2m">
               <node concept="2OqwBi" id="4oHUzWXEmNf" role="2Oq$k0">
@@ -4174,7 +4174,7 @@
                 </node>
                 <node concept="v3k3i" id="4oHUzWXEmNj" role="2OqNvi">
                   <node concept="chp4Y" id="4oHUzWXEmNk" role="v3oSu">
-                    <ref role="cht4Q" to="234s:5AGBwuDOKM4" resolve="LIonWebPartitionConcept" />
+                    <ref role="cht4Q" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
                   </node>
                 </node>
               </node>
@@ -4391,7 +4391,7 @@
           <node concept="3cpWsn" id="4oHUzWXEMJ5" role="3cpWs9">
             <property role="TrG5h" value="optional" />
             <node concept="3Tqbb2" id="4oHUzWXEkyX" role="1tU5fm">
-              <ref role="ehGHo" to="234s:5AGBwuDOKLV" resolve="LIonWebOptionalProperty" />
+              <ref role="ehGHo" to="234s:5AGBwuDOKLV" resolve="LionWebOptionalProperty" />
             </node>
             <node concept="2OqwBi" id="4oHUzWXEMJ6" role="33vP2m">
               <node concept="2OqwBi" id="4oHUzWXEMJ7" role="2Oq$k0">
@@ -4405,7 +4405,7 @@
                 </node>
                 <node concept="v3k3i" id="4oHUzWXEMJb" role="2OqNvi">
                   <node concept="chp4Y" id="4oHUzWXEMJc" role="v3oSu">
-                    <ref role="cht4Q" to="234s:5AGBwuDOKLV" resolve="LIonWebOptionalProperty" />
+                    <ref role="cht4Q" to="234s:5AGBwuDOKLV" resolve="LionWebOptionalProperty" />
                   </node>
                 </node>
               </node>
@@ -4631,7 +4631,7 @@
               </node>
               <node concept="v3k3i" id="5AGBwuDDntJ" role="2OqNvi">
                 <node concept="chp4Y" id="5AGBwuDDnL7" role="v3oSu">
-                  <ref role="cht4Q" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+                  <ref role="cht4Q" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
                 </node>
               </node>
             </node>
@@ -4984,7 +4984,7 @@
               <ref role="3cqZAo" node="5AGBwuDNFv9" resolve="fqName" />
             </node>
             <node concept="Xl_RD" id="5AGBwuDJiCw" role="3uHU7B">
-              <property role="Xl_RC" value="target of LIonWeb smart reference is null: " />
+              <property role="Xl_RC" value="target of LionWeb smart reference is null: " />
             </node>
           </node>
         </node>
@@ -5046,7 +5046,7 @@
           </node>
           <node concept="3cpWs3" id="5AGBwuDL8dO" role="1gVpfI">
             <node concept="Xl_RD" id="5AGBwuDL8dS" role="3uHU7B">
-              <property role="Xl_RC" value="target of LIonWeb smart reference has superconcepts: " />
+              <property role="Xl_RC" value="target of LionWeb smart reference has superconcepts: " />
             </node>
             <node concept="37vLTw" id="5AGBwuDNMyY" role="3uHU7w">
               <ref role="3cqZAo" node="5AGBwuDNFv9" resolve="fqName" />
@@ -5072,7 +5072,7 @@
           </node>
           <node concept="3cpWs3" id="5AGBwuDJDy$" role="1gVpfI">
             <node concept="Xl_RD" id="5AGBwuDJDyC" role="3uHU7B">
-              <property role="Xl_RC" value="target of LIonWeb smart reference has properties: " />
+              <property role="Xl_RC" value="target of LionWeb smart reference has properties: " />
             </node>
             <node concept="37vLTw" id="5AGBwuDNN3c" role="3uHU7w">
               <ref role="3cqZAo" node="5AGBwuDNFv9" resolve="fqName" />
@@ -5115,7 +5115,7 @@
           </node>
           <node concept="3cpWs3" id="5AGBwuDJFVD" role="1gVpfI">
             <node concept="Xl_RD" id="5AGBwuDJFVH" role="3uHU7B">
-              <property role="Xl_RC" value="target of LIonWeb smart reference does not have exactly one link: " />
+              <property role="Xl_RC" value="target of LionWeb smart reference does not have exactly one link: " />
             </node>
             <node concept="37vLTw" id="5AGBwuDNOpF" role="3uHU7w">
               <ref role="3cqZAo" node="5AGBwuDNFv9" resolve="fqName" />
@@ -5146,7 +5146,7 @@
           </node>
           <node concept="3cpWs3" id="5AGBwuDLrJz" role="1gVpfI">
             <node concept="Xl_RD" id="5AGBwuDLrJB" role="3uHU7B">
-              <property role="Xl_RC" value="target of LIonWeb smart reference does not have exactly one reference link: " />
+              <property role="Xl_RC" value="target of LionWeb smart reference does not have exactly one reference link: " />
             </node>
             <node concept="37vLTw" id="5AGBwuDNOTD" role="3uHU7w">
               <ref role="3cqZAo" node="5AGBwuDNFv9" resolve="fqName" />
@@ -5377,7 +5377,7 @@
                 <node concept="liA8E" id="5M3rB6_WF07" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
                   <node concept="35c_gC" id="5M3rB6_WF08" role="37wK5m">
-                    <ref role="35c_gD" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                    <ref role="35c_gD" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                   </node>
                 </node>
               </node>

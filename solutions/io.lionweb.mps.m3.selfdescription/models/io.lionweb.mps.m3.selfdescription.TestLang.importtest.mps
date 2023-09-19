@@ -39,7 +39,7 @@
     </language>
   </registry>
   <node concept="VS7hd" id="1apSfP9KDLZ">
-    <property role="TrG5h" value="Import TestLang instance from JOSN" />
+    <property role="TrG5h" value="Import TestLang instance from JSON" />
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-instance.json" />
   </node>
   <node concept="1r0PSd" id="39$JcGFaUz9">

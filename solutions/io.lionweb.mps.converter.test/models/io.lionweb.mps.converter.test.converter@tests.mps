@@ -361,7 +361,7 @@
     </node>
     <node concept="1qefOq" id="48csSBOFsB$" role="1SKRRt">
       <node concept="qeN9c" id="4pht$Xss$1S" role="1qenE9">
-        <property role="TrG5h" value="Convert LIonWeb" />
+        <property role="TrG5h" value="Convert LionWeb" />
         <node concept="2V$Bhx" id="4pht$XssRas" role="qeD2G">
           <property role="2V$B1T" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
           <property role="2V$B1Q" value="io.lionweb.mps.m3" />
@@ -376,7 +376,7 @@
         <node concept="2RzRRF" id="2fx6VTTnYmk" role="2QRY3p">
           <property role="TrG5h" value="io.lionweb.mps.m3" />
           <property role="3HH78N" value="0" />
-          <property role="2RzON1" value="LIonCore-M3" />
+          <property role="2RzON1" value="LionCore-M3" />
           <node concept="2RzPaY" id="7Cdxs9DYA_l" role="2RzR6B">
             <property role="2RzON1" value="IKeyed" />
             <property role="TrG5h" value="IKeyed" />
@@ -604,7 +604,7 @@
             <property role="TrG5h" value="expectedM3" />
           </node>
           <node concept="2RzSJf" id="39$JcGGTJui" role="2RzR6B">
-            <property role="2RzON1" value="LIonCore-builtins-JSON" />
+            <property role="2RzON1" value="LionCore-builtins-JSON" />
             <property role="TrG5h" value="JSON" />
           </node>
         </node>
@@ -983,7 +983,7 @@
     </node>
     <node concept="1qefOq" id="48csSBPBtmH" role="1SKRRt">
       <node concept="qeN9c" id="48csSBPBtmI" role="1qenE9">
-        <property role="TrG5h" value="Convert LIonWeb" />
+        <property role="TrG5h" value="Convert LionWeb" />
         <node concept="2V$Bhx" id="48csSBPBtmJ" role="qeD2G">
           <property role="2V$B1T" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
           <property role="2V$B1Q" value="io.lionweb.mps.m3" />
@@ -998,7 +998,7 @@
         <node concept="2RzRRF" id="7Cdxs9E1gH1" role="2QRY3p">
           <property role="TrG5h" value="io.lionweb.mps.m3" />
           <property role="3HH78N" value="0" />
-          <property role="2RzON1" value="LIonCore-M3" />
+          <property role="2RzON1" value="LionCore-M3" />
           <node concept="2RzPaY" id="7Cdxs9E1gH2" role="2RzR6B">
             <property role="2RzON1" value="IKeyed" />
             <property role="TrG5h" value="IKeyed" />
@@ -1646,7 +1646,7 @@
     </node>
     <node concept="1qefOq" id="2fx6VTT95hO" role="1SKRRt">
       <node concept="qeN9c" id="2fx6VTT95jW" role="1qenE9">
-        <property role="TrG5h" value="Convert LIonWeb" />
+        <property role="TrG5h" value="Convert LionWeb" />
         <node concept="2V$Bhx" id="2fx6VTT95jY" role="qeD2G">
           <property role="2V$B1T" value="08caad75-8246-4427-bb4d-8444b6c5c729" />
           <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLang" />
@@ -2737,7 +2737,7 @@
     </node>
     <node concept="1qefOq" id="39$JcGH1Wyp" role="1SKRRt">
       <node concept="qeN9c" id="39$JcGH1Wyq" role="1qenE9">
-        <property role="TrG5h" value="Convert LIonWeb" />
+        <property role="TrG5h" value="Convert LionWeb" />
         <node concept="2V$Bhx" id="39$JcGH1YzH" role="qeD2G">
           <property role="2V$B1T" value="48d0f6eb-6186-4cec-83d1-7caedb05a494" />
           <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLang2" />
@@ -3178,7 +3178,7 @@
     </node>
     <node concept="1qefOq" id="39$JcGH1WCb" role="1SKRRt">
       <node concept="qeN9c" id="39$JcGH1WCc" role="1qenE9">
-        <property role="TrG5h" value="Convert LIonWeb" />
+        <property role="TrG5h" value="Convert LionWeb" />
         <node concept="2V$Bhx" id="39$JcGH7Ai6" role="qeD2G">
           <property role="2V$B1T" value="48d0f6eb-6186-4cec-83d1-7caedb05a494" />
           <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLang2" />

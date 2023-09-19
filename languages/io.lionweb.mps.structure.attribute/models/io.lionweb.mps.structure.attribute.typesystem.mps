@@ -432,7 +432,7 @@
                         </node>
                         <node concept="3CFZ6_" id="18UigYP55Ay" role="2OqNvi">
                           <node concept="3CFYIy" id="18UigYP55HZ" role="3CFYIz">
-                            <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                            <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                           </node>
                         </node>
                       </node>
@@ -464,7 +464,7 @@
                           </node>
                           <node concept="3CFZ6_" id="18UigYP58yU" role="2OqNvi">
                             <node concept="3CFYIy" id="18UigYP58L7" role="3CFYIz">
-                              <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+                              <ref role="3CFYIx" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
                             </node>
                           </node>
                         </node>
@@ -607,7 +607,7 @@
         <node concept="3cpWsn" id="18UigYPcwR4" role="3cpWs9">
           <property role="TrG5h" value="smartRef" />
           <node concept="2I9FWS" id="18UigYPcwJm" role="1tU5fm">
-            <ref role="2I9WkF" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+            <ref role="2I9WkF" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
           </node>
           <node concept="2OqwBi" id="18UigYPcwR5" role="33vP2m">
             <node concept="1PxgMI" id="18UigYPcwR6" role="2Oq$k0">
@@ -625,7 +625,7 @@
             </node>
             <node concept="3CFZ6_" id="18UigYPcwRb" role="2OqNvi">
               <node concept="3CFYIy" id="18UigYPcwRc" role="3CFYIz">
-                <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+                <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
               </node>
             </node>
           </node>
@@ -735,7 +735,7 @@
               </node>
               <node concept="3CFZ6_" id="18UigYPd5l$" role="2OqNvi">
                 <node concept="3CFYIy" id="18UigYPd5pI" role="3CFYIz">
-                  <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+                  <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
                 </node>
               </node>
             </node>
@@ -748,7 +748,7 @@
         <node concept="3clFbS" id="18UigYPdakv" role="3clFbx">
           <node concept="2MkqsV" id="18UigYPddnz" role="3cqZAp">
             <node concept="Xl_RD" id="18UigYPddnM" role="2MkJ7o">
-              <property role="Xl_RC" value="target of LIonWeb smart reference extends superconcept" />
+              <property role="Xl_RC" value="target of LionWeb smart reference extends superconcept" />
             </node>
             <node concept="37vLTw" id="18UigYPddof" role="1urrMF">
               <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
@@ -796,7 +796,7 @@
         <node concept="3clFbS" id="18UigYPddr2" role="3clFbx">
           <node concept="2MkqsV" id="18UigYPdhV0" role="3cqZAp">
             <node concept="Xl_RD" id="18UigYPdhV1" role="2MkJ7o">
-              <property role="Xl_RC" value="target of LIonWeb smart reference implements interfaces" />
+              <property role="Xl_RC" value="target of LionWeb smart reference implements interfaces" />
             </node>
             <node concept="37vLTw" id="18UigYPdhV2" role="1urrMF">
               <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
@@ -826,7 +826,7 @@
         <node concept="3clFbS" id="18UigYPdi1C" role="3clFbx">
           <node concept="2MkqsV" id="18UigYPdprm" role="3cqZAp">
             <node concept="Xl_RD" id="18UigYPdpr_" role="2MkJ7o">
-              <property role="Xl_RC" value="target of LIonWeb smart reference has properties" />
+              <property role="Xl_RC" value="target of LionWeb smart reference has properties" />
             </node>
             <node concept="37vLTw" id="18UigYPdps2" role="1urrMF">
               <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
@@ -856,7 +856,7 @@
         <node concept="3clFbS" id="18UigYPdpvu" role="3clFbx">
           <node concept="2MkqsV" id="18UigYPdzGM" role="3cqZAp">
             <node concept="Xl_RD" id="18UigYPdzH1" role="2MkJ7o">
-              <property role="Xl_RC" value="target of LIonWeb smart reference does not have exactly one link" />
+              <property role="Xl_RC" value="target of LionWeb smart reference does not have exactly one link" />
             </node>
             <node concept="37vLTw" id="18UigYPdzHl" role="1urrMF">
               <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
@@ -889,7 +889,7 @@
           <node concept="3clFbS" id="18UigYPdDB$" role="3eOfB_">
             <node concept="2MkqsV" id="18UigYPdDBh" role="3cqZAp">
               <node concept="Xl_RD" id="18UigYPdEf_" role="2MkJ7o">
-                <property role="Xl_RC" value="target of LIonWeb smart reference does not have exactly one reference link" />
+                <property role="Xl_RC" value="target of LionWeb smart reference does not have exactly one reference link" />
               </node>
               <node concept="37vLTw" id="18UigYPdEfT" role="1urrMF">
                 <ref role="3cqZAo" node="18UigYPd4JR" resolve="host" />
@@ -933,7 +933,7 @@
     </node>
     <node concept="1YaCAy" id="18UigYPd4hd" role="1YuTPh">
       <property role="TrG5h" value="smartRef" />
-      <ref role="1YaFvo" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+      <ref role="1YaFvo" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
     </node>
   </node>
 </model>

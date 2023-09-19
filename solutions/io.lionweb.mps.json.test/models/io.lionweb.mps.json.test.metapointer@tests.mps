@@ -3670,7 +3670,7 @@
               <property role="TrG5h" value="expected" />
               <node concept="17QB3L" id="SgalDIJsdI" role="1tU5fm" />
               <node concept="Xl_RD" id="SgalDIK0oJ" role="33vP2m">
-                <property role="Xl_RC" value="LIonCore-M3" />
+                <property role="Xl_RC" value="LionCore-M3" />
               </node>
             </node>
           </node>
@@ -3732,7 +3732,7 @@
               <property role="TrG5h" value="expected" />
               <node concept="17QB3L" id="SgalDIJzrU" role="1tU5fm" />
               <node concept="Xl_RD" id="SgalDIK0Eh" role="33vP2m">
-                <property role="Xl_RC" value="LIonCore-builtins" />
+                <property role="Xl_RC" value="LionCore-builtins" />
               </node>
             </node>
           </node>
@@ -4847,7 +4847,7 @@
               <property role="TrG5h" value="expected" />
               <node concept="17QB3L" id="1ryFPTS7O8K" role="1tU5fm" />
               <node concept="Xl_RD" id="1ryFPTS7O8L" role="33vP2m">
-                <property role="Xl_RC" value="LIonCore-M3" />
+                <property role="Xl_RC" value="LionCore-M3" />
               </node>
             </node>
           </node>
@@ -4909,7 +4909,7 @@
               <property role="TrG5h" value="expected" />
               <node concept="17QB3L" id="1ryFPTS7O9b" role="1tU5fm" />
               <node concept="Xl_RD" id="1ryFPTS7O9c" role="33vP2m">
-                <property role="Xl_RC" value="LIonCore-builtins" />
+                <property role="Xl_RC" value="LionCore-builtins" />
               </node>
             </node>
           </node>
@@ -4969,13 +4969,13 @@
             <node concept="1pGfFk" id="1ryFPTS7O9A" role="2ShVmc">
               <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
               <node concept="Xl_RD" id="1ryFPTS7O9B" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins" />
+                <property role="Xl_RC" value="LionCore-builtins" />
               </node>
               <node concept="Xl_RD" id="1ryFPTS7O9C" role="37wK5m">
                 <property role="Xl_RC" value="1" />
               </node>
               <node concept="Xl_RD" id="1ryFPTS7O9D" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Node" />
+                <property role="Xl_RC" value="LionCore-builtins-Node" />
               </node>
             </node>
           </node>
@@ -5005,13 +5005,13 @@
             <node concept="1pGfFk" id="1ryFPTS7Tn3" role="2ShVmc">
               <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
               <node concept="Xl_RD" id="1ryFPTS7Tn4" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins" />
+                <property role="Xl_RC" value="LionCore-builtins" />
               </node>
               <node concept="Xl_RD" id="1ryFPTS7Tn5" role="37wK5m">
                 <property role="Xl_RC" value="1" />
               </node>
               <node concept="Xl_RD" id="1ryFPTS7Tn6" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+                <property role="Xl_RC" value="LionCore-builtins-INamed" />
               </node>
             </node>
           </node>
@@ -5041,13 +5041,13 @@
             <node concept="1pGfFk" id="1ryFPTS7Oao" role="2ShVmc">
               <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
               <node concept="Xl_RD" id="1ryFPTS7Oap" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins" />
+                <property role="Xl_RC" value="LionCore-builtins" />
               </node>
               <node concept="Xl_RD" id="1ryFPTS7Oaq" role="37wK5m">
                 <property role="Xl_RC" value="1" />
               </node>
               <node concept="Xl_RD" id="1ryFPTS7Oar" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-INamed-name" />
+                <property role="Xl_RC" value="LionCore-builtins-INamed-name" />
               </node>
             </node>
           </node>

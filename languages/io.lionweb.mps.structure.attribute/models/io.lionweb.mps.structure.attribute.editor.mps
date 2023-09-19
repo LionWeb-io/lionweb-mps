@@ -101,7 +101,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6fYiNFad_f3">
-    <ref role="1XX52x" to="234s:6fYiNFad_9U" resolve="LIonWebLanguageKey" />
+    <ref role="1XX52x" to="234s:6fYiNFad_9U" resolve="LionWebLanguageKey" />
     <node concept="PMmxH" id="6fYiNFatsi9" role="2wV5jI">
       <ref role="PMmxG" node="6fYiNFatshQ" resolve="LIonWebKey" />
     </node>
@@ -111,7 +111,7 @@
     <ref role="1XX52x" to="234s:6fYiNFad_a1" resolve="ILionWebKey" />
     <node concept="3EZMnI" id="6fYiNFatshS" role="2wV5jI">
       <node concept="3F0ifn" id="6fYiNFatshZ" role="3EZMnx">
-        <property role="3F0ifm" value="LIonWeb key:" />
+        <property role="3F0ifm" value="LionWeb key:" />
         <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
       <node concept="3F0A7n" id="6fYiNFatsi5" role="3EZMnx">
@@ -121,7 +121,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6fYiNFatsi_">
-    <ref role="1XX52x" to="234s:6fYiNFad_a6" resolve="LIonWebEntityKey" />
+    <ref role="1XX52x" to="234s:6fYiNFad_a6" resolve="LionWebEntityKey" />
     <node concept="3EZMnI" id="5AGBwuDP8YS" role="2wV5jI">
       <node concept="2iRkQZ" id="5AGBwuDP8YT" role="2iSdaV" />
       <node concept="2SsqMj" id="6fYiNFatsiB" role="3EZMnx" />
@@ -136,7 +136,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5AGBwuDBtEV">
-    <ref role="1XX52x" to="234s:5AGBwuDBtDm" resolve="LIonWebSmartReference" />
+    <ref role="1XX52x" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
     <node concept="3EZMnI" id="5AGBwuDBtEX" role="2wV5jI">
       <node concept="2SsqMj" id="5AGBwuDByGj" role="3EZMnx" />
       <node concept="3EZMnI" id="5AGBwuDBtF4" role="3EZMnx">
@@ -195,7 +195,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5AGBwuDOKMB">
-    <ref role="1XX52x" to="234s:5AGBwuDOKM4" resolve="LIonWebPartitionConcept" />
+    <ref role="1XX52x" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
     <node concept="3EZMnI" id="5AGBwuDOKMD" role="2wV5jI">
       <node concept="2SsqMj" id="5AGBwuDOKNa" role="3EZMnx" />
       <node concept="3EZMnI" id="5AGBwuDOKMK" role="3EZMnx">
@@ -221,7 +221,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5AGBwuDOQ86">
-    <ref role="1XX52x" to="234s:5AGBwuDOKLV" resolve="LIonWebOptionalProperty" />
+    <ref role="1XX52x" to="234s:5AGBwuDOKLV" resolve="LionWebOptionalProperty" />
     <node concept="3EZMnI" id="5AGBwuDOQ88" role="2wV5jI">
       <node concept="2SsqMj" id="5AGBwuDOQ8f" role="3EZMnx" />
       <node concept="3EZMnI" id="5AGBwuDOQ8l" role="3EZMnx">

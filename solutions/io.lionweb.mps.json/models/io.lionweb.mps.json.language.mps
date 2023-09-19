@@ -514,7 +514,7 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3Kqiw5yAupV" role="1dT_Ay">
-          <property role="1dT_AB" value="s to LIonWeb JSON " />
+          <property role="1dT_AB" value="s to LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAupW" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAupX" role="qph3F">
@@ -5458,7 +5458,7 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3Kqiw5yAmhz" role="1dT_Ay">
-          <property role="1dT_AB" value="s to LIonWeb JSON " />
+          <property role="1dT_AB" value="s to LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAmHN" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAmHY" role="qph3F">
@@ -8769,7 +8769,7 @@
     <node concept="3UR2Jj" id="3Kqiw5yACG2" role="lGtFl">
       <node concept="TZ5HA" id="3Kqiw5yACG3" role="TZ5H$">
         <node concept="1dT_AC" id="3Kqiw5yACG4" role="1dT_Ay">
-          <property role="1dT_AB" value="Converts LIonWeb JSON " />
+          <property role="1dT_AB" value="Converts LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAJaT" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAJaZ" role="qph3F">
@@ -11635,7 +11635,7 @@
     <node concept="3UR2Jj" id="4R9posqqsGf" role="lGtFl">
       <node concept="TZ5HA" id="4R9posqqsGg" role="TZ5H$">
         <node concept="1dT_AC" id="4R9posqqsGh" role="1dT_Ay">
-          <property role="1dT_AB" value="Converts LIonWeb JSON " />
+          <property role="1dT_AB" value="Converts LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="4R9posqqsGi" role="1dT_Ay">
           <node concept="92FcH" id="4R9posqqsGj" role="qph3F">

@@ -61,7 +61,7 @@
     </language>
   </registry>
   <node concept="3z8Sf4" id="z1IqfFTojq">
-    <property role="TrG5h" value="Import LIonCore" />
+    <property role="TrG5h" value="Import LionCore" />
     <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
   </node>
   <node concept="2RzRRF" id="7pLZNi2wTGx">
@@ -70,26 +70,26 @@
     <property role="2RzON1" value="LIonCore_M3" />
     <node concept="2RzPWn" id="7pLZNi2wTGy" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_NamespacedEntity" />
+      <property role="2RzON1" value="LionCore_M3_NamespacedEntity" />
       <property role="TrG5h" value="NamespacedEntity" />
       <node concept="2RzOeU" id="7pLZNi2wTGz" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_NamespacedEntity_simpleName" />
+        <property role="2RzON1" value="LionCore_M3_NamespacedEntity_simpleName" />
         <property role="TrG5h" value="simpleName" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="7pLZNi2wTG$" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_NamespacedEntity_qualifiedName" />
+        <property role="2RzON1" value="LionCore_M3_NamespacedEntity_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPaY" id="7pLZNi2wTG_" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_NamespaceProvider" />
+      <property role="2RzON1" value="LionCore_M3_NamespaceProvider" />
       <property role="TrG5h" value="NamespaceProvider" />
       <node concept="2RzOeU" id="7pLZNi2wTGA" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_NamespaceProvider_namespaceQualifier" />
+        <property role="2RzON1" value="LionCore_M3_NamespaceProvider_namespaceQualifier" />
         <property role="TrG5h" value="namespaceQualifier" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
@@ -97,23 +97,23 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGB" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Metamodel" />
+      <property role="2RzON1" value="LionCore_M3_Metamodel" />
       <property role="TrG5h" value="Metamodel" />
       <node concept="2RzOeU" id="7pLZNi2wTGC" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Metamodel_qualifiedName" />
+        <property role="2RzON1" value="LionCore_M3_Metamodel_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="7pLZNi2wTGD" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Metamodel_elements" />
+        <property role="2RzON1" value="LionCore_M3_Metamodel_elements" />
         <property role="TrG5h" value="elements" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
         <ref role="2RzQvY" node="7pLZNi2wTGF" resolve="MetamodelElement" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGE" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Metamodel_dependsOn" />
+        <property role="2RzON1" value="LionCore_M3_Metamodel_dependsOn" />
         <property role="TrG5h" value="dependsOn" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -125,24 +125,24 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGF" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_MetamodelElement" />
+      <property role="2RzON1" value="LionCore_M3_MetamodelElement" />
       <property role="TrG5h" value="MetamodelElement" />
       <ref role="2RzPfO" node="7pLZNi2wTGy" resolve="NamespacedEntity" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGG" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_FeaturesContainer" />
+      <property role="2RzON1" value="LionCore_M3_FeaturesContainer" />
       <property role="TrG5h" value="FeaturesContainer" />
       <ref role="2RzPfO" node="7pLZNi2wTGF" resolve="MetamodelElement" />
       <node concept="2RzOte" id="7pLZNi2wTGH" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_FeaturesContainer_features" />
+        <property role="2RzON1" value="LionCore_M3_FeaturesContainer_features" />
         <property role="TrG5h" value="features" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
         <ref role="2RzQvY" node="7pLZNi2wTGP" resolve="Feature" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGI" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_FeaturesContainer_allFeatures" />
+        <property role="2RzON1" value="LionCore_M3_FeaturesContainer_allFeatures" />
         <property role="TrG5h" value="allFeatures" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -154,24 +154,24 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGJ" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Concept" />
+      <property role="2RzON1" value="LionCore_M3_Concept" />
       <property role="TrG5h" value="Concept" />
       <ref role="2RzPfO" node="7pLZNi2wTGG" resolve="FeaturesContainer" />
       <node concept="2RzOeU" id="7pLZNi2wTGK" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Concept_abstract" />
+        <property role="2RzON1" value="LionCore_M3_Concept_abstract" />
         <property role="TrG5h" value="abstract" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGL" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Concept_extends" />
+        <property role="2RzON1" value="LionCore_M3_Concept_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
         <ref role="2RzQvY" node="7pLZNi2wTGJ" resolve="Concept" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGM" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Concept_implements" />
+        <property role="2RzON1" value="LionCore_M3_Concept_implements" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -180,11 +180,11 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGN" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_ConceptInterface" />
+      <property role="2RzON1" value="LionCore_M3_ConceptInterface" />
       <property role="TrG5h" value="ConceptInterface" />
       <ref role="2RzPfO" node="7pLZNi2wTGG" resolve="FeaturesContainer" />
       <node concept="2RzOpR" id="7pLZNi2wTGO" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_ConceptInterface_extends" />
+        <property role="2RzON1" value="LionCore_M3_ConceptInterface_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -193,17 +193,17 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGP" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_Feature" />
+      <property role="2RzON1" value="LionCore_M3_Feature" />
       <property role="TrG5h" value="Feature" />
       <ref role="2RzPfO" node="7pLZNi2wTGy" resolve="NamespacedEntity" />
       <node concept="2RzOeU" id="7pLZNi2wTGQ" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Feature_optional" />
+        <property role="2RzON1" value="LionCore_M3_Feature_optional" />
         <property role="TrG5h" value="optional" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOeU" id="7pLZNi2wTGR" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Feature_derived" />
+        <property role="2RzON1" value="LionCore_M3_Feature_derived" />
         <property role="TrG5h" value="derived" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
@@ -211,17 +211,17 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGS" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_Link" />
+      <property role="2RzON1" value="LionCore_M3_Link" />
       <property role="TrG5h" value="Link" />
       <ref role="2RzPfO" node="7pLZNi2wTGP" resolve="Feature" />
       <node concept="2RzOeU" id="7pLZNi2wTGT" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Link_multiple" />
+        <property role="2RzON1" value="LionCore_M3_Link_multiple" />
         <property role="TrG5h" value="multiple" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGU" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Link_type" />
+        <property role="2RzON1" value="LionCore_M3_Link_type" />
         <property role="TrG5h" value="type" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -230,17 +230,17 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGV" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Reference" />
+      <property role="2RzON1" value="LionCore_M3_Reference" />
       <property role="TrG5h" value="Reference" />
       <ref role="2RzPfO" node="7pLZNi2wTGS" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGW" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Property" />
+      <property role="2RzON1" value="LionCore_M3_Property" />
       <property role="TrG5h" value="Property" />
       <ref role="2RzPfO" node="7pLZNi2wTGP" resolve="Feature" />
       <node concept="2RzOpR" id="7pLZNi2wTGX" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Property_type" />
+        <property role="2RzON1" value="LionCore_M3_Property_type" />
         <property role="TrG5h" value="type" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -249,29 +249,29 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGY" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_DataType" />
+      <property role="2RzON1" value="LionCore_M3_DataType" />
       <property role="TrG5h" value="DataType" />
       <ref role="2RzPfO" node="7pLZNi2wTGF" resolve="MetamodelElement" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGZ" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_PrimitiveType" />
+      <property role="2RzON1" value="LionCore_M3_PrimitiveType" />
       <property role="TrG5h" value="PrimitiveType" />
       <ref role="2RzPfO" node="7pLZNi2wTGY" resolve="DataType" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTH0" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Containment" />
+      <property role="2RzON1" value="LionCore_M3_Containment" />
       <property role="TrG5h" value="Containment" />
       <ref role="2RzPfO" node="7pLZNi2wTGS" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTH1" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Enumeration" />
+      <property role="2RzON1" value="LionCore_M3_Enumeration" />
       <property role="TrG5h" value="Enumeration" />
       <ref role="2RzPfO" node="7pLZNi2wTGY" resolve="DataType" />
       <node concept="2RzOte" id="7pLZNi2wTH2" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Enumeration_literals" />
+        <property role="2RzON1" value="LionCore_M3_Enumeration_literals" />
         <property role="TrG5h" value="literals" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -283,7 +283,7 @@
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTH3" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_EnumerationLiteral" />
+      <property role="2RzON1" value="LionCore_M3_EnumerationLiteral" />
       <property role="TrG5h" value="EnumerationLiteral" />
       <ref role="2RzPfO" node="7pLZNi2wTGy" resolve="NamespacedEntity" />
     </node>
@@ -298,26 +298,26 @@
     <property role="2RzON1" value="LIonCore_M3" />
     <node concept="2RzPWn" id="5sACIIs$PgH" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_NamespacedEntity" />
+      <property role="2RzON1" value="LionCore_M3_NamespacedEntity" />
       <property role="TrG5h" value="NamespacedEntity" />
       <node concept="2RzOeU" id="5sACIIs$PgI" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_NamespacedEntity_simpleName" />
+        <property role="2RzON1" value="LionCore_M3_NamespacedEntity_simpleName" />
         <property role="TrG5h" value="simpleName" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="5sACIIs$PgJ" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_NamespacedEntity_qualifiedName" />
+        <property role="2RzON1" value="LionCore_M3_NamespacedEntity_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPaY" id="5sACIIs$PgK" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_NamespaceProvider" />
+      <property role="2RzON1" value="LionCore_M3_NamespaceProvider" />
       <property role="TrG5h" value="NamespaceProvider" />
       <node concept="2RzOeU" id="5sACIIs$PgL" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_NamespaceProvider_namespaceQualifier" />
+        <property role="2RzON1" value="LionCore_M3_NamespaceProvider_namespaceQualifier" />
         <property role="TrG5h" value="namespaceQualifier" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
@@ -325,23 +325,23 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Metamodel" />
+      <property role="2RzON1" value="LionCore_M3_Metamodel" />
       <property role="TrG5h" value="Metamodel" />
       <node concept="2RzOeU" id="5sACIIs$PgN" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Metamodel_qualifiedName" />
+        <property role="2RzON1" value="LionCore_M3_Metamodel_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Metamodel_elements" />
+        <property role="2RzON1" value="LionCore_M3_Metamodel_elements" />
         <property role="TrG5h" value="elements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
         <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="MetamodelElement" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Metamodel_dependsOn" />
+        <property role="2RzON1" value="LionCore_M3_Metamodel_dependsOn" />
         <property role="TrG5h" value="dependsOn" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
@@ -353,24 +353,24 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_MetamodelElement" />
+      <property role="2RzON1" value="LionCore_M3_MetamodelElement" />
       <property role="TrG5h" value="MetamodelElement" />
       <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_FeaturesContainer" />
+      <property role="2RzON1" value="LionCore_M3_FeaturesContainer" />
       <property role="TrG5h" value="FeaturesContainer" />
       <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
       <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_FeaturesContainer_features" />
+        <property role="2RzON1" value="LionCore_M3_FeaturesContainer_features" />
         <property role="TrG5h" value="features" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
         <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgT" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_FeaturesContainer_allFeatures" />
+        <property role="2RzON1" value="LionCore_M3_FeaturesContainer_allFeatures" />
         <property role="TrG5h" value="allFeatures" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
@@ -382,24 +382,24 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Concept" />
+      <property role="2RzON1" value="LionCore_M3_Concept" />
       <property role="TrG5h" value="Concept" />
       <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
       <node concept="2RzOeU" id="5sACIIs$PgV" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Concept_abstract" />
+        <property role="2RzON1" value="LionCore_M3_Concept_abstract" />
         <property role="TrG5h" value="abstract" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgW" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Concept_extends" />
+        <property role="2RzON1" value="LionCore_M3_Concept_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="false" />
         <ref role="2RzQvY" node="5sACIIs$PgU" resolve="Concept" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgX" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Concept_implements" />
+        <property role="2RzON1" value="LionCore_M3_Concept_implements" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
@@ -408,11 +408,11 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_ConceptInterface" />
+      <property role="2RzON1" value="LionCore_M3_ConceptInterface" />
       <property role="TrG5h" value="ConceptInterface" />
       <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
       <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_ConceptInterface_extends" />
+        <property role="2RzON1" value="LionCore_M3_ConceptInterface_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
@@ -421,17 +421,17 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph0" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_Feature" />
+      <property role="2RzON1" value="LionCore_M3_Feature" />
       <property role="TrG5h" value="Feature" />
       <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
       <node concept="2RzOeU" id="5sACIIs$Ph1" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Feature_optional" />
+        <property role="2RzON1" value="LionCore_M3_Feature_optional" />
         <property role="TrG5h" value="optional" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOeU" id="5sACIIs$Ph2" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Feature_derived" />
+        <property role="2RzON1" value="LionCore_M3_Feature_derived" />
         <property role="TrG5h" value="derived" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
@@ -439,17 +439,17 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph3" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_Link" />
+      <property role="2RzON1" value="LionCore_M3_Link" />
       <property role="TrG5h" value="Link" />
       <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
       <node concept="2RzOeU" id="5sACIIs$Ph4" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Link_multiple" />
+        <property role="2RzON1" value="LionCore_M3_Link_multiple" />
         <property role="TrG5h" value="multiple" />
         <property role="2RzO1C" value="false" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$Ph5" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Link_type" />
+        <property role="2RzON1" value="LionCore_M3_Link_type" />
         <property role="TrG5h" value="concept" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -458,17 +458,17 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph6" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Reference" />
+      <property role="2RzON1" value="LionCore_M3_Reference" />
       <property role="TrG5h" value="Reference" />
       <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph7" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Property" />
+      <property role="2RzON1" value="LionCore_M3_Property" />
       <property role="TrG5h" value="Property" />
       <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
       <node concept="2RzOpR" id="5sACIIs$Ph8" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Property_type" />
+        <property role="2RzON1" value="LionCore_M3_Property_type" />
         <property role="TrG5h" value="concept" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
@@ -477,29 +477,29 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph9" role="2RzR6B">
       <property role="2RzP46" value="true" />
-      <property role="2RzON1" value="LIonCore_M3_DataType" />
+      <property role="2RzON1" value="LionCore_M3_DataType" />
       <property role="TrG5h" value="DataType" />
       <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Pha" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_PrimitiveType" />
+      <property role="2RzON1" value="LionCore_M3_PrimitiveType" />
       <property role="TrG5h" value="PrimitiveType" />
       <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phb" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Containment" />
+      <property role="2RzON1" value="LionCore_M3_Containment" />
       <property role="TrG5h" value="Containment" />
       <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phc" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_Enumeration" />
+      <property role="2RzON1" value="LionCore_M3_Enumeration" />
       <property role="TrG5h" value="Enumeration" />
       <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
       <node concept="2RzOte" id="5sACIIs$Phd" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore_M3_Enumeration_literals" />
+        <property role="2RzON1" value="LionCore_M3_Enumeration_literals" />
         <property role="TrG5h" value="literals" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="true" />
@@ -511,7 +511,7 @@
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phe" role="2RzR6B">
       <property role="2RzP46" value="false" />
-      <property role="2RzON1" value="LIonCore_M3_EnumerationLiteral" />
+      <property role="2RzON1" value="LionCore_M3_EnumerationLiteral" />
       <property role="TrG5h" value="EnumerationLiteral" />
       <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
     </node>

@@ -4546,7 +4546,7 @@
       </node>
       <node concept="TZ5HA" id="1ilOlIEP95o" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIEP95p" role="1dT_Ay">
-          <property role="1dT_AB" value=" to to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+          <property role="1dT_AB" value=" to to LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
         </node>
       </node>
     </node>
@@ -4712,7 +4712,7 @@
       </node>
       <node concept="TZ5HA" id="1ilOlIEPqD0" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIEPqD1" role="1dT_Ay">
-          <property role="1dT_AB" value=" to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+          <property role="1dT_AB" value=" to LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
         </node>
       </node>
     </node>

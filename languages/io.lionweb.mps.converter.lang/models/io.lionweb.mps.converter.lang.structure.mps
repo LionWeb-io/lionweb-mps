@@ -65,7 +65,7 @@
   <node concept="1TIwiD" id="4pht$Xsq$g3">
     <property role="EcuMT" value="5066961138993480707" />
     <property role="TrG5h" value="ConvertLanguageToLionCore" />
-    <property role="34LRSv" value="Convert Language to LIonCore" />
+    <property role="34LRSv" value="Convert Language to LionCore" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4pht$XsqYrz" role="1TKVEi">
@@ -85,7 +85,7 @@
   <node concept="1TIwiD" id="DUXtH0uYK3">
     <property role="EcuMT" value="755186209566485507" />
     <property role="TrG5h" value="ConvertLanguageFromLionCore" />
-    <property role="34LRSv" value="Convert Language from LIonCore" />
+    <property role="34LRSv" value="Convert Language from LionCore" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="DUXtH0uYUG" role="PzmwI">
