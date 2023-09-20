@@ -281,6 +281,9 @@
       <node concept="3uibUv" id="5M3rB6A0N8A" role="11_B2D">
         <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
       </node>
+      <node concept="3uibUv" id="7W6jYlzwt0L" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
+      </node>
       <node concept="3uibUv" id="5M3rB6A0N8B" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
       </node>
@@ -414,6 +417,36 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5M3rB6A0HkO" role="jymVt" />
+    <node concept="3clFb_" id="7W6jYlzwtET" role="jymVt">
+      <property role="TrG5h" value="mapAnnotation" />
+      <node concept="37vLTG" id="7W6jYlzwtEU" role="3clF46">
+        <property role="TrG5h" value="annotation" />
+        <node concept="3uibUv" id="7W6jYlzwtF1" role="1tU5fm">
+          <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
+        </node>
+        <node concept="2AHcQZ" id="7W6jYlzwtEW" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7W6jYlzwtEY" role="1B3o_S" />
+      <node concept="17QB3L" id="7W6jYlzwtEZ" role="3clF45" />
+      <node concept="3clFbS" id="7W6jYlzwtF2" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlzwxwJ" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlzwyJn" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlzwxwG" role="2Oq$k0">
+              <ref role="3cqZAo" node="7W6jYlzwtEU" resolve="annotation" />
+            </node>
+            <node concept="liA8E" id="7W6jYlzwzK1" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.getKey()" resolve="getKey" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7W6jYlzwtF3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7W6jYlzwvri" role="jymVt" />
     <node concept="3clFb_" id="5M3rB6A0HkP" role="jymVt">
       <property role="TrG5h" value="mapProperty" />
       <node concept="37vLTG" id="5M3rB6A0HkQ" role="3clF46">
@@ -649,6 +682,9 @@
       <node concept="3uibUv" id="5M3rB6AAAR9" role="11_B2D">
         <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
       </node>
+      <node concept="3uibUv" id="7W6jYlzw3Io" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
+      </node>
       <node concept="3uibUv" id="5M3rB6AAARa" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
       </node>
@@ -686,6 +722,9 @@
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUf" role="11_B2D">
           <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        </node>
+        <node concept="3uibUv" id="7W6jYlzw4lu" role="11_B2D">
+          <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUg" role="11_B2D">
           <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
@@ -732,6 +771,9 @@
             </node>
             <node concept="3uibUv" id="5M3rB6AADYg" role="11_B2D">
               <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+            </node>
+            <node concept="3uibUv" id="7W6jYlzw53o" role="11_B2D">
+              <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYh" role="11_B2D">
               <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
