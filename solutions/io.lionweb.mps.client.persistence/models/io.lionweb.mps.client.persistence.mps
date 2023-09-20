@@ -5,6 +5,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
   </languages>
   <imports>
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
@@ -228,6 +229,10 @@
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
+    </language>
+    <language id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable">
+      <concept id="1177714083117" name="jetbrains.mps.baseLanguage.varVariable.structure.VarType" flags="in" index="PeGgZ" />
+      <concept id="1236693300889" name="jetbrains.mps.baseLanguage.varVariable.structure.VarVariableDeclaration" flags="ng" index="3KEzu6" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -1554,24 +1559,20 @@
       <property role="TrG5h" value="load" />
       <node concept="3clFbS" id="7jdzMamdsyT" role="3clF47">
         <node concept="3cpWs8" id="7jdzMamdPlL" role="3cqZAp">
-          <node concept="3cpWsn" id="7jdzMamdPlM" role="3cpWs9">
+          <node concept="3KEzu6" id="7W6jYlyUAIW" role="3cpWs9">
             <property role="TrG5h" value="jsonNodes" />
-            <node concept="2OqwBi" id="7jdzMamdPlN" role="33vP2m">
-              <node concept="37vLTw" id="7jdzMamdPlO" role="2Oq$k0">
+            <node concept="2OqwBi" id="7W6jYlyUAJ5" role="33vP2m">
+              <node concept="37vLTw" id="7W6jYlyUAJ6" role="2Oq$k0">
                 <ref role="3cqZAo" node="7jdzMambVP9" resolve="connector" />
               </node>
-              <node concept="liA8E" id="7jdzMamdPlP" role="2OqNvi">
+              <node concept="liA8E" id="7W6jYlyUAJ7" role="2OqNvi">
                 <ref role="37wK5l" to="2tb6:7jdzMamb0wS" resolve="load" />
-                <node concept="37vLTw" id="7jdzMamdPlQ" role="37wK5m">
+                <node concept="37vLTw" id="7W6jYlyUAJ8" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMambSJI" resolve="partition" />
                 </node>
               </node>
             </node>
-            <node concept="A3Dl8" id="7jdzMamekHH" role="1tU5fm">
-              <node concept="3uibUv" id="7jdzMamekHK" role="A3Ik2">
-                <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
-              </node>
-            </node>
+            <node concept="PeGgZ" id="7W6jYlyUAIV" role="1tU5fm" />
           </node>
         </node>
         <node concept="3cpWs8" id="4R9pospDS7J" role="3cqZAp">
@@ -1587,7 +1588,7 @@
                   <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
                 </node>
                 <node concept="37vLTw" id="4R9pospDS7O" role="37wK5m">
-                  <ref role="3cqZAo" node="7jdzMamdPlM" resolve="jsonNodes" />
+                  <ref role="3cqZAo" node="7W6jYlyUAIW" resolve="jsonNodes" />
                 </node>
               </node>
             </node>
@@ -1764,25 +1765,21 @@
           </node>
         </node>
         <node concept="3cpWs8" id="7jdzMameO4e" role="3cqZAp">
-          <node concept="3cpWsn" id="7jdzMameO4f" role="3cpWs9">
+          <node concept="3KEzu6" id="7W6jYlyUBvt" role="3cpWs9">
             <property role="TrG5h" value="jsonNodes" />
-            <node concept="A3Dl8" id="7jdzMameNTX" role="1tU5fm">
-              <node concept="3uibUv" id="7jdzMameNU0" role="A3Ik2">
-                <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7jdzMameO4g" role="33vP2m">
-              <node concept="37vLTw" id="7jdzMameO4h" role="2Oq$k0">
+            <node concept="2OqwBi" id="7W6jYlyUBvA" role="33vP2m">
+              <node concept="37vLTw" id="7W6jYlyUBvB" role="2Oq$k0">
                 <ref role="3cqZAo" node="5lijfVJUKae" resolve="converter" />
               </node>
-              <node concept="liA8E" id="7jdzMameO4i" role="2OqNvi">
+              <node concept="liA8E" id="7W6jYlyUBvC" role="2OqNvi">
                 <ref role="37wK5l" to="6peh:6jI_U5eOR8U" resolve="convert" />
-                <node concept="Rm8GO" id="5lijfVJUMTP" role="37wK5m">
+                <node concept="Rm8GO" id="7W6jYlyUBvD" role="37wK5m">
                   <ref role="Rm8GQ" to="6peh:6jI_U5eOQLh" resolve="descendants" />
                   <ref role="1Px2BO" to="6peh:6jI_U5eOQFV" resolve="M1ToJson.Scope" />
                 </node>
               </node>
             </node>
+            <node concept="PeGgZ" id="7W6jYlyUBvs" role="1tU5fm" />
           </node>
         </node>
         <node concept="3clFbF" id="7jdzMameOO6" role="3cqZAp">
@@ -1796,7 +1793,7 @@
                 <ref role="3cqZAo" node="7jdzMambSJI" resolve="partition" />
               </node>
               <node concept="37vLTw" id="7jdzMamePJF" role="37wK5m">
-                <ref role="3cqZAo" node="7jdzMameO4f" resolve="jsonNodes" />
+                <ref role="3cqZAo" node="7W6jYlyUBvt" resolve="jsonNodes" />
               </node>
             </node>
           </node>
