@@ -9,11 +9,6 @@
   "nodes": [
     {
       "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-      "concept": {
-        "language": "LionCore-M3",
-        "version": "1",
-        "key": "Language"
-      },
       "properties": [
         {
           "property": {
@@ -66,15 +61,16 @@
           "targets": []
         }
       ],
-      "parent": null
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5",
+      "annotations": [],
+      "parent": null,
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Language"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5",
       "properties": [
         {
           "property": {
@@ -144,15 +140,16 @@
           "targets": []
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5Ly0xMDU4NzUxMzAyMDYwOTg0NjEy",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5Ly0xMDU4NzUxMzAyMDYwOTg0NjEy",
       "properties": [
         {
           "property": {
@@ -195,15 +192,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYz",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MTY0NzkwMTUxMTcxMTQxMzE5",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYz",
       "properties": [
         {
           "property": {
@@ -273,15 +271,16 @@
           "targets": []
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYzLzY0Njg3ODM4NDUzODY0MzUxNjY",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYzLzY0Njg3ODM4NDUzODY0MzUxNjY",
       "properties": [
         {
           "property": {
@@ -324,15 +323,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYz"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy02MzA4OTk2OTY0NjI5MTg1MTYz",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx",
       "properties": [
         {
           "property": {
@@ -404,15 +404,16 @@
           "targets": []
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy00Mzg2MTUwNjczNDI5OTQ5NTUy",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy00Mzg2MTUwNjczNDI5OTQ5NTUy",
       "properties": [
         {
           "property": {
@@ -455,15 +456,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy02NDc2MDE3NTAyOTM2MDY4MTk5",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy02NDc2MDE3NTAyOTM2MDY4MTk5",
       "properties": [
         {
           "property": {
@@ -506,15 +508,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ",
       "properties": [
         {
           "property": {
@@ -565,15 +568,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc",
       "properties": [
         {
           "property": {
@@ -643,15 +647,16 @@
           "targets": []
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTcvLTQ0MDQ1Mzk3MTU3MTg0MzkyNjM",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTcvLTQ0MDQ1Mzk3MTU3MTg0MzkyNjM",
       "properties": [
         {
           "property": {
@@ -694,15 +699,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE",
       "properties": [
         {
           "property": {
@@ -773,15 +779,16 @@
           "targets": []
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvLTYzOTI0NjgyNTk0NDA3MjQ1MzE",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvLTYzOTI0NjgyNTk0NDA3MjQ1MzE",
       "properties": [
         {
           "property": {
@@ -832,15 +839,16 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
-    },
-    {
-      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw",
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw",
       "properties": [
         {
           "property": {
@@ -883,7 +891,13 @@
           ]
         }
       ],
-      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
+      "annotations": [],
+      "parent": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE",
+      "concept": {
+        "language": "LionCore-M3",
+        "version": "1",
+        "key": "Property"
+      }
     }
   ]
 }

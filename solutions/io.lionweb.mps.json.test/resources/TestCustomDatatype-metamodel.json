@@ -9,11 +9,6 @@
   "nodes": [
     {
       "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
-      "concept": {
-        "language": "LionCore-M3",
-        "version": "1",
-        "key": "Language"
-      },
       "properties": [
         {
           "property": {
@@ -64,15 +59,16 @@
           "targets": []
         }
       ],
-      "parent": null
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA",
+      "annotations": [],
+      "parent": null,
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "PrimitiveType"
-      },
+        "key": "Language"
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2Njg4OTA",
       "properties": [
         {
           "property": {
@@ -93,15 +89,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "PrimitiveType"
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
       "properties": [
         {
           "property": {
@@ -175,15 +172,16 @@
           "targets": []
         }
       ],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNTYwNTEyMjg0MjE3MjExOTIwOA",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNTYwNTEyMjg0MjE3MjExOTIwOA",
       "properties": [
         {
           "property": {
@@ -226,15 +224,16 @@
           ]
         }
       ],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNTYwNTEyMjg0MjE3MjExOTIxMw",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNTYwNTEyMjg0MjE3MjExOTIxMw",
       "properties": [
         {
           "property": {
@@ -277,15 +276,16 @@
           ]
         }
       ],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTA4NQ",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTA4NQ",
       "properties": [
         {
           "property": {
@@ -328,15 +328,16 @@
           ]
         }
       ],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4NQ",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4NQ",
       "properties": [
         {
           "property": {
@@ -379,15 +380,16 @@
           ]
         }
       ],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-    },
-    {
-      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4OA",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQvNjIwMDU2ODk2NDQxODY2OTE4OA",
       "properties": [
         {
           "property": {
@@ -430,15 +432,16 @@
           ]
         }
       ],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-    },
-    {
-      "id": "My-KeyedConstrainedStringDatatype",
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "PrimitiveType"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "My-KeyedConstrainedStringDatatype",
       "properties": [
         {
           "property": {
@@ -459,7 +462,13 @@
       ],
       "children": [],
       "references": [],
-      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
+      "annotations": [],
+      "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
+      "concept": {
+        "language": "LionCore-M3",
+        "version": "1",
+        "key": "PrimitiveType"
+      }
     }
   ]
 }

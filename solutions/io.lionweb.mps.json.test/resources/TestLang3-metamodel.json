@@ -9,11 +9,6 @@
   "nodes": [
     {
       "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ2MjY",
-      "concept": {
-        "language": "LionCore-M3",
-        "version": "1",
-        "key": "Enumeration"
-      },
       "properties": [
         {
           "property": {
@@ -45,15 +40,16 @@
         }
       ],
       "references": [],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Enumeration"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM",
       "properties": [
         {
           "property": {
@@ -121,15 +117,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Concept"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI",
       "properties": [
         {
           "property": {
@@ -197,15 +194,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQzMDg",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "ConceptInterface"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQzMDg",
       "properties": [
         {
           "property": {
@@ -244,15 +242,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzQwMw",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "ConceptInterface"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzQwMw",
       "properties": [
         {
           "property": {
@@ -295,15 +294,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzg0OA",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzg0OA",
       "properties": [
         {
           "property": {
@@ -346,15 +346,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODMyMA",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODMyMA",
       "properties": [
         {
           "property": {
@@ -397,15 +398,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODY4OQ",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODY4OQ",
       "properties": [
         {
           "property": {
@@ -448,15 +450,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTEzNw",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTEzNw",
       "properties": [
         {
           "property": {
@@ -499,15 +502,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDI2NA",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDI2NA",
       "properties": [
         {
           "property": {
@@ -558,15 +562,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDg2NQ",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Containment"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDg2NQ",
       "properties": [
         {
           "property": {
@@ -617,15 +622,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMTc3OQ",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Containment"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMTc3OQ",
       "properties": [
         {
           "property": {
@@ -676,15 +682,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxNDAxNA",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxNDAxNA",
       "properties": [
         {
           "property": {
@@ -735,15 +742,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvNTA1Njk1NTUxMzk0NjY3ODMwNQ",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDY0NTEvNTA1Njk1NTUxMzk0NjY3ODMwNQ",
       "properties": [
         {
           "property": {
@@ -786,15 +794,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTIxMjI",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTIxMjI",
       "properties": [
         {
           "property": {
@@ -867,15 +876,16 @@
           ]
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTQzODUvMjU4NTM3ODE2NTk3MzIxNzc4Mg",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTQzODUvMjU4NTM3ODE2NTk3MzIxNzc4Mg",
       "properties": [
         {
           "property": {
@@ -918,15 +928,16 @@
           ]
         }
       ],
-      "parent": "My-Test3InterfaceBase"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE",
+      "annotations": [],
+      "parent": "My-Test3InterfaceBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "ConceptInterface"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE",
       "properties": [
         {
           "property": {
@@ -974,15 +985,16 @@
           ]
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIxOTExMg",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "ConceptInterface"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIxOTExMg",
       "properties": [
         {
           "property": {
@@ -1025,15 +1037,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMTgyMA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMTgyMA",
       "properties": [
         {
           "property": {
@@ -1084,15 +1097,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMjU3Ng",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMjU3Ng",
       "properties": [
         {
           "property": {
@@ -1143,15 +1157,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTUzODc",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTU4NzE",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "ConceptInterface"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTUzODc",
       "properties": [
         {
           "property": {
@@ -1197,15 +1212,16 @@
           ]
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTUzODcvMjU4NTM3ODE2NTk3MzIxODUzOA",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "ConceptInterface"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTUzODcvMjU4NTM3ODE2NTk3MzIxODUzOA",
       "properties": [
         {
           "property": {
@@ -1248,15 +1264,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTUzODc"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTYzMjk",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTUzODc",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "ConceptInterface"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTYzMjk",
       "properties": [
         {
           "property": {
@@ -1310,15 +1327,16 @@
           ]
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTYzMjkvMjU4NTM3ODE2NTk3MzIyMDEyOA",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "ConceptInterface"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTYzMjkvMjU4NTM3ODE2NTk3MzIyMDEyOA",
       "properties": [
         {
           "property": {
@@ -1361,15 +1379,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTYzMjk"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMjMyMDU",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMTYzMjk",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMjMyMDU",
       "properties": [
         {
           "property": {
@@ -1442,15 +1461,16 @@
           ]
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE1ODc0MjkzMw",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE1ODc0MjkzMw",
       "properties": [
         {
           "property": {
@@ -1501,15 +1521,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptKeyed"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA0OA",
+      "annotations": [],
+      "parent": "My-Test3ConceptKeyed",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA0OA",
       "properties": [
         {
           "property": {
@@ -1552,15 +1573,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptKeyed"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA1NQ",
+      "annotations": [],
+      "parent": "My-Test3ConceptKeyed",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA1NQ",
       "properties": [
         {
           "property": {
@@ -1611,15 +1633,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptKeyed"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
+      "annotations": [],
+      "parent": "My-Test3ConceptKeyed",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
       "properties": [
         {
           "property": {
@@ -1694,15 +1717,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE1ODc4MDI4MQ",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE1ODc4MDI4MQ",
       "properties": [
         {
           "property": {
@@ -1753,15 +1777,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA2OA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA2OA",
       "properties": [
         {
           "property": {
@@ -1804,15 +1829,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA3NA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODAvNTYwNTEyMjg0MjE2Mzg1NzA3NA",
       "properties": [
         {
           "property": {
@@ -1863,15 +1889,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Enumeration"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI",
       "properties": [
         {
           "property": {
@@ -1904,15 +1931,16 @@
         }
       ],
       "references": [],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTIvNTYwNTEyMjg0MjE2Mzg2MzAxMw",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "EnumerationLiteral"
-      },
+        "key": "Enumeration"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTIvNTYwNTEyMjg0MjE2Mzg2MzAxMw",
       "properties": [
         {
           "property": {
@@ -1933,15 +1961,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTkvNTYwNTEyMjg0MjE2Mzg2MzAyMA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTkvNTYwNTEyMjg0MjE2Mzg2MzAyMA",
       "properties": [
         {
           "property": {
@@ -1962,15 +1991,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "My-Enum3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
+      "annotations": [],
+      "parent": "My-Enum3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "EnumerationLiteral"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "properties": [
         {
           "property": {
@@ -2051,15 +2081,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc1Nw",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc1Nw",
       "properties": [
         {
           "property": {
@@ -2102,15 +2133,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc1OQ",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc1OQ",
       "properties": [
         {
           "property": {
@@ -2153,15 +2185,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc2NA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc2NA",
       "properties": [
         {
           "property": {
@@ -2204,15 +2237,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc3MQ",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc3MQ",
       "properties": [
         {
           "property": {
@@ -2255,15 +2289,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc3Mw",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc3Mw",
       "properties": [
         {
           "property": {
@@ -2306,15 +2341,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc3NQ",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc3NQ",
       "properties": [
         {
           "property": {
@@ -2357,15 +2393,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc4Ng",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc4Ng",
       "properties": [
         {
           "property": {
@@ -2408,15 +2445,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc4OA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc4OA",
       "properties": [
         {
           "property": {
@@ -2459,15 +2497,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc5MA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTc5MA",
       "properties": [
         {
           "property": {
@@ -2510,15 +2549,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTgwNg",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTgwNg",
       "properties": [
         {
           "property": {
@@ -2561,15 +2601,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTgwOA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTgwOA",
       "properties": [
         {
           "property": {
@@ -2612,15 +2653,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTgxMA",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Property"
-      },
+      }
+    },
+    {
+      "id": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTYvNzI3MjkxNzE2NzMxNzg0NTgxMA",
       "properties": [
         {
           "property": {
@@ -2663,15 +2705,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-    },
-    {
-      "id": "My-Enum3",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Enumeration"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "My-Enum3",
       "properties": [
         {
           "property": {
@@ -2704,15 +2747,16 @@
         }
       ],
       "references": [],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "My-EnumLiteralKeyed",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "EnumerationLiteral"
-      },
+        "key": "Enumeration"
+      }
+    },
+    {
+      "id": "My-EnumLiteralKeyed",
       "properties": [
         {
           "property": {
@@ -2733,15 +2777,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "My-Enum3"
-    },
-    {
-      "id": "My-EnumLiteralUnkeyed",
+      "annotations": [],
+      "parent": "My-Enum3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
-      },
+      }
+    },
+    {
+      "id": "My-EnumLiteralUnkeyed",
       "properties": [
         {
           "property": {
@@ -2762,15 +2807,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI"
-    },
-    {
-      "id": "My-KeyedChild",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "EnumerationLiteral"
+      }
+    },
+    {
+      "id": "My-KeyedChild",
       "properties": [
         {
           "property": {
@@ -2821,15 +2867,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptKeyed"
-    },
-    {
-      "id": "My-KeyedProp",
+      "annotations": [],
+      "parent": "My-Test3ConceptKeyed",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "My-KeyedProp",
       "properties": [
         {
           "property": {
@@ -2872,15 +2919,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptKeyed"
-    },
-    {
-      "id": "My-KeyedRef",
+      "annotations": [],
+      "parent": "My-Test3ConceptKeyed",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "My-KeyedRef",
       "properties": [
         {
           "property": {
@@ -2931,15 +2979,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptKeyed"
-    },
-    {
-      "id": "My-Test3ConceptBase",
+      "annotations": [],
+      "parent": "My-Test3ConceptKeyed",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Concept"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "My-Test3ConceptBase",
       "properties": [
         {
           "property": {
@@ -3021,15 +3070,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "My-Test3ConceptKeyed",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "Concept"
-      },
+      }
+    },
+    {
+      "id": "My-Test3ConceptKeyed",
       "properties": [
         {
           "property": {
@@ -3104,15 +3154,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "My-Test3ConstrainedDatatype",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "PrimitiveType"
-      },
+        "key": "Concept"
+      }
+    },
+    {
+      "id": "My-Test3ConstrainedDatatype",
       "properties": [
         {
           "property": {
@@ -3133,15 +3184,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "My-Test3Enumeration1",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Enumeration"
-      },
+        "key": "PrimitiveType"
+      }
+    },
+    {
+      "id": "My-Test3Enumeration1",
       "properties": [
         {
           "property": {
@@ -3174,15 +3226,16 @@
         }
       ],
       "references": [],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "My-Test3InterfaceBase",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "ConceptInterface"
-      },
+        "key": "Enumeration"
+      }
+    },
+    {
+      "id": "My-Test3InterfaceBase",
       "properties": [
         {
           "property": {
@@ -3223,15 +3276,16 @@
           "targets": []
         }
       ],
-      "parent": "My-TestLang3"
-    },
-    {
-      "id": "My-Test3Literal1",
+      "annotations": [],
+      "parent": "My-TestLang3",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "EnumerationLiteral"
-      },
+        "key": "ConceptInterface"
+      }
+    },
+    {
+      "id": "My-Test3Literal1",
       "properties": [
         {
           "property": {
@@ -3252,15 +3306,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "My-Test3Enumeration1"
-    },
-    {
-      "id": "My-Test3Literal2",
+      "annotations": [],
+      "parent": "My-Test3Enumeration1",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
-      },
+      }
+    },
+    {
+      "id": "My-Test3Literal2",
       "properties": [
         {
           "property": {
@@ -3281,15 +3336,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "My-Test3Enumeration1"
-    },
-    {
-      "id": "My-Test3Literal3",
+      "annotations": [],
+      "parent": "My-Test3Enumeration1",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
         "key": "EnumerationLiteral"
-      },
+      }
+    },
+    {
+      "id": "My-Test3Literal3",
       "properties": [
         {
           "property": {
@@ -3310,15 +3366,16 @@
       ],
       "children": [],
       "references": [],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ2MjY"
-    },
-    {
-      "id": "My-Test3StringProp",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ2MjY",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "EnumerationLiteral"
+      }
+    },
+    {
+      "id": "My-Test3StringProp",
       "properties": [
         {
           "property": {
@@ -3361,15 +3418,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "My-Test3ZeroToOne",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "My-Test3ZeroToOne",
       "properties": [
         {
           "property": {
@@ -3420,15 +3478,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "My-Test3refZeroToOne",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "My-Test3refZeroToOne",
       "properties": [
         {
           "property": {
@@ -3479,15 +3538,16 @@
           ]
         }
       ],
-      "parent": "My-Test3ConceptBase"
-    },
-    {
-      "id": "My-TestLang3",
+      "annotations": [],
+      "parent": "My-Test3ConceptBase",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Language"
-      },
+        "key": "Reference"
+      }
+    },
+    {
+      "id": "My-TestLang3",
       "properties": [
         {
           "property": {
@@ -3553,15 +3613,16 @@
           "targets": []
         }
       ],
-      "parent": null
-    },
-    {
-      "id": "My-UnkeyedChild",
+      "annotations": [],
+      "parent": null,
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Containment"
-      },
+        "key": "Language"
+      }
+    },
+    {
+      "id": "My-UnkeyedChild",
       "properties": [
         {
           "property": {
@@ -3612,15 +3673,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-    },
-    {
-      "id": "My-UnkeyedProp",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Property"
-      },
+        "key": "Containment"
+      }
+    },
+    {
+      "id": "My-UnkeyedProp",
       "properties": [
         {
           "property": {
@@ -3663,15 +3725,16 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-    },
-    {
-      "id": "My-UnkeyedRef",
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
       "concept": {
         "language": "LionCore-M3",
         "version": "1",
-        "key": "Reference"
-      },
+        "key": "Property"
+      }
+    },
+    {
+      "id": "My-UnkeyedRef",
       "properties": [
         {
           "property": {
@@ -3722,7 +3785,13 @@
           ]
         }
       ],
-      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
+      "annotations": [],
+      "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA",
+      "concept": {
+        "language": "LionCore-M3",
+        "version": "1",
+        "key": "Reference"
+      }
     }
   ]
 }

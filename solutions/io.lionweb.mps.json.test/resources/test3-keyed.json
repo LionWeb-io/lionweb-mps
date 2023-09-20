@@ -4,11 +4,6 @@
   "nodes": [
     {
       "id": "{id-keyed}",
-      "concept": {
-        "language": "My-TestLang3",
-        "version": "0",
-        "key": "My-Test3ConceptKeyed"
-      },
       "properties": [
         {
           "property": {
@@ -77,31 +72,39 @@
           ]
         }
       ],
-      "parent": null
+      "annotations": [],
+      "parent": null,
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "My-Test3ConceptKeyed"
+      }
     },
     {
       "id": "{id-Plain}",
+      "properties": [],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-keyed}",
       "concept": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
-      },
-      "properties": [],
-      "children": [],
-      "references": [],
-      "parent": "{id-keyed}"
+      }
     },
     {
       "id": "{id-NoExtends}",
+      "properties": [],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-keyed}",
       "concept": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
-      },
-      "properties": [],
-      "children": [],
-      "references": [],
-      "parent": "{id-keyed}"
+      }
     }
   ]
 }

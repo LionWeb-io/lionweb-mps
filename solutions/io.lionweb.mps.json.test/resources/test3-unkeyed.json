@@ -4,11 +4,6 @@
   "nodes": [
     {
       "id": "{id-unkeyed}",
-      "concept": {
-        "language": "My-TestLang3",
-        "version": "0",
-        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-      },
       "properties": [
         {
           "property": {
@@ -77,31 +72,39 @@
           ]
         }
       ],
-      "parent": null
+      "annotations": [],
+      "parent": null,
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
+      }
     },
     {
       "id": "{id-Plain}",
+      "properties": [],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-unkeyed}",
       "concept": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
-      },
-      "properties": [],
-      "children": [],
-      "references": [],
-      "parent": "{id-unkeyed}"
+      }
     },
     {
       "id": "{id-NoExtends}",
+      "properties": [],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-unkeyed}",
       "concept": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
-      },
-      "properties": [],
-      "children": [],
-      "references": [],
-      "parent": "{id-unkeyed}"
+      }
     }
   ]
 }

@@ -4,11 +4,6 @@
   "nodes": [
     {
       "id": "{id-tcd}",
-      "concept": {
-        "language": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
-        "version": "0",
-        "key": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-      },
       "properties": [
         {
           "property": {
@@ -53,7 +48,13 @@
       ],
       "children": [],
       "references": [],
-      "parent": null
+      "annotations": [],
+      "parent": null,
+      "concept": {
+        "language": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
+        "version": "0",
+        "key": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
+      }
     }
   ]
 }
