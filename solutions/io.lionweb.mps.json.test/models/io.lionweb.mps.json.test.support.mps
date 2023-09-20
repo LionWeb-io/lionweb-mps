@@ -7,6 +7,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -207,6 +208,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable">
+      <concept id="1177714083117" name="jetbrains.mps.baseLanguage.varVariable.structure.VarType" flags="in" index="PeGgZ" />
+      <concept id="1236693300889" name="jetbrains.mps.baseLanguage.varVariable.structure.VarVariableDeclaration" flags="ng" index="3KEzu6" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
@@ -924,7 +929,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="5lijfVJXjQb" role="1tU5fm">
           <node concept="3uibUv" id="5lijfVJXjQc" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
           </node>
         </node>
       </node>
@@ -955,7 +960,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="5glO5qKYPfj" role="1tU5fm">
           <node concept="3uibUv" id="5glO5qKYPfk" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+            <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
           </node>
         </node>
       </node>
@@ -1721,33 +1726,29 @@
         </node>
         <node concept="3clFbH" id="4R9posp6l$Q" role="3cqZAp" />
         <node concept="3cpWs8" id="2A0cGJdREpA" role="3cqZAp">
-          <node concept="3cpWsn" id="2A0cGJdREpB" role="3cpWs9">
+          <node concept="3KEzu6" id="7W6jYlyZo1a" role="3cpWs9">
             <property role="TrG5h" value="result" />
-            <node concept="_YKpA" id="2A0cGJdREog" role="1tU5fm">
-              <node concept="3uibUv" id="2A0cGJdREoj" role="_ZDj9">
-                <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="2A0cGJdREpC" role="33vP2m">
-              <node concept="37vLTw" id="2A0cGJdREpD" role="2Oq$k0">
+            <node concept="2OqwBi" id="7W6jYlyZo1i" role="33vP2m">
+              <node concept="37vLTw" id="7W6jYlyZo1j" role="2Oq$k0">
                 <ref role="3cqZAo" node="2A0cGJdRE9I" resolve="unserializer" />
               </node>
-              <node concept="liA8E" id="2A0cGJdREpE" role="2OqNvi">
+              <node concept="liA8E" id="7W6jYlyZo1k" role="2OqNvi">
                 <ref role="37wK5l" to="6peh:z1IqfFwqy3" resolve="unserialize" />
               </node>
             </node>
+            <node concept="PeGgZ" id="7W6jYlyZo19" role="1tU5fm" />
           </node>
         </node>
         <node concept="3cpWs6" id="4R9posp6lKc" role="3cqZAp">
           <node concept="37vLTw" id="4R9posp6map" role="3cqZAk">
-            <ref role="3cqZAo" node="2A0cGJdREpB" resolve="result" />
+            <ref role="3cqZAo" node="7W6jYlyZo1a" resolve="result" />
           </node>
         </node>
       </node>
       <node concept="3Tm1VV" id="4R9posp6gPe" role="1B3o_S" />
       <node concept="A3Dl8" id="4R9posp6gUL" role="3clF45">
         <node concept="3uibUv" id="4R9posp6gV4" role="A3Ik2">
-          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
         </node>
       </node>
     </node>

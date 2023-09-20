@@ -63,7 +63,7 @@
         <node concept="2pNNFK" id="7ZoWiKceyur" role="3o6s8t">
           <property role="2pNNFO" value="name" />
           <node concept="3o6iSG" id="7ZoWiKceyuE" role="3o6s8t">
-            <property role="3o6i5n" value="MPS LIonWeb Client" />
+            <property role="3o6i5n" value="MPS LionWeb Client" />
           </node>
         </node>
         <node concept="2pNNFK" id="7ZoWiKceyuW" role="3o6s8t">
@@ -145,7 +145,7 @@
             <node concept="2pNUuL" id="ZFW0c2ct0P" role="2pNNFR">
               <property role="2pNUuO" value="title" />
               <node concept="2pMdtt" id="ZFW0c2ct0Q" role="2pMdts">
-                <property role="2pMdty" value="LIonWeb repository" />
+                <property role="2pMdty" value="LionWeb repository" />
               </node>
             </node>
             <node concept="2pNUuL" id="ZFW0c2ct0$" role="2pNNFR">

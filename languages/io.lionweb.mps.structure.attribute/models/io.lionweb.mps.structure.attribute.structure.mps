@@ -67,8 +67,8 @@
   </registry>
   <node concept="1TIwiD" id="6fYiNFad_9U">
     <property role="EcuMT" value="7205279169712116346" />
-    <property role="TrG5h" value="LIonWebLanguageKey" />
-    <property role="R4oN_" value="Key of Language imported from LIonWeb" />
+    <property role="TrG5h" value="LionWebLanguageKey" />
+    <property role="R4oN_" value="Key of Language imported from LionWeb" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6fYiNFad_a4" role="PzmwI">
@@ -89,9 +89,9 @@
   </node>
   <node concept="1TIwiD" id="6fYiNFad_a6">
     <property role="EcuMT" value="7205279169712116358" />
-    <property role="TrG5h" value="LIonWebEntityKey" />
-    <property role="34LRSv" value="LIonWeb key" />
-    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALIonWebNodeAttribute" />
+    <property role="TrG5h" value="LionWebEntityKey" />
+    <property role="34LRSv" value="LionWeb key" />
+    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALionWebNodeAttribute" />
     <node concept="M6xJ_" id="6fYiNFad_a7" role="lGtFl">
       <property role="Hh88m" value="lionWebKey" />
       <node concept="tn0Fv" id="6fYiNFad_ab" role="HhnKV" />
@@ -108,9 +108,9 @@
   </node>
   <node concept="1TIwiD" id="5AGBwuDBtDm">
     <property role="EcuMT" value="6461713321117473366" />
-    <property role="TrG5h" value="LIonWebSmartReference" />
-    <property role="34LRSv" value="LIonWeb smart reference" />
-    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALIonWebNodeAttribute" />
+    <property role="TrG5h" value="LionWebSmartReference" />
+    <property role="34LRSv" value="LionWeb smart reference" />
+    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALionWebNodeAttribute" />
     <node concept="1TJgyj" id="5AGBwuDBtEv" role="1TKVEi">
       <property role="IQ2ns" value="6461713321117473439" />
       <property role="20kJfa" value="reference" />
@@ -129,9 +129,9 @@
   </node>
   <node concept="1TIwiD" id="5AGBwuDOKLV">
     <property role="EcuMT" value="6461713321120959611" />
-    <property role="TrG5h" value="LIonWebOptionalProperty" />
-    <property role="34LRSv" value="LIonWeb optional" />
-    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALIonWebNodeAttribute" />
+    <property role="TrG5h" value="LionWebOptionalProperty" />
+    <property role="34LRSv" value="LionWeb optional" />
+    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALionWebNodeAttribute" />
     <node concept="1TJgyi" id="5AGBwuDOKM2" role="1TKVEl">
       <property role="IQ2nx" value="6461713321120959618" />
       <property role="TrG5h" value="optional" />
@@ -147,9 +147,9 @@
   </node>
   <node concept="1TIwiD" id="5AGBwuDOKM4">
     <property role="EcuMT" value="6461713321120959620" />
-    <property role="TrG5h" value="LIonWebPartitionConcept" />
-    <property role="34LRSv" value="LIonWeb partition" />
-    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALIonWebNodeAttribute" />
+    <property role="TrG5h" value="LionWebPartitionConcept" />
+    <property role="34LRSv" value="LionWeb partition" />
+    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALionWebNodeAttribute" />
     <node concept="1TJgyi" id="5AGBwuDOKMb" role="1TKVEl">
       <property role="IQ2nx" value="6461713321120959627" />
       <property role="TrG5h" value="partition" />
@@ -164,7 +164,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5AGBwuF9V$v">
-    <property role="TrG5h" value="ALIonWebNodeAttribute" />
+    <property role="TrG5h" value="ALionWebNodeAttribute" />
     <property role="EcuMT" value="6461713321143286046" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />

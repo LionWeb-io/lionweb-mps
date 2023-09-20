@@ -48,7 +48,7 @@
     </language>
   </registry>
   <node concept="2RzRRF" id="2ju2syjnA_T">
-    <property role="TrG5h" value="LIonWeb-core" />
+    <property role="TrG5h" value="LionWeb-core" />
     <property role="3HH78N" value="1" />
     <property role="2RzON1" value="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" />
     <node concept="2RzPWn" id="2ju2syjo7cK" role="2RzR6B">

@@ -334,12 +334,12 @@
       </node>
       <node concept="3_J27D" id="5wsogBcGDKR" role="3s6cr7">
         <node concept="3Mxwew" id="5wsogBcGDKS" role="3MwsjC">
-          <property role="3MwjfP" value="LIonWeb MPS Implementation" />
+          <property role="3MwjfP" value="LionWeb MPS Implementation" />
         </node>
       </node>
       <node concept="2iUeEo" id="5wsogBcGDKT" role="2iVFfd">
-        <property role="2iUeEt" value="LIonWeb Project" />
-        <property role="2iUeEu" value="https://github.com/LIonWeb-org/lioncore-mps" />
+        <property role="2iUeEt" value="LionWeb Project" />
+        <property role="2iUeEu" value="https://github.com/LionWeb-org/lioncore-mps" />
       </node>
       <node concept="55IIr" id="3zl4G81THGZ" role="I30fb">
         <node concept="2Ry0Ak" id="3zl4G81THHG" role="iGT6I">

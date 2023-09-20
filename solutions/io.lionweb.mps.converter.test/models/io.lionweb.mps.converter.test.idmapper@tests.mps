@@ -960,7 +960,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIJsdI" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIK0oJ" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-M3" />
+              <property role="Xl_RC" value="LionCore-M3" />
             </node>
           </node>
         </node>
@@ -1018,7 +1018,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIJzrU" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIK0Eh" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins" />
+              <property role="Xl_RC" value="LionCore-builtins" />
             </node>
           </node>
         </node>
@@ -2362,7 +2362,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsJm" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKsJn" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-M3" />
+              <property role="Xl_RC" value="LionCore-M3" />
             </node>
           </node>
         </node>
@@ -2410,7 +2410,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsJK" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKsJL" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins" />
+              <property role="Xl_RC" value="LionCore-builtins" />
             </node>
           </node>
         </node>
@@ -2459,7 +2459,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsKb" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKJIv" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-Node" />
+              <property role="Xl_RC" value="LionCore-builtins-Node" />
             </node>
           </node>
         </node>
@@ -2523,7 +2523,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsKH" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKK4g" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+              <property role="Xl_RC" value="LionCore-builtins-INamed" />
             </node>
           </node>
         </node>
@@ -2587,7 +2587,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsLf" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKKfg" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-INamed-name" />
+              <property role="Xl_RC" value="LionCore-builtins-INamed-name" />
             </node>
           </node>
         </node>
@@ -2633,7 +2633,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsLE" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKKuI" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-String" />
+              <property role="Xl_RC" value="LionCore-builtins-String" />
             </node>
           </node>
         </node>
@@ -2698,7 +2698,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsMc" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKKEq" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+              <property role="Xl_RC" value="LionCore-builtins-Boolean" />
             </node>
           </node>
         </node>
@@ -2763,7 +2763,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsMI" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKL3O" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+              <property role="Xl_RC" value="LionCore-builtins-Integer" />
             </node>
           </node>
         </node>
@@ -2828,7 +2828,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsNg" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKLao" role="33vP2m">
-              <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+              <property role="Xl_RC" value="LionCore-builtins-JSON" />
             </node>
           </node>
         </node>
@@ -2978,7 +2978,7 @@
             <node concept="liA8E" id="4oHUzWXSz34" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sDq" resolve="mapLanguage" />
               <node concept="Xl_RD" id="5uFjJmiVmRz" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-M3" />
+                <property role="Xl_RC" value="LionCore-M3" />
               </node>
             </node>
           </node>
@@ -3003,7 +3003,7 @@
             <node concept="liA8E" id="4oHUzWXTJ5T" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sDq" resolve="mapLanguage" />
               <node concept="Xl_RD" id="4oHUzWXTJ5U" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins" />
+                <property role="Xl_RC" value="LionCore-builtins" />
               </node>
             </node>
           </node>
@@ -3031,7 +3031,7 @@
             <node concept="liA8E" id="4oHUzWXTUvD" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sDR" resolve="mapClassifier" />
               <node concept="Xl_RD" id="4oHUzWXTUA6" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Node" />
+                <property role="Xl_RC" value="LionCore-builtins-Node" />
               </node>
             </node>
           </node>
@@ -3056,7 +3056,7 @@
             <node concept="liA8E" id="4oHUzWXTZW6" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sEj" resolve="mapConcept" />
               <node concept="Xl_RD" id="4oHUzWXTZW7" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Node" />
+                <property role="Xl_RC" value="LionCore-builtins-Node" />
               </node>
             </node>
           </node>
@@ -3081,7 +3081,7 @@
             <node concept="liA8E" id="4oHUzWXU0AG" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sDR" resolve="mapClassifier" />
               <node concept="Xl_RD" id="4oHUzWXU0AH" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+                <property role="Xl_RC" value="LionCore-builtins-INamed" />
               </node>
             </node>
           </node>
@@ -3106,7 +3106,7 @@
             <node concept="liA8E" id="4oHUzWXU6M6" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sEJ" resolve="mapIface" />
               <node concept="Xl_RD" id="4oHUzWXU6M7" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-INamed" />
+                <property role="Xl_RC" value="LionCore-builtins-INamed" />
               </node>
             </node>
           </node>
@@ -3131,7 +3131,7 @@
             <node concept="liA8E" id="4oHUzWXU7Ct" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sFb" resolve="mapProperty" />
               <node concept="Xl_RD" id="4oHUzWXU7Cu" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-INamed-name" />
+                <property role="Xl_RC" value="LionCore-builtins-INamed-name" />
               </node>
             </node>
           </node>
@@ -3156,7 +3156,7 @@
             <node concept="liA8E" id="4oHUzWXUlKA" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXUlKB" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-String" />
+                <property role="Xl_RC" value="LionCore-builtins-String" />
               </node>
             </node>
           </node>
@@ -3181,7 +3181,7 @@
             <node concept="liA8E" id="4oHUzWXV2ns" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXV2nt" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-String" />
+                <property role="Xl_RC" value="LionCore-builtins-String" />
               </node>
             </node>
           </node>
@@ -3206,7 +3206,7 @@
             <node concept="liA8E" id="4oHUzWXVc3k" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXVc3l" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+                <property role="Xl_RC" value="LionCore-builtins-Boolean" />
               </node>
             </node>
           </node>
@@ -3231,7 +3231,7 @@
             <node concept="liA8E" id="4oHUzWXVc39" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXVc3a" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Boolean" />
+                <property role="Xl_RC" value="LionCore-builtins-Boolean" />
               </node>
             </node>
           </node>
@@ -3256,7 +3256,7 @@
             <node concept="liA8E" id="4oHUzWXVbtX" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXVbtY" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+                <property role="Xl_RC" value="LionCore-builtins-Integer" />
               </node>
             </node>
           </node>
@@ -3281,7 +3281,7 @@
             <node concept="liA8E" id="4oHUzWXVbtM" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXVbtN" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-Integer" />
+                <property role="Xl_RC" value="LionCore-builtins-Integer" />
               </node>
             </node>
           </node>
@@ -3306,7 +3306,7 @@
             <node concept="liA8E" id="4oHUzWXVaWB" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXVaWC" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+                <property role="Xl_RC" value="LionCore-builtins-JSON" />
               </node>
             </node>
           </node>
@@ -3331,7 +3331,7 @@
             <node concept="liA8E" id="4oHUzWXVaWs" role="2OqNvi">
               <ref role="37wK5l" to="teza:5M3rB6A1sG8" resolve="mapDataType" />
               <node concept="Xl_RD" id="4oHUzWXVaWt" role="37wK5m">
-                <property role="Xl_RC" value="LIonCore-builtins-JSON" />
+                <property role="Xl_RC" value="LionCore-builtins-JSON" />
               </node>
             </node>
           </node>

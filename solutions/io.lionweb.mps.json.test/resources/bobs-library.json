@@ -9,11 +9,6 @@
   "nodes": [
     {
       "id": "{id-lib}",
-      "concept": {
-        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-        "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
-      },
       "properties": [
         {
           "property": {
@@ -37,15 +32,16 @@
         }
       ],
       "references": [],
-      "parent": null
-    },
-    {
-      "id": "{id-explorer-book}",
+      "annotations": [],
+      "parent": null,
       "concept": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
-      },
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
+      }
+    },
+    {
+      "id": "{id-explorer-book}",
       "properties": [
         {
           "property": {
@@ -80,15 +76,16 @@
           ]
         }
       ],
-      "parent": "{id-lib}"
-    },
-    {
-      "id": "{id-jack-london}",
+      "annotations": [],
+      "parent": "{id-lib}",
       "concept": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
-      },
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
+      }
+    },
+    {
+      "id": "{id-jack-london}",
       "properties": [
         {
           "property": {
@@ -109,7 +106,13 @@
       ],
       "children": [],
       "references": [],
-      "parent": null
+      "annotations": [],
+      "parent": null,
+      "concept": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
+      }
     }
   ]
 }

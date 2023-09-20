@@ -36,33 +36,33 @@
   <node concept="2RzRRF" id="2ju2syjnJjW">
     <property role="TrG5h" value="Built-in DataTypes" />
     <property role="3HH78N" value="1" />
-    <property role="2RzON1" value="LIonCore-builtins" />
+    <property role="2RzON1" value="LionCore-builtins" />
     <node concept="2RzSJf" id="2ju2syjnJjX" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore-builtins-String" />
+      <property role="2RzON1" value="LionCore-builtins-String" />
       <property role="TrG5h" value="String" />
     </node>
     <node concept="2RzSJf" id="2ju2syjnJk2" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore-builtins-Boolean" />
+      <property role="2RzON1" value="LionCore-builtins-Boolean" />
       <property role="TrG5h" value="Boolean" />
     </node>
     <node concept="2RzSJf" id="48csSBPfMBo" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore-builtins-Integer" />
+      <property role="2RzON1" value="LionCore-builtins-Integer" />
       <property role="TrG5h" value="Integer" />
     </node>
     <node concept="2RzSJf" id="39$JcGFBN1E" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore-builtins-JSON" />
+      <property role="2RzON1" value="LionCore-builtins-JSON" />
       <property role="TrG5h" value="JSON" />
     </node>
     <node concept="2RzPWn" id="39$JcGFBN1$" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore-builtins-Node" />
+      <property role="2RzON1" value="LionCore-builtins-Node" />
       <property role="TrG5h" value="Node" />
       <property role="2RzP46" value="true" />
     </node>
     <node concept="2RzPaY" id="6jTTMHCZNUU" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore-builtins-INamed" />
+      <property role="2RzON1" value="LionCore-builtins-INamed" />
       <property role="TrG5h" value="INamed" />
       <node concept="2RzOeU" id="6jTTMHCZNV2" role="2RzPPN">
-        <property role="2RzON1" value="LIonCore-builtins-INamed-name" />
+        <property role="2RzON1" value="LionCore-builtins-INamed-name" />
         <property role="TrG5h" value="name" />
         <ref role="2Rx9Fl" node="2ju2syjnJjX" resolve="String" />
       </node>

@@ -4,17 +4,12 @@
   "nodes": [
     {
       "id": "id-part",
-      "concept": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
-      },
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "MyPartition"
         }
@@ -49,21 +44,22 @@
         }
       ],
       "references": [],
-      "parent": null
-    },
-    {
-      "id": "id-aaa",
+      "annotations": [],
+      "parent": null,
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "10b2d191-8718-4ed6-b20e-0fe66358190a"
-      },
+        "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
+      }
+    },
+    {
+      "id": "id-aaa",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "aaa"
         }
@@ -88,21 +84,22 @@
           ]
         }
       ],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-bbb",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "c4369692-13fe-499d-9c6c-86dd8461f0ad"
-      },
+        "key": "10b2d191-8718-4ed6-b20e-0fe66358190a"
+      }
+    },
+    {
+      "id": "id-bbb",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "bbb"
         }
@@ -127,21 +124,22 @@
           ]
         }
       ],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-ccc",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "45fd0a93-9faa-4c75-8d34-c76f93b8080c"
-      },
+        "key": "c4369692-13fe-499d-9c6c-86dd8461f0ad"
+      }
+    },
+    {
+      "id": "id-ccc",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "ccc"
         }
@@ -166,21 +164,22 @@
           ]
         }
       ],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-ddd",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "318dbba9-541a-4ef9-9f25-ec0d334df29a"
-      },
+        "key": "45fd0a93-9faa-4c75-8d34-c76f93b8080c"
+      }
+    },
+    {
+      "id": "id-ddd",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "ddd"
         }
@@ -201,21 +200,22 @@
           ]
         }
       ],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-eee",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI"
-      },
+        "key": "318dbba9-541a-4ef9-9f25-ec0d334df29a"
+      }
+    },
+    {
+      "id": "id-eee",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "eee"
         }
@@ -233,42 +233,44 @@
         }
       ],
       "references": [],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-rE",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      },
+        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI"
+      }
+    },
+    {
+      "id": "id-rE",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "rE"
         }
       ],
       "children": [],
       "references": [],
-      "parent": "id-eee"
-    },
-    {
-      "id": "id-fff",
+      "annotations": [],
+      "parent": "id-eee",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg"
-      },
+        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+      }
+    },
+    {
+      "id": "id-fff",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "fff"
         }
@@ -286,91 +288,101 @@
         }
       ],
       "references": [],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-rF",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      },
+        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg"
+      }
+    },
+    {
+      "id": "id-rF",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "rF"
         }
       ],
       "children": [],
       "references": [],
-      "parent": "id-fff"
-    },
-    {
-      "id": "id-r1",
+      "annotations": [],
+      "parent": "id-fff",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      },
+      }
+    },
+    {
+      "id": "id-r1",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "r1"
         }
       ],
       "children": [],
       "references": [],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-r2",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      },
+      }
+    },
+    {
+      "id": "id-r2",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "r2"
         }
       ],
       "children": [],
       "references": [],
-      "parent": "id-part"
-    },
-    {
-      "id": "id-r3",
+      "annotations": [],
+      "parent": "id-part",
       "concept": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      },
+      }
+    },
+    {
+      "id": "id-r3",
       "properties": [
         {
           "property": {
-            "language": "LIonCore-builtins",
+            "language": "LionCore-builtins",
             "version": "1",
-            "key": "LIonCore-builtins-INamed-name"
+            "key": "LionCore-builtins-INamed-name"
           },
           "value": "r3"
         }
       ],
       "children": [],
       "references": [],
-      "parent": "id-part"
+      "annotations": [],
+      "parent": "id-part",
+      "concept": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+      }
     }
   ]
 }

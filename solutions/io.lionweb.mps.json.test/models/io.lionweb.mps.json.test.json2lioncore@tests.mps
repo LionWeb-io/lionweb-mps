@@ -867,9 +867,9 @@
     </node>
     <node concept="1qefOq" id="5sACIIs_h1$" role="1SKRRt">
       <node concept="2RzRRF" id="5sACIIs$PgG" role="1qenE9">
-        <property role="TrG5h" value="LIonCore.M3" />
+        <property role="TrG5h" value="LionCore.M3" />
         <property role="3HH78N" value="1" />
-        <property role="2RzON1" value="LIonCore-M3" />
+        <property role="2RzON1" value="LionCore-M3" />
         <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
           <property role="2RzP46" value="true" />
           <property role="2RzON1" value="Classifier" />
@@ -2150,9 +2150,9 @@
     </node>
     <node concept="1qefOq" id="5ocQ9W1xYSD" role="1SKRRt">
       <node concept="2RzRRF" id="5ocQ9W1xYSE" role="1qenE9">
-        <property role="TrG5h" value="LIonCore.M3" />
+        <property role="TrG5h" value="LionCore.M3" />
         <property role="3HH78N" value="1" />
-        <property role="2RzON1" value="LIonCore-M3" />
+        <property role="2RzON1" value="LionCore-M3" />
         <node concept="2RzPWn" id="5ocQ9W1xYSF" role="2RzR6B">
           <property role="2RzP46" value="true" />
           <property role="2RzON1" value="Classifier" />

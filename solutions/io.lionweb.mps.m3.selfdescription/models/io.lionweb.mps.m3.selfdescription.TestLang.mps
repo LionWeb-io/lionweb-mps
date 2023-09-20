@@ -765,15 +765,15 @@
       </node>
     </node>
     <node concept="2RzSJf" id="39$JcGF8ZiO" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_String" />
+      <property role="2RzON1" value="LionCore_M3_String" />
       <property role="TrG5h" value="String" />
     </node>
     <node concept="2RzSJf" id="39$JcGF8ZiP" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_Integer" />
+      <property role="2RzON1" value="LionCore_M3_Integer" />
       <property role="TrG5h" value="Integer" />
     </node>
     <node concept="2RzSJf" id="39$JcGF8ZiQ" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_Boolean" />
+      <property role="2RzON1" value="LionCore_M3_Boolean" />
       <property role="TrG5h" value="Boolean" />
     </node>
   </node>
@@ -1905,15 +1905,15 @@
       </node>
     </node>
     <node concept="2RzSJf" id="39$JcGGPfGb" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_String" />
+      <property role="2RzON1" value="LionCore_M3_String" />
       <property role="TrG5h" value="String" />
     </node>
     <node concept="2RzSJf" id="39$JcGGPfGc" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_Integer" />
+      <property role="2RzON1" value="LionCore_M3_Integer" />
       <property role="TrG5h" value="Integer" />
     </node>
     <node concept="2RzSJf" id="39$JcGGPfGd" role="2RzR6B">
-      <property role="2RzON1" value="LIonCore_M3_Boolean" />
+      <property role="2RzON1" value="LionCore_M3_Boolean" />
       <property role="TrG5h" value="Boolean" />
     </node>
   </node>

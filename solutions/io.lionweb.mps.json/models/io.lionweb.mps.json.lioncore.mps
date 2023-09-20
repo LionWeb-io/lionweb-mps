@@ -3525,7 +3525,7 @@
     <node concept="3UR2Jj" id="1ilOlIENjBX" role="lGtFl">
       <node concept="TZ5HA" id="1ilOlIENjBY" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIENqga" role="1dT_Ay">
-          <property role="1dT_AB" value="Imports LIonWeb JSON " />
+          <property role="1dT_AB" value="Imports LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="1ilOlIENqgb" role="1dT_Ay">
           <node concept="92FcH" id="1ilOlIENqgc" role="qph3F">
@@ -3536,7 +3536,7 @@
           </node>
         </node>
         <node concept="1dT_AC" id="1ilOlIENqgf" role="1dT_Ay">
-          <property role="1dT_AB" value="s to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+          <property role="1dT_AB" value="s to LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
         </node>
         <node concept="1dT_AC" id="1ilOlIENjBZ" role="1dT_Ay" />
       </node>
@@ -6995,7 +6995,7 @@
     <node concept="3UR2Jj" id="1ilOlIEMGkT" role="lGtFl">
       <node concept="TZ5HA" id="1ilOlIEMGkU" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIEMGkV" role="1dT_Ay">
-          <property role="1dT_AB" value="Exports LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3 to LIonWeb JSON " />
+          <property role="1dT_AB" value="Exports LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3 to LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAmHN" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAmHY" role="qph3F">

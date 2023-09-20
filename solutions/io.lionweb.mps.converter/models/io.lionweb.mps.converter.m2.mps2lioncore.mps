@@ -3794,7 +3794,7 @@
     <node concept="3UR2Jj" id="1ilOlIENzRq" role="lGtFl">
       <node concept="TZ5HA" id="1ilOlIENzRr" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIENzRs" role="1dT_Ay">
-          <property role="1dT_AB" value="Converts MPS language structure models to to LIonWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+          <property role="1dT_AB" value="Converts MPS language structure models to to LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
         </node>
       </node>
       <node concept="TZ5HA" id="1ilOlIENNle" role="TZ5H$">

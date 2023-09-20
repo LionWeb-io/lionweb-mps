@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.28")
+    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.0.31")
 	"generation" ("de.itemis.mps:extensions:2021.1.2365.a4d7bb2")
 }
 
@@ -70,15 +70,15 @@ publishing {
 
             pom {
                 name.set("lionweb-mps")
-                description.set("MPS APIs for the LIonWeb system")
+                description.set("MPS APIs for the LionWeb system")
                 version = project.version as String
                 packaging = "zip"
-                url.set("https://github.com/LIonWeb-org/lioncore-mps")
+                url.set("https://github.com/LionWeb-org/lioncore-mps")
 
                 scm {
-                    connection.set("scm:git:https://github.com/LIonWeb-org/lioncore-mps.git")
-                    developerConnection.set("scm:git:git@github.com:LIonWeb-org/lioncore-mps.git")
-                    url.set("https://github.com/LIonWeb-org/lioncore-mps.git")
+                    connection.set("scm:git:https://github.com/LionWeb-org/lioncore-mps.git")
+                    developerConnection.set("scm:git:git@github.com:LionWeb-org/lioncore-mps.git")
+                    url.set("https://github.com/LionWeb-org/lioncore-mps.git")
                 }
 
                 licenses {

@@ -4,11 +4,6 @@
   "nodes": [
     {
       "id": "{id-Test3Properties}",
-      "concept": {
-        "language": "My-TestLang3",
-        "version": "0",
-        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-      },
       "properties": [
         {
           "property": {
@@ -37,7 +32,13 @@
       ],
       "children": [],
       "references": [],
-      "parent": null
+      "annotations": [],
+      "parent": null,
+      "concept": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
+      }
     }
   ]
 }

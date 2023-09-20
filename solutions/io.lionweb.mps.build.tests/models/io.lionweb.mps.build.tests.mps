@@ -198,12 +198,12 @@
       </node>
       <node concept="3_J27D" id="5wsogBcGDPI" role="3s6cr7">
         <node concept="3Mxwew" id="5wsogBcGDPJ" role="3MwsjC">
-          <property role="3MwjfP" value="LIonWeb MPS Implementation tests" />
+          <property role="3MwjfP" value="LionWeb MPS Implementation tests" />
         </node>
       </node>
       <node concept="2iUeEo" id="5wsogBcGDPK" role="2iVFfd">
-        <property role="2iUeEt" value="LIonWeb Project" />
-        <property role="2iUeEu" value="https://github.com/LIonWeb-org/lioncore-mps" />
+        <property role="2iUeEt" value="LionWeb Project" />
+        <property role="2iUeEu" value="https://github.com/LionWeb-org/lioncore-mps" />
       </node>
     </node>
     <node concept="2G$12M" id="5wsogBcGDQO" role="3989C9">

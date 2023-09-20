@@ -4,6 +4,7 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
   </languages>
   <imports>
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
@@ -43,8 +44,16 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
@@ -130,15 +139,15 @@
   <node concept="312cEu" id="5ocQ9W1$rnY">
     <property role="TrG5h" value="SortedSerializedNode" />
     <node concept="3Tm1VV" id="5ocQ9W1$rnZ" role="1B3o_S" />
-    <node concept="3uibUv" id="5ocQ9W1$rxc" role="1zkMxy">
-      <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+    <node concept="3uibUv" id="7W6jYlyrHuR" role="1zkMxy">
+      <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
     </node>
     <node concept="312cEg" id="3imNlOpaKSS" role="jymVt">
       <property role="TrG5h" value="delegate" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="3imNlOpaKST" role="1B3o_S" />
       <node concept="3uibUv" id="3imNlOpaKSV" role="1tU5fm">
-        <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+        <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
       </node>
     </node>
     <node concept="2tJIrI" id="3imNlOpaLYP" role="jymVt" />
@@ -163,7 +172,7 @@
       <node concept="37vLTG" id="3imNlOpaK2N" role="3clF46">
         <property role="TrG5h" value="delegate" />
         <node concept="3uibUv" id="3imNlOpaK2M" role="1tU5fm">
-          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
         </node>
       </node>
     </node>
@@ -191,7 +200,7 @@
                       <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
                     </node>
                     <node concept="liA8E" id="3imNlOpaOvT" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~SerializedNode.getContainments()" resolve="getContainments" />
+                      <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getContainments()" resolve="getContainments" />
                     </node>
                   </node>
                 </node>
@@ -261,7 +270,7 @@
                 <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
               </node>
               <node concept="liA8E" id="3imNlOpaS8u" role="2OqNvi">
-                <ref role="37wK5l" to="xfsv:~SerializedNode.getChildren()" resolve="getChildren" />
+                <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getChildren()" resolve="getChildren" />
               </node>
             </node>
           </node>
@@ -315,7 +324,7 @@
                       <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
                     </node>
                     <node concept="liA8E" id="3imNlOpb689" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~SerializedNode.getReferences()" resolve="getReferences" />
+                      <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getReferences()" resolve="getReferences" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3imNlOpb86p" role="2OqNvi">
@@ -388,7 +397,7 @@
                       <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
                     </node>
                     <node concept="liA8E" id="3imNlOpcuVg" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~SerializedNode.getProperties()" resolve="getProperties" />
+                      <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getProperties()" resolve="getProperties" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3imNlOpcxyr" role="2OqNvi">
@@ -467,7 +476,7 @@
                       <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
                     </node>
                     <node concept="liA8E" id="3imNlOpdA1l" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~SerializedNode.getReferenceValues(java.lang.String)" resolve="getReferenceValues" />
+                      <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getReferenceValues(java.lang.String)" resolve="getReferenceValues" />
                       <node concept="37vLTw" id="3imNlOpdB2b" role="37wK5m">
                         <ref role="3cqZAo" node="5ocQ9W1$rJa" resolve="referenceKey" />
                       </node>
@@ -531,7 +540,7 @@
       <node concept="37vLTG" id="3imNlOpsivP" role="3clF46">
         <property role="TrG5h" value="other" />
         <node concept="3uibUv" id="3imNlOpsivS" role="1tU5fm">
-          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+          <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
         </node>
       </node>
       <node concept="3clFbS" id="3imNlOpsivT" role="3clF47">
@@ -550,7 +559,7 @@
                 <ref role="3cqZAo" node="3imNlOpsivP" resolve="other" />
               </node>
               <node concept="liA8E" id="3imNlOpxYhK" role="2OqNvi">
-                <ref role="37wK5l" to="xfsv:~SerializedNode.getID()" resolve="getID" />
+                <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getID()" resolve="getID" />
               </node>
             </node>
             <node concept="2YIFZM" id="3imNlOpxNOB" role="37wK5m">
@@ -582,7 +591,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpeO6C" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.getParentNodeID()" resolve="getParentNodeID" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getParentNodeID()" resolve="getParentNodeID" />
             </node>
           </node>
         </node>
@@ -608,7 +617,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpeRI9" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.setParentNodeID(java.lang.String)" resolve="setParentNodeID" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setParentNodeID(java.lang.String)" resolve="setParentNodeID" />
               <node concept="37vLTw" id="3imNlOpeTDp" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8TF" resolve="parentNodeID" />
               </node>
@@ -637,7 +646,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpeXjQ" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.addPropertyValue(io.lionweb.lioncore.java.serialization.data.SerializedPropertyValue)" resolve="addPropertyValue" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.addPropertyValue(io.lionweb.lioncore.java.serialization.data.SerializedPropertyValue)" resolve="addPropertyValue" />
               <node concept="37vLTw" id="3imNlOpeZfa" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8TQ" resolve="propertyValue" />
               </node>
@@ -666,7 +675,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpf2TK" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.addContainmentValue(io.lionweb.lioncore.java.serialization.data.SerializedContainmentValue)" resolve="addContainmentValue" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.addContainmentValue(io.lionweb.lioncore.java.serialization.data.SerializedContainmentValue)" resolve="addContainmentValue" />
               <node concept="37vLTw" id="3imNlOpf4P9" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8U1" resolve="containmentValue" />
               </node>
@@ -695,7 +704,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpf8vT" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.addReferenceValue(io.lionweb.lioncore.java.serialization.data.SerializedReferenceValue)" resolve="addReferenceValue" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.addReferenceValue(io.lionweb.lioncore.java.serialization.data.SerializedReferenceValue)" resolve="addReferenceValue" />
               <node concept="37vLTw" id="3imNlOpfarr" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8Uc" resolve="referenceValue" />
               </node>
@@ -707,54 +716,111 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="3imNlOpe8Uj" role="jymVt">
-      <property role="TrG5h" value="getConcept" />
-      <node concept="3Tm1VV" id="3imNlOpe8Uk" role="1B3o_S" />
-      <node concept="3uibUv" id="3imNlOpe8Um" role="3clF45">
-        <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
+    <node concept="3clFb_" id="7W6jYlyrY9Z" role="jymVt">
+      <property role="TrG5h" value="getAnnotations" />
+      <node concept="3Tm1VV" id="7W6jYlyrYa0" role="1B3o_S" />
+      <node concept="3uibUv" id="7W6jYlyrYa2" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="7W6jYlyrYa3" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
       </node>
-      <node concept="3clFbS" id="3imNlOpe8Un" role="3clF47">
-        <node concept="3clFbF" id="3imNlOpeqxp" role="3cqZAp">
-          <node concept="2OqwBi" id="3imNlOpeqxq" role="3clFbG">
-            <node concept="37vLTw" id="3imNlOpeqxr" role="2Oq$k0">
+      <node concept="3clFbS" id="7W6jYlyrYa5" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlys5ai" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlys6aE" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlys5af" role="2Oq$k0">
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
-            <node concept="liA8E" id="3imNlOpfeLP" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.getConcept()" resolve="getConcept" />
+            <node concept="liA8E" id="7W6jYlys9cc" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getAnnotations()" resolve="getAnnotations" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3imNlOpe8Uo" role="2AJF6D">
+      <node concept="2AHcQZ" id="7W6jYlyrYa6" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="3imNlOpe8Ur" role="jymVt">
-      <property role="TrG5h" value="setConcept" />
-      <node concept="3Tm1VV" id="3imNlOpe8Us" role="1B3o_S" />
-      <node concept="3cqZAl" id="3imNlOpe8Uu" role="3clF45" />
-      <node concept="37vLTG" id="3imNlOpe8Uv" role="3clF46">
-        <property role="TrG5h" value="concept" />
-        <node concept="3uibUv" id="3imNlOpe8Uw" role="1tU5fm">
+    <node concept="3clFb_" id="7W6jYlyrYa9" role="jymVt">
+      <property role="TrG5h" value="getClassifier" />
+      <node concept="3Tm1VV" id="7W6jYlyrYaa" role="1B3o_S" />
+      <node concept="3uibUv" id="7W6jYlyrYac" role="3clF45">
+        <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
+      </node>
+      <node concept="3clFbS" id="7W6jYlyrYae" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlysewP" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlysfvg" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlysewM" role="2Oq$k0">
+              <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
+            </node>
+            <node concept="liA8E" id="7W6jYlysisz" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getClassifier()" resolve="getClassifier" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7W6jYlyrYaf" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7W6jYlyrYai" role="jymVt">
+      <property role="TrG5h" value="setClassifier" />
+      <node concept="3Tm1VV" id="7W6jYlyrYaj" role="1B3o_S" />
+      <node concept="3cqZAl" id="7W6jYlyrYal" role="3clF45" />
+      <node concept="37vLTG" id="7W6jYlyrYam" role="3clF46">
+        <property role="TrG5h" value="classifier" />
+        <node concept="3uibUv" id="7W6jYlyrYan" role="1tU5fm">
           <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
         </node>
       </node>
-      <node concept="3clFbS" id="3imNlOpe8Ux" role="3clF47">
-        <node concept="3clFbF" id="3imNlOpesb1" role="3cqZAp">
-          <node concept="2OqwBi" id="3imNlOpesb2" role="3clFbG">
-            <node concept="37vLTw" id="3imNlOpesb3" role="2Oq$k0">
+      <node concept="3clFbS" id="7W6jYlyrYap" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlyrYat" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlysoEY" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlysnDQ" role="2Oq$k0">
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
-            <node concept="liA8E" id="3imNlOpfioH" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.setConcept(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setConcept" />
-              <node concept="37vLTw" id="3imNlOpfkkk" role="37wK5m">
-                <ref role="3cqZAo" node="3imNlOpe8Uv" resolve="concept" />
+            <node concept="liA8E" id="7W6jYlysqM2" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setClassifier(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setClassifier" />
+              <node concept="37vLTw" id="7W6jYlystx4" role="37wK5m">
+                <ref role="3cqZAo" node="7W6jYlyrYam" resolve="classifier" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3imNlOpe8Uy" role="2AJF6D">
+      <node concept="2AHcQZ" id="7W6jYlyrYaq" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7W6jYlyrYau" role="jymVt">
+      <property role="TrG5h" value="setAnnotations" />
+      <node concept="3Tm1VV" id="7W6jYlyrYav" role="1B3o_S" />
+      <node concept="3cqZAl" id="7W6jYlyrYax" role="3clF45" />
+      <node concept="37vLTG" id="7W6jYlyrYay" role="3clF46">
+        <property role="TrG5h" value="annotationIDs" />
+        <node concept="3uibUv" id="7W6jYlyrYaz" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="3uibUv" id="7W6jYlyrYa$" role="11_B2D">
+            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="7W6jYlyrYaA" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlyrYaE" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlys$1r" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlysz0i" role="2Oq$k0">
+              <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
+            </node>
+            <node concept="liA8E" id="7W6jYlysAEJ" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setAnnotations(java.util.List)" resolve="setAnnotations" />
+              <node concept="37vLTw" id="7W6jYlysDif" role="37wK5m">
+                <ref role="3cqZAo" node="7W6jYlyrYay" resolve="annotationIDs" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7W6jYlyrYaB" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -771,7 +837,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpfpUK" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.getID()" resolve="getID" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getID()" resolve="getID" />
             </node>
           </node>
         </node>
@@ -797,7 +863,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpfth5" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.setID(java.lang.String)" resolve="setID" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setID(java.lang.String)" resolve="setID" />
               <node concept="37vLTw" id="3imNlOpfvcM" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8UN" resolve="id" />
               </node>
@@ -832,7 +898,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpfySh" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.setPropertyValue(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.lang.String)" resolve="setPropertyValue" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setPropertyValue(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.lang.String)" resolve="setPropertyValue" />
               <node concept="37vLTw" id="3imNlOpf$zh" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8UY" resolve="property" />
               </node>
@@ -873,7 +939,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpfF7N" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.addChildren(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="addChildren" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.addChildren(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="addChildren" />
               <node concept="37vLTw" id="3imNlOpfGMW" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8Vc" resolve="containment" />
               </node>
@@ -914,7 +980,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpfO6t" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.addReferenceValue(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="addReferenceValue" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.addReferenceValue(io.lionweb.lioncore.java.serialization.data.MetaPointer,java.util.List)" resolve="addReferenceValue" />
               <node concept="37vLTw" id="3imNlOpfPLJ" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8Vr" resolve="reference" />
               </node>
@@ -948,7 +1014,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpfZrX" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
               <node concept="37vLTw" id="3imNlOpg17l" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8VF" resolve="propertyKey" />
               </node>
@@ -977,7 +1043,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpg54$" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.equals(java.lang.Object)" resolve="equals" />
+              <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="3imNlOpg6JW" role="37wK5m">
                 <ref role="3cqZAo" node="3imNlOpe8VQ" resolve="o" />
               </node>
@@ -1000,7 +1066,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpgaBb" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.hashCode()" resolve="hashCode" />
+              <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.hashCode()" resolve="hashCode" />
             </node>
           </node>
         </node>
@@ -1022,7 +1088,7 @@
               <ref role="3cqZAo" node="3imNlOpaKSS" resolve="delegate" />
             </node>
             <node concept="liA8E" id="3imNlOpge0R" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedNode.toString()" resolve="toString" />
+              <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.toString()" resolve="toString" />
             </node>
           </node>
         </node>
@@ -1034,7 +1100,7 @@
     <node concept="3uibUv" id="3imNlOpsaZu" role="EKbjA">
       <ref role="3uigEE" to="wyt6:~Comparable" resolve="Comparable" />
       <node concept="3uibUv" id="3imNlOpseDO" role="11_B2D">
-        <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+        <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
       </node>
     </node>
   </node>
@@ -2513,31 +2579,81 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3imNlOpi6WV" role="jymVt" />
-    <node concept="3clFb_" id="3imNlOpi701" role="jymVt">
-      <property role="TrG5h" value="getNodes" />
-      <node concept="3Tm1VV" id="3imNlOpi702" role="1B3o_S" />
-      <node concept="3uibUv" id="3imNlOpi704" role="3clF45">
+    <node concept="3clFb_" id="7W6jYlywaBK" role="jymVt">
+      <property role="TrG5h" value="getClassifierInstances" />
+      <node concept="3Tm1VV" id="7W6jYlywaBL" role="1B3o_S" />
+      <node concept="3uibUv" id="7W6jYlywaBN" role="3clF45">
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
-        <node concept="3uibUv" id="3imNlOpi705" role="11_B2D">
-          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+        <node concept="3uibUv" id="7W6jYlywaBO" role="11_B2D">
+          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
         </node>
       </node>
-      <node concept="3clFbS" id="3imNlOpi706" role="3clF47">
+      <node concept="3clFbS" id="7W6jYlywaBP" role="3clF47">
         <node concept="3clFbF" id="3imNlOpiuG8" role="3cqZAp">
           <node concept="2OqwBi" id="3imNlOpiDgQ" role="3clFbG">
             <node concept="2OqwBi" id="3imNlOpiBNV" role="2Oq$k0">
               <node concept="2OqwBi" id="3imNlOpixtK" role="2Oq$k0">
-                <node concept="2OqwBi" id="3imNlOpivZ3" role="2Oq$k0">
-                  <node concept="2OqwBi" id="3imNlOpiuUD" role="2Oq$k0">
-                    <node concept="37vLTw" id="3imNlOpiuG5" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3imNlOpi5Ct" resolve="delegate" />
+                <node concept="2OqwBi" id="7W6jYlywNd6" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7W6jYlywEaj" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3imNlOpivZ3" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3imNlOpiuUD" role="2Oq$k0">
+                        <node concept="37vLTw" id="3imNlOpiuG5" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3imNlOpi5Ct" resolve="delegate" />
+                        </node>
+                        <node concept="liA8E" id="3imNlOpivhE" role="2OqNvi">
+                          <ref role="37wK5l" to="xfsv:~SerializedChunk.getClassifierInstances()" resolve="getClassifierInstances" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3imNlOpiwUB" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~Collection.stream()" resolve="stream" />
+                      </node>
                     </node>
-                    <node concept="liA8E" id="3imNlOpivhE" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~SerializedChunk.getNodes()" resolve="getNodes" />
+                    <node concept="liA8E" id="7W6jYlywFs8" role="2OqNvi">
+                      <ref role="37wK5l" to="1ctc:~Stream.filter(java.util.function.Predicate)" resolve="filter" />
+                      <node concept="1bVj0M" id="7W6jYlywGmQ" role="37wK5m">
+                        <node concept="37vLTG" id="7W6jYlywHud" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="3uibUv" id="7W6jYlywIsa" role="1tU5fm">
+                            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="7W6jYlywGmR" role="1bW5cS">
+                          <node concept="3clFbF" id="7W6jYlywKdL" role="3cqZAp">
+                            <node concept="2ZW3vV" id="7W6jYlywLbT" role="3clFbG">
+                              <node concept="3uibUv" id="7W6jYlywMbO" role="2ZW6by">
+                                <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
+                              </node>
+                              <node concept="37vLTw" id="7W6jYlywKdK" role="2ZW6bz">
+                                <ref role="3cqZAo" node="7W6jYlywHud" resolve="it" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
-                  <node concept="liA8E" id="3imNlOpiwUB" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Collection.stream()" resolve="stream" />
+                  <node concept="liA8E" id="7W6jYlywOGM" role="2OqNvi">
+                    <ref role="37wK5l" to="1ctc:~Stream.map(java.util.function.Function)" resolve="map" />
+                    <node concept="1bVj0M" id="7W6jYlywPze" role="37wK5m">
+                      <node concept="3clFbS" id="7W6jYlywPzf" role="1bW5cS">
+                        <node concept="3clFbF" id="7W6jYlywSyk" role="3cqZAp">
+                          <node concept="10QFUN" id="7W6jYlywTwg" role="3clFbG">
+                            <node concept="37vLTw" id="7W6jYlywTwf" role="10QFUP">
+                              <ref role="3cqZAo" node="7W6jYlywQw0" resolve="it" />
+                            </node>
+                            <node concept="3uibUv" id="7W6jYlywUj7" role="10QFUM">
+                              <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTG" id="7W6jYlywQw0" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="3uibUv" id="7W6jYlywQvZ" role="1tU5fm">
+                          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="liA8E" id="3imNlOpiyv2" role="2OqNvi">
@@ -2546,7 +2662,7 @@
                     <node concept="37vLTG" id="3imNlOpi$bY" role="1bW2Oz">
                       <property role="TrG5h" value="it" />
                       <node concept="3uibUv" id="3imNlOpi$Ii" role="1tU5fm">
-                        <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+                        <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
                       </node>
                     </node>
                     <node concept="3clFbS" id="3imNlOpizGB" role="1bW5cS">
@@ -2574,14 +2690,14 @@
                 <ref role="37wK5l" to="1ctc:~Collectors.toList()" resolve="toList" />
                 <ref role="1Pybhc" to="1ctc:~Collectors" resolve="Collectors" />
                 <node concept="3uibUv" id="3imNlOplLqF" role="3PaCim">
-                  <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+                  <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3imNlOpi707" role="2AJF6D">
+      <node concept="2AHcQZ" id="7W6jYlywaBQ" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -2637,63 +2753,92 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="3imNlOpiHCI" role="jymVt">
-      <property role="TrG5h" value="addNode" />
-      <node concept="3Tm1VV" id="3imNlOpiHCJ" role="1B3o_S" />
-      <node concept="3cqZAl" id="3imNlOpiHCL" role="3clF45" />
-      <node concept="37vLTG" id="3imNlOpiHCM" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3uibUv" id="3imNlOpiHCN" role="1tU5fm">
-          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+    <node concept="2tJIrI" id="7W6jYlywfsP" role="jymVt" />
+    <node concept="3clFb_" id="7W6jYlywtVF" role="jymVt">
+      <property role="TrG5h" value="addClassifierInstance" />
+      <node concept="3Tm1VV" id="7W6jYlywtVG" role="1B3o_S" />
+      <node concept="3cqZAl" id="7W6jYlywtVI" role="3clF45" />
+      <node concept="37vLTG" id="7W6jYlywtVJ" role="3clF46">
+        <property role="TrG5h" value="instance" />
+        <node concept="3uibUv" id="7W6jYlywtVK" role="1tU5fm">
+          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
         </node>
       </node>
-      <node concept="3clFbS" id="3imNlOpiHCO" role="3clF47">
-        <node concept="3clFbF" id="3imNlOpiM2E" role="3cqZAp">
-          <node concept="2OqwBi" id="3imNlOpiM2F" role="3clFbG">
-            <node concept="37vLTw" id="3imNlOpiM2G" role="2Oq$k0">
+      <node concept="3clFbS" id="7W6jYlywtVL" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlywx8m" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlywxzZ" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlywx8i" role="2Oq$k0">
               <ref role="3cqZAo" node="3imNlOpi5Ct" resolve="delegate" />
             </node>
-            <node concept="liA8E" id="3imNlOpj2va" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedChunk.addNode(io.lionweb.lioncore.java.serialization.data.SerializedNode)" resolve="addNode" />
-              <node concept="37vLTw" id="3imNlOpj3iZ" role="37wK5m">
-                <ref role="3cqZAo" node="3imNlOpiHCM" resolve="node" />
+            <node concept="liA8E" id="7W6jYlywyu5" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedChunk.addClassifierInstance(io.lionweb.lioncore.java.serialization.data.SerializedClassifierInstance)" resolve="addClassifierInstance" />
+              <node concept="37vLTw" id="7W6jYlywzlu" role="37wK5m">
+                <ref role="3cqZAo" node="7W6jYlywtVJ" resolve="instance" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3imNlOpiHCP" role="2AJF6D">
+      <node concept="2AHcQZ" id="7W6jYlywtVM" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="3imNlOpiHCT" role="jymVt">
-      <property role="TrG5h" value="getNodeByID" />
-      <node concept="3Tm1VV" id="3imNlOpiHCU" role="1B3o_S" />
-      <node concept="3uibUv" id="3imNlOpiHCX" role="3clF45">
-        <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
+    <node concept="3clFb_" id="7W6jYlywgjq" role="jymVt">
+      <property role="TrG5h" value="getInstanceByID" />
+      <node concept="3Tm1VV" id="7W6jYlywgjr" role="1B3o_S" />
+      <node concept="3uibUv" id="7W6jYlywgju" role="3clF45">
+        <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
       </node>
-      <node concept="37vLTG" id="3imNlOpiHCY" role="3clF46">
-        <property role="TrG5h" value="nodeID" />
-        <node concept="3uibUv" id="3imNlOpiHCZ" role="1tU5fm">
+      <node concept="37vLTG" id="7W6jYlywgjv" role="3clF46">
+        <property role="TrG5h" value="instanceID" />
+        <node concept="3uibUv" id="7W6jYlywgjw" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~String" resolve="String" />
         </node>
       </node>
-      <node concept="3clFbS" id="3imNlOpiHD0" role="3clF47">
-        <node concept="3clFbF" id="3imNlOpiOwQ" role="3cqZAp">
-          <node concept="2OqwBi" id="3imNlOpiOwR" role="3clFbG">
-            <node concept="37vLTw" id="3imNlOpiOwS" role="2Oq$k0">
+      <node concept="3clFbS" id="7W6jYlywgjx" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlywjsL" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlywjSm" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlywjsJ" role="2Oq$k0">
               <ref role="3cqZAo" node="3imNlOpi5Ct" resolve="delegate" />
             </node>
-            <node concept="liA8E" id="3imNlOpj5Xo" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedChunk.getNodeByID(java.lang.String)" resolve="getNodeByID" />
-              <node concept="37vLTw" id="3imNlOpj6Lj" role="37wK5m">
-                <ref role="3cqZAo" node="3imNlOpiHCY" resolve="nodeID" />
+            <node concept="liA8E" id="7W6jYlywkHU" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedChunk.getInstanceByID(java.lang.String)" resolve="getInstanceByID" />
+              <node concept="37vLTw" id="7W6jYlywlxf" role="37wK5m">
+                <ref role="3cqZAo" node="7W6jYlywgjv" resolve="instanceID" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3imNlOpiHD1" role="2AJF6D">
+      <node concept="2AHcQZ" id="7W6jYlywgjy" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7W6jYlywgjA" role="jymVt">
+      <property role="TrG5h" value="getClassifierInstancesByID" />
+      <node concept="3Tm1VV" id="7W6jYlywgjB" role="1B3o_S" />
+      <node concept="3uibUv" id="7W6jYlywgjD" role="3clF45">
+        <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
+        <node concept="3uibUv" id="7W6jYlywgjE" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+        <node concept="3uibUv" id="7W6jYlywgjF" role="11_B2D">
+          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7W6jYlywgjG" role="3clF47">
+        <node concept="3clFbF" id="7W6jYlywo0l" role="3cqZAp">
+          <node concept="2OqwBi" id="7W6jYlywoQh" role="3clFbG">
+            <node concept="37vLTw" id="7W6jYlywo0j" role="2Oq$k0">
+              <ref role="3cqZAo" node="3imNlOpi5Ct" resolve="delegate" />
+            </node>
+            <node concept="liA8E" id="7W6jYlywpJX" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedChunk.getClassifierInstancesByID()" resolve="getClassifierInstancesByID" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7W6jYlywgjH" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -2723,34 +2868,6 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="3imNlOpiHDc" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="3imNlOpiHDg" role="jymVt">
-      <property role="TrG5h" value="getNodesByID" />
-      <node concept="3Tm1VV" id="3imNlOpiHDh" role="1B3o_S" />
-      <node concept="3uibUv" id="3imNlOpiHDj" role="3clF45">
-        <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
-        <node concept="3uibUv" id="3imNlOpiHDk" role="11_B2D">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
-        <node concept="3uibUv" id="3imNlOpiHDl" role="11_B2D">
-          <ref role="3uigEE" to="xfsv:~SerializedNode" resolve="SerializedNode" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="3imNlOpiHDm" role="3clF47">
-        <node concept="3clFbF" id="3imNlOpiRZE" role="3cqZAp">
-          <node concept="2OqwBi" id="3imNlOpiRZF" role="3clFbG">
-            <node concept="37vLTw" id="3imNlOpiRZG" role="2Oq$k0">
-              <ref role="3cqZAo" node="3imNlOpi5Ct" resolve="delegate" />
-            </node>
-            <node concept="liA8E" id="3imNlOpjbbD" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedChunk.getNodesByID()" resolve="getNodesByID" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="3imNlOpiHDn" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
