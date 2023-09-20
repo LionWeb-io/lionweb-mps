@@ -3308,7 +3308,7 @@
                       <ref role="3cqZAo" node="6VkSF6aKy2C" resolve="idMapper" />
                     </node>
                     <node concept="liA8E" id="18UigYQEeIa" role="2OqNvi">
-                      <ref role="37wK5l" to="teza:5M3rB6Ae5nK" resolve="mapConcept" />
+                      <ref role="37wK5l" to="teza:7W6jYlzvHZc" resolve="mapAnnotation" />
                       <node concept="37vLTw" id="18UigYQEjtX" role="37wK5m">
                         <ref role="3cqZAo" node="18UigYQCDaq" resolve="mps" />
                       </node>
