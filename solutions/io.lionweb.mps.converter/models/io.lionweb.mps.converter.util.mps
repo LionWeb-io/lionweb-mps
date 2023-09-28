@@ -277,6 +277,9 @@
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
       </concept>
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
       <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
         <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
         <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
@@ -284,12 +287,21 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
+      </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -5104,7 +5116,10 @@
         <node concept="3clFbJ" id="18UigYQGjB0" role="3cqZAp">
           <node concept="3clFbS" id="18UigYQGjB1" role="3clFbx">
             <node concept="3cpWs6" id="18UigYQGjB2" role="3cqZAp">
-              <node concept="10Nm6u" id="18UigYQGjB3" role="3cqZAk" />
+              <node concept="2YIFZM" id="6Pr6izIUDZb" role="3cqZAk">
+                <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+              </node>
             </node>
           </node>
           <node concept="3clFbC" id="18UigYQGjB4" role="3clFbw">
@@ -5168,11 +5183,24 @@
       </node>
       <node concept="3clFbS" id="18UigYQGjBh" role="3clF47">
         <node concept="3clFbF" id="30uXOOfPd9g" role="3cqZAp">
-          <node concept="2YIFZM" id="30uXOOfPdmK" role="3clFbG">
-            <ref role="37wK5l" to="tpcn:6_gUeuqIOUd" resolve="getApplicableConcepts" />
-            <ref role="1Pybhc" to="tpcn:6_gUeuqI_Vn" resolve="AttributeDesignTimeOperations" />
-            <node concept="37vLTw" id="30uXOOfPdDR" role="37wK5m">
-              <ref role="3cqZAo" node="18UigYQGjBe" resolve="annotation" />
+          <node concept="2OqwBi" id="6Pr6izIKZNl" role="3clFbG">
+            <node concept="2OqwBi" id="6Pr6izIKXCT" role="2Oq$k0">
+              <node concept="2OqwBi" id="6Pr6izIKWiL" role="2Oq$k0">
+                <node concept="37vLTw" id="6Pr6izIKVP3" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18UigYQGjBe" resolve="annotation" />
+                </node>
+                <node concept="3CFZ6_" id="6Pr6izIKX1F" role="2OqNvi">
+                  <node concept="3CFYIy" id="6Pr6izIKXiI" role="3CFYIz">
+                    <ref role="3CFYIx" to="tpce:2A8AB0r$C6l" resolve="AttributeInfo" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="6Pr6izIKY7M" role="2OqNvi">
+                <ref role="3TtcxE" to="tpce:6_fwX53_MKe" resolve="attributed" />
+              </node>
+            </node>
+            <node concept="13MTOL" id="6Pr6izIL1qf" role="2OqNvi">
+              <ref role="13MTZf" to="tpce:5g5Zgd9qGMp" resolve="concept" />
             </node>
           </node>
         </node>
