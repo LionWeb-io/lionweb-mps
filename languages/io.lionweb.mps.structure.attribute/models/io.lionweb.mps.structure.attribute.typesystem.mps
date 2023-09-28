@@ -11,6 +11,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="234s" ref="r:c798b861-d641-45c1-bec6-e39cbda50960(io.lionweb.mps.structure.attribute.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -104,7 +105,16 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
+        <reference id="7256306938026143658" name="target" index="2aWVGs" />
+      </concept>
+    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
+      <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
+        <child id="1207055552304" name="warningText" index="a7wSD" />
+      </concept>
+      <concept id="7992060018732187444" name="jetbrains.mps.lang.typesystem.structure.WarningStatementAnnotation" flags="ng" index="AMVWa" />
       <concept id="7992060018732187438" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatementAnnotation" flags="ng" index="AMVWg" />
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
@@ -179,6 +189,9 @@
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="3661776679762942774" name="jetbrains.mps.lang.smodel.structure.Node_IsOperation" flags="ng" index="1QLmlb">
+        <child id="3661776679762942860" name="ref" index="1QLmnL" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -934,6 +947,98 @@
     <node concept="1YaCAy" id="18UigYPd4hd" role="1YuTPh">
       <property role="TrG5h" value="smartRef" />
       <ref role="1YaFvo" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6Pr6izICd2b">
+    <property role="TrG5h" value="dontAnnotateAnnotations" />
+    <node concept="3clFbS" id="6Pr6izICd2c" role="18ibNy">
+      <node concept="3clFbJ" id="6Pr6izIC_zI" role="3cqZAp">
+        <node concept="3clFbS" id="6Pr6izIC_zK" role="3clFbx">
+          <node concept="a7r0C" id="6Pr6izICCaZ" role="3cqZAp">
+            <node concept="Xl_RD" id="6Pr6izICCbn" role="a7wSD">
+              <property role="Xl_RC" value="LionWeb does not support annotations on all annotations" />
+            </node>
+            <node concept="1YBJjd" id="6Pr6izICCed" role="1urrMF">
+              <ref role="1YBMHb" node="6Pr6izICef1" resolve="attributedConcept" />
+            </node>
+            <node concept="AMVWa" id="6Pr6izICCjA" role="lGtFl">
+              <property role="TrG5h" value="dontAnnotateAnnotations" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="6Pr6izICBzz" role="3clFbw">
+          <node concept="2OqwBi" id="6Pr6izIC_Kf" role="2Oq$k0">
+            <node concept="1YBJjd" id="6Pr6izIC_Ak" role="2Oq$k0">
+              <ref role="1YBMHb" node="6Pr6izICef1" resolve="attributedConcept" />
+            </node>
+            <node concept="3TrEf2" id="6Pr6izIC_Zo" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpce:5g5Zgd9qGMp" resolve="concept" />
+            </node>
+          </node>
+          <node concept="1QLmlb" id="6Pr6izICBZW" role="2OqNvi">
+            <node concept="ZC_QK" id="6Pr6izICC4E" role="1QLmnL">
+              <ref role="2aWVGs" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6Pr6izICef1" role="1YuTPh">
+      <property role="TrG5h" value="attributedConcept" />
+      <ref role="1YaFvo" to="tpce:5g5Zgd9qGH9" resolve="AttributeInfo_AttributedConcept" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6Pr6izICMve">
+    <property role="TrG5h" value="onlyAnnotateNodes" />
+    <node concept="3clFbS" id="6Pr6izICMvf" role="18ibNy">
+      <node concept="3clFbJ" id="6Pr6izICMvq" role="3cqZAp">
+        <node concept="1Wc70l" id="6Pr6izICNGy" role="3clFbw">
+          <node concept="3fqX7Q" id="6Pr6izICNHr" role="3uHU7w">
+            <node concept="2OqwBi" id="6Pr6izICO8I" role="3fr31v">
+              <node concept="1YBJjd" id="6Pr6izICNP9" role="2Oq$k0">
+                <ref role="1YBMHb" node="6Pr6izICMvh" resolve="conceptDeclaration" />
+              </node>
+              <node concept="2qgKlT" id="6Pr6izICO$i" role="2OqNvi">
+                <ref role="37wK5l" to="tpcn:4UTtJHK9fEJ" resolve="isSubconceptOf" />
+                <node concept="35c_gC" id="6Pr6izICOD3" role="37wK5m">
+                  <ref role="35c_gD" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6Pr6izICMMC" role="3uHU7B">
+            <node concept="1YBJjd" id="6Pr6izICMvA" role="2Oq$k0">
+              <ref role="1YBMHb" node="6Pr6izICMvh" resolve="conceptDeclaration" />
+            </node>
+            <node concept="2qgKlT" id="6Pr6izICNdG" role="2OqNvi">
+              <ref role="37wK5l" to="tpcn:4UTtJHK9fEJ" resolve="isSubconceptOf" />
+              <node concept="35c_gC" id="6Pr6izICNny" role="37wK5m">
+                <ref role="35c_gD" to="tpck:4uZwTti3_$T" resolve="Attribute" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="6Pr6izICMvs" role="3clFbx">
+          <node concept="a7r0C" id="6Pr6izICOH5" role="3cqZAp">
+            <node concept="Xl_RD" id="6Pr6izICOHn" role="a7wSD">
+              <property role="Xl_RC" value="LionWeb only supports NodeAttributes" />
+            </node>
+            <node concept="1YBJjd" id="6Pr6izICOMw" role="1urrMF">
+              <ref role="1YBMHb" node="6Pr6izICMvh" resolve="conceptDeclaration" />
+            </node>
+            <node concept="2OE7Q9" id="6Pr6izICOMI" role="1urrC5">
+              <ref role="2OEe5H" to="tpce:f_TJDff" resolve="extends" />
+            </node>
+            <node concept="AMVWa" id="6Pr6izICOWp" role="lGtFl">
+              <property role="TrG5h" value="onlyAnnotateNodes" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6Pr6izICMvh" role="1YuTPh">
+      <property role="TrG5h" value="conceptDeclaration" />
+      <ref role="1YaFvo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
   </node>
 </model>
