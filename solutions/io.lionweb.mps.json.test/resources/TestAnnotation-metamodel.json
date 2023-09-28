@@ -947,12 +947,7 @@
             "version": "1",
             "key": "Annotation-annotates"
           },
-          "targets": [
-            {
-              "resolveInfo": "NodeAnnotation",
-              "reference": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzEzMTM0NDI1NzMxNzc4NDQ2MjI"
-            }
-          ]
+          "targets": []
         },
         {
           "reference": {
