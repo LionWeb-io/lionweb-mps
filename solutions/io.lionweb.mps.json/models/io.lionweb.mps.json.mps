@@ -3334,6 +3334,38 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6Pr6izI$za6" role="3cqZAp">
+          <node concept="3cpWsn" id="6Pr6izI$za7" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
+            <node concept="3uibUv" id="6Pr6izI$yJo" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+            </node>
+            <node concept="2ShNRf" id="6Pr6izI$za8" role="33vP2m">
+              <node concept="HV5vD" id="6Pr6izI$za9" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6Pr6izI$zP_" role="3cqZAp">
+          <node concept="3cpWsn" id="6Pr6izI$zPA" role="3cpWs9">
+            <property role="TrG5h" value="annotationFinder" />
+            <node concept="3uibUv" id="6Pr6izI$zK9" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
+            </node>
+            <node concept="2ShNRf" id="6Pr6izI$zPB" role="33vP2m">
+              <node concept="1pGfFk" id="6Pr6izI$zPC" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
+                <node concept="37vLTw" id="6Pr6izI$zPD" role="37wK5m">
+                  <ref role="3cqZAo" node="24j7TNH1Aeq" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="6Pr6izI$zPE" role="37wK5m">
+                  <ref role="3cqZAo" node="6Pr6izI$za7" resolve="metaAdapterByDeclarationHelper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="24j7TNH1yly" role="3cqZAp" />
         <node concept="3KaCP$" id="24j7TNH1JIO" role="3cqZAp">
           <node concept="37vLTw" id="24j7TNH1JSO" role="3KbGdf">
@@ -3364,6 +3396,9 @@
                       </node>
                       <node concept="37vLTw" id="24j7TNH1zjV" role="37wK5m">
                         <ref role="3cqZAo" node="5M3rB6BCfHh" resolve="attributeFinder" />
+                      </node>
+                      <node concept="37vLTw" id="6Pr6izI$_zv" role="37wK5m">
+                        <ref role="3cqZAo" node="6Pr6izI$zPA" resolve="annotationFinder" />
                       </node>
                     </node>
                   </node>
@@ -3397,6 +3432,9 @@
                       </node>
                       <node concept="37vLTw" id="24j7TNH1NgX" role="37wK5m">
                         <ref role="3cqZAo" node="5M3rB6BCfHh" resolve="attributeFinder" />
+                      </node>
+                      <node concept="37vLTw" id="6Pr6izIAMFd" role="37wK5m">
+                        <ref role="3cqZAo" node="6Pr6izI$zPA" resolve="annotationFinder" />
                       </node>
                     </node>
                   </node>

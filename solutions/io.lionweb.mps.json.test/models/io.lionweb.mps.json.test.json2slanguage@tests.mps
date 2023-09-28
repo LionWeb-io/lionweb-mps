@@ -423,6 +423,29 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="6Pr6izIa1pV" role="1SL9yI">
+      <property role="TrG5h" value="TestAnnotation" />
+      <node concept="3cqZAl" id="6Pr6izIa1pW" role="3clF45" />
+      <node concept="3clFbS" id="6Pr6izIa1pX" role="3clF47">
+        <node concept="3clFbF" id="6Pr6izIa1pY" role="3cqZAp">
+          <node concept="2OqwBi" id="6Pr6izIa1pZ" role="3clFbG">
+            <node concept="2WthIp" id="6Pr6izIa1q0" role="2Oq$k0" />
+            <node concept="2XshWL" id="6Pr6izIa1q1" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <node concept="pHN19" id="6Pr6izIa1q2" role="2XxRq1">
+                <node concept="2V$Bhx" id="6Pr6izIa1_c" role="2V$M_3">
+                  <property role="2V$B1T" value="afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotation" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="6Pr6izIa1q4" role="2XxRq1">
+                <property role="Xl_RC" value="TestAnnotation-metamodel.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
     <property role="TrG5h" value="importJson2SLanguage" />

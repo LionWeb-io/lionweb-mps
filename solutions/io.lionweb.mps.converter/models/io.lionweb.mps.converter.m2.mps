@@ -1020,6 +1020,45 @@
         </node>
       </node>
     </node>
+    <node concept="3clFbW" id="6Pr6izIskt6" role="jymVt">
+      <node concept="3cqZAl" id="6Pr6izIskt7" role="3clF45" />
+      <node concept="3Tm1VV" id="6Pr6izIskt8" role="1B3o_S" />
+      <node concept="3clFbS" id="6Pr6izIskt9" role="3clF47">
+        <node concept="XkiVB" id="6Pr6izIskta" role="3cqZAp">
+          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <node concept="3cpWs3" id="6Pr6izIsktb" role="37wK5m">
+            <node concept="3cpWs3" id="6Pr6izIsktc" role="3uHU7B">
+              <node concept="3cpWs3" id="6Pr6izIsktd" role="3uHU7B">
+                <node concept="Xl_RD" id="6Pr6izIskte" role="3uHU7B">
+                  <property role="Xl_RC" value="element " />
+                </node>
+                <node concept="37vLTw" id="6Pr6izIsktg" role="3uHU7w">
+                  <ref role="3cqZAo" node="6Pr6izIsktk" resolve="source" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="6Pr6izIskti" role="3uHU7w">
+                <property role="Xl_RC" value=" declares more than one annotated classifier " />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6Pr6izIsktj" role="3uHU7w">
+              <ref role="3cqZAo" node="6Pr6izIsktm" resolve="annotationTargets" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6Pr6izIsktk" role="3clF46">
+        <property role="TrG5h" value="source" />
+        <node concept="3uibUv" id="6Pr6izIsqOr" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6Pr6izIsktm" role="3clF46">
+        <property role="TrG5h" value="annotationTargets" />
+        <node concept="A3Dl8" id="6Pr6izIsktn" role="1tU5fm">
+          <node concept="3qTvmN" id="6Pr6izIskto" role="A3Ik2" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="18UigYQKOXs" role="jymVt" />
     <node concept="3Tm1VV" id="18UigYQKNkC" role="1B3o_S" />
     <node concept="3uibUv" id="18UigYQKNm5" role="1zkMxy">

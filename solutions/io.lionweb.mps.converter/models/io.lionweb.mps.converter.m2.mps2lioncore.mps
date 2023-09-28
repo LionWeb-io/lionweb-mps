@@ -2007,7 +2007,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="39$JcGGdTEX" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsBaseConcept" />
+                  <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
                   <node concept="37vLTw" id="39$JcGGdY30" role="37wK5m">
                     <ref role="3cqZAo" node="2ju2syjwP2v" resolve="mps" />
                   </node>
@@ -2353,7 +2353,7 @@
                         <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="39$JcGGf3om" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsBaseConcept" />
+                        <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
                         <node concept="2OqwBi" id="39$JcGGf3on" role="37wK5m">
                           <node concept="37vLTw" id="39$JcGGf3oo" role="2Oq$k0">
                             <ref role="3cqZAo" node="2ju2syjC2Fc" resolve="mps" />
@@ -3191,7 +3191,7 @@
                         <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="39$JcGGeodA" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsBaseConcept" />
+                        <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
                         <node concept="2OqwBi" id="39$JcGGevcb" role="37wK5m">
                           <node concept="37vLTw" id="39$JcGGes5j" role="2Oq$k0">
                             <ref role="3cqZAo" node="2ju2syjxQ_b" resolve="mps" />
