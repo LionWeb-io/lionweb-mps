@@ -12,7 +12,7 @@
 
 
 ## Overview
-* `io.lionweb.mps.m3` contains [LionCore meta-meta-model](https://lionweb-org.github.io/organization/lioncore/metametamodel/metametamodel.html) as MPS language
+* `io.lionweb.mps.m3` contains [LionCore meta-meta-model](https://lionweb-io.github.io/specification/lioncore/metametamodel/metametamodel.html) as MPS language
 * `io.lionweb.mps.converter` contains converters between _deployed_ / _models of_ MPS languages and LionWeb languages (expressed as instances of `io.lionweb.mps.m3`).
  
   `io.lionweb.mps.converter.test` tests these converters.

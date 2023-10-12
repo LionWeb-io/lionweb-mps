@@ -203,7 +203,7 @@
       </node>
       <node concept="2iUeEo" id="5wsogBcGDPK" role="2iVFfd">
         <property role="2iUeEt" value="LionWeb Project" />
-        <property role="2iUeEu" value="https://github.com/LionWeb-org/lioncore-mps" />
+        <property role="2iUeEu" value="https://github.com/LionWeb-io/lionweb-mps" />
       </node>
     </node>
     <node concept="2G$12M" id="5wsogBcGDQO" role="3989C9">

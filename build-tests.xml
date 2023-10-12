@@ -50,7 +50,7 @@
         <name>io.lionweb.mps.tests</name>
         <description>LionWeb MPS Implementation tests</description>
         <version>${io.lionweb.mps.version}</version>
-        <vendor url="https://github.com/LionWeb-org/lioncore-mps">LionWeb Project</vendor>
+        <vendor url="https://github.com/LionWeb-io/lionweb-mps">LionWeb Project</vendor>
         <depends>io.lionweb.mps</depends>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
