@@ -2085,19 +2085,14 @@
           <node concept="3clFbS" id="7W6jYlzD1Kc" role="3clFbx">
             <node concept="3clFbF" id="7W6jYlzD1Kd" role="3cqZAp">
               <node concept="37vLTI" id="7W6jYlzD1Ke" role="3clFbG">
-                <node concept="1PxgMI" id="7W6jYlzD1Kf" role="37vLTx">
-                  <node concept="chp4Y" id="7W6jYlzD1Kg" role="3oSUPX">
-                    <ref role="cht4Q" to="h3y3:18UigYQyrxa" resolve="Annotation" />
-                  </node>
-                  <node concept="1rXfSq" id="7W6jYlzD1Kh" role="1m5AlR">
-                    <ref role="37wK5l" node="z1IqfGbIzM" resolve="lookupClassifier" />
-                    <node concept="2OqwBi" id="7W6jYlzD1Ki" role="37wK5m">
-                      <node concept="37vLTw" id="7W6jYlzD1Kj" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7W6jYlzCsh3" resolve="json" />
-                      </node>
-                      <node concept="liA8E" id="7W6jYlzD1Kk" role="2OqNvi">
-                        <ref role="37wK5l" to="imb3:~Annotation.getAnnotates()" resolve="getAnnotates" />
-                      </node>
+                <node concept="1rXfSq" id="7W6jYlzD1Kh" role="37vLTx">
+                  <ref role="37wK5l" node="z1IqfGbIzM" resolve="lookupClassifier" />
+                  <node concept="2OqwBi" id="7W6jYlzD1Ki" role="37wK5m">
+                    <node concept="37vLTw" id="7W6jYlzD1Kj" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7W6jYlzCsh3" resolve="json" />
+                    </node>
+                    <node concept="liA8E" id="7W6jYlzD1Kk" role="2OqNvi">
+                      <ref role="37wK5l" to="imb3:~Annotation.getAnnotates()" resolve="getAnnotates" />
                     </node>
                   </node>
                 </node>
@@ -5414,14 +5409,12 @@
                       <ref role="3cqZAo" node="5sACIIsA0zB" resolve="lc" />
                     </node>
                   </node>
-                  <node concept="1eOMI4" id="5sACIIsA0zs" role="37wK5m">
-                    <node concept="10QFUN" id="5sACIIsA0zt" role="1eOMHV">
-                      <node concept="37vLTw" id="5sACIIsA0zu" role="10QFUP">
-                        <ref role="3cqZAo" node="5sACIIsA0z_" resolve="json" />
-                      </node>
-                      <node concept="3uibUv" id="5sACIIsA0zv" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
-                      </node>
+                  <node concept="10QFUN" id="5sACIIsA0zt" role="37wK5m">
+                    <node concept="37vLTw" id="5sACIIsA0zu" role="10QFUP">
+                      <ref role="3cqZAo" node="5sACIIsA0z_" resolve="json" />
+                    </node>
+                    <node concept="3uibUv" id="5sACIIsA0zv" role="10QFUM">
+                      <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
                     </node>
                   </node>
                 </node>
@@ -5449,7 +5442,29 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbS" id="7W6jYlzK$gG" role="3eOfB_" />
+            <node concept="3clFbS" id="7W6jYlzK$gG" role="3eOfB_">
+              <node concept="3clFbF" id="1xqd6pt7ZN6" role="3cqZAp">
+                <node concept="1rXfSq" id="1xqd6pt7ZN5" role="3clFbG">
+                  <ref role="37wK5l" node="7W6jYlzLj7j" resolve="linkAnnotation" />
+                  <node concept="1PxgMI" id="1xqd6pt8a53" role="37wK5m">
+                    <node concept="chp4Y" id="1xqd6pt8f05" role="3oSUPX">
+                      <ref role="cht4Q" to="h3y3:18UigYQyrxa" resolve="Annotation" />
+                    </node>
+                    <node concept="37vLTw" id="1xqd6pt84KI" role="1m5AlR">
+                      <ref role="3cqZAo" node="5sACIIsA0zB" resolve="lc" />
+                    </node>
+                  </node>
+                  <node concept="10QFUN" id="1xqd6pt8q8b" role="37wK5m">
+                    <node concept="37vLTw" id="1xqd6pt8q8a" role="10QFUP">
+                      <ref role="3cqZAo" node="5sACIIsA0z_" resolve="json" />
+                    </node>
+                    <node concept="3uibUv" id="1xqd6pt8q89" role="10QFUM">
+                      <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -5670,13 +5685,13 @@
                 </node>
                 <node concept="liA8E" id="7W6jYlzL_8c" role="2OqNvi">
                   <ref role="37wK5l" to="imb3:~Annotation.setAnnotates(io.lionweb.lioncore.java.language.Classifier)" resolve="setAnnotates" />
-                  <node concept="1rXfSq" id="7W6jYlzL_8e" role="37wK5m">
+                  <node concept="1rXfSq" id="1xqd6pt9wDk" role="37wK5m">
                     <ref role="37wK5l" node="5sACIIsA0Fy" resolve="lookupClassifier" />
-                    <node concept="2OqwBi" id="7W6jYlzL_8f" role="37wK5m">
-                      <node concept="37vLTw" id="7W6jYlzL_8g" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1xqd6pt9wDl" role="37wK5m">
+                      <node concept="37vLTw" id="1xqd6pt9wDm" role="2Oq$k0">
                         <ref role="3cqZAo" node="7W6jYlzLoh6" resolve="lc" />
                       </node>
-                      <node concept="3TrEf2" id="7W6jYlzL_8h" role="2OqNvi">
+                      <node concept="3TrEf2" id="1xqd6pt9wDn" role="2OqNvi">
                         <ref role="3Tt5mk" to="h3y3:18UigYQyrxb" resolve="annotates" />
                       </node>
                     </node>
