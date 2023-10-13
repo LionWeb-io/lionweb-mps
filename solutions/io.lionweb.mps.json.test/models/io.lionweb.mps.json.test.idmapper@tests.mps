@@ -1827,5 +1827,1604 @@
   <node concept="2XOHcx" id="3ePT3MiXrx5">
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
+  <node concept="1lH9Xt" id="1xqd6ptDAYl">
+    <property role="TrG5h" value="TestJsonDirectLanguageIdMapper" />
+    <property role="3GE5qa" value="" />
+    <node concept="1LZb2c" id="1xqd6ptDAYm" role="1SL9yI">
+      <property role="TrG5h" value="Language" />
+      <node concept="3cqZAl" id="1xqd6ptDAYn" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDAYo" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDAYp" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAYq" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDAYr" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDAYs" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDAYt" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAYu" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2OqwBi" id="1xqd6ptDAYv" role="33vP2m">
+              <node concept="2WthIp" id="1xqd6ptDAYw" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDAYx" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDAYy" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDAYz" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDAY$" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDAYq" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDAY_" role="3tpDZA">
+            <node concept="2OqwBi" id="1xqd6ptDAYA" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDAYB" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDAYC" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1xqd6ptDAYD" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
+              <node concept="37vLTw" id="1xqd6ptDAYE" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAYu" resolve="input" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDAYF" role="1SL9yI">
+      <property role="TrG5h" value="Concept" />
+      <node concept="3cqZAl" id="1xqd6ptDAYG" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDAYH" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDAYI" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAYJ" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDAYK" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDAYL" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973204112" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDAYM" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAYN" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDAYO" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDAYP" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Concept.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Concept" />
+                <node concept="2OqwBi" id="1xqd6ptDAYQ" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDAYR" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDAYS" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDAYT" role="37wK5m">
+                  <property role="Xl_RC" value="asdf" />
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDAYU" role="37wK5m">
+                  <property role="Xl_RC" value="234" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptDExt" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptDAYJ" resolve="expected" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDAYX" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDAYY" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDAYZ" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDAYJ" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDAZ0" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDAZ1" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5nK" resolve="mapConcept" />
+              <node concept="37vLTw" id="1xqd6ptDAZ2" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAYN" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDAZ3" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDAZ4" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDAZ5" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDAZ6" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDAZ7" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDAYJ" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDAZ8" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDAZ9" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
+              <node concept="37vLTw" id="1xqd6ptDAZa" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAYN" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDAZb" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDAZc" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDAZd" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDAZe" role="1SL9yI">
+      <property role="TrG5h" value="Iface" />
+      <node concept="3cqZAl" id="1xqd6ptDAZf" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDAZg" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDAZh" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAZi" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDAZj" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDAZk" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973204308" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDAZl" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAZm" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDAZn" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDAZo" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                <node concept="2OqwBi" id="1xqd6ptDAZp" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDAZq" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDAZr" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDAZs" role="37wK5m">
+                  <property role="Xl_RC" value="asdf" />
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDAZt" role="37wK5m">
+                  <property role="Xl_RC" value="234" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptDEB1" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptDAZi" resolve="expected" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDAZw" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDAZx" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDAZy" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDAZi" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDAZz" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDAZ$" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5oJ" resolve="mapIface" />
+              <node concept="37vLTw" id="1xqd6ptDAZ_" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAZm" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDAZA" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDAZB" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDAZC" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDAZD" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDAZE" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDAZi" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDAZF" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDAZG" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
+              <node concept="37vLTw" id="1xqd6ptDAZH" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAZm" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDAZI" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDAZJ" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDAZK" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDAZL" role="1SL9yI">
+      <property role="TrG5h" value="Property" />
+      <node concept="3cqZAl" id="1xqd6ptDAZM" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDAZN" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDAZO" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAZP" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDAZQ" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDAZR" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973214385/2585378165973217782" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDAZS" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDAZT" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDAZU" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDAZV" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Property.&lt;init&gt;(java.lang.String,io.lionweb.lioncore.java.language.Classifier)" resolve="Property" />
+                <node concept="Xl_RD" id="1xqd6ptDAZW" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+                <node concept="2OqwBi" id="1xqd6ptDAZX" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDAZY" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDAZZ" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB8K" resolve="createTestInterfaceBase" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB00" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB01" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB02" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB03" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDAZT" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB04" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDEF3" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAZP" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB07" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB08" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDAZP" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB09" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB0a" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5pI" resolve="mapProperty" />
+              <node concept="37vLTw" id="1xqd6ptDB0b" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDAZT" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB0c" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB0d" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB0e" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB0f" role="1SL9yI">
+      <property role="TrG5h" value="Containment" />
+      <node concept="3cqZAl" id="1xqd6ptDB0g" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB0h" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB0i" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB0j" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB0k" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB0l" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973206451/2585378165973210264" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB0m" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB0n" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB0o" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB0p" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Containment.&lt;init&gt;(java.lang.String)" resolve="Containment" />
+                <node concept="Xl_RD" id="1xqd6ptDB0q" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB0r" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB0s" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB0t" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB0u" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB0n" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB0v" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDB06" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB0j" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB0y" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB0z" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB0j" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB0$" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB0_" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5rG" resolve="mapContainment" />
+              <node concept="37vLTw" id="1xqd6ptDB0A" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB0n" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB0B" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB0C" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB0D" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB0E" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB0F" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB0j" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB0G" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB0H" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5qH" resolve="mapLink" />
+              <node concept="37vLTw" id="1xqd6ptDB0I" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB0n" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB0J" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB0K" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB0L" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB0M" role="1SL9yI">
+      <property role="TrG5h" value="Reference" />
+      <node concept="3cqZAl" id="1xqd6ptDB0N" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB0O" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB0P" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB0Q" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB0R" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB0S" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973206451/2585378165973214014" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB0T" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB0U" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB0V" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB0W" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Reference.&lt;init&gt;(java.lang.String)" resolve="Reference" />
+                <node concept="Xl_RD" id="1xqd6ptDB0X" role="37wK5m">
+                  <property role="Xl_RC" value="adf" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB0Y" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB0Z" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB10" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB11" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB0U" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB12" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDEQh" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB0Q" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB15" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB16" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB0Q" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB17" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB18" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5qH" resolve="mapLink" />
+              <node concept="37vLTw" id="1xqd6ptDB19" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB0U" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB1a" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB1b" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB1c" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB1d" role="1SL9yI">
+      <property role="TrG5h" value="Constrained" />
+      <node concept="3cqZAl" id="1xqd6ptDB1e" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB1f" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB1g" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB1h" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB1i" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB1j" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973204667" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB1k" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB1l" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB1m" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB1n" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~PrimitiveType.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="PrimitiveType" />
+                <node concept="2OqwBi" id="1xqd6ptDB1o" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB1p" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB1q" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB1r" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB1s" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB1t" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB1u" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB1v" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB1l" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB1w" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDEV0" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB1h" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB1z" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB1$" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB1h" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB1_" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB1A" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
+              <node concept="37vLTw" id="1xqd6ptDB1B" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB1l" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB1C" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB1D" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB1E" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB1F" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB1G" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB1h" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB1H" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB1I" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB1J" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB1l" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB1K" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB1L" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB1M" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB1N" role="1SL9yI">
+      <property role="TrG5h" value="Primitive" />
+      <node concept="3cqZAl" id="1xqd6ptDB1O" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB1P" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB1Q" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB1R" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB1S" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB1T" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973204707" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB1U" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB1V" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB1W" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB1X" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~PrimitiveType.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="PrimitiveType" />
+                <node concept="2OqwBi" id="1xqd6ptDB1Y" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB1Z" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB20" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB21" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB22" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB23" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB24" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB25" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB1V" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB26" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDF31" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB1R" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB29" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB2a" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB1R" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB2b" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB2c" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
+              <node concept="37vLTw" id="1xqd6ptDB2d" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB1V" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB2e" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB2f" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB2g" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB2h" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB2i" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB1R" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB2j" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB2k" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB2l" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB1V" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB2m" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB2n" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB2o" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB2p" role="1SL9yI">
+      <property role="TrG5h" value="Enm" />
+      <node concept="3cqZAl" id="1xqd6ptDB2q" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB2r" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB2s" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB2t" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB2u" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB2v" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973204582" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB2w" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB2x" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB2y" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB2z" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Enumeration.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="Enumeration" />
+                <node concept="2OqwBi" id="1xqd6ptDB2$" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB2_" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB2A" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB2B" role="37wK5m">
+                  <property role="Xl_RC" value="asdf" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB2C" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB2D" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB2E" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB2F" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB2x" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB2G" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDFaY" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB2t" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB2J" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB2K" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB2t" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB2L" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB2M" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5vC" resolve="mapEnum" />
+              <node concept="37vLTw" id="1xqd6ptDB2N" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB2x" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB2O" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB2P" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB2Q" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB2R" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB2S" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB2t" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB2T" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB2U" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB2V" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB2x" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB2W" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB2X" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB2Y" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB2Z" role="1SL9yI">
+      <property role="TrG5h" value="EnumLiteral" />
+      <node concept="3cqZAl" id="1xqd6ptDB30" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB31" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB32" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB33" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB34" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB35" role="33vP2m">
+              <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973204582/2585378165973204623" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB36" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB37" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB38" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB39" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~EnumerationLiteral.&lt;init&gt;(io.lionweb.lioncore.java.language.Enumeration,java.lang.String)" resolve="EnumerationLiteral" />
+                <node concept="2ShNRf" id="1xqd6ptDB3a" role="37wK5m">
+                  <node concept="1pGfFk" id="1xqd6ptDB3b" role="2ShVmc">
+                    <ref role="37wK5l" to="imb3:~Enumeration.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="Enumeration" />
+                    <node concept="2OqwBi" id="1xqd6ptDB3c" role="37wK5m">
+                      <node concept="2WthIp" id="1xqd6ptDB3d" role="2Oq$k0" />
+                      <node concept="2XshWL" id="1xqd6ptDB3e" role="2OqNvi">
+                        <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1xqd6ptDB3f" role="37wK5m">
+                      <property role="Xl_RC" value="asdf" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB3g" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB3h" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB3i" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB3j" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB3k" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB37" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB3l" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~EnumerationLiteral.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDFjC" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB33" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB3o" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB3p" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB33" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB3q" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB3r" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5wB" resolve="mapEnumLiteral" />
+              <node concept="37vLTw" id="1xqd6ptDB3s" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB37" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB3t" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB3u" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB3v" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB3w" role="1SL9yI">
+      <property role="TrG5h" value="m3" />
+      <node concept="3cqZAl" id="1xqd6ptDB3x" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB3y" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB3z" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB3$" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB3_" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDFoh" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-M3" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB3I" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB3J" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB3K" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB3L" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Language.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="Language" />
+                <node concept="Xl_RD" id="1xqd6ptDB3M" role="37wK5m">
+                  <property role="Xl_RC" value="LionCore_M3" />
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB3N" role="37wK5m">
+                  <property role="Xl_RC" value="1324" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptDG_e" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptDB3$" resolve="expected" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB3P" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB3Q" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB3R" role="3tpDZA">
+            <node concept="2OqwBi" id="1xqd6ptDB3S" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB3T" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB3U" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB3V" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
+              <node concept="37vLTw" id="1xqd6ptDB3W" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB3J" resolve="input" />
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="1xqd6ptDB3X" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB3$" resolve="expected" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB3Y" role="1SL9yI">
+      <property role="TrG5h" value="builtins" />
+      <node concept="3cqZAl" id="1xqd6ptDB3Z" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB40" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB41" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB42" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB43" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDF_S" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB4c" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB4d" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2OqwBi" id="1xqd6ptDB4e" role="33vP2m">
+              <node concept="2WthIp" id="1xqd6ptDB4f" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB4g" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB4h" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB4i" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB4j" role="3tpDZA">
+            <node concept="2OqwBi" id="1xqd6ptDB4k" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB4l" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB4m" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB4n" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5lM" resolve="mapLanguage" />
+              <node concept="37vLTw" id="1xqd6ptDB4o" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB4d" resolve="input" />
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="1xqd6ptDB4p" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB42" resolve="expected" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xqd6ptDB4q" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB4r" role="1SL9yI">
+      <property role="TrG5h" value="Node" />
+      <node concept="3cqZAl" id="1xqd6ptDB4s" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB4t" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB4u" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB4v" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB4w" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDFN$" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-Node" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB4y" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB4z" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB4$" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB4_" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Concept.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Concept" />
+                <node concept="2OqwBi" id="1xqd6ptDB4A" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB4B" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB4C" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB4D" role="37wK5m">
+                  <property role="Xl_RC" value="asdf" />
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB4E" role="37wK5m">
+                  <property role="Xl_RC" value="234" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptDGvD" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptDB4v" resolve="expected" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB4G" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB4H" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB4I" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB4v" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB4J" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB4K" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5nK" resolve="mapConcept" />
+              <node concept="37vLTw" id="1xqd6ptDB4L" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB4z" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB4M" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB4N" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB4O" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB4P" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB4Q" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB4v" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB4R" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB4S" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
+              <node concept="37vLTw" id="1xqd6ptDB4T" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB4z" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB4U" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB4V" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB4W" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB4X" role="1SL9yI">
+      <property role="TrG5h" value="INamed" />
+      <node concept="3cqZAl" id="1xqd6ptDB4Y" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB4Z" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB50" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB51" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB52" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDFSz" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-INamed" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB54" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB55" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB56" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB57" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                <node concept="2OqwBi" id="1xqd6ptDB58" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB59" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB5a" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB5b" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB5c" role="37wK5m">
+                  <property role="Xl_RC" value="zesr" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptDGnb" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptDB51" resolve="expected" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB5e" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB5f" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB5g" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB51" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB5h" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB5i" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5oJ" resolve="mapIface" />
+              <node concept="37vLTw" id="1xqd6ptDB5j" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB55" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB5k" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB5l" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB5m" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB5n" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB5o" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB51" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB5p" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB5q" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
+              <node concept="37vLTw" id="1xqd6ptDB5r" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB55" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB5s" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB5t" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB5u" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB5v" role="1SL9yI">
+      <property role="TrG5h" value="INamed_name" />
+      <node concept="3cqZAl" id="1xqd6ptDB5w" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB5x" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB5y" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB5z" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB5$" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDFW4" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-INamed-name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB5A" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB5B" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB5C" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB5D" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~Property.&lt;init&gt;(java.lang.String,io.lionweb.lioncore.java.language.Classifier)" resolve="Property" />
+                <node concept="Xl_RD" id="1xqd6ptDB5E" role="37wK5m">
+                  <property role="Xl_RC" value="zxcv" />
+                </node>
+                <node concept="2ShNRf" id="1xqd6ptDB5F" role="37wK5m">
+                  <node concept="1pGfFk" id="1xqd6ptDB5G" role="2ShVmc">
+                    <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                    <node concept="2OqwBi" id="1xqd6ptDB5H" role="37wK5m">
+                      <node concept="2WthIp" id="1xqd6ptDB5I" role="2Oq$k0" />
+                      <node concept="2XshWL" id="1xqd6ptDB5J" role="2OqNvi">
+                        <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1xqd6ptDB5K" role="37wK5m">
+                      <property role="Xl_RC" value="zxcv" />
+                    </node>
+                    <node concept="Xl_RD" id="1xqd6ptDB5L" role="37wK5m">
+                      <property role="Xl_RC" value="zesr" />
+                    </node>
+                    <node concept="Xl_RD" id="1xqd6ptDB5M" role="37wK5m">
+                      <property role="Xl_RC" value="LionCore-builtins-INamed" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB5N" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB5O" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB5P" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB5Q" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB5B" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB5R" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~Feature.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDGeB" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB5z" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB5T" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB5U" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB5z" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB5V" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB5W" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5pI" resolve="mapProperty" />
+              <node concept="37vLTw" id="1xqd6ptDB5X" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB5B" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB5Y" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB5Z" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB60" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB61" role="1SL9yI">
+      <property role="TrG5h" value="String" />
+      <node concept="3cqZAl" id="1xqd6ptDB62" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB63" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB64" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB65" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB66" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB6l" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-String" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB68" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB69" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB6a" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB6b" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~PrimitiveType.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="PrimitiveType" />
+                <node concept="2OqwBi" id="1xqd6ptDB6c" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB6d" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB6e" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB6f" role="37wK5m">
+                  <property role="Xl_RC" value="zxc" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB6g" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB6h" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB6i" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB6j" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB69" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB6k" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDGIK" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB65" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB6m" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB6n" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB65" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB6o" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB6p" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
+              <node concept="37vLTw" id="1xqd6ptDB6q" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB69" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB6r" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB6s" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB6t" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB6u" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB6v" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB65" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB6w" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB6x" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB6y" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB69" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB6z" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB6$" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB6_" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB6A" role="1SL9yI">
+      <property role="TrG5h" value="Boolean" />
+      <node concept="3cqZAl" id="1xqd6ptDB6B" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB6C" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB6D" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB6E" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB6F" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB6U" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-Boolean" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB6H" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB6I" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB6J" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB6K" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~PrimitiveType.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="PrimitiveType" />
+                <node concept="2OqwBi" id="1xqd6ptDB6L" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB6M" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB6N" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB6O" role="37wK5m">
+                  <property role="Xl_RC" value="zxc" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB6P" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB6Q" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB6R" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB6S" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB6I" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB6T" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDH3u" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB6E" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB6V" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB6W" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB6E" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB6X" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB6Y" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
+              <node concept="37vLTw" id="1xqd6ptDB6Z" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB6I" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB70" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB71" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB72" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB73" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB74" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB6E" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB75" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB76" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB77" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB6I" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB78" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB79" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB7a" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB7b" role="1SL9yI">
+      <property role="TrG5h" value="Integer" />
+      <node concept="3cqZAl" id="1xqd6ptDB7c" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB7d" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB7e" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB7f" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB7g" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB7v" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-Integer" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB7i" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB7j" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB7k" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB7l" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~PrimitiveType.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="PrimitiveType" />
+                <node concept="2OqwBi" id="1xqd6ptDB7m" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB7n" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB7o" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB7p" role="37wK5m">
+                  <property role="Xl_RC" value="zxc" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB7q" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB7r" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB7s" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB7t" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB7j" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB7u" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDHqg" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB7f" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB7w" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB7x" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB7f" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB7y" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB7z" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
+              <node concept="37vLTw" id="1xqd6ptDB7$" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB7j" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB7_" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB7A" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB7B" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB7C" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB7D" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB7f" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB7E" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB7F" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB7G" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB7j" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB7H" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB7I" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB7J" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptDB7K" role="1SL9yI">
+      <property role="TrG5h" value="JSON" />
+      <node concept="3cqZAl" id="1xqd6ptDB7L" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptDB7M" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptDB7N" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB7O" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="17QB3L" id="1xqd6ptDB7P" role="1tU5fm" />
+            <node concept="Xl_RD" id="1xqd6ptDB84" role="33vP2m">
+              <property role="Xl_RC" value="LionCore-builtins-JSON" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptDB7R" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptDB7S" role="3cpWs9">
+            <property role="TrG5h" value="input" />
+            <node concept="2ShNRf" id="1xqd6ptDB7T" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptDB7U" role="2ShVmc">
+                <ref role="37wK5l" to="imb3:~PrimitiveType.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String)" resolve="PrimitiveType" />
+                <node concept="2OqwBi" id="1xqd6ptDB7V" role="37wK5m">
+                  <node concept="2WthIp" id="1xqd6ptDB7W" role="2Oq$k0" />
+                  <node concept="2XshWL" id="1xqd6ptDB7X" role="2OqNvi">
+                    <ref role="2WH_rO" node="1xqd6ptDB9c" resolve="createBuiltinsLanguage" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1xqd6ptDB7Y" role="37wK5m">
+                  <property role="Xl_RC" value="zxc" />
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="1xqd6ptDB7Z" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptDB80" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptDB81" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptDB82" role="2Oq$k0">
+              <ref role="3cqZAo" node="1xqd6ptDB7S" resolve="input" />
+            </node>
+            <node concept="liA8E" id="1xqd6ptDB83" role="2OqNvi">
+              <ref role="37wK5l" to="imb3:~LanguageEntity.setKey(java.lang.String)" resolve="setKey" />
+              <node concept="37vLTw" id="1xqd6ptDHES" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB7O" resolve="expected" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB85" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB86" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB7O" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB87" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB88" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5uD" resolve="mapPrimitive" />
+              <node concept="37vLTw" id="1xqd6ptDB89" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB7S" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB8a" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB8b" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB8c" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="1xqd6ptDB8d" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptDB8e" role="3tpDZB">
+            <ref role="3cqZAo" node="1xqd6ptDB7O" resolve="expected" />
+          </node>
+          <node concept="2OqwBi" id="1xqd6ptDB8f" role="3tpDZA">
+            <node concept="liA8E" id="1xqd6ptDB8g" role="2OqNvi">
+              <ref role="37wK5l" to="teza:5M3rB6Ae5tE" resolve="mapDataType" />
+              <node concept="37vLTw" id="1xqd6ptDB8h" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptDB7S" resolve="input" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1xqd6ptDB8i" role="2Oq$k0">
+              <node concept="2WthIp" id="1xqd6ptDB8j" role="2Oq$k0" />
+              <node concept="2XshWL" id="1xqd6ptDB8k" role="2OqNvi">
+                <ref role="2WH_rO" node="1xqd6ptDB8l" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="1xqd6ptDB8l" role="1qtyYc">
+      <property role="TrG5h" value="create" />
+      <node concept="3Tm6S6" id="1xqd6ptDB8m" role="1B3o_S" />
+      <node concept="3uibUv" id="1xqd6ptDB8n" role="3clF45">
+        <ref role="3uigEE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptDB8o" role="3clF47">
+        <node concept="3cpWs6" id="1xqd6ptDB8v" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptDB8w" role="3cqZAk">
+            <node concept="1pGfFk" id="1xqd6ptDB8x" role="2ShVmc">
+              <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="1xqd6ptDB8_" role="1qtyYc">
+      <property role="TrG5h" value="createTestLanguage" />
+      <node concept="3Tm6S6" id="1xqd6ptDB8A" role="1B3o_S" />
+      <node concept="3uibUv" id="1xqd6ptDB8B" role="3clF45">
+        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptDB8C" role="3clF47">
+        <node concept="3cpWs6" id="1xqd6ptDB8D" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptDB8E" role="3cqZAk">
+            <node concept="1pGfFk" id="1xqd6ptDB8F" role="2ShVmc">
+              <ref role="37wK5l" to="imb3:~Language.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="Language" />
+              <node concept="Xl_RD" id="1xqd6ptDB8G" role="37wK5m">
+                <property role="Xl_RC" value="io.lionweb.mps.converter.TestLang" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB8H" role="37wK5m">
+                <property role="Xl_RC" value="abc" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB8J" role="37wK5m">
+                <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="1xqd6ptDB8K" role="1qtyYc">
+      <property role="TrG5h" value="createTestInterfaceBase" />
+      <node concept="3uibUv" id="1xqd6ptDB8L" role="3clF45">
+        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptDB8M" role="3clF47">
+        <node concept="3clFbF" id="1xqd6ptDB8N" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptDB8O" role="3clFbG">
+            <node concept="1pGfFk" id="1xqd6ptDB8P" role="2ShVmc">
+              <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+              <node concept="2OqwBi" id="1xqd6ptDB8Q" role="37wK5m">
+                <node concept="2WthIp" id="1xqd6ptDB8R" role="2Oq$k0" />
+                <node concept="2XshWL" id="1xqd6ptDB8S" role="2OqNvi">
+                  <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB8T" role="37wK5m">
+                <property role="Xl_RC" value="asdf" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB8U" role="37wK5m">
+                <property role="Xl_RC" value="234" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB8W" role="37wK5m">
+                <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973214385" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="1xqd6ptDB8X" role="1B3o_S" />
+    </node>
+    <node concept="2XrIbr" id="1xqd6ptDB8Y" role="1qtyYc">
+      <property role="TrG5h" value="createTestConceptBase" />
+      <node concept="3uibUv" id="1xqd6ptDB8Z" role="3clF45">
+        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptDB90" role="3clF47">
+        <node concept="3clFbF" id="1xqd6ptDB91" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptDB92" role="3clFbG">
+            <node concept="1pGfFk" id="1xqd6ptDB93" role="2ShVmc">
+              <ref role="37wK5l" to="imb3:~Concept.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Concept" />
+              <node concept="2OqwBi" id="1xqd6ptDB94" role="37wK5m">
+                <node concept="2WthIp" id="1xqd6ptDB95" role="2Oq$k0" />
+                <node concept="2XshWL" id="1xqd6ptDB96" role="2OqNvi">
+                  <ref role="2WH_rO" node="1xqd6ptDB8_" resolve="createTestLanguage" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB97" role="37wK5m">
+                <property role="Xl_RC" value="asdf" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB98" role="37wK5m">
+                <property role="Xl_RC" value="234" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB9a" role="37wK5m">
+                <property role="Xl_RC" value="08caad75-8246-4427-bb4d-8444b6c5c729/2585378165973206451" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="1xqd6ptDB9b" role="1B3o_S" />
+    </node>
+    <node concept="2XrIbr" id="1xqd6ptDB9c" role="1qtyYc">
+      <property role="TrG5h" value="createBuiltinsLanguage" />
+      <node concept="3Tm6S6" id="1xqd6ptDB9d" role="1B3o_S" />
+      <node concept="3uibUv" id="1xqd6ptDB9e" role="3clF45">
+        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptDB9f" role="3clF47">
+        <node concept="3cpWs6" id="1xqd6ptDB9g" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptDB9h" role="3cqZAk">
+            <node concept="1pGfFk" id="1xqd6ptDB9i" role="2ShVmc">
+              <ref role="37wK5l" to="imb3:~Language.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="Language" />
+              <node concept="Xl_RD" id="1xqd6ptDB9j" role="37wK5m">
+                <property role="Xl_RC" value="LionCore_builtins" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB9k" role="37wK5m">
+                <property role="Xl_RC" value="1324" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptDB9l" role="37wK5m">
+                <property role="Xl_RC" value="LionCore-builtins" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
