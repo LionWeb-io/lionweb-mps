@@ -7,7 +7,6 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
-    <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -291,6 +290,10 @@
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
@@ -3334,6 +3337,38 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6Pr6izI$za6" role="3cqZAp">
+          <node concept="3cpWsn" id="6Pr6izI$za7" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
+            <node concept="3uibUv" id="6Pr6izI$yJo" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+            </node>
+            <node concept="2ShNRf" id="6Pr6izI$za8" role="33vP2m">
+              <node concept="HV5vD" id="6Pr6izI$za9" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6Pr6izI$zP_" role="3cqZAp">
+          <node concept="3cpWsn" id="6Pr6izI$zPA" role="3cpWs9">
+            <property role="TrG5h" value="annotationFinder" />
+            <node concept="3uibUv" id="6Pr6izI$zK9" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
+            </node>
+            <node concept="2ShNRf" id="6Pr6izI$zPB" role="33vP2m">
+              <node concept="1pGfFk" id="6Pr6izI$zPC" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
+                <node concept="37vLTw" id="6Pr6izI$zPD" role="37wK5m">
+                  <ref role="3cqZAo" node="24j7TNH1Aeq" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="6Pr6izI$zPE" role="37wK5m">
+                  <ref role="3cqZAo" node="6Pr6izI$za7" resolve="metaAdapterByDeclarationHelper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="24j7TNH1yly" role="3cqZAp" />
         <node concept="3KaCP$" id="24j7TNH1JIO" role="3cqZAp">
           <node concept="37vLTw" id="24j7TNH1JSO" role="3KbGdf">
@@ -3364,6 +3399,9 @@
                       </node>
                       <node concept="37vLTw" id="24j7TNH1zjV" role="37wK5m">
                         <ref role="3cqZAo" node="5M3rB6BCfHh" resolve="attributeFinder" />
+                      </node>
+                      <node concept="37vLTw" id="6Pr6izI$_zv" role="37wK5m">
+                        <ref role="3cqZAo" node="6Pr6izI$zPA" resolve="annotationFinder" />
                       </node>
                     </node>
                   </node>
@@ -3397,6 +3435,9 @@
                       </node>
                       <node concept="37vLTw" id="24j7TNH1NgX" role="37wK5m">
                         <ref role="3cqZAo" node="5M3rB6BCfHh" resolve="attributeFinder" />
+                      </node>
+                      <node concept="37vLTw" id="6Pr6izIAMFd" role="37wK5m">
+                        <ref role="3cqZAo" node="6Pr6izI$zPA" resolve="annotationFinder" />
                       </node>
                     </node>
                   </node>
@@ -3562,143 +3603,14 @@
           </node>
         </node>
         <node concept="3clFbH" id="4R9posp5RTQ" role="3cqZAp" />
-        <node concept="3cpWs8" id="5M3rB6CnAgq" role="3cqZAp">
-          <node concept="3cpWsn" id="5M3rB6CnAgr" role="3cpWs9">
-            <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="5M3rB6CnAdj" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
-            <node concept="2ShNRf" id="5M3rB6CnAgs" role="33vP2m">
-              <node concept="1pGfFk" id="5M3rB6CnAgt" role="2ShVmc">
-                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="37vLTw" id="5M3rB6CnAgu" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5M3rB6CnBh7" role="3cqZAp">
-          <node concept="3cpWsn" id="5M3rB6CnBh8" role="3cpWs9">
-            <property role="TrG5h" value="jsonKeyMapper" />
-            <node concept="3uibUv" id="5M3rB6CnBdX" role="1tU5fm">
-              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
-            </node>
-            <node concept="2ShNRf" id="5M3rB6CnBh9" role="33vP2m">
-              <node concept="1pGfFk" id="5M3rB6CnBha" role="2ShVmc">
-                <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
-                <node concept="37vLTw" id="4n8SsXjtAwG" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6CnAgr" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5M3rB6CnBuw" role="3cqZAp">
-          <node concept="3cpWsn" id="5M3rB6CnBux" role="3cpWs9">
-            <property role="TrG5h" value="attributeFinder" />
-            <node concept="3uibUv" id="5M3rB6CnBsS" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
-            </node>
-            <node concept="2ShNRf" id="5M3rB6CnBuy" role="33vP2m">
-              <node concept="1pGfFk" id="5M3rB6CnBuz" role="2ShVmc">
-                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
-                <node concept="37vLTw" id="5M3rB6CnBu$" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
-                </node>
-                <node concept="37vLTw" id="5M3rB6CnBu_" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6CnAgr" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4R9pospDMlQ" role="3cqZAp">
-          <node concept="3cpWsn" id="4R9pospDMlR" role="3cpWs9">
-            <property role="TrG5h" value="metaAdapterFactoryHelper" />
-            <node concept="3uibUv" id="4R9pospDMkw" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
-            </node>
-            <node concept="2ShNRf" id="4R9pospDMlS" role="33vP2m">
-              <node concept="HV5vD" id="4R9pospMvwO" role="2ShVmc">
-                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4R9pospDMEh" role="3cqZAp">
-          <node concept="3cpWsn" id="4R9pospDMEi" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerPostprocessor" />
-            <node concept="3uibUv" id="4R9pospDMCX" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
-            </node>
-            <node concept="2ShNRf" id="4R9pospDMEj" role="33vP2m">
-              <node concept="HV5vD" id="4R9pospDMEk" role="2ShVmc">
-                <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4R9pospDNf1" role="3cqZAp">
-          <node concept="3cpWsn" id="4R9pospDNf2" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerConverter" />
-            <node concept="3uibUv" id="4R9pospDNcE" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:6lVb1tfUY2A" resolve="MetaPointerConverter" />
-            </node>
-            <node concept="2ShNRf" id="4R9pospDNf3" role="33vP2m">
-              <node concept="1pGfFk" id="4R9pospDNf4" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
-                <node concept="37vLTw" id="4R9pospDNf5" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6CnBh8" resolve="jsonKeyMapper" />
-                </node>
-                <node concept="37vLTw" id="4R9pospDNf6" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9pospDMlR" resolve="metaAdapterFactoryHelper" />
-                </node>
-                <node concept="37vLTw" id="4R9pospDNf7" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9pospDMEi" resolve="metaPointerPostprocessor" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4R9pospDO96" role="3cqZAp">
-          <node concept="3cpWsn" id="4R9pospDO97" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerLookup" />
-            <node concept="3uibUv" id="4R9pospDO7W" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:9wS6VcuOAi" resolve="MetaPointerLookup" />
-            </node>
-            <node concept="2ShNRf" id="4R9pospDO98" role="33vP2m">
-              <node concept="1pGfFk" id="4R9pospDO99" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
-                <node concept="37vLTw" id="4R9pospDO9a" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6CnBux" resolve="attributeFinder" />
-                </node>
-                <node concept="37vLTw" id="4R9pospDO9b" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9pospDNf2" resolve="metaPointerConverter" />
-                </node>
-                <node concept="37vLTw" id="4R9pospDO9c" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6CnBh8" resolve="jsonKeyMapper" />
-                </node>
-                <node concept="37vLTw" id="4R9pospDO9d" role="37wK5m">
-                  <ref role="3cqZAo" node="5M3rB6CnAgr" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="5M3rB6CnBF1" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6CnBF2" role="3cpWs9">
             <property role="TrG5h" value="guaranteedMetaPointerLookup" />
             <node concept="3uibUv" id="5M3rB6CnBD0" role="1tU5fm">
               <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
             </node>
-            <node concept="2ShNRf" id="6lVb1tfLbYs" role="33vP2m">
-              <node concept="1pGfFk" id="6lVb1tfLclh" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
-                <node concept="37vLTw" id="4R9pospDO9e" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9pospDO97" resolve="metaPointerLookup" />
-                </node>
-              </node>
+            <node concept="1rXfSq" id="1xqd6ptu3tE" role="33vP2m">
+              <ref role="37wK5l" node="1xqd6ptu0Sv" resolve="createGuaranteedMetaPointerLookup" />
             </node>
           </node>
         </node>
@@ -3773,143 +3685,14 @@
           </node>
         </node>
         <node concept="3clFbH" id="18UigYORVms" role="3cqZAp" />
-        <node concept="3cpWs8" id="18UigYORVmt" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVmu" role="3cpWs9">
-            <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="18UigYORVmv" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVmw" role="33vP2m">
-              <node concept="1pGfFk" id="18UigYORVmx" role="2ShVmc">
-                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                <node concept="37vLTw" id="18UigYORVmy" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="18UigYORVmz" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVm$" role="3cpWs9">
-            <property role="TrG5h" value="jsonKeyMapper" />
-            <node concept="3uibUv" id="18UigYORVm_" role="1tU5fm">
-              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVmA" role="33vP2m">
-              <node concept="1pGfFk" id="18UigYORVmB" role="2ShVmc">
-                <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
-                <node concept="37vLTw" id="18UigYORVmC" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmu" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="18UigYORVmD" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVmE" role="3cpWs9">
-            <property role="TrG5h" value="attributeFinder" />
-            <node concept="3uibUv" id="18UigYORVmF" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVmG" role="33vP2m">
-              <node concept="1pGfFk" id="18UigYORVmH" role="2ShVmc">
-                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
-                <node concept="37vLTw" id="18UigYORVmI" role="37wK5m">
-                  <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
-                </node>
-                <node concept="37vLTw" id="18UigYORVmJ" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmu" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="18UigYORVmK" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVmL" role="3cpWs9">
-            <property role="TrG5h" value="metaAdapterFactoryHelper" />
-            <node concept="3uibUv" id="18UigYORVmM" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVmN" role="33vP2m">
-              <node concept="HV5vD" id="18UigYORVmO" role="2ShVmc">
-                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="18UigYORVmP" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVmQ" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerPostprocessor" />
-            <node concept="3uibUv" id="18UigYORVmR" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVmS" role="33vP2m">
-              <node concept="HV5vD" id="18UigYORVmT" role="2ShVmc">
-                <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="18UigYORVmU" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVmV" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerConverter" />
-            <node concept="3uibUv" id="18UigYORVmW" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:6lVb1tfUY2A" resolve="MetaPointerConverter" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVmX" role="33vP2m">
-              <node concept="1pGfFk" id="18UigYORVmY" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
-                <node concept="37vLTw" id="18UigYORVmZ" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVm$" resolve="jsonKeyMapper" />
-                </node>
-                <node concept="37vLTw" id="18UigYORVn0" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmL" resolve="metaAdapterFactoryHelper" />
-                </node>
-                <node concept="37vLTw" id="18UigYORVn1" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmQ" resolve="metaPointerPostprocessor" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="18UigYORVn2" role="3cqZAp">
-          <node concept="3cpWsn" id="18UigYORVn3" role="3cpWs9">
-            <property role="TrG5h" value="metaPointerLookup" />
-            <node concept="3uibUv" id="18UigYORVn4" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:9wS6VcuOAi" resolve="MetaPointerLookup" />
-            </node>
-            <node concept="2ShNRf" id="18UigYORVn5" role="33vP2m">
-              <node concept="1pGfFk" id="18UigYORVn6" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
-                <node concept="37vLTw" id="18UigYORVn7" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmE" resolve="attributeFinder" />
-                </node>
-                <node concept="37vLTw" id="18UigYORVn8" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmV" resolve="metaPointerConverter" />
-                </node>
-                <node concept="37vLTw" id="18UigYORVn9" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVm$" resolve="jsonKeyMapper" />
-                </node>
-                <node concept="37vLTw" id="18UigYORVna" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVmu" resolve="constants" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="18UigYORVnb" role="3cqZAp">
           <node concept="3cpWsn" id="18UigYORVnc" role="3cpWs9">
             <property role="TrG5h" value="guaranteedMetaPointerLookup" />
             <node concept="3uibUv" id="18UigYORVnd" role="1tU5fm">
               <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
             </node>
-            <node concept="2ShNRf" id="18UigYORVne" role="33vP2m">
-              <node concept="1pGfFk" id="18UigYORVnf" role="2ShVmc">
-                <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
-                <node concept="37vLTw" id="18UigYORVng" role="37wK5m">
-                  <ref role="3cqZAo" node="18UigYORVn3" resolve="metaPointerLookup" />
-                </node>
-              </node>
+            <node concept="1rXfSq" id="1xqd6ptu0Sy" role="33vP2m">
+              <ref role="37wK5l" node="1xqd6ptu0Sv" resolve="createGuaranteedMetaPointerLookup" />
             </node>
           </node>
         </node>
@@ -3969,6 +3752,150 @@
       <node concept="37vLTG" id="18UigYORWf6" role="3clF46">
         <property role="TrG5h" value="modelToMerge" />
         <node concept="H_c77" id="18UigYORWf5" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1xqd6ptu1DH" role="jymVt" />
+    <node concept="3clFb_" id="1xqd6ptu0Sv" role="jymVt">
+      <property role="TrG5h" value="createGuaranteedMetaPointerLookup" />
+      <node concept="3Tm6S6" id="1xqd6ptu0Sw" role="1B3o_S" />
+      <node concept="3uibUv" id="1xqd6ptu0Sx" role="3clF45">
+        <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptu0R$" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptu0RB" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0RC" role="3cpWs9">
+            <property role="TrG5h" value="constants" />
+            <node concept="3uibUv" id="1xqd6ptu0RD" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0RE" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptu0RF" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <node concept="37vLTw" id="1xqd6ptu0RG" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptu0RH" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0RI" role="3cpWs9">
+            <property role="TrG5h" value="jsonKeyMapper" />
+            <node concept="3uibUv" id="1xqd6ptu0RJ" role="1tU5fm">
+              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0RK" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptu0RL" role="2ShVmc">
+                <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
+                <node concept="37vLTw" id="1xqd6ptu0RM" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RC" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptu0RN" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0RO" role="3cpWs9">
+            <property role="TrG5h" value="attributeFinder" />
+            <node concept="3uibUv" id="1xqd6ptu0RP" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0RQ" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptu0RR" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <node concept="37vLTw" id="1xqd6ptu0RS" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptu0RT" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RC" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptu0RU" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0RV" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterFactoryHelper" />
+            <node concept="3uibUv" id="1xqd6ptu0RW" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0RX" role="33vP2m">
+              <node concept="HV5vD" id="1xqd6ptu0RY" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptu0RZ" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0S0" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerPostprocessor" />
+            <node concept="3uibUv" id="1xqd6ptu0S1" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0S2" role="33vP2m">
+              <node concept="HV5vD" id="1xqd6ptu0S3" role="2ShVmc">
+                <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptu0S4" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0S5" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerConverter" />
+            <node concept="3uibUv" id="1xqd6ptu0S6" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:6lVb1tfUY2A" resolve="MetaPointerConverter" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0S7" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptu0S8" role="2ShVmc">
+                <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
+                <node concept="37vLTw" id="1xqd6ptu0S9" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RI" resolve="jsonKeyMapper" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptu0Sa" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RV" resolve="metaAdapterFactoryHelper" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptu0Sb" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0S0" resolve="metaPointerPostprocessor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptu0Sc" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptu0Sd" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerLookup" />
+            <node concept="3uibUv" id="1xqd6ptu0Se" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:9wS6VcuOAi" resolve="MetaPointerLookup" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptu0Sf" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptu0Sg" role="2ShVmc">
+                <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
+                <node concept="37vLTw" id="1xqd6ptu0Sh" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RO" resolve="attributeFinder" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptu0Si" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0S5" resolve="metaPointerConverter" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptu0Sj" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RI" resolve="jsonKeyMapper" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptu0Sk" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptu0RC" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1xqd6ptu0Sr" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptu0So" role="3cqZAk">
+            <node concept="1pGfFk" id="1xqd6ptu0Sp" role="2ShVmc">
+              <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
+              <node concept="37vLTw" id="1xqd6ptu0Sq" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptu0Sd" resolve="metaPointerLookup" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="18UigYORUxO" role="jymVt" />
@@ -4194,6 +4121,320 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="1xqd6ptua_s">
+    <property role="TrG5h" value="JsonToM2" />
+    <node concept="312cEg" id="1xqd6ptuaAw" role="jymVt">
+      <property role="TrG5h" value="repository" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="1xqd6ptuaAx" role="1B3o_S" />
+      <node concept="3uibUv" id="1xqd6ptuaAy" role="1tU5fm">
+        <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1xqd6ptuaAz" role="jymVt">
+      <property role="TrG5h" value="jsonLanguages" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="1xqd6ptuaA$" role="1B3o_S" />
+      <node concept="A3Dl8" id="1xqd6ptuaA_" role="1tU5fm">
+        <node concept="3uibUv" id="1xqd6ptuaAA" role="A3Ik2">
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1xqd6ptuaAB" role="jymVt" />
+    <node concept="312cEg" id="1xqd6ptuaAC" role="jymVt">
+      <property role="TrG5h" value="converted" />
+      <node concept="3Tm6S6" id="1xqd6ptuaAD" role="1B3o_S" />
+      <node concept="10Nm6u" id="1xqd6ptuaAG" role="33vP2m" />
+      <node concept="3rvAFt" id="1xqd6ptutQv" role="1tU5fm">
+        <node concept="3uibUv" id="1xqd6ptutQw" role="3rvQeY">
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+        </node>
+        <node concept="3uibUv" id="1xqd6ptutQx" role="3rvSg0">
+          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1xqd6ptuaAH" role="jymVt" />
+    <node concept="3clFbW" id="1xqd6ptuaAI" role="jymVt">
+      <node concept="3cqZAl" id="1xqd6ptuaAJ" role="3clF45" />
+      <node concept="3Tm1VV" id="1xqd6ptuaAK" role="1B3o_S" />
+      <node concept="3clFbS" id="1xqd6ptuaAL" role="3clF47">
+        <node concept="3clFbF" id="1xqd6ptuaAM" role="3cqZAp">
+          <node concept="37vLTI" id="1xqd6ptuaAN" role="3clFbG">
+            <node concept="2OqwBi" id="1xqd6ptuaAO" role="37vLTJ">
+              <node concept="Xjq3P" id="1xqd6ptuaAP" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1xqd6ptuaAQ" role="2OqNvi">
+                <ref role="2Oxat5" node="1xqd6ptuaAw" resolve="repository" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1xqd6ptuaAR" role="37vLTx">
+              <ref role="3cqZAo" node="1xqd6ptuaAY" resolve="repository" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptuaAS" role="3cqZAp">
+          <node concept="37vLTI" id="1xqd6ptuaAT" role="3clFbG">
+            <node concept="2OqwBi" id="1xqd6ptuaAU" role="37vLTJ">
+              <node concept="Xjq3P" id="1xqd6ptuaAV" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1xqd6ptuaAW" role="2OqNvi">
+                <ref role="2Oxat5" node="1xqd6ptuaAz" resolve="jsonLanguages" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1xqd6ptuaAX" role="37vLTx">
+              <ref role="3cqZAo" node="1xqd6ptuaB1" resolve="jsonLanguages" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1xqd6ptuaAY" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="1xqd6ptuaAZ" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+        <node concept="2AHcQZ" id="1xqd6ptuaB0" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1xqd6ptuaB1" role="3clF46">
+        <property role="TrG5h" value="jsonLanguages" />
+        <node concept="A3Dl8" id="1xqd6ptuaB2" role="1tU5fm">
+          <node concept="3uibUv" id="1xqd6ptuaB3" role="A3Ik2">
+            <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1xqd6ptuaB8" role="jymVt" />
+    <node concept="3clFb_" id="1xqd6ptuaB9" role="jymVt">
+      <property role="TrG5h" value="convert" />
+      <node concept="3clFbS" id="1xqd6ptuaBa" role="3clF47">
+        <node concept="3clFbJ" id="1xqd6ptuaBb" role="3cqZAp">
+          <node concept="3clFbS" id="1xqd6ptuaBc" role="3clFbx">
+            <node concept="3cpWs6" id="1xqd6ptuaBd" role="3cqZAp">
+              <node concept="37vLTw" id="1xqd6ptuaBe" role="3cqZAk">
+                <ref role="3cqZAo" node="1xqd6ptuaAC" resolve="converted" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1xqd6ptuaBf" role="3clFbw">
+            <node concept="10Nm6u" id="1xqd6ptuaBg" role="3uHU7w" />
+            <node concept="37vLTw" id="1xqd6ptuaBh" role="3uHU7B">
+              <ref role="3cqZAo" node="1xqd6ptuaAC" resolve="converted" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xqd6ptuaBi" role="3cqZAp" />
+        <node concept="3cpWs8" id="1xqd6ptucQ_" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptucQA" role="3cpWs9">
+            <property role="TrG5h" value="guaranteedMetaPointerLookup" />
+            <node concept="3uibUv" id="1xqd6ptucQB" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
+            </node>
+            <node concept="1rXfSq" id="1xqd6ptuQ60" role="33vP2m">
+              <ref role="37wK5l" node="1xqd6ptuaCk" resolve="createGuaranteedMetaPointerLookup" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4R9posqYY6E" role="3cqZAp" />
+        <node concept="3cpWs8" id="4R9posqZa_p" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9posqZa_q" role="3cpWs9">
+            <property role="TrG5h" value="converter" />
+            <node concept="3uibUv" id="4R9posqZa_r" role="1tU5fm">
+              <ref role="3uigEE" to="5els:4R9posqqsnp" resolve="Json2LanguageConverter" />
+            </node>
+            <node concept="2ShNRf" id="4R9posqZdmh" role="33vP2m">
+              <node concept="1pGfFk" id="4R9posqZdYr" role="2ShVmc">
+                <ref role="37wK5l" to="5els:4R9posqqsoz" resolve="Json2LanguageConverter" />
+                <node concept="37vLTw" id="4R9posqZekX" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptucQA" resolve="guaranteedMetaPointerLookup" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xqd6ptuI2i" role="3cqZAp">
+          <node concept="37vLTI" id="1xqd6ptuJUK" role="3clFbG">
+            <node concept="37vLTw" id="1xqd6ptuI2g" role="37vLTJ">
+              <ref role="3cqZAo" node="1xqd6ptuaAC" resolve="converted" />
+            </node>
+            <node concept="2OqwBi" id="5ocQ9W1vI9v" role="37vLTx">
+              <node concept="37vLTw" id="5ocQ9W1vI9w" role="2Oq$k0">
+                <ref role="3cqZAo" node="4R9posqZa_q" resolve="converter" />
+              </node>
+              <node concept="liA8E" id="5ocQ9W1vI9x" role="2OqNvi">
+                <ref role="37wK5l" to="5els:4R9posqqspX" resolve="convert" />
+                <node concept="37vLTw" id="5ocQ9W1vI9y" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaAz" resolve="jsonLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xqd6ptuNbN" role="3cqZAp" />
+        <node concept="3cpWs6" id="1xqd6ptuaBB" role="3cqZAp">
+          <node concept="37vLTw" id="1xqd6ptuaBC" role="3cqZAk">
+            <ref role="3cqZAo" node="1xqd6ptuaAC" resolve="converted" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1xqd6ptuaBD" role="1B3o_S" />
+      <node concept="3rvAFt" id="1xqd6ptuvzi" role="3clF45">
+        <node concept="3uibUv" id="1xqd6ptuvzj" role="3rvQeY">
+          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+        </node>
+        <node concept="3uibUv" id="1xqd6ptuvzk" role="3rvSg0">
+          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1xqd6ptuaBG" role="jymVt" />
+    <node concept="3clFb_" id="1xqd6ptuaCk" role="jymVt">
+      <property role="TrG5h" value="createGuaranteedMetaPointerLookup" />
+      <node concept="3Tm6S6" id="1xqd6ptuaCl" role="1B3o_S" />
+      <node concept="3uibUv" id="1xqd6ptuaCm" role="3clF45">
+        <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
+      </node>
+      <node concept="3clFbS" id="1xqd6ptuaCn" role="3clF47">
+        <node concept="3cpWs8" id="1xqd6ptuaCo" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaCp" role="3cpWs9">
+            <property role="TrG5h" value="constants" />
+            <node concept="3uibUv" id="1xqd6ptuaCq" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaCr" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptuaCs" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                <node concept="37vLTw" id="1xqd6ptuaCt" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaAw" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptuaCu" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaCv" role="3cpWs9">
+            <property role="TrG5h" value="jsonKeyMapper" />
+            <node concept="3uibUv" id="1xqd6ptuaCw" role="1tU5fm">
+              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaCx" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptuaCy" role="2ShVmc">
+                <ref role="37wK5l" to="j5yh:5M3rB6_MVsD" resolve="JsonBase64LanguageIdMapper" />
+                <node concept="37vLTw" id="1xqd6ptwoGb" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCp" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptuaC$" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaC_" role="3cpWs9">
+            <property role="TrG5h" value="attributeFinder" />
+            <node concept="3uibUv" id="1xqd6ptuaCA" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaCB" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptuaCC" role="2ShVmc">
+                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
+                <node concept="37vLTw" id="1xqd6ptuaCD" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaAw" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptuaCE" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCp" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptuaCF" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaCG" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterFactoryHelper" />
+            <node concept="3uibUv" id="1xqd6ptuaCH" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaCI" role="33vP2m">
+              <node concept="HV5vD" id="1xqd6ptuaCJ" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptuaCK" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaCL" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerPostprocessor" />
+            <node concept="3uibUv" id="1xqd6ptuaCM" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaCN" role="33vP2m">
+              <node concept="HV5vD" id="1xqd6ptuaCO" role="2ShVmc">
+                <ref role="HV5vE" to="pe0e:6lVb1tfT0pq" resolve="DirectMetaPointerPostprocessor" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptuaCP" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaCQ" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerConverter" />
+            <node concept="3uibUv" id="1xqd6ptuaCR" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:6lVb1tfUY2A" resolve="MetaPointerConverter" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaCS" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptuaCT" role="2ShVmc">
+                <ref role="37wK5l" to="pe0e:6lVb1tfVtvX" resolve="MetaPointerConverter" />
+                <node concept="37vLTw" id="1xqd6ptuaCU" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCv" resolve="jsonKeyMapper" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptuaCV" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCG" resolve="metaAdapterFactoryHelper" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptuaCW" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCL" resolve="metaPointerPostprocessor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptuaCX" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptuaCY" role="3cpWs9">
+            <property role="TrG5h" value="metaPointerLookup" />
+            <node concept="3uibUv" id="1xqd6ptuaCZ" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:9wS6VcuOAi" resolve="MetaPointerLookup" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptuaD0" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptuaD1" role="2ShVmc">
+                <ref role="37wK5l" to="pe0e:9wS6VcuPbR" resolve="MetaPointerLookup" />
+                <node concept="37vLTw" id="1xqd6ptuaD2" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaC_" resolve="attributeFinder" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptuaD3" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCQ" resolve="metaPointerConverter" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptuaD4" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCv" resolve="jsonKeyMapper" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptuaD5" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptuaCp" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1xqd6ptuaD6" role="3cqZAp">
+          <node concept="2ShNRf" id="1xqd6ptuaD7" role="3cqZAk">
+            <node concept="1pGfFk" id="1xqd6ptuaD8" role="2ShVmc">
+              <ref role="37wK5l" to="pe0e:A9P4gGNs$J" resolve="CancellingMetaPointerLookup" />
+              <node concept="37vLTw" id="1xqd6ptuaD9" role="37wK5m">
+                <ref role="3cqZAo" node="1xqd6ptuaCY" resolve="metaPointerLookup" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1xqd6ptuaDa" role="jymVt" />
+    <node concept="3Tm1VV" id="1xqd6ptua_t" role="1B3o_S" />
   </node>
 </model>
 

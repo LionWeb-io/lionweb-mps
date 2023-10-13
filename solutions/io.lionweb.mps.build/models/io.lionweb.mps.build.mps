@@ -339,7 +339,7 @@
       </node>
       <node concept="2iUeEo" id="5wsogBcGDKT" role="2iVFfd">
         <property role="2iUeEt" value="LionWeb Project" />
-        <property role="2iUeEu" value="https://github.com/LionWeb-org/lioncore-mps" />
+        <property role="2iUeEu" value="https://github.com/LionWeb-io/lionweb-mps" />
       </node>
       <node concept="55IIr" id="3zl4G81THGZ" role="I30fb">
         <node concept="2Ry0Ak" id="3zl4G81THHG" role="iGT6I">

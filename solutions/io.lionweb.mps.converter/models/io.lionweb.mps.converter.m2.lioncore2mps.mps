@@ -17082,7 +17082,7 @@
                   <ref role="3cqZAo" node="3ePT3MaOLS3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="39$JcGGcz5q" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsBaseConcept" />
+                  <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
                   <node concept="37vLTw" id="39$JcGGcLFD" role="37wK5m">
                     <ref role="3cqZAo" node="3ePT3Mh4Mi3" resolve="lookupTarget" />
                   </node>

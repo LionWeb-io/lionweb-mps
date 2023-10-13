@@ -59,6 +59,9 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -430,6 +433,38 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="18UigYQTqoj" role="3cqZAp">
+          <node concept="3cpWsn" id="18UigYQTqok" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
+            <node concept="3uibUv" id="18UigYQTqol" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYOOPKz" resolve="IMetaAdapterByDeclarationHelper" />
+            </node>
+            <node concept="2ShNRf" id="18UigYQTs8D" role="33vP2m">
+              <node concept="HV5vD" id="18UigYQWXRA" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="18UigYQWZOG" role="3cqZAp">
+          <node concept="3cpWsn" id="18UigYQWZOH" role="3cpWs9">
+            <property role="TrG5h" value="annotationFinder" />
+            <node concept="3uibUv" id="18UigYQWZqk" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
+            </node>
+            <node concept="2ShNRf" id="18UigYQWZOI" role="33vP2m">
+              <node concept="1pGfFk" id="18UigYQWZOJ" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
+                <node concept="37vLTw" id="18UigYQWZOK" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E2hOh" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="18UigYQWZOL" role="37wK5m">
+                  <ref role="3cqZAo" node="18UigYQTqok" resolve="metaAdapterByDeclarationHelper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2fx6VTTfDSL" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTTfDSM" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -447,6 +482,9 @@
                 </node>
                 <node concept="37vLTw" id="6VkSF6c1pi5" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
+                </node>
+                <node concept="37vLTw" id="18UigYQX2AZ" role="37wK5m">
+                  <ref role="3cqZAo" node="18UigYQWZOH" resolve="annotationFinder" />
                 </node>
                 <node concept="37vLTw" id="2fx6VTTfL7w" role="37wK5m">
                   <ref role="3cqZAo" node="2fx6VTTfDSt" resolve="replaceInvalidDataTypes" />
@@ -745,6 +783,38 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="1xqd6ptqyzM" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptqyzN" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
+            <node concept="3uibUv" id="1xqd6ptqyzO" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYOOPKz" resolve="IMetaAdapterByDeclarationHelper" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptqyzP" role="33vP2m">
+              <node concept="HV5vD" id="1xqd6ptqyzQ" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1xqd6ptqyzR" role="3cqZAp">
+          <node concept="3cpWsn" id="1xqd6ptqyzS" role="3cpWs9">
+            <property role="TrG5h" value="annotationFinder" />
+            <node concept="3uibUv" id="1xqd6ptqyzT" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
+            </node>
+            <node concept="2ShNRf" id="1xqd6ptqyzU" role="33vP2m">
+              <node concept="1pGfFk" id="1xqd6ptqyzV" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
+                <node concept="37vLTw" id="1xqd6ptqyzW" role="37wK5m">
+                  <ref role="3cqZAo" node="7Cdxs9E2eUY" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptqyzX" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptqyzN" resolve="metaAdapterByDeclarationHelper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4pht$XsrO4j" role="3cqZAp">
           <node concept="3cpWsn" id="4pht$XsrO4k" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -762,6 +832,9 @@
                 </node>
                 <node concept="37vLTw" id="5M3rB6BZQTY" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BjKAY" resolve="constants" />
+                </node>
+                <node concept="37vLTw" id="1xqd6ptqGEA" role="37wK5m">
+                  <ref role="3cqZAo" node="1xqd6ptqyzS" resolve="annotationFinder" />
                 </node>
                 <node concept="37vLTw" id="4pht$XsrO4n" role="37wK5m">
                   <ref role="3cqZAo" node="4pht$XsrqRM" resolve="structureAspects" />
