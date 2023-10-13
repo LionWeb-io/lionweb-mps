@@ -12,7 +12,6 @@
     <import index="234s" ref="r:c798b861-d641-45c1-bec6-e39cbda50960(io.lionweb.mps.structure.attribute.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -64,7 +63,6 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
@@ -141,11 +139,6 @@
       </concept>
       <concept id="1174650418652" name="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" flags="nn" index="1YBJjd">
         <reference id="1174650432090" name="applicableNode" index="1YBMHb" />
-      </concept>
-    </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -354,11 +347,6 @@
   <node concept="18kY7G" id="18UigYP4SFq">
     <property role="TrG5h" value="unique_keys" />
     <node concept="3clFbS" id="18UigYP4SFr" role="18ibNy">
-      <node concept="2xdQw9" id="18UigYP5jVb" role="3cqZAp">
-        <node concept="Xl_RD" id="18UigYP5jVd" role="9lYJi">
-          <property role="Xl_RC" value="a" />
-        </node>
-      </node>
       <node concept="3clFbJ" id="18UigYP4SG0" role="3cqZAp">
         <node concept="17QLQc" id="18UigYP5JRV" role="3clFbw">
           <node concept="1YBJjd" id="18UigYP5JZ0" role="3uHU7w">
@@ -383,21 +371,6 @@
         </node>
         <node concept="3clFbS" id="18UigYP4SG2" role="3clFbx">
           <node concept="3cpWs6" id="18UigYP4XmP" role="3cqZAp" />
-        </node>
-      </node>
-      <node concept="2xdQw9" id="18UigYP5kfd" role="3cqZAp">
-        <node concept="3cpWs3" id="18UigYP5zAT" role="9lYJi">
-          <node concept="2OqwBi" id="18UigYP5zII" role="3uHU7w">
-            <node concept="1YBJjd" id="18UigYP5zBg" role="2Oq$k0">
-              <ref role="1YBMHb" node="18UigYP4SFR" resolve="iStructureElement" />
-            </node>
-            <node concept="2qgKlT" id="18UigYP5$5U" role="2OqNvi">
-              <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-            </node>
-          </node>
-          <node concept="Xl_RD" id="18UigYP5kfe" role="3uHU7B">
-            <property role="Xl_RC" value="b " />
-          </node>
         </node>
       </node>
       <node concept="3clFbH" id="18UigYP4XmR" role="3cqZAp" />

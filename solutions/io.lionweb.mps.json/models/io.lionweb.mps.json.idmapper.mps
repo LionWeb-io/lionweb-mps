@@ -173,6 +173,11 @@
               </node>
             </node>
           </node>
+          <node concept="2ShNRf" id="1xqd6ptwbiI" role="37wK5m">
+            <node concept="HV5vD" id="1xqd6ptwbD6" role="2ShVmc">
+              <ref role="HV5vE" node="5M3rB6A0Hk2" resolve="JsonKeyMapper" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="4n8SsXjtsT0" role="3clF46">
