@@ -562,6 +562,11 @@
             <ref role="3bR37D" to="e6nc:6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1xqd6ptj1WO" role="3bR37C">
+          <node concept="3bR9La" id="1xqd6ptj1WP" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDR8" resolve="io.lionweb.mps.converter.test" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5ocQ9W1zSPz" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1019,6 +1024,50 @@
               </node>
             </node>
             <node concept="3qWCbU" id="5ocQ9W1zSHr" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="1xqd6ptjffo" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="io.lionweb.mps.converter.TestAnnotation" />
+        <property role="3LESm3" value="afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb" />
+        <node concept="398BVA" id="1xqd6ptjfjP" role="3LF7KH">
+          <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
+          <node concept="2Ry0Ak" id="1xqd6ptjfjV" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="1xqd6ptjfk0" role="2Ry0An">
+              <property role="2Ry0Am" value="io.lionweb.mps.converter.TestAnnotation" />
+              <node concept="2Ry0Ak" id="1xqd6ptjfk5" role="2Ry0An">
+                <property role="2Ry0Am" value="io.lionweb.mps.converter.TestAnnotation.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1xqd6ptjflL" role="3bR37C">
+          <node concept="3bR9La" id="1xqd6ptjflM" role="1SiIV1">
+            <ref role="3bR37D" to="e6nc:5wsogBcGDKV" resolve="io.lionweb.mps.m3" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="1xqd6ptjflV" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="1xqd6ptjflW" role="1HemKq">
+            <node concept="398BVA" id="1xqd6ptjflN" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
+              <node concept="2Ry0Ak" id="1xqd6ptjflO" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="1xqd6ptjflP" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestAnnotation" />
+                  <node concept="2Ry0Ak" id="1xqd6ptjflQ" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1xqd6ptjflX" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>

@@ -24,6 +24,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -64,6 +65,7 @@
   <node concept="1TIwiD" id="18UigYR8Zee">
     <property role="EcuMT" value="1313442573177844622" />
     <property role="TrG5h" value="NodeAnnotation" />
+    <property role="34LRSv" value="NodeAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="18UigYR8Zef" role="lGtFl">
       <node concept="tn0Fv" id="18UigYR8Zeh" role="HhnKV" />
@@ -75,12 +77,14 @@
   <node concept="1TIwiD" id="30uXOOfOMkD">
     <property role="EcuMT" value="3467480673471898921" />
     <property role="TrG5h" value="DefaultAttributesAnnotation" />
+    <property role="34LRSv" value="DefaultAttributesAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfOMkE" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="30uXOOfRZiA">
     <property role="EcuMT" value="3467480673472738470" />
     <property role="TrG5h" value="MultipleTrue" />
+    <property role="34LRSv" value="MultipleTrue" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfRZiB" role="lGtFl">
       <node concept="tn0Fv" id="30uXOOfRZiD" role="HhnKV">
@@ -91,6 +95,7 @@
   <node concept="1TIwiD" id="30uXOOfRZQS">
     <property role="EcuMT" value="3467480673472740792" />
     <property role="TrG5h" value="MultipleFalse" />
+    <property role="34LRSv" value="MultipleFalse" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfRZQT" role="lGtFl">
       <node concept="tn0Fv" id="30uXOOfRZQV" role="HhnKV" />
@@ -99,6 +104,7 @@
   <node concept="1TIwiD" id="30uXOOfRZQX">
     <property role="EcuMT" value="3467480673472740797" />
     <property role="TrG5h" value="INamedAnnotation" />
+    <property role="34LRSv" value="INamedAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfRZQY" role="lGtFl">
       <node concept="trNpa" id="30uXOOfRZR0" role="EQaZv">
@@ -113,11 +119,13 @@
   <node concept="1TIwiD" id="30uXOOfRZR3">
     <property role="EcuMT" value="3467480673472740803" />
     <property role="TrG5h" value="MyConcept" />
+    <property role="34LRSv" value="MyConcept" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="30uXOOfRZR4">
     <property role="EcuMT" value="3467480673472740804" />
     <property role="TrG5h" value="ConceptAnnotation" />
+    <property role="34LRSv" value="ConceptAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfRZR5" role="lGtFl">
       <node concept="trNpa" id="30uXOOfRZR7" role="EQaZv">
@@ -128,6 +136,7 @@
   <node concept="1TIwiD" id="30uXOOfRZR9">
     <property role="EcuMT" value="3467480673472740809" />
     <property role="TrG5h" value="IfaceAnnotation" />
+    <property role="34LRSv" value="IfaceAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfRZRa" role="lGtFl">
       <node concept="trNpa" id="30uXOOfRZRc" role="EQaZv">
@@ -138,6 +147,7 @@
   <node concept="1TIwiD" id="30uXOOfRZRe">
     <property role="EcuMT" value="3467480673472740814" />
     <property role="TrG5h" value="AnnotationAnnotation" />
+    <property role="34LRSv" value="AnnotationAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfRZRf" role="lGtFl">
       <node concept="trNpa" id="30uXOOfRZRh" role="EQaZv">
@@ -148,6 +158,7 @@
   <node concept="1TIwiD" id="6Pr6izIBhN_">
     <property role="EcuMT" value="7879919636607474917" />
     <property role="TrG5h" value="ImplementsAnnotation" />
+    <property role="34LRSv" value="ImplementsAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="6Pr6izIBhNA" role="lGtFl" />
     <node concept="PrWs8" id="6Pr6izIBhO1" role="PzmwI">
@@ -157,12 +168,14 @@
   <node concept="1TIwiD" id="6Pr6izIBhO3">
     <property role="EcuMT" value="7879919636607474947" />
     <property role="TrG5h" value="ExtendsAnnotation" />
+    <property role="34LRSv" value="ExtendsAnnotation" />
     <ref role="1TJDcQ" node="30uXOOfRZRe" resolve="AnnotationAnnotation" />
     <node concept="M6xJ_" id="6Pr6izIBhO4" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6Pr6izIBAld">
     <property role="EcuMT" value="7879919636607558989" />
     <property role="TrG5h" value="PropertiesAnnotation" />
+    <property role="34LRSv" value="PropertiesAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="6Pr6izIBAlD" role="1TKVEl">
       <property role="IQ2nx" value="7879919636607559017" />
@@ -189,6 +202,7 @@
   <node concept="1TIwiD" id="6Pr6izIBTel">
     <property role="EcuMT" value="7879919636607636373" />
     <property role="TrG5h" value="ChildrenAnnotation" />
+    <property role="34LRSv" value="ChildrenAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="6Pr6izIBTem" role="lGtFl" />
     <node concept="1TJgyj" id="6Pr6izIBTeL" role="1TKVEi">
@@ -222,6 +236,7 @@
   <node concept="1TIwiD" id="6Pr6izIBTeZ">
     <property role="EcuMT" value="7879919636607636415" />
     <property role="TrG5h" value="ReferencesAnnotation" />
+    <property role="34LRSv" value="ReferencesAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="6Pr6izIBTfw" role="1TKVEi">
       <property role="IQ2ns" value="7879919636607636448" />
