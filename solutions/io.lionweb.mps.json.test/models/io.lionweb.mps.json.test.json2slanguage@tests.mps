@@ -10,19 +10,14 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
   <imports>
-    <import index="5els" ref="r:6239253d-0ab2-49c2-bcf4-81f1b9a92f3e(io.lionweb.mps.json.language)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
-    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
-    <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -157,18 +152,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -937,29 +922,25 @@
         </node>
       </node>
     </node>
-    <node concept="1X3_iC" id="1xqd6pt2jBS" role="lGtFl">
-      <property role="3V$3am" value="testMethods" />
-      <property role="3V$3ak" value="8585453e-6bfb-4d80-98de-b16074f1d86c/1216913645126/1217501895093" />
-      <node concept="1LZb2c" id="1xqd6psWAIe" role="8Wnug">
-        <property role="TrG5h" value="TestAnnotation" />
-        <node concept="3cqZAl" id="1xqd6psWAIf" role="3clF45" />
-        <node concept="3clFbS" id="1xqd6psWAIg" role="3clF47">
-          <node concept="3clFbF" id="1xqd6psWAIh" role="3cqZAp">
-            <node concept="2OqwBi" id="1xqd6psWAIi" role="3clFbG">
-              <node concept="2WthIp" id="1xqd6psWAIj" role="2Oq$k0" />
-              <node concept="2XshWL" id="1xqd6psWAIk" role="2OqNvi">
-                <ref role="2WH_rO" node="5ocQ9W1vGKB" resolve="convert" />
-                <node concept="Xl_RD" id="1xqd6psWAIn" role="2XxRq1">
-                  <property role="Xl_RC" value="TestAnnotation-metamodel.json" />
-                </node>
-                <node concept="Xl_RD" id="1xqd6psWC$Q" role="2XxRq1">
-                  <property role="Xl_RC" value="io.lionweb.mps.converter.TestAnnotation" />
-                </node>
-                <node concept="pHN19" id="1xqd6psWAIl" role="2XxRq1">
-                  <node concept="2V$Bhx" id="1xqd6psWAIm" role="2V$M_3">
-                    <property role="2V$B1T" value="afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb" />
-                    <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotation" />
-                  </node>
+    <node concept="1LZb2c" id="1xqd6psWAIe" role="1SL9yI">
+      <property role="TrG5h" value="TestAnnotation" />
+      <node concept="3cqZAl" id="1xqd6psWAIf" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6psWAIg" role="3clF47">
+        <node concept="3clFbF" id="1xqd6psWAIh" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6psWAIi" role="3clFbG">
+            <node concept="2WthIp" id="1xqd6psWAIj" role="2Oq$k0" />
+            <node concept="2XshWL" id="1xqd6psWAIk" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1vGKB" resolve="convert" />
+              <node concept="Xl_RD" id="1xqd6psWAIn" role="2XxRq1">
+                <property role="Xl_RC" value="TestAnnotation-metamodel.json" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6psWC$Q" role="2XxRq1">
+                <property role="Xl_RC" value="io.lionweb.mps.converter.TestAnnotation" />
+              </node>
+              <node concept="pHN19" id="1xqd6psWAIl" role="2XxRq1">
+                <node concept="2V$Bhx" id="1xqd6psWAIm" role="2V$M_3">
+                  <property role="2V$B1T" value="afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotation" />
                 </node>
               </node>
             </node>
