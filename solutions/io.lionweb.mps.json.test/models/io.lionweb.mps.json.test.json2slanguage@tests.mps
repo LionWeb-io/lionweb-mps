@@ -428,6 +428,29 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="1xqd6ptRJwf" role="1SL9yI">
+      <property role="TrG5h" value="MultiRefLang" />
+      <node concept="3cqZAl" id="1xqd6ptRJwg" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptRJwh" role="3clF47">
+        <node concept="3clFbF" id="1xqd6ptRJwi" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptRJwj" role="3clFbG">
+            <node concept="2WthIp" id="1xqd6ptRJwk" role="2Oq$k0" />
+            <node concept="2XshWL" id="1xqd6ptRJwl" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <node concept="pHN19" id="1xqd6ptRJwm" role="2XxRq1">
+                <node concept="2V$Bhx" id="1xqd6ptRJFE" role="2V$M_3">
+                  <property role="2V$B1T" value="76d927fd-3a5a-4e40-865b-7c2d329ca675" />
+                  <property role="2V$B1Q" value="MultiRefLang" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptRJwo" role="2XxRq1">
+                <property role="Xl_RC" value="MultiRefLang-metamodel.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
     <property role="TrG5h" value="importJson2SLanguage" />
@@ -941,6 +964,32 @@
                 <node concept="2V$Bhx" id="1xqd6psWAIm" role="2V$M_3">
                   <property role="2V$B1T" value="afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb" />
                   <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="1xqd6ptRM2v" role="1SL9yI">
+      <property role="TrG5h" value="MultiRefLang" />
+      <node concept="3cqZAl" id="1xqd6ptRM2w" role="3clF45" />
+      <node concept="3clFbS" id="1xqd6ptRM2x" role="3clF47">
+        <node concept="3clFbF" id="1xqd6ptRM2y" role="3cqZAp">
+          <node concept="2OqwBi" id="1xqd6ptRM2z" role="3clFbG">
+            <node concept="2WthIp" id="1xqd6ptRM2$" role="2Oq$k0" />
+            <node concept="2XshWL" id="1xqd6ptRM2_" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1vGKB" resolve="convert" />
+              <node concept="Xl_RD" id="1xqd6ptRM2C" role="2XxRq1">
+                <property role="Xl_RC" value="MultiRefLang-metamodel.json" />
+              </node>
+              <node concept="Xl_RD" id="1xqd6ptRMkc" role="2XxRq1">
+                <property role="Xl_RC" value="MultiRefLang" />
+              </node>
+              <node concept="pHN19" id="1xqd6ptRM2A" role="2XxRq1">
+                <node concept="2V$Bhx" id="1xqd6ptRM2B" role="2V$M_3">
+                  <property role="2V$B1T" value="76d927fd-3a5a-4e40-865b-7c2d329ca675" />
+                  <property role="2V$B1Q" value="MultiRefLang" />
                 </node>
               </node>
             </node>
