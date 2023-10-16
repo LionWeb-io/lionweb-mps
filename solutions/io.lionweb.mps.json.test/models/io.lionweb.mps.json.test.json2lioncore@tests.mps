@@ -1308,25 +1308,12 @@
             <property role="TrG5h" value="implements" />
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$PgY" resolve="ConceptInterface" />
+            <ref role="2RzQvY" node="5sACIIs$PgY" resolve="Interface" />
           </node>
           <node concept="2RzOeU" id="7m$Awvumb$m" role="2RzPPN">
             <property role="2RzON1" value="Concept-partition" />
             <property role="TrG5h" value="partition" />
             <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-          </node>
-        </node>
-        <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
-          <property role="2RzP46" value="false" />
-          <property role="2RzON1" value="ConceptInterface" />
-          <property role="TrG5h" value="ConceptInterface" />
-          <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
-          <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
-            <property role="2RzON1" value="ConceptInterface-extends" />
-            <property role="TrG5h" value="extends" />
-            <property role="2RzO1C" value="true" />
-            <property role="2RzOhW" value="true" />
-            <ref role="2RzQvY" node="5sACIIs$PgY" resolve="ConceptInterface" />
           </node>
         </node>
         <node concept="2RzPWn" id="5sACIIs$Phb" role="2RzR6B">
@@ -1386,6 +1373,19 @@
           </node>
           <node concept="2RzQOr" id="7m$Awvumb$t" role="2RzQMX">
             <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
+          <property role="2RzP46" value="false" />
+          <property role="2RzON1" value="Interface" />
+          <property role="TrG5h" value="Interface" />
+          <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
+          <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
+            <property role="2RzON1" value="Interface-extends" />
+            <property role="TrG5h" value="extends" />
+            <property role="2RzO1C" value="true" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="5sACIIs$PgY" resolve="Interface" />
           </node>
         </node>
         <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">

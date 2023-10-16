@@ -1,5 +1,5 @@
 {
-  "serializationFormatVersion": "1",
+  "serializationFormatVersion": "2023.1",
   "languages": [
     {
       "version": "0",
@@ -34,7 +34,7 @@
       "references": [],
       "annotations": [],
       "parent": null,
-      "concept": {
+      "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
@@ -78,7 +78,7 @@
       ],
       "annotations": [],
       "parent": "{id-lib}",
-      "concept": {
+      "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
@@ -108,7 +108,7 @@
       "references": [],
       "annotations": [],
       "parent": null,
-      "concept": {
+      "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
