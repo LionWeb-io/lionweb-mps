@@ -71,9 +71,9 @@
   </registry>
   <node concept="24kQdi" id="2ju2syjkmjl">
     <property role="3GE5qa" value="classifier" />
-    <ref role="1XX52x" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+    <ref role="1XX52x" to="h3y3:2ju2syjkmjj" resolve="InterfaceReference" />
     <node concept="1iCGBv" id="2ju2syjkmjm" role="2wV5jI">
-      <ref role="1NtTu8" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+      <ref role="1NtTu8" to="h3y3:2ju2syjkmjk" resolve="interface" />
       <node concept="1sVBvm" id="2ju2syjkmjn" role="1sWHZn">
         <node concept="3F0A7n" id="2ju2syjkmjo" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -405,7 +405,7 @@
   </node>
   <node concept="24kQdi" id="2ju2syjmJx_">
     <property role="3GE5qa" value="classifier" />
-    <ref role="1XX52x" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+    <ref role="1XX52x" to="h3y3:2ju2syjklHQ" resolve="Interface" />
     <node concept="3EZMnI" id="2ju2syjmRcJ" role="2wV5jI">
       <node concept="3EZMnI" id="2ju2syjmRdE" role="3EZMnx">
         <node concept="VPM3Z" id="2ju2syjmRdG" role="3F10Kt" />

@@ -588,7 +588,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm1VV" id="6jTTMHCZPnk" role="1B3o_S" />
       <node concept="3Tqbb2" id="6jTTMHCZPnl" role="1tU5fm">
-        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
       </node>
     </node>
     <node concept="312cEg" id="6jTTMHCZPng" role="jymVt">

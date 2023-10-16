@@ -220,7 +220,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="implements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+      <ref role="20lvS9" node="2ju2syjkmjj" resolve="InterfaceReference" />
       <node concept="2DM1AW" id="5AGBwuDAPp0" role="lGtFl">
         <property role="2DM1AS" value="Concept-implements" />
       </node>
@@ -259,33 +259,33 @@
   <node concept="1TIwiD" id="2ju2syjklHQ">
     <property role="EcuMT" value="2656571587264863094" />
     <property role="3GE5qa" value="classifier" />
-    <property role="TrG5h" value="ConceptInterface" />
-    <property role="34LRSv" value="ConceptInterface" />
+    <property role="TrG5h" value="Interface" />
+    <property role="34LRSv" value="Interface" />
     <ref role="1TJDcQ" node="2ju2syjkl4i" resolve="Classifier" />
     <node concept="1TJgyj" id="2ju2syjkmlP" role="1TKVEi">
       <property role="IQ2ns" value="2656571587264865653" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="extends" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+      <ref role="20lvS9" node="2ju2syjkmjj" resolve="InterfaceReference" />
       <node concept="2DM1AW" id="5AGBwuDAPoO" role="lGtFl">
-        <property role="2DM1AS" value="ConceptInterface-extends" />
+        <property role="2DM1AS" value="Interface-extends" />
       </node>
     </node>
     <node concept="2DM1AW" id="5AGBwuDAPoM" role="lGtFl">
-      <property role="2DM1AS" value="ConceptInterface" />
+      <property role="2DM1AS" value="Interface" />
     </node>
     <node concept="3KvTa3" id="5AGBwuDPg$c" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="2ju2syjkmjj">
     <property role="EcuMT" value="2656571587264865491" />
-    <property role="TrG5h" value="ConceptInterfaceReference" />
+    <property role="TrG5h" value="InterfaceReference" />
     <property role="3GE5qa" value="classifier" />
     <node concept="1TJgyj" id="2ju2syjkmjk" role="1TKVEi">
       <property role="20lbJX" value="fLJekj4/1" />
       <property role="IQ2ns" value="2656571587264865492" />
-      <property role="20kJfa" value="conceptInterface" />
-      <ref role="20lvS9" node="2ju2syjklHQ" resolve="ConceptInterface" />
+      <property role="20kJfa" value="interface" />
+      <ref role="20lvS9" node="2ju2syjklHQ" resolve="Interface" />
     </node>
     <node concept="3Kckhh" id="5AGBwuDBEGU" role="lGtFl">
       <ref role="3Kckio" node="2ju2syjkmzF" resolve="implements" />
@@ -473,7 +473,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="implements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+      <ref role="20lvS9" node="2ju2syjkmjj" resolve="InterfaceReference" />
       <node concept="2DM1AW" id="18UigYQyrxt" role="lGtFl">
         <property role="2DM1AS" value="Annotation-implements" />
       </node>

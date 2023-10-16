@@ -194,9 +194,9 @@
   </node>
   <node concept="1M2fIO" id="59Df55l4xO2">
     <property role="3GE5qa" value="classifier" />
-    <ref role="1M2myG" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+    <ref role="1M2myG" to="h3y3:2ju2syjkmjj" resolve="InterfaceReference" />
     <node concept="1N5Pfh" id="59Df55l4xSV" role="1Mr941">
-      <ref role="1N5Vy1" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+      <ref role="1N5Vy1" to="h3y3:2ju2syjkmjk" resolve="interface" />
       <node concept="3dgokm" id="59Df55l4xU_" role="1N6uqs">
         <node concept="3clFbS" id="59Df55l4xUA" role="2VODD2">
           <node concept="3clFbF" id="59Df55l4xUB" role="3cqZAp">
@@ -221,7 +221,7 @@
                 </node>
                 <node concept="v3k3i" id="59Df55l4xUL" role="2OqNvi">
                   <node concept="chp4Y" id="59Df55l4xUM" role="v3oSu">
-                    <ref role="cht4Q" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+                    <ref role="cht4Q" to="h3y3:2ju2syjklHQ" resolve="Interface" />
                   </node>
                 </node>
               </node>
