@@ -273,7 +273,7 @@
             <property role="TrG5h" value="input" />
             <node concept="2ShNRf" id="1xqd6ptAZDp" role="33vP2m">
               <node concept="1pGfFk" id="1xqd6ptAZOt" role="2ShVmc">
-                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
                 <node concept="2OqwBi" id="1xqd6ptB0kD" role="37wK5m">
                   <node concept="2WthIp" id="1xqd6ptB0kG" role="2Oq$k0" />
                   <node concept="2XshWL" id="1xqd6ptB0kI" role="2OqNvi">
@@ -296,7 +296,7 @@
               </node>
             </node>
             <node concept="3uibUv" id="1xqd6ptB1Ls" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
           </node>
         </node>
@@ -1163,7 +1163,7 @@
             <property role="TrG5h" value="input" />
             <node concept="2ShNRf" id="1xqd6ptCim3" role="33vP2m">
               <node concept="1pGfFk" id="1xqd6ptCiyL" role="2ShVmc">
-                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
                 <node concept="2OqwBi" id="1xqd6ptCiWP" role="37wK5m">
                   <node concept="2WthIp" id="1xqd6ptCiWS" role="2Oq$k0" />
                   <node concept="2XshWL" id="1xqd6ptCiWU" role="2OqNvi">
@@ -1182,7 +1182,7 @@
               </node>
             </node>
             <node concept="3uibUv" id="1xqd6ptCjDX" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
           </node>
         </node>
@@ -1250,7 +1250,7 @@
                 </node>
                 <node concept="2ShNRf" id="1xqd6ptCsOR" role="37wK5m">
                   <node concept="1pGfFk" id="1xqd6ptCsOS" role="2ShVmc">
-                    <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                    <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
                     <node concept="2OqwBi" id="1xqd6ptCsOT" role="37wK5m">
                       <node concept="2WthIp" id="1xqd6ptCsOU" role="2Oq$k0" />
                       <node concept="2XshWL" id="1xqd6ptCsOV" role="2OqNvi">
@@ -1731,13 +1731,13 @@
     <node concept="2XrIbr" id="1xqd6ptB8bo" role="1qtyYc">
       <property role="TrG5h" value="createTestInterfaceBase" />
       <node concept="3uibUv" id="1xqd6ptB8OS" role="3clF45">
-        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
       </node>
       <node concept="3clFbS" id="1xqd6ptB8bq" role="3clF47">
         <node concept="3clFbF" id="1xqd6ptB8P8" role="3cqZAp">
           <node concept="2ShNRf" id="1xqd6ptB8Pa" role="3clFbG">
             <node concept="1pGfFk" id="1xqd6ptB8Pb" role="2ShVmc">
-              <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+              <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
               <node concept="2OqwBi" id="1xqd6ptB8Pc" role="37wK5m">
                 <node concept="2WthIp" id="1xqd6ptB8Pd" role="2Oq$k0" />
                 <node concept="2XshWL" id="1xqd6ptB8Pe" role="2OqNvi">
@@ -1977,7 +1977,7 @@
             <property role="TrG5h" value="input" />
             <node concept="2ShNRf" id="1xqd6ptDAZn" role="33vP2m">
               <node concept="1pGfFk" id="1xqd6ptDAZo" role="2ShVmc">
-                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
                 <node concept="2OqwBi" id="1xqd6ptDAZp" role="37wK5m">
                   <node concept="2WthIp" id="1xqd6ptDAZq" role="2Oq$k0" />
                   <node concept="2XshWL" id="1xqd6ptDAZr" role="2OqNvi">
@@ -1996,7 +1996,7 @@
               </node>
             </node>
             <node concept="3uibUv" id="1xqd6ptDAZw" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
           </node>
         </node>
@@ -2799,7 +2799,7 @@
             <property role="TrG5h" value="input" />
             <node concept="2ShNRf" id="1xqd6ptDB56" role="33vP2m">
               <node concept="1pGfFk" id="1xqd6ptDB57" role="2ShVmc">
-                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
                 <node concept="2OqwBi" id="1xqd6ptDB58" role="37wK5m">
                   <node concept="2WthIp" id="1xqd6ptDB59" role="2Oq$k0" />
                   <node concept="2XshWL" id="1xqd6ptDB5a" role="2OqNvi">
@@ -2818,7 +2818,7 @@
               </node>
             </node>
             <node concept="3uibUv" id="1xqd6ptDB5e" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
           </node>
         </node>
@@ -2886,7 +2886,7 @@
                 </node>
                 <node concept="2ShNRf" id="1xqd6ptDB5F" role="37wK5m">
                   <node concept="1pGfFk" id="1xqd6ptDB5G" role="2ShVmc">
-                    <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+                    <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
                     <node concept="2OqwBi" id="1xqd6ptDB5H" role="37wK5m">
                       <node concept="2WthIp" id="1xqd6ptDB5I" role="2Oq$k0" />
                       <node concept="2XshWL" id="1xqd6ptDB5J" role="2OqNvi">
@@ -3341,13 +3341,13 @@
     <node concept="2XrIbr" id="1xqd6ptDB8K" role="1qtyYc">
       <property role="TrG5h" value="createTestInterfaceBase" />
       <node concept="3uibUv" id="1xqd6ptDB8L" role="3clF45">
-        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
       </node>
       <node concept="3clFbS" id="1xqd6ptDB8M" role="3clF47">
         <node concept="3clFbF" id="1xqd6ptDB8N" role="3cqZAp">
           <node concept="2ShNRf" id="1xqd6ptDB8O" role="3clFbG">
             <node concept="1pGfFk" id="1xqd6ptDB8P" role="2ShVmc">
-              <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="ConceptInterface" />
+              <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(io.lionweb.lioncore.java.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Interface" />
               <node concept="2OqwBi" id="1xqd6ptDB8Q" role="37wK5m">
                 <node concept="2WthIp" id="1xqd6ptDB8R" role="2Oq$k0" />
                 <node concept="2XshWL" id="1xqd6ptDB8S" role="2OqNvi">

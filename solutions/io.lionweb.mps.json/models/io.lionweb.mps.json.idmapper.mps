@@ -283,8 +283,8 @@
       <node concept="3uibUv" id="5M3rB6A0N8_" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
       </node>
-      <node concept="3uibUv" id="5M3rB6A0N8A" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+      <node concept="3uibUv" id="1xqd6ptU61a" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
       </node>
       <node concept="3uibUv" id="7W6jYlzwt0L" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
@@ -399,8 +399,8 @@
       <property role="TrG5h" value="mapIface" />
       <node concept="37vLTG" id="5M3rB6A0HkE" role="3clF46">
         <property role="TrG5h" value="iface" />
-        <node concept="3uibUv" id="5M3rB6A0HkF" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        <node concept="3uibUv" id="1xqd6ptU6_3" role="1tU5fm">
+          <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0HkG" role="1B3o_S" />
@@ -685,7 +685,7 @@
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
       </node>
       <node concept="3uibUv" id="5M3rB6AAAR9" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
       </node>
       <node concept="3uibUv" id="7W6jYlzw3Io" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
@@ -726,7 +726,7 @@
           <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUf" role="11_B2D">
-          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+          <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
         </node>
         <node concept="3uibUv" id="7W6jYlzw4lu" role="11_B2D">
           <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
@@ -775,7 +775,7 @@
               <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
             </node>
             <node concept="3uibUv" id="5M3rB6AADYg" role="11_B2D">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
             <node concept="3uibUv" id="7W6jYlzw53o" role="11_B2D">
               <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
