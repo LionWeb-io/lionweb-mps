@@ -94,7 +94,7 @@ publishing {
                     developer {
                         id.set("enikao")
                         name.set("Niko Stotz")
-                        email.set("lionweb@nikostotz.de")
+                        email.set("github-public@nikostotz.de")
                     }
                 }
 
@@ -142,9 +142,8 @@ tasks{
     }
 }
 
-if (isReleaseVersion) {
-    tasks.withType(Sign::class) {
-    }
+tasks.withType(Sign::class) {
+    onlyIf("isReleaseVersion is set") { isReleaseVersion }
 }
 
 signing {
