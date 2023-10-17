@@ -1,5 +1,7 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
+import org.apache.tools.ant.taskdefs.condition.Os
+
 plugins {
     id("com.specificlanguages.mps") version "1.5.0"
     `maven-publish`
@@ -147,6 +149,9 @@ tasks.withType(Sign::class) {
 }
 
 signing {
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        useGpgCmd()
+    }
     sign(publishing.publications["mpsPlugin"])
 }
 
