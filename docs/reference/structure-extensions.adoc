@@ -1,0 +1,137 @@
+:m3: https://lionweb-io.github.io/specification/metametamodel/metametamodel.html
+:mpshelp: https://www.jetbrains.com/help/mps
+:underbracket: &#9141;
+
+= Reference for LionWeb Extensions on MPS' Language Structure Aspect
+:experimental:
+
+LionWeb can represent MPS languages in LionCore.
+It supports most MPS languages without changes to the language.
+
+== Prerequisites
+We amend MPS' language structure aspect with node attributes to support advanced LionWeb features.
+
+To use advanced LionWeb features, add `io.lionweb.mps.structure.attribute` to the _Used Languages_ of the structure aspect of your language.
+
+
+== Concepts as partitions
+In LionWeb, link:{m3}#partitions[partitions] serve as the container for one node tree (similar to _models_ in MPS).
+
+Use intention menu:Toggle LionWeb Partition[] to add a boolean attribute `LionWeb partition` to a concept.
+If no such attribute exists, we assume default value `false`.
+
+
+== Optional properties
+LionWeb supports link:{m3}#Feature.optional[optional properties] on structure level, whereas MPS only considers them on link:{mpshelp}/editor.html#propertycell[editor level].
+
+Use intention menu:Toggle LionWeb Optional[] to add a boolean attribute `LionWeb optional` to a property.
+If no such attribute exists, we assume default value `false`, i.e. consider the property as mandatory.
+
+
+== Multi-references
+Unlike MPS, LionWeb supports link:{m3}#Link.multiple[multiple references], i.e. references with cardinality `{underbracket}..n`.
+MPS approximates them with link:{mpshelp}/structure.html#smartreferences[smart references]; LionWeb formalizes this approach.
+
+Use intention menu:Add LionWeb Smart Reference[] on a concept to turn the concept into a LionWeb smart reference.
+Point the new attribute `LionWeb smart reference for` to a child with the smart reference as target.
+LionWeb considers the child as a reference with the smart reference's target as type, and does not represent the smart reference itself.
+
+=== Example
+A `Book` can refer to zero or more `authors` of type `Writer`.
+In MPS, we need an additional smart reference `WriterReference`, annotated with a `LionWeb smart reference for` that points at the child `Book.authors`.
+LionWeb omits the smart reference, and turns MPS' `author` _child_ into a _reference_ with `multiple: true`.
+
+.Book Concept
+[text,subs="+quotes,replacements,attributes"]
+----
+_concept_ *Book* _extends_ *BaseConcept*
+  ...
+  _children:_
+  *authors* : *WriterReference*[_0..n_]
+
+  _references:_
+  << .{empty}.. >>
+----
+
+.Writer Concept
+[text,subs="+quotes,replacements,attributes"]
+----
+_concept_ *Writer* _extends_ *BaseConcept*
+  ...
+  _children:_
+  << .{empty}.. >>
+
+  _references:_
+  << .{empty}.. >>
+----
+
+.WriterReference Concept
+[text,subs="+quotes,replacements,attributes"]
+----
+_concept_ *WriterReference* _extends_ <default>
+  ...
+  _children:_
+  << .{empty}.. >>
+
+  _references:_
+  *writer* : *Writer*[_1_]
+
+  _LionWeb smart reference for:_ *Book.authors*
+----
+
+.LionWeb equivalent
+[text,subs="+quotes,replacements,attributes"]
+----
+_Concept_ *Book*   _extends_ *Node*
+  _Reference_ *authors*: *Writer*  _optional:_ *true*  _multiple:_ *true*
+
+_Concept_ *Writer* _extends_ *Node*
+  << .{empty}.. >>
+----
+
+=== Constraints on LionWeb smart reference concept
+* Must be a concrete (i.e. non-`abstract`) concept
+* Must not be used for anything else (e.g. a target of a reference, or super-concept)
+* Must not extend any concept except `BaseConcept`
+* Must not implement any interfaces
+* Must not have any property members
+* Must not have any child members
+* Must have exactly one reference member
+
+
+== Custom LionWeb keys
+LionWeb uses link:{m3}#keys[keys] to refer to language entities.
+By default, LionWeb-MPS derives the key from MPS' internal ids.
+As language designer, we can customize the LionWeb key (e.g. if they need to be consistent across different implementations).
+
+.Constraints
+* Keys must be link:{m3}#identifiers[valid identifiers]
+* Keys must be unique within one language.
+
+=== Custom language key
+Create a root node of concept image:../../languages/io.lionweb.mps.structure.attribute/icons/lionweb.png[]{nbsp}``LionWeb Language Key`` inside a structure aspect to customize the language's key.
+
+=== Custom concept, interface concept, data type, enumeration, link, or property key
+Use intention menu:Toggle LionWeb Key Annotation[] to add a LionWeb key to any MPS language structure element.
+Use the same intention to remove an existing LionWeb key.
+Alternatively, use intention menu:Remove LionWeb key[] on the key itself to remove.
+
+
+== Use LionWeb JSON type
+Contrary to MPS, LionWeb supports link:{m3}#JSON[JSON as primitive type].
+
+Add `io.lionweb.mps.m3.structure` to the _Dependencies_ of the structure aspect of your language, and use `JSON` as data type of your property.
+
+NOTE: LionWeb-MPS currently does not validate the contents of a `JSON` property.
+This might change in future releases.
+
+
+== Limitations on attributes
+MPS' link:{mpshelp}/structure.html#attributes[attributes] map to LionWeb's link:{m3}#Annotation[Annotations].
+MPS specifies details via _attribute info_.
+
+However, LionWeb does not support all edge cases of attributes:
+
+* LionWeb only supports attribute on nodes, i.e. specializations of `NodeAttribute`.
+LionWeb does not support attributes on properties, children, and links, i.e. specializations of `PropertyAttribute`, ChildAttribute`, and `LinkAttribute`.
+* LionWeb does not support annotations on all annotations i.e. the _attribute info / attributed concepts_ must not target `NodeAttribute`.
