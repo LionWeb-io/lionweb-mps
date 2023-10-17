@@ -70,6 +70,7 @@
     <property role="TrG5h" value="LionWebLanguageKey" />
     <property role="R4oN_" value="Key of Language imported from LionWeb" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="LionWeb Language Key" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6fYiNFad_a4" role="PzmwI">
       <ref role="PrY4T" node="6fYiNFad_a1" resolve="ILionWebKey" />
