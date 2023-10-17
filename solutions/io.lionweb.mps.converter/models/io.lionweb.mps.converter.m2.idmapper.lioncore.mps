@@ -264,7 +264,7 @@
       <node concept="37vLTG" id="5M3rB6A0R$H" role="3clF46">
         <property role="TrG5h" value="iface" />
         <node concept="3Tqbb2" id="5M3rB6A0R$I" role="1tU5fm">
-          <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+          <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5M3rB6A0R$J" role="1B3o_S" />
@@ -543,7 +543,7 @@
         <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
       </node>
       <node concept="3Tqbb2" id="5M3rB6A0Wuc" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
       </node>
       <node concept="3Tqbb2" id="7W6jYlzwc2g" role="11_B2D">
         <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
@@ -591,7 +591,7 @@
         <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
       </node>
       <node concept="3Tqbb2" id="5M3rB6AY3L$" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
       </node>
       <node concept="3Tqbb2" id="7W6jYlzw6YI" role="11_B2D">
         <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
@@ -632,7 +632,7 @@
           <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
         </node>
         <node concept="3Tqbb2" id="5M3rB6AY3NI" role="11_B2D">
-          <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+          <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
         </node>
         <node concept="3Tqbb2" id="7W6jYlzw82c" role="11_B2D">
           <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
@@ -681,7 +681,7 @@
               <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
             </node>
             <node concept="3Tqbb2" id="5M3rB6AY4DG" role="11_B2D">
-              <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+              <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
             </node>
             <node concept="3Tqbb2" id="7W6jYlzw957" role="11_B2D">
               <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />

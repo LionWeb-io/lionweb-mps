@@ -716,7 +716,7 @@
                         </node>
                       </node>
                       <node concept="13MTOL" id="18UigYQyxdF" role="2OqNvi">
-                        <ref role="13MTZf" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                        <ref role="13MTZf" to="h3y3:2ju2syjkmjk" resolve="interface" />
                       </node>
                     </node>
                     <node concept="1KnU$U" id="18UigYQyxdG" role="2OqNvi" />
@@ -772,7 +772,7 @@
   </node>
   <node concept="13h7C7" id="2ju2syjm86L">
     <property role="3GE5qa" value="classifier" />
-    <ref role="13h7C2" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+    <ref role="13h7C2" to="h3y3:2ju2syjklHQ" resolve="Interface" />
     <node concept="13i0hz" id="2ju2syjm8bW" role="13h7CS">
       <property role="TrG5h" value="collectFeaturesRecursive" />
       <ref role="13i0hy" node="2ju2syjlSaS" resolve="collectFeaturesRecursive" />
@@ -826,7 +826,7 @@
                       </node>
                     </node>
                     <node concept="13MTOL" id="2ju2syjmvs9" role="2OqNvi">
-                      <ref role="13MTZf" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                      <ref role="13MTZf" to="h3y3:2ju2syjkmjk" resolve="interface" />
                     </node>
                   </node>
                   <node concept="1KnU$U" id="2ju2syjmoKT" role="2OqNvi" />
@@ -879,7 +879,7 @@
   </node>
   <node concept="13h7C7" id="39$JcGGNEqr">
     <property role="3GE5qa" value="classifier" />
-    <ref role="13h7C2" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+    <ref role="13h7C2" to="h3y3:2ju2syjkmjj" resolve="InterfaceReference" />
     <node concept="13i0hz" id="hEwIBtc" role="13h7CS">
       <property role="TrG5h" value="getPresentation" />
       <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
@@ -890,7 +890,7 @@
               <node concept="2OqwBi" id="39$JcGGNPxt" role="2Oq$k0">
                 <node concept="13iPFW" id="39$JcGGNPpp" role="2Oq$k0" />
                 <node concept="3TrEf2" id="39$JcGGNPE3" role="2OqNvi">
-                  <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                  <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="interface" />
                 </node>
               </node>
               <node concept="2qgKlT" id="39$JcGGNQtD" role="2OqNvi">
@@ -1059,7 +1059,7 @@
                         </node>
                       </node>
                       <node concept="13MTOL" id="18UigYQyBxi" role="2OqNvi">
-                        <ref role="13MTZf" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                        <ref role="13MTZf" to="h3y3:2ju2syjkmjk" resolve="interface" />
                       </node>
                     </node>
                     <node concept="1KnU$U" id="18UigYQyBxj" role="2OqNvi" />

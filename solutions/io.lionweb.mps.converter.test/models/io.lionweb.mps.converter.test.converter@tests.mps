@@ -494,7 +494,7 @@
               <property role="TrG5h" value="implements" />
               <property role="2RzO1C" value="true" />
               <property role="2RzOhW" value="true" />
-              <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="ConceptInterface" />
+              <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="Interface" />
             </node>
             <node concept="2RzOpR" id="2fx6VTTnYmD" role="2RzPPN">
               <property role="TrG5h" value="extends" />
@@ -506,15 +506,15 @@
           </node>
           <node concept="2RzPWn" id="2fx6VTTnYmE" role="2RzR6B">
             <property role="2RzP46" value="false" />
-            <property role="TrG5h" value="ConceptInterface" />
-            <property role="2RzON1" value="ConceptInterface" />
+            <property role="TrG5h" value="Interface" />
+            <property role="2RzON1" value="Interface" />
             <ref role="2RzPfO" node="2fx6VTTnYmz" resolve="Classifier" />
             <node concept="2RzOpR" id="4oHUzWXwseU" role="2RzPPN">
-              <property role="2RzON1" value="ConceptInterface-extends" />
+              <property role="2RzON1" value="Interface-extends" />
               <property role="TrG5h" value="extends" />
               <property role="2RzO1C" value="true" />
               <property role="2RzOhW" value="true" />
-              <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="ConceptInterface" />
+              <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="Interface" />
             </node>
           </node>
           <node concept="2RzPWn" id="2fx6VTTnYmI" role="2RzR6B">
@@ -614,7 +614,7 @@
               <property role="TrG5h" value="implements" />
               <property role="2RzO1C" value="true" />
               <property role="2RzOhW" value="true" />
-              <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="ConceptInterface" />
+              <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="Interface" />
             </node>
           </node>
         </node>
@@ -678,7 +678,7 @@
           <node concept="tu5oc" id="48csSBPDfPu" role="1PaTwD">
             <node concept="2tJFMh" id="48csSBPDfPQ" role="tu5of">
               <node concept="ZC_QK" id="48csSBPDfPU" role="2tJFKM">
-                <ref role="2aWVGs" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+                <ref role="2aWVGs" to="h3y3:2ju2syjkmjj" resolve="InterfaceReference" />
               </node>
             </node>
           </node>
@@ -1120,7 +1120,7 @@
               <property role="TrG5h" value="implements" />
               <property role="2RzO1C" value="true" />
               <property role="2RzOhW" value="true" />
-              <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="ConceptInterface" />
+              <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="Interface" />
             </node>
             <node concept="2RzOpR" id="7Cdxs9E1gHn" role="2RzPPN">
               <property role="TrG5h" value="extends" />
@@ -1132,15 +1132,15 @@
           </node>
           <node concept="2RzPWn" id="7Cdxs9E1gHo" role="2RzR6B">
             <property role="2RzP46" value="false" />
-            <property role="TrG5h" value="ConceptInterface" />
-            <property role="2RzON1" value="ConceptInterface" />
+            <property role="TrG5h" value="Interface" />
+            <property role="2RzON1" value="Interface" />
             <ref role="2RzPfO" node="7Cdxs9E1gHh" resolve="Classifier" />
             <node concept="2RzOpR" id="7Cdxs9E3ozz" role="2RzPPN">
-              <property role="2RzON1" value="ConceptInterface-extends" />
+              <property role="2RzON1" value="Interface-extends" />
               <property role="TrG5h" value="extends" />
               <property role="2RzO1C" value="true" />
               <property role="2RzOhW" value="true" />
-              <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="ConceptInterface" />
+              <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="Interface" />
             </node>
           </node>
           <node concept="2RzPWn" id="7Cdxs9E1gHs" role="2RzR6B">
@@ -1236,7 +1236,7 @@
               <property role="TrG5h" value="implements" />
               <property role="2RzO1C" value="true" />
               <property role="2RzOhW" value="true" />
-              <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="ConceptInterface" />
+              <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="Interface" />
             </node>
           </node>
         </node>

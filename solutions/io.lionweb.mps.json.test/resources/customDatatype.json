@@ -1,5 +1,5 @@
 {
-  "serializationFormatVersion": "1",
+  "serializationFormatVersion": "2023.1",
   "languages": [],
   "nodes": [
     {
@@ -50,7 +50,7 @@
       "references": [],
       "annotations": [],
       "parent": null,
-      "concept": {
+      "classifier": {
         "language": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
         "version": "0",
         "key": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"

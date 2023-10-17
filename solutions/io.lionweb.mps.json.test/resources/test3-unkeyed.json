@@ -1,5 +1,5 @@
 {
-  "serializationFormatVersion": "1",
+  "serializationFormatVersion": "2023.1",
   "languages": [],
   "nodes": [
     {
@@ -74,7 +74,7 @@
       ],
       "annotations": [],
       "parent": null,
-      "concept": {
+      "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
@@ -87,7 +87,7 @@
       "references": [],
       "annotations": [],
       "parent": "{id-unkeyed}",
-      "concept": {
+      "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
@@ -100,7 +100,7 @@
       "references": [],
       "annotations": [],
       "parent": "{id-unkeyed}",
-      "concept": {
+      "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"

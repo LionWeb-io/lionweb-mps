@@ -1307,14 +1307,14 @@
               </node>
             </node>
             <node concept="3uibUv" id="48csSBQ14Ok" role="10QFUM">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
           </node>
         </node>
       </node>
       <node concept="3Tm1VV" id="48csSBQ0839" role="1B3o_S" />
       <node concept="3uibUv" id="48csSBQ083a" role="3clF45">
-        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
       </node>
       <node concept="2AHcQZ" id="1f4Qr8Vi4Be" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -3208,7 +3208,7 @@
             <node concept="1Wc70l" id="48csSBNReGd" role="3eO9$A">
               <node concept="2ZW3vV" id="48csSBPLN0Y" role="3uHU7w">
                 <node concept="3uibUv" id="48csSBPLPBg" role="2ZW6by">
-                  <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                  <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                 </node>
                 <node concept="37vLTw" id="48csSBPLKkn" role="2ZW6bz">
                   <ref role="3cqZAo" node="48csSBNReGD" resolve="json" />
@@ -3240,7 +3240,7 @@
                       <ref role="3cqZAo" node="48csSBNReGD" resolve="json" />
                     </node>
                     <node concept="3uibUv" id="48csSBPLUYC" role="10QFUM">
-                      <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                      <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                     </node>
                   </node>
                 </node>
@@ -3849,7 +3849,7 @@
               <node concept="3fqX7Q" id="48csSBNReJp" role="3clFbw">
                 <node concept="2ZW3vV" id="48csSBPNoEc" role="3fr31v">
                   <node concept="3uibUv" id="48csSBPNtp2" role="2ZW6by">
-                    <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                    <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                   </node>
                   <node concept="37vLTw" id="48csSBPNlEJ" role="2ZW6bz">
                     <ref role="3cqZAo" node="48csSBNReJ1" resolve="implemented" />
@@ -3863,13 +3863,13 @@
                   <ref role="3cqZAo" node="48csSBNReJJ" resolve="json" />
                 </node>
                 <node concept="liA8E" id="48csSBPNwcV" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Concept.addImplementedInterface(io.lionweb.lioncore.java.language.ConceptInterface)" resolve="addImplementedInterface" />
+                  <ref role="37wK5l" to="imb3:~Concept.addImplementedInterface(io.lionweb.lioncore.java.language.Interface)" resolve="addImplementedInterface" />
                   <node concept="10QFUN" id="48csSBPNBNz" role="37wK5m">
                     <node concept="37vLTw" id="48csSBPNBNy" role="10QFUP">
                       <ref role="3cqZAo" node="48csSBNReJ1" resolve="implemented" />
                     </node>
                     <node concept="3uibUv" id="48csSBPNBNv" role="10QFUM">
-                      <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                      <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                     </node>
                   </node>
                 </node>
@@ -4433,7 +4433,7 @@
               <node concept="3fqX7Q" id="6Pr6izIp2Tz" role="3clFbw">
                 <node concept="2ZW3vV" id="6Pr6izIp2T$" role="3fr31v">
                   <node concept="3uibUv" id="6Pr6izIp2T_" role="2ZW6by">
-                    <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                    <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                   </node>
                   <node concept="37vLTw" id="6Pr6izIp2TA" role="2ZW6bz">
                     <ref role="3cqZAo" node="6Pr6izIp2Tb" resolve="implemented" />
@@ -4447,13 +4447,13 @@
                   <ref role="3cqZAo" node="6Pr6izIp2TN" resolve="json" />
                 </node>
                 <node concept="liA8E" id="6Pr6izIp2TE" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Annotation.addImplementedInterface(io.lionweb.lioncore.java.language.ConceptInterface)" resolve="addImplementedInterface" />
+                  <ref role="37wK5l" to="imb3:~Annotation.addImplementedInterface(io.lionweb.lioncore.java.language.Interface)" resolve="addImplementedInterface" />
                   <node concept="10QFUN" id="6Pr6izIp2TF" role="37wK5m">
                     <node concept="37vLTw" id="6Pr6izIp2TG" role="10QFUP">
                       <ref role="3cqZAo" node="6Pr6izIp2Tb" resolve="implemented" />
                     </node>
                     <node concept="3uibUv" id="6Pr6izIp2TH" role="10QFUM">
-                      <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                      <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                     </node>
                   </node>
                 </node>
@@ -4520,11 +4520,11 @@
           <node concept="3cpWsn" id="5sACIIsNv$Z" role="3cpWs9">
             <property role="TrG5h" value="jsonIface" />
             <node concept="3uibUv" id="5sACIIsNv_0" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
             <node concept="2ShNRf" id="5sACIIsN_zw" role="33vP2m">
               <node concept="1pGfFk" id="5sACIIsNCBI" role="2ShVmc">
-                <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;(java.lang.String)" resolve="ConceptInterface" />
+                <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;(java.lang.String)" resolve="Interface" />
                 <node concept="2OqwBi" id="5sACIIsNL$y" role="37wK5m">
                   <node concept="37vLTw" id="5sACIIsNHsK" role="2Oq$k0">
                     <ref role="3cqZAo" node="48csSBNReK4" resolve="mps" />
@@ -4582,7 +4582,7 @@
         <node concept="3clFbH" id="48csSBPQXdL" role="3cqZAp" />
       </node>
       <node concept="3uibUv" id="48csSBPHzni" role="3clF45">
-        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
       </node>
       <node concept="3Tmbuc" id="48csSBNReK3" role="1B3o_S" />
       <node concept="37vLTG" id="48csSBNReK4" role="3clF46">
@@ -4675,7 +4675,7 @@
               <node concept="3fqX7Q" id="48csSBNReKF" role="3clFbw">
                 <node concept="2ZW3vV" id="48csSBPNXq2" role="3fr31v">
                   <node concept="3uibUv" id="48csSBPO35w" role="2ZW6by">
-                    <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                    <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                   </node>
                   <node concept="37vLTw" id="48csSBNReKH" role="2ZW6bz">
                     <ref role="3cqZAo" node="48csSBNReKj" resolve="implemented" />
@@ -4689,13 +4689,13 @@
                   <ref role="3cqZAo" node="48csSBNReL1" resolve="json" />
                 </node>
                 <node concept="liA8E" id="48csSBPO6rn" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~ConceptInterface.addExtendedInterface(io.lionweb.lioncore.java.language.ConceptInterface)" resolve="addExtendedInterface" />
+                  <ref role="37wK5l" to="imb3:~Interface.addExtendedInterface(io.lionweb.lioncore.java.language.Interface)" resolve="addExtendedInterface" />
                   <node concept="10QFUN" id="48csSBPOe5n" role="37wK5m">
                     <node concept="37vLTw" id="48csSBPOe5m" role="10QFUP">
                       <ref role="3cqZAo" node="48csSBNReKj" resolve="implemented" />
                     </node>
                     <node concept="3uibUv" id="48csSBPOe5j" role="10QFUM">
-                      <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                      <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                     </node>
                   </node>
                 </node>
@@ -4718,7 +4718,7 @@
       <node concept="37vLTG" id="48csSBNReL1" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="48csSBPHBuj" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+          <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VneLG" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -6609,7 +6609,7 @@
       <node concept="37vLTG" id="4R9posqqsro" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="4R9posqqsrp" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+          <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
         </node>
         <node concept="2AHcQZ" id="4R9posqqsrq" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -7416,11 +7416,11 @@
           </node>
           <node concept="3eNFk2" id="4R9posqqswL" role="3eNLev">
             <node concept="2ZW3vV" id="4R9posqqswM" role="3eO9$A">
-              <node concept="3uibUv" id="4R9posqqswN" role="2ZW6by">
-                <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
-              </node>
               <node concept="37vLTw" id="4R9posqqswO" role="2ZW6bz">
                 <ref role="3cqZAo" node="4R9posqqsyt" resolve="json" />
+              </node>
+              <node concept="3uibUv" id="5M3rB6AAAR9" role="2ZW6by">
+                <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
               </node>
             </node>
             <node concept="3clFbS" id="4R9posqqswP" role="3eOfB_">
@@ -7433,7 +7433,7 @@
                         <ref role="3cqZAo" node="4R9posqqsyt" resolve="json" />
                       </node>
                       <node concept="3uibUv" id="4R9posqqswV" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+                        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
                       </node>
                     </node>
                   </node>
@@ -8141,7 +8141,7 @@
       <node concept="37vLTG" id="4R9posqqs_4" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3uibUv" id="4R9posqqs_5" role="1tU5fm">
-          <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+          <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
         </node>
         <node concept="2AHcQZ" id="4R9posqqs_6" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />

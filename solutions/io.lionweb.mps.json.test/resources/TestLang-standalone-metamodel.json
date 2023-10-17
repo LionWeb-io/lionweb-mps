@@ -1,19 +1,19 @@
 {
-  "serializationFormatVersion": "1",
+  "serializationFormatVersion": "2023.1",
   "metamodels": [],
   "nodes": [
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Metamodel"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Metamodel_name"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone"
@@ -21,7 +21,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "version"
           },
           "value": "1"
@@ -29,7 +29,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5"
@@ -39,7 +39,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "elements"
           },
           "children": [
@@ -64,7 +64,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "dependsOn"
           },
           "targets": []
@@ -74,16 +74,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQxMTI",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Concept"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "abstract"
           },
           "value": "false"
@@ -91,7 +91,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestConceptPlain"
@@ -99,7 +99,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptPlain"
@@ -107,7 +107,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
@@ -117,7 +117,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": []
@@ -127,7 +127,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Concept_extends"
           },
           "targets": []
@@ -135,7 +135,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "implements"
           },
           "targets": []
@@ -145,16 +145,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ5MDM",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Concept"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "abstract"
           },
           "value": "false"
@@ -162,7 +162,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestConceptNoExtends"
@@ -170,7 +170,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptNoExtends"
@@ -178,7 +178,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
@@ -188,7 +188,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": []
@@ -198,7 +198,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Concept_extends"
           },
           "targets": []
@@ -206,7 +206,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "implements"
           },
           "targets": []
@@ -216,16 +216,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Concept"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "abstract"
           },
           "value": "false"
@@ -233,7 +233,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestConceptBase"
@@ -241,7 +241,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase"
@@ -249,7 +249,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE"
@@ -259,7 +259,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": [
@@ -282,7 +282,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Concept_extends"
           },
           "targets": []
@@ -290,7 +290,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "implements"
           },
           "targets": []
@@ -300,16 +300,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNjk1OQ",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -317,7 +317,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -325,7 +325,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "stringProp"
@@ -333,7 +333,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.stringProp"
@@ -341,7 +341,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNjk1OQ"
@@ -352,7 +352,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -367,16 +367,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzQwMw",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -384,7 +384,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -392,7 +392,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "booleanProp"
@@ -400,7 +400,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.booleanProp"
@@ -408,7 +408,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzQwMw"
@@ -419,7 +419,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -434,16 +434,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzg0OA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -451,7 +451,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -459,7 +459,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "integerProp"
@@ -467,7 +467,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.integerProp"
@@ -475,7 +475,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwNzg0OA"
@@ -486,7 +486,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -501,16 +501,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODMyMA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -518,7 +518,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -526,7 +526,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "enumProp"
@@ -534,7 +534,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.enumProp"
@@ -542,7 +542,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODMyMA"
@@ -553,7 +553,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -568,16 +568,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODY4OQ",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -585,7 +585,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -593,7 +593,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "constrainedProp"
@@ -601,7 +601,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.constrainedProp"
@@ -609,7 +609,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwODY4OQ"
@@ -620,7 +620,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -635,16 +635,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTEzNw",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -652,7 +652,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -660,7 +660,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "primitiveProp"
@@ -668,7 +668,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.primitiveProp"
@@ -676,7 +676,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTEzNw"
@@ -687,7 +687,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -702,16 +702,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMzM1OA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Reference"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "false"
@@ -719,7 +719,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -727,7 +727,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -735,7 +735,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "refZeroToOne"
@@ -743,7 +743,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.refZeroToOne"
@@ -751,7 +751,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMzM1OA"
@@ -762,7 +762,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -777,16 +777,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxNDAxNA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Reference"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "false"
@@ -794,7 +794,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "false"
@@ -802,7 +802,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -810,7 +810,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "refOne"
@@ -818,7 +818,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.refOne"
@@ -826,7 +826,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxNDAxNA"
@@ -837,7 +837,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -852,16 +852,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTk1MA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Containment"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "false"
@@ -869,7 +869,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -877,7 +877,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -885,7 +885,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "zeroToOne"
@@ -893,7 +893,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.zeroToOne"
@@ -901,7 +901,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIwOTk1MA"
@@ -912,7 +912,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -927,16 +927,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDI2NA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Containment"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "false"
@@ -944,7 +944,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "false"
@@ -952,7 +952,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -960,7 +960,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "one"
@@ -968,7 +968,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.one"
@@ -976,7 +976,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDI2NA"
@@ -987,7 +987,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -1002,16 +1002,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDg2NQ",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Containment"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "true"
@@ -1019,7 +1019,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1027,7 +1027,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1035,7 +1035,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "zeroToMany"
@@ -1043,7 +1043,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.zeroToMany"
@@ -1051,7 +1051,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMDg2NQ"
@@ -1062,7 +1062,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -1077,16 +1077,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMTc3OQ",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Containment"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "true"
@@ -1094,7 +1094,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "false"
@@ -1102,7 +1102,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1110,7 +1110,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "oneToMany"
@@ -1118,7 +1118,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptBase.oneToMany"
@@ -1126,7 +1126,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTEvMjU4NTM3ODE2NTk3MzIxMTc3OQ"
@@ -1137,7 +1137,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -1152,16 +1152,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Concept"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "abstract"
           },
           "value": "false"
@@ -1169,7 +1169,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestConceptExtends1"
@@ -1177,7 +1177,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptExtends1"
@@ -1185,7 +1185,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
@@ -1195,7 +1195,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": []
@@ -1205,7 +1205,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Concept_extends"
           },
           "targets": [
@@ -1218,7 +1218,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "implements"
           },
           "targets": [
@@ -1233,16 +1233,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMjMyMDU",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Concept"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "abstract"
           },
           "value": "false"
@@ -1250,7 +1250,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestConceptExtends2"
@@ -1258,7 +1258,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConceptExtends2"
@@ -1266,7 +1266,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMjMyMDU"
@@ -1276,7 +1276,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": []
@@ -1286,7 +1286,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Concept_extends"
           },
           "targets": [
@@ -1299,7 +1299,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "implements"
           },
           "targets": [
@@ -1314,16 +1314,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQzMDg",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
-        "key": "ConceptInterface"
+        "version": "2023.1",
+        "key": "Interface"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestInterfacePlain"
@@ -1331,7 +1331,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfacePlain"
@@ -1339,7 +1339,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQzMDg"
@@ -1349,7 +1349,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": []
@@ -1359,7 +1359,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "ConceptInterface_extends"
           },
           "targets": []
@@ -1369,16 +1369,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTQzODU",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
-        "key": "ConceptInterface"
+        "version": "2023.1",
+        "key": "Interface"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestInterfaceBase"
@@ -1386,7 +1386,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceBase"
@@ -1394,7 +1394,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTQzODU"
@@ -1404,7 +1404,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": [
@@ -1416,7 +1416,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "ConceptInterface_extends"
           },
           "targets": []
@@ -1426,16 +1426,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTQzODUvMjU4NTM3ODE2NTk3MzIxNzc4Mg",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1443,7 +1443,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1451,7 +1451,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "testInterfaceBaseProp"
@@ -1459,7 +1459,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceBase.testInterfaceBaseProp"
@@ -1467,7 +1467,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTQzODUvMjU4NTM3ODE2NTk3MzIxNzc4Mg"
@@ -1478,7 +1478,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -1493,16 +1493,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODc",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
-        "key": "ConceptInterface"
+        "version": "2023.1",
+        "key": "Interface"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestInterfaceExtends1"
@@ -1510,7 +1510,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends1"
@@ -1518,7 +1518,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODc"
@@ -1528,7 +1528,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": [
@@ -1540,7 +1540,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "ConceptInterface_extends"
           },
           "targets": [
@@ -1555,16 +1555,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODcvMjU4NTM3ODE2NTk3MzIxODUzOA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1572,7 +1572,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1580,7 +1580,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "testInterfaceExtends1Prop"
@@ -1588,7 +1588,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends1.testInterfaceExtends1Prop"
@@ -1596,7 +1596,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTUzODcvMjU4NTM3ODE2NTk3MzIxODUzOA"
@@ -1607,7 +1607,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -1622,16 +1622,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzE",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
-        "key": "ConceptInterface"
+        "version": "2023.1",
+        "key": "Interface"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestInterfaceExtends2"
@@ -1639,7 +1639,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends2"
@@ -1647,7 +1647,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzE"
@@ -1657,7 +1657,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": [
@@ -1671,7 +1671,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "ConceptInterface_extends"
           },
           "targets": [
@@ -1686,16 +1686,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIxOTExMg",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1703,7 +1703,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1711,7 +1711,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "testInterfaceExtends2Prop"
@@ -1719,7 +1719,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends2.testInterfaceExtends2Prop"
@@ -1727,7 +1727,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIxOTExMg"
@@ -1738,7 +1738,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -1753,16 +1753,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMTgyMA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Containment"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "true"
@@ -1770,7 +1770,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1778,7 +1778,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1786,7 +1786,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "anything"
@@ -1794,7 +1794,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends2.anything"
@@ -1802,7 +1802,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMTgyMA"
@@ -1813,7 +1813,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -1828,16 +1828,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMjU3Ng",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Reference"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "multiple"
           },
           "value": "false"
@@ -1845,7 +1845,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1853,7 +1853,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1861,7 +1861,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "circular"
@@ -1869,7 +1869,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends2.circular"
@@ -1877,7 +1877,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTU4NzEvMjU4NTM3ODE2NTk3MzIyMjU3Ng"
@@ -1888,7 +1888,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Link_type"
           },
           "targets": [
@@ -1903,16 +1903,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTYzMjk",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
-        "key": "ConceptInterface"
+        "version": "2023.1",
+        "key": "Interface"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestInterfaceExtends3"
@@ -1920,7 +1920,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends3"
@@ -1928,7 +1928,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTYzMjk"
@@ -1938,7 +1938,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "features"
           },
           "children": [
@@ -1950,7 +1950,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "ConceptInterface_extends"
           },
           "targets": [
@@ -1969,16 +1969,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTYzMjkvMjU4NTM3ODE2NTk3MzIyMDEyOA",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Property"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "optional"
           },
           "value": "true"
@@ -1986,7 +1986,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "derived"
           },
           "value": "false"
@@ -1994,7 +1994,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "testInterfaceExtends3Prop"
@@ -2002,7 +2002,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestInterfaceExtends3.testInterfaceExtends3Prop"
@@ -2010,7 +2010,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTYzMjkvMjU4NTM3ODE2NTk3MzIyMDEyOA"
@@ -2021,7 +2021,7 @@
         {
           "reference": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "Property_type"
           },
           "targets": [
@@ -2036,16 +2036,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2Njc",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "PrimitiveType"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestConstrainedDatatype"
@@ -2053,7 +2053,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestConstrainedDatatype"
@@ -2061,7 +2061,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2Njc"
@@ -2073,16 +2073,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODI",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Enumeration"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestEnumeration1"
@@ -2090,7 +2090,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestEnumeration1"
@@ -2098,7 +2098,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODI"
@@ -2108,7 +2108,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "literals"
           },
           "children": [
@@ -2122,16 +2122,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDU4Mw",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "EnumerationLiteral"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestLiteral1"
@@ -2139,7 +2139,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": null
@@ -2147,7 +2147,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": null
@@ -2159,16 +2159,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ1ODIvMjU4NTM3ODE2NTk3MzIwNDYyMw",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "EnumerationLiteral"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestLiteral2"
@@ -2176,7 +2176,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": null
@@ -2184,7 +2184,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": null
@@ -2196,16 +2196,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjY",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "Enumeration"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestEnumeration2"
@@ -2213,7 +2213,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestEnumeration2"
@@ -2221,7 +2221,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjY"
@@ -2231,7 +2231,7 @@
         {
           "containment": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "literals"
           },
           "children": [
@@ -2244,16 +2244,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "EnumerationLiteral"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestLiteral3"
@@ -2261,7 +2261,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": null
@@ -2269,7 +2269,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": null
@@ -2281,16 +2281,16 @@
     },
     {
       "id": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ3MDc",
-      "concept": {
+      "classifier": {
         "metamodel": "LionCore_M3",
-        "version": "1",
+        "version": "2023.1",
         "key": "PrimitiveType"
       },
       "properties": [
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "NamespacedEntity_name"
           },
           "value": "TestPrimitiveDatatype"
@@ -2298,7 +2298,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "qualifiedName"
           },
           "value": "io.lionweb.mps.converter.TestLang.standalone.TestPrimitiveDatatype"
@@ -2306,7 +2306,7 @@
         {
           "property": {
             "metamodel": "LionCore_M3",
-            "version": "1",
+            "version": "2023.1",
             "key": "key"
           },
           "value": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDQ3MDc"

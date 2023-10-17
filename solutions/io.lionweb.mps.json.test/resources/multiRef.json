@@ -1,5 +1,5 @@
 {
-  "serializationFormatVersion": "1",
+  "serializationFormatVersion": "2023.1",
   "languages": [],
   "nodes": [
     {
@@ -8,7 +8,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "MyPartition"
@@ -46,7 +46,7 @@
       "references": [],
       "annotations": [],
       "parent": null,
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
@@ -58,7 +58,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "aaa"
@@ -86,7 +86,7 @@
       ],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "10b2d191-8718-4ed6-b20e-0fe66358190a"
@@ -98,7 +98,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "bbb"
@@ -126,7 +126,7 @@
       ],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "c4369692-13fe-499d-9c6c-86dd8461f0ad"
@@ -138,7 +138,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "ccc"
@@ -166,7 +166,7 @@
       ],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "45fd0a93-9faa-4c75-8d34-c76f93b8080c"
@@ -178,7 +178,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "ddd"
@@ -202,7 +202,7 @@
       ],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "318dbba9-541a-4ef9-9f25-ec0d334df29a"
@@ -214,7 +214,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "eee"
@@ -235,7 +235,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI"
@@ -247,7 +247,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "rE"
@@ -257,7 +257,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-eee",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
@@ -269,7 +269,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "fff"
@@ -290,7 +290,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg"
@@ -302,7 +302,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "rF"
@@ -312,7 +312,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-fff",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
@@ -324,7 +324,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "r1"
@@ -334,7 +334,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
@@ -346,7 +346,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "r2"
@@ -356,7 +356,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
@@ -368,7 +368,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "r3"
@@ -378,7 +378,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-part",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"

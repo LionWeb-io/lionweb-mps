@@ -1,5 +1,5 @@
 {
-  "serializationFormatVersion": "1",
+  "serializationFormatVersion": "2023.1",
   "languages": [],
   "nodes": [
     {
@@ -18,7 +18,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -40,7 +40,7 @@
       "references": [],
       "annotations": [],
       "parent": null,
-      "concept": {
+      "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
@@ -70,7 +70,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -90,7 +90,7 @@
       ],
       "annotations": [],
       "parent": "id-myLib",
-      "concept": {
+      "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
@@ -103,7 +103,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -154,7 +154,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-h2g2",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzYzNzM"
@@ -167,7 +167,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzE4OTg5MjE"
@@ -180,7 +180,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -191,7 +191,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDM"
@@ -204,7 +204,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-myConcept",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDQ"
@@ -217,7 +217,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -228,7 +228,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc0NzQ5MTc"
@@ -241,7 +241,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -252,7 +252,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-implAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDk"
@@ -265,7 +265,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-ifaceAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc0NzQ5NDc"
@@ -278,7 +278,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MTQ"
@@ -290,7 +290,7 @@
         {
           "property": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
           "value": "MyACont"
@@ -300,7 +300,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -314,7 +314,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
-      "concept": {
+      "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "10b2d191-8718-4ed6-b20e-0fe66358190a"
@@ -327,7 +327,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA3OTc"
@@ -340,7 +340,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA3OTI"
@@ -353,7 +353,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3Mzg0NzA"
@@ -366,7 +366,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -377,7 +377,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3Mzg0NzA"
@@ -390,7 +390,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-multiTrueAnn2",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzEzMTM0NDI1NzMxNzc4NDQ2MjI"
@@ -420,7 +420,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -441,7 +441,7 @@
       ],
       "annotations": [],
       "parent": "id-myLib",
-      "concept": {
+      "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
         "version": "0",
         "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
@@ -454,7 +454,7 @@
         {
           "containment": {
             "language": "LionCore-builtins",
-            "version": "1",
+            "version": "2023.1",
             "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
           },
           "children": [
@@ -465,7 +465,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-tacop",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzE4OTg5MjE"
@@ -509,7 +509,7 @@
       ],
       "annotations": [],
       "parent": "id-defaultAttrAnn",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzY0MTU"
@@ -547,7 +547,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-tacop",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc1NTg5ODk"
@@ -560,7 +560,7 @@
       "references": [],
       "annotations": [],
       "parent": "id-myLib",
-      "concept": {
+      "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",
         "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzEzMTM0NDI1NzMxNzc4NDQ2MjI"

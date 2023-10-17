@@ -665,7 +665,7 @@
                 <node concept="3cpWsn" id="48csSBOCaPk" role="3cpWs9">
                   <property role="TrG5h" value="implemented" />
                   <node concept="2I9FWS" id="48csSBOCs2R" role="1tU5fm">
-                    <ref role="2I9WkF" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+                    <ref role="2I9WkF" to="h3y3:2ju2syjkmjj" resolve="InterfaceReference" />
                   </node>
                   <node concept="2OqwBi" id="48csSBOCaPl" role="33vP2m">
                     <node concept="2OqwBi" id="48csSBOCaPm" role="2Oq$k0">
@@ -687,7 +687,7 @@
                                     <ref role="3cqZAo" node="48csSBOCaPz" resolve="it" />
                                   </node>
                                   <node concept="3TrEf2" id="48csSBOCaPx" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                                    <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="interface" />
                                   </node>
                                 </node>
                                 <node concept="3TrcHB" id="7Cdxs9DWGiE" role="2OqNvi">
@@ -744,18 +744,18 @@
           </node>
           <node concept="1pnPoh" id="48csSBOClty" role="1_3QMm">
             <node concept="3gn64h" id="48csSBOClt$" role="1pnPq6">
-              <ref role="3gnhBz" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+              <ref role="3gnhBz" to="h3y3:2ju2syjklHQ" resolve="Interface" />
             </node>
             <node concept="3clFbS" id="48csSBOCltA" role="1pnPq1">
               <node concept="3cpWs8" id="48csSBOClFI" role="3cqZAp">
                 <node concept="3cpWsn" id="48csSBOClFJ" role="3cpWs9">
                   <property role="TrG5h" value="i" />
                   <node concept="3Tqbb2" id="48csSBOClFG" role="1tU5fm">
-                    <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+                    <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
                   </node>
                   <node concept="1PxgMI" id="48csSBOClFK" role="33vP2m">
                     <node concept="chp4Y" id="48csSBOClFL" role="3oSUPX">
-                      <ref role="cht4Q" to="h3y3:2ju2syjklHQ" resolve="ConceptInterface" />
+                      <ref role="cht4Q" to="h3y3:2ju2syjklHQ" resolve="Interface" />
                     </node>
                     <node concept="37vLTw" id="48csSBOClFM" role="1m5AlR">
                       <ref role="3cqZAo" node="48csSBPyHfr" resolve="in" />
@@ -767,7 +767,7 @@
                 <node concept="3cpWsn" id="48csSBOCqQK" role="3cpWs9">
                   <property role="TrG5h" value="extended" />
                   <node concept="2I9FWS" id="48csSBOCriM" role="1tU5fm">
-                    <ref role="2I9WkF" to="h3y3:2ju2syjkmjj" resolve="ConceptInterfaceReference" />
+                    <ref role="2I9WkF" to="h3y3:2ju2syjkmjj" resolve="InterfaceReference" />
                   </node>
                   <node concept="2OqwBi" id="48csSBOCqQL" role="33vP2m">
                     <node concept="2OqwBi" id="48csSBOCqQM" role="2Oq$k0">
@@ -789,7 +789,7 @@
                                     <ref role="3cqZAo" node="48csSBOCqQZ" resolve="it" />
                                   </node>
                                   <node concept="3TrEf2" id="48csSBOCqQX" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="conceptInterface" />
+                                    <ref role="3Tt5mk" to="h3y3:2ju2syjkmjk" resolve="interface" />
                                   </node>
                                 </node>
                                 <node concept="3TrcHB" id="7Cdxs9DWCQH" role="2OqNvi">

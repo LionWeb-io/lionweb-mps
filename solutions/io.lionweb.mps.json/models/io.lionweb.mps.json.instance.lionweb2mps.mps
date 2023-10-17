@@ -6928,12 +6928,12 @@
           <node concept="3cpWsn" id="4R9posquWqU" role="3cpWs9">
             <property role="TrG5h" value="tempIface" />
             <node concept="3uibUv" id="4R9posquWqV" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
             <node concept="2OqwBi" id="4R9posquWqW" role="33vP2m">
               <node concept="2ShNRf" id="4R9posquWqX" role="2Oq$k0">
                 <node concept="1pGfFk" id="4R9posquWqY" role="2ShVmc">
-                  <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;()" resolve="ConceptInterface" />
+                  <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;()" resolve="Interface" />
                 </node>
               </node>
               <node concept="liA8E" id="4R9posquWqZ" role="2OqNvi">
@@ -11372,13 +11372,10 @@
         <node concept="3cpWs8" id="4R9posquDn7" role="3cqZAp">
           <node concept="3cpWsn" id="4R9posquDn8" role="3cpWs9">
             <property role="TrG5h" value="tempIface" />
-            <node concept="3uibUv" id="4R9posquDn9" role="1tU5fm">
-              <ref role="3uigEE" to="imb3:~ConceptInterface" resolve="ConceptInterface" />
-            </node>
             <node concept="2OqwBi" id="4R9posquDna" role="33vP2m">
               <node concept="2ShNRf" id="4R9posquDnb" role="2Oq$k0">
                 <node concept="1pGfFk" id="4R9posquDnc" role="2ShVmc">
-                  <ref role="37wK5l" to="imb3:~ConceptInterface.&lt;init&gt;()" resolve="ConceptInterface" />
+                  <ref role="37wK5l" to="imb3:~Interface.&lt;init&gt;()" resolve="Interface" />
                 </node>
               </node>
               <node concept="liA8E" id="4R9posquDnd" role="2OqNvi">
@@ -11387,6 +11384,9 @@
                   <ref role="3cqZAo" node="4R9posquDn1" resolve="ifaceKey" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="5M3rB6AAAR9" role="1tU5fm">
+              <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
             </node>
           </node>
         </node>

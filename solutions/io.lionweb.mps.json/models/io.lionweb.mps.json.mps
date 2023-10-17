@@ -885,8 +885,9 @@
             </node>
             <node concept="liA8E" id="5s4Z0e0c3Zd" role="2OqNvi">
               <ref role="37wK5l" to="xfsv:~SerializedChunk.setSerializationFormatVersion(java.lang.String)" resolve="setSerializationFormatVersion" />
-              <node concept="Xl_RD" id="5s4Z0e0c5VN" role="37wK5m">
-                <property role="Xl_RC" value="1" />
+              <node concept="10M0yZ" id="3sjZ$nYSqRM" role="37wK5m">
+                <ref role="3cqZAo" to="jxh5:~JsonSerialization.DEFAULT_SERIALIZATION_FORMAT" resolve="DEFAULT_SERIALIZATION_FORMAT" />
+                <ref role="1PxDUh" to="jxh5:~JsonSerialization" resolve="JsonSerialization" />
               </node>
             </node>
           </node>

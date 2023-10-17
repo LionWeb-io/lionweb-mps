@@ -624,8 +624,8 @@
                   <node concept="2YIFZM" id="7W6jYlyZRCE" role="37wK5m">
                     <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
                     <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="from" />
-                    <node concept="2YIFZM" id="7W6jYlyZRCF" role="37wK5m">
-                      <ref role="37wK5l" to="cz4z:~LionCore.getConceptInterface()" resolve="getConceptInterface" />
+                    <node concept="2YIFZM" id="3sjZ$nYTmc6" role="37wK5m">
+                      <ref role="37wK5l" to="cz4z:~LionCore.getInterface()" resolve="getInterface" />
                       <ref role="1Pybhc" to="cz4z:~LionCore" resolve="LionCore" />
                     </node>
                   </node>
