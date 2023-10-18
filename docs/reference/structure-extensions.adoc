@@ -17,6 +17,7 @@ It supports most MPS languages without changes to the language; all limitations 
 We amend MPS' language structure aspect with node attributes to support advanced LionWeb features.
 
 To use advanced LionWeb features, add `io.lionweb.mps.structure.attribute` to the _Used Languages_ of the structure aspect of your language.
+Even if you don't need any advanced LionWeb features, you should add this _Used Language_ to all your LionWeb-processed languages: It checks the constraints described in this document. 
 
 
 [[concept-partitions]]
