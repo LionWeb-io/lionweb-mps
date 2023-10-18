@@ -28,4 +28,8 @@ build/
 .mps-caches
 .vscode
 .idea
+
+# Generated asciidoctor files
 .asciidoctor/
+docs/**/*.pdf
+docs/**/*.html

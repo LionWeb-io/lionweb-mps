@@ -1,0 +1,10 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
+@import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
+
+.menuref {
+  display: inline-block;
+  padding: 0 0.2ex 0.1ex 0.2ex;
+  border-radius: 4px;
+  border: 0.2ex solid #e0e0dc;
+  line-height: 1.2em;
+}

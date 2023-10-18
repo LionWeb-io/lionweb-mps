@@ -1014,5 +1014,62 @@
       <ref role="1YaFvo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
   </node>
+  <node concept="18kY7G" id="3M8YG$9v54S">
+    <property role="TrG5h" value="dontExtendSmartReference" />
+    <node concept="3clFbS" id="3M8YG$9v54T" role="18ibNy">
+      <node concept="3cpWs8" id="3M8YG$9v6eU" role="3cqZAp">
+        <node concept="3cpWsn" id="3M8YG$9v6eV" role="3cpWs9">
+          <property role="TrG5h" value="smartRef" />
+          <node concept="2I9FWS" id="3M8YG$9v6eR" role="1tU5fm">
+            <ref role="2I9WkF" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
+          </node>
+          <node concept="2OqwBi" id="3M8YG$9v6eW" role="33vP2m">
+            <node concept="2OqwBi" id="3M8YG$9v6eX" role="2Oq$k0">
+              <node concept="1YBJjd" id="3M8YG$9v6eY" role="2Oq$k0">
+                <ref role="1YBMHb" node="3M8YG$9v54V" resolve="conceptDeclaration" />
+              </node>
+              <node concept="3TrEf2" id="3M8YG$9v6eZ" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpce:f_TJDff" resolve="extends" />
+              </node>
+            </node>
+            <node concept="3CFZ6_" id="3M8YG$9v6f0" role="2OqNvi">
+              <node concept="3CFYIy" id="3M8YG$9v6f1" role="3CFYIz">
+                <ref role="3CFYIx" to="234s:5AGBwuDBtDm" resolve="LionWebSmartReference" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3M8YG$9v6x8" role="3cqZAp">
+        <node concept="3clFbS" id="3M8YG$9v6xa" role="3clFbx">
+          <node concept="3cpWs6" id="3M8YG$9vbyt" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="3M8YG$9v8Ww" role="3clFbw">
+          <node concept="37vLTw" id="3M8YG$9v6xw" role="2Oq$k0">
+            <ref role="3cqZAo" node="3M8YG$9v6eV" resolve="smartRef" />
+          </node>
+          <node concept="1v1jN8" id="3M8YG$9vbxI" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="2MkqsV" id="3M8YG$9vbyN" role="3cqZAp">
+        <node concept="Xl_RD" id="3M8YG$9vbzh" role="2MkJ7o">
+          <property role="Xl_RC" value="Don't use smart reference concepts anywhere else" />
+        </node>
+        <node concept="1YBJjd" id="3M8YG$9vb$H" role="1urrMF">
+          <ref role="1YBMHb" node="3M8YG$9v54V" resolve="conceptDeclaration" />
+        </node>
+        <node concept="AMVWg" id="3M8YG$9vb_T" role="lGtFl">
+          <property role="TrG5h" value="extendedSmartReference" />
+        </node>
+        <node concept="2OE7Q9" id="3M8YG$9vbNc" role="1urrC5">
+          <ref role="2OEe5H" to="tpce:f_TJDff" resolve="extends" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3M8YG$9v54V" role="1YuTPh">
+      <property role="TrG5h" value="conceptDeclaration" />
+      <ref role="1YaFvo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    </node>
+  </node>
 </model>
 

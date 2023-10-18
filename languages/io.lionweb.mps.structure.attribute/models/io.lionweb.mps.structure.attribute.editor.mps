@@ -102,8 +102,24 @@
   </registry>
   <node concept="24kQdi" id="6fYiNFad_f3">
     <ref role="1XX52x" to="234s:6fYiNFad_9U" resolve="LionWebLanguageKey" />
-    <node concept="PMmxH" id="6fYiNFatsi9" role="2wV5jI">
-      <ref role="PMmxG" node="6fYiNFatshQ" resolve="LionWebKey" />
+    <node concept="3EZMnI" id="3M8YG$9urTp" role="2wV5jI">
+      <node concept="3EZMnI" id="3M8YG$9urTH" role="3EZMnx">
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
+        <node concept="PMmxH" id="3M8YG$9urTx" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="2iRfu4" id="3M8YG$9urTI" role="2iSdaV" />
+        <node concept="3F0ifn" id="3M8YG$9urTC" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+          <node concept="11L4FC" id="3M8YG$9urTW" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3M8YG$9urTr" role="3EZMnx">
+        <ref role="1NtTu8" to="234s:6fYiNFad_a2" resolve="key" />
+      </node>
+      <node concept="2iRfu4" id="3M8YG$9urTs" role="2iSdaV" />
     </node>
   </node>
   <node concept="PKFIW" id="6fYiNFatshQ">

@@ -393,6 +393,24 @@
         </node>
       </node>
     </node>
+    <node concept="1qefOq" id="3M8YG$9v0Rg" role="1SKRRt">
+      <node concept="15s5l7" id="3M8YG$9v54Q" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  SmartRef (extends) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;extends&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805245]&quot;;" />
+        <property role="huDt6" value="The reference  SmartRef (extends) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="3M8YG$9v0RR" role="1qenE9">
+        <property role="EcuMT" value="4362011980462820855" />
+        <property role="TrG5h" value="Specialization" />
+        <ref role="1TJDcQ" node="18UigYPcNg1" resolve="SmartRef" />
+        <node concept="7CXmI" id="3M8YG$9vk6K" role="lGtFl">
+          <node concept="1TM$A" id="3M8YG$9vk6L" role="7EUXB">
+            <node concept="2PYRI3" id="3M8YG$9vk6P" role="3lydEf">
+              <ref role="39XzEq" to="79ni:3M8YG$9vbyN" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="18UigYPdQ2e">
     <property role="TrG5h" value="SmartReference_features" />
