@@ -4,6 +4,7 @@
 :underbracket: &#9141;
 
 = Reference for LionWeb Extensions on MPS' Language Structure Aspect
+:stylesheet: style.css
 :experimental:
 :toc: preamble
 :toclevels: 3
@@ -157,7 +158,7 @@ MPS specifies details via _attribute info_.
 However, LionWeb does not support all edge cases of attributes:
 
 * LionWeb only supports attributes on nodes, i.e. specializations of `NodeAttribute`.
-LionWeb does not support attributes on properties, children, and links, i.e. specializations of `PropertyAttribute`, ChildAttribute`, and `LinkAttribute`.
+LionWeb does not support attributes on properties, children, and links, i.e. specializations of `PropertyAttribute`, `ChildAttribute`, and `LinkAttribute`.
 * LionWeb does not support annotations on all annotations i.e. the _attribute info / attributed concepts_ must not target `NodeAttribute`.
 
 
