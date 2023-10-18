@@ -132,7 +132,7 @@ LionWeb-MPS supports custom keys for the following MPS language structure elemen
 * link:{mpshelp}/structure.html#enumerationds[Enumeration]
 * link:{mpshelp}/structure.html#enumerationds[Enumeration Member]
 * link:{mpshelp}/structure.html#properties[Property]
-* link:{mpshelp}/structure.html#Children[Child]
+* link:{mpshelp}/structure.html#children[Child]
 * link:{mpshelp}/structure.html#references[Reference]
 
 Use intention menu:Toggle LionWeb Key Annotation[] to add or remove a LionWeb key.
