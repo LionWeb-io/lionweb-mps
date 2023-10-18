@@ -7,7 +7,7 @@
 :experimental:
 
 LionWeb can represent MPS languages in LionCore.
-It supports most MPS languages without changes to the language.
+It supports most MPS languages without changes to the language; all limitations are listed in this document.
 
 == Prerequisites
 We amend MPS' language structure aspect with node attributes to support advanced LionWeb features.
@@ -112,9 +112,20 @@ As language designer, we can customize the LionWeb key (e.g. if they need to be 
 === Custom language key
 Create a root node of concept image:../../languages/io.lionweb.mps.structure.attribute/icons/lionweb.png[]{nbsp}``LionWeb Language Key`` inside a structure aspect to customize the language's key.
 
-=== Custom concept, interface concept, data type, enumeration, link, or property key
-Use intention menu:Toggle LionWeb Key Annotation[] to add a LionWeb key to any MPS language structure element.
-Use the same intention to remove an existing LionWeb key.
+[[custom-element-key]]
+=== Language element key
+LionWeb-MPS supports custom keys for the following MPS language structure elements:
+
+* link:{mpshelp}/structure.html#conceptsandconceptinterfaces[Concept]
+* link:{mpshelp}/structure.html#conceptsandconceptinterfaces[Interface Concept]
+* link:{mpshelp}/structure.html#constraineddatatypes[Constrained Data Type]
+* link:{mpshelp}/structure.html#enumerationds[Enumeration]
+* link:{mpshelp}/structure.html#enumerationds[Enumeration Member]
+* link:{mpshelp}/structure.html#properties[Property]
+* link:{mpshelp}/structure.html#Children[Child]
+* link:{mpshelp}/structure.html#references[Reference]
+
+Use intention menu:Toggle LionWeb Key Annotation[] to add or remove a LionWeb key.
 Alternatively, use intention menu:Remove LionWeb key[] on the key itself to remove.
 
 
