@@ -1,5 +1,6 @@
 :m3: https://lionweb-io.github.io/specification/metametamodel/metametamodel.html
 :mpshelp: https://www.jetbrains.com/help/mps
+:slangdocs: https://alexanderpann.github.io/mps-openapi-doc/javadoc_2021.2
 :underbracket: &#9141;
 
 = Reference for LionWeb Extensions on MPS' Language Structure Aspect
@@ -135,3 +136,15 @@ However, LionWeb does not support all edge cases of attributes:
 * LionWeb only supports attributes on nodes, i.e. specializations of `NodeAttribute`.
 LionWeb does not support attributes on properties, children, and links, i.e. specializations of `PropertyAttribute`, ChildAttribute`, and `LinkAttribute`.
 * LionWeb does not support annotations on all annotations i.e. the _attribute info / attributed concepts_ must not target `NodeAttribute`.
+
+
+[[primitive-datatypes]]
+== Partial support of primitive datatypes
+LionWeb-MPS does not support MPS' primitive datatypes completely.
+We _can_ process them based on the structure aspect of a language, but _not_ based on the run-time language representation (because primitive datatypes are not represented in the link:{slangdocs}/org/jetbrains/mps/openapi/language/SLanguage.html[SLanguage]).
+
+
+[[enumeration-datatypes]]
+== No support for legacy enumeration data types
+LionWeb-MPS does not support deprecated link:{mpshelp}/structure.html#enumerationdatatypes[Enumeration Data Types].
+Use Enumerations instead.
