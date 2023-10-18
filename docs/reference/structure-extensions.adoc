@@ -5,16 +5,21 @@
 
 = Reference for LionWeb Extensions on MPS' Language Structure Aspect
 :experimental:
+:toc: preamble
+:toclevels: 3
+:sectnums:
 
 LionWeb can represent MPS languages in LionCore.
 It supports most MPS languages without changes to the language; all limitations are listed in this document.
 
+[[prerequisites]]
 == Prerequisites
 We amend MPS' language structure aspect with node attributes to support advanced LionWeb features.
 
 To use advanced LionWeb features, add `io.lionweb.mps.structure.attribute` to the _Used Languages_ of the structure aspect of your language.
 
 
+[[concept-partitions]]
 == Concepts as partitions
 In LionWeb, link:{m3}#partitions[partitions] serve as the container for one node tree (similar to _models_ in MPS).
 
@@ -22,6 +27,7 @@ Use intention menu:Toggle LionWeb Partition[] to add a boolean attribute `LionWe
 If no such attribute exists, we assume default value `false`.
 
 
+[[optional-properties]]
 == Optional properties
 LionWeb supports link:{m3}#Feature.optional[optional properties] on structure level, whereas MPS only considers them on link:{mpshelp}/editor.html#propertycell[editor level].
 
@@ -29,6 +35,7 @@ Use intention menu:Toggle LionWeb Optional[] to add a boolean attribute `LionWeb
 If no such attribute exists, we assume default value `false`, i.e. consider the property as mandatory.
 
 
+[[multi-references]]
 == Multi-references
 Unlike MPS, LionWeb supports link:{m3}#Link.multiple[multiple references], i.e. references with cardinality `{underbracket}..n`.
 MPS approximates them with link:{mpshelp}/structure.html#smartreferences[smart references]; LionWeb formalizes this approach.
@@ -100,6 +107,7 @@ _Concept_ *Writer* _extends_ *Node*
 * Must have exactly one reference member
 
 
+[[custom-keys]]
 == Custom LionWeb keys
 LionWeb uses link:{m3}#keys[keys] to refer to language entities.
 By default, LionWeb-MPS derives the key from MPS' internal ids.
@@ -109,6 +117,7 @@ As language designer, we can customize the LionWeb key (e.g. if they need to be 
 * Keys must be link:{m3}#identifiers[valid identifiers]
 * Keys must be unique within one language.
 
+[[custom-language-key]]
 === Custom language key
 Create a root node of concept image:../../languages/io.lionweb.mps.structure.attribute/icons/lionweb.png[]{nbsp}``LionWeb Language Key`` inside a structure aspect to customize the language's key.
 
@@ -129,6 +138,7 @@ Use intention menu:Toggle LionWeb Key Annotation[] to add or remove a LionWeb ke
 Alternatively, use intention menu:Remove LionWeb key[] on the key itself to remove.
 
 
+[[json-type]]
 == Use LionWeb JSON type
 Contrary to MPS, LionWeb supports link:{m3}#JSON[JSON as primitive type].
 
@@ -138,8 +148,9 @@ NOTE: LionWeb-MPS currently does not validate the contents of a `JSON` property.
 This might change in future releases.
 
 
+[[attribute-limitations]]
 == Limitations on attributes
-MPS' link:{mpshelp}/structure.html#attributes[attributes] map to LionWeb's link:{m3}#Annotation[Annotations].
+MPS' link:{mpshelp}/structure.html#attributes[attributes] map to LionWeb's link:{m3}#Annotation[annotations].
 MPS specifies details via _attribute info_.
 
 However, LionWeb does not support all edge cases of attributes:
