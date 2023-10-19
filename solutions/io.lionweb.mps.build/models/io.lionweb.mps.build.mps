@@ -1256,11 +1256,6 @@
             <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3CCFwIJPdAh" role="3bR37C">
-          <node concept="3bR9La" id="3CCFwIJPdAi" role="1SiIV1">
-            <ref role="3bR37D" node="5wsogBcGDM7" resolve="io.lionweb.lionweb.java" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3CCFwIJPdAj" role="3bR37C">
           <node concept="3bR9La" id="3CCFwIJPdAk" role="1SiIV1">
             <property role="3bR36h" value="true" />
