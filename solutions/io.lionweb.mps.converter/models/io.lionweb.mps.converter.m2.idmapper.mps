@@ -1580,7 +1580,7 @@
     <node concept="3UR2Jj" id="3M8YG$dfLnt" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dfLnu" role="TZ5H$">
         <node concept="1dT_AC" id="3M8YG$dfLnv" role="1dT_Ay">
-          <property role="1dT_AB" value="Post-processes keys of LionCore builtins to SLanguage Ids." />
+          <property role="1dT_AB" value="Post-processes keys of LionCore builtins to full MPS Ids." />
         </node>
       </node>
       <node concept="TZ5HA" id="3M8YG$dfOGF" role="TZ5H$">

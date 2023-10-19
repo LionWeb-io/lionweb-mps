@@ -774,11 +774,11 @@
           <node concept="3cpWsn" id="5M3rB6BZPzG" role="3cpWs9">
             <property role="TrG5h" value="idMapper" />
             <node concept="3uibUv" id="5M3rB6BZ$Lb" role="1tU5fm">
-              <ref role="3uigEE" to="58k5:6VkSF6b37gQ" resolve="MpsLanguageGuaranteedMapper" />
+              <ref role="3uigEE" to="58k5:6VkSF6b37gQ" resolve="MpsBase64GuaranteedMapper" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BZPzH" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BZPzI" role="2ShVmc">
-                <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageGuaranteedMapper" />
+                <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsBase64GuaranteedMapper" />
                 <node concept="37vLTw" id="5M3rB6BZPzJ" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6BjYy2" resolve="attributeFinder" />
                 </node>
@@ -1337,7 +1337,7 @@
             </node>
             <node concept="2ShNRf" id="4R9pospS7r3" role="33vP2m">
               <node concept="1pGfFk" id="4R9pospS7r4" role="2ShVmc">
-                <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageGuaranteedMapper" />
+                <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsBase64GuaranteedMapper" />
                 <node concept="37vLTw" id="4R9pospS7r5" role="37wK5m">
                   <ref role="3cqZAo" node="4R9pospS5TE" resolve="attributeFinder" />
                 </node>

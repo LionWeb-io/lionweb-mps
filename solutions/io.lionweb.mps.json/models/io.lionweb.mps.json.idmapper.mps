@@ -79,7 +79,32 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+    </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -114,6 +139,32 @@
     <node concept="3Tm1VV" id="6VkSF6clvWe" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAGUC" role="1zkMxy">
       <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dsZHO" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dsZR3" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsZR4" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dsZR5" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dsZR6" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dsZR7" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dsZR8" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dsZR9" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsZRa" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsZRb" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to JSON element keys." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsZHP" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsZHQ" role="1dT_Ay" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="39$JcGEIAYT">
@@ -176,6 +227,32 @@
     <node concept="3Tm1VV" id="39$JcGEIAYU" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAEPa" role="1zkMxy">
       <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dsPiI" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$drCtc" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$drCtd" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$drCte" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$drCtf" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$drCtg" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$drCth" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$drCti" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$ds_8S" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$ds_8T" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to first successful of [builtins to full MPS ids, MPS-decoded LionWeb keys]." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsPiJ" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsPiK" role="1dT_Ay" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6A0Hk2">
@@ -576,6 +653,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dsNW1" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dsNW2" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsNW3" role="1dT_Ay">
+          <property role="1dT_AB" value="Maps JSON elements to their keys." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5M3rB6AAAMp">
     <property role="TrG5h" value="AJsonGuaranteedMapper" />
@@ -726,6 +810,70 @@
             <ref role="3cqZAo" node="5M3rB6AAAVT" resolve="delegates" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dsMhf" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dg7vP" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dg7vQ" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dg7Ds" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dg7Dy" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dg7D$" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dg7DF" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="3M8YG$dto07">
+    <property role="TrG5h" value="IJsonKeyMapper" />
+    <node concept="3Tm1VV" id="3M8YG$dto08" role="1B3o_S" />
+    <node concept="3uibUv" id="3M8YG$dtosB" role="3HQHJm">
+      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+      <node concept="3uibUv" id="3M8YG$dtosC" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosD" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosE" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosF" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosG" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosH" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosI" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosJ" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosK" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosL" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosM" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosN" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosO" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
       </node>
     </node>
   </node>

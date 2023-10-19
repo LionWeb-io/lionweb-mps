@@ -166,7 +166,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="6VkSF6b37gQ">
-    <property role="TrG5h" value="MpsLanguageGuaranteedMapper" />
+    <property role="TrG5h" value="MpsBase64GuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6AoZd7" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6Ap0pn" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6Ap0po" role="3clF45" />
