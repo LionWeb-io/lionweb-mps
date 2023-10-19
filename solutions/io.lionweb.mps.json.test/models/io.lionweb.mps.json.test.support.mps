@@ -8,6 +8,7 @@
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -21,6 +22,7 @@
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
+    <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -179,6 +181,28 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
         <child id="8427750732757990725" name="actual" index="3tpDZA" />
@@ -205,6 +229,9 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -782,7 +809,7 @@
     <node concept="3Tm1VV" id="5wsogBcvCwW" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="68Be_yWuKF">
-    <property role="TrG5h" value="IdentitySLanguageGuaranteedMapper" />
+    <property role="TrG5h" value="SLanguageLongIdGuaranteedMapper" />
     <node concept="2tJIrI" id="68Be_yWzUN" role="jymVt" />
     <node concept="3Tm1VV" id="68Be_yWuKG" role="1B3o_S" />
     <node concept="3uibUv" id="68Be_yWzVn" role="1zkMxy">
@@ -811,6 +838,39 @@
         </node>
         <node concept="2AHcQZ" id="68Be_yW_tk" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$drROQ" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dgmjA" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dgmjB" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dgm_X" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dgmA3" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dgmA5" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dgmAc" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dgm_W" role="1dT_Ay">
+          <property role="1dT_AB" value=" for SLanguage, delegating to " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$drSkZ" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$drSlk" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$drSlm" role="2XjZqd">
+              <node concept="1dT_AC" id="3M8YG$drSlx" role="1dT_Ay">
+                <property role="1dT_AB" value="" />
+              </node>
+            </node>
+            <node concept="VXe08" id="3M8YG$drSlt" role="92FcQ">
+              <ref role="VXe09" to="faaz:5M3rB6A_o8o" resolve="SLanguageLongIdKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dgmB5" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
         </node>
       </node>
     </node>
