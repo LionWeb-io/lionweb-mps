@@ -177,7 +177,6 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
-      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -6963,69 +6962,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="4R9posqqs_o" role="1zxBo7">
-            <node concept="3cpWs8" id="4R9posr5ux3" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posr5ux4" role="3cpWs9">
-                <property role="TrG5h" value="conceptMP" />
-                <node concept="3uibUv" id="4R9posr5qne" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="4R9posr5ux5" role="33vP2m">
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="from" />
-                  <node concept="1eOMI4" id="4R9posr85Vi" role="37wK5m">
-                    <node concept="10QFUN" id="4R9posr85Vh" role="1eOMHV">
-                      <node concept="2OqwBi" id="4R9posr85Ve" role="10QFUP">
-                        <node concept="37vLTw" id="4R9posr85Vf" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4R9posqqs_Z" resolve="json" />
-                        </node>
-                        <node concept="liA8E" id="4R9posr85Vg" role="2OqNvi">
-                          <ref role="37wK5l" to="imb3:~Feature.getContainer()" resolve="getContainer" />
-                        </node>
-                      </node>
-                      <node concept="3uibUv" id="4R9posr85Vc" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~LanguageEntity" resolve="LanguageEntity" />
-                        <node concept="3qTvmN" id="4R9posr85Vd" role="11_B2D" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="7W6jYlyEWP6" role="3cqZAp">
-              <node concept="3KEzu6" id="7W6jYlyEWP7" role="3cpWs9">
-                <property role="TrG5h" value="tmp" />
-                <node concept="2ShNRf" id="7W6jYlyEWP8" role="33vP2m">
-                  <node concept="1pGfFk" id="7W6jYlyEWP9" role="2ShVmc">
-                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                  </node>
-                </node>
-                <node concept="PeGgZ" id="7W6jYlyEWPa" role="1tU5fm" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyEWPb" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyEWPc" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyEWPd" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyEWP7" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyEWPe" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setID(java.lang.String)" resolve="setID" />
-                  <node concept="10Nm6u" id="7W6jYlyEWPf" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyEWPg" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyEWPh" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyEWPi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyEWP7" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyEWPj" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setClassifier(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setClassifier" />
-                  <node concept="37vLTw" id="7W6jYlyEWPk" role="37wK5m">
-                    <ref role="3cqZAo" node="4R9posr5ux4" resolve="conceptMP" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="4R9posqCbaK" role="3cqZAp">
               <node concept="3cpWsn" id="4R9posqCbaL" role="3cpWs9">
                 <property role="TrG5h" value="result" />
@@ -7041,8 +6977,13 @@
                     <node concept="37vLTw" id="4R9posr5m$w" role="37wK5m">
                       <ref role="3cqZAo" node="4R9posr7GSt" resolve="concept" />
                     </node>
-                    <node concept="37vLTw" id="7W6jYlyFCf9" role="37wK5m">
-                      <ref role="3cqZAo" node="7W6jYlyEWP7" resolve="tmp" />
+                    <node concept="2OqwBi" id="3M8YG$e4W5P" role="37wK5m">
+                      <node concept="37vLTw" id="7W6jYlyFCf9" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqs_Z" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$e51Gb" role="2OqNvi">
+                        <ref role="37wK5l" to="tzx8:~M3Node.getParent()" resolve="getParent" />
+                      </node>
                     </node>
                     <node concept="2OqwBi" id="3M8YG$dZlQl" role="37wK5m">
                       <node concept="37vLTw" id="18UigYPRB4n" role="2Oq$k0">
@@ -7149,69 +7090,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="4R9posqqsAj" role="1zxBo7">
-            <node concept="3cpWs8" id="4R9posrbb3d" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posrbb3e" role="3cpWs9">
-                <property role="TrG5h" value="conceptMP" />
-                <node concept="3uibUv" id="4R9posrbb3f" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="4R9posrbb3g" role="33vP2m">
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="from" />
-                  <node concept="1eOMI4" id="4R9posrbb3h" role="37wK5m">
-                    <node concept="10QFUN" id="4R9posrbb3i" role="1eOMHV">
-                      <node concept="2OqwBi" id="4R9posrbb3j" role="10QFUP">
-                        <node concept="37vLTw" id="4R9posrbb3k" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4R9posqqsAU" resolve="json" />
-                        </node>
-                        <node concept="liA8E" id="4R9posrbb3l" role="2OqNvi">
-                          <ref role="37wK5l" to="imb3:~Feature.getContainer()" resolve="getContainer" />
-                        </node>
-                      </node>
-                      <node concept="3uibUv" id="4R9posrbb3m" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~LanguageEntity" resolve="LanguageEntity" />
-                        <node concept="3qTvmN" id="4R9posrbb3n" role="11_B2D" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="7W6jYlyGlVZ" role="3cqZAp">
-              <node concept="3KEzu6" id="7W6jYlyGlW0" role="3cpWs9">
-                <property role="TrG5h" value="tmp" />
-                <node concept="2ShNRf" id="7W6jYlyGlW1" role="33vP2m">
-                  <node concept="1pGfFk" id="7W6jYlyGlW2" role="2ShVmc">
-                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                  </node>
-                </node>
-                <node concept="PeGgZ" id="7W6jYlyGlW3" role="1tU5fm" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyGlW4" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyGlW5" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyGlW6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyGlW0" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyGlW7" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setID(java.lang.String)" resolve="setID" />
-                  <node concept="10Nm6u" id="7W6jYlyGlW8" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyGlW9" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyGlWa" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyGlWb" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyGlW0" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyGlWc" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setClassifier(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setClassifier" />
-                  <node concept="37vLTw" id="7W6jYlyGlWd" role="37wK5m">
-                    <ref role="3cqZAo" node="4R9posrbb3e" resolve="conceptMP" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="4R9posqFu6S" role="3cqZAp">
               <node concept="3cpWsn" id="4R9posqFu6T" role="3cpWs9">
                 <property role="TrG5h" value="result" />
@@ -7227,8 +7105,13 @@
                     <node concept="37vLTw" id="4R9posrb520" role="37wK5m">
                       <ref role="3cqZAo" node="4R9posrapRF" resolve="concept" />
                     </node>
-                    <node concept="37vLTw" id="7W6jYlyG$Cg" role="37wK5m">
-                      <ref role="3cqZAo" node="7W6jYlyGlW0" resolve="tmp" />
+                    <node concept="2OqwBi" id="3M8YG$e553W" role="37wK5m">
+                      <node concept="37vLTw" id="3M8YG$e553X" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqsAU" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$e553Y" role="2OqNvi">
+                        <ref role="37wK5l" to="tzx8:~M3Node.getParent()" resolve="getParent" />
+                      </node>
                     </node>
                     <node concept="2OqwBi" id="3M8YG$dZ$$G" role="37wK5m">
                       <node concept="37vLTw" id="18UigYPRSDe" role="2Oq$k0">
@@ -7402,69 +7285,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="1xqd6ptJlob" role="1zxBo7">
-            <node concept="3cpWs8" id="1xqd6ptJloc" role="3cqZAp">
-              <node concept="3cpWsn" id="1xqd6ptJlod" role="3cpWs9">
-                <property role="TrG5h" value="conceptMP" />
-                <node concept="3uibUv" id="1xqd6ptJloe" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="1xqd6ptJlof" role="33vP2m">
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="from" />
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <node concept="1eOMI4" id="1xqd6ptJlog" role="37wK5m">
-                    <node concept="10QFUN" id="1xqd6ptJloh" role="1eOMHV">
-                      <node concept="2OqwBi" id="1xqd6ptJloi" role="10QFUP">
-                        <node concept="37vLTw" id="1xqd6ptJloj" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1xqd6ptJlp6" resolve="json" />
-                        </node>
-                        <node concept="liA8E" id="1xqd6ptJlok" role="2OqNvi">
-                          <ref role="37wK5l" to="imb3:~Feature.getContainer()" resolve="getContainer" />
-                        </node>
-                      </node>
-                      <node concept="3uibUv" id="1xqd6ptJlol" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~LanguageEntity" resolve="LanguageEntity" />
-                        <node concept="3qTvmN" id="1xqd6ptJlom" role="11_B2D" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="1xqd6ptJlos" role="3cqZAp">
-              <node concept="3KEzu6" id="1xqd6ptJlot" role="3cpWs9">
-                <property role="TrG5h" value="tmp" />
-                <node concept="2ShNRf" id="1xqd6ptJlou" role="33vP2m">
-                  <node concept="1pGfFk" id="1xqd6ptJlov" role="2ShVmc">
-                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                  </node>
-                </node>
-                <node concept="PeGgZ" id="1xqd6ptJlow" role="1tU5fm" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="1xqd6ptJlox" role="3cqZAp">
-              <node concept="2OqwBi" id="1xqd6ptJloy" role="3clFbG">
-                <node concept="37vLTw" id="1xqd6ptJloz" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1xqd6ptJlot" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="1xqd6ptJlo$" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setID(java.lang.String)" resolve="setID" />
-                  <node concept="10Nm6u" id="1xqd6ptJlo_" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="1xqd6ptJloA" role="3cqZAp">
-              <node concept="2OqwBi" id="1xqd6ptJloB" role="3clFbG">
-                <node concept="37vLTw" id="1xqd6ptJloC" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1xqd6ptJlot" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="1xqd6ptJloD" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setClassifier(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setClassifier" />
-                  <node concept="37vLTw" id="1xqd6ptJloE" role="37wK5m">
-                    <ref role="3cqZAo" node="1xqd6ptJlod" resolve="conceptMP" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="1xqd6ptJloF" role="3cqZAp">
               <node concept="3cpWsn" id="1xqd6ptJloG" role="3cpWs9">
                 <property role="TrG5h" value="result" />
@@ -7480,8 +7300,13 @@
                     <node concept="37vLTw" id="1xqd6ptJloL" role="37wK5m">
                       <ref role="3cqZAo" node="1xqd6ptJlp3" resolve="concept" />
                     </node>
-                    <node concept="37vLTw" id="1xqd6ptJloM" role="37wK5m">
-                      <ref role="3cqZAo" node="1xqd6ptJlot" resolve="tmp" />
+                    <node concept="2OqwBi" id="3M8YG$e5jvC" role="37wK5m">
+                      <node concept="37vLTw" id="3M8YG$e5jvD" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1xqd6ptJlp6" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$e5jvE" role="2OqNvi">
+                        <ref role="37wK5l" to="tzx8:~M3Node.getParent()" resolve="getParent" />
+                      </node>
                     </node>
                     <node concept="2OqwBi" id="3M8YG$dZMyo" role="37wK5m">
                       <node concept="37vLTw" id="1xqd6ptJloN" role="2Oq$k0">
@@ -7586,69 +7411,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="4R9posqqsBe" role="1zxBo7">
-            <node concept="3cpWs8" id="4R9posrg6e0" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posrg6e1" role="3cpWs9">
-                <property role="TrG5h" value="conceptMP" />
-                <node concept="3uibUv" id="4R9posrg6e2" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="4R9posrg6e3" role="33vP2m">
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="from" />
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <node concept="1eOMI4" id="4R9posrg6e4" role="37wK5m">
-                    <node concept="10QFUN" id="4R9posrg6e5" role="1eOMHV">
-                      <node concept="2OqwBi" id="4R9posrg6e6" role="10QFUP">
-                        <node concept="37vLTw" id="4R9posrg6e7" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4R9posqqsBP" resolve="json" />
-                        </node>
-                        <node concept="liA8E" id="4R9posrg6e8" role="2OqNvi">
-                          <ref role="37wK5l" to="imb3:~Feature.getContainer()" resolve="getContainer" />
-                        </node>
-                      </node>
-                      <node concept="3uibUv" id="4R9posrg6e9" role="10QFUM">
-                        <ref role="3uigEE" to="imb3:~LanguageEntity" resolve="LanguageEntity" />
-                        <node concept="3qTvmN" id="4R9posrg6ea" role="11_B2D" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="7W6jYlyBEfB" role="3cqZAp">
-              <node concept="3KEzu6" id="7W6jYlyBS8R" role="3cpWs9">
-                <property role="TrG5h" value="tmp" />
-                <node concept="2ShNRf" id="7W6jYlyBS90" role="33vP2m">
-                  <node concept="1pGfFk" id="7W6jYlyBS91" role="2ShVmc">
-                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                  </node>
-                </node>
-                <node concept="PeGgZ" id="7W6jYlyBS8Q" role="1tU5fm" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyAZki" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyB27v" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyAZkg" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyBS8R" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyB4VR" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setID(java.lang.String)" resolve="setID" />
-                  <node concept="10Nm6u" id="7W6jYlyCZrj" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyBdGC" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyBfPu" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyBdGA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyBS8R" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyBjl6" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setClassifier(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setClassifier" />
-                  <node concept="37vLTw" id="7W6jYlyBmnr" role="37wK5m">
-                    <ref role="3cqZAo" node="4R9posrg6e1" resolve="conceptMP" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="4R9posqGD07" role="3cqZAp">
               <node concept="3cpWsn" id="4R9posqGD08" role="3cpWs9">
                 <property role="TrG5h" value="result" />
@@ -7664,8 +7426,13 @@
                     <node concept="37vLTw" id="4R9posrgsYs" role="37wK5m">
                       <ref role="3cqZAo" node="4R9posraD1K" resolve="concept" />
                     </node>
-                    <node concept="37vLTw" id="7W6jYlyBEfH" role="37wK5m">
-                      <ref role="3cqZAo" node="7W6jYlyBS8R" resolve="tmp" />
+                    <node concept="2OqwBi" id="3M8YG$e5sQw" role="37wK5m">
+                      <node concept="37vLTw" id="3M8YG$e5sQx" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqsBP" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$e5sQy" role="2OqNvi">
+                        <ref role="37wK5l" to="tzx8:~M3Node.getParent()" resolve="getParent" />
+                      </node>
                     </node>
                     <node concept="2OqwBi" id="3M8YG$dZYuN" role="37wK5m">
                       <node concept="37vLTw" id="3M8YG$dZYuO" role="2Oq$k0">
@@ -7918,79 +7685,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="4R9posqSV6O" role="1zxBo7">
-            <node concept="3SKdUt" id="3M8YG$bFTJO" role="3cqZAp">
-              <node concept="1PaTwC" id="3M8YG$bFTJP" role="1aUNEU">
-                <node concept="3oM_SD" id="3M8YG$bFWtl" role="1PaTwD">
-                  <property role="3oM_SC" value="TODO:" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtn" role="1PaTwD">
-                  <property role="3oM_SC" value="replace" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtq" role="1PaTwD">
-                  <property role="3oM_SC" value="with" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtu" role="1PaTwD">
-                  <property role="3oM_SC" value="json.getEnumeration()" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtz" role="1PaTwD">
-                  <property role="3oM_SC" value="once" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtK" role="1PaTwD">
-                  <property role="3oM_SC" value="https://github.com/LionWeb-io/lioncore-java/issues/97" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtR" role="1PaTwD">
-                  <property role="3oM_SC" value="is" />
-                </node>
-                <node concept="3oM_SD" id="3M8YG$bFWtZ" role="1PaTwD">
-                  <property role="3oM_SC" value="fixed" />
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="7W6jYlyDZXp" role="3cqZAp">
-              <node concept="3KEzu6" id="7W6jYlyDZXq" role="3cpWs9">
-                <property role="TrG5h" value="tmp" />
-                <node concept="2ShNRf" id="7W6jYlyDZXr" role="33vP2m">
-                  <node concept="1pGfFk" id="7W6jYlyDZXs" role="2ShVmc">
-                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                  </node>
-                </node>
-                <node concept="PeGgZ" id="7W6jYlyDZXt" role="1tU5fm" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyDZXu" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyDZXv" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyDZXw" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyDZXq" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyDZXx" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setID(java.lang.String)" resolve="setID" />
-                  <node concept="10Nm6u" id="7W6jYlyDZXy" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7W6jYlyDZXz" role="3cqZAp">
-              <node concept="2OqwBi" id="7W6jYlyDZX$" role="3clFbG">
-                <node concept="37vLTw" id="7W6jYlyDZX_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7W6jYlyDZXq" resolve="tmp" />
-                </node>
-                <node concept="liA8E" id="7W6jYlyDZXA" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.setClassifier(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="setClassifier" />
-                  <node concept="2YIFZM" id="4R9posqSV72" role="37wK5m">
-                    <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                    <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.LanguageEntity)" resolve="from" />
-                    <node concept="2OqwBi" id="4R9posqSV73" role="37wK5m">
-                      <node concept="37vLTw" id="4R9posqSV74" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
-                      </node>
-                      <node concept="liA8E" id="4R9posqSV75" role="2OqNvi">
-                        <ref role="37wK5l" to="imb3:~EnumerationLiteral.getConcept()" resolve="getConcept" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="7W6jYlyDZWA" role="3cqZAp" />
             <node concept="3cpWs8" id="4R9posqSV6P" role="3cqZAp">
               <node concept="3cpWsn" id="4R9posqSV6Q" role="3cpWs9">
                 <property role="TrG5h" value="result" />
@@ -8006,8 +7700,13 @@
                     <node concept="37vLTw" id="3M8YG$bEO0q" role="37wK5m">
                       <ref role="3cqZAo" node="4R9posqqsEl" resolve="mpsEnum" />
                     </node>
-                    <node concept="37vLTw" id="7W6jYlyHqvL" role="37wK5m">
-                      <ref role="3cqZAo" node="7W6jYlyDZXq" resolve="tmp" />
+                    <node concept="2OqwBi" id="3M8YG$e5Fj4" role="37wK5m">
+                      <node concept="37vLTw" id="3M8YG$e5Fj5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$e5Fj6" role="2OqNvi">
+                        <ref role="37wK5l" to="tzx8:~M3Node.getParent()" resolve="getParent" />
+                      </node>
                     </node>
                     <node concept="2OqwBi" id="3M8YG$dZ7Bp" role="37wK5m">
                       <node concept="37vLTw" id="3M8YG$dZ5Aj" role="2Oq$k0">
