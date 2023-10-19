@@ -1397,6 +1397,9 @@
                       <node concept="XOnhg" id="6VkSF6cbtsn" role="1zc67B">
                         <property role="TrG5h" value="e" />
                         <node concept="nSUau" id="6VkSF6cbtso" role="1tU5fm">
+                          <node concept="3uibUv" id="3M8YG$dobWe" role="nSUat">
+                            <ref role="3uigEE" to="wyt6:~NumberFormatException" resolve="NumberFormatException" />
+                          </node>
                           <node concept="3uibUv" id="6VkSF6cbucT" role="nSUat">
                             <ref role="3uigEE" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
                           </node>
@@ -1680,9 +1683,53 @@
         <ref role="3uigEE" to="en45:48csSBO3vyi" resolve="NotAnAdapterException" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$do5PQ" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$do5PR" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$do5PS" role="1dT_Ay">
+          <property role="1dT_AB" value="Extracts SLanguage ids from SLanguage elements." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$do6R1" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$do6R2" role="1dT_Ay">
+          <property role="1dT_AB" value="Signals unsuccessful extraction by throwing " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$do8Tp" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$do8Tv" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$do8Tx" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$do8TC" role="92FcQ">
+              <ref role="VXe09" to="en45:3M8YG$bjvpJ" resolve="ASLanguageIdException" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$do8To" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$do8TF" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$do8TG" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$do8TS" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$do8TT" role="1dT_Ay">
+          <property role="1dT_AB" value="NOTE: Cannot be implemented as " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$do9Va" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$do9Vg" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$do9Vi" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$do9Vp" role="92FcQ">
+              <ref role="VXe09" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$do9V9" role="1dT_Ay">
+          <property role="1dT_AB" value=", as we want to return richer types than `String`." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6VkSF6aJwZw">
-    <property role="TrG5h" value="SLanguageLongIdMapper" />
+    <property role="TrG5h" value="SLanguageLongGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6AAfk1" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6AAbRG" role="jymVt">
       <node concept="37vLTG" id="5M3rB6AAbRH" role="3clF46">
@@ -1707,7 +1754,7 @@
       <node concept="3Tm1VV" id="5M3rB6AAbRO" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6AAbRP" role="3clF47">
         <node concept="XkiVB" id="5M3rB6AAbRQ" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6B2OEL" resolve="ASLanguageKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6B2OEL" resolve="ASLanguageGuaranteedMapper" />
           <node concept="2ShNRf" id="5M3rB6AAbRR" role="37wK5m">
             <node concept="1pGfFk" id="5M3rB6AAbRS" role="2ShVmc">
               <ref role="37wK5l" node="5M3rB6_Y03H" resolve="SLanguageAttributeKeyMapper" />
@@ -1729,11 +1776,11 @@
     </node>
     <node concept="3Tm1VV" id="6VkSF6aJwZx" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6B2Ra6" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6B2O$B" resolve="ASLanguageGuaranteedMapper" />
     </node>
   </node>
   <node concept="312cEu" id="2fx6VTSN_nf">
-    <property role="TrG5h" value="SLanguageBase64IdMapper" />
+    <property role="TrG5h" value="SLanguageBase64GuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6AyHez" role="jymVt" />
     <node concept="3clFbW" id="6fYiNFaC6ei" role="jymVt">
       <node concept="37vLTG" id="5M3rB6_VhGE" role="3clF46">
@@ -1758,7 +1805,7 @@
       <node concept="3Tm1VV" id="6fYiNFaC6eo" role="1B3o_S" />
       <node concept="3clFbS" id="6fYiNFaC6ep" role="3clF47">
         <node concept="XkiVB" id="6fYiNFaC6eq" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6B2OEL" resolve="ASLanguageKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6B2OEL" resolve="ASLanguageGuaranteedMapper" />
           <node concept="15s5l7" id="5M3rB6BmSRA" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToLionWebKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;SLanguage,SAbstractConcept,SConcept,SInterfaceConcept,SProperty,SAbstractLink,SContainmentLink,SReferenceLink,SDataType,SDataType,SEnumeration,SEnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
             <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToLionWebKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;SLanguage,SAbstractConcept,SConcept,SInterfaceConcept,SProperty,SAbstractLink,SContainmentLink,SReferenceLink,SDataType,SDataType,SEnumeration,SEnumerationLiteral&gt;" />
@@ -1793,7 +1840,7 @@
     </node>
     <node concept="3Tm1VV" id="2fx6VTSN_nx" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6B2QnO" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6B2O$B" resolve="ASLanguageGuaranteedMapper" />
     </node>
     <node concept="3UR2Jj" id="3M8YG$dgmj_" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dgmjA" role="TZ5H$">
@@ -1804,7 +1851,7 @@
           <node concept="92FcH" id="3M8YG$dgmA3" role="qph3F">
             <node concept="TZ5HA" id="3M8YG$dgmA5" role="2XjZqd" />
             <node concept="VXe08" id="3M8YG$dgmAc" role="92FcQ">
-              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedKeyMapper" />
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
             </node>
           </node>
         </node>
@@ -3007,6 +3054,11 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dorlC" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dorlD" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dorlE" role="1dT_Ay" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5M3rB6A_o8o">
     <property role="TrG5h" value="SLanguageLongIdKeyMapper" />
@@ -3685,12 +3737,12 @@
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6B2O$B">
-    <property role="TrG5h" value="ASLanguageKeyMapper" />
+    <property role="TrG5h" value="ASLanguageGuaranteedMapper" />
     <property role="1sVAO0" value="true" />
     <node concept="2tJIrI" id="5M3rB6B2PHM" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6B2O$C" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAAOr" role="1zkMxy">
-      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
+      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedMapper" />
       <node concept="3uibUv" id="5M3rB6B2OC7" role="11_B2D">
         <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
       </node>
@@ -3828,7 +3880,7 @@
       </node>
       <node concept="3clFbS" id="5M3rB6B2OF3" role="3clF47">
         <node concept="XkiVB" id="5M3rB6B2OF4" role="3cqZAp">
-          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedKeyMapper" />
+          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedMapper" />
           <node concept="37vLTw" id="5M3rB6B2OF5" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6B2OEZ" resolve="delegates" />
           </node>
@@ -3844,7 +3896,7 @@
           <node concept="92FcH" id="3M8YG$dg7Dy" role="qph3F">
             <node concept="TZ5HA" id="3M8YG$dg7D$" role="2XjZqd" />
             <node concept="VXe08" id="3M8YG$dg7DF" role="92FcQ">
-              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedKeyMapper" />
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
             </node>
           </node>
         </node>

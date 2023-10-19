@@ -95,14 +95,14 @@
     </language>
   </registry>
   <node concept="312cEu" id="6VkSF6clvWd">
-    <property role="TrG5h" value="JsonDirectLanguageIdMapper" />
+    <property role="TrG5h" value="JsonDirectLanguageGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6Aw3Ys" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6Aw8DZ" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6Aw8E1" role="3clF45" />
       <node concept="3Tm1VV" id="5M3rB6Aw8E2" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6Aw8E3" role="3clF47">
         <node concept="XkiVB" id="5M3rB6AwbaE" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonGuaranteedMapper" />
           <node concept="2ShNRf" id="5M3rB6Awdit" role="37wK5m">
             <node concept="HV5vD" id="5M3rB6AwfWU" role="2ShVmc">
               <ref role="HV5vE" node="5M3rB6A0Hk2" resolve="JsonKeyMapper" />
@@ -113,18 +113,18 @@
     </node>
     <node concept="3Tm1VV" id="6VkSF6clvWe" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAGUC" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
     </node>
   </node>
   <node concept="312cEu" id="39$JcGEIAYT">
-    <property role="TrG5h" value="JsonBase64LanguageIdMapper" />
+    <property role="TrG5h" value="JsonBase64LanguageGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6_Nil2" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6_MVsD" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6_MVsF" role="3clF45" />
       <node concept="3Tm1VV" id="5M3rB6_MVsG" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6_MVsH" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Av$rz" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonGuaranteedMapper" />
           <node concept="15s5l7" id="3IncSZJiBD5" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
             <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
@@ -175,7 +175,7 @@
     </node>
     <node concept="3Tm1VV" id="39$JcGEIAYU" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAEPa" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6A0Hk2">
@@ -578,12 +578,12 @@
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6AAAMp">
-    <property role="TrG5h" value="AJsonKeyMapper" />
+    <property role="TrG5h" value="AJsonGuaranteedMapper" />
     <property role="1sVAO0" value="true" />
     <node concept="2tJIrI" id="5M3rB6AACIp" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6AAAMq" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAAOr" role="1zkMxy">
-      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
+      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedMapper" />
       <node concept="3uibUv" id="5M3rB6AAAR6" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
@@ -721,7 +721,7 @@
       </node>
       <node concept="3clFbS" id="5M3rB6AAAVX" role="3clF47">
         <node concept="XkiVB" id="5M3rB6AAAVY" role="3cqZAp">
-          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedKeyMapper" />
+          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedMapper" />
           <node concept="37vLTw" id="5M3rB6AAAVZ" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6AAAVT" resolve="delegates" />
           </node>

@@ -541,7 +541,7 @@
           <node concept="92FcH" id="3M8YG$dfm9L" role="qph3F">
             <node concept="TZ5HA" id="3M8YG$dfm9N" role="2XjZqd" />
             <node concept="VXe08" id="3M8YG$dfm9U" role="92FcQ">
-              <ref role="VXe09" node="5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
+              <ref role="VXe09" node="5M3rB6AdZTf" resolve="CompositeGuaranteedMapper" />
             </node>
           </node>
         </node>
@@ -3655,7 +3655,7 @@
     </node>
   </node>
   <node concept="3HP615" id="5M3rB6AdD96">
-    <property role="TrG5h" value="IGuaranteedKeyMapper" />
+    <property role="TrG5h" value="IGuaranteedMapper" />
     <node concept="3Tm1VV" id="5M3rB6AdD97" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AdDo4" role="3HQHJm">
       <ref role="3uigEE" node="6VkSF6aHjES" resolve="IKeyMapper" />
@@ -4004,7 +4004,7 @@
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6AdZTf">
-    <property role="TrG5h" value="CompositeGuaranteedKeyMapper" />
+    <property role="TrG5h" value="CompositeGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6Ae8r0" role="jymVt" />
     <node concept="312cEg" id="5M3rB6AefuF" role="jymVt">
       <property role="TrG5h" value="delegates" />
@@ -4140,7 +4140,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="5M3rB6Ae3nh" role="EKbjA">
-      <ref role="3uigEE" node="5M3rB6AdD96" resolve="IGuaranteedKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6AdD96" resolve="IGuaranteedMapper" />
       <node concept="16syzq" id="5M3rB6Ae5iW" role="11_B2D">
         <ref role="16sUi3" node="5M3rB6Ae38o" resolve="LANGUAGE" />
       </node>

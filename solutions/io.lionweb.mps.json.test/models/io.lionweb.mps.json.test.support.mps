@@ -17,10 +17,10 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -782,18 +782,18 @@
     <node concept="3Tm1VV" id="5wsogBcvCwW" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="68Be_yWuKF">
-    <property role="TrG5h" value="IdentitySLanguageKeyMapper" />
+    <property role="TrG5h" value="IdentitySLanguageGuaranteedMapper" />
     <node concept="2tJIrI" id="68Be_yWzUN" role="jymVt" />
     <node concept="3Tm1VV" id="68Be_yWuKG" role="1B3o_S" />
     <node concept="3uibUv" id="68Be_yWzVn" role="1zkMxy">
-      <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageKeyMapper" />
+      <ref role="3uigEE" to="faaz:5M3rB6B2O$B" resolve="ASLanguageGuaranteedMapper" />
     </node>
     <node concept="3clFbW" id="68Be_yWzVO" role="jymVt">
       <node concept="3cqZAl" id="68Be_yWzVP" role="3clF45" />
       <node concept="3Tm1VV" id="68Be_yWzVQ" role="1B3o_S" />
       <node concept="3clFbS" id="68Be_yWzVS" role="3clF47">
         <node concept="XkiVB" id="68Be_yWzVU" role="3cqZAp">
-          <ref role="37wK5l" to="faaz:5M3rB6B2OEL" resolve="ASLanguageKeyMapper" />
+          <ref role="37wK5l" to="faaz:5M3rB6B2OEL" resolve="ASLanguageGuaranteedMapper" />
           <node concept="2ShNRf" id="68Be_yW$dL" role="37wK5m">
             <node concept="1pGfFk" id="68Be_yW$Xx" role="2ShVmc">
               <ref role="37wK5l" to="faaz:5M3rB6A_o8u" resolve="SLanguageLongIdKeyMapper" />

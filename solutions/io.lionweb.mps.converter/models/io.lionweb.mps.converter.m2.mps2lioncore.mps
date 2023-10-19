@@ -378,7 +378,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="6VkSF6b2GJK" role="1B3o_S" />
       <node concept="3uibUv" id="5M3rB6AjOAS" role="1tU5fm">
-        <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsKeyMapper" />
+        <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsGuaranteedMapper" />
       </node>
     </node>
     <node concept="312cEg" id="5AGBwuDD_bQ" role="jymVt">
@@ -730,7 +730,7 @@
       <node concept="37vLTG" id="6VkSF6b2Ed7" role="3clF46">
         <property role="TrG5h" value="idMapper" />
         <node concept="3uibUv" id="5M3rB6B2Llj" role="1tU5fm">
-          <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsKeyMapper" />
+          <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsGuaranteedMapper" />
         </node>
         <node concept="2AHcQZ" id="5M3rB6B_2lY" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />

@@ -139,14 +139,14 @@
     </language>
   </registry>
   <node concept="312cEu" id="6VkSF6b37gQ">
-    <property role="TrG5h" value="MpsLanguageIdMapper" />
+    <property role="TrG5h" value="MpsLanguageGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6AoZd7" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6Ap0pn" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6Ap0po" role="3clF45" />
       <node concept="3Tm1VV" id="5M3rB6Ap0pp" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6Ap0pq" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Ap0pr" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6B0Ccf" resolve="AMpsKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6B0Ccf" resolve="AMpsGuaranteedMapper" />
           <node concept="15s5l7" id="5M3rB6BmR25" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToLionWebKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;model,node&lt;AbstractConceptDeclaration&gt;,node&lt;ConceptDeclaration&gt;,node&lt;InterfaceConceptDeclaration&gt;,node&lt;PropertyDeclaration&gt;,node&lt;LinkDeclaration&gt;,node&lt;LinkDeclaration&gt;,node&lt;LinkDeclaration&gt;,node&lt;DataTypeDeclaration&gt;,node&lt;DataTypeDeclaration&gt;,node&lt;EnumerationDeclaration&gt;,node&lt;EnumerationMemberDeclaration&gt;&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
             <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.EncodeToLionWebKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;model,node&lt;AbstractConceptDeclaration&gt;,node&lt;ConceptDeclaration&gt;,node&lt;InterfaceConceptDeclaration&gt;,node&lt;PropertyDeclaration&gt;,node&lt;LinkDeclaration&gt;,node&lt;LinkDeclaration&gt;,node&lt;LinkDeclaration&gt;,node&lt;DataTypeDeclaration&gt;,node&lt;DataTypeDeclaration&gt;,node&lt;EnumerationDeclaration&gt;,node&lt;EnumerationMemberDeclaration&gt;&gt;" />
@@ -187,18 +187,18 @@
     </node>
     <node concept="3Tm1VV" id="6VkSF6b37gR" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6B0ETB" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6B0BT$" resolve="AMpsKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6B0BT$" resolve="AMpsGuaranteedMapper" />
     </node>
   </node>
   <node concept="312cEu" id="2fx6VTTDQCB">
-    <property role="TrG5h" value="MpsCompatibleKeyMapper" />
+    <property role="TrG5h" value="MpsCompatibleGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6AoYDu" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6Akry7" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6Akry9" role="3clF45" />
       <node concept="3Tm1VV" id="5M3rB6Akrya" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6Akryb" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Akxfo" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6B0Ccf" resolve="AMpsKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6B0Ccf" resolve="AMpsGuaranteedMapper" />
           <node concept="2ShNRf" id="5M3rB6Aky17" role="37wK5m">
             <node concept="1pGfFk" id="5M3rB6AkzVe" role="2ShVmc">
               <ref role="37wK5l" node="5M3rB6_Vh80" resolve="MpsAttributeKeyMapper" />
@@ -226,7 +226,7 @@
     </node>
     <node concept="3Tm1VV" id="2fx6VTTDQCD" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AjOAS" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6B0BT$" resolve="AMpsKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6B0BT$" resolve="AMpsGuaranteedMapper" />
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6_USGQ">
@@ -1797,12 +1797,12 @@
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6B0BT$">
-    <property role="TrG5h" value="AMpsKeyMapper" />
+    <property role="TrG5h" value="AMpsGuaranteedMapper" />
     <property role="1sVAO0" value="true" />
     <node concept="2tJIrI" id="5M3rB6BpXYr" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6B0BT_" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAAOr" role="1zkMxy">
-      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
+      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedMapper" />
       <node concept="H_c77" id="5M3rB6B0BX8" role="11_B2D" />
       <node concept="3Tqbb2" id="5M3rB6B0BX9" role="11_B2D">
         <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
@@ -1934,7 +1934,7 @@
       </node>
       <node concept="3clFbS" id="5M3rB6B0Ccx" role="3clF47">
         <node concept="XkiVB" id="5M3rB6B0Ccy" role="3cqZAp">
-          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedKeyMapper" />
+          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedMapper" />
           <node concept="37vLTw" id="5M3rB6B0Ccz" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6B0Cct" resolve="delegates" />
           </node>

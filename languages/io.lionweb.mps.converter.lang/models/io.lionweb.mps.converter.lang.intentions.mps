@@ -596,11 +596,11 @@
               <node concept="3cpWsn" id="5M3rB6C9D6x" role="3cpWs9">
                 <property role="TrG5h" value="mapper" />
                 <node concept="3uibUv" id="5M3rB6C9D0X" role="1tU5fm">
-                  <ref role="3uigEE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
+                  <ref role="3uigEE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageGuaranteedMapper" />
                 </node>
                 <node concept="2ShNRf" id="5M3rB6C9D6y" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6C9D6z" role="2ShVmc">
-                    <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+                    <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageGuaranteedMapper" />
                   </node>
                 </node>
               </node>
@@ -1009,11 +1009,11 @@
               <node concept="3cpWsn" id="5M3rB6C9ATH" role="3cpWs9">
                 <property role="TrG5h" value="mapper" />
                 <node concept="3uibUv" id="5M3rB6C9AOf" role="1tU5fm">
-                  <ref role="3uigEE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
+                  <ref role="3uigEE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageGuaranteedMapper" />
                 </node>
                 <node concept="2ShNRf" id="5M3rB6C9ATI" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6C9ATJ" role="2ShVmc">
-                    <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageIdMapper" />
+                    <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageGuaranteedMapper" />
                   </node>
                 </node>
               </node>

@@ -1378,11 +1378,11 @@
           <node concept="3cpWsn" id="5M3rB6BZTDf" role="3cpWs9">
             <property role="TrG5h" value="jsonKeyMapper" />
             <node concept="3uibUv" id="5M3rB6BZScy" role="1tU5fm">
-              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+              <ref role="3uigEE" to="j5yh:5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BZTDg" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BZTDh" role="2ShVmc">
-                <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+                <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageGuaranteedMapper" />
               </node>
             </node>
           </node>
