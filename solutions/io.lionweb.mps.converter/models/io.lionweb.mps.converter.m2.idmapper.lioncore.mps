@@ -77,6 +77,9 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
@@ -585,47 +588,8 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3uibUv" id="5M3rB6A0Wu8" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="3Tqbb2" id="5M3rB6A0Wu9" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wua" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wub" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wuc" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
-      </node>
-      <node concept="3Tqbb2" id="7W6jYlzwc2g" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wud" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkkDM" resolve="Property" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wue" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkkIF" resolve="Link" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wuf" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkkU6" resolve="Containment" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wug" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkkYZ" resolve="Reference" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wuh" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjko0M" resolve="DataType" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wui" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjko87" resolve="PrimitiveType" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wuj" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkod0" resolve="Enumeration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6A0Wuk" role="11_B2D">
-        <ref role="ehGHo" to="h3y3:2ju2syjkoij" resolve="EnumerationLiteral" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtz85" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dty7w" resolve="ILionCoreKeyMapper" />
     </node>
     <node concept="3UR2Jj" id="3M8YG$dsIkS" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dsIkT" role="TZ5H$">
@@ -800,6 +764,70 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
+          <property role="1dT_AB" value=" for M3 elements." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="3M8YG$dty7w">
+    <property role="TrG5h" value="ILionCoreKeyMapper" />
+    <node concept="3Tm1VV" id="3M8YG$dty7x" role="1B3o_S" />
+    <node concept="3uibUv" id="3M8YG$dty86" role="3HQHJm">
+      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+      <node concept="3Tqbb2" id="3M8YG$dtybl" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybm" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybn" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybo" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybp" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybq" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkkDM" resolve="Property" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybr" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkkIF" resolve="Link" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybs" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkkU6" resolve="Containment" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybt" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkkYZ" resolve="Reference" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybu" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjko0M" resolve="DataType" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybv" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjko87" resolve="PrimitiveType" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybw" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkod0" resolve="Enumeration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtybx" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:2ju2syjkoij" resolve="EnumerationLiteral" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dEDaN" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dED78" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dED79" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dED7Z" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dED85" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dED87" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dED8e" role="92FcQ">
+              <ref role="VXe09" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dED7Y" role="1dT_Ay">
           <property role="1dT_AB" value=" for M3 elements." />
         </node>
       </node>

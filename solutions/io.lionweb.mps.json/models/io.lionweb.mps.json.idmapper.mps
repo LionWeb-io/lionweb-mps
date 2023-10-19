@@ -259,46 +259,7 @@
     <property role="TrG5h" value="JsonKeyMapper" />
     <node concept="3Tm1VV" id="5M3rB6A0Hk3" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6A0N8y" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="3uibUv" id="5M3rB6A0N8z" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
-      </node>
-      <node concept="3uibUv" id="39$JcGGbiHo" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8_" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
-      </node>
-      <node concept="3uibUv" id="1xqd6ptU61a" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
-      </node>
-      <node concept="3uibUv" id="7W6jYlzwt0L" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8B" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8C" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8D" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8E" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8F" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8G" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8H" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8I" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
-      </node>
+      <ref role="3uigEE" node="3M8YG$dto07" resolve="IJsonKeyMapper" />
     </node>
     <node concept="3clFb_" id="5M3rB6A0Hk5" role="jymVt">
       <property role="TrG5h" value="mapLanguage" />
@@ -874,6 +835,24 @@
       </node>
       <node concept="3uibUv" id="3M8YG$dtosO" role="11_B2D">
         <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dEDf7" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dED78" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dED79" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dED7Z" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dED85" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dED87" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dED8e" role="92FcQ">
+              <ref role="VXe09" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dED7Y" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements." />
+        </node>
       </node>
     </node>
   </node>

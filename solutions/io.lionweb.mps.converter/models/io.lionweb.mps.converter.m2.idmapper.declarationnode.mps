@@ -114,6 +114,9 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
@@ -796,45 +799,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5M3rB6_USJm" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6_UWS9" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="H_c77" id="5M3rB6_UWSa" role="11_B2D" />
-      <node concept="3Tqbb2" id="5M3rB6_UWSb" role="11_B2D">
-        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSc" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSd" role="11_B2D">
-        <ref role="ehGHo" to="tpce:h0PlHMJ" resolve="InterfaceConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="7W6jYlzwEbr" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSe" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSf" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSg" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSh" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSi" role="11_B2D">
-        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSj" role="11_B2D">
-        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSk" role="11_B2D">
-        <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6_UWSl" role="11_B2D">
-        <ref role="ehGHo" to="tpce:2TR3acGo7Lw" resolve="EnumerationMemberDeclaration" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtKKK" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dtHCx" resolve="IMpsKeyMapper" />
     </node>
     <node concept="3UR2Jj" id="3M8YG$drYZO" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dgcNT" role="TZ5H$">
@@ -1305,45 +1271,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5M3rB6AkE6M" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6AkE6N" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="H_c77" id="5M3rB6AkE6O" role="11_B2D" />
-      <node concept="3Tqbb2" id="5M3rB6AkE6P" role="11_B2D">
-        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6Q" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6R" role="11_B2D">
-        <ref role="ehGHo" to="tpce:h0PlHMJ" resolve="InterfaceConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="7W6jYlzwWNP" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6S" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6T" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6U" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6V" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6W" role="11_B2D">
-        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6X" role="11_B2D">
-        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6Y" role="11_B2D">
-        <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AkE6Z" role="11_B2D">
-        <ref role="ehGHo" to="tpce:2TR3acGo7Lw" resolve="EnumerationMemberDeclaration" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtPRC" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dtHCx" resolve="IMpsKeyMapper" />
     </node>
     <node concept="3UR2Jj" id="3M8YG$dsihj" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$druOT" role="TZ5H$">
@@ -1857,45 +1786,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5M3rB6AmVAT" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6AmVAU" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="H_c77" id="5M3rB6AmVAV" role="11_B2D" />
-      <node concept="3Tqbb2" id="5M3rB6AmVAW" role="11_B2D">
-        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVAX" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVAY" role="11_B2D">
-        <ref role="ehGHo" to="tpce:h0PlHMJ" resolve="InterfaceConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="7W6jYlzwPVv" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVAZ" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB0" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB1" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB2" role="11_B2D">
-        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB3" role="11_B2D">
-        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB4" role="11_B2D">
-        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB5" role="11_B2D">
-        <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
-      </node>
-      <node concept="3Tqbb2" id="5M3rB6AmVB6" role="11_B2D">
-        <ref role="ehGHo" to="tpce:2TR3acGo7Lw" resolve="EnumerationMemberDeclaration" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtO8Z" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dtHCx" resolve="IMpsKeyMapper" />
     </node>
     <node concept="3UR2Jj" id="3M8YG$dspzu" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dorlD" role="TZ5H$">
@@ -2069,6 +1961,68 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
+          <property role="1dT_AB" value=" for MPS structure elements." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="3M8YG$dtHCx">
+    <property role="TrG5h" value="IMpsKeyMapper" />
+    <node concept="3Tm1VV" id="3M8YG$dtHCy" role="1B3o_S" />
+    <node concept="3uibUv" id="3M8YG$dtHDL" role="3HQHJm">
+      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+      <node concept="H_c77" id="3M8YG$dtHRB" role="11_B2D" />
+      <node concept="3Tqbb2" id="3M8YG$dtHRC" role="11_B2D">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRD" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRE" role="11_B2D">
+        <ref role="ehGHo" to="tpce:h0PlHMJ" resolve="InterfaceConceptDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRF" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRG" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRH" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRI" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRJ" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRK" role="11_B2D">
+        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRL" role="11_B2D">
+        <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRM" role="11_B2D">
+        <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
+      </node>
+      <node concept="3Tqbb2" id="3M8YG$dtHRN" role="11_B2D">
+        <ref role="ehGHo" to="tpce:2TR3acGo7Lw" resolve="EnumerationMemberDeclaration" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dED77" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dED78" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dED79" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dED7Z" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dED85" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dED87" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dED8e" role="92FcQ">
+              <ref role="VXe09" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dED7Y" role="1dT_Ay">
           <property role="1dT_AB" value=" for MPS structure elements." />
         </node>
       </node>

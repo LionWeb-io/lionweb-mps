@@ -171,6 +171,9 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
+      </concept>
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
@@ -2396,47 +2399,8 @@
     <node concept="2tJIrI" id="5M3rB6_YKsP" role="jymVt" />
     <node concept="2tJIrI" id="5M3rB6_YKul" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6_Y045" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6_Y7LQ" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="3uibUv" id="5M3rB6_Y7LR" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LS" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LT" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LU" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
-      </node>
-      <node concept="3uibUv" id="7W6jYlzx9Hh" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LV" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LW" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SAbstractLink" resolve="SAbstractLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LX" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LY" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7LZ" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7M0" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7M1" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SEnumeration" resolve="SEnumeration" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6_Y7M2" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SEnumerationLiteral" resolve="SEnumerationLiteral" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtAIm" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dt$ZZ" resolve="ISLanguageKeyMapper" />
     </node>
     <node concept="3UR2Jj" id="3M8YG$dgcNS" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dgcNT" role="TZ5H$">
@@ -2507,47 +2471,8 @@
     </node>
     <node concept="2tJIrI" id="5M3rB6AzFL7" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6AzpcH" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6AzpfS" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="3uibUv" id="5M3rB6Azpew" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6Azpex" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6Azpey" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6Azpez" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
-      </node>
-      <node concept="3uibUv" id="7W6jYlzxfEA" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6Azpe$" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6Azpe_" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SAbstractLink" resolve="SAbstractLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6AzpeA" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6AzpeB" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6AzpeC" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6AzpeD" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6AzpeE" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SEnumeration" resolve="SEnumeration" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6AzpeF" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SEnumerationLiteral" resolve="SEnumerationLiteral" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtD3j" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dt$ZZ" resolve="ISLanguageKeyMapper" />
     </node>
     <node concept="3clFb_" id="5M3rB6AzA$c" role="jymVt">
       <property role="TrG5h" value="mapLanguage" />
@@ -3124,47 +3049,8 @@
     </node>
     <node concept="2tJIrI" id="5M3rB6A_o8E" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6A_o8F" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6A_o8G" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="3uibUv" id="5M3rB6A_o8H" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8I" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8J" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8K" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
-      </node>
-      <node concept="3uibUv" id="7W6jYlzxnGg" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8L" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8M" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SAbstractLink" resolve="SAbstractLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8N" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8O" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8P" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8Q" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8R" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SEnumeration" resolve="SEnumeration" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A_o8S" role="11_B2D">
-        <ref role="3uigEE" to="c17a:~SEnumerationLiteral" resolve="SEnumerationLiteral" />
-      </node>
+    <node concept="3uibUv" id="3M8YG$dtGyc" role="EKbjA">
+      <ref role="3uigEE" node="3M8YG$dt$ZZ" resolve="ISLanguageKeyMapper" />
     </node>
     <node concept="3clFb_" id="5M3rB6A_o8T" role="jymVt">
       <property role="TrG5h" value="mapLanguage" />
@@ -3936,6 +3822,70 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
+          <property role="1dT_AB" value=" for SLanguage elements." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="3M8YG$dt$ZZ">
+    <property role="TrG5h" value="ISLanguageKeyMapper" />
+    <node concept="3Tm1VV" id="3M8YG$dt_00" role="1B3o_S" />
+    <node concept="3uibUv" id="3M8YG$dt_1n" role="3HQHJm">
+      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+      <node concept="3uibUv" id="3M8YG$dt_dT" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_dU" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_dV" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_dW" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SInterfaceConcept" resolve="SInterfaceConcept" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_dX" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_dY" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_dZ" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SAbstractLink" resolve="SAbstractLink" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_e0" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_e1" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_e2" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_e3" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_e4" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SEnumeration" resolve="SEnumeration" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dt_e5" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SEnumerationLiteral" resolve="SEnumerationLiteral" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dEDd$" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dED78" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dED79" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dED7Z" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dED85" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dED87" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dED8e" role="92FcQ">
+              <ref role="VXe09" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dED7Y" role="1dT_Ay">
           <property role="1dT_AB" value=" for SLanguage elements." />
         </node>
       </node>
