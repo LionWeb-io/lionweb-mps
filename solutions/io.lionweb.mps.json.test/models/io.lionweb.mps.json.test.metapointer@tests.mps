@@ -1468,9 +1468,6 @@
         <node concept="3cpWs8" id="68Be_yJGXY" role="3cqZAp">
           <node concept="3cpWsn" id="68Be_yJGXZ" role="3cpWs9">
             <property role="TrG5h" value="lookup" />
-            <node concept="3uibUv" id="68Be_yJGUK" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:KVKr66uRn0" resolve="CachingMetaPointerLookup" />
-            </node>
             <node concept="2ShNRf" id="68Be_yJGY0" role="33vP2m">
               <node concept="1pGfFk" id="68Be_yJGY1" role="2ShVmc">
                 <ref role="37wK5l" to="pe0e:KVKr66v3FH" resolve="CachingMetaPointerLookup" />
@@ -1478,6 +1475,9 @@
                   <ref role="3cqZAo" node="68Be_yJGsS" resolve="attribute" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="3M8YG$eaWbz" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:KVKr66uRn0" resolve="CachingMetaPointerLookup" />
             </node>
           </node>
         </node>

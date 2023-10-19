@@ -239,6 +239,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -2315,6 +2316,7 @@
   </node>
   <node concept="312cEu" id="3zvxfLhJ47X">
     <property role="TrG5h" value="NodeLionwebJsonException" />
+    <property role="3GE5qa" value="exception" />
     <node concept="3Tm1VV" id="3zvxfLhJ47Y" role="1B3o_S" />
     <node concept="3uibUv" id="A9P4gGMG7p" role="1zkMxy">
       <ref role="3uigEE" node="A9P4gGMFSK" resolve="ALionwebJsonException" />
@@ -2458,6 +2460,7 @@
   <node concept="312cEu" id="A9P4gGMFSK">
     <property role="TrG5h" value="ALionwebJsonException" />
     <property role="1sVAO0" value="true" />
+    <property role="3GE5qa" value="exception" />
     <node concept="3Tm1VV" id="A9P4gGMFSL" role="1B3o_S" />
     <node concept="3uibUv" id="A9P4gGMFU8" role="1zkMxy">
       <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
@@ -2543,6 +2546,7 @@
   </node>
   <node concept="312cEu" id="A9P4gGMHUm">
     <property role="TrG5h" value="SerializedNodeLionwebJsonException" />
+    <property role="3GE5qa" value="exception" />
     <node concept="3Tm1VV" id="A9P4gGMHUn" role="1B3o_S" />
     <node concept="3uibUv" id="A9P4gGMHUo" role="1zkMxy">
       <ref role="3uigEE" node="A9P4gGMFSK" resolve="ALionwebJsonException" />
@@ -3121,7 +3125,7 @@
           <node concept="3cpWsn" id="5M3rB6BZql_" role="3cpWs9">
             <property role="TrG5h" value="metaPointerCreator" />
             <node concept="3uibUv" id="5M3rB6BZqhH" role="1tU5fm">
-              <ref role="3uigEE" to="lai5:5s4Z0e0f3dO" resolve="MetaPointerCreator" />
+              <ref role="3uigEE" to="lai5:5s4Z0e0f2z3" resolve="IMetaPointerCreator" />
             </node>
             <node concept="2ShNRf" id="5M3rB6BZqlA" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BZqlB" role="2ShVmc">
@@ -4094,6 +4098,7 @@
   </node>
   <node concept="312cEu" id="4R9posqrx51">
     <property role="TrG5h" value="UsedLanguageLionwebJsonException" />
+    <property role="3GE5qa" value="exception" />
     <node concept="3Tm1VV" id="4R9posqrx52" role="1B3o_S" />
     <node concept="3uibUv" id="4R9posqrx53" role="1zkMxy">
       <ref role="3uigEE" node="A9P4gGMFSK" resolve="ALionwebJsonException" />

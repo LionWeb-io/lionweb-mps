@@ -211,6 +211,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -443,7 +444,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5M3rB6BClXY" role="1tU5fm">
-          <ref role="3uigEE" node="5s4Z0e0f3dO" resolve="MetaPointerCreator" />
+          <ref role="3uigEE" node="5s4Z0e0f2z3" resolve="IMetaPointerCreator" />
         </node>
       </node>
       <node concept="37vLTG" id="48csSBNwcti" role="3clF46">
@@ -2204,7 +2205,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5M3rB6B2QnO" role="1tU5fm">
-          <ref role="3uigEE" node="5s4Z0e0f3dO" resolve="MetaPointerCreator" />
+          <ref role="3uigEE" node="5s4Z0e0f2z3" resolve="IMetaPointerCreator" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6aDU2X" role="3clF46">
@@ -2311,7 +2312,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5M3rB6BB8Nh" role="1tU5fm">
-          <ref role="3uigEE" node="5s4Z0e0f3dO" resolve="MetaPointerCreator" />
+          <ref role="3uigEE" node="5s4Z0e0f2z3" resolve="IMetaPointerCreator" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6aDU_9" role="3clF46">
@@ -2463,7 +2464,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5M3rB6BB4Nh" role="1tU5fm">
-          <ref role="3uigEE" node="5s4Z0e0f3dO" resolve="MetaPointerCreator" />
+          <ref role="3uigEE" node="5s4Z0e0f2z3" resolve="IMetaPointerCreator" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6aF16f" role="3clF46">
@@ -2636,6 +2637,7 @@
   </node>
   <node concept="3HP615" id="5s4Z0e0f2z3">
     <property role="TrG5h" value="IMetaPointerCreator" />
+    <property role="3GE5qa" value="metaPointerCreator" />
     <node concept="3clFb_" id="5s4Z0e0f2S8" role="jymVt">
       <property role="TrG5h" value="createConcept" />
       <node concept="3clFbS" id="5s4Z0e0f2Sb" role="3clF47" />
@@ -2740,6 +2742,7 @@
   </node>
   <node concept="312cEu" id="5s4Z0e0f3dO">
     <property role="TrG5h" value="MetaPointerCreator" />
+    <property role="3GE5qa" value="metaPointerCreator" />
     <node concept="312cEg" id="5s4Z0e0f92p" role="jymVt">
       <property role="TrG5h" value="idMapper" />
       <property role="3TUv4t" value="true" />

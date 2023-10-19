@@ -1517,8 +1517,8 @@
         <node concept="3cpWs8" id="4R9posq0YYK" role="3cqZAp">
           <node concept="3cpWsn" id="4R9posq0YYL" role="3cpWs9">
             <property role="TrG5h" value="cancellingMetaPointerLookup" />
-            <node concept="3uibUv" id="4R9posq0YPz" role="1tU5fm">
-              <ref role="3uigEE" to="pe0e:A9P4gGNs46" resolve="CancellingMetaPointerLookup" />
+            <node concept="3uibUv" id="3M8YG$eb4p3" role="1tU5fm">
+              <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
             </node>
             <node concept="2ShNRf" id="4R9posq0YYM" role="33vP2m">
               <node concept="1pGfFk" id="4R9posq0YYN" role="2ShVmc">
