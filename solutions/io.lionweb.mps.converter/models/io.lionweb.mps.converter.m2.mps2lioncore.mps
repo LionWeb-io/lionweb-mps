@@ -414,6 +414,14 @@
         <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
       </node>
     </node>
+    <node concept="312cEg" id="3M8YG$9YyXo" role="jymVt">
+      <property role="TrG5h" value="repository" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="3M8YG$9YyXp" role="1B3o_S" />
+      <node concept="3uibUv" id="3M8YG$9YyXr" role="1tU5fm">
+        <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2ju2syjqwUb" role="jymVt" />
     <node concept="312cEg" id="2ju2syjqx3q" role="jymVt">
       <property role="TrG5h" value="languages" />
@@ -611,6 +619,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3M8YG$9YyXs" role="3cqZAp">
+          <node concept="37vLTI" id="3M8YG$9YyXu" role="3clFbG">
+            <node concept="2OqwBi" id="3M8YG$9YG7s" role="37vLTJ">
+              <node concept="Xjq3P" id="3M8YG$9YG_D" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3M8YG$9YG7v" role="2OqNvi">
+                <ref role="2Oxat5" node="3M8YG$9YyXo" resolve="repository" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3M8YG$9YyXy" role="37vLTx">
+              <ref role="3cqZAo" node="3M8YG$9Xo5v" resolve="repository" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4pht$XsrGTx" role="3cqZAp">
           <node concept="37vLTI" id="4pht$XsrGTy" role="3clFbG">
             <node concept="2OqwBi" id="4pht$XsrGTz" role="37vLTx">
@@ -740,6 +761,15 @@
           <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
         </node>
         <node concept="2AHcQZ" id="18UigYQMT5k" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3M8YG$9Xo5v" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="3M8YG$9XoL9" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+        <node concept="2AHcQZ" id="3M8YG$9XoLW" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -1668,7 +1698,10 @@
           <node concept="2OqwBi" id="39$JcGFq668" role="2GsD0m">
             <node concept="2ShNRf" id="39$JcGFpujw" role="2Oq$k0">
               <node concept="1pGfFk" id="39$JcGFpCSt" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <ref role="37wK5l" to="apzt:18UigYQ1Snt" resolve="LanguageExtensionFinder" />
+                <node concept="37vLTw" id="3M8YG$9Zc1S" role="37wK5m">
+                  <ref role="3cqZAo" node="3M8YG$9YyXo" resolve="repository" />
+                </node>
                 <node concept="37vLTw" id="24j7TNHeDQH" role="37wK5m">
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>

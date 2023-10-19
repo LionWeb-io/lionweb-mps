@@ -28,12 +28,13 @@
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" />
     <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lioncore.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
   </imports>
   <registry>
@@ -367,6 +368,9 @@
           <node concept="37vLTw" id="6Pr6izI$CWz" role="37wK5m">
             <ref role="3cqZAo" node="6Pr6izI$C_2" resolve="annotationFinder" />
           </node>
+          <node concept="37vLTw" id="3M8YG$a1liJ" role="37wK5m">
+            <ref role="3cqZAo" node="3M8YG$a1dQe" resolve="repository" />
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="48csSBPZs88" role="3clF46">
@@ -414,6 +418,15 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
+      <node concept="37vLTG" id="3M8YG$a1dQe" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="3M8YG$a1dQf" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+        <node concept="2AHcQZ" id="3M8YG$a1dQg" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="48csSBOkJnX" role="jymVt" />
     <node concept="3clFb_" id="51EPk3t0EvK" role="jymVt">
@@ -455,7 +468,10 @@
             </node>
             <node concept="2ShNRf" id="51EPk3sB8lc" role="33vP2m">
               <node concept="1pGfFk" id="51EPk3sB8ld" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <ref role="37wK5l" to="apzt:18UigYQ1Snt" resolve="LanguageExtensionFinder" />
+                <node concept="37vLTw" id="3M8YG$a1dC3" role="37wK5m">
+                  <ref role="3cqZAo" node="3M8YG$a01In" resolve="repository" />
+                </node>
                 <node concept="37vLTw" id="24j7TNHkdQi" role="37wK5m">
                   <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                 </node>
@@ -583,6 +599,14 @@
       <node concept="3Tm6S6" id="18UigYQMTex" role="1B3o_S" />
       <node concept="3uibUv" id="18UigYQMTez" role="1tU5fm">
         <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
+      </node>
+    </node>
+    <node concept="312cEg" id="3M8YG$a01In" role="jymVt">
+      <property role="TrG5h" value="repository" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tmbuc" id="3M8YG$a10Zn" role="1B3o_S" />
+      <node concept="3uibUv" id="3M8YG$a01Iq" role="1tU5fm">
+        <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
       </node>
     </node>
     <node concept="2tJIrI" id="48csSBNRezK" role="jymVt" />
@@ -799,6 +823,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3M8YG$a01Ir" role="3cqZAp">
+          <node concept="37vLTI" id="3M8YG$a01It" role="3clFbG">
+            <node concept="2OqwBi" id="3M8YG$a09vI" role="37vLTJ">
+              <node concept="Xjq3P" id="3M8YG$a09Me" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3M8YG$a09vL" role="2OqNvi">
+                <ref role="2Oxat5" node="3M8YG$a01In" resolve="repository" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3M8YG$a01Ix" role="37vLTx">
+              <ref role="3cqZAo" node="3M8YG$9Xo5v" resolve="repository" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4TKJARV8geF" role="3cqZAp" />
         <node concept="3clFbF" id="5M3rB6BBr0d" role="3cqZAp">
           <node concept="1rXfSq" id="5M3rB6BBr0c" role="3clFbG">
@@ -848,6 +885,15 @@
           <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
         </node>
         <node concept="2AHcQZ" id="18UigYQMT5k" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3M8YG$9Xo5v" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="3M8YG$9XoL9" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+        <node concept="2AHcQZ" id="3M8YG$9XoLW" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -2482,7 +2528,10 @@
           <node concept="2OqwBi" id="39$JcGGwkzr" role="2GsD0m">
             <node concept="2ShNRf" id="51EPk3sEbZO" role="2Oq$k0">
               <node concept="1pGfFk" id="51EPk3sEbZP" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:39$JcGGp25D" resolve="LanguageExtensionFinder" />
+                <ref role="37wK5l" to="apzt:18UigYQ1Snt" resolve="LanguageExtensionFinder" />
+                <node concept="37vLTw" id="3M8YG$a0zTz" role="37wK5m">
+                  <ref role="3cqZAo" node="3M8YG$a01In" resolve="repository" />
+                </node>
                 <node concept="37vLTw" id="24j7TNHkk16" role="37wK5m">
                   <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                 </node>
