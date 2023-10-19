@@ -855,22 +855,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$dgm_W" role="1dT_Ay">
-          <property role="1dT_AB" value=" for SLanguage, delegating to " />
+          <property role="1dT_AB" value=" for SLanguage elements," />
         </node>
-        <node concept="1dT_AA" id="3M8YG$drSkZ" role="1dT_Ay">
-          <node concept="92FcH" id="3M8YG$drSlk" role="qph3F">
-            <node concept="TZ5HA" id="3M8YG$drSlm" role="2XjZqd">
-              <node concept="1dT_AC" id="3M8YG$drSlx" role="1dT_Ay">
-                <property role="1dT_AB" value="" />
-              </node>
-            </node>
-            <node concept="VXe08" id="3M8YG$drSlt" role="92FcQ">
-              <ref role="VXe09" to="faaz:5M3rB6A_o8o" resolve="SLanguageLongIdKeyMapper" />
-            </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="3M8YG$dgmB5" role="1dT_Ay">
-          <property role="1dT_AB" value="." />
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsAEq" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsAEr" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to native MPS numeric ids." />
         </node>
       </node>
     </node>

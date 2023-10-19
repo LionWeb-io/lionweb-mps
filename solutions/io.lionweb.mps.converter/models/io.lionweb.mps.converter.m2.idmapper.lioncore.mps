@@ -80,12 +80,28 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
       <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
         <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
@@ -131,6 +147,29 @@
     <node concept="3uibUv" id="5M3rB6Avb96" role="1zkMxy">
       <ref role="3uigEE" node="5M3rB6AY2W3" resolve="ALionCoreGuaranteedMapper" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dsJKW" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dgmjA" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dgmjB" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dgm_X" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dgmA3" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dgmA5" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dgmAc" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dgm_W" role="1dT_Ay">
+          <property role="1dT_AB" value=" for M3 elements," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsAEq" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsAEr" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to their keys." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6VkSF6bCze1">
     <property role="TrG5h" value="LionCoreMpsCompatibleLanguageGuaranteedMapper" />
@@ -168,7 +207,11 @@
     </node>
     <node concept="3UR2Jj" id="SgalDILQjK" role="lGtFl">
       <node concept="TZ5HI" id="SgalDILQjL" role="3nqlJM">
-        <node concept="TZ5HA" id="SgalDILQjM" role="3HnX3l" />
+        <node concept="TZ5HA" id="SgalDILQjM" role="3HnX3l">
+          <node concept="1dT_AC" id="3M8YG$dsLAm" role="1dT_Ay">
+            <property role="1dT_AB" value="Uses" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2AHcQZ" id="SgalDILQjN" role="2AJF6D">
@@ -573,6 +616,13 @@
         <ref role="ehGHo" to="h3y3:2ju2syjkoij" resolve="EnumerationLiteral" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dsIkS" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dsIkT" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsIkU" role="1dT_Ay">
+          <property role="1dT_AB" value="Maps M3 elements to their key." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5M3rB6AY2W3">
     <property role="TrG5h" value="ALionCoreGuaranteedMapper" />
@@ -722,6 +772,24 @@
           <node concept="37vLTw" id="5M3rB6AY3X1" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6AY3WV" resolve="delegates" />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dsGsz" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dg7vP" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dg7vQ" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dg7Ds" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dg7Dy" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dg7D$" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dg7DF" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
+          <property role="1dT_AB" value=" for M3 elements." />
         </node>
       </node>
     </node>

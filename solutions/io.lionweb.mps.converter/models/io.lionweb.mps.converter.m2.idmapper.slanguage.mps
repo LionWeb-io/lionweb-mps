@@ -1729,7 +1729,7 @@
     </node>
   </node>
   <node concept="312cEu" id="6VkSF6aJwZw">
-    <property role="TrG5h" value="SLanguageLongGuaranteedMapper" />
+    <property role="TrG5h" value="SLanguageCompatibleGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6AAfk1" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6AAbRG" role="jymVt">
       <node concept="37vLTG" id="5M3rB6AAbRH" role="3clF46">
@@ -1792,29 +1792,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$drCti" role="1dT_Ay">
-          <property role="1dT_AB" value=" for SLanguage, delegating to first successful of [" />
+          <property role="1dT_AB" value=" for SLanguage elements," />
         </node>
-        <node concept="1dT_AA" id="3M8YG$drCtj" role="1dT_Ay">
-          <node concept="92FcH" id="3M8YG$drCtk" role="qph3F">
-            <node concept="TZ5HA" id="3M8YG$drCtl" role="2XjZqd" />
-            <node concept="VXe08" id="3M8YG$drCtm" role="92FcQ">
-              <ref role="VXe09" node="5M3rB6_Y03_" resolve="SLanguageAttributeKeyMapper" />
-            </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="3M8YG$drCtn" role="1dT_Ay">
-          <property role="1dT_AB" value=", " />
-        </node>
-        <node concept="1dT_AA" id="3M8YG$drCto" role="1dT_Ay">
-          <node concept="92FcH" id="3M8YG$drCtp" role="qph3F">
-            <node concept="TZ5HA" id="3M8YG$drCtq" role="2XjZqd" />
-            <node concept="VXe08" id="3M8YG$drCtr" role="92FcQ">
-              <ref role="VXe09" node="5M3rB6A_o8o" resolve="SLanguageLongIdKeyMapper" />
-            </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="3M8YG$drCts" role="1dT_Ay">
-          <property role="1dT_AB" value="]." />
+      </node>
+      <node concept="TZ5HA" id="3M8YG$ds_8S" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$ds_8T" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to first successful of [custom LionWeb keys, native MPS numeric id]." />
         </node>
       </node>
       <node concept="TZ5HA" id="3M8YG$drCCA" role="TZ5H$">
@@ -1906,29 +1889,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$dgm_W" role="1dT_Ay">
-          <property role="1dT_AB" value=" for SLanguage, delegating to first successful of [" />
+          <property role="1dT_AB" value=" for SLanguage elements," />
         </node>
-        <node concept="1dT_AA" id="3M8YG$dgmAH" role="1dT_Ay">
-          <node concept="92FcH" id="3M8YG$dgmAS" role="qph3F">
-            <node concept="TZ5HA" id="3M8YG$dgmAU" role="2XjZqd" />
-            <node concept="VXe08" id="3M8YG$dgmB1" role="92FcQ">
-              <ref role="VXe09" node="5M3rB6_Y03_" resolve="SLanguageAttributeKeyMapper" />
-            </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="3M8YG$dgmAG" role="1dT_Ay">
-          <property role="1dT_AB" value=", " />
-        </node>
-        <node concept="1dT_AA" id="3M8YG$dgmB6" role="1dT_Ay">
-          <node concept="92FcH" id="3M8YG$dgmBm" role="qph3F">
-            <node concept="TZ5HA" id="3M8YG$dgmBo" role="2XjZqd" />
-            <node concept="VXe08" id="3M8YG$dgmBv" role="92FcQ">
-              <ref role="VXe09" to="teza:5M3rB6Ap4_i" resolve="EncodeToLionWebKeyConverter" />
-            </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="3M8YG$dgmB5" role="1dT_Ay">
-          <property role="1dT_AB" value="]." />
+      </node>
+      <node concept="TZ5HA" id="3M8YG$ds_Z1" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$ds_Z2" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to first successful of [custom LionWeb keys, LionWeb-encoded full MPS id]." />
         </node>
       </node>
     </node>
@@ -3795,7 +3761,7 @@
     <node concept="3UR2Jj" id="3M8YG$dru8y" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$druOT" role="TZ5H$">
         <node concept="1dT_AC" id="3M8YG$druOU" role="1dT_Ay">
-          <property role="1dT_AB" value="Maps SLanguage elements to their numeric id (excluding language and owner)," />
+          <property role="1dT_AB" value="Maps SLanguage elements to their native MPS numeric id (excluding language and owner)," />
         </node>
       </node>
       <node concept="TZ5HA" id="3M8YG$druOV" role="TZ5H$">
@@ -3970,7 +3936,7 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
-          <property role="1dT_AB" value=" for SLanguage." />
+          <property role="1dT_AB" value=" for SLanguage elements." />
         </node>
       </node>
     </node>
