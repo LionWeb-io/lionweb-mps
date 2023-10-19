@@ -1249,15 +1249,50 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="3M8YG$b5QuH" role="3cqZAp">
+          <node concept="3cpWsn" id="3M8YG$b5QuI" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterFactoryHelper" />
+            <node concept="3uibUv" id="3M8YG$b5Qkj" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
+            </node>
+            <node concept="2ShNRf" id="3M8YG$b5QuJ" role="33vP2m">
+              <node concept="HV5vD" id="3M8YG$b5QuK" role="2ShVmc">
+                <ref role="HV5vE" to="apzt:59Df55lb06j" resolve="MetaAdapterFactoryHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4R9pospSlUB" role="3cqZAp">
+          <node concept="3cpWsn" id="4R9pospSlUC" role="3cpWs9">
+            <property role="TrG5h" value="languageLookup" />
+            <node concept="3uibUv" id="4R9pospSlN7" role="1tU5fm">
+              <ref role="3uigEE" to="apzt:4R9pospH1E7" resolve="ILanguageLookup" />
+            </node>
+            <node concept="2ShNRf" id="4R9pospSlUD" role="33vP2m">
+              <node concept="1pGfFk" id="4R9pospSlUE" role="2ShVmc">
+                <ref role="37wK5l" to="apzt:4R9pospHc55" resolve="LanguageLookup" />
+                <node concept="37vLTw" id="3M8YG$b6031" role="37wK5m">
+                  <ref role="3cqZAo" node="3M8YG$b5QuI" resolve="metaAdapterFactoryHelper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2qVVyx0HbtJ" role="3cqZAp">
           <node concept="3cpWsn" id="2qVVyx0HbtK" role="3cpWs9">
-            <property role="TrG5h" value="metaAdapterFactoryModifier" />
+            <property role="TrG5h" value="modifyingLanguageLookup" />
             <node concept="3uibUv" id="2qVVyx0HaIN" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IMetaAdapterFactoryModifier" />
+              <ref role="3uigEE" to="apzt:KVKr66iXdS" resolve="IModifyingLanguageLookup" />
             </node>
             <node concept="2ShNRf" id="2qVVyx0HbtL" role="33vP2m">
               <node concept="1pGfFk" id="A9P4gGBorz" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="MetaAdapterFactoryModifier" />
+                <ref role="37wK5l" to="apzt:6VkSF6aIt83" resolve="ModifyingLanguageLookup" />
+                <node concept="37vLTw" id="3M8YG$b61kt" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9pospSlUC" resolve="languageLookup" />
+                </node>
+                <node concept="37vLTw" id="3M8YG$b5V3u" role="37wK5m">
+                  <ref role="3cqZAo" node="3M8YG$b5QuI" resolve="metaAdapterFactoryHelper" />
+                </node>
               </node>
             </node>
           </node>
@@ -1310,19 +1345,6 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="4R9pospSlUB" role="3cqZAp">
-          <node concept="3cpWsn" id="4R9pospSlUC" role="3cpWs9">
-            <property role="TrG5h" value="languageLookup" />
-            <node concept="3uibUv" id="4R9pospSlN7" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:4R9pospH1E7" resolve="ILanguageLookup" />
-            </node>
-            <node concept="2ShNRf" id="4R9pospSlUD" role="33vP2m">
-              <node concept="1pGfFk" id="4R9pospSlUE" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:4R9pospHc55" resolve="LanguageLookup" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="1apSfP9MIg7" role="3cqZAp">
           <node concept="3cpWsn" id="1apSfP9MIg8" role="3cpWs9">
             <property role="TrG5h" value="installedLanguageLookup" />
@@ -1336,7 +1358,7 @@
                   <ref role="3cqZAo" node="3diEf07pPh8" resolve="constants" />
                 </node>
                 <node concept="37vLTw" id="2qVVyx0HbtN" role="37wK5m">
-                  <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="metaAdapterFactoryModifier" />
+                  <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="modifyingLanguageLookup" />
                 </node>
                 <node concept="37vLTw" id="4R9pospS39B" role="37wK5m">
                   <ref role="3cqZAo" node="4R9pospS39$" resolve="lionCoreKeyMapper" />
@@ -1469,7 +1491,7 @@
                     <node concept="liA8E" id="2qVVyx0Hh2H" role="2OqNvi">
                       <ref role="37wK5l" to="dydc:2qVVyx0Hfuo" resolve="establishDependencies" />
                       <node concept="37vLTw" id="2qVVyx0HhuG" role="37wK5m">
-                        <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="metaAdapterFactoryModifier" />
+                        <ref role="3cqZAo" node="2qVVyx0HbtK" resolve="modifyingLanguageLookup" />
                       </node>
                     </node>
                   </node>
