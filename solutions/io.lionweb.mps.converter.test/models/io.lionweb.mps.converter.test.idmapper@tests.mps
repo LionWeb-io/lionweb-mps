@@ -4727,13 +4727,13 @@
     <node concept="2XrIbr" id="4oHUzWXYRrA" role="1qtyYc">
       <property role="TrG5h" value="create" />
       <node concept="3uibUv" id="4oHUzWXYRLz" role="3clF45">
-        <ref role="3uigEE" to="faaz:6VkSF6aHm0Q" resolve="SLanguageCompleteIdExtractor" />
+        <ref role="3uigEE" to="faaz:6VkSF6aHm0Q" resolve="SLanguageIdExtractor" />
       </node>
       <node concept="3clFbS" id="4oHUzWXYRrC" role="3clF47">
         <node concept="3clFbF" id="4oHUzWXYRLX" role="3cqZAp">
           <node concept="2ShNRf" id="4oHUzWXYRLV" role="3clFbG">
             <node concept="1pGfFk" id="4oHUzWXYS02" role="2ShVmc">
-              <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageCompleteIdExtractor" />
+              <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
               <node concept="2ShNRf" id="4oHUzWXYS0n" role="37wK5m">
                 <node concept="1pGfFk" id="4oHUzWXYSeM" role="2ShVmc">
                   <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />

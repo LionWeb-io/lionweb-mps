@@ -247,7 +247,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="6VkSF6aHm0Q">
-    <property role="TrG5h" value="SLanguageCompleteIdExtractor" />
+    <property role="TrG5h" value="SLanguageIdExtractor" />
     <node concept="312cEg" id="48csSBNRezH" role="jymVt">
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
@@ -2411,7 +2411,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5M3rB6AzH4O" role="1B3o_S" />
       <node concept="3uibUv" id="5M3rB6AzFtM" role="1tU5fm">
-        <ref role="3uigEE" node="6VkSF6aHm0Q" resolve="SLanguageCompleteIdExtractor" />
+        <ref role="3uigEE" node="6VkSF6aHm0Q" resolve="SLanguageIdExtractor" />
       </node>
     </node>
     <node concept="2tJIrI" id="5M3rB6AzBJo" role="jymVt" />
@@ -2429,7 +2429,7 @@
           <node concept="37vLTI" id="5M3rB6AzGwm" role="3clFbG">
             <node concept="2ShNRf" id="5M3rB6AzG85" role="37vLTx">
               <node concept="1pGfFk" id="5M3rB6AzG86" role="2ShVmc">
-                <ref role="37wK5l" node="6VkSF6aIt83" resolve="SLanguageCompleteIdExtractor" />
+                <ref role="37wK5l" node="6VkSF6aIt83" resolve="SLanguageIdExtractor" />
                 <node concept="37vLTw" id="5M3rB6AzG87" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6AzDRq" resolve="constants" />
                 </node>
@@ -3016,7 +3016,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5M3rB6A_o8r" role="1B3o_S" />
       <node concept="3uibUv" id="5M3rB6A_o8s" role="1tU5fm">
-        <ref role="3uigEE" node="6VkSF6aHm0Q" resolve="SLanguageCompleteIdExtractor" />
+        <ref role="3uigEE" node="6VkSF6aHm0Q" resolve="SLanguageIdExtractor" />
       </node>
     </node>
     <node concept="2tJIrI" id="5M3rB6A_o8t" role="jymVt" />
@@ -3034,7 +3034,7 @@
           <node concept="37vLTI" id="5M3rB6A_o8_" role="3clFbG">
             <node concept="2ShNRf" id="5M3rB6A_o8A" role="37vLTx">
               <node concept="1pGfFk" id="5M3rB6A_o8B" role="2ShVmc">
-                <ref role="37wK5l" node="6VkSF6aIt83" resolve="SLanguageCompleteIdExtractor" />
+                <ref role="37wK5l" node="6VkSF6aIt83" resolve="SLanguageIdExtractor" />
                 <node concept="37vLTw" id="5M3rB6A_o8C" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6A_o8v" resolve="constants" />
                 </node>

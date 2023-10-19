@@ -30,6 +30,7 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="iil0" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:io.netty.buffer(MPS.IDEA/)" implicit="true" />
   </imports>
@@ -1447,6 +1448,22 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="3M8YG$dhn5J" role="3cqZAp">
+          <node concept="3cpWsn" id="3M8YG$dhn5K" role="3cpWs9">
+            <property role="TrG5h" value="sLanguageIdExtractor" />
+            <node concept="3uibUv" id="3M8YG$dhn5L" role="1tU5fm">
+              <ref role="3uigEE" to="faaz:6VkSF6aHm0Q" resolve="SLanguageIdExtractor" />
+            </node>
+            <node concept="2ShNRf" id="3M8YG$dhn5M" role="33vP2m">
+              <node concept="1pGfFk" id="3M8YG$dhn5N" role="2ShVmc">
+                <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
+                <node concept="37vLTw" id="3M8YG$dhn5O" role="37wK5m">
+                  <ref role="3cqZAo" node="5M3rB6BZZsc" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="3Lj28wlMSdT" role="3cqZAp">
           <node concept="3cpWsn" id="3Lj28wlMSdU" role="3cpWs9">
             <property role="TrG5h" value="metaPointerConverter" />
@@ -1464,6 +1481,9 @@
                 </node>
                 <node concept="37vLTw" id="4R9posq0Xc$" role="37wK5m">
                   <ref role="3cqZAo" node="4R9posq0Xcx" resolve="metaPointerPostprocessor" />
+                </node>
+                <node concept="37vLTw" id="3M8YG$dhChc" role="37wK5m">
+                  <ref role="3cqZAo" node="3M8YG$dhn5K" resolve="sLanguageIdExtractor" />
                 </node>
               </node>
             </node>
