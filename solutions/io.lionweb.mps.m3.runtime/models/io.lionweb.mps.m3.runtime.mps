@@ -5193,7 +5193,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9EiDP" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9EiDQ" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `element` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `element` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9EleV" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9Elf1" role="qph3F">
@@ -5273,7 +5273,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9EqYS" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9EqYT" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `element` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `element` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9EqYU" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9EqYV" role="qph3F">
@@ -5423,7 +5423,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9ExKr" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9ExKs" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `element` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `element` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9ExKt" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9ExKu" role="qph3F">
@@ -5972,7 +5972,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9HCQa" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9HCQb" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `concept` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `concept` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9HCQc" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9HCQd" role="qph3F">
@@ -6256,7 +6256,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9I3d4" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9HNkg" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `property` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `property` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9HNkh" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9HNki" role="qph3F">
@@ -6532,7 +6532,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9I8ky" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9I8kz" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `concept` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `concept` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9I8k$" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9I8k_" role="qph3F">
@@ -6676,7 +6676,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9Iq3I" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9Iq3J" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `link` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `link` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9InGp" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9InGq" role="qph3F">
@@ -7233,7 +7233,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$9IQqR" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9IQqS" role="1dT_Ay">
-            <property role="1dT_AB" value="Only works if the structure aspect language containing `link` is available in " />
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `link` is available in " />
           </node>
           <node concept="1dT_AA" id="3M8YG$9IQqT" role="1dT_Ay">
             <node concept="92FcH" id="3M8YG$9IQqU" role="qph3F">

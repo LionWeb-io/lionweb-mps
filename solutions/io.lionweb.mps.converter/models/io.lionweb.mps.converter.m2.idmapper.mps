@@ -166,7 +166,46 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
+      <concept id="2217234381367188008" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocReference" flags="ng" index="VUqz4" />
+      <concept id="2217234381367049075" name="jetbrains.mps.baseLanguage.javadoc.structure.CodeInlineDocTag" flags="ng" index="VVOAv">
+        <child id="3106559687488741665" name="line" index="2Xj1qM" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
+        <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
+      </concept>
+      <concept id="5562345046718956738" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseVariableDocReference" flags="ng" index="YTMYr">
+        <reference id="5562345046718956740" name="declaration" index="YTMYt" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -477,6 +516,55 @@
     </node>
     <node concept="16euLQ" id="6VkSF6aHjPW" role="16eVyc">
       <property role="TrG5h" value="ENUM_LITERAL" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dexZ4" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dexZ5" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dexZ6" role="1dT_Ay">
+          <property role="1dT_AB" value="Maps keys from generic inputtypes to Strings." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dey70" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dey71" role="1dT_Ay">
+          <property role="1dT_AB" value="Result might be `null` to indicate mapping was not possible." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfm6c" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfm6d" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfm6k" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfm6l" role="1dT_Ay">
+          <property role="1dT_AB" value="Implementations are meant to be daisy-chained (e.g. by " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfm9F" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfm9L" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfm9N" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dfm9U" role="92FcQ">
+              <ref role="VXe09" node="5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfm9E" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfm9X" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfm9Y" role="1dT_Ay">
+          <property role="1dT_AB" value="or delegated to (e.g by " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfmdr" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfmdx" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfmdz" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dfmdE" role="92FcQ">
+              <ref role="VXe09" node="5M3rB6A16s1" resolve="ADelegateKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfmdq" role="1dT_Ay">
+          <property role="1dT_AB" value=")." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6_P044">
@@ -1487,6 +1575,18 @@
       </node>
       <node concept="16syzq" id="5M3rB6A9sgG" role="11_B2D">
         <ref role="16sUi3" node="5M3rB6_RSOv" resolve="MAPPER" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dfLnt" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dfLnu" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfLnv" role="1dT_Ay">
+          <property role="1dT_AB" value="Post-processes keys of LionCore builtins to SLanguage Ids." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfOGF" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfOGG" role="1dT_Ay">
+          <property role="1dT_AB" value="Returns `null` for all other keys." />
+        </node>
       </node>
     </node>
   </node>
@@ -2829,6 +2929,36 @@
         <ref role="16sUi3" node="5M3rB6A1bz0" resolve="ENUM_LITERAL" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dfh7N" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dfh7O" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfh7P" role="1dT_Ay">
+          <property role="1dT_AB" value="If " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfiQt" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfiQz" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfiQ_" role="2XjZqd" />
+            <node concept="VUqz4" id="3M8YG$dfiQG" role="92FcQ">
+              <ref role="YTMYt" node="5M3rB6A1jCA" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfiQs" role="1dT_Ay">
+          <property role="1dT_AB" value=" mapper returns non-null, post-processes the result with a call to " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfjSC" role="1dT_Ay">
+          <node concept="VVOAv" id="3M8YG$dfjSN" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfjSP" role="2Xj1qM">
+              <node concept="1dT_AC" id="3M8YG$dfjST" role="1dT_Ay">
+                <property role="1dT_AB" value="processXxx()" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfjSB" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5M3rB6AbiZB">
     <property role="TrG5h" value="AKeyConverter" />
@@ -3494,6 +3624,35 @@
         <ref role="16sUi3" node="5M3rB6Abj0c" resolve="MAPPER" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dfwWg" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dfwWh" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfwWi" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfyli" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfylo" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfylq" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dfylx" role="92FcQ">
+              <ref role="VXe09" node="5M3rB6A16s1" resolve="ADelegateKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfylh" role="1dT_Ay">
+          <property role="1dT_AB" value=" that post-processes all conversion with the same " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfA4C" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfA4N" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfA4P" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$dfA4W" role="92FcQ">
+              <ref role="VXe0S" node="5M3rB6Abu7P" resolve="convert" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfA4B" role="1dT_Ay">
+          <property role="1dT_AB" value=" method." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="5M3rB6AdD96">
     <property role="TrG5h" value="IGuaranteedKeyMapper" />
@@ -3824,6 +3983,24 @@
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
       <node concept="3clFbS" id="5M3rB6AdDHe" role="3clF47" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dezNe" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dezNf" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dezNg" role="1dT_Ay">
+          <property role="1dT_AB" value="Extends " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$deCg1" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$deCg7" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$deCg9" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$deCgg" role="92FcQ">
+              <ref role="VXe09" node="6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$deCg0" role="1dT_Ay">
+          <property role="1dT_AB" value=" to guarantee a result, or throw an exception if unavailable." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6AdZTf">
@@ -5342,6 +5519,66 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$deIFs" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$deOp4" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$deOp5" role="1dT_Ay">
+          <property role="1dT_AB" value="Returns the mapping result of the first successful " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$deQTZ" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$deQU5" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$deQU7" role="2XjZqd" />
+            <node concept="VUqz4" id="3M8YG$deQUe" role="92FcQ">
+              <ref role="YTMYt" node="5M3rB6AefuF" resolve="delegates" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$deQTY" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$deSzQ" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$deSzR" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$deU6T" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$deU6U" role="1dT_Ay">
+          <property role="1dT_AB" value="&quot;Unsuccessful&quot; means the delegate returns `null` or throws an " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$deWBW" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$deWC2" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$deWC4" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$deWCb" role="92FcQ">
+              <ref role="VXe09" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$deWBV" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfaSc" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfaSd" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfaSw" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfaSx" role="1dT_Ay">
+          <property role="1dT_AB" value="Throws a " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfdp2" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfdp8" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfdpa" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dfdph" role="92FcQ">
+              <ref role="VXe09" to="wyt6:~NullPointerException" resolve="NullPointerException" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfdp1" role="1dT_Ay">
+          <property role="1dT_AB" value=" if unsuccessful." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5M3rB6Ap4_i">
     <property role="TrG5h" value="EncodeToLionWebKeyConverter" />
@@ -5522,6 +5759,24 @@
       </node>
       <node concept="2AHcQZ" id="5M3rB6Apkhy" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dfQEb" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dfQEc" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfQEd" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts all post-processed keys with " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfQSO" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfQSU" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfQSW" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$dfQT3" role="92FcQ">
+              <ref role="VXe0S" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfQSN" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -5733,6 +5988,40 @@
       </node>
       <node concept="2AHcQZ" id="5M3rB6AvJF2" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dfRvG" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dfRJO" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfRJP" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts all post-processed keys with " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfRJQ" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfRJR" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfRJS" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$dfRJT" role="92FcQ">
+              <ref role="VXe0S" to="apzt:2fx6VTSzhXK" resolve="toMps" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfRJU" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfSgS" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfSgT" role="1dT_Ay">
+          <property role="1dT_AB" value="Signals unsuccessful attempts by throwing an " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dfSxI" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dfSxO" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dfSxQ" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dfSxX" role="92FcQ">
+              <ref role="VXe09" to="apzt:3zvxfLhsQ3L" resolve="IdDeserializationException" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dfSxH" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -5958,6 +6247,26 @@
     </node>
     <node concept="2AHcQZ" id="SgalDILwl6" role="2AJF6D">
       <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dg5U6" role="lGtFl">
+      <node concept="TZ5HI" id="3M8YG$dg6$g" role="3nqlJM">
+        <node concept="TZ5HA" id="3M8YG$dg6$h" role="3HnX3l">
+          <node concept="1dT_AC" id="3M8YG$dg6Jh" role="1dT_Ay">
+            <property role="1dT_AB" value="Uses " />
+          </node>
+          <node concept="1dT_AA" id="3M8YG$dg6Jk" role="1dT_Ay">
+            <node concept="92FcH" id="3M8YG$dg6Jq" role="qph3F">
+              <node concept="TZ5HA" id="3M8YG$dg6Js" role="2XjZqd" />
+              <node concept="VXe08" id="3M8YG$dg6Jz" role="92FcQ">
+                <ref role="VXe09" to="apzt:39$JcGEMmRp" resolve="MpsCompatibleIdEncoder" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="3M8YG$dg6Jj" role="1dT_Ay">
+            <property role="1dT_AB" value="." />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="4R9posqkfsk">
@@ -6911,6 +7220,39 @@
       </node>
       <node concept="2AHcQZ" id="4R9posqkftv" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dfWud" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dg3pM" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dg3pN" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts all post-processed keys with " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dg3pO" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dg3pP" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dg3pQ" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$dg3pR" role="92FcQ">
+              <ref role="VXe0S" to="apzt:2fx6VTSzhXK" resolve="toMps" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dg3pS" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dg3pT" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dg3pU" role="1dT_Ay">
+          <property role="1dT_AB" value="Signals unsuccessful attempts by returning `null`." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dfWue" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dfWuf" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dg1ph" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dg1pi" role="1dT_Ay">
+          <property role="1dT_AB" value="TODO: Currently unused, still needed?" />
+        </node>
       </node>
     </node>
   </node>
