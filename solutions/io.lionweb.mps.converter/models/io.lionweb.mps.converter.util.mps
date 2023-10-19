@@ -1535,6 +1535,18 @@
     <node concept="3uibUv" id="3zvxfLhsRYK" role="1zkMxy">
       <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$b1pI2" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$b1pI3" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$b1pI4" role="1dT_Ay">
+          <property role="1dT_AB" value="Unified exception for anything that can fail when deserializing MPS language element Ids." />
+        </node>
+      </node>
+      <node concept="VUp57" id="3M8YG$b1qD4" role="3nqlJM">
+        <node concept="VXe08" id="3M8YG$b1qGK" role="VUp5m">
+          <ref role="VXe09" node="3zvxfLhsBRw" resolve="MpsIdDeserializer" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="59Df55laZFn">
     <property role="3GE5qa" value="languageLookup" />
