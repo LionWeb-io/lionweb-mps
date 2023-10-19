@@ -4,7 +4,6 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -91,13 +90,15 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
-    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
-      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
-    </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
@@ -246,11 +247,28 @@
       <node concept="2AHcQZ" id="3M8YG$cu91W" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
+      <node concept="P$JXv" id="3M8YG$dboUL" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$dboUM" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$dboUN" role="1dT_Ay">
+            <property role="1dT_AB" value="The unprocessable input." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$dboUO" role="3nqlJM">
+          <property role="x79VB" value="The unprocessable input." />
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dboMF" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dboMG" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dboMH" role="1dT_Ay">
+          <property role="1dT_AB" value="A converter cannot handle the concept of a conversion input." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="2ju2syjEfUL">
     <property role="TrG5h" value="TargetUnavailableException" />
-    <property role="3GE5qa" value="exceptions" />
+    <property role="3GE5qa" value="exceptions.target" />
     <node concept="3clFbW" id="2ju2syjEjJi" role="jymVt">
       <node concept="3cqZAl" id="2ju2syjEjJj" role="3clF45" />
       <node concept="3Tm1VV" id="2ju2syjEjJk" role="1B3o_S" />
@@ -267,7 +285,7 @@
                   <node concept="Xl_RD" id="2ju2syjEjJs" role="3uHU7B">
                     <property role="Xl_RC" value="element " />
                   </node>
-                  <node concept="2EnYce" id="2ju2syjVnm8" role="3uHU7w">
+                  <node concept="2OqwBi" id="3M8YG$daEAo" role="3uHU7w">
                     <node concept="37vLTw" id="2ju2syjEpHc" role="2Oq$k0">
                       <ref role="3cqZAo" node="2ju2syjEjYj" resolve="source" />
                     </node>
@@ -280,7 +298,7 @@
                   <property role="Xl_RC" value=" refers to " />
                 </node>
               </node>
-              <node concept="2EnYce" id="2ju2syjVnBf" role="3uHU7w">
+              <node concept="2OqwBi" id="3M8YG$daEEA" role="3uHU7w">
                 <node concept="37vLTw" id="2ju2syjEqBa" role="2Oq$k0">
                   <ref role="3cqZAo" node="2ju2syjEjJt" resolve="unavailable" />
                 </node>
@@ -329,7 +347,7 @@
                   <node concept="Xl_RD" id="48csSBO5Ve2" role="3uHU7B">
                     <property role="Xl_RC" value="element " />
                   </node>
-                  <node concept="2EnYce" id="48csSBO5Ve3" role="3uHU7w">
+                  <node concept="2OqwBi" id="3M8YG$daEN_" role="3uHU7w">
                     <node concept="37vLTw" id="48csSBO5Ve4" role="2Oq$k0">
                       <ref role="3cqZAo" node="48csSBO5Vec" resolve="source" />
                     </node>
@@ -433,6 +451,13 @@
     <node concept="3uibUv" id="2ju2syjG7aN" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjG72b" resolve="ATargetException" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dbd9f" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dbd9g" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dbd9h" role="1dT_Ay">
+          <property role="1dT_AB" value="A target could not be found in the converted elements." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2ju2syjEg4P">
     <property role="TrG5h" value="MpsLionCoreConverterException" />
@@ -532,7 +557,7 @@
   <node concept="312cEu" id="2ju2syjG72b">
     <property role="TrG5h" value="ATargetException" />
     <property role="1sVAO0" value="true" />
-    <property role="3GE5qa" value="exceptions" />
+    <property role="3GE5qa" value="exceptions.target" />
     <node concept="312cEg" id="2ju2syjG7oj" role="jymVt">
       <property role="TrG5h" value="source" />
       <property role="3TUv4t" value="true" />
@@ -764,6 +789,16 @@
       <node concept="2AHcQZ" id="3M8YG$cu7zg" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
+      <node concept="P$JXv" id="3M8YG$db8Q1" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$db8Q2" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$db8Q3" role="1dT_Ay">
+            <property role="1dT_AB" value="The link origin, usually in terms of conversion output." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$db8Q4" role="3nqlJM">
+          <property role="x79VB" value="The link origin." />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2ju2syjFr$l" role="jymVt" />
     <node concept="3clFb_" id="2ju2syjFroL" role="jymVt">
@@ -785,16 +820,38 @@
       <node concept="2AHcQZ" id="3M8YG$cu7HN" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
+      <node concept="P$JXv" id="3M8YG$db90j" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$db90k" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$db90l" role="1dT_Ay">
+            <property role="1dT_AB" value="Element describing the target." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3M8YG$dbcN8" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$dbcN9" role="1dT_Ay">
+            <property role="1dT_AB" value="Might be in terms of conversion input or output." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$db90m" role="3nqlJM">
+          <property role="x79VB" value="The target." />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2ju2syjG7Fs" role="jymVt" />
     <node concept="3Tm1VV" id="2ju2syjG72c" role="1B3o_S" />
     <node concept="3uibUv" id="2ju2syjG733" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$daFpU" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$daFpV" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$daFpW" role="1dT_Ay">
+          <property role="1dT_AB" value="Indicates a conversion target does not adhere to expectations." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2ju2syjG8_0">
     <property role="TrG5h" value="TargetInvalidException" />
-    <property role="3GE5qa" value="exceptions" />
+    <property role="3GE5qa" value="exceptions.target" />
     <node concept="3clFbW" id="2ju2syjG8Gm" role="jymVt">
       <node concept="3cqZAl" id="2ju2syjG8Gn" role="3clF45" />
       <node concept="3Tm1VV" id="2ju2syjG8Go" role="1B3o_S" />
@@ -815,7 +872,7 @@
                     <node concept="Xl_RD" id="2ju2syjG8Gw" role="3uHU7B">
                       <property role="Xl_RC" value="element " />
                     </node>
-                    <node concept="2EnYce" id="2ju2syjVmyu" role="3uHU7w">
+                    <node concept="2OqwBi" id="3M8YG$daEnV" role="3uHU7w">
                       <node concept="37vLTw" id="2ju2syjG8Gx" role="2Oq$k0">
                         <ref role="3cqZAo" node="2ju2syjG8GA" resolve="source" />
                       </node>
@@ -828,7 +885,7 @@
                     <property role="Xl_RC" value=" refers to " />
                   </node>
                 </node>
-                <node concept="2EnYce" id="2ju2syjVmOc" role="3uHU7w">
+                <node concept="2OqwBi" id="3M8YG$daEr9" role="3uHU7w">
                   <node concept="37vLTw" id="2ju2syjG8Gz" role="2Oq$k0">
                     <ref role="3cqZAo" node="2ju2syjG8GC" resolve="unavailable" />
                   </node>
@@ -920,6 +977,13 @@
     <node concept="3uibUv" id="2ju2syjG8A2" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjG72b" resolve="ATargetException" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dbd1o" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dbd1p" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dbd1q" role="1dT_Ay">
+          <property role="1dT_AB" value="A target has been found, but does not adhere to expectations (e.g. wrong type)." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="48csSBO3vyi">
     <property role="TrG5h" value="NotAnAdapterException" />
@@ -980,6 +1044,13 @@
     <node concept="3Tm1VV" id="48csSBO3vyj" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$bjvAY" role="1zkMxy">
       <ref role="3uigEE" node="3M8YG$bjvpJ" resolve="ASLanguageIdException" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$daDLu" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$daDLv" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$daDLw" role="1dT_Ay">
+          <property role="1dT_AB" value="Indicates an unexpected situation during SLanguage id extraction." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="2fx6VTRTIfH">
@@ -1073,6 +1144,13 @@
     <node concept="3uibUv" id="2fx6VTRTIM$" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dbowa" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dbowb" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dbowc" role="1dT_Ay">
+          <property role="1dT_AB" value="A converter cannot create target languages, and is missing a required language." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2fx6VTSMEpg">
     <property role="TrG5h" value="DescriptorUnavailableException" />
@@ -1107,6 +1185,13 @@
     <node concept="3uibUv" id="3M8YG$bjvwi" role="1zkMxy">
       <ref role="3uigEE" node="3M8YG$bjvpJ" resolve="ASLanguageIdException" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$daDNK" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$daDNL" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$daDNM" role="1dT_Ay">
+          <property role="1dT_AB" value="Indicates unavailable Language structure aspect during SLanguage id extraction." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="18UigYQKNkB">
     <property role="3GE5qa" value="exceptions" />
@@ -1123,7 +1208,7 @@
                 <node concept="Xl_RD" id="18UigYQKOXI" role="3uHU7B">
                   <property role="Xl_RC" value="element " />
                 </node>
-                <node concept="2EnYce" id="18UigYQKOXJ" role="3uHU7w">
+                <node concept="2OqwBi" id="3M8YG$daF5Y" role="3uHU7w">
                   <node concept="37vLTw" id="18UigYQKOXK" role="2Oq$k0">
                     <ref role="3cqZAo" node="18UigYQKOXQ" resolve="source" />
                   </node>
@@ -1235,6 +1320,13 @@
         <node concept="17QB3L" id="3M8YG$bjvE_" role="1tU5fm" />
         <node concept="2AHcQZ" id="3M8YG$cblLU" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dapLZ" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dapM0" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dapM1" role="1dT_Ay">
+          <property role="1dT_AB" value="Root of exceptions raised during SLanguage id extraction." />
         </node>
       </node>
     </node>
