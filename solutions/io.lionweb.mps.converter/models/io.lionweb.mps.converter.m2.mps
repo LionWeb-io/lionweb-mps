@@ -5,6 +5,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
@@ -86,6 +87,18 @@
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="5045161044515397667" name="jetbrains.mps.lang.smodel.structure.Node_PointerOperation" flags="ng" index="iZEcu" />
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -95,6 +108,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -461,6 +475,13 @@
       <node concept="3Tm1VV" id="2ju2syjEg7r" role="1B3o_S" />
       <node concept="3clFbS" id="2ju2syjEg7t" role="3clF47" />
     </node>
+    <node concept="3UR2Jj" id="3M8YG$bgfWK" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$bgfWL" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$bgfWM" role="1dT_Ay">
+          <property role="1dT_AB" value="Root of exceptions raised during LionWeb conversion (in any direction)." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2ju2syjG72b">
     <property role="TrG5h" value="ATargetException" />
@@ -811,13 +832,13 @@
   </node>
   <node concept="312cEu" id="48csSBO3vyi">
     <property role="TrG5h" value="NotAnAdapterException" />
-    <property role="3GE5qa" value="exceptions" />
+    <property role="3GE5qa" value="exceptions.SLanguageId" />
     <node concept="3clFbW" id="48csSBO3vGQ" role="jymVt">
       <node concept="3cqZAl" id="48csSBO3vGS" role="3clF45" />
       <node concept="3Tm1VV" id="48csSBO3vGT" role="1B3o_S" />
       <node concept="3clFbS" id="48csSBO3vGU" role="3clF47">
         <node concept="XkiVB" id="48csSBO3y3p" role="3cqZAp">
-          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <ref role="37wK5l" node="3M8YG$bjvEs" resolve="ASLanguageIdException" />
           <node concept="3cpWs3" id="48csSBO3ANg" role="37wK5m">
             <node concept="37vLTw" id="48csSBO3AWj" role="3uHU7w">
               <ref role="3cqZAo" node="48csSBO3x14" resolve="target" />
@@ -860,8 +881,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="48csSBO3vyj" role="1B3o_S" />
-    <node concept="3uibUv" id="48csSBO3xIT" role="1zkMxy">
-      <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    <node concept="3uibUv" id="3M8YG$bjvAY" role="1zkMxy">
+      <ref role="3uigEE" node="3M8YG$bjvpJ" resolve="ASLanguageIdException" />
     </node>
   </node>
   <node concept="312cEu" id="2fx6VTRTIfH">
@@ -946,13 +967,13 @@
   </node>
   <node concept="312cEu" id="2fx6VTSMEpg">
     <property role="TrG5h" value="DescriptorUnavailableException" />
-    <property role="3GE5qa" value="exceptions" />
+    <property role="3GE5qa" value="exceptions.SLanguageId" />
     <node concept="3clFbW" id="2fx6VTSMEph" role="jymVt">
       <node concept="3cqZAl" id="2fx6VTSMEpi" role="3clF45" />
       <node concept="3Tm1VV" id="2fx6VTSMEpj" role="1B3o_S" />
       <node concept="3clFbS" id="2fx6VTSMEpk" role="3clF47">
         <node concept="XkiVB" id="2fx6VTSMEpl" role="3cqZAp">
-          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <ref role="37wK5l" node="3M8YG$bjvEs" resolve="ASLanguageIdException" />
           <node concept="3cpWs3" id="2fx6VTSMEpm" role="37wK5m">
             <node concept="37vLTw" id="2fx6VTSMEpn" role="3uHU7w">
               <ref role="3cqZAo" node="2fx6VTSMEpz" resolve="target" />
@@ -971,13 +992,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="2fx6VTSMEp_" role="1B3o_S" />
-    <node concept="3uibUv" id="2fx6VTSMEpA" role="1zkMxy">
-      <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    <node concept="3uibUv" id="3M8YG$bjvwi" role="1zkMxy">
+      <ref role="3uigEE" node="3M8YG$bjvpJ" resolve="ASLanguageIdException" />
     </node>
   </node>
   <node concept="312cEu" id="18UigYQKNkB">
     <property role="3GE5qa" value="exceptions" />
-    <property role="TrG5h" value="AnnotatedUnavailableException" />
+    <property role="TrG5h" value="MultipleAnnotatedException" />
     <node concept="3clFbW" id="18UigYQKOX$" role="jymVt">
       <node concept="3cqZAl" id="18UigYQKOX_" role="3clF45" />
       <node concept="3Tm1VV" id="18UigYQKOXA" role="1B3o_S" />
@@ -1063,6 +1084,38 @@
     <node concept="3Tm1VV" id="18UigYQKNkC" role="1B3o_S" />
     <node concept="3uibUv" id="18UigYQKNm5" role="1zkMxy">
       <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$bfHUU" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$bfHUV" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$bfHUW" role="1dT_Ay">
+          <property role="1dT_AB" value="Signals an Attribute annotates more than one classifier, which is not supported by LionWeb Annotations." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="3M8YG$bjvpJ">
+    <property role="3GE5qa" value="exceptions.SLanguageId" />
+    <property role="TrG5h" value="ASLanguageIdException" />
+    <property role="1sVAO0" value="true" />
+    <node concept="3Tm1VV" id="3M8YG$bjvpK" role="1B3o_S" />
+    <node concept="3uibUv" id="3M8YG$bjvrz" role="1zkMxy">
+      <ref role="3uigEE" node="2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+    </node>
+    <node concept="3clFbW" id="3M8YG$bjvEs" role="jymVt">
+      <node concept="3cqZAl" id="3M8YG$bjvEt" role="3clF45" />
+      <node concept="3Tm1VV" id="3M8YG$bjvEu" role="1B3o_S" />
+      <node concept="3clFbS" id="3M8YG$bjvEw" role="3clF47">
+        <node concept="XkiVB" id="3M8YG$bjvEy" role="3cqZAp">
+          <ref role="37wK5l" node="2ju2syjEg7v" resolve="MpsLionCoreConverterException" />
+          <node concept="37vLTw" id="3M8YG$bjvEA" role="37wK5m">
+            <ref role="3cqZAo" node="3M8YG$bjvEz" resolve="message" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3M8YG$bjvEz" role="3clF46">
+        <property role="TrG5h" value="message" />
+        <node concept="17QB3L" id="3M8YG$bjvE_" role="1tU5fm" />
+      </node>
     </node>
   </node>
 </model>
