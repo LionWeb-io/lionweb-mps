@@ -264,9 +264,15 @@
       <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
         <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
+      <concept id="2217234381367190443" name="jetbrains.mps.baseLanguage.javadoc.structure.SeeBlockDocTag" flags="ng" index="VUp57">
+        <child id="2217234381367190458" name="reference" index="VUp5m" />
+      </concept>
       <concept id="2217234381367188008" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocReference" flags="ng" index="VUqz4" />
       <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
         <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
+        <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
       </concept>
       <concept id="5562345046718956738" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseVariableDocReference" flags="ng" index="YTMYr">
         <reference id="5562345046718956740" name="declaration" index="YTMYt" />
@@ -2738,7 +2744,7 @@
       <node concept="P$JXv" id="3M8YG$9WHxN" role="lGtFl">
         <node concept="TZ5HA" id="3M8YG$9WHxO" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$9WHxP" role="1dT_Ay">
-            <property role="1dT_AB" value="Filters builtins languages from `dependencies` iff they can be replaced by dependencies to builtins." />
+            <property role="1dT_AB" value="Filters builtins languages from `dependencies` iff they can be substituted by dependencies to builtins." />
           </node>
         </node>
         <node concept="TZ5HA" id="3M8YG$9WIf5" role="TZ5H$">
@@ -2778,7 +2784,7 @@
           </node>
         </node>
         <node concept="x79VA" id="3M8YG$9WHxT" role="3nqlJM">
-          <property role="x79VB" value="`dependencies` without languages that can be replaced by builtins." />
+          <property role="x79VB" value="`dependencies` without languages that can be substituted by builtins." />
         </node>
       </node>
     </node>
@@ -3307,7 +3313,7 @@
     <node concept="3UR2Jj" id="3M8YG$9TMHo" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$9TMHp" role="TZ5H$">
         <node concept="1dT_AC" id="3M8YG$9TMHq" role="1dT_Ay">
-          <property role="1dT_AB" value="Identifies factual MPS language dependencies that are replaced by LionWeb builtins dependencies." />
+          <property role="1dT_AB" value="Identifies factual MPS language dependencies that are substituted by LionWeb builtins dependencies." />
         </node>
       </node>
       <node concept="TZ5HA" id="3M8YG$9WrhO" role="TZ5H$">
@@ -4929,6 +4935,16 @@
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
         </node>
       </node>
+      <node concept="P$JXv" id="3M8YG$aQnN5" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$aQnN6" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$aQnN7" role="1dT_Ay">
+            <property role="1dT_AB" value="All input `languages`, plus their transitive closure of dependencies." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$aQnN8" role="3nqlJM">
+          <property role="x79VB" value="Transitive closure of all of `languages` dependencies." />
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="3M8YG$atFKI" role="jymVt">
       <property role="TrG5h" value="lionWeb" />
@@ -4939,6 +4955,21 @@
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
         </node>
       </node>
+      <node concept="P$JXv" id="3M8YG$aQp8e" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$aQp8f" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$aQp8g" role="1dT_Ay">
+            <property role="1dT_AB" value="All input `languages`, plus their transitive closure of dependencies, minus dependencies that can be substituted by builtins." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$aQp8h" role="3nqlJM">
+          <property role="x79VB" value="Transitive closure of all `language` dependencies without languages that can be substituted by builtins." />
+        </node>
+        <node concept="VUp57" id="3M8YG$aQrq9" role="3nqlJM">
+          <node concept="VXe08" id="3M8YG$aQruC" role="VUp5m">
+            <ref role="VXe09" node="24j7TNHkUrg" resolve="BuiltinsUsage" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="3M8YG$aAI4M" role="jymVt">
       <property role="TrG5h" value="missing" />
@@ -4947,6 +4978,27 @@
       <node concept="A3Dl8" id="3M8YG$aAI5w" role="3clF45">
         <node concept="3uibUv" id="3M8YG$aAI5x" role="A3Ik2">
           <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="3M8YG$aQryf" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$aQryg" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$aQryh" role="1dT_Ay">
+            <property role="1dT_AB" value="All languages missing from `languages` that are required by " />
+          </node>
+          <node concept="1dT_AA" id="3M8YG$aQsxc" role="1dT_Ay">
+            <node concept="92FcH" id="3M8YG$aQs$K" role="qph3F">
+              <node concept="TZ5HA" id="3M8YG$aQs$M" role="2XjZqd" />
+              <node concept="VXe0Z" id="3M8YG$aQsCr" role="92FcQ">
+                <ref role="VXe0S" node="3M8YG$atFKI" resolve="lionWeb" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="3M8YG$aQsxb" role="1dT_Ay">
+            <property role="1dT_AB" value="." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$aQryi" role="3nqlJM">
+          <property role="x79VB" value="All languages missing from `languages` from LionWeb point of view." />
         </node>
       </node>
     </node>
@@ -5001,6 +5053,34 @@
       <node concept="3uibUv" id="3M8YG$a_Gbo" role="3clF45">
         <ref role="3uigEE" node="3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
       </node>
+      <node concept="P$JXv" id="3M8YG$aQnB2" role="lGtFl">
+        <node concept="TZ5HA" id="3M8YG$aQnB3" role="TZ5H$">
+          <node concept="1dT_AC" id="3M8YG$aQnB4" role="1dT_Ay">
+            <property role="1dT_AB" value="Gets the definitive DependsOnFinder." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3M8YG$aQnB5" role="3nqlJM">
+          <property role="TUZQ4" value="Repository to look up languages." />
+          <node concept="zr_55" id="3M8YG$aQnB7" role="zr_5Q">
+            <ref role="zr_51" node="3M8YG$a_IdX" resolve="repository" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3M8YG$aQnB8" role="3nqlJM">
+          <property role="TUZQ4" value="Constants to identify builtins." />
+          <node concept="zr_55" id="3M8YG$aQnBa" role="zr_5Q">
+            <ref role="zr_51" node="3M8YG$a_Ie0" resolve="constants" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3M8YG$aQnBb" role="3nqlJM">
+          <property role="TUZQ4" value="Languages to calculate the transitive closure for." />
+          <node concept="zr_55" id="3M8YG$aQnBd" role="zr_5Q">
+            <ref role="zr_51" node="3M8YG$a_Ie3" resolve="languages" />
+          </node>
+        </node>
+        <node concept="x79VA" id="3M8YG$aQnBe" role="3nqlJM">
+          <property role="x79VB" value="The definitive DependsOnFinder." />
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="3M8YG$atFqG" role="1B3o_S" />
     <node concept="3UR2Jj" id="3M8YG$aPtvR" role="lGtFl">
@@ -5027,7 +5107,12 @@
       </node>
       <node concept="TZ5HA" id="3M8YG$aPWHK" role="TZ5H$">
         <node concept="1dT_AC" id="3M8YG$aPWHL" role="1dT_Ay">
-          <property role="1dT_AB" value="Each implementation uses a different MPS API to find requ" />
+          <property role="1dT_AB" value="Each implementation uses a different MPS API to find dependencies." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$aQnyD" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aQnyE" role="1dT_Ay">
+          <property role="1dT_AB" value="TODO: Once we're certain which one to use, we should delete the other implementations." />
         </node>
       </node>
     </node>
@@ -5177,6 +5262,24 @@
       </node>
       <node concept="2AHcQZ" id="3M8YG$atHpd" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$aQuij" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$aQuEq" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aQuEr" role="1dT_Ay">
+          <property role="1dT_AB" value="Transitive closure based on " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$aQuEs" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$aQuEt" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$aQuEu" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$aQv1B" role="92FcQ">
+              <ref role="VXe0S" to="w1kc:~Language.getAllExtendedLanguages()" resolve="getAllExtendedLanguages" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$aQuEw" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -5389,6 +5492,24 @@
         <ref role="3uigEE" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$aQtu6" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$aQtu7" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aQtu8" role="1dT_Ay">
+          <property role="1dT_AB" value="Transitive closure based on " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$aQtYw" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$aQtYA" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$aQtYC" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$aQtYJ" role="92FcQ">
+              <ref role="VXe0S" to="w1kc:~Language.getDeclaredDependencies()" resolve="getDeclaredDependencies" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$aQtYv" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3M8YG$aufqS">
     <property role="3GE5qa" value="languageDependsOn" />
@@ -5511,6 +5632,24 @@
       </node>
       <node concept="2AHcQZ" id="3M8YG$aufMS" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$aYd6c" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$aYf9C" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aYf9D" role="1dT_Ay">
+          <property role="1dT_AB" value="Transitive closure based on " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$aYf9E" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$aYf9F" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$aYf9G" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$aYf9H" role="92FcQ">
+              <ref role="VXe0S" to="lui2:~SModule.getUsedLanguages()" resolve="getUsedLanguages" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$aYf9I" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -5720,6 +5859,24 @@
       </node>
       <node concept="2AHcQZ" id="3M8YG$aumI_" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$aYbo5" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$aYbMS" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aYbMT" role="1dT_Ay">
+          <property role="1dT_AB" value="Transitive closure based on " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$aYbMU" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$aYbMV" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$aYbMW" role="2XjZqd" />
+            <node concept="VXe0Z" id="3M8YG$aYbMX" role="92FcQ">
+              <ref role="VXe0S" to="w1kc:~SModelInternal.getModelImports()" resolve="getModelImports" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$aYbMY" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -5933,6 +6090,24 @@
       </node>
       <node concept="2AHcQZ" id="3M8YG$auzQr" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$aQy3l" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$aQ$hL" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aQ$hM" role="1dT_Ay">
+          <property role="1dT_AB" value="Transitive closure based on recursive application of " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$aQ$hN" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$aQ$hO" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$aQ$hP" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$aQDvJ" role="92FcQ">
+              <ref role="VXe09" node="3M8YG$atZe4" resolve="DeclaredDependenciesDependsOnFinder" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$aQ$hR" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
