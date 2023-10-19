@@ -540,7 +540,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3Kqiw5yAupV" role="1dT_Ay">
-          <property role="1dT_AB" value="s to LionWeb JSON " />
+          <property role="1dT_AB" value="s" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dSyD8" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dSyD9" role="1dT_Ay">
+          <property role="1dT_AB" value="to LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAupW" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAupX" role="qph3F">
@@ -5480,7 +5485,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="3Kqiw5yAmhz" role="1dT_Ay">
-          <property role="1dT_AB" value="s to LionWeb JSON " />
+          <property role="1dT_AB" value="s" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dS9Bn" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dS9Bo" role="1dT_Ay">
+          <property role="1dT_AB" value="to LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAmHN" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAmHY" role="qph3F">
@@ -6981,21 +6991,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="4R9posr5Mho" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posr5Mhp" role="3cpWs9">
-                <property role="TrG5h" value="propertyMP" />
-                <node concept="3uibUv" id="4R9posr5L8Y" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="4R9posr5Mhq" role="33vP2m">
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.Feature)" resolve="from" />
-                  <node concept="37vLTw" id="4R9posr5Mhr" role="37wK5m">
-                    <ref role="3cqZAo" node="4R9posqqs_Z" resolve="json" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="7W6jYlyEWP6" role="3cqZAp">
               <node concept="3KEzu6" id="7W6jYlyEWP7" role="3cpWs9">
                 <property role="TrG5h" value="tmp" />
@@ -7049,8 +7044,13 @@
                     <node concept="37vLTw" id="7W6jYlyFCf9" role="37wK5m">
                       <ref role="3cqZAo" node="7W6jYlyEWP7" resolve="tmp" />
                     </node>
-                    <node concept="37vLTw" id="18UigYPRB4n" role="37wK5m">
-                      <ref role="3cqZAo" node="4R9posr5Mhp" resolve="propertyMP" />
+                    <node concept="2OqwBi" id="3M8YG$dZlQl" role="37wK5m">
+                      <node concept="37vLTw" id="18UigYPRB4n" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqs_Z" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$dZr_8" role="2OqNvi">
+                        <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -7177,21 +7177,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="4R9posrbb3o" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posrbb3p" role="3cpWs9">
-                <property role="TrG5h" value="containmentMP" />
-                <node concept="3uibUv" id="4R9posrbb3q" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="4R9posrbb3r" role="33vP2m">
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.Feature)" resolve="from" />
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <node concept="37vLTw" id="4R9posrbb3s" role="37wK5m">
-                    <ref role="3cqZAo" node="4R9posqqsAU" resolve="json" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="7W6jYlyGlVZ" role="3cqZAp">
               <node concept="3KEzu6" id="7W6jYlyGlW0" role="3cpWs9">
                 <property role="TrG5h" value="tmp" />
@@ -7245,8 +7230,13 @@
                     <node concept="37vLTw" id="7W6jYlyG$Cg" role="37wK5m">
                       <ref role="3cqZAo" node="7W6jYlyGlW0" resolve="tmp" />
                     </node>
-                    <node concept="37vLTw" id="18UigYPRSDe" role="37wK5m">
-                      <ref role="3cqZAo" node="4R9posrbb3p" resolve="containmentMP" />
+                    <node concept="2OqwBi" id="3M8YG$dZ$$G" role="37wK5m">
+                      <node concept="37vLTw" id="18UigYPRSDe" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqsAU" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$dZE0f" role="2OqNvi">
+                        <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -7440,21 +7430,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="1xqd6ptJlon" role="3cqZAp">
-              <node concept="3cpWsn" id="1xqd6ptJloo" role="3cpWs9">
-                <property role="TrG5h" value="referenceMP" />
-                <node concept="3uibUv" id="1xqd6ptJlop" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="1xqd6ptJloq" role="33vP2m">
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.Feature)" resolve="from" />
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <node concept="37vLTw" id="1xqd6ptJlor" role="37wK5m">
-                    <ref role="3cqZAo" node="1xqd6ptJlp6" resolve="json" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="1xqd6ptJlos" role="3cqZAp">
               <node concept="3KEzu6" id="1xqd6ptJlot" role="3cpWs9">
                 <property role="TrG5h" value="tmp" />
@@ -7508,8 +7483,13 @@
                     <node concept="37vLTw" id="1xqd6ptJloM" role="37wK5m">
                       <ref role="3cqZAo" node="1xqd6ptJlot" resolve="tmp" />
                     </node>
-                    <node concept="37vLTw" id="1xqd6ptJloN" role="37wK5m">
-                      <ref role="3cqZAo" node="1xqd6ptJloo" resolve="referenceMP" />
+                    <node concept="2OqwBi" id="3M8YG$dZMyo" role="37wK5m">
+                      <node concept="37vLTw" id="1xqd6ptJloN" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1xqd6ptJlp6" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$dZU1j" role="2OqNvi">
+                        <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -7634,21 +7614,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="4R9posrg6eb" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posrg6ec" role="3cpWs9">
-                <property role="TrG5h" value="referenceMP" />
-                <node concept="3uibUv" id="4R9posrg6ed" role="1tU5fm">
-                  <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                </node>
-                <node concept="2YIFZM" id="4R9posrg6ee" role="33vP2m">
-                  <ref role="37wK5l" to="xfsv:~MetaPointer.from(io.lionweb.lioncore.java.language.Feature)" resolve="from" />
-                  <ref role="1Pybhc" to="xfsv:~MetaPointer" resolve="MetaPointer" />
-                  <node concept="37vLTw" id="4R9posrg6ef" role="37wK5m">
-                    <ref role="3cqZAo" node="4R9posqqsBP" resolve="json" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="7W6jYlyBEfB" role="3cqZAp">
               <node concept="3KEzu6" id="7W6jYlyBS8R" role="3cpWs9">
                 <property role="TrG5h" value="tmp" />
@@ -7702,8 +7667,13 @@
                     <node concept="37vLTw" id="7W6jYlyBEfH" role="37wK5m">
                       <ref role="3cqZAo" node="7W6jYlyBS8R" resolve="tmp" />
                     </node>
-                    <node concept="37vLTw" id="18UigYPS9RG" role="37wK5m">
-                      <ref role="3cqZAo" node="4R9posrg6ec" resolve="referenceMP" />
+                    <node concept="2OqwBi" id="3M8YG$dZYuN" role="37wK5m">
+                      <node concept="37vLTw" id="3M8YG$dZYuO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqsBP" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$dZYuP" role="2OqNvi">
+                        <ref role="37wK5l" to="imb3:~Feature.getKey()" resolve="getKey" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -7976,27 +7946,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="4R9posqUjKC" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posqUjKD" role="3cpWs9">
-                <property role="TrG5h" value="jsonEnm" />
-                <node concept="3uibUv" id="4R9posqUgKj" role="1tU5fm">
-                  <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
-                </node>
-                <node concept="10QFUN" id="3M8YG$bFERS" role="33vP2m">
-                  <node concept="2OqwBi" id="3M8YG$bFERP" role="10QFUP">
-                    <node concept="37vLTw" id="3M8YG$bFERQ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
-                    </node>
-                    <node concept="liA8E" id="3M8YG$bFERR" role="2OqNvi">
-                      <ref role="37wK5l" to="tzx8:~M3Node.getParent()" resolve="getParent" />
-                    </node>
-                  </node>
-                  <node concept="3uibUv" id="3M8YG$bFERO" role="10QFUM">
-                    <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="7W6jYlyDZXp" role="3cqZAp">
               <node concept="3KEzu6" id="7W6jYlyDZXq" role="3cpWs9">
                 <property role="TrG5h" value="tmp" />
@@ -8060,43 +8009,12 @@
                     <node concept="37vLTw" id="7W6jYlyHqvL" role="37wK5m">
                       <ref role="3cqZAo" node="7W6jYlyDZXq" resolve="tmp" />
                     </node>
-                    <node concept="2ShNRf" id="4R9posqU5LJ" role="37wK5m">
-                      <node concept="1pGfFk" id="4R9posqU8so" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~MetaPointer.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolve="MetaPointer" />
-                        <node concept="2OqwBi" id="4R9posqV7gO" role="37wK5m">
-                          <node concept="2OqwBi" id="4R9posqUHUg" role="2Oq$k0">
-                            <node concept="37vLTw" id="4R9posqUBGm" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4R9posqUjKD" resolve="jsonEnm" />
-                            </node>
-                            <node concept="liA8E" id="4R9posqUOvY" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="4R9posqVbOv" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="4R9posqVn1F" role="37wK5m">
-                          <node concept="2OqwBi" id="4R9posqV1$0" role="2Oq$k0">
-                            <node concept="37vLTw" id="4R9posqUW6z" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4R9posqUjKD" resolve="jsonEnm" />
-                            </node>
-                            <node concept="liA8E" id="4R9posqViHy" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~LanguageEntity.getLanguage()" resolve="getLanguage" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="4R9posqVt87" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~Language.getVersion()" resolve="getVersion" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="4R9posqVGWT" role="37wK5m">
-                          <node concept="37vLTw" id="4R9posqVCE8" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
-                          </node>
-                          <node concept="liA8E" id="4R9posqVN0u" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~EnumerationLiteral.getKey()" resolve="getKey" />
-                          </node>
-                        </node>
+                    <node concept="2OqwBi" id="3M8YG$dZ7Bp" role="37wK5m">
+                      <node concept="37vLTw" id="3M8YG$dZ5Aj" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4R9posqqsEi" resolve="json" />
+                      </node>
+                      <node concept="liA8E" id="3M8YG$dZenL" role="2OqNvi">
+                        <ref role="37wK5l" to="imb3:~EnumerationLiteral.getKey()" resolve="getKey" />
                       </node>
                     </node>
                   </node>
@@ -8367,7 +8285,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="4R9posqqsGm" role="1dT_Ay">
-          <property role="1dT_AB" value="s to compiled " />
+          <property role="1dT_AB" value="s" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dSphw" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dSphx" role="1dT_Ay">
+          <property role="1dT_AB" value="to compiled " />
         </node>
         <node concept="1dT_AA" id="4R9posqqsGn" role="1dT_Ay">
           <node concept="92FcH" id="4R9posqqsGo" role="qph3F">

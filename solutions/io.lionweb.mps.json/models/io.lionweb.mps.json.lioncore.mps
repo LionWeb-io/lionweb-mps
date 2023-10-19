@@ -3833,7 +3833,12 @@
           </node>
         </node>
         <node concept="1dT_AC" id="1ilOlIENqgf" role="1dT_Ay">
-          <property role="1dT_AB" value="s to LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
+          <property role="1dT_AB" value="s" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dSUnX" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dSUnY" role="1dT_Ay">
+          <property role="1dT_AB" value="to LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3." />
         </node>
         <node concept="1dT_AC" id="1ilOlIENjBZ" role="1dT_Ay" />
       </node>
@@ -7617,7 +7622,12 @@
     <node concept="3UR2Jj" id="1ilOlIEMGkT" role="lGtFl">
       <node concept="TZ5HA" id="1ilOlIEMGkU" role="TZ5H$">
         <node concept="1dT_AC" id="1ilOlIEMGkV" role="1dT_Ay">
-          <property role="1dT_AB" value="Exports LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3 to LionWeb JSON " />
+          <property role="1dT_AB" value="Exports LionWeb M2 Languages expressed in MPS language io.lionweb.mps.m3" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dSFWu" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dSFWv" role="1dT_Ay">
+          <property role="1dT_AB" value="to LionWeb JSON " />
         </node>
         <node concept="1dT_AA" id="3Kqiw5yAmHN" role="1dT_Ay">
           <node concept="92FcH" id="3Kqiw5yAmHY" role="qph3F">
