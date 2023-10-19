@@ -1697,10 +1697,10 @@
           </node>
           <node concept="2OqwBi" id="39$JcGGmsOm" role="2GsD0m">
             <node concept="liA8E" id="39$JcGGmwqv" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lwExtendedLanguages" />
+              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lionWeb" />
             </node>
             <node concept="2YIFZM" id="3M8YG$aA7XU" role="2Oq$k0">
-              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
               <ref role="37wK5l" to="apzt:3M8YG$a_Gct" resolve="getDefault" />
               <node concept="37vLTw" id="3M8YG$aA7XV" role="37wK5m">
                 <ref role="3cqZAo" node="3M8YG$9YyXo" resolve="repository" />

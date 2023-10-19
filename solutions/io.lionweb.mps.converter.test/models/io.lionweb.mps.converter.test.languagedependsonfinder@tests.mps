@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:43c660c3-adeb-4a6a-893f-396c007e80f0(io.lionweb.mps.converter.test.languageextensionfinder@tests)">
+<model ref="r:43c660c3-adeb-4a6a-893f-396c007e80f0(io.lionweb.mps.converter.test.languagedependsonfinder@tests)">
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
@@ -109,7 +109,7 @@
     <property role="2XOHcw" value="${lioncore-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="18UigYQ3Af3">
-    <property role="TrG5h" value="TestLibraryDependencies" />
+    <property role="TrG5h" value="TestLibraryDependsOn" />
     <node concept="1LZb2c" id="18UigYQ3Af4" role="1SL9yI">
       <property role="TrG5h" value="allExtendedLanguages" />
       <node concept="3cqZAl" id="18UigYQ3Af5" role="3clF45" />
@@ -136,7 +136,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Sa5" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Sa6" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Sa7" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Sa8" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Sa9" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Saa" role="2OqNvi">
@@ -152,7 +152,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Sae" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="all" />
                 </node>
               </node>
             </node>
@@ -173,7 +173,7 @@
               <node concept="2OqwBi" id="3M8YG$a$VWS" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$VWT" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$VWU" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$VWV" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$VWW" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$VWX" role="2OqNvi">
@@ -189,7 +189,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$VX1" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -207,7 +207,7 @@
               <node concept="2OqwBi" id="3M8YG$a$WU4" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$WU5" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$WU6" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$WU7" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$WU8" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$WU9" role="2OqNvi">
@@ -223,7 +223,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$WUd" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="all" />
                 </node>
               </node>
             </node>
@@ -251,7 +251,7 @@
               <node concept="2OqwBi" id="3M8YG$a$X1n" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$X1o" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$X1p" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$X1q" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$X1r" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$X1s" role="2OqNvi">
@@ -267,7 +267,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$X1w" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -288,7 +288,7 @@
               <node concept="2OqwBi" id="3M8YG$a_0ql" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a_0qm" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a_0qn" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aufzB" resolve="UsedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aufzB" resolve="UsedLanguagesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a_0qo" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a_0qp" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a_0qq" role="2OqNvi">
@@ -304,7 +304,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a_0qu" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -416,7 +416,7 @@
               <node concept="2OqwBi" id="3M8YG$a_16t" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a_16u" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a_16v" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a_16w" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a_16x" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a_16y" role="2OqNvi">
@@ -432,7 +432,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a_16A" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -453,7 +453,7 @@
               <node concept="2OqwBi" id="3M8YG$a$YDc" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$YDd" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$YDe" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$YDf" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$YDg" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$YDh" role="2OqNvi">
@@ -475,7 +475,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$YDo" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="all" />
                 </node>
               </node>
             </node>
@@ -496,7 +496,7 @@
               <node concept="2OqwBi" id="3M8YG$a$YNe" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$YNf" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$YNg" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$YNh" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$YNi" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$YNj" role="2OqNvi">
@@ -518,7 +518,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$YNq" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -539,7 +539,7 @@
               <node concept="2OqwBi" id="3M8YG$a$ZTu" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$ZTv" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$ZTw" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$ZTx" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$ZTy" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$ZTz" role="2OqNvi">
@@ -561,7 +561,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$ZTE" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missingLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missing" />
                 </node>
               </node>
             </node>
@@ -639,7 +639,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="18UigYQ3PbP">
-    <property role="TrG5h" value="TestLang3Dependencies" />
+    <property role="TrG5h" value="TestLang3DependsOn" />
     <node concept="2XrIbr" id="3M8YG$a_29V" role="1qtyYc">
       <property role="TrG5h" value="repository" />
       <node concept="3uibUv" id="3M8YG$a_29W" role="3clF45">
@@ -731,7 +731,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Sr0" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Sr1" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Sr2" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Sr3" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Sr4" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Sr5" role="2OqNvi">
@@ -747,7 +747,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Sr9" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="all" />
                 </node>
               </node>
             </node>
@@ -768,7 +768,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Wn4" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Wn5" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Wn6" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Wn7" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Wn8" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Wn9" role="2OqNvi">
@@ -784,7 +784,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Wnd" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -802,7 +802,7 @@
               <node concept="2OqwBi" id="3M8YG$a$WzE" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$WzF" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$WzG" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$WzH" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$WzI" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$WzJ" role="2OqNvi">
@@ -818,7 +818,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$WzN" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="all" />
                 </node>
               </node>
             </node>
@@ -852,7 +852,7 @@
               <node concept="2OqwBi" id="3M8YG$a$XuA" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$XuB" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$XuC" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$XuD" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$XuE" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$XuF" role="2OqNvi">
@@ -868,7 +868,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$XuJ" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -889,7 +889,7 @@
               <node concept="2OqwBi" id="3M8YG$a$XFI" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$XFJ" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$XFK" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$XFL" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$XFM" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$XFN" role="2OqNvi">
@@ -905,7 +905,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$XFR" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -926,7 +926,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Yg1" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Yg2" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Yg3" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Yg4" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Yg5" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Yg6" role="2OqNvi">
@@ -948,7 +948,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Ygd" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="all" />
                 </node>
               </node>
             </node>
@@ -976,7 +976,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Zgs" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Zgt" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Zgu" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Zgv" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Zgw" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Zgx" role="2OqNvi">
@@ -998,7 +998,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$ZgC" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1019,7 +1019,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Zqo" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Zqp" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Zqq" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Zqr" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Zqs" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Zqt" role="2OqNvi">
@@ -1041,7 +1041,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Zq$" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missingLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missing" />
                 </node>
               </node>
             </node>
@@ -1054,7 +1054,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="18UigYQ3Q_A">
-    <property role="TrG5h" value="TestCoreRefLangDependencies" />
+    <property role="TrG5h" value="TestCoreRefLangDependsOn" />
     <node concept="2XrIbr" id="3M8YG$a$Tp7" role="1qtyYc">
       <property role="TrG5h" value="repository" />
       <node concept="3uibUv" id="3M8YG$a$TDM" role="3clF45">
@@ -1146,7 +1146,7 @@
               <node concept="2OqwBi" id="3M8YG$a$NV6" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$NV7" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$NV8" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Okj" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Okm" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Oko" role="2OqNvi">
@@ -1162,7 +1162,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$NVb" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="all" />
                 </node>
               </node>
             </node>
@@ -1183,7 +1183,7 @@
               <node concept="2OqwBi" id="3M8YG$a$S_B" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$S_C" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$S_D" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$U9V" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$U9Y" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Ua0" role="2OqNvi">
@@ -1199,7 +1199,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$S_G" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1217,7 +1217,7 @@
               <node concept="2OqwBi" id="3M8YG$a$SHu" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$SHv" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$SHw" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$UkT" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$UkU" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$UkV" role="2OqNvi">
@@ -1233,7 +1233,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$SHz" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="all" />
                 </node>
               </node>
             </node>
@@ -1261,7 +1261,7 @@
               <node concept="2OqwBi" id="3M8YG$a$SMt" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$SMu" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$SMv" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Ux9" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Uxa" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Uxb" role="2OqNvi">
@@ -1277,7 +1277,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$SMy" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1298,7 +1298,7 @@
               <node concept="2OqwBi" id="3M8YG$a$SUY" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$SUZ" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$SV0" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$UD1" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$UD2" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$UD3" role="2OqNvi">
@@ -1314,7 +1314,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$SV3" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1335,7 +1335,7 @@
               <node concept="2OqwBi" id="3M8YG$a$T1w" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$T1x" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$T1y" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$UKX" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$UL0" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$UL2" role="2OqNvi">
@@ -1357,7 +1357,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$T1A" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="all" />
                 </node>
               </node>
             </node>
@@ -1378,7 +1378,7 @@
               <node concept="2OqwBi" id="3M8YG$a$T8N" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$T8O" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$T8P" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$V0D" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$V0G" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$V0I" role="2OqNvi">
@@ -1400,7 +1400,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$T8T" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1421,7 +1421,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Ti0" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Ti1" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Ti2" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$VbX" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Vc0" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Vc2" role="2OqNvi">
@@ -1443,7 +1443,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Ti6" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missingLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missing" />
                 </node>
               </node>
             </node>
@@ -1456,7 +1456,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="18UigYQ3RKg">
-    <property role="TrG5h" value="TestRichtextDependencies" />
+    <property role="TrG5h" value="TestRichtextDependsOn" />
     <node concept="1LZb2c" id="18UigYQ3RKh" role="1SL9yI">
       <property role="TrG5h" value="allExtendedLanguages" />
       <node concept="3cqZAl" id="18UigYQ3RKi" role="3clF45" />
@@ -1483,7 +1483,7 @@
               <node concept="2OqwBi" id="3M8YG$a$RYC" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$RYD" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$RYE" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$RYF" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$RYG" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$RYH" role="2OqNvi">
@@ -1499,7 +1499,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$RYL" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atHp6" resolve="all" />
                 </node>
               </node>
             </node>
@@ -1520,7 +1520,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Wb$" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Wb_" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$WbA" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="AllExtendedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atGOP" resolve="ExtendedDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$WbB" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$WbC" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$WbD" role="2OqNvi">
@@ -1536,7 +1536,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$WbH" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1554,7 +1554,7 @@
               <node concept="2OqwBi" id="3M8YG$a$WGD" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$WGE" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$WGF" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$WGG" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$WGH" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$WGI" role="2OqNvi">
@@ -1570,7 +1570,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$WGM" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atZL$" resolve="all" />
                 </node>
               </node>
             </node>
@@ -1604,7 +1604,7 @@
               <node concept="2OqwBi" id="3M8YG$a$XgC" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$XgD" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$XgE" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$XgF" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$XgG" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$XgH" role="2OqNvi">
@@ -1620,7 +1620,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$XgL" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1654,7 +1654,7 @@
               <node concept="2OqwBi" id="3M8YG$a_0Kg" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a_0Kh" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a_0Ki" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aufzB" resolve="UsedLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aufzB" resolve="UsedLanguagesDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a_0Kj" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a_0Kk" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a_0Kl" role="2OqNvi">
@@ -1670,7 +1670,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a_0Kp" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -1920,7 +1920,7 @@
               <node concept="2OqwBi" id="3M8YG$a$XVD" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$XVE" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$XVF" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredLanguagesFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$auzMd" resolve="RequiredDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$XVG" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$XVH" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$XVI" role="2OqNvi">
@@ -1936,7 +1936,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$XVM" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -2222,7 +2222,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Ysi" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Ysj" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Ysk" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Ysl" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Ysm" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Ysn" role="2OqNvi">
@@ -2244,7 +2244,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Ysu" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="allExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$aumIu" resolve="all" />
                 </node>
               </node>
             </node>
@@ -2265,7 +2265,7 @@
               <node concept="2OqwBi" id="3M8YG$a$Z0B" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$Z0C" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$Z0D" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$Z0E" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$Z0F" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$Z0G" role="2OqNvi">
@@ -2287,7 +2287,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$Z0N" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$atDqR" resolve="lionWeb" />
                 </node>
               </node>
             </node>
@@ -2308,7 +2308,7 @@
               <node concept="2OqwBi" id="3M8YG$a$ZEe" role="I$8f6">
                 <node concept="2ShNRf" id="3M8YG$a$ZEf" role="2Oq$k0">
                   <node concept="1pGfFk" id="3M8YG$a$ZEg" role="2ShVmc">
-                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+                    <ref role="37wK5l" to="apzt:3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
                     <node concept="2OqwBi" id="3M8YG$a$ZEh" role="37wK5m">
                       <node concept="2WthIp" id="3M8YG$a$ZEi" role="2Oq$k0" />
                       <node concept="2XshWL" id="3M8YG$a$ZEj" role="2OqNvi">
@@ -2330,7 +2330,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3M8YG$a$ZEq" role="2OqNvi">
-                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missingLanguages" />
+                  <ref role="37wK5l" to="apzt:3M8YG$avuJJ" resolve="missing" />
                 </node>
               </node>
             </node>

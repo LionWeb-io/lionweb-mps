@@ -4636,8 +4636,8 @@
     </node>
   </node>
   <node concept="312cEu" id="3M8YG$atyAm">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="ALanguageExtensionFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="ALanguageDependsOnFinder" />
     <property role="1sVAO0" value="true" />
     <node concept="312cEg" id="3M8YG$atA3V" role="jymVt">
       <property role="TrG5h" value="languages" />
@@ -4715,7 +4715,7 @@
     <node concept="2tJIrI" id="3M8YG$atCga" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$atCUT" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3clFbS" id="3M8YG$atCUW" role="3clF47" />
       <node concept="3Tm1VV" id="3M8YG$atCkk" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$atCor" role="3clF45">
@@ -4726,13 +4726,13 @@
     </node>
     <node concept="2tJIrI" id="3M8YG$avuyY" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$atDqR" role="jymVt">
-      <property role="TrG5h" value="lwExtendedLanguages" />
+      <property role="TrG5h" value="lionWeb" />
       <node concept="3clFbS" id="3M8YG$atDqS" role="3clF47">
         <node concept="3cpWs6" id="3M8YG$auUWc" role="3cqZAp">
           <node concept="1rXfSq" id="3M8YG$auUWb" role="3cqZAk">
             <ref role="37wK5l" node="3M8YG$auUW6" resolve="filterBuiltins" />
             <node concept="1rXfSq" id="3M8YG$auVtM" role="37wK5m">
-              <ref role="37wK5l" node="3M8YG$atCUT" resolve="allExtendedLanguages" />
+              <ref role="37wK5l" node="3M8YG$atCUT" resolve="all" />
             </node>
           </node>
         </node>
@@ -4746,7 +4746,7 @@
     </node>
     <node concept="2tJIrI" id="3M8YG$avuHq" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$avuJJ" role="jymVt">
-      <property role="TrG5h" value="missingLanguages" />
+      <property role="TrG5h" value="missing" />
       <node concept="3clFbS" id="3M8YG$avuJK" role="3clF47">
         <node concept="3cpWs8" id="3M8YG$avuJL" role="3cqZAp">
           <node concept="3cpWsn" id="3M8YG$avuJM" role="3cpWs9">
@@ -4808,7 +4808,7 @@
             <node concept="2OqwBi" id="3M8YG$avuKb" role="2Oq$k0">
               <node concept="Xjq3P" id="3M8YG$avuKc" role="2Oq$k0" />
               <node concept="liA8E" id="3M8YG$avuKd" role="2OqNvi">
-                <ref role="37wK5l" node="3M8YG$atDqR" resolve="lwExtendedLanguages" />
+                <ref role="37wK5l" node="3M8YG$atDqR" resolve="lionWeb" />
               </node>
             </node>
             <node concept="3zZkjj" id="3M8YG$avuKe" role="2OqNvi">
@@ -4914,14 +4914,14 @@
     </node>
     <node concept="3Tm1VV" id="3M8YG$atyAn" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$atFCG" role="EKbjA">
-      <ref role="3uigEE" node="3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+      <ref role="3uigEE" node="3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
     </node>
   </node>
   <node concept="3HP615" id="3M8YG$atFqF">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="ILanguageExtensionFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="ILanguageDependsOnFinder" />
     <node concept="3clFb_" id="3M8YG$atFKD" role="jymVt">
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3clFbS" id="3M8YG$atFKE" role="3clF47" />
       <node concept="3Tm1VV" id="3M8YG$atFKF" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$atFKG" role="3clF45">
@@ -4931,7 +4931,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="3M8YG$atFKI" role="jymVt">
-      <property role="TrG5h" value="lwExtendedLanguages" />
+      <property role="TrG5h" value="lionWeb" />
       <node concept="3clFbS" id="3M8YG$atFKJ" role="3clF47" />
       <node concept="3Tm1VV" id="3M8YG$atFKS" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$atFKT" role="3clF45">
@@ -4941,7 +4941,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="3M8YG$aAI4M" role="jymVt">
-      <property role="TrG5h" value="missingLanguages" />
+      <property role="TrG5h" value="missing" />
       <node concept="3clFbS" id="3M8YG$aAI4N" role="3clF47" />
       <node concept="3Tm1VV" id="3M8YG$aAI5v" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$aAI5w" role="3clF45">
@@ -4983,7 +4983,7 @@
         <node concept="3clFbF" id="3M8YG$a_Ily" role="3cqZAp">
           <node concept="2ShNRf" id="3M8YG$a_Ilw" role="3clFbG">
             <node concept="1pGfFk" id="3M8YG$a_IP6" role="2ShVmc">
-              <ref role="37wK5l" node="3M8YG$aumw9" resolve="StructureImportsLanguageFinder" />
+              <ref role="37wK5l" node="3M8YG$aumw9" resolve="StructureImportsDependsOnFinder" />
               <node concept="37vLTw" id="3M8YG$a_LTk" role="37wK5m">
                 <ref role="3cqZAo" node="3M8YG$a_IdX" resolve="repository" />
               </node>
@@ -4999,17 +4999,45 @@
       </node>
       <node concept="3Tm1VV" id="3M8YG$a_Gcx" role="1B3o_S" />
       <node concept="3uibUv" id="3M8YG$a_Gbo" role="3clF45">
-        <ref role="3uigEE" node="3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+        <ref role="3uigEE" node="3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
       </node>
     </node>
     <node concept="3Tm1VV" id="3M8YG$atFqG" role="1B3o_S" />
+    <node concept="3UR2Jj" id="3M8YG$aPtvR" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$aPtvS" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aPtvT" role="1dT_Ay">
+          <property role="1dT_AB" value="Finds the transitive closure of all " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$aP$TG" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$aP$TM" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$aP$TO" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$aP$TV" role="92FcQ">
+              <ref role="VXe09" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$aP$TF" role="1dT_Ay">
+          <property role="1dT_AB" value="s that `languages` depend on from LionWeb point of view." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$aPWH_" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aPWHA" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$aPWHK" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$aPWHL" role="1dT_Ay">
+          <property role="1dT_AB" value="Each implementation uses a different MPS API to find requ" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3M8YG$atGCu">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="AllExtendedLanguagesFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="ExtendedDependsOnFinder" />
     <node concept="3Tm1VV" id="3M8YG$atGCv" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$atGKK" role="1zkMxy">
-      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageExtensionFinder" />
+      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageDependsOnFinder" />
     </node>
     <node concept="3clFbW" id="3M8YG$atGOP" role="jymVt">
       <node concept="37vLTG" id="3M8YG$atGOQ" role="3clF46">
@@ -5033,7 +5061,7 @@
       <node concept="3Tm1VV" id="3M8YG$atGOX" role="1B3o_S" />
       <node concept="3clFbS" id="3M8YG$atGPd" role="3clF47">
         <node concept="XkiVB" id="3M8YG$atGPe" role="3cqZAp">
-          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageExtensionFinder" />
+          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageDependsOnFinder" />
           <node concept="37vLTw" id="3M8YG$atGPf" role="37wK5m">
             <ref role="3cqZAo" node="3M8YG$atGOQ" resolve="constants" />
           </node>
@@ -5044,7 +5072,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="3M8YG$atHp6" role="jymVt">
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3Tm1VV" id="3M8YG$atHp8" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$atHp9" role="3clF45">
         <node concept="3uibUv" id="3M8YG$atHpa" role="A3Ik2">
@@ -5153,11 +5181,11 @@
     </node>
   </node>
   <node concept="312cEu" id="3M8YG$atZe4">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="DependentLanguagesFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="DeclaredDependenciesDependsOnFinder" />
     <node concept="3Tm1VV" id="3M8YG$atZe5" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$atZkY" role="1zkMxy">
-      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageExtensionFinder" />
+      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageDependsOnFinder" />
     </node>
     <node concept="3clFbW" id="3M8YG$atZlE" role="jymVt">
       <node concept="37vLTG" id="3M8YG$atZlF" role="3clF46">
@@ -5181,7 +5209,7 @@
       <node concept="3Tm1VV" id="3M8YG$atZlM" role="1B3o_S" />
       <node concept="3clFbS" id="3M8YG$atZm2" role="3clF47">
         <node concept="XkiVB" id="3M8YG$atZm3" role="3cqZAp">
-          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageExtensionFinder" />
+          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageDependsOnFinder" />
           <node concept="37vLTw" id="3M8YG$atZm4" role="37wK5m">
             <ref role="3cqZAo" node="3M8YG$atZlF" resolve="constants" />
           </node>
@@ -5193,7 +5221,7 @@
     </node>
     <node concept="2tJIrI" id="3M8YG$au0ip" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$atZL$" role="jymVt">
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3Tm1VV" id="3M8YG$atZLA" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$atZLB" role="3clF45">
         <node concept="3uibUv" id="3M8YG$atZLC" role="A3Ik2">
@@ -5363,11 +5391,11 @@
     </node>
   </node>
   <node concept="312cEu" id="3M8YG$aufqS">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="UsedLanguagesFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="UsedLanguagesDependsOnFinder" />
     <node concept="3Tm1VV" id="3M8YG$aufqT" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$aufwE" role="1zkMxy">
-      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageExtensionFinder" />
+      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageDependsOnFinder" />
     </node>
     <node concept="3clFbW" id="3M8YG$aufzB" role="jymVt">
       <node concept="37vLTG" id="3M8YG$aufzC" role="3clF46">
@@ -5391,7 +5419,7 @@
       <node concept="3Tm1VV" id="3M8YG$aufzJ" role="1B3o_S" />
       <node concept="3clFbS" id="3M8YG$aufzZ" role="3clF47">
         <node concept="XkiVB" id="3M8YG$auf$0" role="3cqZAp">
-          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageExtensionFinder" />
+          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageDependsOnFinder" />
           <node concept="37vLTw" id="3M8YG$auf$1" role="37wK5m">
             <ref role="3cqZAo" node="3M8YG$aufzC" resolve="constants" />
           </node>
@@ -5403,7 +5431,7 @@
     </node>
     <node concept="2tJIrI" id="3M8YG$aug5c" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$aufML" role="jymVt">
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3Tm1VV" id="3M8YG$aufMN" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$aufMO" role="3clF45">
         <node concept="3uibUv" id="3M8YG$aufMP" role="A3Ik2">
@@ -5487,11 +5515,11 @@
     </node>
   </node>
   <node concept="312cEu" id="3M8YG$aumos">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="StructureImportsLanguageFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="StructureImportsDependsOnFinder" />
     <node concept="3Tm1VV" id="3M8YG$aumot" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$aumtS" role="1zkMxy">
-      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageExtensionFinder" />
+      <ref role="3uigEE" node="3M8YG$atyAm" resolve="ALanguageDependsOnFinder" />
     </node>
     <node concept="312cEg" id="3M8YG$auq1R" role="jymVt">
       <property role="TrG5h" value="repository" />
@@ -5533,7 +5561,7 @@
       <node concept="3Tm1VV" id="3M8YG$aumwh" role="1B3o_S" />
       <node concept="3clFbS" id="3M8YG$aumwx" role="3clF47">
         <node concept="XkiVB" id="3M8YG$aumwy" role="3cqZAp">
-          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageExtensionFinder" />
+          <ref role="37wK5l" node="3M8YG$atACu" resolve="ALanguageDependsOnFinder" />
           <node concept="37vLTw" id="3M8YG$aumwz" role="37wK5m">
             <ref role="3cqZAo" node="3M8YG$aumwa" resolve="constants" />
           </node>
@@ -5558,7 +5586,7 @@
     </node>
     <node concept="2tJIrI" id="3M8YG$aun0Q" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$aumIu" role="jymVt">
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3Tm1VV" id="3M8YG$aumIw" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$aumIx" role="3clF45">
         <node concept="3uibUv" id="3M8YG$aumIy" role="A3Ik2">
@@ -5696,8 +5724,8 @@
     </node>
   </node>
   <node concept="312cEu" id="3M8YG$auzHJ">
-    <property role="3GE5qa" value="languageExtension" />
-    <property role="TrG5h" value="RequiredLanguagesFinder" />
+    <property role="3GE5qa" value="languageDependsOn" />
+    <property role="TrG5h" value="RequiredDependsOnFinder" />
     <node concept="312cEg" id="3M8YG$avgGl" role="jymVt">
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
@@ -5709,7 +5737,7 @@
     <node concept="2tJIrI" id="3M8YG$avedw" role="jymVt" />
     <node concept="3Tm1VV" id="3M8YG$auzHK" role="1B3o_S" />
     <node concept="3uibUv" id="3M8YG$auAk_" role="1zkMxy">
-      <ref role="3uigEE" node="3M8YG$atZe4" resolve="DependentLanguagesFinder" />
+      <ref role="3uigEE" node="3M8YG$atZe4" resolve="DeclaredDependenciesDependsOnFinder" />
     </node>
     <node concept="3clFbW" id="3M8YG$auzMd" role="jymVt">
       <node concept="37vLTG" id="3M8YG$auzMe" role="3clF46">
@@ -5733,7 +5761,7 @@
       <node concept="3Tm1VV" id="3M8YG$auzMl" role="1B3o_S" />
       <node concept="3clFbS" id="3M8YG$auzM_" role="3clF47">
         <node concept="XkiVB" id="3M8YG$auzMA" role="3cqZAp">
-          <ref role="37wK5l" node="3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+          <ref role="37wK5l" node="3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
           <node concept="37vLTw" id="3M8YG$auzMB" role="37wK5m">
             <ref role="3cqZAo" node="3M8YG$auzMe" resolve="constants" />
           </node>
@@ -5758,7 +5786,7 @@
     </node>
     <node concept="2tJIrI" id="3M8YG$auzXz" role="jymVt" />
     <node concept="3clFb_" id="3M8YG$auzQk" role="jymVt">
-      <property role="TrG5h" value="allExtendedLanguages" />
+      <property role="TrG5h" value="all" />
       <node concept="3Tm1VV" id="3M8YG$auzQm" role="1B3o_S" />
       <node concept="A3Dl8" id="3M8YG$auzQn" role="3clF45">
         <node concept="3uibUv" id="3M8YG$auzQo" role="A3Ik2">
@@ -5815,7 +5843,7 @@
                 <node concept="2OqwBi" id="3M8YG$avq14" role="37wK5m">
                   <node concept="2ShNRf" id="3M8YG$av87d" role="2Oq$k0">
                     <node concept="1pGfFk" id="3M8YG$ava_r" role="2ShVmc">
-                      <ref role="37wK5l" node="3M8YG$atZlE" resolve="DependentLanguagesFinder" />
+                      <ref role="37wK5l" node="3M8YG$atZlE" resolve="DeclaredDependenciesDependsOnFinder" />
                       <node concept="37vLTw" id="3M8YG$avjpX" role="37wK5m">
                         <ref role="3cqZAo" node="3M8YG$avgGl" resolve="constants" />
                       </node>
@@ -5825,7 +5853,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="3M8YG$avr_u" role="2OqNvi">
-                    <ref role="37wK5l" node="3M8YG$atZL$" resolve="allExtendedLanguages" />
+                    <ref role="37wK5l" node="3M8YG$atZL$" resolve="all" />
                   </node>
                 </node>
               </node>

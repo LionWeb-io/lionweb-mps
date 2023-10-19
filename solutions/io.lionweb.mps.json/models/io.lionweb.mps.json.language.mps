@@ -464,11 +464,11 @@
           <node concept="3cpWsn" id="51EPk3sB8lb" role="3cpWs9">
             <property role="TrG5h" value="finder" />
             <node concept="3uibUv" id="51EPk3sB8el" role="1tU5fm">
-              <ref role="3uigEE" to="apzt:3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+              <ref role="3uigEE" to="apzt:3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
             </node>
             <node concept="2YIFZM" id="3M8YG$aA7XU" role="33vP2m">
               <ref role="37wK5l" to="apzt:3M8YG$a_Gct" resolve="getDefault" />
-              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
               <node concept="37vLTw" id="3M8YG$aA7XV" role="37wK5m">
                 <ref role="3cqZAo" node="3M8YG$a01In" resolve="repository" />
               </node>
@@ -507,7 +507,7 @@
               <ref role="3cqZAo" node="51EPk3sB8lb" resolve="finder" />
             </node>
             <node concept="liA8E" id="39$JcGGvo6p" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lwExtendedLanguages" />
+              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lionWeb" />
             </node>
           </node>
         </node>
@@ -2526,11 +2526,11 @@
           </node>
           <node concept="2OqwBi" id="39$JcGGmsOm" role="2GsD0m">
             <node concept="liA8E" id="39$JcGGmwqv" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lwExtendedLanguages" />
+              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lionWeb" />
             </node>
             <node concept="2YIFZM" id="3M8YG$aB6LP" role="2Oq$k0">
               <ref role="37wK5l" to="apzt:3M8YG$a_Gct" resolve="getDefault" />
-              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageDependsOnFinder" />
               <node concept="37vLTw" id="3M8YG$aB6LQ" role="37wK5m">
                 <ref role="3cqZAo" node="3M8YG$a01In" resolve="repository" />
               </node>
