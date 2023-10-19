@@ -2124,29 +2124,28 @@
             </node>
           </node>
           <node concept="2OqwBi" id="39$JcGGmsOm" role="2GsD0m">
-            <node concept="2ShNRf" id="39$JcGGpiKr" role="2Oq$k0">
-              <node concept="1pGfFk" id="39$JcGGpmUO" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:18UigYQ1Snt" resolve="LanguageExtensionFinder" />
-                <node concept="37vLTw" id="3M8YG$9Yg3p" role="37wK5m">
-                  <ref role="3cqZAo" node="3M8YG$9XoVd" resolve="repository" />
-                </node>
-                <node concept="37vLTw" id="24j7TNHemaF" role="37wK5m">
-                  <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
-                </node>
-                <node concept="2ShNRf" id="5M3rB6BoVrW" role="37wK5m">
-                  <node concept="2HTt$P" id="5M3rB6Bp0Rq" role="2ShVmc">
-                    <node concept="3uibUv" id="5M3rB6Bp6a6" role="2HTBi0">
-                      <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-                    </node>
-                    <node concept="37vLTw" id="5M3rB6Bpdjz" role="2HTEbv">
-                      <ref role="3cqZAo" node="48csSBNReEj" resolve="mps" />
-                    </node>
+            <node concept="liA8E" id="39$JcGGmwqv" role="2OqNvi">
+              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lwExtendedLanguages" />
+            </node>
+            <node concept="2YIFZM" id="3M8YG$aA7XU" role="2Oq$k0">
+              <ref role="37wK5l" to="apzt:3M8YG$a_Gct" resolve="getDefault" />
+              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+              <node concept="37vLTw" id="3M8YG$aA7XV" role="37wK5m">
+                <ref role="3cqZAo" node="3M8YG$9XoVd" resolve="repository" />
+              </node>
+              <node concept="37vLTw" id="3M8YG$aA7XW" role="37wK5m">
+                <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
+              </node>
+              <node concept="2ShNRf" id="3M8YG$aA7XX" role="37wK5m">
+                <node concept="2HTt$P" id="3M8YG$aA7XY" role="2ShVmc">
+                  <node concept="3uibUv" id="3M8YG$aA7XZ" role="2HTBi0">
+                    <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                  </node>
+                  <node concept="37vLTw" id="3M8YG$aA7Y0" role="2HTEbv">
+                    <ref role="3cqZAo" node="48csSBNReEj" resolve="mps" />
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="liA8E" id="39$JcGGmwqv" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:18UigYQ2E3M" resolve="lwStructureDependencies" />
             </node>
           </node>
         </node>
@@ -5425,29 +5424,28 @@
             </node>
           </node>
           <node concept="2OqwBi" id="39$JcGGvnRr" role="2GsD0m">
-            <node concept="2ShNRf" id="39$JcGGvmXe" role="2Oq$k0">
-              <node concept="1pGfFk" id="39$JcGGvnvv" role="2ShVmc">
-                <ref role="37wK5l" to="apzt:18UigYQ1Snt" resolve="LanguageExtensionFinder" />
-                <node concept="37vLTw" id="3M8YG$9YmAG" role="37wK5m">
-                  <ref role="3cqZAo" node="3M8YG$9XoVd" resolve="repository" />
-                </node>
-                <node concept="37vLTw" id="24j7TNHeeJT" role="37wK5m">
-                  <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
-                </node>
-                <node concept="2ShNRf" id="5M3rB6BoNER" role="37wK5m">
-                  <node concept="2HTt$P" id="5M3rB6BoNYC" role="2ShVmc">
-                    <node concept="3uibUv" id="5M3rB6BoO8U" role="2HTBi0">
-                      <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-                    </node>
-                    <node concept="37vLTw" id="5M3rB6BoOq7" role="2HTEbv">
-                      <ref role="3cqZAo" node="48csSBOkJqL" resolve="mps" />
-                    </node>
+            <node concept="liA8E" id="39$JcGGvo6p" role="2OqNvi">
+              <ref role="37wK5l" to="apzt:3M8YG$atFKI" resolve="lwExtendedLanguages" />
+            </node>
+            <node concept="2YIFZM" id="3M8YG$a_WsG" role="2Oq$k0">
+              <ref role="1Pybhc" to="apzt:3M8YG$atFqF" resolve="ILanguageExtensionFinder" />
+              <ref role="37wK5l" to="apzt:3M8YG$a_Gct" resolve="getDefault" />
+              <node concept="37vLTw" id="3M8YG$9YmAG" role="37wK5m">
+                <ref role="3cqZAo" node="3M8YG$9XoVd" resolve="repository" />
+              </node>
+              <node concept="37vLTw" id="24j7TNHeeJT" role="37wK5m">
+                <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
+              </node>
+              <node concept="2ShNRf" id="5M3rB6BoNER" role="37wK5m">
+                <node concept="2HTt$P" id="5M3rB6BoNYC" role="2ShVmc">
+                  <node concept="3uibUv" id="5M3rB6BoO8U" role="2HTBi0">
+                    <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                  </node>
+                  <node concept="37vLTw" id="5M3rB6BoOq7" role="2HTEbv">
+                    <ref role="3cqZAo" node="48csSBOkJqL" resolve="mps" />
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="liA8E" id="39$JcGGvo6p" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:18UigYQ2E3M" resolve="lwStructureDependencies" />
             </node>
           </node>
         </node>
