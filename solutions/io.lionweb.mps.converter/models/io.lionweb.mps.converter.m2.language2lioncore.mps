@@ -2764,6 +2764,22 @@
     <node concept="3clFb_" id="48csSBNReHV" role="jymVt">
       <property role="TrG5h" value="linkConcept" />
       <node concept="3clFbS" id="48csSBNReHW" role="3clF47">
+        <node concept="3cpWs8" id="3M8YG$ceUiY" role="3cqZAp">
+          <node concept="3cpWsn" id="3M8YG$ceUiZ" role="3cpWs9">
+            <property role="TrG5h" value="superConcept" />
+            <node concept="3uibUv" id="3M8YG$ceQPq" role="1tU5fm">
+              <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+            </node>
+            <node concept="2OqwBi" id="3M8YG$ceUj0" role="33vP2m">
+              <node concept="37vLTw" id="3M8YG$ceUj1" role="2Oq$k0">
+                <ref role="3cqZAo" node="48csSBNReJH" resolve="mps" />
+              </node>
+              <node concept="liA8E" id="3M8YG$ceUj2" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="48csSBNReHX" role="3cqZAp">
           <node concept="3clFbS" id="48csSBNReHY" role="3clFbx">
             <node concept="3cpWs8" id="48csSBNReHZ" role="3cqZAp">
@@ -2773,13 +2789,8 @@
                   <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                 </node>
                 <node concept="3EllGN" id="48csSBNReI2" role="33vP2m">
-                  <node concept="2OqwBi" id="48csSBNReI3" role="3ElVtu">
-                    <node concept="37vLTw" id="48csSBNReI4" role="2Oq$k0">
-                      <ref role="3cqZAo" node="48csSBNReJH" resolve="mps" />
-                    </node>
-                    <node concept="liA8E" id="48csSBO5u11" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-                    </node>
+                  <node concept="37vLTw" id="3M8YG$ceUj4" role="3ElVtu">
+                    <ref role="3cqZAo" node="3M8YG$ceUiZ" resolve="superConcept" />
                   </node>
                   <node concept="2OqwBi" id="48csSBNReI6" role="3ElQJh">
                     <node concept="Xjq3P" id="48csSBNReI7" role="2Oq$k0" />
@@ -2799,13 +2810,8 @@
                       <node concept="37vLTw" id="48csSBNReIe" role="37wK5m">
                         <ref role="3cqZAo" node="48csSBNReJH" resolve="mps" />
                       </node>
-                      <node concept="2OqwBi" id="48csSBNReIf" role="37wK5m">
-                        <node concept="37vLTw" id="48csSBNReIg" role="2Oq$k0">
-                          <ref role="3cqZAo" node="48csSBNReJH" resolve="mps" />
-                        </node>
-                        <node concept="liA8E" id="48csSBO5QE7" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-                        </node>
+                      <node concept="37vLTw" id="3M8YG$ceUj5" role="37wK5m">
+                        <ref role="3cqZAo" node="3M8YG$ceUiZ" resolve="superConcept" />
                       </node>
                     </node>
                   </node>
@@ -2870,13 +2876,8 @@
           </node>
           <node concept="3y3z36" id="48csSBO5p6h" role="3clFbw">
             <node concept="10Nm6u" id="48csSBO5rfF" role="3uHU7w" />
-            <node concept="2OqwBi" id="48csSBNReIM" role="3uHU7B">
-              <node concept="37vLTw" id="48csSBNReIN" role="2Oq$k0">
-                <ref role="3cqZAo" node="48csSBNReJH" resolve="mps" />
-              </node>
-              <node concept="liA8E" id="48csSBO5gGi" role="2OqNvi">
-                <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-              </node>
+            <node concept="37vLTw" id="3M8YG$ceUj3" role="3uHU7B">
+              <ref role="3cqZAo" node="3M8YG$ceUiZ" resolve="superConcept" />
             </node>
           </node>
         </node>
@@ -3092,19 +3093,30 @@
     <node concept="3clFb_" id="18UigYQI3YK" role="jymVt">
       <property role="TrG5h" value="linkAnnotation" />
       <node concept="3clFbS" id="18UigYQI3YL" role="3clF47">
+        <node concept="3cpWs8" id="3M8YG$cf0JS" role="3cqZAp">
+          <node concept="3cpWsn" id="3M8YG$cf0JT" role="3cpWs9">
+            <property role="TrG5h" value="superConcept" />
+            <node concept="3uibUv" id="3M8YG$ceYvn" role="1tU5fm">
+              <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+            </node>
+            <node concept="2OqwBi" id="3M8YG$cf0JU" role="33vP2m">
+              <node concept="37vLTw" id="3M8YG$cf0JV" role="2Oq$k0">
+                <ref role="3cqZAo" node="18UigYQI40m" resolve="mps" />
+              </node>
+              <node concept="liA8E" id="3M8YG$cf0JW" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="6Pr6izINgzH" role="3cqZAp">
           <node concept="3cpWsn" id="6Pr6izINgzI" role="3cpWs9">
             <property role="TrG5h" value="extendsPresent" />
             <node concept="10P_77" id="6Pr6izINe8u" role="1tU5fm" />
             <node concept="1Wc70l" id="6Pr6izINgzJ" role="33vP2m">
               <node concept="17QLQc" id="6Pr6izINgzK" role="3uHU7w">
-                <node concept="2OqwBi" id="6Pr6izINgzL" role="3uHU7B">
-                  <node concept="37vLTw" id="6Pr6izINgzM" role="2Oq$k0">
-                    <ref role="3cqZAo" node="18UigYQI40m" resolve="mps" />
-                  </node>
-                  <node concept="liA8E" id="6Pr6izINgzN" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-                  </node>
+                <node concept="37vLTw" id="3M8YG$cf0JY" role="3uHU7B">
+                  <ref role="3cqZAo" node="3M8YG$cf0JT" resolve="superConcept" />
                 </node>
                 <node concept="2OqwBi" id="6Pr6izINgzO" role="3uHU7w">
                   <node concept="37vLTw" id="6Pr6izINgzP" role="2Oq$k0">
@@ -3116,13 +3128,8 @@
                 </node>
               </node>
               <node concept="3y3z36" id="6Pr6izINgzR" role="3uHU7B">
-                <node concept="2OqwBi" id="6Pr6izINgzS" role="3uHU7B">
-                  <node concept="37vLTw" id="6Pr6izINgzT" role="2Oq$k0">
-                    <ref role="3cqZAo" node="18UigYQI40m" resolve="mps" />
-                  </node>
-                  <node concept="liA8E" id="6Pr6izINgzU" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-                  </node>
+                <node concept="37vLTw" id="3M8YG$cf0JZ" role="3uHU7B">
+                  <ref role="3cqZAo" node="3M8YG$cf0JT" resolve="superConcept" />
                 </node>
                 <node concept="10Nm6u" id="6Pr6izINgzV" role="3uHU7w" />
               </node>
@@ -3306,13 +3313,8 @@
                   <ref role="ehGHo" to="h3y3:2ju2syjkl4i" resolve="Classifier" />
                 </node>
                 <node concept="3EllGN" id="18UigYQI3YR" role="33vP2m">
-                  <node concept="2OqwBi" id="18UigYQI3YS" role="3ElVtu">
-                    <node concept="37vLTw" id="18UigYQI3YT" role="2Oq$k0">
-                      <ref role="3cqZAo" node="18UigYQI40m" resolve="mps" />
-                    </node>
-                    <node concept="liA8E" id="18UigYQI3YU" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-                    </node>
+                  <node concept="37vLTw" id="3M8YG$cf0K0" role="3ElVtu">
+                    <ref role="3cqZAo" node="3M8YG$cf0JT" resolve="superConcept" />
                   </node>
                   <node concept="2OqwBi" id="18UigYQI3YV" role="3ElQJh">
                     <node concept="Xjq3P" id="18UigYQI3YW" role="2Oq$k0" />
@@ -3332,13 +3334,8 @@
                       <node concept="37vLTw" id="18UigYQI3Z3" role="37wK5m">
                         <ref role="3cqZAo" node="18UigYQI40m" resolve="mps" />
                       </node>
-                      <node concept="2OqwBi" id="18UigYQI3Z4" role="37wK5m">
-                        <node concept="37vLTw" id="18UigYQI3Z5" role="2Oq$k0">
-                          <ref role="3cqZAo" node="18UigYQI40m" resolve="mps" />
-                        </node>
-                        <node concept="liA8E" id="18UigYQI3Z6" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SConcept.getSuperConcept()" resolve="getSuperConcept" />
-                        </node>
+                      <node concept="37vLTw" id="3M8YG$cf0JX" role="37wK5m">
+                        <ref role="3cqZAo" node="3M8YG$cf0JT" resolve="superConcept" />
                       </node>
                     </node>
                   </node>
