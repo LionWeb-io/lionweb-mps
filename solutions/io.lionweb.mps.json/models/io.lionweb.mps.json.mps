@@ -2747,7 +2747,7 @@
     <node concept="3UR2Jj" id="5TNjoy1EAy_" role="lGtFl">
       <node concept="TZ5HA" id="5TNjoy1EAyA" role="TZ5H$">
         <node concept="1dT_AC" id="5TNjoy1EAyB" role="1dT_Ay">
-          <property role="1dT_AB" value="External facade to export MPS instance models (M1) to JSON." />
+          <property role="1dT_AB" value="Facade to export MPS instance models (M1) to JSON." />
         </node>
       </node>
     </node>
@@ -3043,6 +3043,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="5TNjoy1PdS_" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1PdSA" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1PdSB" role="1dT_Ay">
+          <property role="1dT_AB" value="Facade to export MPS languages (M2) to JSON." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4R9posp5N7h">
     <property role="TrG5h" value="JsonToM1" />
@@ -3285,6 +3292,13 @@
     <node concept="3Tm1VV" id="4R9posp5N7i" role="1B3o_S" />
     <node concept="3uibUv" id="5TNjoy1_$ZI" role="1zkMxy">
       <ref role="3uigEE" node="5TNjoy1_$_I" resolve="AJsonToX" />
+    </node>
+    <node concept="3UR2Jj" id="5TNjoy1Ph2Z" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1Ph30" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1Ph31" role="1dT_Ay">
+          <property role="1dT_AB" value="Facade to import MPS instance models (M1) from JSON." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="4R9posqrx51">
@@ -3666,6 +3680,23 @@
     <node concept="3uibUv" id="5TNjoy1_D3z" role="1zkMxy">
       <ref role="3uigEE" node="5TNjoy1_$_I" resolve="AJsonToX" />
     </node>
+    <node concept="3UR2Jj" id="5TNjoy1Ph$k" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1Ph$l" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1Ph$m" role="1dT_Ay">
+          <property role="1dT_AB" value="Facade to &quot;import&quot; MPS languages (M2) from JSON." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1PhNI" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1PhNJ" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1PhNO" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1PhNP" role="1dT_Ay">
+          <property role="1dT_AB" value="Fails if any part of the source language is not present in MPS." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5TNjoy1_$_I">
     <property role="TrG5h" value="AJsonToX" />
@@ -3873,6 +3904,13 @@
     </node>
     <node concept="2tJIrI" id="5TNjoy1_BHp" role="jymVt" />
     <node concept="3Tm1VV" id="5TNjoy1_$_J" role="1B3o_S" />
+    <node concept="3UR2Jj" id="5TNjoy1PgI6" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1PgI7" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1PgI8" role="1dT_Ay">
+          <property role="1dT_AB" value="Common base class for JSON importer facades." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5TNjoy1_S6C">
     <property role="3GE5qa" value="jsonExporter" />
@@ -4040,7 +4078,7 @@
     <node concept="3UR2Jj" id="5TNjoy1E_R3" role="lGtFl">
       <node concept="TZ5HA" id="5TNjoy1E_R4" role="TZ5H$">
         <node concept="1dT_AC" id="5TNjoy1E_R5" role="1dT_Ay">
-          <property role="1dT_AB" value="Common base class for JSON exporters" />
+          <property role="1dT_AB" value="Common base class for JSON exporter facades" />
         </node>
       </node>
     </node>
