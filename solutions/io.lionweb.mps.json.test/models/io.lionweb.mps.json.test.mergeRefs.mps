@@ -3,9 +3,23 @@
   <persistence version="9" />
   <languages>
     <use id="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2" name="io.lionweb.mps.converter.TestRefs" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
   </languages>
   <imports />
   <registry>
+    <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
+      <concept id="3631234780355719700" name="io.lionweb.mps.converter.lang.structure.NodeRef" flags="ng" index="pgsVv">
+        <reference id="3631234780355720143" name="target" index="pgsW4" />
+      </concept>
+      <concept id="3631234780355716573" name="io.lionweb.mps.converter.lang.structure.ExportInstanceToJson" flags="ng" index="pgt$m">
+        <property id="3631234780355961878" name="scope" index="pjpzt" />
+        <child id="3631234780355719074" name="instances" index="pgtdD" />
+      </concept>
+      <concept id="5028875375328515023" name="io.lionweb.mps.converter.lang.structure.ImportInstanceFromJson" flags="ng" index="VS7hd" />
+      <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
+        <property id="5028875375328515031" name="path" index="VS7hl" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -27,48 +41,56 @@
       </concept>
     </language>
   </registry>
-  <node concept="3vzBe$" id="~id-contX">
-    <property role="TrG5h" value="ContX" />
-    <ref role="3vzqhj" node="~id-x123" />
-    <ref role="3vzGvz" node="~id-NamedBroken" resolve="Named Broken" />
-    <node concept="3vzGuh" id="~id-NamedBroken" role="3vzGvI">
-      <property role="TrG5h" value="Named Broken" />
+  <node concept="3vzBe$" id="5TNjoy2_wV8">
+    <property role="TrG5h" value="ExistingGood" />
+    <ref role="3vzGvz" node="5TNjoy2_wVx" />
+    <node concept="3vzGuh" id="5TNjoy2_wVr" role="3vzGvI">
+      <property role="TrG5h" value="First named" />
     </node>
-    <node concept="3vzGuT" id="~id-x123" role="3vzGvI">
-      <property role="3vzGvf" value="123" />
+    <node concept="3vzGuT" id="5TNjoy2_wVx" role="3vzGvI">
+      <property role="3vzGvf" value="456" />
     </node>
-    <node concept="3vzGv1" id="5TNjoy2nFGD" role="3vzGvw">
-      <ref role="3vzGv2" node="~id-NamedBroken" resolve="Named Broken" />
-    </node>
-    <node concept="3vzGv1" id="5TNjoy2nFGE" role="3vzGvw">
-      <ref role="3vzGv2" node="~id-x123" />
-    </node>
-    <node concept="3vzGv1" id="5TNjoy2nFGF" role="3vzGvw">
-      <ref role="3vzGv2" node="~id-NamedBroken" resolve="Named Broken" />
+    <node concept="3vzGv1" id="5TNjoy2_wV_" role="3vzGvw">
+      <ref role="3vzGv2" node="5TNjoy2_wVr" resolve="First named" />
     </node>
   </node>
-  <node concept="3vzBe$" id="~id-contBrokenRef">
-    <property role="TrG5h" value="ContBrokenRef" />
-    <ref role="3vzGvz" node="~id-x123" />
-    <ref role="3vzqhj" node="5TNjoy2nFLI" resolve="Named Broken2" />
-    <node concept="3vzGv1" id="5TNjoy2nFGJ" role="3vzGvw">
-      <ref role="3vzGv2" node="~id-x123" />
+  <node concept="3vzBe$" id="5TNjoy2_wVB">
+    <property role="TrG5h" value="ExistingBroken" />
+    <ref role="3vzGvz" node="5TNjoy2_wWh" />
+    <ref role="3vzqhj" node="5TNjoy2_wWb" resolve="Imported Named" />
+    <node concept="3vzGv1" id="5TNjoy2_wWl" role="3vzGvw">
+      <ref role="3vzGv2" node="5TNjoy2_wVx" />
     </node>
-    <node concept="3vzGv1" id="5TNjoy2nFGL" role="3vzGvw">
-      <ref role="3vzGv2" node="~id-NamedBroken" resolve="Named Broken" />
+    <node concept="3vzGv1" id="5TNjoy2_wWn" role="3vzGvw">
+      <ref role="3vzGv2" node="5TNjoy2_wWb" resolve="Imported Named" />
     </node>
-    <node concept="3vzGv1" id="5TNjoy2nFGM" role="3vzGvw">
-      <ref role="3vzGv2" node="5TNjoy2nFLN" />
+    <node concept="3vzGv1" id="5TNjoy2_wWq" role="3vzGvw">
+      <ref role="3vzGv2" node="5TNjoy2_wVr" resolve="First named" />
     </node>
-    <node concept="3vzGv1" id="5TNjoy2nFGN" role="3vzGvw">
-      <ref role="3vzGv2" node="5TNjoy2nFLI" resolve="Named Broken2" />
+    <node concept="3vzGv1" id="5TNjoy2_wWu" role="3vzGvw">
+      <ref role="3vzGv2" node="5TNjoy2_wWh" />
     </node>
-    <node concept="3vzGuh" id="5TNjoy2nFLI" role="3vzGvI">
-      <property role="TrG5h" value="Named Broken2" />
+  </node>
+  <node concept="pgt$m" id="5TNjoy2_wWW">
+    <property role="TrG5h" value="Export to MergeRef" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
+    <property role="pjpzt" value="39$JcGFainl/descendants" />
+    <node concept="pgsVv" id="5TNjoy2_wXd" role="pgtdD">
+      <ref role="pgsW4" node="5TNjoy2_wV8" resolve="ExistingGood" />
     </node>
-    <node concept="3vzGuT" id="5TNjoy2nFLN" role="3vzGvI">
-      <property role="3vzGvf" value="234" />
+    <node concept="pgsVv" id="5TNjoy2_wXf" role="pgtdD">
+      <ref role="pgsW4" node="5TNjoy2_wVB" resolve="ExistingBroken" />
     </node>
+    <node concept="pgsVv" id="5TNjoy2_wXi" role="pgtdD">
+      <ref role="pgsW4" node="5TNjoy2_wVS" resolve="ImportedGood" />
+    </node>
+    <node concept="pgsVv" id="5TNjoy2_wXm" role="pgtdD">
+      <ref role="pgsW4" node="5TNjoy2_wWz" resolve="ImportedBroken" />
+    </node>
+  </node>
+  <node concept="VS7hd" id="5TNjoy2_MWO">
+    <property role="TrG5h" value="Import from MergeRef" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
   </node>
 </model>
 

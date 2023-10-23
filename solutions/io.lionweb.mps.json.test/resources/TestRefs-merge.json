@@ -1,0 +1,158 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [],
+  "nodes": [
+    {
+      "id": "6805868710588714744",
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "ImportedGood"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+            "version": "0",
+            "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjAvNjgwNTg2ODcxMDU3ODcxOTMzNA"
+          },
+          "children": [
+            "6805868710588714763",
+            "6805868710588714769"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": null,
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
+      }
+    },
+    {
+      "id": "6805868710588714763",
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "Imported Named"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "6805868710588714744",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyNTc"
+      }
+    },
+    {
+      "id": "6805868710588714769",
+      "properties": [
+        {
+          "property": {
+            "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+            "version": "0",
+            "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyODEvNjgwNTg2ODcxMDU3ODcxOTMwMw"
+          },
+          "value": "888"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "annotations": [],
+      "parent": "6805868710588714744",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyODE"
+      }
+    },
+    {
+      "id": "6805868710588714787",
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "ImportedBroken"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+            "version": "0",
+            "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjAvNjgwNTg2ODcxMDU3ODcxOTMzNg"
+          },
+          "targets": [
+            {
+              "resolveInfo": null,
+              "reference": "6805868710588714721"
+            },
+            {
+              "resolveInfo": "Imported Named",
+              "reference": "6805868710588714763"
+            },
+            {
+              "resolveInfo": "First named",
+              "reference": "6805868710588714715"
+            },
+            {
+              "resolveInfo": null,
+              "reference": "6805868710588714769"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+            "version": "0",
+            "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjAvNjgwNTg2ODcxMDU3ODgwOTMwNw"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Imported Named",
+              "reference": "6805868710588714763"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+            "version": "0",
+            "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjAvNjgwNTg2ODcxMDU3ODcxOTMzOQ"
+          },
+          "targets": [
+            {
+              "resolveInfo": null,
+              "reference": "6805868710588714769"
+            }
+          ]
+        }
+      ],
+      "annotations": [],
+      "parent": null,
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
+      }
+    }
+  ]
+}
