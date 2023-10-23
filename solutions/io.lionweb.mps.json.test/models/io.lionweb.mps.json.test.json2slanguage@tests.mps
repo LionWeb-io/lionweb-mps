@@ -295,7 +295,7 @@
               <ref role="3cqZAo" node="24j7TNH2$Ko" resolve="comparer" />
             </node>
             <node concept="liA8E" id="24j7TNH2Al3" role="2OqNvi">
-              <ref role="37wK5l" to="643a:24j7TNH2aeo" resolve="assertEquals" />
+              <ref role="37wK5l" to="643a:5TNjoy24N5P" resolve="assertSortedEquals" />
               <node concept="37vLTw" id="24j7TNH2AyM" role="37wK5m">
                 <ref role="3cqZAo" node="24j7TNH2B3Q" resolve="languages" />
               </node>

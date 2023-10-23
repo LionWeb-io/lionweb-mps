@@ -85,7 +85,12 @@
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ"
           },
-          "targets": []
+          "targets": [
+            {
+              "resolveInfo": null,
+              "reference": "1754772619068912776"
+            }
+          ]
         }
       ],
       "annotations": [],
@@ -436,7 +441,12 @@
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLzI3MDkyODE3OTA0MDA0MDk2OTQ"
           },
-          "targets": []
+          "targets": [
+            {
+              "resolveInfo": null,
+              "reference": "1754772619069006991"
+            }
+          ]
         }
       ],
       "annotations": [],

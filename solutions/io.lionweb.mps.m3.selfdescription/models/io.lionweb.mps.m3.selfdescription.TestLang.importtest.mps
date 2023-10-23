@@ -4,6 +4,7 @@
   <languages>
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
     <use id="08caad75-8246-4427-bb4d-8444b6c5c729" name="io.lionweb.mps.converter.TestLang" version="0" />
+    <use id="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2" name="io.lionweb.mps.converter.TestRefs" version="0" />
   </languages>
   <imports />
   <registry>
@@ -100,6 +101,10 @@
     <node concept="1r0O1$" id="39$JcGFaUzc" role="1r0O4X">
       <node concept="1r0PSd" id="39$JcGFaUzd" role="1r0OWA" />
     </node>
+  </node>
+  <node concept="VS7hd" id="5TNjoy29awV">
+    <property role="TrG5h" value="Import TestRef instance from JSON" />
+    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestReferences.json" />
   </node>
 </model>
 

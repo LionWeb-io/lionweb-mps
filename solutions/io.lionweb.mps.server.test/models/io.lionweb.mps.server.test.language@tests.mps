@@ -159,6 +159,7 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+      <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
@@ -611,6 +612,21 @@
               <node concept="PeGgZ" id="7W6jYlyZRjB" role="1tU5fm" />
             </node>
           </node>
+          <node concept="3clFbH" id="5TNjoy28$d1" role="3cqZAp" />
+          <node concept="3clFbF" id="5TNjoy28$BT" role="3cqZAp">
+            <node concept="2OqwBi" id="5TNjoy28$BQ" role="3clFbG">
+              <node concept="10M0yZ" id="5TNjoy28$BR" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+              </node>
+              <node concept="liA8E" id="5TNjoy28$BS" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
+                <node concept="37vLTw" id="5TNjoy28$S8" role="37wK5m">
+                  <ref role="3cqZAo" node="7W6jYlyZRjC" resolve="roots" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbH" id="6jI_U5eGvFx" role="3cqZAp" />
           <node concept="3cpWs8" id="6jI_U5eGvFN" role="3cqZAp">
             <node concept="3KEzu6" id="7W6jYlyZRCr" role="3cpWs9">
@@ -677,21 +693,54 @@
                 <ref role="3uigEE" to="xfsv:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
               </node>
               <node concept="2OqwBi" id="6jI_U5eGTza" role="33vP2m">
-                <node concept="2OqwBi" id="6jI_U5eGTzb" role="2Oq$k0">
-                  <node concept="37vLTw" id="6jI_U5eGTzc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6jI_U5eGvGJ" resolve="type" />
-                  </node>
-                  <node concept="liA8E" id="6jI_U5eGTzd" role="2OqNvi">
-                    <ref role="37wK5l" to="xfsv:~SerializedReferenceValue.getValue()" resolve="getValue" />
+                <node concept="1eOMI4" id="5TNjoy28PTA" role="2Oq$k0">
+                  <node concept="10QFUN" id="5TNjoy28PT_" role="1eOMHV">
+                    <node concept="2OqwBi" id="5TNjoy28PTy" role="10QFUP">
+                      <node concept="37vLTw" id="5TNjoy28PTz" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6jI_U5eGvGJ" resolve="type" />
+                      </node>
+                      <node concept="liA8E" id="5TNjoy28PT$" role="2OqNvi">
+                        <ref role="37wK5l" to="xfsv:~SerializedReferenceValue.getValue()" resolve="getValue" />
+                      </node>
+                    </node>
+                    <node concept="_YKpA" id="5TNjoy28QBB" role="10QFUM">
+                      <node concept="3uibUv" id="5TNjoy28QZp" role="_ZDj9">
+                        <ref role="3uigEE" to="xfsv:~SerializedReferenceValue$Entry" resolve="SerializedReferenceValue.Entry" />
+                      </node>
+                    </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="6jI_U5eGTze" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
-                  <node concept="3cmrfG" id="4R9posq31x_" role="37wK5m">
-                    <property role="3cmrfH" value="0" />
+                <node concept="1z4cxt" id="5TNjoy28SQT" role="2OqNvi">
+                  <node concept="1bVj0M" id="5TNjoy28SQW" role="23t8la">
+                    <node concept="3clFbS" id="5TNjoy28SQX" role="1bW5cS">
+                      <node concept="3clFbF" id="5TNjoy28TRt" role="3cqZAp">
+                        <node concept="17R0WA" id="5TNjoy28Vhp" role="3clFbG">
+                          <node concept="2OqwBi" id="5TNjoy28Ulv" role="3uHU7B">
+                            <node concept="37vLTw" id="5TNjoy28TRs" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5TNjoy28SQY" resolve="it" />
+                            </node>
+                            <node concept="liA8E" id="5TNjoy28UNp" role="2OqNvi">
+                              <ref role="37wK5l" to="xfsv:~SerializedReferenceValue$Entry.getReference()" resolve="getReference" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="5TNjoy28V$k" role="3uHU7w">
+                            <property role="Xl_RC" value="LionCore-builtins-INamed" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="5TNjoy28SQY" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="5TNjoy28SQZ" role="1tU5fm" />
+                    </node>
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2Hmddi" id="5TNjoy28WH2" role="3cqZAp">
+            <node concept="37vLTw" id="5TNjoy28WZU" role="2Hmdds">
+              <ref role="3cqZAo" node="6jI_U5eGTz9" resolve="named" />
             </node>
           </node>
           <node concept="3vlDli" id="6jI_U5eGvGS" role="3cqZAp">
@@ -705,19 +754,6 @@
             </node>
             <node concept="Xl_RD" id="6jI_U5eGvH2" role="3tpDZB">
               <property role="Xl_RC" value="INamed" />
-            </node>
-          </node>
-          <node concept="3vlDli" id="6jI_U5eGvH3" role="3cqZAp">
-            <node concept="2OqwBi" id="6jI_U5eGvH4" role="3tpDZA">
-              <node concept="37vLTw" id="6jI_U5eGYDV" role="2Oq$k0">
-                <ref role="3cqZAo" node="6jI_U5eGTz9" resolve="named" />
-              </node>
-              <node concept="liA8E" id="6jI_U5eGvHc" role="2OqNvi">
-                <ref role="37wK5l" to="xfsv:~SerializedReferenceValue$Entry.getReference()" resolve="getReference" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="6jI_U5eGvHd" role="3tpDZB">
-              <property role="Xl_RC" value="LionCore-builtins-INamed" />
             </node>
           </node>
         </node>

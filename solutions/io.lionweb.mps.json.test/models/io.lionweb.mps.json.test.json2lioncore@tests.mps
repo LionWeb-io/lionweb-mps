@@ -628,7 +628,7 @@
               <ref role="3cqZAo" node="1xqd6pt3WZv" resolve="comparer" />
             </node>
             <node concept="liA8E" id="1xqd6pt3WZB" role="2OqNvi">
-              <ref role="37wK5l" to="643a:24j7TNH2aeo" resolve="assertEquals" />
+              <ref role="37wK5l" to="643a:5TNjoy24N5P" resolve="assertSortedEquals" />
               <node concept="37vLTw" id="1xqd6pt3WZC" role="37wK5m">
                 <ref role="3cqZAo" node="1xqd6pt3WZ7" resolve="languages" />
               </node>

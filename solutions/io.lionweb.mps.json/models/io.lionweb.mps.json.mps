@@ -661,7 +661,7 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="5s4Z0e0nccR" role="jymVt" />
+    <node concept="2tJIrI" id="5TNjoy23RwL" role="jymVt" />
     <node concept="3clFb_" id="6VkSF6c$iAh" role="jymVt">
       <property role="TrG5h" value="serialize" />
       <node concept="3clFbS" id="6VkSF6c$iAi" role="3clF47">
@@ -967,12 +967,10 @@
             </node>
             <node concept="liA8E" id="5s4Z0e0bQQi" role="2OqNvi">
               <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.serializeToJsonElement(io.lionweb.lioncore.java.serialization.data.SerializedChunk)" resolve="serializeToJsonElement" />
-              <node concept="2ShNRf" id="3imNlOpjjuI" role="37wK5m">
-                <node concept="1pGfFk" id="3imNlOpjkvx" role="2ShVmc">
-                  <ref role="37wK5l" to="m8w9:3imNlOpi5B0" resolve="SortedSerializedChunk" />
-                  <node concept="37vLTw" id="3imNlOpjkMS" role="37wK5m">
-                    <ref role="3cqZAo" node="5s4Z0e0bPDe" resolve="serializedChunk" />
-                  </node>
+              <node concept="1rXfSq" id="5TNjoy24brn" role="37wK5m">
+                <ref role="37wK5l" node="5TNjoy248iW" resolve="handleSorting" />
+                <node concept="37vLTw" id="5TNjoy24bJK" role="37wK5m">
+                  <ref role="3cqZAo" node="5s4Z0e0bPDe" resolve="serializedChunk" />
                 </node>
               </node>
             </node>
@@ -1243,6 +1241,13 @@
         <ref role="3uigEE" to="c9jv:~JsonWriter" resolve="JsonWriter" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5TNjoy245Pu" role="jymVt" />
+    <node concept="312cEg" id="5TNjoy23R19" role="jymVt">
+      <property role="TrG5h" value="sortingEnabled" />
+      <node concept="3Tmbuc" id="5TNjoy241jb" role="1B3o_S" />
+      <node concept="10P_77" id="5TNjoy23QVy" role="1tU5fm" />
+      <node concept="3clFbT" id="5TNjoy23Rr3" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="5sACIIs_LbT" role="jymVt" />
     <node concept="3clFbW" id="6VkSF6c$eaY" role="jymVt">
       <node concept="37vLTG" id="6VkSF6c$fUF" role="3clF46">
@@ -1360,6 +1365,68 @@
       <node concept="37vLTG" id="5wsogBcwbD7" role="3clF46">
         <property role="TrG5h" value="prettyPrint" />
         <node concept="10P_77" id="5wsogBcwbNL" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5TNjoy245WK" role="jymVt" />
+    <node concept="3clFb_" id="5TNjoy23Slz" role="jymVt">
+      <property role="TrG5h" value="enableSorting" />
+      <node concept="3clFbS" id="5TNjoy23SlA" role="3clF47">
+        <node concept="3clFbF" id="5TNjoy23SFR" role="3cqZAp">
+          <node concept="37vLTI" id="5TNjoy23Tj2" role="3clFbG">
+            <node concept="3clFbT" id="5TNjoy23Ty7" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="5TNjoy23SFQ" role="37vLTJ">
+              <ref role="3cqZAo" node="5TNjoy23R19" resolve="sortingEnabled" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5TNjoy23RR8" role="1B3o_S" />
+      <node concept="3cqZAl" id="5TNjoy23SfW" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="5TNjoy247LX" role="jymVt" />
+    <node concept="3clFb_" id="5TNjoy248iW" role="jymVt">
+      <property role="TrG5h" value="handleSorting" />
+      <node concept="3clFbS" id="5TNjoy248iZ" role="3clF47">
+        <node concept="3clFbJ" id="5TNjoy248Vk" role="3cqZAp">
+          <node concept="37vLTw" id="5TNjoy2499T" role="3clFbw">
+            <ref role="3cqZAo" node="5TNjoy23R19" resolve="sortingEnabled" />
+          </node>
+          <node concept="3clFbS" id="5TNjoy248Vm" role="3clFbx">
+            <node concept="3cpWs6" id="5TNjoy249gm" role="3cqZAp">
+              <node concept="2ShNRf" id="5TNjoy249t8" role="3cqZAk">
+                <node concept="1pGfFk" id="5TNjoy24a2Q" role="2ShVmc">
+                  <ref role="37wK5l" to="m8w9:3imNlOpi5B0" resolve="SortedSerializedChunk" />
+                  <node concept="37vLTw" id="5TNjoy24aa5" role="37wK5m">
+                    <ref role="3cqZAo" node="5TNjoy248s7" resolve="chunk" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5TNjoy24aw9" role="3cqZAp">
+          <node concept="37vLTw" id="5TNjoy24aAX" role="3cqZAk">
+            <ref role="3cqZAo" node="5TNjoy248s7" resolve="chunk" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="5TNjoy2482o" role="1B3o_S" />
+      <node concept="3uibUv" id="5TNjoy248ij" role="3clF45">
+        <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
+      </node>
+      <node concept="37vLTG" id="5TNjoy248s7" role="3clF46">
+        <property role="TrG5h" value="chunk" />
+        <node concept="3uibUv" id="5TNjoy248s6" role="1tU5fm">
+          <ref role="3uigEE" to="xfsv:~SerializedChunk" resolve="SerializedChunk" />
+        </node>
+        <node concept="2AHcQZ" id="5TNjoy248FM" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5TNjoy248I1" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="5s4Z0e0n9TO" role="jymVt" />
@@ -1746,12 +1813,10 @@
             </node>
             <node concept="liA8E" id="3imNlOpkb9L" role="2OqNvi">
               <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.serializeToJsonElement(io.lionweb.lioncore.java.serialization.data.SerializedChunk)" resolve="serializeToJsonElement" />
-              <node concept="2ShNRf" id="3imNlOpkb9M" role="37wK5m">
-                <node concept="1pGfFk" id="3imNlOpkb9N" role="2ShVmc">
-                  <ref role="37wK5l" to="m8w9:3imNlOpi5B0" resolve="SortedSerializedChunk" />
-                  <node concept="37vLTw" id="3imNlOpkb9O" role="37wK5m">
-                    <ref role="3cqZAo" node="3imNlOpk0Aa" resolve="chunk" />
-                  </node>
+              <node concept="1rXfSq" id="5TNjoy24cOu" role="37wK5m">
+                <ref role="37wK5l" node="5TNjoy248iW" resolve="handleSorting" />
+                <node concept="37vLTw" id="5TNjoy24dcf" role="37wK5m">
+                  <ref role="3cqZAo" node="3imNlOpk0Aa" resolve="chunk" />
                 </node>
               </node>
             </node>
@@ -2385,6 +2450,13 @@
         <ref role="3uigEE" to="lai5:5s4Z0e0f2z3" resolve="IMetaPointerCreator" />
       </node>
     </node>
+    <node concept="312cEg" id="5TNjoy2pHuR" role="jymVt">
+      <property role="TrG5h" value="nodeIdCreator" />
+      <node concept="3Tm6S6" id="5TNjoy2pGBB" role="1B3o_S" />
+      <node concept="3uibUv" id="5TNjoy2pGVh" role="1tU5fm">
+        <ref role="3uigEE" to="pe0e:A9P4gGN5z5" resolve="INodeIdCreator" />
+      </node>
+    </node>
     <node concept="312cEg" id="5TNjoy1ALrE" role="jymVt">
       <property role="TrG5h" value="converter" />
       <node concept="3Tm6S6" id="5TNjoy1ALrF" role="1B3o_S" />
@@ -2522,6 +2594,9 @@
                       <node concept="37vLTw" id="5TNjoy1KP6K" role="37wK5m">
                         <ref role="3cqZAo" node="5TNjoy1Ap6I" resolve="annotationFinder" />
                       </node>
+                      <node concept="37vLTw" id="5TNjoy2pQb1" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy2pHuR" resolve="nodeIdCreator" />
+                      </node>
                       <node concept="37vLTw" id="6jI_U5eP5I$" role="37wK5m">
                         <ref role="3cqZAo" node="6jI_U5eOOlf" resolve="input" />
                       </node>
@@ -2555,6 +2630,9 @@
                       <node concept="37vLTw" id="5TNjoy1KUVl" role="37wK5m">
                         <ref role="3cqZAo" node="5TNjoy1Ap6I" resolve="annotationFinder" />
                       </node>
+                      <node concept="37vLTw" id="5TNjoy2pWps" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy2pHuR" resolve="nodeIdCreator" />
+                      </node>
                       <node concept="37vLTw" id="6jI_U5eP5IG" role="37wK5m">
                         <ref role="3cqZAo" node="6jI_U5eOOlf" resolve="input" />
                       </node>
@@ -2587,6 +2665,9 @@
                       </node>
                       <node concept="37vLTw" id="5TNjoy1L1N1" role="37wK5m">
                         <ref role="3cqZAo" node="5TNjoy1Ap6I" resolve="annotationFinder" />
+                      </node>
+                      <node concept="37vLTw" id="5TNjoy2q31l" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy2pHuR" resolve="nodeIdCreator" />
                       </node>
                       <node concept="37vLTw" id="6jI_U5eP5IO" role="37wK5m">
                         <ref role="3cqZAo" node="6jI_U5eOOlf" resolve="input" />
@@ -2731,6 +2812,18 @@
                   <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5TNjoy2pIp9" role="3cqZAp">
+          <node concept="37vLTI" id="5TNjoy2pJ41" role="3clFbG">
+            <node concept="2ShNRf" id="5TNjoy2pJzj" role="37vLTx">
+              <node concept="HV5vD" id="5TNjoy2pKbG" role="2ShVmc">
+                <ref role="HV5vE" to="pe0e:A9P4gGN7be" resolve="NodeIdCreator" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5TNjoy2pIp7" role="37vLTJ">
+              <ref role="3cqZAo" node="5TNjoy2pHuR" resolve="nodeIdCreator" />
             </node>
           </node>
         </node>
