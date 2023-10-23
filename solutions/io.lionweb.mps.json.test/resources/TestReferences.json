@@ -221,7 +221,7 @@
           "targets": [
             {
               "resolveInfo": null,
-              "reference": "~id-x123"
+              "reference": "6805868710579604681"
             },
             {
               "resolveInfo": "First Name",
@@ -229,15 +229,15 @@
             },
             {
               "resolveInfo": "Named Broken",
-              "reference": "~id-NamedBroken"
+              "reference": "6805868710579603089"
             },
             {
               "resolveInfo": null,
-              "reference": "5TNjoy2nFLN"
+              "reference": "6805868710579605468"
             },
             {
               "resolveInfo": "Named Broken2",
-              "reference": "5TNjoy2nFLI"
+              "reference": "6805868710579605462"
             }
           ]
         },
@@ -250,7 +250,7 @@
           "targets": [
             {
               "resolveInfo": "Named Broken2",
-              "reference": "5TNjoy2nFLI"
+              "reference": "6805868710579605462"
             }
           ]
         },
@@ -263,7 +263,7 @@
           "targets": [
             {
               "resolveInfo": null,
-              "reference": "~id-x123"
+              "reference": "6805868710579604681"
             }
           ]
         }
