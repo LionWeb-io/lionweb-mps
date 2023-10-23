@@ -737,12 +737,22 @@
             <node concept="2OqwBi" id="6jI_U5eHEd8" role="37wK5m">
               <node concept="2OqwBi" id="6jI_U5eHEd9" role="2Oq$k0">
                 <node concept="2OqwBi" id="6jI_U5eHEda" role="2Oq$k0">
-                  <node concept="2YIFZM" id="6jI_U5eHEdb" role="2Oq$k0">
-                    <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getINamed()" resolve="getINamed" />
-                    <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  </node>
                   <node concept="liA8E" id="6jI_U5eHEdc" role="2OqNvi">
                     <ref role="37wK5l" to="imb3:~Classifier.allProperties()" resolve="allProperties" />
+                  </node>
+                  <node concept="2OqwBi" id="5TNjoy1x1d5" role="2Oq$k0">
+                    <node concept="2ShNRf" id="5TNjoy1wVur" role="2Oq$k0">
+                      <node concept="1pGfFk" id="5TNjoy1wX1V" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5TNjoy1vf0o" resolve="JsonBuiltins" />
+                        <node concept="2YIFZM" id="5TNjoy1wZVJ" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5TNjoy1x3nU" role="2OqNvi">
+                      <ref role="37wK5l" to="6peh:5TNjoy1vudm" resolve="getINamed" />
+                    </node>
                   </node>
                 </node>
                 <node concept="liA8E" id="6jI_U5eHEdd" role="2OqNvi">

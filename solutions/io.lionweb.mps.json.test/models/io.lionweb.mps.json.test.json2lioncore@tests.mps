@@ -347,13 +347,18 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2YIFZM" id="5ocQ9W1xKKO" role="37wK5m">
-                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    <node concept="2ShNRf" id="5TNjoy1z1Ew" role="37wK5m">
+                      <node concept="1pGfFk" id="5TNjoy1z23O" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5TNjoy1vf0o" resolve="JsonBuiltins" />
+                        <node concept="2YIFZM" id="5ocQ9W1xKKO" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                      </node>
                     </node>
                     <node concept="2ShNRf" id="5ocQ9W1xKKP" role="37wK5m">
                       <node concept="1pGfFk" id="5ocQ9W1xKKQ" role="2ShVmc">
-                        <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+                        <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageGuaranteedMapper" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="5ocQ9W1xKKR" role="37wK5m">
@@ -515,13 +520,18 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2YIFZM" id="1xqd6pt3WYZ" role="37wK5m">
-                  <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                  <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                <node concept="2ShNRf" id="5TNjoy1z2IY" role="37wK5m">
+                  <node concept="1pGfFk" id="5TNjoy1z34A" role="2ShVmc">
+                    <ref role="37wK5l" to="6peh:5TNjoy1vf0o" resolve="JsonBuiltins" />
+                    <node concept="2YIFZM" id="1xqd6pt3WYZ" role="37wK5m">
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                    </node>
+                  </node>
                 </node>
                 <node concept="2ShNRf" id="1xqd6pt3WZ0" role="37wK5m">
                   <node concept="1pGfFk" id="1xqd6pt3WZ1" role="2ShVmc">
-                    <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageIdMapper" />
+                    <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageGuaranteedMapper" />
                   </node>
                 </node>
                 <node concept="2ShNRf" id="1xqd6pt3WZ2" role="37wK5m">
