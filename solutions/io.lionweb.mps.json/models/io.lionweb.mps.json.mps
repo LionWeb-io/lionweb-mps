@@ -213,11 +213,22 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
       </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -1384,6 +1395,24 @@
       </node>
       <node concept="3Tm1VV" id="5TNjoy23RR8" role="1B3o_S" />
       <node concept="3cqZAl" id="5TNjoy23SfW" role="3clF45" />
+      <node concept="P$JXv" id="jyNOuYacz_" role="lGtFl">
+        <node concept="TZ5HA" id="jyNOuYaczA" role="TZ5H$">
+          <node concept="1dT_AC" id="jyNOuYaczB" role="1dT_Ay">
+            <property role="1dT_AB" value="Enables sorting via " />
+          </node>
+          <node concept="1dT_AA" id="jyNOuYacZ2" role="1dT_Ay">
+            <node concept="92FcH" id="jyNOuYacZg" role="qph3F">
+              <node concept="TZ5HA" id="jyNOuYacZi" role="2XjZqd" />
+              <node concept="VXe08" id="jyNOuYacZx" role="92FcQ">
+                <ref role="VXe09" to="m8w9:3imNlOpi5_c" resolve="SortedSerializedChunk" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="jyNOuYacZ1" role="1dT_Ay">
+            <property role="1dT_AB" value="." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5TNjoy247LX" role="jymVt" />
     <node concept="3clFb_" id="5TNjoy248iW" role="jymVt">
