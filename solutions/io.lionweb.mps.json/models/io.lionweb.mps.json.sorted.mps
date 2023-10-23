@@ -4,6 +4,7 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
@@ -129,7 +130,39 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367188008" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocReference" flags="ng" index="VUqz4" />
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
+        <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
+      </concept>
+      <concept id="5562345046718956738" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseVariableDocReference" flags="ng" index="YTMYr">
+        <reference id="5562345046718956740" name="declaration" index="YTMYt" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -1102,6 +1135,111 @@
         <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="5TNjoy1ugLs" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1ugLt" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1ugLu" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uJL$" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uJM8" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uJMa" role="2XjZqd" />
+            <node concept="VXe08" id="5TNjoy1uJMh" role="92FcQ">
+              <ref role="VXe09" to="wyt6:~Comparable" resolve="Comparable" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uJLz" role="1dT_Ay">
+          <property role="1dT_AB" value=" view of " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1ul0f" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1ul0l" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1ul0n" role="2XjZqd" />
+            <node concept="VUqz4" id="5TNjoy1ul0u" role="92FcQ">
+              <ref role="YTMYt" node="3imNlOpaKSS" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1ul0e" role="1dT_Ay">
+          <property role="1dT_AB" value=" with sorted " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1usSL" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1usSW" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1usSY" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1usT5" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$rIw" resolve="getContainments" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1usSK" role="1dT_Ay">
+          <property role="1dT_AB" value=", " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uu7q" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uu7E" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uu7G" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uu7N" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$rID" resolve="getChildren" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uu7p" role="1dT_Ay">
+          <property role="1dT_AB" value=", " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uveP" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uvfa" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uvfc" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uvfj" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$rIM" resolve="getReferences" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uveO" role="1dT_Ay">
+          <property role="1dT_AB" value=", " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uwuz" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uwuX" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uwuZ" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uwv6" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$rIV" resolve="getProperties" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uwuy" role="1dT_Ay">
+          <property role="1dT_AB" value=", and " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uxHr" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uxHU" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uxHW" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uxI3" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$rJ4" resolve="getReferenceValues" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uxHq" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1uLws" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uLwt" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1uLx5" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uLx6" role="1dT_Ay">
+          <property role="1dT_AB" value="Comparison based on its " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uPWm" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uPWs" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uPWu" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uPW_" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpe8UA" resolve="getID" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uPWl" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5ocQ9W1$yVl">
     <property role="TrG5h" value="SortedSerializedContainmentValue" />
@@ -1402,6 +1540,67 @@
         <ref role="3uigEE" to="xfsv:~SerializedContainmentValue" resolve="SerializedContainmentValue" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="5TNjoy1ubQy" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1ubQz" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1ubQ$" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uERc" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uERs" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uERu" role="2XjZqd" />
+            <node concept="VXe08" id="5TNjoy1uER_" role="92FcQ">
+              <ref role="VXe09" to="wyt6:~Comparable" resolve="Comparable" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uERb" role="1dT_Ay">
+          <property role="1dT_AB" value=" view of " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1ucdb" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1ucdh" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1ucdj" role="2XjZqd" />
+            <node concept="VUqz4" id="5TNjoy1ucdq" role="92FcQ">
+              <ref role="YTMYt" node="5ocQ9W1$A4r" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1ucda" role="1dT_Ay">
+          <property role="1dT_AB" value=" with sorted " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uco5" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1ucog" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1ucoi" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1ucop" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$z0W" resolve="getValue" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uco4" role="1dT_Ay">
+          <property role="1dT_AB" value="s." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1uF4s" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uF4t" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1uF4L" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uF4M" role="1dT_Ay">
+          <property role="1dT_AB" value="Comparison based on its " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uFtp" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uFtv" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uFtx" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uFtC" role="92FcQ">
+              <ref role="VXe0S" node="5ocQ9W1$_$m" resolve="getMetaPointer" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uFto" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3imNlOpatb2">
     <property role="TrG5h" value="MetaPointerComparator" />
@@ -1564,6 +1763,40 @@
       </node>
       <node concept="2AHcQZ" id="3imNlOpath9" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="5TNjoy1u6mE" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1u6mF" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1u6mG" role="1dT_Ay">
+          <property role="1dT_AB" value="Compares " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1u6H3" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1u6H9" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1u6Hb" role="2XjZqd" />
+            <node concept="VXe08" id="5TNjoy1u6Hi" role="92FcQ">
+              <ref role="VXe09" to="xfsv:~MetaPointer" resolve="MetaPointer" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1u6H2" role="1dT_Ay">
+          <property role="1dT_AB" value="s" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1u6NR" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1u6NS" role="1dT_Ay">
+          <property role="1dT_AB" value="by " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1u798" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1u79e" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1u79g" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1u79n" role="92FcQ">
+              <ref role="VXe0S" to="33ny:~Comparator.naturalOrder()" resolve="naturalOrder" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1u797" role="1dT_Ay">
+          <property role="1dT_AB" value=" of language, version, and key (in that order)." />
+        </node>
       </node>
     </node>
   </node>
@@ -2045,6 +2278,57 @@
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
+      <node concept="3UR2Jj" id="5TNjoy1v1hV" role="lGtFl">
+        <node concept="TZ5HA" id="5TNjoy1v1hW" role="TZ5H$">
+          <node concept="1dT_AC" id="5TNjoy1v1hX" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5TNjoy1v2g_" role="1dT_Ay">
+            <node concept="92FcH" id="5TNjoy1v2gF" role="qph3F">
+              <node concept="TZ5HA" id="5TNjoy1v2gH" role="2XjZqd" />
+              <node concept="VXe08" id="5TNjoy1v2gO" role="92FcQ">
+                <ref role="VXe09" to="wyt6:~Comparable" resolve="Comparable" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5TNjoy1v2g$" role="1dT_Ay">
+            <property role="1dT_AB" value=" view of " />
+          </node>
+          <node concept="1dT_AA" id="5TNjoy1v2Iq" role="1dT_Ay">
+            <node concept="92FcH" id="5TNjoy1v2I_" role="qph3F">
+              <node concept="TZ5HA" id="5TNjoy1v2IB" role="2XjZqd" />
+              <node concept="VUqz4" id="5TNjoy1v2II" role="92FcQ">
+                <ref role="YTMYt" node="3imNlOpcVF4" resolve="delegate" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5TNjoy1v2Ip" role="1dT_Ay">
+            <property role="1dT_AB" value=", based on its " />
+          </node>
+          <node concept="1dT_AA" id="5TNjoy1v2Tc" role="1dT_Ay">
+            <node concept="92FcH" id="5TNjoy1v2Ts" role="qph3F">
+              <node concept="TZ5HA" id="5TNjoy1v2Tu" role="2XjZqd" />
+              <node concept="VXe0Z" id="5TNjoy1v2T_" role="92FcQ">
+                <ref role="VXe0S" node="3imNlOpcZrO" resolve="getReference" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5TNjoy1v2Tb" role="1dT_Ay">
+            <property role="1dT_AB" value=" and then " />
+          </node>
+          <node concept="1dT_AA" id="5TNjoy1v33q" role="1dT_Ay">
+            <node concept="92FcH" id="5TNjoy1v33J" role="qph3F">
+              <node concept="TZ5HA" id="5TNjoy1v33L" role="2XjZqd" />
+              <node concept="VXe0Z" id="5TNjoy1v33S" role="92FcQ">
+                <ref role="VXe0S" node="3imNlOpcZrx" resolve="getResolveInfo" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5TNjoy1v33p" role="1dT_Ay">
+            <property role="1dT_AB" value=" (in that order)." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="3imNlOpbq4o" role="jymVt" />
     <node concept="3clFb_" id="3imNlOpbqjS" role="jymVt">
@@ -2197,6 +2481,67 @@
       </node>
       <node concept="2AHcQZ" id="3imNlOpbqkJ" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="5TNjoy1uSIy" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1uSIz" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uSI$" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uTHc" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uTHi" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uTHk" role="2XjZqd" />
+            <node concept="VXe08" id="5TNjoy1uTHr" role="92FcQ">
+              <ref role="VXe09" to="wyt6:~Comparable" resolve="Comparable" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uTHb" role="1dT_Ay">
+          <property role="1dT_AB" value=" view of " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uUb1" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uUbc" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uUbe" role="2XjZqd" />
+            <node concept="VUqz4" id="5TNjoy1uUbl" role="92FcQ">
+              <ref role="YTMYt" node="3imNlOpbda2" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uUb0" role="1dT_Ay">
+          <property role="1dT_AB" value=" with sorted " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uUlT" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uUm9" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uUmb" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uUmi" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpbdhy" resolve="getValue" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uUlS" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1uUDl" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uUDm" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5TNjoy1uUDE" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1uUDF" role="1dT_Ay">
+          <property role="1dT_AB" value="Comparison based on its " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1v0US" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1v0UY" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1v0V0" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1v0V7" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpbqjS" resolve="getMetaPointer" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1v0UR" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -2461,6 +2806,46 @@
       </node>
       <node concept="2AHcQZ" id="3imNlOpcimS" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="5TNjoy1u__M" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1u__N" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1u__O" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1u_Zp" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1u_Z$" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1u_ZA" role="2XjZqd" />
+            <node concept="VXe08" id="5TNjoy1u_ZH" role="92FcQ">
+              <ref role="VXe09" to="wyt6:~Comparable" resolve="Comparable" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1u_Zo" role="1dT_Ay">
+          <property role="1dT_AB" value=" view of " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1u_OL" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1u_OR" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1u_OT" role="2XjZqd" />
+            <node concept="VUqz4" id="5TNjoy1u_P0" role="92FcQ">
+              <ref role="YTMYt" node="3imNlOpchJR" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1u_OK" role="1dT_Ay">
+          <property role="1dT_AB" value=", compared by its " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uAam" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uAaA" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uAaC" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uAaJ" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpcilU" resolve="getMetaPointer" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uAal" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
       </node>
     </node>
   </node>
@@ -2941,6 +3326,46 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="5TNjoy1u9kM" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1u9kN" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1u9kO" role="1dT_Ay">
+          <property role="1dT_AB" value="View of " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uard" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uarj" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uarl" role="2XjZqd" />
+            <node concept="VUqz4" id="5TNjoy1uars" role="92FcQ">
+              <ref role="YTMYt" node="3imNlOpi5Ct" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uarc" role="1dT_Ay">
+          <property role="1dT_AB" value=" with sorted " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uaAP" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uaB0" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uaB2" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uaB9" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpi6Os" resolve="getLanguages" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uaAO" role="1dT_Ay">
+          <property role="1dT_AB" value=" and " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1uaUo" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1uaUC" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1uaUE" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1uaUL" role="92FcQ">
+              <ref role="VXe0S" node="7W6jYlywaBK" resolve="getClassifierInstances" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1uaUn" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3imNlOpi7do">
     <property role="TrG5h" value="SortedUsedLanguage" />
@@ -3254,6 +3679,57 @@
       </node>
       <node concept="2AHcQZ" id="3imNlOpibER" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="5TNjoy1v3Li" role="lGtFl">
+      <node concept="TZ5HA" id="5TNjoy1v3Lj" role="TZ5H$">
+        <node concept="1dT_AC" id="5TNjoy1v3Lk" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1v490" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1v496" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1v498" role="2XjZqd" />
+            <node concept="VXe08" id="5TNjoy1v49f" role="92FcQ">
+              <ref role="VXe09" to="wyt6:~Comparable" resolve="Comparable" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1v48Z" role="1dT_Ay">
+          <property role="1dT_AB" value=" view of " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1v4iY" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1v4j9" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1v4jb" role="2XjZqd" />
+            <node concept="VUqz4" id="5TNjoy1v4ji" role="92FcQ">
+              <ref role="YTMYt" node="3imNlOpi7gP" resolve="delegate" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1v4iX" role="1dT_Ay">
+          <property role="1dT_AB" value=", based on first " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1v4tI" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1v4tY" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1v4u0" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1v4u7" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpibDT" resolve="getKey" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1v4tH" role="1dT_Ay">
+          <property role="1dT_AB" value=", then " />
+        </node>
+        <node concept="1dT_AA" id="5TNjoy1v4BU" role="1dT_Ay">
+          <node concept="92FcH" id="5TNjoy1v4Cf" role="qph3F">
+            <node concept="TZ5HA" id="5TNjoy1v4Ch" role="2XjZqd" />
+            <node concept="VXe0Z" id="5TNjoy1v4Co" role="92FcQ">
+              <ref role="VXe0S" node="3imNlOpibEc" resolve="getVersion" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5TNjoy1v4BT" role="1dT_Ay">
+          <property role="1dT_AB" value=" (in that order)." />
+        </node>
       </node>
     </node>
   </node>
