@@ -1293,8 +1293,8 @@
                   </node>
                 </node>
                 <node concept="A3Dl8" id="7W6jYlyQZ7G" role="1tU5fm">
-                  <node concept="3uibUv" id="7W6jYlyQZ7J" role="A3Ik2">
-                    <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
+                  <node concept="3uibUv" id="7jdzMameUVX" role="A3Ik2">
+                    <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
                   </node>
                 </node>
               </node>
@@ -1499,8 +1499,8 @@
                   </node>
                 </node>
                 <node concept="_YKpA" id="7W6jYlyR0sI" role="1tU5fm">
-                  <node concept="3uibUv" id="7W6jYlyR0sL" role="_ZDj9">
-                    <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
+                  <node concept="3uibUv" id="5TNjoy1FP2h" role="_ZDj9">
+                    <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
                   </node>
                 </node>
               </node>
