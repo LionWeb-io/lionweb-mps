@@ -104,7 +104,6 @@
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="1075300953594" name="abstractClass" index="1sVAO0" />
-        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -176,7 +175,6 @@
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -202,9 +200,6 @@
       <concept id="1163670641947" name="jetbrains.mps.baseLanguage.structure.SwitchCase" flags="ng" index="3KbdKl">
         <child id="1163670677455" name="expression" index="3Kbmr1" />
         <child id="1163670683720" name="body" index="3Kbo56" />
-      </concept>
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -248,14 +243,6 @@
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
-      </concept>
-    </language>
-    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
-        <property id="155656958578482949" name="value" index="3oM_SC" />
-      </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
-        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1674,56 +1661,6 @@
     </node>
     <node concept="2tJIrI" id="5s4Z0e0n9XR" role="jymVt" />
     <node concept="2tJIrI" id="5s4Z0e0n9XS" role="jymVt" />
-    <node concept="312cEu" id="5s4Z0e0n9XT" role="jymVt">
-      <property role="TrG5h" value="VerbatimSerializer" />
-      <node concept="3uibUv" id="5s4Z0e0n9XU" role="EKbjA">
-        <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization$PrimitiveSerializer" resolve="PrimitiveValuesSerialization.PrimitiveSerializer" />
-        <node concept="3uibUv" id="5s4Z0e0n9XV" role="11_B2D">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        </node>
-      </node>
-      <node concept="3clFb_" id="5s4Z0e0n9XW" role="jymVt">
-        <property role="TrG5h" value="serialize" />
-        <node concept="3Tm1VV" id="5s4Z0e0n9XX" role="1B3o_S" />
-        <node concept="17QB3L" id="5s4Z0e0n9XY" role="3clF45" />
-        <node concept="37vLTG" id="5s4Z0e0n9XZ" role="3clF46">
-          <property role="TrG5h" value="obj" />
-          <node concept="3uibUv" id="5s4Z0e0n9Y0" role="1tU5fm">
-            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="5s4Z0e0n9Y1" role="3clF47">
-          <node concept="3clFbJ" id="5s4Z0e0n9Y2" role="3cqZAp">
-            <node concept="3clFbS" id="5s4Z0e0n9Y3" role="3clFbx">
-              <node concept="3cpWs6" id="5s4Z0e0n9Y4" role="3cqZAp">
-                <node concept="10Nm6u" id="5s4Z0e0n9Y5" role="3cqZAk" />
-              </node>
-            </node>
-            <node concept="3clFbC" id="5s4Z0e0n9Y6" role="3clFbw">
-              <node concept="10Nm6u" id="5s4Z0e0n9Y7" role="3uHU7w" />
-              <node concept="37vLTw" id="5s4Z0e0n9Y8" role="3uHU7B">
-                <ref role="3cqZAo" node="5s4Z0e0n9XZ" resolve="obj" />
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs6" id="5s4Z0e0n9Y9" role="3cqZAp">
-            <node concept="2OqwBi" id="5s4Z0e0n9Ya" role="3cqZAk">
-              <node concept="37vLTw" id="5s4Z0e0n9Yb" role="2Oq$k0">
-                <ref role="3cqZAo" node="5s4Z0e0n9XZ" resolve="obj" />
-              </node>
-              <node concept="liA8E" id="5s4Z0e0n9Yc" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2AHcQZ" id="5s4Z0e0n9Yd" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="5s4Z0e0nbRu" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="5s4Z0e0n9Ye" role="jymVt" />
     <node concept="3clFb_" id="5s4Z0e0na0J" role="jymVt">
       <property role="TrG5h" value="convert" />
       <node concept="3Tm6S6" id="5s4Z0e0na0K" role="1B3o_S" />
@@ -1748,151 +1685,6 @@
             <node concept="2YIFZM" id="5s4Z0e0na0U" role="33vP2m">
               <ref role="1Pybhc" to="jxh5:~JsonSerialization" resolve="JsonSerialization" />
               <ref role="37wK5l" to="jxh5:~JsonSerialization.getStandardSerialization()" resolve="getStandardSerialization" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5s4Z0e0na0W" role="3cqZAp">
-          <node concept="3cpWsn" id="5s4Z0e0na0X" role="3cpWs9">
-            <property role="TrG5h" value="primitiveValuesSerialization" />
-            <node concept="3uibUv" id="5s4Z0e0na0Y" role="1tU5fm">
-              <ref role="3uigEE" to="jxh5:~PrimitiveValuesSerialization" resolve="PrimitiveValuesSerialization" />
-            </node>
-            <node concept="2OqwBi" id="5s4Z0e0na0Z" role="33vP2m">
-              <node concept="37vLTw" id="5s4Z0e0na10" role="2Oq$k0">
-                <ref role="3cqZAo" node="5s4Z0e0na0S" resolve="jsonSerialization" />
-              </node>
-              <node concept="liA8E" id="5s4Z0e0na11" role="2OqNvi">
-                <ref role="37wK5l" to="jxh5:~JsonSerialization.getPrimitiveValuesSerialization()" resolve="getPrimitiveValuesSerialization" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5s4Z0e0na1x" role="3cqZAp" />
-        <node concept="3SKdUt" id="5s4Z0e0na1z" role="3cqZAp">
-          <node concept="1PaTwC" id="5s4Z0e0na1$" role="1aUNEU">
-            <node concept="3oM_SD" id="5s4Z0e0na1_" role="1PaTwD">
-              <property role="3oM_SC" value="IDNumber" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5s4Z0e0na1B" role="3cqZAp">
-          <node concept="2OqwBi" id="5s4Z0e0na1C" role="3clFbG">
-            <node concept="37vLTw" id="5s4Z0e0na1D" role="2Oq$k0">
-              <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
-            </node>
-            <node concept="liA8E" id="5s4Z0e0na1E" role="2OqNvi">
-              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
-              <node concept="Xl_RD" id="5s4Z0e0na1F" role="37wK5m">
-                <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzQyNjk4NDI1MDM3MjYyMDc4MTg" />
-              </node>
-              <node concept="2ShNRf" id="5s4Z0e0na1G" role="37wK5m">
-                <node concept="HV5vD" id="5s4Z0e0na1H" role="2ShVmc">
-                  <ref role="HV5vE" node="5s4Z0e0n9XT" resolve="M2Serializer.VerbatimSerializer" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="5s4Z0e0na1J" role="3cqZAp">
-          <node concept="1PaTwC" id="5s4Z0e0na1K" role="1aUNEU">
-            <node concept="3oM_SD" id="5s4Z0e0na1L" role="1PaTwD">
-              <property role="3oM_SC" value="LinkMetaclass" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5s4Z0e0na1N" role="3cqZAp">
-          <node concept="2OqwBi" id="5s4Z0e0na1O" role="3clFbG">
-            <node concept="37vLTw" id="5s4Z0e0na1P" role="2Oq$k0">
-              <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
-            </node>
-            <node concept="liA8E" id="5s4Z0e0na1Q" role="2OqNvi">
-              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
-              <node concept="Xl_RD" id="5s4Z0e0na1R" role="37wK5m">
-                <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzEwODQxOTkxNzk3MDM" />
-              </node>
-              <node concept="2ShNRf" id="5s4Z0e0na1S" role="37wK5m">
-                <node concept="HV5vD" id="5s4Z0e0na1T" role="2ShVmc">
-                  <ref role="HV5vE" node="5s4Z0e0n9XT" resolve="M2Serializer.VerbatimSerializer" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="5s4Z0e0na1V" role="3cqZAp">
-          <node concept="1PaTwC" id="5s4Z0e0na1W" role="1aUNEU">
-            <node concept="3oM_SD" id="5s4Z0e0na1X" role="1PaTwD">
-              <property role="3oM_SC" value="Cardinality" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5s4Z0e0na1Z" role="3cqZAp">
-          <node concept="2OqwBi" id="5s4Z0e0na20" role="3clFbG">
-            <node concept="37vLTw" id="5s4Z0e0na21" role="2Oq$k0">
-              <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
-            </node>
-            <node concept="liA8E" id="5s4Z0e0na22" role="2OqNvi">
-              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
-              <node concept="Xl_RD" id="5s4Z0e0na23" role="37wK5m">
-                <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzEwODQxOTc3ODI3MjI" />
-              </node>
-              <node concept="2ShNRf" id="5s4Z0e0na24" role="37wK5m">
-                <node concept="HV5vD" id="5s4Z0e0na25" role="2ShVmc">
-                  <ref role="HV5vE" node="5s4Z0e0n9XT" resolve="M2Serializer.VerbatimSerializer" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="5s4Z0e0na27" role="3cqZAp">
-          <node concept="1PaTwC" id="5s4Z0e0na28" role="1aUNEU">
-            <node concept="3oM_SD" id="5s4Z0e0na29" role="1PaTwD">
-              <property role="3oM_SC" value="NameOperationMigrationStrategy" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5s4Z0e0na2b" role="3cqZAp">
-          <node concept="2OqwBi" id="5s4Z0e0na2c" role="3clFbG">
-            <node concept="37vLTw" id="5s4Z0e0na2d" role="2Oq$k0">
-              <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
-            </node>
-            <node concept="liA8E" id="5s4Z0e0na2e" role="2OqNvi">
-              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
-              <node concept="Xl_RD" id="5s4Z0e0na2f" role="37wK5m">
-                <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzY0OTEwNzc5NTk2MzQ2NTA2ODg" />
-              </node>
-              <node concept="2ShNRf" id="5s4Z0e0na2g" role="37wK5m">
-                <node concept="HV5vD" id="5s4Z0e0na2h" role="2ShVmc">
-                  <ref role="HV5vE" node="5s4Z0e0n9XT" resolve="M2Serializer.VerbatimSerializer" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="5s4Z0e0na2j" role="3cqZAp">
-          <node concept="1PaTwC" id="5s4Z0e0na2k" role="1aUNEU">
-            <node concept="3oM_SD" id="5s4Z0e0na2l" role="1PaTwD">
-              <property role="3oM_SC" value="" />
-            </node>
-            <node concept="3oM_SD" id="5s4Z0e0na2m" role="1PaTwD">
-              <property role="3oM_SC" value="ValueOperationMigrationStrategy" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5s4Z0e0na2o" role="3cqZAp">
-          <node concept="2OqwBi" id="5s4Z0e0na2p" role="3clFbG">
-            <node concept="37vLTw" id="5s4Z0e0na2q" role="2Oq$k0">
-              <ref role="3cqZAo" node="5s4Z0e0na0X" resolve="primitiveValuesSerialization" />
-            </node>
-            <node concept="liA8E" id="5s4Z0e0na2r" role="2OqNvi">
-              <ref role="37wK5l" to="jxh5:~PrimitiveValuesSerialization.registerSerializer(java.lang.String,io.lionweb.lioncore.java.serialization.PrimitiveValuesSerialization$PrimitiveSerializer)" resolve="registerSerializer" />
-              <node concept="Xl_RD" id="5s4Z0e0na2s" role="37wK5m">
-                <property role="Xl_RC" value="YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzY0OTEwNzc5NTk2MzQ2NjIzMzM" />
-              </node>
-              <node concept="2ShNRf" id="5s4Z0e0na2t" role="37wK5m">
-                <node concept="HV5vD" id="5s4Z0e0na2u" role="2ShVmc">
-                  <ref role="HV5vE" node="5s4Z0e0n9XT" resolve="M2Serializer.VerbatimSerializer" />
-                </node>
-              </node>
             </node>
           </node>
         </node>
