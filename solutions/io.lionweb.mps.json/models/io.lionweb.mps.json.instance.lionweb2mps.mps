@@ -5,6 +5,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -25,6 +26,7 @@
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
@@ -237,6 +239,12 @@
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
+        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
+        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1078,6 +1086,64 @@
                       <ref role="2Gs0qQ" node="18UigYOUef6" resolve="jsonEntry" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="jyNOuY_8WW" role="3cqZAp" />
+        <node concept="2Gpval" id="jyNOuY_aZk" role="3cqZAp">
+          <node concept="2GrKxI" id="jyNOuY_aZm" role="2Gsz3X">
+            <property role="TrG5h" value="jsonAnnotationId" />
+          </node>
+          <node concept="2OqwBi" id="jyNOuY_i_1" role="2GsD0m">
+            <node concept="37vLTw" id="jyNOuY_hGD" role="2Oq$k0">
+              <ref role="3cqZAo" node="2fx6VTSt4eF" resolve="json" />
+            </node>
+            <node concept="liA8E" id="jyNOuY_j$S" role="2OqNvi">
+              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getAnnotations()" resolve="getAnnotations" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="jyNOuY_aZq" role="2LFqv$">
+            <node concept="3clFbJ" id="jyNOuY_kyD" role="3cqZAp">
+              <node concept="3clFbS" id="jyNOuY_kyE" role="3clFbx">
+                <node concept="3cpWs8" id="jyNOuY_kyv" role="3cqZAp">
+                  <node concept="3cpWsn" id="jyNOuY_kyw" role="3cpWs9">
+                    <property role="TrG5h" value="mpsAnnotation" />
+                    <node concept="3uibUv" id="jyNOuY_kyx" role="1tU5fm">
+                      <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                    </node>
+                    <node concept="1rXfSq" id="jyNOuY_kyH" role="33vP2m">
+                      <ref role="37wK5l" node="2fx6VTSt4fm" resolve="lookupNode" />
+                      <node concept="2GrUjf" id="jyNOuY_s1V" role="37wK5m">
+                        <ref role="2Gs0qQ" node="jyNOuY_aZm" resolve="jsonAnnotationId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="jyNOuY_vqL" role="3cqZAp">
+                  <node concept="1rXfSq" id="jyNOuY_vqJ" role="3clFbG">
+                    <ref role="37wK5l" node="2q_M4yT3_UQ" resolve="addLinkedChild" />
+                    <node concept="37vLTw" id="jyNOuY_wpU" role="37wK5m">
+                      <ref role="3cqZAo" node="jyNOuY_kyw" resolve="mpsAnnotation" />
+                    </node>
+                    <node concept="37vLTw" id="jyNOuY_yxf" role="37wK5m">
+                      <ref role="3cqZAo" node="2fx6VTSt4eH" resolve="mps" />
+                    </node>
+                    <node concept="359W_D" id="jyNOuY_zFP" role="37wK5m">
+                      <ref role="359W_E" to="tpck:gw2VY9q" resolve="BaseConcept" />
+                      <ref role="359W_F" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+                    </node>
+                    <node concept="2GrUjf" id="jyNOuY_BV2" role="37wK5m">
+                      <ref role="2Gs0qQ" node="jyNOuY_aZm" resolve="jsonAnnotationId" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="jyNOuY_kyK" role="3clFbw">
+                <node concept="10Nm6u" id="jyNOuY_kyL" role="3uHU7w" />
+                <node concept="2GrUjf" id="jyNOuY_r1b" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="jyNOuY_aZm" resolve="jsonAnnotationId" />
                 </node>
               </node>
             </node>

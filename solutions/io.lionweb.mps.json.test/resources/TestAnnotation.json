@@ -17,16 +17,6 @@
       "children": [
         {
           "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-nodeAnn1"
-          ]
-        },
-        {
-          "containment": {
             "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvLTYzOTI0NjgyNTk0NDA3MjQ1MzE"
@@ -38,7 +28,9 @@
         }
       ],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-nodeAnn1"
+      ],
       "parent": null,
       "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
@@ -66,18 +58,7 @@
           "value": "H2G2"
         }
       ],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-childAnn"
-          ]
-        }
-      ],
+      "children": [],
       "references": [
         {
           "reference": {
@@ -93,7 +74,9 @@
           ]
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "id-childAnn"
+      ],
       "parent": "id-myLib",
       "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
@@ -105,16 +88,6 @@
       "id": "id-childAnn",
       "properties": [],
       "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-annAnn"
-          ]
-        },
         {
           "containment": {
             "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -157,7 +130,9 @@
         }
       ],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-annAnn"
+      ],
       "parent": "id-h2g2",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -181,20 +156,11 @@
     {
       "id": "id-myConcept",
       "properties": [],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-conceptAnn"
-          ]
-        }
-      ],
+      "children": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-conceptAnn"
+      ],
       "parent": "id-childAnn",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -218,20 +184,11 @@
     {
       "id": "id-implAnn",
       "properties": [],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-ifaceAnn"
-          ]
-        }
-      ],
+      "children": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-ifaceAnn"
+      ],
       "parent": "id-childAnn",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -242,20 +199,11 @@
     {
       "id": "id-ifaceAnn",
       "properties": [],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-extendsAnn"
-          ]
-        }
-      ],
+      "children": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-extendsAnn"
+      ],
       "parent": "id-implAnn",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -301,23 +249,14 @@
           "value": "MyACont"
         }
       ],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-iNamedAnn",
-            "id-multiFalseAnn",
-            "id-multiTrueAnn1",
-            "id-multiTrueAnn2"
-          ]
-        }
-      ],
+      "children": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-iNamedAnn",
+        "id-multiFalseAnn",
+        "id-multiTrueAnn1",
+        "id-multiTrueAnn2"
+      ],
       "parent": "id-childAnn",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
@@ -367,20 +306,11 @@
     {
       "id": "id-multiTrueAnn2",
       "properties": [],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-nodeAnn2"
-          ]
-        }
-      ],
+      "children": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-nodeAnn2"
+      ],
       "parent": "id-myACont",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -421,19 +351,7 @@
           "value": "TAOCP"
         }
       ],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-defaultAttrAnn",
-            "id-propAnn"
-          ]
-        }
-      ],
+      "children": [],
       "references": [
         {
           "reference": {
@@ -449,7 +367,10 @@
           ]
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "id-defaultAttrAnn",
+        "id-propAnn"
+      ],
       "parent": "id-myLib",
       "classifier": {
         "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
@@ -460,20 +381,11 @@
     {
       "id": "id-defaultAttrAnn",
       "properties": [],
-      "children": [
-        {
-          "containment": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
-          },
-          "children": [
-            "id-refsAnn"
-          ]
-        }
-      ],
+      "children": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-refsAnn"
+      ],
       "parent": "id-tacop",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
