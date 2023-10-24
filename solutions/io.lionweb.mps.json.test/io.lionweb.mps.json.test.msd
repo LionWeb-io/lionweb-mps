@@ -30,6 +30,7 @@
     <dependency reexport="false">a95063a5-27eb-4ae8-894e-ea20f8b3d6a2(io.lionweb.mps.converter.TestRefs)</dependency>
     <dependency reexport="false">4a963078-62c4-4f96-9b52-198a0c63da4b(io.lionweb.mps.testsupport)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">48d0f6eb-6186-4cec-83d1-7caedb05a494(io.lionweb.mps.converter.TestLang2)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:76d927fd-3a5a-4e40-865b-7c2d329ca675:MultiRefLang" version="1" />
@@ -67,6 +68,7 @@
     <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)" version="0" />
     <module reference="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" version="0" />
     <module reference="08caad75-8246-4427-bb4d-8444b6c5c729(io.lionweb.mps.converter.TestLang)" version="0" />
+    <module reference="48d0f6eb-6186-4cec-83d1-7caedb05a494(io.lionweb.mps.converter.TestLang2)" version="0" />
     <module reference="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" version="0" />
     <module reference="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2(io.lionweb.mps.converter.TestRefs)" version="0" />
     <module reference="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" version="0" />
