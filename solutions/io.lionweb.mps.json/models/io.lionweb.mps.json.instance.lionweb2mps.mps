@@ -5,7 +5,6 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -26,7 +25,6 @@
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
@@ -240,12 +238,6 @@
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
-        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
-        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
-      </concept>
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
@@ -353,6 +345,14 @@
         <ref role="3uigEE" node="A9P4gGN5z5" resolve="INodeIdCreator" />
       </node>
     </node>
+    <node concept="312cEg" id="4WflrVakKoY" role="jymVt">
+      <property role="TrG5h" value="constants" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="4WflrVakITs" role="1B3o_S" />
+      <node concept="3uibUv" id="4WflrVakKll" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      </node>
+    </node>
     <node concept="312cEg" id="2fx6VTRF0q3" role="jymVt">
       <property role="TrG5h" value="inputNodes" />
       <property role="3TUv4t" value="true" />
@@ -437,6 +437,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4WflrVakMiu" role="3cqZAp">
+          <node concept="37vLTI" id="4WflrVakMO_" role="3clFbG">
+            <node concept="37vLTw" id="4WflrVakN56" role="37vLTx">
+              <ref role="3cqZAo" node="4WflrVakLTz" resolve="constants" />
+            </node>
+            <node concept="2OqwBi" id="4WflrVakMqg" role="37vLTJ">
+              <node concept="Xjq3P" id="4WflrVakMis" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4WflrVakMCY" role="2OqNvi">
+                <ref role="2Oxat5" node="4WflrVakKoY" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2fx6VTRFheN" role="3cqZAp">
           <node concept="37vLTI" id="2fx6VTRFhyV" role="3clFbG">
             <node concept="37vLTw" id="2fx6VTRFhAI" role="37vLTx">
@@ -466,6 +479,15 @@
           <ref role="3uigEE" node="A9P4gGN5z5" resolve="INodeIdCreator" />
         </node>
         <node concept="2AHcQZ" id="A9P4gGN9oR" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4WflrVakLTz" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4WflrVakLT_" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        </node>
+        <node concept="2AHcQZ" id="4WflrVakM77" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -1130,9 +1152,13 @@
                     <node concept="37vLTw" id="jyNOuY_yxf" role="37wK5m">
                       <ref role="3cqZAo" node="2fx6VTSt4eH" resolve="mps" />
                     </node>
-                    <node concept="359W_D" id="jyNOuY_zFP" role="37wK5m">
-                      <ref role="359W_E" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                      <ref role="359W_F" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+                    <node concept="2OqwBi" id="4WflrVakOCb" role="37wK5m">
+                      <node concept="37vLTw" id="4WflrVakNcq" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4WflrVakKoY" resolve="constants" />
+                      </node>
+                      <node concept="2OwXpG" id="4WflrVakQbx" role="2OqNvi">
+                        <ref role="2Oxat5" to="y7p:4WflrVajnwK" resolve="SLANG_ANNOTATION_CONTAINMENT" />
+                      </node>
                     </node>
                     <node concept="2GrUjf" id="jyNOuY_BV2" role="37wK5m">
                       <ref role="2Gs0qQ" node="jyNOuY_aZm" resolve="jsonAnnotationId" />
@@ -2301,6 +2327,9 @@
           <node concept="37vLTw" id="6lVb1tfAXc8" role="37wK5m">
             <ref role="3cqZAo" node="6lVb1tfAWGh" resolve="nodeIdCreator" />
           </node>
+          <node concept="37vLTw" id="4WflrVaqhrz" role="37wK5m">
+            <ref role="3cqZAo" node="4WflrVaqcqJ" resolve="constants" />
+          </node>
           <node concept="37vLTw" id="2q_M4yT3_O$" role="37wK5m">
             <ref role="3cqZAo" node="2q_M4yT3_Ow" resolve="inputNodes" />
           </node>
@@ -2335,6 +2364,12 @@
         </node>
         <node concept="2AHcQZ" id="6lVb1tfAWGj" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4WflrVaqcqJ" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1xqd6ptu0RD" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="2q_M4yT3_Ow" role="3clF46">

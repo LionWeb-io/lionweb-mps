@@ -642,6 +642,14 @@
       <node concept="3Tm1VV" id="6Pr6izIcvKE" role="1B3o_S" />
       <node concept="17QB3L" id="6Pr6izIcvKF" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="4WflrVajnwK" role="jymVt">
+      <property role="TrG5h" value="SLANG_ANNOTATION_CONTAINMENT" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="4WflrVakEqz" role="1B3o_S" />
+      <node concept="3uibUv" id="4WflrVajnv2" role="1tU5fm">
+        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="30uXOOfMilH" role="jymVt" />
     <node concept="312cEg" id="6jTTMHCZPnj" role="jymVt">
       <property role="TrG5h" value="LC_INAMED_INTERFACE" />
@@ -1866,6 +1874,34 @@
               </node>
               <node concept="liA8E" id="30uXOOfMk6k" role="2OqNvi">
                 <ref role="37wK5l" to="e8bb:~SConceptId.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4WflrVajqZq" role="3cqZAp">
+          <node concept="37vLTI" id="4WflrVajxUi" role="3clFbG">
+            <node concept="2OqwBi" id="4WflrVajFQN" role="37vLTx">
+              <node concept="2OqwBi" id="4WflrVajCZx" role="2Oq$k0">
+                <node concept="2OqwBi" id="4WflrVaj_GQ" role="2Oq$k0">
+                  <node concept="37vLTw" id="4WflrVaj$aa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="39$JcGG9w_Q" resolve="SLANG_NODE_CONCEPT" />
+                  </node>
+                  <node concept="liA8E" id="4WflrVajBq_" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getContainmentLinks()" resolve="getContainmentLinks" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="4WflrVajEMK" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Collection.iterator()" resolve="iterator" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4WflrVajH9Y" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4WflrVajv0d" role="37vLTJ">
+              <node concept="Xjq3P" id="4WflrVajqZo" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4WflrVajwmg" role="2OqNvi">
+                <ref role="2Oxat5" node="4WflrVajnwK" resolve="SLANG_ANNOTATION_CONTAINMENT" />
               </node>
             </node>
           </node>
@@ -3180,6 +3216,33 @@
         </node>
         <node concept="x79VA" id="3M8YG$9yag7" role="3nqlJM">
           <property role="x79VB" value="`true` if `element` needs special treatment, `false` otherwise." />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4WflrVaj8Ii" role="jymVt" />
+    <node concept="3clFb_" id="4WflrVajd3a" role="jymVt">
+      <property role="TrG5h" value="isAnnotationContainment" />
+      <node concept="3clFbS" id="4WflrVajd3d" role="3clF47">
+        <node concept="3clFbF" id="4WflrVajI2V" role="3cqZAp">
+          <node concept="17R0WA" id="4WflrVajJWH" role="3clFbG">
+            <node concept="37vLTw" id="4WflrVajLZ4" role="3uHU7w">
+              <ref role="3cqZAo" node="4WflrVajnwK" resolve="SLANG_ANNOTATION_CONTAINMENT" />
+            </node>
+            <node concept="37vLTw" id="4WflrVajI2U" role="3uHU7B">
+              <ref role="3cqZAo" node="4WflrVajf3O" resolve="containment" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4WflrVajb2t" role="1B3o_S" />
+      <node concept="10P_77" id="4WflrVajcJb" role="3clF45" />
+      <node concept="37vLTG" id="4WflrVajf3O" role="3clF46">
+        <property role="TrG5h" value="containment" />
+        <node concept="3uibUv" id="4WflrVajf3N" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+        <node concept="2AHcQZ" id="4WflrVajjbl" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
     </node>

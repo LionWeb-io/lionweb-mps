@@ -1,0 +1,57 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tests in 'io.lionweb.mps.server.test'" type="JUnit Tests" factoryName="JUnit Tests">
+    <myJUnitSettings>
+      <MyState>
+        <option name="myModelRef" />
+        <option name="myModuleRef" value="3cf912e1-3ecb-4ed7-81f8-67be9bc432ee(io.lionweb.mps.server.test)" />
+        <option name="myInProcess" value="true" />
+        <option name="myReuseCaches" value="true" />
+        <option name="myOverrideCachesLocation" value="false" />
+        <option name="myDebug" value="false" />
+        <option name="myTestCases">
+          <list />
+        </option>
+        <option name="myTestMethods">
+          <list />
+        </option>
+        <option name="myRunType" value="1" />
+        <option name="myRunType2InProcess">
+          <InProcessFlagPerScope>
+            <option name="runType2InProcessFlag">
+              <map>
+                <entry key="0" value="true" />
+                <entry key="1" value="false" />
+                <entry key="2" value="true" />
+                <entry key="3" value="true" />
+                <entry key="4" value="true" />
+              </map>
+            </option>
+          </InProcessFlagPerScope>
+        </option>
+      </MyState>
+    </myJUnitSettings>
+    <myJavaRunParameters>
+      <MyState>
+        <option name="myJavaParameters">
+          <JavaRunParameters>
+            <option name="jrePath" value="" />
+            <option name="programParameters" value="" />
+            <option name="useAlternativeJre" value="false" />
+            <option name="vmOptions" value="-ea" />
+          </JavaRunParameters>
+        </option>
+      </MyState>
+    </myJavaRunParameters>
+    <myDeploySettings>
+      <MyState>
+        <option name="myPluginsToDeploy">
+          <list />
+        </option>
+      </MyState>
+    </myDeploySettings>
+    <method v="2">
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
