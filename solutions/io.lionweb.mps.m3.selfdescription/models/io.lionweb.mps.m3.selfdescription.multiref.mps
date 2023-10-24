@@ -32,8 +32,8 @@
         <reference id="2656571587264862780" name="extends" index="2RzPfO" />
         <child id="2656571587264866539" name="implements" index="2RzQ4z" />
       </concept>
-      <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.ConceptInterfaceReference" flags="ng" index="2RzQOr">
-        <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
+      <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.InterfaceReference" flags="ng" index="2RzQOr">
+        <reference id="2656571587264865492" name="interface" index="2RzQOs" />
       </concept>
       <concept id="2656571587264871634" name="io.lionweb.mps.m3.structure.LanguageReference" flags="ng" index="2RzRkq">
         <reference id="2656571587264871635" name="language" index="2RzRkr" />

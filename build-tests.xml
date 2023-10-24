@@ -301,6 +301,7 @@
           <module ref="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)" kind="cl" />
           <module ref="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" kind="cl" />
           <module ref="08caad75-8246-4427-bb4d-8444b6c5c729(io.lionweb.mps.converter.TestLang)" kind="cl" />
+          <module ref="48d0f6eb-6186-4cec-83d1-7caedb05a494(io.lionweb.mps.converter.TestLang2)" kind="cl" />
           <module ref="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" kind="cl" />
           <module ref="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2(io.lionweb.mps.converter.TestRefs)" kind="cl" />
           <module ref="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" kind="cl" />
@@ -1489,7 +1490,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.io.lionweb.mps.json.test" depends="java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.test, java.compile.io.lionweb.mps.testsupport, java.compile.library, fetchDependencies">
+  <target name="java.compile.io.lionweb.mps.json.test" depends="java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.test, java.compile.io.lionweb.mps.testsupport, java.compile.library, fetchDependencies">
     <mkdir dir="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/source_gen" />
     <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.json.test" />
     <javac destdir="${build.tmp}/java/out/io.lionweb.mps.json.test" fork="true" encoding="utf8" includeantruntime="false" debug="true">
@@ -1518,6 +1519,7 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/MultiRefLang" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang" />
+        <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang2" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />

@@ -28,6 +28,9 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -149,6 +152,11 @@
                   <node concept="37vLTw" id="4oHUzWXP2wR" role="37wK5m">
                     <ref role="3cqZAo" node="4oHUzWXP2wG" resolve="repository" />
                   </node>
+                </node>
+              </node>
+              <node concept="2ShNRf" id="4WflrVaTWbb" role="37wK5m">
+                <node concept="HV5vD" id="4WflrVaTWy8" role="2ShVmc">
+                  <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                 </node>
               </node>
             </node>
@@ -487,6 +495,11 @@
                   <node concept="37vLTw" id="4oHUzWXOFpE" role="37wK5m">
                     <ref role="3cqZAo" node="4oHUzWXOFpv" resolve="repository" />
                   </node>
+                </node>
+              </node>
+              <node concept="2ShNRf" id="4WflrVaUu19" role="37wK5m">
+                <node concept="HV5vD" id="4WflrVaUu1a" role="2ShVmc">
+                  <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                 </node>
               </node>
             </node>

@@ -1651,6 +1651,11 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="2ShNRf" id="4WflrVaTWbb" role="37wK5m">
+                    <node concept="HV5vD" id="4WflrVaTWy8" role="2ShVmc">
+                      <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -2948,6 +2953,11 @@
                   </node>
                   <node concept="37vLTw" id="5M3rB6BiURf" role="37wK5m">
                     <ref role="3cqZAo" node="5M3rB6BiU9S" resolve="constants" />
+                  </node>
+                  <node concept="2ShNRf" id="4WflrVaUfzb" role="37wK5m">
+                    <node concept="HV5vD" id="4WflrVaUfzc" role="2ShVmc">
+                      <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                    </node>
                   </node>
                 </node>
               </node>

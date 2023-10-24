@@ -647,6 +647,11 @@
             <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4WflrVbh0Dz" role="3bR37C">
+          <node concept="3bR9La" id="4WflrVbh0D$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="5wsogBcGDLj" role="3989C9">
@@ -811,11 +816,6 @@
         <node concept="1SiIV0" id="fKtnirpu2F" role="3bR37C">
           <node concept="3bR9La" id="fKtnirpu2G" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="fKtnirpu2H" role="3bR37C">
-          <node concept="3bR9La" id="fKtnirpu2I" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
         <node concept="1SiIV0" id="6jI_U5e9kSW" role="3bR37C">
@@ -1098,6 +1098,11 @@
         <node concept="1SiIV0" id="6jI_U5e9kT$" role="3bR37C">
           <node concept="3bR9La" id="6jI_U5e9kT_" role="1SiIV1">
             <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4WflrVbh0Ep" role="3bR37C">
+          <node concept="3bR9La" id="4WflrVbh0Eq" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>

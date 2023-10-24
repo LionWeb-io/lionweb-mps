@@ -1446,6 +1446,11 @@
                     <node concept="37vLTw" id="4R9pospczyQ" role="37wK5m">
                       <ref role="3cqZAo" node="4R9pospczyM" resolve="constants" />
                     </node>
+                    <node concept="2ShNRf" id="4WflrVaUCKw" role="37wK5m">
+                      <node concept="HV5vD" id="4WflrVaUCKx" role="2ShVmc">
+                        <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="2ShNRf" id="4R9pospczqz" role="37wK5m">
@@ -1718,6 +1723,11 @@
                     </node>
                     <node concept="37vLTw" id="4R9pospcaKY" role="37wK5m">
                       <ref role="3cqZAo" node="4R9pospcaKU" resolve="constants" />
+                    </node>
+                    <node concept="2ShNRf" id="4WflrVaTWbb" role="37wK5m">
+                      <node concept="HV5vD" id="4WflrVaTWy8" role="2ShVmc">
+                        <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -4078,6 +4088,11 @@
                       </node>
                       <node concept="37vLTw" id="1ryFPTS7QIp" role="37wK5m">
                         <ref role="3cqZAo" node="1ryFPTS7O5d" resolve="constants" />
+                      </node>
+                      <node concept="2ShNRf" id="4WflrVaUDca" role="37wK5m">
+                        <node concept="HV5vD" id="4WflrVaUDcb" role="2ShVmc">
+                          <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                        </node>
                       </node>
                     </node>
                   </node>

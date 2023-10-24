@@ -1121,15 +1121,15 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="5M3rB6CilnS" role="3cqZAp">
-          <node concept="3cpWsn" id="5M3rB6CilnT" role="3cpWs9">
-            <property role="TrG5h" value="lcMapper" />
-            <node concept="3uibUv" id="5M3rB6CillP" role="1tU5fm">
-              <ref role="3uigEE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageGuaranteedMapper" />
+        <node concept="3cpWs8" id="4WflrVaUhPj" role="3cqZAp">
+          <node concept="3cpWsn" id="4WflrVaUhPk" role="3cpWs9">
+            <property role="TrG5h" value="metaAdapterByDeclarationHelper" />
+            <node concept="3uibUv" id="4WflrVaUhL9" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:18UigYOOPKz" resolve="IMetaAdapterByDeclarationHelper" />
             </node>
-            <node concept="2ShNRf" id="5M3rB6CilnU" role="33vP2m">
-              <node concept="1pGfFk" id="5M3rB6CilnV" role="2ShVmc">
-                <ref role="37wK5l" to="t47h:5M3rB6Ax$oV" resolve="LionCoreMpsCompatibleLanguageGuaranteedMapper" />
+            <node concept="2ShNRf" id="4WflrVaUhPl" role="33vP2m">
+              <node concept="HV5vD" id="4WflrVaUhPm" role="2ShVmc">
+                <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
               </node>
             </node>
           </node>
@@ -1149,6 +1149,9 @@
                 <node concept="37vLTw" id="5M3rB6Cil4l" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6CikXM" resolve="constants" />
                 </node>
+                <node concept="37vLTw" id="4WflrVaUs2e" role="37wK5m">
+                  <ref role="3cqZAo" node="4WflrVaUhPk" resolve="metaAdapterByDeclarationHelper" />
+                </node>
               </node>
             </node>
           </node>
@@ -1165,6 +1168,19 @@
                 <node concept="37vLTw" id="5M3rB6CilCg" role="37wK5m">
                   <ref role="3cqZAo" node="5M3rB6Cil4b" resolve="attributeFinder" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5M3rB6CilnS" role="3cqZAp">
+          <node concept="3cpWsn" id="5M3rB6CilnT" role="3cpWs9">
+            <property role="TrG5h" value="lcMapper" />
+            <node concept="3uibUv" id="5M3rB6CillP" role="1tU5fm">
+              <ref role="3uigEE" to="t47h:6VkSF6bCze1" resolve="LionCoreMpsCompatibleLanguageGuaranteedMapper" />
+            </node>
+            <node concept="2ShNRf" id="5M3rB6CilnU" role="33vP2m">
+              <node concept="1pGfFk" id="5M3rB6CilnV" role="2ShVmc">
+                <ref role="37wK5l" to="t47h:5M3rB6Ax$oV" resolve="LionCoreMpsCompatibleLanguageGuaranteedMapper" />
               </node>
             </node>
           </node>
@@ -1283,6 +1299,11 @@
                           <node concept="37vLTw" id="5M3rB6BiWqJ" role="37wK5m">
                             <ref role="3cqZAo" node="3ePT3MiWVCI" resolve="constants" />
                           </node>
+                          <node concept="2ShNRf" id="4WflrVaTWbb" role="37wK5m">
+                            <node concept="HV5vD" id="4WflrVaTWy8" role="2ShVmc">
+                              <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -1307,6 +1328,11 @@
                   </node>
                   <node concept="37vLTw" id="5M3rB6BiXaH" role="37wK5m">
                     <ref role="3cqZAo" node="3ePT3MiWVCI" resolve="constants" />
+                  </node>
+                  <node concept="2ShNRf" id="4WflrVaUsBA" role="37wK5m">
+                    <node concept="HV5vD" id="4WflrVaUsBB" role="2ShVmc">
+                      <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                    </node>
                   </node>
                 </node>
               </node>
