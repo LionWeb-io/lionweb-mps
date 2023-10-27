@@ -485,7 +485,7 @@
         </node>
         <node concept="1SiIV0" id="5wsogBcGDSi" role="3bR37C">
           <node concept="3bR9La" id="5wsogBcGDSj" role="1SiIV1">
-            <ref role="3bR37D" to="e6nc:5wsogBcGDM7" resolve="io.lionweb.lioncore.java" />
+            <ref role="3bR37D" to="e6nc:5wsogBcGDM7" resolve="io.lionweb.lionweb.java" />
           </node>
         </node>
         <node concept="1SiIV0" id="5wsogBcGDSk" role="3bR37C">
@@ -611,7 +611,7 @@
         </node>
         <node concept="1SiIV0" id="5ocQ9W1zSU$" role="3bR37C">
           <node concept="3bR9La" id="5ocQ9W1zSU_" role="1SiIV1">
-            <ref role="3bR37D" to="e6nc:5wsogBcGDM7" resolve="io.lionweb.lioncore.java" />
+            <ref role="3bR37D" to="e6nc:5wsogBcGDM7" resolve="io.lionweb.lionweb.java" />
           </node>
         </node>
         <node concept="1SiIV0" id="5ocQ9W1zSUA" role="3bR37C">
