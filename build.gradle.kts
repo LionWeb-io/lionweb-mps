@@ -11,7 +11,7 @@ plugins {
 
 val libs by configurations.creating
 
-val lioncoreJavaDir = File(rootDir, "solutions/io.lionweb.lioncore.java/libs")
+val lionwebJavaDir = File(rootDir, "solutions/io.lionweb.lionweb.java/libs")
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lioncore-java:lioncore-java-core:0.1.0")
+    "libs"("io.lionweb.lionweb-java:lionweb-java-core:0.1.1")
 	"generation" ("de.itemis.mps:extensions:2021.1.2365.a4d7bb2")
 }
 
@@ -119,7 +119,7 @@ publishing {
 
 task<Sync>("resolveLibs") {
     from(libs)
-    into(lioncoreJavaDir)
+    into(lionwebJavaDir)
 
     rename { filename ->
         val ra = libs.resolvedConfiguration.resolvedArtifacts.find { ra: ResolvedArtifact -> ra.file.name == filename }!!
