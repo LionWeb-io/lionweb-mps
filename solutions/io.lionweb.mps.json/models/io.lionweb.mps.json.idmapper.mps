@@ -37,9 +37,6 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
-      <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
-        <child id="1182160096073" name="cls" index="YeSDq" />
-      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="1075300953594" name="abstractClass" index="1sVAO0" />
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
@@ -73,7 +70,6 @@
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
-        <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
@@ -83,18 +79,30 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
-      <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
-        <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
       </concept>
+      <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
       </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA" />
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
@@ -112,14 +120,14 @@
     </language>
   </registry>
   <node concept="312cEu" id="6VkSF6clvWd">
-    <property role="TrG5h" value="JsonDirectLanguageIdMapper" />
+    <property role="TrG5h" value="JsonDirectLanguageGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6Aw3Ys" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6Aw8DZ" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6Aw8E1" role="3clF45" />
       <node concept="3Tm1VV" id="5M3rB6Aw8E2" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6Aw8E3" role="3clF47">
         <node concept="XkiVB" id="5M3rB6AwbaE" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonGuaranteedMapper" />
           <node concept="2ShNRf" id="5M3rB6Awdit" role="37wK5m">
             <node concept="HV5vD" id="5M3rB6AwfWU" role="2ShVmc">
               <ref role="HV5vE" node="5M3rB6A0Hk2" resolve="JsonKeyMapper" />
@@ -130,18 +138,44 @@
     </node>
     <node concept="3Tm1VV" id="6VkSF6clvWe" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAGUC" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dsZHO" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dsZR3" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsZR4" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dsZR5" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dsZR6" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dsZR7" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dsZR8" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dsZR9" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsZRa" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsZRb" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to JSON element keys." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="3M8YG$dsZHP" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsZHQ" role="1dT_Ay" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="39$JcGEIAYT">
-    <property role="TrG5h" value="JsonBase64LanguageIdMapper" />
+    <property role="TrG5h" value="JsonBase64LanguageGuaranteedMapper" />
     <node concept="2tJIrI" id="5M3rB6_Nil2" role="jymVt" />
     <node concept="3clFbW" id="5M3rB6_MVsD" role="jymVt">
       <node concept="3cqZAl" id="5M3rB6_MVsF" role="3clF45" />
       <node concept="3Tm1VV" id="5M3rB6_MVsG" role="1B3o_S" />
       <node concept="3clFbS" id="5M3rB6_MVsH" role="3clF47">
         <node concept="XkiVB" id="5M3rB6Av$rz" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
+          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonGuaranteedMapper" />
           <node concept="15s5l7" id="3IncSZJiBD5" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
             <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.BuiltinKeyMapper is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
@@ -192,127 +226,40 @@
     </node>
     <node concept="3Tm1VV" id="39$JcGEIAYU" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAEPa" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonKeyMapper" />
+      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonGuaranteedMapper" />
     </node>
-  </node>
-  <node concept="312cEu" id="5GtAzeJzX5t">
-    <property role="TrG5h" value="JsonMpsCompatibleLanguageIdMapper" />
-    <node concept="2tJIrI" id="5M3rB6AwnqF" role="jymVt" />
-    <node concept="3clFbW" id="5M3rB6AwpRM" role="jymVt">
-      <node concept="3cqZAl" id="5M3rB6AwpRO" role="3clF45" />
-      <node concept="3Tm1VV" id="5M3rB6AwpRP" role="1B3o_S" />
-      <node concept="3clFbS" id="5M3rB6AwpRQ" role="3clF47">
-        <node concept="XkiVB" id="5M3rB6AxSXT" role="3cqZAp">
-          <ref role="37wK5l" node="5M3rB6AAAVF" resolve="AJsonKeyMapper" />
-          <node concept="15s5l7" id="3IncSZJiDdH" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902b1(jetbrains.mps.lang.typesystem.typesystem)/1269166727599073781,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/185741718243956571]&quot;;" />
-            <property role="huDt6" value="Error: type io.lionweb.mps.converter.m2.idmapper.MpsCompatibleKeyConverter is not a subtype of io.lionweb.mps.converter.m2.idmapper.IKeyMapper&lt;Language,Classifier,Concept,ConceptInterface,Property,Link,Containment,Reference,DataType,PrimitiveType,Enumeration,EnumerationLiteral&gt;" />
-          </node>
-          <node concept="15s5l7" id="3IncSZJiCY5" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Incompatible method signature&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/2234318170389157992]&quot;;" />
-            <property role="huDt6" value="Error: Incompatible method signature" />
-          </node>
-          <node concept="2ShNRf" id="5M3rB6AxTsO" role="37wK5m">
-            <node concept="1pGfFk" id="5M3rB6AxUCa" role="2ShVmc">
-              <ref role="37wK5l" to="teza:5M3rB6AxNJt" resolve="MpsCompatibleKeyConverter" />
-              <node concept="2ShNRf" id="5M3rB6AwxtC" role="37wK5m">
-                <node concept="YeOm9" id="5M3rB6AwFiX" role="2ShVmc">
-                  <node concept="1Y3b0j" id="5M3rB6AwFj0" role="YeSDq">
-                    <property role="2bfB8j" value="true" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                    <ref role="1Y3XeK" node="5M3rB6A0Hk2" resolve="JsonKeyMapper" />
-                    <node concept="3Tm1VV" id="5M3rB6AwFj1" role="1B3o_S" />
-                    <node concept="3clFb_" id="5M3rB6AwG$D" role="jymVt">
-                      <property role="TrG5h" value="mapEnumLiteral" />
-                      <node concept="37vLTG" id="5M3rB6AwG$E" role="3clF46">
-                        <property role="TrG5h" value="literal" />
-                        <node concept="3uibUv" id="5M3rB6AwG$F" role="1tU5fm">
-                          <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
-                        </node>
-                      </node>
-                      <node concept="3Tm1VV" id="5M3rB6AwG$G" role="1B3o_S" />
-                      <node concept="17QB3L" id="5M3rB6AwG$H" role="3clF45" />
-                      <node concept="2AHcQZ" id="5M3rB6AwG$N" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                      </node>
-                      <node concept="3clFbS" id="5M3rB6AwG$P" role="3clF47">
-                        <node concept="3clFbF" id="5M3rB6AwLUJ" role="3cqZAp">
-                          <node concept="2OqwBi" id="5M3rB6AwMXs" role="3clFbG">
-                            <node concept="37vLTw" id="5M3rB6AwLUF" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5M3rB6AwG$E" resolve="literal" />
-                            </node>
-                            <node concept="liA8E" id="5M3rB6AwOsB" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~EnumerationLiteral.getName()" resolve="getName" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+    <node concept="3UR2Jj" id="3M8YG$dsPiI" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$drCtc" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$drCtd" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$drCte" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$drCtf" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$drCtg" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$drCth" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
             </node>
           </node>
         </node>
+        <node concept="1dT_AC" id="3M8YG$drCti" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements," />
+        </node>
       </node>
-    </node>
-    <node concept="3Tm1VV" id="5GtAzeJzX5u" role="1B3o_S" />
-    <node concept="3uibUv" id="5M3rB6AAHyA" role="1zkMxy">
-      <ref role="3uigEE" node="5M3rB6AAAMp" resolve="AJsonKeyMapper" />
-    </node>
-    <node concept="3UR2Jj" id="1ryFPTSc_gR" role="lGtFl">
-      <node concept="TZ5HI" id="1ryFPTSc_gS" role="3nqlJM">
-        <node concept="TZ5HA" id="1ryFPTSc_gT" role="3HnX3l" />
+      <node concept="TZ5HA" id="3M8YG$ds_8S" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$ds_8T" role="1dT_Ay">
+          <property role="1dT_AB" value="delegating to first successful of [builtins to full MPS ids, MPS-decoded LionWeb keys]." />
+        </node>
       </node>
-    </node>
-    <node concept="2AHcQZ" id="1ryFPTSc_gU" role="2AJF6D">
-      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      <node concept="TZ5HA" id="3M8YG$dsPiJ" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsPiK" role="1dT_Ay" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5M3rB6A0Hk2">
     <property role="TrG5h" value="JsonKeyMapper" />
     <node concept="3Tm1VV" id="5M3rB6A0Hk3" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6A0N8y" role="EKbjA">
-      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
-      <node concept="3uibUv" id="5M3rB6A0N8z" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
-      </node>
-      <node concept="3uibUv" id="39$JcGGbiHo" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8_" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
-      </node>
-      <node concept="3uibUv" id="1xqd6ptU61a" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
-      </node>
-      <node concept="3uibUv" id="7W6jYlzwt0L" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8B" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8C" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8D" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8E" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8F" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8G" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8H" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
-      </node>
-      <node concept="3uibUv" id="5M3rB6A0N8I" role="11_B2D">
-        <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
-      </node>
+      <ref role="3uigEE" node="3M8YG$dto07" resolve="IJsonKeyMapper" />
     </node>
     <node concept="3clFb_" id="5M3rB6A0Hk5" role="jymVt">
       <property role="TrG5h" value="mapLanguage" />
@@ -667,14 +614,21 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3M8YG$dsNW1" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dsNW2" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dsNW3" role="1dT_Ay">
+          <property role="1dT_AB" value="Maps JSON elements to their keys." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5M3rB6AAAMp">
-    <property role="TrG5h" value="AJsonKeyMapper" />
+    <property role="TrG5h" value="AJsonGuaranteedMapper" />
     <property role="1sVAO0" value="true" />
     <node concept="2tJIrI" id="5M3rB6AACIp" role="jymVt" />
     <node concept="3Tm1VV" id="5M3rB6AAAMq" role="1B3o_S" />
     <node concept="3uibUv" id="5M3rB6AAAOr" role="1zkMxy">
-      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedKeyMapper" />
+      <ref role="3uigEE" to="teza:5M3rB6AdZTf" resolve="CompositeGuaranteedMapper" />
       <node concept="3uibUv" id="5M3rB6AAAR6" role="11_B2D">
         <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
@@ -812,10 +766,92 @@
       </node>
       <node concept="3clFbS" id="5M3rB6AAAVX" role="3clF47">
         <node concept="XkiVB" id="5M3rB6AAAVY" role="3cqZAp">
-          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedKeyMapper" />
+          <ref role="37wK5l" to="teza:5M3rB6Ae8Zt" resolve="CompositeGuaranteedMapper" />
           <node concept="37vLTw" id="5M3rB6AAAVZ" role="37wK5m">
             <ref role="3cqZAo" node="5M3rB6AAAVT" resolve="delegates" />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dsMhf" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dg7vP" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dg7vQ" role="1dT_Ay">
+          <property role="1dT_AB" value="An " />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dg7Ds" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dg7Dy" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dg7D$" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dg7DF" role="92FcQ">
+              <ref role="VXe09" to="teza:5M3rB6AdD96" resolve="IGuaranteedMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dg7Dr" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="3M8YG$dto07">
+    <property role="TrG5h" value="IJsonKeyMapper" />
+    <node concept="3Tm1VV" id="3M8YG$dto08" role="1B3o_S" />
+    <node concept="3uibUv" id="3M8YG$dtosB" role="3HQHJm">
+      <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+      <node concept="3uibUv" id="3M8YG$dtosC" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosD" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosE" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosF" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Interface" resolve="Interface" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosG" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosH" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosI" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Link" resolve="Link" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosJ" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Containment" resolve="Containment" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosK" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Reference" resolve="Reference" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosL" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~DataType" resolve="DataType" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosM" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~PrimitiveType" resolve="PrimitiveType" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosN" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~Enumeration" resolve="Enumeration" />
+      </node>
+      <node concept="3uibUv" id="3M8YG$dtosO" role="11_B2D">
+        <ref role="3uigEE" to="imb3:~EnumerationLiteral" resolve="EnumerationLiteral" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="3M8YG$dEDf7" role="lGtFl">
+      <node concept="TZ5HA" id="3M8YG$dED78" role="TZ5H$">
+        <node concept="1dT_AC" id="3M8YG$dED79" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AA" id="3M8YG$dED7Z" role="1dT_Ay">
+          <node concept="92FcH" id="3M8YG$dED85" role="qph3F">
+            <node concept="TZ5HA" id="3M8YG$dED87" role="2XjZqd" />
+            <node concept="VXe08" id="3M8YG$dED8e" role="92FcQ">
+              <ref role="VXe09" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3M8YG$dED7Y" role="1dT_Ay">
+          <property role="1dT_AB" value=" for JSON elements." />
         </node>
       </node>
     </node>

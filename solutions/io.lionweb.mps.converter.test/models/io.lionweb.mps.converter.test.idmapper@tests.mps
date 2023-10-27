@@ -1616,7 +1616,7 @@
       <property role="TrG5h" value="create" />
       <node concept="3Tm6S6" id="2fx6VTSZ1Gd" role="1B3o_S" />
       <node concept="3uibUv" id="2fx6VTSZ1Ge" role="3clF45">
-        <ref role="3uigEE" to="58k5:6VkSF6b37gQ" resolve="MpsLanguageIdMapper" />
+        <ref role="3uigEE" to="58k5:6VkSF6b37gQ" resolve="MpsBase64GuaranteedMapper" />
       </node>
       <node concept="3clFbS" id="2fx6VTSZ1G7" role="3clF47">
         <node concept="3cpWs8" id="4oHUzWXWE$4" role="3cqZAp">
@@ -1636,7 +1636,7 @@
         <node concept="3cpWs6" id="2fx6VTSZ1G8" role="3cqZAp">
           <node concept="2ShNRf" id="2fx6VTSZ1G9" role="3cqZAk">
             <node concept="1pGfFk" id="5M3rB6Be6hm" role="2ShVmc">
-              <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsLanguageIdMapper" />
+              <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsBase64GuaranteedMapper" />
               <node concept="2ShNRf" id="5M3rB6Be6hk" role="37wK5m">
                 <node concept="1pGfFk" id="5M3rB6Be71f" role="2ShVmc">
                   <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
@@ -1649,6 +1649,11 @@
                       <node concept="37vLTw" id="5M3rB6BiSmw" role="37wK5m">
                         <ref role="3cqZAo" node="4oHUzWXWE$5" resolve="repository" />
                       </node>
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="4WflrVaTWbb" role="37wK5m">
+                    <node concept="HV5vD" id="4WflrVaTWy8" role="2ShVmc">
+                      <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                     </node>
                   </node>
                 </node>
@@ -2903,7 +2908,7 @@
       <property role="TrG5h" value="create" />
       <node concept="3Tm6S6" id="2fx6VTSZ8me" role="1B3o_S" />
       <node concept="3uibUv" id="2fx6VTSZ8mf" role="3clF45">
-        <ref role="3uigEE" to="faaz:2fx6VTSN_nf" resolve="SLanguageBase64IdMapper" />
+        <ref role="3uigEE" to="faaz:2fx6VTSN_nf" resolve="SLanguageBase64GuaranteedMapper" />
       </node>
       <node concept="3clFbS" id="2fx6VTSZ8mg" role="3clF47">
         <node concept="3cpWs8" id="5M3rB6Beo5k" role="3cqZAp">
@@ -2939,7 +2944,7 @@
         <node concept="3cpWs6" id="2fx6VTSZ8mh" role="3cqZAp">
           <node concept="2ShNRf" id="2fx6VTSZfjl" role="3cqZAk">
             <node concept="1pGfFk" id="2fx6VTSZfHF" role="2ShVmc">
-              <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64IdMapper" />
+              <ref role="37wK5l" to="faaz:6fYiNFaC6ei" resolve="SLanguageBase64GuaranteedMapper" />
               <node concept="2ShNRf" id="5M3rB6BemwI" role="37wK5m">
                 <node concept="1pGfFk" id="5M3rB6BenGD" role="2ShVmc">
                   <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
@@ -2948,6 +2953,11 @@
                   </node>
                   <node concept="37vLTw" id="5M3rB6BiURf" role="37wK5m">
                     <ref role="3cqZAo" node="5M3rB6BiU9S" resolve="constants" />
+                  </node>
+                  <node concept="2ShNRf" id="4WflrVaUfzb" role="37wK5m">
+                    <node concept="HV5vD" id="4WflrVaUfzc" role="2ShVmc">
+                      <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3377,13 +3387,13 @@
     <node concept="2XrIbr" id="4oHUzWXXZTG" role="1qtyYc">
       <property role="TrG5h" value="create" />
       <node concept="3uibUv" id="4oHUzWXY0hB" role="3clF45">
-        <ref role="3uigEE" to="58k5:5M3rB6AmV$6" resolve="MpsMetaIdKeyMapper" />
+        <ref role="3uigEE" to="58k5:5M3rB6AmV$6" resolve="MpsCompleteKeyMapper" />
       </node>
       <node concept="3clFbS" id="4oHUzWXXZTI" role="3clF47">
         <node concept="3clFbF" id="4oHUzWXY0mk" role="3cqZAp">
           <node concept="2ShNRf" id="4oHUzWXY0mi" role="3clFbG">
             <node concept="HV5vD" id="4oHUzWXY0$p" role="2ShVmc">
-              <ref role="HV5vE" to="58k5:5M3rB6AmV$6" resolve="MpsMetaIdKeyMapper" />
+              <ref role="HV5vE" to="58k5:5M3rB6AmV$6" resolve="MpsCompleteKeyMapper" />
             </node>
           </node>
         </node>
@@ -4727,13 +4737,13 @@
     <node concept="2XrIbr" id="4oHUzWXYRrA" role="1qtyYc">
       <property role="TrG5h" value="create" />
       <node concept="3uibUv" id="4oHUzWXYRLz" role="3clF45">
-        <ref role="3uigEE" to="faaz:6VkSF6aHm0Q" resolve="SLanguageCompleteIdExtractor" />
+        <ref role="3uigEE" to="faaz:6VkSF6aHm0Q" resolve="SLanguageIdExtractor" />
       </node>
       <node concept="3clFbS" id="4oHUzWXYRrC" role="3clF47">
         <node concept="3clFbF" id="4oHUzWXYRLX" role="3cqZAp">
           <node concept="2ShNRf" id="4oHUzWXYRLV" role="3clFbG">
             <node concept="1pGfFk" id="4oHUzWXYS02" role="2ShVmc">
-              <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageCompleteIdExtractor" />
+              <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
               <node concept="2ShNRf" id="4oHUzWXYS0n" role="37wK5m">
                 <node concept="1pGfFk" id="4oHUzWXYSeM" role="2ShVmc">
                   <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />

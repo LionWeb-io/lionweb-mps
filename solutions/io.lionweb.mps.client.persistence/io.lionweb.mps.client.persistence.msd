@@ -18,7 +18,6 @@
     <dependency reexport="true">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">9c93572b-546d-4da4-b227-ffb1ad05618d(io.lionweb.mps.client.connector)</dependency>
     <dependency reexport="false">4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)</dependency>
-    <dependency reexport="false">9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)</dependency>
     <dependency reexport="false">39d4fcb0-6a78-41ac-8e8f-01bb784b65fc(io.lionweb.mps.json)</dependency>
     <dependency reexport="true">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
   </dependencies>

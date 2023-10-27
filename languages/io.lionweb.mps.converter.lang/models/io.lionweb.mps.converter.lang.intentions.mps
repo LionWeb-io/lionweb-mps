@@ -16,10 +16,8 @@
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="d0tf" ref="r:087ec845-a235-4ffb-80e5-329ef8e66943(io.lionweb.mps.converter.lang.structure)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
-    <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
-    <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
@@ -596,11 +594,11 @@
               <node concept="3cpWsn" id="5M3rB6C9D6x" role="3cpWs9">
                 <property role="TrG5h" value="mapper" />
                 <node concept="3uibUv" id="5M3rB6C9D0X" role="1tU5fm">
-                  <ref role="3uigEE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageIdMapper" />
+                  <ref role="3uigEE" to="j5yh:6VkSF6clvWd" resolve="JsonDirectLanguageGuaranteedMapper" />
                 </node>
                 <node concept="2ShNRf" id="5M3rB6C9D6y" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6C9D6z" role="2ShVmc">
-                    <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageIdMapper" />
+                    <ref role="37wK5l" to="j5yh:5M3rB6Aw8DZ" resolve="JsonDirectLanguageGuaranteedMapper" />
                   </node>
                 </node>
               </node>
@@ -617,9 +615,14 @@
                     <node concept="37vLTw" id="5M3rB6C9CRp" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9CRl" resolve="constants" />
                     </node>
-                    <node concept="2YIFZM" id="5M3rB6BJ3pM" role="37wK5m">
-                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                    <node concept="2ShNRf" id="5TNjoy1zul3" role="37wK5m">
+                      <node concept="1pGfFk" id="5TNjoy1zul4" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5TNjoy1vf0o" resolve="JsonBuiltins" />
+                        <node concept="2YIFZM" id="5TNjoy1zul5" role="37wK5m">
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                        </node>
+                      </node>
                     </node>
                     <node concept="37vLTw" id="5M3rB6C9D6$" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9D6x" resolve="mapper" />
@@ -1009,11 +1012,11 @@
               <node concept="3cpWsn" id="5M3rB6C9ATH" role="3cpWs9">
                 <property role="TrG5h" value="mapper" />
                 <node concept="3uibUv" id="5M3rB6C9AOf" role="1tU5fm">
-                  <ref role="3uigEE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageIdMapper" />
+                  <ref role="3uigEE" to="t47h:6VkSF6bb3cG" resolve="LionCoreLanguageGuaranteedMapper" />
                 </node>
                 <node concept="2ShNRf" id="5M3rB6C9ATI" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6C9ATJ" role="2ShVmc">
-                    <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageIdMapper" />
+                    <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageGuaranteedMapper" />
                   </node>
                 </node>
               </node>
@@ -1030,9 +1033,14 @@
                     <node concept="37vLTw" id="5M3rB6C9AIj" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9AIf" resolve="constants" />
                     </node>
-                    <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
-                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                    <node concept="2ShNRf" id="5TNjoy1zsNJ" role="37wK5m">
+                      <node concept="1pGfFk" id="5TNjoy1zt98" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5TNjoy1vf0o" resolve="JsonBuiltins" />
+                        <node concept="2YIFZM" id="5sACIIt1V85" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                      </node>
                     </node>
                     <node concept="37vLTw" id="5M3rB6C9ATK" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9ATH" resolve="mapper" />
@@ -1205,7 +1213,18 @@
                 </node>
                 <node concept="2ShNRf" id="6jI_U5ePC03" role="33vP2m">
                   <node concept="1pGfFk" id="6jI_U5ePC04" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:6jI_U5eOOhj" resolve="M1ToJson" />
+                    <ref role="37wK5l" to="6peh:5lijfVJTSc9" resolve="M1ToJson" />
+                    <node concept="2OqwBi" id="4WflrVbc6OD" role="37wK5m">
+                      <node concept="2JrnkZ" id="4WflrVbc6CA" role="2Oq$k0">
+                        <node concept="2OqwBi" id="4WflrVbc5Ym" role="2JrQYb">
+                          <node concept="2Sf5sV" id="4WflrVbc5Fv" role="2Oq$k0" />
+                          <node concept="I4A8Y" id="4WflrVbc6qe" role="2OqNvi" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="4WflrVbc72m" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                      </node>
+                    </node>
                     <node concept="2OqwBi" id="6jI_U5ePC05" role="37wK5m">
                       <node concept="2OqwBi" id="6jI_U5ePC06" role="2Oq$k0">
                         <node concept="2Sf5sV" id="6jI_U5ePC07" role="2Oq$k0" />
@@ -1285,8 +1304,8 @@
                   </node>
                 </node>
                 <node concept="A3Dl8" id="7W6jYlyQZ7G" role="1tU5fm">
-                  <node concept="3uibUv" id="7W6jYlyQZ7J" role="A3Ik2">
-                    <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
+                  <node concept="3uibUv" id="7jdzMameUVX" role="A3Ik2">
+                    <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
                   </node>
                 </node>
               </node>
@@ -1491,8 +1510,8 @@
                   </node>
                 </node>
                 <node concept="_YKpA" id="7W6jYlyR0sI" role="1tU5fm">
-                  <node concept="3uibUv" id="7W6jYlyR0sL" role="_ZDj9">
-                    <ref role="3uigEE" to="xfsv:~SerializedNodeInstance" resolve="SerializedNodeInstance" />
+                  <node concept="3uibUv" id="5TNjoy1FP2h" role="_ZDj9">
+                    <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
                   </node>
                 </node>
               </node>
