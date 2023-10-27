@@ -160,7 +160,7 @@
       <concept id="2656571587264858085" name="io.lionweb.mps.m3.structure.Feature" flags="ng" index="2RzOSH">
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
-      <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.ConceptInterface" flags="ng" index="2RzPaY">
+      <concept id="2656571587264863094" name="io.lionweb.mps.m3.structure.Interface" flags="ng" index="2RzPaY">
         <child id="2656571587264865653" name="extends" index="2RzQMX" />
       </concept>
       <concept id="2656571587264860434" name="io.lionweb.mps.m3.structure.Classifier" flags="ng" index="2RzPzq">
@@ -172,8 +172,8 @@
         <reference id="2656571587264862780" name="extends" index="2RzPfO" />
         <child id="2656571587264866539" name="implements" index="2RzQ4z" />
       </concept>
-      <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.ConceptInterfaceReference" flags="ng" index="2RzQOr">
-        <reference id="2656571587264865492" name="conceptInterface" index="2RzQOs" />
+      <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.InterfaceReference" flags="ng" index="2RzQOr">
+        <reference id="2656571587264865492" name="interface" index="2RzQOs" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
         <property id="2526956841135898600" name="version" index="3HH78N" />
