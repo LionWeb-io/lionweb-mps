@@ -1,2 +1,0 @@
-# downloaded from Maven via gradle script, `gradle resolveLibs`
-*.jar

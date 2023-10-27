@@ -13,7 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lioncore.java)</dependency>
+    <dependency reexport="false">9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">39d4fcb0-6a78-41ac-8e8f-01bb784b65fc(io.lionweb.mps.json)</dependency>
     <dependency reexport="false">4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)</dependency>
@@ -32,7 +32,7 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lioncore.java)" version="0" />
+    <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)" version="0" />
     <module reference="9c93572b-546d-4da4-b227-ffb1ad05618d(io.lionweb.mps.client.connector)" version="0" />
     <module reference="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" version="0" />
     <module reference="39d4fcb0-6a78-41ac-8e8f-01bb784b65fc(io.lionweb.mps.json)" version="0" />
