@@ -43,7 +43,7 @@
           "value": "a"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -123,7 +123,7 @@
           "value": "b"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -170,7 +170,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "parent": "3631234780356126922"
     },
@@ -231,7 +231,7 @@
           "value": "9"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -311,7 +311,7 @@
           "value": "d"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -358,7 +358,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -425,7 +425,7 @@
           "value": "ff"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -505,7 +505,7 @@
           "value": "f"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -542,7 +542,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "parent": "3631234780356126942"
     },
@@ -554,7 +554,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -577,7 +577,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "parent": "3631234780356126944"
     },
@@ -589,7 +589,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -612,7 +612,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "parent": "3631234780356126934"
     },
@@ -624,7 +624,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMTIxMjI"
       },
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "metamodel": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5",
@@ -647,7 +647,7 @@
         "key": "MDhjYWFkNzUtODI0Ni00NDI3LWJiNGQtODQ0NGI2YzVjNzI5LzI1ODUzNzgxNjU5NzMyMDY0NTE"
       },
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "parent": "3631234780356126924"
     }

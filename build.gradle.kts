@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lionweb-java:lionweb-java-core:0.1.1")
+    "libs"("io.lionweb.lionweb-java:lionweb-java-core:0.1.2")
 	"generation" ("de.itemis.mps:extensions:2021.1.2365.a4d7bb2")
 }
 

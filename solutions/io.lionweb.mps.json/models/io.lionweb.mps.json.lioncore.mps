@@ -1587,19 +1587,6 @@
                   <node concept="2pJPEk" id="7W6jYlzs1NE" role="37vLTx">
                     <node concept="2pJPED" id="7W6jYlzs1NG" role="2pJPEn">
                       <ref role="2pJxaS" to="h3y3:18UigYQyrxa" resolve="Annotation" />
-                      <node concept="2pJxcG" id="7W6jYlzsQwJ" role="2pJxcM">
-                        <ref role="2pJxcJ" to="h3y3:18UigYQyrxk" resolve="multiple" />
-                        <node concept="WxPPo" id="7W6jYlzsUCe" role="28ntcv">
-                          <node concept="2OqwBi" id="7W6jYlzsYwn" role="WxPPp">
-                            <node concept="37vLTw" id="7W6jYlzsUCc" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7W6jYlzrC4b" resolve="annotation" />
-                            </node>
-                            <node concept="liA8E" id="7W6jYlzt34x" role="2OqNvi">
-                              <ref role="37wK5l" to="imb3:~Annotation.isMultiple()" resolve="isMultiple" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                       <node concept="2pJxcG" id="7W6jYlzsaf4" role="2pJxcM">
                         <ref role="2pJxcJ" to="h3y3:2ju2syjkkk9" resolve="key" />
                         <node concept="WxPPo" id="7W6jYlzsdpU" role="28ntcv">
@@ -5209,24 +5196,6 @@
                       </node>
                       <node concept="3TrcHB" id="7W6jYlzJKuk" role="2OqNvi">
                         <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7W6jYlzJShj" role="3cqZAp">
-                <node concept="2OqwBi" id="7W6jYlzJX9S" role="3clFbG">
-                  <node concept="37vLTw" id="7W6jYlzJShh" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7W6jYlzId2t" resolve="jsonAnnotation" />
-                  </node>
-                  <node concept="liA8E" id="7W6jYlzK2mG" role="2OqNvi">
-                    <ref role="37wK5l" to="imb3:~Annotation.setMultiple(boolean)" resolve="setMultiple" />
-                    <node concept="2OqwBi" id="7W6jYlzKmlA" role="37wK5m">
-                      <node concept="37vLTw" id="7W6jYlzK6Z2" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7W6jYlzHB8r" resolve="lcAnnotation" />
-                      </node>
-                      <node concept="3TrcHB" id="7W6jYlzKq3J" role="2OqNvi">
-                        <ref role="3TsBF5" to="h3y3:18UigYQyrxk" resolve="multiple" />
                       </node>
                     </node>
                   </node>

@@ -403,7 +403,7 @@
                 <ref role="3cqZAo" node="2chztJeSDG5" resolve="serialization" />
               </node>
               <node concept="liA8E" id="5wsogBc33If" role="2OqNvi">
-                <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.unserializeSerializationBlock(com.google.gson.JsonElement)" resolve="unserializeSerializationBlock" />
+                <ref role="37wK5l" to="jxh5:~LowLevelJsonSerialization.deserializeSerializationBlock(com.google.gson.JsonElement)" resolve="deserializeSerializationBlock" />
                 <node concept="37vLTw" id="5wsogBc33Ig" role="37wK5m">
                   <ref role="3cqZAo" node="z1IqfFwvf5" resolve="jsonElement" />
                 </node>
@@ -482,7 +482,7 @@
                 <ref role="3cqZAo" node="5wsogBc40MM" resolve="standardSerialization" />
               </node>
               <node concept="liA8E" id="5wsogBc41$T" role="2OqNvi">
-                <ref role="37wK5l" to="jxh5:~JsonSerialization.unserializeToNodes(com.google.gson.JsonElement)" resolve="unserializeToNodes" />
+                <ref role="37wK5l" to="jxh5:~JsonSerialization.deserializeToNodes(com.google.gson.JsonElement)" resolve="deserializeToNodes" />
                 <node concept="37vLTw" id="5wsogBc41$U" role="37wK5m">
                   <ref role="3cqZAo" node="5wsogBc410R" resolve="jsonElement" />
                 </node>

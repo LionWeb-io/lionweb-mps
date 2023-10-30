@@ -19,7 +19,7 @@
           "value": "Bob\u0027s Library"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
@@ -60,7 +60,7 @@
           "value": "Explorer Book"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -104,7 +104,7 @@
           "value": "Alaska"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": null,

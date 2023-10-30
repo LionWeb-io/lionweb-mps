@@ -22,7 +22,7 @@
           "value": "4R9pospAHRA/keyed"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0",
@@ -83,7 +83,7 @@
     {
       "id": "{id-Plain}",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "{id-keyed}",
@@ -96,7 +96,7 @@
     {
       "id": "{id-NoExtends}",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "{id-keyed}",

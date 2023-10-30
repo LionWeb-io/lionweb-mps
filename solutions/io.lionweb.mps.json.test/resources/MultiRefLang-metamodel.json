@@ -43,7 +43,7 @@
           "value": "refs"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -103,7 +103,7 @@
           "value": "ContainerA"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -182,7 +182,7 @@
           "value": "ref"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -242,7 +242,7 @@
           "value": "referenced"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -302,7 +302,7 @@
           "value": "Referenced"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -384,7 +384,7 @@
           "value": "ContainerD"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -463,7 +463,7 @@
           "value": "AContainer"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -545,7 +545,7 @@
           "value": "ContainerC"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -624,7 +624,7 @@
           "value": "refs"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -684,7 +684,7 @@
           "value": "refs"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -744,7 +744,7 @@
           "value": "containers"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -796,7 +796,7 @@
           "value": "MultiRefLang"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -870,7 +870,7 @@
           "value": "ContainerE"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -949,7 +949,7 @@
           "value": "contRef"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1009,7 +1009,7 @@
           "value": "ContainerF"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1088,7 +1088,7 @@
           "value": "contRef"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1148,7 +1148,7 @@
           "value": "Partition"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1233,7 +1233,7 @@
           "value": "ContainerB"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",

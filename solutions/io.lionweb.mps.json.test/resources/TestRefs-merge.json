@@ -14,7 +14,7 @@
           "value": "ImportedGood"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
@@ -48,7 +48,7 @@
           "value": "Imported Named"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "6805868710588714744",
@@ -70,7 +70,7 @@
           "value": "888"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "6805868710588714744",
@@ -92,7 +92,7 @@
           "value": "ImportedBroken"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
