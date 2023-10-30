@@ -14,7 +14,7 @@
           "value": "MyPartition"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "MyHappyLittleMulti-Reference_Language",
@@ -64,7 +64,7 @@
           "value": "aaa"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -104,7 +104,7 @@
           "value": "bbb"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -144,7 +144,7 @@
           "value": "ccc"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -184,7 +184,7 @@
           "value": "ddd"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -220,7 +220,7 @@
           "value": "eee"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "MyHappyLittleMulti-Reference_Language",
@@ -253,7 +253,7 @@
           "value": "rE"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-eee",
@@ -275,7 +275,7 @@
           "value": "fff"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "MyHappyLittleMulti-Reference_Language",
@@ -308,7 +308,7 @@
           "value": "rF"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-fff",
@@ -330,7 +330,7 @@
           "value": "r1"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-part",
@@ -352,7 +352,7 @@
           "value": "r2"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-part",
@@ -374,7 +374,7 @@
           "value": "r3"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-part",

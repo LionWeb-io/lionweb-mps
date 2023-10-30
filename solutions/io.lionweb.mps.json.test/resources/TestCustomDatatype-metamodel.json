@@ -35,7 +35,7 @@
           "value": "io.lionweb.mps.converter.TestCustomDatatype"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -87,7 +87,7 @@
           "value": "ConstrainedStringDatatype"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
@@ -133,7 +133,7 @@
           "value": "TestCustomDatatype"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -208,7 +208,7 @@
           "value": "keyedPrim"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -260,7 +260,7 @@
           "value": "keyedConstr"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -312,7 +312,7 @@
           "value": "str"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -364,7 +364,7 @@
           "value": "prim"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -416,7 +416,7 @@
           "value": "constr"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -460,7 +460,7 @@
           "value": "KeyedConstrainedStringDatatype"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",

@@ -27,7 +27,7 @@
           "value": "Test3Enumeration2"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -84,7 +84,7 @@
           "value": "TestConceptNoExtends"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -161,7 +161,7 @@
           "value": "TestConceptPlain"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -222,7 +222,7 @@
           "value": "TestInterfacePlain"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -278,7 +278,7 @@
           "value": "booleanProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -330,7 +330,7 @@
           "value": "integerProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -382,7 +382,7 @@
           "value": "enumProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -434,7 +434,7 @@
           "value": "constrainedProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -486,7 +486,7 @@
           "value": "primitiveProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -546,7 +546,7 @@
           "value": "one"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -606,7 +606,7 @@
           "value": "zeroToMany"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -666,7 +666,7 @@
           "value": "oneToMany"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -726,7 +726,7 @@
           "value": "refOne"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -778,7 +778,7 @@
           "value": "jsonProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -838,7 +838,7 @@
           "value": "Test3ConceptExtends1"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -912,7 +912,7 @@
           "value": "testInterfaceBaseProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -956,7 +956,7 @@
           "value": "TestInterfaceExtends2"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1021,7 +1021,7 @@
           "value": "testInterfaceExtends2Prop"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1081,7 +1081,7 @@
           "value": "anything"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1141,7 +1141,7 @@
           "value": "circular"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1185,7 +1185,7 @@
           "value": "TestInterfaceExtends1"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1248,7 +1248,7 @@
           "value": "testInterfaceExtends1Prop"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1292,7 +1292,7 @@
           "value": "TestInterfaceExtends3"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1363,7 +1363,7 @@
           "value": "testInterfaceExtends3Prop"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1423,7 +1423,7 @@
           "value": "Test3ConceptExtends2"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1505,7 +1505,7 @@
           "value": "childUnkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1557,7 +1557,7 @@
           "value": "propUnkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1617,7 +1617,7 @@
           "value": "refUnkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1677,7 +1677,7 @@
           "value": "Test3ConceptUnkeyed"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1761,7 +1761,7 @@
           "value": "childUnkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1813,7 +1813,7 @@
           "value": "propUnkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1873,7 +1873,7 @@
           "value": "refUnkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -1917,7 +1917,7 @@
           "value": "Test3EnumUnkeyed"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -1959,7 +1959,7 @@
           "value": "unkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI",
@@ -1989,7 +1989,7 @@
           "value": "unkeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "My-Enum3",
@@ -2035,7 +2035,7 @@
           "value": "Test3Properties"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -2117,7 +2117,7 @@
           "value": "stringUndefined"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2169,7 +2169,7 @@
           "value": "stringOptional"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2221,7 +2221,7 @@
           "value": "stringRequired"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2273,7 +2273,7 @@
           "value": "jsonRequired"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2325,7 +2325,7 @@
           "value": "jsonOptional"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2377,7 +2377,7 @@
           "value": "jsonUndefined"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2429,7 +2429,7 @@
           "value": "booleanRequired"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2481,7 +2481,7 @@
           "value": "booleanOptional"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2533,7 +2533,7 @@
           "value": "booleanUndefined"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2585,7 +2585,7 @@
           "value": "integerRequired"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2637,7 +2637,7 @@
           "value": "integerOptional"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2689,7 +2689,7 @@
           "value": "integerUndefined"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2733,7 +2733,7 @@
           "value": "Test3EnumKeyed"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -2775,7 +2775,7 @@
           "value": "keyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "My-Enum3",
@@ -2805,7 +2805,7 @@
           "value": "keyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNjM4NjMwMTI",
@@ -2851,7 +2851,7 @@
           "value": "childKeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2903,7 +2903,7 @@
           "value": "propKeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -2963,7 +2963,7 @@
           "value": "refKeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -3023,7 +3023,7 @@
           "value": "Test3ConceptBase"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -3114,7 +3114,7 @@
           "value": "Test3ConceptKeyed"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -3182,7 +3182,7 @@
           "value": "Test3ConstrainedDatatype"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "My-TestLang3",
@@ -3212,7 +3212,7 @@
           "value": "Test3Enumeration1"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -3254,7 +3254,7 @@
           "value": "Test3InterfaceBase"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -3304,7 +3304,7 @@
           "value": "Test3Literal1"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "My-Test3Enumeration1",
@@ -3334,7 +3334,7 @@
           "value": "Test3Literal2"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "My-Test3Enumeration1",
@@ -3364,7 +3364,7 @@
           "value": "Test3Literal3"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ2MjY",
@@ -3402,7 +3402,7 @@
           "value": "stringProp"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -3462,7 +3462,7 @@
           "value": "zeroToOne"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -3522,7 +3522,7 @@
           "value": "refZeroToOne"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -3574,7 +3574,7 @@
           "value": "io.lionweb.mps.converter.TestLang3"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "LionCore-M3",
@@ -3657,7 +3657,7 @@
           "value": "childKeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -3709,7 +3709,7 @@
           "value": "propKeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -3769,7 +3769,7 @@
           "value": "refKeyed"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {

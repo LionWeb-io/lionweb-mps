@@ -14,7 +14,7 @@
           "value": "MyLib"
         }
       ],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
@@ -58,7 +58,7 @@
           "value": "H2G2"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -87,7 +87,7 @@
     {
       "id": "id-childAnn",
       "properties": [],
-      "children": [
+      "containments": [
         {
           "containment": {
             "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -143,7 +143,7 @@
     {
       "id": "id-defAttrAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
@@ -156,7 +156,7 @@
     {
       "id": "id-myConcept",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "id-conceptAnn"
@@ -171,7 +171,7 @@
     {
       "id": "id-conceptAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-myConcept",
@@ -184,7 +184,7 @@
     {
       "id": "id-implAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "id-ifaceAnn"
@@ -199,7 +199,7 @@
     {
       "id": "id-ifaceAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "id-extendsAnn"
@@ -214,7 +214,7 @@
     {
       "id": "id-extendsAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-ifaceAnn",
@@ -227,7 +227,7 @@
     {
       "id": "id-annAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-childAnn",
@@ -249,7 +249,7 @@
           "value": "MyACont"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "id-iNamedAnn",
@@ -267,7 +267,7 @@
     {
       "id": "id-iNamedAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
@@ -280,7 +280,7 @@
     {
       "id": "id-multiFalseAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
@@ -293,7 +293,7 @@
     {
       "id": "id-multiTrueAnn1",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-myACont",
@@ -306,7 +306,7 @@
     {
       "id": "id-multiTrueAnn2",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "id-nodeAnn2"
@@ -321,7 +321,7 @@
     {
       "id": "id-nodeAnn2",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-multiTrueAnn2",
@@ -351,7 +351,7 @@
           "value": "TAOCP"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -381,7 +381,7 @@
     {
       "id": "id-defaultAttrAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [
         "id-refsAnn"
@@ -396,7 +396,7 @@
     {
       "id": "id-refsAnn",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [
         {
           "reference": {
@@ -465,7 +465,7 @@
           "value": "false"
         }
       ],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-tacop",
@@ -478,7 +478,7 @@
     {
       "id": "id-nodeAnn1",
       "properties": [],
-      "children": [],
+      "containments": [],
       "references": [],
       "annotations": [],
       "parent": "id-myLib",
