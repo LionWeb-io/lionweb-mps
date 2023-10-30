@@ -5,6 +5,8 @@
       <modulePath path="$PROJECT_DIR$/languages/MultiRefLang/MultiRefLang.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAllBuiltins/io.lionweb.mps.converter.TestAllBuiltins.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAnnotation/io.lionweb.mps.converter.TestAnnotation.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAnnotatedLang/io.lionweb.mps.converter.TestAnnotatedLang.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAnnotationLang/io.lionweb.mps.converter.TestAnnotationLang.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestCoreRefLang/io.lionweb.mps.converter.TestCoreRefLang.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestCustomDatatype/io.lionweb.mps.converter.TestCustomDatatype.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang/io.lionweb.mps.converter.TestLang.mpl" folder="test.langs" />
