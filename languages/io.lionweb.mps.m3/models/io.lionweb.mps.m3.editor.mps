@@ -543,23 +543,6 @@
             </node>
             <node concept="2iRfu4" id="18UigYQyryC" role="2iSdaV" />
           </node>
-          <node concept="3EZMnI" id="18UigYQyryn" role="3EZMnx">
-            <node concept="VPM3Z" id="18UigYQyryo" role="3F10Kt" />
-            <node concept="3EZMnI" id="18UigYQyryp" role="3EZMnx">
-              <node concept="2iRfu4" id="18UigYQyryq" role="2iSdaV" />
-              <node concept="3F0ifn" id="18UigYQyryr" role="3EZMnx">
-                <property role="3F0ifm" value="multiple" />
-              </node>
-              <node concept="PMmxH" id="18UigYQyrys" role="3EZMnx">
-                <ref role="PMmxG" node="2ju2syjmKXO" resolve="FeatureColon" />
-              </node>
-            </node>
-            <node concept="3XFhqQ" id="18UigYQyryt" role="3EZMnx" />
-            <node concept="3F0A7n" id="18UigYQyryu" role="3EZMnx">
-              <ref role="1NtTu8" to="h3y3:18UigYQyrxk" resolve="multiple" />
-            </node>
-            <node concept="2iRfu4" id="18UigYQyryv" role="2iSdaV" />
-          </node>
           <node concept="VPM3Z" id="18UigYQyryD" role="3F10Kt" />
           <node concept="3F2HdR" id="18UigYQyryE" role="3EZMnx">
             <ref role="1NtTu8" to="h3y3:2ju2syjkliV" resolve="features" />

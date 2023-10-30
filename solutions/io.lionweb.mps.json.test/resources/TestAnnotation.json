@@ -252,10 +252,7 @@
       "containments": [],
       "references": [],
       "annotations": [
-        "id-iNamedAnn",
-        "id-multiFalseAnn",
-        "id-multiTrueAnn1",
-        "id-multiTrueAnn2"
+        "id-iNamedAnn"
       ],
       "parent": "id-childAnn",
       "classifier": {
@@ -269,7 +266,9 @@
       "properties": [],
       "containments": [],
       "references": [],
-      "annotations": [],
+      "annotations": [
+        "id-nodeAnn2"
+      ],
       "parent": "id-myACont",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
@@ -278,53 +277,12 @@
       }
     },
     {
-      "id": "id-multiFalseAnn",
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "id-myACont",
-      "classifier": {
-        "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
-        "version": "0",
-        "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA3OTI"
-      }
-    },
-    {
-      "id": "id-multiTrueAnn1",
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "id-myACont",
-      "classifier": {
-        "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
-        "version": "0",
-        "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3Mzg0NzA"
-      }
-    },
-    {
-      "id": "id-multiTrueAnn2",
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [
-        "id-nodeAnn2"
-      ],
-      "parent": "id-myACont",
-      "classifier": {
-        "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
-        "version": "0",
-        "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3Mzg0NzA"
-      }
-    },
-    {
       "id": "id-nodeAnn2",
       "properties": [],
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-multiTrueAnn2",
+      "parent": "id-iNamedAnn",
       "classifier": {
         "language": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
         "version": "0",

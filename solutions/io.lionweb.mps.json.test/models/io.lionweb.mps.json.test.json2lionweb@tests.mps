@@ -202,13 +202,11 @@
       <concept id="7879919636607474947" name="io.lionweb.mps.converter.TestAnnotation.structure.ExtendsAnnotation" flags="ng" index="23LwgF" />
       <concept id="7879919636607474917" name="io.lionweb.mps.converter.TestAnnotation.structure.ImplementsAnnotation" flags="ng" index="23Lwnd" />
       <concept id="1313442573177844622" name="io.lionweb.mps.converter.TestAnnotation.structure.NodeAnnotation" flags="ng" index="2_6rE1" />
-      <concept id="3467480673472738470" name="io.lionweb.mps.converter.TestAnnotation.structure.MultipleTrue" flags="ng" index="ZKgfF" />
       <concept id="3467480673472740814" name="io.lionweb.mps.converter.TestAnnotation.structure.AnnotationAnnotation" flags="ng" index="ZKgE3" />
       <concept id="3467480673472740809" name="io.lionweb.mps.converter.TestAnnotation.structure.IfaceAnnotation" flags="ng" index="ZKgE4" />
       <concept id="3467480673472740804" name="io.lionweb.mps.converter.TestAnnotation.structure.ConceptAnnotation" flags="ng" index="ZKgE9" />
       <concept id="3467480673472740803" name="io.lionweb.mps.converter.TestAnnotation.structure.MyConcept" flags="ng" index="ZKgEe" />
       <concept id="3467480673472740797" name="io.lionweb.mps.converter.TestAnnotation.structure.INamedAnnotation" flags="ng" index="ZKgFK" />
-      <concept id="3467480673472740792" name="io.lionweb.mps.converter.TestAnnotation.structure.MultipleFalse" flags="ng" index="ZKgFP" />
       <concept id="3467480673471898921" name="io.lionweb.mps.converter.TestAnnotation.structure.DefaultAttributesAnnotation" flags="ng" index="ZNt9$" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -3554,25 +3552,10 @@
                 <node concept="3xLA65" id="1xqd6ptdrIM" role="lGtFl">
                   <property role="TrG5h" value="iNamedAnn" />
                 </node>
-              </node>
-              <node concept="ZKgFP" id="1xqd6ptcszx" role="lGtFl">
-                <node concept="3xLA65" id="1xqd6ptdrRX" role="lGtFl">
-                  <property role="TrG5h" value="multiFalseAnn" />
-                </node>
-              </node>
-              <node concept="ZKgfF" id="1xqd6ptctuS" role="lGtFl">
-                <node concept="3xLA65" id="1xqd6ptds2r" role="lGtFl">
-                  <property role="TrG5h" value="multiTrueAnn1" />
-                </node>
-              </node>
-              <node concept="ZKgfF" id="1xqd6ptcukZ" role="lGtFl">
                 <node concept="2_6rE1" id="1xqd6ptcAdh" role="lGtFl">
                   <node concept="3xLA65" id="1xqd6ptdsm5" role="lGtFl">
                     <property role="TrG5h" value="nodeAnn2" />
                   </node>
-                </node>
-                <node concept="3xLA65" id="1xqd6ptdscT" role="lGtFl">
-                  <property role="TrG5h" value="multiTrueAnn2" />
                 </node>
               </node>
               <node concept="3xLA65" id="1xqd6ptdr_I" role="lGtFl">
@@ -3695,7 +3678,7 @@
         </node>
         <node concept="3vlDli" id="1xqd6ptaZw8" role="3cqZAp">
           <node concept="3cmrfG" id="1xqd6ptaZw9" role="3tpDZB">
-            <property role="3cmrfH" value="21" />
+            <property role="3cmrfH" value="18" />
           </node>
           <node concept="2OqwBi" id="1xqd6ptaZwa" role="3tpDZA">
             <node concept="37vLTw" id="1xqd6ptaZwb" role="2Oq$k0">
@@ -3817,38 +3800,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1xqd6ptdtoW" role="3cqZAp">
-          <node concept="2OqwBi" id="1xqd6ptdtoX" role="3clFbG">
-            <node concept="37vLTw" id="1xqd6ptdtoY" role="2Oq$k0">
-              <ref role="3cqZAo" node="1xqd6ptaZwf" resolve="comparer" />
-            </node>
-            <node concept="liA8E" id="1xqd6ptdtoZ" role="2OqNvi">
-              <ref role="37wK5l" to="643a:5lijfVJWADj" resolve="replaceId" />
-              <node concept="3xONca" id="1xqd6ptdtp0" role="37wK5m">
-                <ref role="3xOPvv" node="1xqd6ptdrRX" resolve="multiFalseAnn" />
-              </node>
-              <node concept="Xl_RD" id="1xqd6ptdtp1" role="37wK5m">
-                <property role="Xl_RC" value="id-multiFalseAnn" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1xqd6ptdtqp" role="3cqZAp">
-          <node concept="2OqwBi" id="1xqd6ptdtqq" role="3clFbG">
-            <node concept="37vLTw" id="1xqd6ptdtqr" role="2Oq$k0">
-              <ref role="3cqZAo" node="1xqd6ptaZwf" resolve="comparer" />
-            </node>
-            <node concept="liA8E" id="1xqd6ptdtqs" role="2OqNvi">
-              <ref role="37wK5l" to="643a:5lijfVJWADj" resolve="replaceId" />
-              <node concept="3xONca" id="1xqd6ptdtqt" role="37wK5m">
-                <ref role="3xOPvv" node="1xqd6ptds2r" resolve="multiTrueAnn1" />
-              </node>
-              <node concept="Xl_RD" id="1xqd6ptdtqu" role="37wK5m">
-                <property role="Xl_RC" value="id-multiTrueAnn1" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1xqd6ptdtrW" role="3cqZAp">
           <node concept="2OqwBi" id="1xqd6ptdtrX" role="3clFbG">
             <node concept="37vLTw" id="1xqd6ptdtrY" role="2Oq$k0">
@@ -3861,22 +3812,6 @@
               </node>
               <node concept="Xl_RD" id="1xqd6ptdts1" role="37wK5m">
                 <property role="Xl_RC" value="id-nodeAnn2" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1xqd6ptdxYl" role="3cqZAp">
-          <node concept="2OqwBi" id="1xqd6ptdxYm" role="3clFbG">
-            <node concept="37vLTw" id="1xqd6ptdxYn" role="2Oq$k0">
-              <ref role="3cqZAo" node="1xqd6ptaZwf" resolve="comparer" />
-            </node>
-            <node concept="liA8E" id="1xqd6ptdxYo" role="2OqNvi">
-              <ref role="37wK5l" to="643a:5lijfVJWADj" resolve="replaceId" />
-              <node concept="3xONca" id="1xqd6ptdxYp" role="37wK5m">
-                <ref role="3xOPvv" node="1xqd6ptdscT" resolve="multiTrueAnn2" />
-              </node>
-              <node concept="Xl_RD" id="1xqd6ptdxYq" role="37wK5m">
-                <property role="Xl_RC" value="id-multiTrueAnn2" />
               </node>
             </node>
           </node>
@@ -4135,7 +4070,7 @@
             <node concept="34oBXx" id="1xqd6ptaZxZ" role="2OqNvi" />
           </node>
           <node concept="3cmrfG" id="1xqd6ptf3gr" role="3tpDZB">
-            <property role="3cmrfH" value="21" />
+            <property role="3cmrfH" value="18" />
           </node>
         </node>
         <node concept="3clFbH" id="1xqd6ptaZy0" role="3cqZAp" />

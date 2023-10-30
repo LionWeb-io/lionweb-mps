@@ -70,9 +70,7 @@
       <concept id="6461713321117473366" name="io.lionweb.mps.structure.attribute.structure.LionWebSmartReference" flags="ng" index="3Kckhh">
         <reference id="6461713321117473439" name="reference" index="3Kckio" />
       </concept>
-      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W">
-        <property id="6461713321120959618" name="optional" index="3KvTa5" />
-      </concept>
+      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W" />
       <concept id="6461713321120959620" name="io.lionweb.mps.structure.attribute.structure.LionWebPartitionConcept" flags="ng" index="3KvTa3">
         <property id="6461713321120959627" name="partition" index="3KvTac" />
       </concept>
@@ -476,17 +474,6 @@
       <ref role="20lvS9" node="2ju2syjkmjj" resolve="InterfaceReference" />
       <node concept="2DM1AW" id="18UigYQyrxt" role="lGtFl">
         <property role="2DM1AS" value="Annotation-implements" />
-      </node>
-    </node>
-    <node concept="1TJgyi" id="18UigYQyrxk" role="1TKVEl">
-      <property role="IQ2nx" value="1313442573167736916" />
-      <property role="TrG5h" value="multiple" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-      <node concept="2DM1AW" id="18UigYQyrxo" role="lGtFl">
-        <property role="2DM1AS" value="Annotation-multiple" />
-      </node>
-      <node concept="3KvT9W" id="18UigYQyrxq" role="lGtFl">
-        <property role="3KvTa5" value="true" />
       </node>
     </node>
     <node concept="2DM1AW" id="18UigYQyrxm" role="lGtFl">
