@@ -2780,22 +2780,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="2pJxcG" id="18UigYQEuVT" role="2pJxcM">
-                <ref role="2pJxcJ" to="h3y3:18UigYQyrxk" resolve="multiple" />
-                <node concept="WxPPo" id="18UigYQHwoL" role="28ntcv">
-                  <node concept="2OqwBi" id="18UigYQH$Mf" role="WxPPp">
-                    <node concept="37vLTw" id="18UigYQHwoJ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="18UigYQMTew" resolve="annotationFinder" />
-                    </node>
-                    <node concept="liA8E" id="18UigYQHFRa" role="2OqNvi">
-                      <ref role="37wK5l" to="apzt:18UigYQFpr$" resolve="extractMultiple" />
-                      <node concept="37vLTw" id="18UigYQHMtB" role="37wK5m">
-                        <ref role="3cqZAo" node="1xqd6ptmMwJ" resolve="concept" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>

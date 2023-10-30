@@ -105,7 +105,6 @@
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
       <concept id="1313442573167736906" name="io.lionweb.mps.m3.structure.Annotation" flags="ng" index="2$GZ55">
-        <property id="1313442573167736916" name="multiple" index="2$GZ5r" />
         <reference id="1313442573167736909" name="extends" index="2$GZ52" />
         <reference id="1313442573167736907" name="annotates" index="2$GZ54" />
         <child id="1313442573167736912" name="implements" index="2$GZ5v" />
@@ -591,12 +590,6 @@
             <property role="2RzON1" value="Annotation" />
             <property role="TrG5h" value="Annotation" />
             <ref role="2RzPfO" node="2fx6VTTnYmz" resolve="Classifier" />
-            <node concept="2RzOeU" id="30uXOOfT8Yq" role="2RzPPN">
-              <property role="2RzON1" value="Annotation-multiple" />
-              <property role="TrG5h" value="multiple" />
-              <property role="2RzO1C" value="true" />
-              <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-            </node>
             <node concept="2RzOpR" id="30uXOOfT8YB" role="2RzPPN">
               <property role="2RzON1" value="Annotation-annotates" />
               <property role="TrG5h" value="annotates" />
@@ -1213,12 +1206,6 @@
             <property role="2RzON1" value="Annotation" />
             <property role="TrG5h" value="Annotation" />
             <ref role="2RzPfO" node="7Cdxs9E1gHh" resolve="Classifier" />
-            <node concept="2RzOeU" id="30uXOOfTDL7" role="2RzPPN">
-              <property role="2RzON1" value="Annotation-multiple" />
-              <property role="TrG5h" value="multiple" />
-              <property role="2RzO1C" value="true" />
-              <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
-            </node>
             <node concept="2RzOpR" id="30uXOOfTDL8" role="2RzPPN">
               <property role="2RzON1" value="Annotation-annotates" />
               <property role="TrG5h" value="annotates" />
@@ -3635,17 +3622,6 @@
           <node concept="2RzQOr" id="6Pr6izID2ed" role="2$GZ5v">
             <ref role="2RzQOs" node="30uXOOfS1eV" resolve="MyIface" />
           </node>
-        </node>
-        <node concept="2$GZ55" id="30uXOOfS0mq" role="2RzR6B">
-          <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA3OTI" />
-          <property role="TrG5h" value="MultipleFalse" />
-          <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
-        </node>
-        <node concept="2$GZ55" id="30uXOOfRZLJ" role="2RzR6B">
-          <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3Mzg0NzA" />
-          <property role="TrG5h" value="MultipleTrue" />
-          <property role="2$GZ5r" value="true" />
-          <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
         </node>
         <node concept="2RzPWn" id="30uXOOfS0F4" role="2RzR6B">
           <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDM" />

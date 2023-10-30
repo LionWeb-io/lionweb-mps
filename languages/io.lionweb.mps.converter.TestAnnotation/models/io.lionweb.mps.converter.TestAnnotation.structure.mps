@@ -12,9 +12,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
-        <property id="6054523464626875854" name="value" index="tnX3d" />
-      </concept>
+      <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv" />
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -80,26 +78,6 @@
     <property role="34LRSv" value="DefaultAttributesAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30uXOOfOMkE" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="30uXOOfRZiA">
-    <property role="EcuMT" value="3467480673472738470" />
-    <property role="TrG5h" value="MultipleTrue" />
-    <property role="34LRSv" value="MultipleTrue" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="30uXOOfRZiB" role="lGtFl">
-      <node concept="tn0Fv" id="30uXOOfRZiD" role="HhnKV">
-        <property role="tnX3d" value="true" />
-      </node>
-    </node>
-  </node>
-  <node concept="1TIwiD" id="30uXOOfRZQS">
-    <property role="EcuMT" value="3467480673472740792" />
-    <property role="TrG5h" value="MultipleFalse" />
-    <property role="34LRSv" value="MultipleFalse" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="30uXOOfRZQT" role="lGtFl">
-      <node concept="tn0Fv" id="30uXOOfRZQV" role="HhnKV" />
-    </node>
   </node>
   <node concept="1TIwiD" id="30uXOOfRZQX">
     <property role="EcuMT" value="3467480673472740797" />
