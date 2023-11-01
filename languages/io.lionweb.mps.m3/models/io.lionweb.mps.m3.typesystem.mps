@@ -731,9 +731,9 @@
             <node concept="2OqwBi" id="6Pr6izIQ$$l" role="37vLTx">
               <node concept="2tJFMh" id="6Pr6izIQ$9H" role="2Oq$k0">
                 <node concept="ZC_QK" id="6Pr6izIQ$fm" role="2tJFKM">
-                  <ref role="2aWVGs" to="2pzz:2ju2syjnJjW" resolve="Built-in DataTypes" />
+                  <ref role="2aWVGs" to="2pzz:2ju2syjnJjW" />
                   <node concept="ZC_QK" id="6Pr6izIQ$k9" role="2aWVGa">
-                    <ref role="2aWVGs" to="2pzz:39$JcGFBN1$" resolve="Node" />
+                    <ref role="2aWVGs" to="2pzz:39$JcGFBN1$" />
                   </node>
                 </node>
               </node>
