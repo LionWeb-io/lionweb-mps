@@ -67,6 +67,7 @@ publishing {
         register<MavenPublication>("mpsPlugin") {
             from(components["mps"])
             groupId = "io.lionweb.lionweb-mps"
+            artifactId = "lionweb-mps-$versionSuffix"
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
