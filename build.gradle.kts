@@ -14,10 +14,6 @@ val lionwebJavaVersion: String by project
 val mpsVersion: String by project
 val mpsExtensionsVersion: String by project
 
-val libs by configurations.creating
-
-val lionwebJavaDir = File(rootDir, "solutions/io.lionweb.lionweb.java/libs")
-
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
@@ -26,14 +22,7 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
-    "libs"("io.lionweb.lionweb-java:lionweb-java-core:$lionwebJavaVersion")
 	"generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
-}
-
-configurations.getByName("libs") {
-    attributes {
-        attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
-    }
 }
 
 group = "io.lionweb"
@@ -120,28 +109,21 @@ publishing {
     }
 }
 
-task<Sync>("resolveLibs") {
-    from(libs)
-    into(lionwebJavaDir)
 
-    rename { filename ->
-        val ra = libs.resolvedConfiguration.resolvedArtifacts.find { ra: ResolvedArtifact -> ra.file.name == filename }!!
-        var finalName: String
-        if (ra.classifier != null) {
-            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
-        } else {
-            finalName = "${ra.name}.${ra.extension}"
-        }
-        logger.info("renaming $filename to $finalName")
-        finalName
+stubs {
+    register("libs") {
+        destinationDir("solutions/io.lionweb.lionweb.java/libs")
+        dependency("io.lionweb.lionweb-java:lionweb-java-core:$lionwebJavaVersion")
+    }
+}
+
+configurations.getByName("libs") {
+    attributes {
+        attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
     }
 }
 
 tasks{
-    generateBuildscript {
-        dependsOn("resolveLibs")
-    }
-
     checkMps {
         buildScript.set(file("build-tests.xml"))
     }
