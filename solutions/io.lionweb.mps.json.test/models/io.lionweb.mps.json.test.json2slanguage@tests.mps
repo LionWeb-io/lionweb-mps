@@ -451,6 +451,52 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="5XEBF0FFjZ2" role="1SL9yI">
+      <property role="TrG5h" value="TestAnnotatedLang" />
+      <node concept="3cqZAl" id="5XEBF0FFjZ3" role="3clF45" />
+      <node concept="3clFbS" id="5XEBF0FFjZ4" role="3clF47">
+        <node concept="3clFbF" id="5XEBF0FFjZ5" role="3cqZAp">
+          <node concept="2OqwBi" id="5XEBF0FFjZ6" role="3clFbG">
+            <node concept="2WthIp" id="5XEBF0FFjZ7" role="2Oq$k0" />
+            <node concept="2XshWL" id="5XEBF0FFjZ8" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <node concept="pHN19" id="5XEBF0FFjZ9" role="2XxRq1">
+                <node concept="2V$Bhx" id="5XEBF0FFkbz" role="2V$M_3">
+                  <property role="2V$B1T" value="77ef5d5b-8bf9-4404-8d66-42749e39c351" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotatedLang" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5XEBF0FFjZb" role="2XxRq1">
+                <property role="Xl_RC" value="MultiRefLang-metamodel.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="5XEBF0FG8Mp" role="1SL9yI">
+      <property role="TrG5h" value="TestOnlyAnnotatedLang" />
+      <node concept="3cqZAl" id="5XEBF0FG8Mq" role="3clF45" />
+      <node concept="3clFbS" id="5XEBF0FG8Mr" role="3clF47">
+        <node concept="3clFbF" id="5XEBF0FG8Ms" role="3cqZAp">
+          <node concept="2OqwBi" id="5XEBF0FG8Mt" role="3clFbG">
+            <node concept="2WthIp" id="5XEBF0FG8Mu" role="2Oq$k0" />
+            <node concept="2XshWL" id="5XEBF0FG8Mv" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <node concept="pHN19" id="5XEBF0FG8Mw" role="2XxRq1">
+                <node concept="2V$Bhx" id="5XEBF0FG8YE" role="2V$M_3">
+                  <property role="2V$B1T" value="a793bcd8-9bb0-474d-98c8-82233876d097" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestOnlyAnnotatedLang" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5XEBF0FG8My" role="2XxRq1">
+                <property role="Xl_RC" value="TestOnlyAnnotatedLang-metamodel.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
     <property role="TrG5h" value="importJson2SLanguage" />

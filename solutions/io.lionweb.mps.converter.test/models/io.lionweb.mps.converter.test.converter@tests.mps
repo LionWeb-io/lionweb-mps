@@ -3737,46 +3737,6 @@
           <property role="2V$B1T" value="87eb1330-1c4d-4d07-b78f-e2c835ec9b89" />
           <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotationLang" />
         </node>
-        <node concept="2V$Bhx" id="6_BZUoICHUE" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.structure" />
-          <property role="2V$B1T" value="c72da2b9-7cce-4447-8389-f407dc1158b7" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICIu4" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
-          <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICIu5" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.resources" />
-          <property role="2V$B1T" value="982eb8df-2c96-4bd7-9963-11712ea622e5" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICINq" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.baseLanguage" />
-          <property role="2V$B1T" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICINr" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.smodel" />
-          <property role="2V$B1T" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICIXE" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.traceable" />
-          <property role="2V$B1T" value="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICIXF" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.behavior" />
-          <property role="2V$B1T" value="af65afd8-f0dd-4942-87d9-63a55f2a9db1" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICIXG" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.collections" />
-          <property role="2V$B1T" value="83888646-71ce-4f1c-9c53-c54016f6ad4f" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICIXH" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.lang.modelapi" />
-          <property role="2V$B1T" value="446c26eb-2b7b-4bf0-9b35-f83fa582753e" />
-        </node>
-        <node concept="2V$Bhx" id="6_BZUoICJ80" role="qeD2G">
-          <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.closures" />
-          <property role="2V$B1T" value="fd392034-7849-419d-9071-12563d152375" />
-        </node>
       </node>
     </node>
     <node concept="1qefOq" id="6_BZUoICHaq" role="1SKRRt">
