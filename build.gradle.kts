@@ -3,11 +3,16 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
 plugins {
-    id("com.specificlanguages.mps") version "1.5.0"
+    id("com.specificlanguages.mps")
     `maven-publish`
     id("signing")
-    id("net.researchgate.release") version "3.0.2"
+    id("net.researchgate.release")
 }
+
+val versionSuffix: String by project
+val lionwebJavaVersion: String by project
+val mpsVersion: String by project
+val mpsExtensionsVersion: String by project
 
 val libs by configurations.creating
 
@@ -20,9 +25,9 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.4")
-    "libs"("io.lionweb.lionweb-java:lionweb-java-core:0.1.2")
-	"generation" ("de.itemis.mps:extensions:2021.1.2365.a4d7bb2")
+    "mps"("com.jetbrains:mps:$mpsVersion")
+    "libs"("io.lionweb.lionweb-java:lionweb-java-core:$lionwebJavaVersion")
+	"generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
 configurations.getByName("libs") {
@@ -50,10 +55,8 @@ publishing {
         maven {
             val releaseRepo = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
             val snapshotRepo = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-            val isReleaseVersion = !(version as String).endsWith("-SNAPSHOT")
             url = java.net.URI(if (isReleaseVersion) releaseRepo else snapshotRepo)
-            // println("isReleaseVersion $isReleaseVersion")
-            // println("publishing to $url")
+             println("isReleaseVersion $isReleaseVersion")
             credentials {
                 username = project.findProperty("ossrhUsername") as String?
                 password = project.findProperty("ossrhPassword") as String?
@@ -71,8 +74,8 @@ publishing {
             versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
 
             pom {
-                name.set("lionweb-mps")
-                description.set("MPS APIs for the LionWeb system")
+                name.set("lionweb-mps-$versionSuffix")
+                description.set("MPS APIs for the LionWeb system for MPS $versionSuffix")
                 version = project.version as String
                 packaging = "zip"
                 url.set("https://github.com/LionWeb-io/lionweb-mps")
