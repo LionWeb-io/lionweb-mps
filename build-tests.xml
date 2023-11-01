@@ -38,8 +38,15 @@
   
   <path id="path.mps.ant.path">
     <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
-    <pathelement location="${artifacts.mps}/lib/util.jar" />
+    <fileset dir="${artifacts.mps}/lib">
+      <include name="util.jar" />
+      <include name="3rd-party-rt.jar" />
+    </fileset>
   </path>
+  
+  <taskdef resource="jetbrains/mps/build/ant/antlib.xml" classpathref="path.mps.ant.path" />
+  
+  <generator-settings id="m2m-defaults" strictMode="true" parallelThreads="8" inplaceTransform="false" warnWrongChild="true" createStaticRefs="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}" />
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}/io.lionweb.mps.tests" />
@@ -1089,6 +1096,7 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.varVariable.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.structure.jar" />
@@ -1145,7 +1153,6 @@
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.tool.gentest.jar" />
       <library file="${artifacts.mps}/languages/mps-stubs.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
-      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.refactoring.platform.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -1153,6 +1160,9 @@
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.behavior.api.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.behavior.runtime.jar" />
+      <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.context.jar" />
+      <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.problem.legacy-constraints.jar" />
+      <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.problem.rt.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.migration.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.refactoring.runtime.jar" />
@@ -1201,7 +1211,8 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}" logLevel="${mps.ant.log}">
+    <generate fork="true" logLevel="${mps.ant.log}">      
+      <settings refid="m2m-defaults" />
       <plugin path="${artifacts.io.lionweb.mps}/io.lionweb.mps" />
       <plugin path="${artifacts.mps}/lib/mps-workbench.jar" />
       <plugin path="${artifacts.mps}/plugins/mps-build" />
@@ -1227,6 +1238,7 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.varVariable.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.structure.jar" />
@@ -1281,7 +1293,6 @@
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.smodel.resources.jar" />
       <library file="${artifacts.mps}/languages/mps-stubs.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
-      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.refactoring.platform.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -1289,6 +1300,9 @@
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.behavior.api.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.behavior.runtime.jar" />
+      <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.context.jar" />
+      <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.problem.legacy-constraints.jar" />
+      <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.problem.rt.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.migration.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.refactoring.runtime.jar" />
@@ -1330,9 +1344,7 @@
     </generate>
   </target>
   
-  <target name="declare-mps-tasks">
-    <taskdef resource="jetbrains/mps/build/ant/antlib.xml" classpathref="path.mps.ant.path" />
-  </target>
+  <target name="declare-mps-tasks" />
   
   <target name="makeDependents">
     <ant antfile="build.xml" inheritAll="false" useNativeBasedir="true">
@@ -1378,8 +1390,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -1431,8 +1444,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
@@ -1489,8 +1503,9 @@
         <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.converter.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.converter.lang.jar" />
@@ -1562,8 +1577,9 @@
         <fileset file="${artifacts.mps}/lib/junit4.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.converter.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.converter.lang.jar" />
@@ -1624,8 +1640,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.converter.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.json.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
@@ -1681,8 +1698,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.m3.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.m3.runtime.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.structure.attribute.jar" />
@@ -1728,8 +1746,9 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -1766,8 +1785,9 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -1810,8 +1830,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.m3.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -1855,8 +1876,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -1893,8 +1915,9 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -1931,8 +1954,9 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -1969,8 +1993,9 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -2013,8 +2038,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.io.lionweb.mps}/io.lionweb.mps/lib/io.lionweb.mps.m3.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
@@ -2058,8 +2084,9 @@
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/3rd-party-rt.jar" />
         <fileset file="${artifacts.mps}/lib/3rd-party.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/lib/eclipse.jar" />
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
@@ -2095,6 +2122,7 @@
       <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.runtime.jar" />
+      <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.util.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.varVariable.jar" />
       <pathelement location="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
       <pathelement location="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.structure.jar" />
@@ -2149,7 +2177,6 @@
       <pathelement location="${artifacts.mps}/languages/make/jetbrains.mps.smodel.resources.jar" />
       <pathelement location="${artifacts.mps}/languages/mps-stubs.jar" />
       <pathelement location="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
-      <pathelement location="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <pathelement location="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
       <pathelement location="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.refactoring.platform.jar" />
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
@@ -2157,6 +2184,9 @@
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.behavior.api.jar" />
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.behavior.runtime.jar" />
+      <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.context.jar" />
+      <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.problem.legacy-constraints.jar" />
+      <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.feedback.problem.rt.jar" />
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.migration.runtime.jar" />
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
       <pathelement location="${artifacts.mps}/languages/runtimes/jetbrains.mps.refactoring.runtime.jar" />
