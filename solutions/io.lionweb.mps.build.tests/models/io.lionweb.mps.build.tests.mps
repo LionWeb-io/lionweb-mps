@@ -1204,6 +1204,12 @@
       <property role="TrG5h" value="lioncore-mps.home" />
       <node concept="55IIr" id="5wsogBcGDOm" role="398pKh" />
     </node>
+    <node concept="398rNT" id="6M8SgVvYNwF" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.lioncore-mps.home" />
+      <node concept="398BVA" id="6M8SgVvYNwU" role="398pKh">
+        <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
+      </node>
+    </node>
     <node concept="398rNT" id="18UigYQ8dx6" role="1l3spd">
       <property role="TrG5h" value="mps-extensions-home" />
       <node concept="55IIr" id="18UigYQ8dxg" role="398pKh">
