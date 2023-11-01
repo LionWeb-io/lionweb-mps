@@ -2020,36 +2020,6 @@
                   <property role="2V$B1Q" value="jetbrains.mps.lang.constraints" />
                 </node>
               </node>
-              <node concept="pHN19" id="18UigYQ6d9l" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dB4" role="2V$M_3">
-                  <property role="2V$B1T" value="47257bf3-78d3-470b-89d9-8c3261a61d15" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.constraints.rules" />
-                </node>
-              </node>
-              <node concept="pHN19" id="18UigYQ6d9R" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dCx" role="2V$M_3">
-                  <property role="2V$B1T" value="5dae8159-ab99-46bb-a40d-0cee30ee7018" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.constraints.rules.kinds" />
-                </node>
-              </node>
-              <node concept="pHN19" id="18UigYQ6dar" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dDY" role="2V$M_3">
-                  <property role="2V$B1T" value="134c38d4-e3af-4d9e-b069-1c7df0a4005d" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.constraints.rules.skeleton" />
-                </node>
-              </node>
-              <node concept="pHN19" id="18UigYQ6db1" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dFr" role="2V$M_3">
-                  <property role="2V$B1T" value="3ad5badc-1d9c-461c-b7b1-fa2fcd0a0ae7" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.context" />
-                </node>
-              </node>
-              <node concept="pHN19" id="18UigYQ6dbD" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dGS" role="2V$M_3">
-                  <property role="2V$B1T" value="ea3159bf-f48e-4720-bde2-86dba75f0d34" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.context.defs" />
-                </node>
-              </node>
               <node concept="pHN19" id="18UigYQ6dcj" role="HW$Y0">
                 <node concept="2V$Bhx" id="18UigYQ6dIl" role="2V$M_3">
                   <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
@@ -2072,18 +2042,6 @@
                 <node concept="2V$Bhx" id="18UigYQ6dMG" role="2V$M_3">
                   <property role="2V$B1T" value="64d34fcd-ad02-4e73-aff8-a581124c2e30" />
                   <property role="2V$B1Q" value="jetbrains.mps.lang.findUsages" />
-                </node>
-              </node>
-              <node concept="pHN19" id="18UigYQ6dff" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dO9" role="2V$M_3">
-                  <property role="2V$B1T" value="b401a680-8325-4110-8fd3-84331ff25bef" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.generator" />
-                </node>
-              </node>
-              <node concept="pHN19" id="18UigYQ6dg3" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ6dPA" role="2V$M_3">
-                  <property role="2V$B1T" value="d7706f63-9be2-479c-a3da-ae92af1e64d5" />
-                  <property role="2V$B1Q" value="jetbrains.mps.lang.generator.generationContext" />
                 </node>
               </node>
               <node concept="pHN19" id="18UigYQ6dgT" role="HW$Y0">
