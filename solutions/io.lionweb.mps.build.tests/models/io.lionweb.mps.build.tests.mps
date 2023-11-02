@@ -451,6 +451,26 @@
             <ref role="3bR37D" node="5ocQ9W1zSw_" resolve="io.lionweb.mps.converter.TestCoreRefLang" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3FYgAtsK2FC" role="3bR37C">
+          <node concept="3bR9La" id="3FYgAtsK2FD" role="1SiIV1">
+            <ref role="3bR37D" node="1xqd6ptjffo" resolve="io.lionweb.mps.converter.TestAnnotation" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3FYgAtsK2FE" role="3bR37C">
+          <node concept="3bR9La" id="3FYgAtsK2FF" role="1SiIV1">
+            <ref role="3bR37D" to="e6nc:6fYiNFaW8NT" resolve="io.lionweb.mps.structure.attribute" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3FYgAtsK2FG" role="3bR37C">
+          <node concept="3bR9La" id="3FYgAtsK2FH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3FYgAtsK2FI" role="3bR37C">
+          <node concept="3bR9La" id="3FYgAtsK2FJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L1S" resolve="jetbrains.mps.baseLanguage.javadoc" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5wsogBcGDRu" role="2G$12L">
         <property role="BnDLt" value="true" />
