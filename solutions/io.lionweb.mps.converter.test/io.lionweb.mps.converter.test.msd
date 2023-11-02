@@ -28,6 +28,10 @@
     <dependency reexport="false">7350a1d7-537e-4f0d-9965-e91c82522d7d(io.lionweb.mps.m3.runtime)</dependency>
     <dependency reexport="false">ac1d3da7-5f56-482d-8c2c-cf6ea70b4f13(io.lionweb.mps.converter.TestCoreRefLang)</dependency>
     <dependency reexport="false">537f9cb0-0f25-3c76-8b86-308f45010100(library)</dependency>
+    <dependency reexport="false">411e5b27-8a76-482e-8af8-1704262b4468(io.lionweb.mps.structure.attribute)</dependency>
+    <dependency reexport="false">afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb(io.lionweb.mps.converter.TestAnnotation)</dependency>
+    <dependency reexport="false">f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)</dependency>
+    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />
