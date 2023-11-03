@@ -9,6 +9,7 @@ plugins {
     id("net.researchgate.release")
 }
 
+val version: String by project
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
@@ -24,12 +25,12 @@ dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
     // only needed for tests, but such a config is missing
     // https://github.com/specificlanguages/mps-gradle-plugin/issues/9
-	// "generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
+	"generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
 group = "io.lionweb"
 
-val isReleaseVersion = !(version as String).endsWith("SNAPSHOT")
+val isReleaseVersion = !version.endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
@@ -143,6 +144,7 @@ signing {
 }
 
 release {
+    tagTemplate.set("$versionSuffix-${version.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publish"))
     git {
         requireBranch.set("")
