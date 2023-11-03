@@ -144,6 +144,7 @@ signing {
 }
 
 release {
+    tagTemplate.set("$versionSuffix-$version")
     buildTasks.set(listOf("publish"))
     git {
         requireBranch.set("")
