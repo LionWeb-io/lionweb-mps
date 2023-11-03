@@ -80,9 +80,7 @@
         <property id="3631234780355961878" name="scope" index="pjpzt" />
         <child id="3631234780355719074" name="instances" index="pgtdD" />
       </concept>
-      <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageToLionCore" flags="ng" index="qeN9c">
-        <child id="5066961138993587939" name="languages" index="qeD2G" />
-      </concept>
+      <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageToLionCore" flags="ng" index="qeN9c" />
       <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.ILanguageReferenceContainer" flags="ng" index="2P3sN0">
         <child id="755186209566487256" name="languages" index="1a0gs3" />
       </concept>
@@ -92,6 +90,9 @@
       </concept>
       <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
         <property id="5028875375328515031" name="path" index="VS7hl" />
+      </concept>
+      <concept id="1622443184644647655" name="&lt;unknown&gt;" flags="ng" index="3IuRAt">
+        <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
