@@ -68,15 +68,11 @@
     <property role="34LRSv" value="Convert Language to LionCore" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4pht$XsqYrz" role="1TKVEi">
-      <property role="IQ2ns" value="5066961138993587939" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="languages" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tp25:34EJa6aIcco" resolve="LanguageIdentity" />
-    </node>
     <node concept="PrWs8" id="4pht$XsqYcT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1q44RFSZQJv" role="PzmwI">
+      <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
     </node>
     <node concept="1QGGSu" id="5glO5qL5ZAJ" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/mps2lionweb.png" />
@@ -217,6 +213,30 @@
       <property role="IQ2nx" value="5028875375328515031" />
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1q44RFSZQBU">
+    <property role="EcuMT" value="1622443184644647418" />
+    <property role="TrG5h" value="ExportMpsLanguageToJson" />
+    <property role="34LRSv" value="Export MPS Language to JSON" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+    <node concept="PrWs8" id="1q44RFSZQBV" role="PzmwI">
+      <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
+    </node>
+    <node concept="1QGGSu" id="1q44RFSZQBW" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/language2json.png" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1q44RFSZQFB">
+    <property role="EcuMT" value="1622443184644647655" />
+    <property role="TrG5h" value="ILanguageIdentityContainer" />
+    <node concept="1TJgyj" id="4pht$XsqYrz" role="1TKVEi">
+      <property role="IQ2ns" value="5066961138993587939" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="languages" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tp25:34EJa6aIcco" resolve="LanguageIdentity" />
     </node>
   </node>
 </model>
