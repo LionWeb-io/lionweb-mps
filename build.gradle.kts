@@ -9,7 +9,7 @@ plugins {
     id("net.researchgate.release")
 }
 
-val version: String = (System.getenv("RELEASE_VERSION") ?: project.version) as String
+val releaseVersion: String = (System.getenv("RELEASE_VERSION") ?: project.version) as String
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
@@ -30,7 +30,7 @@ dependencies {
 
 group = "io.lionweb"
 
-val isReleaseVersion = !version.endsWith("SNAPSHOT")
+val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
@@ -62,6 +62,7 @@ publishing {
             from(components["mps"])
             groupId = "io.lionweb.lionweb-mps"
             artifactId = "lionweb-mps-$versionSuffix"
+            version = releaseVersion
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
@@ -151,7 +152,7 @@ signing {
 }
 
 release {
-    tagTemplate.set("$versionSuffix-${version.replace(snapshotSuffix.get(), "")}")
+    tagTemplate.set("$versionSuffix-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publish"))
     git {
         requireBranch.set("")
