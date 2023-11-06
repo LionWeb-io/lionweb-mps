@@ -140,10 +140,10 @@ signing {
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         useGpgCmd()
     }
-    val SIGNING_KEY: String? by project
-    val SIGNING_PASSWORD: String? by project
-    if (SIGNING_KEY != null && SIGNING_PASSWORD != null) {
-        useInMemoryPgpKeys(SIGNING_KEY, SIGNING_PASSWORD)
+    val signingKey: String? = System.getenv("SIGNING_KEY")
+    val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
+    if (signingKey != null && signingPassword != null) {
+        useInMemoryPgpKeys(signingKey, signingPassword)
     }
     sign(publishing.publications["mpsPlugin"])
 }
