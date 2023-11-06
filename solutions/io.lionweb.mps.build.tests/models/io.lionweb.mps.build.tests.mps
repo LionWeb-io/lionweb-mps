@@ -140,7 +140,9 @@
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
-      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA">
+        <property id="269707337715731330" name="sourcesKind" index="aoJFB" />
+      </concept>
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -327,9 +329,10 @@
         </node>
       </node>
       <node concept="1E1JtA" id="5wsogBcGDR8" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="io.lionweb.mps.converter.test" />
         <property role="3LESm3" value="40a3fe0a-1d02-46b6-958d-a0735bd5c704" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="5wsogBcGDRc" role="3LF7KH">
           <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
           <node concept="2Ry0Ak" id="5wsogBcGDRi" role="iGT6I">
@@ -470,6 +473,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="io.lionweb.mps.json.test" />
         <property role="3LESm3" value="9ccd1228-8082-4d7d-953e-0ef0386dcd6a" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="5wsogBcGDRv" role="3LF7KH">
           <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
           <node concept="2Ry0Ak" id="5wsogBcGDRw" role="iGT6I">
@@ -606,6 +610,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="io.lionweb.mps.server.test" />
         <property role="3LESm3" value="3cf912e1-3ecb-4ed7-81f8-67be9bc432ee" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="5ocQ9W1zSTI" role="3LF7KH">
           <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
           <node concept="2Ry0Ak" id="5ocQ9W1zSTO" role="iGT6I">
@@ -660,6 +665,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="io.lionweb.mps.lang.test" />
         <property role="3LESm3" value="02a5441c-a291-4aa6-aeca-3737aab7b155" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="18UigYPQj6K" role="3LF7KH">
           <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
           <node concept="2Ry0Ak" id="18UigYPQj6Q" role="iGT6I">
