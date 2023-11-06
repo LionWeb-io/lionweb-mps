@@ -9,6 +9,7 @@ plugins {
     id("net.researchgate.release")
 }
 
+val version: String by project
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
@@ -29,7 +30,7 @@ dependencies {
 
 group = "io.lionweb"
 
-val isReleaseVersion = !(version as String).endsWith("SNAPSHOT")
+val isReleaseVersion = !version.endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
@@ -143,6 +144,7 @@ signing {
 }
 
 release {
+    tagTemplate.set("$versionSuffix-${version.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publish"))
     git {
         requireBranch.set("")
