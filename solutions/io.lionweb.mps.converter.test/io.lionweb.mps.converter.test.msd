@@ -58,6 +58,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="76d927fd-3a5a-4e40-865b-7c2d329ca675(MultiRefLang)" version="0" />
     <module reference="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" version="0" />
+    <module reference="afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb(io.lionweb.mps.converter.TestAnnotation)" version="0" />
     <module reference="ac1d3da7-5f56-482d-8c2c-cf6ea70b4f13(io.lionweb.mps.converter.TestCoreRefLang)" version="0" />
     <module reference="08caad75-8246-4427-bb4d-8444b6c5c729(io.lionweb.mps.converter.TestLang)" version="0" />
     <module reference="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" version="0" />
@@ -66,11 +67,17 @@
     <module reference="40a3fe0a-1d02-46b6-958d-a0735bd5c704(io.lionweb.mps.converter.test)" version="0" />
     <module reference="01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)" version="0" />
     <module reference="7350a1d7-537e-4f0d-9965-e91c82522d7d(io.lionweb.mps.m3.runtime)" version="0" />
+    <module reference="411e5b27-8a76-482e-8af8-1704262b4468(io.lionweb.mps.structure.attribute)" version="0" />
     <module reference="6c7879c0-b30c-4154-9b46-36c5f2b698b0(io.lionweb.mps.structure.attribute.runtime)" version="0" />
+    <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
+    <module reference="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" version="0" />
+    <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
+    <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
+    <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="537f9cb0-0f25-3c76-8b86-308f45010100(library)" version="0" />
   </dependencyVersions>
 </solution>

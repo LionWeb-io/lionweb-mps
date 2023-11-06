@@ -9,7 +9,6 @@
   <imports>
     <import index="e6nc" ref="r:d70b5da3-1a32-4e12-b6d4-f80916aed790(io.lionweb.mps.build)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
   </imports>
   <registry>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
@@ -90,9 +89,7 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
-      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
-        <property id="1787667533297081791" name="testGeneration" index="1MpcYp" />
-      </concept>
+      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh" />
       <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
         <property id="7832771629084799702" name="name" index="2iUeEt" />
         <property id="7832771629084799701" name="url" index="2iUeEu" />
@@ -187,9 +184,6 @@
       </node>
       <node concept="m$_yC" id="5wsogBcGDU2" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:ymnOULATpW" resolve="jetbrains.mps.testing" />
-      </node>
-      <node concept="m$_yC" id="18UigYQ8dxz" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
       <node concept="3_J27D" id="5wsogBcGDPG" role="m_cZH">
         <node concept="3Mxwew" id="5wsogBcGDPH" role="3MwsjC">
@@ -1230,20 +1224,6 @@
         <ref role="398BVh" node="5wsogBcGDOl" resolve="lioncore-mps.home" />
       </node>
     </node>
-    <node concept="398rNT" id="18UigYQ8dx6" role="1l3spd">
-      <property role="TrG5h" value="mps-extensions-home" />
-      <node concept="55IIr" id="18UigYQ8dxg" role="398pKh">
-        <node concept="2Ry0Ak" id="18UigYQ8dxl" role="iGT6I">
-          <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="18UigYQ8dxq" role="2Ry0An">
-            <property role="2Ry0Am" value="dependencies" />
-            <node concept="2Ry0Ak" id="18UigYQ8dxv" role="2Ry0An">
-              <property role="2Ry0Am" value="de.itemis.mps.extensions" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2kB4xC" id="5wsogBcGDQm" role="1l3spd">
       <property role="TrG5h" value="version" />
       <node concept="aVJcg" id="5wsogBcGDQn" role="aVJcv">
@@ -1276,18 +1256,10 @@
         <ref role="398BVh" node="5wsogBcGDOk" resolve="mps_home" />
       </node>
     </node>
-    <node concept="2sgV4H" id="18UigYQ8dwx" role="1l3spa">
-      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="18UigYQ8dxx" role="2JcizS">
-        <ref role="398BVh" node="18UigYQ8dx6" resolve="mps-extensions-home" />
-      </node>
-    </node>
     <node concept="2sgV4H" id="5wsogBcGDOq" role="1l3spa">
       <ref role="1l3spb" to="e6nc:5wsogBcGDKa" resolve="io.lionweb.mps" />
     </node>
-    <node concept="2igEWh" id="5wsogBcGE2R" role="1hWBAP">
-      <property role="1MpcYp" value="true" />
-    </node>
+    <node concept="2igEWh" id="5wsogBcGE2R" role="1hWBAP" />
     <node concept="22LTRH" id="5wsogBcGE2W" role="1hWBAP">
       <property role="TrG5h" value="lionweb-mps.build.tests" />
       <node concept="22LTRF" id="5wsogBcH18m" role="22LTRK">
