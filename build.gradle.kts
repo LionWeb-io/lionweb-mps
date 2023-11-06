@@ -62,7 +62,6 @@ publishing {
             from(components["mps"])
             groupId = "io.lionweb.lionweb-mps"
             artifactId = "lionweb-mps-$versionSuffix"
-            version = releaseVersion
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
@@ -71,7 +70,7 @@ publishing {
             pom {
                 name.set("lionweb-mps-$versionSuffix")
                 description.set("MPS APIs for the LionWeb system for MPS $versionSuffix")
-                version = project.version as String
+                version = releaseVersion
                 packaging = "zip"
                 url.set("https://github.com/LionWeb-io/lionweb-mps")
 
