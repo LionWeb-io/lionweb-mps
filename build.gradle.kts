@@ -9,7 +9,7 @@ plugins {
     id("net.researchgate.release")
 }
 
-val version: String by project
+val version: String = (System.getenv("RELEASE_VERSION") ?: project.version) as String
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
