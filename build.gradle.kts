@@ -145,6 +145,7 @@ signing {
     if (signingKey != null && signingPassword != null) {
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
+    println("key is null: ${signingKey == null} pwd is null: ${signingPassword == null}")
     sign(publishing.publications["mpsPlugin"])
 }
 
