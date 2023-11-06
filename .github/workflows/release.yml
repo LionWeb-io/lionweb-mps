@@ -1,0 +1,38 @@
+# gradle-release-plugin.yml
+# from https://wszlosek.github.io/DevDawn/2023/06/28/gradle-release-plugin.html
+
+name: Create release
+
+# Controls when the action will run
+# Option bellow allows you to run the workflow manually
+on:
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Release new version'
+
+# Allow GitHub Actions to push changes to the repository
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+
+      # Setup git config of the GitHub Actions Bot
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      # Run release task
+      - name: Release with Gradle Release Plugin
+        run: ./gradlew release
