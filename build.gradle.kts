@@ -42,6 +42,8 @@ task<Jar>("javadocJar") {
 }
 
 publishing {
+    val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
+    val ossrhPassword = (project.findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")) as String?
 
     repositories {
         maven {
@@ -49,8 +51,8 @@ publishing {
             val snapshotRepo = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
             url = java.net.URI(if (isReleaseVersion) releaseRepo else snapshotRepo)
             credentials {
-                username = project.findProperty("ossrhUsername") as String?
-                password = project.findProperty("ossrhPassword") as String?
+                username = ossrhUsername
+                password = ossrhPassword
             }
         }
     }
@@ -104,8 +106,8 @@ publishing {
                 name = "GitHubPackages"
                 url = uri("https://maven.pkg.github.com/specificlanguages/mps-json")
                 credentials {
-                    username = (project.findProperty("gpr.user") ?: System.getenv("OSSRH_USERNAME")) as String?
-                    password = (project.findProperty("gpr.key") ?: System.getenv("OSSRH_PASSWORD")) as String?
+                    username = project.findProperty("gpr.user") as String?
+                    password = project.findProperty("gpr.key") as String?
                 }
             }
         }
