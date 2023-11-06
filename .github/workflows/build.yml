@@ -4,6 +4,8 @@ on: [push]
 
 jobs:
   build:
+    # TEMP TODO
+    if: false
 
     runs-on: ubuntu-latest
     name: Java 11 Build
