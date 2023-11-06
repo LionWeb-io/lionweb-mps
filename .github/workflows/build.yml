@@ -29,17 +29,17 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: Install dependencies
+      run: sudo apt-get install -y x11vnc xvfb
+
     - name: Setup java
       uses: actions/setup-java@v2
       with:
         distribution: 'adopt'
         java-version: 11
 
-    - name: Install dependencies
-      run: sudo apt-get install -y x11vnc xvfb
-
     - name: Test languages
-      run: ./gradlew checkMps -Djava.awt.headless=true
+      run: ./gradlew checkMps
 
     - name: Publish Test Results
       uses: EnricoMi/publish-unit-test-result-action@v2
