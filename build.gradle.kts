@@ -104,8 +104,8 @@ publishing {
                 name = "GitHubPackages"
                 url = uri("https://maven.pkg.github.com/specificlanguages/mps-json")
                 credentials {
-                    username = project.findProperty("gpr.user") as String?
-                    password = project.findProperty("gpr.key") as String?
+                    username = (project.findProperty("gpr.user") ?: System.getenv("OSSRH_USERNAME")) as String?
+                    password = (project.findProperty("gpr.key") ?: System.getenv("OSSRH_PASSWORD")) as String?
                 }
             }
         }
@@ -145,7 +145,6 @@ signing {
     if (signingKey != null && signingPassword != null) {
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
-    println("key is null: ${signingKey == null} pwd is null: ${signingPassword == null}")
     sign(publishing.publications["mpsPlugin"])
 }
 
