@@ -22,7 +22,7 @@ jobs:
 
   test:
     # MPS tests seem not to work on GitHub actions
-    if: false
+    # if: false
     runs-on: ubuntu-latest
     name: Java 11 Test
 
@@ -34,6 +34,9 @@ jobs:
       with:
         distribution: 'adopt'
         java-version: 11
+
+    - name: Install dependencies
+      run: sudo apt-get install -y x11vnc xvfb
 
     - name: Test languages
       run: ./gradlew checkMps -Djava.awt.headless=true
