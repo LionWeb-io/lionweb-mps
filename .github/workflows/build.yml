@@ -35,7 +35,7 @@ jobs:
         java-version: 11
 
     - name: Test languages
-      run: ./gradlew checkMps
+      run: ./gradlew checkMps -Djava.awt.headless=true
 
     - name: Publish Test Results
       uses: EnricoMi/publish-unit-test-result-action@v2
