@@ -35,4 +35,10 @@ jobs:
 
       # Run release task
       - name: Release with Gradle Release Plugin
+        env:
+          SIGNING_KEY: ${{ secrets.OSSRH_GPG_SECRET_KEY }}
+          SIGNING_PASSWORD: ${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }}
+          OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+          OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
+          RELEASE_VERSION: ${{ inputs.release_version }}
         run: ./gradlew release
