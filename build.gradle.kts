@@ -1,7 +1,6 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
 import org.apache.tools.ant.taskdefs.condition.Os
-import java.util.*
 
 plugins {
     id("com.specificlanguages.mps")
@@ -133,21 +132,23 @@ tasks.withType(Sign::class) {
     onlyIf("isReleaseVersion is set") { isReleaseVersion }
 }
 
-fun base64Decode(encodedString: String?): String? {
-    if(encodedString != null) {
+/**
+ * Assures ascii-armored gpg key contains newlines.
+ */
+fun restoreNewlines(encodedString: String?): String? {
+    if(encodedString != null && !encodedString.contains('\n')) {
         return encodedString.replace("\\n", "\n")
     }
-    return null;
+    return encodedString
 }
 
 signing {
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         useGpgCmd()
     }
-    val signingKey: String? = base64Decode(System.getenv("SIGNING_KEY"))
+    val signingKey: String? = restoreNewlines(System.getenv("SIGNING_KEY"))
     val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
     if (signingKey != null && signingPassword != null) {
-        println("using inMemory keys with size ${signingKey.length}/${signingPassword.length}, releaseVersion: ${isReleaseVersion}")
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
     sign(publishing.publications["mpsPlugin"])
@@ -160,8 +161,4 @@ release {
         requireBranch.set("")
         pushToRemote.set("origin")
     }
-    failOnCommitNeeded.set(false)
-    failOnPublishNeeded.set(false)
-    failOnUnversionedFiles.set(false)
-    failOnUpdateNeeded.set(false)
 }
