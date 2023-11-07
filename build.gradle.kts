@@ -128,12 +128,6 @@ configurations.getByName("libs") {
     }
 }
 
-tasks{
-    checkMps {
-//        buildScript.set(file("build-tests.xml"))
-    }
-}
-
 tasks.withType(Sign::class) {
     onlyIf("isReleaseVersion is set") { isReleaseVersion }
 }
@@ -145,7 +139,7 @@ signing {
     val signingKey: String? = System.getenv("SIGNING_KEY")
     val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
     if (signingKey != null && signingPassword != null) {
-        println("using inMemory keys, releaseVersion: ${isReleaseVersion}")
+        println("using inMemory keys with size ${signingKey.length}/${signingPassword.length}, releaseVersion: ${isReleaseVersion}")
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
     sign(publishing.publications["mpsPlugin"])
