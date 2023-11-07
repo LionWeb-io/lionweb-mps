@@ -129,9 +129,6 @@
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
         <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
-      <concept id="6592112598314499036" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginModule" flags="ng" index="m$_yB">
-        <reference id="6592112598314499037" name="target" index="m$_yA" />
-      </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
@@ -2224,51 +2221,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="m$_wf" id="24OSoZ60eC6" role="3989C9">
-      <property role="m$_wk" value="io.lionweb.mps.tests" />
-      <node concept="m$_yC" id="24OSoZ60eC7" role="m$_yJ">
-        <ref role="m$_y1" node="5wsogBcGDKB" resolve="io.lionweb.mps" />
-      </node>
-      <node concept="m$_yC" id="24OSoZ60eC8" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
-      <node concept="m$_yC" id="2_4dqAZHUpr" role="m$_yJ">
-        <ref role="m$_y1" node="3RxvfZg815U" resolve="io.lionweb.mps.tests.contributions" />
-      </node>
-      <node concept="3_J27D" id="24OSoZ60eCa" role="m$_yQ">
-        <node concept="3Mxwew" id="24OSoZ60eCb" role="3MwsjC">
-          <property role="3MwjfP" value="io.lionweb.mps.tests" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="24OSoZ60eCc" role="m_cZH">
-        <node concept="3Mxwew" id="24OSoZ60eCd" role="3MwsjC">
-          <property role="3MwjfP" value="io.lionweb.mps.tests" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="24OSoZ60eCe" role="m$_w8">
-        <node concept="3Mxwew" id="24OSoZ60eCf" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="24OSoZ60eCg" role="3s6cr7">
-        <node concept="3Mxwew" id="24OSoZ60eCh" role="3MwsjC">
-          <property role="3MwjfP" value="LionWeb MPS Implementation tests" />
-        </node>
-      </node>
-      <node concept="2iUeEo" id="24OSoZ60eCi" role="2iVFfd">
-        <property role="2iUeEt" value="LionWeb Project" />
-        <property role="2iUeEu" value="https://github.com/LionWeb-io/lionweb-mps" />
-      </node>
-      <node concept="m$_yB" id="24OSoZ60eF1" role="m$_yh">
-        <ref role="m$_yA" node="24OSoZ5UmCW" resolve="io.lionweb.mps.lang.test" />
-      </node>
-      <node concept="m$_yB" id="2_4dqAZHUn5" role="m$_yh">
-        <ref role="m$_yA" node="2_4dqAZFOxd" resolve="io.lionweb.mps.json.test" />
-      </node>
-      <node concept="m$_yB" id="2_4dqAZHUo9" role="m$_yh">
-        <ref role="m$_yA" node="2_4dqAZFOPK" resolve="io.lionweb.mps.converter.test" />
       </node>
     </node>
     <node concept="1E1JtA" id="24OSoZ5UmCW" role="3989C9">
