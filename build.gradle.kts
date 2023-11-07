@@ -144,8 +144,8 @@ signing {
     }
     val signingKey: String? = System.getenv("SIGNING_KEY")
     val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
-    println("key is null: ${signingKey?.length} pwd is null: ${signingPassword?.length}")
     if (signingKey != null && signingPassword != null) {
+        println("using inMemory keys, releaseVersion: ${isReleaseVersion}")
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
     sign(publishing.publications["mpsPlugin"])
