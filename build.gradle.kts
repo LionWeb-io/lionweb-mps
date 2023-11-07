@@ -9,7 +9,8 @@ plugins {
     id("net.researchgate.release")
 }
 
-val releaseVersion: String = (System.getenv("RELEASE_VERSION") ?: project.version) as String
+val releaseVersion: String = (project.version) as String
+val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
@@ -30,7 +31,6 @@ dependencies {
 
 group = "io.lionweb"
 
-val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
@@ -129,21 +129,25 @@ configurations.getByName("libs") {
     }
 }
 
-tasks{
-    checkMps {
-//        buildScript.set(file("build-tests.xml"))
-    }
-}
-
 tasks.withType(Sign::class) {
     onlyIf("isReleaseVersion is set") { isReleaseVersion }
+}
+
+/**
+ * Assures ascii-armored gpg key contains newlines.
+ */
+fun restoreNewlines(encodedString: String?): String? {
+    if(encodedString != null && !encodedString.contains('\n')) {
+        return encodedString.replace("\\n", "\n")
+    }
+    return encodedString
 }
 
 signing {
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         useGpgCmd()
     }
-    val signingKey: String? = System.getenv("SIGNING_KEY")
+    val signingKey: String? = restoreNewlines(System.getenv("SIGNING_KEY"))
     val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
     if (signingKey != null && signingPassword != null) {
         useInMemoryPgpKeys(signingKey, signingPassword)
@@ -157,5 +161,6 @@ release {
     git {
         requireBranch.set("")
         pushToRemote.set("origin")
+        pushOptions.add("--force")
     }
 }
