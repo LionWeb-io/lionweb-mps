@@ -16,6 +16,9 @@ permissions:
   contents: write
 
 jobs:
+  call-build:
+    uses: ./.github/workflows/release.yml
+
   release:
     name: Release
     runs-on: ubuntu-latest
