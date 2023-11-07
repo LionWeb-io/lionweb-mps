@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="io.lionweb.mps.json.test" uuid="9ccd1228-8082-4d7d-953e-0ef0386dcd6a" moduleVersion="0" compileInMPS="true">
+<solution name="io.lionweb.mps.json.test" uuid="9ccd1228-8082-4d7d-953e-0ef0386dcd6a" moduleVersion="0" compileInMPS="true" generatorOutputPath="${module}/test_gen">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -9,6 +9,7 @@
     <facet type="java" languageLevel="JAVA_10">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
+    <facet type="tests" />
   </facets>
   <sourcePath />
   <dependencies>
