@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="io.lionweb.mps.converter.test" uuid="40a3fe0a-1d02-46b6-958d-a0735bd5c704" moduleVersion="0" compileInMPS="true">
+<solution name="io.lionweb.mps.converter.test" uuid="40a3fe0a-1d02-46b6-958d-a0735bd5c704" moduleVersion="0" compileInMPS="true" generatorOutputPath="${module}/test_gen">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" languageLevel="JAVA_10">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
     <facet type="tests" />
