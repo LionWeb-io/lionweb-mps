@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   call-build:
-    uses: ./.github/workflows/release.yml
+    uses: ./.github/workflows/build.yml
 
   release:
     name: Release
