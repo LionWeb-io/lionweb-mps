@@ -21,13 +21,13 @@
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
-    <import index="xbe" ref="r:912ab958-fa26-4eb6-bc68-3a80eb1c49c4(io.lionweb.mps.converter.test.support)" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
     <import index="xx25" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.types(MPS.Core/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="jfqc" ref="r:6e560006-b8bd-4479-9a0e-1c215f48423a(io.lionweb.mps.converter.test.support)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -2050,9 +2050,9 @@
             <node concept="3uibUv" id="2fx6VTSZwL0" role="1tU5fm">
               <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
             </node>
-            <node concept="2YIFZM" id="4oHUzWXZd3$" role="33vP2m">
-              <ref role="37wK5l" to="xbe:4oHUzWXZ5VB" resolve="find" />
-              <ref role="1Pybhc" to="xbe:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
+            <node concept="2YIFZM" id="3RxvfZga2xI" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:4oHUzWXZ5VB" resolve="find" />
+              <ref role="1Pybhc" to="jfqc:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
               <node concept="2OqwBi" id="4oHUzWXZdkT" role="37wK5m">
                 <node concept="2tJFMh" id="2fx6VTSZvDR" role="2Oq$k0">
                   <node concept="ZC_QK" id="2fx6VTSZvLt" role="2tJFKM">
@@ -2162,9 +2162,9 @@
             <node concept="3uibUv" id="2fx6VTSZA6D" role="1tU5fm">
               <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
             </node>
-            <node concept="2YIFZM" id="4oHUzWXZeh0" role="33vP2m">
-              <ref role="37wK5l" to="xbe:4oHUzWXZ5VB" resolve="find" />
-              <ref role="1Pybhc" to="xbe:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
+            <node concept="2YIFZM" id="3RxvfZga2xJ" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:4oHUzWXZ5VB" resolve="find" />
+              <ref role="1Pybhc" to="jfqc:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
               <node concept="2OqwBi" id="4oHUzWXZeh1" role="37wK5m">
                 <node concept="2tJFMh" id="4oHUzWXZeh2" role="2Oq$k0">
                   <node concept="ZC_QK" id="4oHUzWXZeh3" role="2tJFKM">
@@ -2843,9 +2843,9 @@
             <node concept="3uibUv" id="SgalDIKCol" role="1tU5fm">
               <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
             </node>
-            <node concept="2YIFZM" id="SgalDIKCom" role="33vP2m">
-              <ref role="37wK5l" to="xbe:4oHUzWXZ5VB" resolve="find" />
-              <ref role="1Pybhc" to="xbe:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
+            <node concept="2YIFZM" id="3RxvfZga2xK" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:4oHUzWXZ5VB" resolve="find" />
+              <ref role="1Pybhc" to="jfqc:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
               <node concept="2OqwBi" id="SgalDIKCon" role="37wK5m">
                 <node concept="2tJFMh" id="SgalDIKCoo" role="2Oq$k0">
                   <node concept="ZC_QK" id="SgalDIKCop" role="2tJFKM">
@@ -3371,7 +3371,7 @@
               </node>
               <node concept="2ShNRf" id="4oHUzWXSxAW" role="37wK5m">
                 <node concept="HV5vD" id="4oHUzWXSy6B" role="2ShVmc">
-                  <ref role="HV5vE" to="xbe:4oHUzWXSZnG" resolve="IdentityKeyMapper" />
+                  <ref role="HV5vE" to="jfqc:4oHUzWXSZnG" resolve="IdentityKeyMapper" />
                 </node>
               </node>
             </node>
@@ -5262,9 +5262,9 @@
             <node concept="3uibUv" id="4oHUzWXYOFI" role="1tU5fm">
               <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
             </node>
-            <node concept="2YIFZM" id="4oHUzWXZetG" role="33vP2m">
-              <ref role="37wK5l" to="xbe:4oHUzWXZ5VB" resolve="find" />
-              <ref role="1Pybhc" to="xbe:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
+            <node concept="2YIFZM" id="3RxvfZga2xL" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:4oHUzWXZ5VB" resolve="find" />
+              <ref role="1Pybhc" to="jfqc:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
               <node concept="2OqwBi" id="4oHUzWXZetH" role="37wK5m">
                 <node concept="2tJFMh" id="4oHUzWXZetI" role="2Oq$k0">
                   <node concept="ZC_QK" id="4oHUzWXZetJ" role="2tJFKM">
@@ -5389,9 +5389,9 @@
             <node concept="3uibUv" id="4oHUzWXYOGo" role="1tU5fm">
               <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
             </node>
-            <node concept="2YIFZM" id="4oHUzWXZexh" role="33vP2m">
-              <ref role="37wK5l" to="xbe:4oHUzWXZ5VB" resolve="find" />
-              <ref role="1Pybhc" to="xbe:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
+            <node concept="2YIFZM" id="3RxvfZga2xM" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:4oHUzWXZ5VB" resolve="find" />
+              <ref role="1Pybhc" to="jfqc:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
               <node concept="2OqwBi" id="4oHUzWXZexi" role="37wK5m">
                 <node concept="2tJFMh" id="4oHUzWXZexj" role="2Oq$k0">
                   <node concept="ZC_QK" id="4oHUzWXZexk" role="2tJFKM">
@@ -6271,9 +6271,9 @@
             <node concept="3uibUv" id="SgalDIKZJk" role="1tU5fm">
               <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
             </node>
-            <node concept="2YIFZM" id="SgalDIKZJl" role="33vP2m">
-              <ref role="1Pybhc" to="xbe:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
-              <ref role="37wK5l" to="xbe:4oHUzWXZ5VB" resolve="find" />
+            <node concept="2YIFZM" id="3RxvfZga2xN" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:4oHUzWXZ5VB" resolve="find" />
+              <ref role="1Pybhc" to="jfqc:4oHUzWXZ5Ub" resolve="SDataTypeFinder" />
               <node concept="2OqwBi" id="SgalDIKZJm" role="37wK5m">
                 <node concept="2tJFMh" id="SgalDIKZJn" role="2Oq$k0">
                   <node concept="ZC_QK" id="SgalDIKZJo" role="2tJFKM">
