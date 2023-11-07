@@ -20,11 +20,11 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: Call Build
-        uses: ./.github/workflows/build.yml
-
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Call Build
+        uses: ./.github/workflows/build.yml
 
       - name: Install dependencies
         run: sudo apt-get install -y x11vnc xvfb
