@@ -10,6 +10,7 @@ plugins {
 }
 
 val releaseVersion: String = (project.version) as String
+val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
@@ -30,7 +31,6 @@ dependencies {
 
 group = "io.lionweb"
 
-val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
