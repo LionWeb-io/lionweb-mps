@@ -11,6 +11,30 @@
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
   </imports>
   <registry>
+    <language id="698a8d22-a104-47a0-ba8d-10e3ec237f13" name="jetbrains.mps.build.workflow">
+      <concept id="2769948622284546675" name="jetbrains.mps.build.workflow.structure.BwfTask" flags="ng" index="2VaFvF">
+        <child id="2769948622284546679" name="subTasks" index="2VaFvJ" />
+      </concept>
+      <concept id="2769948622284546677" name="jetbrains.mps.build.workflow.structure.BwfSubTask" flags="ng" index="2VaFvH">
+        <child id="2769948622284606050" name="statements" index="2VaTZU" />
+      </concept>
+      <concept id="2769948622284768359" name="jetbrains.mps.build.workflow.structure.BwfAntStatement" flags="ng" index="2Vbh7Z">
+        <child id="2769948622284768360" name="element" index="2Vbh7K" />
+      </concept>
+    </language>
+    <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
+      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
+        <property id="6666499814681541920" name="text" index="2pMdty" />
+      </concept>
+      <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
+        <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
+      </concept>
+      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
+        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
+        <child id="6666499814681541918" name="value" index="2pMdts" />
+      </concept>
+    </language>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
       <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildAspect_MpsTestModules" flags="nn" index="22LTRH">
         <child id="4560297596904469360" name="modules" index="22LTRK" />
@@ -82,6 +106,9 @@
       </concept>
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
+      </concept>
+      <concept id="4701820937132281259" name="jetbrains.mps.build.structure.BuildCustomWorkflow" flags="ng" index="1y0Vig">
+        <child id="4701820937132281260" name="parts" index="1y0Vin" />
       </concept>
       <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
@@ -208,6 +235,25 @@
         <ref role="22LTRN" node="24OSoZ5UmCW" resolve="io.lionweb.mps.lang.test" />
       </node>
     </node>
+    <node concept="1y0Vig" id="2_4dqAZBNRc" role="1hWBAP">
+      <node concept="2VaFvF" id="2_4dqAZBNRU" role="1y0Vin">
+        <property role="TrG5h" value="echoPath" />
+        <node concept="2VaFvH" id="2_4dqAZBNSg" role="2VaFvJ">
+          <property role="TrG5h" value="eeecho" />
+          <node concept="2Vbh7Z" id="2_4dqAZBNSD" role="2VaTZU">
+            <node concept="2pNNFK" id="2_4dqAZBNSY" role="2Vbh7K">
+              <property role="2pNNFO" value="echo" />
+              <node concept="2pNUuL" id="2_4dqAZBNTj" role="2pNNFR">
+                <property role="2pNUuO" value="message" />
+                <node concept="2pMdtt" id="2_4dqAZBNTk" role="2pMdts">
+                  <property role="2pMdty" value="my path is ${lioncore-mps.home} so you know." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="10PD9b" id="5wsogBcGDKb" role="10PD9s" />
     <node concept="3b7kt6" id="5wsogBcGDKc" role="10PD9s" />
     <node concept="1gjT0q" id="24OSoZ61D0O" role="10PD9s" />
@@ -217,6 +263,12 @@
     <node concept="398rNT" id="5wsogBcGDKe" role="1l3spd">
       <property role="TrG5h" value="lioncore-mps.home" />
       <node concept="55IIr" id="5wsogBcGDKf" role="398pKh" />
+    </node>
+    <node concept="398rNT" id="2_4dqAZFnYe" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.lioncore-mps.home" />
+      <node concept="398BVA" id="2_4dqAZFnYf" role="398pKh">
+        <ref role="398BVh" node="5wsogBcGDKe" resolve="lioncore-mps.home" />
+      </node>
     </node>
     <node concept="398rNT" id="7jdzMamjp90" role="1l3spd">
       <property role="TrG5h" value="idea_home" />

@@ -7,6 +7,7 @@
   <property name="build.layout" location="${build.dir}/artifacts/io.lionweb.mps" />
   <property name="mps_home" location="" />
   <property name="lioncore-mps.home" location="${basedir}" />
+  <property name="mps.macro.lioncore-mps.home" location="${lioncore-mps.home}" />
   <property name="idea_home" location="${mps_home}" />
   <property name="version" value="SET_FROM_GRADLE" />
   <property name="artifacts.mps" location="${mps_home}" />
@@ -1806,6 +1807,7 @@
       </jvmargs>
       <macro name="mps_home" path="${mps_home}" />
       <macro name="lioncore-mps.home" path="${lioncore-mps.home}" />
+      <macro name="mps.macro.lioncore-mps.home" path="${mps.macro.lioncore-mps.home}" />
       <macro name="idea_home" path="${idea_home}" />
     </generate>
   </target>
@@ -3375,10 +3377,15 @@
       <env key="JAVA_TOOL_OPTIONS" value="-Dplugin.path=&quot;${mps.plugins.path.string}&quot; -Dmps.libraries=&quot;${mps.libraries.path.string}&quot; -Dmps.test.modules=&quot;${mps.tests.path.string}&quot;" />
       
       
+      <sysproperty key="mps.macro.lioncore-mps.home" value="${lioncore-mps.home}" />
       
       <test name="jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0" outfile="TEST-jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0-tests" />
       <formatter type="xml" />
     </junit>
+  </target>
+  
+  <target name="echoPath">
+    <echo message="my path is ${lioncore-mps.home} so you know." />
   </target>
   
   <target name="cleanSources">
