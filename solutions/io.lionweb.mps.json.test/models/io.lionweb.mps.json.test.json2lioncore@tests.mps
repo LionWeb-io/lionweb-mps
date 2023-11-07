@@ -16,13 +16,13 @@
     <import index="9pi3" ref="r:08a4d3db-1d32-4a82-9df0-5b66cc2b1164(io.lionweb.mps.json.lioncore)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
-    <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="xbe" ref="r:912ab958-fa26-4eb6-bc68-3a80eb1c49c4(io.lionweb.mps.converter.test.support)" />
+    <import index="jfqc" ref="r:6e560006-b8bd-4479-9a0e-1c215f48423a(io.lionweb.mps.converter.test.support)" />
+    <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
   </imports>
   <registry>
@@ -252,9 +252,9 @@
             <node concept="3uibUv" id="5ocQ9W1xKKh" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2YIFZM" id="5ocQ9W1xKKi" role="33vP2m">
-              <ref role="37wK5l" to="643a:5wsogBcvCyw" resolve="expandTestFile" />
-              <ref role="1Pybhc" to="643a:5wsogBcvCwV" resolve="TestPathExpander" />
+            <node concept="2YIFZM" id="3RxvfZga2Mj" role="33vP2m">
+              <ref role="37wK5l" to="kte7:5wsogBcvCyw" resolve="expandTestFile" />
+              <ref role="1Pybhc" to="kte7:5wsogBcvCwV" resolve="TestPathExpander" />
               <node concept="37vLTw" id="5ocQ9W1xLeT" role="37wK5m">
                 <ref role="3cqZAo" node="5ocQ9W1xKJK" resolve="fileName" />
               </node>
@@ -392,9 +392,9 @@
                 <node concept="3Tqbb2" id="5ocQ9W1xMg2" role="1tU5fm">
                   <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
                 </node>
-                <node concept="2YIFZM" id="18UigYR92PD" role="33vP2m">
-                  <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
-                  <ref role="37wK5l" to="xbe:48csSBPyH5b" resolve="sort" />
+                <node concept="2YIFZM" id="3RxvfZga2xH" role="33vP2m">
+                  <ref role="37wK5l" to="jfqc:48csSBPyH5b" resolve="sort" />
+                  <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
                   <node concept="2OqwBi" id="1xqd6pt3n6L" role="37wK5m">
                     <node concept="37vLTw" id="18UigYR92PE" role="2Oq$k0">
                       <ref role="3cqZAo" node="5ocQ9W1xKKT" resolve="converted" />
@@ -597,11 +597,11 @@
           <node concept="3cpWsn" id="1xqd6pt3WZv" role="3cpWs9">
             <property role="TrG5h" value="comparer" />
             <node concept="3uibUv" id="1xqd6pt3WZw" role="1tU5fm">
-              <ref role="3uigEE" to="643a:24j7TNH2adn" resolve="M2JsonComparer" />
+              <ref role="3uigEE" to="kte7:24j7TNH2adn" resolve="M2JsonComparer" />
             </node>
             <node concept="2ShNRf" id="1xqd6pt3WZx" role="33vP2m">
               <node concept="1pGfFk" id="1xqd6pt3WZy" role="2ShVmc">
-                <ref role="37wK5l" to="643a:24j7TNH2adB" resolve="M2JsonComparer" />
+                <ref role="37wK5l" to="kte7:24j7TNH2adB" resolve="M2JsonComparer" />
                 <node concept="37vLTw" id="1xqd6pt3WZz" role="37wK5m">
                   <ref role="3cqZAo" node="1xqd6pt3WZI" resolve="fileName" />
                 </node>
@@ -615,7 +615,7 @@
               <ref role="3cqZAo" node="1xqd6pt3WZv" resolve="comparer" />
             </node>
             <node concept="liA8E" id="1xqd6pt3WZB" role="2OqNvi">
-              <ref role="37wK5l" to="643a:5TNjoy24N5P" resolve="assertSortedEquals" />
+              <ref role="37wK5l" to="kte7:5TNjoy24N5P" resolve="assertSortedEquals" />
               <node concept="37vLTw" id="1xqd6pt3WZC" role="37wK5m">
                 <ref role="3cqZAo" node="1xqd6pt3WZ7" resolve="languages" />
               </node>
@@ -767,11 +767,11 @@
           <node concept="3cpWsn" id="6_BZUoIhBF3" role="3cpWs9">
             <property role="TrG5h" value="comparer" />
             <node concept="3uibUv" id="6_BZUoIhBF4" role="1tU5fm">
-              <ref role="3uigEE" to="643a:24j7TNH2adn" resolve="M2JsonComparer" />
+              <ref role="3uigEE" to="kte7:24j7TNH2adn" resolve="M2JsonComparer" />
             </node>
             <node concept="2ShNRf" id="6_BZUoIhBF5" role="33vP2m">
               <node concept="1pGfFk" id="6_BZUoIhBF6" role="2ShVmc">
-                <ref role="37wK5l" to="643a:24j7TNH2adB" resolve="M2JsonComparer" />
+                <ref role="37wK5l" to="kte7:24j7TNH2adB" resolve="M2JsonComparer" />
                 <node concept="37vLTw" id="6_BZUoIhBF7" role="37wK5m">
                   <ref role="3cqZAo" node="6_BZUoIhBFi" resolve="fileName" />
                 </node>
@@ -785,7 +785,7 @@
               <ref role="3cqZAo" node="6_BZUoIhBF3" resolve="comparer" />
             </node>
             <node concept="liA8E" id="6_BZUoIhBFb" role="2OqNvi">
-              <ref role="37wK5l" to="643a:24j7TNH2aeo" resolve="assertEquals" />
+              <ref role="37wK5l" to="kte7:24j7TNH2aeo" resolve="assertEquals" />
               <node concept="37vLTw" id="6_BZUoIhBFc" role="37wK5m">
                 <ref role="3cqZAo" node="6_BZUoIhBEF" resolve="languages" />
               </node>

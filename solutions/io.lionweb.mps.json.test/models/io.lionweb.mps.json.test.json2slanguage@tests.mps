@@ -15,9 +15,9 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -277,11 +277,11 @@
           <node concept="3cpWsn" id="24j7TNH2$Ko" role="3cpWs9">
             <property role="TrG5h" value="comparer" />
             <node concept="3uibUv" id="24j7TNH2$Dp" role="1tU5fm">
-              <ref role="3uigEE" to="643a:24j7TNH2adn" resolve="M2JsonComparer" />
+              <ref role="3uigEE" to="kte7:24j7TNH2adn" resolve="M2JsonComparer" />
             </node>
             <node concept="2ShNRf" id="24j7TNH2$Kp" role="33vP2m">
               <node concept="1pGfFk" id="24j7TNH2$Kq" role="2ShVmc">
-                <ref role="37wK5l" to="643a:24j7TNH2adB" resolve="M2JsonComparer" />
+                <ref role="37wK5l" to="kte7:24j7TNH2adB" resolve="M2JsonComparer" />
                 <node concept="37vLTw" id="5ocQ9W1x_dS" role="37wK5m">
                   <ref role="3cqZAo" node="5ocQ9W1x$Xx" resolve="fileName" />
                 </node>
@@ -295,7 +295,7 @@
               <ref role="3cqZAo" node="24j7TNH2$Ko" resolve="comparer" />
             </node>
             <node concept="liA8E" id="24j7TNH2Al3" role="2OqNvi">
-              <ref role="37wK5l" to="643a:5TNjoy24N5P" resolve="assertSortedEquals" />
+              <ref role="37wK5l" to="kte7:5TNjoy24N5P" resolve="assertSortedEquals" />
               <node concept="37vLTw" id="24j7TNH2AyM" role="37wK5m">
                 <ref role="3cqZAo" node="24j7TNH2B3Q" resolve="languages" />
               </node>
@@ -480,9 +480,9 @@
             <node concept="3uibUv" id="5ocQ9W1vI8w" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2YIFZM" id="5ocQ9W1vI8x" role="33vP2m">
-              <ref role="1Pybhc" to="643a:5wsogBcvCwV" resolve="TestPathExpander" />
-              <ref role="37wK5l" to="643a:5wsogBcvCyw" resolve="expandTestFile" />
+            <node concept="2YIFZM" id="3RxvfZga2Mi" role="33vP2m">
+              <ref role="37wK5l" to="kte7:5wsogBcvCyw" resolve="expandTestFile" />
+              <ref role="1Pybhc" to="kte7:5wsogBcvCwV" resolve="TestPathExpander" />
               <node concept="37vLTw" id="5ocQ9W1vJWL" role="37wK5m">
                 <ref role="3cqZAo" node="5ocQ9W1vI7l" resolve="fileName" />
               </node>
