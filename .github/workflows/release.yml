@@ -50,4 +50,4 @@ jobs:
           OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
           RELEASE_VERSION: ${{ inputs.release_version }}
-        run: ./gradlew release
+        run: ./gradlew release -Prelease.useAutomaticVersion=true -Prelease.releaseVersion=${{ inputs.release_version }}
