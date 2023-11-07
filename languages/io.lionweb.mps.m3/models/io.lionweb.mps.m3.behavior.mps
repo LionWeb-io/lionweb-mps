@@ -364,7 +364,7 @@
                 <node concept="2OqwBi" id="59Df55krp5c" role="2Oq$k0">
                   <node concept="2tJFMh" id="59Df55krp5d" role="2Oq$k0">
                     <node concept="ZC_QK" id="59Df55krp5e" role="2tJFKM">
-                      <ref role="2aWVGs" to="2pzz:2ju2syjnJjW" resolve="Built-in DataTypes" />
+                      <ref role="2aWVGs" to="2pzz:2ju2syjnJjW" />
                     </node>
                   </node>
                   <node concept="Vyspw" id="59Df55krp5f" role="2OqNvi">
