@@ -144,6 +144,7 @@ signing {
     }
     val signingKey: String? = System.getenv("SIGNING_KEY")
     val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
+    println("key is null: ${signingKey == null} pwd is null: ${signingPassword == null}")
     if (signingKey != null && signingPassword != null) {
         useInMemoryPgpKeys(signingKey, signingPassword)
     }
