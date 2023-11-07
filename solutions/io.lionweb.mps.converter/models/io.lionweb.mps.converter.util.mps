@@ -4066,7 +4066,7 @@
           <node concept="1Wc70l" id="1q44RFT11L$" role="3clFbG">
             <node concept="2OqwBi" id="1q44RFT27Or" role="3uHU7w">
               <node concept="1rXfSq" id="1q44RFT265h" role="2Oq$k0">
-                <ref role="37wK5l" node="6_gUeuqKubb" resolve="getSuperConcepts" />
+                <ref role="37wK5l" node="6_gUeuqKubb" resolve="collectSuperConcepts" />
                 <node concept="37vLTw" id="1q44RFT26wg" role="37wK5m">
                   <ref role="3cqZAo" node="18UigYQAWPW" resolve="concept" />
                 </node>

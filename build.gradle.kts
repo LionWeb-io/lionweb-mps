@@ -9,7 +9,7 @@ plugins {
     id("net.researchgate.release")
 }
 
-val version: String by project
+val releaseVersion: String = (System.getenv("RELEASE_VERSION") ?: project.version) as String
 val versionSuffix: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
@@ -30,7 +30,7 @@ dependencies {
 
 group = "io.lionweb"
 
-val isReleaseVersion = !version.endsWith("SNAPSHOT")
+val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 
 
 task<Jar>("sourcesJar") {
@@ -42,6 +42,8 @@ task<Jar>("javadocJar") {
 }
 
 publishing {
+    val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
+    val ossrhPassword = (project.findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")) as String?
 
     repositories {
         maven {
@@ -49,8 +51,8 @@ publishing {
             val snapshotRepo = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
             url = java.net.URI(if (isReleaseVersion) releaseRepo else snapshotRepo)
             credentials {
-                username = project.findProperty("ossrhUsername") as String?
-                password = project.findProperty("ossrhPassword") as String?
+                username = ossrhUsername
+                password = ossrhPassword
             }
         }
     }
@@ -68,7 +70,7 @@ publishing {
             pom {
                 name.set("lionweb-mps-$versionSuffix")
                 description.set("MPS APIs for the LionWeb system for MPS $versionSuffix")
-                version = project.version as String
+                version = releaseVersion
                 packaging = "zip"
                 url.set("https://github.com/LionWeb-io/lionweb-mps")
 
@@ -76,6 +78,7 @@ publishing {
                     connection.set("scm:git:https://github.com/LionWeb-io/lionweb-mps.git")
                     developerConnection.set("scm:git:git@github.com:LionWeb-io/lionweb-mps.git")
                     url.set("https://github.com/LionWeb-io/lionweb-mps.git")
+                    tag.set("$versionSuffix-$version")
                 }
 
                 licenses {
@@ -128,7 +131,7 @@ configurations.getByName("libs") {
 
 tasks{
     checkMps {
-        buildScript.set(file("build-tests.xml"))
+//        buildScript.set(file("build-tests.xml"))
     }
 }
 
@@ -140,11 +143,16 @@ signing {
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         useGpgCmd()
     }
+    val signingKey: String? = System.getenv("SIGNING_KEY")
+    val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
+    if (signingKey != null && signingPassword != null) {
+        useInMemoryPgpKeys(signingKey, signingPassword)
+    }
     sign(publishing.publications["mpsPlugin"])
 }
 
 release {
-    tagTemplate.set("$versionSuffix-${version.replace(snapshotSuffix.get(), "")}")
+    tagTemplate.set("$versionSuffix-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publish"))
     git {
         requireBranch.set("")

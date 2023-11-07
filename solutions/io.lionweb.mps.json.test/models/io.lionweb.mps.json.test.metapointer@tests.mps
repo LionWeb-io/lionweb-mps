@@ -20,8 +20,8 @@
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="lai5" ref="r:42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0(io.lionweb.mps.json.instance.mps2lionweb)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
-    <import index="643a" ref="r:23b548fa-9417-4ba0-b2fa-6220f9885b4c(io.lionweb.mps.json.test.support)" />
     <import index="v9f" ref="r:c3dd9d50-4761-4cfd-96ad-c9d9f1babb37(MultiRefLang.structure)" />
+    <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" implicit="true" />
@@ -2945,7 +2945,7 @@
               <ref role="37wK5l" to="lai5:5s4Z0e0f4ae" resolve="MetaPointerCreator" />
               <node concept="2ShNRf" id="5M3rB6A_bAU" role="37wK5m">
                 <node concept="1pGfFk" id="5M3rB6A_dl7" role="2ShVmc">
-                  <ref role="37wK5l" to="643a:68Be_yWzVO" resolve="SLanguageLongIdGuaranteedMapper" />
+                  <ref role="37wK5l" to="kte7:68Be_yWzVO" resolve="SLanguageLongIdGuaranteedMapper" />
                   <node concept="37vLTw" id="5M3rB6A_jBG" role="37wK5m">
                     <ref role="3cqZAo" node="68Be_yWk_e" resolve="constants" />
                   </node>

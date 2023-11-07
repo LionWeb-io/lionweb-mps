@@ -1,0 +1,65 @@
+# gradle-release-plugin.yml
+# from https://wszlosek.github.io/DevDawn/2023/06/28/gradle-release-plugin.html
+
+name: Create release
+
+# Controls when the action will run
+# Option bellow allows you to run the workflow manually
+on:
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Release new version'
+
+# Allow GitHub Actions to push changes to the repository
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: sudo apt-get install -y x11vnc xvfb
+
+      - name: Setup java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: 11
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+
+      # Setup git config of the GitHub Actions Bot
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      # Run release task
+      - name: Release with Gradle Release Plugin
+        env:
+          SIGNING_KEY: ${{ secrets.OSSRH_GPG_SECRET_KEY }}
+          SIGNING_PASSWORD: ${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }}
+          OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+          OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
+          RELEASE_VERSION: ${{ inputs.release_version }}
+        run: xvfb-run ./gradlew release
+
+      - name: Publish Test Results
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        if: always()
+        with:
+          files: |
+            TEST-*.xml
+          large_files: "true"
+          report_individual_runs: "true"
+          report_suite_logs: "any"
+          check_run_annotations: all tests, skipped tests
+          action_fail: "true"

@@ -1908,7 +1908,7 @@
                       <ref role="3cqZAo" node="1q44RFT0641" resolve="repository" />
                     </node>
                     <node concept="37vLTw" id="1q44RFT0cg2" role="37wK5m">
-                      <ref role="3cqZAo" node="1q44RFT0cfO" resolve="seq" />
+                      <ref role="3cqZAo" node="1q44RFT0cfO" resolve="input" />
                     </node>
                   </node>
                 </node>
@@ -1930,7 +1930,7 @@
                     <ref role="37wK5l" to="6peh:24j7TNH1Bia" resolve="convert" />
                     <node concept="Rm8GO" id="1q44RFT04hS" role="37wK5m">
                       <ref role="Rm8GQ" to="6peh:24j7TNH1AVV" resolve="listed" />
-                      <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="Scope" />
+                      <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
                     </node>
                   </node>
                 </node>
