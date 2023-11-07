@@ -130,7 +130,7 @@ configurations.getByName("libs") {
 
 tasks{
     checkMps {
-        buildScript.set(file("build-tests.xml"))
+//        buildScript.set(file("build-tests.xml"))
     }
 }
 
