@@ -23,9 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Call Build
-        uses: lionweb-io/lionweb-mps/.github/workflows/build.yml@$GITHUB_REF_NAME
-
       - name: Install dependencies
         run: sudo apt-get install -y x11vnc xvfb
 
