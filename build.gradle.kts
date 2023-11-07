@@ -160,5 +160,6 @@ release {
     git {
         requireBranch.set("")
         pushToRemote.set("origin")
+        pushOptions.add("--force")
     }
 }
