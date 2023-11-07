@@ -4,16 +4,58 @@ on: [push]
 
 jobs:
   build:
+    # TEMP TODO
+    if: false
 
     runs-on: ubuntu-latest
     name: Java 11 Build
 
     steps:
     - uses: actions/checkout@v1
+
     - name: Setup java
       uses: actions/setup-java@v2
       with:
         distribution: 'adopt'
         java-version: 11
+
     - name: Build languages
       run: ./gradlew assembleMps
+
+  test:
+    # MPS tests seem not to work on GitHub actions
+    # if: false
+    runs-on: ubuntu-latest
+    name: Java 11 Test
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Install dependencies
+      run: sudo apt-get install -y x11vnc xvfb
+
+    - name: Setup java
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: 11
+
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+      with:
+        cache-disabled: false
+
+    - name: Test languages
+      run:  xvfb-run ./gradlew checkMps
+
+    - name: Publish Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v2
+      if: always()
+      with:
+        files: |
+          TEST-*.xml
+        large_files: "true"
+        report_individual_runs: "true"
+        report_suite_logs: "any"
+        check_run_annotations: all tests, skipped tests
+        action_fail: "true"
