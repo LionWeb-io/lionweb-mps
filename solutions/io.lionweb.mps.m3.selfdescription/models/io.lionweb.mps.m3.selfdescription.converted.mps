@@ -2220,7 +2220,7 @@
   </node>
   <node concept="2P3vlD" id="6fYiNFaW4cY">
     <property role="TrG5h" value="Export Test123 to JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/Test123-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/Test123-metamodel.json" />
     <node concept="2RzRkq" id="6fYiNFaW4et" role="1a0gs3">
       <ref role="2RzRkr" node="DUXtH0VBtX" resolve="a.b.c.Test123" />
     </node>
@@ -2234,7 +2234,7 @@
   </node>
   <node concept="pgt$m" id="6fYiNFaW6$i">
     <property role="TrG5h" value="Export Test123 instance to JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/Test123-instance.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/Test123-instance.json" />
     <property role="pjpzt" value="39$JcGFaino/closure" />
     <node concept="pgsVv" id="6fYiNFaW6$l" role="pgtdD">
       <ref role="pgsW4" node="6fYiNFaW6wI" />

@@ -18,12 +18,12 @@ jobs:
       with:
         distribution: 'adopt'
         java-version: 11
-        cache-disabled: true
+        cache-disabled: false
 
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
       with:
-        cache-disabled: true
+        cache-disabled: false
 
     - name: Test languages
       run:  xvfb-run ./gradlew checkMps
