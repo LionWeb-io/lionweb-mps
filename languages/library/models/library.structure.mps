@@ -16,6 +16,7 @@
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -61,6 +62,7 @@
     <property role="R5$K7" value="false" />
     <property role="TrG5h" value="Library" />
     <property role="EcuMT" value="8699141150639200771" />
+    <property role="19KtqR" value="true" />
     <node concept="1TJgyi" id="6VkSF6cxwUd" role="1TKVEl">
       <property role="TrG5h" value="name" />
       <property role="IQ2nx" value="1663166535389556507" />
@@ -88,6 +90,7 @@
     <property role="R5$K7" value="false" />
     <property role="TrG5h" value="GuideBookWriter" />
     <property role="EcuMT" value="5582093394551743417" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="6VkSF6cxwUf" resolve="Writer" />
     <node concept="1TJgyi" id="6VkSF6cxwUi" role="1TKVEl">
       <property role="TrG5h" value="countries" />
@@ -99,6 +102,7 @@
     <property role="R5$K7" value="false" />
     <property role="TrG5h" value="SpecialistBookWriter" />
     <property role="EcuMT" value="-6164790151171141319" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="6VkSF6cxwUf" resolve="Writer" />
     <node concept="1TJgyi" id="6VkSF6cxwUk" role="1TKVEl">
       <property role="TrG5h" value="subject" />
