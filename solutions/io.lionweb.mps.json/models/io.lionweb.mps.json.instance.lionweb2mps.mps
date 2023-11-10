@@ -1687,6 +1687,45 @@
       <node concept="3clFbS" id="2q_M4yT3_Uu" role="3clF47">
         <node concept="3clFbJ" id="2q_M4yT3_Uv" role="3cqZAp">
           <node concept="3clFbS" id="2q_M4yT3_Uw" role="3clFbx">
+            <node concept="3cpWs8" id="3LyuSndRf14" role="3cqZAp">
+              <node concept="3cpWsn" id="3LyuSndRf15" role="3cpWs9">
+                <property role="TrG5h" value="parent" />
+                <node concept="3uibUv" id="3LyuSndReOW" role="1tU5fm">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+                <node concept="2OqwBi" id="3LyuSndRf16" role="33vP2m">
+                  <node concept="37vLTw" id="3LyuSndRf17" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2q_M4yT3_UE" resolve="mpsChild" />
+                  </node>
+                  <node concept="liA8E" id="3LyuSndRf18" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SNode.getParent()" resolve="getParent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3LyuSndQYOC" role="3cqZAp">
+              <node concept="3clFbS" id="3LyuSndQYOE" role="3clFbx">
+                <node concept="3clFbF" id="3LyuSndR6$p" role="3cqZAp">
+                  <node concept="2OqwBi" id="3LyuSndRaMH" role="3clFbG">
+                    <node concept="37vLTw" id="3LyuSndRf1a" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3LyuSndRf15" resolve="parent" />
+                    </node>
+                    <node concept="liA8E" id="3LyuSndRbXB" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNode.removeChild(org.jetbrains.mps.openapi.model.SNode)" resolve="removeChild" />
+                      <node concept="37vLTw" id="3LyuSndRdvK" role="37wK5m">
+                        <ref role="3cqZAo" node="2q_M4yT3_UE" resolve="mpsChild" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="3LyuSndR3YT" role="3clFbw">
+                <node concept="10Nm6u" id="3LyuSndR5rs" role="3uHU7w" />
+                <node concept="37vLTw" id="3LyuSndRf19" role="3uHU7B">
+                  <ref role="3cqZAo" node="3LyuSndRf15" resolve="parent" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="2q_M4yT3_Ux" role="3cqZAp">
               <node concept="2OqwBi" id="2q_M4yT3_Uy" role="3clFbG">
                 <node concept="37vLTw" id="2q_M4yT3_UL" role="2Oq$k0">
