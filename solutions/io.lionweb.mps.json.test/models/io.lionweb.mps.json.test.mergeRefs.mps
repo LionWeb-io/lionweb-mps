@@ -73,7 +73,7 @@
   </node>
   <node concept="pgt$m" id="5TNjoy2_wWW">
     <property role="TrG5h" value="Export to MergeRef" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
     <property role="pjpzt" value="39$JcGFainl/descendants" />
     <node concept="pgsVv" id="5TNjoy2_wXd" role="pgtdD">
       <ref role="pgsW4" node="5TNjoy2_wV8" resolve="ExistingGood" />
@@ -90,7 +90,7 @@
   </node>
   <node concept="VS7hd" id="5TNjoy2_MWO">
     <property role="TrG5h" value="Import from MergeRef" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
   </node>
 </model>
 

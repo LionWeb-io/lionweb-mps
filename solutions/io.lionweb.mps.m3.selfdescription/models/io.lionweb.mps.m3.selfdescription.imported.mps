@@ -69,7 +69,7 @@
   </registry>
   <node concept="3z8Sf4" id="z1IqfFTojq">
     <property role="TrG5h" value="Import LionCore" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/lioncore.json" />
   </node>
   <node concept="2RzRRF" id="7pLZNi2wTGx">
     <property role="TrG5h" value="LionCore.M3" />
@@ -297,7 +297,7 @@
   </node>
   <node concept="3z8Sf4" id="5sACIIs$jqC">
     <property role="TrG5h" value="Import Library" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/library-metamodel.json" />
   </node>
   <node concept="2RzRRF" id="5sACIIs$PgG">
     <property role="TrG5h" value="LionCore.M3" />
@@ -612,7 +612,7 @@
   </node>
   <node concept="3z8Sf4" id="1xqd6pt3eS1">
     <property role="TrG5h" value="Import TestAnnotation" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestAnnotation-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestAnnotation-metamodel.json" />
   </node>
   <node concept="2RzRRF" id="1xqd6pt3eS2">
     <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji" />
