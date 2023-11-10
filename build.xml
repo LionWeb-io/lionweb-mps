@@ -445,7 +445,7 @@
         </dependencies>
         <uses />
         <library jar="gson.jar" />
-        <library jar="lionweb-java-core.jar" />
+        <library jar="lionweb-java-2023.1-core.jar" />
         <sources jar="." descriptor="io.lionweb.lionweb.java.msd" />
       </module>
     </echoxml>
@@ -760,7 +760,7 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.build-models" prefix="module/models" />
     </jar>
     <copy todir="${build.layout}/io.lionweb.mps/lib">
-      <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+      <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
     </copy>
     <copy todir="${build.layout}/io.lionweb.mps/lib">
       <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
@@ -2260,7 +2260,7 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3.runtime" />
         <fileset file="${artifacts.mps}/plugins/mps-httpsupport/lib/httpsupport.jar" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
@@ -2374,7 +2374,7 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3.runtime" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
@@ -2429,7 +2429,7 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
@@ -2500,7 +2500,7 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3.runtime" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
@@ -2630,7 +2630,7 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.json" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
@@ -2696,7 +2696,7 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.json" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
         <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
         <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
@@ -3406,7 +3406,7 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.json" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.m3.runtime" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset file="${artifacts.IDEA}/lib/junit4.jar" />
         <fileset dir="${artifacts.IDEA}/lib" includes="*.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
@@ -3545,7 +3545,7 @@
         <pathelement path="${build.tmp}/java/out/library" />
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset file="${artifacts.IDEA}/lib/ant/lib/ant.jar" />
         <fileset file="${artifacts.IDEA}/lib/junit4.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
@@ -3627,7 +3627,7 @@
         <pathelement path="${build.tmp}/java/out/library" />
         <fileset file="${artifacts.mps}/lib/mps-test.jar" />
         <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/gson.jar" />
-        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-core.jar" />
+        <fileset file="${lioncore-mps.home}/solutions/io.lionweb.lionweb.java/libs/lionweb-java-2023.1-core.jar" />
         <fileset file="${artifacts.IDEA}/lib/ant/lib/ant.jar" />
         <fileset file="${artifacts.IDEA}/lib/junit4.jar" />
         <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
