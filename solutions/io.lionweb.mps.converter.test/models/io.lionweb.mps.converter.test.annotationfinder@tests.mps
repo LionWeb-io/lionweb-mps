@@ -151,7 +151,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="3ePT3MiXrx5">
-    <property role="2XOHcw" value="${lioncore-mps.home}" />
+    <property role="2XOHcw" value="${lionweb-mps.home}" />
   </node>
   <node concept="1lH9Xt" id="1q44RFTb6gj">
     <property role="TrG5h" value="isAnnotation_model" />
