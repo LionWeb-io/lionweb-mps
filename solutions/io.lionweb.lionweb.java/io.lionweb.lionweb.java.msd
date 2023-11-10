@@ -3,7 +3,7 @@
   <models>
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="gson.jar" />
-      <sourceRoot location="lionweb-java-core.jar" />
+      <sourceRoot location="lionweb-java-2023.1-core.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -13,7 +13,7 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/libs/gson.jar" />
-    <stubModelEntry path="${module}/libs/lionweb-java-core.jar" />
+    <stubModelEntry path="${module}/libs/lionweb-java-2023.1-core.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

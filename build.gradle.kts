@@ -11,7 +11,8 @@ plugins {
 
 val releaseVersion: String = (project.version) as String
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
-val versionSuffix: String by project
+val mpsVersionSuffix: String by project
+val lionwebRelease: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
 val mpsExtensionsVersion: String by project
@@ -61,15 +62,16 @@ publishing {
         register<MavenPublication>("mpsPlugin") {
             from(components["mps"])
             groupId = "io.lionweb.lionweb-mps"
-            artifactId = "lionweb-mps-$versionSuffix"
+            val concatenatedAritfact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
+            artifactId = concatenatedAritfact
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
             versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
 
             pom {
-                name.set("lionweb-mps-$versionSuffix")
-                description.set("MPS APIs for the LionWeb system for MPS $versionSuffix")
+                name.set(concatenatedAritfact)
+                description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix, LionWeb release $lionwebRelease")
                 version = releaseVersion
                 packaging = "zip"
                 url.set("https://github.com/LionWeb-io/lionweb-mps")
@@ -118,7 +120,7 @@ publishing {
 stubs {
     register("libs") {
         destinationDir("solutions/io.lionweb.lionweb.java/libs")
-        dependency("io.lionweb.lionweb-java:lionweb-java-core:$lionwebJavaVersion")
+        dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebRelease-core:$lionwebJavaVersion")
     }
 }
 
@@ -155,7 +157,7 @@ signing {
 }
 
 release {
-    tagTemplate.set("$versionSuffix-${releaseVersion.replace(snapshotSuffix.get(), "")}")
+    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publish"))
     git {
         requireBranch.set("")
