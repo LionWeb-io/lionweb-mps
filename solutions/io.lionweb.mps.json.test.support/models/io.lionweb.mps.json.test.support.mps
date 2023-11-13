@@ -1987,7 +1987,7 @@
                       <ref role="3cqZAo" node="5wsogBcvCz3" resolve="fileName" />
                     </node>
                     <node concept="Xl_RD" id="5sACIIt1PlH" role="3uHU7B">
-                      <property role="Xl_RC" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/" />
+                      <property role="Xl_RC" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/" />
                     </node>
                   </node>
                 </node>

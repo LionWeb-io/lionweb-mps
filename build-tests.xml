@@ -6,13 +6,13 @@
   <property name="build.tmp" location="${build.dir}/tmp/io.lionweb.mps.tests" />
   <property name="build.layout" location="${build.dir}/artifacts/io.lionweb.mps.tests" />
   <property name="mps_home" location="" />
-  <property name="lioncore-mps.home" location="${basedir}" />
-  <property name="mps.macro.lioncore-mps.home" location="${lioncore-mps.home}" />
-  <property name="lioncore-mps.artifacts.root" location="${lioncore-mps.home}/build/artifacts" />
-  <property name="mps.macro.lioncore-mps.artifacts.root" location="${lioncore-mps.artifacts.root}" />
+  <property name="lionweb-mps.home" location="${basedir}" />
+  <property name="mps.macro.lionweb-mps.home" location="${lionweb-mps.home}" />
+  <property name="lionweb-mps.artifacts.root" location="${lionweb-mps.home}/build/artifacts" />
+  <property name="mps.macro.lionweb-mps.artifacts.root" location="${lionweb-mps.artifacts.root}" />
   <property name="version" value="SET_FROM_GRADLE" />
   <property name="artifacts.mps" location="${mps_home}" />
-  <property name="artifacts.io.lionweb.mps" location="${lioncore-mps.artifacts.root}/io.lionweb.mps" />
+  <property name="artifacts.io.lionweb.mps" location="${lionweb-mps.artifacts.root}/io.lionweb.mps" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property file="${artifacts.io.lionweb.mps}/build.properties" prefix="import.io.lionweb.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
