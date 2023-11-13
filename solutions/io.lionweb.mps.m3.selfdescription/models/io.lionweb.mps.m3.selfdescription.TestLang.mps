@@ -120,7 +120,7 @@
   </node>
   <node concept="2P3vlD" id="7qGUpN3Dfa$">
     <property role="TrG5h" value="Export TestLang to JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-metamodel.json" />
     <node concept="2RzRkq" id="7qGUpN3Dfa_" role="1a0gs3">
       <ref role="2RzRkr" node="39$JcGF8Zh8" />
     </node>
@@ -130,7 +130,7 @@
   </node>
   <node concept="2P3vlD" id="7qGUpN3D_aA">
     <property role="TrG5h" value="Export TestLang Standalone to JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-standalone-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-standalone-metamodel.json" />
     <node concept="2RzRkq" id="7qGUpN3D_aB" role="1a0gs3">
       <ref role="2RzRkr" node="39$JcGF8Zl9" />
     </node>
@@ -1184,7 +1184,7 @@
   </node>
   <node concept="2P3vlD" id="39$JcGF8Zn_">
     <property role="TrG5h" value="Export TestLang NoEnums to JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-noEnums-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-noEnums-metamodel.json" />
     <node concept="2RzRkq" id="39$JcGF8ZnA" role="1a0gs3">
       <ref role="2RzRkr" node="39$JcGF8ZlO" />
     </node>
@@ -1253,14 +1253,14 @@
   <node concept="pgt$m" id="39$JcGFaUzB">
     <property role="TrG5h" value="Export TestLang instance toJSON" />
     <property role="pjpzt" value="39$JcGFaino/closure" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-instance.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-instance.json" />
     <node concept="pgsVv" id="39$JcGFb0lb" role="pgtdD">
       <ref role="pgsW4" node="39$JcGFaUz9" />
     </node>
   </node>
   <node concept="2P3vlD" id="39$JcGFoVxW">
     <property role="TrG5h" value="Export TestLang2 to JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang2-metamodel.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang2-metamodel.json" />
     <node concept="2RzRkq" id="39$JcGFoVxX" role="1a0gs3">
       <ref role="2RzRkr" node="39$JcGF8Zh8" />
     </node>

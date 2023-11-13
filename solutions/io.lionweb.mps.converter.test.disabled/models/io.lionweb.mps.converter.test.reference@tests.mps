@@ -1699,7 +1699,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="3ePT3MiXrx5">
-    <property role="2XOHcw" value="${lioncore-mps.home}" />
+    <property role="2XOHcw" value="${lionweb-mps.home}" />
   </node>
 </model>
 

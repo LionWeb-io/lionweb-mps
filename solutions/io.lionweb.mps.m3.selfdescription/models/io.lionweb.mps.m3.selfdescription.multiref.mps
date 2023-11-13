@@ -214,14 +214,14 @@
   <node concept="pgt$m" id="5AGBwuFDrfA">
     <property role="TrG5h" value="Export MyPartition" />
     <property role="pjpzt" value="39$JcGFainl/descendants" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.m3.selfdescription/source_gen/MyPartition.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.m3.selfdescription/source_gen/MyPartition.json" />
     <node concept="pgsVv" id="5AGBwuFDrfB" role="pgtdD">
       <ref role="pgsW4" node="5AGBwuFDreJ" resolve="MyPartition" />
     </node>
   </node>
   <node concept="VS7hd" id="1apSfP9KDLZ">
     <property role="TrG5h" value="Import MultiRefLang instance" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/multiRef.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/multiRef.json" />
   </node>
   <node concept="1GS7BP" id="~id-part">
     <property role="TrG5h" value="MyPartition" />

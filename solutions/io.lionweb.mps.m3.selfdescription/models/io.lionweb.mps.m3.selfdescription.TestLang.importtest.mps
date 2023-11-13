@@ -41,7 +41,7 @@
   </registry>
   <node concept="VS7hd" id="1apSfP9KDLZ">
     <property role="TrG5h" value="Import TestLang instance from JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-instance.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestLang-instance.json" />
   </node>
   <node concept="1r0PSd" id="39$JcGFaUz9">
     <property role="1r0PKh" value="s" />
@@ -104,7 +104,7 @@
   </node>
   <node concept="VS7hd" id="5TNjoy29awV">
     <property role="TrG5h" value="Import TestRef instance from JSON" />
-    <property role="VS7hl" value="${lioncore-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestReferences.json" />
+    <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestReferences.json" />
   </node>
 </model>
 
