@@ -80,7 +80,6 @@ publishing {
                     connection.set("scm:git:https://github.com/LionWeb-io/lionweb-mps.git")
                     developerConnection.set("scm:git:git@github.com:LionWeb-io/lionweb-mps.git")
                     url.set("https://github.com/LionWeb-io/lionweb-mps.git")
-                    tag.set("$versionSuffix-$version")
                 }
 
                 licenses {
