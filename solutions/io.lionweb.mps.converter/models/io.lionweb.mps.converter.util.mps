@@ -878,63 +878,6 @@
       <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
-  <node concept="312cEu" id="6jTTMHD72IS">
-    <property role="TrG5h" value="MpsLanguageUtil" />
-    <node concept="2YIFZL" id="6jTTMHD72KX" role="jymVt">
-      <property role="TrG5h" value="getLanguageVersion" />
-      <node concept="3clFbS" id="6jTTMHD72L0" role="3clF47">
-        <node concept="3SKdUt" id="6jTTMHD7fCT" role="3cqZAp">
-          <node concept="1PaTwC" id="6jTTMHD7fCU" role="1aUNEU">
-            <node concept="3oM_SD" id="6jTTMHD7fDH" role="1PaTwD">
-              <property role="3oM_SC" value="Why" />
-            </node>
-            <node concept="3oM_SD" id="6jTTMHD7fDJ" role="1PaTwD">
-              <property role="3oM_SC" value="is" />
-            </node>
-            <node concept="3oM_SD" id="6jTTMHD7l3h" role="1PaTwD">
-              <property role="3oM_SC" value="SLanguage.getLanguageVersion()" />
-            </node>
-            <node concept="3oM_SD" id="6jTTMHD7l3l" role="1PaTwD">
-              <property role="3oM_SC" value="deprecated?" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6jTTMHD74sb" role="3cqZAp">
-          <node concept="15s5l7" id="6jTTMHD74M2" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: getLanguageVersion():int is deprecated&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
-            <property role="huDt6" value="Warning: getLanguageVersion():int is deprecated" />
-          </node>
-          <node concept="2OqwBi" id="6jTTMHD74yj" role="3clFbG">
-            <node concept="37vLTw" id="6jTTMHD74sa" role="2Oq$k0">
-              <ref role="3cqZAo" node="6jTTMHD74qZ" resolve="language" />
-            </node>
-            <node concept="liA8E" id="6jTTMHD74Cr" role="2OqNvi">
-              <ref role="37wK5l" to="c17a:~SLanguage.getLanguageVersion()" resolve="getLanguageVersion" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="6jTTMHD72Kk" role="1B3o_S" />
-      <node concept="10Oyi0" id="6jTTMHD72KM" role="3clF45" />
-      <node concept="37vLTG" id="6jTTMHD74qZ" role="3clF46">
-        <property role="TrG5h" value="language" />
-        <node concept="3uibUv" id="6jTTMHD74qY" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-        </node>
-        <node concept="2AHcQZ" id="1f4Qr8VHxVH" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="6jTTMHD72IT" role="1B3o_S" />
-    <node concept="3UR2Jj" id="6jTTMHD72JM" role="lGtFl">
-      <node concept="TZ5HA" id="6jTTMHD72JN" role="TZ5H$">
-        <node concept="1dT_AC" id="6jTTMHD72JO" role="1dT_Ay">
-          <property role="1dT_AB" value="Common place to access MPS language specifics" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="312cEu" id="3zvxfLhsBRw">
     <property role="TrG5h" value="MpsIdDeserializer" />
     <node concept="3clFb_" id="3zvxfLhsDcB" role="jymVt">
