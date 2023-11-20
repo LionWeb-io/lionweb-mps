@@ -1,0 +1,140 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [],
+  "nodes": [
+    {
+      "id": "id-myLib",
+      "properties": [
+        {
+          "property": {
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "version": "0",
+            "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw"
+          },
+          "value": "MyLib"
+        }
+      ],
+      "containments": [
+        {
+          "containment": {
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "version": "0",
+            "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvLTYzOTI0NjgyNTk0NDA3MjQ1MzE"
+          },
+          "children": [
+            "id-firstBook"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [
+        "id-myLib-virtualPackage",
+        "id-myLib-shortDescription"
+      ],
+      "parent": null,
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
+      }
+    },
+    {
+      "id": "id-myLib-shortDescription",
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ShortDescription-description"
+          },
+          "value": "This should not be here"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "id-myLib",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "ShortDescription"
+      }
+    },
+    {
+      "id": "id-myLib-virtualPackage",
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "com.example.my Package"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "id-myLib",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "VirtualPackage"
+      }
+    },
+    {
+      "id": "id-firstBook",
+      "properties": [
+        {
+          "property": {
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "version": "0",
+            "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy00Mzg2MTUwNjczNDI5OTQ5NTUy"
+          },
+          "value": "1"
+        },
+        {
+          "property": {
+            "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+            "version": "0",
+            "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYxLy02NDc2MDE3NTAyOTM2MDY4MTk5"
+          },
+          "value": "First book"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [
+        "id-firstBook-virtualPackage"
+      ],
+      "parent": "id-myLib",
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
+      }
+    },
+    {
+      "id": "id-firstBook-virtualPackage",
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "makes no sense in a nested node"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "id-firstBook",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "VirtualPackage"
+      }
+    }
+  ]
+}
