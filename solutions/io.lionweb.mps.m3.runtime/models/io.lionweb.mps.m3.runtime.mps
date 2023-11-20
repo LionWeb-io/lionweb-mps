@@ -171,6 +171,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -376,12 +377,16 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
+        <child id="1176906787974" name="rightExpression" index="576Qk" />
+      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -395,6 +400,9 @@
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
+      <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
+        <child id="4611582986551314344" name="requestedType" index="UnYnz" />
+      </concept>
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -405,6 +413,7 @@
       </concept>
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
+      <concept id="1180964022718" name="jetbrains.mps.baseLanguage.collections.structure.ConcatOperation" flags="nn" index="3QWeyG" />
     </language>
   </registry>
   <node concept="312cEu" id="DUXtGZOlwJ">
@@ -1249,6 +1258,37 @@
       <node concept="3Tm1VV" id="5JNiskiKYxF" role="1B3o_S" />
       <node concept="17QB3L" id="5JNiskiKYxG" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="5JNiskjpl83" role="jymVt" />
+    <node concept="2tJIrI" id="5JNiskjple9" role="jymVt" />
+    <node concept="3clFb_" id="5JNiskjpmgL" role="jymVt">
+      <property role="TrG5h" value="listSpecificAnnotationProperties" />
+      <node concept="3Tm1VV" id="5JNiskjpmgN" role="1B3o_S" />
+      <node concept="_YKpA" id="5JNiskjpmgO" role="3clF45">
+        <node concept="3uibUv" id="5JNiskjpmgP" role="_ZDj9">
+          <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5JNiskjpmgR" role="3clF47">
+        <node concept="3clFbF" id="5JNiskjpnnO" role="3cqZAp">
+          <node concept="2ShNRf" id="5JNiskjpnnP" role="3clFbG">
+            <node concept="Tc6Ow" id="5JNiskjpnnQ" role="2ShVmc">
+              <node concept="1rXfSq" id="5JNiskjpnnS" role="HW$Y0">
+                <ref role="37wK5l" node="5JNiskiq_Ml" resolve="slangVirtualPackageProperty" />
+              </node>
+              <node concept="1rXfSq" id="5JNiskjpnnT" role="HW$Y0">
+                <ref role="37wK5l" node="5JNiskiqALl" resolve="slangShortDescriptionProperty" />
+              </node>
+              <node concept="3uibUv" id="5JNiskjpnnU" role="HW$YZ">
+                <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5JNiskjpmgS" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5JNiskix66D" role="jymVt" />
     <node concept="3clFb_" id="5JNiski$2VO" role="jymVt">
       <property role="TrG5h" value="listMpsInternalFeatures" />
@@ -1285,22 +1325,26 @@
         </node>
       </node>
       <node concept="3clFbS" id="5JNiski$2Wn" role="3clF47">
-        <node concept="3clFbF" id="5JNiski$2Wq" role="3cqZAp">
-          <node concept="2ShNRf" id="5JNiski$9Ud" role="3clFbG">
-            <node concept="Tc6Ow" id="5JNiski$9Ue" role="2ShVmc">
-              <node concept="1rXfSq" id="5JNiski$9Uf" role="HW$Y0">
-                <ref role="37wK5l" node="5JNiskhsfjt" resolve="slangAnnotationContainment" />
+        <node concept="3clFbF" id="5JNiskjpCAp" role="3cqZAp">
+          <node concept="2OqwBi" id="5JNiskjpx40" role="3clFbG">
+            <node concept="2OqwBi" id="5JNiskjpsUY" role="2Oq$k0">
+              <node concept="3nyPlj" id="5JNiskjpqpu" role="2Oq$k0">
+                <ref role="37wK5l" node="5JNiskix7ir" resolve="listSLanguageInternalFeatures" />
               </node>
-              <node concept="1rXfSq" id="5JNiski$cE0" role="HW$Y0">
-                <ref role="37wK5l" node="5JNiskiq_Ml" resolve="slangVirtualPackageProperty" />
-              </node>
-              <node concept="1rXfSq" id="5JNiski$e1z" role="HW$Y0">
-                <ref role="37wK5l" node="5JNiskiqALl" resolve="slangShortDescriptionProperty" />
-              </node>
-              <node concept="3uibUv" id="5JNiski$9Ug" role="HW$YZ">
-                <ref role="3uigEE" to="c17a:~SConceptFeature" resolve="SConceptFeature" />
+              <node concept="3QWeyG" id="5JNiskjpv6X" role="2OqNvi">
+                <node concept="2OqwBi" id="5JNiskjpFkD" role="576Qk">
+                  <node concept="1rXfSq" id="5JNiskjpvTx" role="2Oq$k0">
+                    <ref role="37wK5l" node="5JNiskjpmgL" resolve="listSpecificAnnotationProperties" />
+                  </node>
+                  <node concept="UnYns" id="5JNiskjpGZw" role="2OqNvi">
+                    <node concept="3uibUv" id="5JNiskjpHWQ" role="UnYnz">
+                      <ref role="3uigEE" to="c17a:~SConceptFeature" resolve="SConceptFeature" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
+            <node concept="ANE8D" id="5JNiskjpykI" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -5931,6 +5975,16 @@
       <node concept="17QB3L" id="5JNiskiKU4n" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="5JNiskiswpe" role="jymVt" />
+    <node concept="3clFb_" id="5JNiskjpaH9" role="jymVt">
+      <property role="TrG5h" value="listSpecificAnnotationProperties" />
+      <node concept="3clFbS" id="5JNiskjpaHc" role="3clF47" />
+      <node concept="3Tm1VV" id="5JNiskjpaHd" role="1B3o_S" />
+      <node concept="_YKpA" id="5JNiskjp6mY" role="3clF45">
+        <node concept="3uibUv" id="5JNiskjpaft" role="_ZDj9">
+          <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5JNiskhxHcY" role="1B3o_S" />
     <node concept="3uibUv" id="5JNiski3mfI" role="3HQHJm">
       <ref role="3uigEE" node="5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
@@ -10317,6 +10371,38 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5JNiskj5Yen" role="jymVt" />
+    <node concept="3clFb_" id="5JNiskiswUo" role="jymVt">
+      <property role="TrG5h" value="isMpsInternalConcept" />
+      <node concept="3clFbS" id="5JNiskiswUp" role="3clF47" />
+      <node concept="3Tm1VV" id="5JNiskiswUq" role="1B3o_S" />
+      <node concept="10P_77" id="5JNiskiswUr" role="3clF45" />
+      <node concept="37vLTG" id="5JNiskiswUs" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="5JNiskiswUt" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SElement" resolve="SElement" />
+        </node>
+        <node concept="2AHcQZ" id="5JNiskiswUu" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="5JNiskiswUv" role="lGtFl">
+        <node concept="TZ5HA" id="5JNiskiswUw" role="TZ5H$">
+          <node concept="1dT_AC" id="5JNiskiswUx" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks whether `element` needs special treatment in LionWeb." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="5JNiskiswUy" role="3nqlJM">
+          <property role="TUZQ4" value="MPS language element to evaluate." />
+          <node concept="zr_55" id="5JNiskiswUz" role="zr_5Q">
+            <ref role="zr_51" node="5JNiskiswUs" resolve="element" />
+          </node>
+        </node>
+        <node concept="x79VA" id="5JNiskiswU$" role="3nqlJM">
+          <property role="x79VB" value="`true` if `element` needs special treatment, `false` otherwise." />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5JNiski3k2c" role="jymVt" />
     <node concept="3clFb_" id="5JNiski3k2d" role="jymVt">
       <property role="TrG5h" value="isMpsInternalFeature" />
@@ -10375,38 +10461,6 @@
         </node>
         <node concept="x79VA" id="5JNiskiswUm" role="3nqlJM">
           <property role="x79VB" value="`true` if `mpsConcept` needs special treatment, `false` otherwise." />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="5JNiskiswUn" role="jymVt" />
-    <node concept="3clFb_" id="5JNiskiswUo" role="jymVt">
-      <property role="TrG5h" value="isMpsInternalConcept" />
-      <node concept="3clFbS" id="5JNiskiswUp" role="3clF47" />
-      <node concept="3Tm1VV" id="5JNiskiswUq" role="1B3o_S" />
-      <node concept="10P_77" id="5JNiskiswUr" role="3clF45" />
-      <node concept="37vLTG" id="5JNiskiswUs" role="3clF46">
-        <property role="TrG5h" value="element" />
-        <node concept="3uibUv" id="5JNiskiswUt" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SElement" resolve="SElement" />
-        </node>
-        <node concept="2AHcQZ" id="5JNiskiswUu" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
-        </node>
-      </node>
-      <node concept="P$JXv" id="5JNiskiswUv" role="lGtFl">
-        <node concept="TZ5HA" id="5JNiskiswUw" role="TZ5H$">
-          <node concept="1dT_AC" id="5JNiskiswUx" role="1dT_Ay">
-            <property role="1dT_AB" value="Checks whether `element` needs special treatment in LionWeb." />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="5JNiskiswUy" role="3nqlJM">
-          <property role="TUZQ4" value="MPS language element to evaluate." />
-          <node concept="zr_55" id="5JNiskiswUz" role="zr_5Q">
-            <ref role="zr_51" node="5JNiskiswUs" resolve="element" />
-          </node>
-        </node>
-        <node concept="x79VA" id="5JNiskiswU$" role="3nqlJM">
-          <property role="x79VB" value="`true` if `element` needs special treatment, `false` otherwise." />
         </node>
       </node>
     </node>
