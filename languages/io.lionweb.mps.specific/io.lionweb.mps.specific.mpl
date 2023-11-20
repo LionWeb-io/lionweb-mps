@@ -11,7 +11,7 @@
     </facet>
   </facets>
   <accessoryModels>
-    <model modelUID="r:23ccdcd2-ac4f-4247-aad5-4d197fcb7e18(io.lionweb.mps.specific)" />
+    <model modelUID="r:23ccdcd2-ac4f-4247-aad5-4d197fcb7e18(io.lionweb.mps.specific.lang)" />
   </accessoryModels>
   <sourcePath />
   <languageVersions>
