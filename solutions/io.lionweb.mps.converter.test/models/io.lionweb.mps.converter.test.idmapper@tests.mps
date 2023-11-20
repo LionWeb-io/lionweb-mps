@@ -2928,9 +2928,6 @@
         <node concept="3cpWs8" id="5M3rB6BiU9R" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BiU9S" role="3cpWs9">
             <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="5M3rB6BiTAL" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
             <node concept="2ShNRf" id="5M3rB6BiU9T" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6BiU9U" role="2ShVmc">
                 <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
@@ -2938,6 +2935,9 @@
                   <ref role="3cqZAo" node="5M3rB6Beo5l" resolve="repository" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
             </node>
           </node>
         </node>

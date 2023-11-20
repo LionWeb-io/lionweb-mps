@@ -349,8 +349,8 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="4WflrVakITs" role="1B3o_S" />
-      <node concept="3uibUv" id="4WflrVakKll" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="2fx6VTRF0q3" role="jymVt">
@@ -484,11 +484,11 @@
       </node>
       <node concept="37vLTG" id="4WflrVakLTz" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="4WflrVakLT_" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="4WflrVakM77" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhCPnI" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="2fx6VTRFh68" role="3clF46">
@@ -1156,8 +1156,8 @@
                       <node concept="37vLTw" id="4WflrVakNcq" role="2Oq$k0">
                         <ref role="3cqZAo" node="4WflrVakKoY" resolve="constants" />
                       </node>
-                      <node concept="2OwXpG" id="4WflrVakQbx" role="2OqNvi">
-                        <ref role="2Oxat5" to="y7p:4WflrVajnwK" resolve="SLANG_ANNOTATION_CONTAINMENT" />
+                      <node concept="liA8E" id="5JNiskhTEJy" role="2OqNvi">
+                        <ref role="37wK5l" to="y7p:5JNiski3jX7" resolve="slangAnnotationContainment" />
                       </node>
                     </node>
                     <node concept="2GrUjf" id="jyNOuY_BV2" role="37wK5m">
@@ -2407,8 +2407,8 @@
       </node>
       <node concept="37vLTG" id="4WflrVaqcqJ" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="1xqd6ptu0RD" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        <node concept="3uibUv" id="5JNiskhCTfI" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="2q_M4yT3_Ow" role="3clF46">
@@ -3994,11 +3994,11 @@
       </node>
       <node concept="37vLTG" id="48csSBNSpzW" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="48csSBNSpzX" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="4R9pospc9k5" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhCTTC" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
     </node>

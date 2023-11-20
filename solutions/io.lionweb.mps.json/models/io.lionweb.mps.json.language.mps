@@ -356,11 +356,11 @@
       </node>
       <node concept="37vLTG" id="5AGBwuFmRql" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="5AGBwuFmRqm" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8VruLn" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6cl5eO" role="3clF46">
@@ -549,8 +549,8 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tmbuc" id="24j7TNHk7jW" role="1B3o_S" />
-      <node concept="3uibUv" id="5AGBwuFajTp" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhDjLV" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="6VkSF6cgpcQ" role="jymVt">
@@ -830,11 +830,11 @@
       </node>
       <node concept="37vLTG" id="5AGBwuFajbY" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="5AGBwuFajQP" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="1f4Qr8VhgJ4" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhDsGZ" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6cgoHH" role="3clF46">
@@ -915,7 +915,7 @@
                   <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BBqZv" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k1p" resolve="listSLanguagePrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BBqZw" role="2OqNvi" />
@@ -1000,7 +1000,7 @@
                   <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BDRjk" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9vEq" resolve="listSLanguageClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZG" resolve="listSLanguageClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BDRjl" role="2OqNvi" />
@@ -1507,8 +1507,8 @@
                     <node concept="37vLTw" id="4WflrVbi52O" role="2Oq$k0">
                       <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                     </node>
-                    <node concept="2OwXpG" id="4WflrVbimKe" role="2OqNvi">
-                      <ref role="2Oxat5" to="y7p:39$JcGGWAx4" resolve="SLANG_BOOLEAN_TYPE" />
+                    <node concept="liA8E" id="5JNiskhUOt4" role="2OqNvi">
+                      <ref role="37wK5l" to="y7p:5JNiski3jVJ" resolve="slangBooleanType" />
                     </node>
                   </node>
                 </node>
@@ -1524,8 +1524,8 @@
                     <node concept="37vLTw" id="4WflrVbiwwQ" role="2Oq$k0">
                       <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                     </node>
-                    <node concept="2OwXpG" id="4WflrVbiF$Z" role="2OqNvi">
-                      <ref role="2Oxat5" to="y7p:39$JcGGWu$v" resolve="SLANG_INTEGER_TYPE" />
+                    <node concept="liA8E" id="5JNiskhUiol" role="2OqNvi">
+                      <ref role="37wK5l" to="y7p:5JNiski3jW4" resolve="slangIntegerType" />
                     </node>
                   </node>
                 </node>
@@ -1541,8 +1541,8 @@
                     <node concept="37vLTw" id="4WflrVbiLq_" role="2Oq$k0">
                       <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                     </node>
-                    <node concept="2OwXpG" id="4WflrVbiXIO" role="2OqNvi">
-                      <ref role="2Oxat5" to="y7p:39$JcGGWFCK" resolve="SLANG_STRING_TYPE" />
+                    <node concept="liA8E" id="5JNiskhUttY" role="2OqNvi">
+                      <ref role="37wK5l" to="y7p:5JNiski3jVq" resolve="slangStringType" />
                     </node>
                   </node>
                 </node>
@@ -1555,8 +1555,8 @@
               <node concept="37vLTw" id="4WflrVaDqKp" role="2Oq$k0">
                 <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
               </node>
-              <node concept="2OwXpG" id="4WflrVaD_GC" role="2OqNvi">
-                <ref role="2Oxat5" to="y7p:4R9posq8ZVS" resolve="SLANG_CORE_LANGUAGE" />
+              <node concept="liA8E" id="5JNiskhUDW$" role="2OqNvi">
+                <ref role="37wK5l" to="y7p:5JNiski3jYf" resolve="slangCoreLanguage" />
               </node>
             </node>
             <node concept="37vLTw" id="39$JcGGxZQT" role="3uHU7B">
@@ -2888,7 +2888,7 @@
                   <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="6Pr6izIjQYY" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:6Pr6izIiJlS" resolve="isMpsInternalConcept" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k2d" resolve="isMpsInternalConcept" />
                   <node concept="37vLTw" id="6Pr6izIjUSy" role="37wK5m">
                     <ref role="3cqZAo" node="48csSBNReGB" resolve="mps" />
                   </node>
@@ -3264,7 +3264,7 @@
                         <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="6Pr6izImCFW" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:6Pr6izIiJlS" resolve="isMpsInternalConcept" />
+                        <ref role="37wK5l" to="y7p:5JNiski3k2d" resolve="isMpsInternalConcept" />
                         <node concept="37vLTw" id="3M8YG$crBUW" role="37wK5m">
                           <ref role="3cqZAo" node="3M8YG$crBUQ" resolve="superConcept" />
                         </node>
@@ -3596,8 +3596,8 @@
                   <node concept="37vLTw" id="6Pr6izIRvJR" role="2Oq$k0">
                     <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="6Pr6izIRvJS" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:30uXOOfMilO" resolve="SLANG_ANNOTATION_CONCEPT" />
+                  <node concept="liA8E" id="5JNiskhUZtq" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jWZ" resolve="slangAnnotationConcept" />
                   </node>
                 </node>
               </node>
@@ -3680,8 +3680,8 @@
                   <node concept="37vLTw" id="6Pr6izIP8Ls" role="2Oq$k0">
                     <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="6Pr6izIPn5x" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:39$JcGG9w_Q" resolve="SLANG_NODE_CONCEPT" />
+                  <node concept="liA8E" id="5JNiskhU6Zg" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jWI" resolve="slangNodeConcept" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="6Pr6izIOV6H" role="37vLTJ">

@@ -3818,8 +3818,8 @@
     <node concept="312cEg" id="4WflrVaq3Zc" role="jymVt">
       <property role="TrG5h" value="constants" />
       <node concept="3Tmbuc" id="4WflrVaq46l" role="1B3o_S" />
-      <node concept="3uibUv" id="1xqd6ptu0RD" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="2tJIrI" id="4WflrVaq3XU" role="jymVt" />
@@ -4055,8 +4055,8 @@
     <node concept="312cEg" id="5TNjoy1Aj0O" role="jymVt">
       <property role="TrG5h" value="constants" />
       <node concept="3Tmbuc" id="5TNjoy1AkPb" role="1B3o_S" />
-      <node concept="3uibUv" id="24j7TNH1ys2" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhCKmY" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="5TNjoy1Aj0R" role="jymVt">

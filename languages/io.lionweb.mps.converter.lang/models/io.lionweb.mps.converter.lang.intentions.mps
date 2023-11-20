@@ -22,11 +22,11 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" implicit="true" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -71,9 +71,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -639,9 +636,6 @@
             <node concept="3cpWs8" id="5M3rB6C9CRk" role="3cqZAp">
               <node concept="3cpWsn" id="5M3rB6C9CRl" role="3cpWs9">
                 <property role="TrG5h" value="constants" />
-                <node concept="3uibUv" id="5M3rB6C9CN6" role="1tU5fm">
-                  <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-                </node>
                 <node concept="2ShNRf" id="5M3rB6C9CRm" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6C9CRn" role="2ShVmc">
                     <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
@@ -649,6 +643,9 @@
                       <ref role="3cqZAo" node="5M3rB6C9CdW" resolve="repository" />
                     </node>
                   </node>
+                </node>
+                <node concept="3uibUv" id="5JNiskhBWOE" role="1tU5fm">
+                  <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
                 </node>
               </node>
             </node>
@@ -1110,9 +1107,6 @@
             <node concept="3cpWs8" id="5M3rB6C9AIe" role="3cqZAp">
               <node concept="3cpWsn" id="5M3rB6C9AIf" role="3cpWs9">
                 <property role="TrG5h" value="constants" />
-                <node concept="3uibUv" id="5M3rB6C9ADN" role="1tU5fm">
-                  <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-                </node>
                 <node concept="2ShNRf" id="5M3rB6C9AIg" role="33vP2m">
                   <node concept="1pGfFk" id="5M3rB6C9AIh" role="2ShVmc">
                     <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
@@ -1120,6 +1114,9 @@
                       <ref role="3cqZAo" node="5M3rB6C9A8y" resolve="repository" />
                     </node>
                   </node>
+                </node>
+                <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+                  <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
                 </node>
               </node>
             </node>
@@ -1902,7 +1899,6 @@
                 </node>
                 <node concept="2ShNRf" id="1q44RFT01lC" role="33vP2m">
                   <node concept="1pGfFk" id="1q44RFT01lD" role="2ShVmc">
-                    <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="6peh:24j7TNH1A2A" resolve="M2ToJson" />
                     <node concept="37vLTw" id="1q44RFT0c1F" role="37wK5m">
                       <ref role="3cqZAo" node="1q44RFT0641" resolve="repository" />
