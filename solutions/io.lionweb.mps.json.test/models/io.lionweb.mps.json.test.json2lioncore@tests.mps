@@ -336,7 +336,7 @@
                     </node>
                     <node concept="2ShNRf" id="5TNjoy1z1Ew" role="37wK5m">
                       <node concept="1pGfFk" id="5TNjoy1z23O" role="2ShVmc">
-                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonBuiltins" />
+                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
                         <node concept="2YIFZM" id="5ocQ9W1xKKO" role="37wK5m">
                           <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                           <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
@@ -509,7 +509,7 @@
                 </node>
                 <node concept="2ShNRf" id="5TNjoy1z2IY" role="37wK5m">
                   <node concept="1pGfFk" id="5TNjoy1z34A" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonBuiltins" />
+                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
                     <node concept="2YIFZM" id="1xqd6pt3WYZ" role="37wK5m">
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
@@ -679,7 +679,7 @@
                 </node>
                 <node concept="2ShNRf" id="6_BZUoIhBEx" role="37wK5m">
                   <node concept="1pGfFk" id="6_BZUoIhBEy" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonBuiltins" />
+                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
                     <node concept="2YIFZM" id="6_BZUoIhBEz" role="37wK5m">
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
