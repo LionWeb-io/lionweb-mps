@@ -358,8 +358,8 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tmbuc" id="24j7TNHe8m6" role="1B3o_S" />
-      <node concept="3uibUv" id="48csSBNRezJ" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhA7eH" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="5AGBwuDD_bQ" role="jymVt">
@@ -679,11 +679,11 @@
       </node>
       <node concept="37vLTG" id="6VkSF6c16U5" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="6VkSF6c16U6" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="4oHUzWXgO4L" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhAc7I" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="18UigYQMSz3" role="3clF46">
@@ -716,8 +716,8 @@
       <node concept="3cqZAl" id="4oHUzWXgi0e" role="3clF45" />
       <node concept="37vLTG" id="4oHUzWXgi04" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="4oHUzWXgi05" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+        <node concept="3uibUv" id="5JNiskhAinR" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="3clFbS" id="4oHUzWXghYP" role="3clF47">
@@ -735,7 +735,7 @@
                   <ref role="3cqZAo" node="4oHUzWXgi04" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="4oHUzWXghYX" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k1p" resolve="listSLanguagePrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="4oHUzWXghYY" role="2OqNvi" />
@@ -756,7 +756,7 @@
                   <ref role="3cqZAo" node="4oHUzWXgi04" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="4oHUzWXghZ6" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="4oHUzWXghZ7" role="2OqNvi" />
@@ -819,7 +819,7 @@
                   <ref role="3cqZAo" node="4oHUzWXgi04" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="4oHUzWXghZ$" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9vEq" resolve="listSLanguageClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZG" resolve="listSLanguageClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="4oHUzWXghZ_" role="2OqNvi" />
@@ -840,7 +840,7 @@
                   <ref role="3cqZAo" node="4oHUzWXgi04" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="4oHUzWXghZH" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9rXU" resolve="listLcClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZs" resolve="listLcClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="4oHUzWXghZI" role="2OqNvi" />
@@ -1302,8 +1302,8 @@
                     <node concept="37vLTw" id="39$JcGGX1$Z" role="2Oq$k0">
                       <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                     </node>
-                    <node concept="2OwXpG" id="39$JcGGXarb" role="2OqNvi">
-                      <ref role="2Oxat5" to="y7p:39$JcGGWAx4" resolve="SLANG_BOOLEAN_TYPE" />
+                    <node concept="liA8E" id="5JNiskhHKmz" role="2OqNvi">
+                      <ref role="37wK5l" to="y7p:5JNiski3jVJ" resolve="slangBooleanType" />
                     </node>
                   </node>
                 </node>
@@ -1319,8 +1319,8 @@
                     <node concept="37vLTw" id="39$JcGGXdRn" role="2Oq$k0">
                       <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                     </node>
-                    <node concept="2OwXpG" id="39$JcGGXdRo" role="2OqNvi">
-                      <ref role="2Oxat5" to="y7p:39$JcGGWu$v" resolve="SLANG_INTEGER_TYPE" />
+                    <node concept="liA8E" id="5JNiskhIajz" role="2OqNvi">
+                      <ref role="37wK5l" to="y7p:5JNiski3jW4" resolve="slangIntegerType" />
                     </node>
                   </node>
                 </node>
@@ -1336,8 +1336,8 @@
                     <node concept="37vLTw" id="39$JcGGXkk4" role="2Oq$k0">
                       <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                     </node>
-                    <node concept="2OwXpG" id="39$JcGGXkk5" role="2OqNvi">
-                      <ref role="2Oxat5" to="y7p:39$JcGGWFCK" resolve="SLANG_STRING_TYPE" />
+                    <node concept="liA8E" id="5JNiskhHWv_" role="2OqNvi">
+                      <ref role="37wK5l" to="y7p:5JNiski3jVq" resolve="slangStringType" />
                     </node>
                   </node>
                 </node>
@@ -1361,8 +1361,8 @@
               <node concept="37vLTw" id="SgalDIMkgT" role="2Oq$k0">
                 <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
               </node>
-              <node concept="2OwXpG" id="SgalDIMuxI" role="2OqNvi">
-                <ref role="2Oxat5" to="y7p:5AGBwuFFuSI" resolve="SLANG_CORE_LANGUAGE_ID" />
+              <node concept="liA8E" id="5JNiskhIkg0" role="2OqNvi">
+                <ref role="37wK5l" to="y7p:5JNiski3jYb" resolve="slangCoreLanguageId" />
               </node>
             </node>
           </node>
@@ -1636,9 +1636,9 @@
               <node concept="2pJxcG" id="2chztJeE$93" role="2pJxcM">
                 <ref role="2pJxcJ" to="h3y3:2chztJeDvZC" resolve="version" />
                 <node concept="WxPPo" id="6jTTMHD7tY7" role="28ntcv">
-                  <node concept="2YIFZM" id="6jTTMHD7$Mu" role="WxPPp">
-                    <ref role="37wK5l" to="apzt:6jTTMHD72KX" resolve="getLanguageVersion" />
-                    <ref role="1Pybhc" to="apzt:6jTTMHD72IS" resolve="MpsLanguageUtil" />
+                  <node concept="2YIFZM" id="5JNiskiLBP7" role="WxPPp">
+                    <ref role="37wK5l" to="y7p:6jTTMHD72KX" resolve="getLanguageVersion" />
+                    <ref role="1Pybhc" to="y7p:6jTTMHD72IS" resolve="MpsLanguageUtil" />
                     <node concept="37vLTw" id="6jTTMHD7Cu3" role="37wK5m">
                       <ref role="3cqZAo" node="48csSBNReDf" resolve="mps" />
                     </node>
@@ -3104,8 +3104,8 @@
                   <node concept="37vLTw" id="6Pr6izINgzP" role="2Oq$k0">
                     <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="6Pr6izINgzQ" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:30uXOOfMilO" resolve="SLANG_ANNOTATION_CONCEPT" />
+                  <node concept="liA8E" id="5JNiskhIHp2" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jWZ" resolve="slangAnnotationConcept" />
                   </node>
                 </node>
               </node>
@@ -3194,8 +3194,8 @@
                   <node concept="37vLTw" id="6Pr6izIP8Ls" role="2Oq$k0">
                     <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="6Pr6izIPn5x" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:39$JcGG9w_Q" resolve="SLANG_NODE_CONCEPT" />
+                  <node concept="liA8E" id="5JNiskhIvPx" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jWI" resolve="slangNodeConcept" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="6Pr6izIOV6H" role="37vLTJ">
@@ -3986,8 +3986,8 @@
                   <node concept="37vLTw" id="2fx6VTT$tRk" role="2Oq$k0">
                     <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="2fx6VTT$tRl" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:2ju2syjsm_6" resolve="LC_STRING_TYPE" />
+                  <node concept="liA8E" id="5JNiskhIUWn" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jVi" resolve="lcStringType" />
                   </node>
                 </node>
               </node>
@@ -4692,7 +4692,7 @@
                   <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="39$JcGFGbPb" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFCaKW" resolve="listSLanguagePrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k1p" resolve="listSLanguagePrimitiveTypes" />
                 </node>
               </node>
               <node concept="2WmjW8" id="39$JcGFGbPc" role="2OqNvi">
@@ -4716,7 +4716,7 @@
                       <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGFGJHW" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                      <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                 </node>
@@ -4975,11 +4975,11 @@
       </node>
       <node concept="37vLTG" id="48csSBOkJmG" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="48csSBOkJmI" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="4oHUzWXpfm6" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="18UigYQTa6f" role="3clF46">

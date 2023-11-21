@@ -878,63 +878,6 @@
       <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
-  <node concept="312cEu" id="6jTTMHD72IS">
-    <property role="TrG5h" value="MpsLanguageUtil" />
-    <node concept="2YIFZL" id="6jTTMHD72KX" role="jymVt">
-      <property role="TrG5h" value="getLanguageVersion" />
-      <node concept="3clFbS" id="6jTTMHD72L0" role="3clF47">
-        <node concept="3SKdUt" id="6jTTMHD7fCT" role="3cqZAp">
-          <node concept="1PaTwC" id="6jTTMHD7fCU" role="1aUNEU">
-            <node concept="3oM_SD" id="6jTTMHD7fDH" role="1PaTwD">
-              <property role="3oM_SC" value="Why" />
-            </node>
-            <node concept="3oM_SD" id="6jTTMHD7fDJ" role="1PaTwD">
-              <property role="3oM_SC" value="is" />
-            </node>
-            <node concept="3oM_SD" id="6jTTMHD7l3h" role="1PaTwD">
-              <property role="3oM_SC" value="SLanguage.getLanguageVersion()" />
-            </node>
-            <node concept="3oM_SD" id="6jTTMHD7l3l" role="1PaTwD">
-              <property role="3oM_SC" value="deprecated?" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6jTTMHD74sb" role="3cqZAp">
-          <node concept="15s5l7" id="6jTTMHD74M2" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: getLanguageVersion():int is deprecated&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/1225207423729]&quot;;" />
-            <property role="huDt6" value="Warning: getLanguageVersion():int is deprecated" />
-          </node>
-          <node concept="2OqwBi" id="6jTTMHD74yj" role="3clFbG">
-            <node concept="37vLTw" id="6jTTMHD74sa" role="2Oq$k0">
-              <ref role="3cqZAo" node="6jTTMHD74qZ" resolve="language" />
-            </node>
-            <node concept="liA8E" id="6jTTMHD74Cr" role="2OqNvi">
-              <ref role="37wK5l" to="c17a:~SLanguage.getLanguageVersion()" resolve="getLanguageVersion" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="6jTTMHD72Kk" role="1B3o_S" />
-      <node concept="10Oyi0" id="6jTTMHD72KM" role="3clF45" />
-      <node concept="37vLTG" id="6jTTMHD74qZ" role="3clF46">
-        <property role="TrG5h" value="language" />
-        <node concept="3uibUv" id="6jTTMHD74qY" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-        </node>
-        <node concept="2AHcQZ" id="1f4Qr8VHxVH" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="6jTTMHD72IT" role="1B3o_S" />
-    <node concept="3UR2Jj" id="6jTTMHD72JM" role="lGtFl">
-      <node concept="TZ5HA" id="6jTTMHD72JN" role="TZ5H$">
-        <node concept="1dT_AC" id="6jTTMHD72JO" role="1dT_Ay">
-          <property role="1dT_AB" value="Common place to access MPS language specifics" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="312cEu" id="3zvxfLhsBRw">
     <property role="TrG5h" value="MpsIdDeserializer" />
     <node concept="3clFb_" id="3zvxfLhsDcB" role="jymVt">
@@ -2789,19 +2732,19 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="24j7TNHl0Pq" role="1B3o_S" />
-      <node concept="3uibUv" id="24j7TNHl0Pr" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhBNOj" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="2tJIrI" id="24j7TNHl1lP" role="jymVt" />
     <node concept="3clFbW" id="24j7TNHl1J_" role="jymVt">
       <node concept="37vLTG" id="24j7TNHl1JA" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="24j7TNHl1JB" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="24j7TNHm0qV" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBOYC" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="3cqZAl" id="24j7TNHl1JF" role="3clF45" />
@@ -3070,7 +3013,7 @@
                   <ref role="3cqZAo" node="24j7TNHl0Pp" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="3M8YG$9WrZK" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:4R9posq8Wle" resolve="listSLanguages" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jYA" resolve="listSLanguages" />
                 </node>
               </node>
             </node>
@@ -3109,7 +3052,7 @@
                             <ref role="3cqZAo" node="24j7TNHl0Pp" resolve="constants" />
                           </node>
                           <node concept="liA8E" id="4WflrVakwKP" role="2OqNvi">
-                            <ref role="37wK5l" to="y7p:4WflrVajd3a" resolve="isAnnotationContainment" />
+                            <ref role="37wK5l" to="y7p:5JNiski3k2r" resolve="isAnnotationContainment" />
                             <node concept="37vLTw" id="4WflrVakxjp" role="37wK5m">
                               <ref role="3cqZAo" node="4WflrVakuFA" resolve="it" />
                             </node>
@@ -3425,7 +3368,7 @@
                     <ref role="3cqZAo" node="24j7TNHl0Pp" resolve="constants" />
                   </node>
                   <node concept="liA8E" id="24j7TNHaqWl" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:39$JcGG9vEq" resolve="listSLanguageClassifiers" />
+                    <ref role="37wK5l" to="y7p:5JNiski3jZG" resolve="listSLanguageClassifiers" />
                   </node>
                 </node>
                 <node concept="3JPx81" id="24j7TNHaAmS" role="2OqNvi">
@@ -3441,7 +3384,7 @@
                   <ref role="3cqZAo" node="24j7TNHl0Pp" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="4R9posq9Ezn" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:4R9posq8Wle" resolve="listSLanguages" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jYA" resolve="listSLanguages" />
                 </node>
               </node>
               <node concept="3JPx81" id="4R9posq9GU7" role="2OqNvi">
@@ -3873,8 +3816,8 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="1q44RFTaw5G" role="1B3o_S" />
-      <node concept="3uibUv" id="1q44RFTawMM" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhBM$H" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="2tJIrI" id="18UigYQMyx6" role="jymVt" />
@@ -3899,11 +3842,11 @@
       </node>
       <node concept="37vLTG" id="1q44RFTaxro" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="1q44RFTaxrq" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="1q44RFTaxzG" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBMQJ" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="3cqZAl" id="5AGBwuFEKL9" role="3clF45" />
@@ -4066,7 +4009,7 @@
           <node concept="1Wc70l" id="1q44RFT11L$" role="3clFbG">
             <node concept="2OqwBi" id="1q44RFT27Or" role="3uHU7w">
               <node concept="1rXfSq" id="1q44RFT265h" role="2Oq$k0">
-                <ref role="37wK5l" node="6_gUeuqKubb" resolve="getSuperConcepts" />
+                <ref role="37wK5l" node="6_gUeuqKubb" resolve="collectSuperConcepts" />
                 <node concept="37vLTw" id="1q44RFT26wg" role="37wK5m">
                   <ref role="3cqZAo" node="18UigYQAWPW" resolve="concept" />
                 </node>
@@ -4099,8 +4042,8 @@
                 <node concept="37vLTw" id="1q44RFTa$JA" role="2Oq$k0">
                   <ref role="3cqZAo" node="1q44RFTawS7" resolve="constants" />
                 </node>
-                <node concept="2OwXpG" id="1q44RFTaItK" role="2OqNvi">
-                  <ref role="2Oxat5" to="y7p:5AGBwuFFuSI" resolve="SLANG_CORE_LANGUAGE_ID" />
+                <node concept="liA8E" id="5JNiskhKvvH" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:5JNiski3jYb" resolve="slangCoreLanguageId" />
                 </node>
               </node>
               <node concept="2OqwBi" id="1q44RFTaBhy" role="3uHU7B">
@@ -4601,11 +4544,11 @@
     <node concept="3clFbW" id="3M8YG$atACu" role="jymVt">
       <node concept="37vLTG" id="3M8YG$atAD3" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$atAD4" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$atAD5" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$atAD6" role="3clF46">
@@ -4950,11 +4893,11 @@
       </node>
       <node concept="37vLTG" id="3M8YG$a_Ie0" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$a_Ie1" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$a_Ie2" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBQks" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$a_Ie3" role="3clF46">
@@ -5061,11 +5004,11 @@
     <node concept="3clFbW" id="3M8YG$atGOP" role="jymVt">
       <node concept="37vLTG" id="3M8YG$atGOQ" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$atGOR" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$atGOS" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBQdG" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$atGOT" role="3clF46">
@@ -5227,11 +5170,11 @@
     <node concept="3clFbW" id="3M8YG$atZlE" role="jymVt">
       <node concept="37vLTG" id="3M8YG$atZlF" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$atZlG" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$atZlH" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBPKh" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$atZlI" role="3clF46">
@@ -5455,11 +5398,11 @@
     <node concept="3clFbW" id="3M8YG$aufzB" role="jymVt">
       <node concept="37vLTG" id="3M8YG$aufzC" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$aufzD" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$aufzE" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBVfs" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$aufzF" role="3clF46">
@@ -5615,11 +5558,11 @@
       </node>
       <node concept="37vLTG" id="3M8YG$aumwa" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$aumwb" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$aumwc" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBUVm" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$aumwd" role="3clF46">
@@ -5821,8 +5764,8 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="3M8YG$avgGm" role="1B3o_S" />
-      <node concept="3uibUv" id="3M8YG$avgGo" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhBSGE" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="2tJIrI" id="3M8YG$avedw" role="jymVt" />
@@ -5833,11 +5776,11 @@
     <node concept="3clFbW" id="3M8YG$auzMd" role="jymVt">
       <node concept="37vLTG" id="3M8YG$auzMe" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$auzMf" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$auzMg" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBUfe" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="3M8YG$auzMh" role="3clF46">

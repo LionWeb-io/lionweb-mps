@@ -572,9 +572,6 @@
     </node>
     <node concept="2XrIbr" id="3M8YG$a_1L3" role="1qtyYc">
       <property role="TrG5h" value="constants" />
-      <node concept="3uibUv" id="3M8YG$a_1L4" role="3clF45">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-      </node>
       <node concept="3clFbS" id="3M8YG$a_1L5" role="3clF47">
         <node concept="3clFbF" id="3M8YG$a_1L6" role="3cqZAp">
           <node concept="2ShNRf" id="3M8YG$a_1L7" role="3clFbG">
@@ -591,6 +588,9 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="3M8YG$a_1Lc" role="1B3o_S" />
+      <node concept="3uibUv" id="5JNiskhCD8G" role="3clF45">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+      </node>
     </node>
     <node concept="2XrIbr" id="3M8YG$a$PST" role="1qtyYc">
       <property role="TrG5h" value="languages" />
@@ -640,9 +640,6 @@
     </node>
     <node concept="2XrIbr" id="3M8YG$a_2a3" role="1qtyYc">
       <property role="TrG5h" value="constants" />
-      <node concept="3uibUv" id="3M8YG$a_2a4" role="3clF45">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-      </node>
       <node concept="3clFbS" id="3M8YG$a_2a5" role="3clF47">
         <node concept="3clFbF" id="3M8YG$a_2a6" role="3cqZAp">
           <node concept="2ShNRf" id="3M8YG$a_2a7" role="3clFbG">
@@ -659,6 +656,9 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="3M8YG$a_2ac" role="1B3o_S" />
+      <node concept="3uibUv" id="5JNiskhCCux" role="3clF45">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+      </node>
     </node>
     <node concept="2XrIbr" id="3M8YG$a$OU$" role="1qtyYc">
       <property role="TrG5h" value="languages" />
@@ -1055,9 +1055,6 @@
     </node>
     <node concept="2XrIbr" id="3M8YG$a$N2g" role="1qtyYc">
       <property role="TrG5h" value="constants" />
-      <node concept="3uibUv" id="3M8YG$a$NfR" role="3clF45">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-      </node>
       <node concept="3clFbS" id="3M8YG$a$N2i" role="3clF47">
         <node concept="3clFbF" id="3M8YG$a$Ngb" role="3cqZAp">
           <node concept="2ShNRf" id="3M8YG$a$Ngd" role="3clFbG">
@@ -1074,6 +1071,9 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="3M8YG$a$Nf_" role="1B3o_S" />
+      <node concept="3uibUv" id="5M3rB6_S5ni" role="3clF45">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+      </node>
     </node>
     <node concept="2XrIbr" id="3M8YG$a$Ni0" role="1qtyYc">
       <property role="TrG5h" value="languages" />

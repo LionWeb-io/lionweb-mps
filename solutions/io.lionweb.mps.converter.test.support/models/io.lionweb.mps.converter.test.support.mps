@@ -1785,11 +1785,11 @@
     <node concept="3clFbW" id="3M8YG$9VNCH" role="jymVt">
       <node concept="37vLTG" id="3M8YG$9VNCI" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="3M8YG$9VNCJ" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="3M8YG$9VNCK" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="3cqZAl" id="3M8YG$9VNCL" role="3clF45" />

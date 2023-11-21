@@ -401,8 +401,8 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="3ePT3MaWqL4" role="1B3o_S" />
-      <node concept="3uibUv" id="DUXtH0TVq9" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="18UigYQMTew" role="jymVt">
@@ -747,11 +747,11 @@
       </node>
       <node concept="37vLTG" id="5M3rB6B_9c1" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="5M3rB6B_ao9" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="5M3rB6B_awb" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskhBF1E" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="18UigYQMSz3" role="3clF46">
@@ -799,7 +799,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6B_hsz" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFBXef" resolve="listMpsPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k1h" resolve="listMpsPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6B_hs$" role="2OqNvi" />
@@ -820,7 +820,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6B_hsG" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6B_hsH" role="2OqNvi" />
@@ -879,7 +879,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6B_ht9" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9tBP" resolve="listMpsClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZ$" resolve="listMpsClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6B_hta" role="2OqNvi" />
@@ -905,7 +905,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6B_htk" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9rXU" resolve="listLcClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZs" resolve="listLcClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6B_htl" role="2OqNvi" />
@@ -1143,7 +1143,7 @@
                                 <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                               </node>
                               <node concept="liA8E" id="5AGBwuDSPkB" role="2OqNvi">
-                                <ref role="37wK5l" to="y7p:39$JcGG9tBP" resolve="listMpsClassifiers" />
+                                <ref role="37wK5l" to="y7p:5JNiski3jZ$" resolve="listMpsClassifiers" />
                               </node>
                             </node>
                             <node concept="3JPx81" id="5AGBwuDTcmQ" role="2OqNvi">
@@ -1219,7 +1219,7 @@
                                 <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                               </node>
                               <node concept="liA8E" id="5AGBwuDV95g" role="2OqNvi">
-                                <ref role="37wK5l" to="y7p:39$JcGFBXef" resolve="listMpsPrimitiveTypes" />
+                                <ref role="37wK5l" to="y7p:5JNiski3k1h" resolve="listMpsPrimitiveTypes" />
                               </node>
                             </node>
                             <node concept="3JPx81" id="5AGBwuDVoco" role="2OqNvi">
@@ -2164,7 +2164,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="39$JcGGdTEX" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k1Z" resolve="isMpsInternalConcept" />
                   <node concept="37vLTw" id="39$JcGGdY30" role="37wK5m">
                     <ref role="3cqZAo" node="2ju2syjwP2v" resolve="mps" />
                   </node>
@@ -2514,7 +2514,7 @@
                         <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="39$JcGGf3om" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
+                        <ref role="37wK5l" to="y7p:5JNiski3k1Z" resolve="isMpsInternalConcept" />
                         <node concept="2OqwBi" id="39$JcGGf3on" role="37wK5m">
                           <node concept="37vLTw" id="39$JcGGf3oo" role="2Oq$k0">
                             <ref role="3cqZAo" node="2ju2syjC2Fc" resolve="mps" />
@@ -2816,8 +2816,8 @@
                   <node concept="37vLTw" id="6Pr6izINgzP" role="2Oq$k0">
                     <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="6Pr6izINgzQ" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:30uXOOfMilR" resolve="MPS_ANNOTATION_CONCEPT" />
+                  <node concept="liA8E" id="5JNiskhKoqv" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jWV" resolve="mpsAnnotationConcept" />
                   </node>
                 </node>
               </node>
@@ -2911,8 +2911,8 @@
                   <node concept="37vLTw" id="6Pr6izIP8Ls" role="2Oq$k0">
                     <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                   </node>
-                  <node concept="2OwXpG" id="6Pr6izIPn5x" role="2OqNvi">
-                    <ref role="2Oxat5" to="y7p:3ePT3MaQsZ_" resolve="MPS_NODE_CONCEPT" />
+                  <node concept="liA8E" id="5JNiskhKekA" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:5JNiski3jWE" resolve="mpsNodeConcept" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="6Pr6izIOV6H" role="37vLTJ">
@@ -3866,7 +3866,7 @@
                         <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="39$JcGGeodA" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:39$JcGFC1fs" resolve="isMpsInternalConcept" />
+                        <ref role="37wK5l" to="y7p:5JNiski3k1Z" resolve="isMpsInternalConcept" />
                         <node concept="2OqwBi" id="39$JcGGevcb" role="37wK5m">
                           <node concept="37vLTw" id="39$JcGGes5j" role="2Oq$k0">
                             <ref role="3cqZAo" node="2ju2syjxQ_b" resolve="mps" />
@@ -4375,7 +4375,7 @@
                   <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="39$JcGFPoj3" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFBXef" resolve="listMpsPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k1h" resolve="listMpsPrimitiveTypes" />
                 </node>
               </node>
               <node concept="2WmjW8" id="39$JcGFPoj4" role="2OqNvi">
@@ -4399,7 +4399,7 @@
                       <ref role="3cqZAo" node="3ePT3MaWqL3" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGFPQtv" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                      <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                 </node>

@@ -306,6 +306,9 @@
           <node concept="L2wRC" id="6jI_U5e9pFP" role="39821P">
             <ref role="L2wRA" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
           </node>
+          <node concept="L2wRC" id="RuBGkv4Hc_" role="39821P">
+            <ref role="L2wRA" node="RuBGkv2iXR" resolve="io.lionweb.mps.specific" />
+          </node>
           <node concept="L2wRC" id="oIR8hQg61Y" role="39821P">
             <ref role="L2wRA" node="oIR8hQg5OW" resolve="io.lionweb.mps.build" />
           </node>
@@ -583,6 +586,11 @@
             <ref role="3bR37D" node="6fYiNFaW8NT" resolve="io.lionweb.mps.structure.attribute" />
           </node>
         </node>
+        <node concept="1SiIV0" id="RuBGkv2iPP" role="3bR37C">
+          <node concept="3bR9La" id="RuBGkv2iPQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="6fYiNFaW8NT" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -646,6 +654,61 @@
         <node concept="1SiIV0" id="5AGBwuFPhe$" role="3bR37C">
           <node concept="3bR9La" id="5AGBwuFPhe_" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="RuBGkv2iXR" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="io.lionweb.mps.specific" />
+        <property role="3LESm3" value="e92f782f-6faf-41c2-bf76-2b1a350c0516" />
+        <node concept="398BVA" id="RuBGkv2iZw" role="3LF7KH">
+          <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+          <node concept="2Ry0Ak" id="RuBGkv2j10" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="RuBGkv2j21" role="2Ry0An">
+              <property role="2Ry0Am" value="io.lionweb.mps.specific" />
+              <node concept="2Ry0Ak" id="RuBGkv2j32" role="2Ry0An">
+                <property role="2Ry0Am" value="io.lionweb.mps.specific.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="RuBGkv2j4i" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="RuBGkv2j4j" role="1HemKq">
+            <node concept="398BVA" id="RuBGkv2j46" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="RuBGkv2j47" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="RuBGkv2j48" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.specific" />
+                  <node concept="2Ry0Ak" id="RuBGkv2j49" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="RuBGkv2j4k" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="RuBGkv4wT_" role="3bR31x">
+          <node concept="3LXTmp" id="RuBGkv4wTA" role="3rtmxm">
+            <node concept="398BVA" id="RuBGkv4wTB" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="RuBGkv4wTC" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="RuBGkv4wTD" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.specific" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="RuBGkv4wTF" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
           </node>
         </node>
       </node>
