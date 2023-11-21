@@ -3075,6 +3075,45 @@
               <node concept="3zACq4" id="24j7TNH1NgY" role="3cqZAp" />
             </node>
           </node>
+          <node concept="3KbdKl" id="utjSYFI9Ot" role="3KbHQx">
+            <node concept="Rm8GO" id="utjSYFIa6M" role="3Kbmr1">
+              <ref role="Rm8GQ" node="utjSYFI7F7" resolve="fineGrainedClosure" />
+              <ref role="1Px2BO" node="24j7TNH1AVU" resolve="M2ToJson.Scope" />
+            </node>
+            <node concept="3clFbS" id="utjSYFI9Ov" role="3Kbo56">
+              <node concept="3clFbF" id="utjSYFI9Ow" role="3cqZAp">
+                <node concept="37vLTI" id="utjSYFI9Ox" role="3clFbG">
+                  <node concept="37vLTw" id="utjSYFI9Oy" role="37vLTJ">
+                    <ref role="3cqZAo" node="5TNjoy1A$wU" resolve="converter" />
+                  </node>
+                  <node concept="2ShNRf" id="utjSYFI9Oz" role="37vLTx">
+                    <node concept="1pGfFk" id="utjSYFI9O$" role="2ShVmc">
+                      <ref role="37wK5l" to="5els:utjSYFlODI" resolve="FineGrainedClosureLanguage2JsonConverter" />
+                      <node concept="37vLTw" id="utjSYFI9O_" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
+                      </node>
+                      <node concept="37vLTw" id="utjSYFI9OA" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
+                      </node>
+                      <node concept="37vLTw" id="utjSYFI9OB" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy1Aj0U" resolve="mapper" />
+                      </node>
+                      <node concept="37vLTw" id="utjSYFI9OC" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy1Aj0R" resolve="attributeFinder" />
+                      </node>
+                      <node concept="37vLTw" id="utjSYFI9OD" role="37wK5m">
+                        <ref role="3cqZAo" node="5TNjoy1Ap6I" resolve="annotationFinder" />
+                      </node>
+                      <node concept="37vLTw" id="utjSYFI9OE" role="37wK5m">
+                        <ref role="3cqZAo" node="24j7TNH1Aeq" resolve="repository" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3zACq4" id="utjSYFI9OF" role="3cqZAp" />
+            </node>
+          </node>
         </node>
         <node concept="3clFbH" id="24j7TNH1ObR" role="3cqZAp" />
         <node concept="3clFbF" id="24j7TNH1Opg" role="3cqZAp">
@@ -3134,6 +3173,10 @@
       </node>
       <node concept="QsSxf" id="24j7TNH1AVW" role="Qtgdg">
         <property role="TrG5h" value="indirect" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="utjSYFI7F7" role="Qtgdg">
+        <property role="TrG5h" value="fineGrainedClosure" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="24j7TNH1AVY" role="1B3o_S" />
