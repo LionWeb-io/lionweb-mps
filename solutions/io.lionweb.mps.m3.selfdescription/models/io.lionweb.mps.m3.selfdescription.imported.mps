@@ -83,13 +83,13 @@
         <property role="2RzON1" value="LionCore_M3_NamespacedEntity_simpleName" />
         <property role="TrG5h" value="simpleName" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="7pLZNi2wTG$" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_NamespacedEntity_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPaY" id="7pLZNi2wTG_" role="2RzR6B">
@@ -99,7 +99,7 @@
         <property role="2RzON1" value="LionCore_M3_NamespaceProvider_namespaceQualifier" />
         <property role="TrG5h" value="namespaceQualifier" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGB" role="2RzR6B">
@@ -110,189 +110,189 @@
         <property role="2RzON1" value="LionCore_M3_Metamodel_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="7pLZNi2wTGD" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Metamodel_elements" />
         <property role="TrG5h" value="elements" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGF" />
+        <ref role="2RzQvY" node="7pLZNi2wTGF" resolve="MetamodelElement" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGE" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Metamodel_dependsOn" />
         <property role="TrG5h" value="dependsOn" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGB" />
+        <ref role="2RzQvY" node="7pLZNi2wTGB" resolve="Metamodel" />
       </node>
       <node concept="2RzQOr" id="7pLZNi2wTH4" role="2RzQ4z">
-        <ref role="2RzQOs" node="7pLZNi2wTG_" />
+        <ref role="2RzQOs" node="7pLZNi2wTG_" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGF" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_MetamodelElement" />
       <property role="TrG5h" value="MetamodelElement" />
-      <ref role="2RzPfO" node="7pLZNi2wTGy" />
+      <ref role="2RzPfO" node="7pLZNi2wTGy" resolve="NamespacedEntity" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGG" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_FeaturesContainer" />
       <property role="TrG5h" value="FeaturesContainer" />
-      <ref role="2RzPfO" node="7pLZNi2wTGF" />
+      <ref role="2RzPfO" node="7pLZNi2wTGF" resolve="MetamodelElement" />
       <node concept="2RzOte" id="7pLZNi2wTGH" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_FeaturesContainer_features" />
         <property role="TrG5h" value="features" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGP" />
+        <ref role="2RzQvY" node="7pLZNi2wTGP" resolve="Feature" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGI" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_FeaturesContainer_allFeatures" />
         <property role="TrG5h" value="allFeatures" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGP" />
+        <ref role="2RzQvY" node="7pLZNi2wTGP" resolve="Feature" />
       </node>
       <node concept="2RzQOr" id="7pLZNi2wTH5" role="2RzQ4z">
-        <ref role="2RzQOs" node="7pLZNi2wTG_" />
+        <ref role="2RzQOs" node="7pLZNi2wTG_" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGJ" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Concept" />
       <property role="TrG5h" value="Concept" />
-      <ref role="2RzPfO" node="7pLZNi2wTGG" />
+      <ref role="2RzPfO" node="7pLZNi2wTGG" resolve="FeaturesContainer" />
       <node concept="2RzOeU" id="7pLZNi2wTGK" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Concept_abstract" />
         <property role="TrG5h" value="abstract" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGL" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Concept_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGJ" />
+        <ref role="2RzQvY" node="7pLZNi2wTGJ" resolve="Concept" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGM" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Concept_implements" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGN" />
+        <ref role="2RzQvY" node="7pLZNi2wTGN" resolve="ConceptInterface" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGN" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_ConceptInterface" />
       <property role="TrG5h" value="ConceptInterface" />
-      <ref role="2RzPfO" node="7pLZNi2wTGG" />
+      <ref role="2RzPfO" node="7pLZNi2wTGG" resolve="FeaturesContainer" />
       <node concept="2RzOpR" id="7pLZNi2wTGO" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_ConceptInterface_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGN" />
+        <ref role="2RzQvY" node="7pLZNi2wTGN" resolve="ConceptInterface" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGP" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_Feature" />
       <property role="TrG5h" value="Feature" />
-      <ref role="2RzPfO" node="7pLZNi2wTGy" />
+      <ref role="2RzPfO" node="7pLZNi2wTGy" resolve="NamespacedEntity" />
       <node concept="2RzOeU" id="7pLZNi2wTGQ" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Feature_optional" />
         <property role="TrG5h" value="optional" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOeU" id="7pLZNi2wTGR" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Feature_derived" />
         <property role="TrG5h" value="derived" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGS" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_Link" />
       <property role="TrG5h" value="Link" />
-      <ref role="2RzPfO" node="7pLZNi2wTGP" />
+      <ref role="2RzPfO" node="7pLZNi2wTGP" resolve="Feature" />
       <node concept="2RzOeU" id="7pLZNi2wTGT" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Link_multiple" />
         <property role="TrG5h" value="multiple" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="7pLZNi2wTGU" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Link_type" />
         <property role="TrG5h" value="type" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGG" />
+        <ref role="2RzQvY" node="7pLZNi2wTGG" resolve="FeaturesContainer" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGV" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Reference" />
       <property role="TrG5h" value="Reference" />
-      <ref role="2RzPfO" node="7pLZNi2wTGS" />
+      <ref role="2RzPfO" node="7pLZNi2wTGS" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGW" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Property" />
       <property role="TrG5h" value="Property" />
-      <ref role="2RzPfO" node="7pLZNi2wTGP" />
+      <ref role="2RzPfO" node="7pLZNi2wTGP" resolve="Feature" />
       <node concept="2RzOpR" id="7pLZNi2wTGX" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Property_type" />
         <property role="TrG5h" value="type" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTGY" />
+        <ref role="2RzQvY" node="7pLZNi2wTGY" resolve="DataType" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGY" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_DataType" />
       <property role="TrG5h" value="DataType" />
-      <ref role="2RzPfO" node="7pLZNi2wTGF" />
+      <ref role="2RzPfO" node="7pLZNi2wTGF" resolve="MetamodelElement" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTGZ" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_PrimitiveType" />
       <property role="TrG5h" value="PrimitiveType" />
-      <ref role="2RzPfO" node="7pLZNi2wTGY" />
+      <ref role="2RzPfO" node="7pLZNi2wTGY" resolve="DataType" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTH0" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Containment" />
       <property role="TrG5h" value="Containment" />
-      <ref role="2RzPfO" node="7pLZNi2wTGS" />
+      <ref role="2RzPfO" node="7pLZNi2wTGS" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTH1" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Enumeration" />
       <property role="TrG5h" value="Enumeration" />
-      <ref role="2RzPfO" node="7pLZNi2wTGY" />
+      <ref role="2RzPfO" node="7pLZNi2wTGY" resolve="DataType" />
       <node concept="2RzOte" id="7pLZNi2wTH2" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Enumeration_literals" />
         <property role="TrG5h" value="literals" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7pLZNi2wTH3" />
+        <ref role="2RzQvY" node="7pLZNi2wTH3" resolve="EnumerationLiteral" />
       </node>
       <node concept="2RzQOr" id="7pLZNi2wTH6" role="2RzQ4z">
-        <ref role="2RzQOs" node="7pLZNi2wTG_" />
+        <ref role="2RzQOs" node="7pLZNi2wTG_" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="7pLZNi2wTH3" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_EnumerationLiteral" />
       <property role="TrG5h" value="EnumerationLiteral" />
-      <ref role="2RzPfO" node="7pLZNi2wTGy" />
+      <ref role="2RzPfO" node="7pLZNi2wTGy" resolve="NamespacedEntity" />
     </node>
   </node>
   <node concept="3z8Sf4" id="5sACIIs$jqC">
@@ -311,13 +311,13 @@
         <property role="2RzON1" value="LionCore_M3_NamespacedEntity_simpleName" />
         <property role="TrG5h" value="simpleName" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="5sACIIs$PgJ" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_NamespacedEntity_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPaY" id="5sACIIs$PgK" role="2RzR6B">
@@ -327,7 +327,7 @@
         <property role="2RzON1" value="LionCore_M3_NamespaceProvider_namespaceQualifier" />
         <property role="TrG5h" value="namespaceQualifier" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
@@ -338,195 +338,195 @@
         <property role="2RzON1" value="LionCore_M3_Metamodel_qualifiedName" />
         <property role="TrG5h" value="qualifiedName" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Metamodel_elements" />
         <property role="TrG5h" value="elements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgQ" />
+        <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="MetamodelElement" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgP" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Metamodel_dependsOn" />
         <property role="TrG5h" value="dependsOn" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgM" />
+        <ref role="2RzQvY" node="5sACIIs$PgM" resolve="Metamodel" />
       </node>
       <node concept="2RzQOr" id="5sACIIs$Phf" role="2RzQ4z">
-        <ref role="2RzQOs" node="5sACIIs$PgK" />
+        <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_MetamodelElement" />
       <property role="TrG5h" value="MetamodelElement" />
-      <ref role="2RzPfO" node="5sACIIs$PgH" />
+      <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_FeaturesContainer" />
       <property role="TrG5h" value="FeaturesContainer" />
-      <ref role="2RzPfO" node="5sACIIs$PgQ" />
+      <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
       <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_FeaturesContainer_features" />
         <property role="TrG5h" value="features" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$Ph0" />
+        <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgT" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_FeaturesContainer_allFeatures" />
         <property role="TrG5h" value="allFeatures" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$Ph0" />
+        <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
       </node>
       <node concept="2RzQOr" id="5sACIIs$Phg" role="2RzQ4z">
-        <ref role="2RzQOs" node="5sACIIs$PgK" />
+        <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Concept" />
       <property role="TrG5h" value="Concept" />
-      <ref role="2RzPfO" node="5sACIIs$PgR" />
+      <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
       <node concept="2RzOeU" id="5sACIIs$PgV" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Concept_abstract" />
         <property role="TrG5h" value="abstract" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgW" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Concept_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="5sACIIs$PgU" />
+        <ref role="2RzQvY" node="5sACIIs$PgU" resolve="Concept" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgX" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Concept_implements" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgY" />
+        <ref role="2RzQvY" node="5sACIIs$PgY" resolve="ConceptInterface" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_ConceptInterface" />
       <property role="TrG5h" value="ConceptInterface" />
-      <ref role="2RzPfO" node="5sACIIs$PgR" />
+      <ref role="2RzPfO" node="5sACIIs$PgR" resolve="FeaturesContainer" />
       <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_ConceptInterface_extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgY" />
+        <ref role="2RzQvY" node="5sACIIs$PgY" resolve="ConceptInterface" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph0" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_Feature" />
       <property role="TrG5h" value="Feature" />
-      <ref role="2RzPfO" node="5sACIIs$PgH" />
+      <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
       <node concept="2RzOeU" id="5sACIIs$Ph1" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Feature_optional" />
         <property role="TrG5h" value="optional" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOeU" id="5sACIIs$Ph2" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Feature_derived" />
         <property role="TrG5h" value="derived" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph3" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_Link" />
       <property role="TrG5h" value="Link" />
-      <ref role="2RzPfO" node="5sACIIs$Ph0" />
+      <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
       <node concept="2RzOeU" id="5sACIIs$Ph4" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Link_multiple" />
         <property role="TrG5h" value="multiple" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$Ph5" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Link_type" />
         <property role="TrG5h" value="concept" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="5sACIIs$PgR" />
+        <ref role="2RzQvY" node="5sACIIs$PgR" resolve="FeaturesContainer" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph6" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Reference" />
       <property role="TrG5h" value="Reference" />
-      <ref role="2RzPfO" node="5sACIIs$Ph3" />
+      <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph7" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Property" />
       <property role="TrG5h" value="Property" />
-      <ref role="2RzPfO" node="5sACIIs$Ph0" />
+      <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
       <node concept="2RzOpR" id="5sACIIs$Ph8" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Property_type" />
         <property role="TrG5h" value="concept" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="5sACIIs$Ph9" />
+        <ref role="2RzQvY" node="5sACIIs$Ph9" resolve="DataType" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph9" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="LionCore_M3_DataType" />
       <property role="TrG5h" value="DataType" />
-      <ref role="2RzPfO" node="5sACIIs$PgQ" />
+      <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="MetamodelElement" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Pha" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_PrimitiveType" />
       <property role="TrG5h" value="PrimitiveType" />
-      <ref role="2RzPfO" node="5sACIIs$Ph9" />
+      <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phb" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Containment" />
       <property role="TrG5h" value="Containment" />
-      <ref role="2RzPfO" node="5sACIIs$Ph3" />
+      <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phc" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_Enumeration" />
       <property role="TrG5h" value="Enumeration" />
-      <ref role="2RzPfO" node="5sACIIs$Ph9" />
+      <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
       <node concept="2RzOte" id="5sACIIs$Phd" role="2RzPPN">
         <property role="2RzON1" value="LionCore_M3_Enumeration_literals" />
         <property role="TrG5h" value="literals" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$Phe" />
+        <ref role="2RzQvY" node="5sACIIs$Phe" resolve="EnumerationLiteral" />
       </node>
       <node concept="2RzQOr" id="5sACIIs$Phh" role="2RzQ4z">
-        <ref role="2RzQOs" node="5sACIIs$PgK" />
+        <ref role="2RzQOs" node="5sACIIs$PgK" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phe" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="LionCore_M3_EnumerationLiteral" />
       <property role="TrG5h" value="EnumerationLiteral" />
-      <ref role="2RzPfO" node="5sACIIs$PgH" />
+      <ref role="2RzPfO" node="5sACIIs$PgH" resolve="NamespacedEntity" />
     </node>
   </node>
   <node concept="1a0hBo" id="6VkSF6aHijY">
     <property role="TrG5h" value="Library to MPS" />
     <node concept="2RzRkq" id="6VkSF6aHis6" role="1a0gs3">
-      <ref role="2RzRkr" node="6VkSF6cu7LM" />
+      <ref role="2RzRkr" node="6VkSF6cu7LM" resolve="library" />
     </node>
   </node>
   <node concept="2RzRRF" id="6VkSF6cu7LM">
@@ -541,19 +541,19 @@
         <property role="2RzON1" value="Ei9m_HbdmEYg_EwMLLVZ71ERRBZyXH8GHVyOVia8Sqg" />
         <property role="TrG5h" value="title" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="6VkSF6cu7LS" role="2RzPPN">
         <property role="2RzON1" value="OJhF8vB_qRMrA8A9a-H0LsByONdYtHGmQ-lk9rUHUc4" />
         <property role="TrG5h" value="pages" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" />
+        <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" resolve="Integer" />
       </node>
       <node concept="2RzOpR" id="6VkSF6cu7LT" role="2RzPPN">
         <property role="2RzON1" value="9ATCb8nXEuQAL3NOY-EUZwuThpIQnQ2C_2n97IRGA_g" />
         <property role="TrG5h" value="author" />
         <property role="2RzO1C" value="false" />
-        <ref role="2RzQvY" node="6VkSF6cu7LX" />
+        <ref role="2RzQvY" node="6VkSF6cu7LX" resolve="Writer" />
       </node>
     </node>
     <node concept="2RzPWn" id="6VkSF6cu7LU" role="2RzR6B">
@@ -564,14 +564,14 @@
         <property role="2RzON1" value="LdgCnVXNgZD7CLbBhBin2Rcdumx4qZUYz_jh2QnP5z8" />
         <property role="TrG5h" value="name" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="6VkSF6cu7LW" role="2RzPPN">
         <property role="2RzON1" value="TFS1ME6sEyRbkRchsr8zaZCcj_uF1LM0LXK24gbnxZM" />
         <property role="TrG5h" value="books" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="6VkSF6cu7LQ" />
+        <ref role="2RzQvY" node="6VkSF6cu7LQ" resolve="Book" />
       </node>
     </node>
     <node concept="2RzPWn" id="6VkSF6cu7LX" role="2RzR6B">
@@ -582,31 +582,31 @@
         <property role="2RzON1" value="onRRrZaasiOtDU2qFJgyW8OVz8p5-hqQu0Vlc_7Aq6s" />
         <property role="TrG5h" value="name" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPWn" id="6VkSF6cu7LZ" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="nNUEzZ7it7d2HoHPAtk5rGO4SsqVA3hAlBwkK1KP8QU" />
       <property role="TrG5h" value="GuideBookWriter" />
-      <ref role="2RzPfO" node="6VkSF6cu7LX" />
+      <ref role="2RzPfO" node="6VkSF6cu7LX" resolve="Writer" />
       <node concept="2RzOeU" id="6VkSF6cu7M0" role="2RzPPN">
         <property role="2RzON1" value="PoZyl6WXh-Cz5h2RspK1NL6zX9DdLwGpUUC-ygQmHMA" />
         <property role="TrG5h" value="countries" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
     <node concept="2RzPWn" id="6VkSF6cu7M1" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="RDa_L8gbU8XgW9z46oMysBi1Hb7vjcS8O8LUgXlFpeU" />
       <property role="TrG5h" value="SpecialistBookWriter" />
-      <ref role="2RzPfO" node="6VkSF6cu7LX" />
+      <ref role="2RzPfO" node="6VkSF6cu7LX" resolve="Writer" />
       <node concept="2RzOeU" id="6VkSF6cu7M2" role="2RzPPN">
         <property role="2RzON1" value="DbVixG73dI8xIF9TAoq2GOZru4CRQfRD8gG7TkFCZuU" />
         <property role="TrG5h" value="subject" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
   </node>
@@ -622,31 +622,31 @@
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzEzMTM0NDI1NzMxNzc4NDQ2MjI" />
       <property role="TrG5h" value="NodeAnnotation" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eS4" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzE4OTg5MjE" />
       <property role="TrG5h" value="DefaultAttributesAnnotation" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eS5" role="2RzR6B">
       <property role="2$GZ5r" value="true" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3Mzg0NzA" />
       <property role="TrG5h" value="MultipleTrue" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eS6" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA3OTI" />
       <property role="TrG5h" value="MultipleFalse" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eS7" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA3OTc" />
       <property role="TrG5h" value="INamedAnnotation" />
-      <ref role="2$GZ54" to="2pzz:6jTTMHCZNUU" />
+      <ref role="2$GZ54" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
     </node>
     <node concept="2RzPaY" id="1xqd6pt3eS8" role="2RzR6B">
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDI" />
@@ -657,138 +657,138 @@
       <property role="3KdWwX" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDM" />
       <property role="TrG5h" value="MyConcept" />
-      <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" />
+      <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSa" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDQ" />
       <property role="TrG5h" value="ConceptAnnotation" />
-      <ref role="2$GZ54" node="1xqd6pt3eS9" />
+      <ref role="2$GZ54" node="1xqd6pt3eS9" resolve="MyConcept" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSb" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MDk" />
       <property role="TrG5h" value="IfaceAnnotation" />
-      <ref role="2$GZ54" node="1xqd6pt3eS8" />
+      <ref role="2$GZ54" node="1xqd6pt3eS8" resolve="MyIface" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSc" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzM0Njc0ODA2NzM0NzI3NDA4MTQ" />
       <property role="TrG5h" value="AnnotationAnnotation" />
-      <ref role="2$GZ54" node="1xqd6pt3eS3" />
+      <ref role="2$GZ54" node="1xqd6pt3eS3" resolve="NodeAnnotation" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSd" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc0NzQ5MTc" />
       <property role="TrG5h" value="ImplementsAnnotation" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
       <node concept="2RzQOr" id="1xqd6pt3eSu" role="2$GZ5v">
-        <ref role="2RzQOs" node="1xqd6pt3eS8" />
+        <ref role="2RzQOs" node="1xqd6pt3eS8" resolve="MyIface" />
       </node>
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSe" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc0NzQ5NDc" />
       <property role="TrG5h" value="ExtendsAnnotation" />
-      <ref role="2$GZ54" node="1xqd6pt3eS3" />
-      <ref role="2$GZ52" node="1xqd6pt3eSc" />
+      <ref role="2$GZ54" node="1xqd6pt3eS3" resolve="NodeAnnotation" />
+      <ref role="2$GZ52" node="1xqd6pt3eSc" resolve="AnnotationAnnotation" />
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSf" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc1NTg5ODk" />
       <property role="TrG5h" value="PropertiesAnnotation" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
       <node concept="2RzOeU" id="1xqd6pt3eSg" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc1NTg5ODkvNzg3OTkxOTYzNjYwNzU1OTAxNw" />
         <property role="TrG5h" value="str" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="1xqd6pt3eSh" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc1NTg5ODkvNzg3OTkxOTYzNjYwNzU1OTAxOQ" />
         <property role="TrG5h" value="int" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" />
+        <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" resolve="Integer" />
       </node>
       <node concept="2RzOeU" id="1xqd6pt3eSi" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc1NTg5ODkvNzg3OTkxOTYzNjYwNzU1OTAyMg" />
         <property role="TrG5h" value="bool" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOeU" id="1xqd6pt3eSj" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc1NTg5ODkvNzg3OTkxOTYzNjYwNzU1OTAyNg" />
         <property role="TrG5h" value="json" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:39$JcGFBN1E" />
+        <ref role="2Rx9Fl" to="2pzz:39$JcGFBN1E" resolve="JSON" />
       </node>
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSk" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzY0MTU" />
       <property role="TrG5h" value="ReferencesAnnotation" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
       <node concept="2RzOpR" id="1xqd6pt3eSl" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzY0MTUvNzg3OTkxOTYzNjYwNzY3MjQ0Mg" />
         <property role="TrG5h" value="multiRequired" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="1xqd6pt3eS7" />
+        <ref role="2RzQvY" node="1xqd6pt3eS7" resolve="INamedAnnotation" />
       </node>
       <node concept="2RzOpR" id="1xqd6pt3eSm" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzY0MTUvNzg3OTkxOTYzNjYwNzYzNjQ0Mw" />
         <property role="TrG5h" value="optional" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="1xqd6pt3eSa" />
+        <ref role="2RzQvY" node="1xqd6pt3eSa" resolve="ConceptAnnotation" />
       </node>
       <node concept="2RzOpR" id="1xqd6pt3eSn" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzY0MTUvNzg3OTkxOTYzNjYwNzYzNjQ0NQ" />
         <property role="TrG5h" value="required" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="1xqd6pt3eSb" />
+        <ref role="2RzQvY" node="1xqd6pt3eSb" resolve="IfaceAnnotation" />
       </node>
       <node concept="2RzOpR" id="1xqd6pt3eSo" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzY0MTUvNzg3OTkxOTYzNjYwNzYzNjQ0OA" />
         <property role="TrG5h" value="multiOptional" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="1xqd6pt3eS7" />
+        <ref role="2RzQvY" node="1xqd6pt3eS7" resolve="INamedAnnotation" />
       </node>
     </node>
     <node concept="2$GZ55" id="1xqd6pt3eSp" role="2RzR6B">
       <property role="2$GZ5r" value="false" />
       <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzYzNzM" />
       <property role="TrG5h" value="ChildrenAnnotation" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
       <node concept="2RzOte" id="1xqd6pt3eSq" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzYzNzMvNzg3OTkxOTYzNjYwNzYzNjQwMQ" />
         <property role="TrG5h" value="any" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" />
+        <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
       </node>
       <node concept="2RzOte" id="1xqd6pt3eSr" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzYzNzMvNzg3OTkxOTYzNjYwNzYzNjQwMw" />
         <property role="TrG5h" value="concept" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="1xqd6pt3eS9" />
+        <ref role="2RzQvY" node="1xqd6pt3eS9" resolve="MyConcept" />
       </node>
       <node concept="2RzOte" id="1xqd6pt3eSs" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzYzNzMvNzg3OTkxOTYzNjYwNzYzNjQwNg" />
         <property role="TrG5h" value="iface" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="1xqd6pt3eS8" />
+        <ref role="2RzQvY" node="1xqd6pt3eS8" resolve="MyIface" />
       </node>
       <node concept="2RzOte" id="1xqd6pt3eSt" role="2RzPPN">
         <property role="2RzON1" value="YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2JiLzc4Nzk5MTk2MzY2MDc2MzYzNzMvNzg3OTkxOTYzNjYwNzYzNjQxMA" />
         <property role="TrG5h" value="annotation" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="1xqd6pt3eS4" />
+        <ref role="2RzQvY" node="1xqd6pt3eS4" resolve="DefaultAttributesAnnotation" />
       </node>
     </node>
   </node>

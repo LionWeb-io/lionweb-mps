@@ -51,7 +51,7 @@
       <property role="3vzGvf" value="456" />
     </node>
     <node concept="3vzGv1" id="5TNjoy2_wV_" role="3vzGvw">
-      <ref role="3vzGv2" node="5TNjoy2_wVr" />
+      <ref role="3vzGv2" node="5TNjoy2_wVr" resolve="First named" />
     </node>
   </node>
   <node concept="3vzBe$" id="5TNjoy2_wVB">
@@ -76,10 +76,10 @@
     <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
     <property role="pjpzt" value="39$JcGFainl/descendants" />
     <node concept="pgsVv" id="5TNjoy2_wXd" role="pgtdD">
-      <ref role="pgsW4" node="5TNjoy2_wV8" />
+      <ref role="pgsW4" node="5TNjoy2_wV8" resolve="ExistingGood" />
     </node>
     <node concept="pgsVv" id="5TNjoy2_wXf" role="pgtdD">
-      <ref role="pgsW4" node="5TNjoy2_wVB" />
+      <ref role="pgsW4" node="5TNjoy2_wVB" resolve="ExistingBroken" />
     </node>
     <node concept="pgsVv" id="5TNjoy2_wXi" role="pgtdD">
       <ref role="pgsW4" node="5TNjoy2_wVS" resolve="ImportedGood" />
