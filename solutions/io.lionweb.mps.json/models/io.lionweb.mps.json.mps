@@ -1051,8 +1051,8 @@
     </node>
   </node>
   <node concept="312cEu" id="39$JcGFQll9">
-    <property role="TrG5h" value="JsonBuiltins_2023_1" />
-    <property role="3GE5qa" value="jsonBuiltins" />
+    <property role="TrG5h" value="JsonConstants_2023_1" />
+    <property role="3GE5qa" value="jsonConstants" />
     <node concept="312cEg" id="5TNjoy1vf5J" role="jymVt">
       <property role="TrG5h" value="builtins" />
       <property role="3TUv4t" value="true" />
@@ -1266,15 +1266,8 @@
     </node>
     <node concept="2tJIrI" id="5TNjoy1vtgW" role="jymVt" />
     <node concept="3Tm1VV" id="39$JcGFQlla" role="1B3o_S" />
-    <node concept="3UR2Jj" id="1ilOlIESDA4" role="lGtFl">
-      <node concept="TZ5HA" id="1ilOlIESDA5" role="TZ5H$">
-        <node concept="1dT_AC" id="1ilOlIESDA6" role="1dT_Ay">
-          <property role="1dT_AB" value="Access to constants like built-in elements in Java JSON." />
-        </node>
-      </node>
-    </node>
     <node concept="3uibUv" id="5JNiskj4Ohs" role="EKbjA">
-      <ref role="3uigEE" node="5JNiskj4NAJ" resolve="IJsonBuiltins_2023_1" />
+      <ref role="3uigEE" node="5JNiskj4NAJ" resolve="IJsonConstants_2023_1" />
     </node>
   </node>
   <node concept="312cEu" id="5s4Z0e0n9EM">
@@ -2636,7 +2629,7 @@
                         <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
                       </node>
                       <node concept="37vLTw" id="5JNiskjEFPU" role="37wK5m">
-                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="builtins" />
+                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
                       </node>
                       <node concept="37vLTw" id="6jI_U5eP5I$" role="37wK5m">
                         <ref role="3cqZAo" node="6jI_U5eOOlf" resolve="input" />
@@ -2678,7 +2671,7 @@
                         <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
                       </node>
                       <node concept="37vLTw" id="5JNiskjEGrj" role="37wK5m">
-                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="builtins" />
+                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
                       </node>
                       <node concept="37vLTw" id="6jI_U5eP5IG" role="37wK5m">
                         <ref role="3cqZAo" node="6jI_U5eOOlf" resolve="input" />
@@ -2720,7 +2713,7 @@
                         <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
                       </node>
                       <node concept="37vLTw" id="5JNiskjEGHH" role="37wK5m">
-                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="builtins" />
+                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
                       </node>
                       <node concept="37vLTw" id="6jI_U5eP5IO" role="37wK5m">
                         <ref role="3cqZAo" node="6jI_U5eOOlf" resolve="input" />
@@ -3019,7 +3012,7 @@
                     <node concept="1pGfFk" id="24j7TNH1zjR" role="2ShVmc">
                       <ref role="37wK5l" to="5els:48csSBNRe$T" resolve="Language2JsonConverter" />
                       <node concept="37vLTw" id="24j7TNH1LDZ" role="37wK5m">
-                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="builtins" />
+                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
                       </node>
                       <node concept="37vLTw" id="24j7TNH1zjT" role="37wK5m">
                         <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
@@ -3058,7 +3051,7 @@
                     <node concept="1pGfFk" id="24j7TNH1NgT" role="2ShVmc">
                       <ref role="37wK5l" to="5els:48csSBOkJm_" resolve="IndirectLanguage2JsonConverter" />
                       <node concept="37vLTw" id="24j7TNH1NgU" role="37wK5m">
-                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="builtins" />
+                        <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
                       </node>
                       <node concept="37vLTw" id="24j7TNH1NgV" role="37wK5m">
                         <ref role="3cqZAo" node="5TNjoy1Aj0O" resolve="constants" />
@@ -3277,7 +3270,7 @@
                 </node>
                 <node concept="2ShNRf" id="5JNiskjhq5L" role="37wK5m">
                   <node concept="1pGfFk" id="5JNiskjhq5M" role="2ShVmc">
-                    <ref role="37wK5l" node="5JNiskj4SJa" resolve="JsonBuiltins" />
+                    <ref role="37wK5l" node="5JNiskj4SJa" resolve="JsonConstants" />
                     <node concept="2YIFZM" id="5JNiskjhq5N" role="37wK5m">
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
@@ -3373,7 +3366,7 @@
                 </node>
                 <node concept="2ShNRf" id="5JNiskjhmiX" role="37wK5m">
                   <node concept="1pGfFk" id="5JNiskjhmOC" role="2ShVmc">
-                    <ref role="37wK5l" node="5JNiskj4SJa" resolve="JsonBuiltins" />
+                    <ref role="37wK5l" node="5JNiskj4SJa" resolve="JsonConstants" />
                     <node concept="2YIFZM" id="5JNiskjhpJo" role="37wK5m">
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
@@ -4115,10 +4108,10 @@
       </node>
     </node>
     <node concept="312cEg" id="5TNjoy1Aj0L" role="jymVt">
-      <property role="TrG5h" value="builtins" />
+      <property role="TrG5h" value="jsonConstants" />
       <node concept="3Tmbuc" id="5JNiskjEBju" role="1B3o_S" />
       <node concept="3uibUv" id="24j7TNH1LA7" role="1tU5fm">
-        <ref role="3uigEE" node="5JNiskj4R_R" resolve="IJsonBuiltins" />
+        <ref role="3uigEE" node="5JNiskj4R_R" resolve="IJsonConstants" />
       </node>
     </node>
     <node concept="2tJIrI" id="5TNjoy1AnDM" role="jymVt" />
@@ -4246,7 +4239,7 @@
           <node concept="37vLTI" id="5TNjoy1Ae_c" role="3clFbG">
             <node concept="2ShNRf" id="5TNjoy1yW0o" role="37vLTx">
               <node concept="1pGfFk" id="5TNjoy1yWFg" role="2ShVmc">
-                <ref role="37wK5l" node="5JNiskj4SJa" resolve="JsonBuiltins" />
+                <ref role="37wK5l" node="5JNiskj4SJa" resolve="JsonConstants" />
                 <node concept="2YIFZM" id="24j7TNH1LDY" role="37wK5m">
                   <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                   <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
@@ -4254,7 +4247,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="5TNjoy1Ae_g" role="37vLTJ">
-              <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="builtins" />
+              <ref role="3cqZAo" node="5TNjoy1Aj0L" resolve="jsonConstants" />
             </node>
           </node>
         </node>
@@ -4274,8 +4267,8 @@
     </node>
   </node>
   <node concept="3HP615" id="5JNiskj4NAJ">
-    <property role="3GE5qa" value="jsonBuiltins" />
-    <property role="TrG5h" value="IJsonBuiltins_2023_1" />
+    <property role="3GE5qa" value="jsonConstants" />
+    <property role="TrG5h" value="IJsonConstants_2023_1" />
     <node concept="3clFb_" id="5JNiskj4Oxk" role="jymVt">
       <property role="TrG5h" value="listPrimitiveTypes" />
       <node concept="3clFbS" id="5JNiskj4Oxl" role="3clF47" />
@@ -4348,10 +4341,15 @@
     </node>
     <node concept="2tJIrI" id="5JNiskj4Oxi" role="jymVt" />
     <node concept="3Tm1VV" id="5JNiskj4NAK" role="1B3o_S" />
+    <node concept="3UR2Jj" id="RuBGkvsmYJ" role="lGtFl">
+      <node concept="TZ5HA" id="RuBGkvsmYK" role="TZ5H$">
+        <node concept="1dT_AC" id="RuBGkvsmYL" role="1dT_Ay" />
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="5JNiskj4R_R">
-    <property role="3GE5qa" value="jsonBuiltins" />
-    <property role="TrG5h" value="IJsonBuiltins" />
+    <property role="3GE5qa" value="jsonConstants" />
+    <property role="TrG5h" value="IJsonConstants" />
     <node concept="3clFb_" id="5JNiskj6wTk" role="jymVt">
       <property role="TrG5h" value="getSpecificLanguage" />
       <node concept="3clFbS" id="5JNiskj6wTn" role="3clF47" />
@@ -4494,18 +4492,25 @@
     </node>
     <node concept="3Tm1VV" id="5JNiskj4R_S" role="1B3o_S" />
     <node concept="3uibUv" id="5JNiskj4RSf" role="3HQHJm">
-      <ref role="3uigEE" node="5JNiskj4NAJ" resolve="IJsonBuiltins_2023_1" />
+      <ref role="3uigEE" node="5JNiskj4NAJ" resolve="IJsonConstants_2023_1" />
+    </node>
+    <node concept="3UR2Jj" id="RuBGkvsmSP" role="lGtFl">
+      <node concept="TZ5HA" id="RuBGkvsmSQ" role="TZ5H$">
+        <node concept="1dT_AC" id="RuBGkvsmSR" role="1dT_Ay">
+          <property role="1dT_AB" value="Access to constants like built-in elements in Java JSON." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5JNiskj4S1d">
-    <property role="3GE5qa" value="jsonBuiltins" />
-    <property role="TrG5h" value="JsonBuiltins" />
+    <property role="3GE5qa" value="jsonConstants" />
+    <property role="TrG5h" value="JsonConstants" />
     <node concept="3Tm1VV" id="5JNiskj4S1e" role="1B3o_S" />
     <node concept="3uibUv" id="5JNiskj4SjL" role="1zkMxy">
-      <ref role="3uigEE" node="39$JcGFQll9" resolve="JsonBuiltins_2023_1" />
+      <ref role="3uigEE" node="39$JcGFQll9" resolve="JsonConstants_2023_1" />
     </node>
     <node concept="3uibUv" id="5JNiskj4S_T" role="EKbjA">
-      <ref role="3uigEE" node="5JNiskj4R_R" resolve="IJsonBuiltins" />
+      <ref role="3uigEE" node="5JNiskj4R_R" resolve="IJsonConstants" />
     </node>
     <node concept="3clFbW" id="5JNiskj4SJa" role="jymVt">
       <node concept="37vLTG" id="5JNiskj4SJb" role="3clF46">
@@ -4521,7 +4526,7 @@
       <node concept="3Tm1VV" id="5JNiskj4SJf" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4SJn" role="3clF47">
         <node concept="XkiVB" id="5JNiskj4SJo" role="3cqZAp">
-          <ref role="37wK5l" node="5TNjoy1vf0o" resolve="JsonBuiltins_2023_1" />
+          <ref role="37wK5l" node="5TNjoy1vf0o" resolve="JsonConstants_2023_1" />
           <node concept="37vLTw" id="5JNiskj4SJp" role="37wK5m">
             <ref role="3cqZAo" node="5JNiskj4SJb" resolve="builtins" />
           </node>

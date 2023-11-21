@@ -326,7 +326,7 @@
         <node concept="XkiVB" id="48csSBOkJmF" role="3cqZAp">
           <ref role="37wK5l" node="48csSBNRe$T" resolve="Language2JsonConverter" />
           <node concept="37vLTw" id="48csSBOkJmJ" role="37wK5m">
-            <ref role="3cqZAo" node="48csSBPZs88" resolve="builtins" />
+            <ref role="3cqZAo" node="48csSBPZs88" resolve="jsonConstants" />
           </node>
           <node concept="37vLTw" id="5AGBwuFmRS3" role="37wK5m">
             <ref role="3cqZAo" node="5AGBwuFmRql" resolve="constants" />
@@ -346,12 +346,12 @@
         </node>
       </node>
       <node concept="37vLTG" id="48csSBPZs88" role="3clF46">
-        <property role="TrG5h" value="builtins" />
+        <property role="TrG5h" value="jsonConstants" />
         <node concept="2AHcQZ" id="1f4Qr8VrutZ" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="24j7TNH1LA7" role="1tU5fm">
-          <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonBuiltins" />
+          <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="5AGBwuFmRql" role="3clF46">
@@ -538,11 +538,11 @@
   <node concept="312cEu" id="48csSBNRezC">
     <property role="TrG5h" value="Language2JsonConverter" />
     <node concept="312cEg" id="48csSBNRezH" role="jymVt">
-      <property role="TrG5h" value="builtins" />
+      <property role="TrG5h" value="jsonConstants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="48csSBNRezI" role="1B3o_S" />
       <node concept="3uibUv" id="5JNiskj55M8" role="1tU5fm">
-        <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonBuiltins" />
+        <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
       </node>
     </node>
     <node concept="312cEg" id="5AGBwuFajTm" role="jymVt">
@@ -737,12 +737,12 @@
         <node concept="3clFbF" id="48csSBNRe__" role="3cqZAp">
           <node concept="37vLTI" id="48csSBNRe_A" role="3clFbG">
             <node concept="37vLTw" id="48csSBNSu1g" role="37vLTx">
-              <ref role="3cqZAo" node="48csSBNSpzW" resolve="builtins" />
+              <ref role="3cqZAo" node="48csSBNSpzW" resolve="jsonConstants" />
             </node>
             <node concept="2OqwBi" id="48csSBNSsc1" role="37vLTJ">
               <node concept="Xjq3P" id="48csSBNSsL4" role="2Oq$k0" />
               <node concept="2OwXpG" id="48csSBNSsc4" role="2OqNvi">
-                <ref role="2Oxat5" node="48csSBNRezH" resolve="builtins" />
+                <ref role="2Oxat5" node="48csSBNRezH" resolve="jsonConstants" />
               </node>
             </node>
           </node>
@@ -820,12 +820,12 @@
         </node>
       </node>
       <node concept="37vLTG" id="48csSBNSpzW" role="3clF46">
-        <property role="TrG5h" value="builtins" />
+        <property role="TrG5h" value="jsonConstants" />
         <node concept="2AHcQZ" id="1f4Qr8VdHcu" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5JNiskj5gjM" role="1tU5fm">
-          <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonBuiltins" />
+          <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="5AGBwuFajbY" role="3clF46">
@@ -891,7 +891,7 @@
             <node concept="2OqwBi" id="5M3rB6BBqZk" role="33vP2m">
               <node concept="2OqwBi" id="5TNjoy1w0dD" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1vVLm" role="2Oq$k0">
-                  <ref role="3cqZAo" node="48csSBNRezH" resolve="builtins" />
+                  <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1w87V" role="2OqNvi">
                   <ref role="37wK5l" to="6peh:5JNiskj4Oxk" resolve="listPrimitiveTypes" />
@@ -976,7 +976,7 @@
             <node concept="2OqwBi" id="5M3rB6BDRj9" role="33vP2m">
               <node concept="2OqwBi" id="5TNjoy1wsUX" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1wovd" role="2Oq$k0">
-                  <ref role="3cqZAo" node="48csSBNRezH" resolve="builtins" />
+                  <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1wzOf" role="2OqNvi">
                   <ref role="37wK5l" to="6peh:5JNiskj4Oxz" resolve="listClassifiers" />
@@ -4410,7 +4410,7 @@
                       <node concept="37vLTI" id="6jI_U5epElj" role="3clFbG">
                         <node concept="2OqwBi" id="6jI_U5epOok" role="37vLTx">
                           <node concept="37vLTw" id="6jI_U5epJTA" role="2Oq$k0">
-                            <ref role="3cqZAo" node="48csSBNRezH" resolve="builtins" />
+                            <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                           </node>
                           <node concept="liA8E" id="5TNjoy1wHlu" role="2OqNvi">
                             <ref role="37wK5l" to="6peh:5JNiskj4OxK" resolve="getString" />
@@ -5992,25 +5992,11 @@
                   </node>
                   <node concept="liA8E" id="4R9posqs$dy" role="2OqNvi">
                     <ref role="37wK5l" to="pe0e:4R9posqrkh9" resolve="lookupLanguage" />
-                    <node concept="2ShNRf" id="4R9posqs$dz" role="37wK5m">
-                      <node concept="1pGfFk" id="4R9posqs$d$" role="2ShVmc">
-                        <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                        <node concept="2OqwBi" id="4R9posqs$d_" role="37wK5m">
-                          <node concept="37vLTw" id="4R9posqs$dA" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4R9posqqswo" resolve="json" />
-                          </node>
-                          <node concept="liA8E" id="4R9posqs$dB" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="4R9posqs$dC" role="37wK5m">
-                          <node concept="37vLTw" id="4R9posqs$dD" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4R9posqqswo" resolve="json" />
-                          </node>
-                          <node concept="liA8E" id="4R9posqs$dE" role="2OqNvi">
-                            <ref role="37wK5l" to="imb3:~Language.getVersion()" resolve="getVersion" />
-                          </node>
-                        </node>
+                    <node concept="2YIFZM" id="RuBGkv9tR9" role="37wK5m">
+                      <ref role="37wK5l" to="xfsv:~UsedLanguage.fromLanguage(io.lionweb.lioncore.java.language.Language)" resolve="fromLanguage" />
+                      <ref role="1Pybhc" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                      <node concept="37vLTw" id="RuBGkv9tRa" role="37wK5m">
+                        <ref role="3cqZAo" node="4R9posqqswo" resolve="json" />
                       </node>
                     </node>
                   </node>
