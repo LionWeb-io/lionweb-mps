@@ -64,7 +64,7 @@
       <node concept="2RzOeU" id="6jTTMHCZNV2" role="2RzPPN">
         <property role="2RzON1" value="LionCore-builtins-INamed-name" />
         <property role="TrG5h" value="name" />
-        <ref role="2Rx9Fl" node="2ju2syjnJjX" />
+        <ref role="2Rx9Fl" node="2ju2syjnJjX" resolve="String" />
       </node>
     </node>
   </node>

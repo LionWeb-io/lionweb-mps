@@ -58,184 +58,184 @@
       <node concept="2RzOeU" id="2ju2syjnJjP" role="2RzPPN">
         <property role="2RzON1" value="2656571587264856935" />
         <property role="TrG5h" value="simpleName" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="2ju2syjo7cj" role="2RzPPN">
         <property role="2RzON1" value="2656571587264857353" />
         <property role="TrG5h" value="id" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOpR" id="2ju2syjoNFP" role="2RzPPN">
         <property role="2RzON1" value="2656571587264868887" />
         <property role="TrG5h" value="container" />
-        <ref role="2RzQvY" node="2ju2syjnHAm" />
+        <ref role="2RzQvY" node="2ju2syjnHAm" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjoNFU" role="2RzR6B">
       <property role="2RzON1" value="2656571587264857616" />
       <property role="TrG5h" value="MetamodelElement" />
       <property role="2RzP46" value="true" />
-      <ref role="2RzPfO" node="2ju2syjo7cK" />
+      <ref role="2RzPfO" node="2ju2syjo7cK" resolve="NamespacedEntity" />
     </node>
     <node concept="2RzPWn" id="2ju2syjpscX" role="2RzR6B">
       <property role="2RzON1" value="2656571587264858085" />
       <property role="TrG5h" value="Feature" />
       <property role="2RzP46" value="true" />
-      <ref role="2RzPfO" node="2ju2syjo7cK" />
+      <ref role="2RzPfO" node="2ju2syjo7cK" resolve="NamespacedEntity" />
       <node concept="2RzOeU" id="2ju2syjpsdc" role="2RzPPN">
         <property role="2RzON1" value="2656571587264858528" />
         <property role="TrG5h" value="optional" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpsdy" role="2RzR6B">
       <property role="2RzON1" value="2656571587264858738" />
       <property role="TrG5h" value="Property" />
-      <ref role="2RzPfO" node="2ju2syjpscX" />
+      <ref role="2RzPfO" node="2ju2syjpscX" resolve="Feature" />
       <node concept="2RzOpR" id="2ju2syjUbCk" role="2RzPPN">
         <property role="2RzON1" value="2656571587265467165" />
         <property role="TrG5h" value="type" />
-        <ref role="2RzQvY" node="2ju2syjpskx" />
+        <ref role="2RzQvY" node="2ju2syjpskx" resolve="DataType" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpse4" role="2RzR6B">
       <property role="2RzON1" value="2656571587264859051" />
       <property role="TrG5h" value="Link" />
       <property role="2RzP46" value="true" />
-      <ref role="2RzPfO" node="2ju2syjpscX" />
+      <ref role="2RzPfO" node="2ju2syjpscX" resolve="Feature" />
       <node concept="2RzOeU" id="2ju2syjUbDv" role="2RzPPN">
         <property role="2RzON1" value="2656571587264859572" />
         <property role="TrG5h" value="multiple" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="2ju2syjpsgO" role="2RzPPN">
         <property role="2RzON1" value="2656571587264867894" />
         <property role="TrG5h" value="type" />
-        <ref role="2RzQvY" node="2ju2syjpsgq" />
+        <ref role="2RzQvY" node="2ju2syjpsgq" resolve="FeaturesContainer" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpseC" role="2RzR6B">
       <property role="2RzON1" value="2656571587264859782" />
       <property role="TrG5h" value="Containment" />
-      <ref role="2RzPfO" node="2ju2syjpse4" />
+      <ref role="2RzPfO" node="2ju2syjpse4" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="2ju2syjpsfM" role="2RzR6B">
       <property role="2RzON1" value="2656571587264860095" />
       <property role="TrG5h" value="Reference" />
-      <ref role="2RzPfO" node="2ju2syjpse4" />
+      <ref role="2RzPfO" node="2ju2syjpse4" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="2ju2syjpsgq" role="2RzR6B">
       <property role="2RzON1" value="2656571587264860434" />
       <property role="TrG5h" value="FeaturesContainer" />
       <property role="2RzP46" value="true" />
-      <ref role="2RzPfO" node="2ju2syjoNFU" />
+      <ref role="2RzPfO" node="2ju2syjoNFU" resolve="MetamodelElement" />
       <node concept="2RzOte" id="2ju2syjpsgL" role="2RzPPN">
         <property role="2RzON1" value="2656571587264861371" />
         <property role="TrG5h" value="features" />
         <property role="2RzOhW" value="true" />
         <property role="2RzO1C" value="true" />
-        <ref role="2RzQvY" node="2ju2syjpscX" />
+        <ref role="2RzQvY" node="2ju2syjpscX" resolve="Feature" />
       </node>
       <node concept="2RzQOr" id="2ju2syjpslY" role="2RzQ4z">
-        <ref role="2RzQOs" node="2ju2syjnHAm" />
+        <ref role="2RzQOs" node="2ju2syjnHAm" resolve="NamespaceProvider" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpshh" role="2RzR6B">
       <property role="2RzON1" value="2656571587264861919" />
       <property role="TrG5h" value="Concept" />
-      <ref role="2RzPfO" node="2ju2syjpsgq" />
+      <ref role="2RzPfO" node="2ju2syjpsgq" resolve="FeaturesContainer" />
       <node concept="2RzOeU" id="2ju2syjpshD" role="2RzPPN">
         <property role="2RzON1" value="2656571587264862414" />
         <property role="TrG5h" value="abstract" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="2ju2syjpshQ" role="2RzPPN">
         <property role="2RzON1" value="2656571587264866539" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="2ju2syjpsjA" />
+        <ref role="2RzQvY" node="2ju2syjpsjA" resolve="ConceptInterface" />
       </node>
       <node concept="2RzOpR" id="2ju2syjpshI" role="2RzPPN">
         <property role="2RzON1" value="2656571587264862780" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
-        <ref role="2RzQvY" node="2ju2syjpshh" />
+        <ref role="2RzQvY" node="2ju2syjpshh" resolve="Concept" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpsjA" role="2RzR6B">
       <property role="2RzON1" value="2656571587264863094" />
       <property role="TrG5h" value="ConceptInterface" />
-      <ref role="2RzPfO" node="2ju2syjpsgq" />
+      <ref role="2RzPfO" node="2ju2syjpsgq" resolve="FeaturesContainer" />
       <node concept="2RzOpR" id="2ju2syjpsk2" role="2RzPPN">
         <property role="2RzON1" value="2656571587264865653" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="2ju2syjpsjA" />
+        <ref role="2RzQvY" node="2ju2syjpsjA" resolve="ConceptInterface" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjoNGc" role="2RzR6B">
       <property role="2RzON1" value="2656571587264869411" />
       <property role="TrG5h" value="Metamodel" />
       <node concept="2RzQOr" id="2ju2syjoNGl" role="2RzQ4z">
-        <ref role="2RzQOs" node="2ju2syjnHAm" />
+        <ref role="2RzQOs" node="2ju2syjnHAm" resolve="NamespaceProvider" />
       </node>
       <node concept="2RzOeU" id="2ju2syjoNGn" role="2RzPPN">
         <property role="2RzON1" value="2656571587264870012" />
         <property role="TrG5h" value="qualifiedName" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOeU" id="2ju2syjoNGs" role="2RzPPN">
         <property role="2RzON1" value="2656571587264870352" />
         <property role="TrG5h" value="id" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzOte" id="2ju2syjoNG$" role="2RzPPN">
         <property role="2RzON1" value="2656571587264870511" />
         <property role="TrG5h" value="elements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="2ju2syjoNFU" />
+        <ref role="2RzQvY" node="2ju2syjoNFU" resolve="MetamodelElement" />
       </node>
       <node concept="2RzOpR" id="2ju2syjpscD" role="2RzPPN">
         <property role="2RzON1" value="2656571587264871163" />
         <property role="TrG5h" value="dependsOn" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="2ju2syjoNGc" />
+        <ref role="2RzQvY" node="2ju2syjoNGc" resolve="Metamodel" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpskx" role="2RzR6B">
       <property role="2RzON1" value="2656571587264872498" />
       <property role="TrG5h" value="DataType" />
       <property role="2RzP46" value="true" />
-      <ref role="2RzPfO" node="2ju2syjoNFU" />
+      <ref role="2RzPfO" node="2ju2syjoNFU" resolve="MetamodelElement" />
     </node>
     <node concept="2RzPWn" id="2ju2syjpslv" role="2RzR6B">
       <property role="2RzON1" value="2656571587264872967" />
       <property role="TrG5h" value="PrimitiveType" />
-      <ref role="2RzPfO" node="2ju2syjpskx" />
+      <ref role="2RzPfO" node="2ju2syjpskx" resolve="DataType" />
     </node>
     <node concept="2RzPWn" id="2ju2syjpsmw" role="2RzR6B">
       <property role="2RzON1" value="2656571587264873280" />
       <property role="TrG5h" value="Enumeration" />
-      <ref role="2RzPfO" node="2ju2syjpskx" />
+      <ref role="2RzPfO" node="2ju2syjpskx" resolve="DataType" />
       <node concept="2RzQOr" id="2ju2syjpsn1" role="2RzQ4z">
-        <ref role="2RzQOs" node="2ju2syjnHAm" />
+        <ref role="2RzQOs" node="2ju2syjnHAm" resolve="NamespaceProvider" />
       </node>
       <node concept="2RzOte" id="2ju2syjpso8" role="2RzPPN">
         <property role="2RzON1" value="2656571587264874244" />
         <property role="TrG5h" value="literals" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="2ju2syjpsn_" />
+        <ref role="2RzQvY" node="2ju2syjpsn_" resolve="EnumerationLiteral" />
       </node>
     </node>
     <node concept="2RzPWn" id="2ju2syjpsn_" role="2RzR6B">
       <property role="2RzON1" value="2656571587264873619" />
       <property role="TrG5h" value="EnumerationLiteral" />
-      <ref role="2RzPfO" node="2ju2syjo7cK" />
+      <ref role="2RzPfO" node="2ju2syjo7cK" resolve="NamespacedEntity" />
     </node>
     <node concept="2RzPaY" id="2ju2syjnHAm" role="2RzR6B">
       <property role="2RzON1" value="2656571587264868416" />

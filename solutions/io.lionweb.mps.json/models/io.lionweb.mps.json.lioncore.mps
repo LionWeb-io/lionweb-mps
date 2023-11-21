@@ -327,16 +327,16 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="39$JcGF2lay" role="1B3o_S" />
-      <node concept="3uibUv" id="39$JcGF2la$" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="39$JcGF2la_" role="jymVt">
-      <property role="TrG5h" value="builtins" />
+      <property role="TrG5h" value="jsonConstants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="39$JcGF2laA" role="1B3o_S" />
-      <node concept="3uibUv" id="39$JcGF2laC" role="1tU5fm">
-        <ref role="3uigEE" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
+      <node concept="3uibUv" id="24j7TNH1LA7" role="1tU5fm">
+        <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
       </node>
     </node>
     <node concept="312cEg" id="6VkSF6clct8" role="jymVt">
@@ -593,12 +593,12 @@
         <node concept="3clFbF" id="39$JcGF2yd_" role="3cqZAp">
           <node concept="37vLTI" id="39$JcGF2zIB" role="3clFbG">
             <node concept="37vLTw" id="39$JcGF2$ak" role="37vLTx">
-              <ref role="3cqZAo" node="z1IqfG79bw" resolve="builtins" />
+              <ref role="3cqZAo" node="z1IqfG79bw" resolve="jsonConstants" />
             </node>
             <node concept="2OqwBi" id="39$JcGF2yl$" role="37vLTJ">
               <node concept="Xjq3P" id="39$JcGF2ydz" role="2Oq$k0" />
               <node concept="2OwXpG" id="39$JcGF2yV7" role="2OqNvi">
-                <ref role="2Oxat5" node="39$JcGF2la_" resolve="builtins" />
+                <ref role="2Oxat5" node="39$JcGF2la_" resolve="jsonConstants" />
               </node>
             </node>
           </node>
@@ -638,20 +638,20 @@
       </node>
       <node concept="37vLTG" id="z1IqfG6Zp1" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="z1IqfG6ZxO" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="5M3rB6BEWwV" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
+        <node concept="3uibUv" id="5JNiskhDIRv" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
       </node>
       <node concept="37vLTG" id="z1IqfG79bw" role="3clF46">
-        <property role="TrG5h" value="builtins" />
-        <node concept="3uibUv" id="z1IqfG79vh" role="1tU5fm">
-          <ref role="3uigEE" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
-        </node>
+        <property role="TrG5h" value="jsonConstants" />
         <node concept="2AHcQZ" id="5M3rB6BEXXN" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskj5yaE" role="1tU5fm">
+          <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6clbN1" role="3clF46">
@@ -692,10 +692,10 @@
             <node concept="2OqwBi" id="5M3rB6BDRiA" role="33vP2m">
               <node concept="2OqwBi" id="5TNjoy1yAfe" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1yhm$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="39$JcGF2la_" resolve="builtins" />
+                  <ref role="3cqZAo" node="39$JcGF2la_" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1yDSW" role="2OqNvi">
-                  <ref role="37wK5l" to="6peh:5TNjoy1vedB" resolve="listPrimitiveTypes" />
+                  <ref role="37wK5l" to="6peh:5JNiskj4Oxk" resolve="listPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BDRiD" role="2OqNvi" />
@@ -716,7 +716,7 @@
                   <ref role="3cqZAo" node="39$JcGF2lax" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BDRiL" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BDRiM" role="2OqNvi" />
@@ -771,10 +771,10 @@
               <node concept="uNJiE" id="5M3rB6BDRjc" role="2OqNvi" />
               <node concept="2OqwBi" id="5TNjoy1yHN9" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1yHNa" role="2Oq$k0">
-                  <ref role="3cqZAo" node="39$JcGF2la_" resolve="builtins" />
+                  <ref role="3cqZAo" node="39$JcGF2la_" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1yHNb" role="2OqNvi">
-                  <ref role="37wK5l" to="6peh:5TNjoy1vfyI" resolve="listClassifiers" />
+                  <ref role="37wK5l" to="6peh:5JNiskj4Oxz" resolve="listClassifiers" />
                 </node>
               </node>
             </node>
@@ -794,7 +794,7 @@
                   <ref role="3cqZAo" node="39$JcGF2lax" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BDRjk" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9rXU" resolve="listLcClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZs" resolve="listLcClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BDRjl" role="2OqNvi" />
@@ -2829,10 +2829,10 @@
               </node>
               <node concept="2OqwBi" id="5TNjoy1yQyz" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1yQy$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="39$JcGF2la_" resolve="builtins" />
+                  <ref role="3cqZAo" node="39$JcGF2la_" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1yQy_" role="2OqNvi">
-                  <ref role="37wK5l" to="6peh:5TNjoy1vedB" resolve="listPrimitiveTypes" />
+                  <ref role="37wK5l" to="6peh:5JNiskj4Oxk" resolve="listPrimitiveTypes" />
                 </node>
               </node>
             </node>
@@ -2851,7 +2851,7 @@
                       <ref role="3cqZAo" node="39$JcGF2lax" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGFSuy6" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                      <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                 </node>
@@ -3840,16 +3840,16 @@
       <property role="TrG5h" value="constants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="39$JcGF4Bum" role="1B3o_S" />
-      <node concept="3uibUv" id="39$JcGF4Buo" role="1tU5fm">
-        <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
+      <node concept="3uibUv" id="5JNiskhDQ2J" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
     <node concept="312cEg" id="39$JcGF4Bup" role="jymVt">
-      <property role="TrG5h" value="builtins" />
+      <property role="TrG5h" value="jsonConstants" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="39$JcGF4Buq" role="1B3o_S" />
-      <node concept="3uibUv" id="39$JcGF4Bus" role="1tU5fm">
-        <ref role="3uigEE" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
+      <node concept="3uibUv" id="5JNiskj5EdI" role="1tU5fm">
+        <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
       </node>
     </node>
     <node concept="312cEg" id="6VkSF6cpXbj" role="jymVt">
@@ -4106,12 +4106,12 @@
         <node concept="3clFbF" id="39$JcGF4N7u" role="3cqZAp">
           <node concept="37vLTI" id="39$JcGF4Pwd" role="3clFbG">
             <node concept="37vLTw" id="39$JcGF4QeI" role="37vLTx">
-              <ref role="3cqZAo" node="5sACIIsA0un" resolve="builtins" />
+              <ref role="3cqZAo" node="5sACIIsA0un" resolve="jsonConstants" />
             </node>
             <node concept="2OqwBi" id="39$JcGF4Nci" role="37vLTJ">
               <node concept="Xjq3P" id="39$JcGF4N7s" role="2Oq$k0" />
               <node concept="2OwXpG" id="39$JcGF4Nse" role="2OqNvi">
-                <ref role="2Oxat5" node="39$JcGF4Bup" resolve="builtins" />
+                <ref role="2Oxat5" node="39$JcGF4Bup" resolve="jsonConstants" />
               </node>
             </node>
           </node>
@@ -4151,20 +4151,20 @@
       </node>
       <node concept="37vLTG" id="5sACIIsA0ul" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="5sACIIsA0um" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="5M3rB6BJpDq" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
+        <node concept="3uibUv" id="5JNiskhDV27" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
       </node>
       <node concept="37vLTG" id="5sACIIsA0un" role="3clF46">
-        <property role="TrG5h" value="builtins" />
-        <node concept="3uibUv" id="5sACIIsA0uo" role="1tU5fm">
-          <ref role="3uigEE" to="6peh:39$JcGFQll9" resolve="JsonBuiltins" />
-        </node>
+        <property role="TrG5h" value="jsonConstants" />
         <node concept="2AHcQZ" id="5M3rB6BJrwy" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5JNiskj5P0g" role="1tU5fm">
+          <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
         </node>
       </node>
       <node concept="37vLTG" id="6VkSF6cpWG8" role="3clF46">
@@ -4205,7 +4205,7 @@
                   <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BJsJm" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                  <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BJsJn" role="2OqNvi" />
@@ -4223,10 +4223,10 @@
             <node concept="2OqwBi" id="5M3rB6BJsJs" role="33vP2m">
               <node concept="2OqwBi" id="5TNjoy1xvN7" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1xqB5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="39$JcGF4Bup" resolve="builtins" />
+                  <ref role="3cqZAo" node="39$JcGF4Bup" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1xz4p" role="2OqNvi">
-                  <ref role="37wK5l" to="6peh:5TNjoy1vedB" resolve="listPrimitiveTypes" />
+                  <ref role="37wK5l" to="6peh:5JNiskj4Oxk" resolve="listPrimitiveTypes" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BJsJv" role="2OqNvi" />
@@ -4283,7 +4283,7 @@
                   <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="5M3rB6BJsJT" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:39$JcGG9rXU" resolve="listLcClassifiers" />
+                  <ref role="37wK5l" to="y7p:5JNiski3jZs" resolve="listLcClassifiers" />
                 </node>
               </node>
               <node concept="uNJiE" id="5M3rB6BJsJU" role="2OqNvi" />
@@ -4302,10 +4302,10 @@
               <node concept="uNJiE" id="5M3rB6BJsK2" role="2OqNvi" />
               <node concept="2OqwBi" id="5TNjoy1xC1v" role="2Oq$k0">
                 <node concept="37vLTw" id="5TNjoy1xC1w" role="2Oq$k0">
-                  <ref role="3cqZAo" node="39$JcGF4Bup" resolve="builtins" />
+                  <ref role="3cqZAo" node="39$JcGF4Bup" resolve="jsonConstants" />
                 </node>
                 <node concept="liA8E" id="5TNjoy1xC1x" role="2OqNvi">
-                  <ref role="37wK5l" to="6peh:5TNjoy1vfyI" resolve="listClassifiers" />
+                  <ref role="37wK5l" to="6peh:5JNiskj4Oxz" resolve="listClassifiers" />
                 </node>
               </node>
             </node>
@@ -6548,7 +6548,7 @@
                       <ref role="3cqZAo" node="39$JcGF4Bul" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGFT_BI" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:39$JcGFBRYX" resolve="listLcPrimitiveTypes" />
+                      <ref role="37wK5l" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                   <node concept="2WmjW8" id="39$JcGFT_BJ" role="2OqNvi">
@@ -6568,10 +6568,10 @@
                     </node>
                     <node concept="2OqwBi" id="5TNjoy1xRMN" role="1y566C">
                       <node concept="37vLTw" id="5TNjoy1xRMO" role="2Oq$k0">
-                        <ref role="3cqZAo" node="39$JcGF4Bup" resolve="builtins" />
+                        <ref role="3cqZAo" node="39$JcGF4Bup" resolve="jsonConstants" />
                       </node>
                       <node concept="liA8E" id="5TNjoy1xRMP" role="2OqNvi">
-                        <ref role="37wK5l" to="6peh:5TNjoy1vedB" resolve="listPrimitiveTypes" />
+                        <ref role="37wK5l" to="6peh:5JNiskj4Oxk" resolve="listPrimitiveTypes" />
                       </node>
                     </node>
                   </node>
