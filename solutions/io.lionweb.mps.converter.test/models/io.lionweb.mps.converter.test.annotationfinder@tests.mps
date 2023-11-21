@@ -47,9 +47,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -178,14 +175,12 @@
         <node concept="3clFbF" id="1q44RFTb6Yk" role="3cqZAp">
           <node concept="2ShNRf" id="1q44RFTb6Yi" role="3clFbG">
             <node concept="1pGfFk" id="1q44RFTb7cZ" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
               <node concept="37vLTw" id="1q44RFTb88s" role="37wK5m">
                 <ref role="3cqZAo" node="1q44RFTb88o" resolve="repository" />
               </node>
               <node concept="2ShNRf" id="1q44RFTb7r6" role="37wK5m">
                 <node concept="HV5vD" id="1q44RFTb814" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                 </node>
               </node>
@@ -607,14 +602,12 @@
         <node concept="3clFbF" id="1q44RFTbOsh" role="3cqZAp">
           <node concept="2ShNRf" id="1q44RFTbOsi" role="3clFbG">
             <node concept="1pGfFk" id="1q44RFTbOsj" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
               <node concept="37vLTw" id="1q44RFTbOsk" role="37wK5m">
                 <ref role="3cqZAo" node="1q44RFTbOsc" resolve="repository" />
               </node>
               <node concept="2ShNRf" id="1q44RFTbOsl" role="37wK5m">
                 <node concept="HV5vD" id="1q44RFTbOsm" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                 </node>
               </node>
@@ -922,14 +915,12 @@
         <node concept="3clFbF" id="1q44RFTbVWG" role="3cqZAp">
           <node concept="2ShNRf" id="1q44RFTbVWH" role="3clFbG">
             <node concept="1pGfFk" id="1q44RFTbVWI" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
               <node concept="37vLTw" id="1q44RFTbVWJ" role="37wK5m">
                 <ref role="3cqZAo" node="1q44RFTbVWB" resolve="repository" />
               </node>
               <node concept="2ShNRf" id="1q44RFTbVWK" role="37wK5m">
                 <node concept="HV5vD" id="1q44RFTbVWL" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                 </node>
               </node>
@@ -1319,14 +1310,12 @@
         <node concept="3clFbF" id="1q44RFTcSRc" role="3cqZAp">
           <node concept="2ShNRf" id="1q44RFTcSRd" role="3clFbG">
             <node concept="1pGfFk" id="1q44RFTcSRe" role="2ShVmc">
-              <property role="373rjd" value="true" />
               <ref role="37wK5l" to="apzt:5AGBwuFEKL7" resolve="AnnotationFinder" />
               <node concept="37vLTw" id="1q44RFTcSRf" role="37wK5m">
                 <ref role="3cqZAo" node="1q44RFTcSR7" resolve="repository" />
               </node>
               <node concept="2ShNRf" id="1q44RFTcSRg" role="37wK5m">
                 <node concept="HV5vD" id="1q44RFTcSRh" role="2ShVmc">
-                  <property role="373rjd" value="true" />
                   <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
                 </node>
               </node>

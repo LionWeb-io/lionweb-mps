@@ -382,9 +382,6 @@
         <node concept="3cpWs8" id="2fx6VTTfJEn" role="3cqZAp">
           <node concept="3cpWsn" id="2fx6VTTfJEo" role="3cpWs9">
             <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="2fx6VTTfJmu" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
             <node concept="2ShNRf" id="5M3rB6C4AZv" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6C4AZw" role="2ShVmc">
                 <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
@@ -392,6 +389,9 @@
                   <ref role="3cqZAo" node="7Cdxs9E2hOh" resolve="repository" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="5JNiskhCiXo" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
             </node>
           </node>
         </node>
@@ -744,9 +744,6 @@
         <node concept="3cpWs8" id="5M3rB6BjKAX" role="3cqZAp">
           <node concept="3cpWsn" id="5M3rB6BjKAY" role="3cpWs9">
             <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="5M3rB6BjKAZ" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
             <node concept="2ShNRf" id="5M3rB6C4AZS" role="33vP2m">
               <node concept="1pGfFk" id="5M3rB6C4AZT" role="2ShVmc">
                 <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
@@ -754,6 +751,9 @@
                   <ref role="3cqZAo" node="7Cdxs9E2eUY" resolve="repository" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="5JNiskhCjs3" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
             </node>
           </node>
         </node>
@@ -1248,9 +1248,6 @@
         <node concept="3cpWs8" id="3diEf07pPh7" role="3cqZAp">
           <node concept="3cpWsn" id="3diEf07pPh8" role="3cpWs9">
             <property role="TrG5h" value="constants" />
-            <node concept="3uibUv" id="3diEf07pP4D" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-            </node>
             <node concept="2ShNRf" id="3diEf07pPh9" role="33vP2m">
               <node concept="1pGfFk" id="3diEf07pPha" role="2ShVmc">
                 <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
@@ -1258,6 +1255,9 @@
                   <ref role="3cqZAo" node="3LWE6BDyr_P" resolve="repository" />
                 </node>
               </node>
+            </node>
+            <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+              <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
             </node>
           </node>
         </node>

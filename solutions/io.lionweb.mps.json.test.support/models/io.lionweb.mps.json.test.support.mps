@@ -1934,11 +1934,11 @@
       </node>
       <node concept="37vLTG" id="68Be_yW_cY" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="68Be_yW_cX" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:DUXtGZOlwJ" resolve="LionCoreConstants" />
-        </node>
         <node concept="2AHcQZ" id="68Be_yW_tk" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
     </node>

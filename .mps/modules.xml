@@ -14,6 +14,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestRefs/io.lionweb.mps.converter.TestRefs.mpl" folder="test" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" folder="lang.converter" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.m3/io.lionweb.mps.m3.mpl" folder="lang.m3" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.specific/io.lionweb.mps.specific.mpl" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.testsupport/io.lionweb.mps.testsupport.mpl" folder="test" />
       <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="test" />
