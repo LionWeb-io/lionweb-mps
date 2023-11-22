@@ -40,6 +40,7 @@
     <language slang="l:48d0f6eb-6186-4cec-83d1-7caedb05a494:io.lionweb.mps.converter.TestLang2" version="0" />
     <language slang="l:099490a3-1e39-4ed1-bebc-8027665cecf9:io.lionweb.mps.converter.TestLang3" version="0" />
     <language slang="l:a95063a5-27eb-4ae8-894e-ea20f8b3d6a2:io.lionweb.mps.converter.TestRefs" version="0" />
+    <language slang="l:acf932d6-fdeb-4c87-8304-d021a36b68b8:io.lionweb.mps.converter.deps.Standalone" version="0" />
     <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />
     <language slang="l:01cf0d82-8d29-4fc4-be96-28abaf4ad33d:io.lionweb.mps.m3" version="0" />
     <language slang="l:4a963078-62c4-4f96-9b52-198a0c63da4b:io.lionweb.mps.testsupport" version="0" />

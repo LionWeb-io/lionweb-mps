@@ -12,6 +12,20 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" folder="test" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLangBroken/io.lionweb.mps.converter.TestLangBroken.mpl" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestRefs/io.lionweb.mps.converter.TestRefs.mpl" folder="test" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates/io.lionweb.mps.converter.deps.AnnotationAnnotates.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationExtends/io.lionweb.mps.converter.deps.AnnotationExtends.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationImplements/io.lionweb.mps.converter.deps.AnnotationImplements.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ConceptExtends/io.lionweb.mps.converter.deps.ConceptExtends.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ConceptImplements/io.lionweb.mps.converter.deps.ConceptImplements.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ContainmentType/io.lionweb.mps.converter.deps.ContainmentType.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.InterfaceExtends/io.lionweb.mps.converter.deps.InterfaceExtends.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.LanguageDepends/io.lionweb.mps.converter.deps.LanguageDepends.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.OnlyBuiltins/io.lionweb.mps.converter.deps.OnlyBuiltins.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.PropertyType/io.lionweb.mps.converter.deps.PropertyType.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ReferenceType/io.lionweb.mps.converter.deps.ReferenceType.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.SmartReferenceType/io.lionweb.mps.converter.deps.SmartReferenceType.mpl" folder="test.deps" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.Standalone/io.lionweb.mps.converter.deps.Standalone.mpl" folder="test.deps" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.lang/io.lionweb.mps.converter.lang.mpl" folder="lang.converter" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.m3/io.lionweb.mps.m3.mpl" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.specific/io.lionweb.mps.specific.mpl" folder="lang.m3" />
