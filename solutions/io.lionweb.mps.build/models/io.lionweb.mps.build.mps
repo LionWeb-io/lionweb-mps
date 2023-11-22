@@ -70,7 +70,6 @@
       </concept>
       <concept id="5617550519002745364" name="jetbrains.mps.build.structure.BuildLayout" flags="ng" index="1l3spV" />
       <concept id="5617550519002745363" name="jetbrains.mps.build.structure.BuildProject" flags="ng" index="1l3spW">
-        <property id="4915877860348071612" name="fileName" index="turDy" />
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="4796668409958418110" name="scriptsDir" index="auvoZ" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
@@ -2723,86 +2722,6 @@
       </node>
     </node>
     <node concept="55IIr" id="24OSoZ619cA" role="auvoZ" />
-  </node>
-  <node concept="1l3spW" id="5wsogBcGDOd">
-    <property role="2DA0ip" value="../../" />
-    <property role="TrG5h" value="io.lionweb.mps.tests" />
-    <property role="turDy" value="build-tests.xml" />
-    <node concept="2_Ic$z" id="6nEci87Tvsq" role="3989C9">
-      <property role="2_Ic$B" value="true" />
-    </node>
-    <node concept="398rNT" id="5wsogBcGDOk" role="1l3spd">
-      <property role="TrG5h" value="mps_home" />
-    </node>
-    <node concept="398rNT" id="5wsogBcGDOl" role="1l3spd">
-      <property role="TrG5h" value="lionweb-mps.home" />
-      <node concept="55IIr" id="5wsogBcGDOm" role="398pKh" />
-    </node>
-    <node concept="398rNT" id="6M8SgVvYNwF" role="1l3spd">
-      <property role="TrG5h" value="mps.macro.lionweb-mps.home" />
-      <node concept="398BVA" id="6M8SgVvYNwU" role="398pKh">
-        <ref role="398BVh" node="5wsogBcGDOl" resolve="lionweb-mps.home" />
-      </node>
-    </node>
-    <node concept="398rNT" id="24OSoZ5UCYJ" role="1l3spd">
-      <property role="TrG5h" value="lionweb-mps.artifacts.root" />
-      <node concept="398BVA" id="24OSoZ5UCYV" role="398pKh">
-        <ref role="398BVh" node="5wsogBcGDOl" resolve="lionweb-mps.home" />
-        <node concept="2Ry0Ak" id="24OSoZ5UCYY" role="iGT6I">
-          <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="24OSoZ5UCZ3" role="2Ry0An">
-            <property role="2Ry0Am" value="artifacts" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="398rNT" id="24OSoZ5UCZk" role="1l3spd">
-      <property role="TrG5h" value="mps.macro.lionweb-mps.artifacts.root" />
-      <node concept="398BVA" id="24OSoZ5UCZ$" role="398pKh">
-        <ref role="398BVh" node="24OSoZ5UCYJ" resolve="lionweb-mps.artifacts.root" />
-      </node>
-    </node>
-    <node concept="2kB4xC" id="5wsogBcGDQm" role="1l3spd">
-      <property role="TrG5h" value="version" />
-      <node concept="aVJcg" id="5wsogBcGDQn" role="aVJcv">
-        <node concept="NbPM2" id="5wsogBcGDQo" role="aVJcq">
-          <node concept="3Mxwew" id="5wsogBcGDQp" role="3MwsjC">
-            <property role="3MwjfP" value="SET_FROM_GRADLE" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="10PD9b" id="5wsogBcGDOg" role="10PD9s" />
-    <node concept="3b7kt6" id="5wsogBcGDOh" role="10PD9s" />
-    <node concept="1gjT0q" id="5wsogBcGDTX" role="10PD9s" />
-    <node concept="55IIr" id="5wsogBcGDOe" role="auvoZ" />
-    <node concept="1l3spV" id="5wsogBcGDOf" role="1l3spN" />
-    <node concept="2sgV4H" id="5wsogBcGDON" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
-      <node concept="398BVA" id="5wsogBcGDOO" role="2JcizS">
-        <ref role="398BVh" node="5wsogBcGDOk" resolve="mps_home" />
-      </node>
-    </node>
-    <node concept="2sgV4H" id="5wsogBcGDOq" role="1l3spa">
-      <ref role="1l3spb" node="5wsogBcGDKa" resolve="io.lionweb.mps" />
-      <node concept="398BVA" id="24OSoZ5UCZD" role="2JcizS">
-        <ref role="398BVh" node="24OSoZ5UCYJ" resolve="lionweb-mps.artifacts.root" />
-        <node concept="2Ry0Ak" id="24OSoZ5Wg7t" role="iGT6I">
-          <property role="2Ry0Am" value="io.lionweb.mps" />
-        </node>
-      </node>
-    </node>
-    <node concept="2igEWh" id="5wsogBcGE2R" role="1hWBAP" />
-    <node concept="22LTRH" id="5wsogBcGE2W" role="1hWBAP">
-      <property role="TrG5h" value="tests" />
-      <node concept="24cAiW" id="5wsogBcGE32" role="24cAkG">
-        <node concept="NbPM2" id="5wsogBcGE35" role="XX84c">
-          <node concept="3Mxwew" id="5wsogBcGE38" role="3MwsjC">
-            <property role="3MwjfP" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
 </model>
 
