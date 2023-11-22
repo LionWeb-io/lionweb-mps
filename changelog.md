@@ -2,6 +2,16 @@
 
 ## Next
 
+* Added intentions to assign LionWeb keys to all elements of a language.
+  The element's name is used as its key.
+  Find these intentions on the _LionWeb Language Key_ root node.
+
+* Added intention to replace invalid characters in LionWeb keys with dashes.
+
+* Added new MPS runtime language to JSON converter (scope _fineGrainedClosure_).
+  It completely converts all the listed languages, plus all (transitively) required elements from other languages.
+  It does _not_ convert other concepts from other languages.
+
 * Added special handling of `BaseConcept` properties (`virtualPackage`, `shortDescription`) when converting M1 instance models between MPS and JSON.
   If set, we represent these properties as annotations in JSON.
   We added a new MPS language `io.lionweb.mps.specific` to host these annotations.
