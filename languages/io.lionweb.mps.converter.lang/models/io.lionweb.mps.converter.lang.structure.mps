@@ -157,7 +157,7 @@
     <node concept="1TJgyi" id="39$JcGFaigm" role="1TKVEl">
       <property role="IQ2nx" value="3631234780355961878" />
       <property role="TrG5h" value="scope" />
-      <ref role="AX2Wp" node="39$JcGFainj" resolve="ExportScope" />
+      <ref role="AX2Wp" node="39$JcGFainj" resolve="InstanceExportScope" />
     </node>
     <node concept="1QGGSu" id="5glO5qL6ePy" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/instance2json.png" />
@@ -176,7 +176,7 @@
   </node>
   <node concept="25R3W" id="39$JcGFainj">
     <property role="3F6X1D" value="3631234780355962323" />
-    <property role="TrG5h" value="ExportScope" />
+    <property role="TrG5h" value="InstanceExportScope" />
     <ref role="1H5jkz" node="39$JcGFaink" resolve="listed" />
     <node concept="25R33" id="39$JcGFaink" role="25R1y">
       <property role="3tVfz5" value="3631234780355962324" />
@@ -221,6 +221,11 @@
     <property role="34LRSv" value="Export MPS Language to JSON" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+    <node concept="1TJgyi" id="utjSYFId7H" role="1TKVEl">
+      <property role="IQ2nx" value="548682208089002477" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="utjSYFIbxq" resolve="LanguageExportScope" />
+    </node>
     <node concept="PrWs8" id="1q44RFSZQBV" role="PzmwI">
       <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
     </node>
@@ -237,6 +242,22 @@
       <property role="20kJfa" value="languages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="tp25:34EJa6aIcco" resolve="LanguageIdentity" />
+    </node>
+  </node>
+  <node concept="25R3W" id="utjSYFIbxq">
+    <property role="3F6X1D" value="548682208088995930" />
+    <property role="TrG5h" value="LanguageExportScope" />
+    <node concept="25R33" id="utjSYFIbxr" role="25R1y">
+      <property role="3tVfz5" value="548682208088995931" />
+      <property role="TrG5h" value="listed" />
+    </node>
+    <node concept="25R33" id="utjSYFIcjD" role="25R1y">
+      <property role="3tVfz5" value="548682208088999145" />
+      <property role="TrG5h" value="indirect" />
+    </node>
+    <node concept="25R33" id="utjSYFIcjG" role="25R1y">
+      <property role="3tVfz5" value="548682208088999148" />
+      <property role="TrG5h" value="fineGrainedClosure" />
     </node>
   </node>
 </model>

@@ -23,6 +23,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
       </concept>
@@ -37,7 +38,9 @@
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
-      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn" />
+      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1073389577007" name="text" index="3F0ifm" />
+      </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
@@ -159,13 +162,32 @@
         <node concept="2iRfu4" id="39$JcGF9n$d" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="39$JcGF9nEV" role="3EZMnx" />
-      <node concept="3F0A7n" id="39$JcGF9nI0" role="3EZMnx">
-        <ref role="1NtTu8" to="d0tf:4na9S9Ya_fn" resolve="path" />
-      </node>
-      <node concept="3F0A7n" id="39$JcGFaisw" role="3EZMnx">
-        <ref role="1NtTu8" to="d0tf:39$JcGFaigm" resolve="scope" />
+      <node concept="3EZMnI" id="4Yo3buYkNMb" role="3EZMnx">
+        <node concept="VPM3Z" id="4Yo3buYkNMd" role="3F10Kt" />
+        <node concept="2EHx9g" id="4Yo3buYkNOS" role="2iSdaV" />
+        <node concept="3EZMnI" id="4Yo3buYkNMP" role="3EZMnx">
+          <node concept="3F0ifn" id="4Yo3buYkNNA" role="3EZMnx">
+            <property role="3F0ifm" value="Output path:" />
+          </node>
+          <node concept="2iRfu4" id="4Yo3buYkNMQ" role="2iSdaV" />
+          <node concept="3F0A7n" id="39$JcGF9nI0" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:4na9S9Ya_fn" resolve="path" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="4Yo3buYkyqK" role="3EZMnx">
+          <node concept="3F0ifn" id="4Yo3buYkyrj" role="3EZMnx">
+            <property role="3F0ifm" value="Scope:" />
+          </node>
+          <node concept="2iRfu4" id="4Yo3buYkyqL" role="2iSdaV" />
+          <node concept="3F0A7n" id="39$JcGFaisw" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:39$JcGFaigm" resolve="scope" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="39$JcGF9nIX" role="3EZMnx" />
+      <node concept="3F0ifn" id="4Yo3buYkNOW" role="3EZMnx">
+        <property role="3F0ifm" value="Included instances:" />
+      </node>
       <node concept="3F2HdR" id="39$JcGF9nLi" role="3EZMnx">
         <ref role="1NtTu8" to="d0tf:39$JcGF9mYy" resolve="instances" />
         <node concept="2iRkQZ" id="39$JcGF9nLk" role="2czzBx" />
@@ -187,10 +209,32 @@
         <node concept="2iRfu4" id="1q44RFSZQQ0" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="1q44RFSZQRU" role="3EZMnx" />
-      <node concept="3F0A7n" id="1q44RFSZQRV" role="3EZMnx">
-        <ref role="1NtTu8" to="d0tf:4na9S9Ya_fn" resolve="path" />
+      <node concept="3EZMnI" id="4Yo3buYkNR3" role="3EZMnx">
+        <node concept="VPM3Z" id="4Yo3buYkNR5" role="3F10Kt" />
+        <node concept="2EHx9g" id="4Yo3buYkNT7" role="2iSdaV" />
+        <node concept="3EZMnI" id="4Yo3buYkNPB" role="3EZMnx">
+          <node concept="2iRfu4" id="4Yo3buYkNPC" role="2iSdaV" />
+          <node concept="3F0ifn" id="4Yo3buYkNQk" role="3EZMnx">
+            <property role="3F0ifm" value="Output path:" />
+          </node>
+          <node concept="3F0A7n" id="1q44RFSZQRV" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:4na9S9Ya_fn" resolve="path" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="4Yo3buYkyq3" role="3EZMnx">
+          <node concept="3F0ifn" id="4Yo3buYkyqE" role="3EZMnx">
+            <property role="3F0ifm" value="Scope:" />
+          </node>
+          <node concept="2iRfu4" id="4Yo3buYkyq4" role="2iSdaV" />
+          <node concept="3F0A7n" id="utjSYFId7X" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:utjSYFId7H" resolve="scope" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="1q44RFSZQQ1" role="3EZMnx" />
+      <node concept="3F0ifn" id="4Yo3buYkNTb" role="3EZMnx">
+        <property role="3F0ifm" value="Included languages:" />
+      </node>
       <node concept="3F2HdR" id="1q44RFSZQQ2" role="3EZMnx">
         <ref role="1NtTu8" to="d0tf:4pht$XsqYrz" resolve="languages" />
         <node concept="2iRkQZ" id="1q44RFSZQQ3" role="2czzBx" />
