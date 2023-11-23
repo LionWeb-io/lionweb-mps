@@ -7,7 +7,6 @@
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -239,6 +238,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1520,6 +1526,64 @@
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="37vLTw" id="5TNjoy24N6v" role="37wK5m">
                 <ref role="3cqZAo" node="5TNjoy24N6d" resolve="actualString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="4Yo3buYmNAf" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3J1_TO" id="2GPsfcb8SNT" role="8Wnug">
+            <node concept="3J1hQo" id="2GPsfcb8TEe" role="3J1_TS">
+              <property role="3TUv4t" value="true" />
+              <property role="TrG5h" value="xxx" />
+              <node concept="2ShNRf" id="2GPsfcb8NJx" role="33vP2m">
+                <node concept="1pGfFk" id="2GPsfcb8Pol" role="2ShVmc">
+                  <ref role="37wK5l" to="guwi:~FileWriter.&lt;init&gt;(java.io.File)" resolve="FileWriter" />
+                  <node concept="37vLTw" id="2GPsfcb8Q7K" role="37wK5m">
+                    <ref role="3cqZAo" node="24j7TNH2ado" resolve="file" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="2GPsfcb8UI8" role="1tU5fm">
+                <ref role="3uigEE" to="guwi:~FileWriter" resolve="FileWriter" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2GPsfcb8SNV" role="1zxBo7">
+              <node concept="3clFbF" id="2GPsfcb8V8G" role="3cqZAp">
+                <node concept="2OqwBi" id="2GPsfcb8W09" role="3clFbG">
+                  <node concept="37vLTw" id="2GPsfcb8V8E" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2GPsfcb8TEe" resolve="xxx" />
+                  </node>
+                  <node concept="liA8E" id="2GPsfcb8WrQ" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~OutputStreamWriter.append(java.lang.CharSequence)" resolve="append" />
+                    <node concept="37vLTw" id="2GPsfcb8Xl6" role="37wK5m">
+                      <ref role="3cqZAo" node="5TNjoy24N6d" resolve="actualString" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uVAMA" id="2GPsfcb8YKy" role="1zxBo5">
+              <node concept="3clFbS" id="2GPsfcb8YKz" role="1zc67A">
+                <node concept="YS8fn" id="2GPsfcb8YZI" role="3cqZAp">
+                  <node concept="2ShNRf" id="2GPsfcb8ZeO" role="YScLw">
+                    <node concept="1pGfFk" id="2GPsfcb8ZP7" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                      <node concept="37vLTw" id="2GPsfcb90J_" role="37wK5m">
+                        <ref role="3cqZAo" node="2GPsfcb8YK$" resolve="e" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="XOnhg" id="2GPsfcb8YK$" role="1zc67B">
+                <property role="TrG5h" value="e" />
+                <node concept="nSUau" id="2GPsfcb8YK_" role="1tU5fm">
+                  <node concept="3uibUv" id="2GPsfcb8YKx" role="nSUat">
+                    <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
