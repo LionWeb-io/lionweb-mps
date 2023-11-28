@@ -4,6 +4,7 @@
   <languages>
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
     <use id="08caad75-8246-4427-bb4d-8444b6c5c729" name="io.lionweb.mps.converter.TestLang" version="0" />
+    <use id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport" version="0" />
   </languages>
   <imports>
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
@@ -85,14 +86,16 @@
         <child id="755186209566487256" name="languages" index="1a0gs3" />
       </concept>
       <concept id="8551466651976015093" name="io.lionweb.mps.converter.lang.structure.ExportLanguageToJson" flags="ng" index="2P3vlD" />
-      <concept id="4759305942578991535" name="io.lionweb.mps.converter.lang.structure.TestContainer" flags="ng" index="2QRY8A">
-        <child id="4759305942578991952" name="contents" index="2QRY3p" />
-      </concept>
       <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
         <property id="5028875375328515031" name="path" index="VS7hl" />
       </concept>
       <concept id="1622443184644647655" name="io.lionweb.mps.converter.lang.structure.ILanguageIdentityContainer" flags="ng" index="3IuRAt">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
+      </concept>
+    </language>
+    <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
+      <concept id="6805868710579574869" name="io.lionweb.mps.testsupport.structure.ArbitraryContainer" flags="ng" index="3sutnt">
+        <child id="6805868710579574891" name="children" index="3sutnz" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1189,67 +1192,6 @@
       <ref role="2RzRkr" node="39$JcGF8ZlO" resolve="io.lionweb.mps.converter.TestLang.noEnums" />
     </node>
   </node>
-  <node concept="2QRY8A" id="39$JcGFaUz2">
-    <node concept="1r0PSd" id="39$JcGFaUz9" role="2QRY3p">
-      <property role="1r0PKh" value="s" />
-      <property role="1r0P2m" value="1" />
-      <property role="1r0PqY" value="2fx6VTSSzTB/TestLiteral1" />
-      <property role="1r0Pnf" value="a" />
-      <ref role="1r0Ry0" node="39$JcGFaUzj" />
-      <node concept="1r0PSd" id="39$JcGFaUza" role="1r0OWA">
-        <property role="1r0PKh" value="ss" />
-        <property role="1r0P2m" value="2" />
-        <property role="1r0PqY" value="2fx6VTSSzUf/TestLiteral2" />
-        <property role="1r0Pnf" value="b" />
-        <ref role="1r0Ry0" node="39$JcGFaUzj" />
-        <node concept="1r0O1$" id="39$JcGFaUzb" role="1r0O4X" />
-        <node concept="1r0TMr" id="39$JcGFaUzj" role="1r0OWA">
-          <property role="1r0PKh" value="sss" />
-          <property role="1r0P2m" value="3" />
-          <property role="1r0PqY" value="2fx6VTSSzTB/TestLiteral1" />
-          <property role="1r0Pnf" value="c" />
-          <property role="1r0QD8" value="w" />
-          <property role="1r0QMm" value="9" />
-          <ref role="1r0Ry0" node="39$JcGFaUzj" />
-          <node concept="1r0PSd" id="39$JcGFaUzk" role="1r0OWA">
-            <property role="1r0PKh" value="ssss" />
-            <property role="1r0P2m" value="4" />
-            <property role="1r0PqY" value="2fx6VTSSzUf/TestLiteral2" />
-            <property role="1r0Pnf" value="d" />
-            <ref role="1r0Ry0" node="39$JcGFaUzj" />
-            <node concept="1r0O1$" id="39$JcGFaUzl" role="1r0O4X">
-              <ref role="1r0Ry0" node="39$JcGFaUzj" />
-            </node>
-            <node concept="1r0O1$" id="39$JcGFaUzt" role="1r0OWA">
-              <property role="1r0PKh" value="sssss" />
-              <property role="1r0P2m" value="5" />
-              <property role="1r0PqY" value="2fx6VTSSzTB/TestLiteral1" />
-              <property role="1r0Pnf" value="e" />
-              <property role="1r0QD8" value="ff" />
-              <ref role="1r0Ry0" node="39$JcGFaUzj" />
-              <node concept="1r0PSd" id="39$JcGFaUzu" role="1r0OWA">
-                <property role="1r0PKh" value="ssssss" />
-                <property role="1r0P2m" value="6" />
-                <property role="1r0PqY" value="2fx6VTSSzUf/TestLiteral2" />
-                <property role="1r0Pnf" value="f" />
-                <ref role="1r0Ry0" node="39$JcGFaUzj" />
-                <node concept="1r0O1$" id="39$JcGFaUzv" role="1r0O4X" />
-              </node>
-              <node concept="1r0O1$" id="39$JcGFaUzw" role="1r0O4X">
-                <node concept="1r0PSd" id="39$JcGFaUzx" role="1r0OWA" />
-              </node>
-            </node>
-          </node>
-          <node concept="1r0O1$" id="39$JcGFaUzm" role="1r0O4X">
-            <node concept="1r0PSd" id="39$JcGFaUzn" role="1r0OWA" />
-          </node>
-        </node>
-      </node>
-      <node concept="1r0O1$" id="39$JcGFaUzc" role="1r0O4X">
-        <node concept="1r0PSd" id="39$JcGFaUzd" role="1r0OWA" />
-      </node>
-    </node>
-  </node>
   <node concept="pgt$m" id="39$JcGFaUzB">
     <property role="TrG5h" value="Export TestLang instance toJSON" />
     <property role="pjpzt" value="39$JcGFaino/closure" />
@@ -2121,6 +2063,67 @@
       <node concept="2RzSPr" id="39$JcGH6CgZ" role="2RzSVc">
         <property role="TrG5h" value="TestLiteral3" />
         <property role="2RzON1" value="NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0LzI1ODUzNzgxNjU5NzMyMDQ2MjYvMjU4NTM3ODE2NTk3MzIwNDYyNw" />
+      </node>
+    </node>
+  </node>
+  <node concept="3sutnt" id="4L4ctZkrnwd">
+    <node concept="1r0PSd" id="39$JcGFaUz9" role="3sutnz">
+      <property role="1r0PKh" value="s" />
+      <property role="1r0P2m" value="1" />
+      <property role="1r0PqY" value="2fx6VTSSzTB/TestLiteral1" />
+      <property role="1r0Pnf" value="a" />
+      <ref role="1r0Ry0" node="39$JcGFaUzj" />
+      <node concept="1r0PSd" id="39$JcGFaUza" role="1r0OWA">
+        <property role="1r0PKh" value="ss" />
+        <property role="1r0P2m" value="2" />
+        <property role="1r0PqY" value="2fx6VTSSzUf/TestLiteral2" />
+        <property role="1r0Pnf" value="b" />
+        <ref role="1r0Ry0" node="39$JcGFaUzj" />
+        <node concept="1r0O1$" id="39$JcGFaUzb" role="1r0O4X" />
+        <node concept="1r0TMr" id="39$JcGFaUzj" role="1r0OWA">
+          <property role="1r0PKh" value="sss" />
+          <property role="1r0P2m" value="3" />
+          <property role="1r0PqY" value="2fx6VTSSzTB/TestLiteral1" />
+          <property role="1r0Pnf" value="c" />
+          <property role="1r0QD8" value="w" />
+          <property role="1r0QMm" value="9" />
+          <ref role="1r0Ry0" node="39$JcGFaUzj" />
+          <node concept="1r0PSd" id="39$JcGFaUzk" role="1r0OWA">
+            <property role="1r0PKh" value="ssss" />
+            <property role="1r0P2m" value="4" />
+            <property role="1r0PqY" value="2fx6VTSSzUf/TestLiteral2" />
+            <property role="1r0Pnf" value="d" />
+            <ref role="1r0Ry0" node="39$JcGFaUzj" />
+            <node concept="1r0O1$" id="39$JcGFaUzl" role="1r0O4X">
+              <ref role="1r0Ry0" node="39$JcGFaUzj" />
+            </node>
+            <node concept="1r0O1$" id="39$JcGFaUzt" role="1r0OWA">
+              <property role="1r0PKh" value="sssss" />
+              <property role="1r0P2m" value="5" />
+              <property role="1r0PqY" value="2fx6VTSSzTB/TestLiteral1" />
+              <property role="1r0Pnf" value="e" />
+              <property role="1r0QD8" value="ff" />
+              <ref role="1r0Ry0" node="39$JcGFaUzj" />
+              <node concept="1r0PSd" id="39$JcGFaUzu" role="1r0OWA">
+                <property role="1r0PKh" value="ssssss" />
+                <property role="1r0P2m" value="6" />
+                <property role="1r0PqY" value="2fx6VTSSzUf/TestLiteral2" />
+                <property role="1r0Pnf" value="f" />
+                <ref role="1r0Ry0" node="39$JcGFaUzj" />
+                <node concept="1r0O1$" id="39$JcGFaUzv" role="1r0O4X" />
+              </node>
+              <node concept="1r0O1$" id="39$JcGFaUzw" role="1r0O4X">
+                <node concept="1r0PSd" id="39$JcGFaUzx" role="1r0OWA" />
+              </node>
+            </node>
+          </node>
+          <node concept="1r0O1$" id="39$JcGFaUzm" role="1r0O4X">
+            <node concept="1r0PSd" id="39$JcGFaUzn" role="1r0OWA" />
+          </node>
+        </node>
+      </node>
+      <node concept="1r0O1$" id="39$JcGFaUzc" role="1r0O4X">
+        <node concept="1r0PSd" id="39$JcGFaUzd" role="1r0OWA" />
       </node>
     </node>
   </node>

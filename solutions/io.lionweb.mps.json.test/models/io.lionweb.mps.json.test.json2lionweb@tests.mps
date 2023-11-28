@@ -215,11 +215,6 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
-      <concept id="4759305942578991535" name="io.lionweb.mps.converter.lang.structure.TestContainer" flags="ng" index="2QRY8A">
-        <child id="4759305942578991952" name="contents" index="2QRY3p" />
-      </concept>
-    </language>
     <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
       <concept id="6805868710579574869" name="io.lionweb.mps.testsupport.structure.ArbitraryContainer" flags="ng" index="3sutnt">
         <child id="6805868710579574891" name="children" index="3sutnz" />
@@ -506,9 +501,9 @@
   </registry>
   <node concept="1lH9Xt" id="6VkSF6cxA3O">
     <property role="TrG5h" value="exportLibraryInstance" />
-    <node concept="1qefOq" id="17P16AUiVRH" role="1SKRRt">
-      <node concept="2QRY8A" id="17P16AUiZga" role="1qenE9">
-        <node concept="Ir9ja" id="6VkSF6cxA3T" role="2QRY3p">
+    <node concept="1qefOq" id="4L4ctZkqpbi" role="1SKRRt">
+      <node concept="3sutnt" id="4L4ctZkqpec" role="1qenE9">
+        <node concept="Ir9ja" id="6VkSF6cxA3T" role="3sutnz">
           <property role="3B8ISX" value="Bob's Library" />
           <node concept="13mcDM" id="6VkSF6cxA3U" role="TmxoL">
             <property role="3sq1ZX" value="Explorer Book" />
@@ -522,7 +517,7 @@
             <property role="TrG5h" value="library" />
           </node>
         </node>
-        <node concept="2Ke3v$" id="6VkSF6cxA44" role="2QRY3p">
+        <node concept="2Ke3v$" id="6VkSF6cxA44" role="3sutnz">
           <property role="SNCrW" value="Jack London" />
           <property role="ZnR3n" value="Alaska" />
           <node concept="3xLA65" id="17P16AUiFR$" role="lGtFl">
@@ -856,9 +851,9 @@
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
     <property role="TrG5h" value="importLibraryInstance" />
-    <node concept="1qefOq" id="5wsogBctXXG" role="1SKRRt">
-      <node concept="2QRY8A" id="5wsogBctYf8" role="1qenE9">
-        <node concept="Ir9ja" id="5wsogBcu0i6" role="2QRY3p">
+    <node concept="1qefOq" id="4L4ctZkqSuB" role="1SKRRt">
+      <node concept="3sutnt" id="4L4ctZkqSvg" role="1qenE9">
+        <node concept="Ir9ja" id="5wsogBcu0i6" role="3sutnz">
           <property role="3B8ISX" value="Bob's Library" />
           <node concept="13mcDM" id="5wsogBcu0i7" role="TmxoL">
             <property role="3sq1ZX" value="Explorer Book" />
@@ -872,14 +867,14 @@
             <property role="TrG5h" value="library" />
           </node>
         </node>
-        <node concept="2Ke3v$" id="5wsogBcu0ia" role="2QRY3p">
+        <node concept="2Ke3v$" id="5wsogBcu0ia" role="3sutnz">
           <property role="SNCrW" value="Jack London" />
           <property role="ZnR3n" value="Alaska" />
           <node concept="3xLA65" id="5wsogBcu0ib" role="lGtFl">
             <property role="TrG5h" value="jackLondon" />
           </node>
         </node>
-        <node concept="3xLA65" id="5wsogBcup$e" role="lGtFl">
+        <node concept="3xLA65" id="4L4ctZkqSFg" role="lGtFl">
           <property role="TrG5h" value="container" />
         </node>
       </node>
@@ -1025,13 +1020,13 @@
           <node concept="3cpWsn" id="5wsogBcuonv" role="3cpWs9">
             <property role="TrG5h" value="actual" />
             <node concept="3Tqbb2" id="5wsogBcummc" role="1tU5fm">
-              <ref role="ehGHo" to="d0tf:48csSBOOT6J" resolve="TestContainer" />
+              <ref role="ehGHo" to="zwju:5TNjoy22Dxl" resolve="ArbitraryContainer" />
             </node>
             <node concept="2pJPEk" id="5wsogBcuonw" role="33vP2m">
               <node concept="2pJPED" id="5wsogBcuonx" role="2pJPEn">
-                <ref role="2pJxaS" to="d0tf:48csSBOOT6J" resolve="TestContainer" />
+                <ref role="2pJxaS" to="zwju:5TNjoy22Dxl" resolve="ArbitraryContainer" />
                 <node concept="2pIpSj" id="5wsogBcuony" role="2pJxcM">
-                  <ref role="2pIpSl" to="d0tf:48csSBOOTdg" resolve="contents" />
+                  <ref role="2pIpSl" to="zwju:5TNjoy22DxF" resolve="children" />
                   <node concept="36be1Y" id="5wsogBcuonz" role="28nt2d">
                     <node concept="36biLy" id="5wsogBcuon$" role="36be1Z">
                       <node concept="2OqwBi" id="5wsogBcuon_" role="36biLW">
@@ -1075,7 +1070,7 @@
             <ref role="3cqZAo" node="5wsogBcuonv" resolve="actual" />
           </node>
           <node concept="3xONca" id="5Thq89KVXwb" role="JA92f">
-            <ref role="3xOPvv" node="5wsogBcup$e" resolve="container" />
+            <ref role="3xOPvv" node="4L4ctZkqSFg" resolve="container" />
           </node>
         </node>
       </node>
