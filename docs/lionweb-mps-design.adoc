@@ -1,3 +1,10 @@
+:link-FromLionCore: http://127.0.0.1:63320/node?ref=r%3A02305548-3e8d-4e78-b276-85a6e515bf18%28io.lionweb.mps.converter.lang.runtime%29%2F4358543712230771549 
+:link-ToLionCore: http://127.0.0.1:63320/node?ref=r%3A02305548-3e8d-4e78-b276-85a6e515bf18%28io.lionweb.mps.converter.lang.runtime%29%2F4759305942576528868 
+:link-M1ToJson: http://127.0.0.1:63320/node?ref=r%3A677983a1-6578-432d-8175-68c906e0375c%28io.lionweb.mps.json%29%2F7272917167317926507 
+:link-M2ToJson: http://127.0.0.1:63320/node?ref=r%3A677983a1-6578-432d-8175-68c906e0375c%28io.lionweb.mps.json%29%2F2383283386661098924 
+:link-JsonToM1: http://127.0.0.1:63320/node?ref=r%3A677983a1-6578-432d-8175-68c906e0375c%28io.lionweb.mps.json%29%2F5605122842155233745 
+:link-JsonToM2: http://127.0.0.1:63320/node?ref=r%3A677983a1-6578-432d-8175-68c906e0375c%28io.lionweb.mps.json%29%2F1754772619073726812 
+
 :link-LionCore2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A08a4d3db-1d32-4a82-9df0-5b66cc2b1164%28io.lionweb.mps.json.lioncore%29%2F6279885863242958594
 :link-Json2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3A08a4d3db-1d32-4a82-9df0-5b66cc2b1164%28io.lionweb.mps.json.lioncore%29%2F630989536490666349
 :link-Mps2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3Aafdf88c6-003c-454f-85c3-e72d4fc9ce83%28io.lionweb.mps.converter.m2.mps2lioncore%29%2F2656571587266463715
@@ -6,9 +13,11 @@
 :link-IndirectLanguage2LionCoreConverter: http://127.0.0.1:63320/node?ref=r%3Ae45778bd-f0ea-44bf-9316-68791f46fac0%28io.lionweb.mps.converter.m2.language2lioncore%29%2F4759305942570562814
 :link-Language2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F4759305942562826472
 :link-IndirectLanguage2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F4759305942570562814
+:link-FineGrainedClosureLanguage2JsonConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F548682208082610794
 :link-Json2LanguageConverter: http://127.0.0.1:63320/node?ref=r%3A6239253d-0ab2-49c2-bcf4-81f1b9a92f3e%28io.lionweb.mps.json.language%29%2F2585378165952945300
 
 :link-LionWeb2MpsConverter: http://127.0.0.1:63320/node?ref=r%3A00cfecac-5da5-48e5-8a70-507b9f69321c%28io.lionweb.mps.json.instance.lionweb2mps%29%2F2585378165952866695
+:link-MergingLionWeb2MpsConverter: http://127.0.0.1:63320/node?ref=r%3A00cfecac-5da5-48e5-8a70-507b9f69321c%28io.lionweb.mps.json.instance.lionweb2mps%29%2F2784852159266446449
 :link-AMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F4759305942556731328
 :link-ClosureMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F7986257291398353286
 :link-DescendantMps2LionWebConverter: http://127.0.0.1:63320/node?ref=r%3A42e59ade-052b-4e0d-b0f5-6d4ec03ed4f0%28io.lionweb.mps.json.instance.mps2lionweb%29%2F7986257291398064448
@@ -38,7 +47,99 @@
 :link-LionWebAttributeFinder: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F465557625272401568
 :link-MpsLanguageConverter: http://127.0.0.1:63320/node?ref=r%3Aea3bdd37-0680-4524-8252-d8093e3b6903%28io.lionweb.mps.converter.util%29%2F3631234780376153588
 
-= Design of LionCore to MPS Converter
+= Technical Design of LionWeb-MPS
+:experimental:
+:toc:
+:toclevels: 3
+:sectnums:
+
+== High-level Facades
+
+MPS Language &harr; LionCore M3::
+
+* {link-FromLionCore}[FromLionCore]
+* {link-ToLionCore}[ToLionCore]
+
+MPS Language &rarr; JSON::
+* {link-JsonToM2}[JsonToM2]
+* {link-M2ToJson}[M2ToJson]
+
+MPS Instance Model &harr; JSON::
+* {link-JsonToM1}[JsonToM1]
+* {link-M1ToJson}[M1ToJson]
+
+== Design Principles
+.No static access
+We should not have any static method calls inside the core logic.
+Every required interface should be a constructor parameter.
+
+Rationale: Simplifies testing, and potentially the compatibility to different LionWeb versions.
+
+This includes core MPS classes like `MetaAdapterFactory` -- we wrap them in an interface (`IMetaAdapterFactoryHelper`).
+Rationale: Uniform code structure.
+
+We accept the trade-off that classes have lots of constructor parameters.
+As mitigation, we provide facades.
+
+.One task per class, for all parts of a language
+Each class should perform exactly _one_ task.
+For example, we split up _mapping keys_ (`MpsCompleteKeyMapper`) from _encoding keys_ (`EncodeToLionWebKeyConverter`).
+Each class performs their _single_ task on all parts of a language, e.g. Concepts, Properties, Enumerations, etc.
+
+Rationale: Simplifies testing, and allows to combine the tasks in different ways.
+
+We accept the trade-off of deep call stacks (i.e. lots of indirection).
+As mitigation, we provide wrapper classes that combine several tasks with _daisy-chaining_ or _delegation_ patterns.
+
+.Two-phase conversions
+We convert representations in two phases: First, we _create_ all required target representations (e.g. Nodes, Concepts, Containments).
+Afterwards, we _link_ the target representations according to the source links.
+
+The alternative would be to create a target representation, and immediately create+link all linked target representations.
+
+Rationale: We chose the former approach, as the latter is harder to debug, especially in combination with the "single task" principle mentioned above.
+
+We accept the trade-off that we have to hold all target representations in memory.
+
+.Index-based default values
+We have to deal with default or special values (e.g. built-in primitive types) in every converter.
+We list them in central types like `ILionCoreConstants` and `IJsonConstants` _in the same order_.
+In each converter we can get the appropriate two lists and correlate them by index.
+
+Rationale: Index-based mapping is error-prone, but we need every possible combination between representations typically once.
+Maintaining all of these maps would be more effort, and error-prone than carefully ordered lists.
+
+Example: We list primitive types as
+
+* `List<PrimitiveType>[getBoolean(), getInteger(), getString(), getJSON()]` in `IJsonConstants.listPrimitiveTypes()`
+
+* `List<node<PrimitiveType>>[lcBooleanType(), lcIntegerType(), lcStringType(), lcJsonType()]` in `ILionCoreConstants.listLcPrimitiveTypes()`, 
+
+* `List<string>[idBooleanType(), idIntegerType(), idStringType(), idJsonType()]` in `ILionCoreConstants.listSPrimitiveTypeIds()`
+
+.Annotate nullability
+We use annotations `@NotNull` and `@Nullable` on all single-valued return types and parameters of public methods.
+"single-valued" are all types that are not collections, sequences, iterables, etc.
+
+Rationale: MPS typechecker and generated run-time code helps a lot in dealing with potential `null` values.
+Our converters should be robust, so they _have_ to deal with `null` values at all possible places anyway.
+
+.JavaDoc for all classes and public methods
+We write technical documentation as JavaDoc on all classes and public methods.
+We can omit the JavaDoc if and only if the class'/method's purpose, usage, assumptions, and limitations are clear and obvious from its name, without looking at the implementation.
+Include comparisons to similar, but slightly different classes/methods.
+
+Rationale: Especially with above's "single task" principle, lots of classes look very similar.
+Even after glancing through the code their differences might not be obvious -- we need to explain it.
+
+.Specific exceptions
+Except `NullPointerException`, we should only use custom specializations of `RuntimeException`.
+
+Rationale: We want to distinguish between properly handled exceptional situations (e.g. user tries to import instances of non-existent concepts) from potential coding issues (e.g. `IndexOutOfBoundException` because we mismatched default values).
+
+.Test everything
+Our converters are riddled with special cases.
+There only way we can handle them consistently without regressions is very good test coverage. 
 
 == Representations of Languages
 image::M3-language-variants.svg[]
@@ -50,7 +151,7 @@ Mainly used to test conversion between MPS and LionCore concepts.
 
 [[JSON-M3, Java JSON]]
 LionCore Java M3::
-Module `org.lionweb.lioncore.java` contains LionCore meta-meta-model as Java classes.
+Module `org.lionweb.lionweb.java` contains LionCore meta-meta-model as Java classes.
 Used to serialize / unserialize LionWeb M2 and M1 models to / from JSON.
 
 [[LanguageStructure, MPS Language structure]]
@@ -79,6 +180,13 @@ Simply creates an imported, not yet existing language.
 
 [[internal-representations]]
 === Internal representations
+MPS represents languages in lots of differnt ways, depending on the context.
+There's always more than one way how to get from one representation to the other, but these ways are not equal
+-- especially in case of half-broken languages.
+
+Use {link-MpsLanguageConverter}[MpsLanguageConverter] to convert between all representations.
+It choses the most successful way, and clearly reports success (either by potential `@Nullable` result or `throws IllegalStateException`).
+
 NOTE: The following representations are only used internally in MPS.
 The diagram shows how to get from one representation to another.
 
@@ -129,6 +237,9 @@ The source of this converter are compiled languages inside MPS.
 {link-IndirectLanguage2JsonConverter}[IndirectLanguage2JsonConverter]:::
 Converts the transitive closure of MPS ``SLanguage``s to LionWeb JSON ``Language``s.
 
+{link-FineGrainedClosureLanguage2JsonConverter}[FineGrainedClosureLanguage2JsonConverter]:::
+Converts the minimally required concepts of MPS ``SLanguage``s to LionWeb JSON ``Language``s.
+
 {link-Json2LanguageConverter}[Json2LanguageConverter]::
 Converts LionWeb JSON ``Language``s to compiled ``SLanguage``s present in MPS.
 Fails if any part of the source language is not present in MPS.
@@ -137,6 +248,11 @@ Fails if any part of the source language is not present in MPS.
 {link-LionWeb2MpsConverter}[LionWeb2MpsConverter]::
 Converts a sequence of ``SerializedNode``s (originating from parsed LionWeb JSON) to MPS ``SNode``s.
 Handles every `SerializedNode` as a new MPS `SNode`.
+Assumes all used languages are present as built languages in MPS.
+
+{link-MergingLionWeb2MpsConverter}[MergingLionWeb2MpsConverter]:::
+Converts a sequence of ``SerializedNode``s (originating from parsed LionWeb JSON) to MPS ``SNode``s.
+Merges existing ``SerializedNode`` with MPS ``SNode``s if they have the same node id.
 Assumes all used languages are present as built languages in MPS.
 
 {link-AMps2LionWebConverter}[AMps2LionWebConverter]::
