@@ -1,5 +1,17 @@
 # Implementation of LionCore in MPS
 
+## Usage
+Download the LionWeb-MPS version that matches your MPS version from [Maven Central](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps).
+The artifacts are named `io.lionweb.lionweb-mps.lionweb-mps-<MPS release>-lw<LionWeb-version>`.
+Currently available are:
+
+* LionWeb version 2023.1
+  * MPS 2021.1 [io.lionweb.lionweb-mps.lionweb-mps2021.1-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.1-lw2023.1)
+  * MPS 2021.2 [io.lionweb.lionweb-mps.lionweb-mps2021.2-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.2-lw2023.1)
+  * MPS 2021.3 [io.lionweb.lionweb-mps.lionweb-mps2021.3-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.3-lw2023.1)
+
+Load them into your MPS project as project library.
+
 ## Dependencies
 * MPS version 2021.1
 * _lioncore-java_
@@ -68,11 +80,39 @@ Run:
 ## Documentation
 Refer to [documentation](docs/lioncore2mps-converter-design.adoc).
 
-## Publishing
+## Development process
+
+We have on "main" branch per supported MPS version, e.g. `mps2021.1`.
+We implement all new functionality on a branch, based on the oldest supported "main" branch.
+Example: The new branch `niko/great-new-feature` is based on `mps2021.1`.
+
+Once we merged the feature branch back to "main" (in the example: `mps2021.1`), we merge the changes into the next higher mps version branch. 
+Example:
+
+1. Develop on `niko/great-new-feature`, based on `mps2021.1`.
+2. Merge `niko/great-new-feature` into `mps2021.1` via pull request.
+3. Open MPS 2021.2 on branch `mps2021.2` and merge `mps2021.1` into `mps2021.2`. Push `mps2021.2`.
+4. Open MPS 2021.3 on branch `mps2021.3` and merge `mps2021.2` into `mps2021.3`. Push `mps2021.3`.
+5. Release each "main" branch separately, to create new artifacts `lionweb-mps2021.1-lw2023.1`, `lionweb-mps2021.2-lw2023.1`, and `lionweb-mps2021.3-lw2023.1`.
+
+When merging into a newer MPS version, follow these steps.
+The example assumes we merge `mps2021.1` into `mps2021.2`.
+
+1. Open the _target_ MPS version (2021.2) on the _target_ branch (`mps2021.2`).
+2. Merge the _source_ branch (`mps2021.1`) into your _current_ branch (`mps2021.2`).
+3. Double-check `gradle.properties` still contains the proper entries for
+   * `mpsVersionSuffix` should be the _target_ MPS version (`2021.2`)
+   * `mpsVersion` full _target_ MPS version (`2021.2.6`)
+   * `mpsExtensionsVersion` latest version of [MPS-extensions](https://jetbrains.github.io/MPS-extensions/) for the _target_ MPS version (`2021.2.2631.1360a64`)
+4. Run Migration Assistant
+5. Run all tests
+6. Update build model
+
+## Publishing and Releasing
 
 Run:
 
-`./gradlew publish`
+`./gradlew release`
 
 To publish to either Sonatype (for snapshot versions, i.e., versions ending with `-SNAPSHOT`) or to Maven Central.
 For doing that you need to configure your sonatype credentials in ~/.gradle/gradle.properties:
@@ -82,8 +122,7 @@ ossrhUsername=<username>
 ossrhPassword=<password>
 ```
 
-In order to be able to publish you need to register on sonatype and then asked to be added to the list of users 
-authorized to publish under io.lionweb.
+In order to be able to relase you need to register on sonatype and then asked to be added to the list of users authorized to relase under `io.lionweb`.
 
 Alternatively one can use Maven Local while testing:
 
