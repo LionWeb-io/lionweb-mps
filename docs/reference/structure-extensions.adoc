@@ -1,4 +1,4 @@
-:m3: https://lionweb-io.github.io/specification/metametamodel/metametamodel.html
+:m3: https://lionweb.io/specification/metametamodel/metametamodel.html
 :mpshelp: https://www.jetbrains.com/help/mps
 :slangdocs: https://alexanderpann.github.io/mps-openapi-doc/javadoc_2021.2
 :underbracket: &#9141;
