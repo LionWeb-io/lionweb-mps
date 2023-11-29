@@ -1,6 +1,11 @@
 {
   "serializationFormatVersion": "2023.1",
-  "languages": [],
+  "languages": [
+    {
+      "version": "0",
+      "key": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2"
+    }
+  ],
   "nodes": [
     {
       "id": "{id-tcd}",
