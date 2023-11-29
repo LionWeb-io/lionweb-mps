@@ -77,19 +77,24 @@ Run:
 
 `./gradlew build`
 
-## Documentation
-Refer to [documentation](docs/lioncore2mps-converter-design.adoc).
+## User Reference Documentation
+Read about [LionWeb Extensions on MPS' Language Structure Aspect](docs/reference/structure-extensions.adoc)
+and [LionWeb Converter Language](docs/reference/converter-lang.adoc).
+
+## Technical Documentation
+Refer to our [design document](docs/lionweb-mps-design.adoc).
 
 ## Development process
 
-We have on "main" branch per supported MPS version, e.g. `mps2021.1`.
+We have one "main" branch per supported MPS version, e.g. `mps2021.1`.
+We use the latest patch of each supported MPS version, e.g. MPS 2021.1.4.
 We implement all new functionality on a branch, based on the oldest supported "main" branch.
 Example: The new branch `niko/great-new-feature` is based on `mps2021.1`.
 
 Once we merged the feature branch back to "main" (in the example: `mps2021.1`), we merge the changes into the next higher mps version branch. 
 Example:
 
-1. Develop on `niko/great-new-feature`, based on `mps2021.1`.
+1. Use MPS 2021.1 to develop on `niko/great-new-feature`, based on `mps2021.1`.
 2. Merge `niko/great-new-feature` into `mps2021.1` via pull request.
 3. Open MPS 2021.2 on branch `mps2021.2` and merge `mps2021.1` into `mps2021.2`. Push `mps2021.2`.
 4. Open MPS 2021.3 on branch `mps2021.3` and merge `mps2021.2` into `mps2021.3`. Push `mps2021.3`.
