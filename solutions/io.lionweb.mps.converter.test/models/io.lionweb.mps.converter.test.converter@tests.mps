@@ -21,7 +21,6 @@
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="jfqc" ref="r:6e560006-b8bd-4479-9a0e-1c215f48423a(io.lionweb.mps.converter.test.support)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
-    <import index="xbe" ref="r:912ab958-fa26-4eb6-bc68-3a80eb1c49c4(io.lionweb.mps.converter.test.support)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -3933,8 +3932,8 @@
         <node concept="3clFbH" id="6_BZUoICHbb" role="3cqZAp" />
         <node concept="3clFbF" id="6_BZUoICHbc" role="3cqZAp">
           <node concept="2YIFZM" id="6_BZUoICHbd" role="3clFbG">
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
-            <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
+            <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+            <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
             <node concept="2ShNRf" id="6_BZUoICHbe" role="37wK5m">
               <node concept="Tc6Ow" id="6_BZUoICHbf" role="2ShVmc">
                 <node concept="3Tqbb2" id="6_BZUoICHbg" role="HW$YZ">
@@ -3954,8 +3953,8 @@
               <ref role="2I9WkF" to="h3y3:2ju2syjkngz" resolve="Language" />
             </node>
             <node concept="2YIFZM" id="6_BZUoICHbl" role="33vP2m">
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
-              <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
+              <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+              <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
               <node concept="37vLTw" id="6_BZUoICHbm" role="37wK5m">
                 <ref role="3cqZAo" node="6_BZUoICHaV" resolve="converted" />
               </node>
@@ -4020,8 +4019,8 @@
         <node concept="3clFbH" id="6_BZUoICHbK" role="3cqZAp" />
         <node concept="3clFbF" id="6_BZUoICHbL" role="3cqZAp">
           <node concept="2YIFZM" id="6_BZUoICHbM" role="3clFbG">
-            <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
-            <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
+            <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+            <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
             <node concept="2ShNRf" id="6_BZUoICHbN" role="37wK5m">
               <node concept="Tc6Ow" id="6_BZUoICHbO" role="2ShVmc">
                 <node concept="3Tqbb2" id="6_BZUoICHbP" role="HW$YZ">
@@ -4040,10 +4039,10 @@
             <node concept="2I9FWS" id="6_BZUoICHbT" role="1tU5fm">
               <ref role="2I9WkF" to="h3y3:2ju2syjkngz" resolve="Language" />
             </node>
-            <node concept="2YIFZM" id="6_BZUoICHbU" role="33vP2m">
-              <ref role="1Pybhc" to="xbe:48csSBPyj1E" resolve="LanguageSorter" />
-              <ref role="37wK5l" to="xbe:48csSBPyH1i" resolve="sort" />
-              <node concept="37vLTw" id="6_BZUoICHbV" role="37wK5m">
+            <node concept="2YIFZM" id="3Hkdf1nf_mC" role="33vP2m">
+              <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+              <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
+              <node concept="37vLTw" id="3Hkdf1nf_mD" role="37wK5m">
                 <ref role="3cqZAo" node="6_BZUoICHbw" resolve="converted" />
               </node>
             </node>
