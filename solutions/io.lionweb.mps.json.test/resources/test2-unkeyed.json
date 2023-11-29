@@ -1,6 +1,15 @@
 {
   "serializationFormatVersion": "2023.1",
-  "languages": [],
+  "languages": [
+    {
+      "version": "0",
+      "key": "My-TestLang3"
+    },
+    {
+      "version": "0",
+      "key": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0"
+    }
+  ],
   "nodes": [
     {
       "id": "{id-unkeyed}",

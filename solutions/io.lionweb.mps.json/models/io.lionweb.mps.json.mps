@@ -244,8 +244,14 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
       <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
         <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
+        <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
       </concept>
       <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
         <child id="6962838954693749192" name="tag" index="qph3F" />
@@ -755,8 +761,31 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="4L4ctZkvV5s" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
       <node concept="2AHcQZ" id="5M3rB6BO2DP" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="P$JXv" id="3FWZcLWbG18" role="lGtFl">
+        <node concept="TZ5HI" id="3FWZcLWbG1b" role="3nqlJM">
+          <node concept="TZ5HA" id="3FWZcLWbG1c" role="3HnX3l">
+            <node concept="1dT_AC" id="3FWZcLWbGS3" role="1dT_Ay">
+              <property role="1dT_AB" value="We should always include the list of languages in serialization. Use " />
+            </node>
+            <node concept="1dT_AA" id="3FWZcLWbGS6" role="1dT_Ay">
+              <node concept="92FcH" id="3FWZcLWbGSc" role="qph3F">
+                <node concept="TZ5HA" id="3FWZcLWbGSe" role="2XjZqd" />
+                <node concept="VXe0Z" id="3FWZcLWbGSl" role="92FcQ">
+                  <ref role="VXe0S" node="5glO5qKYPf3" resolve="serialize" />
+                </node>
+              </node>
+            </node>
+            <node concept="1dT_AC" id="3FWZcLWbGS5" role="1dT_Ay">
+              <property role="1dT_AB" value="." />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5glO5qKYPJ7" role="jymVt" />
@@ -814,65 +843,6 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="5M3rB6BO27G" role="2AJF6D">
-        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6VkSF6c$CM5" role="jymVt" />
-    <node concept="3clFb_" id="5sACIIt41dL" role="jymVt">
-      <property role="TrG5h" value="serialize" />
-      <node concept="3clFbS" id="5sACIIt41dM" role="3clF47">
-        <node concept="3cpWs8" id="5sACIIt41dR" role="3cqZAp">
-          <node concept="3cpWsn" id="5sACIIt41dS" role="3cpWs9">
-            <property role="TrG5h" value="result" />
-            <node concept="3uibUv" id="5sACIIt41dX" role="1tU5fm">
-              <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
-            </node>
-            <node concept="1rXfSq" id="6VkSF6c$yE6" role="33vP2m">
-              <ref role="37wK5l" node="6VkSF6c$yE2" resolve="convert" />
-              <node concept="2ShNRf" id="2fx6VTTQ1OG" role="37wK5m">
-                <node concept="2HTt$P" id="2fx6VTTQ2FV" role="2ShVmc">
-                  <node concept="3uibUv" id="2fx6VTTQ2Wh" role="2HTBi0">
-                    <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
-                  </node>
-                  <node concept="37vLTw" id="2fx6VTTQ3dF" role="2HTEbv">
-                    <ref role="3cqZAo" node="6VkSF6c$if4" resolve="node" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2YIFZM" id="5glO5qKZ3im" role="37wK5m">
-                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
-                <node concept="3uibUv" id="5glO5qKZ3in" role="3PaCim">
-                  <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6VkSF6c$m4M" role="3cqZAp" />
-        <node concept="3cpWs6" id="6VkSF6c$B96" role="3cqZAp">
-          <node concept="1rXfSq" id="6VkSF6c$B95" role="3cqZAk">
-            <ref role="37wK5l" node="6VkSF6c$B8C" resolve="write" />
-            <node concept="37vLTw" id="6VkSF6c$B94" role="37wK5m">
-              <ref role="3cqZAo" node="5sACIIt41dS" resolve="result" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="5sACIIt41ew" role="1B3o_S" />
-      <node concept="3uibUv" id="5sACIIt41ex" role="3clF45">
-        <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
-      </node>
-      <node concept="37vLTG" id="6VkSF6c$if4" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3uibUv" id="6VkSF6c$if3" role="1tU5fm">
-          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
-        </node>
-        <node concept="2AHcQZ" id="5M3rB6BNZvu" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="5M3rB6BO1__" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
