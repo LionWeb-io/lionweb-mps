@@ -334,7 +334,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="z1IqfFwqda">
-    <property role="TrG5h" value="Unserializer" />
+    <property role="TrG5h" value="Deserializer" />
     <property role="3GE5qa" value="serializer" />
     <node concept="312cEg" id="z1IqfFwqjR" role="jymVt">
       <property role="TrG5h" value="input" />
@@ -409,7 +409,7 @@
     </node>
     <node concept="2tJIrI" id="z1IqfFwqsp" role="jymVt" />
     <node concept="3clFb_" id="z1IqfFwqy3" role="jymVt">
-      <property role="TrG5h" value="unserialize" />
+      <property role="TrG5h" value="deserialize" />
       <node concept="3clFbS" id="z1IqfFwqy6" role="3clF47">
         <node concept="3cpWs8" id="z1IqfFwvf4" role="3cqZAp">
           <node concept="3cpWsn" id="z1IqfFwvf5" role="3cpWs9">
@@ -487,7 +487,7 @@
     </node>
     <node concept="2tJIrI" id="5wsogBc3YCM" role="jymVt" />
     <node concept="3clFb_" id="5wsogBc3YTv" role="jymVt">
-      <property role="TrG5h" value="unserializeLanguages" />
+      <property role="TrG5h" value="deserializeLanguages" />
       <node concept="3clFbS" id="5wsogBc3YTy" role="3clF47">
         <node concept="3cpWs8" id="5wsogBc410Q" role="3cqZAp">
           <node concept="3cpWsn" id="5wsogBc410R" role="3cpWs9">
@@ -617,7 +617,7 @@
     <node concept="3UR2Jj" id="5TNjoy1EHQA" role="lGtFl">
       <node concept="TZ5HA" id="5TNjoy1EHQB" role="TZ5H$">
         <node concept="1dT_AC" id="5TNjoy1EHQC" role="1dT_Ay">
-          <property role="1dT_AB" value="Unserializes JSON nodes of any level (M1/M2)." />
+          <property role="1dT_AB" value="Deserializes JSON nodes of any level (M1/M2)." />
         </node>
       </node>
     </node>

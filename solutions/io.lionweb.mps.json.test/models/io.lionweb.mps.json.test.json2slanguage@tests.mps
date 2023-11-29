@@ -495,11 +495,11 @@
               <node concept="3cpWsn" id="5ocQ9W1vI8A" role="3cpWs9">
                 <property role="TrG5h" value="unserializer" />
                 <node concept="3uibUv" id="5ocQ9W1vI8B" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:z1IqfFwqda" resolve="Unserializer" />
+                  <ref role="3uigEE" to="6peh:z1IqfFwqda" resolve="Deserializer" />
                 </node>
                 <node concept="2ShNRf" id="5ocQ9W1vI8C" role="33vP2m">
                   <node concept="1pGfFk" id="5ocQ9W1vI8D" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Unserializer" />
+                    <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Deserializer" />
                     <node concept="2ShNRf" id="5ocQ9W1vI8E" role="37wK5m">
                       <node concept="1pGfFk" id="5ocQ9W1vI8F" role="2ShVmc">
                         <ref role="37wK5l" to="guwi:~BufferedInputStream.&lt;init&gt;(java.io.InputStream)" resolve="BufferedInputStream" />
@@ -525,7 +525,7 @@
                     <ref role="3cqZAo" node="5ocQ9W1vI8A" resolve="unserializer" />
                   </node>
                   <node concept="liA8E" id="5ocQ9W1vI8N" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="unserializeLanguages" />
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="deserializeLanguages" />
                   </node>
                 </node>
               </node>

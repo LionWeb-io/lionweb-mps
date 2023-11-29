@@ -104,19 +104,6 @@
       <property role="1iqoE4" value="${module}/icons/json2language.png" />
     </node>
   </node>
-  <node concept="1TIwiD" id="48csSBOOT6J">
-    <property role="EcuMT" value="4759305942578991535" />
-    <property role="TrG5h" value="TestContainer" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="48csSBOOTdg" role="1TKVEi">
-      <property role="IQ2ns" value="4759305942578991952" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="contents" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7qGUpN3ChNP">
     <property role="EcuMT" value="8551466651976015093" />
     <property role="TrG5h" value="ExportLanguageToJson" />
