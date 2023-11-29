@@ -1,6 +1,7 @@
 # Changelog for LionWeb-MPS
 
 ## Next
+* Updated both technical and reference documentation.
 
 * Added intentions to assign LionWeb keys to all elements of a language.
   The element's name is used as its key.
