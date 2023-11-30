@@ -13,9 +13,18 @@
   </imports>
   <registry>
     <language id="87eb1330-1c4d-4d07-b78f-e2c835ec9b89" name="io.lionweb.mps.converter.TestAnnotationLang">
-      <concept id="7595320385795598248" name="io.lionweb.mps.converter.TestAnnotationLang.structure.LinkAnnotation" flags="ng" index="17LHwe" />
-      <concept id="7595320385795598213" name="io.lionweb.mps.converter.TestAnnotationLang.structure.IfaceAnnotation" flags="ng" index="17LHwz" />
-      <concept id="7595320385795598208" name="io.lionweb.mps.converter.TestAnnotationLang.structure.AnyAnnotation" flags="ng" index="17LHwA" />
+      <concept id="7595320385795598248" name="io.lionweb.mps.converter.TestAnnotationLang.structure.LinkAnnotation" flags="ng" index="17LHwe">
+        <property id="4275100153153965082" name="count" index="1GCvzE" />
+      </concept>
+      <concept id="7595320385795598213" name="io.lionweb.mps.converter.TestAnnotationLang.structure.IfaceAnnotation" flags="ng" index="17LHwz">
+        <reference id="4275100153153965083" name="altIface" index="1GCvzF" />
+      </concept>
+      <concept id="7595320385795598208" name="io.lionweb.mps.converter.TestAnnotationLang.structure.AnyAnnotation" flags="ng" index="17LHwA">
+        <child id="4275100153153965080" name="contents" index="1GCvzC" />
+      </concept>
+      <concept id="4275100153153976842" name="io.lionweb.mps.converter.TestAnnotationLang.structure.MultiRef" flags="ng" index="1GCsVU">
+        <reference id="4275100153153976843" name="target" index="1GCsVV" />
+      </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
@@ -92,7 +101,10 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="myChild" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      <node concept="17LHwe" id="6_BZUoICtHg" role="lGtFl" />
+      <node concept="17LHwe" id="6_BZUoICtHg" role="lGtFl">
+        <property role="TrG5h" value="asdf" />
+        <property role="1GCvzE" value="1" />
+      </node>
     </node>
     <node concept="1TJgyj" id="6_BZUoIBWTO" role="1TKVEi">
       <property role="IQ2ns" value="7595320385795509876" />
@@ -100,13 +112,25 @@
       <property role="20kJfa" value="myMultiRef" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6_BZUoIBWTh" resolve="AutoIdAnyReference" />
-      <node concept="17LHwe" id="6_BZUoICv9Q" role="lGtFl" />
+      <node concept="17LHwe" id="6_BZUoICv9Q" role="lGtFl">
+        <property role="TrG5h" value="zxcv" />
+        <property role="1GCvzE" value="23" />
+      </node>
     </node>
     <node concept="1TJgyj" id="6_BZUoIBWTe" role="1TKVEi">
       <property role="IQ2ns" value="7595320385795509838" />
       <property role="20kJfa" value="mySingleRef" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      <node concept="17LHwA" id="6_BZUoIC$nw" role="lGtFl" />
+      <node concept="17LHwA" id="6_BZUoIC$nw" role="lGtFl">
+        <node concept="1GCsVU" id="3Hkdf1nXwgO" role="1GCvzC">
+          <property role="TrG5h" value="hello" />
+          <ref role="1GCsVV" node="6_BZUoIBWT9" resolve="AutoIdConcept" />
+        </node>
+        <node concept="1GCsVU" id="3Hkdf1nXwgQ" role="1GCvzC">
+          <property role="TrG5h" value="bye" />
+          <ref role="1GCsVV" node="6_BZUoICaDx" resolve="CustomIdIface" />
+        </node>
+      </node>
       <node concept="17LHwA" id="6_BZUoIC_CV" role="lGtFl" />
     </node>
     <node concept="17Y2O7" id="6_BZUoIC4ee" role="lGtFl" />
@@ -170,7 +194,16 @@
     <node concept="2DM1AW" id="6_BZUoIBWUo" role="lGtFl">
       <property role="2DM1AS" value="key-CustomIdConcept" />
     </node>
-    <node concept="17LHwA" id="6_BZUoICoer" role="lGtFl" />
+    <node concept="17LHwA" id="6_BZUoICoer" role="lGtFl">
+      <node concept="1GCsVU" id="3Hkdf1o16_P" role="1GCvzC">
+        <property role="TrG5h" value="lalala" />
+        <ref role="1GCsVV" node="6_BZUoIBWUf" resolve="mySingleRef" />
+      </node>
+      <node concept="1GCsVU" id="3Hkdf1o16_S" role="1GCvzC">
+        <property role="TrG5h" value="lululu" />
+        <ref role="1GCsVV" node="6_BZUoICaDx" resolve="CustomIdIface" />
+      </node>
+    </node>
   </node>
   <node concept="1TIwiD" id="6_BZUoIBWUj">
     <property role="EcuMT" value="7595320385795509907" />
@@ -222,7 +255,9 @@
     </node>
     <node concept="17Y2dj" id="6_BZUoICguO" role="lGtFl" />
     <node concept="17Y2O7" id="6_BZUoIChTC" role="lGtFl" />
-    <node concept="17LHwz" id="6_BZUoICFo8" role="lGtFl" />
+    <node concept="17LHwz" id="6_BZUoICFo8" role="lGtFl">
+      <ref role="1GCvzF" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

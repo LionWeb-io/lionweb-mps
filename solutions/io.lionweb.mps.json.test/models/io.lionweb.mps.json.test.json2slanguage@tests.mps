@@ -483,7 +483,7 @@
       </node>
     </node>
     <node concept="1LZb2c" id="5XEBF0FFjZ2" role="1SL9yI">
-      <property role="TrG5h" value="TestAnnotatedLang" />
+      <property role="TrG5h" value="TestAnnotationLang" />
       <node concept="3cqZAl" id="5XEBF0FFjZ3" role="3clF45" />
       <node concept="3clFbS" id="5XEBF0FFjZ4" role="3clF47">
         <node concept="3clFbF" id="5XEBF0FFjZ5" role="3cqZAp">
@@ -502,16 +502,46 @@
                       <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotationLang" />
                     </node>
                   </node>
-                  <node concept="pHN19" id="5XEBF0FFjZ9" role="HW$Y0">
-                    <node concept="2V$Bhx" id="5XEBF0FFkbz" role="2V$M_3">
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5XEBF0FFjZb" role="2XxRq1">
+                <property role="Xl_RC" value="TestAnnotationLang-metamodel.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="3Hkdf1n$dWj" role="1SL9yI">
+      <property role="TrG5h" value="TestAnnotatedLang" />
+      <node concept="3cqZAl" id="3Hkdf1n$dWk" role="3clF45" />
+      <node concept="3clFbS" id="3Hkdf1n$dWl" role="3clF47">
+        <node concept="3clFbF" id="3Hkdf1n$dWm" role="3cqZAp">
+          <node concept="2OqwBi" id="3Hkdf1n$dWn" role="3clFbG">
+            <node concept="2WthIp" id="3Hkdf1n$dWo" role="2Oq$k0" />
+            <node concept="2XshWL" id="3Hkdf1n$dWp" role="2OqNvi">
+              <ref role="2WH_rO" node="3Hkdf1nxLeH" resolve="export" />
+              <node concept="2ShNRf" id="3Hkdf1n$dWq" role="2XxRq1">
+                <node concept="Tc6Ow" id="3Hkdf1n$dWr" role="2ShVmc">
+                  <node concept="3uibUv" id="3Hkdf1n$dWs" role="HW$YZ">
+                    <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                  </node>
+                  <node concept="pHN19" id="3Hkdf1n$dWt" role="HW$Y0">
+                    <node concept="2V$Bhx" id="3Hkdf1n$dWu" role="2V$M_3">
+                      <property role="2V$B1T" value="87eb1330-1c4d-4d07-b78f-e2c835ec9b89" />
+                      <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotationLang" />
+                    </node>
+                  </node>
+                  <node concept="pHN19" id="3Hkdf1n$dWv" role="HW$Y0">
+                    <node concept="2V$Bhx" id="3Hkdf1n$dWw" role="2V$M_3">
                       <property role="2V$B1T" value="77ef5d5b-8bf9-4404-8d66-42749e39c351" />
                       <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAnnotatedLang" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="Xl_RD" id="5XEBF0FFjZb" role="2XxRq1">
-                <property role="Xl_RC" value="MultiRefLang-metamodel.json" />
+              <node concept="Xl_RD" id="3Hkdf1n$dWx" role="2XxRq1">
+                <property role="Xl_RC" value="TestAnnotatedLang-metamodel.json" />
               </node>
             </node>
           </node>
@@ -526,7 +556,7 @@
           <node concept="2OqwBi" id="5XEBF0FG8Mt" role="3clFbG">
             <node concept="2WthIp" id="5XEBF0FG8Mu" role="2Oq$k0" />
             <node concept="2XshWL" id="5XEBF0FG8Mv" role="2OqNvi">
-              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <ref role="2WH_rO" node="3Hkdf1nxLeH" resolve="export" />
               <node concept="2ShNRf" id="3Hkdf1n$aT2" role="2XxRq1">
                 <node concept="Tc6Ow" id="3Hkdf1n$aT3" role="2ShVmc">
                   <node concept="3uibUv" id="3Hkdf1n$aT4" role="HW$YZ">
