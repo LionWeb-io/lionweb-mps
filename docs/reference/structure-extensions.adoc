@@ -1,4 +1,4 @@
-:m3: https://lionweb-io.github.io/specification/metametamodel/metametamodel.html
+:m3: https://lionweb.io/specification/metametamodel/metametamodel.html
 :mpshelp: https://www.jetbrains.com/help/mps
 :slangdocs: https://alexanderpann.github.io/mps-openapi-doc/javadoc_2021.2
 :underbracket: &#9141;
@@ -116,12 +116,23 @@ By default, LionWeb-MPS derives the key from MPS' internal ids.
 As language designer, we can customize the LionWeb key (e.g. if they need to be consistent across different implementations).
 
 .Constraints
-* Keys must be link:{m3}#identifiers[valid identifiers]
+* Keys must be link:{m3}#identifiers[valid identifiers].
+Use intention menu:Replace invalid characters with dash[] to fix invalid keys.
 * Keys must be unique within one language.
 
 [[custom-language-key]]
 === Custom language key
 Create a root node of concept image:../../languages/io.lionweb.mps.structure.attribute/icons/lionweb.png[]{nbsp}``LionWeb Language Key`` inside a structure aspect to customize the language's key.
+
+This concept provides two handy intentions:
+
+* menu:Replace Key with Name for All Language Elements[] uses all elements' names as key.
+Example: `MyGreatConcept` gets key `MyGreatConcept`, and its property `numberOfThings` gets key `MyGreatConcept-numberOfThings`.
+This intention overwrites all existing manually assigned keys.
+
+* menu:Add Name as Key to All Language Elements[] assignes the same keys, but only to elements without an existing LionWeb key. 
+
+
 
 [[custom-element-key]]
 === Language element key
