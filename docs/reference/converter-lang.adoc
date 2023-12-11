@@ -1,0 +1,123 @@
+:mpshelp: https://www.jetbrains.com/help/mps
+:slangdocs: https://alexanderpann.github.io/mps-openapi-doc/javadoc_2021.2
+
+= Reference for LionWeb Converter Language
+:stylesheet: style.css
+:experimental:
+:toc: preamble
+:toclevels: 3
+:sectnums:
+
+LionWeb-MPS converts Languages and instance models between several different representations.
+We provide concepts to easily configure and execute all available converters.
+
+To use the converters, add the language `io.lionweb.mps.converter.lang` to your model.
+Create the desired converter as root node.
+Execute the conversion through an intention on the converter.
+Check the btn:[Messages Pane] for results.
+
+== MPS Language &rarr; JSON
+
+=== Export MPS Language to JSON
+Technical name: `ExportMpsLanguageToJson` / `Language2JsonConverter`
+
+Converts a list of MPS Languages to LionCore JSON.
+We use MPS' _Runtime Language_ representation.
+
+Requires a file _path_ to write the JSON file to.
+We can use {mpshelp}/absolute-path-variables.html[path variables].
+
+CAUTION: Existing files will be overwritten without notice!
+
+MPS Language `A` _depends_ on all languages that are listed in ``A.structure``'s Model Properties Dependencies.
+
+We can choose the _scope_ of conversion:
+
+[horizontal]
+listed:: 
+Only convert the listed languages.
+Fails if any of the converted languages _depends_ on a non-listed language.
+
+indirect::
+Convert all listed languages, and (transitive) _dependencies_.
+
+fineGrainedClosure::
+Converts all listed languages completely.
+If any element in the listed languages uses an element from a non-listed language, we include the element of the non-listed language -- but not any other elements of that non-listed language.
+We apply this strategy (known as _tree shaking_) transitively until we included all used elements.
+
+
+== MPS Instance Model &harr; JSON
+
+=== Export Instance to JSON
+Technical name: `ExportInstanceToJson` / `AMps2LionWebConverter`
+
+Converts a list of MPS nodes to LionWeb JSON.
+
+Requires a file _path_ to write the JSON file to.
+We can use {mpshelp}/absolute-path-variables.html[path variables].
+
+CAUTION: Existing files will be overwritten without notice!
+
+We can choose the _scope_ of conversion:
+
+[horizontal]
+listed::
+Only converts the listed nodes.
+
+descendants::
+Converts the listed nodes, and all descendants of each listed node.
+
+closure::
+Converts the listed nodes, all descendants, and all referenced nodes.
+We apply this strategy until we include all Annotation, Containment, and Reference targets. 
+
+=== Import Instance from JSON
+Technical name: `ImportInstanceFromJson` / `MergingLionWeb2MpsConverter`
+
+Converts a LionWeb JSON file into MPS nodes, stored into the current model.
+If the current model already contains a node with the same id as an imported node, we https://github.com/LionWeb-io/specification/issues/25[merge] them.
+
+Requires a file _path_ of the JSON file to read.
+We can use {mpshelp}/absolute-path-variables.html[path variables].
+
+
+== LionCore M3 &harr; JSON
+
+=== Export Language to JSON
+Technical name: `ExportLanguageToJson` / `LionCore2JsonConverter`
+
+Converts a list of `io.lionweb.mps.m3` instances to LionCore JSON.
+
+Requires a file _path_ to write the JSON file to.
+We can use {mpshelp}/absolute-path-variables.html[path variables].
+
+CAUTION: Existing files will be overwritten without notice!
+
+=== Import Language from JSON
+Technical name: `ImportLanguageFromJson` / `Json2LionCoreConverter`
+
+Converts a LionCore JSON file to `io.lionweb.mps.m3` instances, stored into the current model.
+
+Requires a file _path_ of the JSON file to read.
+We can use {mpshelp}/absolute-path-variables.html[path variables].
+
+
+== MPS Language &harr; LionCore M3
+
+=== Convert Language to LionCore
+Technical name: `ConvertLanguageToLionCore` / `Language2LionCoreConverter` / `Mps2LionCoreConverter`
+
+Converts a list of MPS Languages to `io.lionweb.mps.m3` instances.
+
+We can convert either the _Language Nodes_ (i.e. the structure aspect of the MPS Language) or the _Runtime Language_ (i.e. link:{slangdocs}/org/jetbrains/mps/openapi/language/SLanguage.html[SLanguage]).
+In doubt, use _Language Nodes_.
+
+=== Convert Language from LionCore
+
+NOTE: This converter is currently not maintained, but might be reactivated in the future.
+
+Technical name: `ConvertLanguageFromLionCore` / `LionCore2MpsConverter`
+
+Converts a list of `io.lionweb.mps.m3` instances to MPS Language structure aspects.
+

@@ -7,6 +7,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
@@ -179,6 +180,18 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
         <property id="6332851714983843871" name="severity" index="2xdLsb" />
@@ -198,6 +211,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -943,6 +959,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="48csSBOFvR_" role="1B3o_S" />
+    <node concept="3UR2Jj" id="4L4ctZktWG4" role="lGtFl">
+      <node concept="TZ5HA" id="4L4ctZktWG5" role="TZ5H$">
+        <node concept="1dT_AC" id="4L4ctZktWG6" role="1dT_Ay">
+          <property role="1dT_AB" value="Facade to export MPS Languages to LionCore M3." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3LWE6BDxKHt">
     <property role="TrG5h" value="FromLionCore" />
@@ -1665,6 +1688,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="3LWE6BDxKHu" role="1B3o_S" />
+    <node concept="3UR2Jj" id="4L4ctZktTEy" role="lGtFl">
+      <node concept="TZ5HA" id="4L4ctZktTEz" role="TZ5H$">
+        <node concept="1dT_AC" id="4L4ctZktTE$" role="1dT_Ay">
+          <property role="1dT_AB" value="Facade to import MPS Languages (M2) From LionCore M3." />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
