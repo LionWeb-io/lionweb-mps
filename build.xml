@@ -560,6 +560,7 @@
           <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
           <language id="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" />
           <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
+          <language id="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" />
           <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
           <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
         </uses>
@@ -2617,10 +2618,10 @@
           <language id="l:76d927fd-3a5a-4e40-865b-7c2d329ca675:MultiRefLang" />
           <language id="l:afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb:io.lionweb.mps.converter.TestAnnotation" />
           <language id="l:11541b24-a02a-4586-a931-92521b3f6166:io.lionweb.mps.converter.TestCustomDatatype" />
+          <language id="l:08caad75-8246-4427-bb4d-8444b6c5c729:io.lionweb.mps.converter.TestLang" />
           <language id="l:48d0f6eb-6186-4cec-83d1-7caedb05a494:io.lionweb.mps.converter.TestLang2" />
           <language id="l:099490a3-1e39-4ed1-bebc-8027665cecf9:io.lionweb.mps.converter.TestLang3" />
           <language id="l:a95063a5-27eb-4ae8-894e-ea20f8b3d6a2:io.lionweb.mps.converter.TestRefs" />
-          <language id="l:acf932d6-fdeb-4c87-8304-d021a36b68b8:io.lionweb.mps.converter.deps.Standalone" />
           <language id="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" />
           <language id="l:01cf0d82-8d29-4fc4-be96-28abaf4ad33d:io.lionweb.mps.m3" />
           <language id="l:4a963078-62c4-4f96-9b52-198a0c63da4b:io.lionweb.mps.testsupport" />
@@ -5360,7 +5361,6 @@
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestLang2.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestLang3.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestRefs.jar" />
-      <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.deps.Standalone.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps/lib/io.lionweb.mps.converter.lang.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps/lib/io.lionweb.mps.converter.lang.runtime.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.test.support.jar" />
