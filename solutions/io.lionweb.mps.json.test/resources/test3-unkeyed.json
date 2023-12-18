@@ -9,6 +9,11 @@
   "nodes": [
     {
       "id": "{id-unkeyed}",
+      "classifier": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
+      },
       "properties": [
         {
           "property": {
@@ -78,38 +83,33 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "My-TestLang3",
-        "version": "0",
-        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3ODAyODA"
-      }
+      "parent": null
     },
     {
       "id": "{id-Plain}",
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "{id-unkeyed}",
       "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
-      }
-    },
-    {
-      "id": "{id-NoExtends}",
+      },
       "properties": [],
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "{id-unkeyed}",
+      "parent": "{id-unkeyed}"
+    },
+    {
+      "id": "{id-NoExtends}",
       "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
-      }
+      },
+      "properties": [],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-unkeyed}"
     }
   ]
 }

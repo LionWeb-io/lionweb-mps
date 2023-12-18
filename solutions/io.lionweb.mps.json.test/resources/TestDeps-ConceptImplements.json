@@ -9,6 +9,11 @@
   "nodes": [
     {
       "id": "ConceptImplements",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -82,15 +87,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-ConceptImplements",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "io-lionweb-mps-converter-deps-ConceptImplements"
     },
     {
       "id": "OnlyBuiltinsContent",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Interface"
+      },
       "properties": [
         {
           "property": {
@@ -135,15 +140,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-OnlyBuiltins",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      }
+      "parent": "io-lionweb-mps-converter-deps-OnlyBuiltins"
     },
     {
       "id": "io-lionweb-mps-converter-deps-ConceptImplements",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -198,15 +203,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
+      "parent": null
+    },
+    {
+      "id": "io-lionweb-mps-converter-deps-OnlyBuiltins",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Language"
-      }
-    },
-    {
-      "id": "io-lionweb-mps-converter-deps-OnlyBuiltins",
+      },
       "properties": [
         {
           "property": {
@@ -256,12 +261,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     }
   ]
 }

@@ -13,6 +13,11 @@
   "nodes": [
     {
       "id": "6805868710588714744",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
+      },
       "properties": [
         {
           "property": {
@@ -38,15 +43,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
-      }
+      "parent": null
     },
     {
       "id": "6805868710588714763",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyNTc"
+      },
       "properties": [
         {
           "property": {
@@ -60,15 +65,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "6805868710588714744",
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyNTc"
-      }
+      "parent": "6805868710588714744"
     },
     {
       "id": "6805868710588714769",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyODE"
+      },
       "properties": [
         {
           "property": {
@@ -82,15 +87,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "6805868710588714744",
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyODE"
-      }
+      "parent": "6805868710588714744"
     },
     {
       "id": "6805868710588714787",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
+      },
       "properties": [
         {
           "property": {
@@ -168,12 +173,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
-      }
+      "parent": null
     }
   ]
 }

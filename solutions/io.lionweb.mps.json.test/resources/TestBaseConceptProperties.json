@@ -17,6 +17,11 @@
   "nodes": [
     {
       "id": "id-myLib",
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
+      },
       "properties": [
         {
           "property": {
@@ -44,15 +49,15 @@
         "id-myLib-virtualPackage",
         "id-myLib-shortDescription"
       ],
-      "parent": null,
-      "classifier": {
-        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-        "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
-      }
+      "parent": null
     },
     {
       "id": "id-myLib-shortDescription",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "ShortDescription"
+      },
       "properties": [
         {
           "property": {
@@ -66,15 +71,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-myLib",
-      "classifier": {
-        "language": "io-lionweb-mps-specific",
-        "version": "0",
-        "key": "ShortDescription"
-      }
+      "parent": "id-myLib"
     },
     {
       "id": "id-myLib-virtualPackage",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "VirtualPackage"
+      },
       "properties": [
         {
           "property": {
@@ -88,15 +93,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-myLib",
-      "classifier": {
-        "language": "io-lionweb-mps-specific",
-        "version": "0",
-        "key": "VirtualPackage"
-      }
+      "parent": "id-myLib"
     },
     {
       "id": "id-firstBook",
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
+      },
       "properties": [
         {
           "property": {
@@ -120,15 +125,15 @@
       "annotations": [
         "id-firstBook-virtualPackage"
       ],
-      "parent": "id-myLib",
-      "classifier": {
-        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-        "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
-      }
+      "parent": "id-myLib"
     },
     {
       "id": "id-firstBook-virtualPackage",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "VirtualPackage"
+      },
       "properties": [
         {
           "property": {
@@ -142,12 +147,7 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-firstBook",
-      "classifier": {
-        "language": "io-lionweb-mps-specific",
-        "version": "0",
-        "key": "VirtualPackage"
-      }
+      "parent": "id-firstBook"
     }
   ]
 }

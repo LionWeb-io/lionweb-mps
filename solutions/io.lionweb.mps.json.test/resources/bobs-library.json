@@ -9,6 +9,11 @@
   "nodes": [
     {
       "id": "{id-lib}",
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
+      },
       "properties": [
         {
           "property": {
@@ -16,7 +21,7 @@
             "version": "0",
             "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzEvMTY2MzE2NjUzNTM4OTU1NjUwNw"
           },
-          "value": "Bob\u0027s Library"
+          "value": "Bob's Library"
         }
       ],
       "containments": [
@@ -33,15 +38,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-        "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzg2OTkxNDExNTA2MzkyMDA3NzE"
-      }
+      "parent": null
     },
     {
       "id": "{id-explorer-book}",
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
+      },
       "properties": [
         {
           "property": {
@@ -77,15 +82,15 @@
         }
       ],
       "annotations": [],
-      "parent": "{id-lib}",
-      "classifier": {
-        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-        "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLy0yNTg2Mzk4OTU5MDM1MjUwMjYx"
-      }
+      "parent": "{id-lib}"
     },
     {
       "id": "{id-jack-london}",
+      "classifier": {
+        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+        "version": "0",
+        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
+      },
       "properties": [
         {
           "property": {
@@ -107,12 +112,7 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
-        "version": "0",
-        "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAwLzU1ODIwOTMzOTQ1NTE3NDM0MTc"
-      }
+      "parent": null
     }
   ]
 }

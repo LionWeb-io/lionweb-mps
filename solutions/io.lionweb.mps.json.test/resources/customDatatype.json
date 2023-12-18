@@ -9,6 +9,11 @@
   "nodes": [
     {
       "id": "{id-tcd}",
+      "classifier": {
+        "language": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
+        "version": "0",
+        "key": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
+      },
       "properties": [
         {
           "property": {
@@ -54,12 +59,7 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2",
-        "version": "0",
-        "key": "MTE1NDFiMjQtYTAyYS00NTg2LWE5MzEtOTI1MjFiM2Y2MTY2LzYyMDA1Njg5NjQ0MTg2NjkwODQ"
-      }
+      "parent": null
     }
   ]
 }
