@@ -2604,7 +2604,6 @@
           <module ref="48d0f6eb-6186-4cec-83d1-7caedb05a494(io.lionweb.mps.converter.TestLang2)" kind="cl" />
           <module ref="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" kind="cl" />
           <module ref="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2(io.lionweb.mps.converter.TestRefs)" kind="cl" />
-          <module ref="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" kind="cl" />
           <module ref="1f02557f-ee3b-4ebc-bcea-ff6ec30a2c3e(io.lionweb.mps.converter.test.support)" kind="cl" />
           <module ref="39d4fcb0-6a78-41ac-8e8f-01bb784b65fc(io.lionweb.mps.json)" kind="cl" />
           <module ref="cc1efc53-7b9a-40a1-9c9b-06659e6a6116(io.lionweb.mps.json.test.support)" kind="cl" />
@@ -5067,7 +5066,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.io.lionweb.mps.json.test" depends="java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.converter.test.support, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.json.test.support, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.testsupport, java.compile.library, fetchDependencies">
+  <target name="java.compile.io.lionweb.mps.json.test" depends="java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.converter.test.support, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.json.test.support, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.testsupport, java.compile.library, fetchDependencies">
     <mkdir dir="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/test_gen" />
     <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.json.test" />
     <javac destdir="${build.tmp}/java/out/io.lionweb.mps.json.test" fork="false" encoding="utf8" includeantruntime="false" debug="true">
@@ -5106,7 +5105,6 @@
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang2" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang3" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestRefs" />
-        <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.lang" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.lang.runtime" />
