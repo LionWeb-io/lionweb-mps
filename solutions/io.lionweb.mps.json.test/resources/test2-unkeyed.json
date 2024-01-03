@@ -2,12 +2,12 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "0",
-      "key": "My-TestLang3"
+      "key": "My-TestLang3",
+      "version": "0"
     },
     {
-      "version": "0",
-      "key": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0"
+      "key": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0",
+      "version": "0"
     }
   ],
   "nodes": [

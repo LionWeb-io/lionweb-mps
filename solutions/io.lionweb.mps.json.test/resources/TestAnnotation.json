@@ -2,20 +2,20 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-builtins"
+      "key": "LionCore-builtins",
+      "version": "2023.1"
     },
     {
-      "version": "1",
-      "key": "MyHappyLittleMulti-Reference_Language"
+      "key": "MyHappyLittleMulti-Reference_Language",
+      "version": "1"
     },
     {
-      "version": "0",
-      "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw"
+      "key": "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+      "version": "0"
     },
     {
-      "version": "0",
-      "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji"
+      "key": "YWZkNmQ4YTItNWUzYi00OWQxLWFiODItYzljYjdkYzA2M2Ji",
+      "version": "0"
     }
   ],
   "nodes": [

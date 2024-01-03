@@ -2,8 +2,8 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-builtins"
+      "key": "LionCore-builtins",
+      "version": "2023.1"
     },
     {
       "version": "0",
