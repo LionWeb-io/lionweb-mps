@@ -213,8 +213,12 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
+      <concept id="2217234381367188008" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocReference" flags="ng" index="VUqz4" />
       <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
         <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="5562345046718956738" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseVariableDocReference" flags="ng" index="YTMYr">
+        <reference id="5562345046718956740" name="declaration" index="YTMYt" />
       </concept>
       <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
         <child id="6962838954693749192" name="tag" index="qph3F" />
@@ -1965,7 +1969,7 @@
       <node concept="3Tm6S6" id="4R9posqbnwC" role="1B3o_S" />
       <node concept="10Oyi0" id="4R9posqbopT" role="1tU5fm" />
       <node concept="2nou5x" id="4R9posqbpjr" role="33vP2m">
-        <property role="2noCCI" value="000100" />
+        <property role="2noCCI" value="100000" />
       </node>
     </node>
     <node concept="2tJIrI" id="5wsogBcuZsN" role="jymVt" />
@@ -2247,6 +2251,34 @@
       <node concept="3cqZAl" id="5wsogBcuZyN" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="5wsogBcuZcx" role="1B3o_S" />
+    <node concept="3UR2Jj" id="4l2rlg8UG2t" role="lGtFl">
+      <node concept="TZ5HA" id="4l2rlg8UG2u" role="TZ5H$">
+        <node concept="1dT_AC" id="4l2rlg8UG2v" role="1dT_Ay">
+          <property role="1dT_AB" value="Compares two readers by content." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4l2rlg8UGXM" role="TZ5H$">
+        <node concept="1dT_AC" id="4l2rlg8UGXN" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4l2rlg8UGXS" role="TZ5H$">
+        <node concept="1dT_AC" id="4l2rlg8UGXT" role="1dT_Ay">
+          <property role="1dT_AB" value="CAUTION: Does not work correctly in all cases if the content is larger than " />
+        </node>
+        <node concept="1dT_AA" id="4l2rlg8UHTd" role="1dT_Ay">
+          <node concept="92FcH" id="4l2rlg8UHUB" role="qph3F">
+            <node concept="TZ5HA" id="4l2rlg8UHUD" role="2XjZqd" />
+            <node concept="VUqz4" id="4l2rlg8UHW4" role="92FcQ">
+              <ref role="YTMYt" node="4R9posqboqk" resolve="BUFSIZE" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="4l2rlg8UHTc" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="68Be_yWuKF">
     <property role="TrG5h" value="SLanguageLongIdGuaranteedMapper" />
