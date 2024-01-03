@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "0",
-      "key": "My-TestLang3"
+      "key": "My-TestLang3",
+      "version": "0"
     }
   ],
   "nodes": [
     {
       "id": "{id-Test3Properties}",
+      "classifier": {
+        "language": "My-TestLang3",
+        "version": "0",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
+      },
       "properties": [
         {
           "property": {
@@ -38,12 +43,7 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "My-TestLang3",
-        "version": "0",
-        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzcyNzI5MTcxNjczMTc4NDU3NTY"
-      }
+      "parent": null
     }
   ]
 }

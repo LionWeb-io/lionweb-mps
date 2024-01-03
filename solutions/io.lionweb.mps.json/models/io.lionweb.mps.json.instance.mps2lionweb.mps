@@ -231,13 +231,6 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -760,92 +753,15 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="5TNjoy1Hy48" role="3cqZAp">
-          <node concept="3clFbS" id="5TNjoy1Hy4a" role="3clFbx">
-            <node concept="1X3_iC" id="5TNjoy1OhoG" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="5TNjoy1I0TM" role="8Wnug">
-                <node concept="37vLTI" id="5TNjoy1I3Qz" role="3clFbG">
-                  <node concept="2ShNRf" id="5TNjoy1I73j" role="37vLTx">
-                    <node concept="1pGfFk" id="5TNjoy1Ib8h" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~SerializedAnnotationInstance.&lt;init&gt;()" resolve="SerializedAnnotationInstance" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="5TNjoy1I0TK" role="37vLTJ">
-                    <ref role="3cqZAo" node="5TNjoy1HtIo" resolve="json" />
-                  </node>
-                </node>
+        <node concept="3clFbF" id="4hndAVSOpyF" role="3cqZAp">
+          <node concept="37vLTI" id="4hndAVSOu0K" role="3clFbG">
+            <node concept="2ShNRf" id="4hndAVSOyIP" role="37vLTx">
+              <node concept="1pGfFk" id="4hndAVSOAL3" role="2ShVmc">
+                <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.&lt;init&gt;()" resolve="SerializedClassifierInstance" />
               </node>
             </node>
-            <node concept="3SKdUt" id="5TNjoy1NGtz" role="3cqZAp">
-              <node concept="1PaTwC" id="5TNjoy1NGt$" role="1aUNEU">
-                <node concept="3oM_SD" id="5TNjoy1NHuI" role="1PaTwD">
-                  <property role="3oM_SC" value="TODO:" />
-                </node>
-                <node concept="3oM_SD" id="5TNjoy1NIcE" role="1PaTwD">
-                  <property role="3oM_SC" value="Do" />
-                </node>
-                <node concept="3oM_SD" id="5TNjoy1NJ35" role="1PaTwD">
-                  <property role="3oM_SC" value="we" />
-                </node>
-                <node concept="3oM_SD" id="5TNjoy1NJTx" role="1PaTwD">
-                  <property role="3oM_SC" value="really" />
-                </node>
-                <node concept="3oM_SD" id="5TNjoy1NKgz" role="1PaTwD">
-                  <property role="3oM_SC" value="want" />
-                </node>
-                <node concept="3oM_SD" id="5TNjoy1NKgD" role="1PaTwD">
-                  <property role="3oM_SC" value="this" />
-                </node>
-                <node concept="3oM_SD" id="5TNjoy1NLh$" role="1PaTwD">
-                  <property role="3oM_SC" value="separation?" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="5TNjoy1O8Qa" role="3cqZAp">
-              <node concept="37vLTI" id="5TNjoy1O8Qb" role="3clFbG">
-                <node concept="2ShNRf" id="5TNjoy1O8Qc" role="37vLTx">
-                  <node concept="1pGfFk" id="5TNjoy1O8Qd" role="2ShVmc">
-                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="5TNjoy1O8Qe" role="37vLTJ">
-                  <ref role="3cqZAo" node="5TNjoy1HtIo" resolve="json" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="5TNjoy1HKz1" role="3clFbw">
-            <node concept="37vLTw" id="5TNjoy1HHXp" role="2Oq$k0">
-              <ref role="3cqZAo" node="5TNjoy1HkiM" resolve="annotationFinder" />
-            </node>
-            <node concept="liA8E" id="5TNjoy1HNsZ" role="2OqNvi">
-              <ref role="37wK5l" to="apzt:18UigYQAG0z" resolve="isAnnotation" />
-              <node concept="2OqwBi" id="5TNjoy1HT8S" role="37wK5m">
-                <node concept="37vLTw" id="5TNjoy1HQFa" role="2Oq$k0">
-                  <ref role="3cqZAo" node="48csSBNwwXQ" resolve="mps" />
-                </node>
-                <node concept="liA8E" id="5TNjoy1HWvb" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SNode.getConcept()" resolve="getConcept" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="5TNjoy1IdDe" role="9aQIa">
-            <node concept="3clFbS" id="5TNjoy1IdDf" role="9aQI4">
-              <node concept="3clFbF" id="5TNjoy1Hrxo" role="3cqZAp">
-                <node concept="37vLTI" id="5TNjoy1Hrxq" role="3clFbG">
-                  <node concept="2ShNRf" id="7W6jYlyuDPS" role="37vLTx">
-                    <node concept="1pGfFk" id="7W6jYlyuDPT" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="5TNjoy1Hrxu" role="37vLTJ">
-                    <ref role="3cqZAo" node="5TNjoy1HtIo" resolve="json" />
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="4hndAVSOpyD" role="37vLTJ">
+              <ref role="3cqZAo" node="5TNjoy1HtIo" resolve="json" />
             </node>
           </node>
         </node>
@@ -1355,7 +1271,7 @@
             </node>
             <node concept="2ShNRf" id="5JNiskj48yq" role="33vP2m">
               <node concept="1pGfFk" id="5JNiskj48yr" role="2ShVmc">
-                <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
+                <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.&lt;init&gt;()" resolve="SerializedClassifierInstance" />
               </node>
             </node>
           </node>

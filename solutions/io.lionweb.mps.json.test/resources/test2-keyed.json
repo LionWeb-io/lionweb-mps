@@ -2,17 +2,22 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "0",
-      "key": "My-TestLang3"
+      "key": "My-TestLang3",
+      "version": "0"
     },
     {
-      "version": "0",
-      "key": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0"
+      "key": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0",
+      "version": "0"
     }
   ],
   "nodes": [
     {
       "id": "{id-keyed}",
+      "classifier": {
+        "language": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0",
+        "version": "0",
+        "key": "My-Test2ConceptKeyed"
+      },
       "properties": [
         {
           "property": {
@@ -82,38 +87,33 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0",
-        "version": "0",
-        "key": "My-Test2ConceptKeyed"
-      }
+      "parent": null
     },
     {
       "id": "{id-Plain}",
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "{id-keyed}",
       "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
-      }
-    },
-    {
-      "id": "{id-NoExtends}",
+      },
       "properties": [],
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "{id-keyed}",
+      "parent": "{id-keyed}"
+    },
+    {
+      "id": "{id-NoExtends}",
       "classifier": {
         "language": "My-TestLang3",
         "version": "0",
         "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
-      }
+      },
+      "properties": [],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-keyed}"
     }
   ]
 }

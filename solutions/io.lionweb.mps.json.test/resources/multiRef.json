@@ -2,17 +2,22 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-builtins"
+      "key": "LionCore-builtins",
+      "version": "2023.1"
     },
     {
-      "version": "1",
-      "key": "MyHappyLittleMulti-Reference_Language"
+      "key": "MyHappyLittleMulti-Reference_Language",
+      "version": "1"
     }
   ],
   "nodes": [
     {
       "id": "id-part",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
+      },
       "properties": [
         {
           "property": {
@@ -54,15 +59,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
-      }
+      "parent": null
     },
     {
       "id": "id-aaa",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "10b2d191-8718-4ed6-b20e-0fe66358190a"
+      },
       "properties": [
         {
           "property": {
@@ -94,15 +99,15 @@
         }
       ],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "10b2d191-8718-4ed6-b20e-0fe66358190a"
-      }
+      "parent": "id-part"
     },
     {
       "id": "id-bbb",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "c4369692-13fe-499d-9c6c-86dd8461f0ad"
+      },
       "properties": [
         {
           "property": {
@@ -134,15 +139,15 @@
         }
       ],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "c4369692-13fe-499d-9c6c-86dd8461f0ad"
-      }
+      "parent": "id-part"
     },
     {
       "id": "id-ccc",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "45fd0a93-9faa-4c75-8d34-c76f93b8080c"
+      },
       "properties": [
         {
           "property": {
@@ -174,15 +179,15 @@
         }
       ],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "45fd0a93-9faa-4c75-8d34-c76f93b8080c"
-      }
+      "parent": "id-part"
     },
     {
       "id": "id-ddd",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "318dbba9-541a-4ef9-9f25-ec0d334df29a"
+      },
       "properties": [
         {
           "property": {
@@ -210,15 +215,15 @@
         }
       ],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "318dbba9-541a-4ef9-9f25-ec0d334df29a"
-      }
+      "parent": "id-part"
     },
     {
       "id": "id-eee",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI"
+      },
       "properties": [
         {
           "property": {
@@ -243,15 +248,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI"
-      }
+      "parent": "id-part"
     },
     {
       "id": "id-rE",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+      },
       "properties": [
         {
           "property": {
@@ -265,15 +270,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-eee",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      }
+      "parent": "id-eee"
     },
     {
       "id": "id-fff",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg"
+      },
       "properties": [
         {
           "property": {
@@ -298,15 +303,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg"
-      }
+      "parent": "id-part"
     },
     {
       "id": "id-rF",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+      },
       "properties": [
         {
           "property": {
@@ -320,15 +325,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-fff",
+      "parent": "id-fff"
+    },
+    {
+      "id": "id-r1",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      }
-    },
-    {
-      "id": "id-r1",
+      },
       "properties": [
         {
           "property": {
@@ -342,15 +347,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-part",
+      "parent": "id-part"
+    },
+    {
+      "id": "id-r2",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      }
-    },
-    {
-      "id": "id-r2",
+      },
       "properties": [
         {
           "property": {
@@ -364,15 +369,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-part",
+      "parent": "id-part"
+    },
+    {
+      "id": "id-r3",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
         "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      }
-    },
-    {
-      "id": "id-r3",
+      },
       "properties": [
         {
           "property": {
@@ -386,12 +391,7 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      }
+      "parent": "id-part"
     }
   ]
 }

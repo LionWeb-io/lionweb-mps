@@ -3311,11 +3311,6 @@
           </node>
         </node>
       </node>
-      <node concept="1SiIV0" id="2_4dqAZFONf" role="3bR37C">
-        <node concept="3bR9La" id="2_4dqAZFONg" role="1SiIV1">
-          <ref role="3bR37D" node="5wsogBcGDM$" resolve="io.lionweb.mps.converter.lang" />
-        </node>
-      </node>
       <node concept="1SiIV0" id="2_4dqAZFONh" role="3bR37C">
         <node concept="3bR9La" id="2_4dqAZFONi" role="1SiIV1">
           <ref role="3bR37D" node="5wsogBcGDXu" resolve="io.lionweb.mps.converter.TestLang2" />

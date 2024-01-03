@@ -62,15 +62,15 @@ publishing {
         register<MavenPublication>("mpsPlugin") {
             from(components["mps"])
             groupId = "io.lionweb.lionweb-mps"
-            val concatenatedAritfact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
-            artifactId = concatenatedAritfact
+            val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
+            artifactId = concatenatedArtifact
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
             // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
             versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
 
             pom {
-                name.set(concatenatedAritfact)
+                name.set(concatenatedArtifact)
                 description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix, LionWeb release $lionwebRelease")
                 version = releaseVersion
                 packaging = "zip"

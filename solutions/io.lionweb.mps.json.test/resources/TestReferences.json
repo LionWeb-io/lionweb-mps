@@ -2,17 +2,22 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-builtins"
+      "key": "LionCore-builtins",
+      "version": "2023.1"
     },
     {
-      "version": "0",
-      "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy"
+      "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+      "version": "0"
     }
   ],
   "nodes": [
     {
       "id": "id-cont1",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
+      },
       "properties": [
         {
           "property": {
@@ -86,15 +91,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
-      }
+      "parent": null
     },
     {
       "id": "id-firstName",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyNTc"
+      },
       "properties": [
         {
           "property": {
@@ -108,15 +113,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-cont1",
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyNTc"
-      }
+      "parent": "id-cont1"
     },
     {
       "id": "id-123",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyODE"
+      },
       "properties": [
         {
           "property": {
@@ -130,15 +135,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "id-cont1",
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg3MTkyODE"
-      }
+      "parent": "id-cont1"
     },
     {
       "id": "id-cont2",
+      "classifier": {
+        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
+        "version": "0",
+        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
+      },
       "properties": [
         {
           "property": {
@@ -200,15 +205,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
+      "parent": null
+    },
+    {
+      "id": "id-contBrokenRef",
       "classifier": {
         "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
         "version": "0",
         "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
-      }
-    },
-    {
-      "id": "id-contBrokenRef",
+      },
       "properties": [
         {
           "property": {
@@ -278,15 +283,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
+      "parent": null
+    },
+    {
+      "id": "id-contBrokenRef_NoNodeId",
       "classifier": {
         "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
         "version": "0",
         "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
-      }
-    },
-    {
-      "id": "id-contBrokenRef_NoNodeId",
+      },
       "properties": [
         {
           "property": {
@@ -356,12 +361,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEy",
-        "version": "0",
-        "key": "YTk1MDYzYTUtMjdlYi00YWU4LTg5NGUtZWEyMGY4YjNkNmEyLzY4MDU4Njg3MTA1Nzg2OTk4MjA"
-      }
+      "parent": null
     }
   ]
 }
