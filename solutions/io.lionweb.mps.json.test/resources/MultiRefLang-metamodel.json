@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-M3"
+      "key": "LionCore-M3",
+      "version": "2023.1"
     }
   ],
   "nodes": [
     {
       "id": "0c7763d7-f282-49da-9611-004f06a260be",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -60,15 +65,15 @@
         }
       ],
       "annotations": [],
-      "parent": "10b2d191-8718-4ed6-b20e-0fe66358190a",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "10b2d191-8718-4ed6-b20e-0fe66358190a"
     },
     {
       "id": "10b2d191-8718-4ed6-b20e-0fe66358190a",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -139,15 +144,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "MyHappyLittleMulti-Reference_Language"
     },
     {
       "id": "15582f13-d43a-4997-817d-c7c4a38e28ab",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -199,15 +204,15 @@
         }
       ],
       "annotations": [],
-      "parent": "318dbba9-541a-4ef9-9f25-ec0d334df29a",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "318dbba9-541a-4ef9-9f25-ec0d334df29a"
     },
     {
       "id": "180e505c-2fbf-4513-92d3-97d44cda3b43",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -259,15 +264,15 @@
         }
       ],
       "annotations": [],
-      "parent": "aa6473fc-ec65-43e0-86c0-6be575063315",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "aa6473fc-ec65-43e0-86c0-6be575063315"
     },
     {
       "id": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -341,15 +346,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
+      "parent": "MyHappyLittleMulti-Reference_Language"
+    },
+    {
+      "id": "318dbba9-541a-4ef9-9f25-ec0d334df29a",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "318dbba9-541a-4ef9-9f25-ec0d334df29a",
+      },
       "properties": [
         {
           "property": {
@@ -420,15 +425,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
+      "parent": "MyHappyLittleMulti-Reference_Language"
+    },
+    {
+      "id": "33d4d13b-5584-40cd-ac75-4ee7ff94e144",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "33d4d13b-5584-40cd-ac75-4ee7ff94e144",
+      },
       "properties": [
         {
           "property": {
@@ -502,15 +507,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
+      "parent": "MyHappyLittleMulti-Reference_Language"
+    },
+    {
+      "id": "45fd0a93-9faa-4c75-8d34-c76f93b8080c",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "45fd0a93-9faa-4c75-8d34-c76f93b8080c",
+      },
       "properties": [
         {
           "property": {
@@ -581,15 +586,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "MyHappyLittleMulti-Reference_Language"
     },
     {
       "id": "4ddb125f-8eaf-4e89-a50e-6b79df7cf7ba",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -641,15 +646,15 @@
         }
       ],
       "annotations": [],
-      "parent": "c4369692-13fe-499d-9c6c-86dd8461f0ad",
+      "parent": "c4369692-13fe-499d-9c6c-86dd8461f0ad"
+    },
+    {
+      "id": "6a6e2816-ec8e-4e45-b6c8-67258068b730",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Reference"
-      }
-    },
-    {
-      "id": "6a6e2816-ec8e-4e45-b6c8-67258068b730",
+      },
       "properties": [
         {
           "property": {
@@ -701,15 +706,15 @@
         }
       ],
       "annotations": [],
-      "parent": "45fd0a93-9faa-4c75-8d34-c76f93b8080c",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "45fd0a93-9faa-4c75-8d34-c76f93b8080c"
     },
     {
       "id": "9af8b4ce-4d4d-428d-814b-a00fe9d4eead",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -761,15 +766,15 @@
         }
       ],
       "annotations": [],
-      "parent": "aa6473fc-ec65-43e0-86c0-6be575063315",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "aa6473fc-ec65-43e0-86c0-6be575063315"
     },
     {
       "id": "MyHappyLittleMulti-Reference_Language",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -827,15 +832,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     },
     {
       "id": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -906,15 +911,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "MyHappyLittleMulti-Reference_Language"
     },
     {
       "id": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTIvNTA1Njk1NTUxMzk0NzgzMTg5Mw",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -966,15 +971,15 @@
         }
       ],
       "annotations": [],
-      "parent": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTI"
     },
     {
       "id": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -1045,15 +1050,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "MyHappyLittleMulti-Reference_Language"
     },
     {
       "id": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTgvNTA1Njk1NTUxMzk0NzgzMTg5OQ",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -1105,15 +1110,15 @@
         }
       ],
       "annotations": [],
-      "parent": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "NzZkOTI3ZmQtM2E1YS00ZTQwLTg2NWItN2MyZDMyOWNhNjc1LzUwNTY5NTU1MTM5NDc4MzE4OTg"
     },
     {
       "id": "aa6473fc-ec65-43e0-86c0-6be575063315",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -1190,15 +1195,15 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
+      "parent": "MyHappyLittleMulti-Reference_Language"
+    },
+    {
+      "id": "c4369692-13fe-499d-9c6c-86dd8461f0ad",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "c4369692-13fe-499d-9c6c-86dd8461f0ad",
+      },
       "properties": [
         {
           "property": {
@@ -1269,12 +1274,7 @@
         }
       ],
       "annotations": [],
-      "parent": "MyHappyLittleMulti-Reference_Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "MyHappyLittleMulti-Reference_Language"
     }
   ]
 }

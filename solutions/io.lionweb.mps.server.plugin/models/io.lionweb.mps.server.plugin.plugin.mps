@@ -2457,7 +2457,7 @@
                                 <property role="TrG5h" value="result" />
                                 <node concept="2ShNRf" id="7W6jYlyVfDo" role="33vP2m">
                                   <node concept="1pGfFk" id="7W6jYlyVfDp" role="2ShVmc">
-                                    <ref role="37wK5l" to="xfsv:~SerializedNodeInstance.&lt;init&gt;()" resolve="SerializedNodeInstance" />
+                                    <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.&lt;init&gt;()" resolve="SerializedClassifierInstance" />
                                   </node>
                                 </node>
                                 <node concept="3uibUv" id="5TNjoy1GTtH" role="1tU5fm">

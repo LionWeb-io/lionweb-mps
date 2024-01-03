@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-M3"
+      "key": "LionCore-M3",
+      "version": "2023.1"
     }
   ],
   "nodes": [
     {
       "id": "PropertyType",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Interface"
+      },
       "properties": [
         {
           "property": {
@@ -50,15 +55,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-PropertyType",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      }
+      "parent": "io-lionweb-mps-converter-deps-PropertyType"
     },
     {
       "id": "PropertyType-myProp",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -102,15 +107,15 @@
         }
       ],
       "annotations": [],
-      "parent": "PropertyType",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "PropertyType"
     },
     {
       "id": "StandaloneEnum",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Enumeration"
+      },
       "properties": [
         {
           "property": {
@@ -145,15 +150,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-Standalone",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Enumeration"
-      }
+      "parent": "io-lionweb-mps-converter-deps-Standalone"
     },
     {
       "id": "StandaloneEnum-a",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "EnumerationLiteral"
+      },
       "properties": [
         {
           "property": {
@@ -175,15 +180,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "StandaloneEnum",
+      "parent": "StandaloneEnum"
+    },
+    {
+      "id": "StandaloneEnum-b",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "EnumerationLiteral"
-      }
-    },
-    {
-      "id": "StandaloneEnum-b",
+      },
       "properties": [
         {
           "property": {
@@ -205,15 +210,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "StandaloneEnum",
+      "parent": "StandaloneEnum"
+    },
+    {
+      "id": "StandaloneEnum-c",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "EnumerationLiteral"
-      }
-    },
-    {
-      "id": "StandaloneEnum-c",
+      },
       "properties": [
         {
           "property": {
@@ -235,15 +240,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "StandaloneEnum",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "EnumerationLiteral"
-      }
+      "parent": "StandaloneEnum"
     },
     {
       "id": "io-lionweb-mps-converter-deps-PropertyType",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -298,15 +303,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
+      "parent": null
+    },
+    {
+      "id": "io-lionweb-mps-converter-deps-Standalone",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Language"
-      }
-    },
-    {
-      "id": "io-lionweb-mps-converter-deps-Standalone",
+      },
       "properties": [
         {
           "property": {
@@ -356,12 +361,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     }
   ]
 }

@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-M3"
+      "key": "LionCore-M3",
+      "version": "2023.1"
     }
   ],
   "nodes": [
     {
       "id": "Classifier",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -79,15 +84,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Classifier-features",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -139,15 +144,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Classifier",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "Classifier"
     },
     {
       "id": "Concept",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -221,15 +226,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Concept-abstract",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -273,15 +278,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Concept",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "Concept"
     },
     {
       "id": "Concept-extends",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -333,15 +338,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Concept",
+      "parent": "Concept"
+    },
+    {
+      "id": "Concept-implements",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Reference"
-      }
-    },
-    {
-      "id": "Concept-implements",
+      },
       "properties": [
         {
           "property": {
@@ -393,15 +398,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Concept",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "Concept"
     },
     {
       "id": "Concept-partition",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -445,15 +450,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Concept",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "Concept"
     },
     {
       "id": "Containment",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -522,15 +527,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
+      "parent": "LionCore-M3"
+    },
+    {
+      "id": "DataType",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "DataType",
+      },
       "properties": [
         {
           "property": {
@@ -599,15 +604,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
+      "parent": "LionCore-M3"
+    },
+    {
+      "id": "Enumeration",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "Enumeration",
+      },
       "properties": [
         {
           "property": {
@@ -678,15 +683,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Enumeration-literals",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -738,15 +743,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Enumeration",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "Enumeration"
     },
     {
       "id": "EnumerationLiteral",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -815,15 +820,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
+      "parent": "LionCore-M3"
+    },
+    {
+      "id": "Feature",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "Feature",
+      },
       "properties": [
         {
           "property": {
@@ -894,15 +899,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Feature-optional",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -946,15 +951,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Feature",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "Feature"
     },
     {
       "id": "IKeyed",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Interface"
+      },
       "properties": [
         {
           "property": {
@@ -1001,15 +1006,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "IKeyed-key",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -1053,15 +1058,15 @@
         }
       ],
       "annotations": [],
-      "parent": "IKeyed",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "IKeyed"
     },
     {
       "id": "Interface",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -1132,15 +1137,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Interface-extends",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -1192,15 +1197,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Interface",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "Interface"
     },
     {
       "id": "Language",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -1273,15 +1278,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Language-dependsOn",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -1333,15 +1338,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "Language"
     },
     {
       "id": "Language-entities",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -1393,15 +1398,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "Language"
     },
     {
       "id": "Language-version",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -1445,15 +1450,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Language",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "Language"
     },
     {
       "id": "LanguageEntity",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -1522,15 +1527,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
+      "parent": "LionCore-M3"
+    },
+    {
+      "id": "Link",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "Link",
+      },
       "properties": [
         {
           "property": {
@@ -1602,15 +1607,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Link-multiple",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -1654,15 +1659,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Link",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "Link"
     },
     {
       "id": "Link-type",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -1714,15 +1719,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Link",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "Link"
     },
     {
       "id": "LionCore-M3",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -1786,15 +1791,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     },
     {
       "id": "PrimitiveType",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -1863,15 +1868,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
+      "parent": "LionCore-M3"
+    },
+    {
+      "id": "Property",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Concept"
-      }
-    },
-    {
-      "id": "Property",
+      },
       "properties": [
         {
           "property": {
@@ -1942,15 +1947,15 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     },
     {
       "id": "Property-type",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Reference"
+      },
       "properties": [
         {
           "property": {
@@ -2002,15 +2007,15 @@
         }
       ],
       "annotations": [],
-      "parent": "Property",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      }
+      "parent": "Property"
     },
     {
       "id": "Reference",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -2079,12 +2084,7 @@
         }
       ],
       "annotations": [],
-      "parent": "LionCore-M3",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "LionCore-M3"
     }
   ]
 }
