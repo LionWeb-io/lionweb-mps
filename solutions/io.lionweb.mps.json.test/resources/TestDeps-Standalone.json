@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-M3"
+      "key": "LionCore-M3",
+      "version": "2023.1"
     }
   ],
   "nodes": [
     {
       "id": "StandaloneContent",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -79,15 +84,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-Standalone",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "io-lionweb-mps-converter-deps-Standalone"
     },
     {
       "id": "StandaloneContent-desc",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -131,15 +136,15 @@
         }
       ],
       "annotations": [],
-      "parent": "StandaloneContent",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "StandaloneContent"
     },
     {
       "id": "StandaloneEnum",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Enumeration"
+      },
       "properties": [
         {
           "property": {
@@ -174,15 +179,15 @@
       ],
       "references": [],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-Standalone",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Enumeration"
-      }
+      "parent": "io-lionweb-mps-converter-deps-Standalone"
     },
     {
       "id": "StandaloneEnum-a",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "EnumerationLiteral"
+      },
       "properties": [
         {
           "property": {
@@ -204,15 +209,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "StandaloneEnum",
+      "parent": "StandaloneEnum"
+    },
+    {
+      "id": "StandaloneEnum-b",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "EnumerationLiteral"
-      }
-    },
-    {
-      "id": "StandaloneEnum-b",
+      },
       "properties": [
         {
           "property": {
@@ -234,15 +239,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "StandaloneEnum",
+      "parent": "StandaloneEnum"
+    },
+    {
+      "id": "StandaloneEnum-c",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "EnumerationLiteral"
-      }
-    },
-    {
-      "id": "StandaloneEnum-c",
+      },
       "properties": [
         {
           "property": {
@@ -264,15 +269,15 @@
       "containments": [],
       "references": [],
       "annotations": [],
-      "parent": "StandaloneEnum",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "EnumerationLiteral"
-      }
+      "parent": "StandaloneEnum"
     },
     {
       "id": "StandalonePartition",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -343,15 +348,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-Standalone",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "io-lionweb-mps-converter-deps-Standalone"
     },
     {
       "id": "StandalonePartition-content",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Containment"
+      },
       "properties": [
         {
           "property": {
@@ -403,15 +408,15 @@
         }
       ],
       "annotations": [],
-      "parent": "StandalonePartition",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Containment"
-      }
+      "parent": "StandalonePartition"
     },
     {
       "id": "StandaloneUnrefConcept",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -480,15 +485,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-Standalone",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "io-lionweb-mps-converter-deps-Standalone"
     },
     {
       "id": "io-lionweb-mps-converter-deps-Standalone",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -541,12 +546,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     }
   ]
 }

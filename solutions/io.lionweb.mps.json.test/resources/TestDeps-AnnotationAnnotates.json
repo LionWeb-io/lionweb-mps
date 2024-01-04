@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-M3"
+      "key": "LionCore-M3",
+      "version": "2023.1"
     }
   ],
   "nodes": [
     {
       "id": "AnnotationAnnotates",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Annotation"
+      },
       "properties": [
         {
           "property": {
@@ -69,15 +74,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-AnnotationAnnotates",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Annotation"
-      }
+      "parent": "io-lionweb-mps-converter-deps-AnnotationAnnotates"
     },
     {
       "id": "StandaloneContent",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
       "properties": [
         {
           "property": {
@@ -148,15 +153,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-Standalone",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      }
+      "parent": "io-lionweb-mps-converter-deps-Standalone"
     },
     {
       "id": "StandaloneContent-desc",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
       "properties": [
         {
           "property": {
@@ -200,15 +205,15 @@
         }
       ],
       "annotations": [],
-      "parent": "StandaloneContent",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      }
+      "parent": "StandaloneContent"
     },
     {
       "id": "io-lionweb-mps-converter-deps-AnnotationAnnotates",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -263,15 +268,15 @@
         }
       ],
       "annotations": [],
-      "parent": null,
+      "parent": null
+    },
+    {
+      "id": "io-lionweb-mps-converter-deps-Standalone",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
         "key": "Language"
-      }
-    },
-    {
-      "id": "io-lionweb-mps-converter-deps-Standalone",
+      },
       "properties": [
         {
           "property": {
@@ -321,12 +326,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     }
   ]
 }

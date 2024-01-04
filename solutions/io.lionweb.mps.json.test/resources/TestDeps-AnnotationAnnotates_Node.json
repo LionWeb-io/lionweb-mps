@@ -2,13 +2,18 @@
   "serializationFormatVersion": "2023.1",
   "languages": [
     {
-      "version": "2023.1",
-      "key": "LionCore-M3"
+      "key": "LionCore-M3",
+      "version": "2023.1"
     }
   ],
   "nodes": [
     {
       "id": "AnnotationAnnotates_Node",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Annotation"
+      },
       "properties": [
         {
           "property": {
@@ -69,15 +74,15 @@
         }
       ],
       "annotations": [],
-      "parent": "io-lionweb-mps-converter-deps-AnnotationAnnotates_Node",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Annotation"
-      }
+      "parent": "io-lionweb-mps-converter-deps-AnnotationAnnotates_Node"
     },
     {
       "id": "io-lionweb-mps-converter-deps-AnnotationAnnotates_Node",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Language"
+      },
       "properties": [
         {
           "property": {
@@ -127,12 +132,7 @@
         }
       ],
       "annotations": [],
-      "parent": null,
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Language"
-      }
+      "parent": null
     }
   ]
 }
