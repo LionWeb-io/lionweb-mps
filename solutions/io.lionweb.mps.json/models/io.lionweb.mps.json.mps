@@ -30,6 +30,8 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
+    <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
+    <import index="en45" ref="r:22b51c3d-d5d6-4746-9401-f324f9429ada(io.lionweb.mps.converter.m2)" />
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lionweb.java/)" implicit="true" />
   </imports>
   <registry>
@@ -179,6 +181,7 @@
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -2508,6 +2511,24 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="3i3chebdaOI" role="jymVt" />
+    <node concept="312cEg" id="3i3chebdbPe" role="jymVt">
+      <property role="TrG5h" value="exceptionHandler" />
+      <node concept="3Tm6S6" id="3i3chebdbwp" role="1B3o_S" />
+      <node concept="3uibUv" id="3i3chebdcud" role="1tU5fm">
+        <ref role="3uigEE" to="82uw:~BiFunction" resolve="BiFunction" />
+        <node concept="3uibUv" id="3i3chebdcA7" role="11_B2D">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+        <node concept="3uibUv" id="3i3chebdeL0" role="11_B2D">
+          <ref role="3uigEE" to="en45:2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+        </node>
+        <node concept="3uibUv" id="3i3chebdgEF" role="11_B2D">
+          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+        </node>
+      </node>
+      <node concept="10Nm6u" id="3i3chebdgKo" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="6jI_U5eOOtR" role="jymVt" />
     <node concept="312cEg" id="6jI_U5ePsX$" role="jymVt">
       <property role="TrG5h" value="serializedNodes" />
@@ -2742,6 +2763,23 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3i3chebfAIp" role="3cqZAp" />
+        <node concept="3clFbF" id="3i3chebfB4A" role="3cqZAp">
+          <node concept="2OqwBi" id="3i3chebfBFr" role="3clFbG">
+            <node concept="37vLTw" id="3i3chebfB4$" role="2Oq$k0">
+              <ref role="3cqZAo" node="5TNjoy1ALrE" resolve="converter" />
+            </node>
+            <node concept="liA8E" id="3i3chebfC3U" role="2OqNvi">
+              <ref role="37wK5l" to="lai5:3i3chebdpxN" resolve="setExceptionHandler" />
+              <node concept="2OqwBi" id="3i3chebfD0y" role="37wK5m">
+                <node concept="Xjq3P" id="3i3chebfCHH" role="2Oq$k0" />
+                <node concept="2OwXpG" id="3i3chebfDpE" role="2OqNvi">
+                  <ref role="2Oxat5" node="3i3chebdbPe" resolve="exceptionHandler" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6jI_U5eP8fj" role="3cqZAp" />
         <node concept="3clFbF" id="6jI_U5ePqYv" role="3cqZAp">
           <node concept="37vLTI" id="6jI_U5ePqYx" role="3clFbG">
@@ -2848,6 +2886,41 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5TNjoy1AFWX" role="jymVt" />
+    <node concept="3clFb_" id="3i3chebdgNf" role="jymVt">
+      <property role="TrG5h" value="setExceptionHandler" />
+      <node concept="3cqZAl" id="3i3chebdgNg" role="3clF45" />
+      <node concept="3Tm1VV" id="3i3chebdgNh" role="1B3o_S" />
+      <node concept="3clFbS" id="3i3chebdgNi" role="3clF47">
+        <node concept="3clFbF" id="3i3chebdgNj" role="3cqZAp">
+          <node concept="37vLTI" id="3i3chebdgNk" role="3clFbG">
+            <node concept="37vLTw" id="3i3chebdgNl" role="37vLTx">
+              <ref role="3cqZAo" node="3i3chebdgNm" resolve="exceptionHandler" />
+            </node>
+            <node concept="2OqwBi" id="3i3chebdgNc" role="37vLTJ">
+              <node concept="Xjq3P" id="3i3chebdgNd" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3i3chebdgNe" role="2OqNvi">
+                <ref role="2Oxat5" node="3i3chebdbPe" resolve="exceptionHandler" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3i3chebdgNm" role="3clF46">
+        <property role="TrG5h" value="exceptionHandler" />
+        <node concept="3uibUv" id="3i3chebdgNn" role="1tU5fm">
+          <ref role="3uigEE" to="82uw:~BiFunction" resolve="BiFunction" />
+          <node concept="3uibUv" id="3i3chebdgNo" role="11_B2D">
+            <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+          </node>
+          <node concept="3uibUv" id="3i3chebdgNp" role="11_B2D">
+            <ref role="3uigEE" to="en45:2ju2syjEg4P" resolve="MpsLionCoreConverterException" />
+          </node>
+          <node concept="3uibUv" id="3i3chebdgNq" role="11_B2D">
+            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5TNjoy1AFZF" role="jymVt" />
     <node concept="3clFb_" id="5TNjoy1AGgF" role="jymVt">
       <property role="TrG5h" value="initHelpers" />
