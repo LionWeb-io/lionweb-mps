@@ -28,7 +28,15 @@
       <concept id="1225469856668" name="jetbrains.mps.lang.test.structure.ModelExpression" flags="nn" index="1jGwE1" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <child id="1216993439383" name="methods" index="1qtyYc" />
+        <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
+      </concept>
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+      <concept id="1210673684636" name="jetbrains.mps.lang.test.structure.TestNodeAnnotation" flags="ng" index="3xLA65" />
+      <concept id="1210674524691" name="jetbrains.mps.lang.test.structure.TestNodeReference" flags="nn" index="3xONca">
+        <reference id="1210674534086" name="declaration" index="3xOPvv" />
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
@@ -128,6 +136,11 @@
         <child id="1172028236559" name="expression" index="3ykU8v" />
       </concept>
     </language>
+    <language id="4d2616f8-36ac-305a-b609-88a097f24d95" name="a.b.c.Test123">
+      <concept id="3380248407825777395" name="a.b.c.Test123.structure.Hello" flags="ng" index="2JS0NR">
+        <property id="-7118922665128056379" name="text" index="1sD2x8" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
@@ -140,6 +153,9 @@
         <child id="3648723375513868575" name="repositoryArg" index="Vysub" />
       </concept>
       <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
@@ -175,6 +191,10 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
@@ -463,6 +483,22 @@
   </node>
   <node concept="1lH9Xt" id="4oHUzWXG_yT">
     <property role="TrG5h" value="findKeyFromLanguage_mps" />
+    <node concept="1qefOq" id="3i3chebhOIk" role="1SKRRt">
+      <node concept="15s5l7" id="3i3chebhONL" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Abstract concept instance detected. Use one of sub-concepts instead. Concept: Hello&quot;;FLAVOUR_RULE_ID=&quot;[r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)/7283836008113027554]&quot;;" />
+        <property role="huDt6" value="Error: Abstract concept instance detected. Use one of sub-concepts instead. Concept: Hello" />
+      </node>
+      <node concept="15s5l7" id="3i3chebhONJ" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;structure (unknown language feature)&quot;;FLAVOUR_LANGUAGE_FEATURE=&quot;4d2616f8-36ac-305a-b609-88a097f24d95/3380248407825777395&quot;;FLAVOUR_MESSAGE=&quot;Concept 'Hello' was not found in the language 'a.b.c.Test123'&quot;;" />
+        <property role="huDt6" value="Concept 'Hello' was not found in the language 'a.b.c.Test123'" />
+      </node>
+      <node concept="2JS0NR" id="6fYiNFaW6wI" role="1qenE9">
+        <property role="1sD2x8" value="Bla Bla Blubb" />
+        <node concept="3xLA65" id="3i3chebhONH" role="lGtFl">
+          <property role="TrG5h" value="nodeWithUnknownLanguage" />
+        </node>
+      </node>
+    </node>
     <node concept="2XrIbr" id="4oHUzWXGAte" role="1qtyYc">
       <property role="TrG5h" value="create" />
       <node concept="3uibUv" id="4oHUzWXGAtf" role="3clF45">
@@ -650,6 +686,60 @@
         <node concept="3ykFI1" id="4oHUzWXG_zQ" role="3cqZAp">
           <node concept="37vLTw" id="4oHUzWXG_zR" role="3ykU8v">
             <ref role="3cqZAo" node="4oHUzWXGBEC" resolve="key" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="3i3chebhONO" role="1SL9yI">
+      <property role="TrG5h" value="unknown2" />
+      <node concept="3cqZAl" id="3i3chebhONP" role="3clF45" />
+      <node concept="3clFbS" id="3i3chebhONQ" role="3clF47">
+        <node concept="3cpWs8" id="3i3chebhQfP" role="3cqZAp">
+          <node concept="3cpWsn" id="3i3chebhQfQ" role="3cpWs9">
+            <property role="TrG5h" value="language" />
+            <node concept="3uibUv" id="3i3chebhQeK" role="1tU5fm">
+              <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+            </node>
+            <node concept="2OqwBi" id="3i3chebhQfR" role="33vP2m">
+              <node concept="2OqwBi" id="3i3chebhQfS" role="2Oq$k0">
+                <node concept="2JrnkZ" id="3i3chebhQfT" role="2Oq$k0">
+                  <node concept="3xONca" id="3i3chebhQfU" role="2JrQYb">
+                    <ref role="3xOPvv" node="3i3chebhONH" resolve="nodeWithUnknownLanguage" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3i3chebhQfV" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getConcept()" resolve="getConcept" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3i3chebhQfW" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3i3chebhONR" role="3cqZAp">
+          <node concept="3cpWsn" id="3i3chebhONS" role="3cpWs9">
+            <property role="TrG5h" value="key" />
+            <node concept="17QB3L" id="3i3chebhONT" role="1tU5fm" />
+            <node concept="2OqwBi" id="3i3chebhONU" role="33vP2m">
+              <node concept="2OqwBi" id="3i3chebhONV" role="2Oq$k0">
+                <node concept="2WthIp" id="3i3chebhONW" role="2Oq$k0" />
+                <node concept="2XshWL" id="3i3chebhONX" role="2OqNvi">
+                  <ref role="2WH_rO" node="4oHUzWXGAte" resolve="create" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3i3chebhONY" role="2OqNvi">
+                <ref role="37wK5l" to="y7p:6fYiNFaviJP" resolve="findKeyFromLanguage" />
+                <node concept="37vLTw" id="3i3chebhQfX" role="37wK5m">
+                  <ref role="3cqZAo" node="3i3chebhQfQ" resolve="language" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3ykFI1" id="3i3chebhOO1" role="3cqZAp">
+          <node concept="37vLTw" id="3i3chebhOO2" role="3ykU8v">
+            <ref role="3cqZAo" node="3i3chebhONS" resolve="key" />
           </node>
         </node>
       </node>
