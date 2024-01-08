@@ -161,6 +161,7 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -294,6 +295,7 @@
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
       </concept>
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -3030,9 +3032,7 @@
     <node concept="3_QJtf" id="61aPvUUzGA4" role="3_QDjO">
       <property role="TrG5h" value="depthLimit" />
       <node concept="1TjqYI" id="61aPvUUzGG2" role="1TjXUf">
-        <node concept="3uibUv" id="61aPvUUzGH4" role="1TjqZ8">
-          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-        </node>
+        <node concept="17QB3L" id="3i3cheb93B7" role="1TjqZ8" />
       </node>
     </node>
     <node concept="std77" id="61aPvUUzvhl" role="std7D">
@@ -3096,6 +3096,101 @@
           </node>
         </node>
         <node concept="3clFbH" id="61aPvUUzDD_" role="3cqZAp" />
+        <node concept="3cpWs8" id="3i3cheb99jc" role="3cqZAp">
+          <node concept="3cpWsn" id="3i3cheb99jf" role="3cpWs9">
+            <property role="TrG5h" value="parsedDepthLimit" />
+            <node concept="3uibUv" id="3i3cheb9bkA" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+            </node>
+            <node concept="10Nm6u" id="3i3cheb9blb" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3i3cheb980W" role="3cqZAp" />
+        <node concept="3clFbJ" id="3i3cheb7Zh9" role="3cqZAp">
+          <node concept="3clFbS" id="3i3cheb7Zhb" role="3clFbx">
+            <node concept="3J1_TO" id="3i3cheb9dV7" role="3cqZAp">
+              <node concept="3uVAMA" id="3i3cheb9f9X" role="1zxBo5">
+                <node concept="XOnhg" id="3i3cheb9f9Y" role="1zc67B">
+                  <property role="TrG5h" value="e" />
+                  <node concept="nSUau" id="3i3cheb9f9Z" role="1tU5fm">
+                    <node concept="3uibUv" id="3i3cheb9hjd" role="nSUat">
+                      <ref role="3uigEE" to="wyt6:~NumberFormatException" resolve="NumberFormatException" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="3i3cheb9fa0" role="1zc67A">
+                  <node concept="3clFbF" id="3i3cheb89E0" role="3cqZAp">
+                    <node concept="2OqwBi" id="3i3cheb89E1" role="3clFbG">
+                      <node concept="pFkrN" id="3i3cheb89E2" role="2Oq$k0" />
+                      <node concept="liA8E" id="3i3cheb89E3" role="2OqNvi">
+                        <ref role="37wK5l" to="4h87:5YhakczIvRr" resolve="sendText" />
+                        <node concept="10M0yZ" id="3i3cheb89E4" role="37wK5m">
+                          <ref role="3cqZAo" to="9xw8:~HttpResponseStatus.BAD_REQUEST" resolve="BAD_REQUEST" />
+                          <ref role="1PxDUh" to="9xw8:~HttpResponseStatus" resolve="HttpResponseStatus" />
+                        </node>
+                        <node concept="Xl_RD" id="3i3cheb89E5" role="37wK5m">
+                          <property role="Xl_RC" value="depthLimit is not an integer" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="3i3cheb89E6" role="3cqZAp" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="3i3cheb9dV9" role="1zxBo7">
+                <node concept="3clFbF" id="3i3cheb9eEG" role="3cqZAp">
+                  <node concept="37vLTI" id="3i3cheb9f5Q" role="3clFbG">
+                    <node concept="2YIFZM" id="3i3cheb9f71" role="37vLTx">
+                      <ref role="37wK5l" to="wyt6:~Integer.decode(java.lang.String)" resolve="decode" />
+                      <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                      <node concept="3_PKRz" id="3i3cheb9f96" role="37wK5m">
+                        <ref role="3_PKRw" node="61aPvUUzGA4" resolve="depthLimit" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="3i3cheb9eEE" role="37vLTJ">
+                      <ref role="3cqZAo" node="3i3cheb99jf" resolve="parsedDepthLimit" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3i3cheb9oS9" role="3cqZAp">
+              <node concept="3clFbS" id="3i3cheb9oSb" role="3clFbx">
+                <node concept="3clFbF" id="3i3cheb9i48" role="3cqZAp">
+                  <node concept="2OqwBi" id="3i3cheb9i49" role="3clFbG">
+                    <node concept="pFkrN" id="3i3cheb9i4a" role="2Oq$k0" />
+                    <node concept="liA8E" id="3i3cheb9i4b" role="2OqNvi">
+                      <ref role="37wK5l" to="4h87:5YhakczIvRr" resolve="sendText" />
+                      <node concept="10M0yZ" id="3i3cheb9i4c" role="37wK5m">
+                        <ref role="3cqZAo" to="9xw8:~HttpResponseStatus.BAD_REQUEST" resolve="BAD_REQUEST" />
+                        <ref role="1PxDUh" to="9xw8:~HttpResponseStatus" resolve="HttpResponseStatus" />
+                      </node>
+                      <node concept="Xl_RD" id="3i3cheb9i4d" role="37wK5m">
+                        <property role="Xl_RC" value="depthLimit is negative" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="3i3cheb9i47" role="3cqZAp" />
+              </node>
+              <node concept="3eOVzh" id="3i3cheb9qs$" role="3clFbw">
+                <node concept="3cmrfG" id="3i3cheb9qt6" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="37vLTw" id="3i3cheb9pRf" role="3uHU7B">
+                  <ref role="3cqZAo" node="3i3cheb99jf" resolve="parsedDepthLimit" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="3i3cheb81Eo" role="3clFbw">
+            <node concept="3_PKRz" id="3i3cheb80Zk" role="3uHU7B">
+              <ref role="3_PKRw" node="61aPvUUzGA4" resolve="depthLimit" />
+            </node>
+            <node concept="10Nm6u" id="3i3cheb83De" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3i3cheb7WIS" role="3cqZAp" />
         <node concept="3cpWs8" id="61aPvUU$aH1" role="3cqZAp">
           <node concept="3cpWsn" id="61aPvUU$aH2" role="3cpWs9">
             <property role="TrG5h" value="requestBody" />
@@ -3240,6 +3335,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3i3cheb9S7t" role="3cqZAp" />
+        <node concept="3clFbJ" id="3i3cheb9Uh6" role="3cqZAp">
+          <node concept="3clFbS" id="3i3cheb9Uh8" role="3clFbx">
+            <node concept="3clFbF" id="3i3cheb9XvW" role="3cqZAp">
+              <node concept="2OqwBi" id="3i3cheb9XvX" role="3clFbG">
+                <node concept="pFkrN" id="3i3cheb9XvY" role="2Oq$k0" />
+                <node concept="liA8E" id="3i3cheb9XvZ" role="2OqNvi">
+                  <ref role="37wK5l" to="4h87:5YhakczIvRr" resolve="sendText" />
+                  <node concept="10M0yZ" id="3i3cheb9Xw0" role="37wK5m">
+                    <ref role="1PxDUh" to="9xw8:~HttpResponseStatus" resolve="HttpResponseStatus" />
+                    <ref role="3cqZAo" to="9xw8:~HttpResponseStatus.BAD_REQUEST" resolve="BAD_REQUEST" />
+                  </node>
+                  <node concept="Xl_RD" id="3i3cheb9Xw3" role="37wK5m">
+                    <property role="Xl_RC" value="nodeIds is empty" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="3i3cheb9Xw4" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="3i3cheb9Wmg" role="3clFbw">
+            <node concept="37vLTw" id="3i3cheb9VD_" role="2Oq$k0">
+              <ref role="3cqZAo" node="61aPvUU$ovX" resolve="jsonList" />
+            </node>
+            <node concept="1v1jN8" id="3i3cheb9XiM" role="2OqNvi" />
+          </node>
+        </node>
         <node concept="3clFbH" id="61aPvUU$p3$" role="3cqZAp" />
         <node concept="3cpWs8" id="61aPvUU$v0m" role="3cqZAp">
           <node concept="3cpWsn" id="61aPvUU$v0n" role="3cpWs9">
@@ -3298,6 +3420,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs6" id="3i3cheb9Xpl" role="3cqZAp" />
           </node>
           <node concept="3y3z36" id="61aPvUU$vD3" role="3clFbw">
             <node concept="10Nm6u" id="61aPvUU$vIg" role="3uHU7w" />
@@ -3764,8 +3887,8 @@
                 </node>
                 <node concept="3clFbC" id="61aPvUU_y0c" role="3clFbw">
                   <node concept="10Nm6u" id="61aPvUU_$8m" role="3uHU7w" />
-                  <node concept="3_PKRz" id="61aPvUU_wPN" role="3uHU7B">
-                    <ref role="3_PKRw" node="61aPvUUzGA4" resolve="depthLimit" />
+                  <node concept="37vLTw" id="3i3cheb9v4S" role="3uHU7B">
+                    <ref role="3cqZAo" node="3i3cheb99jf" resolve="parsedDepthLimit" />
                   </node>
                 </node>
                 <node concept="3eNFk2" id="61aPvUUAeQU" role="3eNLev">
@@ -3782,8 +3905,8 @@
                     </node>
                   </node>
                   <node concept="3clFbC" id="61aPvUUAjM6" role="3eO9$A">
-                    <node concept="3_PKRz" id="61aPvUUAfAS" role="3uHU7B">
-                      <ref role="3_PKRw" node="61aPvUUzGA4" resolve="depthLimit" />
+                    <node concept="37vLTw" id="3i3cheb9wNs" role="3uHU7B">
+                      <ref role="3cqZAo" node="3i3cheb99jf" resolve="parsedDepthLimit" />
                     </node>
                     <node concept="3cmrfG" id="61aPvUUAif8" role="3uHU7w">
                       <property role="3cmrfH" value="0" />
@@ -3811,8 +3934,8 @@
                                       <node concept="37vLTw" id="61aPvUUAPe2" role="37wK5m">
                                         <ref role="3cqZAo" node="61aPvUUAu09" resolve="it" />
                                       </node>
-                                      <node concept="3_PKRz" id="61aPvUUAR7W" role="37wK5m">
-                                        <ref role="3_PKRw" node="61aPvUUzGA4" resolve="depthLimit" />
+                                      <node concept="37vLTw" id="3i3cheb9z0n" role="37wK5m">
+                                        <ref role="3cqZAo" node="3i3cheb99jf" resolve="parsedDepthLimit" />
                                       </node>
                                     </node>
                                   </node>
