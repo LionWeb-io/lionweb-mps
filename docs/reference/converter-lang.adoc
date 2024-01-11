@@ -72,6 +72,21 @@ closure::
 Converts the listed nodes, all descendants, and all referenced nodes.
 We apply this strategy until we include all Annotation, Containment, and Reference targets. 
 
+
+.Inclusion of nodes and ids
+The following table lists for each scope whether we include the target node / target node's id into the conversion.
+Example: For _descendants_ scope, we include both the target node and the target id of annotations and children; we do not include the target node of references, but we do include the target id of references.
+
+|===
+|Scope |Annotations + Children |References |Parents
+
+|listed      |no / yes  |no / yes  |no / yes
+|descendants |yes / yes |no / yes  |no / yes
+|closure     |yes / yes |yes / yes |no / yes
+
+|===
+
+
 === Import Instance from JSON
 Technical name: `ImportInstanceFromJson` / `MergingLionWeb2MpsConverter`
 
