@@ -200,6 +200,7 @@
         <child id="2546654756694997556" name="reference" index="92FcQ" />
         <child id="3106559687488913694" name="line" index="2XjZqd" />
       </concept>
+      <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
       </concept>
@@ -207,11 +208,15 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
+      <concept id="2217234381367188008" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocReference" flags="ng" index="VUqz4" />
       <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
         <reference id="2217234381367530213" name="classifier" index="VXe09" />
       </concept>
       <concept id="2217234381367530195" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocReference" flags="ng" index="VXe0Z">
         <reference id="2217234381367530196" name="methodDeclaration" index="VXe0S" />
+      </concept>
+      <concept id="5562345046718956738" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseVariableDocReference" flags="ng" index="YTMYr">
+        <reference id="5562345046718956740" name="declaration" index="YTMYt" />
       </concept>
       <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
         <child id="6962838954693749192" name="tag" index="qph3F" />
@@ -3619,6 +3624,25 @@
   </node>
   <node concept="312cEu" id="6VkSF6aF166">
     <property role="TrG5h" value="ClosureMps2LionWebConverter" />
+    <node concept="312cEg" id="3i3chebGTy_" role="jymVt">
+      <property role="TrG5h" value="exportUnconvertedParentIds" />
+      <node concept="3Tm6S6" id="3i3chebGTf5" role="1B3o_S" />
+      <node concept="10P_77" id="3i3chebGTvO" role="1tU5fm" />
+      <node concept="3clFbT" id="3i3chebGTNB" role="33vP2m" />
+      <node concept="z59LJ" id="3i3chebGVPG" role="lGtFl">
+        <node concept="TZ5HA" id="3i3chebGVPH" role="TZ5H$">
+          <node concept="1dT_AC" id="3i3chebGVPI" role="1dT_Ay">
+            <property role="1dT_AB" value="If true, exports parent node ids, even if parent is not converted." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3i3chebGW5R" role="TZ5H$">
+          <node concept="1dT_AC" id="3i3chebGW5S" role="1dT_Ay">
+            <property role="1dT_AB" value="Defaults to false." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3i3chebGSYp" role="jymVt" />
     <node concept="3Tm1VV" id="6VkSF6aF167" role="1B3o_S" />
     <node concept="3uibUv" id="6VkSF6aF168" role="1zkMxy">
       <ref role="3uigEE" node="48csSBNvYv0" resolve="AMps2LionWebConverter" />
@@ -3853,6 +3877,15 @@
         </node>
       </node>
       <node concept="3clFbS" id="3i3chebxQwj" role="3clF47">
+        <node concept="3clFbJ" id="3i3chebGUH$" role="3cqZAp">
+          <node concept="3clFbS" id="3i3chebGUHA" role="3clFbx">
+            <node concept="3cpWs6" id="3i3chebGVfD" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="3i3chebGUYV" role="3clFbw">
+            <ref role="3cqZAo" node="3i3chebGTy_" resolve="exportUnconvertedParentIds" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3i3chebGVvm" role="3cqZAp" />
         <node concept="3cpWs8" id="3i3chebxQwk" role="3cqZAp">
           <node concept="3cpWsn" id="3i3chebxQwl" role="3cpWs9">
             <property role="TrG5h" value="parent" />
@@ -3928,6 +3961,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="3i3chebGUb$" role="jymVt" />
     <node concept="3UR2Jj" id="3Kqiw5yA7z_" role="lGtFl">
       <node concept="TZ5HA" id="3Kqiw5yA7JL" role="TZ5H$">
         <node concept="1dT_AC" id="3Kqiw5yA7JM" role="1dT_Ay">
@@ -3973,8 +4007,58 @@
       </node>
       <node concept="TZ5HA" id="3i3chebFRbg" role="TZ5H$">
         <node concept="1dT_AC" id="3i3chebFRbh" role="1dT_Ay">
-          <property role="1dT_AB" value="Does not include parent node ids if parent is not converted." />
+          <property role="1dT_AB" value="Does not include parent node ids if parent is not converted (configurable via " />
         </node>
+        <node concept="1dT_AA" id="3i3chebGVJx" role="1dT_Ay">
+          <node concept="92FcH" id="3i3chebGVJB" role="qph3F">
+            <node concept="TZ5HA" id="3i3chebGVJD" role="2XjZqd" />
+            <node concept="VUqz4" id="3i3chebGVKz" role="92FcQ">
+              <ref role="YTMYt" node="3i3chebGTy_" resolve="exportUnconvertedParentIds" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="3i3chebGVJw" role="1dT_Ay">
+          <property role="1dT_AB" value=")." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3i3chebGTRE" role="jymVt">
+      <property role="TrG5h" value="isExportUnconvertedParentIds" />
+      <node concept="10P_77" id="3i3chebGTRF" role="3clF45" />
+      <node concept="3Tm1VV" id="3i3chebGTRG" role="1B3o_S" />
+      <node concept="3clFbS" id="3i3chebGTRH" role="3clF47">
+        <node concept="3clFbF" id="3i3chebGTRI" role="3cqZAp">
+          <node concept="2OqwBi" id="3i3chebGTRB" role="3clFbG">
+            <node concept="Xjq3P" id="3i3chebGTRC" role="2Oq$k0" />
+            <node concept="2OwXpG" id="3i3chebGTRD" role="2OqNvi">
+              <ref role="2Oxat5" node="3i3chebGTy_" resolve="exportUnconvertedParentIds" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3i3chebGTRJ" role="jymVt">
+      <property role="TrG5h" value="setExportUnconvertedParentIds" />
+      <node concept="3cqZAl" id="3i3chebGTRK" role="3clF45" />
+      <node concept="3Tm1VV" id="3i3chebGTRL" role="1B3o_S" />
+      <node concept="3clFbS" id="3i3chebGTRM" role="3clF47">
+        <node concept="3clFbF" id="3i3chebGTRN" role="3cqZAp">
+          <node concept="37vLTI" id="3i3chebGTRO" role="3clFbG">
+            <node concept="37vLTw" id="3i3chebGTRP" role="37vLTx">
+              <ref role="3cqZAo" node="3i3chebGTRQ" resolve="exportUnconvertedParentIds" />
+            </node>
+            <node concept="2OqwBi" id="3i3chebGTR$" role="37vLTJ">
+              <node concept="Xjq3P" id="3i3chebGTR_" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3i3chebGTRA" role="2OqNvi">
+                <ref role="2Oxat5" node="3i3chebGTy_" resolve="exportUnconvertedParentIds" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3i3chebGTRQ" role="3clF46">
+        <property role="TrG5h" value="exportUnconvertedParentIds" />
+        <node concept="10P_77" id="3i3chebGTRR" role="1tU5fm" />
       </node>
     </node>
   </node>
