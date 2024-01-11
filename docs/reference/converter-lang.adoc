@@ -77,16 +77,12 @@ We apply this strategy until we include all Annotation, Containment, and Referen
 The following table lists for each scope whether we include the target node / target node's id into the conversion.
 Example: For _descendants_ scope, we include both the target node and the target id of annotations and children; we do not include the target node of references, but we do include the target id of references.
 
-NOTE: If a node is included in the conversion for any reason (e.g. explicitly listed), we include their id at all places it is targeted, even if the _scope_ would not cover it.
-Example: Assume we have node with id `a` containing node `b`, and `c` referring to both `a` and `b`.
-We export `c` with _closure_ scope.
-Now we mention `a` as parent of `b`, as both are included in the conversion. 
 |===
 |Scope |Annotations + Children |References |Parents
 
 |listed      |no / yes  |no / yes  |no / yes
 |descendants |yes / yes |no / yes  |no / yes
-|closure     |yes / yes |yes / yes |no / no
+|closure     |yes / yes |yes / yes |no / yes
 
 |===
 

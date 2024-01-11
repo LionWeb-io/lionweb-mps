@@ -138,7 +138,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -3628,7 +3630,9 @@
       <property role="TrG5h" value="exportUnconvertedParentIds" />
       <node concept="3Tm6S6" id="3i3chebGTf5" role="1B3o_S" />
       <node concept="10P_77" id="3i3chebGTvO" role="1tU5fm" />
-      <node concept="3clFbT" id="3i3chebGTNB" role="33vP2m" />
+      <node concept="3clFbT" id="3i3chebGTNB" role="33vP2m">
+        <property role="3clFbU" value="true" />
+      </node>
       <node concept="z59LJ" id="3i3chebGVPG" role="lGtFl">
         <node concept="TZ5HA" id="3i3chebGVPH" role="TZ5H$">
           <node concept="1dT_AC" id="3i3chebGVPI" role="1dT_Ay">
@@ -3637,7 +3641,7 @@
         </node>
         <node concept="TZ5HA" id="3i3chebGW5R" role="TZ5H$">
           <node concept="1dT_AC" id="3i3chebGW5S" role="1dT_Ay">
-            <property role="1dT_AB" value="Defaults to false." />
+            <property role="1dT_AB" value="Defaults to true." />
           </node>
         </node>
       </node>
@@ -4007,7 +4011,7 @@
       </node>
       <node concept="TZ5HA" id="3i3chebFRbg" role="TZ5H$">
         <node concept="1dT_AC" id="3i3chebFRbh" role="1dT_Ay">
-          <property role="1dT_AB" value="Does not include parent node ids if parent is not converted (configurable via " />
+          <property role="1dT_AB" value="Does include parent node id if parent is not converted (configurable via " />
         </node>
         <node concept="1dT_AA" id="3i3chebGVJx" role="1dT_Ay">
           <node concept="92FcH" id="3i3chebGVJB" role="qph3F">
