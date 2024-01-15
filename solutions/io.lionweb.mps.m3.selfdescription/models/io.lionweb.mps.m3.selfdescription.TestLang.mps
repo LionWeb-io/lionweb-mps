@@ -92,6 +92,9 @@
       <concept id="1622443184644647655" name="io.lionweb.mps.converter.lang.structure.ILanguageIdentityContainer" flags="ng" index="3IuRAt">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
+      <concept id="1622443184644647418" name="io.lionweb.mps.converter.lang.structure.ExportMpsLanguageToJson" flags="ng" index="3IuRE0">
+        <property id="548682208089002477" name="scope" index="2G9pTy" />
+      </concept>
     </language>
     <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
       <concept id="6805868710579574869" name="io.lionweb.mps.testsupport.structure.ArbitraryContainer" flags="ng" index="3sutnt">
@@ -1904,6 +1907,15 @@
       <node concept="1r0O1$" id="39$JcGFaUzc" role="1r0O4X">
         <node concept="1r0PSd" id="39$JcGFaUzd" role="1r0OWA" />
       </node>
+    </node>
+  </node>
+  <node concept="3IuRE0" id="3NbbI2Rc9vF">
+    <property role="TrG5h" value="Export validation" />
+    <property role="2G9pTy" value="utjSYFIbxr/listed" />
+    <property role="VS7hl" value="C:/Users/Niko/git/trumpf/Infrastructure/ValidationLanguage/ValidationLanguage/languages/defChunks/validation.json" />
+    <node concept="2V$Bhx" id="3NbbI2Rc9xl" role="qeD2G">
+      <property role="2V$B1T" value="01da6de6-67a2-4ff9-9455-3afbf49d9be4" />
+      <property role="2V$B1Q" value="io.lionweb.derived.validation" />
     </node>
   </node>
 </model>
