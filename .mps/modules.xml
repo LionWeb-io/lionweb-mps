@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/MultiRefLang/MultiRefLang.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.derived.validation/io.lionweb.derived.validation.mpl" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAllBuiltins/io.lionweb.mps.converter.TestAllBuiltins.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAnnotation/io.lionweb.mps.converter.TestAnnotation.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestCoreRefLang/io.lionweb.mps.converter.TestCoreRefLang.mpl" folder="test.langs" />
@@ -37,6 +38,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" folder="client" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.modelchecker/io.lionweb.mps.client.modelchecker.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="lang.converter" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.disabled/io.lionweb.mps.converter.test.disabled.msd" folder="xx_broken" />
