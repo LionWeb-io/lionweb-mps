@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -32,10 +33,18 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute">
+      <concept id="7205279169712116346" name="io.lionweb.mps.structure.attribute.structure.LionWebLanguageKey" flags="ng" index="2DM1_0" />
+      <concept id="7205279169712116353" name="io.lionweb.mps.structure.attribute.structure.ILionWebKey" flags="ng" index="2DM1AV">
+        <property id="7205279169712116354" name="key" index="2DM1AS" />
+      </concept>
+      <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LionWebEntityKey" flags="ng" index="2DM1AW" />
     </language>
   </registry>
   <node concept="1TIwiD" id="3JFkYJGzZbT">
@@ -45,6 +54,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3JFkYJGzZbU" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGyXHJ" resolve="IFinding" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lFz" role="lGtFl">
+      <property role="2DM1AS" value="ABulkFinding" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZel">
@@ -57,9 +69,15 @@
       <property role="IQ2nx" value="4317636940516029344" />
       <property role="TrG5h" value="nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFF" role="lGtFl">
+        <property role="2DM1AS" value="PartitionNodeIdAlreadyExists-nodeId" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZem" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lF$" role="lGtFl">
+      <property role="2DM1AS" value="PartitionNodeIdAlreadyExists" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZeo">
@@ -71,9 +89,15 @@
       <property role="IQ2nx" value="4317636940516029342" />
       <property role="TrG5h" value="nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFG" role="lGtFl">
+        <property role="2DM1AS" value="NewNodeIdNotReservedForClient-nodeId" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZep" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lF_" role="lGtFl">
+      <property role="2DM1AS" value="NewNodeIdNotReservedForClient" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZey">
@@ -86,9 +110,15 @@
       <property role="IQ2nx" value="4317636940516029347" />
       <property role="TrG5h" value="nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFH" role="lGtFl">
+        <property role="2DM1AS" value="PartitionNodeHasContainedOrAnnotated-nodeId" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZe$" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lFA" role="lGtFl">
+      <property role="2DM1AS" value="PartitionNodeHasContainedOrAnnotated" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZe_">
@@ -101,9 +131,15 @@
       <property role="IQ2nx" value="4317636940516029350" />
       <property role="TrG5h" value="nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFI" role="lGtFl">
+        <property role="2DM1AS" value="NodeNoPartition-nodeId" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZeB" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lFB" role="lGtFl">
+      <property role="2DM1AS" value="NodeNoPartition" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZeC">
@@ -116,9 +152,15 @@
       <property role="IQ2nx" value="4317636940516029353" />
       <property role="TrG5h" value="nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFJ" role="lGtFl">
+        <property role="2DM1AS" value="UnknownNode-nodeId" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZeE" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzXhg" resolve="IWarning" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lFC" role="lGtFl">
+      <property role="2DM1AS" value="UnknownNode" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZeF">
@@ -130,9 +172,15 @@
       <property role="IQ2nx" value="4317636940516029356" />
       <property role="TrG5h" value="nodeId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFK" role="lGtFl">
+        <property role="2DM1AS" value="InvalidNodeId-nodeId" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZeH" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
+    </node>
+    <node concept="2DM1AW" id="3JFkYJG$lFD" role="lGtFl">
+      <property role="2DM1AS" value="InvalidNodeId" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZeI">
@@ -145,10 +193,19 @@
       <property role="IQ2nx" value="4317636940516029359" />
       <property role="TrG5h" value="depthLimit" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="3JFkYJG$lFL" role="lGtFl">
+        <property role="2DM1AS" value="InvalidDepthLimit-depthLimit" />
+      </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZeK" role="PzmwI">
       <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
+    <node concept="2DM1AW" id="3JFkYJG$lFE" role="lGtFl">
+      <property role="2DM1AS" value="InvalidDepthLimit" />
+    </node>
+  </node>
+  <node concept="2DM1_0" id="3JFkYJGzTTv">
+    <property role="2DM1AS" value="io-lionweb-bulk-validation" />
   </node>
 </model>
 
