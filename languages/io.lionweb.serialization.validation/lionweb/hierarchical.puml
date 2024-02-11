@@ -1,0 +1,27 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+
+class ChildMissingInParent  implements IError, IFatal {
+  childId: String <<optional>>
+  parentId: String <<optional>>
+}
+
+class CircularParent  implements IError, IFatal
+
+interface IFatal
+interface IFullyRecoverable
+interface IPartiallyRecoverable
+
+class ParentMissingInChild  implements IError, IFatal {
+  childId: String <<optional>>
+  parentId: String <<optional>>
+}
+
+
+class UnlistedLanguage  implements IError, IPartiallyRecoverable
+
+
+@enduml

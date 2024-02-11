@@ -1,0 +1,50 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.bulk.validation"
+
+
+abstract class ABulkFinding extends Node implements IFinding
+
+class InvalidDepthLimit extends ABulkFinding implements IError {
+  depthLimit: String <<optional>>
+}
+
+class InvalidNodeId extends ABulkFinding implements IError {
+  nodeId: String <<optional>>
+}
+
+class NewNodeIdNotReservedForClient extends ABulkFinding implements IError {
+  nodeId: String <<optional>>
+}
+
+class NodeNoPartition extends ABulkFinding implements IError {
+  nodeId: String <<optional>>
+}
+
+class PartitionNodeHasContainedOrAnnotated extends ABulkFinding implements IError {
+  nodeId: String <<optional>>
+}
+
+class PartitionNodeIdAlreadyExists extends ABulkFinding implements IError {
+  nodeId: String <<optional>>
+}
+
+class UnknownNode extends ABulkFinding implements IWarning {
+  nodeId: String <<optional>>
+}
+
+
+
+' relations:
+
+
+
+
+
+
+
+
+
+
+@enduml

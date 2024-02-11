@@ -1,0 +1,19 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+
+abstract class ASerializationFinding implements IFinding
+
+interface IFatal extends ISerializationSeverity
+interface IFullyRecoverable extends ISerializationSeverity
+interface IHierarchicalLevel extends ISerializationLevel
+interface IJsonLevel extends ISerializationLevel
+interface IMetaStructuralLevel extends ISerializationLevel
+interface IPartiallyRecoverable extends ISerializationSeverity
+interface ISerializationLevel extends IFinding
+interface ISerializationSeverity
+interface IStructuralLevel extends ISerializationLevel
+
+@enduml

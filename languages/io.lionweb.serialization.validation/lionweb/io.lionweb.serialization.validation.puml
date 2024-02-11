@@ -1,0 +1,168 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+
+abstract class ASerializationFinding extends Node implements IFinding
+
+abstract class ATextLocation extends Node implements ILocation
+
+class CharacterIndexTextLocation extends ATextLocation {
+  index: Integer <<optional>>
+}
+
+class ChildMissingInParent extends ASerializationFinding implements IError, IFatal, IHierarchicalLevel {
+  childId: String <<optional>>
+  parentId: String <<optional>>
+}
+
+class CircularParent extends ASerializationFinding implements IError, IFatal, IHierarchicalLevel
+
+class CompositeLocation extends Node implements ILocation
+
+class DuplicateId extends Node implements IError, IPartiallyRecoverable, IStructuralLevel {
+  id: String <<optional>>
+}
+
+class DuplicateNodeId extends Node implements IError, IFatal, IStructuralLevel {
+  id: String <<optional>>
+}
+
+class DuplicateUsedLanguages extends Node implements IFullyRecoverable, IStructuralLevel, IWarning {
+  key: String <<optional>>
+  version: String <<optional>>
+}
+
+interface IFatal extends ISerializationSeverity
+interface IFullyRecoverable extends ISerializationSeverity
+interface IHierarchicalLevel extends ISerializationLevel
+interface IJsonLevel extends ISerializationLevel
+interface ILocation
+interface IMetaStructuralLevel extends ISerializationLevel
+interface IPartiallyRecoverable extends ISerializationSeverity
+interface ISerializationLevel extends IFinding
+interface ISerializationSeverity
+interface IStructuralLevel extends ISerializationLevel
+class IdFormat extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  value: String <<optional>>
+}
+
+class JsonPathLocation extends Node implements ILocation {
+  path: String <<optional>>
+}
+
+class KeyFormat extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  value: String <<optional>>
+}
+
+class LineColumnTextLocation extends ATextLocation {
+  line: Integer <<optional>>
+  column: Integer <<optional>>
+}
+
+class MemberMissing extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  memberKey: String <<optional>>
+}
+
+class MemberNull extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  memberKey: String <<optional>>
+}
+
+class MemberTypeIncorrectError extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  memberKey: String <<optional>>
+  memberValue: String <<optional>>
+  expectedMemberType: String <<optional>>
+  actualMemberType: String <<optional>>
+}
+
+class MemberUnknown extends ASerializationFinding implements IFullyRecoverable, IStructuralLevel, IWarning {
+  memberKey: String <<optional>>
+  memberValue: String <<optional>>
+}
+
+class MemberValueArrayContainsNull extends Node implements IError, IPartiallyRecoverable, IStructuralLevel {
+  memberKey: String <<optional>>
+}
+
+class NodeFeatureIndexLocation extends NodeFeatureLocation {
+  index: Integer <<optional>>
+}
+
+class NodeFeatureLocation extends NodeLocation {
+  featureKey: String <<optional>>
+}
+
+class NodeLocation extends Node implements ILocation {
+  nodeId: String <<optional>>
+}
+
+class ParentMissingInChild extends ASerializationFinding implements IError, IFatal, IHierarchicalLevel {
+  childId: String <<optional>>
+  parentId: String <<optional>>
+}
+
+class PropertyMetaPointerNotInClass extends ASerializationFinding implements IError, IMetaStructuralLevel, IPartiallyRecoverable
+
+class PropertyValueIncorrect extends ASerializationFinding implements IError, IMetaStructuralLevel, IPartiallyRecoverable {
+  value: String <<optional>>
+}
+
+class RangeTextLocation extends LineColumnTextLocation {
+  length: Integer <<optional>>
+}
+
+class SerializationFormatVersion extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  value: String <<optional>>
+}
+
+class UnlistedLanguage extends ASerializationFinding implements IError, IHierarchicalLevel, IPartiallyRecoverable
+
+class VersionFormat extends ASerializationFinding implements IError, IFatal, IStructuralLevel {
+  value: String <<optional>>
+}
+
+
+
+' relations:
+
+ASerializationFinding "1" o-- "*" ILocation: locations
+
+
+
+
+CompositeLocation "1" o-- "*" ILocation: locations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml

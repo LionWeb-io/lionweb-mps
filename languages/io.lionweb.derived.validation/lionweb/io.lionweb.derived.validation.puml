@@ -1,0 +1,33 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.derived.validation"
+
+
+interface IError extends IFinding
+interface IFinding {
+  message: String <<optional>>
+}
+
+interface IInfo extends IFinding
+interface INodeFinding extends IFinding
+interface ISeverity {
+  value: Integer
+}
+
+interface IWarning extends IFinding
+class Severity extends Node implements INamed, ISeverity
+
+
+
+' relations:
+
+
+IFinding "*" -- "1" ISeverity: severity
+
+INodeFinding "*" -- "*" Node: appliesTo
+
+
+
+
+@enduml
