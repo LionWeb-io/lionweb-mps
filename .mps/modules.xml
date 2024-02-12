@@ -38,6 +38,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" folder="client" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.cmdline/io.lionweb.mps.cmdline.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="lang.converter" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.disabled/io.lionweb.mps.converter.test.disabled.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.mpsextensions/io.lionweb.mps.converter.test.mpsextensions.msd" folder="test" />
