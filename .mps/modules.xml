@@ -56,6 +56,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="server" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.test/io.lionweb.mps.server.test.msd" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/validation_export/validation_export.msd" folder="" />
     </projectModules>
   </component>
 </project>
