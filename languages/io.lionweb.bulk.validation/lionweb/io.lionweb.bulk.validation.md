@@ -3,7 +3,6 @@ classDiagram
 
   class ABulkFinding
   <<Abstract>> ABulkFinding
-  Node <|-- ABulkFinding
 
   class InvalidDepthLimit {
     +String? depthLimit

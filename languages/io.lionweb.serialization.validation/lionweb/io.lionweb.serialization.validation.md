@@ -1,18 +1,10 @@
 ```mermaid
 classDiagram
 
-  class ASerializationFinding
-  <<Abstract>> ASerializationFinding
-  Node <|-- ASerializationFinding
-
-  class ATextLocation
-  <<Abstract>> ATextLocation
-  Node <|-- ATextLocation
-
-  class CharacterIndexTextLocation {
-    +Integer? index
+  class ASerializationFinding {
+    +SerializationSeverity? serializationSeverity
   }
-  ATextLocation <|-- CharacterIndexTextLocation
+  <<Abstract>> ASerializationFinding
 
   class ChildMissingInParent {
     +String? childId
@@ -23,32 +15,18 @@ classDiagram
   class CircularParent
   ASerializationFinding <|-- CircularParent
 
-  class CompositeLocation
-  Node <|-- CompositeLocation
-
   class DuplicateId {
     +String? id
   }
-  Node <|-- DuplicateId
 
   class DuplicateNodeId {
     +String? id
   }
-  Node <|-- DuplicateNodeId
 
   class DuplicateUsedLanguages {
     +String? key
     +String? version
   }
-  Node <|-- DuplicateUsedLanguages
-
-  class IFatal
-  <<Interface>> IFatal
-  ISerializationSeverity <|-- IFatal
-
-  class IFullyRecoverable
-  <<Interface>> IFullyRecoverable
-  ISerializationSeverity <|-- IFullyRecoverable
 
   class IHierarchicalLevel
   <<Interface>> IHierarchicalLevel
@@ -58,23 +36,13 @@ classDiagram
   <<Interface>> IJsonLevel
   ISerializationLevel <|-- IJsonLevel
 
-  class ILocation
-  <<Interface>> ILocation
-
   class IMetaStructuralLevel
   <<Interface>> IMetaStructuralLevel
   ISerializationLevel <|-- IMetaStructuralLevel
 
-  class IPartiallyRecoverable
-  <<Interface>> IPartiallyRecoverable
-  ISerializationSeverity <|-- IPartiallyRecoverable
-
   class ISerializationLevel
   <<Interface>> ISerializationLevel
   IFinding <|-- ISerializationLevel
-
-  class ISerializationSeverity
-  <<Interface>> ISerializationSeverity
 
   class IStructuralLevel
   <<Interface>> IStructuralLevel
@@ -85,21 +53,10 @@ classDiagram
   }
   ASerializationFinding <|-- IdFormat
 
-  class JsonPathLocation {
-    +String? path
-  }
-  Node <|-- JsonPathLocation
-
   class KeyFormat {
     +String? value
   }
   ASerializationFinding <|-- KeyFormat
-
-  class LineColumnTextLocation {
-    +Integer? line
-    +Integer? column
-  }
-  ATextLocation <|-- LineColumnTextLocation
 
   class MemberMissing {
     +String? memberKey
@@ -128,22 +85,6 @@ classDiagram
   class MemberValueArrayContainsNull {
     +String? memberKey
   }
-  Node <|-- MemberValueArrayContainsNull
-
-  class NodeFeatureIndexLocation {
-    +Integer? index
-  }
-  NodeFeatureLocation <|-- NodeFeatureIndexLocation
-
-  class NodeFeatureLocation {
-    +String? featureKey
-  }
-  NodeLocation <|-- NodeFeatureLocation
-
-  class NodeLocation {
-    +String? nodeId
-  }
-  Node <|-- NodeLocation
 
   class ParentMissingInChild {
     +String? childId
@@ -159,15 +100,17 @@ classDiagram
   }
   ASerializationFinding <|-- PropertyValueIncorrect
 
-  class RangeTextLocation {
-    +Integer? length
-  }
-  LineColumnTextLocation <|-- RangeTextLocation
-
   class SerializationFormatVersion {
     +String? value
   }
   ASerializationFinding <|-- SerializationFormatVersion
+
+  class SerializationSeverity {
+    <<enumeration>>
+    fullyRecoverable
+    partiallyRecoverable
+    fatal
+  }
 
   class UnlistedLanguage
   ASerializationFinding <|-- UnlistedLanguage
@@ -178,20 +121,7 @@ classDiagram
   ASerializationFinding <|-- VersionFormat
 
 
-  ASerializationFinding "1" o-- "*" ILocation: locations
-
-
-
-
-  CompositeLocation "1" o-- "*" ILocation: locations
-
-
-
-
-
-
-
-
+  ASerializationFinding "1" o--> "*" ILocation: locations
 
 
 

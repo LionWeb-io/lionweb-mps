@@ -48,12 +48,8 @@
             "key": "Language-entities"
           },
           "children": [
-            "IError",
             "IFinding",
-            "IInfo",
             "INodeFinding",
-            "ISeverity",
-            "IWarning",
             "Severity"
           ]
         }
@@ -70,59 +66,6 @@
       ],
       "annotations": [],
       "parent": null
-    },
-    {
-      "id": "IError",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "IError"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "IError"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Interface-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "IFinding",
-              "reference": "IFinding"
-            }
-          ]
-        }
-      ],
-      "annotations": [],
-      "parent": "io-lionweb-derived-validation"
     },
     {
       "id": "IFinding",
@@ -157,8 +100,8 @@
             "key": "Classifier-features"
           },
           "children": [
-            "IFinding-message",
-            "IFinding-severity"
+            "IFinding-severity",
+            "IFinding-message"
           ]
         }
       ],
@@ -174,6 +117,58 @@
       ],
       "annotations": [],
       "parent": "io-lionweb-derived-validation"
+    },
+    {
+      "id": "IFinding-severity",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Feature-optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "IFinding-severity"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "severity"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Property-type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Severity",
+              "reference": "Severity"
+            }
+          ]
+        }
+      ],
+      "annotations": [],
+      "parent": "IFinding"
     },
     {
       "id": "IFinding-message",
@@ -226,119 +221,6 @@
       ],
       "annotations": [],
       "parent": "IFinding"
-    },
-    {
-      "id": "IFinding-severity",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Reference"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Link-multiple"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Feature-optional"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "IFinding-severity"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "severity"
-        }
-      ],
-      "containments": [],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Link-type"
-          },
-          "targets": [
-            {
-              "resolveInfo": "ISeverity",
-              "reference": "ISeverity"
-            }
-          ]
-        }
-      ],
-      "annotations": [],
-      "parent": "IFinding"
-    },
-    {
-      "id": "IInfo",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "IInfo"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "IInfo"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Interface-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "IFinding",
-              "reference": "IFinding"
-            }
-          ]
-        }
-      ],
-      "annotations": [],
-      "parent": "io-lionweb-derived-validation"
     },
     {
       "id": "INodeFinding",
@@ -456,184 +338,13 @@
       "parent": "INodeFinding"
     },
     {
-      "id": "ISeverity",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "ISeverity"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "ISeverity"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": [
-            "ISeverity-value"
-          ]
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Interface-extends"
-          },
-          "targets": []
-        }
-      ],
-      "annotations": [],
-      "parent": "io-lionweb-derived-validation"
-    },
-    {
-      "id": "ISeverity-value",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Property"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Feature-optional"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "ISeverity-value"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "value"
-        }
-      ],
-      "containments": [],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Property-type"
-          },
-          "targets": [
-            {
-              "resolveInfo": "Integer",
-              "reference": "LionCore-builtins-Integer"
-            }
-          ]
-        }
-      ],
-      "annotations": [],
-      "parent": "ISeverity"
-    },
-    {
-      "id": "IWarning",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Interface"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "IWarning"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "IWarning"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Interface-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "IFinding",
-              "reference": "IFinding"
-            }
-          ]
-        }
-      ],
-      "annotations": [],
-      "parent": "io-lionweb-derived-validation"
-    },
-    {
       "id": "Severity",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
-        "key": "Concept"
+        "key": "Enumeration"
       },
       "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-abstract"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-partition"
-          },
-          "value": "false"
-        },
         {
           "property": {
             "language": "LionCore-M3",
@@ -656,45 +367,108 @@
           "containment": {
             "language": "LionCore-M3",
             "version": "2023.1",
-            "key": "Classifier-features"
+            "key": "Enumeration-literals"
           },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
-            }
-          ]
-        },
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-implements"
-          },
-          "targets": [
-            {
-              "resolveInfo": "INamed",
-              "reference": "LionCore-builtins-INamed"
-            },
-            {
-              "resolveInfo": "ISeverity",
-              "reference": "ISeverity"
-            }
+          "children": [
+            "Severity-info",
+            "Severity-warning",
+            "Severity-error"
           ]
         }
       ],
+      "references": [],
       "annotations": [],
       "parent": "io-lionweb-derived-validation"
+    },
+    {
+      "id": "Severity-info",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "Severity-info"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "info"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "Severity"
+    },
+    {
+      "id": "Severity-warning",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "Severity-warning"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "warning"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "Severity"
+    },
+    {
+      "id": "Severity-error",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "Severity-error"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "error"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "Severity"
     }
   ]
 }

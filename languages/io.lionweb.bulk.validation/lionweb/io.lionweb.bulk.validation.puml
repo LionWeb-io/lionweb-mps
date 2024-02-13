@@ -4,34 +4,34 @@ hide empty members
 ' qualified name: "io.lionweb.bulk.validation"
 
 
-abstract class ABulkFinding extends Node implements IFinding
+abstract class ABulkFinding implements IFinding
 
-class InvalidDepthLimit extends ABulkFinding implements IError {
-  depthLimit: String <<optional>>
+class InvalidDepthLimit extends ABulkFinding {
+  depthLimit: String?
 }
 
-class InvalidNodeId extends ABulkFinding implements IError {
-  nodeId: String <<optional>>
+class InvalidNodeId extends ABulkFinding {
+  nodeId: String?
 }
 
-class NewNodeIdNotReservedForClient extends ABulkFinding implements IError {
-  nodeId: String <<optional>>
+class NewNodeIdNotReservedForClient extends ABulkFinding {
+  nodeId: String?
 }
 
-class NodeNoPartition extends ABulkFinding implements IError {
-  nodeId: String <<optional>>
+class NodeNoPartition extends ABulkFinding {
+  nodeId: String?
 }
 
-class PartitionNodeHasContainedOrAnnotated extends ABulkFinding implements IError {
-  nodeId: String <<optional>>
+class PartitionNodeHasContainedOrAnnotated extends ABulkFinding {
+  nodeId: String?
 }
 
-class PartitionNodeIdAlreadyExists extends ABulkFinding implements IError {
-  nodeId: String <<optional>>
+class PartitionNodeIdAlreadyExists extends ABulkFinding {
+  nodeId: String?
 }
 
-class UnknownNode extends ABulkFinding implements IWarning {
-  nodeId: String <<optional>>
+class UnknownNode extends ABulkFinding {
+  nodeId: String?
 }
 
 

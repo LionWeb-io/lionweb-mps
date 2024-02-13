@@ -2,7 +2,6 @@
 <model ref="r:22515488-7d7d-4a01-a679-506cbd9ee9cd(io.lionweb.serialization.validation.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
@@ -14,6 +13,15 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -83,12 +91,20 @@
       <property role="20kJfa" value="locations" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" to="hhu5:3JFkYJGzXtB" resolve="ILocation" />
-      <node concept="2DM1AW" id="3JFkYJG$lHq" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTG" role="lGtFl">
         <property role="2DM1AS" value="ASerializationFinding-locations" />
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGO" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTg" role="lGtFl">
       <property role="2DM1AS" value="ASerializationFinding" />
+    </node>
+    <node concept="1TJgyi" id="V4Ro9Jkh3t" role="1TKVEl">
+      <property role="IQ2nx" value="1064218964249350365" />
+      <property role="TrG5h" value="serializationSeverity" />
+      <ref role="AX2Wp" node="V4Ro9Jkh2x" resolve="SerializationSeverity" />
+      <node concept="2DM1AW" id="V4Ro9JkhTK" role="lGtFl">
+        <property role="2DM1AS" value="ASerializationFinding-serializationSeverity" />
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzWCJ">
@@ -101,17 +117,14 @@
       <property role="IQ2nx" value="4317636940516028752" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHv" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTL" role="lGtFl">
         <property role="2DM1AS" value="KeyFormat-value" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ4I" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5v" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGP" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTh" role="lGtFl">
       <property role="2DM1AS" value="KeyFormat" />
     </node>
   </node>
@@ -125,18 +138,15 @@
     <node concept="PrWs8" id="3JFkYJGzZ4L" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5B" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
     <node concept="1TJgyi" id="3JFkYJGzZ4Q" role="1TKVEl">
       <property role="IQ2nx" value="4317636940516028726" />
       <property role="TrG5h" value="memberKey" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHw" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTM" role="lGtFl">
         <property role="2DM1AS" value="MemberMissing-memberKey" />
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGQ" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTi" role="lGtFl">
       <property role="2DM1AS" value="MemberMissing" />
     </node>
   </node>
@@ -150,18 +160,15 @@
     <node concept="PrWs8" id="3JFkYJGzZ5i" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5F" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
     <node concept="1TJgyi" id="3JFkYJGzZ4S" role="1TKVEl">
       <property role="IQ2nx" value="4317636940516028728" />
       <property role="TrG5h" value="memberKey" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHx" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTN" role="lGtFl">
         <property role="2DM1AS" value="MemberNull-memberKey" />
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGR" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTj" role="lGtFl">
       <property role="2DM1AS" value="MemberNull" />
     </node>
   </node>
@@ -180,7 +187,7 @@
         <property role="20kJfa" value="property" />
         <property role="20lbJX" value="fLJekj4/_1" />
         <ref role="20lvS9" to="h3y3:2ju2syjkkDM" resolve="Property" />
-        <node concept="2DM1AW" id="3JFkYJG$lHr" role="lGtFl">
+        <node concept="2DM1AW" id="V4Ro9JkhTH" role="lGtFl">
           <property role="2DM1AS" value="MemberTypeIncorrectError-property" />
         </node>
       </node>
@@ -188,14 +195,11 @@
     <node concept="PrWs8" id="3JFkYJGzZ5l" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5z" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
     <node concept="1TJgyi" id="3JFkYJGzZ4U" role="1TKVEl">
       <property role="IQ2nx" value="4317636940516028730" />
       <property role="TrG5h" value="memberKey" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHy" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTO" role="lGtFl">
         <property role="2DM1AS" value="MemberTypeIncorrectError-memberKey" />
       </node>
     </node>
@@ -203,7 +207,7 @@
       <property role="IQ2nx" value="4317636940516028732" />
       <property role="TrG5h" value="memberValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHz" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTP" role="lGtFl">
         <property role="2DM1AS" value="MemberTypeIncorrectError-memberValue" />
       </node>
     </node>
@@ -211,7 +215,7 @@
       <property role="IQ2nx" value="4317636940516028735" />
       <property role="TrG5h" value="expectedMemberType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lH$" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTQ" role="lGtFl">
         <property role="2DM1AS" value="MemberTypeIncorrectError-expectedMemberType" />
       </node>
     </node>
@@ -219,11 +223,11 @@
       <property role="IQ2nx" value="4317636940516028739" />
       <property role="TrG5h" value="actualMemberType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lH_" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTR" role="lGtFl">
         <property role="2DM1AS" value="MemberTypeIncorrectError-actualMemberType" />
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGS" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTk" role="lGtFl">
       <property role="2DM1AS" value="MemberTypeIncorrectError" />
     </node>
   </node>
@@ -237,17 +241,14 @@
       <property role="IQ2nx" value="4317636940516028794" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHA" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTS" role="lGtFl">
         <property role="2DM1AS" value="VersionFormat-value" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ5N" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5Q" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGT" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTl" role="lGtFl">
       <property role="2DM1AS" value="VersionFormat" />
     </node>
   </node>
@@ -262,7 +263,7 @@
       <property role="IQ2nx" value="4317636940516018849" />
       <property role="TrG5h" value="memberKey" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHB" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTT" role="lGtFl">
         <property role="2DM1AS" value="MemberUnknown-memberKey" />
       </node>
     </node>
@@ -270,17 +271,14 @@
       <property role="IQ2nx" value="4317636940516018859" />
       <property role="TrG5h" value="memberValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHC" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTU" role="lGtFl">
         <property role="2DM1AS" value="MemberUnknown-memberValue" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ5o" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5J" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5s" resolve="IFullyRecoverable" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lGU" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTm" role="lGtFl">
       <property role="2DM1AS" value="MemberUnknown" />
     </node>
   </node>
@@ -291,7 +289,7 @@
     <node concept="PrWs8" id="3JFkYJGzZ4O" role="PrDN$">
       <ref role="PrY4T" to="5sbs:3JFkYJGyXHJ" resolve="IFinding" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHg" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTz" role="lGtFl">
       <property role="2DM1AS" value="ISerializationLevel" />
     </node>
   </node>
@@ -302,7 +300,7 @@
     <node concept="PrWs8" id="3JFkYJGzXtv" role="PrDN$">
       <ref role="PrY4T" node="3JFkYJGzXtt" resolve="ISerializationLevel" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHh" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhT$" role="lGtFl">
       <property role="2DM1AS" value="IJsonLevel" />
     </node>
   </node>
@@ -313,7 +311,7 @@
     <node concept="PrWs8" id="3JFkYJGzXty" role="PrDN$">
       <ref role="PrY4T" node="3JFkYJGzXtt" resolve="ISerializationLevel" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHi" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhT_" role="lGtFl">
       <property role="2DM1AS" value="IStructuralLevel" />
     </node>
   </node>
@@ -324,50 +322,8 @@
     <node concept="PrWs8" id="3JFkYJGzXt_" role="PrDN$">
       <ref role="PrY4T" node="3JFkYJGzXtt" resolve="ISerializationLevel" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHj" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTA" role="lGtFl">
       <property role="2DM1AS" value="IHierarchicalLevel" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzZ5r">
-    <property role="TrG5h" value="ISerializationSeverity" />
-    <property role="3GE5qa" value="severity" />
-    <property role="34LRSv" value="Serialization Severity" />
-    <property role="EcuMT" value="4317636940516022149" />
-    <node concept="2DM1AW" id="3JFkYJG$lHl" role="lGtFl">
-      <property role="2DM1AS" value="ISerializationSeverity" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzZ5s">
-    <property role="EcuMT" value="4317636940516028764" />
-    <property role="3GE5qa" value="severity" />
-    <property role="TrG5h" value="IFullyRecoverable" />
-    <node concept="2DM1AW" id="3JFkYJG$lHm" role="lGtFl">
-      <property role="2DM1AS" value="IFullyRecoverable" />
-    </node>
-    <node concept="PrWs8" id="3JFkYJG$pUe" role="PrDN$">
-      <ref role="PrY4T" node="3JFkYJGzZ5r" resolve="ISerializationSeverity" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzZ5t">
-    <property role="EcuMT" value="4317636940516028765" />
-    <property role="3GE5qa" value="severity" />
-    <property role="TrG5h" value="IPartiallyRecoverable" />
-    <node concept="2DM1AW" id="3JFkYJG$lHn" role="lGtFl">
-      <property role="2DM1AS" value="IPartiallyRecoverable" />
-    </node>
-    <node concept="PrWs8" id="3JFkYJG$pUf" role="PrDN$">
-      <ref role="PrY4T" node="3JFkYJGzZ5r" resolve="ISerializationSeverity" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzZ5u">
-    <property role="EcuMT" value="4317636940516028766" />
-    <property role="3GE5qa" value="severity" />
-    <property role="TrG5h" value="IFatal" />
-    <node concept="2DM1AW" id="3JFkYJG$lHo" role="lGtFl">
-      <property role="2DM1AS" value="IFatal" />
-    </node>
-    <node concept="PrWs8" id="3JFkYJG$pUd" role="PrDN$">
-      <ref role="PrY4T" node="3JFkYJGzZ5r" resolve="ISerializationSeverity" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGzZ5W">
@@ -381,7 +337,7 @@
       <property role="IQ2nx" value="4317636940516028806" />
       <property role="TrG5h" value="key" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHL" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTV" role="lGtFl">
         <property role="2DM1AS" value="DuplicateUsedLanguages-key" />
       </node>
     </node>
@@ -389,17 +345,14 @@
       <property role="IQ2nx" value="4317636940516028808" />
       <property role="TrG5h" value="version" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHM" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTW" role="lGtFl">
         <property role="2DM1AS" value="DuplicateUsedLanguages-version" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ5X" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ5Z" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5s" resolve="IFullyRecoverable" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH3" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTn" role="lGtFl">
       <property role="2DM1AS" value="DuplicateUsedLanguages" />
     </node>
   </node>
@@ -414,17 +367,14 @@
       <property role="IQ2nx" value="4317636940516028812" />
       <property role="TrG5h" value="memberKey" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHN" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTX" role="lGtFl">
         <property role="2DM1AS" value="MemberValueArrayContainsNull-memberKey" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6f" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6g" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5t" resolve="IPartiallyRecoverable" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH4" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTo" role="lGtFl">
       <property role="2DM1AS" value="MemberValueArrayContainsNull" />
     </node>
   </node>
@@ -438,17 +388,14 @@
       <property role="IQ2nx" value="4317636940516028819" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHO" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTY" role="lGtFl">
         <property role="2DM1AS" value="IdFormat-value" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6l" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6m" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH5" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTp" role="lGtFl">
       <property role="2DM1AS" value="IdFormat" />
     </node>
   </node>
@@ -463,17 +410,14 @@
       <property role="IQ2nx" value="4317636940516028824" />
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHP" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhTZ" role="lGtFl">
         <property role="2DM1AS" value="DuplicateId-id" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6r" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6s" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5t" resolve="IPartiallyRecoverable" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH6" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTq" role="lGtFl">
       <property role="2DM1AS" value="DuplicateId" />
     </node>
   </node>
@@ -487,17 +431,14 @@
       <property role="IQ2nx" value="4317636940516028831" />
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHQ" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU0" role="lGtFl">
         <property role="2DM1AS" value="DuplicateNodeId-id" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6x" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6y" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH7" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTr" role="lGtFl">
       <property role="2DM1AS" value="DuplicateNodeId" />
     </node>
   </node>
@@ -511,17 +452,14 @@
       <property role="IQ2nx" value="4317636940516028836" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHR" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU1" role="lGtFl">
         <property role="2DM1AS" value="SerializationFormatVersion-value" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6A" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6B" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH8" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTs" role="lGtFl">
       <property role="2DM1AS" value="SerializationFormatVersion" />
     </node>
   </node>
@@ -535,7 +473,7 @@
       <property role="IQ2nx" value="4317636940516028861" />
       <property role="TrG5h" value="childId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHS" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU2" role="lGtFl">
         <property role="2DM1AS" value="ChildMissingInParent-childId" />
       </node>
     </node>
@@ -543,17 +481,14 @@
       <property role="IQ2nx" value="4317636940516028863" />
       <property role="TrG5h" value="parentId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHT" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU3" role="lGtFl">
         <property role="2DM1AS" value="ChildMissingInParent-parentId" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6F" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6I" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lH9" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTt" role="lGtFl">
       <property role="2DM1AS" value="ChildMissingInParent" />
     </node>
   </node>
@@ -567,7 +502,7 @@
       <property role="IQ2nx" value="4317636940516028867" />
       <property role="TrG5h" value="childId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHU" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU4" role="lGtFl">
         <property role="2DM1AS" value="ParentMissingInChild-childId" />
       </node>
     </node>
@@ -575,17 +510,14 @@
       <property role="IQ2nx" value="4317636940516028868" />
       <property role="TrG5h" value="parentId" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHV" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU5" role="lGtFl">
         <property role="2DM1AS" value="ParentMissingInChild-parentId" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ76" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ77" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHa" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTu" role="lGtFl">
       <property role="2DM1AS" value="ParentMissingInChild" />
     </node>
   </node>
@@ -599,10 +531,7 @@
     <node concept="PrWs8" id="3JFkYJGzZ7a" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ7b" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5u" resolve="IFatal" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHb" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTv" role="lGtFl">
       <property role="2DM1AS" value="CircularParent" />
     </node>
   </node>
@@ -616,10 +545,7 @@
     <node concept="PrWs8" id="3JFkYJGzZ7n" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ7q" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5t" resolve="IPartiallyRecoverable" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHd" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTw" role="lGtFl">
       <property role="2DM1AS" value="UnlistedLanguage" />
     </node>
   </node>
@@ -630,7 +556,7 @@
     <node concept="PrWs8" id="3JFkYJGzZ7v" role="PrDN$">
       <ref role="PrY4T" node="3JFkYJGzXtt" resolve="ISerializationLevel" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHp" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTB" role="lGtFl">
       <property role="2DM1AS" value="IMetaStructuralLevel" />
     </node>
   </node>
@@ -644,15 +570,12 @@
       <property role="IQ2nx" value="4317636940516028907" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJG$lHW" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9JkhU6" role="lGtFl">
         <property role="2DM1AS" value="PropertyValueIncorrect-value" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ7$" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzZ7u" resolve="IMetaStructuralLevel" />
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZ7B" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5t" resolve="IPartiallyRecoverable" />
     </node>
     <node concept="1X3_iC" id="3JFkYJG$nvI" role="lGtFl">
       <property role="3V$3am" value="linkDeclaration" />
@@ -662,12 +585,12 @@
         <property role="20kJfa" value="property" />
         <property role="20lbJX" value="fLJekj4/_1" />
         <ref role="20lvS9" to="h3y3:2ju2syjkkDM" resolve="Property" />
-        <node concept="2DM1AW" id="3JFkYJG$lHt" role="lGtFl">
+        <node concept="2DM1AW" id="V4Ro9JkhTI" role="lGtFl">
           <property role="2DM1AS" value="PropertyValueIncorrect-property" />
         </node>
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHe" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTx" role="lGtFl">
       <property role="2DM1AS" value="PropertyValueIncorrect" />
     </node>
   </node>
@@ -680,9 +603,6 @@
     <node concept="PrWs8" id="3JFkYJGzZ7Q" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzZ7u" resolve="IMetaStructuralLevel" />
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ7R" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGzZ5t" resolve="IPartiallyRecoverable" />
-    </node>
     <node concept="1X3_iC" id="3JFkYJG$nvH" role="lGtFl">
       <property role="3V$3am" value="linkDeclaration" />
       <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
@@ -691,17 +611,45 @@
         <property role="20kJfa" value="property" />
         <property role="20lbJX" value="fLJekj4/_1" />
         <ref role="20lvS9" to="h3y3:2ju2syjkkDM" resolve="Property" />
-        <node concept="2DM1AW" id="3JFkYJG$lHu" role="lGtFl">
+        <node concept="2DM1AW" id="V4Ro9JkhTJ" role="lGtFl">
           <property role="2DM1AS" value="PropertyMetaPointerNotInClass-property" />
         </node>
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJG$lHf" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9JkhTy" role="lGtFl">
       <property role="2DM1AS" value="PropertyMetaPointerNotInClass" />
     </node>
   </node>
   <node concept="2DM1_0" id="3JFkYJGzTTv">
     <property role="2DM1AS" value="io-lionweb-serialization-validation" />
+  </node>
+  <node concept="25R3W" id="V4Ro9Jkh2x">
+    <property role="3F6X1D" value="1064218964249350305" />
+    <property role="TrG5h" value="SerializationSeverity" />
+    <node concept="25R33" id="V4Ro9Jkh2y" role="25R1y">
+      <property role="3tVfz5" value="1064218964249350306" />
+      <property role="TrG5h" value="fullyRecoverable" />
+      <node concept="2DM1AW" id="V4Ro9JkhTD" role="lGtFl">
+        <property role="2DM1AS" value="SerializationSeverity-fullyRecoverable" />
+      </node>
+    </node>
+    <node concept="25R33" id="V4Ro9Jkh2z" role="25R1y">
+      <property role="3tVfz5" value="1064218964249350307" />
+      <property role="TrG5h" value="partiallyRecoverable" />
+      <node concept="2DM1AW" id="V4Ro9JkhTE" role="lGtFl">
+        <property role="2DM1AS" value="SerializationSeverity-partiallyRecoverable" />
+      </node>
+    </node>
+    <node concept="25R33" id="V4Ro9Jkh2A" role="25R1y">
+      <property role="3tVfz5" value="1064218964249350310" />
+      <property role="TrG5h" value="fatal" />
+      <node concept="2DM1AW" id="V4Ro9JkhTF" role="lGtFl">
+        <property role="2DM1AS" value="SerializationSeverity-fatal" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="V4Ro9JkhTC" role="lGtFl">
+      <property role="2DM1AS" value="SerializationSeverity" />
+    </node>
   </node>
 </model>
 

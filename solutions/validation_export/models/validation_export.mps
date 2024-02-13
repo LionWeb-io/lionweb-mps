@@ -56,5 +56,14 @@
       <property role="2V$B1Q" value="io.lionweb.bulk.validation" />
     </node>
   </node>
+  <node concept="3IuRE0" id="V4Ro9JkiNE">
+    <property role="TrG5h" value="Location Util" />
+    <property role="2G9pTy" value="utjSYFIcjD/indirect" />
+    <property role="VS7hl" value="${lionweb-mps.home}/languages/io.lionweb.util.location/lionweb/io-lionweb-util.location.lang.json" />
+    <node concept="2V$Bhx" id="V4Ro9JkiNG" role="qeD2G">
+      <property role="2V$B1T" value="a87ab839-9839-4ace-8ee0-541c9b2f787c" />
+      <property role="2V$B1Q" value="io.lionweb.util.location" />
+    </node>
+  </node>
 </model>
 
