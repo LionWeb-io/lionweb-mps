@@ -11,9 +11,17 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
-        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -24,9 +32,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -57,18 +63,16 @@
       <concept id="6461713321117473366" name="io.lionweb.mps.structure.attribute.structure.LionWebSmartReference" flags="ng" index="3Kckhh">
         <reference id="6461713321117473439" name="reference" index="3Kckio" />
       </concept>
-      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W" />
     </language>
   </registry>
   <node concept="PlHQZ" id="3JFkYJGyXHJ">
     <property role="EcuMT" value="4317636940515761007" />
     <property role="TrG5h" value="IFinding" />
-    <node concept="1TJgyj" id="3JFkYJGyXHL" role="1TKVEi">
-      <property role="IQ2ns" value="4317636940515761009" />
-      <property role="20kJfa" value="severity" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3JFkYJGyXHM" resolve="ISeverity" />
-      <node concept="2DM1AW" id="3JFkYJGzTUu" role="lGtFl">
+    <node concept="1TJgyi" id="V4Ro9Jk7Ha" role="1TKVEl">
+      <property role="IQ2nx" value="1064218964249312074" />
+      <property role="TrG5h" value="severity" />
+      <ref role="AX2Wp" node="V4Ro9Jk7H1" resolve="Severity" />
+      <node concept="2DM1AW" id="V4Ro9Jk7Hn" role="lGtFl">
         <property role="2DM1AS" value="IFinding-severity" />
       </node>
     </node>
@@ -76,28 +80,12 @@
       <property role="IQ2nx" value="4317636940515761008" />
       <property role="TrG5h" value="message" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="2DM1AW" id="3JFkYJGzTUw" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9Jk7Ho" role="lGtFl">
         <property role="2DM1AS" value="IFinding-message" />
       </node>
     </node>
-    <node concept="2DM1AW" id="3JFkYJGzTUr" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9Jk7Hf" role="lGtFl">
       <property role="2DM1AS" value="IFinding" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGyXHM">
-    <property role="EcuMT" value="4317636940515761010" />
-    <property role="TrG5h" value="ISeverity" />
-    <node concept="1TJgyi" id="3JFkYJGzTTx" role="1TKVEl">
-      <property role="IQ2nx" value="4317636940516007521" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-      <node concept="3KvT9W" id="3JFkYJGzTTy" role="lGtFl" />
-      <node concept="2DM1AW" id="3JFkYJGzTUx" role="lGtFl">
-        <property role="2DM1AS" value="ISeverity-value" />
-      </node>
-    </node>
-    <node concept="2DM1AW" id="3JFkYJGzTUs" role="lGtFl">
-      <property role="2DM1AS" value="ISeverity" />
     </node>
   </node>
   <node concept="1TIwiD" id="3JFkYJGyXHO">
@@ -109,65 +97,19 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      <node concept="2DM1AW" id="3JFkYJGzZ6V" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9Jk7Hl" role="lGtFl">
         <property role="2DM1AS" value="BaseConceptReference-target" />
       </node>
     </node>
     <node concept="3Kckhh" id="3JFkYJGzTTw" role="lGtFl">
       <ref role="3Kckio" node="3JFkYJGyXHN" resolve="appliesTo" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJGzZ6Q" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9Jk7He" role="lGtFl">
       <property role="2DM1AS" value="BaseConceptReference" />
     </node>
   </node>
   <node concept="2DM1_0" id="3JFkYJGzTTv">
     <property role="2DM1AS" value="io-lionweb-derived-validation" />
-  </node>
-  <node concept="1TIwiD" id="3JFkYJGzTTz">
-    <property role="EcuMT" value="4317636940516007523" />
-    <property role="TrG5h" value="Severity" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Severity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3JFkYJGzTT$" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzTT_" role="PzmwI">
-      <ref role="PrY4T" node="3JFkYJGyXHM" resolve="ISeverity" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJGzTUq" role="lGtFl">
-      <property role="2DM1AS" value="Severity" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzWFx">
-    <property role="EcuMT" value="4317636940516018913" />
-    <property role="TrG5h" value="IError" />
-    <node concept="PrWs8" id="3JFkYJGzWFy" role="PrDN$">
-      <ref role="PrY4T" node="3JFkYJGyXHJ" resolve="IFinding" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJGzZ6R" role="lGtFl">
-      <property role="2DM1AS" value="IError" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzXhg">
-    <property role="EcuMT" value="4317636940516021328" />
-    <property role="TrG5h" value="IWarning" />
-    <node concept="PrWs8" id="3JFkYJGzXhh" role="PrDN$">
-      <ref role="PrY4T" node="3JFkYJGyXHJ" resolve="IFinding" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJGzZ6S" role="lGtFl">
-      <property role="2DM1AS" value="IWarning" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3JFkYJGzXnh">
-    <property role="EcuMT" value="4317636940516021713" />
-    <property role="TrG5h" value="IInfo" />
-    <node concept="PrWs8" id="3JFkYJGzXni" role="PrDN$">
-      <ref role="PrY4T" node="3JFkYJGyXHJ" resolve="IFinding" />
-    </node>
-    <node concept="2DM1AW" id="3JFkYJGzZ6T" role="lGtFl">
-      <property role="2DM1AS" value="IInfo" />
-    </node>
   </node>
   <node concept="PlHQZ" id="3JFkYJGzZ6O">
     <property role="EcuMT" value="4317636940516028852" />
@@ -178,15 +120,43 @@
       <property role="20kJfa" value="appliesTo" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="3JFkYJGyXHO" resolve="BaseConceptReference" />
-      <node concept="2DM1AW" id="3JFkYJGzZ6W" role="lGtFl">
+      <node concept="2DM1AW" id="V4Ro9Jk7Hm" role="lGtFl">
         <property role="2DM1AS" value="INodeFinding-appliesTo" />
       </node>
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6P" role="PrDN$">
       <ref role="PrY4T" node="3JFkYJGyXHJ" resolve="IFinding" />
     </node>
-    <node concept="2DM1AW" id="3JFkYJGzZ6U" role="lGtFl">
+    <node concept="2DM1AW" id="V4Ro9Jk7Hg" role="lGtFl">
       <property role="2DM1AS" value="INodeFinding" />
+    </node>
+  </node>
+  <node concept="25R3W" id="V4Ro9Jk7H1">
+    <property role="3F6X1D" value="1064218964249312065" />
+    <property role="TrG5h" value="Severity" />
+    <node concept="25R33" id="V4Ro9Jk7H2" role="25R1y">
+      <property role="3tVfz5" value="1064218964249312066" />
+      <property role="TrG5h" value="info" />
+      <node concept="2DM1AW" id="V4Ro9Jk7Hi" role="lGtFl">
+        <property role="2DM1AS" value="Severity-info" />
+      </node>
+    </node>
+    <node concept="25R33" id="V4Ro9Jk7H3" role="25R1y">
+      <property role="3tVfz5" value="1064218964249312067" />
+      <property role="TrG5h" value="warning" />
+      <node concept="2DM1AW" id="V4Ro9Jk7Hj" role="lGtFl">
+        <property role="2DM1AS" value="Severity-warning" />
+      </node>
+    </node>
+    <node concept="25R33" id="V4Ro9Jk7H6" role="25R1y">
+      <property role="3tVfz5" value="1064218964249312070" />
+      <property role="TrG5h" value="error" />
+      <node concept="2DM1AW" id="V4Ro9Jk7Hk" role="lGtFl">
+        <property role="2DM1AS" value="Severity-error" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="V4Ro9Jk7Hh" role="lGtFl">
+      <property role="2DM1AS" value="Severity" />
     </node>
   </node>
 </model>

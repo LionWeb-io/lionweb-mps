@@ -73,9 +73,6 @@
         <property role="2DM1AS" value="PartitionNodeIdAlreadyExists-nodeId" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZem" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="2DM1AW" id="3JFkYJG$lF$" role="lGtFl">
       <property role="2DM1AS" value="PartitionNodeIdAlreadyExists" />
     </node>
@@ -92,9 +89,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lFG" role="lGtFl">
         <property role="2DM1AS" value="NewNodeIdNotReservedForClient-nodeId" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZep" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="2DM1AW" id="3JFkYJG$lF_" role="lGtFl">
       <property role="2DM1AS" value="NewNodeIdNotReservedForClient" />
@@ -114,9 +108,6 @@
         <property role="2DM1AS" value="PartitionNodeHasContainedOrAnnotated-nodeId" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZe$" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="2DM1AW" id="3JFkYJG$lFA" role="lGtFl">
       <property role="2DM1AS" value="PartitionNodeHasContainedOrAnnotated" />
     </node>
@@ -134,9 +125,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lFI" role="lGtFl">
         <property role="2DM1AS" value="NodeNoPartition-nodeId" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZeB" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="2DM1AW" id="3JFkYJG$lFB" role="lGtFl">
       <property role="2DM1AS" value="NodeNoPartition" />
@@ -156,9 +144,6 @@
         <property role="2DM1AS" value="UnknownNode-nodeId" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZeE" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzXhg" resolve="IWarning" />
-    </node>
     <node concept="2DM1AW" id="3JFkYJG$lFC" role="lGtFl">
       <property role="2DM1AS" value="UnknownNode" />
     </node>
@@ -175,9 +160,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lFK" role="lGtFl">
         <property role="2DM1AS" value="InvalidNodeId-nodeId" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZeH" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="2DM1AW" id="3JFkYJG$lFD" role="lGtFl">
       <property role="2DM1AS" value="InvalidNodeId" />
@@ -196,9 +178,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lFL" role="lGtFl">
         <property role="2DM1AS" value="InvalidDepthLimit-depthLimit" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZeK" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="2DM1AW" id="3JFkYJG$lFE" role="lGtFl">
       <property role="2DM1AS" value="InvalidDepthLimit" />

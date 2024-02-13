@@ -105,9 +105,6 @@
         <property role="2DM1AS" value="KeyFormat-value" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzXth" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ4I" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -125,9 +122,6 @@
     <property role="3GE5qa" value="finding.1_structural" />
     <property role="R4oN_" value="TODO: I think this should be named MemberMissing, as it's about the JSON member, not the LW property" />
     <ref role="1TJDcQ" node="3JFkYJGzWBT" resolve="ASerializationFinding" />
-    <node concept="PrWs8" id="3JFkYJGzXtl" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ4L" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -153,9 +147,6 @@
     <property role="3GE5qa" value="finding.1_structural" />
     <property role="R4oN_" value="TODO: I think this should be named MemberNull, as it's about the JSON member, not the LW property" />
     <ref role="1TJDcQ" node="3JFkYJGzWBT" resolve="ASerializationFinding" />
-    <node concept="PrWs8" id="3JFkYJGzXtn" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ5i" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -193,9 +184,6 @@
           <property role="2DM1AS" value="MemberTypeIncorrectError-property" />
         </node>
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzXtp" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ5l" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
@@ -253,9 +241,6 @@
         <property role="2DM1AS" value="VersionFormat-value" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzXtr" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ5N" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -288,9 +273,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lHC" role="lGtFl">
         <property role="2DM1AS" value="MemberUnknown-memberValue" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzXtj" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzXhg" resolve="IWarning" />
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ5o" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
@@ -411,9 +393,6 @@
         <property role="2DM1AS" value="DuplicateUsedLanguages-version" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ62" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzXhg" resolve="IWarning" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ5X" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -439,9 +418,6 @@
         <property role="2DM1AS" value="MemberValueArrayContainsNull-memberKey" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6e" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ6f" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -465,9 +441,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lHO" role="lGtFl">
         <property role="2DM1AS" value="IdFormat-value" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6k" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6l" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
@@ -494,9 +467,6 @@
         <property role="2DM1AS" value="DuplicateId-id" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6q" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ6r" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -521,9 +491,6 @@
         <property role="2DM1AS" value="DuplicateNodeId-id" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6w" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ6x" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
     </node>
@@ -547,9 +514,6 @@
       <node concept="2DM1AW" id="3JFkYJG$lHR" role="lGtFl">
         <property role="2DM1AS" value="SerializationFormatVersion-value" />
       </node>
-    </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6_" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
     </node>
     <node concept="PrWs8" id="3JFkYJGzZ6A" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXtx" resolve="IStructuralLevel" />
@@ -583,9 +547,6 @@
         <property role="2DM1AS" value="ChildMissingInParent-parentId" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ6D" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ6F" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
@@ -618,9 +579,6 @@
         <property role="2DM1AS" value="ParentMissingInChild-parentId" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ75" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ76" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
@@ -638,9 +596,6 @@
     <property role="34LRSv" value="CircularParent" />
     <property role="R4oN_" value="TODO: Shall we provide all involved node ids explicitly?" />
     <ref role="1TJDcQ" node="3JFkYJGzWBT" resolve="ASerializationFinding" />
-    <node concept="PrWs8" id="3JFkYJGzZ79" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ7a" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
@@ -658,9 +613,6 @@
     <property role="34LRSv" value="LanguageUnknown" />
     <property role="R4oN_" value="TODO Maybe rename? This occurs if a language is mentioned in a metapointer, but not in UsedLanguages" />
     <ref role="1TJDcQ" node="3JFkYJGzWBT" resolve="ASerializationFinding" />
-    <node concept="PrWs8" id="3JFkYJGzZ7l" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ7n" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzXt$" resolve="IHierarchicalLevel" />
     </node>
@@ -696,9 +648,6 @@
         <property role="2DM1AS" value="PropertyValueIncorrect-value" />
       </node>
     </node>
-    <node concept="PrWs8" id="3JFkYJGzZ7y" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ7$" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzZ7u" resolve="IMetaStructuralLevel" />
     </node>
@@ -728,9 +677,6 @@
     <property role="TrG5h" value="PropertyMetaPointerNotInClass" />
     <property role="34LRSv" value="PropertyMetaPointerNotInClass" />
     <ref role="1TJDcQ" node="3JFkYJGzWBT" resolve="ASerializationFinding" />
-    <node concept="PrWs8" id="3JFkYJGzZ7P" role="PzmwI">
-      <ref role="PrY4T" to="5sbs:3JFkYJGzWFx" resolve="IError" />
-    </node>
     <node concept="PrWs8" id="3JFkYJGzZ7Q" role="PzmwI">
       <ref role="PrY4T" node="3JFkYJGzZ7u" resolve="IMetaStructuralLevel" />
     </node>
