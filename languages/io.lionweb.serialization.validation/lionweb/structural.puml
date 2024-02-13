@@ -1,0 +1,64 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+
+class DuplicateId  implements IError, IPartiallyRecoverable  {
+  id: String <<optional>>
+}
+
+class DuplicateNodeId  implements IError, IFatal  {
+  id: String <<optional>>
+}
+
+class DuplicateUsedLanguages  implements IFullyRecoverable , IWarning {
+  key: String <<optional>>
+  version: String <<optional>>
+}
+
+interface IFatal
+interface IFullyRecoverable
+interface IPartiallyRecoverable
+class IdFormat  implements IError, IFatal  {
+  value: String <<optional>>
+}
+
+class KeyFormat  implements IError, IFatal  {
+  value: String <<optional>>
+}
+
+class MemberMissing  implements IError, IFatal  {
+  memberKey: String <<optional>>
+}
+
+class MemberNull  implements IError, IFatal  {
+  memberKey: String <<optional>>
+}
+
+class MemberTypeIncorrectError  implements IError, IFatal  {
+  memberKey: String <<optional>>
+  memberValue: String <<optional>>
+  expectedMemberType: String <<optional>>
+  actualMemberType: String <<optional>>
+}
+
+class MemberUnknown  implements IFullyRecoverable , IWarning {
+  memberKey: String <<optional>>
+  memberValue: String <<optional>>
+}
+
+class MemberValueArrayContainsNull  implements IError, IPartiallyRecoverable  {
+  memberKey: String <<optional>>
+}
+
+
+class SerializationFormatVersion  implements IError, IFatal  {
+  value: String <<optional>>
+}
+
+class VersionFormat  implements IError, IFatal  {
+  value: String <<optional>>
+}
+
+@enduml

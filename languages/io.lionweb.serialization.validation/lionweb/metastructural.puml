@@ -1,0 +1,17 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+interface IFatal
+interface IFullyRecoverable
+interface IPartiallyRecoverable
+
+class PropertyMetaPointerNotInClass  implements IError, IPartiallyRecoverable
+
+class PropertyValueIncorrect  implements IError, IPartiallyRecoverable {
+  value: String <<optional>>
+}
+
+
+@enduml

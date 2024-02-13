@@ -1,0 +1,125 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+
+abstract class ASerializationFinding implements IFinding {
+  serializationSeverity: SerializationSeverity?
+}
+
+class ChildMissingInParent extends ASerializationFinding implements IHierarchicalLevel {
+  childId: String?
+  parentId: String?
+}
+
+class CircularParent extends ASerializationFinding implements IHierarchicalLevel
+
+class DuplicateId implements IStructuralLevel {
+  id: String?
+}
+
+class DuplicateNodeId implements IStructuralLevel {
+  id: String?
+}
+
+class DuplicateUsedLanguages implements IStructuralLevel {
+  key: String?
+  version: String?
+}
+
+interface IHierarchicalLevel extends ISerializationLevel
+interface IJsonLevel extends ISerializationLevel
+interface IMetaStructuralLevel extends ISerializationLevel
+interface ISerializationLevel extends IFinding
+interface IStructuralLevel extends ISerializationLevel
+class IdFormat extends ASerializationFinding implements IStructuralLevel {
+  value: String?
+}
+
+class KeyFormat extends ASerializationFinding implements IStructuralLevel {
+  value: String?
+}
+
+class MemberMissing extends ASerializationFinding implements IStructuralLevel {
+  memberKey: String?
+}
+
+class MemberNull extends ASerializationFinding implements IStructuralLevel {
+  memberKey: String?
+}
+
+class MemberTypeIncorrectError extends ASerializationFinding implements IStructuralLevel {
+  memberKey: String?
+  memberValue: String?
+  expectedMemberType: String?
+  actualMemberType: String?
+}
+
+class MemberUnknown extends ASerializationFinding implements IStructuralLevel {
+  memberKey: String?
+  memberValue: String?
+}
+
+class MemberValueArrayContainsNull implements IStructuralLevel {
+  memberKey: String?
+}
+
+class ParentMissingInChild extends ASerializationFinding implements IHierarchicalLevel {
+  childId: String?
+  parentId: String?
+}
+
+class PropertyMetaPointerNotInClass extends ASerializationFinding implements IMetaStructuralLevel
+
+class PropertyValueIncorrect extends ASerializationFinding implements IMetaStructuralLevel {
+  value: String?
+}
+
+class SerializationFormatVersion extends ASerializationFinding implements IStructuralLevel {
+  value: String?
+}
+
+enum SerializationSeverity {
+  fullyRecoverable
+  partiallyRecoverable
+  fatal
+}
+
+class UnlistedLanguage extends ASerializationFinding implements IHierarchicalLevel
+
+class VersionFormat extends ASerializationFinding implements IStructuralLevel {
+  value: String?
+}
+
+
+
+' relations:
+
+ASerializationFinding "1" o--> "*" ILocation: locations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
