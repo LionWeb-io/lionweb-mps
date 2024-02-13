@@ -34,6 +34,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.structure.attribute/io.lionweb.mps.structure.attribute.mpl" folder="lang.m3" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.testsupport/io.lionweb.mps.testsupport.mpl" folder="test.support" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.serialization.validation/io.lionweb.serialization.validation.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.util.location/io.lionweb.util.location.mpl" folder="lang" />
       <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/solutions/bla/bla.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.lionweb.java/io.lionweb.lionweb.java.msd" folder="lang.json" />

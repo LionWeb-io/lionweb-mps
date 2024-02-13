@@ -14,6 +14,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)</dependency>
+    <dependency reexport="false">a87ab839-9839-4ace-8ee0-541c9b2f787c(io.lionweb.util.location)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:411e5b27-8a76-482e-8af8-1704262b4468:io.lionweb.mps.structure.attribute" version="0" />
@@ -45,6 +46,7 @@
     <module reference="1ee95703-ab9f-477d-887e-d594a048a3f0(io.lionweb.derived.validation)" version="0" />
     <module reference="01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3)" version="0" />
     <module reference="6df53817-298d-4045-9d1f-bf232083e5c6(io.lionweb.serialization.validation)" version="0" />
+    <module reference="a87ab839-9839-4ace-8ee0-541c9b2f787c(io.lionweb.util.location)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
