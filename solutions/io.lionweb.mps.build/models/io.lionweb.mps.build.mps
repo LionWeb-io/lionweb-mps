@@ -348,6 +348,23 @@
               </node>
             </node>
           </node>
+          <node concept="28jJK3" id="6YbypMzsNsL" role="39821P">
+            <node concept="398BVA" id="6YbypMzsNsM" role="28jJRO">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="6YbypMzsNsN" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6YbypMzsNsO" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.apache.commons.cli" />
+                  <node concept="2Ry0Ak" id="6YbypMzsNsP" role="2Ry0An">
+                    <property role="2Ry0Am" value="libs" />
+                    <node concept="2Ry0Ak" id="6YbypMzsNvC" role="2Ry0An">
+                      <property role="2Ry0Am" value="commons-cli.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="pUk6w" id="7jdzMamlUOQ" role="pUk7w" />
       </node>
@@ -1505,6 +1522,107 @@
             </node>
             <node concept="3qWCbU" id="3JFkYJGFE2L" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39v" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39w" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39x" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39y" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDM7" resolve="io.lionweb.lionweb.java" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39z" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39$" role="1SiIV1">
+            <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39_" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39A" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDLJ" resolve="io.lionweb.mps.json" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6YbypMzsNgk" role="3bR31x">
+          <node concept="3LXTmp" id="6YbypMzsNgl" role="3rtmxm">
+            <node concept="55IIr" id="6YbypMzsNgm" role="3LXTmr">
+              <node concept="2Ry0Ak" id="6YbypMzsNgn" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6YbypMzsNgo" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="6YbypMzsNgq" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6YbypMzsNkB" role="3bR37C">
+          <node concept="3bR9La" id="6YbypMzsNkC" role="1SiIV1">
+            <ref role="3bR37D" node="6YbypMzsMYH" resolve="org.apache.commons.cli" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3uYQSG03zC8" role="3bR37C">
+          <node concept="3bR9La" id="3uYQSG03zC9" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3uYQSG058hx" role="3bR37C">
+          <node concept="3bR9La" id="3uYQSG058hy" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3uYQSG0895B" role="3bR37C">
+          <node concept="3bR9La" id="3uYQSG0895C" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3uYQSG0aGKq" role="3bR37C">
+          <node concept="3bR9La" id="3uYQSG0aGKr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6YbypMzsMYH" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.apache.commons.cli" />
+        <property role="3LESm3" value="1508a497-2508-4d6b-9b20-103cea864f85" />
+        <property role="2GAjPV" value="true" />
+        <node concept="55IIr" id="6YbypMzsMYK" role="3LF7KH">
+          <node concept="2Ry0Ak" id="6YbypMzsN0D" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6YbypMzsN2w" role="2Ry0An">
+              <property role="2Ry0Am" value="org.apache.commons.cli" />
+              <node concept="2Ry0Ak" id="6YbypMzsN4n" role="2Ry0An">
+                <property role="2Ry0Am" value="org.apache.commons.cli.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6YbypMzsN8c" role="3bR37C">
+          <node concept="3bR9La" id="6YbypMzsN8d" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6YbypMzsN8t" role="3bR37C">
+          <node concept="1BurEX" id="6YbypMzsN8u" role="1SiIV1">
+            <node concept="398BVA" id="6YbypMzsN8e" role="1BurEY">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="6YbypMzsN8f" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6YbypMzsN8g" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.apache.commons.cli" />
+                  <node concept="2Ry0Ak" id="6YbypMzsN8h" role="2Ry0An">
+                    <property role="2Ry0Am" value="libs" />
+                    <node concept="2Ry0Ak" id="6YbypMzsN8i" role="2Ry0An">
+                      <property role="2Ry0Am" value="commons-cli.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

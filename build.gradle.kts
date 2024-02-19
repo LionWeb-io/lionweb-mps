@@ -19,6 +19,7 @@ val lionwebRelease: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
 val mpsExtensionsVersion: String by project
+val apacheCliVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -48,9 +49,11 @@ task<JavaExec>("runCommandLineTool") {
 
 //    val vmArgs = file("$mpsHome/bin/mps64.vmoptions").readLines().filter { !it.contains("UseConcMarkSweepGC") && !it.trim().startsWith("#") }
 //    setJvmArgs(vmArgs)
-    val propArgs: String = project.property("args") as String
+    val propArgs: String? = project.findProperty("args") as String?
     println("propArgs: $propArgs")
-    setArgsString(propArgs)
+    if(propArgs != null) {
+        setArgsString(propArgs)
+    }
 }
 
 task<Jar>("sourcesJar") {
@@ -140,6 +143,10 @@ stubs {
     register("libs") {
         destinationDir("solutions/io.lionweb.lionweb.java/libs")
         dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebRelease-core:$lionwebJavaVersion")
+    }
+    register("apacheCli") {
+        destinationDir("solutions/org.apache.commons.cli/libs")
+        dependency("commons-cli:commons-cli:$apacheCliVersion")
     }
 }
 
