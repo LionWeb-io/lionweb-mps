@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="${lionweb-mps.home}/languages/library/library.mpl" folder="" />
+    </projectModules>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/test-project.iml" filepath="$PROJECT_DIR$/.idea/test-project.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="lionweb">
+          <value>
+            <Library>
+              <option name="name" value="lionweb" />
+              <option name="path" value="$PROJECT_DIR$/build/dependencies/io.lionweb.mps" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
