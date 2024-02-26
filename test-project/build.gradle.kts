@@ -26,7 +26,7 @@ task<JavaExec>("runCommandLineTool") {
         attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution")
     }.files.elements.map { it.single().asFile }.get()
     System.out.println("mpsHome: $mpsHome")
-    val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps/lib/io.lionweb.mps.cmdline.jar"
+    val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/languages/lionweb-mps.cmdline/io.lionweb.mps.cmdline.jar"
     System.out.println("cmdLinePath: $cmdLinePath")
     classpath(
             file(cmdLinePath), // Location of CommandLineTool.class
