@@ -36,26 +36,6 @@ dependencies {
 
 group = "io.lionweb"
 
-task<JavaExec>("runCommandLineTool") {
-    val mpsHome = configurations.getByName("mps").incoming.artifactView {
-        attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution")
-    }.files.elements.map { it.single().asFile }.get()
-    System.out.println("mpsHome: $mpsHome")
-    classpath(
-            file("solutions/io.lionweb.mps.cmdline/classes_gen"), // Location of CommandLineTool.class
-            fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
-    )
-    setMain("io.lionweb.mps.cmdline.CommandLineTool")
-
-//    val vmArgs = file("$mpsHome/bin/mps64.vmoptions").readLines().filter { !it.contains("UseConcMarkSweepGC") && !it.trim().startsWith("#") }
-//    setJvmArgs(vmArgs)
-    val propArgs: String? = project.findProperty("args") as String?
-    println("propArgs: $propArgs")
-    if(propArgs != null) {
-        setArgsString(propArgs)
-    }
-}
-
 task<Jar>("sourcesJar") {
     archiveClassifier.set("sources")
 }

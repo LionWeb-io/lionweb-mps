@@ -1617,24 +1617,9 @@
             <ref role="3bR37D" node="6YbypMzsMYH" resolve="org.apache.commons.cli" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3uYQSG03zC8" role="3bR37C">
-          <node concept="3bR9La" id="3uYQSG03zC9" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3uYQSG058hx" role="3bR37C">
-          <node concept="3bR9La" id="3uYQSG058hy" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3uYQSG0895B" role="3bR37C">
           <node concept="3bR9La" id="3uYQSG0895C" role="1SiIV1">
             <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3uYQSG0aGKq" role="3bR37C">
-          <node concept="3bR9La" id="3uYQSG0aGKr" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
           </node>
         </node>
       </node>
