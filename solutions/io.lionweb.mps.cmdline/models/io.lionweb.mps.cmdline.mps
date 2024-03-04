@@ -1122,7 +1122,7 @@
       </node>
       <node concept="TZ5HA" id="53Tt6VyVtba" role="TZ5H$">
         <node concept="1dT_AC" id="53Tt6VyVtbb" role="1dT_Ay">
-          <property role="1dT_AB" value="Runs &lt;i&gt;outside MPS classloaders&lt;/i&gt;." />
+          <property role="1dT_AB" value="&lt;p&gt;Runs &lt;i&gt;outside MPS classloaders&lt;/i&gt;.&lt;/p&gt;" />
         </node>
       </node>
     </node>
@@ -2428,6 +2428,23 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6YbypMzh4$4" role="1B3o_S" />
+    <node concept="3UR2Jj" id="ydP20A3o5k" role="lGtFl">
+      <node concept="TZ5HA" id="ydP20A3o5l" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3o5m" role="1dT_Ay">
+          <property role="1dT_AB" value="Parses command-line parameters." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3rmx" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3rmy" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3rmB" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3rmC" role="1dT_Ay">
+          <property role="1dT_AB" value="&lt;p&gt;Runs &lt;i&gt;outside MPS classloaders&lt;/i&gt;.&lt;/p&gt;" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="6YbypMzlcJ2">
     <property role="TrG5h" value="LanguageFileParser" />
@@ -2932,6 +2949,78 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6YbypMzlcJ3" role="1B3o_S" />
+    <node concept="3UR2Jj" id="ydP20A3dJS" role="lGtFl">
+      <node concept="TZ5HA" id="ydP20A3dJT" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3dJU" role="1dT_Ay">
+          <property role="1dT_AB" value="Parses a language file." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3eOH" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3eOI" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3eON" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3eOO" role="1dT_Ay">
+          <property role="1dT_AB" value="Example file:" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3fvZ" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3fw0" role="1dT_Ay">
+          <property role="1dT_AB" value="&lt;code&gt;" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3gEm" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3gEn" role="1dT_Ay">
+          <property role="1dT_AB" value="{" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3gWo" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3gWp" role="1dT_Ay">
+          <property role="1dT_AB" value="  &quot;scope&quot;: &quot;listed&quot;," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3hRQ" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3hRR" role="1dT_Ay">
+          <property role="1dT_AB" value="  &quot;languages&quot;: [" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3iKR" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3iKS" role="1dT_Ay">
+          <property role="1dT_AB" value="    &quot;NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw&quot;," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3iZY" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3iZZ" role="1dT_Ay">
+          <property role="1dT_AB" value="    &quot;MyHappyLittleMulti-Reference_Language&quot;" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3jf7" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3jf8" role="1dT_Ay">
+          <property role="1dT_AB" value="  ]" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3jui" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3juj" role="1dT_Ay">
+          <property role="1dT_AB" value="}" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3grn" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3gro" role="1dT_Ay">
+          <property role="1dT_AB" value="&lt;/code&gt;" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3kpU" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3kpV" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3kqm" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3kqn" role="1dT_Ay">
+          <property role="1dT_AB" value="&lt;p&gt;Runs &lt;i&gt;outside MPS classloaders&lt;/i&gt;.&lt;/p&gt;" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -161,12 +161,22 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="2546654756694997551" name="jetbrains.mps.baseLanguage.javadoc.structure.LinkInlineDocTag" flags="ng" index="92FcH">
+        <child id="2546654756694997556" name="reference" index="92FcQ" />
+        <child id="3106559687488913694" name="line" index="2XjZqd" />
+      </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
+        <reference id="2217234381367530213" name="classifier" index="VXe09" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -543,6 +553,13 @@
             <node concept="liA8E" id="12kZjFJeYYK" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println()" resolve="println" />
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="ydP20A3y0Z" role="lGtFl">
+        <node concept="TZ5HA" id="ydP20A3y10" role="TZ5H$">
+          <node concept="1dT_AC" id="ydP20A3y11" role="1dT_Ay">
+            <property role="1dT_AB" value="As this is a command-line operation, it makes sense to print to System.out." />
           </node>
         </node>
       </node>
@@ -1158,6 +1175,34 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="7Ds4q7uGYP1" role="1B3o_S" />
+    <node concept="3UR2Jj" id="ydP20A3xbu" role="lGtFl">
+      <node concept="TZ5HA" id="ydP20A3xbv" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3xbw" role="1dT_Ay">
+          <property role="1dT_AB" value="Converts a case-independent string into a " />
+        </node>
+        <node concept="1dT_AA" id="ydP20A3xkL" role="1dT_Ay">
+          <node concept="92FcH" id="ydP20A3xkR" role="qph3F">
+            <node concept="TZ5HA" id="ydP20A3xkT" role="2XjZqd" />
+            <node concept="VXe08" id="ydP20A3xl0" role="92FcQ">
+              <ref role="VXe09" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="ydP20A3xkK" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3xl3" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3xl4" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="ydP20A3xle" role="TZ5H$">
+        <node concept="1dT_AC" id="ydP20A3xlf" role="1dT_Ay">
+          <property role="1dT_AB" value="&lt;p&gt;Runs &lt;i&gt;inside MPS classloaders&lt;/i&gt;.&lt;/p&gt;" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

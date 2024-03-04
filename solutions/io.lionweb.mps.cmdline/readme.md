@@ -31,8 +31,8 @@ usage: lionweb-export-language <project-dir> [<language-file>] <output-file>
   Can be used multiple times.
   
 * _macro:_ Supplies key/value pair to set a path variable for the MPS project.
+  Can be used multiple times.  
   Example: `-mlionweb-mps.home=./../` sets path variable `lionweb-mps.home` to `./../`.
-  Can be used multiple times.
 
 * _scope:_ Defines the export [scope as explained for converter languages](../../docs/reference/converter-lang.adoc#language-json-export).
 
@@ -137,7 +137,7 @@ pluginManagement {
 ```
 
 and some `gradle.properties` (adjust the versions accordingly):
-```gradle
+```properties
 lionwebVersion=0.2.3-SNAPSHOT
 lionwebRelease=2023.1
 mpsVersionSuffix=2021.1
@@ -145,6 +145,7 @@ mpsVersion=2021.1.4
 comSpecificlanguagesMpsVersion=1.6.0
 ```
 
+**Note:** The implementation strongly assumes that lionweb will be deployed to directory `./build/dependencies/io.lionweb.mps`.
 
 ## Code design
 
@@ -152,4 +153,4 @@ All contents of package `io.lionweb.mps.cmdline` run _outside MPS classloaders_.
 Once we pass _into MPS_, we're using contents of package `io.lionweb.mps.cmdline.cmd`.
 
 Outside and while crossing the boundary, we can only use classes that originate from _common_ classloaders.
-This includes Java standard library and core MPS, and excludes all lionweb classes.
+This includes Java standard library and core MPS, and excludes all LionWeb classes.
