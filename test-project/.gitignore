@@ -6,3 +6,6 @@ build
 
 # Ignore downloaded dependencies
 dependencies
+
+# Test files
+/*.lw-lang.json
