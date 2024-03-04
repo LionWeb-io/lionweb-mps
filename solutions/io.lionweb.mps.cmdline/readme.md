@@ -11,13 +11,32 @@ This would print
 
 ```
 > Task :runCommandLineTool
-usage: lionweb-export-language <project-dir> [<language-file>]
-                               <output-file>
+usage: lionweb-export-language <project-dir> [<language-file>] <output-file>
  -help                 print this message
  -l,--language <arg>   convert language with key <args>
  -m,--macro <arg>      set macro (a.k.a. path variable)
  -s,--scope <arg>      set export scope: listed, indirect, fineGrainedClosure
 ```
+
+* _project-dir:_ The root directory of the MPS project to load.
+
+* _language-file:_ Optional; if provided, it must be a json file with two properties:
+  * `scope` takes the same values as `-s` parameter. If both are present, the parameter prevails.
+  * `languages` contains a list of language keys to export.
+
+* _output-file:_ The file the converted languages should be written to.
+  All languages will be written to the same file.
+  
+* _language:_ Supplies the key of a language to export.
+  Can be used multiple times.
+  
+* _macro:_ Supplies key/value pair to set a path variable for the MPS project.
+  Example: `-mlionweb-mps.home=./../` sets path variable `lionweb-mps.home` to `./../`.
+  Can be used multiple times.
+
+* _scope:_ Defines the export [scope as explained for converter languages](../../docs/reference/converter-lang.adoc#language-json-export).
+
+### Examples
 
 Minimal usage example without language file:
 ```shell
@@ -28,7 +47,27 @@ Minimal usage example without language file:
 * `-lMyHappyLittleMulti-Reference_Language` asks to export the language with key `MyHappyLittleMulti-Reference_Language`
 * `-s=listed` sets the export scope to _listed_
 
-This uses 
+Example with language file:
+
+```shell
+./gradlew runCommandLineTool -Pargs=". language-file.json exported.lw-lang.json"
+```
+* `.` specifies the current directory as MPS project directory
+* `language-file.json` specifies the file that provides scope and language keys.
+  Useful to keep the language keys under version control.
+* `exported.lw-lang.json` sets the output file
+
+Contents of `language-file.json`:
+```json
+{
+  "scope": "listed",
+  "languages": [
+    "NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw",
+    "MyHappyLittleMulti-Reference_Language"
+  ]
+}
+```
+
 
 ## Setup
 We assume the MPS project that contains your to-be-exported languages is built with gradle.
@@ -106,8 +145,6 @@ mpsVersion=2021.1.4
 comSpecificlanguagesMpsVersion=1.6.0
 ```
 
-Within your MPS project directory
-Create the following 
 
 ## Code design
 

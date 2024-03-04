@@ -2404,7 +2404,7 @@
                   <node concept="liA8E" id="53Tt6VyJWsF" role="2OqNvi">
                     <ref role="37wK5l" to="gb0k:~Option$Builder.desc(java.lang.String)" resolve="desc" />
                     <node concept="Xl_RD" id="53Tt6VyJYsH" role="37wK5m">
-                      <property role="Xl_RC" value="set export scope" />
+                      <property role="Xl_RC" value="set export scope: listed, indirect, fineGrainedClosure" />
                     </node>
                   </node>
                 </node>
