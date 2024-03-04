@@ -44,6 +44,11 @@ task<Jar>("javadocJar") {
     archiveClassifier.set("javadoc")
 }
 
+task<Exec>("testCmdlineExport") {
+    workingDir("./test-project")
+    commandLine("./test-scripts/export-library.sh")
+}
+
 publishing {
     val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
     val ossrhPassword = (project.findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")) as String?
