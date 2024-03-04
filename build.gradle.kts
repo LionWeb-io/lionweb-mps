@@ -44,10 +44,21 @@ task<Jar>("javadocJar") {
     archiveClassifier.set("javadoc")
 }
 
-task<Exec>("testCmdlineExport") {
+task<Exec>("testCmdlineExport-library") {
     workingDir("./test-project")
     commandLine("./test-scripts/export-library.sh")
 }
+
+task<Exec>("testCmdlineExport-multiple") {
+    workingDir("./test-project")
+    commandLine("./test-scripts/export-multiple.sh")
+}
+
+task("testCmdLineExport") {
+    dependsOn("testCmdlineExport-library")
+    dependsOn("testCmdlineExport-multiple")
+}
+
 
 publishing {
     val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
