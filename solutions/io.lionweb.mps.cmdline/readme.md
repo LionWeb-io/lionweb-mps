@@ -28,7 +28,9 @@ usage: lionweb-export-language <project-dir> [<language-file>] <output-file>
   All languages will be written to the same file.
   
 * _language:_ Supplies the key of a language to export.
-  Can be used multiple times.
+  Can be used multiple times; we accumulate all keys from _language-file_ and _language_ parameters.  
+  **Note:** We're always using the language's [key](../../docs/reference/structure-extensions.adoc#custom-keys).
+  We're _not_ using the language's fully qualified name, module name, uuid, or anything else.
   
 * _macro:_ Supplies key/value pair to set a path variable for the MPS project.
   Can be used multiple times.  
