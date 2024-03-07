@@ -26,6 +26,8 @@ Load them into your MPS project as project library.
 ## Overview
 * `build` The usual build model, to be used with [mps-gradle-plugin](https://github.com/specificlanguages/mps-gradle-plugin)
 
+* `cli` Command-line interface with [separate readme](./solutions/io.lionweb.mps.cmdline/readme.md)
+
 * `client` Proof-of-concept of MPS as LionWeb client. Only works if deployed as IDEA plugin. 
 
 * `lang` The main part of LionWeb-MPS.

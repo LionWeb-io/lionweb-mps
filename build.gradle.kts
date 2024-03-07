@@ -1,6 +1,9 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
 import org.apache.tools.ant.taskdefs.condition.Os
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
 
 plugins {
     id("com.specificlanguages.mps")
@@ -16,6 +19,7 @@ val lionwebRelease: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
 val mpsExtensionsVersion: String by project
+val apacheCliVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -32,8 +36,6 @@ dependencies {
 
 group = "io.lionweb"
 
-
-
 task<Jar>("sourcesJar") {
     archiveClassifier.set("sources")
 }
@@ -41,6 +43,22 @@ task<Jar>("sourcesJar") {
 task<Jar>("javadocJar") {
     archiveClassifier.set("javadoc")
 }
+
+task<Exec>("testCmdlineExport-library") {
+    workingDir("./test-project")
+    commandLine("./test-scripts/export-library.sh")
+}
+
+task<Exec>("testCmdlineExport-multiple") {
+    workingDir("./test-project")
+    commandLine("./test-scripts/export-multiple.sh")
+}
+
+task("testCmdLineExport") {
+    dependsOn("testCmdlineExport-library")
+    dependsOn("testCmdlineExport-multiple")
+}
+
 
 publishing {
     val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
@@ -121,6 +139,10 @@ stubs {
     register("libs") {
         destinationDir("solutions/io.lionweb.lionweb.java/libs")
         dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebRelease-core:$lionwebJavaVersion")
+    }
+    register("apacheCli") {
+        destinationDir("solutions/org.apache.commons.cli/libs")
+        dependency("commons-cli:commons-cli:$apacheCliVersion")
     }
 }
 

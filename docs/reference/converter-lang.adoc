@@ -16,8 +16,10 @@ Create the desired converter as root node.
 Execute the conversion through an intention on the converter.
 Check the btn:[Messages Pane] for results.
 
+[[language-json]]
 == MPS Language &rarr; JSON
 
+[[language-json-export]]
 === Export MPS Language to JSON
 Technical name: `ExportMpsLanguageToJson` / `Language2JsonConverter`
 
@@ -47,8 +49,10 @@ If any element in the listed languages uses an element from a non-listed languag
 We apply this strategy (known as _tree shaking_) transitively until we included all used elements.
 
 
+[[instance-json]]
 == MPS Instance Model &harr; JSON
 
+[[instance-json-export]]
 === Export Instance to JSON
 Technical name: `ExportInstanceToJson` / `AMps2LionWebConverter`
 
@@ -87,6 +91,7 @@ Example: For _descendants_ scope, we include both the target node and the target
 |===
 
 
+[[instance-json-import]]
 === Import Instance from JSON
 Technical name: `ImportInstanceFromJson` / `MergingLionWeb2MpsConverter`
 
@@ -97,8 +102,10 @@ Requires a file _path_ of the JSON file to read.
 We can use {mpshelp}/absolute-path-variables.html[path variables].
 
 
+[[m3-json]]
 == LionCore M3 &harr; JSON
 
+[[m3-json-export]]
 === Export Language to JSON
 Technical name: `ExportLanguageToJson` / `LionCore2JsonConverter`
 
@@ -109,6 +116,7 @@ We can use {mpshelp}/absolute-path-variables.html[path variables].
 
 CAUTION: Existing files will be overwritten without notice!
 
+[[m3-json-import]]
 === Import Language from JSON
 Technical name: `ImportLanguageFromJson` / `Json2LionCoreConverter`
 
@@ -118,8 +126,10 @@ Requires a file _path_ of the JSON file to read.
 We can use {mpshelp}/absolute-path-variables.html[path variables].
 
 
+[[language-m3]]
 == MPS Language &harr; LionCore M3
 
+[[language-m3-export]]
 === Convert Language to LionCore
 Technical name: `ConvertLanguageToLionCore` / `Language2LionCoreConverter` / `Mps2LionCoreConverter`
 
@@ -128,6 +138,7 @@ Converts a list of MPS Languages to `io.lionweb.mps.m3` instances.
 We can convert either the _Language Nodes_ (i.e. the structure aspect of the MPS Language) or the _Runtime Language_ (i.e. link:{slangdocs}/org/jetbrains/mps/openapi/language/SLanguage.html[SLanguage]).
 In doubt, use _Language Nodes_.
 
+[[language-m3-import]]
 === Convert Language from LionCore
 
 NOTE: This converter is currently not maintained, but might be reactivated in the future.
