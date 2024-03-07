@@ -1657,7 +1657,7 @@
               </node>
               <node concept="3clFbF" id="53Tt6VyPs4B" role="3cqZAp">
                 <node concept="1rXfSq" id="53Tt6VyOMfE" role="3clFbG">
-                  <ref role="37wK5l" node="53Tt6VyOMfA" resolve="parseLanguageFile" />
+                  <ref role="37wK5l" node="53Tt6VyOMfA" resolve="parseConfigFile" />
                   <node concept="AH0OO" id="53Tt6VyPmsZ" role="37wK5m">
                     <node concept="3cmrfG" id="53Tt6VyPnXk" role="AHEQo">
                       <property role="3cmrfH" value="1" />
@@ -1699,16 +1699,16 @@
       <node concept="3cqZAl" id="53Tt6VyRadr" role="3clF45" />
     </node>
     <node concept="3clFb_" id="53Tt6VyOMfA" role="jymVt">
-      <property role="TrG5h" value="parseLanguageFile" />
+      <property role="TrG5h" value="parseConfigFile" />
       <node concept="3Tm6S6" id="53Tt6VyOMfB" role="1B3o_S" />
       <node concept="37vLTG" id="53Tt6VyOMfw" role="3clF46">
-        <property role="TrG5h" value="languageFileName" />
+        <property role="TrG5h" value="configFileName" />
         <node concept="17QB3L" id="53Tt6VyOMfy" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="53Tt6VyOMeA" role="3clF47">
         <node concept="3cpWs8" id="53Tt6VyOMeD" role="3cqZAp">
           <node concept="3cpWsn" id="53Tt6VyOMeE" role="3cpWs9">
-            <property role="TrG5h" value="languageFile" />
+            <property role="TrG5h" value="configFile" />
             <node concept="3uibUv" id="53Tt6VyOMeF" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
@@ -1716,7 +1716,7 @@
               <node concept="1pGfFk" id="53Tt6VyOMeH" role="2ShVmc">
                 <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                 <node concept="37vLTw" id="53Tt6VyOMfz" role="37wK5m">
-                  <ref role="3cqZAo" node="53Tt6VyOMfw" resolve="languageFileName" />
+                  <ref role="3cqZAo" node="53Tt6VyOMfw" resolve="configFileName" />
                 </node>
               </node>
             </node>
@@ -1726,15 +1726,15 @@
           <node concept="3clFbS" id="53Tt6VyOMeM" role="1zxBo7">
             <node concept="3cpWs8" id="53Tt6VyOMeN" role="3cqZAp">
               <node concept="3cpWsn" id="53Tt6VyOMeO" role="3cpWs9">
-                <property role="TrG5h" value="languageParser" />
+                <property role="TrG5h" value="configParser" />
                 <node concept="3uibUv" id="53Tt6VyOMeP" role="1tU5fm">
-                  <ref role="3uigEE" node="6YbypMzlcJ2" resolve="LanguageFileParser" />
+                  <ref role="3uigEE" node="6YbypMzlcJ2" resolve="ConfigFileParser" />
                 </node>
                 <node concept="2ShNRf" id="53Tt6VyOMeQ" role="33vP2m">
                   <node concept="1pGfFk" id="53Tt6VyOMeR" role="2ShVmc">
-                    <ref role="37wK5l" node="6YbypMzlcNL" resolve="LanguageFileParser" />
+                    <ref role="37wK5l" node="6YbypMzlcNL" resolve="ConfigFileParser" />
                     <node concept="37vLTw" id="53Tt6VyOMeS" role="37wK5m">
-                      <ref role="3cqZAo" node="53Tt6VyOMeE" resolve="languageFile" />
+                      <ref role="3cqZAo" node="53Tt6VyOMeE" resolve="configFile" />
                     </node>
                   </node>
                 </node>
@@ -1743,7 +1743,7 @@
             <node concept="3clFbF" id="53Tt6VyOMeT" role="3cqZAp">
               <node concept="2OqwBi" id="53Tt6VyOMeU" role="3clFbG">
                 <node concept="37vLTw" id="53Tt6VyOMeV" role="2Oq$k0">
-                  <ref role="3cqZAo" node="53Tt6VyOMeO" resolve="languageParser" />
+                  <ref role="3cqZAo" node="53Tt6VyOMeO" resolve="configParser" />
                 </node>
                 <node concept="liA8E" id="53Tt6VyOMeW" role="2OqNvi">
                   <ref role="37wK5l" node="6YbypMzld2t" resolve="parse" />
@@ -1758,7 +1758,7 @@
                 <node concept="X8dFx" id="53Tt6VyOMf0" role="2OqNvi">
                   <node concept="2OqwBi" id="53Tt6VyOMf1" role="25WWJ7">
                     <node concept="37vLTw" id="53Tt6VyOMf2" role="2Oq$k0">
-                      <ref role="3cqZAo" node="53Tt6VyOMeO" resolve="languageParser" />
+                      <ref role="3cqZAo" node="53Tt6VyOMeO" resolve="configParser" />
                     </node>
                     <node concept="liA8E" id="53Tt6VyOMf3" role="2OqNvi">
                       <ref role="37wK5l" node="7Ds4q7uFKkc" resolve="getLanguages" />
@@ -1771,7 +1771,7 @@
               <node concept="37vLTI" id="53Tt6VyOMf5" role="3clFbG">
                 <node concept="2OqwBi" id="53Tt6VyOMf6" role="37vLTx">
                   <node concept="37vLTw" id="53Tt6VyOMf7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="53Tt6VyOMeO" resolve="languageParser" />
+                    <ref role="3cqZAo" node="53Tt6VyOMeO" resolve="configParser" />
                   </node>
                   <node concept="liA8E" id="53Tt6VyOMf8" role="2OqNvi">
                     <ref role="37wK5l" node="7Ds4q7uFKk4" resolve="getScope" />
@@ -1806,10 +1806,10 @@
                     <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                     <node concept="3cpWs3" id="53Tt6VyOMfk" role="37wK5m">
                       <node concept="37vLTw" id="53Tt6VyOMfl" role="3uHU7w">
-                        <ref role="3cqZAo" node="53Tt6VyOMeE" resolve="languageFile" />
+                        <ref role="3cqZAo" node="53Tt6VyOMeE" resolve="configFile" />
                       </node>
                       <node concept="Xl_RD" id="53Tt6VyOMfm" role="3uHU7B">
-                        <property role="Xl_RC" value="Error while parsing language file: " />
+                        <property role="Xl_RC" value="Error while parsing config file: " />
                       </node>
                     </node>
                   </node>
@@ -2208,7 +2208,7 @@
             <node concept="liA8E" id="6YbypMziEr9" role="2OqNvi">
               <ref role="37wK5l" to="gb0k:~HelpFormatter.printHelp(java.lang.String,org.apache.commons.cli.Options)" resolve="printHelp" />
               <node concept="Xl_RD" id="6YbypMziEra" role="37wK5m">
-                <property role="Xl_RC" value="lionweb-export-language &lt;project-dir&gt; [&lt;language-file&gt;] &lt;output-file&gt;" />
+                <property role="Xl_RC" value="lionweb-export-language &lt;project-dir&gt; [&lt;config-file&gt;] &lt;output-file&gt;" />
               </node>
               <node concept="1rXfSq" id="6YbypMziMeB" role="37wK5m">
                 <ref role="37wK5l" node="6YbypMziGEo" resolve="options" />
@@ -2459,9 +2459,9 @@
     </node>
   </node>
   <node concept="312cEu" id="6YbypMzlcJ2">
-    <property role="TrG5h" value="LanguageFileParser" />
+    <property role="TrG5h" value="ConfigFileParser" />
     <node concept="312cEg" id="6YbypMzlcQt" role="jymVt">
-      <property role="TrG5h" value="languageFile" />
+      <property role="TrG5h" value="configFile" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="6YbypMzlcQu" role="1B3o_S" />
       <node concept="3uibUv" id="6YbypMzlcQw" role="1tU5fm">
@@ -2483,6 +2483,7 @@
     </node>
     <node concept="2tJIrI" id="7Ds4q7uF2K7" role="jymVt" />
     <node concept="3clFbW" id="6YbypMzlcNL" role="jymVt">
+      <property role="TrG5h" value="ConfigFileParser" />
       <node concept="3cqZAl" id="6YbypMzlcNN" role="3clF45" />
       <node concept="3Tm1VV" id="6YbypMzlcNO" role="1B3o_S" />
       <node concept="3clFbS" id="6YbypMzlcNP" role="3clF47">
@@ -2491,17 +2492,17 @@
             <node concept="2OqwBi" id="6YbypMzlcSP" role="37vLTJ">
               <node concept="Xjq3P" id="6YbypMzlcTi" role="2Oq$k0" />
               <node concept="2OwXpG" id="6YbypMzlcSS" role="2OqNvi">
-                <ref role="2Oxat5" node="6YbypMzlcQt" resolve="languageFile" />
+                <ref role="2Oxat5" node="6YbypMzlcQt" resolve="configFile" />
               </node>
             </node>
             <node concept="37vLTw" id="6YbypMzlcQB" role="37vLTx">
-              <ref role="3cqZAo" node="6YbypMzlcOF" resolve="languageFile" />
+              <ref role="3cqZAo" node="6YbypMzlcOF" resolve="configFile" />
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="6YbypMzlcOF" role="3clF46">
-        <property role="TrG5h" value="languageFile" />
+        <property role="TrG5h" value="configFile" />
         <node concept="3uibUv" id="6YbypMzlcOE" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~File" resolve="File" />
         </node>
@@ -2584,10 +2585,10 @@
                     <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="IllegalArgumentException" />
                     <node concept="3cpWs3" id="6YbypMzlnxG" role="37wK5m">
                       <node concept="37vLTw" id="6YbypMzlnAO" role="3uHU7w">
-                        <ref role="3cqZAo" node="6YbypMzlcQt" resolve="languageFile" />
+                        <ref role="3cqZAo" node="6YbypMzlcQt" resolve="configFile" />
                       </node>
                       <node concept="Xl_RD" id="6YbypMzlmlj" role="3uHU7B">
-                        <property role="Xl_RC" value="Error while parsing language file: " />
+                        <property role="Xl_RC" value="Error while parsing config file: " />
                       </node>
                     </node>
                     <node concept="37vLTw" id="6YbypMzlnKl" role="37wK5m">
@@ -2656,7 +2657,7 @@
             <node concept="3fqX7Q" id="53Tt6VyTZhP" role="3uHU7w">
               <node concept="2OqwBi" id="53Tt6VyTZhQ" role="3fr31v">
                 <node concept="37vLTw" id="53Tt6VyTZhR" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6YbypMzlcQt" resolve="languageFile" />
+                  <ref role="3cqZAo" node="6YbypMzlcQt" resolve="configFile" />
                 </node>
                 <node concept="liA8E" id="53Tt6VyTZhS" role="2OqNvi">
                   <ref role="37wK5l" to="guwi:~File.canRead()" resolve="canRead" />
@@ -2666,7 +2667,7 @@
             <node concept="3fqX7Q" id="53Tt6VyTZhT" role="3uHU7B">
               <node concept="2OqwBi" id="53Tt6VyTZhU" role="3fr31v">
                 <node concept="37vLTw" id="53Tt6VyTZhV" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6YbypMzlcQt" resolve="languageFile" />
+                  <ref role="3cqZAo" node="6YbypMzlcQt" resolve="configFile" />
                 </node>
                 <node concept="liA8E" id="53Tt6VyTZhW" role="2OqNvi">
                   <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
@@ -2681,10 +2682,10 @@
                   <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
                   <node concept="3cpWs3" id="53Tt6VyTZi1" role="37wK5m">
                     <node concept="37vLTw" id="53Tt6VyTZi2" role="3uHU7w">
-                      <ref role="3cqZAo" node="6YbypMzlcQt" resolve="languageFile" />
+                      <ref role="3cqZAo" node="6YbypMzlcQt" resolve="configFile" />
                     </node>
                     <node concept="Xl_RD" id="53Tt6VyTZi3" role="3uHU7B">
-                      <property role="Xl_RC" value="Cannot read language file: " />
+                      <property role="Xl_RC" value="Cannot read config file: " />
                     </node>
                   </node>
                 </node>
@@ -2713,7 +2714,7 @@
                 <node concept="1pGfFk" id="53Tt6VyTYWZ" role="2ShVmc">
                   <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
                   <node concept="37vLTw" id="53Tt6VyTYX0" role="37wK5m">
-                    <ref role="3cqZAo" node="6YbypMzlcQt" resolve="languageFile" />
+                    <ref role="3cqZAo" node="6YbypMzlcQt" resolve="configFile" />
                   </node>
                 </node>
               </node>
@@ -2964,7 +2965,7 @@
     <node concept="3UR2Jj" id="ydP20A3dJS" role="lGtFl">
       <node concept="TZ5HA" id="ydP20A3dJT" role="TZ5H$">
         <node concept="1dT_AC" id="ydP20A3dJU" role="1dT_Ay">
-          <property role="1dT_AB" value="Parses a language file." />
+          <property role="1dT_AB" value="Parses a configuration file." />
         </node>
       </node>
       <node concept="TZ5HA" id="ydP20A3eOH" role="TZ5H$">

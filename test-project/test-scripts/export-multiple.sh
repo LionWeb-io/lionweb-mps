@@ -1,7 +1,7 @@
 #!/bin/sh
 
-LANGFILE=multiple.lw-lang.json
+CONFIGFILE=multiple.lw-lang.json
 
-./gradlew runCommandLineTool -Pargs=". export-languages.json $LANGFILE -mlionweb-mps.home=./../"
+./gradlew runCommandLineTool -Pargs=". export-languages.json $CONFIGFILE -mlionweb-mps.home=./../"
 
-diff $LANGFILE test-references/$LANGFILE
+diff $CONFIGFILE test-references/$CONFIGFILE
