@@ -27,7 +27,7 @@
     annotates:  Node
     Property description:  String  optional: true   [key ShortDescription-description]
   ```
-  
+* Added command-line interface to export MPS languages as LionWeb JSON.  
 
 ## 2023.1 (November 2023)
 

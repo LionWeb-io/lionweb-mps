@@ -1,6 +1,9 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
 import org.apache.tools.ant.taskdefs.condition.Os
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
 
 plugins {
     id("com.specificlanguages.mps")
@@ -16,23 +19,22 @@ val lionwebRelease: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
 val mpsExtensionsVersion: String by project
+val apacheCliVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
-	mavenLocal()
+    mavenLocal()
 }
 
 dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
     // only needed for tests, but such a config is missing
     // https://github.com/specificlanguages/mps-gradle-plugin/issues/9
-	// "generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
+    // "generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
 group = "io.lionweb"
-
-
 
 task<Jar>("sourcesJar") {
     archiveClassifier.set("sources")
@@ -42,8 +44,24 @@ task<Jar>("javadocJar") {
     archiveClassifier.set("javadoc")
 }
 
+task<Exec>("testCmdlineExport-library") {
+    workingDir("./test-project")
+    commandLine("./test-scripts/export-library.sh")
+}
+
+task<Exec>("testCmdlineExport-multiple") {
+    workingDir("./test-project")
+    commandLine("./test-scripts/export-multiple.sh")
+}
+
+task("testCmdLineExport") {
+    dependsOn("testCmdlineExport-library")
+    dependsOn("testCmdlineExport-multiple")
+}
+
+
 publishing {
-    val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
+    val ossrhUsername = (project.findProperty("ossrhUsername") ?: System.getenv("OSSRH_USERNAME")) as String?
     val ossrhPassword = (project.findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")) as String?
 
     repositories {
@@ -122,11 +140,16 @@ stubs {
         destinationDir("solutions/io.lionweb.lionweb.java/libs")
         dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebRelease-core:$lionwebJavaVersion")
     }
+    register("apacheCli") {
+        destinationDir("solutions/org.apache.commons.cli/libs")
+        dependency("commons-cli:commons-cli:$apacheCliVersion")
+    }
 }
 
 configurations.getByName("libs") {
     attributes {
         attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
+        attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, project.objects.named(TargetJvmEnvironment::class.java, TargetJvmEnvironment.STANDARD_JVM))
     }
 }
 
@@ -138,7 +161,7 @@ tasks.withType(Sign::class) {
  * Assures ascii-armored gpg key contains newlines.
  */
 fun restoreNewlines(encodedString: String?): String? {
-    if(encodedString != null && !encodedString.contains('\n')) {
+    if (encodedString != null && !encodedString.contains('\n')) {
         return encodedString.replace("\\n", "\n")
     }
     return encodedString

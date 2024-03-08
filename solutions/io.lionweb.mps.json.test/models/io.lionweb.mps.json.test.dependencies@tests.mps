@@ -544,6 +544,29 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="7dKo5gqksSc" role="1SL9yI">
+      <property role="TrG5h" value="avoidMultipleConcepts" />
+      <node concept="3cqZAl" id="7dKo5gqksSd" role="3clF45" />
+      <node concept="3clFbS" id="7dKo5gqksSe" role="3clF47">
+        <node concept="3clFbF" id="7dKo5gqksSf" role="3cqZAp">
+          <node concept="2OqwBi" id="7dKo5gqksSg" role="3clFbG">
+            <node concept="2WthIp" id="7dKo5gqksSh" role="2Oq$k0" />
+            <node concept="2XshWL" id="7dKo5gqksSi" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <node concept="pHN19" id="7dKo5gqksSj" role="2XxRq1">
+                <node concept="2V$Bhx" id="7dKo5gqkubm" role="2V$M_3">
+                  <property role="2V$B1T" value="44b96222-a1ce-437c-a402-7c62f0d897e5" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.deps.AvoidMultipleConcepts" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="7dKo5gqksSl" role="2XxRq1">
+                <property role="Xl_RC" value="TestDeps-AvoidMultipleConcepts.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2XrIbr" id="5ocQ9W1x$VD" role="1qtyYc">
       <property role="TrG5h" value="export" />
       <node concept="37vLTG" id="5ocQ9W1x$Wz" role="3clF46">

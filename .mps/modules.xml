@@ -16,6 +16,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationExtends/io.lionweb.mps.converter.deps.AnnotationExtends.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationImplements/io.lionweb.mps.converter.deps.AnnotationImplements.mpl" folder="test.dependencies" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AvoidMultipleConcepts/io.lionweb.mps.converter.deps.AvoidMultipleConcepts.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ConceptExtends/io.lionweb.mps.converter.deps.ConceptExtends.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ConceptImplements/io.lionweb.mps.converter.deps.ConceptImplements.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ContainmentType/io.lionweb.mps.converter.deps.ContainmentType.mpl" folder="test.dependencies" />
@@ -38,6 +39,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.persistence/io.lionweb.mps.client.persistence.msd" folder="client" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.cmdline/io.lionweb.mps.cmdline.msd" folder="cli" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.lang.runtime/io.lionweb.mps.converter.lang.runtime.msd" folder="lang.converter" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.disabled/io.lionweb.mps.converter.test.disabled.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.converter.test.mpsextensions/io.lionweb.mps.converter.test.mpsextensions.msd" folder="test" />
@@ -53,6 +55,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.m3.selfdescription/io.lionweb.mps.m3.selfdescription.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.plugin/io.lionweb.mps.server.plugin.msd" folder="server" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.server.test/io.lionweb.mps.server.test.msd" folder="test" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.apache.commons.cli/org.apache.commons.cli.msd" folder="cli" />
     </projectModules>
   </component>
 </project>
