@@ -16,6 +16,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationExtends/io.lionweb.mps.converter.deps.AnnotationExtends.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationImplements/io.lionweb.mps.converter.deps.AnnotationImplements.mpl" folder="test.dependencies" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AvoidMultipleConcepts/io.lionweb.mps.converter.deps.AvoidMultipleConcepts.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ConceptExtends/io.lionweb.mps.converter.deps.ConceptExtends.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ConceptImplements/io.lionweb.mps.converter.deps.ConceptImplements.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.ContainmentType/io.lionweb.mps.converter.deps.ContainmentType.mpl" folder="test.dependencies" />
