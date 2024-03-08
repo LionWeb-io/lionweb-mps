@@ -180,6 +180,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -6398,6 +6399,7 @@
               <ref role="3uigEE" to="33ny:~List" resolve="List" />
               <node concept="3uibUv" id="4R9posqqsx7" role="11_B2D">
                 <ref role="3uigEE" to="imb3:~Feature" resolve="Feature" />
+                <node concept="3qTvmN" id="1G7LarFbHcw" role="11_B2D" />
               </node>
             </node>
             <node concept="2OqwBi" id="4R9posqqsx8" role="33vP2m">

@@ -24,14 +24,14 @@ val apacheCliVersion: String by project
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
-	mavenLocal()
+    mavenLocal()
 }
 
 dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
     // only needed for tests, but such a config is missing
     // https://github.com/specificlanguages/mps-gradle-plugin/issues/9
-	// "generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
+    // "generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
 group = "io.lionweb"
@@ -61,7 +61,7 @@ task("testCmdLineExport") {
 
 
 publishing {
-    val ossrhUsername = (project.findProperty("ossrhUsername")?: System.getenv("OSSRH_USERNAME")) as String?
+    val ossrhUsername = (project.findProperty("ossrhUsername") ?: System.getenv("OSSRH_USERNAME")) as String?
     val ossrhPassword = (project.findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")) as String?
 
     repositories {
@@ -149,6 +149,7 @@ stubs {
 configurations.getByName("libs") {
     attributes {
         attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
+        attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, project.objects.named(TargetJvmEnvironment::class.java, TargetJvmEnvironment.STANDARD_JVM))
     }
 }
 
@@ -160,7 +161,7 @@ tasks.withType(Sign::class) {
  * Assures ascii-armored gpg key contains newlines.
  */
 fun restoreNewlines(encodedString: String?): String? {
-    if(encodedString != null && !encodedString.contains('\n')) {
+    if (encodedString != null && !encodedString.contains('\n')) {
         return encodedString.replace("\\n", "\n")
     }
     return encodedString
