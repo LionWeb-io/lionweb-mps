@@ -1,0 +1,38 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.util.location"
+
+interface ILocation <<From Locations>> {
+}
+note left
+optional, because there is not always
+a sensible location to refer to.
+end note
+
+abstract class Finding {
+  severity: Severity
+  message?: string
+}
+note left 
+Should it also has a property "message" for human
+readability and/or debugging? For example when
+you get findings from an unknown language?
+end note
+enum Severity {
+  Info
+  Warning
+  Error
+}
+
+class GenericFinding extends Finding {
+  kind: string
+  message: string
+}
+
+' relations:
+
+Finding "1" o--> "0..1" ILocation: location
+
+@enduml
+

@@ -1,0 +1,63 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.util.location"
+
+
+abstract class ATextLocation implements ILocation
+
+class CharacterIndexTextLocation extends ATextLocation {
+  index: Integer?
+}
+
+class CompositeLocation implements ILocation
+
+interface ILocation
+
+class JsonPathLocation implements ILocation {
+  path: String
+}
+
+class LineColumnTextLocation extends ATextLocation {
+  line?: Integer
+  column?: Integer
+  length?: Integer
+}
+
+class NodeLocation implements ILocation {
+  nodeId: String
+  index?: Integer
+}
+
+class NodeFeatureIndexLocation extends NodeFeatureLocation {
+  index: Integer?
+}
+
+class NodeFeatureLocation extends NodeLocation {
+  featureKey: String?
+}
+
+class NodeLocation implements ILocation {
+  nodeId: String?
+}
+
+class MetaPointer {
+  featureKey?: string
+  featureLanguage?: string
+  featureLanguageVersion?: string
+}
+' relations:
+
+
+NodeFeatureLocation "*" --> "1" MetaPointer: feature
+
+CompositeLocation "1" o--> "*" ILocation: locations
+
+
+
+
+
+
+
+
+@enduml

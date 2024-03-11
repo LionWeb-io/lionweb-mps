@@ -1,0 +1,81 @@
+@startuml
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+
+abstract class Finding <<From Findings>> {
+  severity: Severity
+}
+
+enum Severity <<From Findings>> {
+  Warning
+  Error
+}
+
+class DuplicateId extends Finding {
+  final severity = Severity.Error
+  id: String <<optional>>
+}
+
+class DuplicateNodeId extends Finding {
+  final severity = Severity.Error
+  id: String <<optional>>
+}
+
+class DuplicateUsedLanguages extends Finding {
+  final severity = Severity.Error
+  key: String <<optional>>
+  version: String <<optional>>
+}
+
+class IdFormat extends Finding {
+  final severity = Severity.Error
+  value: String <<optional>>
+}
+
+class KeyFormat extends Finding {
+  final severity = Severity.Error
+  value: String <<optional>>
+}
+
+class MemberMissing extends Finding {
+  final severity = Severity.Error
+  memberKey: String <<optional>>
+}
+
+class MemberNull extends Finding {
+  final severity = Severity.Error
+  memberKey: String <<optional>>
+}
+
+class MemberTypeIncorrectError extends Finding {
+  final severity = Severity.Error
+  memberKey: String <<optional>>
+  memberValue: String <<optional>>
+  expectedMemberType: String <<optional>>
+  actualMemberType: String <<optional>>
+}
+
+class MemberUnknown extends Finding {
+  final severity = Severity.Warning
+  memberKey: String <<optional>>
+  memberValue: String <<optional>>
+}
+
+class MemberValueArrayContainsNull extends Finding {
+  final severity = Severity.Error
+  memberKey: String <<optional>>
+}
+
+
+class SerializationFormatVersion extends Finding {
+  final severity = Severity.Error
+  value: String <<optional>>
+}
+
+class VersionFormat extends Finding {
+  final severity = Severity.Error
+  value: String <<optional>>
+}
+
+@enduml

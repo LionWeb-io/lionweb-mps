@@ -1,0 +1,157 @@
+@startuml
+
+hide empty members
+
+' qualified name: "io.lionweb.serialization.validation"
+abstract class Finding <<From Findings>> {
+  severity: Severity
+}
+
+enum Severity <<From Findings>> {
+  Warning
+  Error
+}
+
+' THE ACTUAL VALIDATION LANGUAGE
+enum ValidationLevel {
+    Json
+    Structural       
+    Hierarchical
+    MetaStructural
+}
+
+abstract class AValidationFinding extends Finding {
+  level: ValidationLevel
+}
+note top
+Validation issues should be ablee to refer to nodes,
+therefore several string valued properties should actually be node id's
+end note
+
+class JsonFinding extends AValidationFinding {
+  final level = ValidationLevel.Json
+  message: string
+}
+note left: Comes from JSON parser, so we only have a string 
+
+abstract class AStructuralFinding extends AValidationFinding {
+  final level = ValidationLevel.Structural
+}
+abstract class AHierarchicalFinding extends AValidationFinding {
+  final level = ValidationLevel.Hierarchical
+}
+' note top: \n\n\n\n\n\n\n\n
+
+abstract class AMetaStructuralFinding extends AValidationFinding {
+  final level = ValidationLevel.MetaStructural
+}
+
+class ChildMissingInParent extends AHierarchicalFinding {
+  childId: String?
+  parentId: String?
+}
+
+class CircularParent extends AHierarchicalFinding {
+}
+
+class DuplicateId extends AStructuralFinding {
+  id: String?
+}
+
+class DuplicateNodeId extends AStructuralFinding {
+  id: String?
+}
+
+class DuplicateUsedLanguages extends AStructuralFinding {
+  key: String?
+  version: String?
+}
+
+class IdFormat extends AStructuralFinding {
+  value: String?
+}
+
+class KeyFormat extends AStructuralFinding {
+  value: String?
+}
+
+class MemberMissing extends AMetaStructuralFinding {
+  memberKey: String?
+}
+
+class MemberNull extends AStructuralFinding {
+  memberKey: String?
+}
+
+class MemberTypeIncorrectError extends AMetaStructuralFinding {
+  memberKey: String?
+  memberValue: String?
+  expectedMemberType: String?
+  actualMemberType: String?
+}
+
+class MemberUnknown extends AMetaStructuralFinding {
+  memberKey: String?
+  memberValue: String?
+}
+
+class MemberValueArrayContainsNull extends AStructuralFinding {
+  memberKey: String?
+}
+
+class ParentMissingInChild extends AHierarchicalFinding {
+  childId: String?
+  parentId: String?
+}
+
+class PropertyMetaPointerNotInClass extends AMetaStructuralFinding {
+}
+
+class PropertyValueIncorrect extends AMetaStructuralFinding {
+  value: String?
+}
+
+class SerializationFormatVersion extends AStructuralFinding {
+  value: String?
+}
+
+class UnlistedLanguage extends AStructuralFinding {
+}
+
+class VersionFormat extends AStructuralFinding {
+  value: String?
+}
+
+' relations:
+
+AValidationFinding "1" o--> "0..1" ILocation: location
+
+abstract class ILocation <<From Locations>> {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@enduml
