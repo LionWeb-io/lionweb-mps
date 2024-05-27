@@ -14,6 +14,7 @@
       <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
       </concept>
@@ -43,6 +44,7 @@
     <property role="R5$K7" value="true" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="AbstractPartition" />
+    <property role="R4oN_" value="Short Desc AbstractPartition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="3KvTa3" id="34Q84zM$f93" role="lGtFl">
       <property role="3KvTac" value="true" />
@@ -53,6 +55,7 @@
     <property role="TrG5h" value="ConcretePartition" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="ConcretePartition" />
+    <property role="R4oN_" value="Short Desc ConcretePartition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="3KvTa3" id="34Q84zM$f96" role="lGtFl">
       <property role="3KvTac" value="true" />
@@ -63,12 +66,14 @@
     <property role="TrG5h" value="AbstractConcept" />
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="AbstractConcept" />
+    <property role="R4oN_" value="Short Desc AbstractConcept" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="34Q84zM$f99">
     <property role="EcuMT" value="3546057254280163913" />
     <property role="TrG5h" value="ConcreteConcept" />
     <property role="34LRSv" value="ConcreteConcept" />
+    <property role="R4oN_" value="Short Desc ConcreteConcept" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="34Q84zM$f9a">
@@ -76,6 +81,7 @@
     <property role="TrG5h" value="AbstractAnnotation" />
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="AbstractAnnotation" />
+    <property role="R4oN_" value="Short Desc AbstractAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="34Q84zM$f9b" role="lGtFl" />
   </node>
@@ -83,12 +89,15 @@
     <property role="EcuMT" value="3546057254280163917" />
     <property role="TrG5h" value="ConcreteAnnotation" />
     <property role="34LRSv" value="ConcreteAnnotation" />
+    <property role="R4oN_" value="Short Desc ConcreteAnnotation" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="34Q84zM$f9e" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="34Q84zM$f9f">
     <property role="EcuMT" value="3546057254280163919" />
     <property role="TrG5h" value="AbstractInterface" />
+    <property role="R4oN_" value="Short Desc AbstractInterface" />
+    <property role="34LRSv" value="AbstractInterface" />
   </node>
 </model>
 

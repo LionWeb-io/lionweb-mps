@@ -22,11 +22,11 @@
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
-    <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lioncore.java/)" />
+    <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lionweb.java/)" />
     <import index="1ppu" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model(io.lionweb.lionweb.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -5938,7 +5938,7 @@
             </node>
             <node concept="2ShNRf" id="5JNiskj48yq" role="33vP2m">
               <node concept="1pGfFk" id="34Q84zNEVcm" role="2ShVmc">
-                <ref role="37wK5l" to="tzx8:~DynamicAnnotationInstance.&lt;init&gt;(java.lang.String,io.lionweb.lioncore.java.language.Annotation,io.lionweb.lioncore.java.model.ClassifierInstance)" resolve="DynamicAnnotationInstance" />
+                <ref role="37wK5l" to="tzx8:~DynamicAnnotationInstance.&lt;init&gt;(java.lang.String,io.lionweb.lioncore.java.language.Annotation)" resolve="DynamicAnnotationInstance" />
                 <node concept="3cpWs3" id="5JNiskj48yw" role="37wK5m">
                   <node concept="3cpWs3" id="5JNiskj48y$" role="3uHU7B">
                     <node concept="1eOMI4" id="34Q84zO5An2" role="3uHU7B">
@@ -5977,9 +5977,19 @@
                     <ref role="37wK5l" to="6peh:34Q84zNB8uo" resolve="getConceptDescriptionAnnotation" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="34Q84zNGYb5" role="37wK5m">
-                  <ref role="3cqZAo" node="34Q84zNrTDO" resolve="lw" />
-                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1mICt0YsFQd" role="3cqZAp">
+          <node concept="2OqwBi" id="1mICt0YsL8C" role="3clFbG">
+            <node concept="37vLTw" id="1mICt0YsFQb" role="2Oq$k0">
+              <ref role="3cqZAo" node="34Q84zNrTDO" resolve="lw" />
+            </node>
+            <node concept="liA8E" id="1mICt0YsTgH" role="2OqNvi">
+              <ref role="37wK5l" to="tzx8:~AnnotatedNode.addAnnotation(io.lionweb.lioncore.java.model.AnnotationInstance)" resolve="addAnnotation" />
+              <node concept="37vLTw" id="1mICt0Yt021" role="37wK5m">
+                <ref role="3cqZAo" node="5JNiskj48yo" resolve="ann" />
               </node>
             </node>
           </node>

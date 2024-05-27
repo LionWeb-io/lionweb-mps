@@ -601,41 +601,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="z1IqfFSRxr" role="3cqZAp" />
-            <node concept="3cpWs8" id="z1IqfFSPZD" role="3cqZAp">
-              <node concept="3cpWsn" id="z1IqfFSPZE" role="3cpWs9">
-                <property role="TrG5h" value="deserializer" />
-                <node concept="3uibUv" id="z1IqfFSPWh" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:z1IqfFwqda" resolve="Deserializer" />
-                </node>
-                <node concept="2ShNRf" id="z1IqfFSPZF" role="33vP2m">
-                  <node concept="1pGfFk" id="z1IqfFSPZG" role="2ShVmc">
-                    <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Deserializer" />
-                    <node concept="37vLTw" id="z1IqfFSPZH" role="37wK5m">
-                      <ref role="3cqZAo" node="z1IqfFSMnI" resolve="inputStream" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="z1IqfFSQk$" role="3cqZAp">
-              <node concept="3cpWsn" id="z1IqfFSQk_" role="3cpWs9">
-                <property role="TrG5h" value="jsonLanguages" />
-                <node concept="_YKpA" id="z1IqfFSQiz" role="1tU5fm">
-                  <node concept="3uibUv" id="z1IqfFSQiA" role="_ZDj9">
-                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="z1IqfFSQkA" role="33vP2m">
-                  <node concept="37vLTw" id="z1IqfFSQkB" role="2Oq$k0">
-                    <ref role="3cqZAo" node="z1IqfFSPZE" resolve="deserializer" />
-                  </node>
-                  <node concept="liA8E" id="z1IqfFSQkC" role="2OqNvi">
-                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="deserializeLanguages" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="z1IqfFSR_T" role="3cqZAp" />
             <node concept="3cpWs8" id="5M3rB6C9CdV" role="3cqZAp">
               <node concept="3cpWsn" id="5M3rB6C9CdW" role="3cpWs9">
                 <property role="TrG5h" value="repository" />
@@ -671,6 +636,51 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="z1IqfFSPZD" role="3cqZAp">
+              <node concept="3cpWsn" id="z1IqfFSPZE" role="3cpWs9">
+                <property role="TrG5h" value="deserializer" />
+                <node concept="3uibUv" id="z1IqfFSPWh" role="1tU5fm">
+                  <ref role="3uigEE" to="6peh:z1IqfFwqda" resolve="Deserializer" />
+                </node>
+                <node concept="2ShNRf" id="z1IqfFSPZF" role="33vP2m">
+                  <node concept="1pGfFk" id="z1IqfFSPZG" role="2ShVmc">
+                    <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Deserializer" />
+                    <node concept="37vLTw" id="z1IqfFSPZH" role="37wK5m">
+                      <ref role="3cqZAo" node="z1IqfFSMnI" resolve="inputStream" />
+                    </node>
+                    <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
+                      <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                        <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="5hsSXrmD5g8" role="3cqZAp" />
+            <node concept="3cpWs8" id="z1IqfFSQk$" role="3cqZAp">
+              <node concept="3cpWsn" id="z1IqfFSQk_" role="3cpWs9">
+                <property role="TrG5h" value="jsonLanguages" />
+                <node concept="_YKpA" id="z1IqfFSQiz" role="1tU5fm">
+                  <node concept="3uibUv" id="z1IqfFSQiA" role="_ZDj9">
+                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="z1IqfFSQkA" role="33vP2m">
+                  <node concept="37vLTw" id="z1IqfFSQkB" role="2Oq$k0">
+                    <ref role="3cqZAo" node="z1IqfFSPZE" resolve="deserializer" />
+                  </node>
+                  <node concept="liA8E" id="z1IqfFSQkC" role="2OqNvi">
+                    <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="deserializeLanguages" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="z1IqfFSR_T" role="3cqZAp" />
             <node concept="3cpWs8" id="5M3rB6C9D6w" role="3cqZAp">
               <node concept="3cpWsn" id="5M3rB6C9D6x" role="3cpWs9">
                 <property role="TrG5h" value="mapper" />
@@ -1706,6 +1716,15 @@
                     <ref role="37wK5l" to="6peh:z1IqfFwqeg" resolve="Deserializer" />
                     <node concept="37vLTw" id="1apSfP9EUNZ" role="37wK5m">
                       <ref role="3cqZAo" node="1apSfP9EUNO" resolve="inputStream" />
+                    </node>
+                    <node concept="2ShNRf" id="5hsSXrmDfRr" role="37wK5m">
+                      <node concept="1pGfFk" id="5hsSXrmDfRs" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                        <node concept="2YIFZM" id="5hsSXrmDfRt" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

@@ -280,6 +280,15 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
+                      <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                        <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1058,7 +1067,7 @@
                 <ref role="3xOPvv" node="18UigYR952J" resolve="TestAnnotation" />
               </node>
               <node concept="Xl_RD" id="1xqd6pt3Z53" role="2XxRq1">
-                <property role="Xl_RC" value="TestAnnotation-metamodel.json" />
+                <property role="Xl_RC" value="TestAnnotation-metamodel-nodescriptions.json" />
               </node>
             </node>
           </node>
