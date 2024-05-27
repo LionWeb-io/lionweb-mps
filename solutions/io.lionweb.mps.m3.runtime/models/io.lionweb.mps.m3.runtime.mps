@@ -10530,6 +10530,38 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="34Q84zMXVCJ" role="jymVt" />
+    <node concept="2YIFZL" id="34Q84zMXVAC" role="jymVt">
+      <property role="TrG5h" value="getLanguageVersionString" />
+      <node concept="3clFbS" id="34Q84zMXVAD" role="3clF47">
+        <node concept="3clFbF" id="34Q84zMXWi_" role="3cqZAp">
+          <node concept="2YIFZM" id="34Q84zMXWjB" role="3clFbG">
+            <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
+            <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+            <node concept="1rXfSq" id="34Q84zMXWkV" role="37wK5m">
+              <ref role="37wK5l" node="6jTTMHD72KX" resolve="getLanguageVersion" />
+              <node concept="37vLTw" id="34Q84zMXWmF" role="37wK5m">
+                <ref role="3cqZAo" node="34Q84zMXVAR" resolve="language" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="34Q84zMXVAP" role="1B3o_S" />
+      <node concept="17QB3L" id="34Q84zMXVDC" role="3clF45" />
+      <node concept="37vLTG" id="34Q84zMXVAR" role="3clF46">
+        <property role="TrG5h" value="language" />
+        <node concept="3uibUv" id="34Q84zMXVAS" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+        </node>
+        <node concept="2AHcQZ" id="34Q84zMXVAT" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="34Q84zMXVEh" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="6jTTMHD72IT" role="1B3o_S" />
     <node concept="3UR2Jj" id="6jTTMHD72JM" role="lGtFl">
       <node concept="TZ5HA" id="6jTTMHD72JN" role="TZ5H$">

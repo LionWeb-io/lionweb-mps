@@ -304,7 +304,7 @@
     <node concept="1TJgyi" id="2chztJeDvZC" role="1TKVEl">
       <property role="IQ2nx" value="2526956841135898600" />
       <property role="TrG5h" value="version" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="2DM1AW" id="5AGBwuDAPoC" role="lGtFl">
         <property role="2DM1AS" value="Language-version" />
       </node>
