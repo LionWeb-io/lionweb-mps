@@ -1,6 +1,8 @@
 # Changelog for LionWeb-MPS
 
 ## Next
+* Filter nodes of abstract concepts or interfaces from exporting to LionWeb JSON. 
+
 * Updated both technical and reference documentation.
 
 * Added intentions to assign LionWeb keys to all elements of a language.
