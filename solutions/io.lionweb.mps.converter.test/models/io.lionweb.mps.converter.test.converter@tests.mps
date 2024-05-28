@@ -477,7 +477,7 @@
           <node concept="2RzOeU" id="2chztJeOtAC" role="2RzPPN">
             <property role="TrG5h" value="version" />
             <property role="2RzON1" value="Language-version" />
-            <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" resolve="Integer" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOte" id="2fx6VTTnYmL" role="2RzPPN">
             <property role="TrG5h" value="entities" />
@@ -1063,7 +1063,7 @@
           <node concept="2RzOeU" id="7Cdxs9E1gHt" role="2RzPPN">
             <property role="TrG5h" value="version" />
             <property role="2RzON1" value="Language-version" />
-            <ref role="2Rx9Fl" to="2pzz:48csSBPfMBo" resolve="Integer" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="2RzOte" id="7Cdxs9E1gHu" role="2RzPPN">
             <property role="TrG5h" value="entities" />

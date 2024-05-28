@@ -6,6 +6,7 @@
     <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
   </languages>
   <imports>
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -103,6 +104,42 @@
   </node>
   <node concept="2DM1_0" id="5JNiskhm5JG">
     <property role="2DM1AS" value="io-lionweb-mps-specific" />
+  </node>
+  <node concept="1TIwiD" id="34Q84zMNsEs">
+    <property role="EcuMT" value="3546057254284151452" />
+    <property role="TrG5h" value="ConceptDescription" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyi" id="34Q84zMNsG9" role="1TKVEl">
+      <property role="IQ2nx" value="3546057254284151561" />
+      <property role="TrG5h" value="conceptAlias" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="34Q84zMP1Yy" role="lGtFl">
+        <property role="2DM1AS" value="ConceptDescription-conceptAlias" />
+      </node>
+      <node concept="3KvT9W" id="34Q84zMPiDs" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="34Q84zMNsGb" role="1TKVEl">
+      <property role="IQ2nx" value="3546057254284151563" />
+      <property role="TrG5h" value="conceptShortDescription" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="34Q84zMP1Yz" role="lGtFl">
+        <property role="2DM1AS" value="ConceptDescription-conceptShortDescription" />
+      </node>
+      <node concept="3KvT9W" id="34Q84zMPiDv" role="lGtFl">
+        <property role="3KvTa5" value="true" />
+      </node>
+    </node>
+    <node concept="M6xJ_" id="34Q84zMNsEt" role="lGtFl">
+      <node concept="tn0Fv" id="34Q84zMNsEv" role="HhnKV" />
+      <node concept="trNpa" id="34Q84zMNsG7" role="EQaZv">
+        <ref role="trN6q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="34Q84zMP1Yx" role="lGtFl">
+      <property role="2DM1AS" value="ConceptDescription" />
+    </node>
   </node>
 </model>
 

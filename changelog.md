@@ -1,6 +1,8 @@
 # Changelog for LionWeb-MPS
 
 ## Next
+* For concepts with alias and/or short description, export annotation with that information.  
+
 * Filter nodes of abstract concepts or interfaces from exporting to LionWeb JSON. 
 
 * Updated both technical and reference documentation.

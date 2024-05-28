@@ -451,6 +451,29 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="5IwPrBrF9at" role="1SL9yI">
+      <property role="TrG5h" value="TestAbstract" />
+      <node concept="3cqZAl" id="5IwPrBrF9au" role="3clF45" />
+      <node concept="3clFbS" id="5IwPrBrF9av" role="3clF47">
+        <node concept="3clFbF" id="5IwPrBrHVrN" role="3cqZAp">
+          <node concept="2OqwBi" id="5IwPrBrHVrO" role="3clFbG">
+            <node concept="2WthIp" id="5IwPrBrHVrP" role="2Oq$k0" />
+            <node concept="2XshWL" id="5IwPrBrHVrQ" role="2OqNvi">
+              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+              <node concept="pHN19" id="5IwPrBrHVrR" role="2XxRq1">
+                <node concept="2V$Bhx" id="5IwPrBrI0U4" role="2V$M_3">
+                  <property role="2V$B1T" value="3ecd737b-418b-4a70-a991-f6b83f0e3247" />
+                  <property role="2V$B1Q" value="io.lionweb.mps.converter.TestAbstract" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5IwPrBrHW5I" role="2XxRq1">
+                <property role="Xl_RC" value="TestAbstract-metamodel.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="5sACIIszQ7U">
     <property role="TrG5h" value="importJson2SLanguage" />
@@ -493,7 +516,7 @@
           <node concept="3clFbS" id="5ocQ9W1vI8$" role="1zxBo7">
             <node concept="3cpWs8" id="5ocQ9W1vI8_" role="3cqZAp">
               <node concept="3cpWsn" id="5ocQ9W1vI8A" role="3cpWs9">
-                <property role="TrG5h" value="unserializer" />
+                <property role="TrG5h" value="deserializer" />
                 <node concept="3uibUv" id="5ocQ9W1vI8B" role="1tU5fm">
                   <ref role="3uigEE" to="6peh:z1IqfFwqda" resolve="Deserializer" />
                 </node>
@@ -505,6 +528,15 @@
                         <ref role="37wK5l" to="guwi:~BufferedInputStream.&lt;init&gt;(java.io.InputStream)" resolve="BufferedInputStream" />
                         <node concept="37vLTw" id="5ocQ9W1vI8G" role="37wK5m">
                           <ref role="3cqZAo" node="5ocQ9W1vI9U" resolve="inputStream" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
+                      <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                        <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                         </node>
                       </node>
                     </node>
@@ -522,7 +554,7 @@
                 </node>
                 <node concept="2OqwBi" id="5ocQ9W1vI8L" role="33vP2m">
                   <node concept="37vLTw" id="5ocQ9W1vI8M" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ocQ9W1vI8A" resolve="unserializer" />
+                    <ref role="3cqZAo" node="5ocQ9W1vI8A" resolve="deserializer" />
                   </node>
                   <node concept="liA8E" id="5ocQ9W1vI8N" role="2OqNvi">
                     <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="deserializeLanguages" />

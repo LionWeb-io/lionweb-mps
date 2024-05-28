@@ -21,6 +21,7 @@
     <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1471,6 +1472,15 @@
                       </node>
                       <node concept="liA8E" id="7jdzMamfK1r" role="2OqNvi">
                         <ref role="37wK5l" to="781x:~HttpResponse.body()" resolve="body" />
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
+                      <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                        <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
+                          <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                          <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
                       </node>
                     </node>
                   </node>
