@@ -1941,16 +1941,16 @@
           </node>
           <node concept="3clFbS" id="1mICt0YbQwI" role="2LFqv$">
             <node concept="3clFbF" id="1mICt0YtKHd" role="3cqZAp">
-              <node concept="2YIFZM" id="1mICt0YtL9X" role="3clFbG">
-                <ref role="37wK5l" to="1ppu:~Node.selfAndAllDescendants(io.lionweb.lioncore.java.model.ClassifierInstance,boolean,java.util.Collection)" resolve="selfAndAllDescendants" />
-                <ref role="1Pybhc" to="1ppu:~Node" resolve="Node" />
-                <node concept="2GrUjf" id="1mICt0YtMTo" role="37wK5m">
+              <node concept="2YIFZM" id="5hsSXrmPeLI" role="3clFbG">
+                <ref role="37wK5l" to="1ppu:~ClassifierInstance.collectSelfAndDescendants(io.lionweb.lioncore.java.model.ClassifierInstance,boolean,java.util.Collection)" resolve="collectSelfAndDescendants" />
+                <ref role="1Pybhc" to="1ppu:~ClassifierInstance" resolve="ClassifierInstance" />
+                <node concept="2GrUjf" id="5hsSXrmPeLJ" role="37wK5m">
                   <ref role="2Gs0qQ" node="1mICt0YbQwE" resolve="lang" />
                 </node>
-                <node concept="3clFbT" id="1mICt0YtOc4" role="37wK5m">
+                <node concept="3clFbT" id="5hsSXrmPeLK" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
-                <node concept="37vLTw" id="1mICt0YtPgI" role="37wK5m">
+                <node concept="37vLTw" id="5hsSXrmPeLL" role="37wK5m">
                   <ref role="3cqZAo" node="1mICt0YbFhR" resolve="everything" />
                 </node>
               </node>

@@ -5987,7 +5987,7 @@
               <ref role="3cqZAo" node="34Q84zNrTDO" resolve="lw" />
             </node>
             <node concept="liA8E" id="1mICt0YsTgH" role="2OqNvi">
-              <ref role="37wK5l" to="tzx8:~AnnotatedNode.addAnnotation(io.lionweb.lioncore.java.model.AnnotationInstance)" resolve="addAnnotation" />
+              <ref role="37wK5l" to="tzx8:~AbstractClassifierInstance.addAnnotation(io.lionweb.lioncore.java.model.AnnotationInstance)" resolve="addAnnotation" />
               <node concept="37vLTw" id="1mICt0Yt021" role="37wK5m">
                 <ref role="3cqZAo" node="5JNiskj48yo" resolve="ann" />
               </node>
