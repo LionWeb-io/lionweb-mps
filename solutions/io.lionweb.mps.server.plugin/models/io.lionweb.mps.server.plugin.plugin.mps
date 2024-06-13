@@ -1363,6 +1363,15 @@
                 <node concept="37vLTw" id="2q_M4yStFVf" role="37wK5m">
                   <ref role="3cqZAo" node="2q_M4ySt_UD" resolve="reader" />
                 </node>
+                <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
+                  <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
+                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                    <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

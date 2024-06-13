@@ -12,6 +12,7 @@
   </facets>
   <accessoryModels>
     <model modelUID="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" />
+    <model modelUID="r:8a5810a5-6291-48f8-84a1-e0b9d037018c(io.lionweb.mps.m3.core)" />
   </accessoryModels>
   <sourcePath />
   <dependencies>

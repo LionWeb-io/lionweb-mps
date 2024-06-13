@@ -6,6 +6,7 @@
     <use id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3" version="0" />
   </languages>
   <imports>
+    <import index="i2js" ref="r:8a5810a5-6291-48f8-84a1-e0b9d037018c(io.lionweb.mps.m3.core)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
   </imports>
   <registry>
@@ -29,9 +30,13 @@
       <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.InterfaceReference" flags="ng" index="2RzQOr">
         <reference id="2656571587264865492" name="interface" index="2RzQOs" />
       </concept>
+      <concept id="2656571587264871634" name="io.lionweb.mps.m3.structure.LanguageReference" flags="ng" index="2RzRkq">
+        <reference id="2656571587264871635" name="language" index="2RzRkr" />
+      </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
         <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="entities" index="2RzR6B" />
+        <child id="2656571587264871163" name="dependsOn" index="2RzRcN" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -43,7 +48,7 @@
   <node concept="2RzRRF" id="5JNiskir1pX">
     <property role="2RzON1" value="io-lionweb-mps-specific" />
     <property role="TrG5h" value="MPS-specific annotations" />
-    <property role="3HH78N" value="1" />
+    <property role="3HH78N" value="2" />
     <node concept="2$GZ55" id="5JNiskir1qK" role="2RzR6B">
       <property role="2RzON1" value="VirtualPackage" />
       <property role="TrG5h" value="VirtualPackage" />
@@ -62,6 +67,26 @@
         <property role="2RzO1C" value="true" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
+    </node>
+    <node concept="2$GZ55" id="34Q84zMNsGk" role="2RzR6B">
+      <property role="2RzON1" value="ConceptDescription" />
+      <property role="TrG5h" value="ConceptDescription" />
+      <ref role="2$GZ54" to="i2js:5sACIIs$PgR" resolve="Classifier" />
+      <node concept="2RzOeU" id="34Q84zMPiDq" role="2RzPPN">
+        <property role="2RzON1" value="ConceptDescription-conceptAlias" />
+        <property role="TrG5h" value="conceptAlias" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="34Q84zMPiD_" role="2RzPPN">
+        <property role="2RzON1" value="ConceptDescription-conceptShortDescription" />
+        <property role="TrG5h" value="conceptShortDescription" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2RzRkq" id="34Q84zMP1Uw" role="2RzRcN">
+      <ref role="2RzRkr" to="i2js:5sACIIs$PgG" resolve="LionCore_M3" />
     </node>
   </node>
 </model>
