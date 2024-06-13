@@ -27,7 +27,6 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
-      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
@@ -529,27 +528,21 @@
     <property role="TrG5h" value="check_Language_version" />
     <node concept="3clFbS" id="2chztJeDA7v" role="18ibNy">
       <node concept="3clFbJ" id="2chztJeDAhl" role="3cqZAp">
-        <node concept="3fqX7Q" id="2chztJeDCcG" role="3clFbw">
-          <node concept="1eOMI4" id="2chztJeDCD$" role="3fr31v">
-            <node concept="2d3UOw" id="2chztJeDCft" role="1eOMHV">
-              <node concept="2OqwBi" id="2chztJeDCcK" role="3uHU7B">
-                <node concept="1YBJjd" id="2chztJeDCcL" role="2Oq$k0">
-                  <ref role="1YBMHb" node="2chztJeDA7x" resolve="language" />
-                </node>
-                <node concept="3TrcHB" id="2chztJeDCcM" role="2OqNvi">
-                  <ref role="3TsBF5" to="h3y3:2chztJeDvZC" resolve="version" />
-                </node>
-              </node>
-              <node concept="3cmrfG" id="2chztJeDCcJ" role="3uHU7w">
-                <property role="3cmrfH" value="0" />
-              </node>
+        <node concept="2OqwBi" id="34Q84zMOoNF" role="3clFbw">
+          <node concept="2OqwBi" id="2chztJeDCcK" role="2Oq$k0">
+            <node concept="1YBJjd" id="2chztJeDCcL" role="2Oq$k0">
+              <ref role="1YBMHb" node="2chztJeDA7x" resolve="language" />
+            </node>
+            <node concept="3TrcHB" id="2chztJeDCcM" role="2OqNvi">
+              <ref role="3TsBF5" to="h3y3:2chztJeDvZC" resolve="version" />
             </node>
           </node>
+          <node concept="17RlXB" id="34Q84zMOp7c" role="2OqNvi" />
         </node>
         <node concept="3clFbS" id="2chztJeDAhn" role="3clFbx">
           <node concept="2MkqsV" id="2chztJeDBUh" role="3cqZAp">
             <node concept="Xl_RD" id="2chztJeDBUR" role="2MkJ7o">
-              <property role="Xl_RC" value="version must be &gt;= 1" />
+              <property role="Xl_RC" value="version must not be empty" />
             </node>
             <node concept="1YBJjd" id="2chztJeDCke" role="1urrMF">
               <ref role="1YBMHb" node="2chztJeDA7x" resolve="language" />

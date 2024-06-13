@@ -319,6 +319,15 @@
                     <ref role="37wK5l" to="781x:~HttpResponse.body()" resolve="body" />
                   </node>
                 </node>
+                <node concept="2ShNRf" id="5hsSXrmDtPA" role="37wK5m">
+                  <node concept="1pGfFk" id="5hsSXrmDtPB" role="2ShVmc">
+                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                    <node concept="2YIFZM" id="5hsSXrmDtPC" role="37wK5m">
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1092,6 +1101,15 @@
                   </node>
                   <node concept="liA8E" id="6Fo9k$JySI2" role="2OqNvi">
                     <ref role="37wK5l" to="781x:~HttpResponse.body()" resolve="body" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
+                  <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
+                    <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
+                    <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
+                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    </node>
                   </node>
                 </node>
               </node>

@@ -1524,13 +1524,17 @@
               </node>
               <node concept="2pJxcG" id="2chztJeFPxm" role="2pJxcM">
                 <ref role="2pJxcJ" to="h3y3:2chztJeDvZC" resolve="version" />
-                <node concept="WxPPo" id="2chztJeFSQ_" role="28ntcv">
-                  <node concept="2OqwBi" id="2chztJeFWmL" role="WxPPp">
-                    <node concept="37vLTw" id="2chztJeFSQz" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2ju2syjuHxa" resolve="lang" />
-                    </node>
-                    <node concept="liA8E" id="2chztJeG0To" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~Language.getLanguageVersion()" resolve="getLanguageVersion" />
+                <node concept="WxPPo" id="34Q84zN0U1C" role="28ntcv">
+                  <node concept="2YIFZM" id="34Q84zN0ZRI" role="WxPPp">
+                    <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
+                    <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                    <node concept="2OqwBi" id="34Q84zN1kdo" role="37wK5m">
+                      <node concept="37vLTw" id="34Q84zN1fXo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2ju2syjuHxa" resolve="lang" />
+                      </node>
+                      <node concept="liA8E" id="34Q84zN1n1r" role="2OqNvi">
+                        <ref role="37wK5l" to="w1kc:~Language.getLanguageVersion()" resolve="getLanguageVersion" />
+                      </node>
                     </node>
                   </node>
                 </node>
