@@ -18,6 +18,7 @@
     <use id="08caad75-8246-4427-bb4d-8444b6c5c729" name="io.lionweb.mps.converter.TestLang" version="0" />
     <use id="3ecd737b-418b-4a70-a991-f6b83f0e3247" name="io.lionweb.mps.converter.TestAbstract" version="0" />
     <use id="60791ea2-7a1d-4862-a1ef-f87878cc3b6e" name="io.lionweb.mps.converter.TestComputedProperty" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -251,6 +252,19 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
+      <concept id="3631234780355719700" name="io.lionweb.mps.converter.lang.structure.NodeRef" flags="ng" index="pgsVv">
+        <reference id="3631234780355720143" name="target" index="pgsW4" />
+      </concept>
+      <concept id="3631234780355716573" name="io.lionweb.mps.converter.lang.structure.ExportInstanceToJson" flags="ng" index="pgt$m">
+        <property id="3631234780355961878" name="scope" index="pjpzt" />
+        <property id="431394310322869833" name="exportComputedProperties" index="3P5Wyv" />
+        <child id="3631234780355719074" name="instances" index="pgtdD" />
+      </concept>
+      <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
+        <property id="5028875375328515031" name="path" index="VS7hl" />
       </concept>
     </language>
     <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
@@ -9869,6 +9883,27 @@
         <property role="3PoE6W" value="ccc" />
         <node concept="3xLA65" id="nWBHrKn_DE" role="lGtFl">
           <property role="TrG5h" value="customName" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="nWBHrKVdto" role="1SKRRt">
+      <node concept="pgt$m" id="nWBHrKVduU" role="1qenE9">
+        <property role="TrG5h" value="computedName_raw" />
+        <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/computedName_raw_exported.json" />
+        <property role="pjpzt" value="39$JcGFainl/descendants" />
+        <node concept="pgsVv" id="nWBHrKVdMf" role="pgtdD">
+          <ref role="pgsW4" node="nWBHrKmor$" resolve="computedName" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="nWBHrKVdOZ" role="1SKRRt">
+      <node concept="pgt$m" id="nWBHrKVdP0" role="1qenE9">
+        <property role="TrG5h" value="computedName_computed" />
+        <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/computedName_computed_exported.json" />
+        <property role="3P5Wyv" value="true" />
+        <property role="pjpzt" value="39$JcGFainl/descendants" />
+        <node concept="pgsVv" id="nWBHrKVdP1" role="pgtdD">
+          <ref role="pgsW4" node="nWBHrKmor$" resolve="computedName" />
         </node>
       </node>
     </node>
