@@ -1,0 +1,117 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "LionCore-builtins",
+      "version": "2023.1"
+    },
+    {
+      "key": "io-lionweb-mps-converter-TestComputedProperty",
+      "version": "0"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "{id-computedName}",
+      "classifier": {
+        "language": "io-lionweb-mps-converter-TestComputedProperty",
+        "version": "0",
+        "key": "ComputedProp"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "hello"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanOptional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanRequired"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanUndefined"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntOptional"
+          },
+          "value": "42"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntRequired"
+          },
+          "value": "23"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntUndefined"
+          },
+          "value": "37"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringOptional"
+          },
+          "value": "aaa"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringRequired"
+          },
+          "value": "bbb"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringUndefined"
+          },
+          "value": "ccc"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedRequired"
+          },
+          "value": null
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}

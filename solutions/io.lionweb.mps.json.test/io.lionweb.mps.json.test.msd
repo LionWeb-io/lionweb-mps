@@ -33,11 +33,13 @@
     <dependency reexport="false">cc1efc53-7b9a-40a1-9c9b-06659e6a6116(io.lionweb.mps.json.test.support)</dependency>
     <dependency reexport="false">3ecd737b-418b-4a70-a991-f6b83f0e3247(io.lionweb.mps.converter.TestAbstract)</dependency>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
+    <dependency reexport="false">60791ea2-7a1d-4862-a1ef-f87878cc3b6e(io.lionweb.mps.converter.TestComputedProperty)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:76d927fd-3a5a-4e40-865b-7c2d329ca675:MultiRefLang" version="1" />
     <language slang="l:3ecd737b-418b-4a70-a991-f6b83f0e3247:io.lionweb.mps.converter.TestAbstract" version="0" />
     <language slang="l:afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb:io.lionweb.mps.converter.TestAnnotation" version="0" />
+    <language slang="l:60791ea2-7a1d-4862-a1ef-f87878cc3b6e:io.lionweb.mps.converter.TestComputedProperty" version="0" />
     <language slang="l:11541b24-a02a-4586-a931-92521b3f6166:io.lionweb.mps.converter.TestCustomDatatype" version="0" />
     <language slang="l:08caad75-8246-4427-bb4d-8444b6c5c729:io.lionweb.mps.converter.TestLang" version="0" />
     <language slang="l:48d0f6eb-6186-4cec-83d1-7caedb05a494:io.lionweb.mps.converter.TestLang2" version="0" />
@@ -69,6 +71,7 @@
     <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)" version="0" />
     <module reference="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" version="0" />
     <module reference="3ecd737b-418b-4a70-a991-f6b83f0e3247(io.lionweb.mps.converter.TestAbstract)" version="0" />
+    <module reference="60791ea2-7a1d-4862-a1ef-f87878cc3b6e(io.lionweb.mps.converter.TestComputedProperty)" version="0" />
     <module reference="08caad75-8246-4427-bb4d-8444b6c5c729(io.lionweb.mps.converter.TestLang)" version="0" />
     <module reference="48d0f6eb-6186-4cec-83d1-7caedb05a494(io.lionweb.mps.converter.TestLang2)" version="0" />
     <module reference="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" version="0" />
