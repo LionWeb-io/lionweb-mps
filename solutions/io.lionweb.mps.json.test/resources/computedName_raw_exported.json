@@ -1,0 +1,121 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "io-lionweb-mps-converter-TestComputedProperty",
+      "version": "0"
+    },
+    {
+      "key": "ODU4NTQ1M2UtNmJmYi00ZDgwLTk4ZGUtYjE2MDc0ZjFkODZj",
+      "version": "5"
+    },
+    {
+      "key": "LionCore-builtins",
+      "version": "2023.1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "431394310313314020",
+      "classifier": {
+        "language": "io-lionweb-mps-converter-TestComputedProperty",
+        "version": "0",
+        "key": "ComputedProp"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedOptional"
+          },
+          "value": "aaa"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedRequired"
+          },
+          "value": "bbb"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedUndefined"
+          },
+          "value": "ccc"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringRequired"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntRequired"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanOptional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanRequired"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanUndefined"
+          },
+          "value": "false"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [
+        "431394310313630312"
+      ],
+      "parent": "431394310313314016"
+    },
+    {
+      "id": "431394310313630312",
+      "classifier": {
+        "language": "ODU4NTQ1M2UtNmJmYi00ZDgwLTk4ZGUtYjE2MDc0ZjFkODZj",
+        "version": "5",
+        "key": "ODU4NTQ1M2UtNmJmYi00ZDgwLTk4ZGUtYjE2MDc0ZjFkODZjLzEyMTA2NzM2ODQ2MzY"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "computedName"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "431394310313314020"
+    }
+  ]
+}
