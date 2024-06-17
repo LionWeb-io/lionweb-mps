@@ -2657,6 +2657,25 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
+    <node concept="2tJIrI" id="nWBHrKtAgy" role="jymVt" />
+    <node concept="312cEg" id="nWBHrKt_vz" role="jymVt">
+      <property role="TrG5h" value="exportComputedProperties" />
+      <node concept="3Tm6S6" id="nWBHrKt_v$" role="1B3o_S" />
+      <node concept="3uibUv" id="nWBHrKt_v_" role="1tU5fm">
+        <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+      </node>
+      <node concept="10Nm6u" id="nWBHrKt_vA" role="33vP2m" />
+      <node concept="z59LJ" id="nWBHrKt_vB" role="lGtFl">
+        <node concept="TZ5HA" id="nWBHrKt_vC" role="TZ5H$">
+          <node concept="1dT_AC" id="nWBHrKt_vD" role="1dT_Ay">
+            <property role="1dT_AB" value="If true, exports computed properties instead of serialized ones." />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="nWBHrKt_vE" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="34Q84zNhVUi" role="jymVt" />
     <node concept="312cEg" id="34Q84zNhYxK" role="jymVt">
       <property role="TrG5h" value="warner" />
@@ -2942,6 +2961,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="nWBHrKtFz7" role="3cqZAp" />
+        <node concept="3clFbJ" id="nWBHrKtGE$" role="3cqZAp">
+          <node concept="3clFbS" id="nWBHrKtGEA" role="3clFbx">
+            <node concept="3clFbF" id="nWBHrKtIBc" role="3cqZAp">
+              <node concept="2OqwBi" id="nWBHrKtJ1Z" role="3clFbG">
+                <node concept="37vLTw" id="nWBHrKtIBa" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5TNjoy1ALrE" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="nWBHrKtJuK" role="2OqNvi">
+                  <ref role="37wK5l" to="lai5:nWBHrKpIbH" resolve="setExportComputedProperties" />
+                  <node concept="37vLTw" id="nWBHrKtKdl" role="37wK5m">
+                    <ref role="3cqZAo" node="nWBHrKt_vz" resolve="exportComputedProperties" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="nWBHrKtHxT" role="3clFbw">
+            <node concept="10Nm6u" id="nWBHrKtIfr" role="3uHU7w" />
+            <node concept="37vLTw" id="nWBHrKtGYS" role="3uHU7B">
+              <ref role="3cqZAo" node="nWBHrKt_vz" resolve="exportComputedProperties" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6jI_U5eP8fj" role="3cqZAp" />
         <node concept="3clFbF" id="6jI_U5ePqYv" role="3cqZAp">
           <node concept="37vLTI" id="6jI_U5ePqYx" role="3clFbG">
@@ -3065,6 +3108,31 @@
       <node concept="37vLTG" id="3i3chebGTRQ" role="3clF46">
         <property role="TrG5h" value="exportUnconvertedParentIds" />
         <node concept="10P_77" id="3i3chebGTRR" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="nWBHrKtDd6" role="jymVt" />
+    <node concept="3clFb_" id="nWBHrKtCqQ" role="jymVt">
+      <property role="TrG5h" value="setExportComputedProperties" />
+      <node concept="3cqZAl" id="nWBHrKtCqR" role="3clF45" />
+      <node concept="3Tm1VV" id="nWBHrKtCqS" role="1B3o_S" />
+      <node concept="3clFbS" id="nWBHrKtCqT" role="3clF47">
+        <node concept="3clFbF" id="nWBHrKtCqU" role="3cqZAp">
+          <node concept="37vLTI" id="nWBHrKtCqV" role="3clFbG">
+            <node concept="37vLTw" id="nWBHrKtCqW" role="37vLTx">
+              <ref role="3cqZAo" node="nWBHrKtCr0" resolve="exportComputedProperties" />
+            </node>
+            <node concept="2OqwBi" id="nWBHrKtCqX" role="37vLTJ">
+              <node concept="Xjq3P" id="nWBHrKtCqY" role="2Oq$k0" />
+              <node concept="2OwXpG" id="nWBHrKtCqZ" role="2OqNvi">
+                <ref role="2Oxat5" node="nWBHrKt_vz" resolve="exportComputedProperties" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="nWBHrKtCr0" role="3clF46">
+        <property role="TrG5h" value="exportComputedProperties" />
+        <node concept="10P_77" id="nWBHrKtCr1" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="5TNjoy1AFZF" role="jymVt" />

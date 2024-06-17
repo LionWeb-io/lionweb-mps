@@ -183,6 +183,24 @@
             <ref role="1NtTu8" to="d0tf:39$JcGFaigm" resolve="scope" />
           </node>
         </node>
+        <node concept="3EZMnI" id="nWBHrKUPpj" role="3EZMnx">
+          <node concept="3F0ifn" id="nWBHrKUPpk" role="3EZMnx">
+            <property role="3F0ifm" value="Export unconverted parent ids:" />
+          </node>
+          <node concept="2iRfu4" id="nWBHrKUPpl" role="2iSdaV" />
+          <node concept="3F0A7n" id="nWBHrKUPpm" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:nWBHrKUMX3" resolve="exportUnconvertedParentIds" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="nWBHrKUPpz" role="3EZMnx">
+          <node concept="3F0ifn" id="nWBHrKUPp$" role="3EZMnx">
+            <property role="3F0ifm" value="Export computed properties:" />
+          </node>
+          <node concept="2iRfu4" id="nWBHrKUPp_" role="2iSdaV" />
+          <node concept="3F0A7n" id="nWBHrKUPpA" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:nWBHrKUPp9" resolve="exportComputedProperties" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="39$JcGF9nIX" role="3EZMnx" />
       <node concept="3F0ifn" id="4Yo3buYkNOW" role="3EZMnx">

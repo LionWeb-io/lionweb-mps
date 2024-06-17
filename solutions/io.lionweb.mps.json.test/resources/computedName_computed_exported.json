@@ -1,0 +1,161 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "io-lionweb-mps-converter-TestComputedProperty",
+      "version": "0"
+    },
+    {
+      "key": "LionCore-builtins",
+      "version": "2023.1"
+    },
+    {
+      "key": "ODU4NTQ1M2UtNmJmYi00ZDgwLTk4ZGUtYjE2MDc0ZjFkODZj",
+      "version": "5"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "431394310313314020",
+      "classifier": {
+        "language": "io-lionweb-mps-converter-TestComputedProperty",
+        "version": "0",
+        "key": "ComputedProp"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedOptional"
+          },
+          "value": "aaa"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedRequired"
+          },
+          "value": "bbb"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-unconputedUndefined"
+          },
+          "value": "ccc"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringOptional"
+          },
+          "value": "computedStringOptional"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringRequired"
+          },
+          "value": "computedStringRequired"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedStringUndefined"
+          },
+          "value": "computedStringUndefined"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntOptional"
+          },
+          "value": "42"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntRequired"
+          },
+          "value": "23"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedIntUndefined"
+          },
+          "value": "37"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanOptional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanRequired"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-converter-TestComputedProperty",
+            "version": "0",
+            "key": "ComputedProp-computedBooleanUndefined"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "computedName"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [
+        "431394310313630312"
+      ],
+      "parent": "431394310313314016"
+    },
+    {
+      "id": "431394310313630312",
+      "classifier": {
+        "language": "ODU4NTQ1M2UtNmJmYi00ZDgwLTk4ZGUtYjE2MDc0ZjFkODZj",
+        "version": "5",
+        "key": "ODU4NTQ1M2UtNmJmYi00ZDgwLTk4ZGUtYjE2MDc0ZjFkODZjLzEyMTA2NzM2ODQ2MzY"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "computedName"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "431394310313314020"
+    }
+  ]
+}

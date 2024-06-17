@@ -146,6 +146,16 @@
       <property role="TrG5h" value="scope" />
       <ref role="AX2Wp" node="39$JcGFainj" resolve="InstanceExportScope" />
     </node>
+    <node concept="1TJgyi" id="nWBHrKUMX3" role="1TKVEl">
+      <property role="IQ2nx" value="431394310322859843" />
+      <property role="TrG5h" value="exportUnconvertedParentIds" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="nWBHrKUPp9" role="1TKVEl">
+      <property role="IQ2nx" value="431394310322869833" />
+      <property role="TrG5h" value="exportComputedProperties" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1QGGSu" id="5glO5qL6ePy" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/instance2json.png" />
     </node>

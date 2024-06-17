@@ -3398,6 +3398,71 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="nWBHrKVQK1" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="io.lionweb.mps.converter.TestComputedProperty" />
+        <property role="3LESm3" value="60791ea2-7a1d-4862-a1ef-f87878cc3b6e" />
+        <node concept="398BVA" id="nWBHrKVQU1" role="3LF7KH">
+          <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+          <node concept="2Ry0Ak" id="nWBHrKVQUO" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="nWBHrKVQWj" role="2Ry0An">
+              <property role="2Ry0Am" value="io.lionweb.mps.converter.TestComputedProperty" />
+              <node concept="2Ry0Ak" id="nWBHrKVQXM" role="2Ry0An">
+                <property role="2Ry0Am" value="io.lionweb.mps.converter.TestComputedProperty.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="nWBHrKVR7E" role="3bR37C">
+          <node concept="3bR9La" id="nWBHrKVR7F" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="nWBHrKVR7G" role="3bR37C">
+          <node concept="3bR9La" id="nWBHrKVR7H" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="nWBHrKVR7U" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="nWBHrKVR7V" role="1HemKq">
+            <node concept="398BVA" id="nWBHrKVR7I" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="nWBHrKVR7J" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="nWBHrKVR7K" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestComputedProperty" />
+                  <node concept="2Ry0Ak" id="nWBHrKVR7L" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="nWBHrKVR7W" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="nWBHrKVRa8" role="3bR31x">
+          <node concept="3LXTmp" id="nWBHrKVRa9" role="3rtmxm">
+            <node concept="398BVA" id="nWBHrKVRaa" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="nWBHrKVRab" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="nWBHrKVRac" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestComputedProperty" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="nWBHrKVRae" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="3RxvfZghCzp" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="io.lionweb.mps.converter.test.support" />
@@ -3748,6 +3813,11 @@
       <node concept="1SiIV0" id="34Q84zMMDQ6" role="3bR37C">
         <node concept="3bR9La" id="34Q84zMMDQ7" role="1SiIV1">
           <ref role="3bR37D" node="34Q84zMMDhU" resolve="io.lionweb.mps.converter.TestAbstract" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="nWBHrKVRkE" role="3bR37C">
+        <node concept="3bR9La" id="nWBHrKVRkF" role="1SiIV1">
+          <ref role="3bR37D" node="nWBHrKVQK1" resolve="io.lionweb.mps.converter.TestComputedProperty" />
         </node>
       </node>
     </node>
