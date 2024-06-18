@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0478e58a-48be-465a-8746-cdda32500d67(io.lionweb.mps.converter.TestAbstract.behavior)">
+<model ref="r:df79b20d-ee42-4f1d-bdd5-716973295189(io.lionweb.mps.converter.TestComputedProperty.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
