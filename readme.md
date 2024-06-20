@@ -116,9 +116,12 @@ The example assumes we merge `mps2021.1` into `mps2021.2`.
 6. Update build model
 
 
-## Publishing and releasing
+## Publishing and Releasing
 
 Use the `publish` task to publish a _snapshot_ version (i.e., versions ending with `-SNAPSHOT`), and the `release` task to release an _official_ version.
+
+**Note that you must publish/release from branches named `mps<yyyy>.<n>` where `<yyyy>`, `<n>` are the major, resp. minor version numbers of the MPS version targeted.**
+Currently, `<yyyy>` = 2021, and `<n>` = 1, 2, or 3.
 
 In order to be able to publish or release, you need to do the following:
 
@@ -128,12 +131,13 @@ In order to be able to publish or release, you need to do the following:
   <!-- **Check**: is this still accurate? -->
 
 2. Create an _user token_ for Sonatype:
-  * Log in on [https://s01.oss.sonatype.org/](https://s01.oss.sonatype.org/) — this is **not** the same site as [Maven Central](https://central.sonatype.com/)
-  * Go to your profile (dropdown under your user name in the top-right corner)
+  * Log in on [https://s01.oss.sonatype.org/](https://s01.oss.sonatype.org/) — which is **not** the same site as [Maven Central](https://central.sonatype.com/)! —, by clicking on the “Log in” button in the top-right corner 
+  * Go to your profile by clicking on your username in the top-right corner, and selecting “Profile”
+  * Click on the dropdown menu currently showing “Summary”, and select “User Token”
   * Click the “Generate User Token” (or “Access User Token” if you've already made one)
   * Set the username and password shown as the values of the `ossrhUsername` and `ossrhPassword` properties in `~/.gradle/gradle.properties`:
 
-    ```shell
+    ```properties
     ossrhUsername=<username>
     ossrhPassword=<password>
     ```
@@ -148,8 +152,6 @@ to publish a snapshot version, or
 
 to release an official version.
 The `release` task involves manual input, which should consist of pressing Enter every of the **two** times it's requested.
-
-**Note that you must only publish/release from a branch `mps2021.<n>` where `<n>` = 1, 2, or 3.**
 
 After that, perform the following steps in a browser.
 Note that interacting with this UI requires a bit of patience.
@@ -166,7 +168,8 @@ It's probably also good to not try and publish/release multiple versions at the 
 	Wait.
 6. 	Click the “Refresh” button once in a while, until the row disappears.
 7. Enter `lionweb` + Enter in the text input box under “Artifact Search” to see all artifacts related to LionWeb (including the Java ones).
-8. Look up the row with Artifact = `lionweb-mps-2021.<n>-lw2023.1`, and click on the “Show All Versions” link.
+8. Look up the row with Artifact = `lionweb-mps-<yyyy>.<n>-lw<v>`, and click on the “Show All Versions” link.
+	Here `<v>` is the identification of the version of the LionWeb specification targeted — currently, `<v>` = `2021.3`.
 9. Verify that the version that you wanted to release appears at the top of the resulting list.
 
 To test publishing to Maven Local:
