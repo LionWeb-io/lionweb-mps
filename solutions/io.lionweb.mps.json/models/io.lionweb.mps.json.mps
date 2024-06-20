@@ -253,6 +253,9 @@
       <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
         <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
+      <concept id="2217234381367190443" name="jetbrains.mps.baseLanguage.javadoc.structure.SeeBlockDocTag" flags="ng" index="VUp57">
+        <child id="2217234381367190458" name="reference" index="VUp5m" />
+      </concept>
       <concept id="2217234381367530212" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocReference" flags="ng" index="VXe08">
         <reference id="2217234381367530213" name="classifier" index="VXe09" />
       </concept>
@@ -4674,6 +4677,18 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="5JNiskj4Oxw" role="1B3o_S" />
+      <node concept="P$JXv" id="5M8g5cS_YzB" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_YA_" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_YAA" role="1dT_Ay">
+            <property role="1dT_AB" value="All LionCore builtin primitive types as JSON DataType." />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_YEV" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_YMV" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3k19" resolve="listLcPrimitiveTypes" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5JNiskj4Oxy" role="jymVt" />
     <node concept="3clFb_" id="5JNiskj4Oxz" role="jymVt">
@@ -4685,6 +4700,18 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="5JNiskj4OxH" role="1B3o_S" />
+      <node concept="P$JXv" id="5M8g5cS_YN8" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cSA8Ky" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cSA8Kz" role="1dT_Ay">
+            <property role="1dT_AB" value="All LionCore builtin classifiers as JSON Classifier." />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cSA8M1" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSA8Nv" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jZs" resolve="listLcClassifiers" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5JNiskj4OxJ" role="jymVt" />
     <node concept="3clFb_" id="4Yo3buYJP_4" role="jymVt">
@@ -4693,6 +4720,24 @@
       <node concept="3Tm1VV" id="4Yo3buYJP_8" role="1B3o_S" />
       <node concept="3uibUv" id="4Yo3buYJPz9" role="3clF45">
         <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+      </node>
+      <node concept="P$JXv" id="5M8g5cSA8QE" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cSA8QF" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cSA8QG" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cSA9EQ" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cSA9F4" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cSA9F6" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cSA9Fl" role="92FcQ">
+                <ref role="VXe09" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cSA9EP" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="4Yo3buYJPxh" role="jymVt" />
@@ -4703,6 +4748,13 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskj4OxM" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4OxN" role="3clF47" />
+      <node concept="P$JXv" id="5M8g5cSA9HN" role="lGtFl">
+        <node concept="VUp57" id="5M8g5cSA9KL" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSA9NB" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jVi" resolve="lcStringType" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj4OxT" role="jymVt">
       <property role="TrG5h" value="getInteger" />
@@ -4711,6 +4763,13 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskj4OxV" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4OxW" role="3clF47" />
+      <node concept="P$JXv" id="5M8g5cSA9NO" role="lGtFl">
+        <node concept="VUp57" id="5M8g5cSA9Pp" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSA9TF" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jVW" resolve="lcIntegerType" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj4Oy2" role="jymVt">
       <property role="TrG5h" value="getBoolean" />
@@ -4719,6 +4778,13 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskj4Oy4" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4Oy5" role="3clF47" />
+      <node concept="P$JXv" id="5M8g5cSA9TS" role="lGtFl">
+        <node concept="VUp57" id="5M8g5cSA9Vt" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSA9ZJ" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jVB" resolve="lcBooleanType" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj4Oyb" role="jymVt">
       <property role="TrG5h" value="getJSON" />
@@ -4727,6 +4793,13 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskj4Oyd" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4Oye" role="3clF47" />
+      <node concept="P$JXv" id="5M8g5cSA9ZW" role="lGtFl">
+        <node concept="VUp57" id="5M8g5cSAa1x" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSAa5N" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jWh" resolve="lcJsonType" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj4Oyk" role="jymVt">
       <property role="TrG5h" value="getINamed" />
@@ -4735,6 +4808,13 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskj4Oym" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4Oyn" role="3clF47" />
+      <node concept="P$JXv" id="5M8g5cSAa60" role="lGtFl">
+        <node concept="VUp57" id="5M8g5cSAa7_" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSAabR" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jXc" resolve="lcINamedInterface" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj4Oyt" role="jymVt">
       <property role="TrG5h" value="getNode" />
@@ -4743,6 +4823,13 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskj4Oyv" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4Oyw" role="3clF47" />
+      <node concept="P$JXv" id="5M8g5cSAac4" role="lGtFl">
+        <node concept="VUp57" id="5M8g5cSAagw" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cSAajm" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiski3jWA" resolve="lcNodeConcept" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5JNiskj4Oxi" role="jymVt" />
     <node concept="3Tm1VV" id="5JNiskj4NAK" role="1B3o_S" />
@@ -4762,6 +4849,24 @@
       <node concept="3uibUv" id="5JNiskj6wRz" role="3clF45">
         <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_oz4" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_shD" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_shE" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.specific as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_som" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_so$" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_soA" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_t4J" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Language" resolve="Language" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_sol" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5JNiskj6wPP" role="jymVt" />
     <node concept="3clFb_" id="5JNiskj67eE" role="jymVt">
@@ -4771,6 +4876,29 @@
       <node concept="3uibUv" id="5JNiskj67dJ" role="3clF45">
         <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_sln" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_uJN" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_uJO" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.specific.lang.MPS-specific annotations.VirtualPackage as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_uMF" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_uMT" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_uMV" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_uNa" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Annotation" resolve="Annotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_uME" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_uQi" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_uTj" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiskipPo2" resolve="lcVirtualPackageAnnotation" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj67nR" role="jymVt">
       <property role="TrG5h" value="getVirtualPackage_Name" />
@@ -4778,6 +4906,29 @@
       <node concept="3Tm1VV" id="5JNiskj67nV" role="1B3o_S" />
       <node concept="3uibUv" id="5JNiskj67my" role="3clF45">
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_uWr" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_uWs" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_xnS" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.m3.builtin.Built-in DataTypes.INamed.name as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_xnT" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_xnU" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_xnV" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_xnW" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Annotation" resolve="Annotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_uWt" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_zkL" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_zqw" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiskir74n" resolve="lcVirtualPackage_NameProperty" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5JNiskj67qn" role="jymVt" />
@@ -4788,6 +4939,29 @@
       <node concept="3uibUv" id="5JNiskj67hP" role="3clF45">
         <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_xqw" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_zqN" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_zqO" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.specific.lang.MPS-specific annotations.ShortDescription as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_zqP" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_zqQ" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_zqR" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_zqS" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Annotation" resolve="Annotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_zqT" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_zzF" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_zDq" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiskipPPY" resolve="lcShortDescriptionAnnotation" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskj67rQ" role="jymVt">
       <property role="TrG5h" value="getShortDescription_Description" />
@@ -4795,6 +4969,29 @@
       <node concept="3Tm1VV" id="5JNiskj67rS" role="1B3o_S" />
       <node concept="3uibUv" id="5JNiskj67rT" role="3clF45">
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_zDL" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_zGJ" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_zGK" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.specific.lang.MPS-specific annotations.ShortDescription.description as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_zGL" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_zGM" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_zGN" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_zGO" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Property" resolve="Property" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_zGP" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_zPJ" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_zYj" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiskir8mM" resolve="lcShortDescription_DescriptionProperty" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5JNiskj67cR" role="jymVt" />
@@ -4871,6 +5068,18 @@
           <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
         </node>
       </node>
+      <node concept="P$JXv" id="5M8g5cS_zYE" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_zYF" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_zYG" role="1dT_Ay">
+            <property role="1dT_AB" value="All M1 JSON annotations that are converted from MPS node properties." />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_$ak" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_$fY" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiskjpaH9" resolve="listSpecificAnnotationProperties" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5JNiskjpjYQ" role="jymVt">
       <property role="TrG5h" value="listSpecificAnnotationMembers" />
@@ -4879,6 +5088,18 @@
       <node concept="_YKpA" id="5JNiskjpjW$" role="3clF45">
         <node concept="3uibUv" id="5JNiskjpjYN" role="_ZDj9">
           <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_$4u" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_$4v" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_$4w" role="1dT_Ay">
+            <property role="1dT_AB" value="All M1 JSON annotation properties that are converted from MPS node properties." />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_A9h" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_A9i" role="VUp5m">
+            <ref role="VXe0S" to="y7p:5JNiskjpaH9" resolve="listSpecificAnnotationProperties" />
+          </node>
         </node>
       </node>
     </node>
@@ -4892,6 +5113,35 @@
         </node>
         <node concept="3uibUv" id="5JNiskjt_sj" role="3rvSg0">
           <ref role="3uigEE" to="xfsv:~MetaPointer" resolve="MetaPointer" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_AkF" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_AkG" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_AkH" role="1dT_Ay">
+            <property role="1dT_AB" value="Map from " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_Bsf" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_Bsl" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_Bsn" role="2XjZqd" />
+              <node concept="VXe0Z" id="5M8g5cS_BsA" role="92FcQ">
+                <ref role="VXe0S" node="5JNiskjpjPN" resolve="listSpecificAnnotations" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_Bse" role="1dT_Ay">
+            <property role="1dT_AB" value=" to " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_Bts" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_BtJ" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_BtL" role="2XjZqd" />
+              <node concept="VXe0Z" id="5M8g5cS_Bu0" role="92FcQ">
+                <ref role="VXe0S" node="5JNiskjpjYQ" resolve="listSpecificAnnotationMembers" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_Btr" role="1dT_Ay">
+            <property role="1dT_AB" value="." />
+          </node>
         </node>
       </node>
     </node>
@@ -4914,6 +5164,18 @@
       <node concept="3uibUv" id="34Q84zNB8rv" role="3clF45">
         <ref role="3uigEE" to="imb3:~Annotation" resolve="Annotation" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_BxF" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_BxG" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_BxH" role="1dT_Ay">
+            <property role="1dT_AB" value="All M2 JSON annotations that are converted from MPS concept properties." />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_BBx" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_BK0" role="VUp5m">
+            <ref role="VXe0S" to="y7p:34Q84zNtsh8" resolve="listConceptDescriptionProperties" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="34Q84zNToVR" role="jymVt">
       <property role="TrG5h" value="getConceptDescriptionAnnotation_ConceptAlias" />
@@ -4922,6 +5184,32 @@
       <node concept="3uibUv" id="34Q84zNToVU" role="3clF45">
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_BKf" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_BKg" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_BT5" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.specific.lang.MPS-specific annotations.ConceptDescription.conceptAlias as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_BT6" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_BT7" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_BT8" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_BT9" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Property" resolve="Property" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_BTa" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_BKh" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_DGt" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_DMd" role="VUp5m">
+            <ref role="VXe0S" to="y7p:34Q84zNQVqH" resolve="mpsConceptAliasProperty" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="34Q84zNTp5n" role="jymVt">
       <property role="TrG5h" value="getConceptDescriptionAnnotation_ConceptShortDescription" />
@@ -4929,6 +5217,32 @@
       <node concept="3Tm1VV" id="34Q84zNTp5p" role="1B3o_S" />
       <node concept="3uibUv" id="34Q84zNTp5q" role="3clF45">
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_DMs" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_DPq" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_DPr" role="1dT_Ay">
+            <property role="1dT_AB" value="io.lionweb.mps.specific.lang.MPS-specific annotations.ConceptDescription.conceptShortDescription as JSON " />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_DPs" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_DPt" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_DPu" role="2XjZqd" />
+              <node concept="VXe08" id="5M8g5cS_DPv" role="92FcQ">
+                <ref role="VXe09" to="imb3:~Property" resolve="Property" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_DPw" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_DPx" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_E5h" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_Eb1" role="VUp5m">
+            <ref role="VXe0S" to="y7p:34Q84zNQWR0" resolve="mpsConceptShortDescriptionProperty" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="34Q84zNToUC" role="jymVt" />
@@ -4941,6 +5255,18 @@
           <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
         </node>
       </node>
+      <node concept="P$JXv" id="5M8g5cS_Ebo" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_Eh8" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_Eh9" role="1dT_Ay">
+            <property role="1dT_AB" value="All M2 JSON annotation properties that are converted from MPS concept properties." />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_EpG" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_Evm" role="VUp5m">
+            <ref role="VXe0S" to="y7p:34Q84zNtsh8" resolve="listConceptDescriptionProperties" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7weWCFlvJ3J" role="jymVt" />
     <node concept="3clFb_" id="7weWCFlwidJ" role="jymVt">
@@ -4950,6 +5276,24 @@
       <node concept="3uibUv" id="7weWCFlwi9Z" role="3clF45">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_EvH" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_EvI" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_EvJ" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_H9O" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_Ha2" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_Ha4" role="2XjZqd" />
+              <node concept="VXe0Z" id="5M8g5cS_Irm" role="92FcQ">
+                <ref role="VXe0S" to="cz4z:~LionCore.getAnnotation()" resolve="getAnnotation" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_H9N" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="7weWCFlwin$" role="jymVt">
       <property role="TrG5h" value="getClassifierConcept" />
@@ -4957,6 +5301,24 @@
       <node concept="3Tm1VV" id="7weWCFlwinA" role="1B3o_S" />
       <node concept="3uibUv" id="7weWCFlwinB" role="3clF45">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_IBF" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_IED" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_IEE" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_IEF" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_IEG" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_IEH" role="2XjZqd" />
+              <node concept="VXe0Z" id="5M8g5cS_IEI" role="92FcQ">
+                <ref role="VXe0S" to="cz4z:~LionCore.getClassifier()" resolve="getClassifier" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_IEJ" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="7weWCFlwj$H" role="jymVt">
@@ -4966,6 +5328,24 @@
       <node concept="3uibUv" id="7weWCFlwj$K" role="3clF45">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
       </node>
+      <node concept="P$JXv" id="5M8g5cS_INA" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_IQ$" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_IQ_" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_IQA" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_IQB" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_IQC" role="2XjZqd" />
+              <node concept="VXe0Z" id="5M8g5cS_IQD" role="92FcQ">
+                <ref role="VXe0S" to="cz4z:~LionCore.getConcept()" resolve="getConcept" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_IQE" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="7weWCFlwk05" role="jymVt">
       <property role="TrG5h" value="getInterfaceConcept" />
@@ -4973,6 +5353,24 @@
       <node concept="3Tm1VV" id="7weWCFlwk07" role="1B3o_S" />
       <node concept="3uibUv" id="7weWCFlwk08" role="3clF45">
         <ref role="3uigEE" to="imb3:~Concept" resolve="Concept" />
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_IZt" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_J2r" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_J2s" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5M8g5cS_J2t" role="1dT_Ay">
+            <node concept="92FcH" id="5M8g5cS_J2u" role="qph3F">
+              <node concept="TZ5HA" id="5M8g5cS_J2v" role="2XjZqd" />
+              <node concept="VXe0Z" id="5M8g5cS_J2w" role="92FcQ">
+                <ref role="VXe0S" to="cz4z:~LionCore.getInterface()" resolve="getInterface" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5M8g5cS_J2x" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="7weWCFlwedG" role="jymVt" />
@@ -4983,6 +5381,18 @@
       <node concept="_YKpA" id="7weWCFlvJ8_" role="3clF45">
         <node concept="3uibUv" id="7weWCFlvJc9" role="_ZDj9">
           <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="5M8g5cS_Jrc" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cS_Jrd" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cS_Jre" role="1dT_Ay">
+            <property role="1dT_AB" value="All JSON classifiers that need special treatment" />
+          </node>
+        </node>
+        <node concept="VUp57" id="5M8g5cS_Vv6" role="3nqlJM">
+          <node concept="VXe0Z" id="5M8g5cS_Y2B" role="VUp5m">
+            <ref role="VXe0S" to="y7p:7weWCFlqTiX" resolve="listSLanguageInternalClassifiers" />
+          </node>
         </node>
       </node>
     </node>
@@ -6083,6 +6493,12 @@
               <node concept="1rXfSq" id="7weWCFlwqSd" role="HW$Y0">
                 <ref role="37wK5l" node="7weWCFlwuJR" resolve="getClassifierConcept" />
               </node>
+              <node concept="1rXfSq" id="5M8g5cSALiW" role="HW$Y0">
+                <ref role="37wK5l" node="7weWCFlwuK0" resolve="getConceptConcept" />
+              </node>
+              <node concept="1rXfSq" id="5M8g5cSAPIi" role="HW$Y0">
+                <ref role="37wK5l" node="7weWCFlwuK9" resolve="getInterfaceConcept" />
+              </node>
             </node>
           </node>
         </node>
@@ -6216,6 +6632,24 @@
       <node concept="3Tm1VV" id="7weWCFlyex_" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="7weWCFlyclI" role="1B3o_S" />
+    <node concept="3UR2Jj" id="5M8g5cSAaxx" role="lGtFl">
+      <node concept="TZ5HA" id="5M8g5cSAaxy" role="TZ5H$">
+        <node concept="1dT_AC" id="5M8g5cSAaxz" role="1dT_Ay">
+          <property role="1dT_AB" value="Non-static access to " />
+        </node>
+        <node concept="1dT_AA" id="5M8g5cSAazU" role="1dT_Ay">
+          <node concept="92FcH" id="5M8g5cSAa$0" role="qph3F">
+            <node concept="TZ5HA" id="5M8g5cSAa$2" role="2XjZqd" />
+            <node concept="VXe08" id="5M8g5cSAaVw" role="92FcQ">
+              <ref role="VXe09" to="cz4z:~LionCore" resolve="LionCore" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="5M8g5cSAazT" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7weWCFlyxlE">
     <property role="3GE5qa" value="lionCoreAdapter" />
