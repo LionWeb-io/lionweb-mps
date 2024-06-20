@@ -1792,6 +1792,15 @@
           <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
+      <node concept="37vLTG" id="5M8g5cSCOGJ" role="3clF46">
+        <property role="TrG5h" value="annotationFinder" />
+        <node concept="3uibUv" id="5M8g5cSCOP8" role="1tU5fm">
+          <ref role="3uigEE" to="apzt:18UigYQMpCK" resolve="AnnotationFinder" />
+        </node>
+        <node concept="2AHcQZ" id="5M8g5cSCQ3d" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="3M8YG$9VNCL" role="3clF45" />
       <node concept="3Tm1VV" id="3M8YG$9VNCM" role="1B3o_S" />
       <node concept="3clFbS" id="3M8YG$9VNCU" role="3clF47">
@@ -1799,6 +1808,9 @@
           <ref role="37wK5l" to="apzt:24j7TNHl1J_" resolve="BuiltinsUsage" />
           <node concept="37vLTw" id="3M8YG$9VNCW" role="37wK5m">
             <ref role="3cqZAo" node="3M8YG$9VNCI" resolve="constants" />
+          </node>
+          <node concept="37vLTw" id="5M8g5cSDtBv" role="37wK5m">
+            <ref role="3cqZAo" node="5M8g5cSCOGJ" resolve="annotationFinder" />
           </node>
         </node>
       </node>

@@ -248,6 +248,15 @@
             <ref role="1NtTu8" to="d0tf:utjSYFId7H" resolve="scope" />
           </node>
         </node>
+        <node concept="3EZMnI" id="5M8g5cT5W13" role="3EZMnx">
+          <node concept="3F0ifn" id="5M8g5cT5W14" role="3EZMnx">
+            <property role="3F0ifm" value="Export description annotations:" />
+          </node>
+          <node concept="2iRfu4" id="5M8g5cT5W15" role="2iSdaV" />
+          <node concept="3F0A7n" id="5M8g5cT5W16" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:utjSYFId7H" resolve="scope" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="1q44RFSZQQ1" role="3EZMnx" />
       <node concept="3F0ifn" id="4Yo3buYkNTb" role="3EZMnx">
