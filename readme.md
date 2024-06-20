@@ -115,24 +115,63 @@ The example assumes we merge `mps2021.1` into `mps2021.2`.
 5. Run all tests
 6. Update build model
 
-## Publishing and Releasing
 
-Run:
+## Publishing and releasing
+
+Use the `publish` task to publish a _snapshot_ version (i.e., versions ending with `-SNAPSHOT`), and the `release` task to release an _official_ version.
+
+In order to be able to publish or release, you need to do the following:
+
+1. Register on Sonatype.
+	You'll need the corresponding credentials later on, but note that these are different from the user token you'll also need (to create).
+2. Ask to be added to the list of users authorized to release under `io.lionweb`.
+  <!-- **Check**: is this still accurate? -->
+
+2. Create an _user token_ for Sonatype:
+  * Log in on [https://s01.oss.sonatype.org/](https://s01.oss.sonatype.org/) — this is **not** the same site as [Maven Central](https://central.sonatype.com/)
+  * Go to your profile (dropdown under your user name in the top-right corner)
+  * Click the “Generate User Token” (or “Access User Token” if you've already made one)
+  * Set the username and password shown as the values of the `ossrhUsername` and `ossrhPassword` properties in `~/.gradle/gradle.properties`:
+
+    ```shell
+    ossrhUsername=<username>
+    ossrhPassword=<password>
+    ```
+
+After that, you should be able to publish/release by first running
+
+`./gradlew publish`
+
+to publish a snapshot version, or
 
 `./gradlew release`
 
-To publish to either Sonatype (for snapshot versions, i.e., versions ending with `-SNAPSHOT`) or to Maven Central.
-For doing that you need to configure your sonatype credentials in ~/.gradle/gradle.properties:
+to release an official version.
+The `release` task involves manual input, which should consist of pressing Enter every of the **two** times it's requested.
 
-```
-ossrhUsername=<username>
-ossrhPassword=<password>
+**Note that you must only publish/release from a branch `mps2021.<n>` where `<n>` = 1, 2, or 3.**
+
+After that, perform the following steps in a browser.
+Note that interacting with this UI requires a bit of patience.
+It's probably also good to not try and publish/release multiple versions at the same time.
+
+1. Go to [https://s01.oss.sonatype.org/](https://s01.oss.sonatype.org/) and log in with your general Sonatype credentials.
+2. Click on “Staging Repositories” on the left, then click the “Refresh” button, and wait a while.
+	(I'm afraid you'll have to get used to that particular action.)
+3. A row with Profile = `io.lionweb` and Status = `open` should appear: click the checkbox in front of it, click the “Close” button, and click the “Confirm” button in the modal dialog that appears.
+	Wait.
+4. Click the “Refresh” button once in a while, until Status = `closed`.
+	You can inspect the “Activity” tab to (try and) see (/infer) what's going.
+5. Click the “Release” button, and click the “Confirm” button in the modal dialog that appears.
+	Wait.
+6. 	Click the “Refresh” button once in a while, until the row disappears.
+7. Enter `lionweb` + Enter in the text input box under “Artifact Search” to see all artifacts related to LionWeb (including the Java ones).
+8. Look up the row with Artifact = `lionweb-mps-2021.<n>-lw2023.1`, and click on the “Show All Versions” link.
+9. Verify that the version that you wanted to release appears at the top of the resulting list.
+
+To test publishing to Maven Local:
+
+```shell
+./gradlew publishToMavenLocal
 ```
 
-In order to be able to relase you need to register on sonatype and then asked to be added to the list of users authorized to relase under `io.lionweb`.
-
-Alternatively one can use Maven Local while testing:
-
-```
-`./gradlew publishToMavenLocal`
-```
