@@ -3,7 +3,7 @@
 ## Next
 * Optionally export computed property values of instances to LionWeb JSON.
 
-* For concepts with alias and/or short description, export annotation with that information.  
+* For concepts with alias and/or short description, optinally export annotation with that information.  
 
 * Filter nodes of abstract concepts or interfaces from exporting to LionWeb JSON. 
 
