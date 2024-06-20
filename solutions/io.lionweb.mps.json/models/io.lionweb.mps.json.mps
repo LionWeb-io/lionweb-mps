@@ -3256,6 +3256,25 @@
       </node>
       <node concept="10Nm6u" id="24j7TNH1Ch5" role="33vP2m" />
     </node>
+    <node concept="2tJIrI" id="5M8g5cT5CKB" role="jymVt" />
+    <node concept="312cEg" id="5M8g5cT5Ge$" role="jymVt">
+      <property role="TrG5h" value="exportDescriptionAnnotations" />
+      <node concept="3Tm6S6" id="5M8g5cT5Dkw" role="1B3o_S" />
+      <node concept="3uibUv" id="5M8g5cT5D_C" role="1tU5fm">
+        <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+      </node>
+      <node concept="10Nm6u" id="5M8g5cT5MJx" role="33vP2m" />
+      <node concept="2AHcQZ" id="5M8g5cT5MJU" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="z59LJ" id="5M8g5cT5MLq" role="lGtFl">
+        <node concept="TZ5HA" id="5M8g5cT5MLr" role="TZ5H$">
+          <node concept="1dT_AC" id="5M8g5cT5MLs" role="1dT_Ay">
+            <property role="1dT_AB" value="If true, export concept description and/or alias as annotation." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5TNjoy1AP3l" role="jymVt" />
     <node concept="3clFbW" id="24j7TNH1A2A" role="jymVt">
       <node concept="37vLTG" id="5TNjoy1AdX$" role="3clF46">
@@ -3456,6 +3475,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5M8g5cT5O7W" role="3cqZAp" />
+        <node concept="3clFbJ" id="5M8g5cT5OVv" role="3cqZAp">
+          <node concept="3clFbS" id="5M8g5cT5OVx" role="3clFbx">
+            <node concept="3clFbF" id="5M8g5cT5QmL" role="3cqZAp">
+              <node concept="2OqwBi" id="5M8g5cT5QSs" role="3clFbG">
+                <node concept="37vLTw" id="5M8g5cT5QmJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5TNjoy1A$wU" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="5M8g5cT5Rga" role="2OqNvi">
+                  <ref role="37wK5l" to="5els:5M8g5cT4UjH" resolve="setExportDescriptionAnnotations" />
+                  <node concept="37vLTw" id="5M8g5cT5Ryx" role="37wK5m">
+                    <ref role="3cqZAo" node="5M8g5cT5Ge$" resolve="exportDescriptionAnnotations" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5M8g5cT5P$C" role="3clFbw">
+            <node concept="10Nm6u" id="5M8g5cT5POR" role="3uHU7w" />
+            <node concept="37vLTw" id="5M8g5cT5PcM" role="3uHU7B">
+              <ref role="3cqZAo" node="5M8g5cT5Ge$" resolve="exportDescriptionAnnotations" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="24j7TNH1ObR" role="3cqZAp" />
         <node concept="3clFbF" id="24j7TNH1Opg" role="3cqZAp">
           <node concept="15s5l7" id="5TNjoy1CFhH" role="lGtFl">
@@ -3531,6 +3574,30 @@
         <node concept="1dT_AC" id="5TNjoy1PdSB" role="1dT_Ay">
           <property role="1dT_AB" value="Facade to export MPS languages (M2) to JSON." />
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5M8g5cT5Ngm" role="jymVt">
+      <property role="TrG5h" value="setExportDescriptionAnnotations" />
+      <node concept="3cqZAl" id="5M8g5cT5Ngn" role="3clF45" />
+      <node concept="3Tm1VV" id="5M8g5cT5Ngo" role="1B3o_S" />
+      <node concept="3clFbS" id="5M8g5cT5Ngp" role="3clF47">
+        <node concept="3clFbF" id="5M8g5cT5Ngq" role="3cqZAp">
+          <node concept="37vLTI" id="5M8g5cT5Ngr" role="3clFbG">
+            <node concept="37vLTw" id="5M8g5cT5Ngs" role="37vLTx">
+              <ref role="3cqZAo" node="5M8g5cT5Ngt" resolve="exportDescriptionAnnotations" />
+            </node>
+            <node concept="2OqwBi" id="5M8g5cT5Ngj" role="37vLTJ">
+              <node concept="Xjq3P" id="5M8g5cT5Ngk" role="2Oq$k0" />
+              <node concept="2OwXpG" id="5M8g5cT5Ngl" role="2OqNvi">
+                <ref role="2Oxat5" node="5M8g5cT5Ge$" resolve="exportDescriptionAnnotations" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5M8g5cT5Ngt" role="3clF46">
+        <property role="TrG5h" value="exportDescriptionAnnotations" />
+        <node concept="10P_77" id="5M8g5cT5NQj" role="1tU5fm" />
       </node>
     </node>
   </node>

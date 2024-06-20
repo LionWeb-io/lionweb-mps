@@ -8,6 +8,10 @@
     {
       "key": "LionCore-builtins",
       "version": "2023.1"
+    },
+    {
+      "key": "io-lionweb-mps-specific",
+      "version": "0"
     }
   ],
   "nodes": [
@@ -255,8 +259,40 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "ShortDescription-ConceptDescription"
+      ],
       "parent": "io-lionweb-mps-specific"
+    },
+    {
+      "id": "ShortDescription-ConceptDescription",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "ConceptDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-conceptAlias"
+          },
+          "value": "short description"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "ShortDescription"
     },
     {
       "id": "ShortDescription-description",
@@ -381,8 +417,40 @@
           ]
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "VirtualPackage-ConceptDescription"
+      ],
       "parent": "io-lionweb-mps-specific"
+    },
+    {
+      "id": "VirtualPackage-ConceptDescription",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "ConceptDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-conceptAlias"
+          },
+          "value": "virtual package"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "VirtualPackage"
     },
     {
       "id": "io-lionweb-mps-specific",

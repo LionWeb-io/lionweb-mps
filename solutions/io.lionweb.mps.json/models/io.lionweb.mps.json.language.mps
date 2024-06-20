@@ -867,6 +867,13 @@
       </node>
     </node>
     <node concept="2tJIrI" id="48csSBNRe$G" role="jymVt" />
+    <node concept="312cEg" id="5M8g5cT4Mfo" role="jymVt">
+      <property role="TrG5h" value="exportDescriptionAnnotations" />
+      <node concept="3Tm6S6" id="5M8g5cT4Em8" role="1B3o_S" />
+      <node concept="10P_77" id="5M8g5cT4LHd" role="1tU5fm" />
+      <node concept="3clFbT" id="5M8g5cT4Trm" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="5M8g5cT4z7z" role="jymVt" />
     <node concept="3clFbW" id="48csSBNRe$T" role="jymVt">
       <node concept="3cqZAl" id="48csSBNRe$U" role="3clF45" />
       <node concept="3Tm1VV" id="48csSBNRe$V" role="1B3o_S" />
@@ -5819,6 +5826,16 @@
     <node concept="3clFb_" id="34Q84zNrGZj" role="jymVt">
       <property role="TrG5h" value="addDescription" />
       <node concept="3clFbS" id="34Q84zNrGZm" role="3clF47">
+        <node concept="3clFbJ" id="5M8g5cT5eVp" role="3cqZAp">
+          <node concept="3clFbS" id="5M8g5cT5eVr" role="3clFbx">
+            <node concept="3cpWs6" id="5M8g5cT5wHP" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="5M8g5cT5jnj" role="3clFbw">
+            <node concept="37vLTw" id="5M8g5cT5pXa" role="3fr31v">
+              <ref role="3cqZAo" node="5M8g5cT4Mfo" resolve="exportDescriptionAnnotations" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="3IM5Sl$orpE" role="3cqZAp">
           <node concept="3cpWsn" id="3IM5Sl$orpF" role="3cpWs9">
             <property role="TrG5h" value="concept" />
@@ -6235,6 +6252,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5M8g5cT52aM" role="jymVt" />
     <node concept="3Tm1VV" id="48csSBNRePS" role="1B3o_S" />
     <node concept="3UR2Jj" id="3Kqiw5yAhqw" role="lGtFl">
       <node concept="TZ5HA" id="3Kqiw5yAhqx" role="TZ5H$">
@@ -6278,6 +6296,45 @@
         <node concept="1dT_AC" id="3Kqiw5yAsfp" role="1dT_Ay">
           <property role="1dT_AB" value="The source of this converter are compiled languages inside MPS." />
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5M8g5cT4UjC" role="jymVt">
+      <property role="TrG5h" value="isExportDescriptionAnnotations" />
+      <node concept="10P_77" id="5M8g5cT4UjD" role="3clF45" />
+      <node concept="3Tm1VV" id="5M8g5cT4UjE" role="1B3o_S" />
+      <node concept="3clFbS" id="5M8g5cT4UjF" role="3clF47">
+        <node concept="3clFbF" id="5M8g5cT4UjG" role="3cqZAp">
+          <node concept="2OqwBi" id="5M8g5cT4Uj_" role="3clFbG">
+            <node concept="Xjq3P" id="5M8g5cT4UjA" role="2Oq$k0" />
+            <node concept="2OwXpG" id="5M8g5cT4UjB" role="2OqNvi">
+              <ref role="2Oxat5" node="5M8g5cT4Mfo" resolve="exportDescriptionAnnotations" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5M8g5cT4UjH" role="jymVt">
+      <property role="TrG5h" value="setExportDescriptionAnnotations" />
+      <node concept="3cqZAl" id="5M8g5cT4UjI" role="3clF45" />
+      <node concept="3Tm1VV" id="5M8g5cT4UjJ" role="1B3o_S" />
+      <node concept="3clFbS" id="5M8g5cT4UjK" role="3clF47">
+        <node concept="3clFbF" id="5M8g5cT4UjL" role="3cqZAp">
+          <node concept="37vLTI" id="5M8g5cT4UjM" role="3clFbG">
+            <node concept="37vLTw" id="5M8g5cT4UjN" role="37vLTx">
+              <ref role="3cqZAo" node="5M8g5cT4UjO" resolve="exportDescriptionAnnotations" />
+            </node>
+            <node concept="2OqwBi" id="5M8g5cT4Ujy" role="37vLTJ">
+              <node concept="Xjq3P" id="5M8g5cT4Ujz" role="2Oq$k0" />
+              <node concept="2OwXpG" id="5M8g5cT4Uj$" role="2OqNvi">
+                <ref role="2Oxat5" node="5M8g5cT4Mfo" resolve="exportDescriptionAnnotations" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5M8g5cT4UjO" role="3clF46">
+        <property role="TrG5h" value="exportDescriptionAnnotations" />
+        <node concept="10P_77" id="5M8g5cT4UjP" role="1tU5fm" />
       </node>
     </node>
   </node>
