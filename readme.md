@@ -169,7 +169,7 @@ It's probably also good to not try and publish/release multiple versions at the 
 6. 	Click the “Refresh” button once in a while, until the row disappears.
 7. Enter `lionweb` + Enter in the text input box under “Artifact Search” to see all artifacts related to LionWeb (including the Java ones).
 8. Look up the row with Artifact = `lionweb-mps-<yyyy>.<n>-lw<v>`, and click on the “Show All Versions” link.
-	Here `<v>` is the identification of the version of the LionWeb specification targeted — currently, `<v>` = `2021.3`.
+	Here `<v>` is the identification of the version of the LionWeb specification targeted — currently, `<v>` = `2023.1`.
 9. Verify that the version that you wanted to release appears at the top of the resulting list.
 
 To test publishing to Maven Local:
