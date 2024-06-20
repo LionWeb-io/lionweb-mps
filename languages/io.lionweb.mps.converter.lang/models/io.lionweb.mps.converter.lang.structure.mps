@@ -223,6 +223,11 @@
       <property role="TrG5h" value="scope" />
       <ref role="AX2Wp" node="utjSYFIbxq" resolve="LanguageExportScope" />
     </node>
+    <node concept="1TJgyi" id="5M8g5cT5W10" role="1TKVEl">
+      <property role="IQ2nx" value="6667649974506340416" />
+      <property role="TrG5h" value="exportDescriptionAnnotations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="1q44RFSZQBV" role="PzmwI">
       <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
     </node>

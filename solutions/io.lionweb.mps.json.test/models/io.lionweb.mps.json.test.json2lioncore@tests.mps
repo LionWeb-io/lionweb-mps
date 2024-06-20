@@ -54,6 +54,9 @@
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -287,6 +290,11 @@
                           <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                           <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                         </node>
+                        <node concept="2ShNRf" id="7weWCFlyI7w" role="37wK5m">
+                          <node concept="HV5vD" id="7weWCFlyJjA" role="2ShVmc">
+                            <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -349,6 +357,11 @@
                         <node concept="2YIFZM" id="5ocQ9W1xKKO" role="37wK5m">
                           <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                           <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                        </node>
+                        <node concept="2ShNRf" id="7weWCFlyWof" role="37wK5m">
+                          <node concept="HV5vD" id="7weWCFlyWog" role="2ShVmc">
+                            <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -523,6 +536,11 @@
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                     </node>
+                    <node concept="2ShNRf" id="7weWCFlyWVP" role="37wK5m">
+                      <node concept="HV5vD" id="7weWCFlyWVQ" role="2ShVmc">
+                        <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="2ShNRf" id="1xqd6pt3WZ0" role="37wK5m">
@@ -692,6 +710,11 @@
                     <node concept="2YIFZM" id="6_BZUoIhBEz" role="37wK5m">
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+                    </node>
+                    <node concept="2ShNRf" id="7weWCFlyXdF" role="37wK5m">
+                      <node concept="HV5vD" id="7weWCFlyXdG" role="2ShVmc">
+                        <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                      </node>
                     </node>
                   </node>
                 </node>
