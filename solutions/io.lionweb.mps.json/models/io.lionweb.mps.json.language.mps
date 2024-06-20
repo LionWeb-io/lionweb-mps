@@ -566,6 +566,9 @@
                       <node concept="37vLTw" id="3M8YG$aA7XW" role="37wK5m">
                         <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                       </node>
+                      <node concept="37vLTw" id="5M8g5cSRWrf" role="37wK5m">
+                        <ref role="3cqZAo" node="18UigYQMTew" resolve="annotationFinder" />
+                      </node>
                       <node concept="37vLTw" id="utjSYGdDUY" role="37wK5m">
                         <ref role="3cqZAo" node="utjSYGdtbw" resolve="additionalLanguages" />
                       </node>
@@ -2177,6 +2180,9 @@
               </node>
               <node concept="37vLTw" id="3M8YG$aB6LR" role="37wK5m">
                 <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
+              </node>
+              <node concept="37vLTw" id="5M8g5cSSfmj" role="37wK5m">
+                <ref role="3cqZAo" node="18UigYQMTew" resolve="annotationFinder" />
               </node>
               <node concept="2ShNRf" id="3M8YG$aB6LS" role="37wK5m">
                 <node concept="2HTt$P" id="3M8YG$aB6LT" role="2ShVmc">
@@ -9752,6 +9758,9 @@
               </node>
               <node concept="37vLTw" id="2GPsfcbeTn2" role="37wK5m">
                 <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
+              </node>
+              <node concept="37vLTw" id="5M8g5cSRJoE" role="37wK5m">
+                <ref role="3cqZAo" node="18UigYQMTew" resolve="annotationFinder" />
               </node>
               <node concept="2ShNRf" id="2GPsfcbeTn3" role="37wK5m">
                 <node concept="2HTt$P" id="2GPsfcbeTn4" role="2ShVmc">
