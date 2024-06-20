@@ -12,7 +12,7 @@
   ],
   "nodes": [
     {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3",
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
@@ -25,7 +25,7 @@
             "version": "2023.1",
             "key": "IKeyed-key"
           },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
         },
         {
           "property": {
@@ -41,7 +41,7 @@
             "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
-          "value": "io.lionweb.mps.converter.TestAbstract"
+          "value": "io.lionweb.mps.converter.TestLanguageAnnotation"
         }
       ],
       "containments": [
@@ -52,13 +52,12 @@
             "key": "Language-entities"
           },
           "children": [
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MDk",
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTE",
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTM",
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTQ",
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTc",
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTk",
-            "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjMzODY"
+            "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAwODA",
+            "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxODc",
+            "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxOTI",
+            "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxOTc",
+            "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1ODI5NjM",
+            "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1ODI5NjQ"
           ]
         }
       ],
@@ -76,238 +75,7 @@
       "parent": null
     },
     {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MDk",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-abstract"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-partition"
-          },
-          "value": "true"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MDk"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "ConcretePartition"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
-            }
-          ]
-        },
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-implements"
-          },
-          "targets": []
-        }
-      ],
-      "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
-    },
-    {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTE",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-abstract"
-          },
-          "value": "true"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-partition"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTE"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "AbstractConcept"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
-            }
-          ]
-        },
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-implements"
-          },
-          "targets": []
-        }
-      ],
-      "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
-    },
-    {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTM",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-abstract"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-partition"
-          },
-          "value": "false"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTM"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "ConcreteConcept"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
-            }
-          ]
-        },
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-implements"
-          },
-          "targets": []
-        }
-      ],
-      "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
-    },
-    {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTQ",
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAwODA",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
@@ -320,7 +88,7 @@
             "version": "2023.1",
             "key": "IKeyed-key"
           },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTQ"
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAwODA"
         },
         {
           "property": {
@@ -328,7 +96,7 @@
             "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
-          "value": "AbstractAnnotation"
+          "value": "ClassifierAnnotation"
         }
       ],
       "containments": [
@@ -350,8 +118,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
+              "resolveInfo": "Classifier",
+              "reference": "-id-Classifier"
             }
           ]
         },
@@ -373,10 +141,10 @@
         }
       ],
       "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
+      "parent": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
     },
     {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTc",
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxODc",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
@@ -389,7 +157,7 @@
             "version": "2023.1",
             "key": "IKeyed-key"
           },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTc"
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxODc"
         },
         {
           "property": {
@@ -397,7 +165,7 @@
             "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
-          "value": "ConcreteAnnotation"
+          "value": "ConceptAnnotation"
         }
       ],
       "containments": [
@@ -419,8 +187,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
+              "resolveInfo": "Concept",
+              "reference": "-id-Concept"
             }
           ]
         },
@@ -442,10 +210,225 @@
         }
       ],
       "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
+      "parent": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
     },
     {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTk",
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxOTI",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Annotation"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxOTI"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "InterfaceAnnotation"
+        }
+      ],
+      "containments": [
+        {
+          "containment": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Classifier-features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Annotation-annotates"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Interface",
+              "reference": "-id-Interface"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Annotation-extends"
+          },
+          "targets": []
+        },
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Annotation-implements"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
+    },
+    {
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxOTc",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Annotation"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1NjAxOTc"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "AnnotationAnnotation"
+        }
+      ],
+      "containments": [
+        {
+          "containment": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Classifier-features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Annotation-annotates"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Annotation",
+              "reference": "-id-Annotation"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Annotation-extends"
+          },
+          "targets": []
+        },
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Annotation-implements"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
+    },
+    {
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1ODI5NjM",
+      "classifier": {
+        "language": "LionCore-M3",
+        "version": "2023.1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Concept-abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Concept-partition"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "IKeyed-key"
+          },
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1ODI5NjM"
+        },
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "TrialConcept"
+        }
+      ],
+      "containments": [
+        {
+          "containment": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Classifier-features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Concept-extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Node",
+              "reference": "LionCore-builtins-Node"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "language": "LionCore-M3",
+            "version": "2023.1",
+            "key": "Concept-implements"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
+    },
+    {
+      "id": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1ODI5NjQ",
       "classifier": {
         "language": "LionCore-M3",
         "version": "2023.1",
@@ -458,7 +441,7 @@
             "version": "2023.1",
             "key": "IKeyed-key"
           },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjM5MTk"
+          "value": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUwLzY2Njc2NDk5NzQ0OTg1ODI5NjQ"
         },
         {
           "property": {
@@ -466,7 +449,7 @@
             "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
-          "value": "AbstractInterface"
+          "value": "TrialInterface"
         }
       ],
       "containments": [
@@ -490,84 +473,7 @@
         }
       ],
       "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
-    },
-    {
-      "id": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjMzODY",
-      "classifier": {
-        "language": "LionCore-M3",
-        "version": "2023.1",
-        "key": "Concept"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-abstract"
-          },
-          "value": "true"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-partition"
-          },
-          "value": "true"
-        },
-        {
-          "property": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "IKeyed-key"
-          },
-          "value": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3LzM1NDYwNTcyNTQyODAxNjMzODY"
-        },
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "AbstractPartition"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Classifier-features"
-          },
-          "children": []
-        }
-      ],
-      "references": [
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-extends"
-          },
-          "targets": [
-            {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node"
-            }
-          ]
-        },
-        {
-          "reference": {
-            "language": "LionCore-M3",
-            "version": "2023.1",
-            "key": "Concept-implements"
-          },
-          "targets": []
-        }
-      ],
-      "annotations": [],
-      "parent": "M2VjZDczN2ItNDE4Yi00YTcwLWE5OTEtZjZiODNmMGUzMjQ3"
+      "parent": "ZDg2ODVhYTQtOTRhMC00NmY5LWExNGUtODE4YmIxMmM1YzUw"
     }
   ]
 }

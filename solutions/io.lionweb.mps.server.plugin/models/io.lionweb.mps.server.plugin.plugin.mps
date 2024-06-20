@@ -1370,6 +1370,11 @@
                       <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
                       <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
                     </node>
+                    <node concept="2ShNRf" id="7weWCFlyI7w" role="37wK5m">
+                      <node concept="HV5vD" id="7weWCFlyJjA" role="2ShVmc">
+                        <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

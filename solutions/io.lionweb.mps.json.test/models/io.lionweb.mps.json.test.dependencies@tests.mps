@@ -65,6 +65,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -544,6 +547,29 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="5M8g5cT6HVk" role="1SL9yI">
+      <property role="TrG5h" value="pluginStandaloneAnnotated" />
+      <node concept="3cqZAl" id="5M8g5cT6HVl" role="3clF45" />
+      <node concept="3clFbS" id="5M8g5cT6HVm" role="3clF47">
+        <node concept="3clFbF" id="5M8g5cT6HVn" role="3cqZAp">
+          <node concept="2OqwBi" id="5M8g5cT6HVo" role="3clFbG">
+            <node concept="2WthIp" id="5M8g5cT6HVp" role="2Oq$k0" />
+            <node concept="2XshWL" id="5M8g5cT6HVq" role="2OqNvi">
+              <ref role="2WH_rO" node="5M8g5cT6G2T" resolve="exportAnnotated" />
+              <node concept="pHN19" id="5M8g5cT6HVr" role="2XxRq1">
+                <node concept="2V$Bhx" id="5M8g5cT6HVs" role="2V$M_3">
+                  <property role="2V$B1T" value="ef7bf5ac-d06c-4342-b11d-e42104eb9343" />
+                  <property role="2V$B1Q" value="jetbrains.mps.lang.plugin.standalone" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5M8g5cT6HVt" role="2XxRq1">
+                <property role="Xl_RC" value="TestDeps-PluginStandalone-annotated.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1LZb2c" id="7dKo5gqksSc" role="1SL9yI">
       <property role="TrG5h" value="avoidMultipleConcepts" />
       <node concept="3cqZAl" id="7dKo5gqksSd" role="3clF45" />
@@ -604,6 +630,140 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="5ocQ9W1x$W0" role="1B3o_S" />
+    </node>
+    <node concept="2XrIbr" id="5M8g5cT6G2T" role="1qtyYc">
+      <property role="TrG5h" value="exportAnnotated" />
+      <node concept="37vLTG" id="5M8g5cT6G2U" role="3clF46">
+        <property role="TrG5h" value="language" />
+        <node concept="3uibUv" id="5M8g5cT6G2V" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5M8g5cT6G2W" role="3clF46">
+        <property role="TrG5h" value="fileName" />
+        <node concept="17QB3L" id="5M8g5cT6G2X" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="5M8g5cT6G2Y" role="3clF45" />
+      <node concept="3clFbS" id="5M8g5cT6G2Z" role="3clF47">
+        <node concept="3cpWs8" id="5M8g5cT6Gcq" role="3cqZAp">
+          <node concept="3cpWsn" id="5M8g5cT6Gcn" role="3cpWs9">
+            <property role="TrG5h" value="languages" />
+            <node concept="A3Dl8" id="5M8g5cT6Gco" role="1tU5fm">
+              <node concept="3uibUv" id="5M8g5cT6Gcp" role="A3Ik2">
+                <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="5M8g5cT6G34" role="33vP2m">
+              <node concept="2HTt$P" id="5M8g5cT6G35" role="2ShVmc">
+                <node concept="3uibUv" id="5M8g5cT6G36" role="2HTBi0">
+                  <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
+                </node>
+                <node concept="37vLTw" id="5M8g5cT6G37" role="2HTEbv">
+                  <ref role="3cqZAo" node="5M8g5cT6G2U" resolve="language" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5M8g5cT6GbR" role="3cqZAp">
+          <node concept="3cpWsn" id="5M8g5cT6GbS" role="3cpWs9">
+            <property role="TrG5h" value="repository" />
+            <node concept="3uibUv" id="5M8g5cT6GbT" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="5M8g5cT6GbU" role="33vP2m">
+              <node concept="1jGwE1" id="5M8g5cT6GbV" role="2Oq$k0" />
+              <node concept="liA8E" id="5M8g5cT6GbW" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5M8g5cT6GbX" role="3cqZAp">
+          <node concept="3cpWsn" id="5M8g5cT6GbY" role="3cpWs9">
+            <property role="TrG5h" value="converter" />
+            <node concept="3uibUv" id="5M8g5cT6GbZ" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:24j7TNH1_mG" resolve="M2ToJson" />
+            </node>
+            <node concept="2ShNRf" id="5M8g5cT6Gc0" role="33vP2m">
+              <node concept="1pGfFk" id="5M8g5cT6Gc1" role="2ShVmc">
+                <ref role="37wK5l" to="6peh:24j7TNH1A2A" resolve="M2ToJson" />
+                <node concept="37vLTw" id="5M8g5cT6Gc2" role="37wK5m">
+                  <ref role="3cqZAo" node="5M8g5cT6GbS" resolve="repository" />
+                </node>
+                <node concept="37vLTw" id="5M8g5cT6Gcs" role="37wK5m">
+                  <ref role="3cqZAo" node="5M8g5cT6Gcn" resolve="languages" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5M8g5cT6GY0" role="3cqZAp">
+          <node concept="2OqwBi" id="5M8g5cT6Hfr" role="3clFbG">
+            <node concept="37vLTw" id="5M8g5cT6GXY" role="2Oq$k0">
+              <ref role="3cqZAo" node="5M8g5cT6GbY" resolve="converter" />
+            </node>
+            <node concept="liA8E" id="5M8g5cT6H$Q" role="2OqNvi">
+              <ref role="37wK5l" to="6peh:5M8g5cT5Ngm" resolve="setExportDescriptionAnnotations" />
+              <node concept="3clFbT" id="5M8g5cT6HJn" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5M8g5cT6Gc4" role="3cqZAp">
+          <node concept="3cpWsn" id="5M8g5cT6Gc5" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="A3Dl8" id="5M8g5cT6Gc6" role="1tU5fm">
+              <node concept="3uibUv" id="5M8g5cT6Gc7" role="A3Ik2">
+                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5M8g5cT6Gc8" role="33vP2m">
+              <node concept="37vLTw" id="5M8g5cT6Gc9" role="2Oq$k0">
+                <ref role="3cqZAo" node="5M8g5cT6GbY" resolve="converter" />
+              </node>
+              <node concept="liA8E" id="5M8g5cT6Gca" role="2OqNvi">
+                <ref role="37wK5l" to="6peh:24j7TNH1Bia" resolve="convert" />
+                <node concept="Rm8GO" id="5M8g5cT6Gcb" role="37wK5m">
+                  <ref role="Rm8GQ" to="6peh:utjSYFI7F7" resolve="fineGrainedClosure" />
+                  <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5M8g5cT6Gcc" role="3cqZAp">
+          <node concept="3cpWsn" id="5M8g5cT6Gcd" role="3cpWs9">
+            <property role="TrG5h" value="comparer" />
+            <node concept="3uibUv" id="5M8g5cT6Gce" role="1tU5fm">
+              <ref role="3uigEE" to="kte7:24j7TNH2adn" resolve="M2JsonComparer" />
+            </node>
+            <node concept="2ShNRf" id="5M8g5cT6Gcf" role="33vP2m">
+              <node concept="1pGfFk" id="5M8g5cT6Gcg" role="2ShVmc">
+                <ref role="37wK5l" to="kte7:24j7TNH2adB" resolve="M2JsonComparer" />
+                <node concept="37vLTw" id="5M8g5cT6Gch" role="37wK5m">
+                  <ref role="3cqZAo" node="5M8g5cT6G2W" resolve="fileName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5M8g5cT6Gci" role="3cqZAp">
+          <node concept="2OqwBi" id="5M8g5cT6Gcj" role="3clFbG">
+            <node concept="37vLTw" id="5M8g5cT6Gck" role="2Oq$k0">
+              <ref role="3cqZAo" node="5M8g5cT6Gcd" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="5M8g5cT6Gcl" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:5TNjoy24N5P" resolve="assertSortedEquals" />
+              <node concept="37vLTw" id="5M8g5cT6Gcm" role="37wK5m">
+                <ref role="3cqZAo" node="5M8g5cT6Gc5" resolve="result" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="5M8g5cT6G39" role="1B3o_S" />
     </node>
     <node concept="2XrIbr" id="4Yo3buYIfVq" role="1qtyYc">
       <property role="TrG5h" value="export" />

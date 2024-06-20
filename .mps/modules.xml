@@ -13,6 +13,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLangBroken/io.lionweb.mps.converter.TestLangBroken.mpl" folder="xx_broken" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLanguageAnnotation/io.lionweb.mps.converter.TestLanguageAnnotation.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestRefs/io.lionweb.mps.converter.TestRefs.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates/io.lionweb.mps.converter.deps.AnnotationAnnotates.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node.mpl" folder="test.dependencies" />
