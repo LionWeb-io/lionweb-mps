@@ -254,7 +254,7 @@
           </node>
           <node concept="2iRfu4" id="5M8g5cT5W15" role="2iSdaV" />
           <node concept="3F0A7n" id="5M8g5cT5W16" role="3EZMnx">
-            <ref role="1NtTu8" to="d0tf:utjSYFId7H" resolve="scope" />
+            <ref role="1NtTu8" to="d0tf:5M8g5cT5W10" resolve="exportDescriptionAnnotations" />
           </node>
         </node>
       </node>
