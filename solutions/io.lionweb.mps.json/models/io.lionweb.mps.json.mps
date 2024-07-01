@@ -6566,6 +6566,9 @@
               <node concept="1rXfSq" id="5M8g5cSAPIi" role="HW$Y0">
                 <ref role="37wK5l" node="7weWCFlwuK9" resolve="getInterfaceConcept" />
               </node>
+              <node concept="1rXfSq" id="6Z_tmAeidwg" role="HW$Y0">
+                <ref role="37wK5l" node="5TNjoy1vudm" resolve="getINamed" />
+              </node>
             </node>
           </node>
         </node>
