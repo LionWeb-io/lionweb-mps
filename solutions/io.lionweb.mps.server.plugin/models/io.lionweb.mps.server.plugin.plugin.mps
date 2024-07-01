@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:e9aef8de-c070-4f17-bc53-8d34ed91e36a(io.lionweb.mps.server.plugin.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="817e4e70-961e-4a95-98a1-15e9f32231f1" name="jetbrains.mps.ide.httpsupport" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
@@ -1373,6 +1374,14 @@
                     <node concept="2ShNRf" id="7weWCFlyI7w" role="37wK5m">
                       <node concept="HV5vD" id="7weWCFlyJjA" role="2ShVmc">
                         <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="7OJcYqxWU5C" role="37wK5m">
+                      <node concept="1pGfFk" id="7OJcYqxWU$b" role="2ShVmc">
+                        <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                        <node concept="37vLTw" id="7OJcYqxWW1H" role="37wK5m">
+                          <ref role="3cqZAo" node="3f2P4cbACoK" resolve="repository" />
+                        </node>
                       </node>
                     </node>
                   </node>

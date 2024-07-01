@@ -18,6 +18,8 @@
     <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lioncore.java/)" />
     <import index="cz4z" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.self(io.lionweb.lioncore.java/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="ofrr" ref="r:6a974d9b-2388-4f82-8f03-f540b2d0448e(io.lionweb.mps.json.test.json2lioncore@tests)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -334,6 +336,7 @@
                         <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
                       </node>
                     </node>
+                    <node concept="10Nm6u" id="7OJcYqxXqvw" role="37wK5m" />
                   </node>
                 </node>
               </node>
@@ -824,6 +827,7 @@
                             <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
                           </node>
                         </node>
+                        <node concept="10Nm6u" id="7OJcYqxXtXS" role="37wK5m" />
                       </node>
                     </node>
                     <node concept="liA8E" id="5TNjoy1x3nU" role="2OqNvi">
@@ -1128,6 +1132,7 @@
                         <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
                       </node>
                     </node>
+                    <node concept="10Nm6u" id="7OJcYqxXlnt" role="37wK5m" />
                   </node>
                 </node>
               </node>

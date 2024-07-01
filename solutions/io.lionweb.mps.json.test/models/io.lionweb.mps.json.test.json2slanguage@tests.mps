@@ -18,6 +18,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
+    <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -1085,6 +1086,20 @@
         </node>
         <node concept="3J1_TO" id="5ocQ9W1vI8z" role="3cqZAp">
           <node concept="3clFbS" id="5ocQ9W1vI8$" role="1zxBo7">
+            <node concept="3cpWs8" id="4R9posqYZ0B" role="3cqZAp">
+              <node concept="3cpWsn" id="4R9posqYZ0C" role="3cpWs9">
+                <property role="TrG5h" value="repository" />
+                <node concept="3uibUv" id="4R9posqYWF_" role="1tU5fm">
+                  <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+                </node>
+                <node concept="2OqwBi" id="4R9posqYZ0D" role="33vP2m">
+                  <node concept="1jGwE1" id="4R9posqYZ0E" role="2Oq$k0" />
+                  <node concept="liA8E" id="4R9posqYZ0F" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="5ocQ9W1vI8_" role="3cqZAp">
               <node concept="3cpWsn" id="5ocQ9W1vI8A" role="3cpWs9">
                 <property role="TrG5h" value="deserializer" />
@@ -1112,6 +1127,14 @@
                         <node concept="2ShNRf" id="7weWCFlyI7w" role="37wK5m">
                           <node concept="HV5vD" id="7weWCFlyJjA" role="2ShVmc">
                             <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                          </node>
+                        </node>
+                        <node concept="2ShNRf" id="7OJcYqxWU5C" role="37wK5m">
+                          <node concept="1pGfFk" id="7OJcYqxWU$b" role="2ShVmc">
+                            <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
+                            <node concept="37vLTw" id="7OJcYqxWW1H" role="37wK5m">
+                              <ref role="3cqZAo" node="4R9posqYZ0C" resolve="repository" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -1166,20 +1189,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="5ocQ9W1vI90" role="3cqZAp" />
-            <node concept="3cpWs8" id="4R9posqYZ0B" role="3cqZAp">
-              <node concept="3cpWsn" id="4R9posqYZ0C" role="3cpWs9">
-                <property role="TrG5h" value="repository" />
-                <node concept="3uibUv" id="4R9posqYWF_" role="1tU5fm">
-                  <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-                </node>
-                <node concept="2OqwBi" id="4R9posqYZ0D" role="33vP2m">
-                  <node concept="1jGwE1" id="4R9posqYZ0E" role="2Oq$k0" />
-                  <node concept="liA8E" id="4R9posqYZ0F" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="1xqd6ptvjLA" role="3cqZAp" />
             <node concept="3cpWs8" id="5ocQ9W1vI9q" role="3cqZAp">
               <node concept="3cpWsn" id="5ocQ9W1vI9r" role="3cpWs9">
