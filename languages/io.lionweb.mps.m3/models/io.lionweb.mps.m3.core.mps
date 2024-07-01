@@ -100,6 +100,30 @@
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
+    <node concept="2RzPWn" id="7OJcYqxxt15" role="2RzR6B">
+      <property role="2RzON1" value="Annotation" />
+      <property role="TrG5h" value="Annotation" />
+      <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
+      <node concept="2RzOpR" id="7OJcYqxxtbn" role="2RzPPN">
+        <property role="2RzON1" value="Annotation-annotates" />
+        <property role="TrG5h" value="annotates" />
+        <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
+      </node>
+      <node concept="2RzOpR" id="7OJcYqxxtbf" role="2RzPPN">
+        <property role="2RzON1" value="Annotation-extends" />
+        <property role="TrG5h" value="extends" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="false" />
+        <ref role="2RzQvY" node="7OJcYqxxt15" resolve="Annotation" />
+      </node>
+      <node concept="2RzOpR" id="7OJcYqxxtbg" role="2RzPPN">
+        <property role="2RzON1" value="Annotation-implements" />
+        <property role="TrG5h" value="implements" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="5sACIIs$PgY" resolve="Interface" />
+      </node>
+    </node>
     <node concept="2RzPWn" id="5sACIIs$Phb" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Containment" />
