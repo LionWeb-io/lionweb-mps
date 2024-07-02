@@ -6365,7 +6365,7 @@
               <node concept="1pGfFk" id="7OJcYqydvKf" role="2ShVmc">
                 <ref role="37wK5l" node="7OJcYq_2OAc" resolve="JsonAnnotationPropertyStaple" />
                 <node concept="37vLTw" id="7OJcYq_4yl5" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYq_4ykU" resolve="iNamedName" />
+                  <ref role="3cqZAo" node="7OJcYq_1K_1" resolve="description" />
                 </node>
                 <node concept="37vLTw" id="7OJcYqydvKg" role="37wK5m">
                   <ref role="3cqZAo" node="7OJcYqyqtIN" resolve="shortDescription" />
