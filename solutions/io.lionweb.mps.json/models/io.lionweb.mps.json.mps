@@ -245,6 +245,7 @@
       </concept>
       <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
@@ -7671,6 +7672,40 @@
       <property role="TrG5h" value="STAPLE" />
       <node concept="3uibUv" id="7OJcYqxQZL0" role="3ztrMU">
         <ref role="3uigEE" to="y7p:7OJcYqvKf0O" resolve="IKeyedStaple" />
+      </node>
+    </node>
+    <node concept="3UR2Jj" id="alE3w2ldUw" role="lGtFl">
+      <node concept="TZ5HA" id="alE3w2ldo1" role="TZ5H$">
+        <node concept="1dT_AC" id="alE3w2ldo2" role="1dT_Ay">
+          <property role="1dT_AB" value="Staples[1] together representations of the same thing in different representations." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="alE3w2ldq1" role="TZ5H$">
+        <node concept="1dT_AC" id="alE3w2ldq2" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="alE3w2ldMn" role="TZ5H$">
+        <node concept="1dT_AC" id="alE3w2ldMo" role="1dT_Ay">
+          <property role="1dT_AB" value="[1] &quot;Staples&quot; as in a stapler holding together a stack of paper." />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="alE3w2ldUz" role="3nqlJM">
+        <property role="TUZQ4" value="Java LionCore as instances of &lt;tt&gt;io.lionweb.lioncore.java.language&lt;/tt&gt;" />
+        <node concept="zr_56" id="alE3w2ldU_" role="zr_5Q">
+          <ref role="zr_51" node="7OJcYqxQZLr" resolve="JSON" />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="alE3w2ldUA" role="3nqlJM">
+        <property role="TUZQ4" value="Corresponding {@link IKeyedStaple}." />
+        <node concept="zr_56" id="alE3w2ldUC" role="zr_5Q">
+          <ref role="zr_51" node="7OJcYqxQZJU" resolve="STAPLE" />
+        </node>
+      </node>
+      <node concept="VUp57" id="alE3w2lf4x" role="3nqlJM">
+        <node concept="VXe08" id="alE3w2lfjM" role="VUp5m">
+          <ref role="VXe09" to="y7p:7OJcYqvKf0O" resolve="IKeyedStaple" />
+        </node>
       </node>
     </node>
   </node>

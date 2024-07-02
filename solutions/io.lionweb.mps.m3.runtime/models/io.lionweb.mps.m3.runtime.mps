@@ -36,6 +36,7 @@
     <import index="4xw4" ref="r:23ccdcd2-ac4f-4247-aad5-4d197fcb7e18(io.lionweb.mps.specific.lang)" />
     <import index="i2js" ref="r:8a5810a5-6291-48f8-84a1-e0b9d037018c(io.lionweb.mps.m3.core)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
+    <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -235,6 +236,7 @@
         <property id="5858074156537516431" name="text" index="x79VB" />
       </concept>
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
@@ -249,6 +251,9 @@
       </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="2217234381367190443" name="jetbrains.mps.baseLanguage.javadoc.structure.SeeBlockDocTag" flags="ng" index="VUp57">
+        <child id="2217234381367190458" name="reference" index="VUp5m" />
       </concept>
       <concept id="2217234381367188008" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocReference" flags="ng" index="VUqz4" />
       <concept id="2217234381367049075" name="jetbrains.mps.baseLanguage.javadoc.structure.CodeInlineDocTag" flags="ng" index="VVOAv">
@@ -9375,6 +9380,10 @@
   <node concept="3HP615" id="7OJcYqvKf0O">
     <property role="TrG5h" value="IKeyedStaple" />
     <property role="3GE5qa" value="staple" />
+    <node concept="15s5l7" id="alE3w2lAUd" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  JsonStaple (classifier) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;classifier&quot;;FLAVOUR_RULE_ID=&quot;[r:28bcf003-0004-46b6-9fe7-2093e7fb1368(jetbrains.mps.baseLanguage.javadoc.constraints)/6836281137582713718]&quot;;" />
+      <property role="huDt6" value="The reference  JsonStaple (classifier) is out of search scope" />
+    </node>
     <node concept="3clFb_" id="7OJcYqvKhKf" role="jymVt">
       <property role="TrG5h" value="getLc" />
       <node concept="3clFbS" id="7OJcYqvKhKi" role="3clF47" />
@@ -9460,11 +9469,55 @@
     <node concept="16euLQ" id="7OJcYqvKhss" role="16eVyc">
       <property role="TrG5h" value="SLANG" />
     </node>
+    <node concept="3UR2Jj" id="alE3w2ldo0" role="lGtFl">
+      <node concept="TZ5HA" id="alE3w2ldo1" role="TZ5H$">
+        <node concept="1dT_AC" id="alE3w2ldo2" role="1dT_Ay">
+          <property role="1dT_AB" value="Staples[1] together representations of the same thing in different representations." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="alE3w2ldq1" role="TZ5H$">
+        <node concept="1dT_AC" id="alE3w2ldq2" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="alE3w2ldMn" role="TZ5H$">
+        <node concept="1dT_AC" id="alE3w2ldMo" role="1dT_Ay">
+          <property role="1dT_AB" value="[1] &quot;Staples&quot; as in a stapler holding together a stack of paper." />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="alE3w2ldo3" role="3nqlJM">
+        <property role="TUZQ4" value="LionCore as instances of &lt;tt&gt;io.lionweb.mps.m3&lt;/tt&gt;" />
+        <node concept="zr_56" id="alE3w2ldo5" role="zr_5Q">
+          <ref role="zr_51" node="7OJcYqvKf2B" resolve="LC" />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="alE3w2ldo6" role="3nqlJM">
+        <property role="TUZQ4" value="MPS as instances of &lt;tt&gt;jetbrains.mps.lang.structure&lt;/tt&gt;" />
+        <node concept="zr_56" id="alE3w2ldo8" role="zr_5Q">
+          <ref role="zr_51" node="7OJcYqvKgVK" resolve="MPS" />
+        </node>
+      </node>
+      <node concept="TUZQ0" id="alE3w2ldo9" role="3nqlJM">
+        <property role="TUZQ4" value="SLanguage as instances of &lt;tt&gt;org.jetbrains.mps.openapi.language&lt;/tt&gt;" />
+        <node concept="zr_56" id="alE3w2ldob" role="zr_5Q">
+          <ref role="zr_51" node="7OJcYqvKhss" resolve="SLANG" />
+        </node>
+      </node>
+      <node concept="VUp57" id="alE3w2lfs$" role="3nqlJM">
+        <node concept="VXe08" id="alE3w2lgP0" role="VUp5m">
+          <ref role="VXe09" to="6peh:7OJcYqxTPY1" resolve="JsonStaple" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7OJcYqvKk3R">
     <property role="3GE5qa" value="staple" />
     <property role="TrG5h" value="AKeyedStaple" />
     <property role="1sVAO0" value="true" />
+    <node concept="15s5l7" id="alE3w2lAnA" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter LC&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6871159928248660343]&quot;;" />
+      <property role="huDt6" value="Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter LC" />
+    </node>
     <node concept="3Tm1VV" id="7OJcYqvKk3S" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvKk$F" role="EKbjA">
       <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
@@ -11567,6 +11620,10 @@
   <node concept="3HP615" id="7OJcYqwYeSL">
     <property role="3GE5qa" value="staple" />
     <property role="TrG5h" value="IClassifierStaple" />
+    <node concept="15s5l7" id="alE3w2lAJH" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter LC&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6871159928248660343]&quot;;" />
+      <property role="huDt6" value="Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter LC" />
+    </node>
     <node concept="3Tm1VV" id="7OJcYqwYeSM" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqwYfpt" role="3HQHJm">
       <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
@@ -11602,6 +11659,10 @@
   <node concept="3HP615" id="7OJcYqx0lp$">
     <property role="3GE5qa" value="staple" />
     <property role="TrG5h" value="IPrimitiveTypeStaple" />
+    <node concept="15s5l7" id="alE3w2lAZ2" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter MPS&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6871159928248660343]&quot;;" />
+      <property role="huDt6" value="Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter MPS" />
+    </node>
     <node concept="3clFb_" id="7OJcYq_mkbH" role="jymVt">
       <property role="TrG5h" value="getMpsPropId" />
       <node concept="3clFbS" id="7OJcYq_mkbK" role="3clF47" />
@@ -11631,6 +11692,10 @@
   <node concept="3HP615" id="7OJcYqx2vhv">
     <property role="3GE5qa" value="staple" />
     <property role="TrG5h" value="IFeatureStaple" />
+    <node concept="15s5l7" id="alE3w2lAL3" role="lGtFl">
+      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter LC&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6871159928248660343]&quot;;" />
+      <property role="huDt6" value="Error: The type (instance of TypeVariableReference) is not a valid substitute for the bounded parameter LC" />
+    </node>
     <node concept="3Tm1VV" id="7OJcYqx2vhw" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqx2vQ1" role="3HQHJm">
       <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
