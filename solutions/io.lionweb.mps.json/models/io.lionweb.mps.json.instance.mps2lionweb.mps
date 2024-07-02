@@ -5541,7 +5541,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="7OJcYqzcMCD" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:7OJcYqvKjL5" resolve="getLcKey" />
+                      <ref role="37wK5l" to="y7p:7OJcYq_s$7A" resolve="getLcLanguageKey" />
                     </node>
                   </node>
                 </node>
@@ -5595,7 +5595,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="7OJcYqzcVG4" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:7OJcYqvKjL5" resolve="getLcKey" />
+                      <ref role="37wK5l" to="y7p:7OJcYq_s$7A" resolve="getLcLanguageKey" />
                     </node>
                   </node>
                 </node>
@@ -5649,7 +5649,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="7OJcYqzcXSG" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:7OJcYqvKjL5" resolve="getLcKey" />
+                      <ref role="37wK5l" to="y7p:7OJcYq_s$7A" resolve="getLcLanguageKey" />
                     </node>
                   </node>
                 </node>
