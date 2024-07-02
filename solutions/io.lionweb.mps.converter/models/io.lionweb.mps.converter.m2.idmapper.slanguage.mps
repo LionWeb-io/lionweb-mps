@@ -1333,9 +1333,9 @@
               </node>
               <node concept="3cpWs8" id="7OJcYqzwWUK" role="3cqZAp">
                 <node concept="3cpWsn" id="7OJcYqzwWUL" role="3cpWs9">
-                  <property role="TrG5h" value="mapping" />
+                  <property role="TrG5h" value="staple" />
                   <node concept="3uibUv" id="7OJcYqzwWGb" role="1tU5fm">
-                    <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+                    <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
                   </node>
                   <node concept="2OqwBi" id="7OJcYqzwWUM" role="33vP2m">
                     <node concept="2OqwBi" id="7OJcYqzwWUN" role="2Oq$k0">
@@ -1343,7 +1343,7 @@
                         <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="7OJcYqzwWUP" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+                        <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
                       </node>
                     </node>
                     <node concept="1z4cxt" id="7OJcYqzwWUQ" role="2OqNvi">
@@ -1380,7 +1380,7 @@
                     <node concept="37vLTI" id="6VkSF6cbz1Y" role="3clFbG">
                       <node concept="2OqwBi" id="7OJcYqzx3um" role="37vLTx">
                         <node concept="37vLTw" id="7OJcYqzx2GS" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7OJcYqzwWUL" resolve="mapping" />
+                          <ref role="3cqZAo" node="7OJcYqzwWUL" resolve="staple" />
                         </node>
                         <node concept="liA8E" id="7OJcYqzx4gV" role="2OqNvi">
                           <ref role="37wK5l" to="y7p:7OJcYqvKiQm" resolve="getMpsId" />
@@ -1395,7 +1395,7 @@
                 <node concept="3y3z36" id="7OJcYqzwZWN" role="3clFbw">
                   <node concept="10Nm6u" id="7OJcYqzx134" role="3uHU7w" />
                   <node concept="37vLTw" id="7OJcYqzwZpP" role="3uHU7B">
-                    <ref role="3cqZAo" node="7OJcYqzwWUL" resolve="mapping" />
+                    <ref role="3cqZAo" node="7OJcYqzwWUL" resolve="staple" />
                   </node>
                 </node>
               </node>

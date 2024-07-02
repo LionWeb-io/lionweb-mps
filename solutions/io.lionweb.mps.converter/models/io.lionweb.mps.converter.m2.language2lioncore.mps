@@ -751,7 +751,7 @@
               <ref role="3cqZAo" node="4oHUzWXgi04" resolve="constants" />
             </node>
             <node concept="liA8E" id="7OJcYqxFX1P" role="2OqNvi">
-              <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+              <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
             </node>
           </node>
         </node>
@@ -764,7 +764,7 @@
               <ref role="3cqZAo" node="4oHUzWXgi04" resolve="constants" />
             </node>
             <node concept="liA8E" id="7OJcYqxIWiT" role="2OqNvi">
-              <ref role="37wK5l" to="y7p:7OJcYqwYDTB" resolve="listClassifiers" />
+              <ref role="37wK5l" to="y7p:7OJcYqwYDTB" resolve="listLcClassifiers" />
             </node>
           </node>
           <node concept="3clFbS" id="7OJcYqxIyOx" role="2LFqv$">
@@ -4615,9 +4615,9 @@
       <node concept="3clFbS" id="48csSBNReP$" role="3clF47">
         <node concept="3cpWs8" id="7OJcYqxPdGt" role="3cqZAp">
           <node concept="3cpWsn" id="7OJcYqxPdGu" role="3cpWs9">
-            <property role="TrG5h" value="first" />
+            <property role="TrG5h" value="staple" />
             <node concept="3uibUv" id="7OJcYqxPc9F" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+              <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
             </node>
             <node concept="2OqwBi" id="7OJcYqxPdGv" role="33vP2m">
               <node concept="2OqwBi" id="7OJcYqxPdGw" role="2Oq$k0">
@@ -4625,7 +4625,7 @@
                   <ref role="3cqZAo" node="48csSBNRezH" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="7OJcYqxPdGy" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+                  <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="1z4cxt" id="7OJcYqxPdGz" role="2OqNvi">
@@ -4662,7 +4662,7 @@
               <node concept="2OqwBi" id="7OJcYqxQpUB" role="3cqZAk">
                 <node concept="2OqwBi" id="7OJcYqxQ7yi" role="2Oq$k0">
                   <node concept="37vLTw" id="7OJcYqxQ1gW" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxPdGu" resolve="first" />
+                    <ref role="3cqZAo" node="7OJcYqxPdGu" resolve="staple" />
                   </node>
                   <node concept="liA8E" id="7OJcYqxQedL" role="2OqNvi">
                     <ref role="37wK5l" to="y7p:7OJcYqvKhKf" resolve="getLc" />
@@ -4675,7 +4675,7 @@
           <node concept="3y3z36" id="7OJcYqxPGp_" role="3clFbw">
             <node concept="10Nm6u" id="7OJcYqxPL7a" role="3uHU7w" />
             <node concept="37vLTw" id="7OJcYqxPAis" role="3uHU7B">
-              <ref role="3cqZAo" node="7OJcYqxPdGu" resolve="first" />
+              <ref role="3cqZAo" node="7OJcYqxPdGu" resolve="staple" />
             </node>
           </node>
         </node>

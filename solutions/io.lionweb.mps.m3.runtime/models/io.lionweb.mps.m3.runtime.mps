@@ -424,7 +424,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwumEK" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwumEL" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwusrr" role="jymVt">
@@ -432,7 +432,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwusrp" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwusrq" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwuwts" role="jymVt">
@@ -440,7 +440,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwuwtq" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwuwtr" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwuG9p" role="jymVt">
@@ -448,7 +448,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwuG9n" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwuG9o" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwuLVt" role="jymVt">
@@ -456,7 +456,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwuLVr" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwuLVs" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwuQlg" role="jymVt">
@@ -464,7 +464,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwuQle" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwuQlf" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwuUL4" role="jymVt">
@@ -472,7 +472,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwuUL2" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwuUL3" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwuZhZ" role="jymVt">
@@ -480,7 +480,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwuZhX" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwuZhY" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqwWzAg" role="jymVt">
@@ -488,9 +488,10 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqwWzAe" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqwWzAf" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7OJcYq$uTr8" role="jymVt" />
     <node concept="3clFbW" id="DUXtGZOlxP" role="jymVt">
       <node concept="37vLTG" id="DUXtGZOlyn" role="3clF46">
         <property role="TrG5h" value="repository" />
@@ -590,7 +591,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwWzAC" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwWzAD" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageStaple" />
                 <node concept="37vLTw" id="7OJcYqxRFcI" role="37wK5m">
                   <ref role="3cqZAo" node="7OJcYqw9N$5" resolve="attributeLc" />
                 </node>
@@ -678,7 +679,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwumFn" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwumFo" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqwnwCo" resolve="AnnotationPropertyKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqwnwCo" resolve="AnnotationPropertyStaple" />
                 <node concept="2OqwBi" id="7OJcYqwumFp" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqwumFq" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqwumFr" role="2tJFKM">
@@ -785,7 +786,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuss4" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuss5" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqwnwCo" resolve="AnnotationPropertyKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqwnwCo" resolve="AnnotationPropertyStaple" />
                 <node concept="2OqwBi" id="7OJcYqwuss6" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqwuss7" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqwuss8" role="2tJFKM">
@@ -879,7 +880,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuwtF" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuwtG" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqwqm3V" resolve="LanguageKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqwqm3V" resolve="LanguageStaple" />
                 <node concept="pHN19" id="7OJcYqwuwtH" role="37wK5m">
                   <node concept="2V$Bhx" id="7OJcYqwuwtI" role="2V$M_3">
                     <property role="2V$B1T" value="c72da2b9-7cce-4447-8389-f407dc1158b7" />
@@ -962,7 +963,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuG9R" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuG9S" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptStaple" />
                 <node concept="2OqwBi" id="7OJcYqxyU$z" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxyU$$" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxyU$_" role="2tJFKM">
@@ -1046,7 +1047,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuLVQ" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuLVR" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptStaple" />
                 <node concept="2OqwBi" id="7OJcYqxyKk_" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxyKkA" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxyKkB" role="2tJFKM">
@@ -1130,7 +1131,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuQlD" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuQlE" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptStaple" />
                 <node concept="2OqwBi" id="7OJcYqxyBTW" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxywqd" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxyyn2" role="2tJFKM">
@@ -1217,7 +1218,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuULx" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuULy" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvRxYF" resolve="PropertyKeyMapping" />
+                <ref role="37wK5l" node="7OJcYqvRxYF" resolve="PropertyStaple" />
                 <node concept="2OqwBi" id="7OJcYqxx6ng" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxx6nh" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxx6ni" role="2tJFKM">
@@ -1319,7 +1320,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqwuZis" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqwuZit" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvRxYF" resolve="PropertyKeyMapping" />
+                <ref role="37wK5l" node="7OJcYqvRxYF" resolve="PropertyStaple" />
                 <node concept="2OqwBi" id="7OJcYqxwYIB" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxwYIC" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxwYID" role="2tJFKM">
@@ -1405,11 +1406,11 @@
     </node>
     <node concept="2tJIrI" id="7OJcYqxrjYk" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqxrn6T" role="jymVt">
-      <property role="TrG5h" value="listSpecificAnnotationProperty" />
+      <property role="TrG5h" value="listMpsM1AnnotationProperties" />
       <node concept="3Tm1VV" id="7OJcYqxrn6V" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqxrn6W" role="3clF45">
         <node concept="3uibUv" id="7OJcYqxrn6X" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqxrn6Z" role="3clF47">
@@ -1417,7 +1418,7 @@
           <node concept="2ShNRf" id="7OJcYqxrqN4" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqxrtDV" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqxrz8N" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqxrCQw" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwv4sM" resolve="getVirtualPackage" />
@@ -1435,11 +1436,11 @@
     </node>
     <node concept="2tJIrI" id="7OJcYqx_9nN" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx_dgL" role="jymVt">
-      <property role="TrG5h" value="listMpsInternalFeature" />
+      <property role="TrG5h" value="listMpsInternalFeatures" />
       <node concept="3Tm1VV" id="7OJcYqx_dgM" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx_dgN" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx_dgO" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
         </node>
       </node>
       <node concept="2AHcQZ" id="7OJcYqx_dgV" role="2AJF6D">
@@ -1450,7 +1451,7 @@
           <node concept="2ShNRf" id="7OJcYqx_f5g" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqx_h8A" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqx_ldi" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqx_rFe" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwir$6" resolve="getAnnotationContainment" />
@@ -1468,11 +1469,11 @@
     </node>
     <node concept="2tJIrI" id="5JNiski$9iK" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqxrYau" role="jymVt">
-      <property role="TrG5h" value="listConceptDescriptionProperty" />
+      <property role="TrG5h" value="listMpsM2AnnotationProperties" />
       <node concept="3Tm1VV" id="7OJcYqxrYaw" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqxrYax" role="3clF45">
         <node concept="3uibUv" id="7OJcYqxrYay" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqxrYa$" role="3clF47">
@@ -1480,7 +1481,7 @@
           <node concept="2ShNRf" id="7OJcYqxs4Kk" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqxs7mo" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqxsd5i" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+                <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqxsiXX" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwv4ty" resolve="getConceptAlias" />
@@ -1502,7 +1503,7 @@
       <node concept="3Tm1VV" id="7OJcYqx$xY8" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx$xY9" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx$xYa" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
         </node>
       </node>
       <node concept="2AHcQZ" id="7OJcYqx$xYi" role="2AJF6D">
@@ -1514,7 +1515,7 @@
             <property role="TrG5h" value="result" />
             <node concept="_YKpA" id="7OJcYqx$z_H" role="1tU5fm">
               <node concept="3uibUv" id="7OJcYqx$z_K" role="_ZDj9">
-                <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
               </node>
             </node>
             <node concept="3nyPlj" id="7OJcYqx$Hf9" role="33vP2m">
@@ -1543,11 +1544,11 @@
     </node>
     <node concept="2tJIrI" id="7weWCFln0QZ" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqxzJ_1" role="jymVt">
-      <property role="TrG5h" value="listMpsInternalClassifier" />
+      <property role="TrG5h" value="listMpsInternalClassifiers" />
       <node concept="3Tm1VV" id="7OJcYqxzJ_2" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqxzJ_3" role="3clF45">
         <node concept="3uibUv" id="7OJcYqxzJ_4" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
         </node>
       </node>
       <node concept="2AHcQZ" id="7OJcYqxzJ_c" role="2AJF6D">
@@ -1558,7 +1559,7 @@
           <node concept="2ShNRf" id="7OJcYqxzQG3" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqxzTks" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqxzYG0" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqx$4zE" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwirzQ" resolve="getNode" />
@@ -1586,7 +1587,7 @@
     <node concept="3clFb_" id="7OJcYqwv4sM" role="jymVt">
       <property role="TrG5h" value="getVirtualPackage" />
       <node concept="3uibUv" id="7OJcYqwv4sN" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4sO" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4sP" role="3clF47">
@@ -1599,11 +1600,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$v34v" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4sU" role="jymVt">
       <property role="TrG5h" value="getShortDescription" />
       <node concept="3uibUv" id="7OJcYqwv4sV" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4sW" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4sX" role="3clF47">
@@ -1616,11 +1620,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$v4JE" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4t2" role="jymVt">
       <property role="TrG5h" value="getStructureLanguage" />
       <node concept="3uibUv" id="7OJcYqwv4t3" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4t4" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4t5" role="3clF47">
@@ -1633,11 +1640,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$v6r0" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4ta" role="jymVt">
       <property role="TrG5h" value="getClassifier" />
       <node concept="3uibUv" id="7OJcYqwv4tb" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4tc" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4td" role="3clF47">
@@ -1650,11 +1660,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$v85X" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4ti" role="jymVt">
       <property role="TrG5h" value="getConcept" />
       <node concept="3uibUv" id="7OJcYqwv4tj" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4tk" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4tl" role="3clF47">
@@ -1667,11 +1680,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$v98I" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4tq" role="jymVt">
       <property role="TrG5h" value="getInterface" />
       <node concept="3uibUv" id="7OJcYqwv4tr" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4ts" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4tt" role="3clF47">
@@ -1684,11 +1700,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$vaLX" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4ty" role="jymVt">
       <property role="TrG5h" value="getConceptAlias" />
       <node concept="3uibUv" id="7OJcYqwv4tz" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4t$" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4t_" role="3clF47">
@@ -1701,11 +1720,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$vcra" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwv4tE" role="jymVt">
       <property role="TrG5h" value="getConceptShortDescription" />
       <node concept="3uibUv" id="7OJcYqwv4tF" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwv4tG" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwv4tH" role="3clF47">
@@ -1718,11 +1740,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$ve4p" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwWDfJ" role="jymVt">
       <property role="TrG5h" value="getSpecificLanguage" />
       <node concept="3uibUv" id="7OJcYqwWDfK" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwWDfL" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwWDgf" role="3clF47">
@@ -3399,9 +3424,9 @@
       <node concept="3clFbS" id="3M8YG$9CnuT" role="3clF47">
         <node concept="3cpWs8" id="7OJcYq$oexp" role="3cqZAp">
           <node concept="3cpWsn" id="7OJcYq$oexq" role="3cpWs9">
-            <property role="TrG5h" value="mapping" />
+            <property role="TrG5h" value="staple" />
             <node concept="3uibUv" id="7OJcYq$o1GQ" role="1tU5fm">
-              <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+              <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
             </node>
             <node concept="2OqwBi" id="7OJcYq$oexr" role="33vP2m">
               <node concept="2OqwBi" id="7OJcYq$oexs" role="2Oq$k0">
@@ -3445,7 +3470,7 @@
             <node concept="3cpWs6" id="7OJcYq$os8$" role="3cqZAp">
               <node concept="2OqwBi" id="7OJcYqzdYsT" role="3cqZAk">
                 <node concept="37vLTw" id="7OJcYq$oexE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7OJcYq$oexq" resolve="mapping" />
+                  <ref role="3cqZAo" node="7OJcYq$oexq" resolve="staple" />
                 </node>
                 <node concept="liA8E" id="7OJcYqze1Y_" role="2OqNvi">
                   <ref role="37wK5l" node="7OJcYqvKqdu" resolve="getLcKey" />
@@ -3456,7 +3481,7 @@
           <node concept="3y3z36" id="7OJcYq$oopA" role="3clFbw">
             <node concept="10Nm6u" id="7OJcYq$opvL" role="3uHU7w" />
             <node concept="37vLTw" id="7OJcYq$olwk" role="3uHU7B">
-              <ref role="3cqZAo" node="7OJcYq$oexq" resolve="mapping" />
+              <ref role="3cqZAo" node="7OJcYq$oexq" resolve="staple" />
             </node>
           </node>
         </node>
@@ -3485,9 +3510,9 @@
           <node concept="3clFbS" id="5AGBwuFGC18" role="3clFbx">
             <node concept="3cpWs8" id="7OJcYqzewib" role="3cqZAp">
               <node concept="3cpWsn" id="7OJcYqzewic" role="3cpWs9">
-                <property role="TrG5h" value="mapping" />
+                <property role="TrG5h" value="staple" />
                 <node concept="3uibUv" id="7OJcYqzevMm" role="1tU5fm">
-                  <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+                  <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
                 </node>
                 <node concept="2OqwBi" id="7OJcYqzewid" role="33vP2m">
                   <node concept="2OqwBi" id="7OJcYqzewie" role="2Oq$k0">
@@ -3495,7 +3520,7 @@
                       <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="7OJcYqzewig" role="2OqNvi">
-                      <ref role="37wK5l" node="7OJcYqwYDTB" resolve="listClassifiers" />
+                      <ref role="37wK5l" node="7OJcYqwYDTB" resolve="listLcClassifiers" />
                     </node>
                   </node>
                   <node concept="1z4cxt" id="7OJcYqzewih" role="2OqNvi">
@@ -3531,7 +3556,7 @@
                 <node concept="3cpWs6" id="5AGBwuFKihJ" role="3cqZAp">
                   <node concept="2OqwBi" id="7OJcYqzeJw7" role="3cqZAk">
                     <node concept="37vLTw" id="7OJcYqzeI8K" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7OJcYqzewic" resolve="mapping" />
+                      <ref role="3cqZAo" node="7OJcYqzewic" resolve="staple" />
                     </node>
                     <node concept="liA8E" id="7OJcYqzeMgd" role="2OqNvi">
                       <ref role="37wK5l" node="7OJcYqvKjL5" resolve="getLcKey" />
@@ -3542,7 +3567,7 @@
               <node concept="3y3z36" id="7OJcYqzeDTH" role="3clFbw">
                 <node concept="10Nm6u" id="7OJcYqzeFu3" role="3uHU7w" />
                 <node concept="37vLTw" id="7OJcYqzeBaf" role="3uHU7B">
-                  <ref role="3cqZAo" node="7OJcYqzewic" resolve="mapping" />
+                  <ref role="3cqZAo" node="7OJcYqzewic" resolve="staple" />
                 </node>
               </node>
             </node>
@@ -3559,9 +3584,9 @@
             <node concept="3clFbS" id="5AGBwuFIGGv" role="3eOfB_">
               <node concept="3cpWs8" id="7OJcYqzffLn" role="3cqZAp">
                 <node concept="3cpWsn" id="7OJcYqzffLo" role="3cpWs9">
-                  <property role="TrG5h" value="mapping" />
+                  <property role="TrG5h" value="staple" />
                   <node concept="3uibUv" id="7OJcYqzfe5K" role="1tU5fm">
-                    <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+                    <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
                   </node>
                   <node concept="2OqwBi" id="7OJcYqzffLp" role="33vP2m">
                     <node concept="2OqwBi" id="7OJcYqzffLq" role="2Oq$k0">
@@ -3569,7 +3594,7 @@
                         <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="7OJcYqzffLs" role="2OqNvi">
-                        <ref role="37wK5l" node="7OJcYqwZxOH" resolve="listLcProperty" />
+                        <ref role="37wK5l" node="7OJcYqwZxOH" resolve="listLcProperties" />
                       </node>
                     </node>
                     <node concept="1z4cxt" id="7OJcYqzffLt" role="2OqNvi">
@@ -3605,7 +3630,7 @@
                   <node concept="3cpWs6" id="5AGBwuFHFs8" role="3cqZAp">
                     <node concept="2OqwBi" id="7OJcYqzfx95" role="3cqZAk">
                       <node concept="37vLTw" id="7OJcYqzfvm_" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7OJcYqzffLo" resolve="mapping" />
+                        <ref role="3cqZAo" node="7OJcYqzffLo" resolve="staple" />
                       </node>
                       <node concept="liA8E" id="7OJcYqzf$pg" role="2OqNvi">
                         <ref role="37wK5l" node="7OJcYqvKqdu" resolve="getLcKey" />
@@ -3616,7 +3641,7 @@
                 <node concept="3y3z36" id="7OJcYqzfoIH" role="3clFbw">
                   <node concept="10Nm6u" id="7OJcYqzfrDw" role="3uHU7w" />
                   <node concept="37vLTw" id="7OJcYqzfmO4" role="3uHU7B">
-                    <ref role="3cqZAo" node="7OJcYqzffLo" resolve="mapping" />
+                    <ref role="3cqZAo" node="7OJcYqzffLo" resolve="staple" />
                   </node>
                 </node>
               </node>
@@ -3794,9 +3819,9 @@
       <node concept="3clFbS" id="4oHUzWXHJlR" role="3clF47">
         <node concept="3cpWs8" id="7OJcYqzfZ3V" role="3cqZAp">
           <node concept="3cpWsn" id="7OJcYqzfZ3W" role="3cpWs9">
-            <property role="TrG5h" value="mapping" />
+            <property role="TrG5h" value="staple" />
             <node concept="3uibUv" id="7OJcYqzfXzE" role="1tU5fm">
-              <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+              <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
             </node>
             <node concept="2OqwBi" id="7OJcYqzfZ3X" role="33vP2m">
               <node concept="2OqwBi" id="7OJcYqzfZ3Y" role="2Oq$k0">
@@ -3804,7 +3829,7 @@
                   <ref role="3cqZAo" node="5AGBwuFENz0" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="7OJcYqzfZ40" role="2OqNvi">
-                  <ref role="37wK5l" node="7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+                  <ref role="37wK5l" node="7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="1z4cxt" id="7OJcYqzfZ41" role="2OqNvi">
@@ -3840,7 +3865,7 @@
             <node concept="3cpWs6" id="4oHUzWXHJm7" role="3cqZAp">
               <node concept="2OqwBi" id="7OJcYqzgem5" role="3cqZAk">
                 <node concept="37vLTw" id="7OJcYqzgcRe" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7OJcYqzfZ3W" resolve="mapping" />
+                  <ref role="3cqZAo" node="7OJcYqzfZ3W" resolve="staple" />
                 </node>
                 <node concept="liA8E" id="7OJcYqzghcE" role="2OqNvi">
                   <ref role="37wK5l" node="7OJcYqvKjL5" resolve="getLcKey" />
@@ -3851,7 +3876,7 @@
           <node concept="3y3z36" id="7OJcYqzg6sn" role="3clFbw">
             <node concept="10Nm6u" id="7OJcYqzg99H" role="3uHU7w" />
             <node concept="37vLTw" id="7OJcYqzg3Au" role="3uHU7B">
-              <ref role="3cqZAo" node="7OJcYqzfZ3W" resolve="mapping" />
+              <ref role="3cqZAo" node="7OJcYqzfZ3W" resolve="staple" />
             </node>
           </node>
         </node>
@@ -6288,7 +6313,7 @@
     <node concept="3clFb_" id="7OJcYqwQyzV" role="jymVt">
       <property role="TrG5h" value="getVirtualPackage" />
       <node concept="3uibUv" id="7OJcYqwQyzW" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQyzX" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQyzY" role="3clF47" />
@@ -6351,7 +6376,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$4" role="jymVt">
       <property role="TrG5h" value="getShortDescription" />
       <node concept="3uibUv" id="7OJcYqwQy$5" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$6" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$7" role="3clF47" />
@@ -6414,7 +6439,7 @@
     <node concept="3clFb_" id="7OJcYqwUzr1" role="jymVt">
       <property role="TrG5h" value="getSpecificLanguage" />
       <node concept="3uibUv" id="7OJcYqwUzr2" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwUzr3" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwUzr4" role="3clF47" />
@@ -6483,7 +6508,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$d" role="jymVt">
       <property role="TrG5h" value="getStructureLanguage" />
       <node concept="3uibUv" id="7OJcYqwQy$e" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$f" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$g" role="3clF47" />
@@ -6556,7 +6581,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$m" role="jymVt">
       <property role="TrG5h" value="getClassifier" />
       <node concept="3uibUv" id="7OJcYqwQy$n" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$o" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$p" role="3clF47" />
@@ -6608,7 +6633,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$v" role="jymVt">
       <property role="TrG5h" value="getConcept" />
       <node concept="3uibUv" id="7OJcYqwQy$w" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$x" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$y" role="3clF47" />
@@ -6660,7 +6685,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$C" role="jymVt">
       <property role="TrG5h" value="getInterface" />
       <node concept="3uibUv" id="7OJcYqwQy$D" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$E" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$F" role="3clF47" />
@@ -6712,7 +6737,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$L" role="jymVt">
       <property role="TrG5h" value="getConceptAlias" />
       <node concept="3uibUv" id="7OJcYqwQy$M" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$N" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$O" role="3clF47" />
@@ -6759,7 +6784,7 @@
     <node concept="3clFb_" id="7OJcYqwQy$U" role="jymVt">
       <property role="TrG5h" value="getConceptShortDescription" />
       <node concept="3uibUv" id="7OJcYqwQy$V" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQy$W" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQy$X" role="3clF47" />
@@ -6804,12 +6829,12 @@
     </node>
     <node concept="2tJIrI" id="34Q84zNQO5q" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqxreEB" role="jymVt">
-      <property role="TrG5h" value="listSpecificAnnotationProperty" />
+      <property role="TrG5h" value="listMpsM1AnnotationProperties" />
       <node concept="3clFbS" id="7OJcYqxreEE" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqxreEF" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqxreug" role="3clF45">
         <node concept="3uibUv" id="7OJcYqxreE$" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqyNMNX" role="lGtFl">
@@ -6822,12 +6847,12 @@
     </node>
     <node concept="2tJIrI" id="7OJcYqxrf3I" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqxrfm4" role="jymVt">
-      <property role="TrG5h" value="listConceptDescriptionProperty" />
+      <property role="TrG5h" value="listMpsM2AnnotationProperties" />
       <node concept="3clFbS" id="7OJcYqxrfm5" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqxrfm6" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqxrfm7" role="3clF45">
         <node concept="3uibUv" id="7OJcYqxrfm8" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqyZqsX" role="lGtFl">
@@ -6850,7 +6875,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvS5bL" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvS5bM" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvScQL" role="jymVt">
@@ -6858,7 +6883,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvScQJ" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvScQK" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqxKJ7c" role="jymVt">
@@ -6866,7 +6891,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqxKJ7d" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqxKJ7e" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvSkE$" role="jymVt">
@@ -6874,7 +6899,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvSkEy" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvSkEz" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvSsAf" role="jymVt">
@@ -6882,7 +6907,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvSsAd" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvSsAe" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvSxpd" role="jymVt">
@@ -6890,7 +6915,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvSxpb" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvSxpc" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvSGCF" role="jymVt">
@@ -6898,7 +6923,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvSGCD" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvSGCE" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqw2ryQ" resolve="ConstrainedPrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqw2ryQ" resolve="ConstrainedPrimitiveTypeStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvSOTI" role="jymVt">
@@ -6906,7 +6931,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvSOTG" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvSOTH" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvSX4c" role="jymVt">
@@ -6914,7 +6939,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvSX4a" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvSX4b" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvT58p" role="jymVt">
@@ -6922,7 +6947,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvT58n" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvT58o" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvQ8aH" resolve="ContainmentKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvQ8aH" resolve="ContainmentStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvTdFq" role="jymVt">
@@ -6930,7 +6955,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvTdFo" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvTdFp" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvXZ8V" resolve="InterfaceKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvXZ8V" resolve="InterfaceStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqvTlIS" role="jymVt">
@@ -6938,7 +6963,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqvTlIQ" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqvTlIR" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
     </node>
     <node concept="312cEg" id="7OJcYqw99Yc" role="jymVt">
@@ -6946,9 +6971,10 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="7OJcYqw99Ya" role="1B3o_S" />
       <node concept="3uibUv" id="7OJcYqw99Yb" role="1tU5fm">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7OJcYq$uYjD" role="jymVt" />
     <node concept="3clFbW" id="5JNiski3MAN" role="jymVt">
       <node concept="37vLTG" id="5JNiski3MAO" role="3clF46">
         <property role="TrG5h" value="repository" />
@@ -6991,7 +7017,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvS5c5" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvS5c6" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageStaple" />
                 <node concept="2OqwBi" id="7OJcYqxS4_I" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxRWOn" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxRZZk" role="2tJFKM">
@@ -7034,7 +7060,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqw99Yu" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqw99Yv" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqwqm3V" resolve="LanguageKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqwqm3V" resolve="LanguageStaple" />
                 <node concept="pHN19" id="7OJcYqw99Yw" role="37wK5m">
                   <node concept="2V$Bhx" id="7OJcYqwUMaB" role="2V$M_3">
                     <property role="2V$B1T" value="411e5b27-8a76-482e-8af8-1704262b4468" />
@@ -7076,7 +7102,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvScR3" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvScR4" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageStaple" />
                 <node concept="2OqwBi" id="7OJcYqxSlWn" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxSfwh" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxSiFu" role="2tJFKM">
@@ -7113,7 +7139,7 @@
           <node concept="37vLTI" id="7OJcYqxL4GB" role="3clFbG">
             <node concept="2ShNRf" id="7OJcYqxL7Ot" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqxLbgm" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqwqm3V" resolve="LanguageKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqwqm3V" resolve="LanguageStaple" />
                 <node concept="pHN19" id="7OJcYqxLenn" role="37wK5m">
                   <node concept="2V$Bhx" id="7OJcYqxLhtV" role="2V$M_3">
                     <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
@@ -7141,7 +7167,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvSkEX" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvSkEY" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvLccW" resolve="PrimitiveTypeKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvLccW" resolve="PrimitiveTypeStaple" />
                 <node concept="2OqwBi" id="7OJcYqvSkEZ" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvSkF0" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvSkF1" role="2tJFKM">
@@ -7188,7 +7214,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvSsAC" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvSsAD" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvLccW" resolve="PrimitiveTypeKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvLccW" resolve="PrimitiveTypeStaple" />
                 <node concept="2OqwBi" id="7OJcYqvSsAE" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvSsAF" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvSsAG" role="2tJFKM">
@@ -7235,7 +7261,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvSxpA" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvSxpB" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvLccW" resolve="PrimitiveTypeKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvLccW" resolve="PrimitiveTypeStaple" />
                 <node concept="2OqwBi" id="7OJcYqvSxpC" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvSxpD" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvSxpE" role="2tJFKM">
@@ -7332,7 +7358,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvSGDh" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvSGDi" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqw2ryW" resolve="ConstrainedPrimitiveTypeKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqw2ryW" resolve="ConstrainedPrimitiveTypeStaple" />
                 <node concept="2OqwBi" id="7OJcYqvSGDj" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvSGDk" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvSGDl" role="2tJFKM">
@@ -7464,7 +7490,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvSOUg" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvSOUh" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptStaple" />
                 <node concept="2OqwBi" id="7OJcYqvSOUi" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvSOUj" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvSOUk" role="2tJFKM">
@@ -7521,7 +7547,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvSX4D" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvSX4E" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvKXd$" resolve="ConceptStaple" />
                 <node concept="2OqwBi" id="7OJcYqxx$KA" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqxxjCI" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqxxmLD" role="2tJFKM">
@@ -7585,7 +7611,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvT58O" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvT58P" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvQc4u" resolve="ContainmentKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvQc4u" resolve="ContainmentStaple" />
                 <node concept="10Nm6u" id="7OJcYqvT58Q" role="37wK5m" />
                 <node concept="2OqwBi" id="7OJcYqvT58R" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvT58S" role="2Oq$k0">
@@ -7655,7 +7681,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvTdFW" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvTdFX" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvXZ91" resolve="InterfaceKeyedMapping" />
+                <ref role="37wK5l" node="7OJcYqvXZ91" resolve="InterfaceStaple" />
                 <node concept="2OqwBi" id="7OJcYqvTdFY" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvTdFZ" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvTdG0" role="2tJFKM">
@@ -7742,7 +7768,7 @@
             </node>
             <node concept="2ShNRf" id="7OJcYqvTlJw" role="37vLTx">
               <node concept="1pGfFk" id="7OJcYqvTlJx" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqvRxYF" resolve="PropertyKeyMapping" />
+                <ref role="37wK5l" node="7OJcYqvRxYF" resolve="PropertyStaple" />
                 <node concept="2OqwBi" id="7OJcYqvTlJy" role="37wK5m">
                   <node concept="2tJFMh" id="7OJcYqvTlJz" role="2Oq$k0">
                     <node concept="ZC_QK" id="7OJcYqvTlJ$" role="2tJFKM">
@@ -7833,6 +7859,9 @@
       </node>
       <node concept="3Tm1VV" id="5JNiskhmuU6" role="1B3o_S" />
       <node concept="17QB3L" id="5JNiskhmwT4" role="3clF45" />
+      <node concept="2AHcQZ" id="7OJcYq$umX7" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="2tJIrI" id="5JNiskhmsVz" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqwXqX5" role="jymVt">
@@ -7840,7 +7869,7 @@
       <node concept="3Tm1VV" id="7OJcYqwXqX7" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqwXqX8" role="3clF45">
         <node concept="3uibUv" id="7OJcYqwXqX9" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqwXqXa" role="3clF47">
@@ -7848,13 +7877,13 @@
           <node concept="2ShNRf" id="7OJcYqwX_tV" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqwXDP5" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqwXLtq" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqwXTIv" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwirz6" resolve="getM3" />
               </node>
               <node concept="1rXfSq" id="7OJcYqwY1OK" role="HW$Y0">
-                <ref role="37wK5l" node="7OJcYqwirze" resolve="getLioncoreBuiltins" />
+                <ref role="37wK5l" node="7OJcYqwirze" resolve="getBuiltins" />
               </node>
             </node>
           </node>
@@ -7866,11 +7895,11 @@
     </node>
     <node concept="2tJIrI" id="5JNiskhYXcG" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqwYKHE" role="jymVt">
-      <property role="TrG5h" value="listClassifiers" />
+      <property role="TrG5h" value="listLcClassifiers" />
       <node concept="3Tm1VV" id="7OJcYqwYKHG" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqwYKHH" role="3clF45">
         <node concept="3uibUv" id="7OJcYqwYKHI" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqwYKHJ" role="3clF47">
@@ -7878,7 +7907,7 @@
           <node concept="2ShNRf" id="7OJcYqwYQMq" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqwYUtf" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqwZ36x" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqwZbAD" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwirzQ" resolve="getNode" />
@@ -7896,11 +7925,11 @@
     </node>
     <node concept="2tJIrI" id="5JNiskhYXe1" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqwZBzt" role="jymVt">
-      <property role="TrG5h" value="listLcProperty" />
+      <property role="TrG5h" value="listLcProperties" />
       <node concept="3Tm1VV" id="7OJcYqwZBzv" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqwZBzw" role="3clF45">
         <node concept="3uibUv" id="7OJcYqwZBzx" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqwZBzy" role="3clF47">
@@ -7908,7 +7937,7 @@
           <node concept="2ShNRf" id="7OJcYqwZM4e" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqwZPSo" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqwZYOw" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+                <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqx07B6" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwir$m" resolve="getINamedName" />
@@ -7923,11 +7952,11 @@
     </node>
     <node concept="2tJIrI" id="7OJcYqx0zJr" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx0D9N" role="jymVt">
-      <property role="TrG5h" value="listLcPrimitiveType" />
+      <property role="TrG5h" value="listLcPrimitiveTypes" />
       <node concept="3Tm1VV" id="7OJcYqx0D9P" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx0D9Q" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx0D9R" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqx0D9S" role="3clF47">
@@ -7935,7 +7964,7 @@
           <node concept="2ShNRf" id="7OJcYqx0JwW" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqx0NrY" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqx0WB1" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqx15UZ" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwirzu" resolve="getBoolean" />
@@ -7987,7 +8016,7 @@
                   </node>
                   <node concept="2OqwBi" id="7OJcYqx8EcH" role="2Oq$k0">
                     <node concept="1rXfSq" id="7OJcYqx8EcI" role="2Oq$k0">
-                      <ref role="37wK5l" node="7OJcYqx1NIa" resolve="listMpsInternalClassifier" />
+                      <ref role="37wK5l" node="7OJcYqx1NIa" resolve="listMpsInternalClassifiers" />
                     </node>
                     <node concept="3$u5V9" id="7OJcYqx8EcJ" role="2OqNvi">
                       <node concept="1bVj0M" id="7OJcYqx8EcK" role="23t8la">
@@ -8042,7 +8071,7 @@
               <node concept="2OqwBi" id="5JNiskhYXhi" role="3cqZAk">
                 <node concept="2OqwBi" id="7OJcYqx7qdc" role="2Oq$k0">
                   <node concept="1rXfSq" id="5JNiskhYXhj" role="2Oq$k0">
-                    <ref role="37wK5l" node="7OJcYqx1NIa" resolve="listMpsInternalClassifier" />
+                    <ref role="37wK5l" node="7OJcYqx1NIa" resolve="listMpsInternalClassifiers" />
                   </node>
                   <node concept="3$u5V9" id="7OJcYqx7woy" role="2OqNvi">
                     <node concept="1bVj0M" id="7OJcYqx7wo$" role="23t8la">
@@ -8098,7 +8127,7 @@
               <node concept="2OqwBi" id="6Z_tmAeerUd" role="3cqZAk">
                 <node concept="2OqwBi" id="7OJcYqx7S50" role="2Oq$k0">
                   <node concept="1rXfSq" id="6Z_tmAeenH6" role="2Oq$k0">
-                    <ref role="37wK5l" node="7OJcYqx0D9N" resolve="listLcPrimitiveType" />
+                    <ref role="37wK5l" node="7OJcYqx0D9N" resolve="listLcPrimitiveTypes" />
                   </node>
                   <node concept="3$u5V9" id="7OJcYqx7XOy" role="2OqNvi">
                     <node concept="1bVj0M" id="7OJcYqx7XO$" role="23t8la">
@@ -8154,7 +8183,7 @@
               <node concept="2OqwBi" id="6Z_tmAegjuh" role="3cqZAk">
                 <node concept="2OqwBi" id="7OJcYqx8jtI" role="2Oq$k0">
                   <node concept="1rXfSq" id="6Z_tmAefXg3" role="2Oq$k0">
-                    <ref role="37wK5l" node="7OJcYqx2F8j" resolve="listMpsInternalFeature" />
+                    <ref role="37wK5l" node="7OJcYqx2F8j" resolve="listMpsInternalFeatures" />
                   </node>
                   <node concept="3$u5V9" id="7OJcYqx8or$" role="2OqNvi">
                     <node concept="1bVj0M" id="7OJcYqx8orA" role="23t8la">
@@ -8244,7 +8273,7 @@
           <node concept="2OqwBi" id="7OJcYqx6YcO" role="3clFbG">
             <node concept="2OqwBi" id="7OJcYqx6YcP" role="2Oq$k0">
               <node concept="1rXfSq" id="7OJcYqx6YcQ" role="2Oq$k0">
-                <ref role="37wK5l" node="7OJcYqx2F8j" resolve="listMpsInternalFeature" />
+                <ref role="37wK5l" node="7OJcYqx2F8j" resolve="listMpsInternalFeatures" />
               </node>
               <node concept="3$u5V9" id="7OJcYqx6YcR" role="2OqNvi">
                 <node concept="1bVj0M" id="7OJcYqx6YcS" role="23t8la">
@@ -8301,7 +8330,7 @@
           <node concept="2OqwBi" id="5JNiskizLC2" role="3clFbG">
             <node concept="2OqwBi" id="7OJcYqx6sn6" role="2Oq$k0">
               <node concept="1rXfSq" id="5JNiskizHvJ" role="2Oq$k0">
-                <ref role="37wK5l" node="7OJcYqx2F8j" resolve="listMpsInternalFeature" />
+                <ref role="37wK5l" node="7OJcYqx2F8j" resolve="listMpsInternalFeatures" />
               </node>
               <node concept="3$u5V9" id="7OJcYqx6y4M" role="2OqNvi">
                 <node concept="1bVj0M" id="7OJcYqx6y4O" role="23t8la">
@@ -8376,11 +8405,11 @@
     </node>
     <node concept="2tJIrI" id="5JNiskhYXhO" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx1NIa" role="jymVt">
-      <property role="TrG5h" value="listMpsInternalClassifier" />
+      <property role="TrG5h" value="listMpsInternalClassifiers" />
       <node concept="3Tm1VV" id="7OJcYqx1NIc" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx1NId" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx1NIe" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqx1NIf" role="3clF47">
@@ -8388,7 +8417,7 @@
           <node concept="2ShNRf" id="7OJcYqx1Uh4" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqx1YAc" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqx288_" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqx2htG" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwirzQ" resolve="getNode" />
@@ -8406,11 +8435,11 @@
     </node>
     <node concept="2tJIrI" id="5JNiskixn4F" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx2F8j" role="jymVt">
-      <property role="TrG5h" value="listMpsInternalFeature" />
+      <property role="TrG5h" value="listMpsInternalFeatures" />
       <node concept="3Tm1VV" id="7OJcYqx2F8l" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx2F8m" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx2F8n" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
         </node>
       </node>
       <node concept="3clFbS" id="7OJcYqx2F8o" role="3clF47">
@@ -8418,7 +8447,7 @@
           <node concept="2ShNRf" id="7OJcYqx2QyA" role="3clFbG">
             <node concept="Tc6Ow" id="7OJcYqx2UOb" role="2ShVmc">
               <node concept="3uibUv" id="7OJcYqx33I5" role="HW$YZ">
-                <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+                <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
               </node>
               <node concept="1rXfSq" id="7OJcYqx3dhF" role="HW$Y0">
                 <ref role="37wK5l" node="7OJcYqwir$6" resolve="getAnnotationContainment" />
@@ -8487,7 +8516,7 @@
     <node concept="3clFb_" id="7OJcYqwirz6" role="jymVt">
       <property role="TrG5h" value="getM3" />
       <node concept="3uibUv" id="7OJcYqwirz7" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirz8" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirz9" role="3clF47">
@@ -8500,11 +8529,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$upM9" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwirze" role="jymVt">
-      <property role="TrG5h" value="getLioncoreBuiltins" />
+      <property role="TrG5h" value="getBuiltins" />
       <node concept="3uibUv" id="7OJcYqwirzf" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirzg" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirzh" role="3clF47">
@@ -8517,11 +8549,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$usBm" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqxLl6m" role="jymVt">
       <property role="TrG5h" value="getCoreLanguage" />
       <node concept="3uibUv" id="7OJcYqxLl6n" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqxLl6o" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqxLl6P" role="3clF47">
@@ -8541,7 +8576,7 @@
     <node concept="3clFb_" id="7OJcYqwirzm" role="jymVt">
       <property role="TrG5h" value="getString" />
       <node concept="3uibUv" id="7OJcYqwirzn" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirzo" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirzp" role="3clF47">
@@ -8554,11 +8589,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uvsj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwirzu" role="jymVt">
       <property role="TrG5h" value="getBoolean" />
       <node concept="3uibUv" id="7OJcYqwirzv" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirzw" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirzx" role="3clF47">
@@ -8571,11 +8609,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uyhi" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwirzA" role="jymVt">
       <property role="TrG5h" value="getInteger" />
       <node concept="3uibUv" id="7OJcYqwirzB" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirzC" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirzD" role="3clF47">
@@ -8588,11 +8629,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$u_6j" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwirzI" role="jymVt">
       <property role="TrG5h" value="getJson" />
       <node concept="3uibUv" id="7OJcYqwirzJ" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqw2ryQ" resolve="ConstrainedPrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqw2ryQ" resolve="ConstrainedPrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirzK" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirzL" role="3clF47">
@@ -8605,11 +8649,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uAXz" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwirzQ" role="jymVt">
       <property role="TrG5h" value="getNode" />
       <node concept="3uibUv" id="7OJcYqwirzR" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwirzS" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwirzT" role="3clF47">
@@ -8622,11 +8669,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uDMC" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwirzY" role="jymVt">
       <property role="TrG5h" value="getAnnotation" />
       <node concept="3uibUv" id="7OJcYqwirzZ" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwir$0" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwir$1" role="3clF47">
@@ -8639,11 +8689,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uGBS" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwir$6" role="jymVt">
       <property role="TrG5h" value="getAnnotationContainment" />
       <node concept="3uibUv" id="7OJcYqwir$7" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvQ8aH" resolve="ContainmentKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvQ8aH" resolve="ContainmentStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwir$8" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwir$9" role="3clF47">
@@ -8656,11 +8709,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uK6J" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwir$e" role="jymVt">
       <property role="TrG5h" value="getINamed" />
       <node concept="3uibUv" id="7OJcYqwir$f" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvXZ8V" resolve="InterfaceKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvXZ8V" resolve="InterfaceStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwir$g" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwir$h" role="3clF47">
@@ -8673,11 +8729,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uMW3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwir$m" role="jymVt">
       <property role="TrG5h" value="getINamedName" />
       <node concept="3uibUv" id="7OJcYqwir$n" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwir$o" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwir$p" role="3clF47">
@@ -8690,11 +8749,14 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="7OJcYq$uONt" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="7OJcYqwUZco" role="jymVt">
       <property role="TrG5h" value="getAttributeLanguage" />
       <node concept="3uibUv" id="7OJcYqwUZcp" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwUZcq" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwUZcR" role="3clF47">
@@ -8725,7 +8787,7 @@
     <node concept="3clFb_" id="7OJcYqwQm1k" role="jymVt">
       <property role="TrG5h" value="getString" />
       <node concept="3uibUv" id="7OJcYqwQm1l" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm1m" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm1n" role="3clF47" />
@@ -8777,7 +8839,7 @@
     <node concept="3clFb_" id="7OJcYqwQm1t" role="jymVt">
       <property role="TrG5h" value="getBoolean" />
       <node concept="3uibUv" id="7OJcYqwQm1u" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm1v" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm1w" role="3clF47" />
@@ -8829,7 +8891,7 @@
     <node concept="3clFb_" id="7OJcYqwQm1A" role="jymVt">
       <property role="TrG5h" value="getInteger" />
       <node concept="3uibUv" id="7OJcYqwQm1B" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvL3W3" resolve="PrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm1C" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm1D" role="3clF47" />
@@ -8881,7 +8943,7 @@
     <node concept="3clFb_" id="7OJcYqwQm1J" role="jymVt">
       <property role="TrG5h" value="getJson" />
       <node concept="3uibUv" id="7OJcYqwQm1K" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqw2ryQ" resolve="ConstrainedPrimitiveTypeKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqw2ryQ" resolve="ConstrainedPrimitiveTypeStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm1L" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm1M" role="3clF47" />
@@ -8931,7 +8993,7 @@
     <node concept="3clFb_" id="7OJcYqwQm1S" role="jymVt">
       <property role="TrG5h" value="getNode" />
       <node concept="3uibUv" id="7OJcYqwQm1T" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm1U" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm1V" role="3clF47" />
@@ -8981,7 +9043,7 @@
     <node concept="3clFb_" id="7OJcYqwQm21" role="jymVt">
       <property role="TrG5h" value="getAnnotation" />
       <node concept="3uibUv" id="7OJcYqwQm22" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvKWo$" resolve="ConceptStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm23" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm24" role="3clF47" />
@@ -9031,7 +9093,7 @@
     <node concept="3clFb_" id="7OJcYqwQm2a" role="jymVt">
       <property role="TrG5h" value="getAnnotationContainment" />
       <node concept="3uibUv" id="7OJcYqwQm2b" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvQ8aH" resolve="ContainmentKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvQ8aH" resolve="ContainmentStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm2c" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm2d" role="3clF47" />
@@ -9083,7 +9145,7 @@
     <node concept="3clFb_" id="7OJcYqwQm2j" role="jymVt">
       <property role="TrG5h" value="getINamed" />
       <node concept="3uibUv" id="7OJcYqwQm2k" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvXZ8V" resolve="InterfaceKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvXZ8V" resolve="InterfaceStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm2l" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm2m" role="3clF47" />
@@ -9133,7 +9195,7 @@
     <node concept="3clFb_" id="7OJcYqwQm2s" role="jymVt">
       <property role="TrG5h" value="getINamedName" />
       <node concept="3uibUv" id="7OJcYqwQm2t" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+        <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm2u" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm2v" role="3clF47" />
@@ -9183,7 +9245,7 @@
     <node concept="3clFb_" id="7OJcYqwQm12" role="jymVt">
       <property role="TrG5h" value="getM3" />
       <node concept="3uibUv" id="7OJcYqwQm13" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm14" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm15" role="3clF47" />
@@ -9254,9 +9316,9 @@
     </node>
     <node concept="2tJIrI" id="5JNiski3jYa" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqwQm1b" role="jymVt">
-      <property role="TrG5h" value="getLioncoreBuiltins" />
+      <property role="TrG5h" value="getBuiltins" />
       <node concept="3uibUv" id="7OJcYqwQm1c" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm1d" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm1e" role="3clF47" />
@@ -9324,7 +9386,7 @@
     <node concept="3clFb_" id="7OJcYqxK_pb" role="jymVt">
       <property role="TrG5h" value="getCoreLanguage" />
       <node concept="3uibUv" id="7OJcYqxK_pc" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqxK_pd" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqxK_pe" role="3clF47" />
@@ -9393,7 +9455,7 @@
     <node concept="3clFb_" id="7OJcYqwQm2_" role="jymVt">
       <property role="TrG5h" value="getAttributeLanguage" />
       <node concept="3uibUv" id="7OJcYqwQm2A" role="3clF45">
-        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+        <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
       </node>
       <node concept="3Tm1VV" id="7OJcYqwQm2B" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwQm2C" role="3clF47" />
@@ -9465,7 +9527,7 @@
       <node concept="3Tm1VV" id="7OJcYqwXhGL" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqwXdK9" role="3clF45">
         <node concept="3uibUv" id="7OJcYqwXgNR" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqvMQ8$" resolve="LanguageStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqz8mI0" role="lGtFl">
@@ -9478,12 +9540,12 @@
     </node>
     <node concept="2tJIrI" id="5JNiski3jZr" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqwYDTB" role="jymVt">
-      <property role="TrG5h" value="listClassifiers" />
+      <property role="TrG5h" value="listLcClassifiers" />
       <node concept="3clFbS" id="7OJcYqwYDTE" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqwYDTF" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqwYaoG" role="3clF45">
         <node concept="3uibUv" id="7OJcYqwYDsj" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqzglge" role="lGtFl">
@@ -9497,12 +9559,12 @@
     <node concept="2tJIrI" id="5JNiski3k0h" role="jymVt" />
     <node concept="2tJIrI" id="5JNiski3k0i" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqwZxOH" role="jymVt">
-      <property role="TrG5h" value="listLcProperty" />
+      <property role="TrG5h" value="listLcProperties" />
       <node concept="3clFbS" id="7OJcYqwZxOK" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqwZxOL" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqwZryI" role="3clF45">
         <node concept="3uibUv" id="7OJcYqwZwhO" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyKeyMapping" />
+          <ref role="3uigEE" node="7OJcYqvRt75" resolve="PropertyStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqzqWrX" role="lGtFl">
@@ -9515,12 +9577,12 @@
     </node>
     <node concept="2tJIrI" id="5JNiski3k18" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx0tbv" role="jymVt">
-      <property role="TrG5h" value="listLcPrimitiveType" />
+      <property role="TrG5h" value="listLcPrimitiveTypes" />
       <node concept="3clFbS" id="7OJcYqx0tby" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqx0tbz" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx0gEl" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx0sJp" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqzr6Eu" role="lGtFl">
@@ -9539,7 +9601,9 @@
       <node concept="10P_77" id="5JNiski3k22" role="3clF45" />
       <node concept="37vLTG" id="5JNiski3k23" role="3clF46">
         <property role="TrG5h" value="mpsConcept" />
-        <node concept="3Tqbb2" id="5JNiski3k24" role="1tU5fm" />
+        <node concept="3uibUv" id="7OJcYq$$0X3" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
         <node concept="2AHcQZ" id="5JNiski3k25" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
         </node>
@@ -9595,12 +9659,12 @@
     </node>
     <node concept="2tJIrI" id="5JNiski3k2c" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx1HDk" role="jymVt">
-      <property role="TrG5h" value="listMpsInternalClassifier" />
+      <property role="TrG5h" value="listMpsInternalClassifiers" />
       <node concept="3clFbS" id="7OJcYqx1HDn" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqx1HDo" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx1B4G" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx1G3E" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqz$mTR" role="lGtFl">
@@ -9675,12 +9739,12 @@
     </node>
     <node concept="2tJIrI" id="5JNiski3k2q" role="jymVt" />
     <node concept="3clFb_" id="7OJcYqx2zDi" role="jymVt">
-      <property role="TrG5h" value="listMpsInternalFeature" />
+      <property role="TrG5h" value="listMpsInternalFeatures" />
       <node concept="3clFbS" id="7OJcYqx2zDl" role="3clF47" />
       <node concept="3Tm1VV" id="7OJcYqx2zDm" role="1B3o_S" />
       <node concept="_YKpA" id="7OJcYqx2zai" role="3clF45">
         <node concept="3uibUv" id="7OJcYqx2zBy" role="_ZDj9">
-          <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+          <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
         </node>
       </node>
       <node concept="P$JXv" id="7OJcYqz$s$f" role="lGtFl">
@@ -9806,8 +9870,8 @@
     </node>
   </node>
   <node concept="3HP615" id="7OJcYqvKf0O">
-    <property role="TrG5h" value="IKeyedMapping" />
-    <property role="3GE5qa" value="keyedMapping" />
+    <property role="TrG5h" value="IKeyedStaple" />
+    <property role="3GE5qa" value="staple" />
     <node concept="3clFb_" id="7OJcYqvKhKf" role="jymVt">
       <property role="TrG5h" value="getLc" />
       <node concept="3clFbS" id="7OJcYqvKhKi" role="3clF47" />
@@ -9886,12 +9950,12 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvKk3R">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="AKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="AKeyedStaple" />
     <property role="1sVAO0" value="true" />
     <node concept="3Tm1VV" id="7OJcYqvKk3S" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvKk$F" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
       <node concept="16syzq" id="7OJcYqvKzpv" role="11_B2D">
         <ref role="16sUi3" node="7OJcYqvKyqV" resolve="LC" />
       </node>
@@ -10322,11 +10386,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvKWo$">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="ConceptKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="ConceptStaple" />
     <node concept="3Tm1VV" id="7OJcYqvKWo_" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvKWTq" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqvKX9U" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
       </node>
@@ -10342,7 +10406,7 @@
       <node concept="3Tm1VV" id="7OJcYqvKXdA" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqvKXdC" role="3clF47">
         <node concept="XkiVB" id="7OJcYqvKXdE" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqvKXdI" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqvKXdF" resolve="lc" />
           </node>
@@ -10366,14 +10430,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPEJV" role="37wK5m">
             <ref role="37wK5l" node="7OJcYqwPBay" resolve="extractKeyOptional" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwPEJW" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvKXdF" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPF25" role="37wK5m">
             <ref role="37wK5l" node="7OJcYqwPBay" resolve="extractKeyOptional" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwPF26" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvKXdF" resolve="lc" />
             </node>
@@ -10409,7 +10473,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqwYpbh" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
       <node concept="3Tqbb2" id="7OJcYqwYxKG" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjklrv" resolve="Concept" />
       </node>
@@ -10422,11 +10486,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvL3W3">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="PrimitiveTypeKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="PrimitiveTypeStaple" />
     <node concept="3Tm1VV" id="7OJcYqvL3W4" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvL4WJ" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqvL5bz" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjko87" resolve="PrimitiveType" />
       </node>
@@ -10442,7 +10506,7 @@
       <node concept="3Tm1VV" id="7OJcYqvLccY" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqvLcd0" role="3clF47">
         <node concept="XkiVB" id="7OJcYqvLcd2" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqvLcd6" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqvLcd3" resolve="lc" />
           </node>
@@ -10466,14 +10530,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVr" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqvLM9o" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvLcd3" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVs" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqvLIAw" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvLcd3" resolve="lc" />
             </node>
@@ -10565,15 +10629,15 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqx0qrW" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
       <node concept="3Tqbb2" id="7OJcYqx0rRl" role="11_B2D">
         <ref role="ehGHo" to="tpce:fKQkHSB" resolve="PrimitiveDataTypeDeclaration" />
       </node>
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvMQ8$">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="LanguageKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="LanguageStaple" />
     <node concept="312cEg" id="7OJcYqvNQAN" role="jymVt">
       <property role="TrG5h" value="slangId" />
       <property role="3TUv4t" value="true" />
@@ -10599,7 +10663,7 @@
       <node concept="3Tm1VV" id="7OJcYqvMRo5" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqvMRo6" role="3clF47">
         <node concept="XkiVB" id="7OJcYqxRfZi" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqxRgaQ" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqxRdhz" resolve="lc" />
           </node>
@@ -10719,7 +10783,7 @@
       <node concept="3Tm1VV" id="7OJcYqwqm3X" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwqm3Y" role="3clF47">
         <node concept="1VxSAg" id="7OJcYqwqqWB" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvMRo3" resolve="LanguageStaple" />
           <node concept="10Nm6u" id="7OJcYqxRofy" role="37wK5m" />
           <node concept="37vLTw" id="7OJcYqwqr1O" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqwqm4H" resolve="slang" />
@@ -10819,7 +10883,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqxR8Gt" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqxRaqI" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
       </node>
@@ -10832,11 +10896,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvQ8aH">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="ContainmentKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="ContainmentStaple" />
     <node concept="3Tm1VV" id="7OJcYqvQ8aI" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvQ8CZ" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqvQ91i" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkkU6" resolve="Containment" />
       </node>
@@ -10852,7 +10916,7 @@
       <node concept="3Tm1VV" id="7OJcYqvQc4w" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqvQc4y" role="3clF47">
         <node concept="XkiVB" id="7OJcYqvQc4$" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqvQc4C" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqvQc4_" resolve="lc" />
           </node>
@@ -10876,14 +10940,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPFPA" role="37wK5m">
             <ref role="37wK5l" node="7OJcYqwPBay" resolve="extractKeyOptional" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwPFPB" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvQc4_" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPG7K" role="37wK5m">
             <ref role="37wK5l" node="7OJcYqwPBay" resolve="extractKeyOptional" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwPG7L" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvQc4_" resolve="lc" />
             </node>
@@ -10919,7 +10983,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqx2xSv" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
       <node concept="3Tqbb2" id="7OJcYqx2yb9" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkkU6" resolve="Containment" />
       </node>
@@ -10932,11 +10996,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvRt75">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="PropertyKeyMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="PropertyStaple" />
     <node concept="3Tm1VV" id="7OJcYqvRt76" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvRt$z" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqvRtNn" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkkDM" resolve="Property" />
       </node>
@@ -10952,7 +11016,7 @@
       <node concept="3Tm1VV" id="7OJcYqvRxYH" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqvRxYJ" role="3clF47">
         <node concept="XkiVB" id="7OJcYqvRxYL" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqvRxYP" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqvRxYM" resolve="lc" />
           </node>
@@ -10976,14 +11040,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPH1O" role="37wK5m">
             <ref role="37wK5l" node="7OJcYqwPBay" resolve="extractKeyOptional" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwPH1P" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvRxYM" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPHjY" role="37wK5m">
             <ref role="37wK5l" node="7OJcYqwPBay" resolve="extractKeyOptional" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwPHjZ" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvRxYM" resolve="lc" />
             </node>
@@ -11019,7 +11083,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqx2wVp" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
       <node concept="3Tqbb2" id="7OJcYqx2xhq" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkkDM" resolve="Property" />
       </node>
@@ -11032,11 +11096,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqvXZ8V">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="InterfaceKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="InterfaceStaple" />
     <node concept="3Tm1VV" id="7OJcYqvXZ8W" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqvXZ8X" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqvXZ8Y" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
       </node>
@@ -11052,7 +11116,7 @@
       <node concept="3Tm1VV" id="7OJcYqvXZ93" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqvXZ94" role="3clF47">
         <node concept="XkiVB" id="7OJcYqvXZ95" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqvXZ96" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqvXZ9h" resolve="lc" />
           </node>
@@ -11076,14 +11140,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVx" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqvXZ9e" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvXZ9h" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVy" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqvXZ9g" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqvXZ9h" resolve="lc" />
             </node>
@@ -11175,7 +11239,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqwYBUK" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
       <node concept="3Tqbb2" id="7OJcYqx9Y_w" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjklHQ" resolve="Interface" />
       </node>
@@ -11188,11 +11252,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqw2ryQ">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="ConstrainedPrimitiveTypeKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="ConstrainedPrimitiveTypeStaple" />
     <node concept="3Tm1VV" id="7OJcYqw2ryR" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqw2ryS" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqw2ryT" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjko87" resolve="PrimitiveType" />
       </node>
@@ -11208,7 +11272,7 @@
       <node concept="3Tm1VV" id="7OJcYqw2ryY" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqw2ryZ" role="3clF47">
         <node concept="XkiVB" id="7OJcYqw2rz0" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqw2rz1" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqw2rzc" resolve="lc" />
           </node>
@@ -11232,14 +11296,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVz" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqw2rz9" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqw2rzc" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrV$" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqw2rzb" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqw2rzc" resolve="lc" />
             </node>
@@ -11331,18 +11395,18 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqx0o5m" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
       <node concept="3Tqbb2" id="7OJcYqx0pzC" role="11_B2D">
         <ref role="ehGHo" to="tpce:fKAz7CR" resolve="ConstrainedDataTypeDeclaration" />
       </node>
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqwnwCi">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="AnnotationPropertyKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="AnnotationPropertyStaple" />
     <node concept="3Tm1VV" id="7OJcYqwnwCj" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqwnwCk" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqx_Hfc" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkkDM" resolve="Property" />
       </node>
@@ -11372,7 +11436,7 @@
       <node concept="3Tm1VV" id="7OJcYqwnwCq" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwnwCr" role="3clF47">
         <node concept="XkiVB" id="7OJcYqwnwCs" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqwnwCt" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqwp9Gu" resolve="lcProp" />
           </node>
@@ -11396,14 +11460,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrV_" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwnwC_" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqwp9Gu" resolve="lcProp" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVA" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwnwCB" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqwp9Gu" resolve="lcProp" />
             </node>
@@ -11432,7 +11496,7 @@
             </node>
             <node concept="2YIFZM" id="7OJcYqwPrVB" role="37vLTx">
               <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-              <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+              <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
               <node concept="37vLTw" id="7OJcYqwypS9" role="37wK5m">
                 <ref role="3cqZAo" node="7OJcYqwnwCC" resolve="lcAnnotation" />
               </node>
@@ -11572,7 +11636,7 @@
       </node>
     </node>
     <node concept="3uibUv" id="7OJcYqx_G_k" role="EKbjA">
-      <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqx2vhv" resolve="IFeatureStaple" />
       <node concept="3Tqbb2" id="7OJcYqx_HDU" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjkkDM" resolve="Property" />
       </node>
@@ -11585,11 +11649,11 @@
     </node>
   </node>
   <node concept="312cEu" id="7OJcYqwqLm4">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="AnnotationConceptKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="AnnotationConceptStaple" />
     <node concept="3Tm1VV" id="7OJcYqwqLm5" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqwqLm6" role="1zkMxy">
-      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqwqLm7" role="11_B2D">
         <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
       </node>
@@ -11605,7 +11669,7 @@
       <node concept="3Tm1VV" id="7OJcYqwqLmf" role="1B3o_S" />
       <node concept="3clFbS" id="7OJcYqwqLmg" role="3clF47">
         <node concept="XkiVB" id="7OJcYqwqLmh" role="3cqZAp">
-          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedMapping" />
+          <ref role="37wK5l" node="7OJcYqvKqOn" resolve="AKeyedStaple" />
           <node concept="37vLTw" id="7OJcYqwqLmi" role="37wK5m">
             <ref role="3cqZAo" node="7OJcYqwqLmz" resolve="lc" />
           </node>
@@ -11629,14 +11693,14 @@
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVC" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwqLmq" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqwqLmz" resolve="lc" />
             </node>
           </node>
           <node concept="2YIFZM" id="7OJcYqwPrVD" role="37wK5m">
             <ref role="37wK5l" node="5M3rB6_QlA6" resolve="extractKey" />
-            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedMapping" />
+            <ref role="1Pybhc" node="7OJcYqvKk3R" resolve="AKeyedStaple" />
             <node concept="37vLTw" id="7OJcYqwqLms" role="37wK5m">
               <ref role="3cqZAo" node="7OJcYqwqLmz" resolve="lc" />
             </node>
@@ -11727,13 +11791,25 @@
         </node>
       </node>
     </node>
+    <node concept="3uibUv" id="7OJcYq$p3ep" role="EKbjA">
+      <ref role="3uigEE" node="7OJcYqwYeSL" resolve="IClassifierStaple" />
+      <node concept="3Tqbb2" id="7OJcYq$p4tN" role="11_B2D">
+        <ref role="ehGHo" to="h3y3:18UigYQyrxa" resolve="Annotation" />
+      </node>
+      <node concept="3Tqbb2" id="7OJcYq$p5Ew" role="11_B2D">
+        <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      </node>
+      <node concept="3uibUv" id="7OJcYq$p6TT" role="11_B2D">
+        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="7OJcYqwYeSL">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="IClassifierKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="IClassifierStaple" />
     <node concept="3Tm1VV" id="7OJcYqwYeSM" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqwYfpt" role="3HQHJm">
-      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
       <node concept="16syzq" id="7OJcYqwYksP" role="11_B2D">
         <ref role="16sUi3" node="7OJcYqwYfRg" resolve="LC" />
       </node>
@@ -11764,11 +11840,11 @@
     </node>
   </node>
   <node concept="3HP615" id="7OJcYqx0lp$">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="IPrimitiveTypeKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="IPrimitiveTypeStaple" />
     <node concept="3Tm1VV" id="7OJcYqx0lp_" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqx0lUM" role="3HQHJm">
-      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
       <node concept="3Tqbb2" id="7OJcYqx0muw" role="11_B2D">
         <ref role="ehGHo" to="h3y3:2ju2syjko87" resolve="PrimitiveType" />
       </node>
@@ -11787,11 +11863,11 @@
     </node>
   </node>
   <node concept="3HP615" id="7OJcYqx2vhv">
-    <property role="3GE5qa" value="keyedMapping" />
-    <property role="TrG5h" value="IFeatureKeyedMapping" />
+    <property role="3GE5qa" value="staple" />
+    <property role="TrG5h" value="IFeatureStaple" />
     <node concept="3Tm1VV" id="7OJcYqx2vhw" role="1B3o_S" />
     <node concept="3uibUv" id="7OJcYqx2vQ1" role="3HQHJm">
-      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedMapping" />
+      <ref role="3uigEE" node="7OJcYqvKf0O" resolve="IKeyedStaple" />
       <node concept="16syzq" id="7OJcYqx2wuc" role="11_B2D">
         <ref role="16sUi3" node="7OJcYqx2wsI" resolve="LC" />
       </node>

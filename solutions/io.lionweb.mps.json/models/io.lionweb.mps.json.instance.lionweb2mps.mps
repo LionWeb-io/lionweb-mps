@@ -702,7 +702,7 @@
                       <ref role="2Gs0qQ" node="7OJcYqyLKMb" resolve="prop" />
                     </node>
                     <node concept="liA8E" id="7OJcYqyMsdv" role="2OqNvi">
-                      <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getMapping" />
+                      <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getStaple" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7OJcYqyMxm2" role="2OqNvi">
@@ -734,7 +734,7 @@
               <ref role="3cqZAo" node="5JNiskj75AZ" resolve="jsonConstants" />
             </node>
             <node concept="liA8E" id="7OJcYqyMPkU" role="2OqNvi">
-              <ref role="37wK5l" to="6peh:5JNiskjpjYQ" resolve="listSpecificAnnotationMembers" />
+              <ref role="37wK5l" to="6peh:5JNiskjpjYQ" resolve="listMpsM1AnnotationPropertyMembers" />
             </node>
           </node>
         </node>

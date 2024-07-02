@@ -1043,7 +1043,7 @@
                             <ref role="2Gs0qQ" node="7OJcYqyPiP7" resolve="dataType" />
                           </node>
                           <node concept="liA8E" id="7OJcYq$hMMF" role="2OqNvi">
-                            <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getMapping" />
+                            <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getStaple" />
                           </node>
                         </node>
                         <node concept="liA8E" id="7OJcYq$hMMG" role="2OqNvi">
@@ -1070,7 +1070,7 @@
               <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
             </node>
             <node concept="liA8E" id="7OJcYqyP7bq" role="2OqNvi">
-              <ref role="37wK5l" to="6peh:7OJcYqxTsMO" resolve="listPrimitiveTypesX" />
+              <ref role="37wK5l" to="6peh:7OJcYqxTsMO" resolve="listLcPrimitiveTypes" />
             </node>
           </node>
         </node>
@@ -1083,7 +1083,7 @@
               <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
             </node>
             <node concept="liA8E" id="7OJcYqyR$d3" role="2OqNvi">
-              <ref role="37wK5l" to="6peh:7OJcYqxTwQ8" resolve="listClassifiersX" />
+              <ref role="37wK5l" to="6peh:7OJcYqxTwQ8" resolve="listLcClassifiers" />
             </node>
           </node>
           <node concept="3clFbS" id="7OJcYqyR1HW" role="2LFqv$">
@@ -1106,7 +1106,7 @@
                             <ref role="2Gs0qQ" node="7OJcYqyR1HS" resolve="classifier" />
                           </node>
                           <node concept="liA8E" id="7OJcYq$i1mb" role="2OqNvi">
-                            <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getMapping" />
+                            <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getStaple" />
                           </node>
                         </node>
                         <node concept="liA8E" id="7OJcYq$i1mc" role="2OqNvi">
@@ -3873,9 +3873,9 @@
           <node concept="3clFbS" id="7weWCFltqqz" role="3clFbx">
             <node concept="3cpWs8" id="7OJcYqzSs4i" role="3cqZAp">
               <node concept="3cpWsn" id="7OJcYqzSs4j" role="3cpWs9">
-                <property role="TrG5h" value="mapper" />
+                <property role="TrG5h" value="staple" />
                 <node concept="3uibUv" id="7OJcYqzSmlX" role="1tU5fm">
-                  <ref role="3uigEE" to="6peh:7OJcYqxQZIZ" resolve="IJsonKeyedMapper" />
+                  <ref role="3uigEE" to="6peh:7OJcYqxQZIZ" resolve="IJsonStaple" />
                   <node concept="3qUE_q" id="7OJcYqzSmmc" role="11_B2D">
                     <node concept="3uibUv" id="7OJcYqzSmmd" role="3qUE_r">
                       <ref role="3uigEE" to="imb3:~Classifier" resolve="Classifier" />
@@ -3883,7 +3883,7 @@
                   </node>
                   <node concept="3qUE_q" id="7OJcYqzSmma" role="11_B2D">
                     <node concept="3uibUv" id="7OJcYqzSmmb" role="3qUE_r">
-                      <ref role="3uigEE" to="y7p:7OJcYqwYeSL" resolve="IClassifierKeyedMapping" />
+                      <ref role="3uigEE" to="y7p:7OJcYqwYeSL" resolve="IClassifierStaple" />
                     </node>
                   </node>
                 </node>
@@ -3893,7 +3893,7 @@
                       <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                     </node>
                     <node concept="liA8E" id="7OJcYqzSs4n" role="2OqNvi">
-                      <ref role="37wK5l" to="6peh:7OJcYqyVkp8" resolve="listReplacementMpsSpecificClassifiersX" />
+                      <ref role="37wK5l" to="6peh:7OJcYqyVkp8" resolve="listMpsInternalClassifiers" />
                     </node>
                   </node>
                   <node concept="1z4cxt" id="7OJcYqzSs4o" role="2OqNvi">
@@ -3910,7 +3910,7 @@
                                   <ref role="3cqZAo" node="7OJcYqzSs4z" resolve="it" />
                                 </node>
                                 <node concept="liA8E" id="7OJcYqzSs4x" role="2OqNvi">
-                                  <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getMapping" />
+                                  <ref role="37wK5l" to="6peh:7OJcYqxR0T3" resolve="getStaple" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="7OJcYqzSs4y" role="2OqNvi">
@@ -3935,7 +3935,7 @@
                   <node concept="37vLTI" id="7weWCFlvm7j" role="3clFbG">
                     <node concept="2OqwBi" id="7OJcYqyYecA" role="37vLTx">
                       <node concept="37vLTw" id="7OJcYqyXjte" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7OJcYqzSs4j" resolve="mapper" />
+                        <ref role="3cqZAo" node="7OJcYqzSs4j" resolve="staple" />
                       </node>
                       <node concept="liA8E" id="7OJcYqyYkY0" role="2OqNvi">
                         <ref role="37wK5l" to="6peh:7OJcYqxR0RG" resolve="getJson" />
@@ -3950,7 +3950,7 @@
               <node concept="3y3z36" id="7OJcYqyXPUs" role="3clFbw">
                 <node concept="10Nm6u" id="7OJcYqyXUpc" role="3uHU7w" />
                 <node concept="37vLTw" id="7OJcYqyXJel" role="3uHU7B">
-                  <ref role="3cqZAo" node="7OJcYqzSs4j" resolve="mapper" />
+                  <ref role="3cqZAo" node="7OJcYqzSs4j" resolve="staple" />
                 </node>
               </node>
             </node>
@@ -4653,7 +4653,7 @@
                               <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                             </node>
                             <node concept="liA8E" id="5TNjoy1wHlu" role="2OqNvi">
-                              <ref role="37wK5l" to="6peh:7OJcYqxR63A" resolve="getStringX" />
+                              <ref role="37wK5l" to="6peh:7OJcYqxR63A" resolve="getString" />
                             </node>
                           </node>
                           <node concept="liA8E" id="7OJcYqz$TdJ" role="2OqNvi">
@@ -6020,7 +6020,7 @@
                     <ref role="3cqZAo" node="5AGBwuFajTm" resolve="constants" />
                   </node>
                   <node concept="liA8E" id="3IM5Sl$mTUs" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqxrfm4" resolve="listConceptDescriptionProperty" />
+                    <ref role="37wK5l" to="y7p:7OJcYqxrfm4" resolve="listMpsM2AnnotationProperties" />
                   </node>
                 </node>
                 <node concept="3$u5V9" id="7OJcYqyOdyD" role="2OqNvi">
@@ -6201,7 +6201,7 @@
                           <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                         </node>
                         <node concept="liA8E" id="3IM5Sl$oJNI" role="2OqNvi">
-                          <ref role="37wK5l" to="6peh:7OJcYqyb96D" resolve="getConceptDescriptionAnnotationX" />
+                          <ref role="37wK5l" to="6peh:7OJcYqyb96D" resolve="getConceptDescriptionAnnotation" />
                         </node>
                       </node>
                       <node concept="liA8E" id="7OJcYqyYKmo" role="2OqNvi">
@@ -6219,7 +6219,7 @@
                       <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                     </node>
                     <node concept="liA8E" id="3IM5Sl$oJNM" role="2OqNvi">
-                      <ref role="37wK5l" to="6peh:7OJcYqyb96D" resolve="getConceptDescriptionAnnotationX" />
+                      <ref role="37wK5l" to="6peh:7OJcYqyb96D" resolve="getConceptDescriptionAnnotation" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7OJcYqyZcSE" role="2OqNvi">
@@ -6273,7 +6273,7 @@
                             <ref role="3cqZAo" node="48csSBNRezH" resolve="jsonConstants" />
                           </node>
                           <node concept="liA8E" id="3IM5Sl$oJO7" role="2OqNvi">
-                            <ref role="37wK5l" to="6peh:7OJcYqzAV4V" resolve="listConceptDescriptionPropertiesX" />
+                            <ref role="37wK5l" to="6peh:7OJcYqzAV4V" resolve="listMpsM2AnnotationProperties" />
                           </node>
                         </node>
                         <node concept="3$u5V9" id="7OJcYqzBs_e" role="2OqNvi">

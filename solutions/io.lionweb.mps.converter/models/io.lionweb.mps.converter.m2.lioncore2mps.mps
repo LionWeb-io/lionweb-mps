@@ -4105,9 +4105,9 @@
       <node concept="3clFbS" id="DUXtH0z8cQ" role="3clF47">
         <node concept="3cpWs8" id="7OJcYqztYaA" role="3cqZAp">
           <node concept="3cpWsn" id="7OJcYqztYaB" role="3cpWs9">
-            <property role="TrG5h" value="mapping" />
+            <property role="TrG5h" value="staple" />
             <node concept="3uibUv" id="7OJcYqztVkW" role="1tU5fm">
-              <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeKeyedMapping" />
+              <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
             </node>
             <node concept="2OqwBi" id="7OJcYqztYaC" role="33vP2m">
               <node concept="2OqwBi" id="7OJcYqztYaD" role="2Oq$k0">
@@ -4115,7 +4115,7 @@
                   <ref role="3cqZAo" node="3ePT3MaOLS3" resolve="constants" />
                 </node>
                 <node concept="liA8E" id="7OJcYqztYaF" role="2OqNvi">
-                  <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+                  <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
                 </node>
               </node>
               <node concept="1z4cxt" id="7OJcYqztYaG" role="2OqNvi">
@@ -4152,7 +4152,7 @@
               <node concept="2OqwBi" id="39$JcGFNnqE" role="3cqZAk">
                 <node concept="2OqwBi" id="7OJcYqzw8Dh" role="2Oq$k0">
                   <node concept="37vLTw" id="7OJcYqzvS7u" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqztYaB" resolve="mapping" />
+                    <ref role="3cqZAo" node="7OJcYqztYaB" resolve="staple" />
                   </node>
                   <node concept="liA8E" id="7OJcYqzwp2B" role="2OqNvi">
                     <ref role="37wK5l" to="y7p:7OJcYqvKihR" resolve="getMps" />
@@ -4165,7 +4165,7 @@
           <node concept="3y3z36" id="7OJcYqzv9fk" role="3clFbw">
             <node concept="10Nm6u" id="7OJcYqzvsAT" role="3uHU7w" />
             <node concept="37vLTw" id="7OJcYqzuBTU" role="3uHU7B">
-              <ref role="3cqZAo" node="7OJcYqztYaB" resolve="mapping" />
+              <ref role="3cqZAo" node="7OJcYqztYaB" resolve="staple" />
             </node>
           </node>
         </node>
@@ -6611,7 +6611,7 @@
               <ref role="3cqZAo" node="5M3rB6B$JHn" resolve="constants" />
             </node>
             <node concept="liA8E" id="7OJcYqzgvRK" role="2OqNvi">
-              <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+              <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
             </node>
           </node>
           <node concept="3clFbS" id="7OJcYqzgp3T" role="2LFqv$">
@@ -6652,7 +6652,7 @@
               <ref role="3cqZAo" node="5M3rB6B$JHn" resolve="constants" />
             </node>
             <node concept="liA8E" id="7OJcYqzgTsi" role="2OqNvi">
-              <ref role="37wK5l" to="y7p:7OJcYqwYDTB" resolve="listClassifiers" />
+              <ref role="37wK5l" to="y7p:7OJcYqwYDTB" resolve="listLcClassifiers" />
             </node>
           </node>
           <node concept="3clFbS" id="7OJcYqzgORA" role="2LFqv$">
@@ -12335,7 +12335,7 @@
                       <ref role="3cqZAo" node="3ePT3MaOLS3" resolve="constants" />
                     </node>
                     <node concept="liA8E" id="39$JcGGHkhW" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+                      <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
                     </node>
                   </node>
                   <node concept="3$u5V9" id="7OJcYqzy1gm" role="2OqNvi">
@@ -12716,7 +12716,7 @@
                         <ref role="3cqZAo" node="3ePT3MaOLS3" resolve="constants" />
                       </node>
                       <node concept="liA8E" id="39$JcGGJeTb" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveType" />
+                        <ref role="37wK5l" to="y7p:7OJcYqx0tbv" resolve="listLcPrimitiveTypes" />
                       </node>
                     </node>
                     <node concept="3$u5V9" id="7OJcYqzz9Li" role="2OqNvi">
