@@ -1010,7 +1010,7 @@
       </node>
     </node>
     <node concept="1LZb2c" id="SgalDIJnKT" role="1SL9yI">
-      <property role="TrG5h" value="builtins" />
+      <property role="TrG5h" value="langCore" />
       <node concept="3cqZAl" id="SgalDIJnKU" role="3clF45" />
       <node concept="3clFbS" id="SgalDIJnKV" role="3clF47">
         <node concept="3cpWs8" id="SgalDIJzrS" role="3cqZAp">
@@ -1018,7 +1018,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIJzrU" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIK0Eh" role="33vP2m">
-              <property role="Xl_RC" value="LionCore-builtins" />
+              <property role="Xl_RC" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
             </node>
           </node>
         </node>
@@ -2407,7 +2407,7 @@
       </node>
     </node>
     <node concept="1LZb2c" id="SgalDIKsJF" role="1SL9yI">
-      <property role="TrG5h" value="builtins" />
+      <property role="TrG5h" value="langCore" />
       <node concept="3cqZAl" id="SgalDIKsJG" role="3clF45" />
       <node concept="3clFbS" id="SgalDIKsJH" role="3clF47">
         <node concept="3cpWs8" id="SgalDIKsJI" role="3cqZAp">
@@ -2415,7 +2415,7 @@
             <property role="TrG5h" value="expected" />
             <node concept="17QB3L" id="SgalDIKsJK" role="1tU5fm" />
             <node concept="Xl_RD" id="SgalDIKsJL" role="33vP2m">
-              <property role="Xl_RC" value="LionCore-builtins" />
+              <property role="Xl_RC" value="Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj" />
             </node>
           </node>
         </node>

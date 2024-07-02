@@ -96,7 +96,6 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -263,13 +262,6 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -318,7 +310,6 @@
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
-      <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1240216724530" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashMapCreator" flags="nn" index="32Fmki" />
       <concept id="1240217271293" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashSetCreator" flags="nn" index="32HrFt" />
       <concept id="1167380149909" name="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation" flags="nn" index="3dhRuq" />
@@ -4998,73 +4989,7 @@
           <node concept="3cpWsn" id="7OJcYqvIRpK" role="3cpWs9">
             <property role="TrG5h" value="key" />
             <node concept="17QB3L" id="7OJcYqvIR9N" role="1tU5fm" />
-          </node>
-        </node>
-        <node concept="1X3_iC" id="7OJcYqvJKZq" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbJ" id="7OJcYqvITV_" role="8Wnug">
-            <node concept="3clFbS" id="7OJcYqvITVA" role="3clFbx">
-              <node concept="3cpWs8" id="7OJcYqvITVB" role="3cqZAp">
-                <node concept="3cpWsn" id="7OJcYqvITVC" role="3cpWs9">
-                  <property role="TrG5h" value="index" />
-                  <node concept="10Oyi0" id="7OJcYqvITVD" role="1tU5fm" />
-                  <node concept="2OqwBi" id="7OJcYqvITVE" role="33vP2m">
-                    <node concept="2OqwBi" id="7OJcYqvITVF" role="2Oq$k0">
-                      <node concept="37vLTw" id="7OJcYqvITVG" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3Lj28wlDSZ5" resolve="constants" />
-                      </node>
-                      <node concept="liA8E" id="7OJcYqvITVH" role="2OqNvi">
-                        <ref role="37wK5l" to="y7p:7weWCFlqTiX" resolve="listSLanguageInternalClassifiers" />
-                      </node>
-                    </node>
-                    <node concept="2WmjW8" id="7OJcYqvITVI" role="2OqNvi">
-                      <node concept="37vLTw" id="7OJcYqvITVJ" role="25WWJ7">
-                        <ref role="3cqZAo" node="5s4Z0e0f9ko" resolve="concept" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7OJcYqvITVS" role="3clFbw">
-              <node concept="37vLTw" id="7OJcYqvITVT" role="2Oq$k0">
-                <ref role="3cqZAo" node="3Lj28wlDSZ5" resolve="constants" />
-              </node>
-              <node concept="liA8E" id="7OJcYqvITVU" role="2OqNvi">
-                <ref role="37wK5l" to="y7p:5JNiskiswUo" resolve="isMpsInternalElement" />
-                <node concept="37vLTw" id="7OJcYqvITVV" role="37wK5m">
-                  <ref role="3cqZAo" node="5s4Z0e0f9ko" resolve="concept" />
-                </node>
-              </node>
-            </node>
-            <node concept="9aQIb" id="7OJcYqvITVW" role="9aQIa">
-              <node concept="3clFbS" id="7OJcYqvITVX" role="9aQI4">
-                <node concept="3clFbF" id="7OJcYqvIVbB" role="3cqZAp">
-                  <node concept="37vLTI" id="7OJcYqvIVbD" role="3clFbG">
-                    <node concept="2OqwBi" id="7OJcYqvIRpL" role="37vLTx">
-                      <node concept="37vLTw" id="7OJcYqvIRpM" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5s4Z0e0f92p" resolve="idMapper" />
-                      </node>
-                      <node concept="liA8E" id="7OJcYqvIRpN" role="2OqNvi">
-                        <ref role="37wK5l" to="teza:5M3rB6Ae5mL" resolve="mapClassifier" />
-                        <node concept="37vLTw" id="7OJcYqvIRpO" role="37wK5m">
-                          <ref role="3cqZAo" node="5s4Z0e0f9ko" resolve="concept" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="7OJcYqvIVbH" role="37vLTJ">
-                      <ref role="3cqZAo" node="7OJcYqvIRpK" resolve="key" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7OJcYqvJJlB" role="3cqZAp">
-          <node concept="37vLTI" id="7OJcYqvJJlC" role="3clFbG">
-            <node concept="2OqwBi" id="7OJcYqvJJlD" role="37vLTx">
+            <node concept="2OqwBi" id="7OJcYqvJJlD" role="33vP2m">
               <node concept="37vLTw" id="7OJcYqvJJlE" role="2Oq$k0">
                 <ref role="3cqZAo" node="5s4Z0e0f92p" resolve="idMapper" />
               </node>
@@ -5074,9 +4999,6 @@
                   <ref role="3cqZAo" node="5s4Z0e0f9ko" resolve="concept" />
                 </node>
               </node>
-            </node>
-            <node concept="37vLTw" id="7OJcYqvJJlH" role="37vLTJ">
-              <ref role="3cqZAo" node="7OJcYqvIRpK" resolve="key" />
             </node>
           </node>
         </node>

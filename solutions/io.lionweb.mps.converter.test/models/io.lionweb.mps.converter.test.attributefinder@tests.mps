@@ -302,14 +302,27 @@
             </node>
           </node>
         </node>
-        <node concept="3vlDli" id="4oHUzWXGmRb" role="3cqZAp">
-          <node concept="pHN19" id="4oHUzWXGmRc" role="3tpDZB">
-            <node concept="2V$Bhx" id="4oHUzWXGqsm" role="2V$M_3">
-              <property role="2V$B1T" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c" />
-              <property role="2V$B1Q" value="jetbrains.mps.lang.core" />
+        <node concept="3SKdUt" id="7OJcYq_usoN" role="3cqZAp">
+          <node concept="1PaTwC" id="7OJcYq_usoO" role="1aUNEU">
+            <node concept="3oM_SD" id="7OJcYq_usoP" role="1PaTwD">
+              <property role="3oM_SC" value="AttributeFinder" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usoQ" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usoR" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usoS" role="1PaTwD">
+              <property role="3oM_SC" value="translate" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usoT" role="1PaTwD">
+              <property role="3oM_SC" value="keys" />
             </node>
           </node>
-          <node concept="37vLTw" id="4oHUzWXGmRe" role="3tpDZA">
+        </node>
+        <node concept="3ykFI1" id="7OJcYq_usoU" role="3cqZAp">
+          <node concept="37vLTw" id="7OJcYq_usoV" role="3ykU8v">
             <ref role="3cqZAo" node="4oHUzWXGmR3" resolve="lang" />
           </node>
         </node>
@@ -610,12 +623,28 @@
             </node>
           </node>
         </node>
-        <node concept="3vlDli" id="4oHUzWXGB_E" role="3cqZAp">
-          <node concept="37vLTw" id="4oHUzWXGB_F" role="3tpDZA">
-            <ref role="3cqZAo" node="4oHUzWXGB_x" resolve="key" />
+        <node concept="3SKdUt" id="7OJcYq_usuj" role="3cqZAp">
+          <node concept="1PaTwC" id="7OJcYq_usuk" role="1aUNEU">
+            <node concept="3oM_SD" id="7OJcYq_usul" role="1PaTwD">
+              <property role="3oM_SC" value="AttributeFinder" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usum" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usun" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usuo" role="1PaTwD">
+              <property role="3oM_SC" value="translate" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usup" role="1PaTwD">
+              <property role="3oM_SC" value="keys" />
+            </node>
           </node>
-          <node concept="Xl_RD" id="4oHUzWXGB_G" role="3tpDZB">
-            <property role="Xl_RC" value="LionCore-builtins" />
+        </node>
+        <node concept="3ykFI1" id="7OJcYq_usuq" role="3cqZAp">
+          <node concept="37vLTw" id="7OJcYq_usur" role="3ykU8v">
+            <ref role="3cqZAo" node="4oHUzWXGB_x" resolve="key" />
           </node>
         </node>
       </node>
@@ -840,12 +869,28 @@
             </node>
           </node>
         </node>
-        <node concept="3vlDli" id="4oHUzWXGFrK" role="3cqZAp">
-          <node concept="37vLTw" id="4oHUzWXGFrL" role="3tpDZA">
-            <ref role="3cqZAo" node="4oHUzWXGFrB" resolve="key" />
+        <node concept="3SKdUt" id="7OJcYq_us1o" role="3cqZAp">
+          <node concept="1PaTwC" id="7OJcYq_us1p" role="1aUNEU">
+            <node concept="3oM_SD" id="7OJcYq_us1Q" role="1PaTwD">
+              <property role="3oM_SC" value="AttributeFinder" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_us1U" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_us1Z" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_uscT" role="1PaTwD">
+              <property role="3oM_SC" value="translate" />
+            </node>
+            <node concept="3oM_SD" id="7OJcYq_usd6" role="1PaTwD">
+              <property role="3oM_SC" value="keys" />
+            </node>
           </node>
-          <node concept="Xl_RD" id="4oHUzWXGFrM" role="3tpDZB">
-            <property role="Xl_RC" value="LionCore-builtins" />
+        </node>
+        <node concept="3ykFI1" id="7OJcYq_usgK" role="3cqZAp">
+          <node concept="37vLTw" id="7OJcYq_usic" role="3ykU8v">
+            <ref role="3cqZAo" node="4oHUzWXGFrB" resolve="key" />
           </node>
         </node>
       </node>
