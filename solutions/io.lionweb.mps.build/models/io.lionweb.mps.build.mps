@@ -1373,6 +1373,11 @@
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
+        <node concept="1SiIV0" id="alE3w2kcVm" role="3bR37C">
+          <node concept="3bR9La" id="alE3w2kcVn" role="1SiIV1">
+            <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7jdzMamjpqS" role="2G$12L">
         <property role="BnDLt" value="true" />
