@@ -566,6 +566,11 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
+        <node concept="1SiIV0" id="alE3w2j2_7" role="3bR37C">
+          <node concept="3bR9La" id="alE3w2j2_8" role="1SiIV1">
+            <ref role="3bR37D" node="RuBGkv2iXR" resolve="io.lionweb.mps.specific" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="6fYiNFaW8NT" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1366,6 +1371,11 @@
         <node concept="1SiIV0" id="1f4Qr8WT8oK" role="3bR37C">
           <node concept="3bR9La" id="1f4Qr8WT8oL" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="alE3w2kcVm" role="3bR37C">
+          <node concept="3bR9La" id="alE3w2kcVn" role="1SiIV1">
+            <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
           </node>
         </node>
       </node>
