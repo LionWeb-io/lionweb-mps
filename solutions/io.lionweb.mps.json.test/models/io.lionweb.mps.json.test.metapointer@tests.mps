@@ -12,7 +12,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="qa91" ref="r:38742da4-ca90-4db1-b16c-4863d9d39613(io.lionweb.mps.converter.TestLang.structure)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -597,17 +597,6 @@
               <node concept="2ShNRf" id="3M8YG$dhsc8" role="37wK5m">
                 <node concept="1pGfFk" id="3M8YG$dhsc9" role="2ShVmc">
                   <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                  <node concept="2ShNRf" id="3M8YG$dhsca" role="37wK5m">
-                    <node concept="1pGfFk" id="3M8YG$dhscb" role="2ShVmc">
-                      <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                      <node concept="2OqwBi" id="3M8YG$dhscc" role="37wK5m">
-                        <node concept="1jGwE1" id="3M8YG$dhscd" role="2Oq$k0" />
-                        <node concept="liA8E" id="3M8YG$dhsce" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -1303,17 +1292,6 @@
               <node concept="2ShNRf" id="3M8YG$dhsth" role="37wK5m">
                 <node concept="1pGfFk" id="3M8YG$dhsti" role="2ShVmc">
                   <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                  <node concept="2ShNRf" id="3M8YG$dhstj" role="37wK5m">
-                    <node concept="1pGfFk" id="3M8YG$dhstk" role="2ShVmc">
-                      <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                      <node concept="2OqwBi" id="3M8YG$dhstl" role="37wK5m">
-                        <node concept="1jGwE1" id="3M8YG$dhstm" role="2Oq$k0" />
-                        <node concept="liA8E" id="3M8YG$dhstn" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -1461,9 +1439,6 @@
                 <node concept="2ShNRf" id="4R9pospczq_" role="37wK5m">
                   <node concept="1pGfFk" id="4R9pospczqA" role="2ShVmc">
                     <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                    <node concept="37vLTw" id="4R9pospczqB" role="37wK5m">
-                      <ref role="3cqZAo" node="4R9pospczyM" resolve="constants" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -1739,9 +1714,6 @@
                 <node concept="2ShNRf" id="4R9pospcbml" role="37wK5m">
                   <node concept="1pGfFk" id="4R9pospcbIi" role="2ShVmc">
                     <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                    <node concept="37vLTw" id="4R9pospcbTq" role="37wK5m">
-                      <ref role="3cqZAo" node="4R9pospcaKU" resolve="constants" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -1958,17 +1930,6 @@
                   <node concept="2ShNRf" id="3M8YG$dhroh" role="37wK5m">
                     <node concept="1pGfFk" id="3M8YG$dhroi" role="2ShVmc">
                       <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                      <node concept="2ShNRf" id="3M8YG$dhroj" role="37wK5m">
-                        <node concept="1pGfFk" id="3M8YG$dhrok" role="2ShVmc">
-                          <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                          <node concept="2OqwBi" id="3M8YG$dhrol" role="37wK5m">
-                            <node concept="1jGwE1" id="3M8YG$dhrom" role="2Oq$k0" />
-                            <node concept="liA8E" id="3M8YG$dhron" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -2173,17 +2134,6 @@
                   <node concept="2ShNRf" id="3M8YG$dhrX1" role="37wK5m">
                     <node concept="1pGfFk" id="3M8YG$dhrX2" role="2ShVmc">
                       <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                      <node concept="2ShNRf" id="3M8YG$dhrX3" role="37wK5m">
-                        <node concept="1pGfFk" id="3M8YG$dhrX4" role="2ShVmc">
-                          <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                          <node concept="2OqwBi" id="3M8YG$dhrX5" role="37wK5m">
-                            <node concept="1jGwE1" id="3M8YG$dhrX6" role="2Oq$k0" />
-                            <node concept="liA8E" id="3M8YG$dhrX7" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -2458,17 +2408,6 @@
                   <node concept="2ShNRf" id="3M8YG$dhl3A" role="37wK5m">
                     <node concept="1pGfFk" id="3M8YG$dhl3B" role="2ShVmc">
                       <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                      <node concept="2ShNRf" id="3M8YG$dhouP" role="37wK5m">
-                        <node concept="1pGfFk" id="3M8YG$dhoPZ" role="2ShVmc">
-                          <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                          <node concept="2OqwBi" id="3M8YG$dhq0A" role="37wK5m">
-                            <node concept="1jGwE1" id="3M8YG$dhpI1" role="2Oq$k0" />
-                            <node concept="liA8E" id="3M8YG$dhqf1" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -2673,17 +2612,6 @@
                   <node concept="2ShNRf" id="3M8YG$dhqV0" role="37wK5m">
                     <node concept="1pGfFk" id="3M8YG$dhqV1" role="2ShVmc">
                       <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                      <node concept="2ShNRf" id="3M8YG$dhqV2" role="37wK5m">
-                        <node concept="1pGfFk" id="3M8YG$dhqV3" role="2ShVmc">
-                          <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                          <node concept="2OqwBi" id="3M8YG$dhqV4" role="37wK5m">
-                            <node concept="1jGwE1" id="3M8YG$dhqV5" role="2Oq$k0" />
-                            <node concept="liA8E" id="3M8YG$dhqV6" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -2946,9 +2874,6 @@
               <node concept="2ShNRf" id="5M3rB6A_bAU" role="37wK5m">
                 <node concept="1pGfFk" id="5M3rB6A_dl7" role="2ShVmc">
                   <ref role="37wK5l" to="kte7:68Be_yWzVO" resolve="SLanguageLongIdGuaranteedMapper" />
-                  <node concept="37vLTw" id="5M3rB6A_jBG" role="37wK5m">
-                    <ref role="3cqZAo" node="68Be_yWk_e" resolve="constants" />
-                  </node>
                 </node>
               </node>
               <node concept="37vLTw" id="1ryFPTS7c4u" role="37wK5m">
@@ -4095,9 +4020,6 @@
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="37vLTw" id="1ryFPTS7QVE" role="37wK5m">
-                    <ref role="3cqZAo" node="1ryFPTS7O5d" resolve="constants" />
                   </node>
                 </node>
               </node>

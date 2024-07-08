@@ -58,12 +58,6 @@
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
@@ -2350,20 +2344,8 @@
           <node concept="2ShNRf" id="68Be_yW$dL" role="37wK5m">
             <node concept="1pGfFk" id="68Be_yW$Xx" role="2ShVmc">
               <ref role="37wK5l" to="faaz:5M3rB6A_o8u" resolve="SLanguageLongIdKeyMapper" />
-              <node concept="37vLTw" id="68Be_yW_A9" role="37wK5m">
-                <ref role="3cqZAo" node="68Be_yW_cY" resolve="constants" />
-              </node>
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="68Be_yW_cY" role="3clF46">
-        <property role="TrG5h" value="constants" />
-        <node concept="2AHcQZ" id="68Be_yW_tk" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-        </node>
-        <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
-          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
     </node>

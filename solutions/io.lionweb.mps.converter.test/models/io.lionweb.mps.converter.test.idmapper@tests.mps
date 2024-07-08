@@ -2961,9 +2961,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="37vLTw" id="5M3rB6BiU9W" role="37wK5m">
-                <ref role="3cqZAo" node="5M3rB6BiU9S" resolve="constants" />
-              </node>
             </node>
           </node>
         </node>
@@ -4744,17 +4741,6 @@
           <node concept="2ShNRf" id="4oHUzWXYRLV" role="3clFbG">
             <node concept="1pGfFk" id="4oHUzWXYS02" role="2ShVmc">
               <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-              <node concept="2ShNRf" id="4oHUzWXYS0n" role="37wK5m">
-                <node concept="1pGfFk" id="4oHUzWXYSeM" role="2ShVmc">
-                  <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                  <node concept="2OqwBi" id="4oHUzWXYSoy" role="37wK5m">
-                    <node concept="1jGwE1" id="4oHUzWXYSff" role="2Oq$k0" />
-                    <node concept="liA8E" id="4oHUzWXYSyz" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
