@@ -59,9 +59,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -4944,6 +4941,15 @@
           <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
       </node>
+      <node concept="37vLTG" id="4r3Tp$plM_W" role="3clF46">
+        <property role="TrG5h" value="sComparer" />
+        <node concept="3uibUv" id="4r3Tp$plMTj" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:4r3Tp$paX4o" resolve="SLanguageComparer" />
+        </node>
+        <node concept="2AHcQZ" id="4r3Tp$plN5h" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="5s4Z0e0f4ag" role="3clF45" />
       <node concept="3Tm1VV" id="5s4Z0e0f4ah" role="1B3o_S" />
       <node concept="3clFbS" id="5s4Z0e0f4ai" role="3clF47">
@@ -4975,10 +4981,8 @@
         </node>
         <node concept="3clFbF" id="4r3Tp$pcZSG" role="3cqZAp">
           <node concept="37vLTI" id="4r3Tp$pd0HJ" role="3clFbG">
-            <node concept="2ShNRf" id="4r3Tp$pd0JO" role="37vLTx">
-              <node concept="HV5vD" id="4r3Tp$pd15i" role="2ShVmc">
-                <ref role="HV5vE" to="y7p:4r3Tp$paX4o" resolve="SLanguageComparer" />
-              </node>
+            <node concept="37vLTw" id="4r3Tp$plNBH" role="37vLTx">
+              <ref role="3cqZAo" node="4r3Tp$plM_W" resolve="sComparer" />
             </node>
             <node concept="2OqwBi" id="4r3Tp$pd0ab" role="37vLTJ">
               <node concept="Xjq3P" id="4r3Tp$pcZSE" role="2Oq$k0" />

@@ -458,6 +458,19 @@
                 <node concept="37vLTw" id="7Cdxs9E3cyz" role="37wK5m">
                   <ref role="3cqZAo" node="7Cdxs9E3aNd" resolve="attributeFinder" />
                 </node>
+                <node concept="2ShNRf" id="4r3Tp$pEOKW" role="37wK5m">
+                  <node concept="1pGfFk" id="4r3Tp$pF6xi" role="2ShVmc">
+                    <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
+                    <node concept="2ShNRf" id="4r3Tp$q2bXh" role="37wK5m">
+                      <node concept="1pGfFk" id="4r3Tp$q2dkS" role="2ShVmc">
+                        <ref role="37wK5l" to="y7p:6VkSF6aIt83" resolve="SLanguageIdDeriver" />
+                        <node concept="37vLTw" id="4r3Tp$q2dOQ" role="37wK5m">
+                          <ref role="3cqZAo" node="2fx6VTTfJEo" resolve="constants" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
