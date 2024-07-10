@@ -4913,6 +4913,14 @@
         <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
       </node>
     </node>
+    <node concept="312cEg" id="4r3Tp$pcYul" role="jymVt">
+      <property role="TrG5h" value="sComparer" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="4r3Tp$pcXnu" role="1B3o_S" />
+      <node concept="3uibUv" id="4r3Tp$pcYoa" role="1tU5fm">
+        <ref role="3uigEE" to="y7p:4r3Tp$paX4o" resolve="SLanguageComparer" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5s4Z0e0f9jb" role="jymVt" />
     <node concept="3clFbW" id="5s4Z0e0f4ae" role="jymVt">
       <node concept="37vLTG" id="6VkSF6cl5eO" role="3clF46">
@@ -4931,6 +4939,15 @@
         </node>
         <node concept="3uibUv" id="5JNiskhDakl" role="1tU5fm">
           <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4r3Tp$plM_W" role="3clF46">
+        <property role="TrG5h" value="sComparer" />
+        <node concept="3uibUv" id="4r3Tp$plMTj" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:4r3Tp$paX4o" resolve="SLanguageComparer" />
+        </node>
+        <node concept="2AHcQZ" id="4r3Tp$plN5h" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
       <node concept="3cqZAl" id="5s4Z0e0f4ag" role="3clF45" />
@@ -4959,6 +4976,19 @@
             </node>
             <node concept="37vLTw" id="3Lj28wlDSZf" role="37vLTx">
               <ref role="3cqZAo" node="3Lj28wlDSK3" resolve="constants" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4r3Tp$pcZSG" role="3cqZAp">
+          <node concept="37vLTI" id="4r3Tp$pd0HJ" role="3clFbG">
+            <node concept="37vLTw" id="4r3Tp$plNBH" role="37vLTx">
+              <ref role="3cqZAo" node="4r3Tp$plM_W" resolve="sComparer" />
+            </node>
+            <node concept="2OqwBi" id="4r3Tp$pd0ab" role="37vLTJ">
+              <node concept="Xjq3P" id="4r3Tp$pcZSE" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4r3Tp$pd0m1" role="2OqNvi">
+                <ref role="2Oxat5" node="4r3Tp$pcYul" resolve="sComparer" />
+              </node>
             </node>
           </node>
         </node>
@@ -5099,17 +5129,32 @@
                     <node concept="1z4cxt" id="7OJcYqzcj26" role="2OqNvi">
                       <node concept="1bVj0M" id="7OJcYqzcj28" role="23t8la">
                         <node concept="3clFbS" id="7OJcYqzcj29" role="1bW5cS">
-                          <node concept="3clFbF" id="7OJcYqzck9I" role="3cqZAp">
-                            <node concept="17R0WA" id="7OJcYqzcttr" role="3clFbG">
-                              <node concept="37vLTw" id="7OJcYqzcuh4" role="3uHU7w">
-                                <ref role="3cqZAo" node="5s4Z0e0f9ky" resolve="property" />
+                          <node concept="3clFbF" id="4r3Tp$pd2ES" role="3cqZAp">
+                            <node concept="15s5l7" id="4r3Tp$peOPx" role="lGtFl">
+                              <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: equals() between objects of inconvertible types&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6293790355739144894]&quot;;" />
+                              <property role="huDt6" value="Warning: equals() between objects of inconvertible types" />
+                            </node>
+                            <node concept="2OqwBi" id="4r3Tp$pd3Ju" role="3clFbG">
+                              <node concept="37vLTw" id="4r3Tp$pd2EQ" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4r3Tp$pcYul" resolve="sComparer" />
                               </node>
-                              <node concept="2OqwBi" id="7OJcYqzcldD" role="3uHU7B">
-                                <node concept="37vLTw" id="7OJcYqzck9H" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="7OJcYqzcj2a" resolve="it" />
+                              <node concept="liA8E" id="4r3Tp$pd4F6" role="2OqNvi">
+                                <ref role="37wK5l" to="y7p:4r3Tp$pb124" resolve="equals" />
+                                <node concept="10QFUN" id="4r3Tp$pdg$d" role="37wK5m">
+                                  <node concept="2OqwBi" id="4r3Tp$pdg$a" role="10QFUP">
+                                    <node concept="37vLTw" id="4r3Tp$pdg$b" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="7OJcYqzcj2a" resolve="it" />
+                                    </node>
+                                    <node concept="liA8E" id="4r3Tp$pdg$c" role="2OqNvi">
+                                      <ref role="37wK5l" to="y7p:7OJcYqvKqcZ" resolve="getSlang" />
+                                    </node>
+                                  </node>
+                                  <node concept="3uibUv" id="4r3Tp$pdg$7" role="10QFUM">
+                                    <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+                                  </node>
                                 </node>
-                                <node concept="liA8E" id="7OJcYqzcs7E" role="2OqNvi">
-                                  <ref role="37wK5l" to="y7p:7OJcYqvKqcZ" resolve="getSlang" />
+                                <node concept="37vLTw" id="4r3Tp$pdb24" role="37wK5m">
+                                  <ref role="3cqZAo" node="5s4Z0e0f9ky" resolve="property" />
                                 </node>
                               </node>
                             </node>
@@ -5439,17 +5484,37 @@
                       <node concept="1z4cxt" id="7OJcYqzcELc" role="2OqNvi">
                         <node concept="1bVj0M" id="7OJcYqzcELe" role="23t8la">
                           <node concept="3clFbS" id="7OJcYqzcELf" role="1bW5cS">
-                            <node concept="3clFbF" id="7OJcYqzcFD4" role="3cqZAp">
-                              <node concept="17R0WA" id="7OJcYqzcJhQ" role="3clFbG">
-                                <node concept="37vLTw" id="7OJcYqzcK8n" role="3uHU7w">
-                                  <ref role="3cqZAo" node="5s4Z0e0go9r" resolve="element" />
+                            <node concept="3clFbF" id="4r3Tp$pdkV2" role="3cqZAp">
+                              <node concept="15s5l7" id="4r3Tp$peLg9" role="lGtFl">
+                                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: equals() between objects of inconvertible types&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6293790355739144894]&quot;;" />
+                                <property role="huDt6" value="Warning: equals() between objects of inconvertible types" />
+                              </node>
+                              <node concept="2OqwBi" id="4r3Tp$pdm00" role="3clFbG">
+                                <node concept="37vLTw" id="4r3Tp$pdkV0" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4r3Tp$pcYul" resolve="sComparer" />
                                 </node>
-                                <node concept="2OqwBi" id="7OJcYqzcGJ4" role="3uHU7B">
-                                  <node concept="37vLTw" id="7OJcYqzcFD3" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7OJcYqzcELg" resolve="it" />
+                                <node concept="liA8E" id="4r3Tp$pdmTf" role="2OqNvi">
+                                  <ref role="37wK5l" to="y7p:4r3Tp$paZgH" resolve="equals" />
+                                  <node concept="10QFUN" id="4r3Tp$pdsw2" role="37wK5m">
+                                    <node concept="2OqwBi" id="4r3Tp$pdsvZ" role="10QFUP">
+                                      <node concept="37vLTw" id="4r3Tp$pdsw0" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="7OJcYqzcELg" resolve="it" />
+                                      </node>
+                                      <node concept="liA8E" id="4r3Tp$pdsw1" role="2OqNvi">
+                                        <ref role="37wK5l" to="y7p:7OJcYqvKizN" resolve="getSlang" />
+                                      </node>
+                                    </node>
+                                    <node concept="3uibUv" id="4r3Tp$pdsvW" role="10QFUM">
+                                      <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+                                    </node>
                                   </node>
-                                  <node concept="liA8E" id="7OJcYqzcIeG" role="2OqNvi">
-                                    <ref role="37wK5l" to="y7p:7OJcYqvKizN" resolve="getSlang" />
+                                  <node concept="10QFUN" id="4r3Tp$pd$ka" role="37wK5m">
+                                    <node concept="37vLTw" id="4r3Tp$pd$k9" role="10QFUP">
+                                      <ref role="3cqZAo" node="5s4Z0e0go9r" resolve="element" />
+                                    </node>
+                                    <node concept="3uibUv" id="4r3Tp$pd$k6" role="10QFUM">
+                                      <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -5493,17 +5558,37 @@
                       <node concept="1z4cxt" id="7OJcYqzcVFT" role="2OqNvi">
                         <node concept="1bVj0M" id="7OJcYqzcVFU" role="23t8la">
                           <node concept="3clFbS" id="7OJcYqzcVFV" role="1bW5cS">
-                            <node concept="3clFbF" id="7OJcYqzcVFW" role="3cqZAp">
-                              <node concept="17R0WA" id="7OJcYqzcVFX" role="3clFbG">
-                                <node concept="37vLTw" id="7OJcYqzcVFY" role="3uHU7w">
-                                  <ref role="3cqZAo" node="5s4Z0e0go9r" resolve="element" />
+                            <node concept="3clFbF" id="4r3Tp$pdvvw" role="3cqZAp">
+                              <node concept="15s5l7" id="4r3Tp$peMwD" role="lGtFl">
+                                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: equals() between objects of inconvertible types&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6293790355739144894]&quot;;" />
+                                <property role="huDt6" value="Warning: equals() between objects of inconvertible types" />
+                              </node>
+                              <node concept="2OqwBi" id="4r3Tp$pdvvy" role="3clFbG">
+                                <node concept="37vLTw" id="4r3Tp$pdvvz" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4r3Tp$pcYul" resolve="sComparer" />
                                 </node>
-                                <node concept="2OqwBi" id="7OJcYqzcVFZ" role="3uHU7B">
-                                  <node concept="37vLTw" id="7OJcYqzcVG0" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7OJcYqzcVG2" resolve="it" />
+                                <node concept="liA8E" id="4r3Tp$pdvv$" role="2OqNvi">
+                                  <ref role="37wK5l" to="y7p:4r3Tp$pb180" resolve="equals" />
+                                  <node concept="10QFUN" id="4r3Tp$pdvv_" role="37wK5m">
+                                    <node concept="2OqwBi" id="4r3Tp$pdvvA" role="10QFUP">
+                                      <node concept="37vLTw" id="4r3Tp$pdvvB" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="7OJcYqzcVG2" resolve="it" />
+                                      </node>
+                                      <node concept="liA8E" id="4r3Tp$pdvvC" role="2OqNvi">
+                                        <ref role="37wK5l" to="y7p:7OJcYqvKizN" resolve="getSlang" />
+                                      </node>
+                                    </node>
+                                    <node concept="3uibUv" id="4r3Tp$pdvvD" role="10QFUM">
+                                      <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+                                    </node>
                                   </node>
-                                  <node concept="liA8E" id="7OJcYqzcVG1" role="2OqNvi">
-                                    <ref role="37wK5l" to="y7p:7OJcYqvKizN" resolve="getSlang" />
+                                  <node concept="10QFUN" id="4r3Tp$pdCTi" role="37wK5m">
+                                    <node concept="37vLTw" id="4r3Tp$pdCTh" role="10QFUP">
+                                      <ref role="3cqZAo" node="5s4Z0e0go9r" resolve="element" />
+                                    </node>
+                                    <node concept="3uibUv" id="4r3Tp$pdCTe" role="10QFUM">
+                                      <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -5548,16 +5633,36 @@
                         <node concept="1bVj0M" id="7OJcYqzcXSy" role="23t8la">
                           <node concept="3clFbS" id="7OJcYqzcXSz" role="1bW5cS">
                             <node concept="3clFbF" id="7OJcYqzcXS$" role="3cqZAp">
-                              <node concept="17R0WA" id="7OJcYqzcXS_" role="3clFbG">
-                                <node concept="37vLTw" id="7OJcYqzcXSA" role="3uHU7w">
-                                  <ref role="3cqZAo" node="5s4Z0e0go9r" resolve="element" />
+                              <node concept="15s5l7" id="4r3Tp$peNOG" role="lGtFl">
+                                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Warning: equals() between objects of inconvertible types&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/6293790355739144894]&quot;;" />
+                                <property role="huDt6" value="Warning: equals() between objects of inconvertible types" />
+                              </node>
+                              <node concept="2OqwBi" id="4r3Tp$pdKD2" role="3clFbG">
+                                <node concept="37vLTw" id="4r3Tp$pdKD3" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4r3Tp$pcYul" resolve="sComparer" />
                                 </node>
-                                <node concept="2OqwBi" id="7OJcYqzcXSB" role="3uHU7B">
-                                  <node concept="37vLTw" id="7OJcYqzcXSC" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7OJcYqzcXSE" resolve="it" />
+                                <node concept="liA8E" id="4r3Tp$pdKD4" role="2OqNvi">
+                                  <ref role="37wK5l" to="y7p:4r3Tp$paZj3" resolve="equals" />
+                                  <node concept="10QFUN" id="4r3Tp$pdKD5" role="37wK5m">
+                                    <node concept="2OqwBi" id="4r3Tp$pdKD6" role="10QFUP">
+                                      <node concept="37vLTw" id="4r3Tp$pdKD7" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="7OJcYqzcXSE" resolve="it" />
+                                      </node>
+                                      <node concept="liA8E" id="4r3Tp$pdKD8" role="2OqNvi">
+                                        <ref role="37wK5l" to="y7p:7OJcYqvKizN" resolve="getSlang" />
+                                      </node>
+                                    </node>
+                                    <node concept="3uibUv" id="4r3Tp$pdKD9" role="10QFUM">
+                                      <ref role="3uigEE" to="c17a:~SConceptFeature" resolve="SConceptFeature" />
+                                    </node>
                                   </node>
-                                  <node concept="liA8E" id="7OJcYqzcXSD" role="2OqNvi">
-                                    <ref role="37wK5l" to="y7p:7OJcYqvKizN" resolve="getSlang" />
+                                  <node concept="10QFUN" id="4r3Tp$pdKDa" role="37wK5m">
+                                    <node concept="37vLTw" id="4r3Tp$pdKDb" role="10QFUP">
+                                      <ref role="3cqZAo" node="5s4Z0e0go9r" resolve="element" />
+                                    </node>
+                                    <node concept="3uibUv" id="4r3Tp$pdKDc" role="10QFUM">
+                                      <ref role="3uigEE" to="c17a:~SConceptFeature" resolve="SConceptFeature" />
+                                    </node>
                                   </node>
                                 </node>
                               </node>
