@@ -1,6 +1,6 @@
 # Changelog for LionWeb-MPS
 
-## Next
+## Up to 0.2.7-2023.1
 * Optionally export computed property values of instances to LionWeb JSON.
 
 * For concepts with alias and/or short description, optinally export annotation with that information.  

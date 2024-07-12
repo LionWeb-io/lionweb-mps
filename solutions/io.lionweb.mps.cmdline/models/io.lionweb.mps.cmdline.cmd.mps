@@ -1009,8 +1009,13 @@
                       <node concept="2ShNRf" id="12kZjFJeNvw" role="37wK5m">
                         <node concept="1pGfFk" id="12kZjFJeNvx" role="2ShVmc">
                           <ref role="37wK5l" to="faaz:6VkSF6aIt83" resolve="SLanguageIdExtractor" />
-                          <node concept="37vLTw" id="12kZjFJeNvy" role="37wK5m">
-                            <ref role="3cqZAo" node="12kZjFJeNv3" resolve="constants" />
+                          <node concept="2ShNRf" id="4r3Tp$q9g2z" role="37wK5m">
+                            <node concept="1pGfFk" id="4r3Tp$q9hM8" role="2ShVmc">
+                              <ref role="37wK5l" to="y7p:6VkSF6aIt83" resolve="SLanguageIdDeriver" />
+                              <node concept="37vLTw" id="4r3Tp$q9iqy" role="37wK5m">
+                                <ref role="3cqZAo" node="12kZjFJeNv3" resolve="constants" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
