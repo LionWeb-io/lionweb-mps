@@ -38,6 +38,7 @@ usage: lionweb-export-language <project-dir> [<config-file>] <output-file>
 
 * _scope:_ Defines the export [scope as explained for converter languages](../../docs/reference/converter-lang.adoc#language-json-export).
 
+**Note:** that we assume that your to-be-exported languages are built within MPS, i.e. have resulted in files in `classes_gen/` folder(s), and MPS doesn't show “(generation required)” next to the language module(s).
 
 ### Examples
 
@@ -88,7 +89,7 @@ to export two example languages, and compare the exports to the reference export
 
 ## Setup
 
-We assume the MPS project that contains your to-be-exported languages is built with gradle.
+We assume the MPS project that contains your to-be-exported languages is built with Gradle.
 
 Create or adjust the following contents of `build.gradle.kts` (Kotlin dialect):
 
