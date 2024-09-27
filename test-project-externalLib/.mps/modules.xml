@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DependsOnMpsExtensions/DependsOnMpsExtensions.mpl" folder="" />
+    </projectModules>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/test-project-externalLib.iml" filepath="$PROJECT_DIR$/.idea/test-project-externalLib.iml" />
+    </modules>
+  </component>
+</project>
