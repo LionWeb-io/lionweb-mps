@@ -550,18 +550,38 @@
             <node concept="3uibUv" id="53Tt6VyTrqH" role="1tU5fm">
               <ref role="3uigEE" to="79ha:6rx4kZDk5A9" resolve="EnvironmentConfig" />
             </node>
-            <node concept="2OqwBi" id="53Tt6VyTrqI" role="33vP2m">
-              <node concept="2OqwBi" id="53Tt6VyTrqJ" role="2Oq$k0">
-                <node concept="2YIFZM" id="53Tt6VyTrqK" role="2Oq$k0">
-                  <ref role="1Pybhc" to="79ha:6rx4kZDk5A9" resolve="EnvironmentConfig" />
-                  <ref role="37wK5l" to="79ha:3YQ3dO9lg_M" resolve="emptyConfig" />
+            <node concept="2OqwBi" id="5fjAot2sbZh" role="33vP2m">
+              <node concept="2OqwBi" id="5fjAot2s9$Q" role="2Oq$k0">
+                <node concept="2OqwBi" id="5fjAot2s7m_" role="2Oq$k0">
+                  <node concept="2OqwBi" id="53Tt6VyTrqI" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5fjAot2s52K" role="2Oq$k0">
+                      <node concept="2OqwBi" id="53Tt6VyTrqJ" role="2Oq$k0">
+                        <node concept="2YIFZM" id="53Tt6VyTrqK" role="2Oq$k0">
+                          <ref role="1Pybhc" to="79ha:6rx4kZDk5A9" resolve="EnvironmentConfig" />
+                          <ref role="37wK5l" to="79ha:3YQ3dO9lg_M" resolve="emptyConfig" />
+                        </node>
+                        <node concept="liA8E" id="53Tt6VyTrqL" role="2OqNvi">
+                          <ref role="37wK5l" to="79ha:5UWB9tiBhc" resolve="withDefaultPlugins" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5fjAot2s6lj" role="2OqNvi">
+                        <ref role="37wK5l" to="79ha:ECLZhkqBgM" resolve="withBuildPlugin" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="53Tt6VyTrqM" role="2OqNvi">
+                      <ref role="37wK5l" to="79ha:5mza6QqhjgL" resolve="withBootstrapLibraries" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5fjAot2s8O4" role="2OqNvi">
+                    <ref role="37wK5l" to="79ha:5hfNQWynXUe" resolve="withWorkbenchPath" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="53Tt6VyTrqL" role="2OqNvi">
-                  <ref role="37wK5l" to="79ha:5UWB9tiBhc" resolve="withDefaultPlugins" />
+                <node concept="liA8E" id="5fjAot2sba1" role="2OqNvi">
+                  <ref role="37wK5l" to="79ha:6BLo1MgrCpf" resolve="withVcsPlugin" />
                 </node>
               </node>
-              <node concept="liA8E" id="53Tt6VyTrqM" role="2OqNvi">
-                <ref role="37wK5l" to="79ha:5mza6QqhjgL" resolve="withBootstrapLibraries" />
+              <node concept="liA8E" id="5fjAot2sdCJ" role="2OqNvi">
+                <ref role="37wK5l" to="79ha:6uGRett37Lr" resolve="withJavaPlugin" />
               </node>
             </node>
           </node>
