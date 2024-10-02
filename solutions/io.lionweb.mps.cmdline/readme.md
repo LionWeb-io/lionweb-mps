@@ -1,4 +1,4 @@
-# LionWeb MPS Command-Line Language Exporter
+# LionWeb MPS Command Line Exporter
 
 ## Usage
 Gradle requires some workarounds to pass arguments, so we have to wrap our command-line arguments in `-Pargs`:
@@ -38,7 +38,7 @@ usage: lionweb-export-language <project-dir> [<config-file>] <output-file>
 
 * _scope:_ Defines the export [scope as explained for converter languages](../../docs/reference/converter-lang.adoc#language-json-export).
 
-**Note:** that we assume that your to-be-exported languages are built within MPS, i.e. have resulted in files in `classes_gen/` folder(s), and MPS doesn't show “(generation required)” next to the language module(s).
+**Note** that we assume that your to-be-exported languages are built within MPS, i.e. have resulted in files in `classes_gen/` directories, and MPS doesn't show “(generation required)” next to the language module(s).
 
 ### Examples
 
@@ -76,15 +76,30 @@ Contents of `config-file.json`:
 
 #### Test exports
 
-The directory `test-project/` can be used to test the command-line exporter.
-Run
+The directories `test-project/` and `test-project-externalLib` contain MPS projects that can be used to test the command-line exporter.
+
+Within `test-project/`, run
 
 ```shell
-source test-scripts/export-library.sh
-source test-scripts/export-multiple.sh
+source scripts/export-library.sh
+source scripts/export-multiple.sh
+source scripts/export-foo.sh
 ```
 
-to export two example languages, and compare the exports to the reference exports in `test-references/`.
+(or a similar incantation suitable for your OS and shell) to export three example languages, and compare the exports to the reference exports in `expected/`.
+The languages' exports end up in the `actual/` directory.
+The `FooLanguage` language resides within the project, but the `library` and `multi` language are bundled.
+The `export-multiple.sh` script also demonstrates the use of a JSON configuration file — in this case [`export-multiple.config.json`](../../test-project/export-multiple.config.json).
+
+Within `test-project-externalLib`, run
+
+```shell
+source scripts/export-DependsOnMpsExtensions.sh
+source scripts/export-foo.sh
+```
+
+(or a similar incantation suitable for your OS and shell) to export two example languages in the same way as in the `test-project`.
+The `FooLanguage` language resides within the `test-project/` MPS project, and the `DependsOnMpsExtensions` depends on the `de.slisson.mps.richtext` language from the MPS extensions.
 
 
 ## Setup
