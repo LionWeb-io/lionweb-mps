@@ -39,6 +39,12 @@ usage: lionweb-export-language <project-dir> [<config-file>] <output-file>
 * _scope:_ Defines the export [scope as explained for converter languages](../../docs/reference/converter-lang.adoc#language-json-export).
 
 **Note** that we assume that your to-be-exported languages are built within MPS, i.e. have resulted in files in `classes_gen/` directories, and MPS doesn't show “(generation required)” next to the language module(s).
+This also requires that the required external dependencies are downloaded first.
+This is typically done by running the Gradle `resolveGenerationDependencies` task, as follows:
+
+```shell
+./gradlew resolveGenerationDependencies
+```
 
 ### Examples
 
