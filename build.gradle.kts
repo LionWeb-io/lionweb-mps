@@ -44,19 +44,31 @@ task<Jar>("javadocJar") {
     archiveClassifier.set("javadoc")
 }
 
-task<Exec>("testCmdlineExport-library") {
+task<Exec>("testCmdLineExport-library") {
     workingDir("./test-project")
-    commandLine("./test-scripts/export-library.sh")
+    commandLine("./scripts/export-library.sh")
 }
 
-task<Exec>("testCmdlineExport-multiple") {
+task<Exec>("testCmdLineExport-multiple") {
     workingDir("./test-project")
-    commandLine("./test-scripts/export-multiple.sh")
+    commandLine("./scripts/export-multiple.sh")
+}
+
+task<Exec>("testCmdLineExport-foo") {
+    workingDir("./test-project")
+    commandLine("./scripts/export-foo.sh")
+}
+
+task<Exec>("testCmdLineExport-DependsOnMpsExtension") {
+    workingDir("./test-project-externalLib")
+    commandLine("./scripts/export-DependsOnMpsExtensions.sh")
 }
 
 task("testCmdLineExport") {
-    dependsOn("testCmdlineExport-library")
-    dependsOn("testCmdlineExport-multiple")
+    dependsOn("testCmdLineExport-library")
+    dependsOn("testCmdLineExport-multiple")
+    dependsOn("testCmdLineExport-foo")
+    dependsOn("testCmdLineExport-DependsOnMpsExtension")
 }
 
 
