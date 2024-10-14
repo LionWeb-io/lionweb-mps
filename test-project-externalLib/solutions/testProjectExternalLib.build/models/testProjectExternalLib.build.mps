@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:ba798031-35ff-4dfc-bf9b-7b4416cb6b5e(test-project.build)">
+<model ref="r:2aecd1b2-e09e-4427-9375-70490b49cae7(testProjectExternalLib.build)">
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
@@ -8,17 +8,9 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="e6nc" ref="r:d70b5da3-1a32-4e12-b6d4-f80916aed790(io.lionweb.mps.build)" />
+    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
   </imports>
   <registry>
-    <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
-      <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
-        <property id="6666499814681415862" name="tagName" index="2pNNFO" />
-        <child id="1622293396948928802" name="content" index="3o6s8t" />
-      </concept>
-      <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG">
-        <property id="1622293396948953704" name="value" index="3o6i5n" />
-      </concept>
-    </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
       <concept id="7321017245476976379" name="jetbrains.mps.build.structure.BuildRelativePath" flags="ng" index="iG8Mu">
@@ -45,6 +37,7 @@
       <concept id="5617550519002745364" name="jetbrains.mps.build.structure.BuildLayout" flags="ng" index="1l3spV" />
       <concept id="5617550519002745363" name="jetbrains.mps.build.structure.BuildProject" flags="ng" index="1l3spW">
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
+        <child id="4796668409958418110" name="scriptsDir" index="auvoZ" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
         <child id="3542413272732620719" name="aspects" index="1hWBAP" />
@@ -74,7 +67,6 @@
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
       <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
-        <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
         <property id="7981469545489178349" name="generationMaxHeapSizeInMb" index="3UIfUI" />
       </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
@@ -82,7 +74,6 @@
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
-        <child id="1359186315025500371" name="xml" index="20twgj" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
@@ -114,44 +105,23 @@
         <property id="2889113830911481881" name="deployFolderName" index="3ZfqAx" />
         <child id="8137134783396676835" name="location" index="1HemKq" />
       </concept>
-      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
-      <concept id="3189788309731922642" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyUseLanguage" flags="ng" index="1E1Vl3">
-        <reference id="3189788309731922643" name="language" index="1E1Vl2" />
+      <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
+        <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
+        <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
         <child id="322010710375956261" name="path" index="3LF7KH" />
       </concept>
+      <concept id="7259033139236285166" name="jetbrains.mps.build.mps.structure.BuildMps_ExtractedModuleDependency" flags="nn" index="1SiIV0">
+        <child id="7259033139236285167" name="dependency" index="1SiIV1" />
+      </concept>
     </language>
   </registry>
-  <node concept="1l3spW" id="3Dlb8T1liow">
-    <property role="TrG5h" value="test-project" />
+  <node concept="1l3spW" id="6LPkCA$407W">
     <property role="2DA0ip" value="../.." />
-    <node concept="10PD9b" id="3Dlb8T1liox" role="10PD9s" />
-    <node concept="3b7kt6" id="3Dlb8T1lioy" role="10PD9s" />
-    <node concept="398rNT" id="3Dlb8T1lioz" role="1l3spd">
-      <property role="TrG5h" value="mps_home" />
-    </node>
-    <node concept="398rNT" id="3Dlb8T1lioB" role="1l3spd">
-      <property role="TrG5h" value="lionweb.mps.home" />
-      <node concept="55IIr" id="6LPkCA$48wU" role="398pKh">
-        <node concept="2Ry0Ak" id="6LPkCA$4fCO" role="iGT6I">
-          <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="6LPkCA$4fCT" role="2Ry0An">
-            <property role="2Ry0Am" value="dependencies" />
-            <node concept="2Ry0Ak" id="6LPkCA$4fCY" role="2Ry0An">
-              <property role="2Ry0Am" value="io.lionweb.mps" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="398rNT" id="6LPkCA$43xi" role="1l3spd">
-      <property role="TrG5h" value="mps.macro.lionweb.mps.home" />
-      <node concept="398BVA" id="6LPkCA$43xr" role="398pKh">
-        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb.mps.home" />
-      </node>
-    </node>
+    <property role="TrG5h" value="test-project-ExternalLib" />
     <node concept="2sgV4H" id="3Dlb8T1lio$" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="3Dlb8T1lio_" role="2JcizS">
@@ -161,108 +131,142 @@
     <node concept="2sgV4H" id="6LPkCA$3GoS" role="1l3spa">
       <ref role="1l3spb" to="e6nc:5wsogBcGDKa" resolve="io.lionweb.mps" />
       <node concept="398BVA" id="6LPkCA$3Gp0" role="2JcizS">
-        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb.mps.home" />
+        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
       </node>
     </node>
-    <node concept="1l3spV" id="3Dlb8T1lipk" role="1l3spN">
-      <node concept="m$_wl" id="4DEgUnPz1hr" role="39821P">
-        <ref role="m_rDy" node="3Dlb8T1lip7" resolve="testProject" />
-        <node concept="pUk6x" id="4DEgUnPz1hv" role="pUk7w" />
+    <node concept="2sgV4H" id="6LPkCA$40Vl" role="1l3spa">
+      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
+      <node concept="398BVA" id="6LPkCA$40XI" role="2JcizS">
+        <ref role="398BVh" node="6LPkCA$40_i" resolve="mps-extensions.home" />
       </node>
     </node>
-    <node concept="2G$12M" id="3Dlb8T1lip6" role="3989C9">
-      <property role="TrG5h" value="test-project" />
-      <node concept="1E1JtD" id="3Dlb8T1lip5" role="2G$12L">
-        <property role="TrG5h" value="FooLanguage" />
-        <property role="3LESm3" value="dfd2e6e9-5721-48d9-9de9-36bd54345950" />
-        <node concept="55IIr" id="3Dlb8T1lip0" role="3LF7KH">
-          <node concept="2Ry0Ak" id="3Dlb8T1lip1" role="iGT6I">
+    <node concept="398rNT" id="3Dlb8T1lioz" role="1l3spd">
+      <property role="TrG5h" value="mps_home" />
+    </node>
+    <node concept="398rNT" id="3Dlb8T1lioB" role="1l3spd">
+      <property role="TrG5h" value="lionweb-mps.home" />
+      <node concept="55IIr" id="6LPkCA$43uK" role="398pKh">
+        <node concept="2Ry0Ak" id="6LPkCA$43uN" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="6LPkCA$43uQ" role="2Ry0An">
+            <property role="2Ry0Am" value="" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="6LPkCA$43xi" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.lionweb-mps.home" />
+      <node concept="398BVA" id="6LPkCA$43xr" role="398pKh">
+        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
+      </node>
+    </node>
+    <node concept="55IIr" id="6LPkCA$407X" role="auvoZ" />
+    <node concept="1l3spV" id="6LPkCA$407Y" role="1l3spN">
+      <node concept="m$_wl" id="6LPkCA$40Z1" role="39821P">
+        <ref role="m_rDy" node="6LPkCA$40Yf" resolve="testProjectExternalLib" />
+        <node concept="pUk6x" id="6LPkCA$40Z5" role="pUk7w" />
+      </node>
+    </node>
+    <node concept="10PD9b" id="6LPkCA$40cz" role="10PD9s" />
+    <node concept="3b7kt6" id="6LPkCA$40pb" role="10PD9s" />
+    <node concept="2G$12M" id="6LPkCA$40zR" role="3989C9">
+      <property role="TrG5h" value="test-project-ExternalLib" />
+      <node concept="1E1JtD" id="6LPkCA$40zT" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="DependsOnMpsExtensions" />
+        <property role="3LESm3" value="205a415b-331b-4066-ab22-cf7f3f908f36" />
+        <node concept="55IIr" id="6LPkCA$40zU" role="3LF7KH">
+          <node concept="2Ry0Ak" id="6LPkCA$40$0" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="3Dlb8T1lip2" role="2Ry0An">
-              <property role="2Ry0Am" value="FooLanguage" />
-              <node concept="2Ry0Ak" id="3Dlb8T1lip3" role="2Ry0An">
-                <property role="2Ry0Am" value="FooLanguage.mpl" />
+            <node concept="2Ry0Ak" id="6LPkCA$40$5" role="2Ry0An">
+              <property role="2Ry0Am" value="DependsOnMpsExtensions" />
+              <node concept="2Ry0Ak" id="6LPkCA$40$a" role="2Ry0An">
+                <property role="2Ry0Am" value="DependsOnMpsExtensions.mpl" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1BupzO" id="3Dlb8T1lipu" role="3bR31x">
+        <node concept="1BupzO" id="6LPkCA$40$g" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3Dlb8T1lipv" role="1HemKq">
-            <node concept="55IIr" id="3Dlb8T1lipq" role="3LXTmr">
-              <node concept="2Ry0Ak" id="3Dlb8T1lipr" role="iGT6I">
+          <node concept="3LXTmp" id="6LPkCA$40$h" role="1HemKq">
+            <node concept="55IIr" id="6LPkCA$40$c" role="3LXTmr">
+              <node concept="2Ry0Ak" id="6LPkCA$40$d" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3Dlb8T1lips" role="2Ry0An">
-                  <property role="2Ry0Am" value="FooLanguage" />
-                  <node concept="2Ry0Ak" id="3Dlb8T1lipt" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6LPkCA$40$e" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependsOnMpsExtensions" />
+                  <node concept="2Ry0Ak" id="6LPkCA$40$f" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="3Dlb8T1lipw" role="3LXTna">
+            <node concept="3qWCbU" id="6LPkCA$40$i" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
-        <node concept="3rtmxn" id="4DEgUnPzo7B" role="3bR31x">
-          <node concept="3LXTmp" id="4DEgUnPzo7C" role="3rtmxm">
-            <node concept="55IIr" id="4DEgUnPzo7D" role="3LXTmr">
-              <node concept="2Ry0Ak" id="4DEgUnPzo7E" role="iGT6I">
+        <node concept="3rtmxn" id="6LPkCA$40$_" role="3bR31x">
+          <node concept="3LXTmp" id="6LPkCA$40$A" role="3rtmxm">
+            <node concept="55IIr" id="6LPkCA$40$B" role="3LXTmr">
+              <node concept="2Ry0Ak" id="6LPkCA$40$C" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="4DEgUnPzo7F" role="2Ry0An">
-                  <property role="2Ry0Am" value="FooLanguage" />
+                <node concept="2Ry0Ak" id="6LPkCA$40$D" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependsOnMpsExtensions" />
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="4DEgUnPzo7H" role="3LXTna">
+            <node concept="3qWCbU" id="6LPkCA$40$F" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
           </node>
         </node>
-        <node concept="1E1Vl3" id="6LPkCA$4kD4" role="3bR37C">
-          <ref role="1E1Vl2" to="e6nc:6fYiNFaW8NT" resolve="io.lionweb.mps.structure.attribute" />
+        <node concept="1SiIV0" id="6LPkCA$40XO" role="3bR37C">
+          <node concept="1Busua" id="6LPkCA$40XP" role="1SiIV1">
+            <ref role="1Busuk" to="90a9:1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
         </node>
       </node>
     </node>
-    <node concept="m$_wf" id="3Dlb8T1lip7" role="3989C9">
-      <property role="m$_wk" value="testProject" />
-      <node concept="3_J27D" id="3Dlb8T1lip8" role="m$_yQ">
-        <node concept="3Mxwew" id="3Dlb8T1lip9" role="3MwsjC">
-          <property role="3MwjfP" value="test-project" />
+    <node concept="m$_wf" id="6LPkCA$40Yf" role="3989C9">
+      <property role="m$_wk" value="testProjectExternalLib" />
+      <node concept="3_J27D" id="6LPkCA$40Yh" role="m$_yQ">
+        <node concept="3Mxwew" id="6LPkCA$40YK" role="3MwsjC">
+          <property role="3MwjfP" value="test-project-ExternalLib" />
         </node>
       </node>
-      <node concept="3_J27D" id="3Dlb8T1lipa" role="m$_w8">
-        <node concept="3Mxwew" id="3Dlb8T1lipb" role="3MwsjC">
+      <node concept="3_J27D" id="6LPkCA$40Yj" role="m_cZH">
+        <node concept="3Mxwew" id="6LPkCA$40YM" role="3MwsjC">
+          <property role="3MwjfP" value="test-project-ExternalLib" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6LPkCA$40Yl" role="m$_w8">
+        <node concept="3Mxwew" id="6LPkCA$40YO" role="3MwsjC">
           <property role="3MwjfP" value="1.0" />
         </node>
       </node>
-      <node concept="m$f5U" id="3Dlb8T1lipc" role="m$_yh">
-        <ref role="m$f5T" node="3Dlb8T1lip6" resolve="test-project" />
+      <node concept="m$f5U" id="6LPkCA$40YQ" role="m$_yh">
+        <ref role="m$f5T" node="6LPkCA$40zR" resolve="test-project-ExternalLib" />
       </node>
-      <node concept="m$_yC" id="3Dlb8T1lipd" role="m$_yJ">
+      <node concept="m$_yC" id="6LPkCA$40YW" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="6LPkCA$4n45" role="m$_yJ">
-        <ref role="m$_y1" to="e6nc:5wsogBcGDKB" resolve="io.lionweb.mps" />
-      </node>
-      <node concept="3_J27D" id="3Dlb8T1lipe" role="m_cZH">
-        <node concept="3Mxwew" id="3Dlb8T1lipf" role="3MwsjC">
-          <property role="3MwjfP" value="test-project" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="3Dlb8T1lipg" role="20twgj">
-        <property role="2pNNFO" value="depends" />
-        <node concept="3o6iSG" id="3Dlb8T1liph" role="3o6s8t">
-          <property role="3o6i5n" value="com.intellij.modules.platform" />
-        </node>
+      <node concept="m$_yC" id="6LPkCA$40YY" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
     </node>
-    <node concept="2igEWh" id="4DEgUnPz1hp" role="1hWBAP">
-      <property role="2igJW4" value="true" />
+    <node concept="398rNT" id="6LPkCA$40_i" role="1l3spd">
+      <property role="TrG5h" value="mps-extensions.home" />
+    </node>
+    <node concept="2igEWh" id="6LPkCA$40Z8" role="1hWBAP">
       <property role="3UIfUI" value="4096" />
+    </node>
+    <node concept="398rNT" id="6LPkCA$43xD" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.mps-extensions.home" />
+      <node concept="398BVA" id="6LPkCA$43xO" role="398pKh">
+        <ref role="398BVh" node="6LPkCA$40_i" resolve="mps-extensions.home" />
+      </node>
     </node>
   </node>
 </model>

@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/DependsOnMpsExtensions/DependsOnMpsExtensions.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/testProjectExternalLib.build/testProjectExternalLib.build.msd" folder="" />
     </projectModules>
   </component>
 </project>
