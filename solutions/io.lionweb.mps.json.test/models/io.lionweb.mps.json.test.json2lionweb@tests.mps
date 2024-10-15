@@ -40,6 +40,8 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
+    <import index="qa91" ref="r:38742da4-ca90-4db1-b16c-4863d9d39613(io.lionweb.mps.converter.TestLang.structure)" />
+    <import index="q6xk" ref="r:2e1d95ed-4ed0-4ecd-bc84-f6c7c405fa7f(io.lionweb.mps.converter.TestLang3.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -1770,6 +1772,56 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6LPkCA_n53A" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_n5mu" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_n5Dn" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_n5ms" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjyHs" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_n63o" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_n6il" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydp" resolve="keyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_n8pu" role="37wK5m">
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <node concept="2OqwBi" id="6LPkCA_n9Hq" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_naqI" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_naqH" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_naqG" role="10QFUP">
+                        <ref role="355D3t" to="q6xk:4R9pospjbQk" resolve="Test3ConceptKeyed" />
+                        <ref role="355D3u" to="q6xk:4R9pospAGqo" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_naJj" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_nbn5" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_n7ue" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_n7uf" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_n7ug" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjyHs" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_n7uh" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_n7ui" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydp" resolve="keyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_n7uj" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4R9pospjyHN" role="3cqZAp" />
         <node concept="3clFbF" id="4R9pospjyHO" role="3cqZAp">
           <node concept="2OqwBi" id="4R9pospjyHP" role="3clFbG">
@@ -1940,6 +1992,56 @@
               </node>
               <node concept="Xl_RD" id="4R9pospjHPW" role="37wK5m">
                 <property role="Xl_RC" value="{id-NoExtends}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA_s55t" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_s4G4" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_s4G5" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_s4G6" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjHPA" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_s4G7" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_s4G8" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydr" resolve="unkeyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_s4G9" role="37wK5m">
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <node concept="2OqwBi" id="6LPkCA_s4Ga" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_s4Gb" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_s4Gc" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_s4Gd" role="10QFUP">
+                        <ref role="355D3t" to="q6xk:4R9pospjkXS" resolve="Test3ConceptUnkeyed" />
+                        <ref role="355D3u" to="q6xk:4R9pospAGqG" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_s4Ge" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_s4Gf" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_s4Gg" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_s4Gh" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_s4Gi" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjHPA" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_s4Gj" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_s4Gk" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydr" resolve="unkeyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_s4Gl" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
               </node>
             </node>
           </node>
@@ -2488,6 +2590,56 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6LPkCA_E8bp" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_E8bq" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_E8br" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_E8bs" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzHi" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_E8bt" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_E8bu" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospm_$F" resolve="keyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_E8bv" role="37wK5m">
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <node concept="2OqwBi" id="6LPkCA_E8bw" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_E8bx" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_E8by" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_E8bz" role="10QFUP">
+                        <ref role="355D3t" to="zf9n:4R9pospjbQk" resolve="Test2ConceptKeyed" />
+                        <ref role="355D3u" to="zf9n:4R9pospAGqo" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_E8b$" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_E8b_" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_E8bA" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_E8bB" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_E8bC" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzHi" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_E8bD" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_E8bE" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospm_$F" resolve="keyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_E8bF" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4R9pospmzHD" role="3cqZAp" />
         <node concept="3clFbF" id="3FWZcLVXMF6" role="3cqZAp">
           <node concept="2OqwBi" id="3FWZcLVXMF7" role="3clFbG">
@@ -2668,6 +2820,56 @@
               </node>
               <node concept="Xl_RD" id="4R9pospmzIF" role="37wK5m">
                 <property role="Xl_RC" value="{id-NoExtends}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA_Ea01" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_Ea02" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ea03" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ea04" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzIl" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ea05" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ea06" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospmBfb" resolve="unkeyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_Ea07" role="37wK5m">
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <node concept="2OqwBi" id="6LPkCA_Ea08" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_Ea09" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_Ea0a" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_Ea0b" role="10QFUP">
+                        <ref role="355D3t" to="zf9n:4R9pospjkXS" resolve="Test2ConceptUnkeyed" />
+                        <ref role="355D3u" to="zf9n:4R9pospAGqG" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_Ea0c" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_Ea0d" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Ea0e" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ea0f" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ea0g" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzIl" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ea0h" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ea0i" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospmBfb" resolve="unkeyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_Ea0j" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
               </node>
             </node>
           </node>
@@ -7479,6 +7681,273 @@
           </node>
         </node>
         <node concept="3clFbH" id="3FWZcLW7boQ" role="3cqZAp" />
+        <node concept="3cpWs8" id="6LPkCA_EfA8" role="3cqZAp">
+          <node concept="3cpWsn" id="6LPkCA_EfA9" role="3cpWs9">
+            <property role="TrG5h" value="testConceptBaseEnumPropId" />
+            <node concept="17QB3L" id="6LPkCA_EfpG" role="1tU5fm" />
+            <node concept="2YIFZM" id="6LPkCA_EfAa" role="33vP2m">
+              <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+              <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+              <node concept="2OqwBi" id="6LPkCA_EfAb" role="37wK5m">
+                <node concept="1eOMI4" id="6LPkCA_EfAc" role="2Oq$k0">
+                  <node concept="10QFUN" id="6LPkCA_EfAd" role="1eOMHV">
+                    <node concept="355D3s" id="6LPkCA_EfAe" role="10QFUP">
+                      <ref role="355D3t" to="qa91:2fx6VTSS$mN" resolve="TestConceptBase" />
+                      <ref role="355D3u" to="qa91:2fx6VTSS$O0" resolve="enumProp" />
+                    </node>
+                    <node concept="3uibUv" id="6LPkCA_EfAf" role="10QFUM">
+                      <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="6LPkCA_EfAg" role="2OqNvi">
+                  <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EcgW" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EcCD" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EcgU" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ed3H" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Edmn" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIq" resolve="baseA" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EfAh" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Ei54" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ei55" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ei56" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ei57" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ei58" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIs" resolve="baseB" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Ei59" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eito" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eitp" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eitq" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eitr" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eits" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIw" resolve="baseC" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eitt" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eiw8" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eiw9" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eiwa" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eiwb" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eiwc" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dI$" resolve="baseD" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eiwd" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EiyY" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EiyZ" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eiz0" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eiz1" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eiz2" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIE" resolve="baseE" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eiz3" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Ei_U" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ei_V" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ei_W" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ei_X" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ei_Y" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIK" resolve="baseF" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Ei_Z" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EiCW" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EiCX" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EiCY" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EiCZ" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EiD0" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIQ" resolve="baseG" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EiD1" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EiG4" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EiG5" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EiG6" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EiG7" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EiG8" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIy" resolve="extends1A" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EiG9" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EnSS" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EnST" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EnSU" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EnSV" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EnSW" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIA" resolve="extends1B" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EnSX" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EnWc" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EnWd" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EnWe" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EnWf" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EnWg" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIC" resolve="extends1C" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EnWh" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EnZA" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EnZB" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EnZC" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EnZD" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EnZE" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIG" resolve="extends1D" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EnZF" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eo36" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eo37" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eo38" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eo39" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eo3a" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dII" resolve="extends1E" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eo3b" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eo6G" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eo6H" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eo6I" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eo6J" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eo6K" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIM" resolve="extends1F" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eo6L" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eoao" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eoap" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eoaq" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eoar" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eoas" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIO" resolve="extends1G" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eoat" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eoea" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eoeb" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eoec" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eoed" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eoee" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIu" resolve="extends2" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eoef" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA_EbVI" role="3cqZAp" />
         <node concept="3clFbF" id="3FWZcLW7boR" role="3cqZAp">
           <node concept="2OqwBi" id="3FWZcLW7boS" role="3clFbG">
             <node concept="37vLTw" id="3FWZcLW7boT" role="2Oq$k0">

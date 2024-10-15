@@ -21,7 +21,7 @@
             "version": "0",
             "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzU2MDUxMjI4NDIxNTg3NDI5MzIvNTYwNTEyMjg0MjE2Mzg1NzA0OA"
           },
-          "value": "4R9pospAHRA/keyed"
+          "value": "My-EnumLiteralUnkeyed"
         },
         {
           "property": {
@@ -29,7 +29,7 @@
             "version": "0",
             "key": "My-KeyedProp"
           },
-          "value": "4R9pospAHRH/keyed"
+          "value": "My-EnumLiteralKeyed"
         }
       ],
       "containments": [
