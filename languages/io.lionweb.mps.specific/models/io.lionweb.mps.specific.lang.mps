@@ -85,6 +85,23 @@
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
     </node>
+    <node concept="2$GZ55" id="6LPkCA$5hYZ" role="2RzR6B">
+      <property role="2RzON1" value="Deprecated" />
+      <property role="TrG5h" value="Deprecated" />
+      <ref role="2$GZ54" to="i2js:19nRYgR_pax" resolve="IKeyed" />
+      <node concept="2RzOeU" id="6LPkCA$5hZ9" role="2RzPPN">
+        <property role="2RzON1" value="Deprecated-comment" />
+        <property role="TrG5h" value="comment" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOeU" id="6LPkCA$5hZe" role="2RzPPN">
+        <property role="2RzON1" value="Deprecated-build" />
+        <property role="TrG5h" value="build" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
     <node concept="2RzRkq" id="34Q84zMP1Uw" role="2RzRcN">
       <ref role="2RzRkr" to="i2js:5sACIIs$PgG" resolve="LionCore_M3" />
     </node>

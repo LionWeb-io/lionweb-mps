@@ -2140,10 +2140,6 @@
     <property role="TrG5h" value="IModifyingLanguageLookup" />
     <node concept="3clFb_" id="59Df55laZKQ" role="jymVt">
       <property role="TrG5h" value="createLanguage" />
-      <node concept="15s5l7" id="7OJcYqyLbtB" role="lGtFl">
-        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  ILanguageCreator (classifier) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;classifier&quot;;FLAVOUR_RULE_ID=&quot;[r:28bcf003-0004-46b6-9fe7-2093e7fb1368(jetbrains.mps.baseLanguage.javadoc.constraints)/6836281137582713718]&quot;;" />
-        <property role="huDt6" value="The reference  ILanguageCreator (classifier) is out of search scope" />
-      </node>
       <node concept="15s5l7" id="3M8YG$b6x9v" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  ILanguageCreator (classifier) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;classifier&quot;;FLAVOUR_RULE_ID=&quot;[r:28bcf003-0004-46b6-9fe7-2093e7fb1368(jetbrains.mps.baseLanguage.javadoc.constraints)/6836281137582713718]&quot;;" />
         <property role="huDt6" value="The reference  ILanguageCreator (classifier) is out of search scope" />

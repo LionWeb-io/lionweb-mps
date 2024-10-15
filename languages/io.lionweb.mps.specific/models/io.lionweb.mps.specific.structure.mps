@@ -141,5 +141,34 @@
       <property role="2DM1AS" value="ConceptDescription" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6LPkCA$4zbt">
+    <property role="EcuMT" value="7815243479488017117" />
+    <property role="TrG5h" value="Deprecated" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="6LPkCA$4zbu" role="lGtFl">
+      <node concept="trNpa" id="6LPkCA$4_PR" role="EQaZv">
+        <ref role="trN6q" to="tpce:1ob16QT2yIl" resolve="INamedStructureElement" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6LPkCA$4_PT" role="1TKVEl">
+      <property role="IQ2nx" value="7815243479488028025" />
+      <property role="TrG5h" value="comment" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="6LPkCA$4_PZ" role="lGtFl">
+        <property role="2DM1AS" value="Deprecated-comment" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6LPkCA$4_PV" role="1TKVEl">
+      <property role="IQ2nx" value="7815243479488028027" />
+      <property role="TrG5h" value="build" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="2DM1AW" id="6LPkCA$4_Q0" role="lGtFl">
+        <property role="2DM1AS" value="Deprecated-build" />
+      </node>
+    </node>
+    <node concept="2DM1AW" id="6LPkCA$4_PY" role="lGtFl">
+      <property role="2DM1AS" value="Deprecated" />
+    </node>
+  </node>
 </model>
 
