@@ -1,0 +1,61 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "LionCore-builtins",
+      "version": "2023.1"
+    },
+    {
+      "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+      "version": "0"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "{id-host}",
+      "classifier": {
+        "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+        "version": "0",
+        "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3NDI"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "EnumHostWithoutKeyRequired_setWithoutKey"
+        },
+        {
+          "property": {
+            "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+            "version": "0",
+            "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3NDIvMzI0MDQ3NTQxMDMzMjk1MTc0Mw"
+          },
+          "value": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE2OTMvMzI0MDQ3NTQxMDMzMjk1MTY5Ng"
+        },
+        {
+          "property": {
+            "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+            "version": "0",
+            "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3NDIvMzI0MDQ3NTQxMDMzMjk1MTc0NQ"
+          },
+          "value": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE2OTgvMzI0MDQ3NTQxMDMzMjk1MTcwMQ"
+        },
+        {
+          "property": {
+            "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+            "version": "0",
+            "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3NDIvMzI0MDQ3NTQxMDMzMjk1MTc0Nw"
+          },
+          "value": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3MDMvMzI0MDQ3NTQxMDMzMjk1MTcwNg"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}
