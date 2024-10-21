@@ -48,6 +48,16 @@ Converts all listed languages completely.
 If any element in the listed languages uses an element from a non-listed language, we include the element of the non-listed language -- but not any other elements of that non-listed language.
 We apply this strategy (known as _tree shaking_) transitively until we included all used elements.
 
+We can set some flags for special annotation handling:
+
+[horizontal]
+export description annotations::
+Whether concept descriptions should be exported as instances of `io.lionweb.mps.specific.lang.MPS-specific annotations.ConceptDescription`.
+
+export special annotations::
+Whether special concept annotations should be exported:
++
+* `jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation` -> `io.lionweb.mps.specific.lang.MPS-specific annotations.Deprecated`
 
 [[instance-json]]
 == MPS Instance Model &harr; JSON

@@ -24,6 +24,12 @@
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
+        <child id="1215604436604" name="nodeOperations" index="7EUXB" />
+      </concept>
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
+        <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
+      </concept>
       <concept id="1211979288880" name="jetbrains.mps.lang.test.structure.AssertMatch" flags="nn" index="JA50E">
         <child id="1211979305365" name="before" index="JA92f" />
         <child id="1211979322383" name="after" index="JAdkl" />
@@ -151,8 +157,14 @@
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
       <concept id="5066961138993480707" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageToLionCore" flags="ng" index="qeN9c" />
+      <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
+        <property id="5028875375328515031" name="path" index="VS7hl" />
+      </concept>
       <concept id="1622443184644647655" name="io.lionweb.mps.converter.lang.structure.ILanguageIdentityContainer" flags="ng" index="3IuRAt">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
+      </concept>
+      <concept id="1622443184644647418" name="io.lionweb.mps.converter.lang.structure.ExportMpsLanguageToJson" flags="ng" index="3IuRE0">
+        <property id="548682208089002477" name="scope" index="2G9pTy" />
       </concept>
     </language>
     <language id="4a963078-62c4-4f96-9b52-198a0c63da4b" name="io.lionweb.mps.testsupport">
@@ -3713,6 +3725,25 @@
           </node>
           <node concept="3xONca" id="1xqd6ptkwqd" role="JA92f">
             <ref role="3xOPvv" node="18UigYR952J" resolve="expected" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="6LPkCA_eaHl">
+    <property role="TrG5h" value="ExportMpsLanguageToJson" />
+    <node concept="1qefOq" id="6LPkCA_eaP1" role="1SKRRt">
+      <node concept="3IuRE0" id="6LPkCA_eaP5" role="1qenE9">
+        <property role="TrG5h" value="bla" />
+        <property role="VS7hl" value="myPath" />
+        <property role="2G9pTy" value="utjSYFIcjG/fineGrainedClosure" />
+        <node concept="2V$Bhx" id="6LPkCA_eaP7" role="qeD2G">
+          <property role="2V$B1T" value="08caad75-8246-4427-bb4d-8444b6c5c729" />
+          <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLang" />
+        </node>
+        <node concept="7CXmI" id="6LPkCA_eaP9" role="lGtFl">
+          <node concept="7OXhh" id="6LPkCA_eaPb" role="7EUXB">
+            <property role="GvXf4" value="true" />
           </node>
         </node>
       </node>

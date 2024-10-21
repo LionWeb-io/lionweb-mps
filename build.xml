@@ -2830,6 +2830,124 @@
       <zipfileset file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestLanguageAnnotation/io.lionweb.mps.converter.TestLanguageAnnotation.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-io.lionweb.mps.converter.TestLanguageAnnotation-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.converter.TestDeprecated.jar" />
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.converter.TestDeprecated.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/io.lionweb.mps.converter.TestDeprecated.jar/META-INF/module.xml">
+      <module namespace="io.lionweb.mps.converter.TestDeprecated" type="language" uuid="09360184-8598-44e7-9bf5-fb1ce45a480a">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
+          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:411e5b27-8a76-482e-8af8-1704262b4468:io.lionweb.mps.structure.attribute" />
+          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
+          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
+          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
+          <language id="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" />
+          <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
+          <language id="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" />
+          <language id="l:af65afd8-f0dd-4942-87d9-63a55f2a9db1:jetbrains.mps.lang.behavior" />
+          <language id="l:f4ad079d-bc71-4ffb-9600-9328705cf998:jetbrains.mps.lang.descriptor" />
+          <language id="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" />
+          <language id="l:982eb8df-2c96-4bd7-9963-11712ea622e5:jetbrains.mps.lang.resources" />
+          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
+          <language id="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" />
+          <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="io.lionweb.mps.converter.TestDeprecated-src.jar" descriptor="io.lionweb.mps.converter.TestDeprecated.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestDeprecated.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/io.lionweb.mps.converter.TestDeprecated" />
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated" includes="icons/**, resources/**" />
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/io.lionweb.mps.converter.TestDeprecated.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-io.lionweb.mps.converter.TestDeprecated-models">
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestDeprecated-src.jar" duplicate="preserve">
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/io.lionweb.mps.converter.TestDeprecated.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-io.lionweb.mps.converter.TestDeprecated-models" prefix="module/models" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.converter.TestEnum.jar" />
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.converter.TestEnum.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/io.lionweb.mps.converter.TestEnum.jar/META-INF/module.xml">
+      <module namespace="io.lionweb.mps.converter.TestEnum" type="language" uuid="1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
+          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
+          <module ref="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:411e5b27-8a76-482e-8af8-1704262b4468:io.lionweb.mps.structure.attribute" />
+          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
+          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
+          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
+          <language id="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" />
+          <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
+          <language id="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" />
+          <language id="l:af65afd8-f0dd-4942-87d9-63a55f2a9db1:jetbrains.mps.lang.behavior" />
+          <language id="l:f4ad079d-bc71-4ffb-9600-9328705cf998:jetbrains.mps.lang.descriptor" />
+          <language id="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" />
+          <language id="l:982eb8df-2c96-4bd7-9963-11712ea622e5:jetbrains.mps.lang.resources" />
+          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
+          <language id="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" />
+          <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="io.lionweb.mps.converter.TestEnum-src.jar" descriptor="io.lionweb.mps.converter.TestEnum.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestEnum.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/io.lionweb.mps.converter.TestEnum" />
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum" includes="icons/**, resources/**" />
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/io.lionweb.mps.converter.TestEnum.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-io.lionweb.mps.converter.TestEnum-models">
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestEnum-src.jar" duplicate="preserve">
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/io.lionweb.mps.converter.TestEnum.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-io.lionweb.mps.converter.TestEnum-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/io.lionweb.mps.converter.test.support.jar" />
     <mkdir dir="${build.tmp}/default/io.lionweb.mps.converter.test.support.jar/META-INF" />
     <echoxml file="${build.tmp}/default/io.lionweb.mps.converter.test.support.jar/META-INF/module.xml">
@@ -3021,6 +3139,7 @@
           <module ref="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" kind="cl" />
           <module ref="3ecd737b-418b-4a70-a991-f6b83f0e3247(io.lionweb.mps.converter.TestAbstract)" kind="cl" />
           <module ref="60791ea2-7a1d-4862-a1ef-f87878cc3b6e(io.lionweb.mps.converter.TestComputedProperty)" kind="cl" />
+          <module ref="1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1(io.lionweb.mps.converter.TestEnum)" kind="cl" />
           <module ref="08caad75-8246-4427-bb4d-8444b6c5c729(io.lionweb.mps.converter.TestLang)" kind="cl" />
           <module ref="48d0f6eb-6186-4cec-83d1-7caedb05a494(io.lionweb.mps.converter.TestLang2)" kind="cl" />
           <module ref="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" kind="cl" />
@@ -3040,6 +3159,7 @@
           <language id="l:afd6d8a2-5e3b-49d1-ab82-c9cb7dc063bb:io.lionweb.mps.converter.TestAnnotation" />
           <language id="l:60791ea2-7a1d-4862-a1ef-f87878cc3b6e:io.lionweb.mps.converter.TestComputedProperty" />
           <language id="l:11541b24-a02a-4586-a931-92521b3f6166:io.lionweb.mps.converter.TestCustomDatatype" />
+          <language id="l:1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1:io.lionweb.mps.converter.TestEnum" />
           <language id="l:08caad75-8246-4427-bb4d-8444b6c5c729:io.lionweb.mps.converter.TestLang" />
           <language id="l:48d0f6eb-6186-4cec-83d1-7caedb05a494:io.lionweb.mps.converter.TestLang2" />
           <language id="l:099490a3-1e39-4ed1-bebc-8027665cecf9:io.lionweb.mps.converter.TestLang3" />
@@ -3181,7 +3301,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.structure.attribute, java.compile.io.lionweb.mps.specific, java.compile.io.lionweb.mps.server.plugin, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.client.connector, java.compile.io.lionweb.mps.client.ideaPlugin, java.compile.io.lionweb.mps.client.persistence, java.compile.io.lionweb.mps.cmdline, java.compile.io.lionweb.mps.build, java.compile.io.lionweb.mps.converter.TestAllBuiltins, java.compile.io.lionweb.mps.testsupport, java.compile.io.lionweb.mps.testsupport.generator, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.library, java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter.TestCoreRefLang, java.compile.io.lionweb.mps.converter.TestCustomDatatype, java.compile.io.lionweb.mps.converter.TestAnnotation, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.deps.AnnotationAnnotates, java.compile.io.lionweb.mps.converter.deps.AnnotationAnnotates_Node, java.compile.io.lionweb.mps.converter.deps.AnnotationExtends, java.compile.io.lionweb.mps.converter.deps.AnnotationImplements, java.compile.io.lionweb.mps.converter.deps.ConceptExtends, java.compile.io.lionweb.mps.converter.deps.ConceptImplements, java.compile.io.lionweb.mps.converter.deps.ContainmentType, java.compile.io.lionweb.mps.converter.deps.InterfaceExtends, java.compile.io.lionweb.mps.converter.deps.LanguageDepends, java.compile.io.lionweb.mps.converter.deps.OnlyBuiltins, java.compile.io.lionweb.mps.converter.deps.PropertyType, java.compile.io.lionweb.mps.converter.deps.ReferenceType, java.compile.io.lionweb.mps.converter.deps.SmartReferenceType, java.compile.io.lionweb.mps.converter.deps.Standalone, java.compile.io.lionweb.mps.converter.deps.AvoidMultipleConcepts, java.compile.io.lionweb.mps.converter.TestAbstract, java.compile.io.lionweb.mps.converter.TestComputedProperty, java.compile.io.lionweb.mps.converter.TestLanguageAnnotation, java.compile.io.lionweb.mps.converter.test.support, java.compile.io.lionweb.mps.json.test.support, java.compile.io.lionweb.mps.lang.test, java.compile.io.lionweb.mps.json.test, java.compile.io.lionweb.mps.converter.test" />
+  <target name="compileJava" depends="java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.structure.attribute, java.compile.io.lionweb.mps.specific, java.compile.io.lionweb.mps.server.plugin, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.json, java.compile.java.modules.cycle.1, java.compile.io.lionweb.mps.converter.lang, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.client.connector, java.compile.io.lionweb.mps.client.ideaPlugin, java.compile.io.lionweb.mps.client.persistence, java.compile.io.lionweb.mps.cmdline, java.compile.io.lionweb.mps.build, java.compile.io.lionweb.mps.converter.TestAllBuiltins, java.compile.io.lionweb.mps.testsupport, java.compile.io.lionweb.mps.testsupport.generator, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.library, java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter.TestCoreRefLang, java.compile.io.lionweb.mps.converter.TestCustomDatatype, java.compile.io.lionweb.mps.converter.TestAnnotation, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.deps.AnnotationAnnotates, java.compile.io.lionweb.mps.converter.deps.AnnotationAnnotates_Node, java.compile.io.lionweb.mps.converter.deps.AnnotationExtends, java.compile.io.lionweb.mps.converter.deps.AnnotationImplements, java.compile.io.lionweb.mps.converter.deps.ConceptExtends, java.compile.io.lionweb.mps.converter.deps.ConceptImplements, java.compile.io.lionweb.mps.converter.deps.ContainmentType, java.compile.io.lionweb.mps.converter.deps.InterfaceExtends, java.compile.io.lionweb.mps.converter.deps.LanguageDepends, java.compile.io.lionweb.mps.converter.deps.OnlyBuiltins, java.compile.io.lionweb.mps.converter.deps.PropertyType, java.compile.io.lionweb.mps.converter.deps.ReferenceType, java.compile.io.lionweb.mps.converter.deps.SmartReferenceType, java.compile.io.lionweb.mps.converter.deps.Standalone, java.compile.io.lionweb.mps.converter.deps.AvoidMultipleConcepts, java.compile.io.lionweb.mps.converter.TestAbstract, java.compile.io.lionweb.mps.converter.TestComputedProperty, java.compile.io.lionweb.mps.converter.TestLanguageAnnotation, java.compile.io.lionweb.mps.converter.TestDeprecated, java.compile.io.lionweb.mps.converter.TestEnum, java.compile.io.lionweb.mps.converter.test.support, java.compile.io.lionweb.mps.json.test.support, java.compile.io.lionweb.mps.lang.test, java.compile.io.lionweb.mps.json.test, java.compile.io.lionweb.mps.converter.test" />
   
   <target name="processResources" />
   
@@ -3342,6 +3462,8 @@
         <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestAnnotation/io.lionweb.mps.converter.TestAnnotation.mpl" />
         <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestComputedProperty/io.lionweb.mps.converter.TestComputedProperty.mpl" />
         <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestCustomDatatype/io.lionweb.mps.converter.TestCustomDatatype.mpl" />
+        <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/io.lionweb.mps.converter.TestDeprecated.mpl" />
+        <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/io.lionweb.mps.converter.TestEnum.mpl" />
         <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" />
         <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" />
         <module file="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestRefs/io.lionweb.mps.converter.TestRefs.mpl" />
@@ -5474,6 +5596,92 @@
     </copy>
   </target>
   
+  <target name="java.compile.io.lionweb.mps.converter.TestDeprecated" depends="fetchDependencies">
+    <mkdir dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.converter.TestDeprecated" />
+    <javac destdir="${build.tmp}/java/out/io.lionweb.mps.converter.TestDeprecated" fork="false" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/java/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+      </classpath>
+    </javac>
+    <copy todir="${build.tmp}/java/out/io.lionweb.mps.converter.TestDeprecated">
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/source_gen" excludes="**/*.java" />
+    </copy>
+  </target>
+  
+  <target name="java.compile.io.lionweb.mps.converter.TestEnum" depends="fetchDependencies">
+    <mkdir dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.converter.TestEnum" />
+    <javac destdir="${build.tmp}/java/out/io.lionweb.mps.converter.TestEnum" fork="false" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
+        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
+        <fileset file="${artifacts.IDEA}/lib/log4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/jdom.jar" />
+        <fileset file="${artifacts.IDEA}/lib/trove4j.jar" />
+        <fileset file="${artifacts.IDEA}/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.IDEA}/plugins/java/lib/ecj-4.16.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+      </classpath>
+    </javac>
+    <copy todir="${build.tmp}/java/out/io.lionweb.mps.converter.TestEnum">
+      <fileset dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/source_gen" excludes="**/*.java" />
+    </copy>
+  </target>
+  
   <target name="java.compile.io.lionweb.mps.converter.test.support" depends="java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, fetchDependencies">
     <mkdir dir="${lionweb-mps.home}/solutions/io.lionweb.mps.converter.test.support/source_gen" />
     <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.converter.test.support" />
@@ -5643,7 +5851,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.io.lionweb.mps.json.test" depends="java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.converter.TestAbstract, java.compile.io.lionweb.mps.converter.TestComputedProperty, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.converter.test.support, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.json.test.support, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.testsupport, java.compile.library, fetchDependencies">
+  <target name="java.compile.io.lionweb.mps.json.test" depends="java.compile.MultiRefLang, java.compile.io.lionweb.mps.converter, java.compile.io.lionweb.mps.converter.TestAbstract, java.compile.io.lionweb.mps.converter.TestComputedProperty, java.compile.io.lionweb.mps.converter.TestEnum, java.compile.io.lionweb.mps.converter.TestLang, java.compile.io.lionweb.mps.converter.TestLang2, java.compile.io.lionweb.mps.converter.TestLang3, java.compile.io.lionweb.mps.converter.TestRefs, java.compile.io.lionweb.mps.converter.lang.runtime, java.compile.io.lionweb.mps.converter.test.support, java.compile.io.lionweb.mps.json, java.compile.io.lionweb.mps.json.test.support, java.compile.io.lionweb.mps.m3, java.compile.io.lionweb.mps.m3.runtime, java.compile.io.lionweb.mps.testsupport, java.compile.library, fetchDependencies">
     <mkdir dir="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/test_gen" />
     <mkdir dir="${build.tmp}/java/out/io.lionweb.mps.json.test" />
     <javac destdir="${build.tmp}/java/out/io.lionweb.mps.json.test" fork="false" encoding="utf8" includeantruntime="false" debug="true">
@@ -5684,6 +5892,7 @@
         <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestComputedProperty" />
+        <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestEnum" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang2" />
         <pathelement path="${build.tmp}/java/out/io.lionweb.mps.converter.TestLang3" />
@@ -5932,6 +6141,7 @@
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestComputedProperty.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestCoreRefLang.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestCustomDatatype.jar" />
+      <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestEnum.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestLang.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestLang2.jar" />
       <pathelement location="${build.layout}/io.lionweb.mps.tests.contributions/languages/lionweb-mps-tests.contributions/io.lionweb.mps.converter.TestLang3.jar" />
@@ -6026,6 +6236,8 @@
     <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestAnnotation/source_gen" />
     <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestComputedProperty/source_gen" />
     <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestCustomDatatype/source_gen" />
+    <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestDeprecated/source_gen" />
+    <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestEnum/source_gen" />
     <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestLang2/source_gen" />
     <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestLang3/source_gen" />
     <delete dir="${lionweb-mps.home}/languages/io.lionweb.mps.converter.TestRefs/source_gen" />

@@ -1,0 +1,61 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "LionCore-builtins",
+      "version": "2023.1"
+    },
+    {
+      "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+      "version": "0"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "{id-host}",
+      "classifier": {
+        "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+        "version": "0",
+        "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3MzQ"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "EnumHostWithoutKeyOptional_setWithKey"
+        },
+        {
+          "property": {
+            "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+            "version": "0",
+            "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3MzQvMzI0MDQ3NTQxMDMzMjk1MTczNQ"
+          },
+          "value": "key-literalWithKey"
+        },
+        {
+          "property": {
+            "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+            "version": "0",
+            "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3MzQvMzI0MDQ3NTQxMDMzMjk1MTczNw"
+          },
+          "value": "key-literalWithKey"
+        },
+        {
+          "property": {
+            "language": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYx",
+            "version": "0",
+            "key": "MWVjNmQ1ZTctNjQwMi00YzE4LTk1ZDAtNmUwOTA2ZWIxZmYxLzMyNDA0NzU0MTAzMzI5NTE3MzQvMzI0MDQ3NTQxMDMzMjk1MTczOQ"
+          },
+          "value": "key-literalWithKey"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}
