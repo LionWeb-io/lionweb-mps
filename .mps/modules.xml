@@ -3,6 +3,9 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/MultiRefLang/MultiRefLang.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/f1re.lionweb.examples.expression.lang/f1re.lionweb.examples.expression.lang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/f1re.lionweb.examples.expression.lang/runtime/f1re.lionweb.examples.expression.lang.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/f1re.lionweb.examples.expression.lang/sandbox/f1re.lionweb.examples.expression.lang.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAbstract/io.lionweb.mps.converter.TestAbstract.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAllBuiltins/io.lionweb.mps.converter.TestAllBuiltins.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAnnotation/io.lionweb.mps.converter.TestAnnotation.mpl" folder="test.langs" />
@@ -38,6 +41,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.testsupport/io.lionweb.mps.testsupport.mpl" folder="test.support" />
       <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/solutions/bla/bla.msd" folder="xx_broken" />
+      <modulePath path="$PROJECT_DIR$/solutions/export_to_json/export_to_json.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.lionweb.java/io.lionweb.lionweb.java.msd" folder="lang.json" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="client" />
