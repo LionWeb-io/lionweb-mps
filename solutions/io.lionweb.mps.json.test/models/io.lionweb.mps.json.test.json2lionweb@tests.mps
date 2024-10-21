@@ -10415,7 +10415,7 @@
         <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/computedName_raw_exported.json" />
         <property role="pjpzt" value="39$JcGFainl/descendants" />
         <node concept="pgsVv" id="nWBHrKVdMf" role="pgtdD">
-          <ref role="pgsW4" node="nWBHrKmor$" />
+          <ref role="pgsW4" node="nWBHrKmor$" resolve="computedName" />
         </node>
       </node>
     </node>
@@ -10426,7 +10426,7 @@
         <property role="3P5Wyv" value="true" />
         <property role="pjpzt" value="39$JcGFainl/descendants" />
         <node concept="pgsVv" id="nWBHrKVdP1" role="pgtdD">
-          <ref role="pgsW4" node="nWBHrKmor$" />
+          <ref role="pgsW4" node="nWBHrKmor$" resolve="computedName" />
         </node>
       </node>
     </node>
