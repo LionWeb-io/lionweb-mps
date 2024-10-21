@@ -257,6 +257,15 @@
             <ref role="1NtTu8" to="d0tf:5M8g5cT5W10" resolve="exportDescriptionAnnotations" />
           </node>
         </node>
+        <node concept="3EZMnI" id="6LPkCA_dTgd" role="3EZMnx">
+          <node concept="3F0ifn" id="6LPkCA_dTge" role="3EZMnx">
+            <property role="3F0ifm" value="Export special annotations:" />
+          </node>
+          <node concept="2iRfu4" id="6LPkCA_dTgf" role="2iSdaV" />
+          <node concept="3F0A7n" id="6LPkCA_dTgg" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:6LPkCA_dTg9" resolve="exportSpecialAnnotations" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="1q44RFSZQQ1" role="3EZMnx" />
       <node concept="3F0ifn" id="4Yo3buYkNTb" role="3EZMnx">

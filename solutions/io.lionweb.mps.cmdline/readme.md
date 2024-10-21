@@ -26,21 +26,23 @@ usage: lionweb-export-language <project-dir> [<config-file>] <output-file>
 
 * _output-file:_ The file the converted languages should be written to.
   All languages will be written to the same file.
-  
+
 * _language:_ Supplies the key of a language to export.
   Can be used multiple times; we accumulate all keys from _config-file_ and _language_ parameters.  
   **Note:** We're always using the language's [key](../../docs/reference/structure-extensions.adoc#custom-keys).
   We're _not_ using the language's fully qualified name, module name, uuid, or anything else.
-  
+
 * _macro:_ Supplies key/value pair to set a path variable for the MPS project.
   Can be used multiple times.  
   Example: `-mlionweb-mps.home=./../` sets path variable `lionweb-mps.home` to `./../`.
 
 * _scope:_ Defines the export [scope as explained for converter languages](../../docs/reference/converter-lang.adoc#language-json-export).
 
+
 ### Examples
 
 Minimal usage example without config file:
+
 ```shell
 ./gradlew runCommandLineTool -Pargs=". exported.lw-lang.json -lMyHappyLittleMulti-Reference_Language -s=listed"
 ```
@@ -60,6 +62,7 @@ Example with config file:
 * `exported.lw-lang.json` sets the output file
 
 Contents of `config-file.json`:
+
 ```json
 {
   "scope": "listed",
@@ -70,8 +73,21 @@ Contents of `config-file.json`:
 }
 ```
 
+#### Test exports
+
+The directory `test-project/` can be used to test the command-line exporter.
+Run
+
+```shell
+source test-scripts/export-library.sh
+source test-scripts/export-multiple.sh
+```
+
+to export two example languages, and compare the exports to the reference exports in `test-references/`.
+
 
 ## Setup
+
 We assume the MPS project that contains your to-be-exported languages is built with gradle.
 
 Create or adjust the following contents of `build.gradle.kts` (Kotlin dialect):
@@ -140,14 +156,15 @@ pluginManagement {
 
 and some `gradle.properties` (adjust the versions accordingly):
 ```properties
-lionwebVersion=0.2.3-SNAPSHOT
+lionwebVersion=0.2.8
 lionwebRelease=2023.1
 mpsVersionSuffix=2021.1
 mpsVersion=2021.1.4
 comSpecificlanguagesMpsVersion=1.6.0
 ```
 
-**Note:** The implementation strongly assumes that lionweb will be deployed to directory `./build/dependencies/io.lionweb.mps`.
+**Note:** The implementation strongly assumes that LionWeb will be deployed to directory `./build/dependencies/io.lionweb.mps`.
+
 
 ## Code design
 

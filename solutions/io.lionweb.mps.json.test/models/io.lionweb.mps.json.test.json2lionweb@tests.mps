@@ -19,12 +19,13 @@
     <use id="3ecd737b-418b-4a70-a991-f6b83f0e3247" name="io.lionweb.mps.converter.TestAbstract" version="0" />
     <use id="60791ea2-7a1d-4862-a1ef-f87878cc3b6e" name="io.lionweb.mps.converter.TestComputedProperty" version="0" />
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1" name="io.lionweb.mps.converter.TestEnum" version="0" />
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="h2gc" ref="r:c9b5090c-7263-4642-b8f4-1265e3a15687(library.structure)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
@@ -40,6 +41,9 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
+    <import index="qa91" ref="r:38742da4-ca90-4db1-b16c-4863d9d39613(io.lionweb.mps.converter.TestLang.structure)" />
+    <import index="43ba" ref="r:45d4cca0-b85a-4b49-8b0a-a764324dd84b(io.lionweb.mps.converter.TestEnum.structure)" />
+    <import index="q6xk" ref="r:2e1d95ed-4ed0-4ecd-bc84-f6c7c405fa7f(io.lionweb.mps.converter.TestLang3.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -117,6 +121,10 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
       </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
@@ -453,6 +461,38 @@
       <concept id="3546057254280163909" name="io.lionweb.mps.converter.TestAbstract.structure.ConcretePartition" flags="ng" index="33DH8d" />
       <concept id="3546057254280163911" name="io.lionweb.mps.converter.TestAbstract.structure.AbstractConcept" flags="ng" index="33DH8f" />
     </language>
+    <language id="1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1" name="io.lionweb.mps.converter.TestEnum">
+      <concept id="3240475410332951281" name="io.lionweb.mps.converter.TestEnum.structure.EnumHostWithKeyOptional" flags="ng" index="2$GdB6">
+        <property id="3240475410332951718" name="noDefault" index="2$GdYh" />
+        <property id="3240475410332951712" name="defaultWithoutKey" index="2$GdYn" />
+        <property id="3240475410332951708" name="defaultWithKey" index="2$GdYF" />
+      </concept>
+      <concept id="3240475410332951734" name="io.lionweb.mps.converter.TestEnum.structure.EnumHostWithoutKeyOptional" flags="ng" index="2$GdY1">
+        <property id="3240475410332951735" name="defaultWithKey" index="2$GdY0" />
+        <property id="3240475410332951739" name="noDefault" index="2$GdYc" />
+        <property id="3240475410332951737" name="defaultWithoutKey" index="2$GdYe" />
+      </concept>
+      <concept id="3240475410332951742" name="io.lionweb.mps.converter.TestEnum.structure.EnumHostWithoutKeyRequired" flags="ng" index="2$GdY9">
+        <property id="3240475410332951743" name="defaultWithKey" index="2$GdY8" />
+        <property id="3240475410332951747" name="noDefault" index="2$GdZO" />
+        <property id="3240475410332951745" name="defaultWithoutKey" index="2$GdZQ" />
+      </concept>
+      <concept id="3240475410332951726" name="io.lionweb.mps.converter.TestEnum.structure.EnumHostWithKeyRequired" flags="ng" index="2$GdYp">
+        <property id="3240475410332951731" name="noDefault" index="2$GdY4" />
+        <property id="3240475410332951729" name="defaultWithoutKey" index="2$GdY6" />
+        <property id="3240475410332951727" name="defaultWithKey" index="2$GdYo" />
+      </concept>
+      <concept id="3240475410332993337" name="io.lionweb.mps.converter.TestEnum.structure.EnumHostWithKeyUnset" flags="ng" index="2$GjKe">
+        <property id="3240475410332993342" name="noDefault" index="2$GjK9" />
+        <property id="3240475410332993340" name="defaultWithoutKey" index="2$GjKb" />
+        <property id="3240475410332993338" name="defaultWithKey" index="2$GjKd" />
+      </concept>
+      <concept id="3240475410332993353" name="io.lionweb.mps.converter.TestEnum.structure.EnumHostWithoutKeyUnset" flags="ng" index="2$GjLY">
+        <property id="3240475410332993358" name="noDefault" index="2$GjLT" />
+        <property id="3240475410332993356" name="defaultWithoutKey" index="2$GjLV" />
+        <property id="3240475410332993354" name="defaultWithKey" index="2$GjLX" />
+      </concept>
+    </language>
     <language id="48d0f6eb-6186-4cec-83d1-7caedb05a494" name="io.lionweb.mps.converter.TestLang2">
       <concept id="5605122842158780280" name="io.lionweb.mps.converter.TestLang2.structure.Test2ConceptUnkeyed" flags="ng" index="1kx2G0">
         <property id="5605122842163857069" name="propKeyed" index="1kkUcG" />
@@ -550,6 +590,9 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
+        <child id="4611582986551314344" name="requestedType" index="UnYnz" />
+      </concept>
       <concept id="1240217271293" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashSetCreator" flags="nn" index="32HrFt" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -1770,6 +1813,56 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6LPkCA_n53A" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_n5mu" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_n5Dn" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_n5ms" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjyHs" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_n63o" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_n6il" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydp" resolve="keyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_n8pu" role="37wK5m">
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <node concept="2OqwBi" id="6LPkCA_n9Hq" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_naqI" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_naqH" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_naqG" role="10QFUP">
+                        <ref role="355D3t" to="q6xk:4R9pospjbQk" resolve="Test3ConceptKeyed" />
+                        <ref role="355D3u" to="q6xk:4R9pospAGqo" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_naJj" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_nbn5" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_n7ue" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_n7uf" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_n7ug" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjyHs" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_n7uh" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_n7ui" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydp" resolve="keyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_n7uj" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4R9pospjyHN" role="3cqZAp" />
         <node concept="3clFbF" id="4R9pospjyHO" role="3cqZAp">
           <node concept="2OqwBi" id="4R9pospjyHP" role="3clFbG">
@@ -1940,6 +2033,56 @@
               </node>
               <node concept="Xl_RD" id="4R9pospjHPW" role="37wK5m">
                 <property role="Xl_RC" value="{id-NoExtends}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA_s55t" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_s4G4" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_s4G5" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_s4G6" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjHPA" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_s4G7" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_s4G8" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydr" resolve="unkeyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_s4G9" role="37wK5m">
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <node concept="2OqwBi" id="6LPkCA_s4Ga" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_s4Gb" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_s4Gc" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_s4Gd" role="10QFUP">
+                        <ref role="355D3t" to="q6xk:4R9pospjkXS" resolve="Test3ConceptUnkeyed" />
+                        <ref role="355D3u" to="q6xk:4R9pospAGqG" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_s4Ge" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_s4Gf" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_s4Gg" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_s4Gh" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_s4Gi" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospjHPA" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_s4Gj" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_s4Gk" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospjydr" resolve="unkeyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_s4Gl" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
               </node>
             </node>
           </node>
@@ -2488,6 +2631,56 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6LPkCA_E8bp" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_E8bq" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_E8br" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_E8bs" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzHi" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_E8bt" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_E8bu" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospm_$F" resolve="keyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_E8bv" role="37wK5m">
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <node concept="2OqwBi" id="6LPkCA_E8bw" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_E8bx" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_E8by" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_E8bz" role="10QFUP">
+                        <ref role="355D3t" to="zf9n:4R9pospjbQk" resolve="Test2ConceptKeyed" />
+                        <ref role="355D3u" to="zf9n:4R9pospAGqo" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_E8b$" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_E8b_" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_E8bA" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_E8bB" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_E8bC" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzHi" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_E8bD" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_E8bE" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospm_$F" resolve="keyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_E8bF" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4R9pospmzHD" role="3cqZAp" />
         <node concept="3clFbF" id="3FWZcLVXMF6" role="3cqZAp">
           <node concept="2OqwBi" id="3FWZcLVXMF7" role="3clFbG">
@@ -2668,6 +2861,56 @@
               </node>
               <node concept="Xl_RD" id="4R9pospmzIF" role="37wK5m">
                 <property role="Xl_RC" value="{id-NoExtends}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA_Ea01" role="3cqZAp" />
+        <node concept="3clFbF" id="6LPkCA_Ea02" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ea03" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ea04" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzIl" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ea05" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ea06" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospmBfb" resolve="unkeyed" />
+              </node>
+              <node concept="2YIFZM" id="6LPkCA_Ea07" role="37wK5m">
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <node concept="2OqwBi" id="6LPkCA_Ea08" role="37wK5m">
+                  <node concept="1eOMI4" id="6LPkCA_Ea09" role="2Oq$k0">
+                    <node concept="10QFUN" id="6LPkCA_Ea0a" role="1eOMHV">
+                      <node concept="355D3s" id="6LPkCA_Ea0b" role="10QFUP">
+                        <ref role="355D3t" to="zf9n:4R9pospjkXS" resolve="Test2ConceptUnkeyed" />
+                        <ref role="355D3u" to="zf9n:4R9pospAGqG" resolve="propUnkeyed" />
+                      </node>
+                      <node concept="3uibUv" id="6LPkCA_Ea0c" role="10QFUM">
+                        <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6LPkCA_Ea0d" role="2OqNvi">
+                    <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Ea0e" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ea0f" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ea0g" role="2Oq$k0">
+              <ref role="3cqZAo" node="4R9pospmzIl" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ea0h" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ea0i" role="37wK5m">
+                <ref role="3xOPvv" node="4R9pospmBfb" resolve="unkeyed" />
+              </node>
+              <node concept="Xl_RD" id="6LPkCA_Ea0j" role="37wK5m">
+                <property role="Xl_RC" value="My-KeyedProp" />
               </node>
             </node>
           </node>
@@ -7479,6 +7722,273 @@
           </node>
         </node>
         <node concept="3clFbH" id="3FWZcLW7boQ" role="3cqZAp" />
+        <node concept="3cpWs8" id="6LPkCA_EfA8" role="3cqZAp">
+          <node concept="3cpWsn" id="6LPkCA_EfA9" role="3cpWs9">
+            <property role="TrG5h" value="testConceptBaseEnumPropId" />
+            <node concept="17QB3L" id="6LPkCA_EfpG" role="1tU5fm" />
+            <node concept="2YIFZM" id="6LPkCA_EfAa" role="33vP2m">
+              <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+              <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+              <node concept="2OqwBi" id="6LPkCA_EfAb" role="37wK5m">
+                <node concept="1eOMI4" id="6LPkCA_EfAc" role="2Oq$k0">
+                  <node concept="10QFUN" id="6LPkCA_EfAd" role="1eOMHV">
+                    <node concept="355D3s" id="6LPkCA_EfAe" role="10QFUP">
+                      <ref role="355D3t" to="qa91:2fx6VTSS$mN" resolve="TestConceptBase" />
+                      <ref role="355D3u" to="qa91:2fx6VTSS$O0" resolve="enumProp" />
+                    </node>
+                    <node concept="3uibUv" id="6LPkCA_EfAf" role="10QFUM">
+                      <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="6LPkCA_EfAg" role="2OqNvi">
+                  <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EcgW" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EcCD" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EcgU" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ed3H" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Edmn" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIq" resolve="baseA" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EfAh" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Ei54" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ei55" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ei56" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ei57" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ei58" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIs" resolve="baseB" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Ei59" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eito" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eitp" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eitq" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eitr" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eits" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIw" resolve="baseC" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eitt" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eiw8" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eiw9" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eiwa" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eiwb" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eiwc" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dI$" resolve="baseD" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eiwd" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EiyY" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EiyZ" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eiz0" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eiz1" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eiz2" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIE" resolve="baseE" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eiz3" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Ei_U" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Ei_V" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Ei_W" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Ei_X" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Ei_Y" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIK" resolve="baseF" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Ei_Z" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EiCW" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EiCX" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EiCY" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EiCZ" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EiD0" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIQ" resolve="baseG" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EiD1" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EiG4" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EiG5" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EiG6" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EiG7" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EiG8" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIy" resolve="extends1A" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EiG9" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EnSS" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EnST" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EnSU" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EnSV" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EnSW" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIA" resolve="extends1B" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EnSX" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EnWc" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EnWd" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EnWe" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EnWf" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EnWg" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIC" resolve="extends1C" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EnWh" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_EnZA" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_EnZB" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_EnZC" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_EnZD" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_EnZE" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIG" resolve="extends1D" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_EnZF" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eo36" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eo37" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eo38" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eo39" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eo3a" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dII" resolve="extends1E" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eo3b" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eo6G" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eo6H" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eo6I" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eo6J" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eo6K" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIM" resolve="extends1F" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eo6L" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eoao" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eoap" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eoaq" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eoar" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eoas" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIO" resolve="extends1G" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eoat" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA_Eoea" role="3cqZAp">
+          <node concept="2OqwBi" id="6LPkCA_Eoeb" role="3clFbG">
+            <node concept="37vLTw" id="6LPkCA_Eoec" role="2Oq$k0">
+              <ref role="3cqZAo" node="3FWZcLW7bnD" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="6LPkCA_Eoed" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+              <node concept="3xONca" id="6LPkCA_Eoee" role="37wK5m">
+                <ref role="3xOPvv" node="3FWZcLW7dIu" resolve="extends2" />
+              </node>
+              <node concept="37vLTw" id="6LPkCA_Eoef" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA_EfA9" resolve="testConceptBaseEnumPropId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA_EbVI" role="3cqZAp" />
         <node concept="3clFbF" id="3FWZcLW7boR" role="3cqZAp">
           <node concept="2OqwBi" id="3FWZcLW7boS" role="3clFbG">
             <node concept="37vLTw" id="3FWZcLW7boT" role="2Oq$k0">
@@ -9917,6 +10427,996 @@
         <property role="pjpzt" value="39$JcGFainl/descendants" />
         <node concept="pgsVv" id="nWBHrKVdP1" role="pgtdD">
           <ref role="pgsW4" node="nWBHrKmor$" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="2NSuNu8iaXL">
+    <property role="TrG5h" value="enumLiterals_WithKey" />
+    <node concept="1qefOq" id="2NSuNu8icag" role="1SKRRt">
+      <node concept="2$GdB6" id="2NSuNu8icKv" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyOptional_unset" />
+        <node concept="3xLA65" id="2NSuNu8icU1" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyOptional_unset" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8icU3" role="1SKRRt">
+      <node concept="2$GdB6" id="2NSuNu8icU4" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyOptional_setWithKey" />
+        <property role="2$GdYn" value="2NSuNu8iai9/literalWithKey" />
+        <property role="2$GdYh" value="2NSuNu8iabP/literalWithKey" />
+        <node concept="3xLA65" id="2NSuNu8icU5" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyOptional_setWithKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8id0I" role="1SKRRt">
+      <node concept="2$GdB6" id="2NSuNu8id0J" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyOptional_setWithoutKey" />
+        <property role="2$GdYh" value="2NSuNu8iabQ/literalWithoutKey" />
+        <property role="2$GdYF" value="2NSuNu8iai6/literalWithoutKey" />
+        <node concept="3xLA65" id="2NSuNu8id0K" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyOptional_setWithoutKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8id9u" role="1SKRRt">
+      <node concept="2$GdYp" id="2NSuNu8idgd" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyRequired_unset" />
+        <node concept="3xLA65" id="2NSuNu8idpJ" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyRequired_unset" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8idpL" role="1SKRRt">
+      <node concept="2$GdYp" id="2NSuNu8idpM" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyRequired_setWithKey" />
+        <property role="2$GdY6" value="2NSuNu8iai9/literalWithKey" />
+        <property role="2$GdY4" value="2NSuNu8iabP/literalWithKey" />
+        <node concept="3xLA65" id="2NSuNu8idpN" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyRequired_setWithKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8idq3" role="1SKRRt">
+      <node concept="2$GdYp" id="2NSuNu8idq4" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyRequired_setWithoutKey" />
+        <property role="2$GdYo" value="2NSuNu8iai6/literalWithoutKey" />
+        <property role="2$GdY4" value="2NSuNu8iabQ/literalWithoutKey" />
+        <node concept="3xLA65" id="2NSuNu8idq5" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyRequired_setWithoutKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8ilTv" role="1SKRRt">
+      <node concept="2$GjKe" id="2NSuNu8ilZ_" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyUnset_unset" />
+        <node concept="3xLA65" id="2NSuNu8im7L" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyUnset_unset" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8im7N" role="1SKRRt">
+      <node concept="2$GjKe" id="2NSuNu8im7O" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyUnset_setWithKey" />
+        <property role="2$GjKb" value="2NSuNu8iai9/literalWithKey" />
+        <property role="2$GjK9" value="2NSuNu8iabP/literalWithKey" />
+        <node concept="3xLA65" id="2NSuNu8im7P" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyUnset_setWithKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8im8w" role="1SKRRt">
+      <node concept="2$GjKe" id="2NSuNu8im8x" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithKeyUnset_setWithoutKey" />
+        <property role="2$GjKd" value="2NSuNu8iai6/literalWithoutKey" />
+        <property role="2$GjK9" value="2NSuNu8iabQ/literalWithoutKey" />
+        <node concept="3xLA65" id="2NSuNu8im8y" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithKeyUnset_setWithoutKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8iaY0" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyOptional_unset" />
+      <node concept="3cqZAl" id="2NSuNu8iaY1" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8iaY2" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8nRO0" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8nRNY" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8nRNZ" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8nRNX" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8nShK" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8icU1" resolve="EnumHostWithKeyOptional_unset" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8nSrr" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyOptional_unset.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8omQh" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyOptional_setWithKey" />
+      <node concept="3cqZAl" id="2NSuNu8omQi" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8omQj" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8omQk" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8omQl" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8omQm" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8omQn" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8omQo" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8icU5" resolve="EnumHostWithKeyOptional_setWithKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8omQp" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyOptional_setWithKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8omUT" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyOptional_setWithoutKey" />
+      <node concept="3cqZAl" id="2NSuNu8omUU" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8omUV" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8omUW" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8omUX" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8omUY" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8omUZ" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8omV0" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8id0K" resolve="EnumHostWithKeyOptional_setWithoutKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8omV1" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyOptional_setWithoutKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8on01" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyRequired_unset" />
+      <node concept="3cqZAl" id="2NSuNu8on02" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8on03" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8on04" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8on05" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8on06" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8on07" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8on08" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8idpJ" resolve="EnumHostWithKeyRequired_unset" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8on09" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyRequired_unset.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8omZS" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyRequired_setWithKey" />
+      <node concept="3cqZAl" id="2NSuNu8omZT" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8omZU" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8omZV" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8omZW" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8omZX" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8omZY" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8omZZ" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8idpN" resolve="EnumHostWithKeyRequired_setWithKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8on00" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyRequired_setWithKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8omZJ" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyRequired_setWithoutKey" />
+      <node concept="3cqZAl" id="2NSuNu8omZK" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8omZL" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8omZM" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8omZN" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8omZO" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8omZP" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8omZQ" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8idq5" resolve="EnumHostWithKeyRequired_setWithoutKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8omZR" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyRequired_setWithoutKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8onz7" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyUnset_unset" />
+      <node concept="3cqZAl" id="2NSuNu8onz8" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8onz9" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8onza" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8onzb" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8onzc" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8onzd" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8onze" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8im7L" resolve="EnumHostWithKeyUnset_unset" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8onzf" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyUnset_unset.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8onyY" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyUnset_setWithKey" />
+      <node concept="3cqZAl" id="2NSuNu8onyZ" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8onz0" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8onz1" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8onz2" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8onz3" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8onz4" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8onz5" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8im7P" resolve="EnumHostWithKeyUnset_setWithKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8onz6" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyUnset_setWithKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8onyP" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithKeyUnset_setWithoutKey" />
+      <node concept="3cqZAl" id="2NSuNu8onyQ" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8onyR" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8onyS" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8onyT" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8onyU" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8onyV" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8nRNS" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8onyW" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8im8y" resolve="EnumHostWithKeyUnset_setWithoutKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8onyX" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithKeyUnset_setWithoutKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="2NSuNu8nRNS" role="1qtyYc">
+      <property role="TrG5h" value="assertEnum" />
+      <node concept="3Tm6S6" id="2NSuNu8nRNT" role="1B3o_S" />
+      <node concept="3cqZAl" id="2NSuNu8nRNU" role="3clF45" />
+      <node concept="37vLTG" id="2NSuNu8nRNG" role="3clF46">
+        <property role="TrG5h" value="host" />
+        <node concept="3Tqbb2" id="2NSuNu8nRNH" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2NSuNu8nRNI" role="3clF46">
+        <property role="TrG5h" value="file" />
+        <node concept="17QB3L" id="2NSuNu8nRNJ" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2NSuNu8nRMg" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8nRMh" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8nRMi" role="3clFbG">
+            <node concept="37vLTw" id="2NSuNu8nRNM" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8nRNG" resolve="host" />
+            </node>
+            <node concept="3YRAZt" id="2NSuNu8nRMk" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8nRMl" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NSuNu8nRMm" role="3cqZAp">
+          <node concept="3cpWsn" id="2NSuNu8nRMn" role="3cpWs9">
+            <property role="TrG5h" value="converter" />
+            <node concept="3uibUv" id="2NSuNu8nRMo" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:6jI_U5eOO9F" resolve="M1ToJson" />
+            </node>
+            <node concept="2ShNRf" id="2NSuNu8nRMp" role="33vP2m">
+              <node concept="1pGfFk" id="2NSuNu8nRMq" role="2ShVmc">
+                <ref role="37wK5l" to="6peh:5lijfVJTSc9" resolve="M1ToJson" />
+                <node concept="2OqwBi" id="2NSuNu8nRMr" role="37wK5m">
+                  <node concept="1jGwE1" id="2NSuNu8nRMs" role="2Oq$k0" />
+                  <node concept="liA8E" id="2NSuNu8nRMt" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="2NSuNu8nRMu" role="37wK5m">
+                  <node concept="2HTt$P" id="2NSuNu8nRMv" role="2ShVmc">
+                    <node concept="3uibUv" id="2NSuNu8nRMw" role="2HTBi0">
+                      <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                    </node>
+                    <node concept="37vLTw" id="2NSuNu8nRNL" role="2HTEbv">
+                      <ref role="3cqZAo" node="2NSuNu8nRNG" resolve="host" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8nRMy" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NSuNu8nRMz" role="3cqZAp">
+          <node concept="3KEzu6" id="2NSuNu8nRM$" role="3cpWs9">
+            <property role="TrG5h" value="nodes" />
+            <node concept="2OqwBi" id="2NSuNu8nRM_" role="33vP2m">
+              <node concept="2OqwBi" id="2NSuNu8nRMA" role="2Oq$k0">
+                <node concept="37vLTw" id="2NSuNu8nRMB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2NSuNu8nRMn" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="2NSuNu8nRMC" role="2OqNvi">
+                  <ref role="37wK5l" to="6peh:6jI_U5eOR8U" resolve="convert" />
+                  <node concept="Rm8GO" id="2NSuNu8nRMD" role="37wK5m">
+                    <ref role="1Px2BO" to="6peh:6jI_U5eOQFV" resolve="M1ToJson.Scope" />
+                    <ref role="Rm8GQ" to="6peh:6jI_U5eOQOm" resolve="closure" />
+                  </node>
+                </node>
+              </node>
+              <node concept="ANE8D" id="2NSuNu8nRME" role="2OqNvi" />
+            </node>
+            <node concept="PeGgZ" id="2NSuNu8nRMF" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3vlDli" id="2NSuNu8nRMG" role="3cqZAp">
+          <node concept="3cmrfG" id="2NSuNu8nRMH" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="2NSuNu8nRMI" role="3tpDZA">
+            <node concept="37vLTw" id="2NSuNu8nRMJ" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8nRM$" resolve="nodes" />
+            </node>
+            <node concept="34oBXx" id="2NSuNu8nRMK" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8nRML" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NSuNu8nRMM" role="3cqZAp">
+          <node concept="3cpWsn" id="2NSuNu8nRMN" role="3cpWs9">
+            <property role="TrG5h" value="comparer" />
+            <node concept="3uibUv" id="2NSuNu8nRMO" role="1tU5fm">
+              <ref role="3uigEE" to="kte7:5lijfVJWAoN" resolve="M1JsonComparer" />
+            </node>
+            <node concept="2ShNRf" id="2NSuNu8nRMP" role="33vP2m">
+              <node concept="1pGfFk" id="2NSuNu8nRMQ" role="2ShVmc">
+                <ref role="37wK5l" to="kte7:5lijfVJWApT" resolve="M1JsonComparer" />
+                <node concept="37vLTw" id="2NSuNu8nRNN" role="37wK5m">
+                  <ref role="3cqZAo" node="2NSuNu8nRNI" resolve="file" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2NSuNu8nRMS" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8nRMT" role="3clFbG">
+            <node concept="37vLTw" id="2NSuNu8nRMU" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8nRMN" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="2NSuNu8nRMV" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:5lijfVJWADj" resolve="replaceId" />
+              <node concept="37vLTw" id="2NSuNu8nRNK" role="37wK5m">
+                <ref role="3cqZAo" node="2NSuNu8nRNG" resolve="host" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8nRMX" role="37wK5m">
+                <property role="Xl_RC" value="{id-host}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8nRMY" role="3cqZAp" />
+        <node concept="2Gpval" id="2NSuNu8nRMZ" role="3cqZAp">
+          <node concept="2GrKxI" id="2NSuNu8nRN0" role="2Gsz3X">
+            <property role="TrG5h" value="prop" />
+          </node>
+          <node concept="3clFbS" id="2NSuNu8nRN1" role="2LFqv$">
+            <node concept="3clFbF" id="2NSuNu8nRN2" role="3cqZAp">
+              <node concept="2OqwBi" id="2NSuNu8nRN3" role="3clFbG">
+                <node concept="37vLTw" id="2NSuNu8nRN4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2NSuNu8nRMN" resolve="comparer" />
+                </node>
+                <node concept="liA8E" id="2NSuNu8nRN5" role="2OqNvi">
+                  <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+                  <node concept="37vLTw" id="2NSuNu8nRNP" role="37wK5m">
+                    <ref role="3cqZAo" node="2NSuNu8nRNG" resolve="host" />
+                  </node>
+                  <node concept="2YIFZM" id="2NSuNu8nRN7" role="37wK5m">
+                    <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                    <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                    <node concept="2OqwBi" id="2NSuNu8nRN8" role="37wK5m">
+                      <node concept="2GrUjf" id="2NSuNu8nRN9" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="2NSuNu8nRN0" resolve="prop" />
+                      </node>
+                      <node concept="liA8E" id="2NSuNu8nRNa" role="2OqNvi">
+                        <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2NSuNu8nRNb" role="2GsD0m">
+            <node concept="2OqwBi" id="2NSuNu8nRNc" role="2Oq$k0">
+              <node concept="1eOMI4" id="2NSuNu8nRNd" role="2Oq$k0">
+                <node concept="10QFUN" id="2NSuNu8nRNe" role="1eOMHV">
+                  <node concept="2OqwBi" id="2NSuNu8nRNf" role="10QFUP">
+                    <node concept="2OqwBi" id="2NSuNu8nRNg" role="2Oq$k0">
+                      <node concept="37vLTw" id="2NSuNu8nRNO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2NSuNu8nRNG" resolve="host" />
+                      </node>
+                      <node concept="2yIwOk" id="2NSuNu8nRNi" role="2OqNvi" />
+                    </node>
+                    <node concept="liA8E" id="2NSuNu8nRNj" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getProperties()" resolve="getProperties" />
+                    </node>
+                  </node>
+                  <node concept="A3Dl8" id="2NSuNu8nRNk" role="10QFUM">
+                    <node concept="3uibUv" id="2NSuNu8nRNl" role="A3Ik2">
+                      <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3zZkjj" id="2NSuNu8nRNm" role="2OqNvi">
+                <node concept="1bVj0M" id="2NSuNu8nRNn" role="23t8la">
+                  <node concept="3clFbS" id="2NSuNu8nRNo" role="1bW5cS">
+                    <node concept="3clFbF" id="2NSuNu8nRNp" role="3cqZAp">
+                      <node concept="2ZW3vV" id="2NSuNu8nRNq" role="3clFbG">
+                        <node concept="3uibUv" id="2NSuNu8nRNr" role="2ZW6by">
+                          <ref role="3uigEE" to="c17a:~SEnumeration" resolve="SEnumeration" />
+                        </node>
+                        <node concept="2OqwBi" id="2NSuNu8nRNs" role="2ZW6bz">
+                          <node concept="37vLTw" id="2NSuNu8nRNt" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2NSuNu8nRNv" resolve="it" />
+                          </node>
+                          <node concept="liA8E" id="2NSuNu8nRNu" role="2OqNvi">
+                            <ref role="37wK5l" to="c17a:~SProperty.getType()" resolve="getType" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="2NSuNu8nRNv" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="2NSuNu8nRNw" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="UnYns" id="2NSuNu8nRNx" role="2OqNvi">
+              <node concept="3uibUv" id="2NSuNu8nRNy" role="UnYnz">
+                <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8nRNz" role="3cqZAp" />
+        <node concept="3clFbF" id="2NSuNu8nRN$" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8nRN_" role="3clFbG">
+            <node concept="37vLTw" id="2NSuNu8nRNA" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8nRMN" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="2NSuNu8nRNB" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:5TNjoy25t5T" resolve="assertSortedEquals" />
+              <node concept="37vLTw" id="2NSuNu8nRNC" role="37wK5m">
+                <ref role="3cqZAo" node="2NSuNu8nRM$" resolve="nodes" />
+              </node>
+              <node concept="2OqwBi" id="2NSuNu8nRND" role="37wK5m">
+                <node concept="37vLTw" id="2NSuNu8nRNE" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2NSuNu8nRMn" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="2NSuNu8nRNF" role="2OqNvi">
+                  <ref role="37wK5l" to="6peh:5glO5qKYIk9" resolve="getLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="2NSuNu8imzk">
+    <property role="TrG5h" value="enumLiterals_WithoutKey" />
+    <node concept="1LZb2c" id="2NSuNu8pwzn" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyOptional_unset" />
+      <node concept="3cqZAl" id="2NSuNu8pwzo" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pwzp" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pwzq" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pwzr" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pwzs" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pwzt" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pwzu" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8imzM" resolve="EnumHostWithoutKeyOptional_unset" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pwzv" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyOptional_unset.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pwzw" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyOptional_setWithKey" />
+      <node concept="3cqZAl" id="2NSuNu8pwzx" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pwzy" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pwzz" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pwz$" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pwz_" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pwzA" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pwzB" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8imzP" resolve="EnumHostWithoutKeyOptional_setWithKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pwzC" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyOptional_setWithKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pwzD" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyOptional_setWithoutKey" />
+      <node concept="3cqZAl" id="2NSuNu8pwzE" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pwzF" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pwzG" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pwzH" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pwzI" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pwzJ" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pwzK" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8imzS" resolve="EnumHostWithoutKeyOptional_setWithoutKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pwzL" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyOptional_setWithoutKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pwzM" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyRequired_unset" />
+      <node concept="3cqZAl" id="2NSuNu8pwzN" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pwzO" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pwzP" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pwzQ" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pwzR" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pwzS" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pwzT" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8imzV" resolve="EnumHostWithoutKeyRequired_unset" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pwzU" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyRequired_unset.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pwzV" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyRequired_setWithKey" />
+      <node concept="3cqZAl" id="2NSuNu8pwzW" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pwzX" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pwzY" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pwzZ" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pw$0" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pw$1" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pw$2" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8imzY" resolve="EnumHostWithoutKeyRequired_setWithKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pw$3" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyRequired_setWithKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pw$4" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyRequired_setWithoutKey" />
+      <node concept="3cqZAl" id="2NSuNu8pw$5" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pw$6" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pw$7" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw$8" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pw$9" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pw$a" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pw$b" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8im$1" resolve="EnumHostWithoutKeyRequired_setWithoutKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pw$c" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyRequired_setWithoutKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pw$d" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyUnset_unset" />
+      <node concept="3cqZAl" id="2NSuNu8pw$e" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pw$f" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pw$g" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw$h" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pw$i" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pw$j" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pw$k" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8ipOP" resolve="EnumHostWithoutKeyUnset_unset" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pw$l" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyUnset_unset.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pw$m" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyUnset_setWithKey" />
+      <node concept="3cqZAl" id="2NSuNu8pw$n" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pw$o" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pw$p" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw$q" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pw$r" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pw$s" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pw$t" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8ipOT" resolve="EnumHostWithoutKeyUnset_setWithKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pw$u" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyUnset_setWithKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2NSuNu8pw$v" role="1SL9yI">
+      <property role="TrG5h" value="EnumHostWithoutKeyUnset_setWithoutKey" />
+      <node concept="3cqZAl" id="2NSuNu8pw$w" role="3clF45" />
+      <node concept="3clFbS" id="2NSuNu8pw$x" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pw$y" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw$z" role="3clFbG">
+            <node concept="2WthIp" id="2NSuNu8pw$$" role="2Oq$k0" />
+            <node concept="2XshWL" id="2NSuNu8pw$_" role="2OqNvi">
+              <ref role="2WH_rO" node="2NSuNu8pw8y" resolve="assertEnum" />
+              <node concept="3xONca" id="2NSuNu8pw$A" role="2XxRq1">
+                <ref role="3xOPvv" node="2NSuNu8ipUM" resolve="EnumHostWithoutKeyUnset_setWithoutKey" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pw$B" role="2XxRq1">
+                <property role="Xl_RC" value="enumLiterals-EnumHostWithoutKeyUnset_setWithoutKey.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="2NSuNu8pw8y" role="1qtyYc">
+      <property role="TrG5h" value="assertEnum" />
+      <node concept="3Tm6S6" id="2NSuNu8pw8z" role="1B3o_S" />
+      <node concept="3cqZAl" id="2NSuNu8pw8$" role="3clF45" />
+      <node concept="37vLTG" id="2NSuNu8pw8_" role="3clF46">
+        <property role="TrG5h" value="host" />
+        <node concept="3Tqbb2" id="2NSuNu8pw8A" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2NSuNu8pw8B" role="3clF46">
+        <property role="TrG5h" value="file" />
+        <node concept="17QB3L" id="2NSuNu8pw8C" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2NSuNu8pw8D" role="3clF47">
+        <node concept="3clFbF" id="2NSuNu8pw8E" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw8F" role="3clFbG">
+            <node concept="37vLTw" id="2NSuNu8pw8G" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8pw8_" resolve="host" />
+            </node>
+            <node concept="3YRAZt" id="2NSuNu8pw8H" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8pw8I" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NSuNu8pw8J" role="3cqZAp">
+          <node concept="3cpWsn" id="2NSuNu8pw8K" role="3cpWs9">
+            <property role="TrG5h" value="converter" />
+            <node concept="3uibUv" id="2NSuNu8pw8L" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:6jI_U5eOO9F" resolve="M1ToJson" />
+            </node>
+            <node concept="2ShNRf" id="2NSuNu8pw8M" role="33vP2m">
+              <node concept="1pGfFk" id="2NSuNu8pw8N" role="2ShVmc">
+                <ref role="37wK5l" to="6peh:5lijfVJTSc9" resolve="M1ToJson" />
+                <node concept="2OqwBi" id="2NSuNu8pw8O" role="37wK5m">
+                  <node concept="1jGwE1" id="2NSuNu8pw8P" role="2Oq$k0" />
+                  <node concept="liA8E" id="2NSuNu8pw8Q" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="2NSuNu8pw8R" role="37wK5m">
+                  <node concept="2HTt$P" id="2NSuNu8pw8S" role="2ShVmc">
+                    <node concept="3uibUv" id="2NSuNu8pw8T" role="2HTBi0">
+                      <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                    </node>
+                    <node concept="37vLTw" id="2NSuNu8pw8U" role="2HTEbv">
+                      <ref role="3cqZAo" node="2NSuNu8pw8_" resolve="host" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8pw8V" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NSuNu8pw8W" role="3cqZAp">
+          <node concept="3KEzu6" id="2NSuNu8pw8X" role="3cpWs9">
+            <property role="TrG5h" value="nodes" />
+            <node concept="2OqwBi" id="2NSuNu8pw8Y" role="33vP2m">
+              <node concept="2OqwBi" id="2NSuNu8pw8Z" role="2Oq$k0">
+                <node concept="37vLTw" id="2NSuNu8pw90" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2NSuNu8pw8K" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="2NSuNu8pw91" role="2OqNvi">
+                  <ref role="37wK5l" to="6peh:6jI_U5eOR8U" resolve="convert" />
+                  <node concept="Rm8GO" id="2NSuNu8pw92" role="37wK5m">
+                    <ref role="1Px2BO" to="6peh:6jI_U5eOQFV" resolve="M1ToJson.Scope" />
+                    <ref role="Rm8GQ" to="6peh:6jI_U5eOQOm" resolve="closure" />
+                  </node>
+                </node>
+              </node>
+              <node concept="ANE8D" id="2NSuNu8pw93" role="2OqNvi" />
+            </node>
+            <node concept="PeGgZ" id="2NSuNu8pw94" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3vlDli" id="2NSuNu8pw95" role="3cqZAp">
+          <node concept="3cmrfG" id="2NSuNu8pw96" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="2NSuNu8pw97" role="3tpDZA">
+            <node concept="37vLTw" id="2NSuNu8pw98" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8pw8X" resolve="nodes" />
+            </node>
+            <node concept="34oBXx" id="2NSuNu8pw99" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8pw9a" role="3cqZAp" />
+        <node concept="3cpWs8" id="2NSuNu8pw9b" role="3cqZAp">
+          <node concept="3cpWsn" id="2NSuNu8pw9c" role="3cpWs9">
+            <property role="TrG5h" value="comparer" />
+            <node concept="3uibUv" id="2NSuNu8pw9d" role="1tU5fm">
+              <ref role="3uigEE" to="kte7:5lijfVJWAoN" resolve="M1JsonComparer" />
+            </node>
+            <node concept="2ShNRf" id="2NSuNu8pw9e" role="33vP2m">
+              <node concept="1pGfFk" id="2NSuNu8pw9f" role="2ShVmc">
+                <ref role="37wK5l" to="kte7:5lijfVJWApT" resolve="M1JsonComparer" />
+                <node concept="37vLTw" id="2NSuNu8pw9g" role="37wK5m">
+                  <ref role="3cqZAo" node="2NSuNu8pw8B" resolve="file" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2NSuNu8pw9h" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw9i" role="3clFbG">
+            <node concept="37vLTw" id="2NSuNu8pw9j" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8pw9c" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="2NSuNu8pw9k" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:5lijfVJWADj" resolve="replaceId" />
+              <node concept="37vLTw" id="2NSuNu8pw9l" role="37wK5m">
+                <ref role="3cqZAo" node="2NSuNu8pw8_" resolve="host" />
+              </node>
+              <node concept="Xl_RD" id="2NSuNu8pw9m" role="37wK5m">
+                <property role="Xl_RC" value="{id-host}" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8pw9n" role="3cqZAp" />
+        <node concept="2Gpval" id="2NSuNu8pw9o" role="3cqZAp">
+          <node concept="2GrKxI" id="2NSuNu8pw9p" role="2Gsz3X">
+            <property role="TrG5h" value="prop" />
+          </node>
+          <node concept="3clFbS" id="2NSuNu8pw9q" role="2LFqv$">
+            <node concept="3clFbF" id="2NSuNu8pw9r" role="3cqZAp">
+              <node concept="2OqwBi" id="2NSuNu8pw9s" role="3clFbG">
+                <node concept="37vLTw" id="2NSuNu8pw9t" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2NSuNu8pw9c" resolve="comparer" />
+                </node>
+                <node concept="liA8E" id="2NSuNu8pw9u" role="2OqNvi">
+                  <ref role="37wK5l" to="kte7:6LPkCA_kqpj" resolve="assertEnumLiteralId" />
+                  <node concept="37vLTw" id="2NSuNu8pw9v" role="37wK5m">
+                    <ref role="3cqZAo" node="2NSuNu8pw8_" resolve="host" />
+                  </node>
+                  <node concept="2YIFZM" id="2NSuNu8pw9w" role="37wK5m">
+                    <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                    <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                    <node concept="2OqwBi" id="2NSuNu8pw9x" role="37wK5m">
+                      <node concept="2GrUjf" id="2NSuNu8pw9y" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="2NSuNu8pw9p" resolve="prop" />
+                      </node>
+                      <node concept="liA8E" id="2NSuNu8pw9z" role="2OqNvi">
+                        <ref role="37wK5l" to="pwx:~SPropertyAdapter.getId()" resolve="getId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2NSuNu8pw9$" role="2GsD0m">
+            <node concept="2OqwBi" id="2NSuNu8pw9_" role="2Oq$k0">
+              <node concept="1eOMI4" id="2NSuNu8pw9A" role="2Oq$k0">
+                <node concept="10QFUN" id="2NSuNu8pw9B" role="1eOMHV">
+                  <node concept="2OqwBi" id="2NSuNu8pw9C" role="10QFUP">
+                    <node concept="2OqwBi" id="2NSuNu8pw9D" role="2Oq$k0">
+                      <node concept="37vLTw" id="2NSuNu8pw9E" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2NSuNu8pw8_" resolve="host" />
+                      </node>
+                      <node concept="2yIwOk" id="2NSuNu8pw9F" role="2OqNvi" />
+                    </node>
+                    <node concept="liA8E" id="2NSuNu8pw9G" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getProperties()" resolve="getProperties" />
+                    </node>
+                  </node>
+                  <node concept="A3Dl8" id="2NSuNu8pw9H" role="10QFUM">
+                    <node concept="3uibUv" id="2NSuNu8pw9I" role="A3Ik2">
+                      <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3zZkjj" id="2NSuNu8pw9J" role="2OqNvi">
+                <node concept="1bVj0M" id="2NSuNu8pw9K" role="23t8la">
+                  <node concept="3clFbS" id="2NSuNu8pw9L" role="1bW5cS">
+                    <node concept="3clFbF" id="2NSuNu8pw9M" role="3cqZAp">
+                      <node concept="2ZW3vV" id="2NSuNu8pw9N" role="3clFbG">
+                        <node concept="3uibUv" id="2NSuNu8pw9O" role="2ZW6by">
+                          <ref role="3uigEE" to="c17a:~SEnumeration" resolve="SEnumeration" />
+                        </node>
+                        <node concept="2OqwBi" id="2NSuNu8pw9P" role="2ZW6bz">
+                          <node concept="37vLTw" id="2NSuNu8pw9Q" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2NSuNu8pw9S" resolve="it" />
+                          </node>
+                          <node concept="liA8E" id="2NSuNu8pw9R" role="2OqNvi">
+                            <ref role="37wK5l" to="c17a:~SProperty.getType()" resolve="getType" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="2NSuNu8pw9S" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="2NSuNu8pw9T" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="UnYns" id="2NSuNu8pw9U" role="2OqNvi">
+              <node concept="3uibUv" id="2NSuNu8pw9V" role="UnYnz">
+                <ref role="3uigEE" to="pwx:~SPropertyAdapter" resolve="SPropertyAdapter" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2NSuNu8pw9W" role="3cqZAp" />
+        <node concept="3clFbF" id="2NSuNu8pw9X" role="3cqZAp">
+          <node concept="2OqwBi" id="2NSuNu8pw9Y" role="3clFbG">
+            <node concept="37vLTw" id="2NSuNu8pw9Z" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NSuNu8pw9c" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="2NSuNu8pwa0" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:5TNjoy25t5T" resolve="assertSortedEquals" />
+              <node concept="37vLTw" id="2NSuNu8pwa1" role="37wK5m">
+                <ref role="3cqZAo" node="2NSuNu8pw8X" resolve="nodes" />
+              </node>
+              <node concept="2OqwBi" id="2NSuNu8pwa2" role="37wK5m">
+                <node concept="37vLTw" id="2NSuNu8pwa3" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2NSuNu8pw8K" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="2NSuNu8pwa4" role="2OqNvi">
+                  <ref role="37wK5l" to="6peh:5glO5qKYIk9" resolve="getLanguages" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8imzK" role="1SKRRt">
+      <node concept="2$GdY1" id="2NSuNu8imzL" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyOptional_unset" />
+        <node concept="3xLA65" id="2NSuNu8imzM" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyOptional_unset" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8imzN" role="1SKRRt">
+      <node concept="2$GdY1" id="2NSuNu8imzO" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyOptional_setWithKey" />
+        <property role="2$GdYe" value="2NSuNu8iaij/literalWithKey" />
+        <property role="2$GdYc" value="2NSuNu8iaio/literalWithKey" />
+        <node concept="3xLA65" id="2NSuNu8imzP" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyOptional_setWithKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8imzQ" role="1SKRRt">
+      <node concept="2$GdY1" id="2NSuNu8imzR" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyOptional_setWithoutKey" />
+        <property role="2$GdY0" value="2NSuNu8iaig/literalWithoutKey" />
+        <property role="2$GdYc" value="2NSuNu8iaiq/literalWithoutKey" />
+        <node concept="3xLA65" id="2NSuNu8imzS" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyOptional_setWithoutKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8imzT" role="1SKRRt">
+      <node concept="2$GdY9" id="2NSuNu8imzU" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyRequired_unset" />
+        <node concept="3xLA65" id="2NSuNu8imzV" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyRequired_unset" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8imzW" role="1SKRRt">
+      <node concept="2$GdY9" id="2NSuNu8imzX" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyRequired_setWithKey" />
+        <property role="2$GdZQ" value="2NSuNu8iaij/literalWithKey" />
+        <property role="2$GdZO" value="2NSuNu8iaio/literalWithKey" />
+        <node concept="3xLA65" id="2NSuNu8imzY" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyRequired_setWithKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8imzZ" role="1SKRRt">
+      <node concept="2$GdY9" id="2NSuNu8im$0" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyRequired_setWithoutKey" />
+        <property role="2$GdY8" value="2NSuNu8iaig/literalWithoutKey" />
+        <property role="2$GdZO" value="2NSuNu8iaiq/literalWithoutKey" />
+        <node concept="3xLA65" id="2NSuNu8im$1" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyRequired_setWithoutKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8ipqC" role="1SKRRt">
+      <node concept="2$GjLY" id="2NSuNu8ipws" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyUnset_unset" />
+        <node concept="3xLA65" id="2NSuNu8ipOP" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyUnset_unset" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8ipOR" role="1SKRRt">
+      <node concept="2$GjLY" id="2NSuNu8ipOS" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyUnset_setWithKey" />
+        <property role="2$GjLV" value="2NSuNu8iaij/literalWithKey" />
+        <property role="2$GjLT" value="2NSuNu8iaio/literalWithKey" />
+        <node concept="3xLA65" id="2NSuNu8ipOT" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyUnset_setWithKey" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2NSuNu8ipUK" role="1SKRRt">
+      <node concept="2$GjLY" id="2NSuNu8ipUL" role="1qenE9">
+        <property role="TrG5h" value="EnumHostWithoutKeyUnset_setWithoutKey" />
+        <property role="2$GjLX" value="2NSuNu8iaig/literalWithoutKey" />
+        <property role="2$GjLT" value="2NSuNu8iaiq/literalWithoutKey" />
+        <node concept="3xLA65" id="2NSuNu8ipUM" role="lGtFl">
+          <property role="TrG5h" value="EnumHostWithoutKeyUnset_setWithoutKey" />
         </node>
       </node>
     </node>
