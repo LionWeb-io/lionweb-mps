@@ -10,6 +10,7 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestCoreRefLang/io.lionweb.mps.converter.TestCoreRefLang.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestCustomDatatype/io.lionweb.mps.converter.TestCustomDatatype.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestDeprecated/io.lionweb.mps.converter.TestDeprecated.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestEnum/io.lionweb.mps.converter.TestEnum.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang/io.lionweb.mps.converter.TestLang.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" folder="test.langs" />
