@@ -23,6 +23,11 @@ dependencies {
     "generation"("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
+tasks.assembleMps {
+    antProperties.putAll(antProperties.get())
+    antProperties.put("mps-extensions.home", "${projectDir.resolve("build/dependencies/de.itemis.mps.extensions")}")
+}
+
 task<JavaExec>("runCommandLineTool") {
     dependsOn("resolveGenerationDependencies")
 

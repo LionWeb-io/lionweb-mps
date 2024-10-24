@@ -133,7 +133,7 @@
       <property role="TrG5h" value="mps_home" />
     </node>
     <node concept="398rNT" id="3Dlb8T1lioB" role="1l3spd">
-      <property role="TrG5h" value="lionweb.mps.home" />
+      <property role="TrG5h" value="lionweb-mps.home" />
       <node concept="55IIr" id="6LPkCA$48wU" role="398pKh">
         <node concept="2Ry0Ak" id="6LPkCA$4fCO" role="iGT6I">
           <property role="2Ry0Am" value="build" />
@@ -147,9 +147,9 @@
       </node>
     </node>
     <node concept="398rNT" id="6LPkCA$43xi" role="1l3spd">
-      <property role="TrG5h" value="mps.macro.lionweb.mps.home" />
+      <property role="TrG5h" value="mps.macro.lionweb-mps.home" />
       <node concept="398BVA" id="6LPkCA$43xr" role="398pKh">
-        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb.mps.home" />
+        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
       </node>
     </node>
     <node concept="2sgV4H" id="3Dlb8T1lio$" role="1l3spa">
@@ -161,7 +161,7 @@
     <node concept="2sgV4H" id="6LPkCA$3GoS" role="1l3spa">
       <ref role="1l3spb" to="e6nc:5wsogBcGDKa" resolve="io.lionweb.mps" />
       <node concept="398BVA" id="6LPkCA$3Gp0" role="2JcizS">
-        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb.mps.home" />
+        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
       </node>
     </node>
     <node concept="1l3spV" id="3Dlb8T1lipk" role="1l3spN">

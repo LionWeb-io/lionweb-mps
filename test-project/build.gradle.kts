@@ -21,6 +21,10 @@ dependencies {
     "generation"("io.lionweb.lionweb-mps:lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease:$lionwebVersion")
 }
 
+tasks.generateBuildscript {
+    args("--macro=lionweb-mps.home::${projectDir.parent}")
+}
+
 task<JavaExec>("runCommandLineTool") {
     dependsOn("resolveGenerationDependencies")
 
