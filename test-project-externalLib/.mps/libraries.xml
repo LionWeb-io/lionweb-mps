@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="LionWeb">
+          <value>
+            <Library>
+              <option name="name" value="lionweb-mps.home" />
+              <option name="path" value="$PROJECT_DIR$/build/dependencies/io.lionweb.mps" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mpsExtensions">
+          <value>
+            <Library>
+              <option name="name" value="mpsExtensions" />
+              <option name="path" value="$PROJECT_DIR$/build/dependencies/de.itemis.mps.extensions" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

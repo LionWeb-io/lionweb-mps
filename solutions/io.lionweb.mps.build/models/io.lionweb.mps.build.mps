@@ -360,6 +360,9 @@
         <ref role="m_rDy" node="3RxvfZg815U" resolve="io.lionweb.mps.tests.contributions" />
         <node concept="pUk6x" id="24OSoZ60eqB" role="pUk7w" />
       </node>
+      <node concept="L2wRC" id="2yij8JWwvCz" role="39821P">
+        <ref role="L2wRA" node="oIR8hQg5OW" resolve="io.lionweb.mps.build" />
+      </node>
       <node concept="L2wRC" id="24OSoZ61CZr" role="39821P">
         <ref role="L2wRA" node="24OSoZ5UmCW" resolve="io.lionweb.mps.lang.test" />
       </node>

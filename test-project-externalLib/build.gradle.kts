@@ -9,6 +9,7 @@ val mpsVersionSuffix: String by project
 val lionwebRelease: String by project
 val mpsVersion: String by project
 val lionwebVersion: String by project
+val mpsExtensionsVersion: String by project
 
 repositories {
     mavenLocal()
@@ -19,10 +20,12 @@ repositories {
 dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
     "generation"("io.lionweb.lionweb-mps:lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease:$lionwebVersion")
+    "generation"("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
-tasks.generateBuildscript {
-    args("--macro=lionweb-mps.home::${projectDir.parent}")
+tasks.assembleMps {
+    antProperties.putAll(antProperties.get())
+    antProperties.put("mps-extensions.home", "${projectDir.resolve("build/dependencies/de.itemis.mps.extensions")}")
 }
 
 task<JavaExec>("runCommandLineTool") {

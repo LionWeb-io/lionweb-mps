@@ -2985,6 +2985,43 @@
       <zipfileset file="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test.support/io.lionweb.mps.json.test.support.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.json.test.support-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.build.jar" />
+    <mkdir dir="${build.tmp}/default/io.lionweb.mps.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/io.lionweb.mps.build.jar/META-INF/module.xml">
+      <module namespace="io.lionweb.mps.build" type="solution" uuid="bf3c8943-8801-4969-9ac2-7403444bbefa">
+        <dependencies>
+          <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" />
+          <language id="l:0cf935df-4699-4e9c-a132-fa109541cba3:jetbrains.mps.build.mps" />
+          <language id="l:3600cb0a-44dd-4a5b-9968-22924406419e:jetbrains.mps.build.mps.tests" />
+          <language id="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="io.lionweb.mps.build-src.jar" descriptor="io.lionweb.mps.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/io.lionweb.mps.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/io.lionweb.mps.build" />
+      <fileset dir="${lionweb-mps.home}/solutions/io.lionweb.mps.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/io.lionweb.mps.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.build-models">
+      <fileset dir="${lionweb-mps.home}/solutions/io.lionweb.mps.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/io.lionweb.mps.build-src.jar" duplicate="preserve">
+      <fileset dir="${lionweb-mps.home}/solutions/io.lionweb.mps.build/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-io.lionweb.mps.build-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/io.lionweb.mps.lang.test.jar" />
     <mkdir dir="${build.tmp}/default/io.lionweb.mps.lang.test.jar/META-INF" />
     <echoxml file="${build.tmp}/default/io.lionweb.mps.lang.test.jar/META-INF/module.xml">
