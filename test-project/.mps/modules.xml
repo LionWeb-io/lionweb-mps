@@ -4,8 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/FooLanguage/FooLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/test-project.build/test-project.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/../languages/MultiRefLang/MultiRefLang.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/../languages/library/library.mpl" folder="" />
+      <modulePath path="${lionweb-mps.home}/languages/MultiRefLang/MultiRefLang.mpl" folder="" />
+      <modulePath path="${lionweb-mps.home}/languages/library/library.mpl" folder="" />
     </projectModules>
   </component>
 </project>
