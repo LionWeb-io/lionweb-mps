@@ -2689,6 +2689,41 @@
               </node>
             </node>
             <node concept="3clFbH" id="5hsSXrmD5g8" role="3cqZAp" />
+            <node concept="3cpWs8" id="5YadkJSxRuk" role="3cqZAp">
+              <node concept="3cpWsn" id="5YadkJSxRul" role="3cpWs9">
+                <property role="TrG5h" value="lionMPS2lionJavaConverter" />
+                <node concept="3uibUv" id="5YadkJSxRum" role="1tU5fm">
+                  <ref role="3uigEE" to="9pi3:5sACIIsA0s2" resolve="LionCore2JsonConverter" />
+                </node>
+                <node concept="2ShNRf" id="5YadkJSxSkl" role="33vP2m">
+                  <node concept="1pGfFk" id="5YadkJSxSkk" role="2ShVmc">
+                    <ref role="37wK5l" to="9pi3:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
+                    <node concept="37vLTw" id="5YadkJSxSTD" role="37wK5m">
+                      <ref role="3cqZAo" node="5M3rB6C9CRl" resolve="constants" />
+                    </node>
+                    <node concept="37vLTw" id="5YadkJSxTrP" role="37wK5m">
+                      <ref role="3cqZAo" node="7OJcYqxWMq4" resolve="jsonConstants" />
+                    </node>
+                    <node concept="2ShNRf" id="5YadkJSxXCj" role="37wK5m">
+                      <node concept="1pGfFk" id="5YadkJSxZF9" role="2ShVmc">
+                        <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageGuaranteedMapper" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="5YadkJSy2Wq" role="37wK5m">
+                      <node concept="2OqwBi" id="5YadkJSy0yx" role="2Oq$k0">
+                        <node concept="13iPFW" id="5YadkJSxZY1" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="5YadkJSy1iu" role="2OqNvi">
+                          <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="languages" />
+                        </node>
+                      </node>
+                      <node concept="13MTOL" id="5YadkJSy6Ka" role="2OqNvi">
+                        <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="language" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="z1IqfFSQk$" role="3cqZAp">
               <node concept="3cpWsn" id="z1IqfFSQk_" role="3cpWs9">
                 <property role="TrG5h" value="jsonLanguages" />
@@ -2703,6 +2738,14 @@
                   </node>
                   <node concept="liA8E" id="z1IqfFSQkC" role="2OqNvi">
                     <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="deserializeLanguages" />
+                    <node concept="2OqwBi" id="5YadkJSy9ks" role="37wK5m">
+                      <node concept="37vLTw" id="5YadkJSy8TA" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5YadkJSxRul" resolve="lionMPS2lionJavaConverter" />
+                      </node>
+                      <node concept="liA8E" id="5YadkJSyade" role="2OqNvi">
+                        <ref role="37wK5l" to="9pi3:5sACIIsA0ut" resolve="convert" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
