@@ -1306,6 +1306,14 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="5l7iViez3A_" role="jymVt">
+      <property role="TrG5h" value="lionwebVersion" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="5l7iVieyU_R" role="1B3o_S" />
+      <node concept="3uibUv" id="5l7iViez35X" role="1tU5fm">
+        <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7OJcYqyaF5s" role="jymVt" />
     <node concept="3clFbW" id="5TNjoy1vf0o" role="jymVt">
       <node concept="37vLTG" id="1KsTggJfsxt" role="3clF46">
@@ -1345,6 +1353,20 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5l7iViezhrl" role="3cqZAp">
+          <node concept="37vLTI" id="5l7iViezqW5" role="3clFbG">
+            <node concept="37vLTw" id="5l7iViezwTW" role="37vLTx">
+              <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+            </node>
+            <node concept="2OqwBi" id="5l7iViezjLw" role="37vLTJ">
+              <node concept="Xjq3P" id="5l7iViezhrj" role="2Oq$k0" />
+              <node concept="2OwXpG" id="5l7iViezl7T" role="2OqNvi">
+                <ref role="2Oxat5" node="5l7iViez3A_" resolve="lionwebVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5l7iVieC8cb" role="3cqZAp" />
         <node concept="3clFbF" id="7OJcYqy7LqZ" role="3cqZAp">
           <node concept="37vLTI" id="7OJcYqy7Lr0" role="3clFbG">
             <node concept="2OqwBi" id="7OJcYqy7Lr1" role="37vLTJ">
@@ -1938,6 +1960,46 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="7OJcYqxTIfC" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5l7iVieBmHk" role="jymVt" />
+    <node concept="3clFb_" id="5l7iViewSs3" role="jymVt">
+      <property role="TrG5h" value="isCompatible" />
+      <node concept="3Tm1VV" id="5l7iViewSs5" role="1B3o_S" />
+      <node concept="10P_77" id="5l7iViewSs6" role="3clF45" />
+      <node concept="37vLTG" id="5l7iViewSs7" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="5l7iViewSs8" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5l7iViewSse" role="3clF47">
+        <node concept="3cpWs6" id="5l7iVie_ydr" role="3cqZAp">
+          <node concept="3clFbC" id="5l7iVieA2xR" role="3cqZAk">
+            <node concept="2OqwBi" id="5l7iVieAv5s" role="3uHU7w">
+              <node concept="2OqwBi" id="5l7iVieAfR5" role="2Oq$k0">
+                <node concept="Xjq3P" id="5l7iVieAagi" role="2Oq$k0" />
+                <node concept="2OwXpG" id="5l7iVieAnd5" role="2OqNvi">
+                  <ref role="2Oxat5" node="5l7iViez3A_" resolve="lionwebVersion" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5l7iVieAzP8" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5l7iVie_LS$" role="3uHU7B">
+              <node concept="37vLTw" id="5l7iVie_E00" role="2Oq$k0">
+                <ref role="3cqZAo" node="5l7iViewSs7" resolve="lionwebVersion" />
+              </node>
+              <node concept="liA8E" id="5l7iVie_U1W" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5l7iViewSsf" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -5932,6 +5994,26 @@
         <node concept="VUp57" id="7OJcYq$tLVL" role="3nqlJM">
           <node concept="VXe0Z" id="7OJcYq$tLXf" role="VUp5m">
             <ref role="VXe0S" to="y7p:7OJcYqwQm1S" resolve="getNode" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5l7iViewuy_" role="jymVt" />
+    <node concept="3clFb_" id="5l7iViewuCm" role="jymVt">
+      <property role="TrG5h" value="isCompatible" />
+      <node concept="3clFbS" id="5l7iViewuCn" role="3clF47" />
+      <node concept="3Tm1VV" id="5l7iViewuCo" role="1B3o_S" />
+      <node concept="10P_77" id="5l7iViewuCp" role="3clF45" />
+      <node concept="37vLTG" id="5l7iViewuCq" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="5l7iViewuCr" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="5l7iViewuCs" role="lGtFl">
+        <node concept="TZ5HA" id="5l7iViewuCt" role="TZ5H$">
+          <node concept="1dT_AC" id="5l7iViewuCu" role="1dT_Ay">
+            <property role="1dT_AB" value="All constants should be compatible with a specified LionWeb version" />
           </node>
         </node>
       </node>
@@ -10244,6 +10326,18 @@
         <ref role="3uigEE" to="imb3:~Property" resolve="Property" />
       </node>
     </node>
+    <node concept="3clFb_" id="5l7iVieAFXJ" role="jymVt">
+      <property role="TrG5h" value="isCompatible" />
+      <node concept="3clFbS" id="5l7iVieAFXM" role="3clF47" />
+      <node concept="3Tm1VV" id="5l7iVieAFXN" role="1B3o_S" />
+      <node concept="10P_77" id="5l7iVieAFVc" role="3clF45" />
+      <node concept="37vLTG" id="5l7iVieAG6R" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="5l7iVieAG6Q" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="4ZQFfbQ3wYG" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="4ZQFfbQ8_Xh">
@@ -10766,6 +10860,45 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="4ZQFfbQ8HQc" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5l7iVieAHSi" role="jymVt">
+      <property role="TrG5h" value="isCompatible" />
+      <node concept="3Tm1VV" id="5l7iVieAHSk" role="1B3o_S" />
+      <node concept="10P_77" id="5l7iVieAHSl" role="3clF45" />
+      <node concept="37vLTG" id="5l7iVieAHSm" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="5l7iVieAHSn" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5l7iVieAHSo" role="3clF47">
+        <node concept="3cpWs6" id="5l7iVieAHSr" role="3cqZAp">
+          <node concept="3clFbC" id="5l7iVieAMAj" role="3cqZAk">
+            <node concept="2OqwBi" id="5l7iVieAP0B" role="3uHU7w">
+              <node concept="2OqwBi" id="5l7iVieANMN" role="2Oq$k0">
+                <node concept="Xjq3P" id="5l7iVieANbp" role="2Oq$k0" />
+                <node concept="2OwXpG" id="5l7iVieAOpG" role="2OqNvi">
+                  <ref role="2Oxat5" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5l7iVieAPD8" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5l7iVieALyP" role="3uHU7B">
+              <node concept="37vLTw" id="5l7iVieAKSI" role="2Oq$k0">
+                <ref role="3cqZAo" node="5l7iVieAHSm" resolve="lionwebVersion" />
+              </node>
+              <node concept="liA8E" id="5l7iVieALNC" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5l7iVieAHSp" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

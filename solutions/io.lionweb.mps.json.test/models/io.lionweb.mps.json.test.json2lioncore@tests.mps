@@ -304,7 +304,7 @@
                 </node>
                 <node concept="2ShNRf" id="4fqYzE8kghI" role="33vP2m">
                   <node concept="HV5vD" id="4fqYzE8kgUT" role="2ShVmc">
-                    <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                    <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
                   </node>
                 </node>
               </node>
@@ -552,7 +552,7 @@
             </node>
             <node concept="2ShNRf" id="4fqYzE8kht1" role="33vP2m">
               <node concept="HV5vD" id="4fqYzE8kht2" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -764,7 +764,7 @@
             </node>
             <node concept="2ShNRf" id="4ZQFfbQS1J6" role="33vP2m">
               <node concept="HV5vD" id="4ZQFfbQS1J7" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>

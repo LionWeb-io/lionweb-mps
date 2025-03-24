@@ -1165,72 +1165,26 @@
           <node concept="Xl_RD" id="pwT61fAY4f" role="1gVpfI">
             <property role="Xl_RC" value="Lionweb versions should be consistent" />
           </node>
-          <node concept="22lmx$" id="4ZQFfbQKjjy" role="1gVkn0">
-            <node concept="1Wc70l" id="4ZQFfbQFQcW" role="3uHU7B">
-              <node concept="1Wc70l" id="4ZQFfbQFL7n" role="3uHU7B">
-                <node concept="2ZW3vV" id="4ZQFfbQFIIc" role="3uHU7B">
-                  <node concept="3uibUv" id="4ZQFfbQFJYp" role="2ZW6by">
-                    <ref role="3uigEE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
-                  </node>
-                  <node concept="37vLTw" id="4ZQFfbQFHDf" role="2ZW6bz">
-                    <ref role="3cqZAo" node="1KsTggJpXti" resolve="lionwebVersion" />
-                  </node>
-                </node>
-                <node concept="2ZW3vV" id="4ZQFfbQFNIp" role="3uHU7w">
-                  <node concept="3uibUv" id="4ZQFfbQFOZw" role="2ZW6by">
-                    <ref role="3uigEE" to="6peh:39$JcGFQll9" resolve="JsonConstants_2023_1" />
-                  </node>
-                  <node concept="37vLTw" id="4ZQFfbQFMo3" role="2ZW6bz">
-                    <ref role="3cqZAo" node="48csSBNSpzW" resolve="jsonConstants" />
-                  </node>
-                </node>
+          <node concept="1Wc70l" id="5l7iVieFcKz" role="1gVkn0">
+            <node concept="2OqwBi" id="5l7iVieFfqF" role="3uHU7w">
+              <node concept="37vLTw" id="5l7iVieFe4$" role="2Oq$k0">
+                <ref role="3cqZAo" node="4ZQFfbQ9Ndm" resolve="lioncoreFactory" />
               </node>
-              <node concept="2ZW3vV" id="4ZQFfbQFSRp" role="3uHU7w">
-                <node concept="3uibUv" id="4ZQFfbQFTSU" role="2ZW6by">
-                  <ref role="3uigEE" to="6peh:4ZQFfbQ8AuI" resolve="LionCoreFactory_2023_1" />
-                </node>
-                <node concept="37vLTw" id="4ZQFfbQFRw6" role="2ZW6bz">
-                  <ref role="3cqZAo" node="4ZQFfbQ9Ndm" resolve="lioncoreFactory" />
+              <node concept="liA8E" id="5l7iVieFgJE" role="2OqNvi">
+                <ref role="37wK5l" to="6peh:5l7iVieAFXJ" resolve="isCompatible" />
+                <node concept="37vLTw" id="5l7iVieFhKW" role="37wK5m">
+                  <ref role="3cqZAo" node="1KsTggJpXti" resolve="lionwebVersion" />
                 </node>
               </node>
             </node>
-            <node concept="1Wc70l" id="4ZQFfbQKkz1" role="3uHU7w">
-              <node concept="1Wc70l" id="4ZQFfbQKkz2" role="3uHU7B">
-                <node concept="3fqX7Q" id="4ZQFfbQKlO5" role="3uHU7B">
-                  <node concept="1eOMI4" id="4ZQFfbQKo$i" role="3fr31v">
-                    <node concept="2ZW3vV" id="4ZQFfbQKlO7" role="1eOMHV">
-                      <node concept="3uibUv" id="4ZQFfbQKlO8" role="2ZW6by">
-                        <ref role="3uigEE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
-                      </node>
-                      <node concept="37vLTw" id="4ZQFfbQKlO9" role="2ZW6bz">
-                        <ref role="3cqZAo" node="1KsTggJpXti" resolve="lionwebVersion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3fqX7Q" id="4ZQFfbQKpP3" role="3uHU7w">
-                  <node concept="1eOMI4" id="4ZQFfbQKsfF" role="3fr31v">
-                    <node concept="2ZW3vV" id="4ZQFfbQKpP5" role="1eOMHV">
-                      <node concept="3uibUv" id="4ZQFfbQKpP6" role="2ZW6by">
-                        <ref role="3uigEE" to="6peh:39$JcGFQll9" resolve="JsonConstants_2023_1" />
-                      </node>
-                      <node concept="37vLTw" id="4ZQFfbQKpP7" role="2ZW6bz">
-                        <ref role="3cqZAo" node="48csSBNSpzW" resolve="jsonConstants" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
+            <node concept="2OqwBi" id="5l7iVieF9i8" role="3uHU7B">
+              <node concept="37vLTw" id="5l7iVieF7UB" role="2Oq$k0">
+                <ref role="3cqZAo" node="48csSBNSpzW" resolve="jsonConstants" />
               </node>
-              <node concept="3fqX7Q" id="4ZQFfbQKtw$" role="3uHU7w">
-                <node concept="1eOMI4" id="4ZQFfbQKwhi" role="3fr31v">
-                  <node concept="2ZW3vV" id="4ZQFfbQKtwA" role="1eOMHV">
-                    <node concept="3uibUv" id="4ZQFfbQKtwB" role="2ZW6by">
-                      <ref role="3uigEE" to="6peh:4ZQFfbQ8AuI" resolve="LionCoreFactory_2023_1" />
-                    </node>
-                    <node concept="37vLTw" id="4ZQFfbQKtwC" role="2ZW6bz">
-                      <ref role="3cqZAo" node="4ZQFfbQ9Ndm" resolve="lioncoreFactory" />
-                    </node>
-                  </node>
+              <node concept="liA8E" id="5l7iVieFak6" role="2OqNvi">
+                <ref role="37wK5l" to="6peh:5l7iViewuCm" resolve="isCompatible" />
+                <node concept="37vLTw" id="5l7iVieFbmX" role="37wK5m">
+                  <ref role="3cqZAo" node="1KsTggJpXti" resolve="lionwebVersion" />
                 </node>
               </node>
             </node>

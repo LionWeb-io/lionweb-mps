@@ -1740,7 +1740,7 @@
             </node>
             <node concept="2ShNRf" id="4fqYzE87xPE" role="33vP2m">
               <node concept="HV5vD" id="4fqYzE87yLL" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>

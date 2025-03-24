@@ -247,7 +247,7 @@
             </node>
             <node concept="2ShNRf" id="pwT61fq6XG" role="33vP2m">
               <node concept="HV5vD" id="pwT61fq6XH" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -395,7 +395,7 @@
             </node>
             <node concept="2ShNRf" id="pwT61fq8iJ" role="33vP2m">
               <node concept="HV5vD" id="pwT61fq8iK" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -816,11 +816,11 @@
           <node concept="3cpWsn" id="1qxNWuVK99P" role="3cpWs9">
             <property role="TrG5h" value="lionWebVersion" />
             <node concept="3uibUv" id="1qxNWuVK93n" role="1tU5fm">
-              <ref role="3uigEE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+              <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
             </node>
             <node concept="2ShNRf" id="1qxNWuVK99Q" role="33vP2m">
               <node concept="HV5vD" id="1qxNWuVK99R" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -946,11 +946,11 @@
           <node concept="3cpWsn" id="1qxNWuVM$0I" role="3cpWs9">
             <property role="TrG5h" value="lionWebVersion" />
             <node concept="3uibUv" id="1qxNWuVM$0J" role="1tU5fm">
-              <ref role="3uigEE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+              <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
             </node>
             <node concept="2ShNRf" id="1qxNWuVM$0K" role="33vP2m">
               <node concept="HV5vD" id="1qxNWuVM$0L" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -1144,7 +1144,7 @@
             </node>
             <node concept="2ShNRf" id="4fqYzE8kghI" role="33vP2m">
               <node concept="HV5vD" id="4fqYzE8kgUT" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -1352,7 +1352,7 @@
             </node>
             <node concept="2ShNRf" id="pwT61fq4TQ" role="33vP2m">
               <node concept="HV5vD" id="pwT61fq4TR" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
@@ -1540,7 +1540,7 @@
             </node>
             <node concept="2ShNRf" id="pwT61fq5Cn" role="33vP2m">
               <node concept="HV5vD" id="pwT61fq5Co" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
               </node>
             </node>
           </node>
