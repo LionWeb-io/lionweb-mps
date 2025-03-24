@@ -1839,6 +1839,9 @@
                   <node concept="2ShNRf" id="1xqd6ptvlzI" role="2Oq$k0">
                     <node concept="1pGfFk" id="1xqd6ptvm_d" role="2ShVmc">
                       <ref role="37wK5l" to="6peh:1xqd6ptuaAI" resolve="JsonToM2" />
+                      <node concept="37vLTw" id="6Th$CyzuOnb" role="37wK5m">
+                        <ref role="3cqZAo" node="4fqYzE8kySe" resolve="lionwebVersion" />
+                      </node>
                       <node concept="37vLTw" id="1xqd6ptvpuO" role="37wK5m">
                         <ref role="3cqZAo" node="4R9posqYZ0C" resolve="repository" />
                       </node>

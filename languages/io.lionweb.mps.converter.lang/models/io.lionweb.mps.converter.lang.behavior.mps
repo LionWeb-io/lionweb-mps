@@ -3084,6 +3084,9 @@
                       <ref role="37wK5l" to="6peh:4R9posp5Osb" resolve="JsonToM1" />
                       <ref role="1Y3XeK" to="6peh:4R9posp5N7h" resolve="JsonToM1" />
                       <node concept="3Tm1VV" id="6jbF0BoEZqI" role="1B3o_S" />
+                      <node concept="37vLTw" id="6Th$CyzuRXk" role="37wK5m">
+                        <ref role="3cqZAo" node="1KsTggJhFqU" resolve="lionwebVersion" />
+                      </node>
                       <node concept="37vLTw" id="18UigYOS37k" role="37wK5m">
                         <ref role="3cqZAo" node="5M3rB6BZyeP" resolve="repository" />
                       </node>

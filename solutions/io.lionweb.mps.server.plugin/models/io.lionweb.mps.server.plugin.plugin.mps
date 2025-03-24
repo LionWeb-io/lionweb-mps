@@ -1558,6 +1558,9 @@
                       <node concept="2ShNRf" id="3LyuSndOh3l" role="33vP2m">
                         <node concept="1pGfFk" id="3LyuSndOh3m" role="2ShVmc">
                           <ref role="37wK5l" to="6peh:4R9posp5Osb" resolve="JsonToM1" />
+                          <node concept="37vLTw" id="6Th$CyzvfjJ" role="37wK5m">
+                            <ref role="3cqZAo" node="4fqYzE8aehI" resolve="lionwebVersion" />
+                          </node>
                           <node concept="37vLTw" id="3LyuSndOh3n" role="37wK5m">
                             <ref role="3cqZAo" node="3f2P4cbACoK" resolve="repository" />
                           </node>
