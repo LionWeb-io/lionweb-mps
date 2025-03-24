@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
@@ -825,6 +826,19 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="4fqYzE8aqNl" role="3cqZAp">
+          <node concept="3cpWsn" id="4fqYzE8aqNm" role="3cpWs9">
+            <property role="TrG5h" value="lionwebVersion" />
+            <node concept="3uibUv" id="4fqYzE8aqNn" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+            </node>
+            <node concept="2ShNRf" id="4fqYzE8atsc" role="33vP2m">
+              <node concept="HV5vD" id="4fqYzE8auSd" role="2ShVmc">
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2A0cGJdRE9H" role="3cqZAp">
           <node concept="3cpWsn" id="2A0cGJdRE9I" role="3cpWs9">
             <property role="TrG5h" value="deserializer" />
@@ -834,19 +848,24 @@
             <node concept="2ShNRf" id="2A0cGJdRE9J" role="33vP2m">
               <node concept="1pGfFk" id="2A0cGJdRE9K" role="2ShVmc">
                 <ref role="37wK5l" to="6peh:5wsogBctgVc" resolve="Deserializer" />
+                <node concept="37vLTw" id="4fqYzE8mnda" role="37wK5m">
+                  <ref role="3cqZAo" node="4fqYzE8aqNm" resolve="lionwebVersion" />
+                </node>
                 <node concept="37vLTw" id="5wsogBctiIh" role="37wK5m">
                   <ref role="3cqZAo" node="5sACIIsjktS" resolve="input" />
                 </node>
                 <node concept="2ShNRf" id="5hsSXrmD6rv" role="37wK5m">
                   <node concept="1pGfFk" id="5hsSXrmDcUm" role="2ShVmc">
                     <ref role="37wK5l" to="6peh:5JNiskj4SJa" resolve="JsonConstants" />
-                    <node concept="2YIFZM" id="5hsSXrmDeQ3" role="37wK5m">
-                      <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
-                      <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+                    <node concept="37vLTw" id="4fqYzE8mo2G" role="37wK5m">
+                      <ref role="3cqZAo" node="4fqYzE8aqNm" resolve="lionwebVersion" />
                     </node>
                     <node concept="2ShNRf" id="7weWCFlyI7w" role="37wK5m">
-                      <node concept="HV5vD" id="7weWCFlyJjA" role="2ShVmc">
-                        <ref role="HV5vE" to="6peh:7weWCFlyxlE" resolve="LionCoreAdapter" />
+                      <node concept="1pGfFk" id="4fqYzE8moJC" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:1KsTggJeQkZ" resolve="LionCoreAdapter" />
+                        <node concept="37vLTw" id="4fqYzE8moJB" role="37wK5m">
+                          <ref role="3cqZAo" node="4fqYzE8aqNm" resolve="lionwebVersion" />
+                        </node>
                       </node>
                     </node>
                     <node concept="37vLTw" id="7OJcYqy6D$O" role="37wK5m">
@@ -907,6 +926,13 @@
       </node>
       <node concept="3uibUv" id="6LPkCA_ib$h" role="1tU5fm">
         <ref role="3uigEE" to="ni5j:~Pattern" resolve="Pattern" />
+      </node>
+    </node>
+    <node concept="312cEg" id="pwT61fljqd" role="jymVt">
+      <property role="TrG5h" value="lionwebVersion" />
+      <node concept="3Tm6S6" id="pwT61fljqb" role="1B3o_S" />
+      <node concept="3uibUv" id="pwT61fljqc" role="1tU5fm">
+        <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
       </node>
     </node>
     <node concept="2tJIrI" id="6LPkCA_i3MC" role="jymVt" />
@@ -994,6 +1020,25 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbF" id="pwT61flEnk" role="3cqZAp">
+          <node concept="37vLTI" id="pwT61flHek" role="3clFbG">
+            <node concept="37vLTw" id="pwT61flIyj" role="37vLTx">
+              <ref role="3cqZAo" node="pwT61flBEc" resolve="lionwebVersion" />
+            </node>
+            <node concept="2OqwBi" id="pwT61flEyN" role="37vLTJ">
+              <node concept="Xjq3P" id="pwT61flEni" role="2Oq$k0" />
+              <node concept="2OwXpG" id="pwT61flFLH" role="2OqNvi">
+                <ref role="2Oxat5" node="pwT61fljqd" resolve="lionwebVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="pwT61flBEc" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="pwT61flCPn" role="1tU5fm">
+          <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
         </node>
       </node>
       <node concept="37vLTG" id="5lijfVJWAs0" role="3clF46">
@@ -1351,6 +1396,9 @@
             <node concept="2ShNRf" id="5TNjoy254Wl" role="33vP2m">
               <node concept="1pGfFk" id="5TNjoy254Wm" role="2ShVmc">
                 <ref role="37wK5l" to="6peh:5s4Z0e0nc6h" resolve="M1Serializer" />
+                <node concept="37vLTw" id="pwT61fl$qh" role="37wK5m">
+                  <ref role="3cqZAo" node="pwT61fljqd" resolve="lionwebVersion" />
+                </node>
                 <node concept="37vLTw" id="5TNjoy254Wn" role="37wK5m">
                   <ref role="3cqZAo" node="5TNjoy254We" resolve="writer" />
                 </node>
@@ -2419,6 +2467,13 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="pwT61flPQV" role="jymVt">
+      <property role="TrG5h" value="lionwebVersion" />
+      <node concept="3Tm6S6" id="pwT61flPQW" role="1B3o_S" />
+      <node concept="3uibUv" id="pwT61flPQX" role="1tU5fm">
+        <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="24j7TNH2adA" role="jymVt" />
     <node concept="3clFbW" id="24j7TNH2adB" role="jymVt">
       <node concept="3cqZAl" id="24j7TNH2adC" role="3clF45" />
@@ -2457,6 +2512,25 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbF" id="pwT61flRDx" role="3cqZAp">
+          <node concept="37vLTI" id="pwT61flSi1" role="3clFbG">
+            <node concept="37vLTw" id="pwT61flSpC" role="37vLTx">
+              <ref role="3cqZAo" node="pwT61flRrx" resolve="lionwebVersion" />
+            </node>
+            <node concept="2OqwBi" id="pwT61flRP0" role="37vLTJ">
+              <node concept="Xjq3P" id="pwT61flRDv" role="2Oq$k0" />
+              <node concept="2OwXpG" id="pwT61flS1p" role="2OqNvi">
+                <ref role="2Oxat5" node="pwT61flPQV" resolve="lionwebVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="pwT61flRrx" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="pwT61flRvc" role="1tU5fm">
+          <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
         </node>
       </node>
       <node concept="37vLTG" id="24j7TNH2adS" role="3clF46">
@@ -2585,6 +2659,9 @@
             <node concept="2ShNRf" id="5TNjoy24N62" role="33vP2m">
               <node concept="1pGfFk" id="5TNjoy24N63" role="2ShVmc">
                 <ref role="37wK5l" to="6peh:5s4Z0e0nceW" resolve="M2Serializer" />
+                <node concept="37vLTw" id="pwT61flQKg" role="37wK5m">
+                  <ref role="3cqZAo" node="pwT61flPQV" resolve="lionwebVersion" />
+                </node>
                 <node concept="37vLTw" id="5TNjoy24N64" role="37wK5m">
                   <ref role="3cqZAo" node="5TNjoy24N5V" resolve="writer" />
                 </node>
@@ -2788,11 +2865,11 @@
             </node>
             <node concept="3clFbF" id="5TNjoy24N6$" role="3cqZAp">
               <node concept="2OqwBi" id="5TNjoy24N6_" role="3clFbG">
-                <node concept="37vLTw" id="6luz6qwwqXy" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6luz6qwwqXp" resolve="asserter" />
-                </node>
                 <node concept="liA8E" id="5TNjoy24N6I" role="2OqNvi">
                   <ref role="37wK5l" node="5wsogBcuZyW" resolve="assertEqual" />
+                </node>
+                <node concept="37vLTw" id="6luz6qwwqXy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6luz6qwwqXp" resolve="asserter" />
                 </node>
               </node>
             </node>
@@ -3220,6 +3297,35 @@
       <node concept="3Tm1VV" id="5wsogBcuZwU" role="1B3o_S" />
       <node concept="3cqZAl" id="5wsogBcuZyN" role="3clF45" />
     </node>
+    <node concept="3Tm1VV" id="5wsogBcuZcx" role="1B3o_S" />
+    <node concept="3UR2Jj" id="4l2rlg8UG2t" role="lGtFl">
+      <node concept="TZ5HA" id="4l2rlg8UG2u" role="TZ5H$">
+        <node concept="1dT_AC" id="4l2rlg8UG2v" role="1dT_Ay">
+          <property role="1dT_AB" value="Compares two readers by content." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4l2rlg8UGXM" role="TZ5H$">
+        <node concept="1dT_AC" id="4l2rlg8UGXN" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="4l2rlg8UGXS" role="TZ5H$">
+        <node concept="1dT_AC" id="4l2rlg8UGXT" role="1dT_Ay">
+          <property role="1dT_AB" value="CAUTION: Does not work correctly in all cases if the content is larger than " />
+        </node>
+        <node concept="1dT_AA" id="4l2rlg8UHTd" role="1dT_Ay">
+          <node concept="92FcH" id="4l2rlg8UHUB" role="qph3F">
+            <node concept="TZ5HA" id="4l2rlg8UHUD" role="2XjZqd" />
+            <node concept="VUqz4" id="4l2rlg8UHW4" role="92FcQ">
+              <ref role="YTMYt" node="4R9posqboqk" resolve="BUFSIZE" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="4l2rlg8UHTc" role="1dT_Ay">
+          <property role="1dT_AB" value="." />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6luz6qwvLNy" role="jymVt" />
     <node concept="3clFb_" id="6luz6qwvNw_" role="jymVt">
       <property role="TrG5h" value="replaceAll" />
@@ -3305,35 +3411,6 @@
       <node concept="37vLTG" id="6luz6qwxoFj" role="3clF46">
         <property role="TrG5h" value="applyCustomReplacements" />
         <node concept="10P_77" id="6luz6qwxp1l" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="5wsogBcuZcx" role="1B3o_S" />
-    <node concept="3UR2Jj" id="4l2rlg8UG2t" role="lGtFl">
-      <node concept="TZ5HA" id="4l2rlg8UG2u" role="TZ5H$">
-        <node concept="1dT_AC" id="4l2rlg8UG2v" role="1dT_Ay">
-          <property role="1dT_AB" value="Compares two readers by content." />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="4l2rlg8UGXM" role="TZ5H$">
-        <node concept="1dT_AC" id="4l2rlg8UGXN" role="1dT_Ay">
-          <property role="1dT_AB" value="" />
-        </node>
-      </node>
-      <node concept="TZ5HA" id="4l2rlg8UGXS" role="TZ5H$">
-        <node concept="1dT_AC" id="4l2rlg8UGXT" role="1dT_Ay">
-          <property role="1dT_AB" value="CAUTION: Does not work correctly in all cases if the content is larger than " />
-        </node>
-        <node concept="1dT_AA" id="4l2rlg8UHTd" role="1dT_Ay">
-          <node concept="92FcH" id="4l2rlg8UHUB" role="qph3F">
-            <node concept="TZ5HA" id="4l2rlg8UHUD" role="2XjZqd" />
-            <node concept="VUqz4" id="4l2rlg8UHW4" role="92FcQ">
-              <ref role="YTMYt" node="4R9posqboqk" resolve="BUFSIZE" />
-            </node>
-          </node>
-        </node>
-        <node concept="1dT_AC" id="4l2rlg8UHTc" role="1dT_Ay">
-          <property role="1dT_AB" value="." />
-        </node>
       </node>
     </node>
   </node>
@@ -3446,7 +3523,15 @@
             <ref role="1Pybhc" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
             <node concept="2YIFZM" id="3FWZcLVUO03" role="37wK5m">
               <ref role="1Pybhc" to="imb3:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
-              <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance()" resolve="getInstance" />
+              <ref role="37wK5l" to="imb3:~LionCoreBuiltins.getInstance(io.lionweb.lioncore.java.LionWebVersion)" resolve="getInstance" />
+              <node concept="2OqwBi" id="pwT61fr20N" role="37wK5m">
+                <node concept="37vLTw" id="pwT61fr1Od" role="2Oq$k0">
+                  <ref role="3cqZAo" node="pwT61fr1JK" resolve="lionwebVersion" />
+                </node>
+                <node concept="liA8E" id="pwT61fr2cV" role="2OqNvi">
+                  <ref role="37wK5l" to="6peh:1KsTggJdRV8" resolve="getVersion" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -3454,6 +3539,12 @@
       <node concept="3Tm1VV" id="3FWZcLVUMhF" role="1B3o_S" />
       <node concept="3uibUv" id="3FWZcLVUMk8" role="3clF45">
         <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+      </node>
+      <node concept="37vLTG" id="pwT61fr1JK" role="3clF46">
+        <property role="TrG5h" value="lionwebVersion" />
+        <node concept="3uibUv" id="pwT61fr1JJ" role="1tU5fm">
+          <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="3FWZcLW4NJ5" role="jymVt" />

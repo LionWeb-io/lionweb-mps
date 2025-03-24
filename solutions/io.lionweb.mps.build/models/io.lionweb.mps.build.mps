@@ -244,8 +244,8 @@
                   <property role="2Ry0Am" value="io.lionweb.lionweb.java" />
                   <node concept="2Ry0Ak" id="5wsogBcGDKv" role="2Ry0An">
                     <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="6YkTlHwxoXu" role="2Ry0An">
-                      <property role="2Ry0Am" value="lionweb-java-2023.1-core.jar" />
+                    <node concept="2Ry0Ak" id="1qxNWuVtQMI" role="2Ry0An">
+                      <property role="2Ry0Am" value="lionweb-java-2024.1-core.jar" />
                     </node>
                   </node>
                 </node>
@@ -966,18 +966,18 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="6YkTlHwxoSn" role="3bR37C">
-          <node concept="1BurEX" id="6YkTlHwxoSo" role="1SiIV1">
-            <node concept="398BVA" id="6YkTlHwxoS8" role="1BurEY">
+        <node concept="1SiIV0" id="1qxNWuVtQCt" role="3bR37C">
+          <node concept="1BurEX" id="1qxNWuVtQCu" role="1SiIV1">
+            <node concept="398BVA" id="1qxNWuVtQCe" role="1BurEY">
               <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
-              <node concept="2Ry0Ak" id="6YkTlHwxoS9" role="iGT6I">
+              <node concept="2Ry0Ak" id="1qxNWuVtQCf" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6YkTlHwxoSa" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1qxNWuVtQCg" role="2Ry0An">
                   <property role="2Ry0Am" value="io.lionweb.lionweb.java" />
-                  <node concept="2Ry0Ak" id="6YkTlHwxoSb" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="1qxNWuVtQCh" role="2Ry0An">
                     <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="6YkTlHwxoSc" role="2Ry0An">
-                      <property role="2Ry0Am" value="lionweb-java-2023.1-core.jar" />
+                    <node concept="2Ry0Ak" id="1qxNWuVtQCi" role="2Ry0An">
+                      <property role="2Ry0Am" value="lionweb-java-2024.1-core.jar" />
                     </node>
                   </node>
                 </node>
