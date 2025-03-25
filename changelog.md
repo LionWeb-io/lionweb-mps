@@ -1,5 +1,12 @@
 # Changelog for LionWeb-MPS
 
+## 0.2.11-2023.1
+
+* Bump lionweb-java dependency to v0.3.4
+* Ensure JSON is always exported with UTF8 encoding
+* Optionally export concept helpUrl and language element @docs attribute as lionweb annotation
+* Use `mps-gradle-plugin` v2 to build lionweb-mps
+
 ## 0.2.10-2023.1
 
 * Added optional `version` to LionWeb Language root in structure aspect.
