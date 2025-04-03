@@ -2705,6 +2705,11 @@
           <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
         </node>
       </node>
+      <node concept="1SiIV0" id="6KZ0V$Rukn9" role="3bR37C">
+        <node concept="3bR9La" id="6KZ0V$Rukna" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:6aIAM_Qd5ki" resolve="jetbrains.mps.lang.test.matcher" />
+        </node>
+      </node>
     </node>
     <node concept="1E1JtA" id="2_4dqAZFOPK" role="3989C9">
       <property role="BnDLt" value="true" />
