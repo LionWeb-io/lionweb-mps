@@ -2698,6 +2698,9 @@
                 <node concept="2ShNRf" id="5YadkJSxSkl" role="33vP2m">
                   <node concept="1pGfFk" id="5YadkJSxSkk" role="2ShVmc">
                     <ref role="37wK5l" to="9pi3:5sACIIsA0tB" resolve="LionCore2JsonConverter" />
+                    <node concept="37vLTw" id="488yEreU7el" role="37wK5m">
+                      <ref role="3cqZAo" node="1KsTggJhA$U" resolve="lionwebVersion" />
+                    </node>
                     <node concept="37vLTw" id="5YadkJSxSTD" role="37wK5m">
                       <ref role="3cqZAo" node="5M3rB6C9CRl" resolve="constants" />
                     </node>
@@ -2707,6 +2710,14 @@
                     <node concept="2ShNRf" id="5YadkJSxXCj" role="37wK5m">
                       <node concept="1pGfFk" id="5YadkJSxZF9" role="2ShVmc">
                         <ref role="37wK5l" to="t47h:5M3rB6AxjLI" resolve="LionCoreLanguageGuaranteedMapper" />
+                      </node>
+                    </node>
+                    <node concept="2ShNRf" id="488yEreU860" role="37wK5m">
+                      <node concept="1pGfFk" id="488yEreU8zp" role="2ShVmc">
+                        <ref role="37wK5l" to="6peh:4ZQFfbQ9DSn" resolve="LionCoreFactory" />
+                        <node concept="37vLTw" id="488yEreU98w" role="37wK5m">
+                          <ref role="3cqZAo" node="1KsTggJhA$U" resolve="lionwebVersion" />
+                        </node>
                       </node>
                     </node>
                     <node concept="2OqwBi" id="5YadkJSy2Wq" role="37wK5m">

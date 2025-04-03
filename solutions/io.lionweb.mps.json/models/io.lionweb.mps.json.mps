@@ -675,7 +675,7 @@
                         <ref role="3cqZAo" node="5wsogBc40MM" resolve="standardSerialization" />
                       </node>
                       <node concept="liA8E" id="5YadkJSwtwY" role="2OqNvi">
-                        <ref role="37wK5l" to="jxh5:~JsonSerialization.registerLanguage(io.lionweb.lioncore.java.language.Language)" resolve="registerLanguage" />
+                        <ref role="37wK5l" to="jxh5:~AbstractSerialization.registerLanguage(io.lionweb.lioncore.java.language.Language)" resolve="registerLanguage" />
                         <node concept="37vLTw" id="5YadkJSwtKI" role="37wK5m">
                           <ref role="3cqZAo" node="5YadkJSwscE" resolve="it" />
                         </node>
