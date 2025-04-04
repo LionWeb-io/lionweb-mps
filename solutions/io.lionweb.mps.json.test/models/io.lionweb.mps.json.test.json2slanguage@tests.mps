@@ -177,9 +177,6 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
-        <child id="1224414456414" name="elementType" index="kMuH3" />
-      </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
@@ -1794,13 +1791,6 @@
                   </node>
                   <node concept="liA8E" id="5ocQ9W1vI8N" role="2OqNvi">
                     <ref role="37wK5l" to="6peh:5wsogBc3YTv" resolve="deserializeLanguages" />
-                    <node concept="2ShNRf" id="5YadkJSyy6I" role="37wK5m">
-                      <node concept="kMnCb" id="5YadkJSyz10" role="2ShVmc">
-                        <node concept="3uibUv" id="5YadkJSyzwn" role="kMuH3">
-                          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
-                        </node>
-                      </node>
-                    </node>
                   </node>
                 </node>
               </node>
