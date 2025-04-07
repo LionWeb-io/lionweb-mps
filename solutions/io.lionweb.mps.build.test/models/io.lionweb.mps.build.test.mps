@@ -2867,6 +2867,16 @@
           <ref role="3bR37D" to="e6nc:6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
         </node>
       </node>
+      <node concept="1SiIV0" id="59fw59O3Exq" role="3bR37C">
+        <node concept="3bR9La" id="59fw59O3Exr" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="59fw59O3Exs" role="3bR37C">
+        <node concept="3bR9La" id="59fw59O3Ext" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:6aIAM_Qd5ki" resolve="jetbrains.mps.lang.test.matcher" />
+        </node>
+      </node>
     </node>
     <node concept="1E1JtA" id="3fg6BaZxW07" role="3989C9">
       <property role="BnDLt" value="true" />
