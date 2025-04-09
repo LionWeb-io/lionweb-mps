@@ -28,6 +28,8 @@
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
+    <import index="i290" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.java.stub(MPS.Core/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
@@ -2566,7 +2568,10 @@
         <node concept="3clFbJ" id="5N2LjD7MPPw" role="3cqZAp">
           <node concept="3clFbS" id="5N2LjD7MPPx" role="3clFbx">
             <node concept="3cpWs6" id="5N2LjD7MPPy" role="3cqZAp">
-              <node concept="10Nm6u" id="TXaBS0PxBy" role="3cqZAk" />
+              <node concept="2YIFZM" id="59fw59O50Yp" role="3cqZAk">
+                <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+                <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+              </node>
             </node>
           </node>
           <node concept="3clFbC" id="1apSfP9EIEm" role="3clFbw">
@@ -2974,7 +2979,10 @@
                 </node>
               </node>
               <node concept="3cpWs6" id="TXaBS0P$tf" role="3cqZAp">
-                <node concept="10Nm6u" id="TXaBS0P$Fj" role="3cqZAk" />
+                <node concept="2YIFZM" id="59fw59O525F" role="3cqZAk">
+                  <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+                  <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                </node>
               </node>
             </node>
             <node concept="XOnhg" id="z1IqfFSMTj" role="1zc67B">

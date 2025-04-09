@@ -1,5 +1,7 @@
 # Changelog for LionWeb-MPS
 
+* Added `depends on` field to the ImportLanguageFromJson converter, to import languages dependent on other (LionCore) languages 
+
 ## 0.2.10-2023.1
 
 * Added optional `version` to LionWeb Language root in structure aspect.
