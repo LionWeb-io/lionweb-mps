@@ -6,7 +6,7 @@
 * Ensure JSON is always exported with UTF8 encoding
 * Optionally export concept helpUrl and language element @docs attribute as lionweb annotation
 * Use `mps-gradle-plugin` v2 to build lionweb-mps
-* * Added `depends on` field to the ImportLanguageFromJson converter, to import languages dependent on other (LionCore) languages 
+* Add `depends on` field to the ImportLanguageFromJson converter, to import languages dependent on other (LionCore) languages 
 
 ## 0.2.10-2023.1
 
