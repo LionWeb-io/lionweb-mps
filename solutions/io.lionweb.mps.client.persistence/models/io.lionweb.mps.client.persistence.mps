@@ -1574,6 +1574,19 @@
             <node concept="PeGgZ" id="7W6jYlyUAIV" role="1tU5fm" />
           </node>
         </node>
+        <node concept="3cpWs8" id="6Th$CyzuWS7" role="3cqZAp">
+          <node concept="3cpWsn" id="6Th$CyzuWS8" role="3cpWs9">
+            <property role="TrG5h" value="lionwebVersion" />
+            <node concept="3uibUv" id="6Th$CyzuWS9" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+            </node>
+            <node concept="2ShNRf" id="6Th$CyzuWSa" role="33vP2m">
+              <node concept="HV5vD" id="6Th$CyzuWSb" role="2ShVmc">
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4R9pospDS7J" role="3cqZAp">
           <node concept="3cpWsn" id="4R9pospDS7K" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -1583,6 +1596,9 @@
             <node concept="2ShNRf" id="4R9pospDS7L" role="33vP2m">
               <node concept="1pGfFk" id="4R9pospDS7M" role="2ShVmc">
                 <ref role="37wK5l" to="6peh:4R9posp5Osb" resolve="JsonToM1" />
+                <node concept="37vLTw" id="6Th$CyzuXBG" role="37wK5m">
+                  <ref role="3cqZAo" node="6Th$CyzuWS8" resolve="lionwebVersion" />
+                </node>
                 <node concept="37vLTw" id="4R9pospDS7N" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMamehH8" resolve="repository" />
                 </node>
@@ -1732,6 +1748,19 @@
     <node concept="3clFb_" id="7jdzMamdt5M" role="jymVt">
       <property role="TrG5h" value="save" />
       <node concept="3clFbS" id="7jdzMamdt5P" role="3clF47">
+        <node concept="3cpWs8" id="4fqYzE87wlu" role="3cqZAp">
+          <node concept="3cpWsn" id="4fqYzE87wlv" role="3cpWs9">
+            <property role="TrG5h" value="lionwebVersion" />
+            <node concept="3uibUv" id="4fqYzE87wlw" role="1tU5fm">
+              <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+            </node>
+            <node concept="2ShNRf" id="4fqYzE87xPE" role="33vP2m">
+              <node concept="HV5vD" id="4fqYzE87yLL" role="2ShVmc">
+                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="5lijfVJUKad" role="3cqZAp">
           <node concept="3cpWsn" id="5lijfVJUKae" role="3cpWs9">
             <property role="TrG5h" value="converter" />
@@ -1741,6 +1770,9 @@
             <node concept="2ShNRf" id="5lijfVJUKaf" role="33vP2m">
               <node concept="1pGfFk" id="5lijfVJUKag" role="2ShVmc">
                 <ref role="37wK5l" to="6peh:5lijfVJTSc9" resolve="M1ToJson" />
+                <node concept="37vLTw" id="4fqYzE87zsh" role="37wK5m">
+                  <ref role="3cqZAo" node="4fqYzE87wlv" resolve="lionwebVersion" />
+                </node>
                 <node concept="37vLTw" id="5lijfVJUKah" role="37wK5m">
                   <ref role="3cqZAo" node="7jdzMame$Pf" resolve="repository" />
                 </node>

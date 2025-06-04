@@ -1,0 +1,33 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "utf8-lang",
+      "version": "😊 Hällö 😊"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "id-input",
+      "classifier": {
+        "language": "utf8-lang",
+        "version": "😊 Hällö 😊",
+        "key": "TestUtf8Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "utf8-lang",
+            "version": "😊 Hällö 😊",
+            "key": "TestUtf8Concept-str"
+          },
+          "value": "😊 Hällö 😊"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}
