@@ -50,7 +50,7 @@ mpsBuilds {
 bundledDependencies {
     register("libs") {
         destinationDir = file("solutions/io.lionweb.lionweb.java/libs")
-        dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebRelease-core:$lionwebJavaVersion")
+        dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebJavaVersion")
     }
     register("apacheCli") {
         destinationDir = file("solutions/org.apache.commons.cli/libs")
