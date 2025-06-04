@@ -19,6 +19,7 @@ TEST-*.xml
 junit*.properties
 **/actual/*.json
 build.xml
+build-test.xml
 
 # IntelliJ projects (for debugging)
 *.iml

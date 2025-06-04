@@ -18,9 +18,14 @@
       <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
+      <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
+        <property id="2656571587264859572" name="multiple" index="2RzOhW" />
+        <reference id="2656571587264867894" name="type" index="2RzQvY" />
+      </concept>
       <concept id="2656571587264858738" name="io.lionweb.mps.m3.structure.Property" flags="ng" index="2RzOeU">
         <reference id="2656571587265467165" name="type" index="2Rx9Fl" />
       </concept>
+      <concept id="2656571587264860095" name="io.lionweb.mps.m3.structure.Reference" flags="ng" index="2RzOpR" />
       <concept id="2656571587264858085" name="io.lionweb.mps.m3.structure.Feature" flags="ng" index="2RzOSH">
         <property id="2656571587264858528" name="optional" index="2RzO1C" />
       </concept>
@@ -84,6 +89,12 @@
         <property role="2RzO1C" value="true" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
+      <node concept="2RzOeU" id="6luz6qtIXTm" role="2RzPPN">
+        <property role="2RzON1" value="ConceptDescription-helpUrl" />
+        <property role="TrG5h" value="helpUrl" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
     </node>
     <node concept="2$GZ55" id="6LPkCA$5hYZ" role="2RzR6B">
       <property role="2RzON1" value="Deprecated" />
@@ -100,6 +111,24 @@
         <property role="TrG5h" value="build" />
         <property role="2RzO1C" value="true" />
         <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+    <node concept="2$GZ55" id="6luz6qtK9Ev" role="2RzR6B">
+      <property role="2RzON1" value="KeyedDescription" />
+      <property role="TrG5h" value="KeyedDescription" />
+      <ref role="2$GZ54" to="i2js:19nRYgR_pax" resolve="IKeyed" />
+      <node concept="2RzOeU" id="6luz6qtK9Ew" role="2RzPPN">
+        <property role="2RzON1" value="KeyedDescription-documentation" />
+        <property role="TrG5h" value="documentation" />
+        <property role="2RzO1C" value="true" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+      </node>
+      <node concept="2RzOpR" id="6luz6qtK9EO" role="2RzPPN">
+        <property role="2RzON1" value="KeyedDescription-seeAlso" />
+        <property role="TrG5h" value="seeAlso" />
+        <property role="2RzO1C" value="true" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" to="i2js:19nRYgR_pax" resolve="IKeyed" />
       </node>
     </node>
     <node concept="2RzRkq" id="34Q84zMP1Uw" role="2RzRcN">

@@ -1,9 +1,8 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
 import org.apache.tools.ant.taskdefs.condition.Os
-import java.util.regex.Matcher
-import java.util.regex.Pattern
-
+import com.specificlanguages.mps.MainBuild
+import com.specificlanguages.mps.TestBuild
 
 plugins {
     id("com.specificlanguages.mps")
@@ -12,69 +11,94 @@ plugins {
     id("net.researchgate.release")
 }
 
-val releaseVersion: String = (project.version) as String
+val releaseVersion: String by project
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val mpsVersionSuffix: String by project
 val lionwebRelease: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
+val jbrVersion: String by project
 val mpsExtensionsVersion: String by project
 val apacheCliVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
-    mavenLocal()
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
-    // only needed for tests, but such a config is missing
-    // https://github.com/specificlanguages/mps-gradle-plugin/issues/9
-    // "generation" ("de.itemis.mps:extensions:$mpsExtensionsVersion")
+    mps("com.jetbrains:mps:$mpsVersion")
+    jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
+
+    testImplementation("de.itemis.mps:extensions:$mpsExtensionsVersion")
+}
+
+mpsBuilds {
+    val main = create<MainBuild>("main") {
+        buildSolutionDescriptor = file("solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd")
+        buildProjectName = "io.lionweb.mps"
+        buildFile = file("build.xml")
+    }
+    create<TestBuild>("test") {
+        dependsOn(main)
+        buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.test/io.lionweb.mps.build.test.msd")
+        buildProjectName = "io.lionweb.mps.test"
+        buildFile = file("build-test.xml")
+    }
+}
+
+bundledDependencies {
+    register("libs") {
+        destinationDir = file("solutions/io.lionweb.lionweb.java/libs")
+        dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebJavaVersion")
+    }
+    register("apacheCli") {
+        destinationDir = file("solutions/org.apache.commons.cli/libs")
+        dependency("commons-cli:commons-cli:$apacheCliVersion")
+    }
 }
 
 group = "io.lionweb"
 
-task<Jar>("sourcesJar") {
+tasks.register<Jar>("sourcesJar") {
     archiveClassifier.set("sources")
 }
 
-task<Jar>("javadocJar") {
+tasks.register<Jar>("javadocJar") {
     archiveClassifier.set("javadoc")
 }
 
-task<Exec>("testCmdLineExport-library") {
+tasks.register<Exec>("testCmdLineExport-library") {
     workingDir("./test-project")
     commandLine("./scripts/export-library.sh")
 }
 
-task<Exec>("testCmdLineExport-multiple") {
+tasks.register<Exec>("testCmdLineExport-multiple") {
     workingDir("./test-project")
     commandLine("./scripts/export-multiple.sh")
 }
 
-task<Exec>("testCmdLineExport-foo") {
+tasks.register<Exec>("testCmdLineExport-foo") {
     workingDir("./test-project")
     commandLine("./scripts/export-foo.sh")
 }
 
-task<Exec>("testCmdLineExport-configs") {
+tasks.register<Exec>("testCmdLineExport-configs") {
     workingDir("./test-project")
     commandLine("./scripts/export-configs.sh")
 }
 
-task<Exec>("testCmdLineExport-DependsOnMpsExtension-externalLib") {
+tasks.register<Exec>("testCmdLineExport-DependsOnMpsExtension-externalLib") {
     workingDir("./test-project-externalLib")
     commandLine("./scripts/export-DependsOnMpsExtensions.sh")
 }
 
-task<Exec>("testCmdLineExport-foo-externalLib") {
+tasks.register<Exec>("testCmdLineExport-foo-externalLib") {
     workingDir("./test-project-externalLib")
     commandLine("./scripts/export-foo.sh")
 }
 
-task("testCmdLineExport") {
+tasks.register("testCmdLineExport") {
     dependsOn("testCmdLineExport-library")
     dependsOn("testCmdLineExport-multiple")
     dependsOn("testCmdLineExport-foo")
@@ -108,8 +132,6 @@ publishing {
             artifactId = concatenatedArtifact
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
-            // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
-            versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
 
             pom {
                 name.set(concatenatedArtifact)
@@ -155,18 +177,6 @@ publishing {
                 }
             }
         }
-    }
-}
-
-
-stubs {
-    register("libs") {
-        destinationDir("solutions/io.lionweb.lionweb.java/libs")
-        dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebRelease-core:$lionwebJavaVersion")
-    }
-    register("apacheCli") {
-        destinationDir("solutions/org.apache.commons.cli/libs")
-        dependency("commons-cli:commons-cli:$apacheCliVersion")
     }
 }
 

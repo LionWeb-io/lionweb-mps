@@ -1534,35 +1534,19 @@
           </node>
         </node>
         <node concept="3clFbH" id="5JNiskjzBgv" role="3cqZAp" />
-        <node concept="3clFbF" id="5JNiskjxMaT" role="3cqZAp">
-          <node concept="2OqwBi" id="5JNiskjxQ0J" role="3clFbG">
-            <node concept="37vLTw" id="5JNiskjxMaR" role="2Oq$k0">
-              <ref role="3cqZAo" node="5glO5qKXqLK" resolve="languages" />
-            </node>
-            <node concept="TSZUe" id="5JNiskjxVgj" role="2OqNvi">
-              <node concept="2YIFZM" id="RuBGkv8DO6" role="25WWJ7">
-                <ref role="1Pybhc" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                <ref role="37wK5l" to="xfsv:~UsedLanguage.fromMetaPointer(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="fromMetaPointer" />
-                <node concept="37vLTw" id="RuBGkv8EZh" role="37wK5m">
-                  <ref role="3cqZAo" node="5JNiskjwDHw" resolve="annMetaPointer" />
-                </node>
-              </node>
+        <node concept="3clFbF" id="pwT61fuENQ" role="3cqZAp">
+          <node concept="1rXfSq" id="pwT61fuENO" role="3clFbG">
+            <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
+            <node concept="37vLTw" id="pwT61fuKG3" role="37wK5m">
+              <ref role="3cqZAo" node="5JNiskjwDHw" resolve="annMetaPointer" />
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5JNiskjzdxJ" role="3cqZAp">
-          <node concept="2OqwBi" id="5JNiskjzdxK" role="3clFbG">
-            <node concept="37vLTw" id="5JNiskjzdxL" role="2Oq$k0">
-              <ref role="3cqZAo" node="5glO5qKXqLK" resolve="languages" />
-            </node>
-            <node concept="TSZUe" id="5JNiskjzdxM" role="2OqNvi">
-              <node concept="2YIFZM" id="RuBGkv91Ha" role="25WWJ7">
-                <ref role="1Pybhc" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                <ref role="37wK5l" to="xfsv:~UsedLanguage.fromMetaPointer(io.lionweb.lioncore.java.serialization.data.MetaPointer)" resolve="fromMetaPointer" />
-                <node concept="37vLTw" id="RuBGkv91Hb" role="37wK5m">
-                  <ref role="3cqZAo" node="5JNiskjwt_6" resolve="annPropMetaPointer" />
-                </node>
-              </node>
+        <node concept="3clFbF" id="pwT61fuTTr" role="3cqZAp">
+          <node concept="1rXfSq" id="pwT61fuTTp" role="3clFbG">
+            <ref role="37wK5l" node="5glO5qKXKfo" resolve="registerLanguage" />
+            <node concept="37vLTw" id="pwT61fuZWU" role="37wK5m">
+              <ref role="3cqZAo" node="5JNiskjwt_6" resolve="annPropMetaPointer" />
             </node>
           </node>
         </node>
