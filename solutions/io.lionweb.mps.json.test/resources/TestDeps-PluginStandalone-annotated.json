@@ -16,6 +16,223 @@
   ],
   "nodes": [
     {
+      "id": "3813199577742814548",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "concept implementing this interface can suppress any error that appear on instances of that concept, any descendants of that instances or nodes which hold such instances as attributes"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc"
+    },
+    {
+      "id": "3813199577742815684",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "concept implementing this interface can hold SuppressErrorsAnnotation attribute"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODY"
+    },
+    {
+      "id": "559597157502843497",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "need it for pure technical reasons (in order to make work the Interface constraints while counting the transformation menu ctorInterfaceMemberInIncomplete)"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2LzU1OTU5NzE1NzUwMjg0MzQ5NA"
+    },
+    {
+      "id": "6469607165247384191",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "expression that requires type inference from parent (usually the closest inference context provider, such as cast expression or assignment)"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2LzY0Njk2MDcxNjUyNDczODQwMjI"
+    },
+    {
+      "id": "7267624080287148224",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "makes sense only for root nodes"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2LzExMDc0NjExMzA4MDAvMjc5MTY4MzA3MjA2NDU5MzI1Nw"
+    },
+    {
+      "id": "7954147563045286378",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "defines a naming policy that all language aspects are recommended to use. May include spaces and other symbols in future. A correct way to generate a unique valid class name from it is now genContext.name from (this.getValidClassName()). It\u0027s better to create a generator language feature for that."
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3Lzc5NTQxNDc1NjMwNDUyODMyOTY"
+    },
+    {
+      "id": "852005705577918035",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "Concept that can provide type inference for its descendants (whose type need to be computed in order to have child type computed)"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2Lzg1MjAwNTcwNTU3NzkxNzY0MQ"
+    },
+    {
       "id": "MjhmOWU0OTctM2I0Mi00MjkxLWFlYmEtMGExMDM5MTUzYWIx",
       "classifier": {
         "language": "LionCore-M3",
@@ -214,6 +431,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -321,6 +546,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -930,6 +1163,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -1039,6 +1280,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -1146,6 +1395,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -1271,6 +1528,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": "plugin.html#preferencescomponents"
         }
       ],
       "containments": [],
@@ -1732,6 +1997,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -1839,6 +2112,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -2291,6 +2572,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -4273,7 +4562,9 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "3813199577742815684"
+      ],
       "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
     },
     {
@@ -4321,7 +4612,9 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "3813199577742814548"
+      ],
       "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
     },
     {
@@ -4542,7 +4835,9 @@
           ]
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "7954147563045286378"
+      ],
       "parent": "YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3"
     },
     {
@@ -4729,6 +5024,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "access MPS platform"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -4845,6 +5148,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -5136,6 +5447,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -5243,6 +5562,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -5354,6 +5681,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -5525,6 +5860,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -5632,6 +5975,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -5743,6 +6094,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -5921,6 +6280,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -6960,6 +7327,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "a type"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -7163,6 +7538,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "parameter"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -7934,6 +8317,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -8060,6 +8451,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -8245,6 +8644,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }
@@ -8488,6 +8895,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "static field declaration"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -9059,7 +9474,9 @@
           ]
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "7267624080287148224"
+      ],
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2LzExMDc0NjExMzA4MDA"
     },
     {
@@ -9288,6 +9705,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "reference to classifier"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -9532,6 +9957,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Interface declaration"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -10134,6 +10567,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "embedded block of code"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -10690,6 +11131,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Annotation declaration"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -12440,7 +12889,9 @@
           ]
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "559597157502843497"
+      ],
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2"
     },
     {
@@ -12488,7 +12939,9 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "6469607165247384191"
+      ],
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2"
     },
     {
@@ -12816,7 +13269,9 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "852005705577918035"
+      ],
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2"
     },
     {

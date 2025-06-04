@@ -385,5 +385,38 @@
       <node concept="2iRfu4" id="5N2LjD7OIVR" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="5YadkJSwkb9">
+    <ref role="1XX52x" to="d0tf:z1IqfFSzDB" resolve="ImportLanguageFromJson" />
+    <node concept="3EZMnI" id="5YadkJSwkff" role="2wV5jI">
+      <node concept="3EZMnI" id="5YadkJSwkfy" role="3EZMnx">
+        <node concept="VPM3Z" id="5YadkJSwkf$" role="3F10Kt" />
+        <node concept="PMmxH" id="5YadkJSwkfH" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0A7n" id="5YadkJSwkfM" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="5YadkJSwkfB" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="5YadkJSwkfp" role="3EZMnx" />
+      <node concept="3F0A7n" id="5YadkJSwkfY" role="3EZMnx">
+        <ref role="1NtTu8" to="d0tf:4na9S9Ya_fn" resolve="path" />
+      </node>
+      <node concept="3F0ifn" id="5YadkJSwkmd" role="3EZMnx" />
+      <node concept="3EZMnI" id="5YadkJSwkpp" role="3EZMnx">
+        <node concept="VPM3Z" id="5YadkJSwkpr" role="3F10Kt" />
+        <node concept="3F0ifn" id="5YadkJSwkpt" role="3EZMnx">
+          <property role="3F0ifm" value="depends on" />
+        </node>
+        <node concept="3F2HdR" id="5YadkJSwkpL" role="3EZMnx">
+          <ref role="1NtTu8" to="d0tf:DUXtH0uZbo" resolve="languages" />
+          <node concept="2iRkQZ" id="5YadkJSwkpO" role="2czzBx" />
+          <node concept="VPM3Z" id="5YadkJSwkpP" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="5YadkJSwkpu" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="5YadkJSwkfi" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

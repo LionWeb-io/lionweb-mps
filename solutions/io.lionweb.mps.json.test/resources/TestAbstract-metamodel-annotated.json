@@ -181,6 +181,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc ConcretePartition"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -290,6 +298,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc AbstractConcept"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -399,6 +415,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc ConcreteConcept"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -500,6 +524,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc AbstractAnnotation"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -601,6 +633,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc ConcreteAnnotation"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -681,6 +721,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc AbstractInterface"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -790,6 +838,14 @@
             "key": "ConceptDescription-conceptShortDescription"
           },
           "value": "Short Desc AbstractPartition"
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],

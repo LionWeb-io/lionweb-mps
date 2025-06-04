@@ -16,7 +16,9 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLangBroken/io.lionweb.mps.converter.TestLangBroken.mpl" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLanguageAnnotation/io.lionweb.mps.converter.TestLanguageAnnotation.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestMpsSpecific/io.lionweb.mps.converter.TestMpsSpecific.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestRefs/io.lionweb.mps.converter.TestRefs.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestUtf8/io.lionweb.mps.converter.TestUtf8.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates/io.lionweb.mps.converter.deps.AnnotationAnnotates.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationExtends/io.lionweb.mps.converter.deps.AnnotationExtends.mpl" folder="test.dependencies" />
@@ -40,6 +42,7 @@
       <modulePath path="$PROJECT_DIR$/languages/library/library.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/solutions/bla/bla.msd" folder="xx_broken" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.lionweb.java/io.lionweb.lionweb.java.msd" folder="lang.json" />
+      <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build.test/io.lionweb.mps.build.test.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.connector/io.lionweb.mps.client.connector.msd" folder="client" />
       <modulePath path="$PROJECT_DIR$/solutions/io.lionweb.mps.client.ideaPlugin/io.lionweb.mps.client.ideaPlugin.msd" folder="client" />

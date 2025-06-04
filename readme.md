@@ -64,13 +64,21 @@ Load them into your MPS project as project library.
   * `io.lionweb.mps.lang.test` Tests validators, scopes, and intentions of languages in `m3` virtual folder.
   * `io.lionweb.mps.server.test` Tests MPS bulk model server. Not executed in CI.
 
-* `xx_broken` Broken modules. Don't expect them to build.
+* `xx_broken` Broken modules. Don't expect them to check, build, or their tests to run (successfully or at all).
   * `bla` Proof-of-Concept model source to use MPS as LionWeb client.
   * `io.lionweb.mps.converter.test.disabled` Tests for importing LionWeb Languages as MPS languages.
     This functionality is currently not maintained, but might be re-activated in the future.
   * `io.lionweb.mps.m3.selfdescription` Scratch book.
   * `io.lionweb.mps.converter.TestLangBroken` Intentionally broken language for testing purposes.
-  
+
+Note that neither *check*, *build*, nor *run all tests* will work on the whole project:
+
+* Stuff in `xx_broken` is just that.
+* Stuff in `io.lionweb.mps.converter.test.mpsextensions` depends on [this feature request](https://github.com/specificlanguages/mps-gradle-plugin/issues/9)
+* Stuff in `io.lionweb.mps.converter.test.usebroken` depends on `xx_broken`.
+* Stuff in `io.lionweb.mps.server.test` depends on this MPS being the one listening to the standard MPS port — i.e., no other MPS running.
+
+
 ## Build
 
 It is suggested to use JDK 11. Later JDKs could cause errors.
@@ -93,7 +101,7 @@ We use the latest patch of each supported MPS version, e.g. MPS 2021.1.4.
 We implement all new functionality on a branch, based on the oldest supported "main" branch.
 Example: The new branch `niko/great-new-feature` is based on `mps2021.1`.
 
-Once we merged the feature branch back to "main" (in the example: `mps2021.1`), we merge the changes into the next higher mps version branch. 
+Once we merged the feature branch back to "main" (in the example: `mps2021.1`), we merge the changes into the next higher MPS version branch — _“cross-version migration”_.
 Example:
 
 1. Use MPS 2021.1 to develop on `niko/great-new-feature`, based on `mps2021.1`.
@@ -106,18 +114,26 @@ When merging into a newer MPS version, follow these steps.
 The example assumes we merge `mps2021.1` into `mps2021.2`.
 
 1. Open the _target_ MPS version (2021.2) on the _target_ branch (`mps2021.2`).
-2. Merge the _source_ branch (`mps2021.1`) into your _current_ branch (`mps2021.2`).
-3. Double-check `gradle.properties` still contains the proper entries for:
+2. Checkout a new branch off of the _target_ branch (`mps2021.2`), named `mps2021.2-migration` (or a name that's as least as good).
+3. Merge the _source_ branch (`mps2021.1`) into your _current_ branch (`mps2021.2-migration`).
+4. Double-check `gradle.properties` still contains the proper entries for:
    * `mpsVersionSuffix` should be the _target_ MPS version (`2021.2`)
    * `mpsVersion` full _target_ MPS version (`2021.2.6`)
    * `mpsExtensionsVersion` latest version of [MPS-extensions](https://jetbrains.github.io/MPS-extensions/) for the _target_ MPS version (`2021.2.2631.1360a64`)
-4. Run the Migration Assistant.
-5. Run all tests.
-6. Update the build model.
-7. Repeat steps 3-6 for the test projects, residing in `test-project/` and `test-project-externalLib/`.
-  **Note** Before opening these projects in MPS:
-    * Make sure to rename their build model files (the `.mps` files in the `models/` directory under the one solution under `solutions/` of either project) to not have the `-ignore` suffix.
-    * Make sure to put those suffixes back in place before committing.
+5. Run the Migration Assistant.
+6. Update the (two) build models, triggering the “Reload Modules From Disk” intention when and where needed.
+7. Check the entire project using “Check Project”.
+  Investigate and fix any errors outside the module named “`xx_broken`”, but also see the caveat under “Overview”.
+8. Rebuild the (entire) project, but also see the caveat under “Overview”
+9. Run all tests, in the standard way from within MPS using “Run 'All Tests in Project'”, but also see the caveat under “Overview”.
+  Tests that don't run (successfully or at all) have a comment stating why, e.g. [this one](http://127.0.0.1:63320/node?ref=r%3A43c660c3-adeb-4a6a-893f-396c007e80f0%28io.lionweb.mps.converter.test.languagedependsonfinder%40tests%29%2F1313442573159668044).
+10. Repeat steps 5-9 for the test projects, residing in `test-project/` and `test-project-externalLib/`.
+11. Check that the following Gradle tasks execute without failure from the CLI: `publishToMavenLocal`, `testCmdLineExport`.
+12. Commit the changes, and push the branch (`mps2012.2-migration`).
+13. Check that the [GitHub Action triggered by the push](https://github.com/LionWeb-io/lionweb-mps/actions) runs successfully.
+  (If not: sorry to hear the build feels like that, and good luck with that... Some nasty debugging lies ahead of you...)
+14. *Provided everything works*, merge the `mps2021.2-migration` branch back into `mps2021.2`.
+15. Create a release — see the next section.
 
 
 ## Publishing and Releasing

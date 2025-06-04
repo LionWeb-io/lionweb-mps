@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Java 11 Build and Test
+    name: Build and Test
 
     steps:
     - uses: actions/checkout@v1
@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         distribution: 'adopt'
-        java-version: 11
+        java-version: 17
 
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
@@ -27,7 +27,7 @@ jobs:
         cache-disabled: false
 
     - name: Build and test LionWeb-MPS
-      run:  xvfb-run ./gradlew checkMps publishToMavenLocal
+      run:  xvfb-run ./gradlew testMps publishToMavenLocal
 
     - name: Publish Test Results
       uses: EnricoMi/publish-unit-test-result-action@v2
