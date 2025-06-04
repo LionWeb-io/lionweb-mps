@@ -47,6 +47,37 @@
       "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc"
     },
     {
+      "id": "5583843313508358539",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "Denotes a \u0027lightweight\u0027 interface declaration that doesn\u0027r require \u0027extends\u0027 relation for a language implementing the one."
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzU1ODM4NDMzMTM1MDc4NTIyNDA"
+    },
+    {
       "id": "7954147563045286378",
       "classifier": {
         "language": "io-lionweb-mps-specific",
@@ -7148,6 +7179,7 @@
         }
       ],
       "annotations": [
+        "5583843313508358539",
         "YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3LzU1ODM4NDMzMTM1MDc4NTIyNDA-ConceptDescription"
       ],
       "parent": "YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3"
@@ -7173,6 +7205,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         }

@@ -109,6 +109,37 @@
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2LzU1OTU5NzE1NzUwMjg0MzQ5NA"
     },
     {
+      "id": "6469607165247384191",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "expression that requires type inference from parent (usually the closest inference context provider, such as cast expression or assignment)"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2LzY0Njk2MDcxNjUyNDczODQwMjI"
+    },
+    {
       "id": "7267624080287148224",
       "classifier": {
         "language": "io-lionweb-mps-specific",
@@ -169,6 +200,37 @@
       ],
       "annotations": [],
       "parent": "YzcyZGEyYjktN2NjZS00NDQ3LTgzODktZjQwN2RjMTE1OGI3Lzc5NTQxNDc1NjMwNDUyODMyOTY"
+    },
+    {
+      "id": "852005705577918035",
+      "classifier": {
+        "language": "io-lionweb-mps-specific",
+        "version": "0",
+        "key": "KeyedDescription"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-documentation"
+          },
+          "value": "Concept that can provide type inference for its descendants (whose type need to be computed in order to have child type computed)"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "KeyedDescription-seeAlso"
+          },
+          "targets": []
+        }
+      ],
+      "annotations": [],
+      "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2Lzg1MjAwNTcwNTU3NzkxNzY0MQ"
     },
     {
       "id": "MjhmOWU0OTctM2I0Mi00MjkxLWFlYmEtMGExMDM5MTUzYWIx",
@@ -12877,7 +12939,9 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "6469607165247384191"
+      ],
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2"
     },
     {
@@ -13205,7 +13269,9 @@
           "targets": []
         }
       ],
-      "annotations": [],
+      "annotations": [
+        "852005705577918035"
+      ],
       "parent": "ZjMwNjFhNTMtOTIyNi00Y2M1LWE0NDMtZjk1MmNlYWY1ODE2"
     },
     {
