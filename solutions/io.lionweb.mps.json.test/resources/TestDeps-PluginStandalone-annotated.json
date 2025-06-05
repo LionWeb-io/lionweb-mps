@@ -556,6 +556,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -1171,6 +1179,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -1288,6 +1304,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -1395,6 +1419,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         },
@@ -2122,6 +2154,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -2572,6 +2612,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         },
@@ -5158,6 +5206,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -5572,6 +5628,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -5868,6 +5932,14 @@
             "key": "ConceptDescription-helpUrl"
           },
           "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
+          },
+          "value": null
         }
       ],
       "containments": [],
@@ -5975,6 +6047,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         },
@@ -6280,6 +6360,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         },
@@ -8315,6 +8403,14 @@
             "language": "io-lionweb-mps-specific",
             "version": "0",
             "key": "ConceptDescription-conceptShortDescription"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "language": "io-lionweb-mps-specific",
+            "version": "0",
+            "key": "ConceptDescription-helpUrl"
           },
           "value": null
         },
