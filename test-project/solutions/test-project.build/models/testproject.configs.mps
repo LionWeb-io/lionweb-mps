@@ -56,7 +56,7 @@
       <property role="2V$B1T" value="537f9cb0-0f25-3c76-8b86-308f45010100" />
       <property role="2V$B1Q" value="library" />
     </node>
-    <node concept="2V$Bhx" id="5riTXxKpDux" role="qeD2G">
+    <node concept="2V$Bhx" id="6$Vbq$b8JTq" role="qeD2G">
       <property role="2V$B1T" value="63c09674-565f-4cbb-add6-f15c4e540c84" />
       <property role="2V$B1Q" value="io.lionweb.mps.converter.TestUtf8" />
     </node>

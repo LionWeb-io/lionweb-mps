@@ -1,17 +1,18 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
+import com.vanniktech.maven.publish.SonatypeHost
 import org.apache.tools.ant.taskdefs.condition.Os
 import com.specificlanguages.mps.MainBuild
 import com.specificlanguages.mps.TestBuild
 
 plugins {
     id("com.specificlanguages.mps")
-    `maven-publish`
     id("signing")
     id("net.researchgate.release")
+    id("com.vanniktech.maven.publish")
 }
 
-val releaseVersion: String by project
+val releaseVersion = project.findProperty("version") as String
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val mpsVersionSuffix: String by project
 val lionwebRelease: String by project
@@ -107,77 +108,59 @@ tasks.register("testCmdLineExport") {
     dependsOn("testCmdLineExport-foo-externalLib")
 }
 
+val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
 
 publishing {
-    val ossrhUsername = (project.findProperty("ossrhUsername") ?: System.getenv("OSSRH_USERNAME")) as String?
-    val ossrhPassword = (project.findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")) as String?
-
-    repositories {
-        maven {
-            val releaseRepo = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
-            val snapshotRepo = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-            url = java.net.URI(if (isReleaseVersion) releaseRepo else snapshotRepo)
-            credentials {
-                username = ossrhUsername
-                password = ossrhPassword
-            }
-        }
-    }
-
     publications {
         register<MavenPublication>("mpsPlugin") {
             from(components["mps"])
             groupId = "io.lionweb.lionweb-mps"
-            val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
             artifactId = concatenatedArtifact
             artifact(tasks.getByName("sourcesJar"))
             artifact(tasks.getByName("javadocJar"))
+        }
+    }
+}
 
-            pom {
-                name.set(concatenatedArtifact)
-                description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix, LionWeb release $lionwebRelease")
-                version = releaseVersion
-                packaging = "zip"
-                url.set("https://github.com/LionWeb-io/lionweb-mps")
+mavenPublishing {
+    coordinates(
+        groupId = "io.lionweb.lionweb-mps",
+        artifactId = concatenatedArtifact,
+        version = releaseVersion,
+    )
 
-                scm {
-                    connection.set("scm:git:https://github.com/LionWeb-io/lionweb-mps.git")
-                    developerConnection.set("scm:git:git@github.com:LionWeb-io/lionweb-mps.git")
-                    url.set("https://github.com/LionWeb-io/lionweb-mps.git")
-                }
+    pom {
+        name.set(concatenatedArtifact)
+        description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix, LionWeb release $lionwebRelease")
+        version = releaseVersion
+        packaging = "zip"
+        url.set("https://github.com/LionWeb-io/lionweb-mps")
 
-                licenses {
-                    license {
-                        name.set("Apache Licenve V2.0")
-                        url.set("https://www.apache.org/licenses/LICENSE-2.0")
-                        distribution.set("repo")
-                    }
-                }
+        scm {
+            connection.set("scm:git:https://github.com/LionWeb-io/lionweb-mps.git")
+            developerConnection.set("scm:git:git@github.com:LionWeb-io/lionweb-mps.git")
+            url.set("https://github.com/LionWeb-io/lionweb-mps.git")
+        }
 
-                // The developers entry is strictly required by Maven Central
-                developers {
-                    developer {
-                        id.set("enikao")
-                        name.set("Niko Stotz")
-                        email.set("github-public@nikostotz.de")
-                    }
-                }
+        licenses {
+            license {
+                name.set("Apache License V2.0")
+                url.set("https://www.apache.org/licenses/LICENSE-2.0")
+                distribution.set("repo")
+            }
+        }
 
+        // The developers entry is strictly required by Maven Central
+        developers {
+            developer {
+                id.set("enikao")
+                name.set("Niko Stotz")
+                email.set("github-public@nikostotz.de")
             }
         }
     }
-    repositories {
-        if (project.hasProperty("gpr.user")) {
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/specificlanguages/mps-json")
-                credentials {
-                    username = project.findProperty("gpr.user") as String?
-                    password = project.findProperty("gpr.key") as String?
-                }
-            }
-        }
-    }
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, true)
+    signAllPublications()
 }
 
 configurations.getByName("libs") {
@@ -215,7 +198,7 @@ signing {
 
 release {
     tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
-    buildTasks.set(listOf("publish"))
+    buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
     git {
         requireBranch.set("")
         pushToRemote.set("origin")

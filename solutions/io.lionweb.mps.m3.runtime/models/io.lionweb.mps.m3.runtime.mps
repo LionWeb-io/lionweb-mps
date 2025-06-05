@@ -4,7 +4,7 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
@@ -8502,10 +8502,6 @@
         </node>
       </node>
     </node>
-    <node concept="3Tm1VV" id="5JNiskhxHcY" role="1B3o_S" />
-    <node concept="3uibUv" id="5JNiski3mfI" role="3HQHJm">
-      <ref role="3uigEE" node="5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
-    </node>
     <node concept="2tJIrI" id="6LPkCA$5By3" role="jymVt" />
     <node concept="3clFb_" id="6LPkCA$5BOW" role="jymVt">
       <property role="TrG5h" value="listMpsM2Annotations" />
@@ -8523,6 +8519,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3Tm1VV" id="5JNiskhxHcY" role="1B3o_S" />
+    <node concept="3uibUv" id="5JNiski3mfI" role="3HQHJm">
+      <ref role="3uigEE" node="5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
     </node>
   </node>
   <node concept="312cEu" id="5JNiskhYWOE">
