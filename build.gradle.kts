@@ -173,7 +173,7 @@ configurations.getByName("libs") {
 release {
     tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
-    versionPropertyFile = "./gradle.properties"
+    version = releaseVersion
     git {
         requireBranch.set("")
         pushToRemote.set("origin")
