@@ -103,6 +103,9 @@
     <node concept="1QGGSu" id="5glO5qL6ePs" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/json2language.png" />
     </node>
+    <node concept="PrWs8" id="5YadkJSwhWu" role="PzmwI">
+      <ref role="PrY4T" node="7qGUpN3Cils" resolve="ILanguageReferenceContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7qGUpN3ChNP">
     <property role="EcuMT" value="8551466651976015093" />

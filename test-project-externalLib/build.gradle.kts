@@ -1,39 +1,41 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
+import com.specificlanguages.mps.MainBuild
+
 plugins {
     id("com.specificlanguages.mps")
+    id("com.specificlanguages.jbr-toolchain")
     `maven-publish`
 }
 
-val mpsVersionSuffix: String by project
-val lionwebRelease: String by project
 val mpsVersion: String by project
-val lionwebVersion: String by project
+val jbrVersion: String by project
 val mpsExtensionsVersion: String by project
 
 repositories {
-    mavenLocal()
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
 }
 
 dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
-    "generation"("io.lionweb.lionweb-mps:lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease:$lionwebVersion")
-    "generation"("de.itemis.mps:extensions:$mpsExtensionsVersion")
+    jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
+    api(project(":"))
+    api("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
-tasks.generateBuildscript {
-    args("--macro=lionweb-mps.home::${projectDir.resolve("build/dependencies/io.lionweb.mps")}")
+mpsBuilds {
+    create<MainBuild>("main") {
+        buildSolutionDescriptor = file("solutions/testProjectExternalLib.build/testProjectExternalLib.build.msd")
+        buildProjectName = "test-project-ExternalLib"
+        buildFile = file("build.xml")
+    }
+
+    mpsDefaults.pathVariables.put("mps-extensions.home", projectDir.resolve("build/dependencies/de.itemis.mps.extensions"))
 }
 
-tasks.assembleMps {
-    antProperties.putAll(antProperties.get())
-    antProperties.put("mps-extensions.home", "${projectDir.resolve("build/dependencies/de.itemis.mps.extensions")}")
-}
-
-task<JavaExec>("runCommandLineTool") {
-    dependsOn("resolveGenerationDependencies")
+tasks.register<JavaExec>("runCommandLineTool") {
+    dependsOn(tasks.resolveMpsLibraries)
 
     val mpsHome = configurations
             .getByName("mps")
@@ -51,6 +53,7 @@ task<JavaExec>("runCommandLineTool") {
             fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
     )
     mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
+    javaLauncher = jbrToolchain.javaLauncher
 
     val propArgs: String? = project.findProperty("args") as String?
     project.logger.info("propArgs: $propArgs")
