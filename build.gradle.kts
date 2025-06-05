@@ -173,7 +173,6 @@ configurations.getByName("libs") {
 release {
     tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
-    version = releaseVersion
     git {
         requireBranch.set("")
         pushToRemote.set("origin")
