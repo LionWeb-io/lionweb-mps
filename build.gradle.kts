@@ -12,7 +12,7 @@ plugins {
     id("com.vanniktech.maven.publish")
 }
 
-val releaseVersion: String by project
+val releaseVersion = project.findProperty("version") as String
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val mpsVersionSuffix: String by project
 val lionwebRelease: String by project
@@ -173,7 +173,6 @@ configurations.getByName("libs") {
 release {
     tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
-    versionProperties.set(listOf("releaseVersion"))
     git {
         requireBranch.set("")
         pushToRemote.set("origin")
