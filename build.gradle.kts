@@ -185,7 +185,7 @@ fun restoreNewlines(encodedString: String?): String? {
 
 release {
     tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
-    buildTasks.set(listOf("publish"))
+    buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
     versionPropertyFile = "./gradle.properties"
     git {
         requireBranch.set("")
