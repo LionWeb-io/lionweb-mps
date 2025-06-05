@@ -170,6 +170,32 @@ configurations.getByName("libs") {
     }
 }
 
+tasks.withType(Sign::class) {
+    onlyIf("isReleaseVersion is set") { isReleaseVersion }
+}
+
+/**
+ * Assures ascii-armored gpg key contains newlines.
+ */
+fun restoreNewlines(encodedString: String?): String? {
+    if (encodedString != null && !encodedString.contains('\n')) {
+        return encodedString.replace("\\n", "\n")
+    }
+    return encodedString
+}
+
+signing {
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        useGpgCmd()
+    }
+    val signingKey: String? = restoreNewlines(System.getenv("SIGNING_KEY"))
+    val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
+    if (signingKey != null && signingPassword != null) {
+        useInMemoryPgpKeys(signingKey, signingPassword)
+    }
+    sign(publishing.publications["mpsPlugin"])
+}
+
 release {
     tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
