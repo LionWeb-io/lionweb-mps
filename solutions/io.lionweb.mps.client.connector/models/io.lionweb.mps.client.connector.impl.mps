@@ -3,11 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
   </languages>
   <imports>
     <import index="2tb6" ref="r:300426b0-cf40-47a1-9706-260afc20aaf9(io.lionweb.mps.client.connector.api)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lioncore.java/)" />
+    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
     <import index="781x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net.http(JDK/)" />
     <import index="28m1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time(JDK/)" />
@@ -41,7 +41,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
@@ -144,7 +144,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -167,7 +167,7 @@
         <child id="8276990574895933172" name="throwable" index="1zc67B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="5351203823916832286" name="jetbrains.mps.baseLanguage.structure.ResourceVariable" flags="ng" index="3J1hQo" />
@@ -192,13 +192,14 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -209,7 +210,6 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
@@ -340,7 +340,7 @@
                         <ref role="37wK5l" node="7jdzMameWpJ" resolve="PartitionDescriptor" />
                         <node concept="2OqwBi" id="7jdzMamg04E" role="37wK5m">
                           <node concept="37vLTw" id="7jdzMamfZK7" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7jdzMamfYdu" resolve="it" />
+                            <ref role="3cqZAo" node="6r4IH3Rnme$" resolve="it" />
                           </node>
                           <node concept="liA8E" id="7jdzMamg0E8" role="2OqNvi">
                             <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getID()" resolve="getID" />
@@ -350,9 +350,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="7jdzMamfYdu" role="1bW2Oz">
+                <node concept="gl6BB" id="6r4IH3Rnme$" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="7jdzMamfYdv" role="1tU5fm" />
+                  <node concept="2jxLKc" id="6r4IH3Rnme_" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -957,7 +957,7 @@
                         <ref role="37wK5l" node="7jdzMameWpJ" resolve="PartitionDescriptor" />
                         <node concept="2OqwBi" id="1f4Qr8WS$Qr" role="37wK5m">
                           <node concept="37vLTw" id="1f4Qr8WS$Qs" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1f4Qr8WS$Qu" resolve="it" />
+                            <ref role="3cqZAo" node="6r4IH3RnmeA" resolve="it" />
                           </node>
                           <node concept="liA8E" id="1f4Qr8WS$Qt" role="2OqNvi">
                             <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getID()" resolve="getID" />
@@ -967,9 +967,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="1f4Qr8WS$Qu" role="1bW2Oz">
+                <node concept="gl6BB" id="6r4IH3RnmeA" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="1f4Qr8WS$Qv" role="1tU5fm" />
+                  <node concept="2jxLKc" id="6r4IH3RnmeB" role="1tU5fm" />
                 </node>
               </node>
             </node>

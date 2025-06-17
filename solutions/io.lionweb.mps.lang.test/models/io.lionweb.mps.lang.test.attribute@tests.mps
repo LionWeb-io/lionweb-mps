@@ -2,7 +2,7 @@
 <model ref="r:727e015e-9b81-44c1-99ca-93b1d7b7ad74(io.lionweb.mps.lang.test.attribute@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
@@ -30,7 +30,7 @@
         <reference id="5449224527592117654" name="checkingReference" index="1BTHP0" />
         <child id="3655334166513314307" name="nodes" index="3KTr4d" />
       </concept>
-      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
+      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ngI" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
       <concept id="4531408400486526326" name="jetbrains.mps.lang.test.structure.WarningStatementReference" flags="ng" index="2PQEqo" />
@@ -39,6 +39,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
@@ -97,7 +98,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
@@ -120,6 +121,7 @@
   </node>
   <node concept="1lH9Xt" id="18UigYP5W_N">
     <property role="TrG5h" value="ValidKey" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="18UigYP5W_O" role="1SKRRt">
       <node concept="1TIwiD" id="18UigYP5WA0" role="1qenE9">
         <property role="EcuMT" value="1313442573143492992" />
@@ -271,6 +273,7 @@
   </node>
   <node concept="1lH9Xt" id="18UigYPcNfL">
     <property role="TrG5h" value="SmartReference_use" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="18UigYPcNfM" role="1SKRRt">
       <node concept="15s5l7" id="18UigYPcXnp" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  SmartRef (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
@@ -414,6 +417,7 @@
   </node>
   <node concept="1lH9Xt" id="18UigYPdQ2e">
     <property role="TrG5h" value="SmartReference_features" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="18UigYPdRb7" role="1SKRRt">
       <node concept="15s5l7" id="18UigYPdRb8" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  SmartRef (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
@@ -653,6 +657,7 @@
   </node>
   <node concept="1lH9Xt" id="18UigYPeftD">
     <property role="TrG5h" value="SmartReference_Scope" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="18UigYPeftF" role="1SKRRt">
       <node concept="15s5l7" id="18UigYPegk7" role="lGtFl">
         <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  SmartRef (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
@@ -945,6 +950,7 @@
   </node>
   <node concept="1lH9Xt" id="6Pr6izICzdo">
     <property role="TrG5h" value="Annotations" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="6Pr6izIC$rp" role="1SKRRt">
       <node concept="1TIwiD" id="6Pr6izIC$rv" role="1qenE9">
         <property role="EcuMT" value="7879919636607813343" />

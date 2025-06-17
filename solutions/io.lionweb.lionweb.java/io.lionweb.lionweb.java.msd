@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="io.lionweb.lionweb.java" uuid="9d6d7230-3178-4b3f-a837-7c0180c86207" moduleVersion="0" compileInMPS="true">
+<solution name="io.lionweb.lionweb.java" uuid="9d6d7230-3178-4b3f-a837-7c0180c86207" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="gson.jar" />
@@ -7,15 +7,12 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
+      <library location="${module}/libs/gson.jar" />
+      <library location="${module}/libs/lionweb-java-2024.1-core.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/libs/gson.jar" />
-    <stubModelEntry path="${module}/libs/lionweb-java-2024.1-core.jar" />
-  </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>

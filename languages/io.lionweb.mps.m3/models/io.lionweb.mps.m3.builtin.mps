@@ -28,7 +28,7 @@
       <concept id="2656571587264872967" name="io.lionweb.mps.m3.structure.PrimitiveType" flags="ng" index="2RzSJf" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -64,7 +64,7 @@
       <node concept="2RzOeU" id="6jTTMHCZNV2" role="2RzPPN">
         <property role="2RzON1" value="LionCore-builtins-INamed-name" />
         <property role="TrG5h" value="name" />
-        <ref role="2Rx9Fl" node="2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" node="2ju2syjnJjX" />
       </node>
     </node>
   </node>

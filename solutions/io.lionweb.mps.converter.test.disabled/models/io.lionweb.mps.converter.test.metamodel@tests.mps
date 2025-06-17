@@ -3,9 +3,9 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3" version="0" />
   </languages>
   <imports>
@@ -21,6 +21,7 @@
       </concept>
       <concept id="1225469856668" name="jetbrains.mps.lang.test.structure.ModelExpression" flags="nn" index="1jGwE1" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -78,7 +79,7 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -118,7 +119,7 @@
       <concept id="1172073500303" name="jetbrains.mps.baseLanguage.unitTest.structure.Message" flags="ng" index="3_1$Yv">
         <child id="1172073511101" name="message" index="3_1BAH" />
       </concept>
-      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ng" index="3_9gw8">
+      <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ngI" index="3_9gw8">
         <child id="1172075534298" name="message" index="3_9lra" />
       </concept>
     </language>
@@ -126,7 +127,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -143,6 +144,7 @@
   </node>
   <node concept="1lH9Xt" id="59Df55kYarR">
     <property role="TrG5h" value="RenameMetamodel" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="59Df55kYarS" role="1SL9yI">
       <property role="TrG5h" value="same" />
       <node concept="3cqZAl" id="59Df55kYarT" role="3clF45" />
@@ -293,12 +295,12 @@
           <node concept="2RzOeU" id="59Df55kYasp" role="2RzPPN">
             <property role="2RzON1" value="100" />
             <property role="TrG5h" value="C1p" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
           </node>
           <node concept="2RzOpR" id="59Df55kYasq" role="2RzPPN">
             <property role="2RzON1" value="102" />
             <property role="TrG5h" value="C1r" />
-            <ref role="2RzQvY" node="59Df55kYaso" resolve="C1" />
+            <ref role="2RzQvY" node="59Df55kYaso" />
           </node>
         </node>
         <node concept="3xLA65" id="59Df55kYasu" role="lGtFl">
@@ -317,12 +319,12 @@
           <node concept="2RzOeU" id="59Df55kYasy" role="2RzPPN">
             <property role="2RzON1" value="100" />
             <property role="TrG5h" value="C1p" />
-            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
           </node>
           <node concept="2RzOpR" id="59Df55kYasz" role="2RzPPN">
             <property role="2RzON1" value="102" />
             <property role="TrG5h" value="C1r" />
-            <ref role="2RzQvY" node="59Df55kYasx" resolve="C1" />
+            <ref role="2RzQvY" node="59Df55kYasx" />
           </node>
         </node>
         <node concept="3xLA65" id="59Df55kYas$" role="lGtFl">

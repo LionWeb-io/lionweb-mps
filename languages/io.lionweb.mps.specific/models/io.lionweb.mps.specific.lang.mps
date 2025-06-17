@@ -45,7 +45,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -57,82 +57,82 @@
     <node concept="2$GZ55" id="5JNiskir1qK" role="2RzR6B">
       <property role="2RzON1" value="VirtualPackage" />
       <property role="TrG5h" value="VirtualPackage" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
       <node concept="2RzQOr" id="5JNiskir1qM" role="2$GZ5v">
-        <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+        <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" />
       </node>
     </node>
     <node concept="2$GZ55" id="5JNiskir1qS" role="2RzR6B">
       <property role="2RzON1" value="ShortDescription" />
       <property role="TrG5h" value="ShortDescription" />
-      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" resolve="Node" />
+      <ref role="2$GZ54" to="2pzz:39$JcGFBN1$" />
       <node concept="2RzOeU" id="5JNiskir1qZ" role="2RzPPN">
         <property role="2RzON1" value="ShortDescription-description" />
         <property role="TrG5h" value="description" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
     </node>
     <node concept="2$GZ55" id="34Q84zMNsGk" role="2RzR6B">
       <property role="2RzON1" value="ConceptDescription" />
       <property role="TrG5h" value="ConceptDescription" />
-      <ref role="2$GZ54" to="i2js:5sACIIs$PgR" resolve="Classifier" />
+      <ref role="2$GZ54" to="i2js:5sACIIs$PgR" />
       <node concept="2RzOeU" id="34Q84zMPiDq" role="2RzPPN">
         <property role="2RzON1" value="ConceptDescription-conceptAlias" />
         <property role="TrG5h" value="conceptAlias" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
       <node concept="2RzOeU" id="34Q84zMPiD_" role="2RzPPN">
         <property role="2RzON1" value="ConceptDescription-conceptShortDescription" />
         <property role="TrG5h" value="conceptShortDescription" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
       <node concept="2RzOeU" id="6luz6qtIXTm" role="2RzPPN">
         <property role="2RzON1" value="ConceptDescription-helpUrl" />
         <property role="TrG5h" value="helpUrl" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
     </node>
     <node concept="2$GZ55" id="6LPkCA$5hYZ" role="2RzR6B">
       <property role="2RzON1" value="Deprecated" />
       <property role="TrG5h" value="Deprecated" />
-      <ref role="2$GZ54" to="i2js:19nRYgR_pax" resolve="IKeyed" />
+      <ref role="2$GZ54" to="i2js:19nRYgR_pax" />
       <node concept="2RzOeU" id="6LPkCA$5hZ9" role="2RzPPN">
         <property role="2RzON1" value="Deprecated-comment" />
         <property role="TrG5h" value="comment" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
       <node concept="2RzOeU" id="6LPkCA$5hZe" role="2RzPPN">
         <property role="2RzON1" value="Deprecated-build" />
         <property role="TrG5h" value="build" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
     </node>
     <node concept="2$GZ55" id="6luz6qtK9Ev" role="2RzR6B">
       <property role="2RzON1" value="KeyedDescription" />
       <property role="TrG5h" value="KeyedDescription" />
-      <ref role="2$GZ54" to="i2js:19nRYgR_pax" resolve="IKeyed" />
+      <ref role="2$GZ54" to="i2js:19nRYgR_pax" />
       <node concept="2RzOeU" id="6luz6qtK9Ew" role="2RzPPN">
         <property role="2RzON1" value="KeyedDescription-documentation" />
         <property role="TrG5h" value="documentation" />
         <property role="2RzO1C" value="true" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
       </node>
       <node concept="2RzOpR" id="6luz6qtK9EO" role="2RzPPN">
         <property role="2RzON1" value="KeyedDescription-seeAlso" />
         <property role="TrG5h" value="seeAlso" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" to="i2js:19nRYgR_pax" resolve="IKeyed" />
+        <ref role="2RzQvY" to="i2js:19nRYgR_pax" />
       </node>
     </node>
     <node concept="2RzRkq" id="34Q84zMP1Uw" role="2RzRcN">
-      <ref role="2RzRkr" to="i2js:5sACIIs$PgG" resolve="LionCore_M3" />
+      <ref role="2RzRkr" to="i2js:5sACIIs$PgG" />
     </node>
   </node>
 </model>

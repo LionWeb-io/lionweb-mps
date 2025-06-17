@@ -21,7 +21,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -51,7 +51,7 @@
       <property role="3vzGvf" value="456" />
     </node>
     <node concept="3vzGv1" id="5TNjoy2_wV_" role="3vzGvw">
-      <ref role="3vzGv2" node="5TNjoy2_wVr" resolve="First named" />
+      <ref role="3vzGv2" node="5TNjoy2_wVr" />
     </node>
   </node>
   <node concept="3vzBe$" id="5TNjoy2_wVB">
@@ -76,10 +76,10 @@
     <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.json.test/resources/TestRefs-merge.json" />
     <property role="pjpzt" value="39$JcGFainl/descendants" />
     <node concept="pgsVv" id="5TNjoy2_wXd" role="pgtdD">
-      <ref role="pgsW4" node="5TNjoy2_wV8" resolve="ExistingGood" />
+      <ref role="pgsW4" node="5TNjoy2_wV8" />
     </node>
     <node concept="pgsVv" id="5TNjoy2_wXf" role="pgtdD">
-      <ref role="pgsW4" node="5TNjoy2_wVB" resolve="ExistingBroken" />
+      <ref role="pgsW4" node="5TNjoy2_wVB" />
     </node>
     <node concept="pgsVv" id="5TNjoy2_wXi" role="pgtdD">
       <ref role="pgsW4" node="5TNjoy2_wVS" resolve="ImportedGood" />
