@@ -34,6 +34,7 @@
     <import index="tzx8" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.model.impl(io.lionweb.lionweb.java/)" />
     <import index="cz4z" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.self(io.lionweb.lionweb.java/)" />
     <import index="evhz" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java(io.lionweb.lionweb.java/)" />
+    <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -5428,6 +5429,9 @@
                 <node concept="37vLTw" id="4R9posqZekX" role="37wK5m">
                   <ref role="3cqZAo" node="1xqd6ptucQA" resolve="guaranteedMetaPointerLookup" />
                 </node>
+                <node concept="37vLTw" id="6r4IH3SEt_K" role="37wK5m">
+                  <ref role="3cqZAo" node="6r4IH3SErww" resolve="languageRegistry" />
+                </node>
               </node>
             </node>
           </node>
@@ -5514,6 +5518,13 @@
       <node concept="3Tmbuc" id="4WflrVaq46l" role="1B3o_S" />
       <node concept="3uibUv" id="5M3rB6_S5ni" role="1tU5fm">
         <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6r4IH3SErww" role="jymVt">
+      <property role="TrG5h" value="languageRegistry" />
+      <node concept="3Tmbuc" id="6r4IH3SErwu" role="1B3o_S" />
+      <node concept="3uibUv" id="6r4IH3SErwv" role="1tU5fm">
+        <ref role="3uigEE" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
       </node>
     </node>
     <node concept="2tJIrI" id="4WflrVaq3XU" role="jymVt" />
@@ -5603,6 +5614,20 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6r4IH3SErwC" role="3cqZAp">
+          <node concept="37vLTI" id="6r4IH3SErwD" role="3clFbG">
+            <node concept="2YIFZM" id="6r4IH3SErwH" role="37vLTx">
+              <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance(org.jetbrains.mps.openapi.module.SRepository)" resolve="getInstance" />
+              <ref role="1Pybhc" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+              <node concept="37vLTw" id="6r4IH3SErwI" role="37wK5m">
+                <ref role="3cqZAo" node="4R9posp5ODe" resolve="repository" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6r4IH3SEsxy" role="37vLTJ">
+              <ref role="3cqZAo" node="6r4IH3SErww" resolve="languageRegistry" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1xqd6ptu0RN" role="3cqZAp">
           <node concept="3cpWsn" id="1xqd6ptu0RO" role="3cpWs9">
             <property role="TrG5h" value="attributeFinder" />
@@ -5620,6 +5645,9 @@
                 </node>
                 <node concept="37vLTw" id="4WflrVaUz81" role="37wK5m">
                   <ref role="3cqZAo" node="4WflrVaUuBM" resolve="metaAdapterByDeclarationHelper" />
+                </node>
+                <node concept="37vLTw" id="6r4IH3SdPQl" role="37wK5m">
+                  <ref role="3cqZAo" node="6r4IH3SErww" resolve="languageRegistry" />
                 </node>
               </node>
             </node>
@@ -5769,6 +5797,9 @@
                 </node>
                 <node concept="37vLTw" id="1xqd6ptu0Sk" role="37wK5m">
                   <ref role="3cqZAo" node="4WflrVaq3Zc" resolve="constants" />
+                </node>
+                <node concept="37vLTw" id="6r4IH3SHWYu" role="37wK5m">
+                  <ref role="3cqZAo" node="6r4IH3SErww" resolve="languageRegistry" />
                 </node>
               </node>
             </node>
@@ -5968,6 +5999,21 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6r4IH3SdQHE" role="3cqZAp">
+          <node concept="3cpWsn" id="6r4IH3SdQHF" role="3cpWs9">
+            <property role="TrG5h" value="languageRegistry" />
+            <node concept="3uibUv" id="6r4IH3SdQHG" role="1tU5fm">
+              <ref role="3uigEE" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+            </node>
+            <node concept="2YIFZM" id="6r4IH3SdQHH" role="33vP2m">
+              <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance(org.jetbrains.mps.openapi.module.SRepository)" resolve="getInstance" />
+              <ref role="1Pybhc" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+              <node concept="37vLTw" id="6r4IH3SdQHI" role="37wK5m">
+                <ref role="3cqZAo" node="24j7TNH1Aeq" resolve="repository" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5TNjoy1Afbx" role="3cqZAp">
           <node concept="37vLTI" id="5TNjoy1Afbz" role="3clFbG">
             <node concept="2ShNRf" id="5M3rB6BCfHi" role="37vLTx">
@@ -5981,6 +6027,9 @@
                 </node>
                 <node concept="37vLTw" id="4WflrVaUBW5" role="37wK5m">
                   <ref role="3cqZAo" node="5TNjoy1AT4c" resolve="metaAdapterByDeclarationHelper" />
+                </node>
+                <node concept="37vLTw" id="6r4IH3SdR3F" role="37wK5m">
+                  <ref role="3cqZAo" node="6r4IH3SdQHF" resolve="languageRegistry" />
                 </node>
               </node>
             </node>

@@ -31,6 +31,7 @@
     <import index="teza" ref="r:84248d29-a48a-459b-8ba9-05c71de1fb63(io.lionweb.mps.converter.m2.idmapper)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="evhz" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java(io.lionweb.lionweb.java/)" />
+    <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -8009,6 +8010,14 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="6r4IH3SzC0y" role="jymVt">
+      <property role="TrG5h" value="languageRegistry" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="6r4IH3SzC0z" role="1B3o_S" />
+      <node concept="3uibUv" id="6r4IH3SzC0_" role="1tU5fm">
+        <ref role="3uigEE" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4R9posqqsnK" role="jymVt" />
     <node concept="3clFbW" id="4R9posqqsoz" role="jymVt">
       <node concept="3cqZAl" id="4R9posqqso$" role="3clF45" />
@@ -8027,6 +8036,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6r4IH3SzC0A" role="3cqZAp">
+          <node concept="37vLTI" id="6r4IH3SzC0C" role="3clFbG">
+            <node concept="2OqwBi" id="6r4IH3SzEWu" role="37vLTJ">
+              <node concept="Xjq3P" id="6r4IH3SzF9r" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6r4IH3SzEWx" role="2OqNvi">
+                <ref role="2Oxat5" node="6r4IH3SzC0y" resolve="languageRegistry" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6r4IH3SzC0G" role="37vLTx">
+              <ref role="3cqZAo" node="6r4IH3SzAYB" resolve="languageRegistry" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="2fx6VTRFh4P" role="3clF46">
         <property role="TrG5h" value="metaPointerLookup" />
@@ -8034,6 +8056,15 @@
           <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
         </node>
         <node concept="2AHcQZ" id="1f4Qr8VyLcp" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6r4IH3SzAYB" role="3clF46">
+        <property role="TrG5h" value="languageRegistry" />
+        <node concept="3uibUv" id="6r4IH3SzBcb" role="1tU5fm">
+          <ref role="3uigEE" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+        </node>
+        <node concept="2AHcQZ" id="6r4IH3SzBMq" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -8446,13 +8477,17 @@
                   </node>
                 </node>
               </node>
-              <node concept="3fqX7Q" id="4R9posqqswg" role="3clFbw">
-                <node concept="2OqwBi" id="4R9posqqswh" role="3fr31v">
-                  <node concept="37vLTw" id="4R9posqqswi" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4R9posqs$dv" resolve="result" />
+              <node concept="3clFbC" id="6r4IH3S$0Hr" role="3clFbw">
+                <node concept="10Nm6u" id="6r4IH3S$2nD" role="3uHU7w" />
+                <node concept="2OqwBi" id="6r4IH3SzONh" role="3uHU7B">
+                  <node concept="37vLTw" id="6r4IH3SzNbo" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6r4IH3SzC0y" resolve="languageRegistry" />
                   </node>
-                  <node concept="liA8E" id="4R9posqqswj" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SLanguage.isValid()" resolve="isValid" />
+                  <node concept="liA8E" id="6r4IH3SzTZr" role="2OqNvi">
+                    <ref role="37wK5l" to="vndm:~LanguageRegistry.getLanguage(org.jetbrains.mps.openapi.language.SLanguage)" resolve="getLanguage" />
+                    <node concept="37vLTw" id="6r4IH3SzWNF" role="37wK5m">
+                      <ref role="3cqZAo" node="4R9posqs$dv" resolve="result" />
+                    </node>
                   </node>
                 </node>
               </node>

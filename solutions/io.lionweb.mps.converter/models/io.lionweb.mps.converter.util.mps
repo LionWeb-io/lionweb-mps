@@ -32,6 +32,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="j8aq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.module(MPS.Core/)" />
     <import index="lktc" ref="5a9ccb4c-d683-45a8-bc1d-ecfdfb8366f0/java:gnu.trove(gnu.trove/)" />
+    <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
     <import index="dydc" ref="r:303e2235-6078-45d3-bca1-4bd6b06c2770(io.lionweb.mps.converter.m2.lioncore2mps)" implicit="true" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
@@ -3764,6 +3765,14 @@
         <ref role="3uigEE" node="59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
       </node>
     </node>
+    <node concept="312cEg" id="6r4IH3Ss_$S" role="jymVt">
+      <property role="TrG5h" value="languageRegistry" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="6r4IH3Ss_$T" role="1B3o_S" />
+      <node concept="3uibUv" id="6r4IH3Ss_$V" role="1tU5fm">
+        <ref role="3uigEE" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4R9pospHc54" role="jymVt" />
     <node concept="3clFbW" id="4R9pospHc55" role="jymVt">
       <node concept="3cqZAl" id="4R9pospHc56" role="3clF45" />
@@ -3797,6 +3806,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6r4IH3Ss_$W" role="3cqZAp">
+          <node concept="37vLTI" id="6r4IH3Ss_$Y" role="3clFbG">
+            <node concept="2OqwBi" id="6r4IH3Ss_W3" role="37vLTJ">
+              <node concept="Xjq3P" id="6r4IH3SsA1s" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6r4IH3Ss_W6" role="2OqNvi">
+                <ref role="2Oxat5" node="6r4IH3Ss_$S" resolve="languageRegistry" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6r4IH3Ss__2" role="37vLTx">
+              <ref role="3cqZAo" node="6r4IH3Ss$Se" resolve="languageRegistry" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="3M8YG$b5omX" role="3clF46">
         <property role="TrG5h" value="metaAdapterFactoryHelper" />
@@ -3804,6 +3826,15 @@
           <ref role="3uigEE" node="59Df55laZFn" resolve="IMetaAdapterFactoryHelper" />
         </node>
         <node concept="2AHcQZ" id="3M8YG$b5tA_" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6r4IH3Ss$Se" role="3clF46">
+        <property role="TrG5h" value="languageRegistry" />
+        <node concept="3uibUv" id="6r4IH3Ss_2J" role="1tU5fm">
+          <ref role="3uigEE" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+        </node>
+        <node concept="2AHcQZ" id="6r4IH3Ss_fV" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
@@ -3944,13 +3975,17 @@
               <node concept="10Nm6u" id="4R9pospHf8L" role="3cqZAk" />
             </node>
           </node>
-          <node concept="3fqX7Q" id="4R9pospHdZM" role="3clFbw">
-            <node concept="2OqwBi" id="4R9pospHeow" role="3fr31v">
-              <node concept="37vLTw" id="4R9pospHe9z" role="2Oq$k0">
-                <ref role="3cqZAo" node="4R9pospH9Oa" resolve="sLanguage" />
+          <node concept="3clFbC" id="6r4IH3SsBLF" role="3clFbw">
+            <node concept="10Nm6u" id="6r4IH3SsC4k" role="3uHU7w" />
+            <node concept="2OqwBi" id="6r4IH3SsAH$" role="3uHU7B">
+              <node concept="37vLTw" id="6r4IH3SsAlf" role="2Oq$k0">
+                <ref role="3cqZAo" node="6r4IH3Ss_$S" resolve="languageRegistry" />
               </node>
-              <node concept="liA8E" id="4R9pospHeDe" role="2OqNvi">
-                <ref role="37wK5l" to="c17a:~SLanguage.isValid()" resolve="isValid" />
+              <node concept="liA8E" id="6r4IH3SsBaM" role="2OqNvi">
+                <ref role="37wK5l" to="vndm:~LanguageRegistry.getLanguage(org.jetbrains.mps.openapi.language.SLanguage)" resolve="getLanguage" />
+                <node concept="37vLTw" id="6r4IH3SsBqK" role="37wK5m">
+                  <ref role="3cqZAo" node="4R9pospH9Oa" resolve="sLanguage" />
+                </node>
               </node>
             </node>
           </node>
