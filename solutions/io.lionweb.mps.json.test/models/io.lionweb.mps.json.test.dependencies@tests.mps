@@ -109,6 +109,9 @@
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
       </concept>
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
@@ -601,9 +604,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="6luz6qwvziw" role="33vP2m">
-              <node concept="1jGwE1" id="6luz6qwvzix" role="2Oq$k0" />
               <node concept="liA8E" id="6luz6qwvziy" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiP26" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiP27" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -871,9 +876,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="5M8g5cT6GbU" role="33vP2m">
-              <node concept="1jGwE1" id="5M8g5cT6GbV" role="2Oq$k0" />
               <node concept="liA8E" id="5M8g5cT6GbW" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiP2z" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiP2$" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -1006,9 +1013,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="4Yo3buYIfV$" role="33vP2m">
-              <node concept="1jGwE1" id="4Yo3buYIfV_" role="2Oq$k0" />
               <node concept="liA8E" id="4Yo3buYIfVA" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiP2L" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiP2M" role="2JrQYb" />
               </node>
             </node>
           </node>

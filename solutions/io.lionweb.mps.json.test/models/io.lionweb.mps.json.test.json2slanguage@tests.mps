@@ -158,6 +158,9 @@
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
       </concept>
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
@@ -232,9 +235,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="24j7TNH1xBP" role="33vP2m">
-              <node concept="1jGwE1" id="24j7TNH1xBQ" role="2Oq$k0" />
               <node concept="liA8E" id="24j7TNH1xBR" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPSC" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPSD" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -380,9 +385,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="5M8g5cT6Owu" role="33vP2m">
-              <node concept="1jGwE1" id="5M8g5cT6Owv" role="2Oq$k0" />
               <node concept="liA8E" id="5M8g5cT6Oww" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPST" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPSU" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -805,9 +812,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="6luz6qu42fU" role="33vP2m">
-              <node concept="1jGwE1" id="6luz6qu42fV" role="2Oq$k0" />
               <node concept="liA8E" id="6luz6qu42fW" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPTL" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPTM" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -935,9 +944,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="6luz6qu49TU" role="33vP2m">
-              <node concept="1jGwE1" id="6luz6qu49TV" role="2Oq$k0" />
               <node concept="liA8E" id="6luz6qu49TW" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPTZ" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPU0" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -1129,9 +1140,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="6rp9bELPE_X" role="33vP2m">
-              <node concept="1jGwE1" id="6rp9bELPE_Y" role="2Oq$k0" />
               <node concept="liA8E" id="6rp9bELPE_Z" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPUj" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPUk" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -1337,9 +1350,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="6rp9bELPR8i" role="33vP2m">
-              <node concept="1jGwE1" id="6rp9bELPR8j" role="2Oq$k0" />
               <node concept="liA8E" id="6rp9bELPR8k" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPUK" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPUL" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -1525,9 +1540,11 @@
               <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
             </node>
             <node concept="2OqwBi" id="6LPkCA$RA7P" role="33vP2m">
-              <node concept="1jGwE1" id="6LPkCA$RA7Q" role="2Oq$k0" />
               <node concept="liA8E" id="6LPkCA$RA7R" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="3M2kAhEiPV7" role="2Oq$k0">
+                <node concept="1jGwE1" id="3M2kAhEiPV8" role="2JrQYb" />
               </node>
             </node>
           </node>
@@ -1709,9 +1726,11 @@
                   <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
                 </node>
                 <node concept="2OqwBi" id="4R9posqYZ0D" role="33vP2m">
-                  <node concept="1jGwE1" id="4R9posqYZ0E" role="2Oq$k0" />
                   <node concept="liA8E" id="4R9posqYZ0F" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                  </node>
+                  <node concept="2JrnkZ" id="3M2kAhEiPVr" role="2Oq$k0">
+                    <node concept="1jGwE1" id="3M2kAhEiPVs" role="2JrQYb" />
                   </node>
                 </node>
               </node>

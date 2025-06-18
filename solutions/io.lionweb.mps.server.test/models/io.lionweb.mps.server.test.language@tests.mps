@@ -7,6 +7,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="515552c7-fcc0-4ab4-9789-2f3c49344e85" name="jetbrains.mps.baseLanguage.varVariable" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
   </languages>
   <imports>
     <import index="781x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net.http(JDK/)" />
@@ -166,6 +167,11 @@
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
       <concept id="1171983834376" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" flags="nn" index="3vFxKo">
         <child id="1171983854940" name="condition" index="3vFALc" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -677,9 +683,11 @@
                       <node concept="1pGfFk" id="7OJcYq_$f39" role="2ShVmc">
                         <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                         <node concept="2OqwBi" id="7OJcYq_$frz" role="37wK5m">
-                          <node concept="1jGwE1" id="7OJcYq_$fcd" role="2Oq$k0" />
                           <node concept="liA8E" id="7OJcYq_$fCy" role="2OqNvi">
                             <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                          </node>
+                          <node concept="2JrnkZ" id="3M2kAhEiRfj" role="2Oq$k0">
+                            <node concept="1jGwE1" id="3M2kAhEiRfk" role="2JrQYb" />
                           </node>
                         </node>
                       </node>
@@ -1401,9 +1409,11 @@
                             <node concept="1pGfFk" id="7OJcYq__Kxl" role="2ShVmc">
                               <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                               <node concept="2OqwBi" id="7OJcYq__NhU" role="37wK5m">
-                                <node concept="1jGwE1" id="7OJcYq__M7i" role="2Oq$k0" />
                                 <node concept="liA8E" id="7OJcYq__OLN" role="2OqNvi">
                                   <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                                </node>
+                                <node concept="2JrnkZ" id="3M2kAhEiRhU" role="2Oq$k0">
+                                  <node concept="1jGwE1" id="3M2kAhEiRhV" role="2JrQYb" />
                                 </node>
                               </node>
                             </node>
@@ -1738,9 +1748,11 @@
                       <node concept="1pGfFk" id="7OJcYq__mZB" role="2ShVmc">
                         <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                         <node concept="2OqwBi" id="7OJcYq__lsl" role="37wK5m">
-                          <node concept="1jGwE1" id="7OJcYq__lbj" role="2Oq$k0" />
                           <node concept="liA8E" id="7OJcYq__lID" role="2OqNvi">
                             <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                          </node>
+                          <node concept="2JrnkZ" id="3M2kAhEiRiM" role="2Oq$k0">
+                            <node concept="1jGwE1" id="3M2kAhEiRiN" role="2JrQYb" />
                           </node>
                         </node>
                       </node>

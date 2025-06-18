@@ -127,6 +127,9 @@
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
       </concept>
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
@@ -178,9 +181,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plIhQ" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plIhR" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plIhS" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plIhT" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQf0" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQf1" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -478,9 +483,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plDMj" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plDMk" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plDMl" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plDMm" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQfS" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQfT" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -754,9 +761,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plEfF" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plEfG" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plEfH" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plEfI" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQgN" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQgO" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -926,9 +935,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plHj_" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plHjA" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plHjB" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plHjC" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQhm" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQhn" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -1180,9 +1191,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plGEO" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plGEP" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plGEQ" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plGER" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQi5" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQi6" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -1471,9 +1484,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plJRp" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plJRq" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plJRr" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plJRs" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQj6" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQj7" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -1731,9 +1746,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plIJx" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plIJy" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plIJz" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plIJ$" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQjP" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQjQ" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -2022,9 +2039,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plEx8" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plEx9" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plExa" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plExb" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQkQ" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQkR" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -2200,9 +2219,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plKb_" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plKbA" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plKbB" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plKbC" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQlp" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQlq" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -2448,9 +2469,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plEUs" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plEUt" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plEUu" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plEUv" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQm8" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQm9" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -2804,9 +2827,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plFB8" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plFB9" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plFBa" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plFBb" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQnf" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQng" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -2976,9 +3001,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plFTo" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plFTp" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plFTq" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plFTr" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQnM" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQnN" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
@@ -3699,9 +3726,11 @@
                     <node concept="1pGfFk" id="4r3Tp$plycK" role="2ShVmc">
                       <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
                       <node concept="2OqwBi" id="4r3Tp$plypN" role="37wK5m">
-                        <node concept="1jGwE1" id="4r3Tp$plyfx" role="2Oq$k0" />
                         <node concept="liA8E" id="4r3Tp$plyBs" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                        </node>
+                        <node concept="2JrnkZ" id="3M2kAhEiQqj" role="2Oq$k0">
+                          <node concept="1jGwE1" id="3M2kAhEiQqk" role="2JrQYb" />
                         </node>
                       </node>
                     </node>
