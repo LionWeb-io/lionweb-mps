@@ -11,9 +11,6 @@
     </facet>
   </facets>
   <accessoryModels />
-  <dependencies>
-    <dependency reexport="false">acf932d6-fdeb-4c87-8304-d021a36b68b8(io.lionweb.mps.converter.deps.Standalone)</dependency>
-  </dependencies>
   <languageVersions>
     <language slang="l:411e5b27-8a76-482e-8af8-1704262b4468:io.lionweb.mps.structure.attribute" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -39,7 +36,6 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="4195202e-7a23-446b-819c-eac8bda603d5(io.lionweb.mps.converter.deps.LanguageDepends)" version="0" />
-    <module reference="acf932d6-fdeb-4c87-8304-d021a36b68b8(io.lionweb.mps.converter.deps.Standalone)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
