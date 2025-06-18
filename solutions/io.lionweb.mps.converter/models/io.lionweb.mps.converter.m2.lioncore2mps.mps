@@ -12769,7 +12769,7 @@
             <property role="TrG5h" value="result" />
             <node concept="_YKpA" id="3ePT3MhLAEA" role="1tU5fm">
               <node concept="3Tqbb2" id="3ePT3MhLAEB" role="_ZDj9">
-                <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
+                <ref role="ehGHo" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
               </node>
             </node>
             <node concept="2OqwBi" id="3ePT3MhLAEC" role="33vP2m">
@@ -12786,7 +12786,7 @@
                             <node concept="1PxgMI" id="3ePT3MhLAEL" role="3cqZAk">
                               <property role="1BlNFB" value="true" />
                               <node concept="chp4Y" id="3ePT3MhLAEM" role="3oSUPX">
-                                <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
+                                <ref role="cht4Q" to="tpce:fKAxPRU" resolve="DataTypeDeclaration" />
                               </node>
                               <node concept="2OqwBi" id="3ePT3MhLAEN" role="1m5AlR">
                                 <node concept="2OqwBi" id="3ePT3MhLAEO" role="2Oq$k0">

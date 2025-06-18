@@ -254,6 +254,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -496,6 +500,10 @@
     <node concept="2tJIrI" id="12kZjFJex09" role="jymVt" />
     <node concept="2YIFZL" id="3JFkYJGFs$3" role="jymVt">
       <property role="TrG5h" value="execute" />
+      <node concept="15s5l7" id="6OnlBHnZYK1" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  callExporter(Project):boolean (methodDeclaration) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;methodDeclaration&quot;;FLAVOUR_RULE_ID=&quot;[r:28bcf003-0004-46b6-9fe7-2093e7fb1368(jetbrains.mps.baseLanguage.javadoc.constraints)/6836281137582680395]&quot;;" />
+        <property role="huDt6" value="The reference  callExporter(Project):boolean (methodDeclaration) is out of search scope" />
+      </node>
       <node concept="3clFbS" id="3JFkYJGFs$6" role="3clF47">
         <node concept="3clFbF" id="12kZjFJeDK8" role="3cqZAp">
           <node concept="2OqwBi" id="12kZjFJeLXQ" role="3clFbG">
