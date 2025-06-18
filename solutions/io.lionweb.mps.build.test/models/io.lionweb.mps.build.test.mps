@@ -1593,11 +1593,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4Yo3buZz7Kf" role="3bR37C">
-          <node concept="3bR9La" id="4Yo3buZz7Kg" role="1SiIV1">
-            <ref role="3bR37D" node="4Yo3buZz76t" resolve="io.lionweb.mps.converter.deps.Standalone" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="4Yo3buZz7UT" role="3bR31x">
           <node concept="3LXTmp" id="4Yo3buZz7UU" role="3rtmxm">
             <node concept="398BVA" id="4Yo3buZz7UV" role="3LXTmr">
@@ -2034,11 +2029,6 @@
         <node concept="1SiIV0" id="nWBHrKVR7E" role="3bR37C">
           <node concept="3bR9La" id="nWBHrKVR7F" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="nWBHrKVR7G" role="3bR37C">
-          <node concept="3bR9La" id="nWBHrKVR7H" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
         <node concept="1BupzO" id="nWBHrKVR7U" role="3bR31x">
@@ -2653,24 +2643,9 @@
           <ref role="3bR37D" node="jyNOuY9kJq" resolve="io.lionweb.mps.converter.TestRefs" />
         </node>
       </node>
-      <node concept="1SiIV0" id="34Q84zMMDDp" role="3bR37C">
-        <node concept="3bR9La" id="34Q84zMMDDq" role="1SiIV1">
-          <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
-        </node>
-      </node>
       <node concept="1SiIV0" id="34Q84zMMDQ6" role="3bR37C">
         <node concept="3bR9La" id="34Q84zMMDQ7" role="1SiIV1">
           <ref role="3bR37D" node="34Q84zMMDhU" resolve="io.lionweb.mps.converter.TestAbstract" />
-        </node>
-      </node>
-      <node concept="1SiIV0" id="nWBHrKVRkE" role="3bR37C">
-        <node concept="3bR9La" id="nWBHrKVRkF" role="1SiIV1">
-          <ref role="3bR37D" node="nWBHrKVQK1" resolve="io.lionweb.mps.converter.TestComputedProperty" />
-        </node>
-      </node>
-      <node concept="1SiIV0" id="2NSuNu8q$G5" role="3bR37C">
-        <node concept="3bR9La" id="2NSuNu8q$G6" role="1SiIV1">
-          <ref role="3bR37D" node="2NSuNu8q$2G" resolve="io.lionweb.mps.converter.TestEnum" />
         </node>
       </node>
       <node concept="1SiIV0" id="6luz6qwznky" role="3bR37C">
@@ -2865,11 +2840,6 @@
       <node concept="1SiIV0" id="6luz6qwznl2" role="3bR37C">
         <node concept="3bR9La" id="6luz6qwznl3" role="1SiIV1">
           <ref role="3bR37D" to="e6nc:6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
-        </node>
-      </node>
-      <node concept="1SiIV0" id="59fw59O3Exq" role="3bR37C">
-        <node concept="3bR9La" id="59fw59O3Exr" role="1SiIV1">
-          <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
         </node>
       </node>
       <node concept="1SiIV0" id="59fw59O3Exs" role="3bR37C">

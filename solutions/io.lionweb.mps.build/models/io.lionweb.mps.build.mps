@@ -132,7 +132,6 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
-        <property id="2928402740576877067" name="javaCode" index="3vZFNd" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -840,6 +839,11 @@
             <ref role="3bR37D" to="ffeo:14x5$qAUbkv" resolve="jetbrains.mps.lang.resources" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6OnlBHo4CCG" role="3bR37C">
+          <node concept="3bR9La" id="6OnlBHo4CCH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:67xNhT4NRcz" resolve="gnu.trove" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="5wsogBcGDLI" role="3989C9">
@@ -929,7 +933,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="io.lionweb.lionweb.java" />
         <property role="3LESm3" value="9d6d7230-3178-4b3f-a837-7c0180c86207" />
-        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="5wsogBcGDM8" role="3LF7KH">
           <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
           <node concept="2Ry0Ak" id="5wsogBcGDM9" role="iGT6I">
@@ -1633,7 +1636,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.apache.commons.cli" />
         <property role="3LESm3" value="1508a497-2508-4d6b-9b20-103cea864f85" />
-        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="55IIr" id="6YbypMzsMYK" role="3LF7KH">
           <node concept="2Ry0Ak" id="6YbypMzsN0D" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
