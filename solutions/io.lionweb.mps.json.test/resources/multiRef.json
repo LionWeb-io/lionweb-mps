@@ -12,56 +12,6 @@
   ],
   "nodes": [
     {
-      "id": "id-part",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "MyPartition"
-        }
-      ],
-      "containments": [
-        {
-          "containment": {
-            "language": "MyHappyLittleMulti-Reference_Language",
-            "version": "1",
-            "key": "180e505c-2fbf-4513-92d3-97d44cda3b43"
-          },
-          "children": [
-            "id-r1",
-            "id-r2",
-            "id-r3"
-          ]
-        },
-        {
-          "containment": {
-            "language": "MyHappyLittleMulti-Reference_Language",
-            "version": "1",
-            "key": "9af8b4ce-4d4d-428d-814b-a00fe9d4eead"
-          },
-          "children": [
-            "id-aaa",
-            "id-bbb",
-            "id-ccc",
-            "id-ddd",
-            "id-eee",
-            "id-fff"
-          ]
-        }
-      ],
-      "references": [],
-      "annotations": [],
-      "parent": null
-    },
-    {
       "id": "id-aaa",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
@@ -251,28 +201,6 @@
       "parent": "id-part"
     },
     {
-      "id": "id-rE",
-      "classifier": {
-        "language": "MyHappyLittleMulti-Reference_Language",
-        "version": "1",
-        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
-      },
-      "properties": [
-        {
-          "property": {
-            "language": "LionCore-builtins",
-            "version": "2023.1",
-            "key": "LionCore-builtins-INamed-name"
-          },
-          "value": "rE"
-        }
-      ],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "id-eee"
-    },
-    {
       "id": "id-fff",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
@@ -306,11 +234,11 @@
       "parent": "id-part"
     },
     {
-      "id": "id-rF",
+      "id": "id-part",
       "classifier": {
         "language": "MyHappyLittleMulti-Reference_Language",
         "version": "1",
-        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+        "key": "aa6473fc-ec65-43e0-86c0-6be575063315"
       },
       "properties": [
         {
@@ -319,13 +247,41 @@
             "version": "2023.1",
             "key": "LionCore-builtins-INamed-name"
           },
-          "value": "rF"
+          "value": "MyPartition"
         }
       ],
-      "containments": [],
+      "containments": [
+        {
+          "containment": {
+            "language": "MyHappyLittleMulti-Reference_Language",
+            "version": "1",
+            "key": "180e505c-2fbf-4513-92d3-97d44cda3b43"
+          },
+          "children": [
+            "id-r1",
+            "id-r2",
+            "id-r3"
+          ]
+        },
+        {
+          "containment": {
+            "language": "MyHappyLittleMulti-Reference_Language",
+            "version": "1",
+            "key": "9af8b4ce-4d4d-428d-814b-a00fe9d4eead"
+          },
+          "children": [
+            "id-aaa",
+            "id-bbb",
+            "id-ccc",
+            "id-ddd",
+            "id-eee",
+            "id-fff"
+          ]
+        }
+      ],
       "references": [],
       "annotations": [],
-      "parent": "id-fff"
+      "parent": null
     },
     {
       "id": "id-r1",
@@ -392,6 +348,50 @@
       "references": [],
       "annotations": [],
       "parent": "id-part"
+    },
+    {
+      "id": "id-rE",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "rE"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "id-eee"
+    },
+    {
+      "id": "id-rF",
+      "classifier": {
+        "language": "MyHappyLittleMulti-Reference_Language",
+        "version": "1",
+        "key": "1870f8e4-aaaf-40b6-99d6-7a0b2210e4e0"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "rF"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "id-fff"
     }
   ]
 }

@@ -12,6 +12,32 @@
   ],
   "nodes": [
     {
+      "id": "{id-NoExtends}",
+      "classifier": {
+        "language": "My-TestLang3",
+        "version": "00 my! VERSION 😀",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
+      },
+      "properties": [],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-unkeyed}"
+    },
+    {
+      "id": "{id-Plain}",
+      "classifier": {
+        "language": "My-TestLang3",
+        "version": "00 my! VERSION 😀",
+        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
+      },
+      "properties": [],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "{id-unkeyed}"
+    },
+    {
       "id": "{id-unkeyed}",
       "classifier": {
         "language": "NDhkMGY2ZWItNjE4Ni00Y2VjLTgzZDEtN2NhZWRiMDVhNDk0",
@@ -88,32 +114,6 @@
       ],
       "annotations": [],
       "parent": null
-    },
-    {
-      "id": "{id-Plain}",
-      "classifier": {
-        "language": "My-TestLang3",
-        "version": "00 my! VERSION 😀",
-        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQxMTI"
-      },
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "{id-unkeyed}"
-    },
-    {
-      "id": "{id-NoExtends}",
-      "classifier": {
-        "language": "My-TestLang3",
-        "version": "00 my! VERSION 😀",
-        "key": "MDk5NDkwYTMtMWUzOS00ZWQxLWJlYmMtODAyNzY2NWNlY2Y5LzI1ODUzNzgxNjU5NzMyMDQ5MDM"
-      },
-      "properties": [],
-      "containments": [],
-      "references": [],
-      "annotations": [],
-      "parent": "{id-unkeyed}"
     }
   ]
 }

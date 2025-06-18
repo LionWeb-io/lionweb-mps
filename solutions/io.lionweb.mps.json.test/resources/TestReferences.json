@@ -317,7 +317,7 @@
             },
             {
               "resolveInfo": "First Name",
-              "reference": null
+              "reference": "id-firstName"
             },
             {
               "resolveInfo": "Named Broken",

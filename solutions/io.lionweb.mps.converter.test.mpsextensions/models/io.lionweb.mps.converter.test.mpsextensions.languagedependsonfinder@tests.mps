@@ -584,6 +584,12 @@
                   <property role="2V$B1Q" value="jetbrains.mps.make.facet" />
                 </node>
               </node>
+              <node concept="pHN19" id="6OnlBHmBuAL" role="HW$Y0">
+                <node concept="2V$Bhx" id="6OnlBHmBuIj" role="2V$M_3">
+                  <property role="2V$B1T" value="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" />
+                  <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.lightweightdsl" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -1417,6 +1423,12 @@
                     <node concept="2V$Bhx" id="2GPsfcb8z9g" role="2V$M_3">
                       <property role="2V$B1T" value="c7fb639f-be78-4307-89b0-b5959c3fa8c8" />
                       <property role="2V$B1Q" value="jetbrains.mps.lang.text" />
+                    </node>
+                  </node>
+                  <node concept="pHN19" id="6OnlBHmByQ2" role="HW$Y0">
+                    <node concept="2V$Bhx" id="6OnlBHmByTi" role="2V$M_3">
+                      <property role="2V$B1T" value="f4ad079d-bc71-4ffb-9600-9328705cf998" />
+                      <property role="2V$B1Q" value="jetbrains.mps.lang.descriptor" />
                     </node>
                   </node>
                 </node>
