@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="86ef8290-12bb-4ca7-947f-093788f263a9" name="jetbrains.mps.lang.project" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -87,11 +88,15 @@
     <node concept="PrWs8" id="DUXtH0uYUG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="7qGUpN3Cisn" role="PzmwI">
-      <ref role="PrY4T" node="7qGUpN3Cils" resolve="ILanguageReferenceContainer" />
-    </node>
     <node concept="1QGGSu" id="5glO5qL5M2n" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/lionweb2mps.png" />
+    </node>
+    <node concept="1TJgyj" id="4CNECwTjphZ" role="1TKVEi">
+      <property role="IQ2ns" value="5346804684672570495" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="languages" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4CNECwTjp3h" resolve="LionCoreMPSLanguagePair" />
     </node>
   </node>
   <node concept="1TIwiD" id="z1IqfFSzDB">
@@ -268,6 +273,24 @@
     <node concept="25R33" id="utjSYFIcjG" role="25R1y">
       <property role="3tVfz5" value="548682208088999148" />
       <property role="TrG5h" value="fineGrainedClosure" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4CNECwTjp3h">
+    <property role="EcuMT" value="5346804684672569553" />
+    <property role="TrG5h" value="LionCoreMPSLanguagePair" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4CNECwTjp4n" role="1TKVEi">
+      <property role="IQ2ns" value="5346804684672569623" />
+      <property role="20kJfa" value="lcLanguage" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="h3y3:2ju2syjkngz" resolve="Language" />
+    </node>
+    <node concept="1TJgyj" id="4CNECwTkb0v" role="1TKVEi">
+      <property role="IQ2ns" value="5346804684672774175" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="mpsLanguage" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tp25:34EJa6aIcco" resolve="LanguageIdentity" />
     </node>
   </node>
 </model>

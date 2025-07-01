@@ -2734,6 +2734,9 @@
     <node concept="3uibUv" id="KVKr66j2av" role="EKbjA">
       <ref role="3uigEE" node="KVKr66iXdS" resolve="IModifyingLanguageLookup" />
     </node>
+    <node concept="2AHcQZ" id="4CNECwTGhjn" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="312cEu" id="24j7TNHkUrg">
     <property role="TrG5h" value="BuiltinsUsage" />
