@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute" version="0" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -37,25 +38,26 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="6VkSF6cxwU8">
+  <node concept="1TIwiD" id="6VkSF6cxwUf">
     <property role="R5$K7" value="false" />
-    <property role="TrG5h" value="Book" />
-    <property role="EcuMT" value="-2586398959035250261" />
-    <node concept="1TJgyi" id="6VkSF6cxwU9" role="1TKVEl">
-      <property role="TrG5h" value="title" />
-      <property role="IQ2nx" value="-6476017502936068199" />
+    <property role="TrG5h" value="Writer" />
+    <property role="EcuMT" value="-6308996964629185163" />
+    <node concept="1TJgyi" id="6VkSF6cxwUg" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <property role="IQ2nx" value="6468783845386435166" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="6VkSF6cxwUa" role="1TKVEl">
-      <property role="TrG5h" value="pages" />
-      <property role="IQ2nx" value="-4386150673429949552" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyj" id="6VkSF6cxwUb" role="1TKVEi">
-      <property role="20kJfa" value="author" />
-      <property role="IQ2ns" value="2709281790400409694" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6VkSF6cxwUf" resolve="Writer" />
+  </node>
+  <node concept="1TIwiD" id="6VkSF6cxwUj">
+    <property role="R5$K7" value="false" />
+    <property role="TrG5h" value="SpecialistBookWriter" />
+    <property role="EcuMT" value="-6164790151171141319" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="6VkSF6cxwUf" resolve="Writer" />
+    <node concept="1TJgyi" id="6VkSF6cxwUk" role="1TKVEl">
+      <property role="TrG5h" value="subject" />
+      <property role="IQ2nx" value="-1058751302060984612" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="6VkSF6cxwUc">
@@ -76,16 +78,6 @@
       <ref role="20lvS9" node="6VkSF6cxwU8" resolve="Book" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6VkSF6cxwUf">
-    <property role="R5$K7" value="false" />
-    <property role="TrG5h" value="Writer" />
-    <property role="EcuMT" value="-6308996964629185163" />
-    <node concept="1TJgyi" id="6VkSF6cxwUg" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="6468783845386435166" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6VkSF6cxwUh">
     <property role="R5$K7" value="false" />
     <property role="TrG5h" value="GuideBookWriter" />
@@ -98,16 +90,25 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6VkSF6cxwUj">
+  <node concept="1TIwiD" id="6VkSF6cxwU8">
     <property role="R5$K7" value="false" />
-    <property role="TrG5h" value="SpecialistBookWriter" />
-    <property role="EcuMT" value="-6164790151171141319" />
-    <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" node="6VkSF6cxwUf" resolve="Writer" />
-    <node concept="1TJgyi" id="6VkSF6cxwUk" role="1TKVEl">
-      <property role="TrG5h" value="subject" />
-      <property role="IQ2nx" value="-1058751302060984612" />
+    <property role="TrG5h" value="Book" />
+    <property role="EcuMT" value="-2586398959035250261" />
+    <node concept="1TJgyi" id="6VkSF6cxwU9" role="1TKVEl">
+      <property role="TrG5h" value="title" />
+      <property role="IQ2nx" value="-6476017502936068199" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6VkSF6cxwUa" role="1TKVEl">
+      <property role="TrG5h" value="pages" />
+      <property role="IQ2nx" value="-4386150673429949552" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="6VkSF6cxwUb" role="1TKVEi">
+      <property role="20kJfa" value="author" />
+      <property role="IQ2ns" value="2709281790400409694" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6VkSF6cxwUf" resolve="Writer" />
     </node>
   </node>
 </model>
