@@ -6873,7 +6873,7 @@
       <node concept="3Tm6S6" id="4CNECwTofiT" role="1B3o_S" />
       <node concept="A3Dl8" id="4CNECwTogZW" role="1tU5fm">
         <node concept="3uibUv" id="3F5LocCI_s9" role="A3Ik2">
-          <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMPSLanguageLink" />
+          <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMpsLanguageLink" />
         </node>
       </node>
     </node>
@@ -6979,7 +6979,7 @@
         <property role="TrG5h" value="lcLanguages" />
         <node concept="A3Dl8" id="DUXtGZObQ_" role="1tU5fm">
           <node concept="3uibUv" id="3F5LocCIDSG" role="A3Ik2">
-            <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMPSLanguageLink" />
+            <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMpsLanguageLink" />
           </node>
         </node>
       </node>
@@ -28279,7 +28279,7 @@
       <node concept="37vLTG" id="FX8K9URhnM" role="3clF46">
         <property role="TrG5h" value="language" />
         <node concept="3uibUv" id="FX8K9URhnL" role="1tU5fm">
-          <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMPSLanguageLink" />
+          <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMpsLanguageLink" />
         </node>
         <node concept="2AHcQZ" id="FX8K9URUxg" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -28489,7 +28489,7 @@
       <node concept="37vLTG" id="FX8K9URWFm" role="3clF46">
         <property role="TrG5h" value="langLink" />
         <node concept="3uibUv" id="FX8K9URXGw" role="1tU5fm">
-          <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMPSLanguageLink" />
+          <ref role="3uigEE" node="3F5LocCHk51" resolve="LionCoreMpsLanguageLink" />
         </node>
         <node concept="2AHcQZ" id="FX8K9URXTc" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
@@ -29466,7 +29466,7 @@
   </node>
   <node concept="2fD8I5" id="3F5LocCHk51">
     <property role="3GE5qa" value="importedLanguage" />
-    <property role="TrG5h" value="LionCoreMPSLanguageLink" />
+    <property role="TrG5h" value="LionCoreMpsLanguageLink" />
     <node concept="3Tm1VV" id="3F5LocCIW5o" role="1B3o_S" />
     <node concept="2lGYhJ" id="3F5LocCHk70" role="2pHZQ9">
       <property role="TrG5h" value="lcLanguage" />
