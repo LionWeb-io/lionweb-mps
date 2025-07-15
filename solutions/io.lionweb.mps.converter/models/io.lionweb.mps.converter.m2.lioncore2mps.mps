@@ -17427,7 +17427,7 @@
   </node>
   <node concept="3HP615" id="3ePT3MiTAog">
     <property role="TrG5h" value="IImportedLanguageCreator" />
-    <property role="3GE5qa" value="languageLookup" />
+    <property role="3GE5qa" value="languageCreator" />
     <node concept="3Tm1VV" id="3ePT3MiTAoh" role="1B3o_S" />
     <node concept="3clFb_" id="4CNECwTt2jq" role="jymVt">
       <property role="TrG5h" value="createImportedLanguage" />
@@ -17451,7 +17451,7 @@
     </node>
   </node>
   <node concept="312cEu" id="3ePT3MiTARf">
-    <property role="3GE5qa" value="languageLookup" />
+    <property role="3GE5qa" value="languageCreator" />
     <property role="TrG5h" value="InstalledLanguageCreator" />
     <node concept="312cEg" id="3ePT3MiTG_$" role="jymVt">
       <property role="TrG5h" value="constants" />
