@@ -38,16 +38,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
-    <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
-      <concept id="1239559992092" name="jetbrains.mps.baseLanguage.tuples.structure.NamedTupleLiteral" flags="nn" index="2ry78W">
-        <reference id="1239560008022" name="tupleDeclaration" index="2ryb1Q" />
-        <child id="1239560910577" name="componentRef" index="2r_Bvh" />
-      </concept>
-      <concept id="1239560581441" name="jetbrains.mps.baseLanguage.tuples.structure.NamedTupleComponentReference" flags="ng" index="2r$n1x">
-        <reference id="1239560595302" name="componentDeclaration" index="2r$qp6" />
-        <child id="1239560837729" name="value" index="2r_lH1" />
-      </concept>
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -1035,7 +1025,7 @@
         <node concept="3clFbF" id="4CNECwTnd9y" role="3cqZAp">
           <node concept="37vLTI" id="4CNECwTndJg" role="3clFbG">
             <node concept="37vLTw" id="4CNECwTndR9" role="37vLTx">
-              <ref role="3cqZAo" node="3LWE6BDxL$s" resolve="lcMpsLanguagePairs" />
+              <ref role="3cqZAo" node="3LWE6BDxL$s" resolve="lcMpsLanguageLinks" />
             </node>
             <node concept="2OqwBi" id="4CNECwTndiv" role="37vLTJ">
               <node concept="Xjq3P" id="4CNECwTnd9w" role="2Oq$k0" />
@@ -1069,7 +1059,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="3LWE6BDxL$s" role="3clF46">
-        <property role="TrG5h" value="lcMpsLanguagePairs" />
+        <property role="TrG5h" value="lcMpsLanguageLinks" />
         <node concept="A3Dl8" id="3LWE6BDxL_a" role="1tU5fm">
           <node concept="3Tqbb2" id="3LWE6BDxMVV" role="A3Ik2">
             <ref role="ehGHo" to="d0tf:4CNECwTjp3h" resolve="LionCoreMpsLanguageLink" />
@@ -1433,7 +1423,7 @@
                       <node concept="3clFbS" id="4CNECwTrGmM" role="1bW5cS">
                         <node concept="3clFbF" id="4CNECwTrGRr" role="3cqZAp">
                           <node concept="1rXfSq" id="4CNECwTrGRq" role="3clFbG">
-                            <ref role="37wK5l" node="4CNECwTpksk" resolve="getLCLanguage" />
+                            <ref role="37wK5l" node="4CNECwTpksk" resolve="getImportedLangConfig" />
                             <node concept="37vLTw" id="4CNECwTrHVj" role="37wK5m">
                               <ref role="3cqZAo" node="4CNECwTrGmN" resolve="it" />
                             </node>
@@ -1621,34 +1611,30 @@
     </node>
     <node concept="2tJIrI" id="4CNECwTpi$3" role="jymVt" />
     <node concept="3clFb_" id="4CNECwTpksk" role="jymVt">
-      <property role="TrG5h" value="getLCLanguage" />
+      <property role="TrG5h" value="getImportedLangConfig" />
       <node concept="3clFbS" id="4CNECwTpksn" role="3clF47">
-        <node concept="3cpWs6" id="3F5LocCJ4wO" role="3cqZAp">
-          <node concept="2ry78W" id="3F5LocCJtTB" role="3cqZAk">
-            <ref role="2ryb1Q" to="dydc:3F5LocCHk51" resolve="LionCoreMpsLanguageLink" />
-            <node concept="2r$n1x" id="3F5LocCJtTz" role="2r_Bvh">
-              <ref role="2r$qp6" to="dydc:3F5LocCHk70" resolve="lcLanguage" />
-              <node concept="2OqwBi" id="3F5LocCJvcl" role="2r_lH1">
-                <node concept="37vLTw" id="3F5LocCJuue" role="2Oq$k0">
+        <node concept="3cpWs6" id="26TjnO1BvYt" role="3cqZAp">
+          <node concept="2ShNRf" id="26TjnO1BwEB" role="3cqZAk">
+            <node concept="1pGfFk" id="26TjnO1BPsi" role="2ShVmc">
+              <ref role="37wK5l" to="dydc:5M3rB6Bufa8" resolve="ImportedLanguageConfig" />
+              <node concept="2OqwBi" id="26TjnO1BRuz" role="37wK5m">
+                <node concept="37vLTw" id="26TjnO1BQh9" role="2Oq$k0">
                   <ref role="3cqZAo" node="4CNECwTplkU" resolve="langPair" />
                 </node>
-                <node concept="3TrEf2" id="3F5LocCJw8R" role="2OqNvi">
+                <node concept="3TrEf2" id="26TjnO1BShU" role="2OqNvi">
                   <ref role="3Tt5mk" to="d0tf:4CNECwTjp4n" resolve="lcLanguage" />
                 </node>
               </node>
-            </node>
-            <node concept="2r$n1x" id="3F5LocCJtT_" role="2r_Bvh">
-              <ref role="2r$qp6" to="dydc:3F5LocCHk7i" resolve="mpsLanguage" />
-              <node concept="2OqwBi" id="3F5LocCJzzf" role="2r_lH1">
-                <node concept="2OqwBi" id="3F5LocCJy0g" role="2Oq$k0">
-                  <node concept="37vLTw" id="3F5LocCJwRl" role="2Oq$k0">
+              <node concept="2OqwBi" id="26TjnO1BWPI" role="37wK5m">
+                <node concept="2OqwBi" id="26TjnO1BV8U" role="2Oq$k0">
+                  <node concept="37vLTw" id="26TjnO1BTWr" role="2Oq$k0">
                     <ref role="3cqZAo" node="4CNECwTplkU" resolve="langPair" />
                   </node>
-                  <node concept="3TrEf2" id="3F5LocCJyPr" role="2OqNvi">
+                  <node concept="3TrEf2" id="26TjnO1BW86" role="2OqNvi">
                     <ref role="3Tt5mk" to="d0tf:4CNECwTkb0v" resolve="mpsLanguage" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="3F5LocCJ$Xv" role="2OqNvi">
+                <node concept="2qgKlT" id="26TjnO1BXNe" role="2OqNvi">
                   <ref role="37wK5l" to="tpeu:34EJa6aIcyj" resolve="getLanguage" />
                 </node>
               </node>
@@ -1664,7 +1650,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="3F5LocCJ1O8" role="3clF45">
-        <ref role="3uigEE" to="dydc:3F5LocCHk51" resolve="LionCoreMpsLanguageLink" />
+        <ref role="3uigEE" to="dydc:5M3rB6Buf7e" resolve="ImportedLanguageConfig" />
       </node>
     </node>
     <node concept="3Tm1VV" id="3LWE6BDxKHu" role="1B3o_S" />
