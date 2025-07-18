@@ -8,7 +8,6 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
   </languages>
   <imports>
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
@@ -987,7 +986,7 @@
       </node>
     </node>
     <node concept="312cEg" id="4CNECwTnbF5" role="jymVt">
-      <property role="TrG5h" value="languagePairs" />
+      <property role="TrG5h" value="lcMpsLanguageLinks" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="4CNECwTnaSF" role="1B3o_S" />
       <node concept="A3Dl8" id="4CNECwTnbEd" role="1tU5fm">
@@ -1030,7 +1029,7 @@
             <node concept="2OqwBi" id="4CNECwTndiv" role="37vLTJ">
               <node concept="Xjq3P" id="4CNECwTnd9w" role="2Oq$k0" />
               <node concept="2OwXpG" id="4CNECwTnduA" role="2OqNvi">
-                <ref role="2Oxat5" node="4CNECwTnbF5" resolve="languagePairs" />
+                <ref role="2Oxat5" node="4CNECwTnbF5" resolve="lcMpsLanguageLinks" />
               </node>
             </node>
           </node>
@@ -1416,7 +1415,7 @@
                 </node>
                 <node concept="2OqwBi" id="4CNECwTrF9l" role="37wK5m">
                   <node concept="37vLTw" id="3LWE6BDyyn3" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4CNECwTnbF5" resolve="languagePairs" />
+                    <ref role="3cqZAo" node="4CNECwTnbF5" resolve="lcMpsLanguageLinks" />
                   </node>
                   <node concept="3$u5V9" id="4CNECwTrGmJ" role="2OqNvi">
                     <node concept="1bVj0M" id="4CNECwTrGmL" role="23t8la">
