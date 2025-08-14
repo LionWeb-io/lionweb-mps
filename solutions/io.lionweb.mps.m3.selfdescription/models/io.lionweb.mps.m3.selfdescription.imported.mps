@@ -58,7 +58,7 @@
         <child id="5346804684672570495" name="languages" index="1NvzVR" />
       </concept>
       <concept id="630989536496859751" name="io.lionweb.mps.converter.lang.structure.ImportLanguageFromJson" flags="ng" index="3z8Sf4" />
-      <concept id="5346804684672569553" name="io.lionweb.mps.converter.lang.structure.LionCoreMPSLanguagePair" flags="ng" index="1NvzDp">
+      <concept id="5346804684672569553" name="io.lionweb.mps.converter.lang.structure.LionCoreMpsLanguageLink" flags="ng" index="1NvzDp">
         <reference id="5346804684672569623" name="lcLanguage" index="1NvzIv" />
         <child id="5346804684672774175" name="mpsLanguage" index="1NoLEn" />
       </concept>
