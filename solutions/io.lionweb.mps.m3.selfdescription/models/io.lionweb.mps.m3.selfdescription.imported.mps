@@ -3,8 +3,10 @@
   <persistence version="9" />
   <languages>
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="537f9cb0-0f25-3c76-8b86-308f45010100" name="library" version="0" />
   </languages>
   <imports>
+    <import index="vbi9" ref="537f9cb0-0f25-3c76-8b86-308f45010100/i:f010101(library/library@descriptor)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
   </imports>
   <registry>
@@ -43,23 +45,29 @@
       <concept id="2656571587264865491" name="io.lionweb.mps.m3.structure.InterfaceReference" flags="ng" index="2RzQOr">
         <reference id="2656571587264865492" name="interface" index="2RzQOs" />
       </concept>
-      <concept id="2656571587264871634" name="io.lionweb.mps.m3.structure.LanguageReference" flags="ng" index="2RzRkq">
-        <reference id="2656571587264871635" name="language" index="2RzRkr" />
-      </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
         <property id="2526956841135898600" name="version" index="3HH78N" />
         <child id="2656571587264870511" name="entities" index="2RzR6B" />
       </concept>
     </language>
     <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
-      <concept id="8551466651976017244" name="io.lionweb.mps.converter.lang.structure.ILanguageReferenceContainer" flags="ng" index="2P3sN0">
-        <child id="755186209566487256" name="languages" index="1a0gs3" />
-      </concept>
       <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
         <property id="5028875375328515031" name="path" index="VS7hl" />
       </concept>
-      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageFromLionCore" flags="ng" index="1a0hBo" />
+      <concept id="755186209566485507" name="io.lionweb.mps.converter.lang.structure.ConvertLanguageFromLionCore" flags="ng" index="1a0hBo">
+        <child id="5346804684672570495" name="languages" index="1NvzVR" />
+      </concept>
       <concept id="630989536496859751" name="io.lionweb.mps.converter.lang.structure.ImportLanguageFromJson" flags="ng" index="3z8Sf4" />
+      <concept id="5346804684672569553" name="io.lionweb.mps.converter.lang.structure.LionCoreMpsLanguageLink" flags="ng" index="1NvzDp">
+        <reference id="5346804684672569623" name="lcLanguage" index="1NvzIv" />
+        <child id="5346804684672774175" name="mpsLanguage" index="1NoLEn" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
+        <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
+        <property id="3542851458883439832" name="languageId" index="2V$B1T" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -525,8 +533,12 @@
   </node>
   <node concept="1a0hBo" id="6VkSF6aHijY">
     <property role="TrG5h" value="Library to MPS" />
-    <node concept="2RzRkq" id="6VkSF6aHis6" role="1a0gs3">
-      <ref role="2RzRkr" node="6VkSF6cu7LM" resolve="library" />
+    <node concept="1NvzDp" id="4CNECwTlQaB" role="1NvzVR">
+      <ref role="1NvzIv" node="6VkSF6cu7LM" resolve="library" />
+      <node concept="2V$Bhx" id="4CNECwTme7k" role="1NoLEn">
+        <property role="2V$B1T" value="537f9cb0-0f25-3c76-8b86-308f45010100" />
+        <property role="2V$B1Q" value="library" />
+      </node>
     </node>
   </node>
   <node concept="2RzRRF" id="6VkSF6cu7LM">
