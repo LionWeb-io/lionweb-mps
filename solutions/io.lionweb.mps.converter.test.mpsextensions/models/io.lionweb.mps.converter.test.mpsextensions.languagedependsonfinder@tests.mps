@@ -1357,88 +1357,92 @@
       </node>
       <node concept="3Tm6S6" id="5ocQ9W1x$W0" role="1B3o_S" />
     </node>
-    <node concept="1LZb2c" id="5ocQ9W1xDgb" role="1SL9yI">
-      <property role="TrG5h" value="IntentionsFull" />
-      <node concept="3cqZAl" id="5ocQ9W1xDgc" role="3clF45" />
-      <node concept="3clFbS" id="5ocQ9W1xDgd" role="3clF47">
-        <node concept="3clFbF" id="5ocQ9W1xDge" role="3cqZAp">
-          <node concept="2OqwBi" id="5ocQ9W1xDgf" role="3clFbG">
-            <node concept="2WthIp" id="5ocQ9W1xDgg" role="2Oq$k0" />
-            <node concept="2XshWL" id="5ocQ9W1xDgh" role="2OqNvi">
-              <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
-              <node concept="2ShNRf" id="utjSYGd9HB" role="2XxRq1">
-                <node concept="Tc6Ow" id="utjSYGd9Vk" role="2ShVmc">
-                  <node concept="3uibUv" id="utjSYGdaeD" role="HW$YZ">
-                    <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
-                  </node>
-                  <node concept="pHN19" id="5ocQ9W1xDgi" role="HW$Y0">
-                    <node concept="2V$Bhx" id="utjSYFOKyr" role="2V$M_3">
-                      <property role="2V$B1T" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
-                      <property role="2V$B1Q" value="com.mbeddr.mpsutil.intentions" />
+    <node concept="1X3_iC" id="7Ovcrc9oy4v" role="lGtFl">
+      <property role="3V$3am" value="testMethods" />
+      <property role="3V$3ak" value="8585453e-6bfb-4d80-98de-b16074f1d86c/1216913645126/1217501895093" />
+      <node concept="1LZb2c" id="5ocQ9W1xDgb" role="8Wnug">
+        <property role="TrG5h" value="IntentionsFull" />
+        <node concept="3cqZAl" id="5ocQ9W1xDgc" role="3clF45" />
+        <node concept="3clFbS" id="5ocQ9W1xDgd" role="3clF47">
+          <node concept="3clFbF" id="5ocQ9W1xDge" role="3cqZAp">
+            <node concept="2OqwBi" id="5ocQ9W1xDgf" role="3clFbG">
+              <node concept="2WthIp" id="5ocQ9W1xDgg" role="2Oq$k0" />
+              <node concept="2XshWL" id="5ocQ9W1xDgh" role="2OqNvi">
+                <ref role="2WH_rO" node="5ocQ9W1x$VD" resolve="export" />
+                <node concept="2ShNRf" id="utjSYGd9HB" role="2XxRq1">
+                  <node concept="Tc6Ow" id="utjSYGd9Vk" role="2ShVmc">
+                    <node concept="3uibUv" id="utjSYGdaeD" role="HW$YZ">
+                      <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
                     </node>
-                  </node>
-                  <node concept="pHN19" id="utjSYGdaCH" role="HW$Y0">
-                    <node concept="2V$Bhx" id="utjSYGdaUB" role="2V$M_3">
-                      <property role="2V$B1T" value="d7a92d38-f7db-40d0-8431-763b0c3c9f20" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.intentions" />
+                    <node concept="pHN19" id="5ocQ9W1xDgi" role="HW$Y0">
+                      <node concept="2V$Bhx" id="utjSYFOKyr" role="2V$M_3">
+                        <property role="2V$B1T" value="b92f861d-0184-446d-b88b-6dcf0e070241" />
+                        <property role="2V$B1Q" value="com.mbeddr.mpsutil.intentions" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb7waw" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb7wkY" role="2V$M_3">
-                      <property role="2V$B1T" value="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.traceable" />
+                    <node concept="pHN19" id="utjSYGdaCH" role="HW$Y0">
+                      <node concept="2V$Bhx" id="utjSYGdaUB" role="2V$M_3">
+                        <property role="2V$B1T" value="d7a92d38-f7db-40d0-8431-763b0c3c9f20" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.intentions" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb7HPE" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb7HZl" role="2V$M_3">
-                      <property role="2V$B1T" value="982eb8df-2c96-4bd7-9963-11712ea622e5" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.resources" />
+                    <node concept="pHN19" id="2GPsfcb7waw" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb7wkY" role="2V$M_3">
+                        <property role="2V$B1T" value="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.traceable" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb7TmH" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb7Txp" role="2V$M_3">
-                      <property role="2V$B1T" value="fd392034-7849-419d-9071-12563d152375" />
-                      <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.closures" />
+                    <node concept="pHN19" id="2GPsfcb7HPE" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb7HZl" role="2V$M_3">
+                        <property role="2V$B1T" value="982eb8df-2c96-4bd7-9963-11712ea622e5" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.resources" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb84dw" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb84np" role="2V$M_3">
-                      <property role="2V$B1T" value="af65afd8-f0dd-4942-87d9-63a55f2a9db1" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.behavior" />
+                    <node concept="pHN19" id="2GPsfcb7TmH" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb7Txp" role="2V$M_3">
+                        <property role="2V$B1T" value="fd392034-7849-419d-9071-12563d152375" />
+                        <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.closures" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb8d75" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb8dhZ" role="2V$M_3">
-                      <property role="2V$B1T" value="83888646-71ce-4f1c-9c53-c54016f6ad4f" />
-                      <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.collections" />
+                    <node concept="pHN19" id="2GPsfcb84dw" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb84np" role="2V$M_3">
+                        <property role="2V$B1T" value="af65afd8-f0dd-4942-87d9-63a55f2a9db1" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.behavior" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb8nVy" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb8o5D" role="2V$M_3">
-                      <property role="2V$B1T" value="446c26eb-2b7b-4bf0-9b35-f83fa582753e" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.modelapi" />
+                    <node concept="pHN19" id="2GPsfcb8d75" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb8dhZ" role="2V$M_3">
+                        <property role="2V$B1T" value="83888646-71ce-4f1c-9c53-c54016f6ad4f" />
+                        <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.collections" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="2GPsfcb8yZ2" role="HW$Y0">
-                    <node concept="2V$Bhx" id="2GPsfcb8z9g" role="2V$M_3">
-                      <property role="2V$B1T" value="c7fb639f-be78-4307-89b0-b5959c3fa8c8" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.text" />
+                    <node concept="pHN19" id="2GPsfcb8nVy" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb8o5D" role="2V$M_3">
+                        <property role="2V$B1T" value="446c26eb-2b7b-4bf0-9b35-f83fa582753e" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.modelapi" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="pHN19" id="6OnlBHmByQ2" role="HW$Y0">
-                    <node concept="2V$Bhx" id="6OnlBHmByTi" role="2V$M_3">
-                      <property role="2V$B1T" value="f4ad079d-bc71-4ffb-9600-9328705cf998" />
-                      <property role="2V$B1Q" value="jetbrains.mps.lang.descriptor" />
+                    <node concept="pHN19" id="2GPsfcb8yZ2" role="HW$Y0">
+                      <node concept="2V$Bhx" id="2GPsfcb8z9g" role="2V$M_3">
+                        <property role="2V$B1T" value="c7fb639f-be78-4307-89b0-b5959c3fa8c8" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.text" />
+                      </node>
+                    </node>
+                    <node concept="pHN19" id="6OnlBHmByQ2" role="HW$Y0">
+                      <node concept="2V$Bhx" id="6OnlBHmByTi" role="2V$M_3">
+                        <property role="2V$B1T" value="f4ad079d-bc71-4ffb-9600-9328705cf998" />
+                        <property role="2V$B1Q" value="jetbrains.mps.lang.descriptor" />
+                      </node>
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="Rm8GO" id="utjSYFOLms" role="2XxRq1">
-                <ref role="Rm8GQ" to="6peh:24j7TNH1AVW" resolve="indirect" />
-                <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
-              </node>
-              <node concept="Xl_RD" id="5ocQ9W1xDv0" role="2XxRq1">
-                <property role="Xl_RC" value="TestIntentions-full-metamodel.json" />
+                <node concept="Rm8GO" id="utjSYFOLms" role="2XxRq1">
+                  <ref role="Rm8GQ" to="6peh:24j7TNH1AVW" resolve="indirect" />
+                  <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                </node>
+                <node concept="Xl_RD" id="5ocQ9W1xDv0" role="2XxRq1">
+                  <property role="Xl_RC" value="TestIntentions-full-metamodel.json" />
+                </node>
               </node>
             </node>
           </node>
