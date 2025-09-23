@@ -654,6 +654,45 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4PtGzz$_rjt" role="3cqZAp" />
+        <node concept="3cpWs8" id="4PtGzz$_omN" role="3cqZAp">
+          <node concept="3cpWsn" id="4PtGzz$_omO" role="3cpWs9">
+            <property role="TrG5h" value="mps_devkit" />
+            <node concept="17QB3L" id="4PtGzz$_omP" role="1tU5fm" />
+            <node concept="2OqwBi" id="4PtGzz$_omQ" role="33vP2m">
+              <node concept="2ShNRf" id="4PtGzz$_omR" role="2Oq$k0">
+                <node concept="1pGfFk" id="4PtGzz$_omS" role="2ShVmc">
+                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.io.File,java.lang.String)" resolve="File" />
+                  <node concept="37vLTw" id="4PtGzz$_omT" role="37wK5m">
+                    <ref role="3cqZAo" node="4Giu_EKn41O" resolve="pluginsPath" />
+                  </node>
+                  <node concept="Xl_RD" id="4PtGzz$_omU" role="37wK5m">
+                    <property role="Xl_RC" value="mps-devkit" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="4PtGzz$_omV" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4PtGzz$_gmz" role="3cqZAp">
+          <node concept="2OqwBi" id="4PtGzz$_hq$" role="3clFbG">
+            <node concept="37vLTw" id="4PtGzz$_gmx" role="2Oq$k0">
+              <ref role="3cqZAo" node="53Tt6VyTrqG" resolve="config" />
+            </node>
+            <node concept="liA8E" id="4PtGzz$_jSi" role="2OqNvi">
+              <ref role="37wK5l" to="79ha:6rx4kZDk6GC" resolve="addPlugin" />
+              <node concept="37vLTw" id="4PtGzz$_vHp" role="37wK5m">
+                <ref role="3cqZAo" node="4PtGzz$_omO" resolve="mps_devkit" />
+              </node>
+              <node concept="Xl_RD" id="4PtGzz$_yfb" role="37wK5m">
+                <property role="Xl_RC" value="jetbrains.mps.ide.devkit" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4Giu_EKnskv" role="3cqZAp" />
         <node concept="3cpWs8" id="4Giu_EKnzZS" role="3cqZAp">
           <node concept="3cpWsn" id="4Giu_EKnzZR" role="3cpWs9">
