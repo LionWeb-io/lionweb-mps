@@ -363,7 +363,13 @@
           <node concept="2ShNRf" id="18UigYQ3D_$" role="3tpDZB">
             <node concept="2i4dXS" id="18UigYQ3D__" role="2ShVmc">
               <node concept="pHN19" id="18UigYQ3D_C" role="HW$Y0">
-                <node concept="2V$Bhx" id="18UigYQ3D_D" role="2V$M_3">
+                <node concept="2V$Bhx" id="4PtGzz$$ObT" role="2V$M_3">
+                  <property role="2V$B1T" value="982eb8df-2c96-4bd7-9963-11712ea622e5" />
+                  <property role="2V$B1Q" value="jetbrains.mps.lang.resources" />
+                </node>
+              </node>
+              <node concept="pHN19" id="4PtGzz$$O84" role="HW$Y0">
+                <node concept="2V$Bhx" id="4PtGzz$$O85" role="2V$M_3">
                   <property role="2V$B1T" value="760a0a8c-eabb-4521-8bfd-65db761a9ba3" />
                   <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.logging" />
                 </node>
