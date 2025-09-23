@@ -34,7 +34,6 @@
     <import index="lktc" ref="5a9ccb4c-d683-45a8-bc1d-ecfdfb8366f0/java:gnu.trove(gnu.trove/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
-    <import index="dydc" ref="r:303e2235-6078-45d3-bca1-4bd6b06c2770(io.lionweb.mps.converter.m2.lioncore2mps)" implicit="true" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
     <import index="6or5" ref="r:4aa0c7da-6277-43fd-90b0-e616e98e56e0(jetbrains.mps.lang.resources.generator.template.main@generator)" implicit="true" />
   </imports>
@@ -2190,18 +2189,7 @@
         </node>
         <node concept="TZ5HA" id="3M8YG$b6gqn" role="TZ5H$">
           <node concept="1dT_AC" id="3M8YG$b6gqo" role="1dT_Ay">
-            <property role="1dT_AB" value="Does &lt;i&gt;not&lt;/i&gt; create any physical manifestation of the MPS language (see " />
-          </node>
-          <node concept="1dT_AA" id="3M8YG$b6grq" role="1dT_Ay">
-            <node concept="92FcH" id="3M8YG$b6grC" role="qph3F">
-              <node concept="TZ5HA" id="3M8YG$b6grE" role="2XjZqd" />
-              <node concept="VXe08" id="3M8YG$b6guj" role="92FcQ">
-                <ref role="VXe09" to="dydc:22JgUX0ny9" resolve="ILanguageCreator" />
-              </node>
-            </node>
-          </node>
-          <node concept="1dT_AC" id="3M8YG$b6grp" role="1dT_Ay">
-            <property role="1dT_AB" value=")." />
+            <property role="1dT_AB" value="Does &lt;i&gt;not&lt;/i&gt; create any physical manifestation of the MPS language." />
           </node>
         </node>
         <node concept="TUZQ0" id="3M8YG$b6god" role="3nqlJM">

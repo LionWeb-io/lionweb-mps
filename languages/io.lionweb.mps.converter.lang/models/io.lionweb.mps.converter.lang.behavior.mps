@@ -30,6 +30,7 @@
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -1156,15 +1157,10 @@
                     <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="3LWE6BDyInu" role="37wK5m">
-                  <node concept="2OqwBi" id="3LWE6BDyInv" role="2Oq$k0">
-                    <node concept="13iPFW" id="5N2LjD7MaOn" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="3LWE6BDyInx" role="2OqNvi">
-                      <ref role="3TtcxE" to="d0tf:DUXtH0uZbo" resolve="languages" />
-                    </node>
-                  </node>
-                  <node concept="13MTOL" id="3LWE6BDyIny" role="2OqNvi">
-                    <ref role="13MTZf" to="h3y3:2ju2syjknNj" resolve="language" />
+                <node concept="2OqwBi" id="3LWE6BDyInv" role="37wK5m">
+                  <node concept="13iPFW" id="5N2LjD7MaOn" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="3LWE6BDyInx" role="2OqNvi">
+                    <ref role="3TtcxE" to="d0tf:4CNECwTjphZ" resolve="languages" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="5N2LjD7MCuw" role="37wK5m">

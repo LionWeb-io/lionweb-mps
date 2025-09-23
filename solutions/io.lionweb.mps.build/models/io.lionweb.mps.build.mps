@@ -309,6 +309,9 @@
           </node>
         </node>
       </node>
+      <node concept="L2wRC" id="2yij8JWwvCz" role="39821P">
+        <ref role="L2wRA" node="oIR8hQg5OW" resolve="io.lionweb.mps.build" />
+      </node>
       <node concept="1X3_iC" id="2Of5hWAapt3" role="lGtFl">
         <property role="3V$3am" value="children" />
         <property role="3V$3ak" value="798100da-4f0a-421a-b991-71f8c50ce5d2/4701820937132344003/7389400916848037006" />
@@ -332,9 +335,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="L2wRC" id="2yij8JWwvCz" role="39821P">
-        <ref role="L2wRA" node="oIR8hQg5OW" resolve="io.lionweb.mps.build" />
       </node>
     </node>
     <node concept="2_Ic$z" id="1r9ZEnp6noU" role="3989C9">
@@ -1144,6 +1144,11 @@
             <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4CNECwTPm$j" role="3bR37C">
+          <node concept="3bR9La" id="4CNECwTPm$k" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8Y" resolve="jetbrains.mps.lang.project" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5wsogBcGDNb" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1230,6 +1235,242 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="3uYQSG0h8_Q" role="3989C9">
+      <property role="m$_wk" value="io.lionweb.mps.cmdline" />
+      <node concept="3_J27D" id="3uYQSG0h8_R" role="m$_yQ">
+        <node concept="3Mxwew" id="3uYQSG0h8_S" role="3MwsjC">
+          <property role="3MwjfP" value="io.lionweb.mps.cmdline" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3uYQSG0h8_T" role="m$_w8">
+        <node concept="3Mxwey" id="3uYQSG0h8_U" role="3MwsjC">
+          <ref role="3Mxwex" node="5wsogBcGDKg" resolve="version" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="3uYQSG0h8A1" role="m$_yh">
+        <ref role="m$f5T" node="3JFkYJGFDCF" resolve="lionweb-mps.cmdline" />
+      </node>
+      <node concept="m$_yC" id="3uYQSG0h8A2" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="3uYQSG0h90r" role="m$_yJ">
+        <ref role="m$_y1" node="5wsogBcGDKB" resolve="io.lionweb.mps" />
+      </node>
+      <node concept="3_J27D" id="3uYQSG0h8A6" role="m_cZH">
+        <node concept="3Mxwew" id="3uYQSG0h8A7" role="3MwsjC">
+          <property role="3MwjfP" value="io.lionweb.mps.cmdline" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3uYQSG0h8A8" role="3s6cr7">
+        <node concept="3Mxwew" id="3uYQSG0h8A9" role="3MwsjC">
+          <property role="3MwjfP" value="LionWeb MPS Command-line interface" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="3uYQSG0h8Aa" role="2iVFfd">
+        <property role="2iUeEt" value="LionWeb Project" />
+        <property role="2iUeEu" value="https://github.com/LionWeb-io/lionweb-mps" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="3JFkYJGFDCF" role="3989C9">
+      <property role="TrG5h" value="lionweb-mps.cmdline" />
+      <node concept="1E1JtA" id="3JFkYJGFDW8" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="io.lionweb.mps.cmdline" />
+        <property role="3LESm3" value="27e6f9d4-17e0-4eba-b857-d984dd2b2e5c" />
+        <node concept="55IIr" id="3JFkYJGFDW9" role="3LF7KH">
+          <node concept="2Ry0Ak" id="3JFkYJGFDXb" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="3JFkYJGFDYc" role="2Ry0An">
+              <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
+              <node concept="2Ry0Ak" id="3JFkYJGFDZd" role="2Ry0An">
+                <property role="2Ry0Am" value="io.lionweb.mps.cmdline.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3JFkYJGFE2r" role="3bR37C">
+          <node concept="3bR9La" id="3JFkYJGFE2s" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3JFkYJGFE2t" role="3bR37C">
+          <node concept="3bR9La" id="3JFkYJGFE2u" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3zjMY$95UAa" resolve="jetbrains.mps.core.tool.environment" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3JFkYJGFE2v" role="3bR37C">
+          <node concept="3bR9La" id="3JFkYJGFE2w" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3JFkYJGFE2x" role="3bR37C">
+          <node concept="3bR9La" id="3JFkYJGFE2y" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="3JFkYJGFE2J" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="3JFkYJGFE2K" role="1HemKq">
+            <node concept="398BVA" id="3JFkYJGFE2z" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="3JFkYJGFE2$" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="3JFkYJGFE2_" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
+                  <node concept="2Ry0Ak" id="3JFkYJGFE2A" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3JFkYJGFE2L" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39v" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39w" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39x" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39y" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDM7" resolve="io.lionweb.lionweb.java" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39z" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39$" role="1SiIV1">
+            <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="FX8dMdj39_" role="3bR37C">
+          <node concept="3bR9La" id="FX8dMdj39A" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDLJ" resolve="io.lionweb.mps.json" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6YbypMzsNgk" role="3bR31x">
+          <node concept="3LXTmp" id="6YbypMzsNgl" role="3rtmxm">
+            <node concept="55IIr" id="6YbypMzsNgm" role="3LXTmr">
+              <node concept="2Ry0Ak" id="6YbypMzsNgn" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6YbypMzsNgo" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="6YbypMzsNgq" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6YbypMzsNkB" role="3bR37C">
+          <node concept="3bR9La" id="6YbypMzsNkC" role="1SiIV1">
+            <ref role="3bR37D" node="6YbypMzsMYH" resolve="org.apache.commons.cli" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3uYQSG0895B" role="3bR37C">
+          <node concept="3bR9La" id="3uYQSG0895C" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="rW84$cc7tJ" role="3bR37C">
+          <node concept="3bR9La" id="rW84$cc7tK" role="1SiIV1">
+            <ref role="3bR37D" node="5wsogBcGDM$" resolve="io.lionweb.mps.converter.lang" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="rW84$cpq8J" role="3bR37C">
+          <node concept="3bR9La" id="rW84$cpq8K" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6YbypMzsMYH" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.apache.commons.cli" />
+        <property role="3LESm3" value="1508a497-2508-4d6b-9b20-103cea864f85" />
+        <node concept="55IIr" id="6YbypMzsMYK" role="3LF7KH">
+          <node concept="2Ry0Ak" id="6YbypMzsN0D" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6YbypMzsN2w" role="2Ry0An">
+              <property role="2Ry0Am" value="org.apache.commons.cli" />
+              <node concept="2Ry0Ak" id="6YbypMzsN4n" role="2Ry0An">
+                <property role="2Ry0Am" value="org.apache.commons.cli.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6YbypMzsN8c" role="3bR37C">
+          <node concept="3bR9La" id="6YbypMzsN8d" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6YbypMzsN8t" role="3bR37C">
+          <node concept="1BurEX" id="6YbypMzsN8u" role="1SiIV1">
+            <node concept="398BVA" id="6YbypMzsN8e" role="1BurEY">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="6YbypMzsN8f" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="6YbypMzsN8g" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.apache.commons.cli" />
+                  <node concept="2Ry0Ak" id="6YbypMzsN8h" role="2Ry0An">
+                    <property role="2Ry0Am" value="libs" />
+                    <node concept="2Ry0Ak" id="6YbypMzsN8i" role="2Ry0An">
+                      <property role="2Ry0Am" value="commons-cli.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1E1JtA" id="oIR8hQg5OW" role="3989C9">
+      <property role="BnDLt" value="true" />
+      <property role="TrG5h" value="io.lionweb.mps.build" />
+      <property role="3LESm3" value="bf3c8943-8801-4969-9ac2-7403444bbefa" />
+      <node concept="55IIr" id="oIR8hQg5OY" role="3LF7KH">
+        <node concept="2Ry0Ak" id="oIR8hQg5Vj" role="iGT6I">
+          <property role="2Ry0Am" value="solutions" />
+          <node concept="2Ry0Ak" id="oIR8hQg5W0" role="2Ry0An">
+            <property role="2Ry0Am" value="io.lionweb.mps.build" />
+            <node concept="2Ry0Ak" id="oIR8hQg5Yp" role="2Ry0An">
+              <property role="2Ry0Am" value="io.lionweb.mps.build.msd" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1SiIV0" id="oIR8hQg60r" role="3bR37C">
+        <node concept="3bR9La" id="oIR8hQg60s" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+        </node>
+      </node>
+      <node concept="1BupzO" id="oIR8hQg60_" role="3bR31x">
+        <property role="3ZfqAx" value="models" />
+        <property role="1Hdu6h" value="true" />
+        <property role="1HemKv" value="true" />
+        <node concept="3LXTmp" id="oIR8hQg60A" role="1HemKq">
+          <node concept="398BVA" id="oIR8hQg60t" role="3LXTmr">
+            <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+            <node concept="2Ry0Ak" id="oIR8hQg60u" role="iGT6I">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="oIR8hQg60v" role="2Ry0An">
+                <property role="2Ry0Am" value="io.lionweb.mps.build" />
+                <node concept="2Ry0Ak" id="oIR8hQg60w" role="2Ry0An">
+                  <property role="2Ry0Am" value="models" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3qWCbU" id="oIR8hQg60B" role="3LXTna">
+            <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="55IIr" id="24OSoZ619cA" role="auvoZ" />
     <node concept="1X3_iC" id="2Of5hWAaDLV" role="lGtFl">
       <property role="3V$3am" value="parts" />
       <property role="3V$3ak" value="798100da-4f0a-421a-b991-71f8c50ce5d2/5617550519002745363/7389400916848080626" />
@@ -1503,242 +1744,6 @@
         </node>
       </node>
     </node>
-    <node concept="m$_wf" id="3uYQSG0h8_Q" role="3989C9">
-      <property role="m$_wk" value="io.lionweb.mps.cmdline" />
-      <node concept="3_J27D" id="3uYQSG0h8_R" role="m$_yQ">
-        <node concept="3Mxwew" id="3uYQSG0h8_S" role="3MwsjC">
-          <property role="3MwjfP" value="io.lionweb.mps.cmdline" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="3uYQSG0h8_T" role="m$_w8">
-        <node concept="3Mxwey" id="3uYQSG0h8_U" role="3MwsjC">
-          <ref role="3Mxwex" node="5wsogBcGDKg" resolve="version" />
-        </node>
-      </node>
-      <node concept="m$f5U" id="3uYQSG0h8A1" role="m$_yh">
-        <ref role="m$f5T" node="3JFkYJGFDCF" resolve="lionweb-mps.cmdline" />
-      </node>
-      <node concept="m$_yC" id="3uYQSG0h8A2" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
-      <node concept="m$_yC" id="3uYQSG0h90r" role="m$_yJ">
-        <ref role="m$_y1" node="5wsogBcGDKB" resolve="io.lionweb.mps" />
-      </node>
-      <node concept="3_J27D" id="3uYQSG0h8A6" role="m_cZH">
-        <node concept="3Mxwew" id="3uYQSG0h8A7" role="3MwsjC">
-          <property role="3MwjfP" value="io.lionweb.mps.cmdline" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="3uYQSG0h8A8" role="3s6cr7">
-        <node concept="3Mxwew" id="3uYQSG0h8A9" role="3MwsjC">
-          <property role="3MwjfP" value="LionWeb MPS Command-line interface" />
-        </node>
-      </node>
-      <node concept="2iUeEo" id="3uYQSG0h8Aa" role="2iVFfd">
-        <property role="2iUeEt" value="LionWeb Project" />
-        <property role="2iUeEu" value="https://github.com/LionWeb-io/lionweb-mps" />
-      </node>
-    </node>
-    <node concept="2G$12M" id="3JFkYJGFDCF" role="3989C9">
-      <property role="TrG5h" value="lionweb-mps.cmdline" />
-      <node concept="1E1JtA" id="3JFkYJGFDW8" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="io.lionweb.mps.cmdline" />
-        <property role="3LESm3" value="27e6f9d4-17e0-4eba-b857-d984dd2b2e5c" />
-        <node concept="55IIr" id="3JFkYJGFDW9" role="3LF7KH">
-          <node concept="2Ry0Ak" id="3JFkYJGFDXb" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="3JFkYJGFDYc" role="2Ry0An">
-              <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
-              <node concept="2Ry0Ak" id="3JFkYJGFDZd" role="2Ry0An">
-                <property role="2Ry0Am" value="io.lionweb.mps.cmdline.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3JFkYJGFE2r" role="3bR37C">
-          <node concept="3bR9La" id="3JFkYJGFE2s" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3JFkYJGFE2t" role="3bR37C">
-          <node concept="3bR9La" id="3JFkYJGFE2u" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:3zjMY$95UAa" resolve="jetbrains.mps.core.tool.environment" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3JFkYJGFE2v" role="3bR37C">
-          <node concept="3bR9La" id="3JFkYJGFE2w" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3JFkYJGFE2x" role="3bR37C">
-          <node concept="3bR9La" id="3JFkYJGFE2y" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
-          </node>
-        </node>
-        <node concept="1BupzO" id="3JFkYJGFE2J" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3JFkYJGFE2K" role="1HemKq">
-            <node concept="398BVA" id="3JFkYJGFE2z" role="3LXTmr">
-              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
-              <node concept="2Ry0Ak" id="3JFkYJGFE2$" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="3JFkYJGFE2_" role="2Ry0An">
-                  <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
-                  <node concept="2Ry0Ak" id="3JFkYJGFE2A" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="3JFkYJGFE2L" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="FX8dMdj39v" role="3bR37C">
-          <node concept="3bR9La" id="FX8dMdj39w" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="FX8dMdj39x" role="3bR37C">
-          <node concept="3bR9La" id="FX8dMdj39y" role="1SiIV1">
-            <ref role="3bR37D" node="5wsogBcGDM7" resolve="io.lionweb.lionweb.java" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="FX8dMdj39z" role="3bR37C">
-          <node concept="3bR9La" id="FX8dMdj39$" role="1SiIV1">
-            <ref role="3bR37D" node="6jI_U5e9kIC" resolve="io.lionweb.mps.m3.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="FX8dMdj39_" role="3bR37C">
-          <node concept="3bR9La" id="FX8dMdj39A" role="1SiIV1">
-            <ref role="3bR37D" node="5wsogBcGDLJ" resolve="io.lionweb.mps.json" />
-          </node>
-        </node>
-        <node concept="3rtmxn" id="6YbypMzsNgk" role="3bR31x">
-          <node concept="3LXTmp" id="6YbypMzsNgl" role="3rtmxm">
-            <node concept="55IIr" id="6YbypMzsNgm" role="3LXTmr">
-              <node concept="2Ry0Ak" id="6YbypMzsNgn" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6YbypMzsNgo" role="2Ry0An">
-                  <property role="2Ry0Am" value="io.lionweb.mps.cmdline" />
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="6YbypMzsNgq" role="3LXTna">
-              <property role="3qWCbO" value="icons/**" />
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6YbypMzsNkB" role="3bR37C">
-          <node concept="3bR9La" id="6YbypMzsNkC" role="1SiIV1">
-            <ref role="3bR37D" node="6YbypMzsMYH" resolve="org.apache.commons.cli" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3uYQSG0895B" role="3bR37C">
-          <node concept="3bR9La" id="3uYQSG0895C" role="1SiIV1">
-            <ref role="3bR37D" node="5wsogBcGDLk" resolve="io.lionweb.mps.converter" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="rW84$cc7tJ" role="3bR37C">
-          <node concept="3bR9La" id="rW84$cc7tK" role="1SiIV1">
-            <ref role="3bR37D" node="5wsogBcGDM$" resolve="io.lionweb.mps.converter.lang" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="rW84$cpq8J" role="3bR37C">
-          <node concept="3bR9La" id="rW84$cpq8K" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="6YbypMzsMYH" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.apache.commons.cli" />
-        <property role="3LESm3" value="1508a497-2508-4d6b-9b20-103cea864f85" />
-        <node concept="55IIr" id="6YbypMzsMYK" role="3LF7KH">
-          <node concept="2Ry0Ak" id="6YbypMzsN0D" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="6YbypMzsN2w" role="2Ry0An">
-              <property role="2Ry0Am" value="org.apache.commons.cli" />
-              <node concept="2Ry0Ak" id="6YbypMzsN4n" role="2Ry0An">
-                <property role="2Ry0Am" value="org.apache.commons.cli.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6YbypMzsN8c" role="3bR37C">
-          <node concept="3bR9La" id="6YbypMzsN8d" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6YbypMzsN8t" role="3bR37C">
-          <node concept="1BurEX" id="6YbypMzsN8u" role="1SiIV1">
-            <node concept="398BVA" id="6YbypMzsN8e" role="1BurEY">
-              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
-              <node concept="2Ry0Ak" id="6YbypMzsN8f" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="6YbypMzsN8g" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.apache.commons.cli" />
-                  <node concept="2Ry0Ak" id="6YbypMzsN8h" role="2Ry0An">
-                    <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="6YbypMzsN8i" role="2Ry0An">
-                      <property role="2Ry0Am" value="commons-cli.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1E1JtA" id="oIR8hQg5OW" role="3989C9">
-      <property role="BnDLt" value="true" />
-      <property role="TrG5h" value="io.lionweb.mps.build" />
-      <property role="3LESm3" value="bf3c8943-8801-4969-9ac2-7403444bbefa" />
-      <node concept="55IIr" id="oIR8hQg5OY" role="3LF7KH">
-        <node concept="2Ry0Ak" id="oIR8hQg5Vj" role="iGT6I">
-          <property role="2Ry0Am" value="solutions" />
-          <node concept="2Ry0Ak" id="oIR8hQg5W0" role="2Ry0An">
-            <property role="2Ry0Am" value="io.lionweb.mps.build" />
-            <node concept="2Ry0Ak" id="oIR8hQg5Yp" role="2Ry0An">
-              <property role="2Ry0Am" value="io.lionweb.mps.build.msd" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1SiIV0" id="oIR8hQg60r" role="3bR37C">
-        <node concept="3bR9La" id="oIR8hQg60s" role="1SiIV1">
-          <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
-        </node>
-      </node>
-      <node concept="1BupzO" id="oIR8hQg60_" role="3bR31x">
-        <property role="3ZfqAx" value="models" />
-        <property role="1Hdu6h" value="true" />
-        <property role="1HemKv" value="true" />
-        <node concept="3LXTmp" id="oIR8hQg60A" role="1HemKq">
-          <node concept="398BVA" id="oIR8hQg60t" role="3LXTmr">
-            <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
-            <node concept="2Ry0Ak" id="oIR8hQg60u" role="iGT6I">
-              <property role="2Ry0Am" value="solutions" />
-              <node concept="2Ry0Ak" id="oIR8hQg60v" role="2Ry0An">
-                <property role="2Ry0Am" value="io.lionweb.mps.build" />
-                <node concept="2Ry0Ak" id="oIR8hQg60w" role="2Ry0An">
-                  <property role="2Ry0Am" value="models" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3qWCbU" id="oIR8hQg60B" role="3LXTna">
-            <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="55IIr" id="24OSoZ619cA" role="auvoZ" />
   </node>
 </model>
 
