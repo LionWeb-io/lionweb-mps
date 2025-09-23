@@ -6,5 +6,5 @@ on:
       - 'mps*'
 
 jobs:
-  create-pr:
-    uses: specificlanguages/cascading-merge/.github/workflows/workflow.yml@v1
+#  create-pr:
+#    uses: specificlanguages/cascading-merge/.github/workflows/workflow.yml@v1
