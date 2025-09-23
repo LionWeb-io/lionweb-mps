@@ -104,6 +104,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
@@ -113,6 +114,10 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="3093926081414150598" name="jetbrains.mps.baseLanguage.structure.MultipleCatchClause" flags="ng" index="3uVAMA">
         <child id="8276990574895933173" name="catchBody" index="1zc67A" />
@@ -1271,6 +1276,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4PtGzz$AVRv" role="3cqZAp" />
         <node concept="3cpWs8" id="6luz6qww$sK" role="3cqZAp">
           <node concept="3cpWsn" id="6luz6qww$sL" role="3cpWs9">
             <property role="TrG5h" value="helpUrl" />
@@ -1311,6 +1317,63 @@
                 <ref role="3cqZAo" node="6luz6qww$sL" resolve="helpUrl" />
               </node>
               <node concept="Xl_RD" id="6luz6qwwA5a" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4PtGzz$AW$W" role="3cqZAp" />
+        <node concept="3cpWs8" id="4PtGzz$AC_T" role="3cqZAp">
+          <node concept="3cpWsn" id="4PtGzz$AC_U" role="3cpWs9">
+            <property role="TrG5h" value="helpUrl2" />
+            <node concept="17QB3L" id="4PtGzz$AC_V" role="1tU5fm" />
+            <node concept="2YIFZM" id="4PtGzz$AC_W" role="33vP2m">
+              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
+              <node concept="Xl_RD" id="4PtGzz$AC_X" role="37wK5m">
+                <property role="Xl_RC" value="https://www.jetbrains.com/help/mps/%s.%s/" />
+              </node>
+              <node concept="2YIFZM" id="4PtGzz$ARkR" role="37wK5m">
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
+                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                <node concept="3cpWsd" id="4PtGzz$AFua" role="37wK5m">
+                  <node concept="3cmrfG" id="4PtGzz$AFud" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2YIFZM" id="4PtGzz$ANea" role="3uHU7B">
+                    <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+                    <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                    <node concept="2OqwBi" id="4PtGzz$AC_Y" role="37wK5m">
+                      <node concept="37vLTw" id="4PtGzz$AC_Z" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6luz6qwwwI2" resolve="info" />
+                      </node>
+                      <node concept="liA8E" id="4PtGzz$ACA0" role="2OqNvi">
+                        <ref role="37wK5l" to="bd8o:~ApplicationInfo.getMajorVersion()" resolve="getMajorVersion" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4PtGzz$ACA1" role="37wK5m">
+                <node concept="37vLTw" id="4PtGzz$ACA2" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6luz6qwwwI2" resolve="info" />
+                </node>
+                <node concept="liA8E" id="4PtGzz$ACA3" role="2OqNvi">
+                  <ref role="37wK5l" to="bd8o:~ApplicationInfo.getMinorVersionMainPart()" resolve="getMinorVersionMainPart" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4PtGzz$AC_N" role="3cqZAp">
+          <node concept="2OqwBi" id="4PtGzz$AC_O" role="3clFbG">
+            <node concept="37vLTw" id="4PtGzz$AC_P" role="2Oq$k0">
+              <ref role="3cqZAo" node="6rp9bELPEAt" resolve="comparer" />
+            </node>
+            <node concept="liA8E" id="4PtGzz$AC_Q" role="2OqNvi">
+              <ref role="37wK5l" to="kte7:6luz6qwwi$4" resolve="registerReplacement" />
+              <node concept="37vLTw" id="4PtGzz$AC_R" role="37wK5m">
+                <ref role="3cqZAo" node="4PtGzz$AC_U" resolve="helpUrl2" />
+              </node>
+              <node concept="Xl_RD" id="4PtGzz$AC_S" role="37wK5m" />
             </node>
           </node>
         </node>
