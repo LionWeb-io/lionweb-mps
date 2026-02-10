@@ -17,7 +17,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
+    <import index="2qhi" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.language(io.lionweb.lionweb.java/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -1239,7 +1239,7 @@
         <node concept="17QB3L" id="5ocQ9W1x$XO" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="5ocQ9W1x$Wg" role="3clF45">
-        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+        <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
       </node>
       <node concept="3clFbS" id="5ocQ9W1x$VF" role="3clF47">
         <node concept="3cpWs8" id="24j7TNH1xBN" role="3cqZAp">
@@ -1298,7 +1298,7 @@
             <property role="TrG5h" value="result" />
             <node concept="A3Dl8" id="24j7TNH2B3q" role="1tU5fm">
               <node concept="3uibUv" id="24j7TNH2B3t" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="24j7TNH2B3R" role="33vP2m">

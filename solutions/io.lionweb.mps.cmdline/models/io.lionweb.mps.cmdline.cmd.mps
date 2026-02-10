@@ -17,14 +17,12 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="pe0e" ref="r:00cfecac-5da5-48e5-8a70-507b9f69321c(io.lionweb.mps.json.instance.lionweb2mps)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="faaz" ref="r:63045ba4-9612-4b7c-87f4-19d1f2840fe2(io.lionweb.mps.converter.m2.idmapper.slanguage)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" />
@@ -32,6 +30,8 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
+    <import index="2qhi" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.language(io.lionweb.lionweb.java/)" />
+    <import index="7que" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="rkdo" ref="r:c23ed8cb-45d0-424b-acee-d006f0559a6a(io.lionweb.mps.cmdline)" implicit="true" />
   </imports>
   <registry>
@@ -630,7 +630,7 @@
             <property role="TrG5h" value="jsonLanguages" />
             <node concept="A3Dl8" id="12kZjFJfid2" role="1tU5fm">
               <node concept="3uibUv" id="12kZjFJfid5" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="1rXfSq" id="12kZjFJfiYF" role="33vP2m">
@@ -942,7 +942,7 @@
             <property role="TrG5h" value="jsonLanguages" />
             <node concept="A3Dl8" id="V4Ro9JjIqY" role="1tU5fm">
               <node concept="3uibUv" id="V4Ro9JjIr1" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
           </node>
@@ -983,26 +983,25 @@
                             <node concept="3cpWsn" id="3uYQSG07sQD" role="3cpWs9">
                               <property role="TrG5h" value="usedLanguage" />
                               <node concept="3uibUv" id="3uYQSG07soH" role="1tU5fm">
-                                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                                <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                               </node>
-                              <node concept="2ShNRf" id="3uYQSG07sQE" role="33vP2m">
-                                <node concept="1pGfFk" id="3uYQSG07sQF" role="2ShVmc">
-                                  <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                                  <node concept="2OqwBi" id="30j65oOGQyS" role="37wK5m">
-                                    <node concept="37vLTw" id="3uYQSG07sQG" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="6r4IH3RnmeK" resolve="it" />
-                                    </node>
-                                    <node concept="liA8E" id="30j65oOGUao" role="2OqNvi">
-                                      <ref role="37wK5l" to="33ny:~Map$Entry.getKey()" resolve="getKey" />
-                                    </node>
+                              <node concept="2YIFZM" id="75hf4Jr1vh9" role="33vP2m">
+                                <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                                <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                                <node concept="2OqwBi" id="75hf4Jr1kBb" role="37wK5m">
+                                  <node concept="37vLTw" id="75hf4Jr1kBc" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="6r4IH3RnmeK" resolve="it" />
                                   </node>
-                                  <node concept="2OqwBi" id="30j65oOGY5P" role="37wK5m">
-                                    <node concept="37vLTw" id="30j65oOGX23" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="6r4IH3RnmeK" resolve="it" />
-                                    </node>
-                                    <node concept="liA8E" id="30j65oOH0aC" role="2OqNvi">
-                                      <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
-                                    </node>
+                                  <node concept="liA8E" id="75hf4Jr1kBd" role="2OqNvi">
+                                    <ref role="37wK5l" to="33ny:~Map$Entry.getKey()" resolve="getKey" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="75hf4Jr1kBe" role="37wK5m">
+                                  <node concept="37vLTw" id="75hf4Jr1kBf" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="6r4IH3RnmeK" resolve="it" />
+                                  </node>
+                                  <node concept="liA8E" id="75hf4Jr1kBg" role="2OqNvi">
+                                    <ref role="37wK5l" to="33ny:~Map$Entry.getValue()" resolve="getValue" />
                                   </node>
                                 </node>
                               </node>
@@ -1106,7 +1105,7 @@
                                       <ref role="3cqZAo" node="6r4IH3RnmeM" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="6YbypMzsxoS" role="2OqNvi">
-                                      <ref role="37wK5l" to="imb3:~Language.getKey()" resolve="getKey" />
+                                      <ref role="37wK5l" to="2qhi:~Language.getKey()" resolve="getKey" />
                                     </node>
                                   </node>
                                 </node>
@@ -1159,7 +1158,7 @@
       <node concept="3Tm6S6" id="12kZjFJf5nT" role="1B3o_S" />
       <node concept="A3Dl8" id="12kZjFJf64D" role="3clF45">
         <node concept="3uibUv" id="12kZjFJf69b" role="A3Ik2">
-          <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+          <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
         </node>
       </node>
     </node>
@@ -1684,7 +1683,7 @@
         <property role="TrG5h" value="jsonLanguages" />
         <node concept="A3Dl8" id="12kZjFJfwJC" role="1tU5fm">
           <node concept="3uibUv" id="12kZjFJfwJD" role="A3Ik2">
-            <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+            <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
           </node>
         </node>
       </node>

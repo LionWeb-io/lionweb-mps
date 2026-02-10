@@ -15,11 +15,9 @@
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
     <import index="gkni" ref="r:02305548-3e8d-4e78-b276-85a6e515bf18(io.lionweb.mps.converter.lang.runtime)" />
     <import index="t47h" ref="r:81631f3b-b975-4fe4-875c-bcf53b7729a7(io.lionweb.mps.converter.m2.idmapper.lioncore)" />
     <import index="j5yh" ref="r:137003c8-aa9f-4bda-ae9b-f5d7ec2da82c(io.lionweb.mps.json.idmapper)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
@@ -31,6 +29,8 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="7que" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.serialization.data(io.lionweb.lionweb.java/)" />
+    <import index="2qhi" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.language(io.lionweb.lionweb.java/)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -937,7 +937,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="1q44RFT04gh" role="1tU5fm">
               <node concept="3uibUv" id="1q44RFT04gk" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="1q44RFT04hP" role="33vP2m">
@@ -1058,7 +1058,7 @@
                                   <ref role="3cqZAo" node="6r4IH3Rnmdu" resolve="it" />
                                 </node>
                                 <node concept="liA8E" id="rW84$cl1D1" role="2OqNvi">
-                                  <ref role="37wK5l" to="imb3:~Language.getElements()" resolve="getElements" />
+                                  <ref role="37wK5l" to="2qhi:~Language.getElements()" resolve="getElements" />
                                 </node>
                               </node>
                             </node>
@@ -1454,7 +1454,7 @@
                 <property role="TrG5h" value="usedLanguagesAsJson" />
                 <node concept="A3Dl8" id="6NZwk6fibKP" role="1tU5fm">
                   <node concept="3uibUv" id="6NZwk6fibKQ" role="A3Ik2">
-                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                    <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="6NZwk6fibKR" role="33vP2m">
@@ -1498,7 +1498,7 @@
                 <property role="TrG5h" value="importedLanguages" />
                 <node concept="A3Dl8" id="TXaBS0BhVn" role="1tU5fm">
                   <node concept="3uibUv" id="TXaBS0BiDn" role="A3Ik2">
-                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                    <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="TXaBS0BkQf" role="33vP2m">
@@ -1516,7 +1516,7 @@
                 <property role="TrG5h" value="jsonLanguages" />
                 <node concept="A3Dl8" id="TXaBS0Bohe" role="1tU5fm">
                   <node concept="3uibUv" id="TXaBS0BoEV" role="A3Ik2">
-                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                    <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="TXaBS0Brod" role="33vP2m">
@@ -2532,7 +2532,7 @@
             </node>
             <node concept="A3Dl8" id="7W6jYlyQZ7G" role="1tU5fm">
               <node concept="3uibUv" id="7jdzMameUVX" role="A3Ik2">
-                <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+                <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
               </node>
             </node>
           </node>
@@ -2977,7 +2977,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="7qGUpN3CFJH" role="1tU5fm">
               <node concept="3uibUv" id="7qGUpN3CFJK" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="7qGUpN3CFOf" role="33vP2m">
@@ -3266,7 +3266,7 @@
                 </node>
                 <node concept="_YKpA" id="7W6jYlyR0sI" role="1tU5fm">
                   <node concept="3uibUv" id="5TNjoy1FP2h" role="_ZDj9">
-                    <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+                    <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
                   </node>
                 </node>
               </node>

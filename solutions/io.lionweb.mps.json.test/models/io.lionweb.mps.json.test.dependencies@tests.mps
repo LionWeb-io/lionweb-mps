@@ -13,9 +13,9 @@
     <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="2qhi" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.language(io.lionweb.lionweb.java/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
@@ -674,7 +674,7 @@
             <property role="TrG5h" value="result" />
             <node concept="A3Dl8" id="6luz6qwvziL" role="1tU5fm">
               <node concept="3uibUv" id="6luz6qwvziM" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="6luz6qwvziN" role="33vP2m">
@@ -1004,7 +1004,7 @@
             <property role="TrG5h" value="result" />
             <node concept="A3Dl8" id="5M8g5cT6Gc6" role="1tU5fm">
               <node concept="3uibUv" id="5M8g5cT6Gc7" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="5M8g5cT6Gc8" role="33vP2m">
@@ -1128,7 +1128,7 @@
             <property role="TrG5h" value="result" />
             <node concept="A3Dl8" id="4Yo3buYIfVN" role="1tU5fm">
               <node concept="3uibUv" id="4Yo3buYIfVO" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="4Yo3buYIfVP" role="33vP2m">

@@ -23,7 +23,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="2tb6" ref="r:300426b0-cf40-47a1-9706-260afc20aaf9(io.lionweb.mps.client.connector.api)" />
     <import index="pwbt" ref="r:1aa38865-6d90-41bb-86e8-c2acb8fc829b(io.lionweb.mps.client.connector.impl)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
   </imports>
@@ -325,18 +324,14 @@
       <node concept="3uibUv" id="6bjqKV1nIiF" role="1tU5fm">
         <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
       </node>
-      <node concept="2YIFZM" id="6bjqKV1nIiG" role="33vP2m">
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
+      <node concept="3Tm6S6" id="6bjqKV1nIiJ" role="1B3o_S" />
+      <node concept="2YIFZM" id="6bjqKV1nIiH" role="33vP2m">
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <node concept="2YIFZM" id="6bjqKV1nIiH" role="37wK5m">
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <node concept="3VsKOn" id="6bjqKV1nIiI" role="37wK5m">
-            <ref role="3VsUkX" node="7jdzMamaI06" resolve="LionWebModelRoot" />
-          </node>
+        <ref role="37wK5l" to="wwqx:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
+        <node concept="3VsKOn" id="6bjqKV1nIiI" role="37wK5m">
+          <ref role="3VsUkX" node="7jdzMamaI06" resolve="LionWebModelRoot" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="6bjqKV1nIiJ" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="6bjqKV1nIet" role="jymVt" />
     <node concept="312cEg" id="7jdzMamb2fa" role="jymVt">
@@ -992,18 +987,14 @@
       <node concept="3uibUv" id="1f4Qr8WRQS1" role="1tU5fm">
         <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
       </node>
-      <node concept="2YIFZM" id="1f4Qr8WRQS2" role="33vP2m">
+      <node concept="3Tm6S6" id="1f4Qr8WRQS5" role="1B3o_S" />
+      <node concept="2YIFZM" id="1f4Qr8WRQS3" role="33vP2m">
+        <ref role="37wK5l" to="wwqx:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
-        <node concept="2YIFZM" id="1f4Qr8WRQS3" role="37wK5m">
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <node concept="3VsKOn" id="1f4Qr8WRQS4" role="37wK5m">
-            <ref role="3VsUkX" node="7jdzMambHVS" resolve="LionWebSModelDescriptor" />
-          </node>
+        <node concept="3VsKOn" id="1f4Qr8WRQS4" role="37wK5m">
+          <ref role="3VsUkX" node="7jdzMambHVS" resolve="LionWebSModelDescriptor" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="1f4Qr8WRQS5" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="6bjqKV1nw86" role="jymVt" />
     <node concept="1X3_iC" id="7jdzMamc99P" role="lGtFl">
@@ -1470,7 +1461,7 @@
             <node concept="liA8E" id="7jdzMamdAEc" role="2OqNvi">
               <ref role="37wK5l" node="7jdzMamdt5M" resolve="save" />
               <node concept="1rXfSq" id="7jdzMamicR7" role="37wK5m">
-                <ref role="37wK5l" to="w1kc:~LazyEditableSModelBase.getSModelInternal()" resolve="getSModelInternal" />
+                <ref role="37wK5l" to="w1kc:~LazyEditableSModelBase.getSModel()" resolve="getSModel" />
               </node>
               <node concept="1rXfSq" id="7jdzMamidxz" role="37wK5m">
                 <ref role="37wK5l" to="g3l6:~SModelBase.getRepository()" resolve="getRepository" />

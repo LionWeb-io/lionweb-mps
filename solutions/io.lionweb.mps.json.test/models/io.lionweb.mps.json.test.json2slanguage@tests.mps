@@ -10,7 +10,6 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
   </languages>
   <imports>
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
@@ -20,6 +19,7 @@
     <import index="kte7" ref="r:2b2fbaa9-e628-460c-aea7-59a3006590c9(io.lionweb.mps.json.test.support)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
+    <import index="2qhi" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.language(io.lionweb.lionweb.java/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
@@ -231,7 +231,7 @@
         <node concept="17QB3L" id="5ocQ9W1x$XO" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="5ocQ9W1x$Wg" role="3clF45">
-        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+        <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
       </node>
       <node concept="3clFbS" id="5ocQ9W1x$VF" role="3clF47">
         <node concept="3cpWs8" id="24j7TNH1xBN" role="3cqZAp">
@@ -297,7 +297,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="24j7TNH2B3q" role="1tU5fm">
               <node concept="3uibUv" id="24j7TNH2B3t" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="24j7TNH2B3R" role="33vP2m">
@@ -381,7 +381,7 @@
         <node concept="17QB3L" id="5M8g5cT6Owo" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="5M8g5cT6Owp" role="3clF45">
-        <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+        <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
       </node>
       <node concept="3clFbS" id="5M8g5cT6Owq" role="3clF47">
         <node concept="3cpWs8" id="5M8g5cT6Owr" role="3cqZAp">
@@ -460,7 +460,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="5M8g5cT6OwH" role="1tU5fm">
               <node concept="3uibUv" id="5M8g5cT6OwI" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="5M8g5cT6OwJ" role="33vP2m">
@@ -877,7 +877,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="6luz6qu42g9" role="1tU5fm">
               <node concept="3uibUv" id="6luz6qu42ga" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="6luz6qu42gb" role="33vP2m">
@@ -1022,7 +1022,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="6luz6qu49Ue" role="1tU5fm">
               <node concept="3uibUv" id="6luz6qu49Uf" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="6luz6qu49Ug" role="33vP2m">
@@ -1216,7 +1216,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="6rp9bELPEAh" role="1tU5fm">
               <node concept="3uibUv" id="6rp9bELPEAi" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="6rp9bELPEAj" role="33vP2m">
@@ -1484,7 +1484,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="6rp9bELPR8B" role="1tU5fm">
               <node concept="3uibUv" id="6rp9bELPR8C" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="6rp9bELPR8D" role="33vP2m">
@@ -1671,7 +1671,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="A3Dl8" id="6LPkCA$RA89" role="1tU5fm">
               <node concept="3uibUv" id="6LPkCA$RA8a" role="A3Ik2">
-                <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
               </node>
             </node>
             <node concept="2OqwBi" id="6LPkCA$RA8b" role="33vP2m">
@@ -1863,7 +1863,7 @@
                 <property role="TrG5h" value="languages" />
                 <node concept="_YKpA" id="5ocQ9W1vI8J" role="1tU5fm">
                   <node concept="3uibUv" id="5ocQ9W1vI8K" role="_ZDj9">
-                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                    <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5ocQ9W1vI8L" role="33vP2m">
@@ -1899,7 +1899,7 @@
                   <node concept="1uHKPH" id="5ocQ9W1vI8Y" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="5ocQ9W1vI8Z" role="2OqNvi">
-                  <ref role="37wK5l" to="imb3:~Language.getName()" resolve="getName" />
+                  <ref role="37wK5l" to="2qhi:~Language.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -1910,7 +1910,7 @@
                 <property role="TrG5h" value="converted" />
                 <node concept="3rvAFt" id="5ocQ9W1vI9s" role="1tU5fm">
                   <node concept="3uibUv" id="5ocQ9W1vI9t" role="3rvQeY">
-                    <ref role="3uigEE" to="imb3:~Language" resolve="Language" />
+                    <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
                   </node>
                   <node concept="3uibUv" id="5ocQ9W1vI9u" role="3rvSg0">
                     <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
