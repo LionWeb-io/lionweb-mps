@@ -253,8 +253,8 @@
                   <property role="2Ry0Am" value="io.lionweb.lionweb.java" />
                   <node concept="2Ry0Ak" id="5wsogBcGDKv" role="2Ry0An">
                     <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="1qxNWuVtQMI" role="2Ry0An">
-                      <property role="2Ry0Am" value="lionweb-java-2024.1-core.jar" />
+                    <node concept="2Ry0Ak" id="3sKm7OXvkKY" role="2Ry0An">
+                      <property role="2Ry0Am" value="lionweb-2024.1-core.jar" />
                     </node>
                   </node>
                 </node>
@@ -983,18 +983,18 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1qxNWuVtQCt" role="3bR37C">
-          <node concept="1BurEX" id="1qxNWuVtQCu" role="1SiIV1">
-            <node concept="398BVA" id="1qxNWuVtQCe" role="1BurEY">
+        <node concept="1SiIV0" id="3sKm7OXvjl$" role="3bR37C">
+          <node concept="1BurEX" id="3sKm7OXvjl_" role="1SiIV1">
+            <node concept="398BVA" id="3sKm7OXvjll" role="1BurEY">
               <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
-              <node concept="2Ry0Ak" id="1qxNWuVtQCf" role="iGT6I">
+              <node concept="2Ry0Ak" id="3sKm7OXvjlm" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="1qxNWuVtQCg" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3sKm7OXvjln" role="2Ry0An">
                   <property role="2Ry0Am" value="io.lionweb.lionweb.java" />
-                  <node concept="2Ry0Ak" id="1qxNWuVtQCh" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3sKm7OXvjlo" role="2Ry0An">
                     <property role="2Ry0Am" value="libs" />
-                    <node concept="2Ry0Ak" id="1qxNWuVtQCi" role="2Ry0An">
-                      <property role="2Ry0Am" value="lionweb-java-2024.1-core.jar" />
+                    <node concept="2Ry0Ak" id="3sKm7OXvjlp" role="2Ry0An">
+                      <property role="2Ry0Am" value="lionweb-2024.1-core.jar" />
                     </node>
                   </node>
                 </node>
@@ -1383,6 +1383,11 @@
         <node concept="1SiIV0" id="rW84$cpq8J" role="3bR37C">
           <node concept="3bR9La" id="rW84$cpq8K" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1lp4pUuMkds" role="3bR37C">
+          <node concept="3bR9La" id="1lp4pUuMkdt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:4Hc8TwAmypn" resolve="jetbrains.mps.tool.common" />
           </node>
         </node>
       </node>
