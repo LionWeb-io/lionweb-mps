@@ -54,9 +54,8 @@ tasks.register<JavaExec>("runCommandLineTool") {
         .withJetBrainsJvm() // Optionally request a JetBrains JBR (and fail if it's not available)
         .configure(this)
     classpath(
-//        file("build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/lib/commons-cli.jar'"),
-            file(cmdLinePath), // Location of CommandLineTool.class
-            fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
+        file(cmdLinePath), // Location of CommandLineTool.class
+        fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
     )
     setWorkingDir(projectDir.canonicalPath)
     mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
