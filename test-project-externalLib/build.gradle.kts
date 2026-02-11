@@ -60,6 +60,7 @@ tasks.register<JavaExec>("runCommandLineTool") {
         file(cmdLinePath), // Location of CommandLineTool.class
         fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
     )
+    setWorkingDir(projectDir.canonicalPath)
     mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
     javaLauncher = jbrToolchain.javaLauncher
 
