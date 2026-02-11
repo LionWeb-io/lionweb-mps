@@ -5,6 +5,7 @@ import com.specificlanguages.mps.MainBuild
 plugins {
     id("com.specificlanguages.mps")
     id("com.specificlanguages.jbr-toolchain")
+    id("de.itemis.mps.gradle.launcher")
     `maven-publish`
 }
 
@@ -38,19 +39,26 @@ tasks.register<JavaExec>("runCommandLineTool") {
     dependsOn(tasks.resolveMpsLibraries)
 
     val mpsHome = configurations
-            .getByName("mps")
-            .incoming
-            .artifactView { attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution") }
-            .files
-            .elements
-            .map { it.single().asFile }
-            .get()
+        .getByName("mps")
+        .incoming
+        .artifactView { attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution") }
+        .files
+        .elements
+        .map { it.single().asFile }
+        .get()
     project.logger.info("mpsHome: $mpsHome")
     val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/languages/lionweb-mps.cmdline/io.lionweb.mps.cmdline.jar"
     project.logger.info("cmdLinePath: $cmdLinePath")
+
+    mpsBackendLauncher.builder()
+        .withMpsHome(mpsHome)
+        .withMpsVersion(mpsVersion) // Optionally specify the MPS version explicitly
+        .withJetBrainsJvm() // Optionally request a JetBrains JBR (and fail if it's not available)
+        .configure(this)
     classpath(
-            file(cmdLinePath), // Location of CommandLineTool.class
-            fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
+        file("build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/lib/commons-cli.jar'"),
+        file(cmdLinePath), // Location of CommandLineTool.class
+//            fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
     )
     mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
     javaLauncher = jbrToolchain.javaLauncher
@@ -58,6 +66,8 @@ tasks.register<JavaExec>("runCommandLineTool") {
     val propArgs: String? = project.findProperty("args") as String?
     project.logger.info("propArgs: $propArgs")
     if (propArgs != null) {
-        setArgsString(propArgs)
+        setArgsString(
+            propArgs
+        )
     }
 }
