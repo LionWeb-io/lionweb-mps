@@ -196,15 +196,15 @@ signing {
     sign(publishing.publications["mpsPlugin"])
 }
 
-//release {
-//    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
-//    buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
-//    git {
-//        requireBranch.set("")
-//        pushToRemote.set("origin")
-//        pushOptions.add("--force")
-//    }
-//}
+release {
+    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
+    buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
+    git {
+        requireBranch.set("")
+        pushToRemote.set("origin")
+        pushOptions.add("--force")
+    }
+}
 
 allprojects {
     tasks.register<Wrapper>("allWrappers") {
