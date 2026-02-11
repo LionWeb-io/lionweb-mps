@@ -26,7 +26,7 @@ dependencies {
 mpsBuilds {
     create<MainBuild>("main") {
         buildSolutionDescriptor = file("solutions/test-project.build/test-project.build.msd")
-        buildProjectName = "test-project"
+        buildArtifactsDirectory = file("build/artifacts/test-project")
         buildFile = file("build.xml")
     }
 
@@ -36,14 +36,7 @@ mpsBuilds {
 tasks.register<JavaExec>("runCommandLineTool") {
     dependsOn(tasks.resolveMpsLibraries)
 
-    val mpsHome = configurations
-            .getByName("mps")
-            .incoming
-            .artifactView { attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution") }
-            .files
-            .elements
-            .map { it.single().asFile }
-            .get()
+    val mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
     val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/languages/lionweb-mps.cmdline/io.lionweb.mps.cmdline.jar"
     project.logger.info("cmdLinePath: $cmdLinePath")

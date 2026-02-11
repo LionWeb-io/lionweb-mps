@@ -1,6 +1,5 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
-import com.vanniktech.maven.publish.SonatypeHost
 import org.apache.tools.ant.taskdefs.condition.Os
 import com.specificlanguages.mps.MainBuild
 import com.specificlanguages.mps.TestBuild
@@ -21,6 +20,7 @@ val mpsVersion: String by project
 val jbrVersion: String by project
 val mpsExtensionsVersion: String by project
 val apacheCliVersion: String by project
+val usedGradleVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -35,26 +35,26 @@ dependencies {
 }
 
 mpsBuilds {
-    val main = create<MainBuild>("main") {
+    val main by creating(MainBuild::class) {
         buildSolutionDescriptor = file("solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd")
-        buildProjectName = "io.lionweb.mps"
+        buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps")
         buildFile = file("build.xml")
     }
-    create<TestBuild>("test") {
+    val test by creating(TestBuild::class) {
         dependsOn(main)
         buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.test/io.lionweb.mps.build.test.msd")
-        buildProjectName = "io.lionweb.mps.test"
+        buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps.test")
         buildFile = file("build-test.xml")
     }
 }
 
 bundledDependencies {
-    register("libs") {
-        destinationDir = file("solutions/io.lionweb.lionweb.java/libs")
+    create("libs") {
+        destinationDir = layout.projectDirectory.dir("solutions/io.lionweb.lionweb.java/libs")
         dependency("io.lionweb:lionweb-$lionwebJavaVersion")
     }
-    register("apacheCli") {
-        destinationDir = file("solutions/org.apache.commons.cli/libs")
+    create("apacheCli") {
+        destinationDir = layout.projectDirectory.dir("solutions/org.apache.commons.cli/libs")
         dependency("commons-cli:commons-cli:$apacheCliVersion")
     }
 }
@@ -159,7 +159,7 @@ mavenPublishing {
             }
         }
     }
-    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, true)
+    publishToMavenCentral(automaticRelease = true)
     signAllPublications()
 }
 
@@ -196,12 +196,18 @@ signing {
     sign(publishing.publications["mpsPlugin"])
 }
 
-release {
-    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
-    buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
-    git {
-        requireBranch.set("")
-        pushToRemote.set("origin")
-        pushOptions.add("--force")
-    }
+//release {
+//    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
+//    buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
+//    git {
+//        requireBranch.set("")
+//        pushToRemote.set("origin")
+//        pushOptions.add("--force")
+//    }
+//}
+
+allprojects {
+    tasks.register<Wrapper>("allWrappers") {
+    gradleVersion = usedGradleVersion
+}
 }
