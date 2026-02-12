@@ -23,7 +23,6 @@
     <dependency reexport="false">4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)</dependency>
     <dependency reexport="false">97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
-    <dependency reexport="false">d9e6c08a-a7b1-4ef6-8c54-57d93e9e0ce0(jetbrains.mps.tool.common)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -54,7 +53,6 @@
     <module reference="fdaaf35f-8ee3-4c37-b09d-9efaeaaa7a41(jetbrains.mps.core.tool.environment)" version="0" />
     <module reference="8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="d9e6c08a-a7b1-4ef6-8c54-57d93e9e0ce0(jetbrains.mps.tool.common)" version="0" />
     <module reference="1508a497-2508-4d6b-9b20-103cea864f85(org.apache.commons.cli)" version="0" />
   </dependencyVersions>
 </solution>

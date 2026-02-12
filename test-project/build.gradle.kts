@@ -45,6 +45,7 @@ tasks.register<JavaExec>("runCommandLineTool") {
         .withMpsHome(mpsHome)
         .withMpsVersion(mpsVersion) // Optionally specify the MPS version explicitly
         .withJetBrainsJvm() // Optionally request a JetBrains JBR (and fail if it's not available)
+        .withTemporaryDirectory(projectDir)
         .configure(this)
     classpath(
         file(cmdLinePath), // Location of CommandLineTool.class

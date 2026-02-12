@@ -208,6 +208,6 @@ release {
 
 allprojects {
     tasks.register<Wrapper>("allWrappers") {
-    gradleVersion = usedGradleVersion
-}
+        gradleVersion = usedGradleVersion
+    }
 }
