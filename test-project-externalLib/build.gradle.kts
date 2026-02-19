@@ -1,10 +1,19 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
 import com.specificlanguages.mps.MainBuild
+import de.itemis.mps.gradle.tasks.MpsExecute
+import org.apache.commons.exec.CommandLine
+
+buildscript {
+    dependencies {
+        classpath("org.apache.commons:commons-exec:1.6.+")
+    }
+}
 
 plugins {
     id("com.specificlanguages.mps")
     id("com.specificlanguages.jbr-toolchain")
+    id("de.itemis.mps.gradle.common")
     id("de.itemis.mps.gradle.launcher")
     `maven-publish`
 }
@@ -32,35 +41,24 @@ mpsBuilds {
         buildFile = file("build.xml")
     }
 
+    mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps"))
     mpsDefaults.pathVariables.put("mps-extensions.home", projectDir.resolve("build/dependencies/de.itemis.mps.extensions"))
 }
 
-tasks.register<JavaExec>("runCommandLineTool") {
+tasks.register<MpsExecute>("runCommandLineTool") {
     dependsOn(tasks.resolveMpsLibraries)
 
-    val mpsHome = mpsDefaults.mpsHome.asFile.get()
+    mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
-    val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/languages/lionweb-mps.cmdline/io.lionweb.mps.cmdline.jar"
-    project.logger.info("cmdLinePath: $cmdLinePath")
 
-    mpsBackendLauncher.builder()
-        .withMpsHome(mpsHome)
-        .withMpsVersion(mpsVersion) // Optionally specify the MPS version explicitly
-        .withJetBrainsJvm() // Optionally request a JetBrains JBR (and fail if it's not available)
-        .configure(this)
-    classpath(
-        file(cmdLinePath), // Location of CommandLineTool.class
-        fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
-    )
-    setWorkingDir(projectDir.canonicalPath)
-    mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
-    javaLauncher = jbrToolchain.javaLauncher
-
+    module = "io.lionweb.mps.cmdline"
+    className = "io.lionweb.mps.cmdline.cmd.InternalCommandLineTool"
+    method = "execute"
     val propArgs: String? = project.findProperty("args") as String?
     project.logger.info("propArgs: $propArgs")
     if (propArgs != null) {
-        setArgsString(
-            propArgs
-        )
+        val parse = CommandLine.parse(propArgs)
+        projectLocation = File(parse.executable)
+        methodArguments = listOf(parse.executable) + parse.arguments.toList()
     }
 }

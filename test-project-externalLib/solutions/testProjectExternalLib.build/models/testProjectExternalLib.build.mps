@@ -145,14 +145,6 @@
     </node>
     <node concept="398rNT" id="3Dlb8T1lioB" role="1l3spd">
       <property role="TrG5h" value="lionweb-mps.home" />
-      <node concept="55IIr" id="6LPkCA$43uK" role="398pKh">
-        <node concept="2Ry0Ak" id="6LPkCA$43uN" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="6LPkCA$43uQ" role="2Ry0An">
-            <property role="2Ry0Am" value="" />
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="398rNT" id="6LPkCA$43xi" role="1l3spd">
       <property role="TrG5h" value="mps.macro.lionweb-mps.home" />
