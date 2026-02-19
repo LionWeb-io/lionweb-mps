@@ -20,6 +20,7 @@ junit*.properties
 **/actual/*.json
 build.xml
 build-test.xml
+build-testSupport.xml
 
 # IntelliJ projects (for debugging)
 *.iml

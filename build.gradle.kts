@@ -40,8 +40,14 @@ mpsBuilds {
         buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps")
         buildFile = file("build.xml")
     }
-    val test by creating(TestBuild::class) {
+    val testSupport by creating(MainBuild::class) {
         dependsOn(main)
+        buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.testSupport/io.lionweb.mps.build.testSupport.msd")
+        buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps.testSupport")
+        buildFile = file("build-testSupport.xml")
+    }
+    val test by creating(TestBuild::class) {
+        dependsOn(testSupport)
         buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.test/io.lionweb.mps.build.test.msd")
         buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps.test")
         buildFile = file("build-test.xml")
