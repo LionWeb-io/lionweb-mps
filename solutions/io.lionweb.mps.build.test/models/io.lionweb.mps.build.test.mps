@@ -658,7 +658,7 @@
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="7uHnlfEgjDV" role="2Ry0An">
             <property role="2Ry0Am" value="artifacts" />
-            <node concept="2Ry0Ak" id="7uHnlfEgjDW" role="2Ry0An">
+            <node concept="2Ry0Ak" id="7uHnlfElxZP" role="2Ry0An">
               <property role="2Ry0Am" value="io.lionweb.mps.testSupport" />
             </node>
           </node>

@@ -2237,6 +2237,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="7uHnlfElxQs" role="3bR31x">
+          <node concept="3LXTmp" id="7uHnlfElxQt" role="3rtmxm">
+            <node concept="398BVA" id="7uHnlfElxQu" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="7uHnlfElxQv" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7uHnlfElxQw" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestMpsSpecific" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7uHnlfElxQy" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="6$Vbq$b88b8" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -2273,6 +2289,22 @@
             </node>
             <node concept="3qWCbU" id="6$Vbq$b88sC" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7uHnlfElxOh" role="3bR31x">
+          <node concept="3LXTmp" id="7uHnlfElxOi" role="3rtmxm">
+            <node concept="398BVA" id="7uHnlfElxOj" role="3LXTmr">
+              <ref role="398BVh" node="5wsogBcGDKe" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="7uHnlfElxOk" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7uHnlfElxOl" role="2Ry0An">
+                  <property role="2Ry0Am" value="io.lionweb.mps.converter.TestUtf8" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7uHnlfElxOn" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
             </node>
           </node>
         </node>

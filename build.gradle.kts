@@ -45,6 +45,7 @@ mpsBuilds {
         buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.testSupport/io.lionweb.mps.build.testSupport.msd")
         buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps.testSupport")
         buildFile = file("build-testSupport.xml")
+        published = false
     }
     val test by creating(TestBuild::class) {
         dependsOn(testSupport)
