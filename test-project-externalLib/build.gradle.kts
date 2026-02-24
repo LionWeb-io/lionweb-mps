@@ -31,6 +31,7 @@ dependencies {
     "mps"("com.jetbrains:mps:$mpsVersion")
     jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
     api(project(":"))
+    api(project(":test-project"))
     api("de.itemis.mps:extensions:$mpsExtensionsVersion")
 }
 
@@ -41,7 +42,7 @@ mpsBuilds {
         buildFile = file("build.xml")
     }
 
-    mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps"))
+    mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("../"))
     mpsDefaults.pathVariables.put("mps-extensions.home", projectDir.resolve("build/dependencies/de.itemis.mps.extensions"))
 }
 
@@ -50,6 +51,8 @@ tasks.register<MpsExecute>("runCommandLineTool") {
 
     mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
+    macros.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps").path)
+    macros.put("mps-extensions.home", projectDir.resolve("build/dependencies/de.itemis.mps.extensions").path)
 
     module = "io.lionweb.mps.cmdline"
     className = "io.lionweb.mps.cmdline.cmd.InternalCommandLineTool"
