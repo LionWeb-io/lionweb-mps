@@ -8,6 +8,7 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="e6nc" ref="r:d70b5da3-1a32-4e12-b6d4-f80916aed790(io.lionweb.mps.build)" />
+    <import index="zcxr" ref="r:639fb4bf-731d-4829-86d3-d850824fd0f9(io.lionweb.mps.build.testSupport)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -109,6 +110,7 @@
         <reference id="3189788309731922643" name="language" index="1E1Vl2" />
       </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
+        <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
         <child id="322010710375956261" name="path" index="3LF7KH" />
       </concept>
@@ -143,6 +145,12 @@
         <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
       </node>
     </node>
+    <node concept="2sgV4H" id="5iVSO0$ycRv" role="1l3spa">
+      <ref role="1l3spb" to="zcxr:5wsogBcGDKa" resolve="io.lionweb.mps.testSupport" />
+      <node concept="398BVA" id="5iVSO0$ycUD" role="2JcizS">
+        <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
+      </node>
+    </node>
     <node concept="1l3spV" id="3Dlb8T1lipk" role="1l3spN">
       <node concept="m$_wl" id="4DEgUnPz1hr" role="39821P">
         <ref role="m_rDy" node="3Dlb8T1lip7" resolve="testProject" />
@@ -154,6 +162,7 @@
       <node concept="1E1JtD" id="3Dlb8T1lip5" role="2G$12L">
         <property role="TrG5h" value="FooLanguage" />
         <property role="3LESm3" value="dfd2e6e9-5721-48d9-9de9-36bd54345950" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="3Dlb8T1lip0" role="3LF7KH">
           <node concept="2Ry0Ak" id="3Dlb8T1lip1" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -226,6 +235,9 @@
       </node>
       <node concept="m$_yC" id="6LPkCA$4n45" role="m$_yJ">
         <ref role="m$_y1" to="e6nc:5wsogBcGDKB" resolve="io.lionweb.mps" />
+      </node>
+      <node concept="m$_yC" id="5iVSO0$xWM5" role="m$_yJ">
+        <ref role="m$_y1" to="zcxr:3RxvfZg815U" resolve="io.lionweb.mps.tests.contributions" />
       </node>
       <node concept="3_J27D" id="3Dlb8T1lipe" role="m_cZH">
         <node concept="3Mxwew" id="3Dlb8T1lipf" role="3MwsjC">

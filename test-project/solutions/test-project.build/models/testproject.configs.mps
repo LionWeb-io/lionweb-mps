@@ -39,14 +39,14 @@
   </registry>
   <node concept="pgt$m" id="rW84$ckaC1">
     <property role="TrG5h" value="Instance" />
-    <property role="VS7hl" value="${lionweb-mps.home}/test-project/actual/instance.json" />
+    <property role="VS7hl" value="${lionweb-mps.test-project}/actual/instance.json" />
     <node concept="pgsVv" id="rW84$clfeq" role="pgtdD">
       <ref role="pgsW4" to="cy3f:rW84$clfep" />
     </node>
   </node>
   <node concept="3IuRE0" id="rW84$ckaC5">
     <property role="TrG5h" value="Language" />
-    <property role="VS7hl" value="${lionweb-mps.home}/test-project/actual/language.json" />
+    <property role="VS7hl" value="${lionweb-mps.test-project}/actual/language.json" />
     <property role="2G9pTy" value="utjSYFIcjG/fineGrainedClosure" />
     <node concept="2V$Bhx" id="rW84$ckaC6" role="qeD2G">
       <property role="2V$B1T" value="dfd2e6e9-5721-48d9-9de9-36bd54345950" />

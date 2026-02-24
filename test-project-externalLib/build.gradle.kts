@@ -37,6 +37,7 @@ dependencies {
 
 mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("../"))
 mpsDefaults.pathVariables.put("mps-extensions.home", projectDir.resolve("build/dependencies/de.itemis.mps.extensions"))
+mpsDefaults.pathVariables.put("lionweb-mps.test-project-ExternalLib", projectDir)
 
 mpsBuilds {
     create<MainBuild>("main") {
@@ -60,7 +61,7 @@ tasks.register<MpsExecute>("runCommandLineTool") {
     project.logger.info("propArgs: $propArgs")
     if (propArgs != null) {
         val parse = CommandLine.parse(propArgs)
-        projectLocation = File(parse.executable)
+        projectLocation = projectDir
         methodArguments = listOf(parse.executable) + parse.arguments.toList()
     }
 }

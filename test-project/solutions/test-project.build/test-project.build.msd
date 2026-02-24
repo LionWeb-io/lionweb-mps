@@ -13,6 +13,7 @@
   <dependencies>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
     <dependency reexport="false">bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build)</dependency>
+    <dependency reexport="false">b94ae95b-0a6a-4b2c-a845-770b7925bfea(io.lionweb.mps.build.testSupport)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:dfd2e6e9-5721-48d9-9de9-36bd54345950:FooLanguage" version="0" />
@@ -23,6 +24,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build)" version="0" />
+    <module reference="b94ae95b-0a6a-4b2c-a845-770b7925bfea(io.lionweb.mps.build.testSupport)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
     <module reference="ab7062e9-acbf-4376-a6ce-ddba9e221bd0(test-project.build)" version="0" />
   </dependencyVersions>

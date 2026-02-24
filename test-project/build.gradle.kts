@@ -33,12 +33,13 @@ dependencies {
 }
 
 mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps"))
+mpsDefaults.pathVariables.put("lionweb-mps.test-project", projectDir)
 
 mpsBuilds {
     create<MainBuild>("main") {
-        buildSolutionDescriptor = file("solutions/test-project.build/test-project.build.msd")
-        buildArtifactsDirectory = file("build/artifacts/test-project")
-        buildFile = file("build.xml")
+        buildSolutionDescriptor = projectDir.resolve("solutions/test-project.build/test-project.build.msd")
+        buildArtifactsDirectory = projectDir.resolve("build/artifacts/test-project")
+        buildFile = projectDir.resolve("build.xml")
     }
 }
 
@@ -56,7 +57,7 @@ tasks.register<MpsExecute>("runCommandLineTool") {
     project.logger.info("propArgs: $propArgs")
     if (propArgs != null) {
         val parse = CommandLine.parse(propArgs)
-        projectLocation = File(parse.executable)
+        projectLocation = projectDir
         methodArguments = listOf(parse.executable) + parse.arguments.toList()
     }
 }
