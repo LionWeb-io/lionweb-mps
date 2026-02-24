@@ -7,3 +7,4 @@
 # Ignore downloaded dependencies
 /dependencies/
 
+build.xml
