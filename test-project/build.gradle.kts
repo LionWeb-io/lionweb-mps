@@ -51,7 +51,7 @@ tasks.register<MpsExecute>("runCommandLineTool") {
 
     macros.putAll(mpsDefaults.pathVariables.get().map { (k, v) -> k to v.path }.toMap())
     module = "io.lionweb.mps.cmdline"
-    className = "io.lionweb.mps.cmdline.cmd.InternalCommandLineTool"
+    className = "io.lionweb.mps.cmdline.CommandLineTool"
     method = "execute"
     val propArgs: String? = project.findProperty("args") as String?
     project.logger.info("propArgs: $propArgs")
