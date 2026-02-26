@@ -3049,12 +3049,36 @@
             </node>
             <node concept="liA8E" id="12kZjFJeYYk" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="12kZjFJeYYl" role="37wK5m">
-                <node concept="37vLTw" id="12kZjFJeYYm" role="3uHU7w">
-                  <ref role="3cqZAo" node="12kZjFJepvJ" resolve="project" />
+              <node concept="3cpWs3" id="1sx1qZL00L" role="37wK5m">
+                <node concept="Xl_RD" id="1sx1qZL2nr" role="3uHU7w">
+                  <property role="Xl_RC" value=")" />
                 </node>
-                <node concept="Xl_RD" id="12kZjFJeYYn" role="3uHU7B">
-                  <property role="Xl_RC" value="project: " />
+                <node concept="3cpWs3" id="1sx1qZL6W3" role="3uHU7B">
+                  <node concept="2OqwBi" id="1sx1qZLySV" role="3uHU7w">
+                    <node concept="2YIFZM" id="1sx1qZLsZf" role="2Oq$k0">
+                      <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                      <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                      <node concept="37vLTw" id="1sx1qZLvG2" role="37wK5m">
+                        <ref role="3cqZAo" node="12kZjFJepvJ" resolve="project" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1sx1qZLBbb" role="2OqNvi">
+                      <ref role="37wK5l" to="4nm9:~Project.getBasePath()" resolve="getBasePath" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="1sx1qZKRPi" role="3uHU7B">
+                    <node concept="3cpWs3" id="12kZjFJeYYl" role="3uHU7B">
+                      <node concept="Xl_RD" id="12kZjFJeYYn" role="3uHU7B">
+                        <property role="Xl_RC" value="project: " />
+                      </node>
+                      <node concept="37vLTw" id="12kZjFJeYYm" role="3uHU7w">
+                        <ref role="3cqZAo" node="12kZjFJepvJ" resolve="project" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1sx1qZKVDJ" role="3uHU7w">
+                      <property role="Xl_RC" value=" (" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

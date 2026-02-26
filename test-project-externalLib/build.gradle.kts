@@ -52,7 +52,7 @@ tasks.register<MpsExecute>("runCommandLineTool") {
 
     mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
-
+    javaLauncher = mpsDefaults.javaLauncher
     macros.putAll(mpsDefaults.pathVariables.get().map { (k, v) -> k to v.path }.toMap())
     module = "io.lionweb.mps.cmdline"
     className = "io.lionweb.mps.cmdline.CommandLineTool"

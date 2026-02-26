@@ -344,6 +344,7 @@
     <property role="3GE5qa" value="ExportMpsLanguageToJson" />
     <property role="TrG5h" value="ExportMpsLanguageStructureToJson" />
     <property role="34LRSv" value="Export MPS Language Structure to JSON" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="78CjgICU$W9" resolve="AExportMpsLanguageToJson" />
     <node concept="1TJgyj" id="78CjgICU_g3" role="1TKVEi">
       <property role="IQ2ns" value="8225909431866119171" />

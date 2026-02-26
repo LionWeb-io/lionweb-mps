@@ -23,21 +23,29 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="y5e1" ref="r:4464540a-9650-433f-b716-ed95bbac5a69(jetbrains.mps.lang.test.matcher)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="qgkr" ref="r:ad055bac-45fa-40ab-952e-99cbe012c2a7(io.lionweb.mps.converter.lang.typesystem)" />
     <import index="2pzz" ref="r:74e14b22-3b4a-45ce-940b-9bdca99c102f(io.lionweb.mps.m3.builtin)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="1215507671101" name="jetbrains.mps.lang.test.structure.NodeErrorCheckOperation" flags="ng" index="1TM$A">
+        <child id="8489045168660938517" name="errorRef" index="3lydEf" />
+      </concept>
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
       <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
         <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
       </concept>
+      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ngI" index="2u4UPC">
+        <reference id="8333855927540250453" name="declaration" index="39XzEq" />
+      </concept>
       <concept id="1211979288880" name="jetbrains.mps.lang.test.structure.AssertMatch" flags="nn" index="JA50E">
         <child id="1211979305365" name="before" index="JA92f" />
         <child id="1211979322383" name="after" index="JAdkl" />
       </concept>
+      <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
@@ -4222,6 +4230,67 @@
         </node>
         <node concept="3xLA65" id="78CjgIDezWK" role="lGtFl">
           <property role="TrG5h" value="runtimeLegacy" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1sx1qZPmse" role="1SKRRt">
+      <node concept="3IuRE0" id="1sx1qZPmsf" role="1qenE9">
+        <property role="TrG5h" value="Runtime" />
+        <property role="VS7hl" value="myPath.runtime.tmp" />
+        <property role="3qKxPQ" value="utjSYFIcjG/fineGrainedClosure" />
+        <node concept="7CXmI" id="1sx1qZPmsg" role="lGtFl">
+          <node concept="7OXhh" id="1sx1qZPmsh" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+        <node concept="2V$Bhx" id="1sx1qZPo75" role="qeD2G">
+          <property role="2V$B1T" value="2c6dbcda-01d0-4f81-b401-04db353645d0" />
+          <property role="2V$B1Q" value="BrokenLang" />
+          <node concept="7CXmI" id="1sx1qZT1x4" role="lGtFl">
+            <node concept="1TM$A" id="1sx1qZT1x5" role="7EUXB">
+              <node concept="2PYRI3" id="1sx1qZT1OU" role="3lydEf">
+                <ref role="39XzEq" to="qgkr:1sx1qZQTpH" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1sx1qZPmIK" role="1SKRRt">
+      <node concept="3qKxXD" id="1sx1qZPmIL" role="1qenE9">
+        <property role="TrG5h" value="Structure" />
+        <property role="VS7hl" value="myPath.structure.tmp" />
+        <property role="3qKxPQ" value="utjSYFIcjG/fineGrainedClosure" />
+        <node concept="7CXmI" id="1sx1qZPmIM" role="lGtFl">
+          <node concept="7OXhh" id="1sx1qZPmIN" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+        <node concept="3raVcy" id="1sx1qZPmIO" role="qeD2G">
+          <node concept="1dCxOk" id="1sx1qZPmW9" role="PFCIW">
+            <property role="1XweGW" value="2c6dbcda-01d0-4f81-b401-04db353645d0" />
+            <property role="1XxBO9" value="BrokenLang" />
+          </node>
+          <node concept="7CXmI" id="1sx1qZTiMB" role="lGtFl">
+            <node concept="1TM$A" id="1sx1qZTiMC" role="7EUXB">
+              <node concept="2PYRI3" id="1sx1qZTiMD" role="3lydEf">
+                <ref role="39XzEq" to="qgkr:1sx1qZQbot" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3raVcy" id="1sx1qZTJ25" role="qeD2G">
+          <node concept="1dCxOk" id="1sx1qZTJ26" role="PFCIW">
+            <property role="1XxBO9" value="io.lionweb.mps.converter" />
+            <property role="1XweGW" value="4d96f781-5fa4-4d94-817a-c51f74fdf43f" />
+          </node>
+          <node concept="7CXmI" id="1sx1qZTKqm" role="lGtFl">
+            <node concept="1TM$A" id="1sx1qZTKqn" role="7EUXB">
+              <node concept="2PYRI3" id="1sx1qZTKqo" role="3lydEf">
+                <ref role="39XzEq" to="qgkr:1sx1qZQcHs" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
