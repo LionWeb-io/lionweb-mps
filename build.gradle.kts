@@ -106,7 +106,7 @@ tasks.register<Exec>("testCmdLineExport-foo-externalLib") {
     commandLine("./scripts/export-foo.sh")
 }
 
-tasks.register<Exec>("testCmdLineExport-configs") {
+tasks.register<Exec>("testCmdLineExport-configs-externalLib") {
     workingDir("./test-project-externalLib")
     commandLine("./scripts/export-configs.sh")
 }
@@ -118,7 +118,7 @@ tasks.register("testCmdLineExport") {
     dependsOn("testCmdLineExport-configs")
     dependsOn("testCmdLineExport-DependsOnMpsExtension-externalLib")
     dependsOn("testCmdLineExport-foo-externalLib")
-    dependsOn("testCmdLineExport-configs")
+    dependsOn("testCmdLineExport-configs-externalLib")
 }
 
 val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
