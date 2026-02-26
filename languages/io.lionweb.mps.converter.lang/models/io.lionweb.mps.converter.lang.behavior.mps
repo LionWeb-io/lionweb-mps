@@ -855,7 +855,7 @@
           <node concept="3cpWsn" id="utjSYFIfHt" role="3cpWs9">
             <property role="TrG5h" value="scope" />
             <node concept="3uibUv" id="utjSYFIfHu" role="1tU5fm">
-              <ref role="3uigEE" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+              <ref role="3uigEE" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
             </node>
             <node concept="3X5UdL" id="utjSYFIfTM" role="33vP2m">
               <node concept="2OqwBi" id="utjSYFIg60" role="3X5Ude">
@@ -870,7 +870,7 @@
                 </node>
                 <node concept="3X5gDF" id="utjSYFIgrI" role="3X5gFO">
                   <node concept="Rm8GO" id="utjSYFIgxj" role="3X5gDC">
-                    <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                    <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
                     <ref role="Rm8GQ" to="6peh:24j7TNH1AVV" resolve="listed" />
                   </node>
                 </node>
@@ -881,7 +881,7 @@
                 </node>
                 <node concept="3X5gDF" id="utjSYFIgMT" role="3X5gFO">
                   <node concept="Rm8GO" id="utjSYFIgTs" role="3X5gDC">
-                    <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                    <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
                     <ref role="Rm8GQ" to="6peh:24j7TNH1AVW" resolve="indirect" />
                   </node>
                 </node>
@@ -892,7 +892,7 @@
                 </node>
                 <node concept="3X5gDF" id="utjSYFIhgX" role="3X5gFO">
                   <node concept="Rm8GO" id="utjSYFIhoe" role="3X5gDC">
-                    <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                    <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
                     <ref role="Rm8GQ" to="6peh:utjSYFI7F7" resolve="fineGrainedClosure" />
                   </node>
                 </node>

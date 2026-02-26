@@ -1231,7 +1231,7 @@
       <node concept="37vLTG" id="utjSYFOKH5" role="3clF46">
         <property role="TrG5h" value="scope" />
         <node concept="3uibUv" id="utjSYFOKQk" role="1tU5fm">
-          <ref role="3uigEE" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+          <ref role="3uigEE" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
         </node>
       </node>
       <node concept="37vLTG" id="5ocQ9W1x$Xx" role="3clF46">
@@ -1438,7 +1438,7 @@
                 </node>
                 <node concept="Rm8GO" id="utjSYFOLms" role="2XxRq1">
                   <ref role="Rm8GQ" to="6peh:24j7TNH1AVW" resolve="indirect" />
-                  <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                  <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
                 </node>
                 <node concept="Xl_RD" id="5ocQ9W1xDv0" role="2XxRq1">
                   <property role="Xl_RC" value="TestIntentions-full-metamodel.json" />
@@ -1476,7 +1476,7 @@
                 </node>
                 <node concept="Rm8GO" id="utjSYFOLzR" role="2XxRq1">
                   <ref role="Rm8GQ" to="6peh:utjSYFI7F7" resolve="fineGrainedClosure" />
-                  <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                  <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
                 </node>
                 <node concept="Xl_RD" id="utjSYFOLni" role="2XxRq1">
                   <property role="Xl_RC" value="TestIntentions-fineGrainedClosure-metamodel.json" />

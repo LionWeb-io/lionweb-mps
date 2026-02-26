@@ -1162,7 +1162,7 @@
                         <ref role="37wK5l" to="6peh:24j7TNH1Bia" resolve="convert" />
                         <node concept="Rm8GO" id="24j7TNH23vO" role="37wK5m">
                           <ref role="Rm8GQ" to="6peh:24j7TNH1AVV" resolve="listed" />
-                          <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2ToJson.Scope" />
+                          <ref role="1Px2BO" to="6peh:24j7TNH1AVU" resolve="M2Scope" />
                         </node>
                       </node>
                     </node>
