@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:da0753ed-fd85-4668-86e6-5e001fc15acd(io.lionweb.mps.json.test.mergeRefs)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2" name="io.lionweb.mps.converter.TestRefs" version="0" />
     <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />

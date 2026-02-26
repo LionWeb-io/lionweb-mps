@@ -62,7 +62,7 @@
     <module reference="ac1d3da7-5f56-482d-8c2c-cf6ea70b4f13(io.lionweb.mps.converter.TestCoreRefLang)" version="0" />
     <module reference="08caad75-8246-4427-bb4d-8444b6c5c729(io.lionweb.mps.converter.TestLang)" version="0" />
     <module reference="099490a3-1e39-4ed1-bebc-8027665cecf9(io.lionweb.mps.converter.TestLang3)" version="0" />
-    <module reference="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" version="0" />
+    <module reference="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" version="3" />
     <module reference="eb82f92f-8e76-4b0e-9953-e831859d6674(io.lionweb.mps.converter.lang.runtime)" version="0" />
     <module reference="40a3fe0a-1d02-46b6-958d-a0735bd5c704(io.lionweb.mps.converter.test)" version="0" />
     <module reference="1f02557f-ee3b-4ebc-bcea-ff6ec30a2c3e(io.lionweb.mps.converter.test.support)" version="0" />

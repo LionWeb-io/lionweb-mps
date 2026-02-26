@@ -228,6 +228,9 @@
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -302,6 +305,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -3679,7 +3690,7 @@
                                 </node>
                                 <node concept="1_3QMl" id="rW84$cog9u" role="1_3QMm">
                                   <node concept="3gn64h" id="rW84$cog9v" role="3Kbmr2">
-                                    <ref role="3gnhBz" to="d0tf:7qGUpN3ChNP" resolve="ExportLanguageToJson" />
+                                    <ref role="3gnhBz" to="d0tf:7qGUpN3ChNP" resolve="ExportLionCoreLanguageToJson" />
                                   </node>
                                   <node concept="3clFbS" id="rW84$cog9w" role="3Kbo57">
                                     <node concept="3clFbJ" id="rW84$cog9x" role="3cqZAp">
@@ -3691,7 +3702,7 @@
                                           <node concept="3cpWsn" id="rW84$cog9_" role="3cpWs9">
                                             <property role="TrG5h" value="node" />
                                             <node concept="3Tqbb2" id="rW84$cog9A" role="1tU5fm">
-                                              <ref role="ehGHo" to="d0tf:7qGUpN3ChNP" resolve="ExportLanguageToJson" />
+                                              <ref role="ehGHo" to="d0tf:7qGUpN3ChNP" resolve="ExportLionCoreLanguageToJson" />
                                             </node>
                                             <node concept="1eOMI4" id="rW84$cog9B" role="33vP2m">
                                               <node concept="10QFUN" id="rW84$cog9C" role="1eOMHV">
@@ -3699,7 +3710,7 @@
                                                   <ref role="3cqZAo" node="6r4IH3RnmeU" resolve="it" />
                                                 </node>
                                                 <node concept="3Tqbb2" id="rW84$cog9E" role="10QFUM">
-                                                  <ref role="ehGHo" to="d0tf:7qGUpN3ChNP" resolve="ExportLanguageToJson" />
+                                                  <ref role="ehGHo" to="d0tf:7qGUpN3ChNP" resolve="ExportLionCoreLanguageToJson" />
                                                 </node>
                                               </node>
                                             </node>
@@ -3767,7 +3778,7 @@
                                 </node>
                                 <node concept="1_3QMl" id="rW84$coga1" role="1_3QMm">
                                   <node concept="3gn64h" id="rW84$coga2" role="3Kbmr2">
-                                    <ref role="3gnhBz" to="d0tf:1q44RFSZQBU" resolve="ExportMpsLanguageToJson" />
+                                    <ref role="3gnhBz" to="d0tf:78CjgICU$W9" resolve="AExportMpsLanguageToJson" />
                                   </node>
                                   <node concept="3clFbS" id="rW84$coga3" role="3Kbo57">
                                     <node concept="3clFbJ" id="rW84$coga4" role="3cqZAp">
@@ -3779,7 +3790,7 @@
                                           <node concept="3cpWsn" id="rW84$coga8" role="3cpWs9">
                                             <property role="TrG5h" value="node" />
                                             <node concept="3Tqbb2" id="rW84$coga9" role="1tU5fm">
-                                              <ref role="ehGHo" to="d0tf:1q44RFSZQBU" resolve="ExportMpsLanguageToJson" />
+                                              <ref role="ehGHo" to="d0tf:78CjgICU$W9" resolve="AExportMpsLanguageToJson" />
                                             </node>
                                             <node concept="1eOMI4" id="rW84$cogaa" role="33vP2m">
                                               <node concept="10QFUN" id="rW84$cogab" role="1eOMHV">
@@ -3787,7 +3798,7 @@
                                                   <ref role="3cqZAo" node="6r4IH3RnmeU" resolve="it" />
                                                 </node>
                                                 <node concept="3Tqbb2" id="rW84$cogad" role="10QFUM">
-                                                  <ref role="ehGHo" to="d0tf:1q44RFSZQBU" resolve="ExportMpsLanguageToJson" />
+                                                  <ref role="ehGHo" to="d0tf:78CjgICU$W9" resolve="AExportMpsLanguageToJson" />
                                                 </node>
                                               </node>
                                             </node>
@@ -3823,7 +3834,7 @@
                                               <ref role="3cqZAo" node="rW84$coga8" resolve="node" />
                                             </node>
                                             <node concept="2qgKlT" id="rW84$cogaq" role="2OqNvi">
-                                              <ref role="37wK5l" to="aoz0:5N2LjD7MF5g" resolve="export" />
+                                              <ref role="37wK5l" to="aoz0:78CjgICUDGq" resolve="export" />
                                               <node concept="1bVj0M" id="rW84$cogar" role="37wK5m">
                                                 <node concept="37vLTG" id="rW84$cogas" role="1bW2Oz">
                                                   <property role="TrG5h" value="msg" />
@@ -4538,9 +4549,40 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="7uHnlfEimQn" role="3cqZAp">
-              <node concept="3cmrfG" id="78CjgICCG99" role="3cqZAk">
-                <property role="3cmrfH" value="1" />
+            <node concept="3SKdUt" id="78CjgIDfLA9" role="3cqZAp">
+              <node concept="1PaTwC" id="78CjgIDfLAa" role="1aUNEU">
+                <node concept="3oM_SD" id="78CjgIDfLAb" role="1PaTwD">
+                  <property role="3oM_SC" value="TODO:" />
+                </node>
+                <node concept="3oM_SD" id="78CjgIDfLMf" role="1PaTwD">
+                  <property role="3oM_SC" value="Workaround" />
+                </node>
+                <node concept="3oM_SD" id="78CjgIDfLNx" role="1PaTwD">
+                  <property role="3oM_SC" value="until" />
+                </node>
+                <node concept="3oM_SD" id="78CjgIDfLON" role="1PaTwD">
+                  <property role="3oM_SC" value="https://github.com/mbeddr/mps-gradle-plugin/issues/175" />
+                </node>
+                <node concept="3oM_SD" id="78CjgIDfLQ4" role="1PaTwD">
+                  <property role="3oM_SC" value="has" />
+                </node>
+                <node concept="3oM_SD" id="78CjgIDfLRl" role="1PaTwD">
+                  <property role="3oM_SC" value="been" />
+                </node>
+                <node concept="3oM_SD" id="78CjgIDfLSA" role="1PaTwD">
+                  <property role="3oM_SC" value="implemented" />
+                </node>
+              </node>
+            </node>
+            <node concept="YS8fn" id="78CjgIDfFpW" role="3cqZAp">
+              <node concept="2ShNRf" id="78CjgIDfF_W" role="YScLw">
+                <node concept="1pGfFk" id="78CjgIDfKa4" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="78CjgIDfKwy" role="37wK5m">
+                    <property role="Xl_RC" value="export failed" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

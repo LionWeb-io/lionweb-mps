@@ -46,7 +46,7 @@
     <module reference="9d6d7230-3178-4b3f-a837-7c0180c86207(io.lionweb.lionweb.java)" version="0" />
     <module reference="27e6f9d4-17e0-4eba-b857-d984dd2b2e5c(io.lionweb.mps.cmdline)" version="0" />
     <module reference="4d96f781-5fa4-4d94-817a-c51f74fdf43f(io.lionweb.mps.converter)" version="0" />
-    <module reference="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" version="0" />
+    <module reference="97ef2b8d-23e1-433e-8d23-48f916dd314d(io.lionweb.mps.converter.lang)" version="3" />
     <module reference="39d4fcb0-6a78-41ac-8e8f-01bb784b65fc(io.lionweb.mps.json)" version="0" />
     <module reference="7350a1d7-537e-4f0d-9965-e91c82522d7d(io.lionweb.mps.m3.runtime)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />

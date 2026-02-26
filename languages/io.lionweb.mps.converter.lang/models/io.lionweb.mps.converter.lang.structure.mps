@@ -3,13 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <use id="86ef8290-12bb-4ca7-947f-093788f263a9" name="jetbrains.mps.lang.project" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -24,6 +23,9 @@
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
       </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
@@ -54,10 +56,15 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -114,8 +121,8 @@
   </node>
   <node concept="1TIwiD" id="7qGUpN3ChNP">
     <property role="EcuMT" value="8551466651976015093" />
-    <property role="TrG5h" value="ExportLanguageToJson" />
-    <property role="34LRSv" value="Export Language to JSON" />
+    <property role="TrG5h" value="ExportLionCoreLanguageToJson" />
+    <property role="34LRSv" value="Export LionCore Language to JSON" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
     <node concept="PrWs8" id="7qGUpN3CiCo" role="PzmwI">
@@ -222,30 +229,44 @@
   </node>
   <node concept="1TIwiD" id="1q44RFSZQBU">
     <property role="EcuMT" value="1622443184644647418" />
-    <property role="TrG5h" value="ExportMpsLanguageToJson" />
-    <property role="34LRSv" value="Export MPS Language to JSON" />
+    <property role="TrG5h" value="ExportSLanguageToJson" />
+    <property role="34LRSv" value="Export MPS SLanguage to JSON" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+    <property role="3GE5qa" value="ExportMpsLanguageToJson" />
+    <ref role="1TJDcQ" node="78CjgICU$W9" resolve="AExportMpsLanguageToJson" />
     <node concept="1TJgyi" id="utjSYFId7H" role="1TKVEl">
       <property role="IQ2nx" value="548682208089002477" />
-      <property role="TrG5h" value="scope" />
+      <property role="TrG5h" value="scope_old" />
       <ref role="AX2Wp" node="utjSYFIbxq" resolve="LanguageExportScope" />
+      <node concept="asaX9" id="78CjgICU_28" role="lGtFl">
+        <property role="YLQ7P" value="The property was moved to concept &quot;io.lionweb.mps.converter.lang.structure.AExportMpsLanguageToJson&quot;" />
+      </node>
     </node>
     <node concept="1TJgyi" id="5M8g5cT5W10" role="1TKVEl">
       <property role="IQ2nx" value="6667649974506340416" />
-      <property role="TrG5h" value="exportDescriptionAnnotations" />
+      <property role="TrG5h" value="exportDescriptionAnnotations_old" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="78CjgICU_3p" role="lGtFl">
+        <property role="YLQ7P" value="The property was moved to concept &quot;io.lionweb.mps.converter.lang.structure.AExportMpsLanguageToJson&quot;" />
+      </node>
     </node>
     <node concept="1TJgyi" id="6LPkCA_dTg9" role="1TKVEl">
       <property role="IQ2nx" value="7815243479507244041" />
-      <property role="TrG5h" value="exportSpecialAnnotations" />
+      <property role="TrG5h" value="exportSpecialAnnotations_old" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="1q44RFSZQBV" role="PzmwI">
-      <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
+      <node concept="asaX9" id="78CjgICU_4k" role="lGtFl">
+        <property role="YLQ7P" value="The property was moved to concept &quot;io.lionweb.mps.converter.lang.structure.AExportMpsLanguageToJson&quot;" />
+      </node>
     </node>
     <node concept="1QGGSu" id="1q44RFSZQBW" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/language2json.png" />
+    </node>
+    <node concept="1TJgyj" id="78CjgICU$TB" role="1TKVEi">
+      <property role="IQ2ns" value="8225909431866117735" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="languages" />
+      <ref role="20ksaX" node="4pht$XsqYrz" resolve="languages" />
+      <ref role="20lvS9" to="tp25:34EJa6aIcz0" resolve="LanguageId" />
     </node>
   </node>
   <node concept="PlHQZ" id="1q44RFSZQFB">
@@ -292,6 +313,51 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tp25:34EJa6aIcco" resolve="LanguageIdentity" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="78CjgICU$W9">
+    <property role="EcuMT" value="8225909431866117897" />
+    <property role="TrG5h" value="AExportMpsLanguageToJson" />
+    <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="ExportMpsLanguageToJson" />
+    <ref role="1TJDcQ" node="4na9S9Ya_fk" resolve="APathConverter" />
+    <node concept="PrWs8" id="78CjgICU_0a" role="PzmwI">
+      <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
+    </node>
+    <node concept="1TJgyi" id="78CjgICU_1X" role="1TKVEl">
+      <property role="IQ2nx" value="8225909431866118269" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="utjSYFIbxq" resolve="LanguageExportScope" />
+    </node>
+    <node concept="1TJgyi" id="78CjgICU_3e" role="1TKVEl">
+      <property role="IQ2nx" value="8225909431866118350" />
+      <property role="TrG5h" value="exportDescriptionAnnotations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="78CjgICU_49" role="1TKVEl">
+      <property role="IQ2nx" value="8225909431866118409" />
+      <property role="TrG5h" value="exportSpecialAnnotations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="78CjgICU_9y">
+    <property role="EcuMT" value="8225909431866118754" />
+    <property role="3GE5qa" value="ExportMpsLanguageToJson" />
+    <property role="TrG5h" value="ExportMpsLanguageStructureToJson" />
+    <property role="34LRSv" value="Export MPS Language Structure to JSON" />
+    <ref role="1TJDcQ" node="78CjgICU$W9" resolve="AExportMpsLanguageToJson" />
+    <node concept="1TJgyj" id="78CjgICU_g3" role="1TKVEi">
+      <property role="IQ2ns" value="8225909431866119171" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="languages" />
+      <ref role="20ksaX" node="4pht$XsqYrz" resolve="languages" />
+      <ref role="20lvS9" node="78CjgID0ZSD" resolve="LanguageSourceIdentity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="78CjgID0ZSD">
+    <property role="EcuMT" value="8225909431867801129" />
+    <property role="3GE5qa" value="ExportMpsLanguageToJson" />
+    <property role="TrG5h" value="LanguageSourceIdentity" />
+    <ref role="1TJDcQ" to="tp25:296OPknU5z2" resolve="LanguageIdentityBySourceModule" />
   </node>
 </model>
 
