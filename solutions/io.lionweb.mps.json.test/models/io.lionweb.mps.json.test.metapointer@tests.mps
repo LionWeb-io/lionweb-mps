@@ -25,6 +25,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="7que" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.serialization.data(io.lionweb.lionweb.java/)" />
+    <import index="oimj" ref="r:75259495-87b7-4ae0-9186-818f1c16b7b1(io.lionweb.mps.json.language.mps)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -6143,6 +6144,264 @@
         <ref role="3uigEE" to="pe0e:A9P4gGMVyE" resolve="IGuaranteedMetaPointerLookup" />
       </node>
       <node concept="3Tm6S6" id="12kZjFJeORi" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="20visSn8DJS">
+    <property role="TrG5h" value="TestGuaranteedLanguageLookup" />
+    <node concept="1LZb2c" id="20visSn8DJT" role="1SL9yI">
+      <property role="TrG5h" value="validDefaultVersion" />
+      <node concept="3cqZAl" id="20visSn8DJU" role="3clF45" />
+      <node concept="3clFbS" id="20visSn8DJV" role="3clF47">
+        <node concept="3cpWs8" id="20visSn8DJW" role="3cqZAp">
+          <node concept="3cpWsn" id="20visSn8DJX" role="3cpWs9">
+            <property role="TrG5h" value="actual" />
+            <node concept="2OqwBi" id="20visSn8DJZ" role="33vP2m">
+              <node concept="2OqwBi" id="20visSn8DK0" role="2Oq$k0">
+                <node concept="2WthIp" id="20visSn8DK1" role="2Oq$k0" />
+                <node concept="2XshWL" id="20visSn8DK2" role="2OqNvi">
+                  <ref role="2WH_rO" node="20visSn8DKQ" resolve="create" />
+                </node>
+              </node>
+              <node concept="liA8E" id="20visSn8DK3" role="2OqNvi">
+                <ref role="37wK5l" to="oimj:4R9posqrkh9" resolve="lookupLanguage" />
+                <node concept="2YIFZM" id="20visSn8DK4" role="37wK5m">
+                  <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                  <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                  <node concept="Xl_RD" id="20visSn8DK5" role="37wK5m">
+                    <property role="Xl_RC" value="NTM3ZjljYjAtMGYyNS0zYzc2LThiODYtMzA4ZjQ1MDEwMTAw" />
+                  </node>
+                  <node concept="Xl_RD" id="20visSn8DK6" role="37wK5m">
+                    <property role="Xl_RC" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="H_c77" id="20visSn8FxR" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="20visSn8DK7" role="3cqZAp" />
+        <node concept="3vlDli" id="20visSn8DK8" role="3cqZAp">
+          <node concept="2OqwBi" id="20visSn8FLh" role="3tpDZB">
+            <node concept="1Xw6AR" id="20visSn8F_v" role="2Oq$k0">
+              <node concept="1dCxOl" id="20visSn8GzE" role="1XwpL7">
+                <property role="1XweGQ" value="r:c9b5090c-7263-4642-b8f4-1265e3a15687" />
+                <node concept="1j_P7g" id="20visSn8GzF" role="1j$8Uc">
+                  <property role="1j_P7h" value="library.structure" />
+                </node>
+              </node>
+            </node>
+            <node concept="2yCiCJ" id="20visSn8FV9" role="2OqNvi">
+              <node concept="2OqwBi" id="20visSn8G5v" role="Vysub">
+                <node concept="liA8E" id="20visSn8GeC" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
+                <node concept="2JrnkZ" id="20visSn8G5$" role="2Oq$k0">
+                  <node concept="1jGwE1" id="20visSn8FWk" role="2JrQYb" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="20visSn8DKb" role="3tpDZA">
+            <ref role="3cqZAo" node="20visSn8DJX" resolve="actual" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="20visSn8GlC" role="1SL9yI">
+      <property role="TrG5h" value="validCustomVersion" />
+      <node concept="3cqZAl" id="20visSn8GlD" role="3clF45" />
+      <node concept="3clFbS" id="20visSn8GlE" role="3clF47">
+        <node concept="3cpWs8" id="20visSn8GlF" role="3cqZAp">
+          <node concept="3cpWsn" id="20visSn8GlG" role="3cpWs9">
+            <property role="TrG5h" value="actual" />
+            <node concept="2OqwBi" id="20visSn8GlH" role="33vP2m">
+              <node concept="2OqwBi" id="20visSn8GlI" role="2Oq$k0">
+                <node concept="2WthIp" id="20visSn8GlJ" role="2Oq$k0" />
+                <node concept="2XshWL" id="20visSn8GlK" role="2OqNvi">
+                  <ref role="2WH_rO" node="20visSn8DKQ" resolve="create" />
+                </node>
+              </node>
+              <node concept="liA8E" id="20visSn8GlL" role="2OqNvi">
+                <ref role="37wK5l" to="oimj:4R9posqrkh9" resolve="lookupLanguage" />
+                <node concept="2YIFZM" id="20visSn8GlM" role="37wK5m">
+                  <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                  <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                  <node concept="Xl_RD" id="20visSn8GlN" role="37wK5m">
+                    <property role="Xl_RC" value="My-TestLang3" />
+                  </node>
+                  <node concept="Xl_RD" id="20visSn8GlO" role="37wK5m">
+                    <property role="Xl_RC" value="00 my! VERSION 😀" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="H_c77" id="20visSn8GlP" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="20visSn8GlQ" role="3cqZAp" />
+        <node concept="3vlDli" id="20visSn8GlR" role="3cqZAp">
+          <node concept="2OqwBi" id="20visSn8GlS" role="3tpDZB">
+            <node concept="1Xw6AR" id="20visSn8GlT" role="2Oq$k0">
+              <node concept="1dCxOl" id="20visSn8GlU" role="1XwpL7">
+                <property role="1XweGQ" value="r:2e1d95ed-4ed0-4ecd-bc84-f6c7c405fa7f" />
+                <node concept="1j_P7g" id="20visSn8GlV" role="1j$8Uc">
+                  <property role="1j_P7h" value="io.lionweb.mps.converter.TestLang3.structure" />
+                </node>
+              </node>
+            </node>
+            <node concept="2yCiCJ" id="20visSn8GlW" role="2OqNvi">
+              <node concept="2OqwBi" id="20visSn8GlX" role="Vysub">
+                <node concept="liA8E" id="20visSn8GlY" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+                </node>
+                <node concept="2JrnkZ" id="20visSn8GlZ" role="2Oq$k0">
+                  <node concept="1jGwE1" id="20visSn8Gm0" role="2JrQYb" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="20visSn8Gm1" role="3tpDZA">
+            <ref role="3cqZAo" node="20visSn8GlG" resolve="actual" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="20visSn8DKc" role="1SL9yI">
+      <property role="TrG5h" value="mpsVersion" />
+      <node concept="3cqZAl" id="20visSn8DKd" role="3clF45" />
+      <node concept="3clFbS" id="20visSn8DKe" role="3clF47">
+        <node concept="3$NI$W" id="20visSn8DKf" role="3cqZAp">
+          <node concept="3uibUv" id="20visSn8DKg" role="3$Qgvv">
+            <ref role="3uigEE" to="6peh:4R9posqrx51" resolve="UsedLanguageLionwebJsonException" />
+          </node>
+          <node concept="3clFbF" id="20visSn8DKh" role="3$Oloe">
+            <node concept="2OqwBi" id="20visSn8DKi" role="3clFbG">
+              <node concept="2OqwBi" id="20visSn8DKj" role="2Oq$k0">
+                <node concept="2WthIp" id="20visSn8DKk" role="2Oq$k0" />
+                <node concept="2XshWL" id="20visSn8DKl" role="2OqNvi">
+                  <ref role="2WH_rO" node="20visSn8DKQ" resolve="create" />
+                </node>
+              </node>
+              <node concept="liA8E" id="20visSn8DKm" role="2OqNvi">
+                <ref role="37wK5l" to="oimj:4R9posqrkh9" resolve="lookupLanguage" />
+                <node concept="2YIFZM" id="20visSn8DKn" role="37wK5m">
+                  <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                  <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                  <node concept="Xl_RD" id="20visSn8DKo" role="37wK5m">
+                    <property role="Xl_RC" value="My-TestLang3" />
+                  </node>
+                  <node concept="Xl_RD" id="20visSn8DKp" role="37wK5m">
+                    <property role="Xl_RC" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="20visSn8DKq" role="1SL9yI">
+      <property role="TrG5h" value="wrongVersion" />
+      <node concept="3cqZAl" id="20visSn8DKr" role="3clF45" />
+      <node concept="3clFbS" id="20visSn8DKs" role="3clF47">
+        <node concept="3$NI$W" id="20visSn8DKt" role="3cqZAp">
+          <node concept="3uibUv" id="20visSn8DKu" role="3$Qgvv">
+            <ref role="3uigEE" to="6peh:4R9posqrx51" resolve="UsedLanguageLionwebJsonException" />
+          </node>
+          <node concept="3clFbF" id="20visSn8DKv" role="3$Oloe">
+            <node concept="2OqwBi" id="20visSn8DKw" role="3clFbG">
+              <node concept="2OqwBi" id="20visSn8DKx" role="2Oq$k0">
+                <node concept="2WthIp" id="20visSn8DKy" role="2Oq$k0" />
+                <node concept="2XshWL" id="20visSn8DKz" role="2OqNvi">
+                  <ref role="2WH_rO" node="20visSn8DKQ" resolve="create" />
+                </node>
+              </node>
+              <node concept="liA8E" id="20visSn8DK$" role="2OqNvi">
+                <ref role="37wK5l" to="oimj:4R9posqrkh9" resolve="lookupLanguage" />
+                <node concept="2YIFZM" id="20visSn8DK_" role="37wK5m">
+                  <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                  <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                  <node concept="Xl_RD" id="20visSn8DKA" role="37wK5m">
+                    <property role="Xl_RC" value="My-TestLang3" />
+                  </node>
+                  <node concept="Xl_RD" id="20visSn8DKB" role="37wK5m">
+                    <property role="Xl_RC" value="abc" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="20visSn8DKC" role="1SL9yI">
+      <property role="TrG5h" value="wrongVersionNumber" />
+      <node concept="3cqZAl" id="20visSn8DKD" role="3clF45" />
+      <node concept="3clFbS" id="20visSn8DKE" role="3clF47">
+        <node concept="3$NI$W" id="20visSn8DKF" role="3cqZAp">
+          <node concept="3uibUv" id="20visSn8DKG" role="3$Qgvv">
+            <ref role="3uigEE" to="6peh:4R9posqrx51" resolve="UsedLanguageLionwebJsonException" />
+          </node>
+          <node concept="3clFbF" id="20visSn8DKH" role="3$Oloe">
+            <node concept="2OqwBi" id="20visSn8DKI" role="3clFbG">
+              <node concept="2OqwBi" id="20visSn8DKJ" role="2Oq$k0">
+                <node concept="2WthIp" id="20visSn8DKK" role="2Oq$k0" />
+                <node concept="2XshWL" id="20visSn8DKL" role="2OqNvi">
+                  <ref role="2WH_rO" node="20visSn8DKQ" resolve="create" />
+                </node>
+              </node>
+              <node concept="liA8E" id="20visSn8DKM" role="2OqNvi">
+                <ref role="37wK5l" to="oimj:4R9posqrkh9" resolve="lookupLanguage" />
+                <node concept="2YIFZM" id="20visSn8DKN" role="37wK5m">
+                  <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                  <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                  <node concept="Xl_RD" id="20visSn8DKO" role="37wK5m">
+                    <property role="Xl_RC" value="My-TestLang3" />
+                  </node>
+                  <node concept="Xl_RD" id="20visSn8DKP" role="37wK5m">
+                    <property role="Xl_RC" value="99" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="20visSn8DKQ" role="1qtyYc">
+      <property role="TrG5h" value="create" />
+      <node concept="3clFbS" id="20visSn8DKR" role="3clF47">
+        <node concept="3cpWs8" id="20visSn8DKS" role="3cqZAp">
+          <node concept="3cpWsn" id="20visSn8DKT" role="3cpWs9">
+            <property role="TrG5h" value="repository" />
+            <node concept="3uibUv" id="20visSn8DKU" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="20visSn8DKV" role="33vP2m">
+              <node concept="liA8E" id="20visSn8DKW" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+              </node>
+              <node concept="2JrnkZ" id="20visSn8DKX" role="2Oq$k0">
+                <node concept="1jGwE1" id="20visSn8DKY" role="2JrQYb" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="20visSn8DM8" role="3cqZAp">
+          <node concept="2ShNRf" id="20visSn8DM9" role="3cqZAk">
+            <node concept="1pGfFk" id="20visSn8DMa" role="2ShVmc">
+              <ref role="37wK5l" to="oimj:1uaufUY2T_M" resolve="GuaranteedCachingLanguageLookup" />
+              <node concept="37vLTw" id="20visSn8DMb" role="37wK5m">
+                <ref role="3cqZAo" node="20visSn8DKT" resolve="repository" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="20visSn8DMc" role="3clF45">
+        <ref role="3uigEE" to="oimj:1uaufUY2x36" resolve="GuaranteedCachingLanguageLookup" />
+      </node>
+      <node concept="3Tm6S6" id="20visSn8DMd" role="1B3o_S" />
     </node>
   </node>
 </model>
