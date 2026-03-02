@@ -48,6 +48,7 @@ tasks.register<MpsExecute>("runCommandLineTool") {
 
     mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
+    pluginRoots.add(mpsHome.dir("plugins"))
     javaLauncher = mpsDefaults.javaLauncher
     macros.putAll(mpsDefaults.pathVariables.get().map { (k, v) -> k to v.path }.toMap())
     module = "io.lionweb.mps.cmdline"
