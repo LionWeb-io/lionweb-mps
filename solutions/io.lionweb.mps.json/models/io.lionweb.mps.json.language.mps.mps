@@ -9736,34 +9736,8 @@
                 <ref role="2Oxat5" node="20visSn7Omz" resolve="attributeFinder" />
               </node>
             </node>
-            <node concept="2ShNRf" id="20visSn7OmS" role="37vLTx">
-              <node concept="1pGfFk" id="20visSn7OmT" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="y7p:5AGBwuFEKL7" resolve="LionWebAttributeFinder" />
-                <node concept="37vLTw" id="20visSn7OmU" role="37wK5m">
-                  <ref role="3cqZAo" node="1uaufUY2U4a" resolve="repository" />
-                </node>
-                <node concept="2ShNRf" id="20visSn7OmV" role="37wK5m">
-                  <node concept="1pGfFk" id="20visSn7OmW" role="2ShVmc">
-                    <ref role="37wK5l" to="y7p:DUXtGZOlxP" resolve="LionCoreConstants" />
-                    <node concept="37vLTw" id="20visSn7OmX" role="37wK5m">
-                      <ref role="3cqZAo" node="1uaufUY2U4a" resolve="repository" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2ShNRf" id="20visSn7OmY" role="37wK5m">
-                  <node concept="HV5vD" id="20visSn7OmZ" role="2ShVmc">
-                    <ref role="HV5vE" to="y7p:18UigYOOPLq" resolve="MetaAdapterByDeclarationHelper" />
-                  </node>
-                </node>
-                <node concept="2YIFZM" id="20visSn7On0" role="37wK5m">
-                  <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance(org.jetbrains.mps.openapi.module.SRepository)" resolve="getInstance" />
-                  <ref role="1Pybhc" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
-                  <node concept="37vLTw" id="20visSn7On1" role="37wK5m">
-                    <ref role="3cqZAo" node="1uaufUY2U4a" resolve="repository" />
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="ZMjHS4sGKx" role="37vLTx">
+              <ref role="3cqZAo" node="ZMjHS4sEFw" resolve="attributeFinder" />
             </node>
           </node>
         </node>
@@ -9774,7 +9748,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="58k5:5M3rB6Ap0pn" resolve="MpsBase64GuaranteedMapper" />
                 <node concept="37vLTw" id="20visSn7Nw3" role="37wK5m">
-                  <ref role="3cqZAo" node="20visSn7Omz" resolve="attributeFinder" />
+                  <ref role="3cqZAo" node="ZMjHS4sEFw" resolve="attributeFinder" />
                 </node>
               </node>
             </node>
@@ -9791,6 +9765,18 @@
         <property role="TrG5h" value="repository" />
         <node concept="3uibUv" id="1uaufUY2U49" role="1tU5fm">
           <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="ZMjHS4sEFw" role="3clF46">
+        <property role="TrG5h" value="attributeFinder" />
+        <node concept="3uibUv" id="ZMjHS4sG6X" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:pPZz6cPvUw" resolve="LionWebAttributeFinder" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="ZMjHS4sGeO" role="3clF46">
+        <property role="TrG5h" value="mapper" />
+        <node concept="3uibUv" id="ZMjHS4sGw3" role="1tU5fm">
+          <ref role="3uigEE" to="58k5:5M3rB6B0BT$" resolve="AMpsGuaranteedMapper" />
         </node>
       </node>
     </node>
