@@ -1,25 +1,21 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
-import org.apache.tools.ant.taskdefs.condition.Os
 import com.specificlanguages.mps.MainBuild
 import com.specificlanguages.mps.TestBuild
+import org.apache.tools.ant.taskdefs.condition.Os
 
 plugins {
-    id("com.specificlanguages.mps")
-    id("signing")
-    id("net.researchgate.release")
-    id("com.vanniktech.maven.publish")
+    alias(libs.plugins.specificlanguages.mps)
+    alias(libs.plugins.jbr.toolchain)
+    alias(libs.plugins.mps.gradle.launcher)
+    alias(libs.plugins.researchgate.release)
+    alias(libs.plugins.maven.publish)
+    signing
 }
 
 val releaseVersion = project.findProperty("version") as String
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val mpsVersionSuffix: String by project
-val lionwebJavaVersion: String by project
-val mpsVersion: String by project
-val jbrVersion: String by project
-val mpsExtensionsVersion: String by project
-val apacheCliVersion: String by project
-val usedGradleVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -27,10 +23,10 @@ repositories {
 }
 
 dependencies {
-    mps("com.jetbrains:mps:$mpsVersion")
-    jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
+    mps(libs.jetbrains.mps)
+    jbr(libs.jetbrains.jbr)
 
-    testImplementation("de.itemis.mps:extensions:$mpsExtensionsVersion")
+    testImplementation(libs.mps.extensions)
 }
 
 mpsBuilds {
@@ -55,13 +51,13 @@ mpsBuilds {
 }
 
 bundledDependencies {
-    create("libs") {
+    create("lionwebJava") {
         destinationDir = layout.projectDirectory.dir("solutions/io.lionweb.lionweb.java/libs")
-        dependency("io.lionweb:lionweb-$lionwebJavaVersion")
+        dependency(libs.lionweb.java)
     }
     create("apacheCli") {
         destinationDir = layout.projectDirectory.dir("solutions/org.apache.commons.cli/libs")
-        dependency("commons-cli:commons-cli:$apacheCliVersion")
+        dependency(libs.apache.cli)
     }
 }
 
@@ -175,7 +171,7 @@ mavenPublishing {
     signAllPublications()
 }
 
-configurations.getByName("libs") {
+configurations.getByName("lionwebJava") {
     attributes {
         attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
         attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, project.objects.named(TargetJvmEnvironment::class.java, TargetJvmEnvironment.STANDARD_JVM))
@@ -220,6 +216,6 @@ release {
 
 allprojects {
     tasks.register<Wrapper>("allWrappers") {
-        gradleVersion = usedGradleVersion
+        gradleVersion = libs.versions.usedGradleVersion.get()
     }
 }

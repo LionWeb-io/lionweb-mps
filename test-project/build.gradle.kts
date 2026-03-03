@@ -6,20 +6,14 @@ import org.apache.commons.exec.CommandLine
 
 buildscript {
     dependencies {
-        classpath("org.apache.commons:commons-exec:1.6.+")
+        classpath(libs.apache.exec)
     }
 }
 
 plugins {
-    id("com.specificlanguages.mps")
-    id("com.specificlanguages.jbr-toolchain")
-    id("de.itemis.mps.gradle.common")
-    id("de.itemis.mps.gradle.launcher")
-    `maven-publish`
+    alias(libs.plugins.specificlanguages.mps)
+    alias(libs.plugins.mps.gradle.common)
 }
-
-val mpsVersion: String by project
-val jbrVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -27,8 +21,8 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
-    jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
+    mps(libs.jetbrains.mps)
+    jbr(libs.jetbrains.jbr)
     api(project(":"))
 }
 

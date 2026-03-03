@@ -1,0 +1,33 @@
+[versions]
+# plugins
+comSpecificlanguagesMpsVersion="2.0.1"
+comSpecificlanguagesJbrToolchainVersion="1.0.2"
+netResearchgateReleaseVersion="3.1.0"
+comVanniktechMavenPublishVersion="0.36.0"
+mpsGradleLauncherVersion="2.8.+"
+mpsGradleCommonVersion="1.30.+"
+
+# libraries
+mpsVersion="2025.1.2"
+jbrVersion="21.0.6-b895.109"
+mpsExtensionsVersion="2025.1.+"
+apacheCliVersion="1.6.0"
+apacheExecVersion="1.6.+"
+lionwebJavaVersion="1.3.2"
+usedGradleVersion="9.2.1"
+
+[plugins]
+specificlanguages-mps = { id = "com.specificlanguages.mps", version.ref = "comSpecificlanguagesMpsVersion" }
+jbr-toolchain = { id = "com.specificlanguages.jbr-toolchain", version.ref = "comSpecificlanguagesJbrToolchainVersion" }
+researchgate-release = { id = "net.researchgate.release", version.ref = "netResearchgateReleaseVersion" }
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "comVanniktechMavenPublishVersion" }
+mps-gradle-launcher = { id = "de.itemis.mps.gradle.launcher", version.ref = "mpsGradleLauncherVersion" }
+mps-gradle-common = { id = "de.itemis.mps.gradle.common", version.ref = "mpsGradleCommonVersion" }
+
+[libraries]
+jetbrains-mps = {group = "com.jetbrains", name = "mps", version.ref = "mpsVersion"}
+jetbrains-jbr = {group = "com.jetbrains.jdk", name = "jbr_jcef", version.ref = "jbrVersion"}
+mps-extensions = {group = "de.itemis.mps", name = "extensions", version.ref = "mpsExtensionsVersion"}
+apache-cli = {group = "commons-cli", name = "commons-cli", version.ref = "apacheCliVersion"}
+apache-exec = {group = "org.apache.commons", name="commons-exec", version.ref="apacheExecVersion"}
+lionweb-java = {group = "io.lionweb", name="lionweb-2024.1-core", version.ref="lionwebJavaVersion"}
