@@ -35,7 +35,7 @@
     <dependency reexport="false">e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />
+    <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="3" />
     <language slang="l:01cf0d82-8d29-4fc4-be96-28abaf4ad33d:io.lionweb.mps.m3" version="0" />
     <language slang="l:4a963078-62c4-4f96-9b52-198a0c63da4b:io.lionweb.mps.testsupport" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />

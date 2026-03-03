@@ -19,7 +19,7 @@
     <language slang="l:063e44a6-f2f8-4e6e-8ca0-b31c22830ebc:DependingLang" version="1" />
     <language slang="l:4d2616f8-36ac-305a-b609-88a097f24d95:a.b.c.Test123" version="1" />
     <language slang="l:08caad75-8246-4427-bb4d-8444b6c5c729:io.lionweb.mps.converter.TestLang" version="0" />
-    <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />
+    <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="3" />
     <language slang="l:01cf0d82-8d29-4fc4-be96-28abaf4ad33d:io.lionweb.mps.m3" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:537f9cb0-0f25-3c76-8b86-308f45010100:library" version="0" />

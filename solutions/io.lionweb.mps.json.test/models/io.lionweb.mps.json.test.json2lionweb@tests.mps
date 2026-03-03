@@ -19,7 +19,7 @@
     <use id="08caad75-8246-4427-bb4d-8444b6c5c729" name="io.lionweb.mps.converter.TestLang" version="0" />
     <use id="3ecd737b-418b-4a70-a991-f6b83f0e3247" name="io.lionweb.mps.converter.TestAbstract" version="0" />
     <use id="60791ea2-7a1d-4862-a1ef-f87878cc3b6e" name="io.lionweb.mps.converter.TestComputedProperty" version="0" />
-    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="3" />
     <use id="1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1" name="io.lionweb.mps.converter.TestEnum" version="0" />
     <use id="63c09674-565f-4cbb-add6-f15c4e540c84" name="io.lionweb.mps.converter.TestUtf8" version="-1" />
   </languages>

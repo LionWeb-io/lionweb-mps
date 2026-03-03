@@ -11,7 +11,7 @@
   </imports>
   <registry>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ngI" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264859051" name="io.lionweb.mps.m3.structure.Link" flags="ng" index="2RzO9z">
@@ -60,93 +60,93 @@
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="Classifier" />
       <property role="TrG5h" value="Classifier" />
-      <ref role="2RzPfO" node="5sACIIs$PgQ" />
+      <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="LanguageEntity" />
       <node concept="2RzOte" id="5sACIIs$PgS" role="2RzPPN">
         <property role="2RzON1" value="Classifier-features" />
         <property role="TrG5h" value="features" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$Ph0" />
+        <ref role="2RzQvY" node="5sACIIs$Ph0" resolve="Feature" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgU" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Concept" />
       <property role="TrG5h" value="Concept" />
-      <ref role="2RzPfO" node="5sACIIs$PgR" />
+      <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
       <node concept="2RzOeU" id="5sACIIs$PgV" role="2RzPPN">
         <property role="2RzON1" value="Concept-abstract" />
         <property role="TrG5h" value="abstract" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgW" role="2RzPPN">
         <property role="2RzON1" value="Concept-extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="5sACIIs$PgU" />
+        <ref role="2RzQvY" node="5sACIIs$PgU" resolve="Concept" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$PgX" role="2RzPPN">
         <property role="2RzON1" value="Concept-implements" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgY" />
+        <ref role="2RzQvY" node="5sACIIs$PgY" resolve="Interface" />
       </node>
       <node concept="2RzOeU" id="7m$Awvumb$m" role="2RzPPN">
         <property role="2RzON1" value="Concept-partition" />
         <property role="TrG5h" value="partition" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
     </node>
     <node concept="2RzPWn" id="7OJcYqxxt15" role="2RzR6B">
       <property role="2RzON1" value="Annotation" />
       <property role="TrG5h" value="Annotation" />
-      <ref role="2RzPfO" node="5sACIIs$PgR" />
+      <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
       <node concept="2RzOpR" id="7OJcYqxxtbn" role="2RzPPN">
         <property role="2RzON1" value="Annotation-annotates" />
         <property role="TrG5h" value="annotates" />
-        <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" />
+        <ref role="2RzQvY" to="2pzz:39$JcGFBN1$" resolve="Node" />
       </node>
       <node concept="2RzOpR" id="7OJcYqxxtbf" role="2RzPPN">
         <property role="2RzON1" value="Annotation-extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="7OJcYqxxt15" />
+        <ref role="2RzQvY" node="7OJcYqxxt15" resolve="Annotation" />
       </node>
       <node concept="2RzOpR" id="7OJcYqxxtbg" role="2RzPPN">
         <property role="2RzON1" value="Annotation-implements" />
         <property role="TrG5h" value="implements" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgY" />
+        <ref role="2RzQvY" node="5sACIIs$PgY" resolve="Interface" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phb" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Containment" />
       <property role="TrG5h" value="Containment" />
-      <ref role="2RzPfO" node="5sACIIs$Ph3" />
+      <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph9" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="DataType" />
       <property role="TrG5h" value="DataType" />
-      <ref role="2RzPfO" node="5sACIIs$PgQ" />
+      <ref role="2RzPfO" node="5sACIIs$PgQ" resolve="LanguageEntity" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phc" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Enumeration" />
       <property role="TrG5h" value="Enumeration" />
-      <ref role="2RzPfO" node="5sACIIs$Ph9" />
+      <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
       <node concept="2RzOte" id="5sACIIs$Phd" role="2RzPPN">
         <property role="2RzON1" value="Enumeration-literals" />
         <property role="TrG5h" value="literals" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$Phe" />
+        <ref role="2RzQvY" node="5sACIIs$Phe" resolve="EnumerationLiteral" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Phe" role="2RzR6B">
@@ -154,7 +154,7 @@
       <property role="2RzON1" value="EnumerationLiteral" />
       <property role="TrG5h" value="EnumerationLiteral" />
       <node concept="2RzQOr" id="19nRYgR_psZ" role="2RzQ4z">
-        <ref role="2RzQOs" node="19nRYgR_pax" />
+        <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph0" role="2RzR6B">
@@ -165,10 +165,10 @@
         <property role="2RzON1" value="Feature-optional" />
         <property role="TrG5h" value="optional" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzQOr" id="19nRYgR_ptZ" role="2RzQ4z">
-        <ref role="2RzQOs" node="19nRYgR_pax" />
+        <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
       </node>
     </node>
     <node concept="2RzPaY" id="19nRYgR_pax" role="2RzR6B">
@@ -177,23 +177,23 @@
       <node concept="2RzOeU" id="19nRYgR_pqW" role="2RzPPN">
         <property role="2RzON1" value="IKeyed-key" />
         <property role="TrG5h" value="key" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzQOr" id="7m$Awvumb$t" role="2RzQMX">
-        <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" />
+        <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgY" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Interface" />
       <property role="TrG5h" value="Interface" />
-      <ref role="2RzPfO" node="5sACIIs$PgR" />
+      <ref role="2RzPfO" node="5sACIIs$PgR" resolve="Classifier" />
       <node concept="2RzOpR" id="5sACIIs$PgZ" role="2RzPPN">
         <property role="2RzON1" value="Interface-extends" />
         <property role="TrG5h" value="extends" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgY" />
+        <ref role="2RzQvY" node="5sACIIs$PgY" resolve="Interface" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgM" role="2RzR6B">
@@ -206,22 +206,22 @@
         <property role="TrG5h" value="dependsOn" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgM" />
+        <ref role="2RzQvY" node="5sACIIs$PgM" resolve="Language" />
       </node>
       <node concept="2RzOte" id="5sACIIs$PgO" role="2RzPPN">
         <property role="2RzON1" value="Language-entities" />
         <property role="TrG5h" value="entities" />
         <property role="2RzO1C" value="true" />
         <property role="2RzOhW" value="true" />
-        <ref role="2RzQvY" node="5sACIIs$PgQ" />
+        <ref role="2RzQvY" node="5sACIIs$PgQ" resolve="LanguageEntity" />
       </node>
       <node concept="2RzOeU" id="19nRYgR_HTb" role="2RzPPN">
         <property role="2RzON1" value="Language-version" />
         <property role="TrG5h" value="version" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
       </node>
       <node concept="2RzQOr" id="19nRYgR_prW" role="2RzQ4z">
-        <ref role="2RzQOs" node="19nRYgR_pax" />
+        <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$PgQ" role="2RzR6B">
@@ -229,52 +229,52 @@
       <property role="2RzON1" value="LanguageEntity" />
       <property role="TrG5h" value="LanguageEntity" />
       <node concept="2RzQOr" id="19nRYgR_prZ" role="2RzQ4z">
-        <ref role="2RzQOs" node="19nRYgR_pax" />
+        <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph3" role="2RzR6B">
       <property role="2RzP46" value="true" />
       <property role="2RzON1" value="Link" />
       <property role="TrG5h" value="Link" />
-      <ref role="2RzPfO" node="5sACIIs$Ph0" />
+      <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
       <node concept="2RzOeU" id="5sACIIs$Ph4" role="2RzPPN">
         <property role="2RzON1" value="Link-multiple" />
         <property role="TrG5h" value="multiple" />
         <property role="2RzO1C" value="false" />
-        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" />
+        <ref role="2Rx9Fl" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
       </node>
       <node concept="2RzOpR" id="5sACIIs$Ph5" role="2RzPPN">
         <property role="2RzON1" value="Link-type" />
         <property role="TrG5h" value="type" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="5sACIIs$PgR" />
+        <ref role="2RzQvY" node="5sACIIs$PgR" resolve="Classifier" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Pha" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="PrimitiveType" />
       <property role="TrG5h" value="PrimitiveType" />
-      <ref role="2RzPfO" node="5sACIIs$Ph9" />
+      <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph7" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Property" />
       <property role="TrG5h" value="Property" />
-      <ref role="2RzPfO" node="5sACIIs$Ph0" />
+      <ref role="2RzPfO" node="5sACIIs$Ph0" resolve="Feature" />
       <node concept="2RzOpR" id="5sACIIs$Ph8" role="2RzPPN">
         <property role="2RzON1" value="Property-type" />
         <property role="TrG5h" value="type" />
         <property role="2RzO1C" value="false" />
         <property role="2RzOhW" value="false" />
-        <ref role="2RzQvY" node="5sACIIs$Ph9" />
+        <ref role="2RzQvY" node="5sACIIs$Ph9" resolve="DataType" />
       </node>
     </node>
     <node concept="2RzPWn" id="5sACIIs$Ph6" role="2RzR6B">
       <property role="2RzP46" value="false" />
       <property role="2RzON1" value="Reference" />
       <property role="TrG5h" value="Reference" />
-      <ref role="2RzPfO" node="5sACIIs$Ph3" />
+      <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
     </node>
   </node>
 </model>
