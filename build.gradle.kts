@@ -14,7 +14,6 @@ plugins {
 val releaseVersion = project.findProperty("version") as String
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val mpsVersionSuffix: String by project
-val lionwebRelease: String by project
 val lionwebJavaVersion: String by project
 val mpsVersion: String by project
 val jbrVersion: String by project
@@ -121,7 +120,7 @@ tasks.register("testCmdLineExport") {
     dependsOn("testCmdLineExport-configs-externalLib")
 }
 
-val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
+val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix"
 
 publishing {
     publications {
@@ -144,7 +143,7 @@ mavenPublishing {
 
     pom {
         name.set(concatenatedArtifact)
-        description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix, LionWeb release $lionwebRelease")
+        description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix")
         version = releaseVersion
         packaging = "zip"
         url.set("https://github.com/LionWeb-io/lionweb-mps")
@@ -210,7 +209,7 @@ signing {
 }
 
 release {
-    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
+    tagTemplate.set("$mpsVersionSuffix-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
     git {
         requireBranch.set("")
