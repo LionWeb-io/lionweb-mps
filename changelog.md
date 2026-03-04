@@ -28,7 +28,7 @@
 ## 0.2.10-2023.1
 
 * Added optional `version` to LionWeb Language root in structure aspect.
-  This value, if set, takes precendence over the language's version.
+  This value, if set, takes precedence over the language's version.
 * Set up testing of commandline export of languages.
 * Added commandline parameters `-lc` (`--languageConfig`) and `-ic` (`--instanceConfig`) to export all language / instance configs in the project.
 
@@ -42,7 +42,7 @@
 
 * Optionally export computed property values of instances to LionWeb JSON.
 
-* For concepts with alias and/or short description, optinally export annotation with that information.  
+* For concepts with alias and/or short description, optionally export annotation with that information.  
 
 * Filter nodes of abstract concepts or interfaces from exporting to LionWeb JSON. 
 
