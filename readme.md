@@ -6,21 +6,27 @@ The artifacts are named `io.lionweb.lionweb-mps.lionweb-mps-<MPS release>-lw<Lio
 Currently available are:
 
 * LionWeb version 2023.1
-  * MPS 2021.1 [io.lionweb.lionweb-mps.lionweb-mps2021.1-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.1-lw2023.1)
-  * MPS 2021.2 [io.lionweb.lionweb-mps.lionweb-mps2021.2-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.2-lw2023.1)
-  * MPS 2021.3 [io.lionweb.lionweb-mps.lionweb-mps2021.3-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.3-lw2023.1)
+  * **bugfix only** MPS 2021.1 [io.lionweb.lionweb-mps.lionweb-mps2021.1-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.1-lw2023.1)
+  * **bugfix only** MPS 2021.2 [io.lionweb.lionweb-mps.lionweb-mps2021.2-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.2-lw2023.1)
+  * **bugfix only**MPS 2021.3 [io.lionweb.lionweb-mps.lionweb-mps2021.3-lw2023.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2021.3-lw2023.1)
+  * MPS 2025.1 [io.lionweb.lionweb-mps.lionweb-mps2025.1](https://mvnrepository.com/artifact/io.lionweb.lionweb-mps/lionweb-mps-2025.1)
 
 Load them into your MPS project as project library.
 
 ## Dependencies
-* MPS version 2021.1
-* _lioncore-java_
-  
-  For updating to a newer version of this dependency, change the version number in `gradle.properties` and run `./gradlew resolveLibs` .
+* MPS version 2025.1
+* [LionWeb-Java Core](https://mvnrepository.com/artifact/io.lionweb/lionweb-2024.1-core)
+* [Apache Commons CLI](https://mvnrepository.com/artifact/commons-cli/commons-cli) 
+* Tests only: [MPS-extensions](https://github.com/JetBrains/MPS-extensions)
+
+For updating to a newer version of this dependency, change the version number in `gradle.properties` and run `./gradlew setup` .
 
 ## Setup
-* run `./gradlew resolveLibs` to download required libraries.
-* In MPS, create _path variable_ `lionweb-mps.home` pointing to the directory containing this readme file.
+* run `./gradlew setup` to download required libraries.
+* In MPS, create the following _path variables_:
+  * `lionweb-mps.home` pointing to the directory containing this readme file.
+  * `lionweb-mps.test-project` pointing to the `test-project` subdirectory.
+  * `lionweb-mps.test-project-ExternalLib` pointing to the `test-project-externalLib` subdirectory.
 
 
 ## Overview
@@ -36,7 +42,7 @@ Load them into your MPS project as project library.
     * `io.lionweb.mps.converter.lang` Provides concepts to easily configure and execute all available converters.
   * `json` All JSON-related conversion code
     * `io.lionweb.lionweb.java` Model stubs of LionWeb-Java.
-    * `io.lionweb.mps.json` Contains converters beween
+    * `io.lionweb.mps.json` Contains converters between
       * _deployed_ MPS languages and LionWeb languages in JSON format
       * instances of `io.lionweb.mps.m3` and LionWeb languages in JSON format
       * M1 models in MPS and LionWeb JSON format
@@ -45,7 +51,7 @@ Load them into your MPS project as project library.
     * `io.lionweb.mps.specific` Language to represent MPS-specifics as LionWeb Annotations (e.g. `BaseConcept.virtualPackage`).
     * `io.lionweb.mps.structure.attribute` Language to represent LionCore-specifics in MPS Languages (e.g. `IKeyed.key` or `Property.optional`).
 
-* `server` Teaches MPS to act as a bulk model server / repository.
+* `server` Teaches MPS to act as a bulk model server / repository. Out-of-date.
 
 * `test` Tests for all functionality above
   * `dependencies` Test languages to test fine-grained dependencies (`FineGrainedClosureLanguage2JsonConverter`)
@@ -53,10 +59,10 @@ Load them into your MPS project as project library.
   * `support` Code to simplify testing
     * `io.lionweb.mps.testsupport` Provides useful concepts for testing
       * `ArbitraryContainer` Can host arbitrary other nodes. Needed because when executing node tests, MPS creates temporary model copies and keeps references per `TestNode`. If we need consistent node ids across root nodes, they need to be contained in the same `TestNode`, and thus inside an `ArbitraryContainer`.
-      * `AssertMatchVerbose` An extension of MPS' standard `assert match` statement. Provides detailled information about differences instead of just failing.
+      * `AssertMatchVerbose` An extension of MPS' standard `assert match` statement. Provides detailed information about differences instead of just failing.
   * `io.lionweb.mps.converter.test` Tests for non-JSON converters.
   * `io.lionweb.mps.converter.test.mpsextensions` Tests that depend on MPS-extensions to be deployed.
-    LionWeb-MPS does _not_ depend on MPS-extensions. This solutions contains tests stemming from real-world issues. We don't execute it in CI yet (see [gradle-mps-plugin feature request](https://github.com/specificlanguages/mps-gradle-plugin/issues/9)).
+    LionWeb-MPS does _not_ depend on MPS-extensions. This solution contains tests stemming from real-world issues.
   * `io.lionweb.mps.converter.test.usebroken` Tests LionWeb-MPS behavior with broken languages.
     Not executed in CI, as it depends on `io.lionweb.mps.converter.TestLangBroken` which cannot be built in CI.
   * `io.lionweb.mps.json.test` Tests for JSON-related converters.
@@ -74,14 +80,13 @@ Load them into your MPS project as project library.
 Note that neither *check*, *build*, nor *run all tests* will work on the whole project:
 
 * Stuff in `xx_broken` is just that.
-* Stuff in `io.lionweb.mps.converter.test.mpsextensions` depends on [this feature request](https://github.com/specificlanguages/mps-gradle-plugin/issues/9)
 * Stuff in `io.lionweb.mps.converter.test.usebroken` depends on `xx_broken`.
 * Stuff in `io.lionweb.mps.server.test` depends on this MPS being the one listening to the standard MPS port — i.e., no other MPS running.
 
 
 ## Build
 
-It is suggested to use JDK 11. Later JDKs could cause errors.
+Requires at least JDK 17, better 21.
 
 Run:
 
@@ -96,30 +101,30 @@ Refer to our [design document](docs/lionweb-mps-design.adoc).
 
 ## Development process
 
-We have one "main" branch per supported MPS version, e.g. `mps2021.1`.
-We use the latest patch of each supported MPS version, e.g. MPS 2021.1.4.
+We have one "main" branch per supported MPS version, e.g. `mps2025.1`.
+We use the latest patch of each supported MPS version, e.g. MPS 2025.1.2.
 We implement all new functionality on a branch, based on the oldest supported "main" branch.
-Example: The new branch `niko/great-new-feature` is based on `mps2021.1`.
+Example: The new branch `niko/great-new-feature` is based on `mps2025.1`.
 
-Once we merged the feature branch back to "main" (in the example: `mps2021.1`), we merge the changes into the next higher MPS version branch — _“cross-version migration”_.
+Once we merged the feature branch back to "main" (in the example: `mps2025.1`), we merge the changes into the next higher MPS version branch — _“cross-version migration”_.
 Example:
 
-1. Use MPS 2021.1 to develop on `niko/great-new-feature`, based on `mps2021.1`.
-2. Merge `niko/great-new-feature` into `mps2021.1` via pull request.
-3. Open MPS 2021.2 on branch `mps2021.2` and merge `mps2021.1` into `mps2021.2`. Push `mps2021.2`.
-4. Open MPS 2021.3 on branch `mps2021.3` and merge `mps2021.2` into `mps2021.3`. Push `mps2021.3`.
-5. Release each "main" branch separately, to create new artifacts `lionweb-mps2021.1-lw2023.1`, `lionweb-mps2021.2-lw2023.1`, and `lionweb-mps2021.3-lw2023.1`.
+1. Use MPS 2025.1 to develop on `niko/great-new-feature`, based on `mps2025.1`.
+2. Merge `niko/great-new-feature` into `mps2025.1` via pull request.
+3. Open MPS 2025.2 on branch `mps2025.2` and merge `mps2025.1` into `mps2025.2`. Push `mps2025.2`.
+4. Open MPS 2025.3 on branch `mps2025.3` and merge `mps2025.2` into `mps2025.3`. Push `mps2025.3`.
+5. Release each "main" branch separately, to create new artifacts `lionweb-mps2025.1`, `lionweb-mps2025.2`, and `lionweb-mps2025.3`.
 
 When merging into a newer MPS version, follow these steps.
-The example assumes we merge `mps2021.1` into `mps2021.2`.
+The example assumes we merge `mps2025.1` into `mps2025.2`.
 
-1. Open the _target_ MPS version (2021.2) on the _target_ branch (`mps2021.2`).
-2. Checkout a new branch off of the _target_ branch (`mps2021.2`), named `mps2021.2-migration` (or a name that's as least as good).
-3. Merge the _source_ branch (`mps2021.1`) into your _current_ branch (`mps2021.2-migration`).
+1. Open the _target_ MPS version (2025.2) on the _target_ branch (`mps2025.2`).
+2. Checkout a new branch off of the _target_ branch (`mps2025.2`), named `mps2025.2-migration` (or a name that's as least as good).
+3. Merge the _source_ branch (`mps2025.1`) into your _current_ branch (`mps2025.2-migration`).
 4. Double-check `gradle.properties` still contains the proper entries for:
-   * `mpsVersionSuffix` should be the _target_ MPS version (`2021.2`)
-   * `mpsVersion` full _target_ MPS version (`2021.2.6`)
-   * `mpsExtensionsVersion` latest version of [MPS-extensions](https://jetbrains.github.io/MPS-extensions/) for the _target_ MPS version (`2021.2.2631.1360a64`)
+   * `mpsVersionSuffix` should be the _target_ MPS version (`2025.2`)
+   * `mpsVersion` full _target_ MPS version (`2025.2.6`)
+   * `mpsExtensionsVersion` latest version of [MPS-extensions](https://jetbrains.github.io/MPS-extensions/) for the _target_ MPS version (`2025.2.x.y`)
 5. Run the Migration Assistant.
 6. Update the (two) build models, triggering the “Reload Modules From Disk” intention when and where needed.
 7. Check the entire project using “Check Project”.
@@ -129,10 +134,10 @@ The example assumes we merge `mps2021.1` into `mps2021.2`.
   Tests that don't run (successfully or at all) have a comment stating why, e.g. [this one](http://127.0.0.1:63320/node?ref=r%3A43c660c3-adeb-4a6a-893f-396c007e80f0%28io.lionweb.mps.converter.test.languagedependsonfinder%40tests%29%2F1313442573159668044).
 10. Repeat steps 5-9 for the test projects, residing in `test-project/` and `test-project-externalLib/`.
 11. Check that the following Gradle tasks execute without failure from the CLI: `publishToMavenLocal`, `testCmdLineExport`.
-12. Commit the changes, and push the branch (`mps2012.2-migration`).
+12. Commit the changes, and push the branch (`mps2025.2-migration`).
 13. Check that the [GitHub Action triggered by the push](https://github.com/LionWeb-io/lionweb-mps/actions) runs successfully.
   (If not: sorry to hear the build feels like that, and good luck with that... Some nasty debugging lies ahead of you...)
-14. *Provided everything works*, merge the `mps2021.2-migration` branch back into `mps2021.2`.
+14. *Provided everything works*, merge the `mps2025.2-migration` branch back into `mps2025.2`.
 15. Create a release — see the next section.
 
 
@@ -188,8 +193,7 @@ It's probably also good to not try and publish/release multiple versions at the 
 	Wait.
 6. 	Click the “Refresh” button once in a while, until the row disappears.
 7. Enter `lionweb` + Enter in the text input box under “Artifact Search” to see all artifacts related to LionWeb (including the Java ones).
-8. Look up the row with Artifact = `lionweb-mps-<yyyy>.<n>-lw<v>`, and click on the “Show All Versions” link.
-	Here `<v>` is the identification of the version of the LionWeb specification targeted — currently, `<v>` = `2023.1`.
+8. Look up the row with Artifact = `lionweb-mps-<yyyy>.<n>`, and click on the “Show All Versions” link.
 9. Verify that the version that you wanted to release appears at the top of the resulting list.
 
 To test publishing to Maven Local:

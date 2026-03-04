@@ -1,4 +1,5 @@
 = LionWeb MPS Command Line Exporter
+:icons: font
 
 == Usage
 
@@ -13,7 +14,7 @@ This would print
 
 ----
 > Task :runCommandLineTool
-usage: lionweb-export-language <project-dir> [<config-file>] <output-file>
+usage: lionweb-export-language [<config-file>] <output-file>
  -help                   print this message
  -ic,--instanceConfigs   executes all 'Export Instance to JSON'
                          configurations
@@ -21,42 +22,68 @@ usage: lionweb-export-language <project-dir> [<config-file>] <output-file>
                          <key>@<version>
  -lc,--languageConfigs   executes all 'Export Language to JSON'
                          configurations
- -m,--macro <arg>        set macro (a.k.a. path variable)
  -s,--scope <arg>        set export scope: listed, indirect,
                          fineGrainedClosure
 ----
 
-* _project-dir:_ The root directory of the MPS project to load.
-
-* _config-file:_ Optional; if provided, it must be a json file with two properties:
+config-file::
+Optional; if provided, it must be a json file with two properties:
 
 * `scope` takes the same values as `-s` parameter. If both are present, the parameter prevails.
 * `languages` contains a list of language keys to export.
-* _output-file:_ The file the converted languages should be written to.
- All languages will be written to the same file.
 
-* _language:_ Supplies the key of a language to export.
- Can be used multiple times; we accumulate all keys from _config-file_ and _language_ parameters. +
- *Note:* We're always using the language's link:../../docs/reference/structure-extensions.adoc#custom-keys[key].
+output-file::
+The file the converted languages should be written to.
+All languages will be written to the same file.
+
+instanceConfigs::
+Executes all link:../../docs/reference/converter-lang.adoc#instance-json-export[`ExportInstanceToJson`] configurations.
+
+language::
+Supplies the key of a language to export.
+Can be used multiple times; we accumulate all keys from _config-file_ and _language_ parameters.
++
+We export languages based on their _structure aspect_ representation.
++
+[NOTE]
+--
+We're always using the language's link:../../docs/reference/structure-extensions.adoc#custom-keys[key].
  We're _not_ using the language's fully qualified name, module name, uuid, or anything else.
+--
 
-* _macro:_ Supplies key/value pair to set a path variable for the MPS project.
- Can be used multiple times. +
- Example: `-mlionweb-mps.home=./../` sets path variable `lionweb-mps.home` to `./../`.
+scope::
+Defines the export link:../../docs/reference/converter-lang.adoc#language-json[scope as explained for converter languages].
 
-* _scope:_ Defines the export link:../../docs/reference/converter-lang.adoc#language-json-export[scope as explained for converter languages].
+languageConfigs::
+Executes all link:../../docs/reference/converter-lang.adoc#language-json-export[`ExportSLanguageToJson`]
+and link:../../docs/reference/converter-lang.adoc#mps-language-json-export[`ExportMpsLanguageStructureToJson`]
+configurations.
 
-* both `-ic` and `-lc` only need a _project-dir_ argument. All information about languages and output file
- originate from the link:../../docs/reference/converter-lang.adoc#instance-json-export[instance] or link:../../docs/reference/converter-lang.adoc#language-json-export[language] configs
+[NOTE]
+--
+We moved some command-line arguments to the gradle script. This includes:
 
-*Note* that we assume that your to-be-exported languages are built within MPS, i.e. have resulted in files in `classes_gen/` directories, and MPS doesn't show “(generation required)” next to the language module(s).
-This also requires that the required external dependencies are downloaded first.
-This is typically done by running the Gradle `resolveGenerationDependencies` task, as follows:
+* _project_dir_: Previously the first positional command-line parameter. Replace with proper
+https://github.com/mbeddr/mps-gradle-plugin/blob/v1.x/docs/tasks/MpsExecute.md[`projectLocation`]
+value.
+* `-m` or `--macro`: Previously command-line parameters. Macros now must be https://github.com/specificlanguages/mps-gradle-plugin/tree/master/subprojects/mps-gradle-plugin#customizing-conventions[added] to the gradle script:
++
+[source,gradle]
+----
+mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps"))
+----
+--
+
+[NOTE]
+--
+We assume that you downloaded all dependencies for your to-be-exported languages.
+This is typically done by running the Gradle `setup` task, as follows:
 
 [source,shell]
 ----
-./gradlew resolveGenerationDependencies
+./gradlew setup
 ----
+--
 
 === Examples
 
@@ -64,10 +91,9 @@ This is typically done by running the Gradle `resolveGenerationDependencies` tas
 
 [source,shell]
 ----
-./gradlew runCommandLineTool -Pargs=". exported.lw-lang.json -lMyHappyLittleMulti-Reference_Language -s=listed"
+./gradlew runCommandLineTool -Pargs="exported.lw-lang.json -lMyHappyLittleMulti-Reference_Language -s=listed"
 ----
 
-* `.` specifies the current directory as MPS project directory
 * `exported.lw-lang.json` sets the output file
 * `-lMyHappyLittleMulti-Reference_Language` asks to export the language with key `MyHappyLittleMulti-Reference_Language`
 * `-s=listed` sets the export scope to _listed_
@@ -76,10 +102,9 @@ This is typically done by running the Gradle `resolveGenerationDependencies` tas
 
 [source,shell]
 ----
-./gradlew runCommandLineTool -Pargs=". config-file.json exported.lw-lang.json"
+./gradlew runCommandLineTool -Pargs="config-file.json exported.lw-lang.json"
 ----
 
-* `.` specifies the current directory as MPS project directory
 * `config-file.json` specifies the file that provides scope and language keys.
  Useful to keep the language keys under version control.
 * `exported.lw-lang.json` sets the output file
@@ -107,7 +132,7 @@ Contents of `config-file.json`:
 
 [source,shell]
 ----
-./gradlew runCommandLineTool -Pargs=". -ic -lc"
+./gradlew runCommandLineTool -Pargs="-ic -lc"
 ----
 
 ==== Test exports
@@ -141,7 +166,10 @@ The `FooLanguage` language resides within the `test-project/` MPS project, and t
 
 == Setup
 
-We assume the MPS project that contains your to-be-exported languages is built with Gradle.
+We assume the MPS project that contains your to-be-exported languages is built with Gradle using https://github.com/specificlanguages/mps-gradle-plugin/tree/master/subprojects/mps-gradle-plugin[SpecificLanguages mps-gradle-plugin].
+
+NOTE: This example is condensed to one file.
+In a production environment, consider https://docs.gradle.org/current/userguide/version_catalogs.html[externalizing versions] (https://github.com/LionWeb-io/lionweb-mps/blob/mps2025.1/test-project-externalLib/build.gradle.kts[example]).
 
 Create or adjust the following contents of `build.gradle.kts` (Kotlin dialect):
 
@@ -149,15 +177,20 @@ Create or adjust the following contents of `build.gradle.kts` (Kotlin dialect):
 ----
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
-plugins {
-    id("com.specificlanguages.mps")
-    `maven-publish`
+import com.specificlanguages.mps.MainBuild
+import de.itemis.mps.gradle.tasks.MpsExecute
+import org.apache.commons.exec.CommandLine
+
+buildscript {
+    dependencies {
+        classpath("org.apache.commons:commons-exec:1.6.+")                         // <1>
+    }
 }
 
-val mpsVersionSuffix: String by project
-val lionwebRelease: String by project
-val mpsVersion: String by project
-val lionwebVersion: String by project
+plugins {
+    id("com.specificlanguages.mps") version "2.0.1"                                // <1>
+    id("de.itemis.mps.gradle.common") version "1.30.+"                             // <1>
+}
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -165,59 +198,45 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
-    "generation"("io.lionweb.lionweb-mps:lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease:$lionwebVersion")
+    mps("com.jetbrains:mps:2025.1.2")                                              // <1>
+    jbr("com.jetbrains.jdk:jbr_jcef:21.0.6-b895.109")                              // <1>
+    api("io.lionweb.lionweb-mps:lionweb-mps-2025.1:0.3.0")                         // <1>
 }
 
-task<JavaExec>("runCommandLineTool") {
-    dependsOn("resolveGenerationDependencies")
+mpsDefaults.pathVariables.put("lionweb-mps.test-project-ExternalLib", projectDir)  // <2>
 
-    val mpsHome = configurations
-            .getByName("mps")
-            .incoming
-            .artifactView { attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution") }
-            .files
-            .elements
-            .map { it.single().asFile }
-            .get()
+mpsBuilds {
+    create<MainBuild>("main") {                                                    // <3>
+        buildSolutionDescriptor = file("solutions/testProjectExternalLib.build/testProjectExternalLib.build.msd")
+        buildArtifactsDirectory = file("build/artifacts/test-project-externalLib")
+        buildFile = file("build.xml")
+        mpsProjectDirectory = projectDir.absoluteFile                              // <4>
+    }
+}
+
+tasks.register<MpsExecute>("runCommandLineTool") {
+    dependsOn(tasks.resolveMpsLibraries)
+
+    mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
-    val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/languages/lionweb-mps.cmdline/io.lionweb.mps.cmdline.jar"
-    project.logger.info("cmdLinePath: $cmdLinePath")
-    classpath(
-            file(cmdLinePath), // Location of CommandLineTool.class
-            fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
-    )
-    mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
-
+    pluginRoots.add(mpsHome.dir("plugins"))
+    projectLocation = projectDir.absoluteFile                                      // <4>
+    javaLauncher = mpsDefaults.javaLauncher
+    macros.putAll(mpsDefaults.pathVariables.get().map { (k, v) -> k to v.path }.toMap())
+    module = "io.lionweb.mps.cmdline"
+    className = "io.lionweb.mps.cmdline.CommandLineTool"
+    method = "execute"
     val propArgs: String? = project.findProperty("args") as String?
     project.logger.info("propArgs: $propArgs")
     if (propArgs != null) {
-        setArgsString(propArgs)
+        val parse = CommandLine.parse(propArgs)
+        projectLocation = projectDir
+        methodArguments = listOf(parse.executable) + parse.arguments.toList()
     }
 }
 ----
-
-We also need a `settings.gradle.kts`:
-
-[source,gradle]
-----
-pluginManagement {
-    val comSpecificlanguagesMpsVersion: String by settings
-    plugins {
-        id("com.specificlanguages.mps") version comSpecificlanguagesMpsVersion
-    }
-}
-----
-
-and some `gradle.properties` (adjust the versions accordingly):
-
-[source,properties]
-----
-lionwebVersion=0.2.10
-lionwebRelease=2023.1
-mpsVersionSuffix=2021.1
-mpsVersion=2021.1.4
-comSpecificlanguagesMpsVersion=1.6.0
-----
-
-*Note:* The implementation strongly assumes that LionWeb will be deployed to directory `./build/dependencies/io.lionweb.mps`.
+<1> Adjust versions.
+<2> Example how to set macros.
+<3> Regular MPS build, adjust to your environment.
+<4> Set MPS project directory (_in 2 places!_).
+Can be omitted if MPS project directory == gradle project directory.

@@ -1,5 +1,22 @@
 # Changelog for LionWeb-MPS
 
+## 0.3.0
+* Requires at least MPS 2025.1.
+* Requires at least Gradle 9.
+* Requires at least Java 17.
+* Drop LionWeb version from artifact name, as we can support several LionWeb versions in the same artifact.
+* Bump lionweb-java dependency to v1.3.2.
+* Bump mps-gradle-plugin to v2.0.1.
+* **[breaking]** Replace custom MPS command-line startup logic with mps-gradle-launcher plugin.
+  This replaced the following command-line parameters with gradle settings, [see docs](doc/reference/command-line-interface.adoc):
+  * project-dir
+  * -m / --macro
+  
+  Requires new `runCommandLineTool` task in gradle (see same docs).
+* Added `ExportMpsLanguageStructureToJson` concept to converter language to export _structure aspect_ to JSON.
+  Used by command-line exporter.
+  Allows to export languages without building them. (Built languages still required to export instances.)
+
 ## 0.2.11-2023.1
 
 * Bump lionweb-java dependency to v0.3.4

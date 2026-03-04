@@ -19,13 +19,6 @@ Check the btn:[Messages Pane] for results.
 [[language-json]]
 == MPS Language &rarr; JSON
 
-[[language-json-export]]
-=== Export MPS Language to JSON
-Technical name: `ExportMpsLanguageToJson` / `Language2JsonConverter`
-
-Converts a list of MPS Languages to LionCore JSON.
-We use MPS' _Runtime Language_ representation.
-
 Requires a file _path_ to write the JSON file to.
 We can use {mpshelp}/absolute-path-variables.html[path variables].
 
@@ -59,12 +52,27 @@ Whether special concept annotations should be exported:
 +
 * `jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation` -> `io.lionweb.mps.specific.lang.MPS-specific annotations.Deprecated`
 
+[[language-json-export]]
+=== Export MPS SLanguage to JSON
+Technical name: `ExportSLanguageToJson` / `M2ToJson` / `Language2JsonConverter`
+
+Converts a list of MPS Languages to LionCore JSON.
+We use MPS' _Runtime Language_ representation.
+
+[[mps-language-json-export]]
+=== Export MPS Language Structure to JSON
+Technical name: `ExportMpsLanguageStructureToJson` / `M2ToJsonMps` / `MpsLanguage2JsonConverter`
+
+Converts a list of MPS Languages to LionCore JSON.
+We use MPS' _structure aspect_ representation.
+
+
 [[instance-json]]
 == MPS Instance Model &harr; JSON
 
 [[instance-json-export]]
 === Export Instance to JSON
-Technical name: `ExportInstanceToJson` / `AMps2LionWebConverter`
+Technical name: `ExportInstanceToJson` / `M1ToJson` / `AMps2LionWebConverter`
 
 Converts a list of MPS nodes to LionWeb JSON.
 
@@ -100,10 +108,18 @@ Example: For _descendants_ scope, we include both the target node and the target
 
 |===
 
+We can opt to include _unconverted parent ids_.
+Assume node `A` has node `B` as child.
+According to the scoping rules, only `B` will be exported.
+If enabled (`unconverted parent ids = true`), Child `B` will mention `A` as its parent.
+
+We can opt to include _computed properties_.
+If enabled (`computed properties = true`), and the property has a custom getter, the computed property value will be exported.
+
 
 [[instance-json-import]]
 === Import Instance from JSON
-Technical name: `ImportInstanceFromJson` / `MergingLionWeb2MpsConverter`
+Technical name: `ImportInstanceFromJson` / `JsonToM1` / `MergingLionWeb2MpsConverter`
 
 Converts a LionWeb JSON file into MPS nodes, stored into the current model.
 If the current model already contains a node with the same id as an imported node, we https://github.com/LionWeb-io/specification/issues/25[merge] them.
