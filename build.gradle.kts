@@ -193,9 +193,9 @@ fun restoreNewlines(encodedString: String?): String? {
 }
 
 signing {
-    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+    // if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         useGpgCmd()
-    }
+    // }
     val signingKey: String? = restoreNewlines(System.getenv("SIGNING_KEY"))
     val signingPassword: String? = System.getenv("SIGNING_PASSWORD")
     if (signingKey != null && signingPassword != null) {
