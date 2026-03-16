@@ -3,14 +3,14 @@
   <models>
     <modelRoot contentPath="${module}/libs" type="java_classes">
       <sourceRoot location="gson.jar" />
-      <sourceRoot location="lionweb-java-2024.1-core.jar" />
+      <sourceRoot location="lionweb-2024.1-core.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/libs/gson.jar" />
-      <library location="${module}/libs/lionweb-java-2024.1-core.jar" />
+      <library location="${module}/libs/lionweb-2024.1-core.jar" />
     </facet>
   </facets>
   <dependencies>

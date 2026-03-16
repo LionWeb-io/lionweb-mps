@@ -2,7 +2,7 @@
 <model ref="r:ca6f6cb0-ba79-49a6-afb1-04c92eaa5065(io.lionweb.mps.m3.selfdescription.TestLang.importtest)">
   <persistence version="9" />
   <languages>
-    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="3" />
     <use id="08caad75-8246-4427-bb4d-8444b6c5c729" name="io.lionweb.mps.converter.TestLang" version="0" />
     <use id="a95063a5-27eb-4ae8-894e-ea20f8b3d6a2" name="io.lionweb.mps.converter.TestRefs" version="0" />
   </languages>
@@ -19,10 +19,10 @@
         <child id="2585378165973211779" name="oneToMany" index="1r0O4X" />
         <child id="2585378165973210264" name="one" index="1r0OWA" />
       </concept>
-      <concept id="2585378165973215871" name="io.lionweb.mps.converter.TestLang.structure.TestInterfaceExtends2" flags="ng" index="1r0R71">
+      <concept id="2585378165973215871" name="io.lionweb.mps.converter.TestLang.structure.TestInterfaceExtends2" flags="ngI" index="1r0R71">
         <property id="2585378165973219112" name="testInterfaceExtends2Prop" index="1r0QMm" />
       </concept>
-      <concept id="2585378165973214385" name="io.lionweb.mps.converter.TestLang.structure.TestInterfaceBase" flags="ng" index="1r0RWf">
+      <concept id="2585378165973214385" name="io.lionweb.mps.converter.TestLang.structure.TestInterfaceBase" flags="ngI" index="1r0RWf">
         <property id="2585378165973217782" name="testInterfaceBaseProp" index="1r0QD8" />
       </concept>
       <concept id="2585378165973223205" name="io.lionweb.mps.converter.TestLang.structure.TestConceptExtends2" flags="ng" index="1r0TMr" />

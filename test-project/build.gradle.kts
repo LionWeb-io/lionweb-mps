@@ -1,15 +1,19 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
 import com.specificlanguages.mps.MainBuild
+import de.itemis.mps.gradle.tasks.MpsExecute
+import org.apache.commons.exec.CommandLine
 
-plugins {
-    id("com.specificlanguages.mps")
-    id("com.specificlanguages.jbr-toolchain")
-    `maven-publish`
+buildscript {
+    dependencies {
+        classpath(libs.apache.exec)
+    }
 }
 
-val mpsVersion: String by project
-val jbrVersion: String by project
+plugins {
+    alias(libs.plugins.specificlanguages.mps)
+    alias(libs.plugins.mps.gradle.common)
+}
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -17,45 +21,38 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:$mpsVersion")
-    jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
+    mps(libs.jetbrains.mps)
+    jbr(libs.jetbrains.jbr)
     api(project(":"))
 }
 
+mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps"))
+mpsDefaults.pathVariables.put("lionweb-mps.test-project", projectDir)
+
 mpsBuilds {
     create<MainBuild>("main") {
-        buildSolutionDescriptor = file("solutions/test-project.build/test-project.build.msd")
-        buildProjectName = "test-project"
-        buildFile = file("build.xml")
+        buildSolutionDescriptor = projectDir.resolve("solutions/test-project.build/test-project.build.msd")
+        buildArtifactsDirectory = projectDir.resolve("build/artifacts/test-project")
+        buildFile = projectDir.resolve("build.xml")
     }
-
-    mpsDefaults.pathVariables.put("lionweb-mps.home", projectDir.resolve("build/dependencies/io.lionweb.mps"))
 }
 
-tasks.register<JavaExec>("runCommandLineTool") {
+tasks.register<MpsExecute>("runCommandLineTool") {
     dependsOn(tasks.resolveMpsLibraries)
 
-    val mpsHome = configurations
-            .getByName("mps")
-            .incoming
-            .artifactView { attributes.attribute(Attribute.of("artifactType", String::class.java), "unzipped-mps-distribution") }
-            .files
-            .elements
-            .map { it.single().asFile }
-            .get()
+    mpsHome = mpsDefaults.mpsHome.asFile.get()
     project.logger.info("mpsHome: $mpsHome")
-    val cmdLinePath = "build/dependencies/io.lionweb.mps/io.lionweb.mps.cmdline/languages/lionweb-mps.cmdline/io.lionweb.mps.cmdline.jar"
-    project.logger.info("cmdLinePath: $cmdLinePath")
-    classpath(
-            file(cmdLinePath), // Location of CommandLineTool.class
-            fileTree("$mpsHome/lib") // $mps_home points to the MPS installation
-    )
-    mainClass.set("io.lionweb.mps.cmdline.CommandLineTool")
-    javaLauncher = jbrToolchain.javaLauncher
-
+    pluginRoots.add(mpsHome.dir("plugins"))
+    javaLauncher = mpsDefaults.javaLauncher
+    macros.putAll(mpsDefaults.pathVariables.get().map { (k, v) -> k to v.path }.toMap())
+    module = "io.lionweb.mps.cmdline"
+    className = "io.lionweb.mps.cmdline.CommandLineTool"
+    method = "execute"
     val propArgs: String? = project.findProperty("args") as String?
     project.logger.info("propArgs: $propArgs")
     if (propArgs != null) {
-        setArgsString(propArgs)
+        val parse = CommandLine.parse(propArgs)
+        projectLocation = projectDir
+        methodArguments = listOf(parse.executable) + parse.arguments.toList()
     }
 }

@@ -1,26 +1,21 @@
 // based on https://github.com/specificlanguages/mps-gradle-plugin-sample
 
-import com.vanniktech.maven.publish.SonatypeHost
-import org.apache.tools.ant.taskdefs.condition.Os
 import com.specificlanguages.mps.MainBuild
 import com.specificlanguages.mps.TestBuild
+import org.apache.tools.ant.taskdefs.condition.Os
 
 plugins {
-    id("com.specificlanguages.mps")
-    id("signing")
-    id("net.researchgate.release")
-    id("com.vanniktech.maven.publish")
+    alias(libs.plugins.specificlanguages.mps)
+    alias(libs.plugins.jbr.toolchain)
+    alias(libs.plugins.mps.gradle.launcher)
+    alias(libs.plugins.researchgate.release)
+    alias(libs.plugins.maven.publish)
+    signing
 }
 
 val releaseVersion = project.findProperty("version") as String
 val isReleaseVersion = !releaseVersion.endsWith("SNAPSHOT")
 val mpsVersionSuffix: String by project
-val lionwebRelease: String by project
-val lionwebJavaVersion: String by project
-val mpsVersion: String by project
-val jbrVersion: String by project
-val mpsExtensionsVersion: String by project
-val apacheCliVersion: String by project
 
 repositories {
     maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
@@ -28,34 +23,41 @@ repositories {
 }
 
 dependencies {
-    mps("com.jetbrains:mps:$mpsVersion")
-    jbr("com.jetbrains.jdk:jbr_jcef:$jbrVersion")
+    mps(libs.jetbrains.mps)
+    jbr(libs.jetbrains.jbr)
 
-    testImplementation("de.itemis.mps:extensions:$mpsExtensionsVersion")
+    testImplementation(libs.mps.extensions)
 }
 
 mpsBuilds {
-    val main = create<MainBuild>("main") {
+    val main by creating(MainBuild::class) {
         buildSolutionDescriptor = file("solutions/io.lionweb.mps.build/io.lionweb.mps.build.msd")
-        buildProjectName = "io.lionweb.mps"
+        buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps")
         buildFile = file("build.xml")
     }
-    create<TestBuild>("test") {
+    val testSupport by creating(MainBuild::class) {
         dependsOn(main)
+        buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.testSupport/io.lionweb.mps.build.testSupport.msd")
+        buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps.testSupport")
+        buildFile = file("build-testSupport.xml")
+        published = false
+    }
+    val test by creating(TestBuild::class) {
+        dependsOn(testSupport)
         buildSolutionDescriptor = file("solutions/io.lionweb.mps.build.test/io.lionweb.mps.build.test.msd")
-        buildProjectName = "io.lionweb.mps.test"
+        buildArtifactsDirectory = file("build/artifacts/io.lionweb.mps.test")
         buildFile = file("build-test.xml")
     }
 }
 
 bundledDependencies {
-    register("libs") {
-        destinationDir = file("solutions/io.lionweb.lionweb.java/libs")
-        dependency("io.lionweb.lionweb-java:lionweb-java-$lionwebJavaVersion")
+    create("lionwebJava") {
+        destinationDir = layout.projectDirectory.dir("solutions/io.lionweb.lionweb.java/libs")
+        dependency(libs.lionweb.java)
     }
-    register("apacheCli") {
-        destinationDir = file("solutions/org.apache.commons.cli/libs")
-        dependency("commons-cli:commons-cli:$apacheCliVersion")
+    create("apacheCli") {
+        destinationDir = layout.projectDirectory.dir("solutions/org.apache.commons.cli/libs")
+        dependency(libs.apache.cli)
     }
 }
 
@@ -99,6 +101,11 @@ tasks.register<Exec>("testCmdLineExport-foo-externalLib") {
     commandLine("./scripts/export-foo.sh")
 }
 
+tasks.register<Exec>("testCmdLineExport-configs-externalLib") {
+    workingDir("./test-project-externalLib")
+    commandLine("./scripts/export-configs.sh")
+}
+
 tasks.register("testCmdLineExport") {
     dependsOn("testCmdLineExport-library")
     dependsOn("testCmdLineExport-multiple")
@@ -106,9 +113,10 @@ tasks.register("testCmdLineExport") {
     dependsOn("testCmdLineExport-configs")
     dependsOn("testCmdLineExport-DependsOnMpsExtension-externalLib")
     dependsOn("testCmdLineExport-foo-externalLib")
+    dependsOn("testCmdLineExport-configs-externalLib")
 }
 
-val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix-lw$lionwebRelease"
+val concatenatedArtifact = "lionweb-mps-$mpsVersionSuffix"
 
 publishing {
     publications {
@@ -131,7 +139,7 @@ mavenPublishing {
 
     pom {
         name.set(concatenatedArtifact)
-        description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix, LionWeb release $lionwebRelease")
+        description.set("MPS APIs for the LionWeb system for MPS $mpsVersionSuffix")
         version = releaseVersion
         packaging = "zip"
         url.set("https://github.com/LionWeb-io/lionweb-mps")
@@ -159,11 +167,11 @@ mavenPublishing {
             }
         }
     }
-    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, true)
+    publishToMavenCentral(automaticRelease = true)
     signAllPublications()
 }
 
-configurations.getByName("libs") {
+configurations.getByName("lionwebJava") {
     attributes {
         attribute(Attribute.of("org.gradle.dependency.bundling", String::class.java), "external")
         attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE, project.objects.named(TargetJvmEnvironment::class.java, TargetJvmEnvironment.STANDARD_JVM))
@@ -197,11 +205,17 @@ signing {
 }
 
 release {
-    tagTemplate.set("$mpsVersionSuffix-lw$lionwebRelease-${releaseVersion.replace(snapshotSuffix.get(), "")}")
+    tagTemplate.set("$mpsVersionSuffix-${releaseVersion.replace(snapshotSuffix.get(), "")}")
     buildTasks.set(listOf("publishAllPublicationsToMavenCentralRepository"))
     git {
         requireBranch.set("")
         pushToRemote.set("origin")
         pushOptions.add("--force")
+    }
+}
+
+allprojects {
+    tasks.register<Wrapper>("allWrappers") {
+        gradleVersion = libs.versions.usedGradleVersion.get()
     }
 }

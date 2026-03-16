@@ -8,7 +8,7 @@
   <imports />
   <registry>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
-      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ng" index="K99fS">
+      <concept id="7434462380790650845" name="io.lionweb.mps.m3.structure.IKeyed" flags="ngI" index="K99fS">
         <property id="2656571587264857353" name="key" index="2RzON1" />
       </concept>
       <concept id="2656571587264858738" name="io.lionweb.mps.m3.structure.Property" flags="ng" index="2RzOeU">
@@ -64,7 +64,7 @@
       <node concept="2RzOeU" id="6jTTMHCZNV2" role="2RzPPN">
         <property role="2RzON1" value="LionCore-builtins-INamed-name" />
         <property role="TrG5h" value="name" />
-        <ref role="2Rx9Fl" node="2ju2syjnJjX" />
+        <ref role="2Rx9Fl" node="2ju2syjnJjX" resolve="String" />
       </node>
     </node>
   </node>

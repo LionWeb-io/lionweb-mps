@@ -15,8 +15,18 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" implicit="true" />
+    <import index="aoz0" ref="r:d60048c8-25ba-4e49-bf73-bc4371af9b2e(io.lionweb.mps.converter.lang.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
+      <concept id="1238852151516" name="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleType" flags="in" index="1LlUBW">
+        <child id="1238852204892" name="componentType" index="1Lm7xW" />
+      </concept>
+      <concept id="1238857743184" name="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleMemberAccessExpression" flags="nn" index="1LFfDK">
+        <child id="1238857764950" name="tuple" index="1LFl5Q" />
+        <child id="1238857834412" name="index" index="1LF_Uc" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -61,6 +71,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
@@ -108,6 +121,7 @@
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
+      <concept id="7992060018732187438" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatementAnnotation" flags="ng" index="AMVWg" />
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
@@ -147,6 +161,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -167,6 +182,10 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -175,11 +194,18 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
+        <child id="1176906787974" name="rightExpression" index="576Qk" />
+      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1176923520476" name="jetbrains.mps.baseLanguage.collections.structure.ExcludeOperation" flags="nn" index="66VNe" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
@@ -645,6 +671,198 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="1sx1qZQ7U1">
+    <property role="TrG5h" value="check_ExportMpsLanguageStructureToJson" />
+    <property role="3GE5qa" value="ExportMpsLanguageToJson" />
+    <node concept="3clFbS" id="1sx1qZQ7U2" role="18ibNy">
+      <node concept="3cpWs8" id="1sx1qZQavV" role="3cqZAp">
+        <node concept="3cpWsn" id="1sx1qZQavW" role="3cpWs9">
+          <property role="TrG5h" value="repository" />
+          <node concept="3uibUv" id="1sx1qZQavD" role="1tU5fm">
+            <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+          </node>
+          <node concept="2OqwBi" id="1sx1qZQavX" role="33vP2m">
+            <node concept="2JrnkZ" id="1sx1qZQavY" role="2Oq$k0">
+              <node concept="2OqwBi" id="1sx1qZQavZ" role="2JrQYb">
+                <node concept="1YBJjd" id="1sx1qZQaw0" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1sx1qZQ7U4" resolve="exportMpsLanguageStructureToJson" />
+                </node>
+                <node concept="I4A8Y" id="1sx1qZQaw1" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1sx1qZQaw2" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1sx1qZQaGo" role="3cqZAp" />
+      <node concept="3cpWs8" id="1sx1qZSiV7" role="3cqZAp">
+        <node concept="3cpWsn" id="1sx1qZSiV8" role="3cpWs9">
+          <property role="TrG5h" value="unresolvedTargets" />
+          <node concept="A3Dl8" id="1sx1qZSiMm" role="1tU5fm">
+            <node concept="1LlUBW" id="1sx1qZSiMx" role="A3Ik2">
+              <node concept="3Tqbb2" id="1sx1qZSiMy" role="1Lm7xW">
+                <ref role="ehGHo" to="d0tf:78CjgID0ZSD" resolve="LanguageSourceIdentity" />
+              </node>
+              <node concept="3uibUv" id="1sx1qZSiMz" role="1Lm7xW">
+                <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1sx1qZSiV9" role="33vP2m">
+            <node concept="1YBJjd" id="1sx1qZSiVa" role="2Oq$k0">
+              <ref role="1YBMHb" node="1sx1qZQ7U4" resolve="exportMpsLanguageStructureToJson" />
+            </node>
+            <node concept="2qgKlT" id="1sx1qZSiVb" role="2OqNvi">
+              <ref role="37wK5l" to="aoz0:1sx1qZPLIl" resolve="collectUnresolvedTargets" />
+              <node concept="37vLTw" id="1sx1qZSiVc" role="37wK5m">
+                <ref role="3cqZAo" node="1sx1qZQavW" resolve="repository" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2Gpval" id="1sx1qZQ7Uq" role="3cqZAp">
+        <node concept="2GrKxI" id="1sx1qZQ7Ur" role="2Gsz3X">
+          <property role="TrG5h" value="unresolved" />
+        </node>
+        <node concept="37vLTw" id="1sx1qZSiVd" role="2GsD0m">
+          <ref role="3cqZAo" node="1sx1qZSiV8" resolve="unresolvedTargets" />
+        </node>
+        <node concept="3clFbS" id="1sx1qZQ7Ut" role="2LFqv$">
+          <node concept="2MkqsV" id="1sx1qZQbot" role="3cqZAp">
+            <node concept="Xl_RD" id="1sx1qZQboA" role="2MkJ7o">
+              <property role="Xl_RC" value="unresolved language" />
+            </node>
+            <node concept="1LFfDK" id="1sx1qZQc_H" role="1urrMF">
+              <node concept="3cmrfG" id="1sx1qZQcDp" role="1LF_Uc">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2GrUjf" id="1sx1qZQboT" role="1LFl5Q">
+                <ref role="2Gs0qQ" node="1sx1qZQ7Ur" resolve="unresolved" />
+              </node>
+            </node>
+            <node concept="AMVWg" id="1sx1qZT2hd" role="lGtFl">
+              <property role="TrG5h" value="unresolvedLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1sx1qZQcQT" role="3cqZAp" />
+      <node concept="2Gpval" id="1sx1qZQcHl" role="3cqZAp">
+        <node concept="2GrKxI" id="1sx1qZQcHm" role="2Gsz3X">
+          <property role="TrG5h" value="invalid" />
+        </node>
+        <node concept="2OqwBi" id="1sx1qZSjvJ" role="2GsD0m">
+          <node concept="2OqwBi" id="1sx1qZQcHn" role="2Oq$k0">
+            <node concept="1YBJjd" id="1sx1qZQcHo" role="2Oq$k0">
+              <ref role="1YBMHb" node="1sx1qZQ7U4" resolve="exportMpsLanguageStructureToJson" />
+            </node>
+            <node concept="2qgKlT" id="1sx1qZQcHp" role="2OqNvi">
+              <ref role="37wK5l" to="aoz0:1sx1qZPS05" resolve="collectInvalidTargets" />
+              <node concept="37vLTw" id="1sx1qZQcHq" role="37wK5m">
+                <ref role="3cqZAo" node="1sx1qZQavW" resolve="repository" />
+              </node>
+            </node>
+          </node>
+          <node concept="66VNe" id="1sx1qZSkq4" role="2OqNvi">
+            <node concept="37vLTw" id="1sx1qZSksd" role="576Qk">
+              <ref role="3cqZAo" node="1sx1qZSiV8" resolve="unresolvedTargets" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1sx1qZQcHr" role="2LFqv$">
+          <node concept="2MkqsV" id="1sx1qZQcHs" role="3cqZAp">
+            <node concept="Xl_RD" id="1sx1qZQcHt" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-language module" />
+            </node>
+            <node concept="1LFfDK" id="1sx1qZQcHu" role="1urrMF">
+              <node concept="3cmrfG" id="1sx1qZQcHv" role="1LF_Uc">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2GrUjf" id="1sx1qZQcHw" role="1LFl5Q">
+                <ref role="2Gs0qQ" node="1sx1qZQcHm" resolve="invalid" />
+              </node>
+            </node>
+            <node concept="AMVWg" id="1sx1qZT2nk" role="lGtFl">
+              <property role="TrG5h" value="nonLanguageModule" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1sx1qZQ7U4" role="1YuTPh">
+      <property role="TrG5h" value="exportMpsLanguageStructureToJson" />
+      <ref role="1YaFvo" to="d0tf:78CjgICU_9y" resolve="ExportMpsLanguageStructureToJson" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1sx1qZQT8p">
+    <property role="TrG5h" value="check_ExportSLanguageToJson" />
+    <property role="3GE5qa" value="ExportMpsLanguageToJson" />
+    <node concept="3clFbS" id="1sx1qZQT8q" role="18ibNy">
+      <node concept="3cpWs8" id="1sx1qZQTps" role="3cqZAp">
+        <node concept="3cpWsn" id="1sx1qZQTpt" role="3cpWs9">
+          <property role="TrG5h" value="repository" />
+          <node concept="3uibUv" id="1sx1qZQTpu" role="1tU5fm">
+            <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+          </node>
+          <node concept="2OqwBi" id="1sx1qZQTpv" role="33vP2m">
+            <node concept="2JrnkZ" id="1sx1qZQTpw" role="2Oq$k0">
+              <node concept="2OqwBi" id="1sx1qZQTpx" role="2JrQYb">
+                <node concept="1YBJjd" id="1sx1qZQTpy" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1sx1qZQT8s" resolve="exportSLanguageToJson" />
+                </node>
+                <node concept="I4A8Y" id="1sx1qZQTpz" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1sx1qZQTp$" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1sx1qZQTp_" role="3cqZAp" />
+      <node concept="2Gpval" id="1sx1qZQTpA" role="3cqZAp">
+        <node concept="2GrKxI" id="1sx1qZQTpB" role="2Gsz3X">
+          <property role="TrG5h" value="unresolved" />
+        </node>
+        <node concept="2OqwBi" id="1sx1qZQTpC" role="2GsD0m">
+          <node concept="1YBJjd" id="1sx1qZQTpD" role="2Oq$k0">
+            <ref role="1YBMHb" node="1sx1qZQT8s" resolve="exportSLanguageToJson" />
+          </node>
+          <node concept="2qgKlT" id="1sx1qZQTpE" role="2OqNvi">
+            <ref role="37wK5l" to="aoz0:1sx1qZQmBO" resolve="collectUnresolvedTargets" />
+            <node concept="37vLTw" id="1sx1qZQTpF" role="37wK5m">
+              <ref role="3cqZAo" node="1sx1qZQTpt" resolve="repository" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1sx1qZQTpG" role="2LFqv$">
+          <node concept="2MkqsV" id="1sx1qZQTpH" role="3cqZAp">
+            <node concept="Xl_RD" id="1sx1qZQTpI" role="2MkJ7o">
+              <property role="Xl_RC" value="unresolved language" />
+            </node>
+            <node concept="1LFfDK" id="1sx1qZQTpJ" role="1urrMF">
+              <node concept="3cmrfG" id="1sx1qZQTpK" role="1LF_Uc">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2GrUjf" id="1sx1qZQTpL" role="1LFl5Q">
+                <ref role="2Gs0qQ" node="1sx1qZQTpB" resolve="unresolved" />
+              </node>
+            </node>
+            <node concept="AMVWg" id="1sx1qZT1zv" role="lGtFl">
+              <property role="TrG5h" value="unresolvedLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1sx1qZQT8s" role="1YuTPh">
+      <property role="TrG5h" value="exportSLanguageToJson" />
+      <ref role="1YaFvo" to="d0tf:1q44RFSZQBU" resolve="ExportSLanguageToJson" />
     </node>
   </node>
 </model>

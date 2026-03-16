@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="8" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -48,7 +48,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
@@ -61,7 +61,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -145,14 +145,6 @@
     </node>
     <node concept="398rNT" id="3Dlb8T1lioB" role="1l3spd">
       <property role="TrG5h" value="lionweb-mps.home" />
-      <node concept="55IIr" id="6LPkCA$43uK" role="398pKh">
-        <node concept="2Ry0Ak" id="6LPkCA$43uN" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="6LPkCA$43uQ" role="2Ry0An">
-            <property role="2Ry0Am" value="" />
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="398rNT" id="6LPkCA$43xi" role="1l3spd">
       <property role="TrG5h" value="mps.macro.lionweb-mps.home" />
@@ -190,19 +182,23 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="6LPkCA$40$h" role="1HemKq">
-            <node concept="55IIr" id="6LPkCA$40$c" role="3LXTmr">
-              <node concept="2Ry0Ak" id="6LPkCA$40$d" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="6LPkCA$40$e" role="2Ry0An">
-                  <property role="2Ry0Am" value="DependsOnMpsExtensions" />
-                  <node concept="2Ry0Ak" id="6LPkCA$40$f" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
+          <node concept="3LXTmp" id="7Ovcrc9oLmr" role="1HemKq">
+            <node concept="398BVA" id="7Ovcrc9oLmd" role="3LXTmr">
+              <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
+              <node concept="2Ry0Ak" id="7Ovcrc9oLme" role="iGT6I">
+                <property role="2Ry0Am" value="test-project-externalLib" />
+                <node concept="2Ry0Ak" id="7Ovcrc9oLmf" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="7Ovcrc9oLmg" role="2Ry0An">
+                    <property role="2Ry0Am" value="DependsOnMpsExtensions" />
+                    <node concept="2Ry0Ak" id="7Ovcrc9oLmh" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="6LPkCA$40$i" role="3LXTna">
+            <node concept="3qWCbU" id="7Ovcrc9oLms" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>

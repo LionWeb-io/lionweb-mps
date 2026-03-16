@@ -19,7 +19,7 @@
     <use id="08caad75-8246-4427-bb4d-8444b6c5c729" name="io.lionweb.mps.converter.TestLang" version="0" />
     <use id="3ecd737b-418b-4a70-a991-f6b83f0e3247" name="io.lionweb.mps.converter.TestAbstract" version="0" />
     <use id="60791ea2-7a1d-4862-a1ef-f87878cc3b6e" name="io.lionweb.mps.converter.TestComputedProperty" version="0" />
-    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="3" />
     <use id="1ec6d5e7-6402-4c18-95d0-6e0906eb1ff1" name="io.lionweb.mps.converter.TestEnum" version="0" />
     <use id="63c09674-565f-4cbb-add6-f15c4e540c84" name="io.lionweb.mps.converter.TestUtf8" version="-1" />
   </languages>
@@ -27,7 +27,6 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="6peh" ref="r:677983a1-6578-432d-8175-68c906e0375c(io.lionweb.mps.json)" />
     <import index="h2gc" ref="r:c9b5090c-7263-4642-b8f4-1265e3a15687(library.structure)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
@@ -45,6 +44,7 @@
     <import index="qa91" ref="r:38742da4-ca90-4db1-b16c-4863d9d39613(io.lionweb.mps.converter.TestLang.structure)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
+    <import index="7que" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="q6xk" ref="r:2e1d95ed-4ed0-4ecd-bc84-f6c7c405fa7f(io.lionweb.mps.converter.TestLang3.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -765,7 +765,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="2hMVRd" id="5glO5qKZaIX" role="1tU5fm">
               <node concept="3uibUv" id="5glO5qKZaJ0" role="2hN53Y">
-                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
               </node>
             </node>
             <node concept="2OqwBi" id="5glO5qKZaNb" role="33vP2m">
@@ -793,7 +793,7 @@
           <node concept="3cpWsn" id="5glO5qKZNxZ" role="3cpWs9">
             <property role="TrG5h" value="actual" />
             <node concept="3uibUv" id="5glO5qKZMBV" role="1tU5fm">
-              <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+              <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
             </node>
             <node concept="2OqwBi" id="5glO5qKZNy0" role="33vP2m">
               <node concept="37vLTw" id="5glO5qKZNy1" role="2Oq$k0">
@@ -807,38 +807,37 @@
           <node concept="3cpWsn" id="5glO5qL0trp" role="3cpWs9">
             <property role="TrG5h" value="expected" />
             <node concept="3uibUv" id="5glO5qL0tm4" role="1tU5fm">
-              <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+              <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
             </node>
-            <node concept="2ShNRf" id="5glO5qL0trq" role="33vP2m">
-              <node concept="1pGfFk" id="5glO5qL0trr" role="2ShVmc">
-                <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                <node concept="2YIFZM" id="5glO5qL0trs" role="37wK5m">
-                  <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
-                  <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
-                  <node concept="2OqwBi" id="5glO5qL0trt" role="37wK5m">
-                    <node concept="2YIFZM" id="68Be_yKnMw" role="2Oq$k0">
-                      <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
-                      <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
-                    </node>
-                    <node concept="liA8E" id="5glO5qL0trv" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:39$JcGGnELF" resolve="toSLanguageId" />
-                      <node concept="2OqwBi" id="5glO5qL0trw" role="37wK5m">
-                        <node concept="2OqwBi" id="5glO5qL0trx" role="2Oq$k0">
-                          <node concept="3xONca" id="5glO5qL0try" role="2Oq$k0">
-                            <ref role="3xOPvv" node="6VkSF6cxHRd" resolve="library" />
-                          </node>
-                          <node concept="2yIwOk" id="5glO5qL0trz" role="2OqNvi" />
+            <node concept="2YIFZM" id="75hf4JrBRF2" role="33vP2m">
+              <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+              <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+              <node concept="2YIFZM" id="75hf4JrBQKJ" role="37wK5m">
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <node concept="2OqwBi" id="75hf4JrBQKK" role="37wK5m">
+                  <node concept="2YIFZM" id="75hf4JrBQKL" role="2Oq$k0">
+                    <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
+                    <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+                  </node>
+                  <node concept="liA8E" id="75hf4JrBQKM" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:39$JcGGnELF" resolve="toSLanguageId" />
+                    <node concept="2OqwBi" id="75hf4JrBQKN" role="37wK5m">
+                      <node concept="2OqwBi" id="75hf4JrBQKO" role="2Oq$k0">
+                        <node concept="3xONca" id="75hf4JrBQKP" role="2Oq$k0">
+                          <ref role="3xOPvv" node="6VkSF6cxHRd" resolve="library" />
                         </node>
-                        <node concept="liA8E" id="5glO5qL0tr$" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
-                        </node>
+                        <node concept="2yIwOk" id="75hf4JrBQKQ" role="2OqNvi" />
+                      </node>
+                      <node concept="liA8E" id="75hf4JrBQKR" role="2OqNvi">
+                        <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="Xl_RD" id="5glO5qL0tr_" role="37wK5m">
-                  <property role="Xl_RC" value="0" />
-                </node>
+              </node>
+              <node concept="Xl_RD" id="75hf4JrBQKS" role="37wK5m">
+                <property role="Xl_RC" value="0" />
               </node>
             </node>
           </node>
@@ -857,7 +856,7 @@
                   <ref role="3cqZAo" node="5glO5qKZNxZ" resolve="actual" />
                 </node>
                 <node concept="liA8E" id="5glO5qL0K8O" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~UsedLanguage.getVersion()" resolve="getVersion" />
+                  <ref role="37wK5l" to="7que:~LanguageVersion.getVersion()" resolve="getVersion" />
                 </node>
               </node>
               <node concept="3cpWs3" id="5glO5qL0Gnu" role="3uHU7B">
@@ -874,7 +873,7 @@
                               <ref role="3cqZAo" node="5glO5qL0trp" resolve="expected" />
                             </node>
                             <node concept="liA8E" id="5glO5qL0yWM" role="2OqNvi">
-                              <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+                              <ref role="37wK5l" to="7que:~LanguageVersion.getKey()" resolve="getKey" />
                             </node>
                           </node>
                         </node>
@@ -887,7 +886,7 @@
                           <ref role="3cqZAo" node="5glO5qL0trp" resolve="expected" />
                         </node>
                         <node concept="liA8E" id="5glO5qL0Bgj" role="2OqNvi">
-                          <ref role="37wK5l" to="xfsv:~UsedLanguage.getVersion()" resolve="getVersion" />
+                          <ref role="37wK5l" to="7que:~LanguageVersion.getVersion()" resolve="getVersion" />
                         </node>
                       </node>
                     </node>
@@ -900,7 +899,7 @@
                       <ref role="3cqZAo" node="5glO5qKZNxZ" resolve="actual" />
                     </node>
                     <node concept="liA8E" id="5glO5qL0FV9" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+                      <ref role="37wK5l" to="7que:~LanguageVersion.getKey()" resolve="getKey" />
                     </node>
                   </node>
                 </node>
@@ -1403,19 +1402,18 @@
               </node>
               <node concept="2ShNRf" id="3FWZcLVW8iA" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVW8Bg" role="2ShVmc">
-                  <node concept="3uibUv" id="3FWZcLVW94t" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                  </node>
-                  <node concept="2ShNRf" id="3FWZcLVW9LC" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLVWa4V" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLVWadX" role="37wK5m">
-                        <property role="Xl_RC" value="My-TestLang3" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLVWa_m" role="37wK5m">
-                        <property role="Xl_RC" value="00 my! VERSION 😀" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrC0y_" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLVWadX" role="37wK5m">
+                      <property role="Xl_RC" value="My-TestLang3" />
                     </node>
+                    <node concept="Xl_RD" id="3FWZcLVWa_m" role="37wK5m">
+                      <property role="Xl_RC" value="00 my! VERSION 😀" />
+                    </node>
+                  </node>
+                  <node concept="3uibUv" id="75hf4JrC0aA" role="HW$YZ">
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                 </node>
               </node>
@@ -1988,17 +1986,16 @@
               <node concept="2ShNRf" id="3FWZcLVWI4V" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVWI4W" role="2ShVmc">
                   <node concept="3uibUv" id="3FWZcLVWI4X" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
-                  <node concept="2ShNRf" id="3FWZcLVWI4Y" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLVWI4Z" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLVWI50" role="37wK5m">
-                        <property role="Xl_RC" value="My-TestLang3" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLVWI51" role="37wK5m">
-                        <property role="Xl_RC" value="00 my! VERSION 😀" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrC8mW" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLVWI50" role="37wK5m">
+                      <property role="Xl_RC" value="My-TestLang3" />
+                    </node>
+                    <node concept="Xl_RD" id="3FWZcLVWI51" role="37wK5m">
+                      <property role="Xl_RC" value="00 my! VERSION 😀" />
                     </node>
                   </node>
                 </node>
@@ -2232,19 +2229,18 @@
               </node>
               <node concept="2ShNRf" id="3FWZcLVWIrQ" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVWIrR" role="2ShVmc">
-                  <node concept="3uibUv" id="3FWZcLVWIrS" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                  </node>
-                  <node concept="2ShNRf" id="3FWZcLVWIrT" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLVWIrU" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLVWIrV" role="37wK5m">
-                        <property role="Xl_RC" value="My-TestLang3" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLVWIrW" role="37wK5m">
-                        <property role="Xl_RC" value="00 my! VERSION 😀" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrC6h4" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLVWIrV" role="37wK5m">
+                      <property role="Xl_RC" value="My-TestLang3" />
                     </node>
+                    <node concept="Xl_RD" id="3FWZcLVWIrW" role="37wK5m">
+                      <property role="Xl_RC" value="00 my! VERSION 😀" />
+                    </node>
+                  </node>
+                  <node concept="3uibUv" id="75hf4JrC56k" role="HW$YZ">
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                 </node>
               </node>
@@ -2932,17 +2928,16 @@
               <node concept="2ShNRf" id="3FWZcLVXMFb" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVXMFc" role="2ShVmc">
                   <node concept="3uibUv" id="3FWZcLVXMFd" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
-                  <node concept="2ShNRf" id="3FWZcLVXMFe" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLVXMFf" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLVXMFg" role="37wK5m">
-                        <property role="Xl_RC" value="My-TestLang3" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLVXMFh" role="37wK5m">
-                        <property role="Xl_RC" value="00 my! VERSION 😀" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrU59x" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLVXMFg" role="37wK5m">
+                      <property role="Xl_RC" value="My-TestLang3" />
+                    </node>
+                    <node concept="Xl_RD" id="3FWZcLVXMFh" role="37wK5m">
+                      <property role="Xl_RC" value="00 my! VERSION 😀" />
                     </node>
                   </node>
                   <node concept="2YIFZM" id="3FWZcLVXMFi" role="HW$Y0">
@@ -3235,18 +3230,14 @@
               </node>
               <node concept="2ShNRf" id="3FWZcLVYi9Q" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVYi9R" role="2ShVmc">
-                  <node concept="3uibUv" id="3FWZcLVYi9S" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                  </node>
-                  <node concept="2ShNRf" id="3FWZcLVYi9T" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLVYi9U" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLVYi9V" role="37wK5m">
-                        <property role="Xl_RC" value="My-TestLang3" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLVYi9W" role="37wK5m">
-                        <property role="Xl_RC" value="00 my! VERSION 😀" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrC3dW" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLVYi9V" role="37wK5m">
+                      <property role="Xl_RC" value="My-TestLang3" />
+                    </node>
+                    <node concept="Xl_RD" id="3FWZcLVYi9W" role="37wK5m">
+                      <property role="Xl_RC" value="00 my! VERSION 😀" />
                     </node>
                   </node>
                   <node concept="2YIFZM" id="3FWZcLVYi9X" role="HW$Y0">
@@ -3259,6 +3250,9 @@
                       </node>
                     </node>
                     <node concept="1jGwE1" id="6$Vbq$b7lgU" role="37wK5m" />
+                  </node>
+                  <node concept="3uibUv" id="75hf4JrC1OC" role="HW$YZ">
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                 </node>
               </node>
@@ -3832,9 +3826,6 @@
               </node>
               <node concept="2ShNRf" id="3FWZcLVZo$0" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVZoSq" role="2ShVmc">
-                  <node concept="3uibUv" id="3FWZcLVZpl7" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                  </node>
                   <node concept="2YIFZM" id="3FWZcLVZpKR" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUM0z" resolve="toUsedLanguage" />
                     <ref role="1Pybhc" to="kte7:3FWZcLVULYw" resolve="UsedLanguageHelper" />
@@ -3845,6 +3836,9 @@
                       </node>
                     </node>
                     <node concept="1jGwE1" id="6$Vbq$b7jlv" role="37wK5m" />
+                  </node>
+                  <node concept="3uibUv" id="75hf4JrBOtA" role="HW$YZ">
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                 </node>
               </node>
@@ -4286,7 +4280,7 @@
               <node concept="2ShNRf" id="3FWZcLW0oRb" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLW0pm4" role="2ShVmc">
                   <node concept="3uibUv" id="3FWZcLW0q9G" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                   <node concept="2YIFZM" id="3FWZcLW0r00" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUMkk" resolve="builtins" />
@@ -4295,15 +4289,14 @@
                       <ref role="3cqZAo" node="pwT61fpVpp" resolve="lionwebVersion" />
                     </node>
                   </node>
-                  <node concept="2ShNRf" id="3FWZcLW0rxk" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLW0rZ2" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLW0sdX" role="37wK5m">
-                        <property role="Xl_RC" value="MyHappyLittleMulti-Reference_Language" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLW0sXf" role="37wK5m">
-                        <property role="Xl_RC" value="1" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrCbqz" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLW0sdX" role="37wK5m">
+                      <property role="Xl_RC" value="MyHappyLittleMulti-Reference_Language" />
+                    </node>
+                    <node concept="Xl_RD" id="3FWZcLW0sXf" role="37wK5m">
+                      <property role="Xl_RC" value="1" />
                     </node>
                   </node>
                 </node>
@@ -5099,7 +5092,7 @@
               <node concept="2ShNRf" id="3FWZcLVRTXV" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLVRWBZ" role="2ShVmc">
                   <node concept="3uibUv" id="3FWZcLVRXCy" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                   <node concept="2YIFZM" id="3FWZcLVUUQO" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUMkk" resolve="builtins" />
@@ -5108,15 +5101,14 @@
                       <ref role="3cqZAo" node="4fqYzE8keNj" resolve="lionwebVersion" />
                     </node>
                   </node>
-                  <node concept="2ShNRf" id="3FWZcLVS1DV" role="HW$Y0">
-                    <node concept="1pGfFk" id="3FWZcLVS2es" role="2ShVmc">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                      <node concept="Xl_RD" id="3FWZcLVS2UX" role="37wK5m">
-                        <property role="Xl_RC" value="MyHappyLittleMulti-Reference_Language" />
-                      </node>
-                      <node concept="Xl_RD" id="3FWZcLVS3Xx" role="37wK5m">
-                        <property role="Xl_RC" value="1" />
-                      </node>
+                  <node concept="2YIFZM" id="75hf4JrBJAJ" role="HW$Y0">
+                    <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+                    <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+                    <node concept="Xl_RD" id="3FWZcLVS2UX" role="37wK5m">
+                      <property role="Xl_RC" value="MyHappyLittleMulti-Reference_Language" />
+                    </node>
+                    <node concept="Xl_RD" id="3FWZcLVS3Xx" role="37wK5m">
+                      <property role="Xl_RC" value="1" />
                     </node>
                   </node>
                   <node concept="2YIFZM" id="3FWZcLVUWQF" role="HW$Y0">
@@ -5670,7 +5662,7 @@
               <node concept="2ShNRf" id="3FWZcLW11pn" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLW11My" role="2ShVmc">
                   <node concept="3uibUv" id="3FWZcLW12pp" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                   <node concept="2YIFZM" id="3FWZcLW12Yb" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUMkk" resolve="builtins" />
@@ -7082,7 +7074,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="jyNOuYkDm_" role="1tU5fm">
           <node concept="3uibUv" id="jyNOuYkDnd" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+            <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
           </node>
         </node>
       </node>
@@ -7093,7 +7085,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="jyNOuYw_4x" role="1tU5fm">
           <node concept="3uibUv" id="jyNOuYw_4y" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+            <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
           </node>
         </node>
       </node>
@@ -7178,7 +7170,7 @@
               <ref role="3cqZAo" node="jyNOuYgOlw" resolve="node" />
             </node>
             <node concept="liA8E" id="jyNOuYgOwZ" role="2OqNvi">
-              <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
+              <ref role="37wK5l" to="7que:~SerializedClassifierInstance.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
               <node concept="37vLTw" id="jyNOuYgOza" role="37wK5m">
                 <ref role="3cqZAo" node="jyNOuYgOlD" resolve="stringPropKey" />
               </node>
@@ -7190,7 +7182,7 @@
       <node concept="37vLTG" id="jyNOuYgOlw" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="jyNOuYgOlv" role="1tU5fm">
-          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+          <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
         </node>
       </node>
     </node>
@@ -8129,8 +8121,8 @@
               </node>
               <node concept="2ShNRf" id="3FWZcLW1_Hb" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLW1A30" role="2ShVmc">
-                  <node concept="3uibUv" id="3FWZcLW1Axg" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                  <node concept="3uibUv" id="75hf4JrBO4o" role="HW$YZ">
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                   <node concept="2YIFZM" id="3FWZcLW1AU5" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUMkk" resolve="builtins" />
@@ -8981,9 +8973,6 @@
               </node>
               <node concept="2ShNRf" id="3FWZcLW7boW" role="37wK5m">
                 <node concept="Tc6Ow" id="3FWZcLW7boX" role="2ShVmc">
-                  <node concept="3uibUv" id="3FWZcLW7boY" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
-                  </node>
                   <node concept="2YIFZM" id="3FWZcLW7sy9" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUM0z" resolve="toUsedLanguage" />
                     <ref role="1Pybhc" to="kte7:3FWZcLVULYw" resolve="UsedLanguageHelper" />
@@ -8994,6 +8983,9 @@
                       </node>
                     </node>
                     <node concept="1jGwE1" id="6$Vbq$b7oNl" role="37wK5m" />
+                  </node>
+                  <node concept="3uibUv" id="75hf4JrCh6x" role="HW$YZ">
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                 </node>
               </node>
@@ -9701,8 +9693,8 @@
           <node concept="3cpWsn" id="zA8J4HAACQ" role="3cpWs9">
             <property role="TrG5h" value="languages" />
             <node concept="2hMVRd" id="zA8J4HAACR" role="1tU5fm">
-              <node concept="3uibUv" id="zA8J4HAACS" role="2hN53Y">
-                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+              <node concept="3uibUv" id="75hf4JrBVJK" role="2hN53Y">
+                <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
               </node>
             </node>
             <node concept="2OqwBi" id="zA8J4HAACT" role="33vP2m">
@@ -9730,7 +9722,7 @@
           <node concept="3cpWsn" id="zA8J4HAAD2" role="3cpWs9">
             <property role="TrG5h" value="actual" />
             <node concept="3uibUv" id="zA8J4HAAD3" role="1tU5fm">
-              <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+              <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
             </node>
             <node concept="2OqwBi" id="zA8J4HAAD4" role="33vP2m">
               <node concept="37vLTw" id="zA8J4HAAD5" role="2Oq$k0">
@@ -9744,38 +9736,37 @@
           <node concept="3cpWsn" id="zA8J4HAAD8" role="3cpWs9">
             <property role="TrG5h" value="expected" />
             <node concept="3uibUv" id="zA8J4HAAD9" role="1tU5fm">
-              <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+              <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
             </node>
-            <node concept="2ShNRf" id="zA8J4HAADa" role="33vP2m">
-              <node concept="1pGfFk" id="zA8J4HAADb" role="2ShVmc">
-                <ref role="37wK5l" to="xfsv:~UsedLanguage.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="UsedLanguage" />
-                <node concept="2YIFZM" id="zA8J4HAADc" role="37wK5m">
-                  <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
-                  <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
-                  <node concept="2OqwBi" id="zA8J4HAADd" role="37wK5m">
-                    <node concept="2YIFZM" id="zA8J4HAADe" role="2Oq$k0">
-                      <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
-                      <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
-                    </node>
-                    <node concept="liA8E" id="zA8J4HAADf" role="2OqNvi">
-                      <ref role="37wK5l" to="y7p:39$JcGGnELF" resolve="toSLanguageId" />
-                      <node concept="2OqwBi" id="zA8J4HAADg" role="37wK5m">
-                        <node concept="2OqwBi" id="zA8J4HAADh" role="2Oq$k0">
-                          <node concept="3xONca" id="zA8J4HAADi" role="2Oq$k0">
-                            <ref role="3xOPvv" node="3i3chebvQ_4" resolve="library" />
-                          </node>
-                          <node concept="2yIwOk" id="zA8J4HAADj" role="2OqNvi" />
+            <node concept="2YIFZM" id="75hf4JrBYQ$" role="33vP2m">
+              <ref role="37wK5l" to="7que:~LanguageVersion.of(java.lang.String,java.lang.String)" resolve="of" />
+              <ref role="1Pybhc" to="7que:~LanguageVersion" resolve="LanguageVersion" />
+              <node concept="2YIFZM" id="75hf4JrBXo_" role="37wK5m">
+                <ref role="37wK5l" to="apzt:2fx6VTSziaY" resolve="toLionWeb" />
+                <ref role="1Pybhc" to="apzt:2fx6VTSzhNf" resolve="IdEncoder" />
+                <node concept="2OqwBi" id="75hf4JrBXoA" role="37wK5m">
+                  <node concept="2YIFZM" id="75hf4JrBXoB" role="2Oq$k0">
+                    <ref role="37wK5l" to="y7p:39$JcGGnzni" resolve="getInstance" />
+                    <ref role="1Pybhc" to="y7p:39$JcGGnjRO" resolve="MpsLanguageConverter" />
+                  </node>
+                  <node concept="liA8E" id="75hf4JrBXoC" role="2OqNvi">
+                    <ref role="37wK5l" to="y7p:39$JcGGnELF" resolve="toSLanguageId" />
+                    <node concept="2OqwBi" id="75hf4JrBXoD" role="37wK5m">
+                      <node concept="2OqwBi" id="75hf4JrBXoE" role="2Oq$k0">
+                        <node concept="3xONca" id="75hf4JrBXoF" role="2Oq$k0">
+                          <ref role="3xOPvv" node="3i3chebvQ_4" resolve="library" />
                         </node>
-                        <node concept="liA8E" id="zA8J4HAADk" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
-                        </node>
+                        <node concept="2yIwOk" id="75hf4JrBXoG" role="2OqNvi" />
+                      </node>
+                      <node concept="liA8E" id="75hf4JrBXoH" role="2OqNvi">
+                        <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="Xl_RD" id="zA8J4HAADl" role="37wK5m">
-                  <property role="Xl_RC" value="0" />
-                </node>
+              </node>
+              <node concept="Xl_RD" id="75hf4JrBXoI" role="37wK5m">
+                <property role="Xl_RC" value="0" />
               </node>
             </node>
           </node>
@@ -9794,7 +9785,7 @@
                   <ref role="3cqZAo" node="zA8J4HAAD2" resolve="actual" />
                 </node>
                 <node concept="liA8E" id="zA8J4HAADt" role="2OqNvi">
-                  <ref role="37wK5l" to="xfsv:~UsedLanguage.getVersion()" resolve="getVersion" />
+                  <ref role="37wK5l" to="7que:~LanguageVersion.getVersion()" resolve="getVersion" />
                 </node>
               </node>
               <node concept="3cpWs3" id="zA8J4HAADu" role="3uHU7B">
@@ -9811,7 +9802,7 @@
                               <ref role="3cqZAo" node="zA8J4HAAD8" resolve="expected" />
                             </node>
                             <node concept="liA8E" id="zA8J4HAADB" role="2OqNvi">
-                              <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+                              <ref role="37wK5l" to="7que:~LanguageVersion.getKey()" resolve="getKey" />
                             </node>
                           </node>
                         </node>
@@ -9824,7 +9815,7 @@
                           <ref role="3cqZAo" node="zA8J4HAAD8" resolve="expected" />
                         </node>
                         <node concept="liA8E" id="zA8J4HAADF" role="2OqNvi">
-                          <ref role="37wK5l" to="xfsv:~UsedLanguage.getVersion()" resolve="getVersion" />
+                          <ref role="37wK5l" to="7que:~LanguageVersion.getVersion()" resolve="getVersion" />
                         </node>
                       </node>
                     </node>
@@ -9837,7 +9828,7 @@
                       <ref role="3cqZAo" node="zA8J4HAAD2" resolve="actual" />
                     </node>
                     <node concept="liA8E" id="zA8J4HAADJ" role="2OqNvi">
-                      <ref role="37wK5l" to="xfsv:~UsedLanguage.getKey()" resolve="getKey" />
+                      <ref role="37wK5l" to="7que:~LanguageVersion.getKey()" resolve="getKey" />
                     </node>
                   </node>
                 </node>
@@ -11322,7 +11313,7 @@
             <property role="TrG5h" value="languages" />
             <node concept="2hMVRd" id="nWBHrKnE8v" role="1tU5fm">
               <node concept="3uibUv" id="nWBHrKnE8w" role="2hN53Y">
-                <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
               </node>
             </node>
             <node concept="2OqwBi" id="nWBHrKnE8x" role="33vP2m">
@@ -12730,7 +12721,7 @@
               <node concept="2ShNRf" id="7ZVRpg_pL2D" role="37wK5m">
                 <node concept="Tc6Ow" id="7ZVRpg_pL2E" role="2ShVmc">
                   <node concept="3uibUv" id="7ZVRpg_pL2F" role="HW$YZ">
-                    <ref role="3uigEE" to="xfsv:~UsedLanguage" resolve="UsedLanguage" />
+                    <ref role="3uigEE" to="7que:~LanguageVersion" resolve="LanguageVersion" />
                   </node>
                   <node concept="2YIFZM" id="7ZVRpg_pL2P" role="HW$Y0">
                     <ref role="37wK5l" to="kte7:3FWZcLVUM0z" resolve="toUsedLanguage" />

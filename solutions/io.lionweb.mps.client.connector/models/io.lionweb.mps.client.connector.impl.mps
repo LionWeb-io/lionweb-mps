@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="2tb6" ref="r:300426b0-cf40-47a1-9706-260afc20aaf9(io.lionweb.mps.client.connector.api)" />
-    <import index="xfsv" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.serialization.data(io.lionweb.lionweb.java/)" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
     <import index="781x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net.http(JDK/)" />
     <import index="28m1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time(JDK/)" />
@@ -17,13 +16,11 @@
     <import index="apzt" ref="r:ea3bdd37-0680-4524-8252-d8093e3b6903(io.lionweb.mps.converter.util)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="imb3" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.language(io.lionweb.lionweb.java/)" />
-    <import index="cz4z" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.lioncore.java.self(io.lionweb.lionweb.java/)" />
     <import index="y7p" ref="r:3303ef0b-a58e-4f50-b3cb-bd3d7aaf3653(io.lionweb.mps.m3.runtime)" />
+    <import index="7que" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.serialization.data(io.lionweb.lionweb.java/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -229,18 +226,14 @@
       <node concept="3uibUv" id="1K5eGlkt7BQ" role="1tU5fm">
         <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
       </node>
-      <node concept="2YIFZM" id="1K5eGlktgCc" role="33vP2m">
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
+      <node concept="3Tm6S6" id="1f4Qr8WRGWW" role="1B3o_S" />
+      <node concept="2YIFZM" id="1K5eGlktcjF" role="33vP2m">
+        <ref role="37wK5l" to="wwqx:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <node concept="2YIFZM" id="1K5eGlktcjF" role="37wK5m">
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <node concept="3VsKOn" id="1K5eGlktdGd" role="37wK5m">
-            <ref role="3VsUkX" node="7jdzMameVA7" resolve="MpsLionWebConnector" />
-          </node>
+        <node concept="3VsKOn" id="1K5eGlktdGd" role="37wK5m">
+          <ref role="3VsUkX" node="7jdzMameVA7" resolve="MpsLionWebConnector" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="1f4Qr8WRGWW" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="7jdzMameY7E" role="jymVt" />
     <node concept="3Tm1VV" id="7jdzMameVA8" role="1B3o_S" />
@@ -343,7 +336,7 @@
                             <ref role="3cqZAo" node="6r4IH3Rnme$" resolve="it" />
                           </node>
                           <node concept="liA8E" id="7jdzMamg0E8" role="2OqNvi">
-                            <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getID()" resolve="getID" />
+                            <ref role="37wK5l" to="7que:~SerializedClassifierInstance.getID()" resolve="getID" />
                           </node>
                         </node>
                       </node>
@@ -369,7 +362,7 @@
       <node concept="3Tm1VV" id="7jdzMameVIi" role="1B3o_S" />
       <node concept="A3Dl8" id="7jdzMameVIj" role="3clF45">
         <node concept="3uibUv" id="7jdzMameUVX" role="A3Ik2">
-          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+          <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
         </node>
       </node>
       <node concept="37vLTG" id="7jdzMameVIl" role="3clF46">
@@ -458,7 +451,7 @@
         <property role="3TUv4t" value="true" />
         <node concept="A3Dl8" id="7jdzMameVIt" role="1tU5fm">
           <node concept="3uibUv" id="5TNjoy1FNrD" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+            <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
           </node>
         </node>
         <node concept="2AHcQZ" id="1f4Qr8WNK8Y" role="2AJF6D">
@@ -843,18 +836,14 @@
       <node concept="3uibUv" id="1f4Qr8WSzs6" role="1tU5fm">
         <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
       </node>
-      <node concept="2YIFZM" id="1f4Qr8WSzs7" role="33vP2m">
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
+      <node concept="3Tm6S6" id="1f4Qr8WSzsa" role="1B3o_S" />
+      <node concept="2YIFZM" id="1f4Qr8WSzs8" role="33vP2m">
+        <ref role="37wK5l" to="wwqx:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <node concept="2YIFZM" id="1f4Qr8WSzs8" role="37wK5m">
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <node concept="3VsKOn" id="1f4Qr8WSzs9" role="37wK5m">
-            <ref role="3VsUkX" node="1f4Qr8WRAWh" resolve="FileServerLionWebConnector" />
-          </node>
+        <node concept="3VsKOn" id="1f4Qr8WSzs9" role="37wK5m">
+          <ref role="3VsUkX" node="1f4Qr8WRAWh" resolve="FileServerLionWebConnector" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="1f4Qr8WSzsa" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="1f4Qr8WSzgl" role="jymVt" />
     <node concept="3Tm1VV" id="1f4Qr8WRAWi" role="1B3o_S" />
@@ -960,7 +949,7 @@
                             <ref role="3cqZAo" node="6r4IH3RnmeA" resolve="it" />
                           </node>
                           <node concept="liA8E" id="1f4Qr8WS$Qt" role="2OqNvi">
-                            <ref role="37wK5l" to="xfsv:~SerializedClassifierInstance.getID()" resolve="getID" />
+                            <ref role="37wK5l" to="7que:~SerializedClassifierInstance.getID()" resolve="getID" />
                           </node>
                         </node>
                       </node>
@@ -986,7 +975,7 @@
       <node concept="3Tm1VV" id="1f4Qr8WSxB7" role="1B3o_S" />
       <node concept="A3Dl8" id="1f4Qr8WSxB8" role="3clF45">
         <node concept="3uibUv" id="5TNjoy1FLrx" role="A3Ik2">
-          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+          <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
         </node>
       </node>
       <node concept="37vLTG" id="1f4Qr8WSxBa" role="3clF46">
@@ -1080,7 +1069,7 @@
         <property role="TrG5h" value="nodes" />
         <node concept="A3Dl8" id="1f4Qr8WSxBn" role="1tU5fm">
           <node concept="3uibUv" id="5TNjoy1FLUS" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+            <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
           </node>
         </node>
       </node>
@@ -1201,18 +1190,14 @@
       <node concept="3uibUv" id="1f4Qr8WRQS1" role="1tU5fm">
         <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
       </node>
-      <node concept="2YIFZM" id="1f4Qr8WRQS2" role="33vP2m">
+      <node concept="3Tm6S6" id="1f4Qr8WRQS5" role="1B3o_S" />
+      <node concept="2YIFZM" id="1f4Qr8WRQS3" role="33vP2m">
+        <ref role="37wK5l" to="wwqx:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
-        <node concept="2YIFZM" id="1f4Qr8WRQS3" role="37wK5m">
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <node concept="3VsKOn" id="1f4Qr8WRQS4" role="37wK5m">
-            <ref role="3VsUkX" node="1f4Qr8WRD1u" resolve="ALionWebConnector" />
-          </node>
+        <node concept="3VsKOn" id="1f4Qr8WRQS4" role="37wK5m">
+          <ref role="3VsUkX" node="1f4Qr8WRD1u" resolve="ALionWebConnector" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="1f4Qr8WRQS5" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="1f4Qr8WRQRa" role="jymVt" />
     <node concept="3clFb_" id="7jdzMameVHV" role="jymVt">
@@ -1367,7 +1352,7 @@
       <node concept="3Tmbuc" id="1f4Qr8WRVv5" role="1B3o_S" />
       <node concept="A3Dl8" id="7jdzMamfK1Z" role="3clF45">
         <node concept="3uibUv" id="5TNjoy1FJ3c" role="A3Ik2">
-          <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+          <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
         </node>
       </node>
       <node concept="37vLTG" id="7jdzMamfK1Q" role="3clF46">
@@ -1583,7 +1568,7 @@
         <property role="3TUv4t" value="true" />
         <node concept="A3Dl8" id="1f4Qr8WSqNV" role="1tU5fm">
           <node concept="3uibUv" id="5TNjoy1FJUe" role="A3Ik2">
-            <ref role="3uigEE" to="xfsv:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
+            <ref role="3uigEE" to="7que:~SerializedClassifierInstance" resolve="SerializedClassifierInstance" />
           </node>
         </node>
       </node>
