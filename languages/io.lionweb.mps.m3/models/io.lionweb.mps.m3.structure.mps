@@ -484,5 +484,49 @@
     </node>
     <node concept="3KvTa3" id="18UigYQyrxB" role="lGtFl" />
   </node>
+  <node concept="1TIwiD" id="1_rLWsuL_q$">
+    <property role="EcuMT" value="1827273731857602212" />
+    <property role="3GE5qa" value="dataType" />
+    <property role="TrG5h" value="StructuredDataType" />
+    <property role="34LRSv" value="Structured Data Type" />
+    <ref role="1TJDcQ" node="2ju2syjko0M" resolve="DataType" />
+    <node concept="3KvTa3" id="1_rLWsuL_tA" role="lGtFl" />
+    <node concept="2DM1AW" id="1_rLWsuL_u7" role="lGtFl">
+      <property role="2DM1AS" value="StructuredDataType" />
+    </node>
+    <node concept="1TJgyj" id="1_rLWsuL_yG" role="1TKVEi">
+      <property role="IQ2ns" value="1827273731857602732" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="fields" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1_rLWsuL_uS" resolve="Field" />
+      <node concept="2DM1AW" id="1_rLWsuL_$t" role="lGtFl">
+        <property role="2DM1AS" value="StructuredDataType-fields" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1_rLWsuL_uS">
+    <property role="EcuMT" value="1827273731857602488" />
+    <property role="3GE5qa" value="dataType" />
+    <property role="TrG5h" value="Field" />
+    <property role="34LRSv" value="Field" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1_rLWsuLB18" role="1TKVEi">
+      <property role="IQ2ns" value="1827273731857608776" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2ju2syjko0M" resolve="DataType" />
+      <node concept="2DM1AW" id="1_rLWsuLB19" role="lGtFl">
+        <property role="2DM1AS" value="Field-type" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="1_rLWsuL_w9" role="PzmwI">
+      <ref role="PrY4T" node="6jTTMHCXLTP" resolve="IKeyed" />
+    </node>
+    <node concept="3KvTa3" id="1_rLWsuL_xa" role="lGtFl" />
+    <node concept="2DM1AW" id="1_rLWsuL_xV" role="lGtFl">
+      <property role="2DM1AS" value="Field" />
+    </node>
+  </node>
 </model>
 

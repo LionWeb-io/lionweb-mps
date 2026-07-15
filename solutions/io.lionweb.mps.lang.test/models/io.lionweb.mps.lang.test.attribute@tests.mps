@@ -1212,7 +1212,7 @@
     <node concept="1qefOq" id="1_rLWsuIUr4" role="1SKRRt">
       <node concept="1TIwiD" id="1_rLWsuIUr5" role="1qenE9">
         <property role="EcuMT" value="1827273731856901829" />
-        <property role="TrG5h" value="ExtendsSdt" />
+        <property role="TrG5h" value="ImplementsSdt" />
         <node concept="7Ydjz" id="1_rLWsuIUr9" role="lGtFl" />
         <node concept="PrWs8" id="1_rLWsuIUrb" role="PzmwI">
           <ref role="PrY4T" to="tpck:2se02g_X34z" resolve="DocumentationContent" />
