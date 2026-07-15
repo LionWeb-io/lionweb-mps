@@ -11,6 +11,7 @@
     <import index="79ni" ref="r:11abd25b-f673-4ba1-918c-75032e053267(io.lionweb.mps.structure.attribute.typesystem)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="h3y3" ref="r:11596e6a-4231-47c9-b3df-0dcce1111a54(io.lionweb.mps.m3.structure)" implicit="true" />
+    <import index="234s" ref="r:c798b861-d641-45c1-bec6-e39cbda50960(io.lionweb.mps.structure.attribute.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -70,6 +71,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -79,6 +81,7 @@
       </concept>
       <concept id="1083243159079" name="jetbrains.mps.lang.structure.structure.PrimitiveDataTypeDeclaration" flags="ng" index="QkHVr" />
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -107,12 +110,16 @@
       </concept>
     </language>
     <language id="411e5b27-8a76-482e-8af8-1704262b4468" name="io.lionweb.mps.structure.attribute">
+      <concept id="1827273731855291172" name="io.lionweb.mps.structure.attribute.structure.LionWebStructuredDataType" flags="ng" index="7Ydjz" />
       <concept id="7205279169712116353" name="io.lionweb.mps.structure.attribute.structure.ILionWebKey" flags="ngI" index="2DM1AV">
         <property id="7205279169712116354" name="key" index="2DM1AS" />
       </concept>
       <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LionWebEntityKey" flags="ng" index="2DM1AW" />
       <concept id="6461713321117473366" name="io.lionweb.mps.structure.attribute.structure.LionWebSmartReference" flags="ng" index="3Kckhh">
         <reference id="6461713321117473439" name="reference" index="3Kckio" />
+      </concept>
+      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W">
+        <property id="6461713321120959618" name="optional" index="3KvTa5" />
       </concept>
     </language>
   </registry>
@@ -1024,6 +1031,420 @@
         <node concept="7CXmI" id="6Pr6izICP91" role="lGtFl">
           <node concept="7OXhh" id="6Pr6izICP94" role="7EUXB">
             <property role="GvXf4" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="1_rLWsuF8pL">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="StructuredDataType" />
+    <node concept="1qefOq" id="1_rLWsuF_iv" role="1SKRRt">
+      <node concept="25R3W" id="1_rLWsuF_k_" role="1qenE9">
+        <property role="3F6X1D" value="1827273731856028965" />
+        <property role="TrG5h" value="sdtEnum" />
+        <node concept="25R33" id="1_rLWsuF_kA" role="25R1y">
+          <property role="3tVfz5" value="1827273731856028966" />
+          <property role="TrG5h" value="A" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuF8tU" role="1SKRRt">
+      <node concept="15s5l7" id="1_rLWsuFBPO" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  MiddleSdt (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  MiddleSdt (target) is out of search scope" />
+      </node>
+      <node concept="15s5l7" id="1_rLWsuF_IK" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  sdtEnum (dataType) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;dataType&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805350]&quot;;" />
+        <property role="huDt6" value="The reference  sdtEnum (dataType) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1_rLWsuF8w0" role="1qenE9">
+        <property role="EcuMT" value="1827273731855910912" />
+        <property role="TrG5h" value="ValidSdt" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="1TJgyj" id="1_rLWsuFBsU" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856037690" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="middle" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuF_NX" resolve="MiddleSdt" />
+          <node concept="2DM1AW" id="1_rLWsuFCBw" role="lGtFl">
+            <property role="2DM1AS" value="key-ValidSdt-middle" />
+          </node>
+        </node>
+        <node concept="1TJgyi" id="1_rLWsuF$1J" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856023663" />
+          <property role="TrG5h" value="string" />
+          <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+          <node concept="2DM1AW" id="1_rLWsuFChM" role="lGtFl">
+            <property role="2DM1AS" value="key-ValidSdt-string" />
+          </node>
+        </node>
+        <node concept="1TJgyi" id="1_rLWsuF$3O" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856023796" />
+          <property role="TrG5h" value="integer" />
+          <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+          <node concept="2DM1AW" id="1_rLWsuFCnZ" role="lGtFl">
+            <property role="2DM1AS" value="key-ValidSdt-integer" />
+          </node>
+        </node>
+        <node concept="1TJgyi" id="1_rLWsuF$5T" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856023929" />
+          <property role="TrG5h" value="boolean" />
+          <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+          <node concept="2DM1AW" id="1_rLWsuFCta" role="lGtFl">
+            <property role="2DM1AS" value="key-ValidSdt-boolean" />
+          </node>
+        </node>
+        <node concept="1TJgyi" id="1_rLWsuF$7Y" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856024062" />
+          <property role="TrG5h" value="enum" />
+          <ref role="AX2Wp" node="1_rLWsuF_k_" resolve="sdtEnum" />
+          <node concept="2DM1AW" id="1_rLWsuFCxj" role="lGtFl">
+            <property role="2DM1AS" value="key-ValidSdt-enum" />
+          </node>
+        </node>
+        <node concept="7Ydjz" id="1_rLWsuFhBi" role="lGtFl" />
+        <node concept="7CXmI" id="1_rLWsuFBZ7" role="lGtFl">
+          <node concept="7OXhh" id="1_rLWsuFC0a" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+        <node concept="2DM1AW" id="1_rLWsuFCcB" role="lGtFl">
+          <property role="2DM1AS" value="key-ValidSdt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuF_KP" role="1SKRRt">
+      <node concept="15s5l7" id="1_rLWsuFBqP" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  NestedSdt (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  NestedSdt (target) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1_rLWsuF_NX" role="1qenE9">
+        <property role="EcuMT" value="1827273731856030973" />
+        <property role="TrG5h" value="MiddleSdt" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="1TJgyj" id="1_rLWsuFAbN" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856032499" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="nested" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+        </node>
+        <node concept="7Ydjz" id="1_rLWsuF_S6" role="lGtFl" />
+        <node concept="1TJgyi" id="1_rLWsuFA7E" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856032234" />
+          <property role="TrG5h" value="value" />
+          <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+        </node>
+        <node concept="7CXmI" id="1_rLWsuFC3h" role="lGtFl">
+          <node concept="7OXhh" id="1_rLWsuFC4k" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuF_Vd" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuF_Wh" role="1qenE9">
+        <property role="EcuMT" value="1827273731856031505" />
+        <property role="TrG5h" value="NestedSdt" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="1TJgyi" id="1_rLWsuFA3x" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856031969" />
+          <property role="TrG5h" value="name" />
+          <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+        </node>
+        <node concept="7Ydjz" id="1_rLWsuFA1s" role="lGtFl" />
+        <node concept="7CXmI" id="1_rLWsuFC7r" role="lGtFl">
+          <node concept="7OXhh" id="1_rLWsuFC7s" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuIUqL" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuIUqN" role="1qenE9">
+        <property role="EcuMT" value="1827273731856901811" />
+        <property role="TrG5h" value="AbstractSdt" />
+        <property role="R5$K7" value="true" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7Ydjz" id="1_rLWsuIUqO" role="lGtFl" />
+        <node concept="7CXmI" id="1_rLWsuIUqP" role="lGtFl">
+          <node concept="1TM$A" id="1_rLWsuIUqQ" role="7EUXB">
+            <node concept="2PYRI3" id="1_rLWsuIUqR" role="3lydEf">
+              <ref role="39XzEq" to="79ni:1_rLWsuG_sG" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuIUqJ" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuIUqS" role="1qenE9">
+        <property role="EcuMT" value="1827273731856901816" />
+        <property role="TrG5h" value="RootableSdt" />
+        <property role="19KtqR" value="true" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7CXmI" id="1_rLWsuIUqT" role="lGtFl">
+          <node concept="1TM$A" id="1_rLWsuIUqU" role="7EUXB">
+            <node concept="2PYRI3" id="1_rLWsuIUqV" role="3lydEf">
+              <ref role="39XzEq" to="79ni:1_rLWsuGEl5" />
+            </node>
+          </node>
+        </node>
+        <node concept="7Ydjz" id="1_rLWsuIUqW" role="lGtFl" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuIUqX" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuIUqY" role="1qenE9">
+        <property role="EcuMT" value="1827273731856901822" />
+        <property role="TrG5h" value="ExtendsSdt" />
+        <ref role="1TJDcQ" to="h3y3:2ju2syjkkU6" resolve="Containment" />
+        <node concept="7CXmI" id="1_rLWsuIUqZ" role="lGtFl">
+          <node concept="1TM$A" id="1_rLWsuIUr0" role="7EUXB">
+            <node concept="2PYRI3" id="1_rLWsuIUr3" role="3lydEf">
+              <ref role="39XzEq" to="79ni:1_rLWsuGucw" />
+            </node>
+          </node>
+        </node>
+        <node concept="7Ydjz" id="1_rLWsuIUr2" role="lGtFl" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuIUr4" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuIUr5" role="1qenE9">
+        <property role="EcuMT" value="1827273731856901829" />
+        <property role="TrG5h" value="ExtendsSdt" />
+        <node concept="7Ydjz" id="1_rLWsuIUr9" role="lGtFl" />
+        <node concept="PrWs8" id="1_rLWsuIUrb" role="PzmwI">
+          <ref role="PrY4T" to="tpck:2se02g_X34z" resolve="DocumentationContent" />
+          <node concept="7CXmI" id="1_rLWsuIUs2" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuIUs3" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuIUs4" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuGCYP" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuIUs5" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuIUs6" role="1qenE9">
+        <property role="EcuMT" value="1827273731856901894" />
+        <property role="TrG5h" value="OptionalProperty" />
+        <node concept="7Ydjz" id="1_rLWsuIUs7" role="lGtFl" />
+        <node concept="1TJgyi" id="1_rLWsuIUsc" role="1TKVEl">
+          <property role="IQ2nx" value="1827273731856901900" />
+          <property role="TrG5h" value="bla" />
+          <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+          <node concept="3KvT9W" id="1_rLWsuIUsd" role="lGtFl">
+            <property role="3KvTa5" value="true" />
+            <node concept="7CXmI" id="1_rLWsuIUse" role="lGtFl">
+              <node concept="1TM$A" id="1_rLWsuIUsf" role="7EUXB">
+                <node concept="2PYRI3" id="1_rLWsuIUsg" role="3lydEf">
+                  <ref role="39XzEq" to="79ni:1_rLWsuGnk7" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuIUsh" role="1SKRRt">
+      <node concept="15s5l7" id="1_rLWsuJ90a" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  NestedSdt (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  NestedSdt (target) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1_rLWsuIUsi" role="1qenE9">
+        <property role="EcuMT" value="1827273731856901906" />
+        <property role="TrG5h" value="ContainmentCardinality" />
+        <node concept="7Ydjz" id="1_rLWsuIUsj" role="lGtFl" />
+        <node concept="1TJgyj" id="1_rLWsuIUsp" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="optionalSingle" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+          <node concept="7CXmI" id="1_rLWsuJ90e" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuJ90f" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuJ90g" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuGgSM" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1TJgyj" id="1_rLWsuJ90b" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="requiredSingle" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+        </node>
+        <node concept="1TJgyj" id="1_rLWsuJ90h" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="optionalMultiple" />
+          <property role="20lbJX" value="fLJekj5/_0__n" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+          <node concept="7CXmI" id="1_rLWsuJ90i" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuJ90j" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuJ90k" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuGgSM" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1TJgyj" id="1_rLWsuJ90l" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="requiredMultiple" />
+          <property role="20lbJX" value="fLJekj6/_1__n" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+          <node concept="7CXmI" id="1_rLWsuJ90m" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuJ90n" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuJ90o" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuGgSM" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuFGCt" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuFGCv" role="1qenE9">
+        <property role="EcuMT" value="1827273731856058911" />
+        <property role="TrG5h" value="Reference" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7Ydjz" id="1_rLWsuFGCw" role="lGtFl" />
+        <node concept="1TJgyj" id="1_rLWsuFGCx" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856058913" />
+          <property role="20kJfa" value="ref" />
+          <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+          <node concept="7CXmI" id="1_rLWsuFTmr" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuFTms" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuFTmt" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuDitA" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuFTmu" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuFTmw" role="1qenE9">
+        <property role="EcuMT" value="1827273731856111008" />
+        <property role="TrG5h" value="AbstractContainment" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7Ydjz" id="1_rLWsuFTmx" role="lGtFl" />
+        <node concept="1TJgyj" id="1_rLWsuFTmy" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856111010" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="cont" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" to="234s:5AGBwuF9V$v" resolve="ALionWebNodeAttribute" />
+          <node concept="7CXmI" id="1_rLWsuG646" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuG647" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuG648" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuDiH9" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuG649" role="1SKRRt">
+      <node concept="1TIwiD" id="1_rLWsuG64b" role="1qenE9">
+        <property role="EcuMT" value="1827273731856163083" />
+        <property role="TrG5h" value="NonSdtContainment" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="1TJgyj" id="1_rLWsuG64d" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856163085" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="cont" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+          <node concept="7CXmI" id="1_rLWsuG64e" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuG64f" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuG64g" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuDiH9" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="7Ydjz" id="1_rLWsuG64c" role="lGtFl" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuG64h" role="1SKRRt">
+      <node concept="15s5l7" id="1_rLWsuG79S" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  SelfContainment (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  SelfContainment (target) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1_rLWsuG64j" role="1qenE9">
+        <property role="EcuMT" value="1827273731856163091" />
+        <property role="TrG5h" value="SelfContainment" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7Ydjz" id="1_rLWsuG64k" role="lGtFl" />
+        <node concept="1TJgyj" id="1_rLWsuG64l" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856163093" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="cont" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuG64j" resolve="SelfContainment" />
+          <node concept="7CXmI" id="1_rLWsuG79T" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuG79U" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuG79V" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuEFiA" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuG79W" role="1SKRRt">
+      <node concept="15s5l7" id="1_rLWsuG8h0" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  IndirectSelfContainmentB (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  IndirectSelfContainmentB (target) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1_rLWsuG79Y" role="1qenE9">
+        <property role="EcuMT" value="1827273731856167550" />
+        <property role="TrG5h" value="IndirectSelfContainmentA" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7Ydjz" id="1_rLWsuG79Z" role="lGtFl" />
+        <node concept="1TJgyj" id="1_rLWsuG7a3" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856167555" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="cont" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuG7a1" resolve="IndirectSelfContainmentB" />
+          <node concept="7CXmI" id="1_rLWsuG9mB" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuG9mC" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuG9mD" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuEFiA" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1_rLWsuG7a0" role="1SKRRt">
+      <node concept="15s5l7" id="1_rLWsuG9mz" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  IndirectSelfContainmentA (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  IndirectSelfContainmentA (target) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1_rLWsuG7a1" role="1qenE9">
+        <property role="EcuMT" value="1827273731856167553" />
+        <property role="TrG5h" value="IndirectSelfContainmentB" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="7Ydjz" id="1_rLWsuG7a2" role="lGtFl" />
+        <node concept="1TJgyj" id="1_rLWsuG7a4" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856167556" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="cont" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuG79Y" resolve="IndirectSelfContainmentA" />
+          <node concept="7CXmI" id="1_rLWsuG9m$" role="lGtFl">
+            <node concept="1TM$A" id="1_rLWsuG9m_" role="7EUXB">
+              <node concept="2PYRI3" id="1_rLWsuG9mA" role="3lydEf">
+                <ref role="39XzEq" to="79ni:1_rLWsuEFiA" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

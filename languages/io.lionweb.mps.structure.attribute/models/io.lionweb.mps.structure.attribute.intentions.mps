@@ -725,5 +725,67 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="1_rLWsuF8TL">
+    <property role="TrG5h" value="toggleLionWebStructuredDataType" />
+    <ref role="2ZfgGC" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    <node concept="2S6ZIM" id="1_rLWsuF8TM" role="2ZfVej">
+      <node concept="3clFbS" id="1_rLWsuF8TN" role="2VODD2">
+        <node concept="3clFbF" id="1_rLWsuF8TO" role="3cqZAp">
+          <node concept="Xl_RD" id="1_rLWsuF8TP" role="3clFbG">
+            <property role="Xl_RC" value="Toggle LionWeb Structured Data Type" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1_rLWsuF8TQ" role="2ZfgGD">
+      <node concept="3clFbS" id="1_rLWsuF8TR" role="2VODD2">
+        <node concept="3clFbJ" id="1_rLWsuF8TS" role="3cqZAp">
+          <node concept="2OqwBi" id="1_rLWsuF8TT" role="3clFbw">
+            <node concept="2OqwBi" id="1_rLWsuF8TU" role="2Oq$k0">
+              <node concept="2Sf5sV" id="1_rLWsuF8TV" role="2Oq$k0" />
+              <node concept="3CFZ6_" id="1_rLWsuF8TW" role="2OqNvi">
+                <node concept="3CFYIy" id="1_rLWsuF8TX" role="3CFYIz">
+                  <ref role="3CFYIx" to="234s:1_rLWsuCLc$" resolve="LionWebStructuredDataType" />
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="1_rLWsuF8TY" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="1_rLWsuF8TZ" role="3clFbx">
+            <node concept="3clFbF" id="1_rLWsuF8U0" role="3cqZAp">
+              <node concept="2OqwBi" id="1_rLWsuF8U1" role="3clFbG">
+                <node concept="2OqwBi" id="1_rLWsuF8U2" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="1_rLWsuF8U3" role="2Oq$k0" />
+                  <node concept="3CFZ6_" id="1_rLWsuF8U4" role="2OqNvi">
+                    <node concept="3CFYIy" id="1_rLWsuF8U5" role="3CFYIz">
+                      <ref role="3CFYIx" to="234s:1_rLWsuCLc$" resolve="LionWebStructuredDataType" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3YRAZt" id="1_rLWsuF8U6" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="1_rLWsuF8U7" role="9aQIa">
+            <node concept="3clFbS" id="1_rLWsuF8U8" role="9aQI4">
+              <node concept="3clFbF" id="1_rLWsuF8U9" role="3cqZAp">
+                <node concept="2OqwBi" id="1_rLWsuF8Ua" role="3clFbG">
+                  <node concept="2OqwBi" id="1_rLWsuF8Ub" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="1_rLWsuF8Uc" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="1_rLWsuF8Ud" role="2OqNvi">
+                      <node concept="3CFYIy" id="1_rLWsuF8Ue" role="3CFYIz">
+                        <ref role="3CFYIx" to="234s:1_rLWsuCLc$" resolve="LionWebStructuredDataType" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="zfrQC" id="1_rLWsuF8Uf" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
