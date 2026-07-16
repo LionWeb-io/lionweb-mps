@@ -196,6 +196,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -2797,39 +2800,67 @@
           <node concept="3clFbS" id="5glO5qKT4Ue" role="2LFqv$">
             <node concept="3clFbJ" id="5AGBwuFnaX6" role="3cqZAp">
               <node concept="3clFbS" id="5AGBwuFnaX8" role="3clFbx">
-                <node concept="3clFbF" id="5AGBwuFnVnS" role="3cqZAp">
-                  <node concept="2OqwBi" id="5AGBwuFnYpb" role="3clFbG">
-                    <node concept="37vLTw" id="5AGBwuFnVnQ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5AGBwuFnNev" resolve="smartRefByLink" />
+                <node concept="3cpWs8" id="4Ffa7sQ0Epo" role="3cqZAp">
+                  <node concept="3cpWsn" id="4Ffa7sQ0Epp" role="3cpWs9">
+                    <property role="TrG5h" value="iterator" />
+                    <node concept="3uibUv" id="4Ffa7sQ0zRD" role="1tU5fm">
+                      <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
+                      <node concept="3qUE_q" id="4Ffa7sQ0zRK" role="11_B2D">
+                        <node concept="3uibUv" id="4Ffa7sQ0zRL" role="3qUE_r">
+                          <ref role="3uigEE" to="mhbf:~SReference" resolve="SReference" />
+                        </node>
+                      </node>
                     </node>
-                    <node concept="liA8E" id="5AGBwuFo1fY" role="2OqNvi">
-                      <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
-                      <node concept="2OqwBi" id="5AGBwuFo6LJ" role="37wK5m">
-                        <node concept="2GrUjf" id="5AGBwuFo3X2" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4Ffa7sQ0Epq" role="33vP2m">
+                      <node concept="2OqwBi" id="4Ffa7sQ0Epr" role="2Oq$k0">
+                        <node concept="2GrUjf" id="4Ffa7sQ0Eps" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="5glO5qKT4Ua" resolve="mpsCont" />
                         </node>
-                        <node concept="liA8E" id="5AGBwuFo9_R" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SNode.getContainmentLink()" resolve="getContainmentLink" />
+                        <node concept="liA8E" id="4Ffa7sQ0Ept" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SNode.getReferences()" resolve="getReferences" />
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="5AGBwuFo_Dn" role="37wK5m">
-                        <node concept="2OqwBi" id="5AGBwuFowrG" role="2Oq$k0">
-                          <node concept="2OqwBi" id="5AGBwuFoqOD" role="2Oq$k0">
-                            <node concept="2GrUjf" id="5AGBwuFonMU" role="2Oq$k0">
+                      <node concept="liA8E" id="4Ffa7sQ0Epu" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Iterable.iterator()" resolve="iterator" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="4Ffa7sQ0PWv" role="3cqZAp">
+                  <node concept="3clFbS" id="4Ffa7sQ0PWx" role="3clFbx">
+                    <node concept="3clFbF" id="5AGBwuFnVnS" role="3cqZAp">
+                      <node concept="2OqwBi" id="5AGBwuFnYpb" role="3clFbG">
+                        <node concept="37vLTw" id="5AGBwuFnVnQ" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5AGBwuFnNev" resolve="smartRefByLink" />
+                        </node>
+                        <node concept="liA8E" id="5AGBwuFo1fY" role="2OqNvi">
+                          <ref role="37wK5l" to="yg2w:~MultiMap.putValue(java.lang.Object,java.lang.Object)" resolve="putValue" />
+                          <node concept="2OqwBi" id="5AGBwuFo6LJ" role="37wK5m">
+                            <node concept="2GrUjf" id="5AGBwuFo3X2" role="2Oq$k0">
                               <ref role="2Gs0qQ" node="5glO5qKT4Ua" resolve="mpsCont" />
                             </node>
-                            <node concept="liA8E" id="5AGBwuFotaJ" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SNode.getReferences()" resolve="getReferences" />
+                            <node concept="liA8E" id="5AGBwuFo9_R" role="2OqNvi">
+                              <ref role="37wK5l" to="mhbf:~SNode.getContainmentLink()" resolve="getContainmentLink" />
                             </node>
                           </node>
-                          <node concept="liA8E" id="5AGBwuFozun" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~Iterable.iterator()" resolve="iterator" />
+                          <node concept="2OqwBi" id="5AGBwuFo_Dn" role="37wK5m">
+                            <node concept="37vLTw" id="4Ffa7sQ0Epv" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4Ffa7sQ0Epp" resolve="iterator" />
+                            </node>
+                            <node concept="liA8E" id="5AGBwuFoCRH" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                            </node>
                           </node>
                         </node>
-                        <node concept="liA8E" id="5AGBwuFoCRH" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
-                        </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="4Ffa7sQ0ZWz" role="3clFbw">
+                    <node concept="37vLTw" id="4Ffa7sQ0Vzc" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4Ffa7sQ0Epp" resolve="iterator" />
+                    </node>
+                    <node concept="liA8E" id="4Ffa7sQ14Yu" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~Iterator.hasNext()" resolve="hasNext" />
                     </node>
                   </node>
                 </node>

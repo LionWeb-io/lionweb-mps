@@ -439,6 +439,15 @@
             <ref role="1NtTu8" to="d0tf:nWBHrKUPp9" resolve="exportComputedProperties" />
           </node>
         </node>
+        <node concept="3EZMnI" id="4Ffa7sPNJZc" role="3EZMnx">
+          <node concept="3F0ifn" id="4Ffa7sPNJZd" role="3EZMnx">
+            <property role="3F0ifm" value="LionWeb version:" />
+          </node>
+          <node concept="2iRfu4" id="4Ffa7sPNJZe" role="2iSdaV" />
+          <node concept="3F0A7n" id="4Ffa7sPNJZf" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:4Ffa7sPNJXF" resolve="lionWebVersion" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="39$JcGF9nIX" role="3EZMnx" />
       <node concept="3F0ifn" id="4Yo3buYkNOW" role="3EZMnx">
@@ -668,6 +677,15 @@
           <node concept="2iRfu4" id="78CjgICZumK" role="2iSdaV" />
           <node concept="3F0A7n" id="78CjgICZumL" role="3EZMnx">
             <ref role="1NtTu8" to="d0tf:78CjgICU_49" resolve="exportSpecialAnnotations" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="4Ffa7sPNJV7" role="3EZMnx">
+          <node concept="3F0ifn" id="4Ffa7sPNJV8" role="3EZMnx">
+            <property role="3F0ifm" value="LionWeb version:" />
+          </node>
+          <node concept="2iRfu4" id="4Ffa7sPNJV9" role="2iSdaV" />
+          <node concept="3F0A7n" id="4Ffa7sPNJVa" role="3EZMnx">
+            <ref role="1NtTu8" to="d0tf:4Ffa7sPNJTl" resolve="lionWebVersion" />
           </node>
         </node>
       </node>
