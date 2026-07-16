@@ -362,7 +362,9 @@
         <child id="1163670677455" name="concept" index="3Kbmr1" />
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -7410,6 +7412,180 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6fYiNFaGNYx" role="jymVt" />
+    <node concept="3clFb_" id="1_rLWsvWVF8" role="jymVt">
+      <property role="TrG5h" value="isSdt" />
+      <node concept="3clFbS" id="1_rLWsvWVF9" role="3clF47">
+        <node concept="3clFbF" id="1_rLWsvWVFa" role="3cqZAp">
+          <node concept="2OqwBi" id="1_rLWsvWVFb" role="3clFbG">
+            <node concept="2OqwBi" id="1_rLWsvWVFc" role="2Oq$k0">
+              <node concept="2OqwBi" id="1_rLWsvWVFd" role="2Oq$k0">
+                <node concept="3Tsc0h" id="1_rLWsvWVFe" role="2OqNvi">
+                  <ref role="3TtcxE" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+                </node>
+                <node concept="1PxgMI" id="1_rLWsvX4gF" role="2Oq$k0">
+                  <property role="1BlNFB" value="true" />
+                  <node concept="chp4Y" id="1_rLWsvX6ay" role="3oSUPX">
+                    <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                  </node>
+                  <node concept="37vLTw" id="1_rLWsvWVFf" role="1m5AlR">
+                    <ref role="3cqZAo" node="1_rLWsvWVFl" resolve="concept" />
+                  </node>
+                </node>
+              </node>
+              <node concept="v3k3i" id="1_rLWsvWVFg" role="2OqNvi">
+                <node concept="chp4Y" id="1_rLWsvWVFh" role="v3oSu">
+                  <ref role="cht4Q" to="234s:1_rLWsuCLc$" resolve="LionWebStructuredDataType" />
+                </node>
+              </node>
+            </node>
+            <node concept="3GX2aA" id="1_rLWsvWVFi" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1_rLWsvWVFj" role="1B3o_S" />
+      <node concept="10P_77" id="1_rLWsvWVFk" role="3clF45" />
+      <node concept="37vLTG" id="1_rLWsvWVFl" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3Tqbb2" id="1_rLWsvWVFm" role="1tU5fm">
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+        </node>
+        <node concept="2AHcQZ" id="1_rLWsvWVFn" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="1_rLWsvWVFo" role="lGtFl">
+        <node concept="TZ5HA" id="1_rLWsvWVFp" role="TZ5H$">
+          <node concept="1dT_AC" id="1_rLWsvWVFq" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if `concept` is a LionWeb structured data type." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="1_rLWsvWVFr" role="3nqlJM">
+          <property role="TUZQ4" value="concept to inspect." />
+          <node concept="zr_55" id="1_rLWsvWVFs" role="zr_5Q">
+            <ref role="zr_51" node="1_rLWsvWVFl" resolve="concept" />
+          </node>
+        </node>
+        <node concept="x79VA" id="1_rLWsvWVFt" role="3nqlJM">
+          <property role="x79VB" value="`true` if `concept` is a LionWeb structured data type, `false` otherwise." />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsvWVFu" role="jymVt">
+      <property role="TrG5h" value="isSdt" />
+      <node concept="3clFbS" id="1_rLWsvWVFv" role="3clF47">
+        <node concept="3clFbJ" id="1_rLWsvWVFw" role="3cqZAp">
+          <node concept="3clFbS" id="1_rLWsvWVFx" role="3clFbx">
+            <node concept="3cpWs6" id="1_rLWsvWVFy" role="3cqZAp">
+              <node concept="10Nm6u" id="1_rLWsvWVFz" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="1_rLWsvWVF$" role="3clFbw">
+            <node concept="2ZW3vV" id="1_rLWsvWVF_" role="3fr31v">
+              <node concept="3uibUv" id="1_rLWsvWVFA" role="2ZW6by">
+                <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsvWVFB" role="2ZW6bz">
+                <ref role="3cqZAo" node="1_rLWsvWVFV" resolve="concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1_rLWsvWVFC" role="3cqZAp">
+          <node concept="3cpWsn" id="1_rLWsvWVFD" role="3cpWs9">
+            <property role="TrG5h" value="declaration" />
+            <node concept="3Tqbb2" id="1_rLWsvWVFE" role="1tU5fm">
+              <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+            </node>
+            <node concept="1rXfSq" id="1_rLWsvWVFF" role="33vP2m">
+              <ref role="37wK5l" node="5AGBwuFcf8P" resolve="toDeclaration" />
+              <node concept="0kSF2" id="1_rLWsvWVFG" role="37wK5m">
+                <node concept="3uibUv" id="1_rLWsvWVFH" role="0kSFW">
+                  <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+                </node>
+                <node concept="37vLTw" id="1_rLWsvWVFI" role="0kSFX">
+                  <ref role="3cqZAo" node="1_rLWsvWVFV" resolve="concept" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1_rLWsvWVFJ" role="3cqZAp">
+          <node concept="3clFbS" id="1_rLWsvWVFK" role="3clFbx">
+            <node concept="3cpWs6" id="1_rLWsvWVFL" role="3cqZAp">
+              <node concept="10Nm6u" id="1_rLWsvWVFM" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="1_rLWsvWVFN" role="3clFbw">
+            <node concept="10Nm6u" id="1_rLWsvWVFO" role="3uHU7w" />
+            <node concept="37vLTw" id="1_rLWsvWVFP" role="3uHU7B">
+              <ref role="3cqZAo" node="1_rLWsvWVFD" resolve="declaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1_rLWsvWVFQ" role="3cqZAp">
+          <node concept="1rXfSq" id="1_rLWsvWVFR" role="3clFbG">
+            <ref role="37wK5l" node="1_rLWsvWVF8" resolve="isSdt" />
+            <node concept="37vLTw" id="1_rLWsvWVFS" role="37wK5m">
+              <ref role="3cqZAo" node="1_rLWsvWVFD" resolve="declaration" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1_rLWsvWVFT" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsvWVFU" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+      </node>
+      <node concept="37vLTG" id="1_rLWsvWVFV" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3uibUv" id="1_rLWsvWVFW" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+        </node>
+        <node concept="2AHcQZ" id="1_rLWsvWVFX" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsvWVFY" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="P$JXv" id="1_rLWsvWVFZ" role="lGtFl">
+        <node concept="TZ5HA" id="1_rLWsvWVG0" role="TZ5H$">
+          <node concept="1dT_AC" id="1_rLWsvWVG1" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if `concept` is a LionWeb structured data type." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1_rLWsvWVG2" role="TZ5H$">
+          <node concept="1dT_AC" id="1_rLWsvWVG3" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="1_rLWsvWVG4" role="TZ5H$">
+          <node concept="1dT_AC" id="1_rLWsvWVG5" role="1dT_Ay">
+            <property role="1dT_AB" value="Only works if the language structure aspect containing `concept` is available in " />
+          </node>
+          <node concept="1dT_AA" id="1_rLWsvWVG6" role="1dT_Ay">
+            <node concept="92FcH" id="1_rLWsvWVG7" role="qph3F">
+              <node concept="TZ5HA" id="1_rLWsvWVG8" role="2XjZqd" />
+              <node concept="VUqz4" id="1_rLWsvWVG9" role="92FcQ">
+                <ref role="YTMYt" node="pPZz6cPzAy" resolve="repository" />
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="1_rLWsvWVGa" role="1dT_Ay">
+            <property role="1dT_AB" value="." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="1_rLWsvWVGb" role="3nqlJM">
+          <property role="TUZQ4" value="concept to inspect." />
+          <node concept="zr_55" id="1_rLWsvWVGc" role="zr_5Q">
+            <ref role="zr_51" node="1_rLWsvWVFV" resolve="concept" />
+          </node>
+        </node>
+        <node concept="x79VA" id="1_rLWsvWVGd" role="3nqlJM">
+          <property role="x79VB" value="`true` if `concept` is a LionWeb structured data type, `false` otherwise. `null` if structure aspect unavailable." />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1_rLWsvWVF7" role="jymVt" />
     <node concept="3clFb_" id="5sJP3aL$LUO" role="jymVt">
       <property role="TrG5h" value="collectAllLanguages" />
       <node concept="3Tmbuc" id="5sJP3aL$LUP" role="1B3o_S" />

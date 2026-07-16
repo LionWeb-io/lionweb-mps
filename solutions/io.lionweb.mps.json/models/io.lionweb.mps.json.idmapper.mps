@@ -647,11 +647,65 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="1_rLWswvdsC" role="jymVt" />
     <node concept="3UR2Jj" id="3M8YG$dsNW1" role="lGtFl">
       <node concept="TZ5HA" id="3M8YG$dsNW2" role="TZ5H$">
         <node concept="1dT_AC" id="3M8YG$dsNW3" role="1dT_Ay">
           <property role="1dT_AB" value="Maps JSON elements to their keys." />
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWswva1X" role="jymVt">
+      <property role="TrG5h" value="mapSdt" />
+      <node concept="37vLTG" id="1_rLWswva1Y" role="3clF46">
+        <property role="TrG5h" value="sdt" />
+        <node concept="3uibUv" id="1_rLWswva2l" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1_rLWswva22" role="1B3o_S" />
+      <node concept="17QB3L" id="1_rLWswva23" role="3clF45" />
+      <node concept="3clFbS" id="1_rLWswva2m" role="3clF47">
+        <node concept="3clFbF" id="1_rLWswvfmL" role="3cqZAp">
+          <node concept="2OqwBi" id="1_rLWswvg_K" role="3clFbG">
+            <node concept="37vLTw" id="1_rLWswvfmI" role="2Oq$k0">
+              <ref role="3cqZAo" node="1_rLWswva1Y" resolve="sdt" />
+            </node>
+            <node concept="liA8E" id="1_rLWswvj0p" role="2OqNvi">
+              <ref role="37wK5l" to="2qhi:~LanguageEntity.getKey()" resolve="getKey" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWswva2n" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1_rLWswvklt" role="jymVt" />
+    <node concept="3clFb_" id="1_rLWswva2q" role="jymVt">
+      <property role="TrG5h" value="mapField" />
+      <node concept="37vLTG" id="1_rLWswva2r" role="3clF46">
+        <property role="TrG5h" value="field" />
+        <node concept="3uibUv" id="1_rLWswva2M" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1_rLWswva2v" role="1B3o_S" />
+      <node concept="17QB3L" id="1_rLWswva2w" role="3clF45" />
+      <node concept="3clFbS" id="1_rLWswva2N" role="3clF47">
+        <node concept="3clFbF" id="1_rLWswvtSz" role="3cqZAp">
+          <node concept="2OqwBi" id="1_rLWswvuSk" role="3clFbG">
+            <node concept="37vLTw" id="1_rLWswvtSw" role="2Oq$k0">
+              <ref role="3cqZAo" node="1_rLWswva2r" resolve="field" />
+            </node>
+            <node concept="liA8E" id="1_rLWswvxda" role="2OqNvi">
+              <ref role="37wK5l" to="2qhi:~Field.getKey()" resolve="getKey" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWswva2O" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>
@@ -701,6 +755,12 @@
       <node concept="3uibUv" id="5M3rB6AAARh" role="11_B2D">
         <ref role="3uigEE" to="2qhi:~EnumerationLiteral" resolve="EnumerationLiteral" />
       </node>
+      <node concept="3uibUv" id="1_rLWswzj3B" role="11_B2D">
+        <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+      </node>
+      <node concept="3uibUv" id="1_rLWswzjp5" role="11_B2D">
+        <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
+      </node>
       <node concept="3uibUv" id="5M3rB6AAASI" role="11_B2D">
         <ref role="3uigEE" to="teza:6VkSF6aHjES" resolve="IKeyMapper" />
         <node concept="3uibUv" id="5M3rB6AAAUc" role="11_B2D">
@@ -741,6 +801,12 @@
         </node>
         <node concept="3uibUv" id="5M3rB6AAAUn" role="11_B2D">
           <ref role="3uigEE" to="2qhi:~EnumerationLiteral" resolve="EnumerationLiteral" />
+        </node>
+        <node concept="3uibUv" id="1_rLWswzkwx" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+        </node>
+        <node concept="3uibUv" id="1_rLWswzkwy" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
         </node>
       </node>
     </node>
@@ -790,6 +856,12 @@
             </node>
             <node concept="3uibUv" id="5M3rB6AADYo" role="11_B2D">
               <ref role="3uigEE" to="2qhi:~EnumerationLiteral" resolve="EnumerationLiteral" />
+            </node>
+            <node concept="3uibUv" id="1_rLWswzlu_" role="11_B2D">
+              <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+            </node>
+            <node concept="3uibUv" id="1_rLWswzluA" role="11_B2D">
+              <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
             </node>
           </node>
         </node>
@@ -868,6 +940,12 @@
       </node>
       <node concept="3uibUv" id="3M8YG$dtosO" role="11_B2D">
         <ref role="3uigEE" to="2qhi:~EnumerationLiteral" resolve="EnumerationLiteral" />
+      </node>
+      <node concept="3uibUv" id="1_rLWswv6Xe" role="11_B2D">
+        <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+      </node>
+      <node concept="3uibUv" id="1_rLWswv71Y" role="11_B2D">
+        <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
       </node>
     </node>
     <node concept="3UR2Jj" id="3M8YG$dEDf7" role="lGtFl">

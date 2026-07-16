@@ -123,6 +123,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
         <child id="1214996921760" name="bound" index="3ztrMU" />
       </concept>
@@ -1650,31 +1653,13 @@
                 <ref role="2Oxat5" node="7OJcYqy7LqN" resolve="BUILTINS" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy7Lr4" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy7Lr5" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="10QFUN" id="7OJcYqy8A9g" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy8A9f" role="10QFUP">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="3uibUv" id="7OJcYqy8A9e" role="10QFUM">
-                    <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqy7Lr7" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7Lr8" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqy7Lr9" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm1b" resolve="getBuiltins" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYqy8FMH" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqy8GQR" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
-                </node>
+            <node concept="1rXfSq" id="1_rLWsyJRht" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyJRhm" resolve="populateBuiltins" />
+              <node concept="37vLTw" id="1_rLWsyJRhr" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyJRhs" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
               </node>
             </node>
           </node>
@@ -1687,39 +1672,16 @@
                 <ref role="2Oxat5" node="7OJcYqy7P4y" resolve="STRING" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy7P4P" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy7P4Q" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7OJcYqy7P4R" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7P4S" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="2PDubS" id="7OJcYqy7P4T" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getString(io.lionweb.LionWebVersion)" resolve="getString" />
-                    <node concept="2OqwBi" id="pwT61ftJfg" role="37wK5m">
-                      <node concept="37vLTw" id="pwT61ftHcH" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-                      </node>
-                      <node concept="liA8E" id="pwT61ftKDm" role="2OqNvi">
-                        <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqy7P4U" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7P4V" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqy7P4W" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm1k" resolve="getString" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYqy8V9m" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqy8XsK" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
-                </node>
+            <node concept="1rXfSq" id="1_rLWsyJZ6k" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyJZ6c" resolve="populateString" />
+              <node concept="37vLTw" id="1_rLWsyJZ6h" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyJZ6i" role="37wK5m">
+                <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyJZ6j" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
               </node>
             </node>
           </node>
@@ -1732,39 +1694,16 @@
                 <ref role="2Oxat5" node="7OJcYqy7SKo" resolve="INTEGER" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy7SKF" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy7SKG" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7OJcYqy7SKH" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7SKI" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="2PDubS" id="7OJcYqy7SKJ" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getInteger(io.lionweb.LionWebVersion)" resolve="getInteger" />
-                    <node concept="2OqwBi" id="pwT61fu2ju" role="37wK5m">
-                      <node concept="37vLTw" id="pwT61fu2jv" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-                      </node>
-                      <node concept="liA8E" id="pwT61fu2jw" role="2OqNvi">
-                        <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqy7SKK" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7SKL" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqy7SKM" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm1A" resolve="getInteger" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYqy91zn" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqy91zo" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
-                </node>
+            <node concept="1rXfSq" id="1_rLWsyK1xl" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyK1xd" resolve="populateInteger" />
+              <node concept="37vLTw" id="1_rLWsyK1xi" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyK1xj" role="37wK5m">
+                <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyK1xk" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
               </node>
             </node>
           </node>
@@ -1777,39 +1716,16 @@
                 <ref role="2Oxat5" node="7OJcYqy7Wt4" resolve="BOOLEAN" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy7Wtn" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy7Wto" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7OJcYqy7Wtp" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7Wtq" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="2PDubS" id="7OJcYqy7Wtr" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getBoolean(io.lionweb.LionWebVersion)" resolve="getBoolean" />
-                    <node concept="2OqwBi" id="pwT61fu3FX" role="37wK5m">
-                      <node concept="37vLTw" id="pwT61fu3FY" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-                      </node>
-                      <node concept="liA8E" id="pwT61fu3FZ" role="2OqNvi">
-                        <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqy7Wts" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy7Wtt" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqy7Wtu" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm1t" resolve="getBoolean" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYqy93G9" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqy93Ga" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
-                </node>
+            <node concept="1rXfSq" id="1_rLWsyK5XF" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyK5Xz" resolve="populateBoolean" />
+              <node concept="37vLTw" id="1_rLWsyK5XC" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyK5XD" role="37wK5m">
+                <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyK5XE" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
               </node>
             </node>
           </node>
@@ -1822,39 +1738,16 @@
                 <ref role="2Oxat5" node="7OJcYqy80aA" resolve="JSON" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy80aT" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy80aU" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7OJcYqy80aV" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy80aW" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="2PDubS" id="7OJcYqy80aX" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getJSON(io.lionweb.LionWebVersion)" resolve="getJSON" />
-                    <node concept="2OqwBi" id="pwT61ftPRJ" role="37wK5m">
-                      <node concept="37vLTw" id="pwT61ftOtH" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-                      </node>
-                      <node concept="liA8E" id="pwT61ftRjM" role="2OqNvi">
-                        <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqy80aY" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy80aZ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqy80b0" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm1J" resolve="getJson" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYqy96Mr" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqy96Ms" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
-                </node>
+            <node concept="1rXfSq" id="1_rLWsyK8vQ" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyK8vI" resolve="populateJson" />
+              <node concept="37vLTw" id="1_rLWsyK8vN" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyK8vO" role="37wK5m">
+                <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyK8vP" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
               </node>
             </node>
           </node>
@@ -1867,39 +1760,16 @@
                 <ref role="2Oxat5" node="7OJcYqy83SY" resolve="INAMED" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy83Th" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy83Ti" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7OJcYqy83Tj" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy83Tk" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="2PDubS" id="7OJcYqy83Tl" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getINamed(io.lionweb.LionWebVersion)" resolve="getINamed" />
-                    <node concept="2OqwBi" id="pwT61ftVIL" role="37wK5m">
-                      <node concept="37vLTw" id="pwT61ftTFD" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-                      </node>
-                      <node concept="liA8E" id="pwT61ftX9s" role="2OqNvi">
-                        <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqy83Tm" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy83Tn" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqy83To" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm2j" resolve="getINamed" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYqy9IIh" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Interface" resolve="Interface" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqy9IIi" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvXZ8V" resolve="InterfaceStaple" />
-                </node>
+            <node concept="1rXfSq" id="1_rLWsyKb8Z" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyKb8R" resolve="populateINamed" />
+              <node concept="37vLTw" id="1_rLWsyKb8W" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyKb8X" role="37wK5m">
+                <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyKb8Y" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
               </node>
             </node>
           </node>
@@ -1912,39 +1782,492 @@
                 <ref role="2Oxat5" node="7OJcYqy87Cc" resolve="NODE" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqy87Cv" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqy87Cw" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7OJcYqy87Cx" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy87Cy" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
-                  </node>
-                  <node concept="2PDubS" id="7OJcYqy87Cz" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getNode(io.lionweb.LionWebVersion)" resolve="getNode" />
-                    <node concept="2OqwBi" id="pwT61fu56M" role="37wK5m">
-                      <node concept="37vLTw" id="pwT61fu56N" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-                      </node>
-                      <node concept="liA8E" id="pwT61fu56O" role="2OqNvi">
-                        <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
-                      </node>
+            <node concept="1rXfSq" id="1_rLWsyKfYm" role="37vLTx">
+              <ref role="37wK5l" node="1_rLWsyKfYe" resolve="populateNode" />
+              <node concept="37vLTw" id="1_rLWsyKfYj" role="37wK5m">
+                <ref role="3cqZAo" node="6YC7tYIxt37" resolve="builtins" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyKfYk" role="37wK5m">
+                <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+              </node>
+              <node concept="37vLTw" id="1_rLWsyKfYl" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyJRhm" role="jymVt">
+      <property role="TrG5h" value="populateBuiltins" />
+      <node concept="3Tmbuc" id="1_rLWsyKiTS" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyJRho" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyJRhp" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyJRhq" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyJRhd" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyJRhe" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyJRhf" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyJRhg" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyJRh1" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyJRh2" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyJRh3" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyJRh4" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="10QFUN" id="1_rLWsyJRh5" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyJRhh" role="10QFUP">
+                  <ref role="3cqZAo" node="1_rLWsyJRhd" resolve="builtins" />
+                </node>
+                <node concept="3uibUv" id="1_rLWsyJRh7" role="10QFUM">
+                  <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyJRh8" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyJRhi" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyJRhf" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="1_rLWsyJRha" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm1b" resolve="getBuiltins" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyJRhb" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyJRhc" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyJZ6c" role="jymVt">
+      <property role="TrG5h" value="populateString" />
+      <node concept="3Tmbuc" id="1_rLWsyKkSi" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyJZ6e" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyJZ6f" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyJZ6g" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyJZ3m" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyJZ3n" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyJZ3o" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyJZ3p" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyJZ3q" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyJZ3r" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyJZ37" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyJZ38" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyJZ39" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyJZ3a" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="1_rLWsyJZ3b" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyJZ68" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyJZ3m" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="1_rLWsyJZ3d" role="2OqNvi">
+                  <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getString(io.lionweb.LionWebVersion)" resolve="getString" />
+                  <node concept="2OqwBi" id="1_rLWsyJZ3e" role="37wK5m">
+                    <node concept="37vLTw" id="1_rLWsyJZ66" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_rLWsyJZ3o" resolve="lionwebversion" />
+                    </node>
+                    <node concept="liA8E" id="1_rLWsyJZ3g" role="2OqNvi">
+                      <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
                     </node>
                   </node>
                 </node>
-                <node concept="2OqwBi" id="7OJcYqy87C$" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqy87C_" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxTzQb" resolve="constants" />
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyJZ3h" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyJZ67" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyJZ3q" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="1_rLWsyJZ3j" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm1k" resolve="getString" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyJZ3k" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyJZ3l" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyK1xd" role="jymVt">
+      <property role="TrG5h" value="populateInteger" />
+      <node concept="3Tmbuc" id="1_rLWsyKmSI" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyK1xf" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyK1xg" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyK1xh" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK1un" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyK1uo" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK1up" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyK1uq" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK1ur" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyK1us" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyK1u8" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyK1u9" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyK1ua" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyK1ub" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="1_rLWsyK1uc" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyK1x7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyK1un" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="1_rLWsyK1ue" role="2OqNvi">
+                  <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getInteger(io.lionweb.LionWebVersion)" resolve="getInteger" />
+                  <node concept="2OqwBi" id="1_rLWsyK1uf" role="37wK5m">
+                    <node concept="37vLTw" id="1_rLWsyK1x9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_rLWsyK1up" resolve="lionwebversion" />
+                    </node>
+                    <node concept="liA8E" id="1_rLWsyK1uh" role="2OqNvi">
+                      <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="7OJcYqy87CA" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm1S" resolve="getNode" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyK1ui" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyK1x8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyK1ur" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="1_rLWsyK1uk" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm1A" resolve="getInteger" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyK1ul" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyK1um" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyK5Xz" role="jymVt">
+      <property role="TrG5h" value="populateBoolean" />
+      <node concept="3Tmbuc" id="1_rLWsyKoTa" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyK5X_" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyK5XA" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyK5XB" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK5UH" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyK5UI" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK5UJ" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyK5UK" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK5UL" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyK5UM" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyK5Uu" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyK5Uv" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyK5Uw" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyK5Ux" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="1_rLWsyK5Uy" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyK5Xv" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyK5UH" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="1_rLWsyK5U$" role="2OqNvi">
+                  <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getBoolean(io.lionweb.LionWebVersion)" resolve="getBoolean" />
+                  <node concept="2OqwBi" id="1_rLWsyK5U_" role="37wK5m">
+                    <node concept="37vLTw" id="1_rLWsyK5Xt" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_rLWsyK5UJ" resolve="lionwebversion" />
+                    </node>
+                    <node concept="liA8E" id="1_rLWsyK5UB" role="2OqNvi">
+                      <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                    </node>
                   </node>
                 </node>
-                <node concept="3uibUv" id="7OJcYqy9XnK" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyK5UC" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyK5Xu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyK5UL" resolve="constants" />
                 </node>
-                <node concept="3uibUv" id="7OJcYqy9XnL" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+                <node concept="liA8E" id="1_rLWsyK5UE" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm1t" resolve="getBoolean" />
                 </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyK5UF" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyK5UG" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyK8vI" role="jymVt">
+      <property role="TrG5h" value="populateJson" />
+      <node concept="3Tmbuc" id="1_rLWsyKqTA" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyK8vK" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyK8vL" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyK8vM" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK8sS" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyK8sT" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK8sU" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyK8sV" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyK8sW" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyK8sX" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyK8sD" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyK8sE" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyK8sF" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyK8sG" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="1_rLWsyK8sH" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyK8vC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyK8sS" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="1_rLWsyK8sJ" role="2OqNvi">
+                  <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getJSON(io.lionweb.LionWebVersion)" resolve="getJSON" />
+                  <node concept="2OqwBi" id="1_rLWsyK8sK" role="37wK5m">
+                    <node concept="37vLTw" id="1_rLWsyK8vD" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_rLWsyK8sU" resolve="lionwebversion" />
+                    </node>
+                    <node concept="liA8E" id="1_rLWsyK8sM" role="2OqNvi">
+                      <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyK8sN" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyK8vE" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyK8sW" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="1_rLWsyK8sP" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm1J" resolve="getJson" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyK8sQ" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyK8sR" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyKb8R" role="jymVt">
+      <property role="TrG5h" value="populateINamed" />
+      <node concept="3Tmbuc" id="1_rLWsyKsU2" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyKb8T" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyKb8U" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Interface" resolve="Interface" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyKb8V" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvXZ8V" resolve="InterfaceStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKb61" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyKb62" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKb63" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyKb64" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKb65" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyKb66" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyKb5M" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyKb5N" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyKb5O" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyKb5P" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="1_rLWsyKb5Q" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyKb8L" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyKb61" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="1_rLWsyKb5S" role="2OqNvi">
+                  <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getINamed(io.lionweb.LionWebVersion)" resolve="getINamed" />
+                  <node concept="2OqwBi" id="1_rLWsyKb5T" role="37wK5m">
+                    <node concept="37vLTw" id="1_rLWsyKb8M" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_rLWsyKb63" resolve="lionwebversion" />
+                    </node>
+                    <node concept="liA8E" id="1_rLWsyKb5V" role="2OqNvi">
+                      <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyKb5W" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyKb8N" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyKb65" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="1_rLWsyKb5Y" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm2j" resolve="getINamed" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyKb5Z" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Interface" resolve="Interface" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyKb60" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvXZ8V" resolve="InterfaceStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsyKfYe" role="jymVt">
+      <property role="TrG5h" value="populateNode" />
+      <node concept="3Tmbuc" id="1_rLWsyKuUu" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyKfYg" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyKfYh" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyKfYi" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKfVo" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyKfVp" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKfVq" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyKfVr" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKfVs" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyKfVt" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyKfV9" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyKfVa" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsyKfVb" role="3cqZAk">
+            <node concept="1pGfFk" id="1_rLWsyKfVc" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="1_rLWsyKfVd" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyKfY9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyKfVo" resolve="builtins" />
+                </node>
+                <node concept="2PDubS" id="1_rLWsyKfVf" role="2OqNvi">
+                  <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getNode(io.lionweb.LionWebVersion)" resolve="getNode" />
+                  <node concept="2OqwBi" id="1_rLWsyKfVg" role="37wK5m">
+                    <node concept="37vLTw" id="1_rLWsyKfYa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1_rLWsyKfVq" resolve="lionwebversion" />
+                    </node>
+                    <node concept="liA8E" id="1_rLWsyKfVi" role="2OqNvi">
+                      <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1_rLWsyKfVj" role="37wK5m">
+                <node concept="37vLTw" id="1_rLWsyKfY8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1_rLWsyKfVs" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="1_rLWsyKfVl" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm1S" resolve="getNode" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="1_rLWsyKfVm" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+              </node>
+              <node concept="3uibUv" id="1_rLWsyKfVn" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
               </node>
             </node>
           </node>
@@ -2268,7 +2591,7 @@
                 <ref role="3cqZAo" node="5l7iViewSs7" resolve="lionwebVersion" />
               </node>
               <node concept="liA8E" id="5l7iVie_U1W" role="2OqNvi">
-                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                <ref role="37wK5l" node="1_rLWsweLqG" resolve="getVersion" />
               </node>
             </node>
           </node>
@@ -6511,8 +6834,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5JNiskj4R_S" role="1B3o_S" />
-    <node concept="3uibUv" id="5JNiskj4RSf" role="3HQHJm">
-      <ref role="3uigEE" node="5JNiskj4NAJ" resolve="IJsonConstants_2023_1" />
+    <node concept="3uibUv" id="1_rLWsyE0Ph" role="3HQHJm">
+      <ref role="3uigEE" node="1_rLWsyDX5R" resolve="IJsonConstants_2024_1" />
     </node>
     <node concept="3UR2Jj" id="RuBGkvsmSP" role="lGtFl">
       <node concept="TZ5HA" id="RuBGkvsmSQ" role="TZ5H$">
@@ -6810,8 +7133,8 @@
     <property role="3GE5qa" value="jsonConstants" />
     <property role="TrG5h" value="JsonConstants" />
     <node concept="3Tm1VV" id="5JNiskj4S1e" role="1B3o_S" />
-    <node concept="3uibUv" id="5JNiskj4SjL" role="1zkMxy">
-      <ref role="3uigEE" node="39$JcGFQll9" resolve="JsonConstants_2023_1" />
+    <node concept="3uibUv" id="4Ffa7sL8GTg" role="1zkMxy">
+      <ref role="3uigEE" node="1_rLWsyE1fo" resolve="JsonConstants_2024_1" />
     </node>
     <node concept="3uibUv" id="5JNiskj4S_T" role="EKbjA">
       <ref role="3uigEE" node="5JNiskj4R_R" resolve="IJsonConstants" />
@@ -7099,7 +7422,7 @@
       <node concept="3Tm1VV" id="5JNiskj4SJf" role="1B3o_S" />
       <node concept="3clFbS" id="5JNiskj4SJn" role="3clF47">
         <node concept="XkiVB" id="5JNiskj4SJo" role="3cqZAp">
-          <ref role="37wK5l" node="5TNjoy1vf0o" resolve="JsonConstants_2023_1" />
+          <ref role="37wK5l" node="1_rLWsyE1g0" resolve="JsonConstants_2024_1" />
           <node concept="37vLTw" id="1KsTggJfKq8" role="37wK5m">
             <ref role="3cqZAo" node="5JNiskj4SJb" resolve="lionwebversion" />
           </node>
@@ -7109,31 +7432,13 @@
         </node>
         <node concept="3clFbF" id="6LPkCA_581G" role="3cqZAp">
           <node concept="37vLTI" id="6LPkCA_5gY8" role="3clFbG">
-            <node concept="2ShNRf" id="6LPkCA_5l5D" role="37vLTx">
-              <node concept="1pGfFk" id="6LPkCA_5ppe" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="3uibUv" id="6LPkCA_5xh7" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Interface" resolve="Interface" />
-                </node>
-                <node concept="3uibUv" id="6LPkCA_5Bt$" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvXZ8V" resolve="InterfaceStaple" />
-                </node>
-                <node concept="2OqwBi" id="6LPkCA_5HvJ" role="37wK5m">
-                  <node concept="37vLTw" id="6LPkCA_5Fzz" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
-                  </node>
-                  <node concept="liA8E" id="6LPkCA_5Rf4" role="2OqNvi">
-                    <ref role="37wK5l" node="6LPkCA_5LT0" resolve="getIKeyed" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="6LPkCA_5Yao" role="37wK5m">
-                  <node concept="37vLTw" id="6LPkCA_5Wtj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6LPkCA_62Ea" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6LPkCA_2RQ$" resolve="getIKeyed" />
-                  </node>
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sL96jP" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sL96jI" resolve="populateIKeyed" />
+              <node concept="37vLTw" id="4Ffa7sL96jN" role="37wK5m">
+                <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sL96jO" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
             <node concept="2OqwBi" id="6LPkCA_59G$" role="37vLTJ">
@@ -7152,31 +7457,13 @@
                 <ref role="2Oxat5" node="7OJcYqydNSU" resolve="ANNOTATION" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqydNTb" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqydNTc" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7weWCFlxmzL" role="37wK5m">
-                  <node concept="37vLTw" id="7weWCFlxmke" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
-                  </node>
-                  <node concept="liA8E" id="7weWCFlyC9C" role="2OqNvi">
-                    <ref role="37wK5l" node="7weWCFlye1e" resolve="getAnnotation" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqydNTe" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqydNTf" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqydNTg" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm21" resolve="getAnnotation" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYq$NFrE" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$NKsj" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sL9pjh" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sL9pja" resolve="populateAnnotation" />
+              <node concept="37vLTw" id="4Ffa7sL9pjf" role="37wK5m">
+                <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sL9pjg" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7189,31 +7476,13 @@
                 <ref role="2Oxat5" node="7OJcYqyeaqZ" resolve="CLASSIFIER" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqyearg" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyearh" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7weWCFlxsjJ" role="37wK5m">
-                  <node concept="37vLTw" id="7weWCFlxs3F" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
-                  </node>
-                  <node concept="liA8E" id="7weWCFlyCYt" role="2OqNvi">
-                    <ref role="37wK5l" node="7weWCFlyegi" resolve="getClassifier" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqyearj" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyeark" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyearl" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$m" resolve="getClassifier" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYq$NXTx" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$NXTy" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sL9D_p" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sL9D_i" resolve="populateClassifier" />
+              <node concept="37vLTw" id="4Ffa7sL9D_n" role="37wK5m">
+                <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sL9D_o" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7226,31 +7495,13 @@
                 <ref role="2Oxat5" node="7OJcYqyexdn" resolve="CONCEPT" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqyexdC" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyexdD" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7weWCFlxyXS" role="37wK5m">
-                  <node concept="37vLTw" id="7weWCFlxyHj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
-                  </node>
-                  <node concept="liA8E" id="7weWCFlyDSA" role="2OqNvi">
-                    <ref role="37wK5l" node="7weWCFlye2B" resolve="getConcept" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqyexdF" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyexdG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyexdH" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$v" resolve="getConcept" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYq$O2b8" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$O2b9" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sL9WJv" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sL9WJo" resolve="populateConcept" />
+              <node concept="37vLTw" id="4Ffa7sL9WJt" role="37wK5m">
+                <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sL9WJu" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7263,31 +7514,13 @@
                 <ref role="2Oxat5" node="7OJcYqyeRGY" resolve="INTERFACE" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqyeRHf" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyeRHg" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="2OqwBi" id="7weWCFlxDsZ" role="37wK5m">
-                  <node concept="37vLTw" id="7weWCFlxDbT" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
-                  </node>
-                  <node concept="liA8E" id="7weWCFlyEZu" role="2OqNvi">
-                    <ref role="37wK5l" node="7weWCFlye49" resolve="getInterface" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="7OJcYqyeRHi" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyeRHj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyeRHk" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$C" resolve="getInterface" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYq$O5KA" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$O5KB" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sLadgO" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLadgH" resolve="populateInterface" />
+              <node concept="37vLTw" id="4Ffa7sLadgM" role="37wK5m">
+                <ref role="3cqZAo" node="7weWCFlwAZa" resolve="m3" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLadgN" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7327,106 +7560,18 @@
                 <ref role="2Oxat5" node="7OJcYqyctMv" resolve="SPECIFIC_LANGUAGE" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqyctMM" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyctMN" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="3uibUv" id="7OJcYqyctMO" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
-                </node>
-                <node concept="3uibUv" id="7OJcYqyctMP" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
-                </node>
-                <node concept="37vLTw" id="7OJcYqyctMQ" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
-                </node>
-                <node concept="2OqwBi" id="7OJcYqyctMR" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyctMS" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyctMT" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwUzr1" resolve="getSpecificLanguage" />
-                  </node>
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sLaxCx" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLaxCq" resolve="populateSpecificLanguage" />
+              <node concept="37vLTw" id="4Ffa7sLaxCv" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLaxCw" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="7OJcYqyca$O" role="3cqZAp" />
-        <node concept="3cpWs8" id="7OJcYqyqduq" role="3cqZAp">
-          <node concept="3cpWsn" id="7OJcYqyqdur" role="3cpWs9">
-            <property role="TrG5h" value="virtualPackage" />
-            <node concept="3uibUv" id="7OJcYqyqcsJ" role="1tU5fm">
-              <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
-            </node>
-            <node concept="2ShNRf" id="7OJcYqyqdus" role="33vP2m">
-              <node concept="1pGfFk" id="7OJcYqyqdut" role="2ShVmc">
-                <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Annotation" />
-                <node concept="37vLTw" id="7OJcYqyqduu" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
-                </node>
-                <node concept="Xl_RD" id="7OJcYqyqduv" role="37wK5m">
-                  <property role="Xl_RC" value="VirtualPackage" />
-                </node>
-                <node concept="Xl_RD" id="7OJcYqyqduw" role="37wK5m">
-                  <property role="Xl_RC" value="VirtualPackage" />
-                </node>
-                <node concept="Xl_RD" id="7OJcYqyqdux" role="37wK5m">
-                  <property role="Xl_RC" value="VirtualPackage" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5JNiskj6IWo" role="3cqZAp">
-          <node concept="2OqwBi" id="5JNiskj6OSl" role="3clFbG">
-            <node concept="37vLTw" id="5JNiskj6Oel" role="2Oq$k0">
-              <ref role="3cqZAo" node="7OJcYqyqdur" resolve="virtualPackage" />
-            </node>
-            <node concept="liA8E" id="5JNiskj6PtP" role="2OqNvi">
-              <ref role="37wK5l" to="2qhi:~Annotation.addImplementedInterface(io.lionweb.language.Interface)" resolve="addImplementedInterface" />
-              <node concept="2OqwBi" id="7OJcYqzFMTY" role="37wK5m">
-                <node concept="1rXfSq" id="5JNiskj6PIG" role="2Oq$k0">
-                  <ref role="37wK5l" node="7OJcYqxTGtE" resolve="getINamed" />
-                </node>
-                <node concept="liA8E" id="7OJcYqzFPqR" role="2OqNvi">
-                  <ref role="37wK5l" node="7OJcYqxR0RG" resolve="getJson" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5JNiskj6Qe2" role="3cqZAp" />
-        <node concept="3cpWs8" id="7OJcYq_4ykT" role="3cqZAp">
-          <node concept="3cpWsn" id="7OJcYq_4ykU" role="3cpWs9">
-            <property role="TrG5h" value="iNamedName" />
-            <node concept="3uibUv" id="7OJcYq_4vPa" role="1tU5fm">
-              <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-            </node>
-            <node concept="2OqwBi" id="7OJcYq_4ykV" role="33vP2m">
-              <node concept="2OqwBi" id="7OJcYq_4ykW" role="2Oq$k0">
-                <node concept="2OqwBi" id="7OJcYq_4ykX" role="2Oq$k0">
-                  <node concept="liA8E" id="7OJcYq_4ykY" role="2OqNvi">
-                    <ref role="37wK5l" to="2qhi:~Classifier.allProperties()" resolve="allProperties" />
-                  </node>
-                  <node concept="2OqwBi" id="7OJcYq_4ykZ" role="2Oq$k0">
-                    <node concept="1rXfSq" id="7OJcYq_4yl0" role="2Oq$k0">
-                      <ref role="37wK5l" node="7OJcYqxTGtE" resolve="getINamed" />
-                    </node>
-                    <node concept="liA8E" id="7OJcYq_4yl1" role="2OqNvi">
-                      <ref role="37wK5l" node="7OJcYqxR0RG" resolve="getJson" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="7OJcYq_4yl2" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
-                </node>
-              </node>
-              <node concept="liA8E" id="7OJcYq_4yl3" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7OJcYqyd5wJ" role="3cqZAp">
           <node concept="37vLTI" id="7OJcYqyd5wK" role="3clFbG">
             <node concept="2OqwBi" id="7OJcYqyd5wL" role="37vLTJ">
@@ -7435,23 +7580,13 @@
                 <ref role="2Oxat5" node="7OJcYqyd5wz" resolve="VIRTUAL_PACKAGE" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqyd5wO" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyd5wP" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYq_2OAc" resolve="JsonAnnotationPropertyStaple" />
-                <node concept="37vLTw" id="7OJcYq_4Hk7" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYq_4ykU" resolve="iNamedName" />
-                </node>
-                <node concept="37vLTw" id="7OJcYqyd5wQ" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyqdur" resolve="virtualPackage" />
-                </node>
-                <node concept="2OqwBi" id="7OJcYqyd5wR" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyd5wS" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyd5wT" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQyzV" resolve="getVirtualPackage" />
-                  </node>
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sLaMEf" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLaME9" resolve="populateVirtualPackage" />
+              <node concept="37vLTw" id="4Ffa7sLhU4J" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLaMEe" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7464,20 +7599,10 @@
                 <ref role="2Oxat5" node="7OJcYqylZ6o" resolve="VIRTUAL_PACKAGE_NAME" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqylZ6J" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqylZ6K" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="7OJcYq_4yl4" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYq_4ykU" resolve="iNamedName" />
-                </node>
-                <node concept="2OqwBi" id="7OJcYqylZ6S" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqylZ6T" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqylZ6U" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQm2s" resolve="getINamedName" />
-                  </node>
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sLb3Zo" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLb3Zj" resolve="populateVirtualPackageName" />
+              <node concept="37vLTw" id="4Ffa7sLb3Zn" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7563,36 +7688,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="34Q84zNSU$E" role="3cqZAp" />
-        <node concept="3clFbF" id="7OJcYqydvK9" role="3cqZAp">
-          <node concept="37vLTI" id="7OJcYqydvKa" role="3clFbG">
-            <node concept="2OqwBi" id="7OJcYqydvKb" role="37vLTJ">
-              <node concept="Xjq3P" id="7OJcYqydvKc" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7OJcYqydvKd" role="2OqNvi">
-                <ref role="2Oxat5" node="7OJcYqydvJX" resolve="SHORT_DESCRIPTION" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="7OJcYqydvKe" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqydvKf" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYq_2OAc" resolve="JsonAnnotationPropertyStaple" />
-                <node concept="37vLTw" id="7OJcYq_4yl5" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYq_1K_1" resolve="description" />
-                </node>
-                <node concept="37vLTw" id="7OJcYqydvKg" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyqtIN" resolve="shortDescription" />
-                </node>
-                <node concept="2OqwBi" id="7OJcYqydvKh" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqydvKi" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqydvKj" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$4" resolve="getShortDescription" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7OJcYqymLcR" role="3cqZAp">
           <node concept="37vLTI" id="7OJcYqymLcS" role="3clFbG">
             <node concept="2OqwBi" id="7OJcYqymLcT" role="37vLTJ">
@@ -7601,26 +7696,35 @@
                 <ref role="2Oxat5" node="7OJcYqymLc_" resolve="SHORT_DESCRIPTION_DESCRIPTION" />
               </node>
             </node>
-            <node concept="2ShNRf" id="7OJcYqymLcW" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqymLcX" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="7OJcYq_1VLn" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYq_1K_1" resolve="description" />
-                </node>
-                <node concept="2OqwBi" id="7OJcYqymLd5" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqymLd6" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqymLd7" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$4" resolve="getShortDescription" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYq$Oym2" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$OEbl" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
-                </node>
+            <node concept="1rXfSq" id="4Ffa7sLbAlk" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLbAld" resolve="populateShortDescriptionDescription" />
+              <node concept="37vLTw" id="4Ffa7sLbAli" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYq_1K_1" resolve="description" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLbAlj" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7OJcYqydvK9" role="3cqZAp">
+          <node concept="37vLTI" id="7OJcYqydvKa" role="3clFbG">
+            <node concept="2OqwBi" id="7OJcYqydvKb" role="37vLTJ">
+              <node concept="Xjq3P" id="7OJcYqydvKc" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7OJcYqydvKd" role="2OqNvi">
+                <ref role="2Oxat5" node="7OJcYqydvJX" resolve="SHORT_DESCRIPTION" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLbkPX" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLbkPR" resolve="populateShortDescription" />
+              <node concept="37vLTw" id="4Ffa7sLbkPU" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYq_1K_1" resolve="description" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLbkPV" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyqtIN" resolve="shortDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLbkPW" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
               </node>
             </node>
           </node>
@@ -7651,7 +7755,903 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7OJcYqyfSFs" role="3cqZAp" />
+        <node concept="3clFbF" id="7OJcYqyfGb3" role="3cqZAp">
+          <node concept="37vLTI" id="7OJcYqyfGb4" role="3clFbG">
+            <node concept="2OqwBi" id="7OJcYqyfGb5" role="37vLTJ">
+              <node concept="Xjq3P" id="7OJcYqyfGb6" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7OJcYqyfGb7" role="2OqNvi">
+                <ref role="2Oxat5" node="7OJcYqyfGaR" resolve="CONCEPT_ALIAS" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLbRPW" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLbRPP" resolve="populateConceptAlias" />
+              <node concept="37vLTw" id="4Ffa7sLbRPU" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLbRPV" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7OJcYqygecC" role="3cqZAp">
+          <node concept="37vLTI" id="7OJcYqygecD" role="3clFbG">
+            <node concept="2OqwBi" id="7OJcYqygecE" role="37vLTJ">
+              <node concept="Xjq3P" id="7OJcYqygecF" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7OJcYqygecG" role="2OqNvi">
+                <ref role="2Oxat5" node="7OJcYqygecs" resolve="CONCEPT_SHORT_DESCRIPTION" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLcc8W" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLcc8P" resolve="populateConceptShortDescription" />
+              <node concept="37vLTw" id="4Ffa7sLcc8U" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLcc8V" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6luz6qubEEw" role="3cqZAp">
+          <node concept="37vLTI" id="6luz6qubEEx" role="3clFbG">
+            <node concept="2OqwBi" id="6luz6qubEEy" role="37vLTJ">
+              <node concept="Xjq3P" id="6luz6qubEEz" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6luz6qubEE$" role="2OqNvi">
+                <ref role="2Oxat5" node="6luz6qtHF5Z" resolve="CONCEPT_HELP_URL" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLctt1" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLctsU" resolve="populateConceptHelpUrl" />
+              <node concept="37vLTw" id="4Ffa7sLctsZ" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLctt0" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7OJcYqyfkgX" role="3cqZAp">
+          <node concept="37vLTI" id="7OJcYqyfkgY" role="3clFbG">
+            <node concept="2OqwBi" id="7OJcYqyfkgZ" role="37vLTJ">
+              <node concept="Xjq3P" id="7OJcYqyfkh0" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7OJcYqyfkh1" role="2OqNvi">
+                <ref role="2Oxat5" node="7OJcYqyfkgL" resolve="CONCEPT_DESCRIPTION" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLcLUZ" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLcLUS" resolve="populateConceptDescription" />
+              <node concept="37vLTw" id="4Ffa7sLcLUX" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLcLUY" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6LPkCA$p5PP" role="3cqZAp" />
+        <node concept="3cpWs8" id="6luz6qu7YUZ" role="3cqZAp">
+          <node concept="3cpWsn" id="6luz6qu7YV0" role="3cpWs9">
+            <property role="TrG5h" value="keyedDescription" />
+            <node concept="3uibUv" id="6luz6qu7YV1" role="1tU5fm">
+              <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+            </node>
+            <node concept="2ShNRf" id="6luz6qu7YV2" role="33vP2m">
+              <node concept="1pGfFk" id="6luz6qu7YV3" role="2ShVmc">
+                <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Annotation" />
+                <node concept="37vLTw" id="6luz6qu7YV4" role="37wK5m">
+                  <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
+                </node>
+                <node concept="Xl_RD" id="6luz6qu7YV5" role="37wK5m">
+                  <property role="Xl_RC" value="KeyedDescription" />
+                </node>
+                <node concept="Xl_RD" id="6luz6qu7YV6" role="37wK5m">
+                  <property role="Xl_RC" value="KeyedDescription" />
+                </node>
+                <node concept="Xl_RD" id="6luz6qu7YV7" role="37wK5m">
+                  <property role="Xl_RC" value="KeyedDescription" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6luz6qu7LCE" role="3cqZAp">
+          <node concept="37vLTI" id="6luz6qu7LCF" role="3clFbG">
+            <node concept="1rXfSq" id="4Ffa7sLd3wc" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLd3w5" resolve="populateKeyedDescription" />
+              <node concept="37vLTw" id="4Ffa7sLd3wa" role="37wK5m">
+                <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLd3wb" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6luz6qu7LCO" role="37vLTJ">
+              <node concept="Xjq3P" id="6luz6qu7LCP" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6luz6qu7LCQ" role="2OqNvi">
+                <ref role="2Oxat5" node="6luz6qtFQfk" resolve="KEYED_DESCRIPTION" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6luz6qu8B2u" role="3cqZAp">
+          <node concept="37vLTI" id="6luz6qu8B2v" role="3clFbG">
+            <node concept="2OqwBi" id="6luz6qu8B2w" role="37vLTJ">
+              <node concept="Xjq3P" id="6luz6qu8B2x" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6luz6qu8B2y" role="2OqNvi">
+                <ref role="2Oxat5" node="6luz6qtFXt2" resolve="KEYED_DESCRIPTION_DOCUMENATION" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLdoc1" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLdobU" resolve="populateKeyedDescriptionDocumentation" />
+              <node concept="37vLTw" id="4Ffa7sLdobZ" role="37wK5m">
+                <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLdoc0" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6luz6qu9JUU" role="3cqZAp">
+          <node concept="37vLTI" id="6luz6qu9JUV" role="3clFbG">
+            <node concept="2OqwBi" id="6luz6qu9JUW" role="37vLTJ">
+              <node concept="Xjq3P" id="6luz6qu9JUX" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6luz6qu9JUY" role="2OqNvi">
+                <ref role="2Oxat5" node="6luz6qtG3Kc" resolve="KEYED_DESCRIPTION_SEE_ALSO" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLdHa7" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLdHa0" resolve="populateKeyedDescriptionSeeAlso" />
+              <node concept="37vLTw" id="4Ffa7sLdHa5" role="37wK5m">
+                <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLdHa6" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6luz6qu9JUT" role="3cqZAp" />
+        <node concept="3cpWs8" id="6LPkCA$pK0Y" role="3cqZAp">
+          <node concept="3cpWsn" id="6LPkCA$pK0Z" role="3cpWs9">
+            <property role="TrG5h" value="deprecated" />
+            <node concept="3uibUv" id="6LPkCA$pI6Y" role="1tU5fm">
+              <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+            </node>
+            <node concept="2ShNRf" id="6LPkCA$pK10" role="33vP2m">
+              <node concept="1pGfFk" id="6LPkCA$pK11" role="2ShVmc">
+                <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Annotation" />
+                <node concept="37vLTw" id="6LPkCA$pK12" role="37wK5m">
+                  <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
+                </node>
+                <node concept="Xl_RD" id="6LPkCA$pK13" role="37wK5m">
+                  <property role="Xl_RC" value="Deprecated" />
+                </node>
+                <node concept="Xl_RD" id="6LPkCA$pK14" role="37wK5m">
+                  <property role="Xl_RC" value="Deprecated" />
+                </node>
+                <node concept="Xl_RD" id="6LPkCA$pK15" role="37wK5m">
+                  <property role="Xl_RC" value="Deprecated" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA$D4JA" role="3cqZAp">
+          <node concept="37vLTI" id="6LPkCA$D4JB" role="3clFbG">
+            <node concept="2OqwBi" id="6LPkCA$D4JC" role="37vLTJ">
+              <node concept="Xjq3P" id="6LPkCA$D4JD" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6LPkCA$D4JE" role="2OqNvi">
+                <ref role="2Oxat5" node="6LPkCA$Cfbk" resolve="DEPRECATED_COMMENT" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLe2N4" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLe2MX" resolve="populateDeprecatedComment" />
+              <node concept="37vLTw" id="4Ffa7sLe2N2" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLe2N3" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA$DjrM" role="3cqZAp">
+          <node concept="37vLTI" id="6LPkCA$DjrN" role="3clFbG">
+            <node concept="2OqwBi" id="6LPkCA$DjrO" role="37vLTJ">
+              <node concept="Xjq3P" id="6LPkCA$DjrP" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6LPkCA$DjrQ" role="2OqNvi">
+                <ref role="2Oxat5" node="6LPkCA$CnAu" resolve="DEPRECATED_BUILD" />
+              </node>
+            </node>
+            <node concept="1rXfSq" id="4Ffa7sLeIzK" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLeIzD" resolve="populateDeprecatedBuild" />
+              <node concept="37vLTw" id="4Ffa7sLeIzI" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLeIzJ" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6LPkCA$rx4b" role="3cqZAp">
+          <node concept="37vLTI" id="6LPkCA$rCPS" role="3clFbG">
+            <node concept="1rXfSq" id="4Ffa7sLf3yR" role="37vLTx">
+              <ref role="37wK5l" node="4Ffa7sLf3yK" resolve="populateDeprecated" />
+              <node concept="37vLTw" id="4Ffa7sLf3yP" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLf3yQ" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6LPkCA$ryC9" role="37vLTJ">
+              <node concept="Xjq3P" id="6LPkCA$rx49" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6LPkCA$rA5v" role="2OqNvi">
+                <ref role="2Oxat5" node="6LPkCA$oXGi" resolve="DEPRECATED" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7weWCFlwAZa" role="3clF46">
+        <property role="TrG5h" value="m3" />
+        <node concept="3uibUv" id="7weWCFlwC9l" role="1tU5fm">
+          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+        </node>
+        <node concept="2AHcQZ" id="7weWCFlwCka" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7OJcYqxWqYT" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="7OJcYqxWqYU" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+        <node concept="2AHcQZ" id="7OJcYqxWqYV" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sL96jI" role="jymVt">
+      <property role="TrG5h" value="populateIKeyed" />
+      <node concept="3Tmbuc" id="4Ffa7sL96jJ" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sL96jK" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sL96jL" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Interface" resolve="Interface" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sL96jM" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvXZ8V" resolve="InterfaceStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL96iX" role="3clF46">
+        <property role="TrG5h" value="m3" />
+        <node concept="3uibUv" id="4Ffa7sL96iY" role="1tU5fm">
+          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL96iZ" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sL96j0" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sL96iL" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sL96iM" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sL96iN" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sL96iO" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="3uibUv" id="4Ffa7sL96iP" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Interface" resolve="Interface" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL96iQ" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvXZ8V" resolve="InterfaceStaple" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sL96iR" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL96jD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL96iX" resolve="m3" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL96iT" role="2OqNvi">
+                  <ref role="37wK5l" node="6LPkCA_5LT0" resolve="getIKeyed" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sL96iU" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL96jE" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL96iZ" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL96iW" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6LPkCA_2RQ$" resolve="getIKeyed" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sL9pja" role="jymVt">
+      <property role="TrG5h" value="populateAnnotation" />
+      <node concept="3Tmbuc" id="4Ffa7sL9pjb" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sL9pjc" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sL9pjd" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sL9pje" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL9pip" role="3clF46">
+        <property role="TrG5h" value="m3" />
+        <node concept="3uibUv" id="4Ffa7sL9piq" role="1tU5fm">
+          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL9pir" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sL9pis" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sL9pid" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sL9pie" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sL9pif" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sL9pig" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="4Ffa7sL9pih" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL9pj6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL9pip" resolve="m3" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL9pij" role="2OqNvi">
+                  <ref role="37wK5l" node="7weWCFlye1e" resolve="getAnnotation" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sL9pik" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL9pj5" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL9pir" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL9pim" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm21" resolve="getAnnotation" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL9pin" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL9pio" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sL9D_i" role="jymVt">
+      <property role="TrG5h" value="populateClassifier" />
+      <node concept="3Tmbuc" id="4Ffa7sL9D_j" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sL9D_k" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sL9D_l" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sL9D_m" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL9D$x" role="3clF46">
+        <property role="TrG5h" value="m3" />
+        <node concept="3uibUv" id="4Ffa7sL9D$y" role="1tU5fm">
+          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL9D$z" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sL9D$$" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sL9D$l" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sL9D$m" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sL9D$n" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sL9D$o" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="4Ffa7sL9D$p" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL9D_e" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL9D$x" resolve="m3" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL9D$r" role="2OqNvi">
+                  <ref role="37wK5l" node="7weWCFlyegi" resolve="getClassifier" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sL9D$s" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL9D_d" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL9D$z" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL9D$u" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$m" resolve="getClassifier" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL9D$v" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL9D$w" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sL9WJo" role="jymVt">
+      <property role="TrG5h" value="populateConcept" />
+      <node concept="3Tmbuc" id="4Ffa7sL9WJp" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sL9WJq" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sL9WJr" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sL9WJs" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL9WIB" role="3clF46">
+        <property role="TrG5h" value="m3" />
+        <node concept="3uibUv" id="4Ffa7sL9WIC" role="1tU5fm">
+          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sL9WID" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sL9WIE" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sL9WIr" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sL9WIs" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sL9WIt" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sL9WIu" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="4Ffa7sL9WIv" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL9WJj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL9WIB" resolve="m3" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL9WIx" role="2OqNvi">
+                  <ref role="37wK5l" node="7weWCFlye2B" resolve="getConcept" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sL9WIy" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sL9WJk" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sL9WID" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sL9WI$" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$v" resolve="getConcept" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL9WI_" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sL9WIA" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLadgH" role="jymVt">
+      <property role="TrG5h" value="populateInterface" />
+      <node concept="3Tmbuc" id="4Ffa7sLadgI" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLadgJ" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLadgK" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLadgL" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLadfW" role="3clF46">
+        <property role="TrG5h" value="m3" />
+        <node concept="3uibUv" id="4Ffa7sLadfX" role="1tU5fm">
+          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLadfY" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLadfZ" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLadfK" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLadfL" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLadfM" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLadfN" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="2OqwBi" id="4Ffa7sLadfO" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLadgC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLadfW" resolve="m3" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLadfQ" role="2OqNvi">
+                  <ref role="37wK5l" node="7weWCFlye49" resolve="getInterface" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLadfR" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLadgD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLadfY" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLadfT" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$C" resolve="getInterface" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLadfU" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLadfV" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvKWo$" resolve="ConceptStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLaxCq" role="jymVt">
+      <property role="TrG5h" value="populateSpecificLanguage" />
+      <node concept="3Tmbuc" id="4Ffa7sLaxCr" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLaxCs" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLaxCt" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLaxCu" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLaxx1" role="3clF46">
+        <property role="TrG5h" value="specificLanguage" />
+        <node concept="3uibUv" id="4Ffa7sLaxx2" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLaxx3" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLaxx4" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLaxwR" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLaxwS" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLaxwT" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLaxwU" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="3uibUv" id="4Ffa7sLaxwV" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLaxwW" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLaxCm" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLaxx1" resolve="specificLanguage" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLaxwY" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLaxCl" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLaxx3" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLaxx0" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwUzr1" resolve="getSpecificLanguage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLaME9" role="jymVt">
+      <property role="TrG5h" value="populateVirtualPackage" />
+      <node concept="3Tmbuc" id="4Ffa7sLaMEa" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLaMEb" role="3clF45">
+        <ref role="3uigEE" node="7OJcYq_2Ogv" resolve="JsonAnnotationPropertyStaple" />
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLaMCI" role="3clF47">
+        <node concept="3cpWs8" id="7OJcYq_4ykT" role="3cqZAp">
+          <node concept="3cpWsn" id="7OJcYq_4ykU" role="3cpWs9">
+            <property role="TrG5h" value="iNamedName" />
+            <node concept="3uibUv" id="7OJcYq_4vPa" role="1tU5fm">
+              <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+            </node>
+            <node concept="2OqwBi" id="7OJcYq_4ykV" role="33vP2m">
+              <node concept="2OqwBi" id="7OJcYq_4ykW" role="2Oq$k0">
+                <node concept="2OqwBi" id="7OJcYq_4ykX" role="2Oq$k0">
+                  <node concept="liA8E" id="7OJcYq_4ykY" role="2OqNvi">
+                    <ref role="37wK5l" to="2qhi:~Classifier.allProperties()" resolve="allProperties" />
+                  </node>
+                  <node concept="2OqwBi" id="7OJcYq_4ykZ" role="2Oq$k0">
+                    <node concept="1rXfSq" id="7OJcYq_4yl0" role="2Oq$k0">
+                      <ref role="37wK5l" node="7OJcYqxTGtE" resolve="getINamed" />
+                    </node>
+                    <node concept="liA8E" id="7OJcYq_4yl1" role="2OqNvi">
+                      <ref role="37wK5l" node="7OJcYqxR0RG" resolve="getJson" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="7OJcYq_4yl2" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7OJcYq_4yl3" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7OJcYqyqduq" role="3cqZAp">
+          <node concept="3cpWsn" id="7OJcYqyqdur" role="3cpWs9">
+            <property role="TrG5h" value="virtualPackage" />
+            <node concept="3uibUv" id="7OJcYqyqcsJ" role="1tU5fm">
+              <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+            </node>
+            <node concept="2ShNRf" id="7OJcYqyqdus" role="33vP2m">
+              <node concept="1pGfFk" id="7OJcYqyqdut" role="2ShVmc">
+                <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Annotation" />
+                <node concept="37vLTw" id="7OJcYqyqduu" role="37wK5m">
+                  <ref role="3cqZAo" node="4Ffa7sLi0VD" resolve="specificLanguage" />
+                </node>
+                <node concept="Xl_RD" id="7OJcYqyqduv" role="37wK5m">
+                  <property role="Xl_RC" value="VirtualPackage" />
+                </node>
+                <node concept="Xl_RD" id="7OJcYqyqduw" role="37wK5m">
+                  <property role="Xl_RC" value="VirtualPackage" />
+                </node>
+                <node concept="Xl_RD" id="7OJcYqyqdux" role="37wK5m">
+                  <property role="Xl_RC" value="VirtualPackage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5JNiskj6IWo" role="3cqZAp">
+          <node concept="2OqwBi" id="5JNiskj6OSl" role="3clFbG">
+            <node concept="37vLTw" id="5JNiskj6Oel" role="2Oq$k0">
+              <ref role="3cqZAo" node="7OJcYqyqdur" resolve="virtualPackage" />
+            </node>
+            <node concept="liA8E" id="5JNiskj6PtP" role="2OqNvi">
+              <ref role="37wK5l" to="2qhi:~Annotation.addImplementedInterface(io.lionweb.language.Interface)" resolve="addImplementedInterface" />
+              <node concept="2OqwBi" id="7OJcYqzFMTY" role="37wK5m">
+                <node concept="1rXfSq" id="5JNiskj6PIG" role="2Oq$k0">
+                  <ref role="37wK5l" node="7OJcYqxTGtE" resolve="getINamed" />
+                </node>
+                <node concept="liA8E" id="7OJcYqzFPqR" role="2OqNvi">
+                  <ref role="37wK5l" node="7OJcYqxR0RG" resolve="getJson" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4Ffa7sLaMCJ" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLaMCK" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLaMCL" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYq_2OAc" resolve="JsonAnnotationPropertyStaple" />
+              <node concept="37vLTw" id="4Ffa7sLaME5" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYq_4ykU" resolve="iNamedName" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLaME6" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyqdur" resolve="virtualPackage" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLaMCO" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLaME7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLaMCV" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLaMCQ" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQyzV" resolve="getVirtualPackage" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLi0VD" role="3clF46">
+        <property role="TrG5h" value="specificLanguage" />
+        <node concept="3uibUv" id="4Ffa7sLi0VE" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Language" resolve="Language" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLaMCV" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLaMCW" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLb3Zj" role="jymVt">
+      <property role="TrG5h" value="populateVirtualPackageName" />
+      <node concept="3Tmbuc" id="4Ffa7sLb3Zk" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLb3Zl" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLb3Ze" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLb3Zf" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLb3Z4" role="3clF47">
+        <node concept="3cpWs8" id="4Ffa7sLhnzD" role="3cqZAp">
+          <node concept="3cpWsn" id="4Ffa7sLhnzE" role="3cpWs9">
+            <property role="TrG5h" value="iNamedName" />
+            <node concept="3uibUv" id="4Ffa7sLhnzF" role="1tU5fm">
+              <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+            </node>
+            <node concept="2OqwBi" id="4Ffa7sLhnzG" role="33vP2m">
+              <node concept="2OqwBi" id="4Ffa7sLhnzH" role="2Oq$k0">
+                <node concept="2OqwBi" id="4Ffa7sLhnzI" role="2Oq$k0">
+                  <node concept="liA8E" id="4Ffa7sLhnzJ" role="2OqNvi">
+                    <ref role="37wK5l" to="2qhi:~Classifier.allProperties()" resolve="allProperties" />
+                  </node>
+                  <node concept="2OqwBi" id="4Ffa7sLhnzK" role="2Oq$k0">
+                    <node concept="1rXfSq" id="4Ffa7sLhnzL" role="2Oq$k0">
+                      <ref role="37wK5l" node="7OJcYqxTGtE" resolve="getINamed" />
+                    </node>
+                    <node concept="liA8E" id="4Ffa7sLhnzM" role="2OqNvi">
+                      <ref role="37wK5l" node="7OJcYqxR0RG" resolve="getJson" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="4Ffa7sLhnzN" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4Ffa7sLhnzO" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4Ffa7sLb3Z5" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLb3Z6" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLb3Z7" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLb3Zh" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLhnzE" resolve="iNamedName" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLb3Z9" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLb3Zg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLb3Ze" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLb3Zb" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQm2s" resolve="getINamedName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLbkPR" role="jymVt">
+      <property role="TrG5h" value="populateShortDescription" />
+      <node concept="3Tmbuc" id="4Ffa7sLbkPS" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLbkPT" role="3clF45">
+        <ref role="3uigEE" node="7OJcYq_2Ogv" resolve="JsonAnnotationPropertyStaple" />
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbkO_" role="3clF46">
+        <property role="TrG5h" value="description" />
+        <node concept="3uibUv" id="4Ffa7sLbkOA" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbkOB" role="3clF46">
+        <property role="TrG5h" value="shortDescription" />
+        <node concept="3uibUv" id="4Ffa7sLbkOC" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbkOD" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLbkOE" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLbkOs" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLbkOt" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLbkOu" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLbkOv" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYq_2OAc" resolve="JsonAnnotationPropertyStaple" />
+              <node concept="37vLTw" id="4Ffa7sLbkPN" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLbkO_" resolve="description" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLbkPO" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLbkOB" resolve="shortDescription" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLbkOy" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLbkPP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLbkOD" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLbkO$" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$4" resolve="getShortDescription" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLbAld" role="jymVt">
+      <property role="TrG5h" value="populateShortDescriptionDescription" />
+      <node concept="3Tmbuc" id="4Ffa7sLbAle" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLbAlf" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLbAlg" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLbAlh" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbAdS" role="3clF46">
+        <property role="TrG5h" value="description" />
+        <node concept="3uibUv" id="4Ffa7sLbAdT" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbAdU" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLbAdV" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLbAdI" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLbAdJ" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLbAdK" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLbAdL" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLbAl8" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLbAdS" resolve="description" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLbAdN" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLbAl9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLbAdU" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLbAdP" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$4" resolve="getShortDescription" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLbAdQ" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLbAdR" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqwnwCi" resolve="AnnotationPropertyStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLbRPP" role="jymVt">
+      <property role="TrG5h" value="populateConceptAlias" />
+      <node concept="3Tmbuc" id="4Ffa7sLbRPQ" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLbRPR" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLbRPS" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLbRPT" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbRIw" role="3clF46">
+        <property role="TrG5h" value="conceptDescription" />
+        <node concept="3uibUv" id="4Ffa7sLbRIx" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLbRIy" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLbRIz" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLbRIm" role="3clF47">
         <node concept="3cpWs8" id="7OJcYqyr1o1" role="3cqZAp">
           <node concept="3cpWsn" id="7OJcYqyr1o2" role="3cpWs9">
             <property role="TrG5h" value="conceptAlias" />
@@ -7688,7 +8688,7 @@
               <node concept="liA8E" id="7OJcYqyr1ob" role="2OqNvi">
                 <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
                 <node concept="37vLTw" id="7OJcYqyr1oc" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+                  <ref role="3cqZAo" node="4Ffa7sLbRIw" resolve="conceptDescription" />
                 </node>
               </node>
             </node>
@@ -7697,7 +8697,7 @@
         <node concept="3clFbF" id="34Q84zNT3bb" role="3cqZAp">
           <node concept="2OqwBi" id="34Q84zNT48F" role="3clFbG">
             <node concept="37vLTw" id="34Q84zNT3b9" role="2Oq$k0">
-              <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              <ref role="3cqZAo" node="4Ffa7sLbRIw" resolve="conceptDescription" />
             </node>
             <node concept="liA8E" id="34Q84zNT56X" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -7707,39 +8707,57 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7OJcYqyfGb3" role="3cqZAp">
-          <node concept="37vLTI" id="7OJcYqyfGb4" role="3clFbG">
-            <node concept="2OqwBi" id="7OJcYqyfGb5" role="37vLTJ">
-              <node concept="Xjq3P" id="7OJcYqyfGb6" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7OJcYqyfGb7" role="2OqNvi">
-                <ref role="2Oxat5" node="7OJcYqyfGaR" resolve="CONCEPT_ALIAS" />
+        <node concept="3cpWs6" id="4Ffa7sLbRIn" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLbRIo" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLbRIp" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLbRPK" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyr1o2" resolve="conceptAlias" />
               </node>
-            </node>
-            <node concept="2ShNRf" id="7OJcYqyfGb8" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyfGb9" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="7OJcYqyfGba" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyr1o2" resolve="conceptAlias" />
+              <node concept="2OqwBi" id="4Ffa7sLbRIr" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLbRPL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLbRIy" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="7OJcYqyfGbb" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyfGbc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyfGbd" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$L" resolve="getConceptAlias" />
-                  </node>
+                <node concept="liA8E" id="4Ffa7sLbRIt" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$L" resolve="getConceptAlias" />
                 </node>
-                <node concept="3uibUv" id="7OJcYq$N8MQ" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$N8MR" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
-                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLbRIu" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLbRIv" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7OJcYqyfoRz" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLcc8P" role="jymVt">
+      <property role="TrG5h" value="populateConceptShortDescription" />
+      <node concept="3Tmbuc" id="4Ffa7sLcc8Q" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLcc8R" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLcc8S" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLcc8T" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLmDy3" role="3clF46">
+        <property role="TrG5h" value="conceptDescription" />
+        <node concept="3uibUv" id="4Ffa7sLmDy4" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLcc1y" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLcc1z" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLcc1m" role="3clF47">
         <node concept="3cpWs8" id="7OJcYqyrmf$" role="3cqZAp">
           <node concept="3cpWsn" id="7OJcYqyrmf_" role="3cpWs9">
             <property role="TrG5h" value="conceptShortDescription" />
@@ -7776,7 +8794,7 @@
               <node concept="liA8E" id="7OJcYqyrmfI" role="2OqNvi">
                 <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
                 <node concept="37vLTw" id="7OJcYqyrmfJ" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+                  <ref role="3cqZAo" node="4Ffa7sLmDy3" resolve="conceptDescription" />
                 </node>
               </node>
             </node>
@@ -7785,7 +8803,7 @@
         <node concept="3clFbF" id="34Q84zNTkBR" role="3cqZAp">
           <node concept="2OqwBi" id="34Q84zNTkBS" role="3clFbG">
             <node concept="37vLTw" id="34Q84zNTkBT" role="2Oq$k0">
-              <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              <ref role="3cqZAo" node="4Ffa7sLmDy3" resolve="conceptDescription" />
             </node>
             <node concept="liA8E" id="34Q84zNTkBU" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -7795,39 +8813,57 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7OJcYqygecC" role="3cqZAp">
-          <node concept="37vLTI" id="7OJcYqygecD" role="3clFbG">
-            <node concept="2OqwBi" id="7OJcYqygecE" role="37vLTJ">
-              <node concept="Xjq3P" id="7OJcYqygecF" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7OJcYqygecG" role="2OqNvi">
-                <ref role="2Oxat5" node="7OJcYqygecs" resolve="CONCEPT_SHORT_DESCRIPTION" />
+        <node concept="3cpWs6" id="4Ffa7sLcc1n" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLcc1o" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLcc1p" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLcc8L" role="37wK5m">
+                <ref role="3cqZAo" node="7OJcYqyrmf_" resolve="conceptShortDescription" />
               </node>
-            </node>
-            <node concept="2ShNRf" id="7OJcYqygecH" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqygecI" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="7OJcYqygecJ" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyrmf_" resolve="conceptShortDescription" />
+              <node concept="2OqwBi" id="4Ffa7sLcc1r" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLcc8K" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLcc1y" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="7OJcYqygecK" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqygecL" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqygecM" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwQy$U" resolve="getConceptShortDescription" />
-                  </node>
+                <node concept="liA8E" id="4Ffa7sLcc1t" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwQy$U" resolve="getConceptShortDescription" />
                 </node>
-                <node concept="3uibUv" id="7OJcYq$OLDl" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$OR60" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
-                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLcc1u" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLcc1v" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7OJcYqyf4C4" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLctsU" role="jymVt">
+      <property role="TrG5h" value="populateConceptHelpUrl" />
+      <node concept="3Tm6S6" id="4Ffa7sLctsV" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLctsW" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLctsX" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLctsY" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLonz7" role="3clF46">
+        <property role="TrG5h" value="conceptDescription" />
+        <node concept="3uibUv" id="4Ffa7sLonz8" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLctlB" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLctlC" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLctlr" role="3clF47">
         <node concept="3cpWs8" id="6luz6qubEEM" role="3cqZAp">
           <node concept="3cpWsn" id="6luz6qubEEN" role="3cpWs9">
             <property role="TrG5h" value="conceptHelpUrl" />
@@ -7864,7 +8900,7 @@
               <node concept="liA8E" id="6luz6qubEEZ" role="2OqNvi">
                 <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
                 <node concept="37vLTw" id="6luz6qubEF0" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+                  <ref role="3cqZAo" node="4Ffa7sLonz7" resolve="conceptDescription" />
                 </node>
               </node>
             </node>
@@ -7873,7 +8909,7 @@
         <node concept="3clFbF" id="6luz6qubEEH" role="3cqZAp">
           <node concept="2OqwBi" id="6luz6qubEEI" role="3clFbG">
             <node concept="37vLTw" id="6luz6qubEEJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
+              <ref role="3cqZAo" node="4Ffa7sLonz7" resolve="conceptDescription" />
             </node>
             <node concept="liA8E" id="6luz6qubEEK" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -7883,131 +8919,159 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6luz6qubEEw" role="3cqZAp">
-          <node concept="37vLTI" id="6luz6qubEEx" role="3clFbG">
-            <node concept="2OqwBi" id="6luz6qubEEy" role="37vLTJ">
-              <node concept="Xjq3P" id="6luz6qubEEz" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6luz6qubEE$" role="2OqNvi">
-                <ref role="2Oxat5" node="6luz6qtHF5Z" resolve="CONCEPT_HELP_URL" />
+        <node concept="3cpWs6" id="4Ffa7sLctls" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLctlt" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLctlu" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLctsP" role="37wK5m">
+                <ref role="3cqZAo" node="6luz6qubEEN" resolve="conceptHelpUrl" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLctlw" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLctsQ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLctlB" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLctly" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:4Ly6GHu7$VE" resolve="getConceptHelpUrl" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLctlz" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLctl$" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
             </node>
-            <node concept="2ShNRf" id="6luz6qubEE_" role="37vLTx">
-              <node concept="1pGfFk" id="6luz6qubEEA" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="6luz6qubEEB" role="37wK5m">
-                  <ref role="3cqZAo" node="6luz6qubEEN" resolve="conceptHelpUrl" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLcLUS" role="jymVt">
+      <property role="TrG5h" value="populateConceptDescription" />
+      <node concept="3Tmbuc" id="4Ffa7sLcLUT" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLcLUU" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLcLUV" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLcLUW" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLcLNC" role="3clF46">
+        <property role="TrG5h" value="conceptDescription" />
+        <node concept="3uibUv" id="4Ffa7sLcLND" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLcLNE" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLcLNF" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLcLNu" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLcLNv" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLcLNw" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLcLNx" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLcLUN" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLcLNC" resolve="conceptDescription" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLcLNz" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLcLUO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLcLNE" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="6luz6qubEEC" role="37wK5m">
-                  <node concept="37vLTw" id="6luz6qubEED" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6luz6qubEEE" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:4Ly6GHu7$VE" resolve="getConceptHelpUrl" />
-                  </node>
+                <node concept="liA8E" id="4Ffa7sLcLN_" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:7OJcYqwUzr1" resolve="getSpecificLanguage" />
                 </node>
-                <node concept="3uibUv" id="6luz6qubEEF" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLcLNA" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLcLNB" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLd3w5" role="jymVt">
+      <property role="TrG5h" value="populateKeyedDescription" />
+      <node concept="3Tmbuc" id="4Ffa7sLd3w6" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLd3w7" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLd3w8" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLd3w9" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqwqLm4" resolve="AnnotationConceptStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLd3oP" role="3clF46">
+        <property role="TrG5h" value="keyedDescription" />
+        <node concept="3uibUv" id="4Ffa7sLd3oQ" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLd3oR" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLd3oS" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLd3oF" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLd3oG" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLd3oH" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLd3oI" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="3uibUv" id="4Ffa7sLd3oJ" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLd3oK" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqwqLm4" resolve="AnnotationConceptStaple" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLd3w1" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLd3oP" resolve="keyedDescription" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLd3oM" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLd3w0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLd3oR" resolve="constants" />
                 </node>
-                <node concept="3uibUv" id="6luz6qubEEG" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+                <node concept="liA8E" id="4Ffa7sLd3oO" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6luz6qtFvFb" resolve="getKeyedDescription" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6luz6qubEEv" role="3cqZAp" />
-        <node concept="3clFbF" id="7OJcYqyfkgX" role="3cqZAp">
-          <node concept="37vLTI" id="7OJcYqyfkgY" role="3clFbG">
-            <node concept="2OqwBi" id="7OJcYqyfkgZ" role="37vLTJ">
-              <node concept="Xjq3P" id="7OJcYqyfkh0" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7OJcYqyfkh1" role="2OqNvi">
-                <ref role="2Oxat5" node="7OJcYqyfkgL" resolve="CONCEPT_DESCRIPTION" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="7OJcYqyfkh2" role="37vLTx">
-              <node concept="1pGfFk" id="7OJcYqyfkh3" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="7OJcYqyfkh4" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqyqMhr" resolve="conceptDescription" />
-                </node>
-                <node concept="2OqwBi" id="7OJcYqyfkh5" role="37wK5m">
-                  <node concept="37vLTw" id="7OJcYqyfkh6" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="7OJcYqyrCcO" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:7OJcYqwUzr1" resolve="getSpecificLanguage" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="7OJcYq$P5lG" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
-                </node>
-                <node concept="3uibUv" id="7OJcYq$PcLY" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvMQ8$" resolve="LanguageStaple" />
-                </node>
-              </node>
-            </node>
-          </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLdobU" role="jymVt">
+      <property role="TrG5h" value="populateKeyedDescriptionDocumentation" />
+      <node concept="3Tmbuc" id="4Ffa7sLdobV" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLdobW" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLdobX" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
         </node>
-        <node concept="3clFbH" id="6LPkCA$p5PP" role="3cqZAp" />
-        <node concept="3cpWs8" id="6luz6qu7YUZ" role="3cqZAp">
-          <node concept="3cpWsn" id="6luz6qu7YV0" role="3cpWs9">
-            <property role="TrG5h" value="keyedDescription" />
-            <node concept="3uibUv" id="6luz6qu7YV1" role="1tU5fm">
-              <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
-            </node>
-            <node concept="2ShNRf" id="6luz6qu7YV2" role="33vP2m">
-              <node concept="1pGfFk" id="6luz6qu7YV3" role="2ShVmc">
-                <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Annotation" />
-                <node concept="37vLTw" id="6luz6qu7YV4" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
-                </node>
-                <node concept="Xl_RD" id="6luz6qu7YV5" role="37wK5m">
-                  <property role="Xl_RC" value="KeyedDescription" />
-                </node>
-                <node concept="Xl_RD" id="6luz6qu7YV6" role="37wK5m">
-                  <property role="Xl_RC" value="KeyedDescription" />
-                </node>
-                <node concept="Xl_RD" id="6luz6qu7YV7" role="37wK5m">
-                  <property role="Xl_RC" value="KeyedDescription" />
-                </node>
-              </node>
-            </node>
-          </node>
+        <node concept="3uibUv" id="4Ffa7sLdobY" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
         </node>
-        <node concept="3clFbH" id="6luz6qu7Uva" role="3cqZAp" />
-        <node concept="3clFbF" id="6luz6qu7LCE" role="3cqZAp">
-          <node concept="37vLTI" id="6luz6qu7LCF" role="3clFbG">
-            <node concept="2ShNRf" id="6luz6qu7LCG" role="37vLTx">
-              <node concept="1pGfFk" id="6luz6qu7LCH" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="3uibUv" id="6luz6qu7LCI" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
-                </node>
-                <node concept="3uibUv" id="6luz6qu7LCJ" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqwqLm4" resolve="AnnotationConceptStaple" />
-                </node>
-                <node concept="37vLTw" id="6luz6qu7LCK" role="37wK5m">
-                  <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
-                </node>
-                <node concept="2OqwBi" id="6luz6qu7LCL" role="37wK5m">
-                  <node concept="37vLTw" id="6luz6qu7LCM" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6luz6qu7LCN" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6luz6qtFvFb" resolve="getKeyedDescription" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6luz6qu7LCO" role="37vLTJ">
-              <node concept="Xjq3P" id="6luz6qu7LCP" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6luz6qu7LCQ" role="2OqNvi">
-                <ref role="2Oxat5" node="6luz6qtFQfk" resolve="KEYED_DESCRIPTION" />
-              </node>
-            </node>
-          </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLqF7h" role="3clF46">
+        <property role="TrG5h" value="keyedDescription" />
+        <node concept="3uibUv" id="4Ffa7sLqF7j" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
         </node>
-        <node concept="3clFbH" id="6luz6qu6FX$" role="3cqZAp" />
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLdo4B" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLdo4C" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLdo4r" role="3clF47">
         <node concept="3cpWs8" id="6luz6qu8B28" role="3cqZAp">
           <node concept="3cpWsn" id="6luz6qu8B29" role="3cpWs9">
             <property role="TrG5h" value="keydDescriptionDocumentation" />
@@ -8050,7 +9114,7 @@
             <node concept="liA8E" id="6luz6qu8B2n" role="2OqNvi">
               <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
               <node concept="37vLTw" id="6luz6qu8B2o" role="37wK5m">
-                <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+                <ref role="3cqZAo" node="4Ffa7sLqF7h" resolve="keyedDescription" />
               </node>
             </node>
           </node>
@@ -8058,7 +9122,7 @@
         <node concept="3clFbF" id="6luz6qu8B2p" role="3cqZAp">
           <node concept="2OqwBi" id="6luz6qu8B2q" role="3clFbG">
             <node concept="37vLTw" id="6luz6qu8B2r" role="2Oq$k0">
-              <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+              <ref role="3cqZAo" node="4Ffa7sLqF7h" resolve="keyedDescription" />
             </node>
             <node concept="liA8E" id="6luz6qu8B2s" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -8068,39 +9132,57 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6luz6qu8B2u" role="3cqZAp">
-          <node concept="37vLTI" id="6luz6qu8B2v" role="3clFbG">
-            <node concept="2OqwBi" id="6luz6qu8B2w" role="37vLTJ">
-              <node concept="Xjq3P" id="6luz6qu8B2x" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6luz6qu8B2y" role="2OqNvi">
-                <ref role="2Oxat5" node="6luz6qtFXt2" resolve="KEYED_DESCRIPTION_DOCUMENATION" />
+        <node concept="3cpWs6" id="4Ffa7sLdo4s" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLdo4t" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLdo4u" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLdobQ" role="37wK5m">
+                <ref role="3cqZAo" node="6luz6qu8B29" resolve="keydDescriptionDocumentation" />
               </node>
-            </node>
-            <node concept="2ShNRf" id="6luz6qu8B2z" role="37vLTx">
-              <node concept="1pGfFk" id="6luz6qu8B2$" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="6luz6qu8B2_" role="37wK5m">
-                  <ref role="3cqZAo" node="6luz6qu8B29" resolve="keydDescriptionDocumentation" />
+              <node concept="2OqwBi" id="4Ffa7sLdo4w" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLdobP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLdo4B" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="6luz6qu8B2A" role="37wK5m">
-                  <node concept="37vLTw" id="6luz6qu8B2B" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6luz6qu8B2C" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6luz6qtFyLU" resolve="getKeyedDescription_documentation" />
-                  </node>
+                <node concept="liA8E" id="4Ffa7sLdo4y" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6luz6qtFyLU" resolve="getKeyedDescription_documentation" />
                 </node>
-                <node concept="3uibUv" id="6luz6qu8B2D" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-                </node>
-                <node concept="3uibUv" id="6luz6qu8B2E" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
-                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLdo4z" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLdo4$" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6luz6qu6G3P" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLdHa0" role="jymVt">
+      <property role="TrG5h" value="populateKeyedDescriptionSeeAlso" />
+      <node concept="3Tmbuc" id="4Ffa7sLdHa1" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLdHa2" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLdHa3" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Reference" resolve="Reference" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLdHa4" role="11_B2D">
+          <ref role="3uigEE" to="y7p:6luz6qtF$lX" resolve="SmartReferenceStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLs91q" role="3clF46">
+        <property role="TrG5h" value="keyedDescription" />
+        <node concept="3uibUv" id="4Ffa7sLs91r" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLdH2K" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLdH2L" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLdH2$" role="3clF47">
         <node concept="3cpWs8" id="6luz6qu9JVk" role="3cqZAp">
           <node concept="3cpWsn" id="6luz6qu9JVl" role="3cpWs9">
             <property role="TrG5h" value="keydDescriptionSeeAlso" />
@@ -8143,7 +9225,7 @@
             <node concept="liA8E" id="6luz6qu9JVi" role="2OqNvi">
               <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
               <node concept="37vLTw" id="6luz6qu9JVj" role="37wK5m">
-                <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+                <ref role="3cqZAo" node="4Ffa7sLs91q" resolve="keyedDescription" />
               </node>
             </node>
           </node>
@@ -8151,7 +9233,7 @@
         <node concept="3clFbF" id="6luz6qu9JV7" role="3cqZAp">
           <node concept="2OqwBi" id="6luz6qu9JV8" role="3clFbG">
             <node concept="37vLTw" id="6luz6qu9JV9" role="2Oq$k0">
-              <ref role="3cqZAo" node="6luz6qu7YV0" resolve="keyedDescription" />
+              <ref role="3cqZAo" node="4Ffa7sLs91q" resolve="keyedDescription" />
             </node>
             <node concept="liA8E" id="6luz6qu9JVa" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -8161,65 +9243,57 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6luz6qu9JUU" role="3cqZAp">
-          <node concept="37vLTI" id="6luz6qu9JUV" role="3clFbG">
-            <node concept="2OqwBi" id="6luz6qu9JUW" role="37vLTJ">
-              <node concept="Xjq3P" id="6luz6qu9JUX" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6luz6qu9JUY" role="2OqNvi">
-                <ref role="2Oxat5" node="6luz6qtG3Kc" resolve="KEYED_DESCRIPTION_SEE_ALSO" />
+        <node concept="3cpWs6" id="4Ffa7sLdH2_" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLdH2A" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLdH2B" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLdH9V" role="37wK5m">
+                <ref role="3cqZAo" node="6luz6qu9JVl" resolve="keydDescriptionSeeAlso" />
               </node>
-            </node>
-            <node concept="2ShNRf" id="6luz6qu9JUZ" role="37vLTx">
-              <node concept="1pGfFk" id="6luz6qu9JV0" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="6luz6qu9JV1" role="37wK5m">
-                  <ref role="3cqZAo" node="6luz6qu9JVl" resolve="keydDescriptionSeeAlso" />
+              <node concept="2OqwBi" id="4Ffa7sLdH2D" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLdH9W" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLdH2K" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="6luz6qu9JV2" role="37wK5m">
-                  <node concept="37vLTw" id="6luz6qu9JV3" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6luz6qu9JV4" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6luz6qtFGpP" resolve="getKeyedDescription_seeAlso" />
-                  </node>
+                <node concept="liA8E" id="4Ffa7sLdH2F" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6luz6qtFGpP" resolve="getKeyedDescription_seeAlso" />
                 </node>
-                <node concept="3uibUv" id="6luz6qu9JV5" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Reference" resolve="Reference" />
-                </node>
-                <node concept="3uibUv" id="6luz6qu9JV6" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:6luz6qtF$lX" resolve="SmartReferenceStaple" />
-                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLdH2G" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Reference" resolve="Reference" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLdH2H" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:6luz6qtF$lX" resolve="SmartReferenceStaple" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6luz6qu9JUT" role="3cqZAp" />
-        <node concept="3cpWs8" id="6LPkCA$pK0Y" role="3cqZAp">
-          <node concept="3cpWsn" id="6LPkCA$pK0Z" role="3cpWs9">
-            <property role="TrG5h" value="deprecated" />
-            <node concept="3uibUv" id="6LPkCA$pI6Y" role="1tU5fm">
-              <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
-            </node>
-            <node concept="2ShNRf" id="6LPkCA$pK10" role="33vP2m">
-              <node concept="1pGfFk" id="6LPkCA$pK11" role="2ShVmc">
-                <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.language.Language,java.lang.String,java.lang.String,java.lang.String)" resolve="Annotation" />
-                <node concept="37vLTw" id="6LPkCA$pK12" role="37wK5m">
-                  <ref role="3cqZAo" node="7OJcYqypXxl" resolve="specificLanguage" />
-                </node>
-                <node concept="Xl_RD" id="6LPkCA$pK13" role="37wK5m">
-                  <property role="Xl_RC" value="Deprecated" />
-                </node>
-                <node concept="Xl_RD" id="6LPkCA$pK14" role="37wK5m">
-                  <property role="Xl_RC" value="Deprecated" />
-                </node>
-                <node concept="Xl_RD" id="6LPkCA$pK15" role="37wK5m">
-                  <property role="Xl_RC" value="Deprecated" />
-                </node>
-              </node>
-            </node>
-          </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLe2MX" role="jymVt">
+      <property role="TrG5h" value="populateDeprecatedComment" />
+      <node concept="3Tmbuc" id="4Ffa7sLe2MY" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLe2MZ" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLe2N0" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
         </node>
-        <node concept="3clFbH" id="6LPkCA$pPIL" role="3cqZAp" />
+        <node concept="3uibUv" id="4Ffa7sLe2N1" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLu5t$" role="3clF46">
+        <property role="TrG5h" value="deprecated" />
+        <node concept="3uibUv" id="4Ffa7sLu5tA" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLe2FE" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLe2FF" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLe2Fu" role="3clF47">
         <node concept="3cpWs8" id="6LPkCA$qVQG" role="3cqZAp">
           <node concept="3cpWsn" id="6LPkCA$qVQH" role="3cpWs9">
             <property role="TrG5h" value="deprecatedComment" />
@@ -8262,7 +9336,7 @@
             <node concept="liA8E" id="6LPkCA$qIaa" role="2OqNvi">
               <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
               <node concept="37vLTw" id="6LPkCA$qLIM" role="37wK5m">
-                <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+                <ref role="3cqZAo" node="4Ffa7sLu5t$" resolve="deprecated" />
               </node>
             </node>
           </node>
@@ -8270,7 +9344,7 @@
         <node concept="3clFbF" id="6LPkCA$p9a_" role="3cqZAp">
           <node concept="2OqwBi" id="6LPkCA$qPE5" role="3clFbG">
             <node concept="37vLTw" id="6LPkCA$pK16" role="2Oq$k0">
-              <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+              <ref role="3cqZAo" node="4Ffa7sLu5t$" resolve="deprecated" />
             </node>
             <node concept="liA8E" id="6LPkCA$qSKA" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -8280,39 +9354,57 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6LPkCA$D4JA" role="3cqZAp">
-          <node concept="37vLTI" id="6LPkCA$D4JB" role="3clFbG">
-            <node concept="2OqwBi" id="6LPkCA$D4JC" role="37vLTJ">
-              <node concept="Xjq3P" id="6LPkCA$D4JD" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6LPkCA$D4JE" role="2OqNvi">
-                <ref role="2Oxat5" node="6LPkCA$Cfbk" resolve="DEPRECATED_COMMENT" />
+        <node concept="3cpWs6" id="4Ffa7sLe2Fv" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLe2Fw" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLe2Fx" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLe2MT" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA$qVQH" resolve="deprecatedComment" />
               </node>
-            </node>
-            <node concept="2ShNRf" id="6LPkCA$D4JF" role="37vLTx">
-              <node concept="1pGfFk" id="6LPkCA$D4JG" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="6LPkCA$D4JH" role="37wK5m">
-                  <ref role="3cqZAo" node="6LPkCA$qVQH" resolve="deprecatedComment" />
+              <node concept="2OqwBi" id="4Ffa7sLe2Fz" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLe2MS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLe2FE" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="6LPkCA$D4JI" role="37wK5m">
-                  <node concept="37vLTw" id="6LPkCA$D4JJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6LPkCA$D4JK" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6LPkCA$_zmH" resolve="getDeprecated_comment" />
-                  </node>
+                <node concept="liA8E" id="4Ffa7sLe2F_" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6LPkCA$_zmH" resolve="getDeprecated_comment" />
                 </node>
-                <node concept="3uibUv" id="6LPkCA$D4JL" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-                </node>
-                <node concept="3uibUv" id="6LPkCA$D4JM" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
-                </node>
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLe2FA" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLe2FB" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6LPkCA$r8fT" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLeIzD" role="jymVt">
+      <property role="TrG5h" value="populateDeprecatedBuild" />
+      <node concept="3Tmbuc" id="4Ffa7sLeIzE" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLeIzF" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLeIzG" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
+        </node>
+        <node concept="3uibUv" id="4Ffa7sLeIzH" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLvy6e" role="3clF46">
+        <property role="TrG5h" value="deprecated" />
+        <node concept="3uibUv" id="4Ffa7sLvy6f" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLeIsm" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="4Ffa7sLeIsn" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLeIsa" role="3clF47">
         <node concept="3cpWs8" id="6LPkCA$r8fK" role="3cqZAp">
           <node concept="3cpWsn" id="6LPkCA$r8fL" role="3cpWs9">
             <property role="TrG5h" value="deprecatedBuild" />
@@ -8355,7 +9447,7 @@
             <node concept="liA8E" id="6LPkCA$r8fI" role="2OqNvi">
               <ref role="37wK5l" to="dhtv:~M3Node.setParent(io.lionweb.model.ClassifierInstance)" resolve="setParent" />
               <node concept="37vLTw" id="6LPkCA$r8fJ" role="37wK5m">
-                <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+                <ref role="3cqZAo" node="4Ffa7sLvy6e" resolve="deprecated" />
               </node>
             </node>
           </node>
@@ -8363,7 +9455,7 @@
         <node concept="3clFbF" id="6LPkCA$r8fz" role="3cqZAp">
           <node concept="2OqwBi" id="6LPkCA$r8f$" role="3clFbG">
             <node concept="37vLTw" id="6LPkCA$r8f_" role="2Oq$k0">
-              <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
+              <ref role="3cqZAo" node="4Ffa7sLvy6e" resolve="deprecated" />
             </node>
             <node concept="liA8E" id="6LPkCA$r8fA" role="2OqNvi">
               <ref role="37wK5l" to="2qhi:~Classifier.addFeature(io.lionweb.language.Feature)" resolve="addFeature" />
@@ -8373,88 +9465,80 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6LPkCA$DjrM" role="3cqZAp">
-          <node concept="37vLTI" id="6LPkCA$DjrN" role="3clFbG">
-            <node concept="2OqwBi" id="6LPkCA$DjrO" role="37vLTJ">
-              <node concept="Xjq3P" id="6LPkCA$DjrP" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6LPkCA$DjrQ" role="2OqNvi">
-                <ref role="2Oxat5" node="6LPkCA$CnAu" resolve="DEPRECATED_BUILD" />
+        <node concept="3cpWs6" id="4Ffa7sLeIsb" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLeIsc" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLeIsd" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="37vLTw" id="4Ffa7sLeIz_" role="37wK5m">
+                <ref role="3cqZAo" node="6LPkCA$r8fL" resolve="deprecatedBuild" />
               </node>
-            </node>
-            <node concept="2ShNRf" id="6LPkCA$DjrR" role="37vLTx">
-              <node concept="1pGfFk" id="6LPkCA$DjrS" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="37vLTw" id="6LPkCA$DjrT" role="37wK5m">
-                  <ref role="3cqZAo" node="6LPkCA$r8fL" resolve="deprecatedBuild" />
+              <node concept="2OqwBi" id="4Ffa7sLeIsf" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLeIz$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLeIsm" resolve="constants" />
                 </node>
-                <node concept="2OqwBi" id="6LPkCA$DjrU" role="37wK5m">
-                  <node concept="37vLTw" id="6LPkCA$DjrV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6LPkCA$DjrW" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6LPkCA$_AgU" resolve="getDeprecated_build" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="6LPkCA$DjrX" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
-                </node>
-                <node concept="3uibUv" id="6LPkCA$DjrY" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
+                <node concept="liA8E" id="4Ffa7sLeIsh" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6LPkCA$_AgU" resolve="getDeprecated_build" />
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6LPkCA$rtAQ" role="3cqZAp" />
-        <node concept="3clFbF" id="6LPkCA$rx4b" role="3cqZAp">
-          <node concept="37vLTI" id="6LPkCA$rCPS" role="3clFbG">
-            <node concept="2ShNRf" id="6LPkCA$rGs9" role="37vLTx">
-              <node concept="1pGfFk" id="6LPkCA$rGrX" role="2ShVmc">
-                <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
-                <node concept="3uibUv" id="6LPkCA$rGrY" role="1pMfVU">
-                  <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
-                </node>
-                <node concept="3uibUv" id="6LPkCA$rGrZ" role="1pMfVU">
-                  <ref role="3uigEE" to="y7p:7OJcYqwqLm4" resolve="AnnotationConceptStaple" />
-                </node>
-                <node concept="37vLTw" id="6LPkCA$rJZ7" role="37wK5m">
-                  <ref role="3cqZAo" node="6LPkCA$pK0Z" resolve="deprecated" />
-                </node>
-                <node concept="2OqwBi" id="6LPkCA$rS3P" role="37wK5m">
-                  <node concept="37vLTw" id="6LPkCA$rQuj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7OJcYqxWqYT" resolve="constants" />
-                  </node>
-                  <node concept="liA8E" id="6LPkCA$rVKO" role="2OqNvi">
-                    <ref role="37wK5l" to="y7p:6LPkCA$4Crf" resolve="getDeprecated" />
-                  </node>
-                </node>
+              <node concept="3uibUv" id="4Ffa7sLeIsi" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Property" resolve="Property" />
               </node>
-            </node>
-            <node concept="2OqwBi" id="6LPkCA$ryC9" role="37vLTJ">
-              <node concept="Xjq3P" id="6LPkCA$rx49" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6LPkCA$rA5v" role="2OqNvi">
-                <ref role="2Oxat5" node="6LPkCA$oXGi" resolve="DEPRECATED" />
+              <node concept="3uibUv" id="4Ffa7sLeIsj" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqvRt75" resolve="PropertyStaple" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="37vLTG" id="7weWCFlwAZa" role="3clF46">
-        <property role="TrG5h" value="m3" />
-        <node concept="3uibUv" id="7weWCFlwC9l" role="1tU5fm">
-          <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
+    </node>
+    <node concept="3clFb_" id="4Ffa7sLf3yK" role="jymVt">
+      <property role="TrG5h" value="populateDeprecated" />
+      <node concept="3Tmbuc" id="4Ffa7sLf3yL" role="1B3o_S" />
+      <node concept="3uibUv" id="4Ffa7sLf3yM" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="4Ffa7sLf3yN" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
         </node>
-        <node concept="2AHcQZ" id="7weWCFlwCka" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        <node concept="3uibUv" id="4Ffa7sLf3yO" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqwqLm4" resolve="AnnotationConceptStaple" />
         </node>
       </node>
-      <node concept="37vLTG" id="7OJcYqxWqYT" role="3clF46">
+      <node concept="37vLTG" id="4Ffa7sLf3rw" role="3clF46">
+        <property role="TrG5h" value="deprecated" />
+        <node concept="3uibUv" id="4Ffa7sLf3rx" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4Ffa7sLf3ry" role="3clF46">
         <property role="TrG5h" value="constants" />
-        <node concept="3uibUv" id="7OJcYqxWqYU" role="1tU5fm">
+        <node concept="3uibUv" id="4Ffa7sLf3rz" role="1tU5fm">
           <ref role="3uigEE" to="y7p:5JNiskhxHcX" resolve="ILionCoreConstants" />
         </node>
-        <node concept="2AHcQZ" id="7OJcYqxWqYV" role="2AJF6D">
-          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLf3rm" role="3clF47">
+        <node concept="3cpWs6" id="4Ffa7sLf3rn" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLf3ro" role="3cqZAk">
+            <node concept="1pGfFk" id="4Ffa7sLf3rp" role="2ShVmc">
+              <ref role="37wK5l" node="7OJcYqxTQa5" resolve="JsonStaple" />
+              <node concept="3uibUv" id="4Ffa7sLf3rq" role="1pMfVU">
+                <ref role="3uigEE" to="2qhi:~Annotation" resolve="Annotation" />
+              </node>
+              <node concept="3uibUv" id="4Ffa7sLf3rr" role="1pMfVU">
+                <ref role="3uigEE" to="y7p:7OJcYqwqLm4" resolve="AnnotationConceptStaple" />
+              </node>
+              <node concept="37vLTw" id="4Ffa7sLf3yF" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sLf3rw" resolve="deprecated" />
+              </node>
+              <node concept="2OqwBi" id="4Ffa7sLf3rt" role="37wK5m">
+                <node concept="37vLTw" id="4Ffa7sLf3yG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Ffa7sLf3ry" resolve="constants" />
+                </node>
+                <node concept="liA8E" id="4Ffa7sLf3rv" role="2OqNvi">
+                  <ref role="37wK5l" to="y7p:6LPkCA$4Crf" resolve="getDeprecated" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -9382,8 +10466,8 @@
     <property role="3GE5qa" value="lionCoreAdapter" />
     <property role="TrG5h" value="LionCoreAdapter" />
     <node concept="3Tm1VV" id="7weWCFlyxlF" role="1B3o_S" />
-    <node concept="3uibUv" id="7weWCFlyxmq" role="1zkMxy">
-      <ref role="3uigEE" node="7weWCFlyeHs" resolve="LionCoreAdapter_2023_1" />
+    <node concept="3uibUv" id="1_rLWsxBs9R" role="1zkMxy">
+      <ref role="3uigEE" node="1_rLWsweN6N" resolve="LionCoreAdapter_2024_1" />
     </node>
     <node concept="3uibUv" id="7weWCFlyxmW" role="EKbjA">
       <ref role="3uigEE" node="7weWCFlywjb" resolve="ILionCoreAdapter" />
@@ -9402,7 +10486,7 @@
       </node>
       <node concept="3clFbS" id="1KsTggJeQlb" role="3clF47">
         <node concept="XkiVB" id="1KsTggJeQlc" role="3cqZAp">
-          <ref role="37wK5l" node="1KsTggJeqz5" resolve="LionCoreAdapter_2023_1" />
+          <ref role="37wK5l" node="1_rLWsweN6T" resolve="LionCoreAdapter_2024_1" />
           <node concept="37vLTw" id="1KsTggJeQld" role="37wK5m">
             <ref role="3cqZAo" node="1KsTggJeQl9" resolve="lionwebversion" />
           </node>
@@ -9429,7 +10513,7 @@
               <ref role="37wK5l" to="pxq1:~LionCore.getInstance(io.lionweb.LionWebVersion)" resolve="getInstance" />
               <node concept="2OqwBi" id="1KsTggJeWvE" role="37wK5m">
                 <node concept="37vLTw" id="1KsTggJeWng" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                  <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
                 </node>
                 <node concept="liA8E" id="1KsTggJeWQt" role="2OqNvi">
                   <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9457,8 +10541,8 @@
     </node>
     <node concept="2tJIrI" id="pwT61f_CqS" role="jymVt" />
     <node concept="3Tm1VV" id="7weWCFlywjc" role="1B3o_S" />
-    <node concept="3uibUv" id="7weWCFlywjL" role="3HQHJm">
-      <ref role="3uigEE" node="7weWCFlyclH" resolve="ILionCoreAdapter_2023_1" />
+    <node concept="3uibUv" id="1_rLWsweL8c" role="3HQHJm">
+      <ref role="3uigEE" node="1_rLWsweHLo" resolve="ILionCoreAdapter_2024_1" />
     </node>
   </node>
   <node concept="312cEu" id="7weWCFlyeHs">
@@ -9469,9 +10553,9 @@
       <ref role="3uigEE" node="7weWCFlyclH" resolve="ILionCoreAdapter_2023_1" />
     </node>
     <node concept="312cEg" id="1KsTggJera4" role="jymVt">
-      <property role="TrG5h" value="lionwebversion" />
+      <property role="TrG5h" value="lionWebVersion" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tmbuc" id="1KsTggJeVRT" role="1B3o_S" />
+      <node concept="3Tmbuc" id="1_rLWswfBn9" role="1B3o_S" />
       <node concept="3uibUv" id="1KsTggJera7" role="1tU5fm">
         <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
       </node>
@@ -9485,17 +10569,17 @@
             <node concept="2OqwBi" id="1KsTggJerYI" role="37vLTJ">
               <node concept="Xjq3P" id="1KsTggJesck" role="2Oq$k0" />
               <node concept="2OwXpG" id="1KsTggJerYL" role="2OqNvi">
-                <ref role="2Oxat5" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="2Oxat5" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
             </node>
             <node concept="37vLTw" id="1KsTggJerae" role="37vLTx">
-              <ref role="3cqZAo" node="1KsTggJeqTM" resolve="lionwebversion" />
+              <ref role="3cqZAo" node="1KsTggJeqTM" resolve="lionWebVersion" />
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="1KsTggJeqTM" role="3clF46">
-        <property role="TrG5h" value="lionwebversion" />
+        <property role="TrG5h" value="lionWebVersion" />
         <node concept="3uibUv" id="1KsTggJeqTL" role="1tU5fm">
           <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
         </node>
@@ -9517,7 +10601,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getAnnotation(io.lionweb.LionWebVersion)" resolve="getAnnotation" />
             <node concept="2OqwBi" id="1KsTggJeuMM" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeuph" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJevq2" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9543,7 +10627,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getConcept(io.lionweb.LionWebVersion)" resolve="getConcept" />
             <node concept="2OqwBi" id="1KsTggJeGyl" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeGym" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeGyn" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9569,7 +10653,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getInterface(io.lionweb.LionWebVersion)" resolve="getInterface" />
             <node concept="2OqwBi" id="1KsTggJeHjI" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeHjJ" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeHjK" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9595,7 +10679,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getContainment(io.lionweb.LionWebVersion)" resolve="getContainment" />
             <node concept="2OqwBi" id="1KsTggJeHWq" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeHWr" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeHWs" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9621,7 +10705,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getDataType(io.lionweb.LionWebVersion)" resolve="getDataType" />
             <node concept="2OqwBi" id="1KsTggJeI_t" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeI_u" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeI_v" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9647,7 +10731,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getEnumeration(io.lionweb.LionWebVersion)" resolve="getEnumeration" />
             <node concept="2OqwBi" id="1KsTggJeJeR" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeJeS" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeJeT" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9673,7 +10757,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getEnumerationLiteral(io.lionweb.LionWebVersion)" resolve="getEnumerationLiteral" />
             <node concept="2OqwBi" id="1KsTggJeJSC" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeJSD" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeJSE" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9699,7 +10783,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getFeature(io.lionweb.LionWebVersion)" resolve="getFeature" />
             <node concept="2OqwBi" id="1KsTggJeKBB" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeKBC" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeKBD" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9725,7 +10809,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getClassifier(io.lionweb.LionWebVersion)" resolve="getClassifier" />
             <node concept="2OqwBi" id="1KsTggJeLi6" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeLi7" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeLi8" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9751,7 +10835,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getLink(io.lionweb.LionWebVersion)" resolve="getLink" />
             <node concept="2OqwBi" id="1KsTggJeLWW" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeLWX" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeLWY" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9777,7 +10861,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getLanguage(io.lionweb.LionWebVersion)" resolve="getLanguage" />
             <node concept="2OqwBi" id="1KsTggJeMC9" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeMCa" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeMCb" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9803,7 +10887,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getLanguageEntity(io.lionweb.LionWebVersion)" resolve="getLanguageEntity" />
             <node concept="2OqwBi" id="1KsTggJeNo$" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeNo_" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeNoA" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9829,7 +10913,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getPrimitiveType(io.lionweb.LionWebVersion)" resolve="getPrimitiveType" />
             <node concept="2OqwBi" id="1KsTggJeO4v" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeO4w" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeO4x" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9855,7 +10939,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getProperty(io.lionweb.LionWebVersion)" resolve="getProperty" />
             <node concept="2OqwBi" id="1KsTggJeOKL" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJeOKM" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJeOKN" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -9881,7 +10965,7 @@
             <ref role="37wK5l" to="pxq1:~LionCore.getReference(io.lionweb.LionWebVersion)" resolve="getReference" />
             <node concept="2OqwBi" id="1KsTggJePtq" role="37wK5m">
               <node concept="37vLTw" id="1KsTggJePtr" role="2Oq$k0">
-                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionwebversion" />
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
               </node>
               <node concept="liA8E" id="1KsTggJePts" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10211,6 +11295,20 @@
               </node>
             </node>
           </node>
+          <node concept="3KbdKl" id="1_rLWsweLTR" role="3KbHQx">
+            <node concept="Xl_RD" id="1_rLWsweLTS" role="3Kbmr1">
+              <property role="Xl_RC" value="2024.1" />
+            </node>
+            <node concept="3clFbS" id="1_rLWsweLTT" role="3Kbo56">
+              <node concept="3cpWs6" id="1_rLWsweLTU" role="3cqZAp">
+                <node concept="2ShNRf" id="1_rLWsweLTV" role="3cqZAk">
+                  <node concept="HV5vD" id="1_rLWsweLTW" role="2ShVmc">
+                    <ref role="HV5vE" node="1_rLWsweH9e" resolve="LionWebVersionAdapter_2024_1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbS" id="pwT61f_DRN" role="3Kb1Dw">
             <node concept="YS8fn" id="pwT61f_DSC" role="3cqZAp">
               <node concept="2ShNRf" id="pwT61f_DTs" role="YScLw">
@@ -10231,14 +11329,12 @@
       </node>
       <node concept="37vLTG" id="pwT61f_CsZ" role="3clF46">
         <property role="TrG5h" value="lionwebVersion" />
-        <node concept="3uibUv" id="pwT61f_CsY" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweG_T" role="1tU5fm" />
       </node>
     </node>
     <node concept="3Tm1VV" id="1KsTggJdySF" role="1B3o_S" />
-    <node concept="3uibUv" id="1KsTggJdRUi" role="3HQHJm">
-      <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+    <node concept="3uibUv" id="1_rLWsweLKI" role="3HQHJm">
+      <ref role="3uigEE" node="1_rLWsweLqF" resolve="ILionWebVersionAdapter_2024_1" />
     </node>
   </node>
   <node concept="312cEu" id="1KsTggJdZdW">
@@ -10331,7 +11427,7 @@
       <node concept="3Tm1VV" id="pwT61f_EKC" role="1B3o_S" />
       <node concept="3clFbS" id="pwT61f_EKD" role="3clF47">
         <node concept="XkiVB" id="pwT61f_ETi" role="3cqZAp">
-          <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+          <ref role="37wK5l" node="A9P4gGMFZd" resolve="ALionwebJsonException" />
           <node concept="3cpWs3" id="pwT61f_FpV" role="37wK5m">
             <node concept="37vLTw" id="pwT61f_Frr" role="3uHU7w">
               <ref role="3cqZAo" node="pwT61f_ELr" resolve="givenVersion" />
@@ -10344,14 +11440,29 @@
       </node>
       <node concept="37vLTG" id="pwT61f_ELr" role="3clF46">
         <property role="TrG5h" value="givenVersion" />
-        <node concept="3uibUv" id="pwT61f_ELq" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsxBy9b" role="1tU5fm" />
       </node>
     </node>
+    <node concept="2tJIrI" id="1_rLWsxBA6S" role="jymVt" />
     <node concept="3Tm1VV" id="pwT61f_E9m" role="1B3o_S" />
-    <node concept="3uibUv" id="pwT61f_EGL" role="1zkMxy">
-      <ref role="3uigEE" to="wyt6:~IllegalArgumentException" resolve="IllegalArgumentException" />
+    <node concept="3uibUv" id="1_rLWsxB$8z" role="1zkMxy">
+      <ref role="3uigEE" node="A9P4gGMFSK" resolve="ALionwebJsonException" />
+    </node>
+    <node concept="3clFb_" id="1_rLWsxB$Va" role="jymVt">
+      <property role="TrG5h" value="getId" />
+      <node concept="3Tm1VV" id="1_rLWsxB$Vc" role="1B3o_S" />
+      <node concept="17QB3L" id="1_rLWsxB$Vd" role="3clF45" />
+      <node concept="2AHcQZ" id="1_rLWsxB$Ve" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="1_rLWsxB$Vf" role="3clF47">
+        <node concept="3clFbF" id="1_rLWsxB_Wm" role="3cqZAp">
+          <node concept="10Nm6u" id="1_rLWsxB_Wj" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsxB$Vg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
   <node concept="3HP615" id="4ZQFfbQ3wYF">
@@ -10366,18 +11477,14 @@
       </node>
       <node concept="37vLTG" id="4ZQFfbQ84C_" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ84C$" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweFfv" role="1tU5fm" />
       </node>
     </node>
     <node concept="3clFb_" id="4ZQFfbQ3RZT" role="jymVt">
       <property role="TrG5h" value="createConcept" />
       <node concept="37vLTG" id="4ZQFfbQ87pe" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ87pf" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweFni" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ3RZW" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ3RZX" role="1B3o_S" />
@@ -10389,9 +11496,7 @@
       <property role="TrG5h" value="createInterface" />
       <node concept="37vLTG" id="4ZQFfbQ8a9A" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8a9B" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweFvk" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4$b9" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4$ba" role="1B3o_S" />
@@ -10403,9 +11508,7 @@
       <property role="TrG5h" value="createAnnotation" />
       <node concept="37vLTG" id="4ZQFfbQ8cTY" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8cTZ" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweF_g" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4wpK" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4wpL" role="1B3o_S" />
@@ -10417,9 +11520,7 @@
       <property role="TrG5h" value="createPrimitiveType" />
       <node concept="37vLTG" id="4ZQFfbQ8fEm" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8fEn" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweFFs" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4A6A" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4A6B" role="1B3o_S" />
@@ -10431,9 +11532,7 @@
       <property role="TrG5h" value="createEnumeration" />
       <node concept="37vLTG" id="4ZQFfbQ8iu3" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8iu4" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweFLS" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4AvU" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4AvV" role="1B3o_S" />
@@ -10445,9 +11544,7 @@
       <property role="TrG5h" value="createEnumerationLiteral" />
       <node concept="37vLTG" id="4ZQFfbQ8ler" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8les" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweFUU" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4B0h" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4B0i" role="1B3o_S" />
@@ -10459,9 +11556,7 @@
       <property role="TrG5h" value="createReference" />
       <node concept="37vLTG" id="4ZQFfbQ8nYN" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8nYO" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweG1Q" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4CEE" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4CEF" role="1B3o_S" />
@@ -10473,9 +11568,7 @@
       <property role="TrG5h" value="createContainment" />
       <node concept="37vLTG" id="4ZQFfbQ8qJb" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8qJc" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweG92" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4Fus" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4Fut" role="1B3o_S" />
@@ -10487,9 +11580,7 @@
       <property role="TrG5h" value="createProperty" />
       <node concept="37vLTG" id="4ZQFfbQ8tvz" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8tv$" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="1_rLWsweGgu" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ4Jg2" role="3clF47" />
       <node concept="3Tm1VV" id="4ZQFfbQ4Jg3" role="1B3o_S" />
@@ -10516,17 +11607,17 @@
     <property role="TrG5h" value="ILionCoreFactory" />
     <node concept="2tJIrI" id="4ZQFfbQ8A9x" role="jymVt" />
     <node concept="3Tm1VV" id="4ZQFfbQ8_Xi" role="1B3o_S" />
-    <node concept="3uibUv" id="4ZQFfbQ8Ake" role="3HQHJm">
-      <ref role="3uigEE" node="4ZQFfbQ3wYF" resolve="ILionCoreFactory_2023_1" />
+    <node concept="3uibUv" id="1_rLWsweL0B" role="3HQHJm">
+      <ref role="3uigEE" node="1_rLWsweIed" resolve="ILionCoreFactory_2024_1" />
     </node>
   </node>
   <node concept="312cEu" id="4ZQFfbQ8AuI">
     <property role="3GE5qa" value="lionCoreAdapter" />
     <property role="TrG5h" value="LionCoreFactory_2023_1" />
     <node concept="312cEg" id="4ZQFfbQ8Jan" role="jymVt">
-      <property role="TrG5h" value="lionwebversion" />
+      <property role="TrG5h" value="lionWebVersion" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tmbuc" id="4ZQFfbQ8Jao" role="1B3o_S" />
+      <node concept="3Tmbuc" id="1_rLWswfsWq" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8Jap" role="1tU5fm">
         <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
       </node>
@@ -10540,17 +11631,17 @@
             <node concept="2OqwBi" id="4ZQFfbQ8Jaw" role="37vLTJ">
               <node concept="Xjq3P" id="4ZQFfbQ8Jax" role="2Oq$k0" />
               <node concept="2OwXpG" id="4ZQFfbQ8Jay" role="2OqNvi">
-                <ref role="2Oxat5" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                <ref role="2Oxat5" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
               </node>
             </node>
             <node concept="37vLTw" id="4ZQFfbQ8Jaz" role="37vLTx">
-              <ref role="3cqZAo" node="4ZQFfbQ8Ja$" resolve="lionwebversion" />
+              <ref role="3cqZAo" node="4ZQFfbQ8Ja$" resolve="lionWebVersion" />
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="4ZQFfbQ8Ja$" role="3clF46">
-        <property role="TrG5h" value="lionwebversion" />
+        <property role="TrG5h" value="lionWebVersion" />
         <node concept="3uibUv" id="4ZQFfbQ8Ja_" role="1tU5fm">
           <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
         </node>
@@ -10574,9 +11665,7 @@
       </node>
       <node concept="37vLTG" id="4ZQFfbQ8HOJ" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HOK" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFzc8" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4ZQFfbQ8HOL" role="3clF47">
         <node concept="3cpWs6" id="4ZQFfbQ8HOO" role="3cqZAp">
@@ -10585,7 +11674,7 @@
               <ref role="37wK5l" to="2qhi:~Language.&lt;init&gt;(io.lionweb.LionWebVersion,java.lang.String)" resolve="Language" />
               <node concept="2OqwBi" id="4ZQFfbQ8PQR" role="37wK5m">
                 <node concept="37vLTw" id="4ZQFfbQ8P_z" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                 </node>
                 <node concept="liA8E" id="4ZQFfbQ8Q8b" role="2OqNvi">
                   <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10606,9 +11695,7 @@
       <property role="TrG5h" value="createConcept" />
       <node concept="37vLTG" id="4ZQFfbQ8HOQ" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HOR" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLF$3_" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HOT" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HOU" role="3clF45">
@@ -10621,7 +11708,7 @@
               <ref role="37wK5l" to="2qhi:~Concept.&lt;init&gt;(io.lionweb.LionWebVersion,java.lang.String)" resolve="Concept" />
               <node concept="2OqwBi" id="4ZQFfbQ8TIf" role="37wK5m">
                 <node concept="37vLTw" id="4ZQFfbQ8TIg" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                 </node>
                 <node concept="liA8E" id="4ZQFfbQ8TIh" role="2OqNvi">
                   <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10642,9 +11729,7 @@
       <property role="TrG5h" value="createInterface" />
       <node concept="37vLTG" id="4ZQFfbQ8HP0" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HP1" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLF$SK" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HP3" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HP4" role="3clF45">
@@ -10657,7 +11742,7 @@
               <ref role="37wK5l" to="2qhi:~Interface.&lt;init&gt;(io.lionweb.LionWebVersion,java.lang.String)" resolve="Interface" />
               <node concept="2OqwBi" id="4ZQFfbQ8UqJ" role="37wK5m">
                 <node concept="37vLTw" id="4ZQFfbQ8UqK" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                 </node>
                 <node concept="liA8E" id="4ZQFfbQ8UqL" role="2OqNvi">
                   <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10678,9 +11763,7 @@
       <property role="TrG5h" value="createAnnotation" />
       <node concept="37vLTG" id="4ZQFfbQ8HPa" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HPb" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLF_Ik" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HPd" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HPe" role="3clF45">
@@ -10698,7 +11781,7 @@
                 <ref role="37wK5l" to="2qhi:~Annotation.&lt;init&gt;(io.lionweb.LionWebVersion)" resolve="Annotation" />
                 <node concept="2OqwBi" id="4ZQFfbQ9bo7" role="37wK5m">
                   <node concept="37vLTw" id="4ZQFfbQ9bo8" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                   </node>
                   <node concept="liA8E" id="4ZQFfbQ9bo9" role="2OqNvi">
                     <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10735,9 +11818,7 @@
       <property role="TrG5h" value="createPrimitiveType" />
       <node concept="37vLTG" id="4ZQFfbQ8HPk" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HPl" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFA$h" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HPn" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HPo" role="3clF45">
@@ -10755,7 +11836,7 @@
                 <ref role="37wK5l" to="2qhi:~PrimitiveType.&lt;init&gt;(io.lionweb.LionWebVersion,java.lang.String)" resolve="PrimitiveType" />
                 <node concept="2OqwBi" id="4ZQFfbQ9mhF" role="37wK5m">
                   <node concept="37vLTw" id="4ZQFfbQ9mhG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                   </node>
                   <node concept="liA8E" id="4ZQFfbQ9mhH" role="2OqNvi">
                     <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10795,9 +11876,7 @@
       <property role="TrG5h" value="createEnumeration" />
       <node concept="37vLTG" id="4ZQFfbQ8HPu" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HPv" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFBqB" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HPx" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HPy" role="3clF45">
@@ -10815,7 +11894,7 @@
                 <ref role="37wK5l" to="2qhi:~Enumeration.&lt;init&gt;(io.lionweb.LionWebVersion)" resolve="Enumeration" />
                 <node concept="2OqwBi" id="4ZQFfbQ9zQb" role="37wK5m">
                   <node concept="37vLTw" id="4ZQFfbQ9zQc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                   </node>
                   <node concept="liA8E" id="4ZQFfbQ9zQd" role="2OqNvi">
                     <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10852,9 +11931,7 @@
       <property role="TrG5h" value="createEnumerationLiteral" />
       <node concept="37vLTG" id="4ZQFfbQ8HPC" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HPD" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFChm" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HPF" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HPG" role="3clF45">
@@ -10872,7 +11949,7 @@
                 <ref role="37wK5l" to="2qhi:~EnumerationLiteral.&lt;init&gt;(io.lionweb.LionWebVersion)" resolve="EnumerationLiteral" />
                 <node concept="2OqwBi" id="4ZQFfbQ96zw" role="37wK5m">
                   <node concept="37vLTw" id="4ZQFfbQ96zx" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                   </node>
                   <node concept="liA8E" id="4ZQFfbQ96zy" role="2OqNvi">
                     <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10909,9 +11986,7 @@
       <property role="TrG5h" value="createReference" />
       <node concept="37vLTG" id="4ZQFfbQ8HPM" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HPN" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFD8u" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HPP" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HPQ" role="3clF45">
@@ -10924,7 +11999,7 @@
               <ref role="37wK5l" to="2qhi:~Reference.&lt;init&gt;(io.lionweb.LionWebVersion,java.lang.String)" resolve="Reference" />
               <node concept="2OqwBi" id="4ZQFfbQ92jV" role="37wK5m">
                 <node concept="37vLTw" id="4ZQFfbQ92jW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                 </node>
                 <node concept="liA8E" id="4ZQFfbQ92jX" role="2OqNvi">
                   <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10945,9 +12020,7 @@
       <property role="TrG5h" value="createContainment" />
       <node concept="37vLTG" id="4ZQFfbQ8HPW" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HPX" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFDZZ" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HPZ" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HQ0" role="3clF45">
@@ -10960,7 +12033,7 @@
               <ref role="37wK5l" to="2qhi:~Containment.&lt;init&gt;(io.lionweb.LionWebVersion,java.lang.String)" resolve="Containment" />
               <node concept="2OqwBi" id="4ZQFfbQ8Y6H" role="37wK5m">
                 <node concept="37vLTw" id="4ZQFfbQ8Y6I" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                  <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                 </node>
                 <node concept="liA8E" id="4ZQFfbQ8Y6J" role="2OqNvi">
                   <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -10981,9 +12054,7 @@
       <property role="TrG5h" value="createProperty" />
       <node concept="37vLTG" id="4ZQFfbQ8HQ6" role="3clF46">
         <property role="TrG5h" value="name" />
-        <node concept="3uibUv" id="4ZQFfbQ8HQ7" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="4Ffa7sLFEU$" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="4ZQFfbQ8HQ9" role="1B3o_S" />
       <node concept="3uibUv" id="4ZQFfbQ8HQa" role="3clF45">
@@ -11001,7 +12072,7 @@
                 <ref role="37wK5l" to="2qhi:~Property.&lt;init&gt;(io.lionweb.LionWebVersion)" resolve="Property" />
                 <node concept="2OqwBi" id="4ZQFfbQ9h4_" role="37wK5m">
                   <node concept="37vLTw" id="4ZQFfbQ9h4A" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                    <ref role="3cqZAo" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                   </node>
                   <node concept="liA8E" id="4ZQFfbQ9h4B" role="2OqNvi">
                     <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
@@ -11051,7 +12122,7 @@
               <node concept="2OqwBi" id="5l7iVieANMN" role="2Oq$k0">
                 <node concept="Xjq3P" id="5l7iVieANbp" role="2Oq$k0" />
                 <node concept="2OwXpG" id="5l7iVieAOpG" role="2OqNvi">
-                  <ref role="2Oxat5" node="4ZQFfbQ8Jan" resolve="lionwebversion" />
+                  <ref role="2Oxat5" node="4ZQFfbQ8Jan" resolve="lionWebVersion" />
                 </node>
               </node>
               <node concept="liA8E" id="5l7iVieAPD8" role="2OqNvi">
@@ -11063,7 +12134,7 @@
                 <ref role="3cqZAo" node="5l7iVieAHSm" resolve="lionwebVersion" />
               </node>
               <node concept="liA8E" id="5l7iVieALNC" role="2OqNvi">
-                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+                <ref role="37wK5l" node="1_rLWsweLqG" resolve="getVersion" />
               </node>
             </node>
           </node>
@@ -11073,13 +12144,67 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="1_rLWsxBtSb" role="jymVt">
+      <property role="TrG5h" value="createStructuredDataType" />
+      <node concept="3Tm1VV" id="1_rLWsxBtSd" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsxBtSe" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+      </node>
+      <node concept="37vLTG" id="1_rLWsxBtSf" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1_rLWsxBtSg" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1_rLWsxBtSi" role="3clF47">
+        <node concept="YS8fn" id="1_rLWsxBveu" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsxBw6q" role="YScLw">
+            <node concept="1pGfFk" id="1_rLWsxBEbR" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" node="1_rLWsxBBid" resolve="UnsupportedCapabilityException" />
+              <node concept="Xl_RD" id="1_rLWsxBF8z" role="37wK5m">
+                <property role="Xl_RC" value="StructuredDataType in LionWeb 2023.1" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsxBtSj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsxBtSm" role="jymVt">
+      <property role="TrG5h" value="createField" />
+      <node concept="3Tm1VV" id="1_rLWsxBtSo" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsxBtSp" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
+      </node>
+      <node concept="37vLTG" id="1_rLWsxBtSq" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1_rLWsxBtSr" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1_rLWsxBtSt" role="3clF47">
+        <node concept="YS8fn" id="1_rLWsxBMwt" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWsxBMwu" role="YScLw">
+            <node concept="1pGfFk" id="1_rLWsxBMwv" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" node="1_rLWsxBBid" resolve="UnsupportedCapabilityException" />
+              <node concept="Xl_RD" id="1_rLWsxBMww" role="37wK5m">
+                <property role="Xl_RC" value="Field in LionWeb 2023.1" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsxBtSu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4ZQFfbQ9DOv">
     <property role="3GE5qa" value="lionCoreAdapter" />
     <property role="TrG5h" value="LionCoreFactory" />
     <node concept="3Tm1VV" id="4ZQFfbQ9DOw" role="1B3o_S" />
-    <node concept="3uibUv" id="4ZQFfbQ9DR4" role="1zkMxy">
-      <ref role="3uigEE" node="4ZQFfbQ8AuI" resolve="LionCoreFactory_2023_1" />
+    <node concept="3uibUv" id="1_rLWsxBsuj" role="1zkMxy">
+      <ref role="3uigEE" node="1_rLWswfa3T" resolve="LionCoreFactory_2024_1" />
     </node>
     <node concept="3uibUv" id="4ZQFfbQ9DRQ" role="EKbjA">
       <ref role="3uigEE" node="4ZQFfbQ8_Xh" resolve="ILionCoreFactory" />
@@ -11098,7 +12223,7 @@
       </node>
       <node concept="3clFbS" id="4ZQFfbQ9DS$" role="3clF47">
         <node concept="XkiVB" id="4ZQFfbQ9DS_" role="3cqZAp">
-          <ref role="37wK5l" node="4ZQFfbQ8Jaq" resolve="LionCoreFactory_2023_1" />
+          <ref role="37wK5l" node="1_rLWswfa3X" resolve="LionCoreFactory_2024_1" />
           <node concept="37vLTw" id="4ZQFfbQ9DSA" role="37wK5m">
             <ref role="3cqZAo" node="4ZQFfbQ9DSx" resolve="lionwebversion" />
           </node>
@@ -11962,6 +13087,486 @@
     </node>
     <node concept="2tJIrI" id="78CjgICWrof" role="jymVt" />
     <node concept="3Tm1VV" id="78CjgICWr7x" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="1_rLWsweH9e">
+    <property role="3GE5qa" value="lionCoreAdapter" />
+    <property role="TrG5h" value="LionWebVersionAdapter_2024_1" />
+    <node concept="3Tm1VV" id="1_rLWsweH9f" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWsweMp3" role="EKbjA">
+      <ref role="3uigEE" node="1_rLWsweLqF" resolve="ILionWebVersionAdapter_2024_1" />
+    </node>
+    <node concept="3uibUv" id="1_rLWsweH9h" role="EKbjA">
+      <ref role="3uigEE" node="1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+    </node>
+    <node concept="3clFb_" id="1_rLWsweH9i" role="jymVt">
+      <property role="TrG5h" value="getVersion" />
+      <node concept="3Tm1VV" id="1_rLWsweH9j" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsweH9k" role="3clF45">
+        <ref role="3uigEE" to="6cj4:~LionWebVersion" resolve="LionWebVersion" />
+      </node>
+      <node concept="3clFbS" id="1_rLWsweH9l" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsweH9m" role="3cqZAp">
+          <node concept="Rm8GO" id="1_rLWsweH_j" role="3cqZAk">
+            <ref role="Rm8GQ" to="6cj4:~LionWebVersion.v2024_1" resolve="v2024_1" />
+            <ref role="1Px2BO" to="6cj4:~LionWebVersion" resolve="LionWebVersion" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsweH9o" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWsweH9p" role="jymVt">
+      <property role="TrG5h" value="getBuiltins" />
+      <node concept="3Tm1VV" id="1_rLWsweH9q" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsweH9r" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+      </node>
+      <node concept="3clFbS" id="1_rLWsweH9s" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsweH9t" role="3cqZAp">
+          <node concept="2YIFZM" id="1_rLWsweH9u" role="3cqZAk">
+            <ref role="1Pybhc" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+            <ref role="37wK5l" to="2qhi:~LionCoreBuiltins.getInstance(io.lionweb.LionWebVersion)" resolve="getInstance" />
+            <node concept="1rXfSq" id="1_rLWsweH9v" role="37wK5m">
+              <ref role="37wK5l" node="1_rLWsweH9i" resolve="getVersion" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsweH9w" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="1_rLWsweHLo">
+    <property role="3GE5qa" value="lionCoreAdapter" />
+    <property role="TrG5h" value="ILionCoreAdapter_2024_1" />
+    <node concept="3clFb_" id="1_rLWsweHLp" role="jymVt">
+      <property role="TrG5h" value="getStructuredDataType" />
+      <node concept="2lzX1y" id="1_rLWsweHLq" role="3clF47" />
+      <node concept="3uibUv" id="1_rLWsweHLr" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+      </node>
+      <node concept="3Tm1VV" id="1_rLWsweHLs" role="1B3o_S" />
+    </node>
+    <node concept="3Tm1VV" id="1_rLWsweHMl" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1_rLWsweHMm" role="lGtFl">
+      <node concept="TZ5HA" id="1_rLWsweHMn" role="TZ5H$">
+        <node concept="1dT_AC" id="1_rLWsweHMo" role="1dT_Ay">
+          <property role="1dT_AB" value="Non-static access to " />
+        </node>
+        <node concept="1dT_AA" id="1_rLWsweHMp" role="1dT_Ay">
+          <node concept="92FcH" id="1_rLWsweHMq" role="qph3F">
+            <node concept="TZ5HA" id="1_rLWsweHMr" role="2XjZqd" />
+            <node concept="VXe08" id="1_rLWsweHMs" role="92FcQ">
+              <ref role="VXe09" to="pxq1:~LionCore" resolve="LionCore" />
+            </node>
+          </node>
+        </node>
+        <node concept="1dT_AC" id="1_rLWsweHMt" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+    </node>
+    <node concept="3uibUv" id="1_rLWswf5qg" role="3HQHJm">
+      <ref role="3uigEE" node="7weWCFlyclH" resolve="ILionCoreAdapter_2023_1" />
+    </node>
+  </node>
+  <node concept="3HP615" id="1_rLWsweIed">
+    <property role="3GE5qa" value="lionCoreAdapter" />
+    <property role="TrG5h" value="ILionCoreFactory_2024_1" />
+    <node concept="3clFb_" id="1_rLWsweIee" role="jymVt">
+      <property role="TrG5h" value="createStructuredDataType" />
+      <node concept="3clFbS" id="1_rLWsweIef" role="3clF47" />
+      <node concept="3Tm1VV" id="1_rLWsweIeg" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsweIeh" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+      </node>
+      <node concept="37vLTG" id="1_rLWsweIei" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1_rLWsweIej" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1_rLWswDkvJ" role="jymVt">
+      <property role="TrG5h" value="createField" />
+      <node concept="3clFbS" id="1_rLWswDkvK" role="3clF47" />
+      <node concept="3Tm1VV" id="1_rLWswDkvL" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWswDkvM" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
+      </node>
+      <node concept="37vLTG" id="1_rLWswDkvN" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1_rLWswDkvO" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1_rLWsweIfg" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWsweIG3" role="3HQHJm">
+      <ref role="3uigEE" node="4ZQFfbQ3wYF" resolve="ILionCoreFactory_2023_1" />
+    </node>
+  </node>
+  <node concept="3HP615" id="1_rLWsweLqF">
+    <property role="3GE5qa" value="lionCoreAdapter" />
+    <property role="TrG5h" value="ILionWebVersionAdapter_2024_1" />
+    <node concept="3Tm1VV" id="1_rLWsweLqO" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWsweLCw" role="3HQHJm">
+      <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+    </node>
+  </node>
+  <node concept="312cEu" id="1_rLWsweN6N">
+    <property role="3GE5qa" value="lionCoreAdapter" />
+    <property role="TrG5h" value="LionCoreAdapter_2024_1" />
+    <node concept="3Tm1VV" id="1_rLWsweN6O" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWsweOvn" role="EKbjA">
+      <ref role="3uigEE" node="1_rLWsweHLo" resolve="ILionCoreAdapter_2024_1" />
+    </node>
+    <node concept="3clFbW" id="1_rLWsweN6T" role="jymVt">
+      <node concept="3cqZAl" id="1_rLWsweN6U" role="3clF45" />
+      <node concept="3Tm1VV" id="1_rLWsweN6V" role="1B3o_S" />
+      <node concept="3clFbS" id="1_rLWsweN6W" role="3clF47">
+        <node concept="XkiVB" id="1_rLWswf2HV" role="3cqZAp">
+          <ref role="37wK5l" node="1KsTggJeqz5" resolve="LionCoreAdapter_2023_1" />
+          <node concept="37vLTw" id="1_rLWswf3L5" role="37wK5m">
+            <ref role="3cqZAo" node="1_rLWsweN73" resolve="lionWebVersion" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsweN73" role="3clF46">
+        <property role="TrG5h" value="lionWebVersion" />
+        <node concept="3uibUv" id="1_rLWsweN74" role="1tU5fm">
+          <ref role="3uigEE" node="1_rLWsweLqF" resolve="ILionWebVersionAdapter_2024_1" />
+        </node>
+        <node concept="2AHcQZ" id="1_rLWsweN75" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
+    <node concept="3uibUv" id="1_rLWswePPt" role="1zkMxy">
+      <ref role="3uigEE" node="7weWCFlyeHs" resolve="LionCoreAdapter_2023_1" />
+    </node>
+    <node concept="3clFb_" id="1_rLWswf7c2" role="jymVt">
+      <property role="TrG5h" value="getStructuredDataType" />
+      <node concept="3uibUv" id="1_rLWswf7c4" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~Concept" resolve="Concept" />
+      </node>
+      <node concept="3Tm1VV" id="1_rLWswf7c5" role="1B3o_S" />
+      <node concept="3clFbS" id="1_rLWswf7c7" role="3clF47">
+        <node concept="3clFbF" id="1_rLWswf7VH" role="3cqZAp">
+          <node concept="2YIFZM" id="1_rLWswf87g" role="3clFbG">
+            <ref role="37wK5l" to="pxq1:~LionCore.getStructuredDataType(io.lionweb.LionWebVersion)" resolve="getStructuredDataType" />
+            <ref role="1Pybhc" to="pxq1:~LionCore" resolve="LionCore" />
+            <node concept="2OqwBi" id="1_rLWswf87h" role="37wK5m">
+              <node concept="37vLTw" id="1_rLWswf87i" role="2Oq$k0">
+                <ref role="3cqZAo" node="1KsTggJera4" resolve="lionWebVersion" />
+              </node>
+              <node concept="liA8E" id="1_rLWswf87j" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWswf7c8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="1_rLWswfa3T">
+    <property role="3GE5qa" value="lionCoreAdapter" />
+    <property role="TrG5h" value="LionCoreFactory_2024_1" />
+    <node concept="3clFbW" id="1_rLWswfa3X" role="jymVt">
+      <node concept="3cqZAl" id="1_rLWswfa3Y" role="3clF45" />
+      <node concept="3Tm1VV" id="1_rLWswfa3Z" role="1B3o_S" />
+      <node concept="3clFbS" id="1_rLWswfa40" role="3clF47">
+        <node concept="XkiVB" id="1_rLWswfnwo" role="3cqZAp">
+          <ref role="37wK5l" node="4ZQFfbQ8Jaq" resolve="LionCoreFactory_2023_1" />
+          <node concept="37vLTw" id="1_rLWswfonk" role="37wK5m">
+            <ref role="3cqZAo" node="1_rLWswfa47" resolve="lionWebVersion" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWswfa47" role="3clF46">
+        <property role="TrG5h" value="lionWebVersion" />
+        <node concept="3uibUv" id="1_rLWswfa48" role="1tU5fm">
+          <ref role="3uigEE" node="1_rLWsweLqF" resolve="ILionWebVersionAdapter_2024_1" />
+        </node>
+        <node concept="2AHcQZ" id="1_rLWswfa49" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4Ffa7sLFsGM" role="jymVt" />
+    <node concept="3Tm1VV" id="1_rLWswfa4a" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWswfdX1" role="EKbjA">
+      <ref role="3uigEE" node="1_rLWsweIed" resolve="ILionCoreFactory_2024_1" />
+    </node>
+    <node concept="3uibUv" id="1_rLWswfcAr" role="1zkMxy">
+      <ref role="3uigEE" node="4ZQFfbQ8AuI" resolve="LionCoreFactory_2023_1" />
+    </node>
+    <node concept="3clFb_" id="1_rLWswf$7y" role="jymVt">
+      <property role="TrG5h" value="createStructuredDataType" />
+      <node concept="3Tm1VV" id="1_rLWswf$7$" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWswf$7_" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+      </node>
+      <node concept="37vLTG" id="1_rLWswf$7A" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1_rLWswf$7B" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1_rLWswf$7E" role="3clF47">
+        <node concept="3cpWs8" id="4Ffa7sLFo1z" role="3cqZAp">
+          <node concept="3cpWsn" id="4Ffa7sLFo1$" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="3uibUv" id="4Ffa7sLFn93" role="1tU5fm">
+              <ref role="3uigEE" to="2qhi:~StructuredDataType" resolve="StructuredDataType" />
+            </node>
+            <node concept="2ShNRf" id="4Ffa7sLFo1_" role="33vP2m">
+              <node concept="1pGfFk" id="4Ffa7sLFo1A" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="2qhi:~StructuredDataType.&lt;init&gt;()" resolve="StructuredDataType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1_rLWswf$kN" role="3cqZAp">
+          <node concept="2OqwBi" id="4Ffa7sLFp7J" role="3clFbG">
+            <node concept="37vLTw" id="4Ffa7sLFo1B" role="2Oq$k0">
+              <ref role="3cqZAo" node="4Ffa7sLFo1$" resolve="result" />
+            </node>
+            <node concept="liA8E" id="4Ffa7sLFqww" role="2OqNvi">
+              <ref role="37wK5l" to="2qhi:~LanguageEntity.setName(java.lang.String)" resolve="setName" />
+              <node concept="37vLTw" id="4Ffa7sLFqLH" role="37wK5m">
+                <ref role="3cqZAo" node="1_rLWswf$7A" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4Ffa7sLFr4K" role="3cqZAp">
+          <node concept="37vLTw" id="4Ffa7sLFrzc" role="3cqZAk">
+            <ref role="3cqZAo" node="4Ffa7sLFo1$" resolve="result" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWswf$7F" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4Ffa7sLFsUq" role="jymVt" />
+    <node concept="3clFb_" id="1_rLWswDl87" role="jymVt">
+      <property role="TrG5h" value="createField" />
+      <node concept="3Tm1VV" id="1_rLWswDl89" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWswDl8a" role="3clF45">
+        <ref role="3uigEE" to="2qhi:~Field" resolve="Field" />
+      </node>
+      <node concept="37vLTG" id="1_rLWswDl8b" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1_rLWswDl8c" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1_rLWswDl8f" role="3clF47">
+        <node concept="3clFbF" id="1_rLWswDlsB" role="3cqZAp">
+          <node concept="2ShNRf" id="1_rLWswDlsx" role="3clFbG">
+            <node concept="1pGfFk" id="1_rLWswDnah" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="2qhi:~Field.&lt;init&gt;(java.lang.String)" resolve="Field" />
+              <node concept="37vLTw" id="1_rLWswDnjl" role="37wK5m">
+                <ref role="3cqZAo" node="1_rLWswDl8b" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWswDl8g" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="1_rLWsxBBic">
+    <property role="3GE5qa" value="exception" />
+    <property role="TrG5h" value="UnsupportedCapabilityException" />
+    <node concept="3clFbW" id="1_rLWsxBBid" role="jymVt">
+      <node concept="3cqZAl" id="1_rLWsxBBie" role="3clF45" />
+      <node concept="3Tm1VV" id="1_rLWsxBBif" role="1B3o_S" />
+      <node concept="3clFbS" id="1_rLWsxBBig" role="3clF47">
+        <node concept="XkiVB" id="1_rLWsxBBih" role="3cqZAp">
+          <ref role="37wK5l" node="A9P4gGMFZd" resolve="ALionwebJsonException" />
+          <node concept="3cpWs3" id="1_rLWsxBBii" role="37wK5m">
+            <node concept="37vLTw" id="1_rLWsxBBij" role="3uHU7w">
+              <ref role="3cqZAo" node="1_rLWsxBBil" resolve="message" />
+            </node>
+            <node concept="Xl_RD" id="1_rLWsxBBik" role="3uHU7B">
+              <property role="Xl_RC" value="Unsupported capability: " />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsxBBil" role="3clF46">
+        <property role="TrG5h" value="message" />
+        <node concept="17QB3L" id="1_rLWsxBBim" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1_rLWsxBBin" role="jymVt" />
+    <node concept="3Tm1VV" id="1_rLWsxBBio" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWsxBBip" role="1zkMxy">
+      <ref role="3uigEE" node="A9P4gGMFSK" resolve="ALionwebJsonException" />
+    </node>
+    <node concept="3clFb_" id="1_rLWsxBBiq" role="jymVt">
+      <property role="TrG5h" value="getId" />
+      <node concept="3Tm1VV" id="1_rLWsxBBir" role="1B3o_S" />
+      <node concept="17QB3L" id="1_rLWsxBBis" role="3clF45" />
+      <node concept="2AHcQZ" id="1_rLWsxBBit" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="1_rLWsxBBiu" role="3clF47">
+        <node concept="3clFbF" id="1_rLWsxBBiv" role="3cqZAp">
+          <node concept="10Nm6u" id="1_rLWsxBBiw" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsxBBix" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="1_rLWsyDX5R">
+    <property role="3GE5qa" value="jsonConstants" />
+    <property role="TrG5h" value="IJsonConstants_2024_1" />
+    <node concept="3Tm1VV" id="1_rLWsyDX7v" role="1B3o_S" />
+    <node concept="3UR2Jj" id="1_rLWsyDX7w" role="lGtFl">
+      <node concept="TZ5HA" id="1_rLWsyDX7x" role="TZ5H$">
+        <node concept="1dT_AC" id="1_rLWsyDX7y" role="1dT_Ay" />
+      </node>
+    </node>
+    <node concept="3uibUv" id="1_rLWsyDY53" role="3HQHJm">
+      <ref role="3uigEE" node="5JNiskj4NAJ" resolve="IJsonConstants_2023_1" />
+    </node>
+  </node>
+  <node concept="312cEu" id="1_rLWsyE1fo">
+    <property role="TrG5h" value="JsonConstants_2024_1" />
+    <property role="3GE5qa" value="jsonConstants" />
+    <node concept="2tJIrI" id="1_rLWsyE1fZ" role="jymVt" />
+    <node concept="3clFbW" id="1_rLWsyE1g0" role="jymVt">
+      <node concept="37vLTG" id="1_rLWsyE1g1" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyE1g2" role="1tU5fm">
+          <ref role="3uigEE" node="1_rLWsweLqF" resolve="ILionWebVersionAdapter_2024_1" />
+        </node>
+        <node concept="2AHcQZ" id="1_rLWsyE1g3" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyE1g4" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyE1g5" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:1_rLWsuS63l" resolve="ILionCoreConstants_2024_1" />
+        </node>
+        <node concept="2AHcQZ" id="1_rLWsyE1g6" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1_rLWsyE1g7" role="3clF45" />
+      <node concept="3Tm1VV" id="1_rLWsyE1g8" role="1B3o_S" />
+      <node concept="3clFbS" id="1_rLWsyE1g9" role="3clF47">
+        <node concept="XkiVB" id="1_rLWsyEuek" role="3cqZAp">
+          <ref role="37wK5l" node="5TNjoy1vf0o" resolve="JsonConstants_2023_1" />
+          <node concept="37vLTw" id="1_rLWsyEufU" role="37wK5m">
+            <ref role="3cqZAo" node="1_rLWsyE1g1" resolve="lionwebversion" />
+          </node>
+          <node concept="37vLTw" id="1_rLWsyEuo1" role="37wK5m">
+            <ref role="3cqZAo" node="1_rLWsyE1g4" resolve="constants" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4Ffa7sLDLxI" role="jymVt" />
+    <node concept="3Tm1VV" id="1_rLWsyE1kw" role="1B3o_S" />
+    <node concept="3uibUv" id="1_rLWsyE9tt" role="EKbjA">
+      <ref role="3uigEE" node="1_rLWsyDX5R" resolve="IJsonConstants_2024_1" />
+    </node>
+    <node concept="3uibUv" id="1_rLWsyEef4" role="1zkMxy">
+      <ref role="3uigEE" node="39$JcGFQll9" resolve="JsonConstants_2023_1" />
+    </node>
+    <node concept="3clFb_" id="1_rLWsyKKp3" role="jymVt">
+      <property role="TrG5h" value="populateJson" />
+      <node concept="3Tmbuc" id="1_rLWsyKKp4" role="1B3o_S" />
+      <node concept="3uibUv" id="1_rLWsyKKp5" role="3clF45">
+        <ref role="3uigEE" node="7OJcYqxTPY1" resolve="JsonStaple" />
+        <node concept="3uibUv" id="1_rLWsyKKp6" role="11_B2D">
+          <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+        </node>
+        <node concept="3uibUv" id="1_rLWsyKKp7" role="11_B2D">
+          <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKKp8" role="3clF46">
+        <property role="TrG5h" value="builtins" />
+        <node concept="3uibUv" id="1_rLWsyKKp9" role="1tU5fm">
+          <ref role="3uigEE" to="2qhi:~LionCoreBuiltins" resolve="LionCoreBuiltins" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKKpa" role="3clF46">
+        <property role="TrG5h" value="lionwebversion" />
+        <node concept="3uibUv" id="1_rLWsyKKpb" role="1tU5fm">
+          <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1_rLWsyKKpc" role="3clF46">
+        <property role="TrG5h" value="constants" />
+        <node concept="3uibUv" id="1_rLWsyKKpd" role="1tU5fm">
+          <ref role="3uigEE" to="y7p:5JNiski3jVc" resolve="ILionCoreConstants_2023_1" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1_rLWsyKKpt" role="3clF47">
+        <node concept="3cpWs6" id="1_rLWsyKL2n" role="3cqZAp">
+          <node concept="10Nm6u" id="1_rLWsyKLb1" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1_rLWsyKKpu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4Ffa7sLDLHO" role="jymVt" />
+    <node concept="3clFb_" id="4Ffa7sLDHRL" role="jymVt">
+      <property role="TrG5h" value="listLcPrimitiveTypes" />
+      <node concept="3Tm1VV" id="4Ffa7sLDHRM" role="1B3o_S" />
+      <node concept="_YKpA" id="4Ffa7sLDHRN" role="3clF45">
+        <node concept="3uibUv" id="4Ffa7sLDHRO" role="_ZDj9">
+          <ref role="3uigEE" node="7OJcYqxQZIZ" resolve="IJsonStaple" />
+          <node concept="3uibUv" id="4Ffa7sLDHRP" role="11_B2D">
+            <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+          </node>
+          <node concept="3uibUv" id="4Ffa7sLDHRQ" role="11_B2D">
+            <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4Ffa7sLDHS2" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="4Ffa7sLDHS3" role="3clF47">
+        <node concept="3clFbF" id="4Ffa7sLDKQM" role="3cqZAp">
+          <node concept="2ShNRf" id="4Ffa7sLDKQN" role="3clFbG">
+            <node concept="Tc6Ow" id="4Ffa7sLDKQO" role="2ShVmc">
+              <node concept="3uibUv" id="4Ffa7sLDKQP" role="HW$YZ">
+                <ref role="3uigEE" node="7OJcYqxQZIZ" resolve="IJsonStaple" />
+                <node concept="3uibUv" id="4Ffa7sLDKQQ" role="11_B2D">
+                  <ref role="3uigEE" to="2qhi:~PrimitiveType" resolve="PrimitiveType" />
+                </node>
+                <node concept="3uibUv" id="4Ffa7sLDKQR" role="11_B2D">
+                  <ref role="3uigEE" to="y7p:7OJcYqx0lp$" resolve="IPrimitiveTypeStaple" />
+                </node>
+              </node>
+              <node concept="1rXfSq" id="4Ffa7sLDKQS" role="HW$Y0">
+                <ref role="37wK5l" node="7OJcYqxTCCR" resolve="getBoolean" />
+              </node>
+              <node concept="1rXfSq" id="4Ffa7sLDKQT" role="HW$Y0">
+                <ref role="37wK5l" node="7OJcYqxTAF2" resolve="getInteger" />
+              </node>
+              <node concept="1rXfSq" id="4Ffa7sLDKQU" role="HW$Y0">
+                <ref role="37wK5l" node="7OJcYqxT_$X" resolve="getString" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
