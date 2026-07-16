@@ -20,6 +20,7 @@
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
         <property id="2656571587264862414" name="abstract" index="2RzP46" />
+        <reference id="2656571587264862780" name="extends" index="2RzPfO" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
         <property id="2526956841135898600" name="version" index="3HH78N" />
@@ -34,7 +35,7 @@
     </language>
   </registry>
   <node concept="2RzRRF" id="2ju2syjnJjW">
-    <property role="TrG5h" value="Built-in DataTypes" />
+    <property role="TrG5h" value="Built-in DataTypes 2023.1" />
     <property role="3HH78N" value="2023.1" />
     <property role="2RzON1" value="LionCore-builtins" />
     <node concept="2RzSJf" id="2ju2syjnJjX" role="2RzR6B">
@@ -65,6 +66,38 @@
         <property role="2RzON1" value="LionCore-builtins-INamed-name" />
         <property role="TrG5h" value="name" />
         <ref role="2Rx9Fl" node="2ju2syjnJjX" resolve="String" />
+      </node>
+    </node>
+  </node>
+  <node concept="2RzRRF" id="1_rLWsuSG_5">
+    <property role="TrG5h" value="Built-in DataTypes 2024.1" />
+    <property role="3HH78N" value="2024.1" />
+    <property role="2RzON1" value="LionCore-builtins" />
+    <node concept="2RzSJf" id="1_rLWsuSG_6" role="2RzR6B">
+      <property role="2RzON1" value="LionCore-builtins-String" />
+      <property role="TrG5h" value="String" />
+    </node>
+    <node concept="2RzSJf" id="1_rLWsuSG_7" role="2RzR6B">
+      <property role="2RzON1" value="LionCore-builtins-Boolean" />
+      <property role="TrG5h" value="Boolean" />
+    </node>
+    <node concept="2RzSJf" id="1_rLWsuSG_8" role="2RzR6B">
+      <property role="2RzON1" value="LionCore-builtins-Integer" />
+      <property role="TrG5h" value="Integer" />
+    </node>
+    <node concept="2RzPWn" id="1_rLWsuSG_a" role="2RzR6B">
+      <property role="2RzON1" value="LionCore-builtins-Node" />
+      <property role="TrG5h" value="Node" />
+      <property role="2RzP46" value="true" />
+      <ref role="2RzPfO" node="1_rLWsuSG_a" resolve="Node" />
+    </node>
+    <node concept="2RzPaY" id="1_rLWsuSG_b" role="2RzR6B">
+      <property role="2RzON1" value="LionCore-builtins-INamed" />
+      <property role="TrG5h" value="INamed" />
+      <node concept="2RzOeU" id="1_rLWsuSG_c" role="2RzPPN">
+        <property role="2RzON1" value="LionCore-builtins-INamed-name" />
+        <property role="TrG5h" value="name" />
+        <ref role="2Rx9Fl" node="1_rLWsuSG_6" resolve="String" />
       </node>
     </node>
   </node>
