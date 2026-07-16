@@ -121,6 +121,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -133,9 +139,6 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
-      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
-        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
-      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
@@ -156,9 +159,6 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
-      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
-        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -213,8 +213,8 @@
                             <node concept="3cpWsn" id="5AGBwuDCjto" role="3cpWs9">
                               <property role="TrG5h" value="isChildLink" />
                               <node concept="10P_77" id="5AGBwuDCjpH" role="1tU5fm" />
-                              <node concept="17R0WA" id="5AGBwuDCCKz" role="33vP2m">
-                                <node concept="2OqwBi" id="5AGBwuDCjtq" role="3uHU7B">
+                              <node concept="2OqwBi" id="4Ffa7sMToMX" role="33vP2m">
+                                <node concept="2OqwBi" id="5AGBwuDCjtq" role="2Oq$k0">
                                   <node concept="37vLTw" id="5AGBwuDCjtr" role="2Oq$k0">
                                     <ref role="3cqZAo" node="5AGBwuDChsi" resolve="linkDeclaration" />
                                   </node>
@@ -222,12 +222,9 @@
                                     <ref role="3TsBF5" to="tpce:3Ftr4R6BH8$" resolve="metaClass" />
                                   </node>
                                 </node>
-                                <node concept="2OqwBi" id="5AGBwuDCjtt" role="3uHU7w">
-                                  <node concept="1XH99k" id="5AGBwuDCjtu" role="2Oq$k0">
-                                    <ref role="1XH99l" to="tpce:3Ftr4R6BFyl" resolve="LinkMetaclass" />
-                                  </node>
-                                  <node concept="2ViDtV" id="5AGBwuDCjtv" role="2OqNvi">
-                                    <ref role="2ViDtZ" to="tpce:3Ftr4R6BFyo" resolve="aggregation" />
+                                <node concept="21noJN" id="4Ffa7sMTpdU" role="2OqNvi">
+                                  <node concept="21nZrQ" id="4Ffa7sMTpdW" role="21noJM">
+                                    <ref role="21nZrZ" to="tpce:3Ftr4R6BFyo" resolve="aggregation" />
                                   </node>
                                 </node>
                               </node>

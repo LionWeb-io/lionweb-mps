@@ -1449,6 +1449,63 @@
         </node>
       </node>
     </node>
+    <node concept="1qefOq" id="4Ffa7sMSjEQ" role="1SKRRt">
+      <node concept="15s5l7" id="4Ffa7sMSjF6" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  NestedSdt (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  NestedSdt (target) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="4Ffa7sMSjES" role="1qenE9">
+        <property role="EcuMT" value="5390571771405613752" />
+        <property role="TrG5h" value="OwningConcept" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="1TJgyj" id="4Ffa7sMSjET" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="optionalSingle" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+        </node>
+        <node concept="1TJgyj" id="4Ffa7sMSjEX" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="requiredSingle" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+        </node>
+        <node concept="1TJgyj" id="4Ffa7sMSjEY" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="optionalMultiple" />
+          <property role="20lbJX" value="fLJekj5/_0__n" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+          <node concept="7CXmI" id="4Ffa7sMSjEZ" role="lGtFl">
+            <node concept="1TM$A" id="4Ffa7sMSjF0" role="7EUXB">
+              <node concept="2PYRI3" id="4Ffa7sMU2S7" role="3lydEf">
+                <ref role="39XzEq" to="79ni:4Ffa7sMU1mj" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1TJgyj" id="4Ffa7sMSjF2" role="1TKVEi">
+          <property role="IQ2ns" value="1827273731856901913" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="requiredMultiple" />
+          <property role="20lbJX" value="fLJekj6/_1__n" />
+          <ref role="20lvS9" node="1_rLWsuF_Wh" resolve="NestedSdt" />
+          <node concept="7CXmI" id="4Ffa7sMSjF3" role="lGtFl">
+            <node concept="1TM$A" id="4Ffa7sMSjF4" role="7EUXB">
+              <node concept="2PYRI3" id="4Ffa7sMU2S8" role="3lydEf">
+                <ref role="39XzEq" to="79ni:4Ffa7sMU1mj" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="7CXmI" id="4Ffa7sMU2S9" role="lGtFl">
+          <node concept="7OXhh" id="4Ffa7sMU2Sa" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

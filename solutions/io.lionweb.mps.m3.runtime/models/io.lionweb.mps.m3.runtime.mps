@@ -298,6 +298,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -330,9 +336,6 @@
       </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
-      </concept>
-      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
-        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
       <concept id="3648723375513868532" name="jetbrains.mps.lang.smodel.structure.NodePointer_ResolveOperation" flags="ng" index="Vyspw" />
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -379,9 +382,6 @@
       </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
-      </concept>
-      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
-        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -7145,16 +7145,8 @@
           </node>
         </node>
         <node concept="1gVbGN" id="5AGBwuDLdKM" role="3cqZAp">
-          <node concept="17R0WA" id="5AGBwuDLm5N" role="1gVkn0">
-            <node concept="2OqwBi" id="5AGBwuDLo8T" role="3uHU7w">
-              <node concept="1XH99k" id="5AGBwuDLmD$" role="2Oq$k0">
-                <ref role="1XH99l" to="tpce:3Ftr4R6BFyl" resolve="LinkMetaclass" />
-              </node>
-              <node concept="2ViDtV" id="5AGBwuDLpHP" role="2OqNvi">
-                <ref role="2ViDtZ" to="tpce:3Ftr4R6BFyn" resolve="reference" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="5AGBwuDLjwz" role="3uHU7B">
+          <node concept="2OqwBi" id="4Ffa7sMTPI4" role="1gVkn0">
+            <node concept="2OqwBi" id="5AGBwuDLjwz" role="2Oq$k0">
               <node concept="2OqwBi" id="5AGBwuDLgJj" role="2Oq$k0">
                 <node concept="37vLTw" id="5AGBwuDLeo7" role="2Oq$k0">
                   <ref role="3cqZAo" node="5AGBwuDIH83" resolve="linkDeclarations" />
@@ -7163,6 +7155,11 @@
               </node>
               <node concept="3TrcHB" id="5AGBwuDLlge" role="2OqNvi">
                 <ref role="3TsBF5" to="tpce:3Ftr4R6BH8$" resolve="metaClass" />
+              </node>
+            </node>
+            <node concept="21noJN" id="4Ffa7sMTTs5" role="2OqNvi">
+              <node concept="21nZrQ" id="4Ffa7sMTTs7" role="21noJM">
+                <ref role="21nZrZ" to="tpce:3Ftr4R6BFyn" resolve="reference" />
               </node>
             </node>
           </node>
