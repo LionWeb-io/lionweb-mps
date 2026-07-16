@@ -1111,7 +1111,7 @@
             </node>
             <node concept="2ShNRf" id="4fqYzE8kht1" role="33vP2m">
               <node concept="HV5vD" id="4fqYzE8kht2" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
+                <ref role="HV5vE" to="6peh:1KsTggJdZdW" resolve="LionWebVersionAdapter_2023_1" />
               </node>
             </node>
           </node>

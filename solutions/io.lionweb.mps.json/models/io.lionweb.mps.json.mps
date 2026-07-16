@@ -1586,7 +1586,7 @@
     <node concept="312cEg" id="5l7iViez3A_" role="jymVt">
       <property role="TrG5h" value="lionwebVersion" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="5l7iVieyU_R" role="1B3o_S" />
+      <node concept="3Tmbuc" id="4Ffa7sQ3WaR" role="1B3o_S" />
       <node concept="3uibUv" id="5l7iViez35X" role="1tU5fm">
         <ref role="3uigEE" node="1KsTggJdRSR" resolve="ILionWebVersionAdapter_2023_1" />
       </node>
@@ -1614,6 +1614,19 @@
       <node concept="3cqZAl" id="5TNjoy1vf0q" role="3clF45" />
       <node concept="3Tm1VV" id="5TNjoy1vf0r" role="1B3o_S" />
       <node concept="3clFbS" id="5TNjoy1vf0s" role="3clF47">
+        <node concept="3clFbF" id="5l7iViezhrl" role="3cqZAp">
+          <node concept="37vLTI" id="5l7iViezqW5" role="3clFbG">
+            <node concept="37vLTw" id="5l7iViezwTW" role="37vLTx">
+              <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
+            </node>
+            <node concept="2OqwBi" id="5l7iViezjLw" role="37vLTJ">
+              <node concept="Xjq3P" id="5l7iViezhrj" role="2Oq$k0" />
+              <node concept="2OwXpG" id="5l7iViezl7T" role="2OqNvi">
+                <ref role="2Oxat5" node="5l7iViez3A_" resolve="lionwebVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="6YC7tYIxt36" role="3cqZAp">
           <node concept="3cpWsn" id="6YC7tYIxt37" role="3cpWs9">
             <property role="TrG5h" value="builtins" />
@@ -1626,19 +1639,6 @@
               </node>
               <node concept="liA8E" id="1KsTggJfvRD" role="2OqNvi">
                 <ref role="37wK5l" node="1KsTggJdRVc" resolve="getBuiltins" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5l7iViezhrl" role="3cqZAp">
-          <node concept="37vLTI" id="5l7iViezqW5" role="3clFbG">
-            <node concept="37vLTw" id="5l7iViezwTW" role="37vLTx">
-              <ref role="3cqZAo" node="1KsTggJfsxt" resolve="lionwebversion" />
-            </node>
-            <node concept="2OqwBi" id="5l7iViezjLw" role="37vLTJ">
-              <node concept="Xjq3P" id="5l7iViezhrj" role="2Oq$k0" />
-              <node concept="2OwXpG" id="5l7iViezl7T" role="2OqNvi">
-                <ref role="2Oxat5" node="5l7iViez3A_" resolve="lionwebVersion" />
               </node>
             </node>
           </node>
@@ -13564,8 +13564,40 @@
         </node>
       </node>
       <node concept="3clFbS" id="1_rLWsyKKpt" role="3clF47">
-        <node concept="3cpWs6" id="1_rLWsyKL2n" role="3cqZAp">
-          <node concept="10Nm6u" id="1_rLWsyKLb1" role="3cqZAk" />
+        <node concept="3clFbJ" id="4Ffa7sQ3O6h" role="3cqZAp">
+          <node concept="3clFbS" id="4Ffa7sQ3O6j" role="3clFbx">
+            <node concept="3cpWs6" id="4Ffa7sQ3Qle" role="3cqZAp">
+              <node concept="3nyPlj" id="4Ffa7sQ3QLD" role="3cqZAk">
+                <ref role="37wK5l" node="1_rLWsyK8vI" resolve="populateJson" />
+                <node concept="37vLTw" id="4Ffa7sQ3Roy" role="37wK5m">
+                  <ref role="3cqZAo" node="1_rLWsyKKp8" resolve="builtins" />
+                </node>
+                <node concept="37vLTw" id="4Ffa7sQ3RSf" role="37wK5m">
+                  <ref role="3cqZAo" node="1_rLWsyKKpa" resolve="lionwebversion" />
+                </node>
+                <node concept="37vLTw" id="4Ffa7sQ3Sct" role="37wK5m">
+                  <ref role="3cqZAo" node="1_rLWsyKKpc" resolve="constants" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="4Ffa7sQ3PAf" role="3clFbw">
+            <node concept="Rm8GO" id="4Ffa7sQ3Q7o" role="3uHU7w">
+              <ref role="Rm8GQ" to="6cj4:~LionWebVersion.v2023_1" resolve="v2023_1" />
+              <ref role="1Px2BO" to="6cj4:~LionWebVersion" resolve="LionWebVersion" />
+            </node>
+            <node concept="2OqwBi" id="4Ffa7sQ3OIS" role="3uHU7B">
+              <node concept="37vLTw" id="4Ffa7sQ3OqJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="1_rLWsyKKpa" resolve="lionwebversion" />
+              </node>
+              <node concept="liA8E" id="4Ffa7sQ3OZG" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4Ffa7sQ3SLe" role="3cqZAp">
+          <node concept="10Nm6u" id="4Ffa7sQ3T2Z" role="3cqZAk" />
         </node>
       </node>
       <node concept="2AHcQZ" id="1_rLWsyKKpu" role="2AJF6D">
@@ -13591,6 +13623,33 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="4Ffa7sLDHS3" role="3clF47">
+        <node concept="3clFbJ" id="4Ffa7sQ3Tm3" role="3cqZAp">
+          <node concept="3clFbS" id="4Ffa7sQ3Tm4" role="3clFbx">
+            <node concept="3cpWs6" id="4Ffa7sQ3Tm5" role="3cqZAp">
+              <node concept="3nyPlj" id="4Ffa7sQ3Tm6" role="3cqZAk">
+                <ref role="37wK5l" node="7OJcYqxTKjk" resolve="listLcPrimitiveTypes" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="4Ffa7sQ3Tma" role="3clFbw">
+            <node concept="Rm8GO" id="4Ffa7sQ3Tmb" role="3uHU7w">
+              <ref role="Rm8GQ" to="6cj4:~LionWebVersion.v2023_1" resolve="v2023_1" />
+              <ref role="1Px2BO" to="6cj4:~LionWebVersion" resolve="LionWebVersion" />
+            </node>
+            <node concept="2OqwBi" id="4Ffa7sQ3Tmc" role="3uHU7B">
+              <node concept="2OqwBi" id="4Ffa7sQ3UZ6" role="2Oq$k0">
+                <node concept="Xjq3P" id="4Ffa7sQ3UGk" role="2Oq$k0" />
+                <node concept="2OwXpG" id="4Ffa7sQ40xH" role="2OqNvi">
+                  <ref role="2Oxat5" node="5l7iViez3A_" resolve="lionwebVersion" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4Ffa7sQ3Tme" role="2OqNvi">
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4Ffa7sQ3Tm2" role="3cqZAp" />
         <node concept="3clFbF" id="4Ffa7sLDKQM" role="3cqZAp">
           <node concept="2ShNRf" id="4Ffa7sLDKQN" role="3clFbG">
             <node concept="Tc6Ow" id="4Ffa7sLDKQO" role="2ShVmc">
