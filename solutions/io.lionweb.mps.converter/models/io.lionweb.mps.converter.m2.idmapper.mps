@@ -121,6 +121,9 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -918,16 +921,13 @@
                 <node concept="1bVj0M" id="6jbF0Boepss" role="23t8la">
                   <node concept="3clFbS" id="6jbF0Boepst" role="1bW5cS">
                     <node concept="3clFbF" id="6jbF0Boepsu" role="3cqZAp">
-                      <node concept="17R0WA" id="6jbF0Boepsv" role="3clFbG">
-                        <node concept="37vLTw" id="6jbF0Boepsw" role="3uHU7w">
-                          <ref role="3cqZAo" node="6jbF0BoekY9" resolve="version" />
-                        </node>
-                        <node concept="2OqwBi" id="6jbF0BopDTm" role="3uHU7B">
-                          <node concept="37vLTw" id="6jbF0BopFO5" role="2Oq$k0">
+                      <node concept="3fqX7Q" id="4Ffa7sOxuJK" role="3clFbG">
+                        <node concept="2OqwBi" id="4Ffa7sOxuJM" role="3fr31v">
+                          <node concept="37vLTw" id="4Ffa7sOxuJN" role="2Oq$k0">
                             <ref role="3cqZAo" node="6r4IH3RnmfG" resolve="it" />
                           </node>
-                          <node concept="liA8E" id="6jbF0BopDTp" role="2OqNvi">
-                            <ref role="37wK5l" to="y7p:6jbF0Boi_gF" resolve="getLcLanguageVersion" />
+                          <node concept="liA8E" id="4Ffa7sOxuJO" role="2OqNvi">
+                            <ref role="37wK5l" to="y7p:6jbF0Boi_gF" resolve="useLionWebVersion" />
                           </node>
                         </node>
                       </node>

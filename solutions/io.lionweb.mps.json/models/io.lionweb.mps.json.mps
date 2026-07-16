@@ -4611,6 +4611,9 @@
                     </node>
                   </node>
                 </node>
+                <node concept="37vLTw" id="4Ffa7sOx$3f" role="37wK5m">
+                  <ref role="3cqZAo" node="78CjgICWrcW" resolve="lionwebVersion" />
+                </node>
               </node>
             </node>
           </node>
