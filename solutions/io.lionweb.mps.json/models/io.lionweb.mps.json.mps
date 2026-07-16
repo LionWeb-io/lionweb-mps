@@ -2591,7 +2591,7 @@
                 <ref role="3cqZAo" node="5l7iViewSs7" resolve="lionwebVersion" />
               </node>
               <node concept="liA8E" id="5l7iVie_U1W" role="2OqNvi">
-                <ref role="37wK5l" node="1_rLWsweLqG" resolve="getVersion" />
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
               </node>
             </node>
           </node>
@@ -12134,7 +12134,7 @@
                 <ref role="3cqZAo" node="5l7iVieAHSm" resolve="lionwebVersion" />
               </node>
               <node concept="liA8E" id="5l7iVieALNC" role="2OqNvi">
-                <ref role="37wK5l" node="1_rLWsweLqG" resolve="getVersion" />
+                <ref role="37wK5l" node="1KsTggJdRV8" resolve="getVersion" />
               </node>
             </node>
           </node>

@@ -1,0 +1,53 @@
+{
+  "serializationFormatVersion": "2024.1",
+  "languages": [
+    {
+      "key": "LionCore-builtins",
+      "version": "2024.1"
+    },
+    {
+      "key": "My-TestSdtLang",
+      "version": "a"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "id-root",
+      "classifier": {
+        "language": "My-TestSdtLang",
+        "version": "a",
+        "key": "SdtConcept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2024.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "TestSdt"
+        },
+        {
+          "property": {
+            "language": "My-TestSdtLang",
+            "version": "a",
+            "key": "SdtConcept-requiredTop"
+          },
+          "value": "{\"TopLevelSdt-string\":\"reqStr\",\"TopLevelSdt-integer\":\"1\",\"TopLevelSdt-enum\":\"SdtEnum-A\",\"TopLevelSdt-intermediate\":{\"IntermediateSdt-intermediateString\":\"reqIntermediate\",\"IntermediateSdt-first\":{\"NestedSdt-int\":\"2\"},\"IntermediateSdt-second\":{\"NestedSdt-int\":\"3\"}},\"TopLevelSdt-nested\":{\"NestedSdt-int\":\"4\"}}"
+        },
+        {
+          "property": {
+            "language": "My-TestSdtLang",
+            "version": "a",
+            "key": "SdtConcept-string"
+          },
+          "value": "myString"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": null
+    }
+  ]
+}
