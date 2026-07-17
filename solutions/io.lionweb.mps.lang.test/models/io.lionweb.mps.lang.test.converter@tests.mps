@@ -160,6 +160,7 @@
       <concept id="1622443184644647655" name="io.lionweb.mps.converter.lang.structure.ILanguageIdentityContainer" flags="ngI" index="3IuRAt">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
+      <concept id="1622443184644647418" name="io.lionweb.mps.converter.lang.structure.ExportSLanguageToJson" flags="ng" index="3IuRE0" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
@@ -193,6 +194,10 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2469893808086079682" name="jetbrains.mps.lang.smodel.structure.LanguageIdentityBySourceModule" flags="ng" index="PFCIn">
         <child id="2469893808086079721" name="moduleReference" index="PFCIW" />
+      </concept>
+      <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
+        <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
+        <property id="3542851458883439832" name="languageId" index="2V$B1T" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -807,6 +812,217 @@
       <node concept="3Tm1VV" id="4Ffa7sQ1S5W" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="4Ffa7sQ1QVi" role="1B3o_S" />
+  </node>
+  <node concept="1lH9Xt" id="7a1sdOOy9pM">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="ExportSLanguageToJson" />
+    <node concept="1LZb2c" id="7a1sdOOy9pN" role="1SL9yI">
+      <property role="TrG5h" value="v2023_1" />
+      <node concept="3cqZAl" id="7a1sdOOy9pO" role="3clF45" />
+      <node concept="3clFbS" id="7a1sdOOy9pP" role="3clF47">
+        <node concept="3vwNmj" id="7a1sdOOy9pQ" role="3cqZAp">
+          <node concept="2OqwBi" id="7a1sdOOy9pR" role="3vwVQn">
+            <node concept="3xONca" id="7a1sdOOy9pS" role="2Oq$k0">
+              <ref role="3xOPvv" node="7a1sdOOy9Wh" resolve="2023.1" />
+            </node>
+            <node concept="2qgKlT" id="7a1sdOOy9pT" role="2OqNvi">
+              <ref role="37wK5l" to="aoz0:78CjgICUDGq" resolve="export" />
+              <node concept="10M0yZ" id="7a1sdOOy9pU" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sQ1SwC" resolve="SIMPLE_LOGGER" />
+                <ref role="1PxDUh" node="4Ffa7sQ1QVh" resolve="ConverterTestHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7a1sdOOy9pV" role="3cqZAp" />
+        <node concept="3cpWs8" id="7a1sdOOy9pW" role="3cqZAp">
+          <node concept="3cpWsn" id="7a1sdOOy9pX" role="3cpWs9">
+            <property role="TrG5h" value="actual" />
+            <node concept="3uibUv" id="7a1sdOOy9pY" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
+            <node concept="2YIFZM" id="7a1sdOOy9pZ" role="33vP2m">
+              <ref role="37wK5l" node="4Ffa7sQ1S5H" resolve="expandTestFile" />
+              <ref role="1Pybhc" node="4Ffa7sQ1QVh" resolve="ConverterTestHelper" />
+              <node concept="Xl_RD" id="7a1sdOOy9q0" role="37wK5m">
+                <property role="Xl_RC" value="exported/TestLanguage_runtime_2023.1.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="7a1sdOOy9q1" role="3cqZAp">
+          <node concept="2OqwBi" id="7a1sdOOy9q2" role="3vwVQn">
+            <node concept="37vLTw" id="7a1sdOOy9q3" role="2Oq$k0">
+              <ref role="3cqZAo" node="7a1sdOOy9pX" resolve="actual" />
+            </node>
+            <node concept="liA8E" id="7a1sdOOy9q4" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="7a1sdOOy9q5" role="3_9lra">
+            <node concept="3cpWs3" id="7a1sdOOy9q6" role="3_1BAH">
+              <node concept="37vLTw" id="7a1sdOOy9q7" role="3uHU7w">
+                <ref role="3cqZAo" node="7a1sdOOy9pX" resolve="actual" />
+              </node>
+              <node concept="Xl_RD" id="7a1sdOOy9q8" role="3uHU7B">
+                <property role="Xl_RC" value="missing file: " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7a1sdOOy9q9" role="3cqZAp" />
+        <node concept="3cpWs8" id="7a1sdOOy9qa" role="3cqZAp">
+          <node concept="3cpWsn" id="7a1sdOOy9qb" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="3uibUv" id="7a1sdOOy9qc" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
+            <node concept="2YIFZM" id="7a1sdOOy9qd" role="33vP2m">
+              <ref role="37wK5l" node="4Ffa7sQ1S5H" resolve="expandTestFile" />
+              <ref role="1Pybhc" node="4Ffa7sQ1QVh" resolve="ConverterTestHelper" />
+              <node concept="Xl_RD" id="7a1sdOOy9qe" role="37wK5m">
+                <property role="Xl_RC" value="resources/TestLanguage_runtime_2023.1.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7a1sdOOy9qf" role="3cqZAp" />
+        <node concept="3vlDli" id="7a1sdOOy9qg" role="3cqZAp">
+          <node concept="2YIFZM" id="7a1sdOOy9qh" role="3tpDZB">
+            <ref role="37wK5l" to="18ew:~FileUtil.read(java.io.File)" resolve="read" />
+            <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
+            <node concept="37vLTw" id="7a1sdOOy9qi" role="37wK5m">
+              <ref role="3cqZAo" node="7a1sdOOy9pX" resolve="actual" />
+            </node>
+          </node>
+          <node concept="2YIFZM" id="7a1sdOOy9qj" role="3tpDZA">
+            <ref role="37wK5l" to="18ew:~FileUtil.read(java.io.File)" resolve="read" />
+            <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
+            <node concept="37vLTw" id="7a1sdOOy9qk" role="37wK5m">
+              <ref role="3cqZAo" node="7a1sdOOy9qb" resolve="expected" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7a1sdOOy9ql" role="1SL9yI">
+      <property role="TrG5h" value="v2024_1" />
+      <node concept="3cqZAl" id="7a1sdOOy9qm" role="3clF45" />
+      <node concept="3clFbS" id="7a1sdOOy9qn" role="3clF47">
+        <node concept="3vwNmj" id="7a1sdOOy9qo" role="3cqZAp">
+          <node concept="2OqwBi" id="7a1sdOOy9qp" role="3vwVQn">
+            <node concept="3xONca" id="7a1sdOOy9qq" role="2Oq$k0">
+              <ref role="3xOPvv" node="7a1sdOOya8A" resolve="2024.1" />
+            </node>
+            <node concept="2qgKlT" id="7a1sdOOy9qr" role="2OqNvi">
+              <ref role="37wK5l" to="aoz0:78CjgICUDGq" resolve="export" />
+              <node concept="10M0yZ" id="7a1sdOOy9qs" role="37wK5m">
+                <ref role="3cqZAo" node="4Ffa7sQ1SwC" resolve="SIMPLE_LOGGER" />
+                <ref role="1PxDUh" node="4Ffa7sQ1QVh" resolve="ConverterTestHelper" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7a1sdOOy9qt" role="3cqZAp" />
+        <node concept="3cpWs8" id="7a1sdOOy9qu" role="3cqZAp">
+          <node concept="3cpWsn" id="7a1sdOOy9qv" role="3cpWs9">
+            <property role="TrG5h" value="actual" />
+            <node concept="3uibUv" id="7a1sdOOy9qw" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
+            <node concept="2YIFZM" id="7a1sdOOy9qx" role="33vP2m">
+              <ref role="37wK5l" node="4Ffa7sQ1S5H" resolve="expandTestFile" />
+              <ref role="1Pybhc" node="4Ffa7sQ1QVh" resolve="ConverterTestHelper" />
+              <node concept="Xl_RD" id="7a1sdOOy9qy" role="37wK5m">
+                <property role="Xl_RC" value="exported/TestLanguage_runtime_2024.1.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vwNmj" id="7a1sdOOy9qz" role="3cqZAp">
+          <node concept="2OqwBi" id="7a1sdOOy9q$" role="3vwVQn">
+            <node concept="37vLTw" id="7a1sdOOy9q_" role="2Oq$k0">
+              <ref role="3cqZAo" node="7a1sdOOy9qv" resolve="actual" />
+            </node>
+            <node concept="liA8E" id="7a1sdOOy9qA" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
+            </node>
+          </node>
+          <node concept="3_1$Yv" id="7a1sdOOy9qB" role="3_9lra">
+            <node concept="3cpWs3" id="7a1sdOOy9qC" role="3_1BAH">
+              <node concept="37vLTw" id="7a1sdOOy9qD" role="3uHU7w">
+                <ref role="3cqZAo" node="7a1sdOOy9qv" resolve="actual" />
+              </node>
+              <node concept="Xl_RD" id="7a1sdOOy9qE" role="3uHU7B">
+                <property role="Xl_RC" value="missing file: " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7a1sdOOy9qF" role="3cqZAp" />
+        <node concept="3cpWs8" id="7a1sdOOy9qG" role="3cqZAp">
+          <node concept="3cpWsn" id="7a1sdOOy9qH" role="3cpWs9">
+            <property role="TrG5h" value="expected" />
+            <node concept="3uibUv" id="7a1sdOOy9qI" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
+            <node concept="2YIFZM" id="7a1sdOOy9qJ" role="33vP2m">
+              <ref role="37wK5l" node="4Ffa7sQ1S5H" resolve="expandTestFile" />
+              <ref role="1Pybhc" node="4Ffa7sQ1QVh" resolve="ConverterTestHelper" />
+              <node concept="Xl_RD" id="7a1sdOOy9qK" role="37wK5m">
+                <property role="Xl_RC" value="resources/TestLanguage_runtime_2024.1.json" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7a1sdOOy9qL" role="3cqZAp" />
+        <node concept="3vlDli" id="7a1sdOOy9qM" role="3cqZAp">
+          <node concept="2YIFZM" id="7a1sdOOy9qN" role="3tpDZB">
+            <ref role="37wK5l" to="18ew:~FileUtil.read(java.io.File)" resolve="read" />
+            <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
+            <node concept="37vLTw" id="7a1sdOOy9qO" role="37wK5m">
+              <ref role="3cqZAo" node="7a1sdOOy9qv" resolve="actual" />
+            </node>
+          </node>
+          <node concept="2YIFZM" id="7a1sdOOy9qP" role="3tpDZA">
+            <ref role="37wK5l" to="18ew:~FileUtil.read(java.io.File)" resolve="read" />
+            <ref role="1Pybhc" to="18ew:~FileUtil" resolve="FileUtil" />
+            <node concept="37vLTw" id="7a1sdOOy9qQ" role="37wK5m">
+              <ref role="3cqZAo" node="7a1sdOOy9qH" resolve="expected" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="7a1sdOOy9qR" role="1SKRRt">
+      <node concept="3IuRE0" id="7a1sdOOy9Wg" role="1qenE9">
+        <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.lang.test/exported/TestLanguage_runtime_2023.1.json" />
+        <property role="3qKxPQ" value="utjSYFIbxr/listed" />
+        <property role="TrG5h" value="2023.1" />
+        <node concept="3xLA65" id="7a1sdOOy9Wh" role="lGtFl">
+          <property role="TrG5h" value="2023.1" />
+        </node>
+        <node concept="2V$Bhx" id="7a1sdOOy9Wi" role="qeD2G">
+          <property role="2V$B1T" value="92391e21-ea08-4138-bebc-1abd550ce4bf" />
+          <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLanguage" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="7a1sdOOy9qW" role="1SKRRt">
+      <node concept="3IuRE0" id="7a1sdOOya8_" role="1qenE9">
+        <property role="VS7hl" value="${lionweb-mps.home}/solutions/io.lionweb.mps.lang.test/exported/TestLanguage_runtime_2024.1.json" />
+        <property role="3qKxPQ" value="utjSYFIbxr/listed" />
+        <property role="TrG5h" value="2024.1" />
+        <property role="1Z0toy" value="4Ffa7sPNJRk/v2024_1" />
+        <node concept="3xLA65" id="7a1sdOOya8A" role="lGtFl">
+          <property role="TrG5h" value="2024.1" />
+        </node>
+        <node concept="2V$Bhx" id="7a1sdOOya8B" role="qeD2G">
+          <property role="2V$B1T" value="92391e21-ea08-4138-bebc-1abd550ce4bf" />
+          <property role="2V$B1Q" value="io.lionweb.mps.converter.TestLanguage" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
