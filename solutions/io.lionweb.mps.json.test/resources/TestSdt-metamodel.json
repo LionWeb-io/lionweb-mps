@@ -410,7 +410,12 @@
             "version": "2024.1",
             "key": "Concept-implements"
           },
-          "targets": []
+          "targets": [
+            {
+              "resolveInfo": "LionWeb.LionCore_builtins.INamed",
+              "reference": "LionCore-builtins-INamed-2024-1"
+            }
+          ]
         }
       ],
       "annotations": [],
