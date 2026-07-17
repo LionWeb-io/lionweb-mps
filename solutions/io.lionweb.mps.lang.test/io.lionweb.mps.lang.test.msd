@@ -20,7 +20,6 @@
     <dependency reexport="false">bad98056-795e-4229-bc62-724536f49fe6(io.lionweb.mps.converter.TestSdt)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:08caad75-8246-4427-bb4d-8444b6c5c729:io.lionweb.mps.converter.TestLang" version="0" />
     <language slang="l:92391e21-ea08-4138-bebc-1abd550ce4bf:io.lionweb.mps.converter.TestLanguage" version="0" />
     <language slang="l:bad98056-795e-4229-bc62-724536f49fe6:io.lionweb.mps.converter.TestSdt" version="0" />
     <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="3" />
@@ -33,14 +32,12 @@
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="2" />
     <language slang="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" version="0" />
     <language slang="l:f61473f9-130f-42f6-b98d-6c438812c2f6:jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <language slang="l:63650c59-16c8-498a-99c8-005c7ee9515d:jetbrains.mps.lang.access" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
     <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="19" />
     <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="9" />
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="6" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
-    <language slang="l:537f9cb0-0f25-3c76-8b86-308f45010100:library" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
