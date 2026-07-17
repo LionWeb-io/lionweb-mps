@@ -2228,15 +2228,8 @@
             <node concept="3uibUv" id="4fqYzE87JFl" role="1tU5fm">
               <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
             </node>
-            <node concept="2YIFZM" id="4Ffa7sPNZuO" role="33vP2m">
-              <ref role="37wK5l" node="4Ffa7sPNQv4" resolve="toAdapter" />
-              <ref role="1Pybhc" node="4Ffa7sPNQq5" resolve="LionWebConversionVersionHelper" />
-              <node concept="2OqwBi" id="4Ffa7sPO0Ju" role="37wK5m">
-                <node concept="13iPFW" id="4Ffa7sPNZWu" role="2Oq$k0" />
-                <node concept="3TrcHB" id="4Ffa7sPO1qh" role="2OqNvi">
-                  <ref role="3TsBF5" to="d0tf:4Ffa7sPNJXF" resolve="lionWebVersion" />
-                </node>
-              </node>
+            <node concept="BsUDl" id="3XWyWzFW60y" role="33vP2m">
+              <ref role="37wK5l" node="78CjgICUQpy" resolve="getLionWebVersion" />
             </node>
           </node>
         </node>
@@ -2822,10 +2815,8 @@
             <node concept="3uibUv" id="1KsTggJit2B" role="1tU5fm">
               <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
             </node>
-            <node concept="2ShNRf" id="1KsTggJiv83" role="33vP2m">
-              <node concept="HV5vD" id="1KsTggJivRo" role="2ShVmc">
-                <ref role="HV5vE" to="6peh:1KsTggJeQM5" resolve="LionWebVersionAdapter" />
-              </node>
+            <node concept="BsUDl" id="3XWyWzFW84Q" role="33vP2m">
+              <ref role="37wK5l" node="78CjgICUQpy" resolve="getLionWebVersion" />
             </node>
           </node>
         </node>
@@ -3603,27 +3594,6 @@
       <node concept="3clFbS" id="78CjgICUPjo" role="3clF47" />
       <node concept="3uibUv" id="78CjgICUPlx" role="Sfmx6">
         <ref role="3uigEE" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
-      </node>
-    </node>
-    <node concept="13i0hz" id="78CjgICUQpy" role="13h7CS">
-      <property role="TrG5h" value="getLionWebVersion" />
-      <node concept="3Tm6S6" id="78CjgICUQpz" role="1B3o_S" />
-      <node concept="3uibUv" id="78CjgICUQp$" role="3clF45">
-        <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
-      </node>
-      <node concept="3clFbS" id="78CjgICUQpm" role="3clF47">
-        <node concept="3cpWs6" id="78CjgICUQpu" role="3cqZAp">
-          <node concept="2YIFZM" id="4Ffa7sPNVLz" role="3cqZAk">
-            <ref role="37wK5l" node="4Ffa7sPNQv4" resolve="toAdapter" />
-            <ref role="1Pybhc" node="4Ffa7sPNQq5" resolve="LionWebConversionVersionHelper" />
-            <node concept="2OqwBi" id="4Ffa7sPNWc5" role="37wK5m">
-              <node concept="13iPFW" id="4Ffa7sPNVU_" role="2Oq$k0" />
-              <node concept="3TrcHB" id="4Ffa7sPNWx0" role="2OqNvi">
-                <ref role="3TsBF5" to="d0tf:4Ffa7sPNJTl" resolve="lionWebVersion" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="13i0hz" id="78CjgICVn2M" role="13h7CS">
@@ -4552,6 +4522,33 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4Ffa7sPNQq6" role="1B3o_S" />
+  </node>
+  <node concept="13h7C7" id="3XWyWzFW3cJ">
+    <ref role="13h7C2" to="d0tf:3XWyWzFVXOh" resolve="ILionWebVersionDependent" />
+    <node concept="13i0hz" id="78CjgICUQpy" role="13h7CS">
+      <property role="TrG5h" value="getLionWebVersion" />
+      <node concept="3Tmbuc" id="3XWyWzFW27z" role="1B3o_S" />
+      <node concept="3uibUv" id="78CjgICUQp$" role="3clF45">
+        <ref role="3uigEE" to="6peh:1KsTggJdySE" resolve="ILionWebVersionAdapter" />
+      </node>
+      <node concept="3clFbS" id="78CjgICUQpm" role="3clF47">
+        <node concept="3cpWs6" id="78CjgICUQpu" role="3cqZAp">
+          <node concept="2YIFZM" id="4Ffa7sPNVLz" role="3cqZAk">
+            <ref role="37wK5l" node="4Ffa7sPNQv4" resolve="toAdapter" />
+            <ref role="1Pybhc" node="4Ffa7sPNQq5" resolve="LionWebConversionVersionHelper" />
+            <node concept="2OqwBi" id="4Ffa7sPNWc5" role="37wK5m">
+              <node concept="13iPFW" id="4Ffa7sPNVU_" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4Ffa7sPNWx0" role="2OqNvi">
+                <ref role="3TsBF5" to="d0tf:4Ffa7sPNJTl" resolve="lionWebVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="3XWyWzFW3cK" role="13h7CW">
+      <node concept="3clFbS" id="3XWyWzFW3cL" role="2VODD2" />
+    </node>
   </node>
 </model>
 

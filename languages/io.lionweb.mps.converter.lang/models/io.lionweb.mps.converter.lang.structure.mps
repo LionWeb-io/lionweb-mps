@@ -129,6 +129,9 @@
     <node concept="PrWs8" id="7qGUpN3CiCo" role="PzmwI">
       <ref role="PrY4T" node="7qGUpN3Cils" resolve="ILanguageReferenceContainer" />
     </node>
+    <node concept="PrWs8" id="3XWyWzFW6tO" role="PzmwI">
+      <ref role="PrY4T" node="3XWyWzFVXOh" resolve="ILionWebVersionDependent" />
+    </node>
     <node concept="1QGGSu" id="5glO5qL6eP_" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/language2json.png" />
     </node>
@@ -172,13 +175,11 @@
       <property role="TrG5h" value="exportComputedProperties" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="4Ffa7sPNJXF" role="1TKVEl">
-      <property role="IQ2nx" value="5390571771454750571" />
-      <property role="TrG5h" value="lionWebVersion" />
-      <ref role="AX2Wp" node="4Ffa7sPNJNi" resolve="LionWebConversionVersion" />
-    </node>
     <node concept="1QGGSu" id="5glO5qL6ePy" role="rwd14">
       <property role="1iqoE4" value="${module}/icons/instance2json.png" />
+    </node>
+    <node concept="PrWs8" id="3XWyWzFVXOk" role="PzmwI">
+      <ref role="PrY4T" node="3XWyWzFVXOh" resolve="ILionWebVersionDependent" />
     </node>
   </node>
   <node concept="1TIwiD" id="39$JcGF9n8k">
@@ -329,6 +330,9 @@
     <node concept="PrWs8" id="78CjgICU_0a" role="PzmwI">
       <ref role="PrY4T" node="1q44RFSZQFB" resolve="ILanguageIdentityContainer" />
     </node>
+    <node concept="PrWs8" id="3XWyWzFVXOi" role="PzmwI">
+      <ref role="PrY4T" node="3XWyWzFVXOh" resolve="ILionWebVersionDependent" />
+    </node>
     <node concept="1TJgyi" id="78CjgICU_1X" role="1TKVEl">
       <property role="IQ2nx" value="8225909431866118269" />
       <property role="TrG5h" value="scope" />
@@ -343,11 +347,6 @@
       <property role="IQ2nx" value="8225909431866118409" />
       <property role="TrG5h" value="exportSpecialAnnotations" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="4Ffa7sPNJTl" role="1TKVEl">
-      <property role="IQ2nx" value="5390571771454750293" />
-      <property role="TrG5h" value="lionWebVersion" />
-      <ref role="AX2Wp" node="4Ffa7sPNJNi" resolve="LionWebConversionVersion" />
     </node>
   </node>
   <node concept="1TIwiD" id="78CjgICU_9y">
@@ -384,6 +383,15 @@
       <property role="3tVfz5" value="5390571771454750164" />
       <property role="TrG5h" value="v2024_1" />
       <property role="1L1pqM" value="2024.1" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3XWyWzFVXOh">
+    <property role="EcuMT" value="4574685016569666833" />
+    <property role="TrG5h" value="ILionWebVersionDependent" />
+    <node concept="1TJgyi" id="4Ffa7sPNJTl" role="1TKVEl">
+      <property role="IQ2nx" value="5390571771454750293" />
+      <property role="TrG5h" value="lionWebVersion" />
+      <ref role="AX2Wp" node="4Ffa7sPNJNi" resolve="LionWebConversionVersion" />
     </node>
   </node>
 </model>
