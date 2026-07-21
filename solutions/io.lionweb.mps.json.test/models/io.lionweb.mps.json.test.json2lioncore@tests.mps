@@ -3414,7 +3414,7 @@
                 <property role="Xl_RC" value="TestSdt-metamodel.json" />
               </node>
               <node concept="3xONca" id="3XWyWzGfMca" role="37wK5m">
-                <ref role="3xOPvv" node="3XWyWzGfMcp" resolve="lang" />
+                <ref role="3xOPvv" node="3XWyWzGPTNs" resolve="import" />
               </node>
               <node concept="2ShNRf" id="3XWyWzGgSIW" role="37wK5m">
                 <node concept="HV5vD" id="3XWyWzGgTn2" role="2ShVmc">
@@ -3473,15 +3473,15 @@
         <node concept="7Bp5z" id="3XWyWzGfWqf" role="2RzR6B">
           <property role="2RzON1" value="IntermediateSdt" />
           <property role="TrG5h" value="IntermediateSdt" />
-          <node concept="7Bp1Z" id="3XWyWzGfWsm" role="7BpXF">
-            <property role="2RzON1" value="IntermediateSdt-intermediateString" />
-            <property role="TrG5h" value="intermediateString" />
-            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
-          </node>
           <node concept="7Bp1Z" id="3XWyWzGfWNC" role="7BpXF">
             <property role="2RzON1" value="IntermediateSdt-first" />
             <property role="TrG5h" value="first" />
             <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfWsm" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-intermediateString" />
+            <property role="TrG5h" value="intermediateString" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
           <node concept="7Bp1Z" id="3XWyWzGfWND" role="7BpXF">
             <property role="2RzON1" value="IntermediateSdt-second" />
@@ -3579,6 +3579,127 @@
             <property role="2RzON1" value="TopLevelSdt-nested" />
             <property role="TrG5h" value="nested" />
             <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3XWyWzGPTNq" role="1SKRRt">
+      <node concept="2RzRRF" id="3XWyWzGPTNr" role="1qenE9">
+        <property role="TrG5h" value="io.lionweb.mps.converter.TestSdt" />
+        <property role="3HH78N" value="a" />
+        <property role="2RzON1" value="My-TestSdtLang" />
+        <node concept="3xLA65" id="3XWyWzGPTNs" role="lGtFl">
+          <property role="TrG5h" value="import" />
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGPTNt" role="2RzR6B">
+          <property role="2RzON1" value="IntermediateSdt" />
+          <property role="TrG5h" value="IntermediateSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGPTNu" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-first" />
+            <property role="TrG5h" value="first" />
+            <ref role="7Bruf" node="3XWyWzGPTNx" resolve="NestedSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNv" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-intermediateString" />
+            <property role="TrG5h" value="intermediateString" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNw" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-second" />
+            <property role="TrG5h" value="second" />
+            <ref role="7Bruf" node="3XWyWzGPTNx" resolve="NestedSdt" />
+          </node>
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGPTNx" role="2RzR6B">
+          <property role="2RzON1" value="NestedSdt" />
+          <property role="TrG5h" value="NestedSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGPTNy" role="7BpXF">
+            <property role="2RzON1" value="NestedSdt-int" />
+            <property role="TrG5h" value="int" />
+            <ref role="7Bruf" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzGPTNz" role="2RzR6B">
+          <property role="2RzON1" value="SdtConcept" />
+          <property role="TrG5h" value="SdtConcept" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOpR" id="3XWyWzGPTNC" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-myself" />
+            <property role="TrG5h" value="myself" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" node="3XWyWzGPTNz" resolve="SdtConcept" />
+          </node>
+          <node concept="2RzOte" id="3XWyWzGPTN_" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-nesting" />
+            <property role="TrG5h" value="nesting" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" node="3XWyWzGPTNz" resolve="SdtConcept" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGPTNA" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-optionalTop" />
+            <property role="TrG5h" value="optionalTop" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="3XWyWzGPTNH" resolve="TopLevelSdt" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGPTNB" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-requiredTop" />
+            <property role="TrG5h" value="requiredTop" />
+            <ref role="2Rx9Fl" node="3XWyWzGPTNH" resolve="TopLevelSdt" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGPTN$" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-string" />
+            <property role="TrG5h" value="string" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzQOr" id="3XWyWzGPTND" role="2RzQ4z">
+            <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="3XWyWzGPTNE" role="2RzR6B">
+          <property role="2RzON1" value="SdtEnum" />
+          <property role="TrG5h" value="SdtEnum" />
+          <node concept="2RzSPr" id="3XWyWzGPTNF" role="2RzSVc">
+            <property role="2RzON1" value="SdtEnum-A" />
+            <property role="TrG5h" value="A" />
+          </node>
+          <node concept="2RzSPr" id="3XWyWzGPTNG" role="2RzSVc">
+            <property role="2RzON1" value="SdtEnum-B" />
+            <property role="TrG5h" value="B" />
+          </node>
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGPTNH" role="2RzR6B">
+          <property role="2RzON1" value="TopLevelSdt" />
+          <property role="TrG5h" value="TopLevelSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGPTNK" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-boolean" />
+            <property role="TrG5h" value="boolean" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNL" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-enum" />
+            <property role="TrG5h" value="enum" />
+            <ref role="7Bruf" node="3XWyWzGPTNE" resolve="SdtEnum" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNJ" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-integer" />
+            <property role="TrG5h" value="integer" />
+            <ref role="7Bruf" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNM" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-intermediate" />
+            <property role="TrG5h" value="intermediate" />
+            <ref role="7Bruf" node="3XWyWzGPTNt" resolve="IntermediateSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNN" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-nested" />
+            <property role="TrG5h" value="nested" />
+            <ref role="7Bruf" node="3XWyWzGPTNx" resolve="NestedSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGPTNI" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-string" />
+            <property role="TrG5h" value="string" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
           </node>
         </node>
       </node>
