@@ -61,6 +61,10 @@
         <property id="7205279169712116354" name="key" index="2DM1AS" />
       </concept>
       <concept id="7205279169712116358" name="io.lionweb.mps.structure.attribute.structure.LionWebEntityKey" flags="ng" index="2DM1AW" />
+      <concept id="6461713321120959611" name="io.lionweb.mps.structure.attribute.structure.LionWebOptionalProperty" flags="ng" index="3KvT9W">
+        <property id="6461713321120959618" name="optional" index="3KvTa5" />
+      </concept>
+      <concept id="6461713321120959620" name="io.lionweb.mps.structure.attribute.structure.LionWebPartitionConcept" flags="ng" index="3KvTa3" />
     </language>
   </registry>
   <node concept="1TIwiD" id="1_rLWsxVBvM">
@@ -74,6 +78,9 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
       <node concept="2DM1AW" id="1_rLWsxVGcq" role="lGtFl">
         <property role="2DM1AS" value="SdtConcept-string" />
+      </node>
+      <node concept="3KvT9W" id="3XWyWzIVKyH" role="lGtFl">
+        <property role="3KvTa5" value="true" />
       </node>
     </node>
     <node concept="1TJgyj" id="1_rLWsxVBVW" role="1TKVEi">
@@ -118,6 +125,7 @@
     <node concept="PrWs8" id="4Ffa7sMskZu" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="3KvTa3" id="3XWyWzIVKyG" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1_rLWsxVC5l">
     <property role="EcuMT" value="1827273731910566229" />
