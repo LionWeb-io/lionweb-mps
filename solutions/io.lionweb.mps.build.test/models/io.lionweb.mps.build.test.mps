@@ -568,6 +568,16 @@
           <ref role="3bR37D" to="zcxr:4oHUzWXPb8V" resolve="io.lionweb.mps.converter.TestLang3" />
         </node>
       </node>
+      <node concept="1SiIV0" id="3XWyWzIW_b1" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzIW_b2" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="3XWyWzIW_b3" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzIW_b4" role="1SiIV1">
+          <ref role="3bR37D" to="zcxr:5Thq89KWSZj" resolve="io.lionweb.mps.testsupport" />
+        </node>
+      </node>
     </node>
     <node concept="1E1JtA" id="3fg6BaZxW07" role="3989C9">
       <property role="BnDLt" value="true" />
