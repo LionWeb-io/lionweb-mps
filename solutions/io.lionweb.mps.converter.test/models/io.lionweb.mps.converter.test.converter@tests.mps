@@ -4759,15 +4759,15 @@
         <node concept="7Bp5z" id="3XWyWzGfWqf" role="2RzR6B">
           <property role="2RzON1" value="IntermediateSdt" />
           <property role="TrG5h" value="IntermediateSdt" />
-          <node concept="7Bp1Z" id="3XWyWzGfWNC" role="7BpXF">
-            <property role="2RzON1" value="IntermediateSdt-first" />
-            <property role="TrG5h" value="first" />
-            <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
-          </node>
           <node concept="7Bp1Z" id="3XWyWzGfWsm" role="7BpXF">
             <property role="2RzON1" value="IntermediateSdt-intermediateString" />
             <property role="TrG5h" value="intermediateString" />
             <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfWNC" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-first" />
+            <property role="TrG5h" value="first" />
+            <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
           </node>
           <node concept="7Bp1Z" id="3XWyWzGfWND" role="7BpXF">
             <property role="2RzON1" value="IntermediateSdt-second" />
