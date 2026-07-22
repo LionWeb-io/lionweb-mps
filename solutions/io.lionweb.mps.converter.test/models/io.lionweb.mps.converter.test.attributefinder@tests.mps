@@ -269,7 +269,7 @@
                   <property role="Xl_RC" value="LionCore-M3" />
                 </node>
                 <node concept="Xl_RD" id="5hylulqnH6h" role="37wK5m">
-                  <property role="Xl_RC" value="2023.1" />
+                  <property role="Xl_RC" value="2024.1" />
                 </node>
               </node>
             </node>
@@ -5708,7 +5708,7 @@
             <ref role="3cqZAo" node="6jbF0BnZ5xa" resolve="version" />
           </node>
           <node concept="Xl_RD" id="6jbF0BnZ5xr" role="3tpDZB">
-            <property role="Xl_RC" value="2023.1" />
+            <property role="Xl_RC" value="2024.1" />
           </node>
         </node>
       </node>
@@ -6014,7 +6014,7 @@
             <ref role="3cqZAo" node="6jbF0BnZ5za" resolve="version" />
           </node>
           <node concept="Xl_RD" id="6jbF0BnZ5zl" role="3tpDZB">
-            <property role="Xl_RC" value="2023.1" />
+            <property role="Xl_RC" value="2024.1" />
           </node>
         </node>
       </node>

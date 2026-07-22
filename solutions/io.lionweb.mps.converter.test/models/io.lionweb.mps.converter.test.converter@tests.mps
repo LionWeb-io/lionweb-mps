@@ -450,7 +450,7 @@
     <node concept="1qefOq" id="48csSBOZRSQ" role="1SKRRt">
       <node concept="2RzRRF" id="2fx6VTTnYmk" role="1qenE9">
         <property role="TrG5h" value="io.lionweb.mps.m3" />
-        <property role="3HH78N" value="2023.1" />
+        <property role="3HH78N" value="2024.1" />
         <property role="2RzON1" value="LionCore-M3" />
         <node concept="2RzPaY" id="7Cdxs9DYA_l" role="2RzR6B">
           <property role="2RzON1" value="IKeyed" />
@@ -678,6 +678,30 @@
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="Interface" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="1_rLWsuSGB_" role="2RzR6B">
+          <property role="2RzON1" value="StructuredDataType" />
+          <property role="TrG5h" value="StructuredDataType" />
+          <ref role="2RzPfO" node="2fx6VTTnYmR" resolve="DataType" />
+          <node concept="2RzOte" id="1_rLWsuSGBA" role="2RzPPN">
+            <property role="2RzON1" value="StructuredDataType-fields" />
+            <property role="TrG5h" value="fields" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="1_rLWsuSGBB" resolve="Field" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="1_rLWsuSGBB" role="2RzR6B">
+          <property role="2RzON1" value="Field" />
+          <property role="TrG5h" value="Field" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzQOr" id="1_rLWsuSGBC" role="2RzQ4z">
+            <ref role="2RzQOs" node="7Cdxs9DYA_l" resolve="IKeyed" />
+          </node>
+          <node concept="2RzOpR" id="1_rLWsuSGBD" role="2RzPPN">
+            <property role="2RzON1" value="Field-type" />
+            <property role="TrG5h" value="type" />
+            <ref role="2RzQvY" node="2fx6VTTnYmR" resolve="DataType" />
           </node>
         </node>
       </node>
@@ -1036,7 +1060,7 @@
     <node concept="1qefOq" id="48csSBPBtmM" role="1SKRRt">
       <node concept="2RzRRF" id="7Cdxs9E1gH1" role="1qenE9">
         <property role="TrG5h" value="io.lionweb.mps.m3" />
-        <property role="3HH78N" value="0" />
+        <property role="3HH78N" value="2024.1" />
         <property role="2RzON1" value="LionCore-M3" />
         <node concept="2RzPaY" id="7Cdxs9E1gH2" role="2RzR6B">
           <property role="2RzON1" value="IKeyed" />
@@ -1260,6 +1284,30 @@
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="Interface" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzIYBw0" role="2RzR6B">
+          <property role="2RzON1" value="StructuredDataType" />
+          <property role="TrG5h" value="StructuredDataType" />
+          <ref role="2RzPfO" node="7Cdxs9E1gHz" resolve="DataType" />
+          <node concept="2RzOte" id="3XWyWzIYBw1" role="2RzPPN">
+            <property role="2RzON1" value="StructuredDataType-fields" />
+            <property role="TrG5h" value="fields" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="3XWyWzIYBw2" resolve="Field" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzIYBw2" role="2RzR6B">
+          <property role="2RzON1" value="Field" />
+          <property role="TrG5h" value="Field" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzQOr" id="3XWyWzIYBw3" role="2RzQ4z">
+            <ref role="2RzQOs" node="7Cdxs9E1gH2" resolve="IKeyed" />
+          </node>
+          <node concept="2RzOpR" id="3XWyWzIYBw4" role="2RzPPN">
+            <property role="2RzON1" value="Field-type" />
+            <property role="TrG5h" value="type" />
+            <ref role="2RzQvY" node="7Cdxs9E1gHz" resolve="DataType" />
           </node>
         </node>
       </node>

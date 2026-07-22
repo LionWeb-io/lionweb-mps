@@ -281,8 +281,8 @@
       <property role="TrG5h" value="StructuredDataType" />
       <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
       <node concept="2RzOte" id="1_rLWsuSGBA" role="2RzPPN">
-        <property role="2RzON1" value="StructuredDataType-field" />
-        <property role="TrG5h" value="field" />
+        <property role="2RzON1" value="StructuredDataType-fields" />
+        <property role="TrG5h" value="fields" />
         <property role="2RzOhW" value="true" />
         <ref role="2RzQvY" node="1_rLWsuSGBB" resolve="Field" />
       </node>

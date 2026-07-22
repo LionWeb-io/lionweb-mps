@@ -445,7 +445,7 @@
   </node>
   <node concept="2DM1_0" id="5AGBwuDAKCg">
     <property role="2DM1AS" value="LionCore-M3" />
-    <property role="2NbWok" value="2023.1" />
+    <property role="2NbWok" value="2024.1" />
   </node>
   <node concept="1TIwiD" id="18UigYQyrxa">
     <property role="EcuMT" value="1313442573167736906" />
