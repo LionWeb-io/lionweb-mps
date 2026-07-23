@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/MultiRefLang/MultiRefLang.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.Empty/io.lionweb.mps.converter.Empty.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAbstract/io.lionweb.mps.converter.TestAbstract.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAllBuiltins/io.lionweb.mps.converter.TestAllBuiltins.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestAnnotation/io.lionweb.mps.converter.TestAnnotation.mpl" folder="test.langs" />
@@ -15,9 +16,11 @@
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang2/io.lionweb.mps.converter.TestLang2.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLang3/io.lionweb.mps.converter.TestLang3.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLangBroken/io.lionweb.mps.converter.TestLangBroken.mpl" folder="xx_broken" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLanguage/io.lionweb.mps.converter.TestLanguage.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestLanguageAnnotation/io.lionweb.mps.converter.TestLanguageAnnotation.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestMpsSpecific/io.lionweb.mps.converter.TestMpsSpecific.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestRefs/io.lionweb.mps.converter.TestRefs.mpl" folder="test.langs" />
+      <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestSdt/io.lionweb.mps.converter.TestSdt.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.TestUtf8/io.lionweb.mps.converter.TestUtf8.mpl" folder="test.langs" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates/io.lionweb.mps.converter.deps.AnnotationAnnotates.mpl" folder="test.dependencies" />
       <modulePath path="$PROJECT_DIR$/languages/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node/io.lionweb.mps.converter.deps.AnnotationAnnotates_Node.mpl" folder="test.dependencies" />

@@ -223,6 +223,26 @@
           <ref role="3bR37D" to="e6nc:6fYiNFaW8NT" resolve="io.lionweb.mps.structure.attribute" />
         </node>
       </node>
+      <node concept="1SiIV0" id="3XWyWzG2ym9" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzG2yma" role="1SiIV1">
+          <ref role="3bR37D" to="e6nc:5wsogBcGDM$" resolve="io.lionweb.mps.converter.lang" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="3XWyWzG2ymb" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzG2ymc" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="3XWyWzG2yNH" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzG2yNI" role="1SiIV1">
+          <ref role="3bR37D" to="zcxr:3XWyWzG2ypN" resolve="io.lionweb.mps.converter.TestSdt" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="3XWyWzG2yNJ" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzG2yNK" role="1SiIV1">
+          <ref role="3bR37D" to="zcxr:3XWyWzG2yAs" resolve="io.lionweb.mps.converter.TestLanguage" />
+        </node>
+      </node>
     </node>
     <node concept="1E1JtA" id="2_4dqAZFOxd" role="3989C9">
       <property role="BnDLt" value="true" />
@@ -546,6 +566,16 @@
       <node concept="1SiIV0" id="7uHnlfEgjO7" role="3bR37C">
         <node concept="3bR9La" id="7uHnlfEgjO8" role="1SiIV1">
           <ref role="3bR37D" to="zcxr:4oHUzWXPb8V" resolve="io.lionweb.mps.converter.TestLang3" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="3XWyWzIW_b1" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzIW_b2" role="1SiIV1">
+          <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+        </node>
+      </node>
+      <node concept="1SiIV0" id="3XWyWzIW_b3" role="3bR37C">
+        <node concept="3bR9La" id="3XWyWzIW_b4" role="1SiIV1">
+          <ref role="3bR37D" to="zcxr:5Thq89KWSZj" resolve="io.lionweb.mps.testsupport" />
         </node>
       </node>
     </node>

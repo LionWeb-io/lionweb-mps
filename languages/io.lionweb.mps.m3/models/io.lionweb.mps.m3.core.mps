@@ -54,7 +54,7 @@
   </registry>
   <node concept="2RzRRF" id="5sACIIs$PgG">
     <property role="TrG5h" value="LionCore_M3" />
-    <property role="3HH78N" value="2023.1" />
+    <property role="3HH78N" value="2024.1" />
     <property role="2RzON1" value="LionCore-M3" />
     <node concept="2RzPWn" id="5sACIIs$PgR" role="2RzR6B">
       <property role="2RzP46" value="true" />
@@ -275,6 +275,29 @@
       <property role="2RzON1" value="Reference" />
       <property role="TrG5h" value="Reference" />
       <ref role="2RzPfO" node="5sACIIs$Ph3" resolve="Link" />
+    </node>
+    <node concept="2RzPWn" id="1_rLWsuSGB_" role="2RzR6B">
+      <property role="2RzON1" value="StructuredDataType" />
+      <property role="TrG5h" value="StructuredDataType" />
+      <ref role="2RzPfO" node="5sACIIs$Ph9" resolve="DataType" />
+      <node concept="2RzOte" id="1_rLWsuSGBA" role="2RzPPN">
+        <property role="2RzON1" value="StructuredDataType-fields" />
+        <property role="TrG5h" value="fields" />
+        <property role="2RzOhW" value="true" />
+        <ref role="2RzQvY" node="1_rLWsuSGBB" resolve="Field" />
+      </node>
+    </node>
+    <node concept="2RzPWn" id="1_rLWsuSGBB" role="2RzR6B">
+      <property role="2RzON1" value="Field" />
+      <property role="TrG5h" value="Field" />
+      <node concept="2RzQOr" id="1_rLWsuSGBC" role="2RzQ4z">
+        <ref role="2RzQOs" node="19nRYgR_pax" resolve="IKeyed" />
+      </node>
+      <node concept="2RzOpR" id="1_rLWsuSGBD" role="2RzPPN">
+        <property role="2RzON1" value="Field-type" />
+        <property role="TrG5h" value="type" />
+        <ref role="2RzQvY" node="5sACIIs$Ph9" resolve="DataType" />
+      </node>
     </node>
   </node>
 </model>

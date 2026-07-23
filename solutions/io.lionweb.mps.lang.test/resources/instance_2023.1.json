@@ -1,0 +1,135 @@
+{
+  "serializationFormatVersion": "2023.1",
+  "languages": [
+    {
+      "key": "TestLanguage",
+      "version": "0"
+    },
+    {
+      "key": "LionCore-builtins",
+      "version": "2023.1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "5390571771457939738",
+      "classifier": {
+        "language": "TestLanguage",
+        "version": "0",
+        "key": "TestPartition"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "MyPartition"
+        }
+      ],
+      "containments": [
+        {
+          "containment": {
+            "language": "TestLanguage",
+            "version": "0",
+            "key": "TestPartition-links"
+          },
+          "children": [
+            "5390571771457939739"
+          ]
+        }
+      ],
+      "references": [],
+      "annotations": [],
+      "parent": "5390571771457937623"
+    },
+    {
+      "id": "5390571771457939739",
+      "classifier": {
+        "language": "TestLanguage",
+        "version": "0",
+        "key": "LinkTestConcept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "root"
+        }
+      ],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "TestLanguage",
+            "version": "0",
+            "key": "LinkTestConcept-reference_1"
+          },
+          "targets": [
+            {
+              "resolveInfo": "target",
+              "reference": "5390571771457944864"
+            }
+          ]
+        }
+      ],
+      "annotations": [],
+      "parent": "5390571771457939738"
+    },
+    {
+      "id": "5390571771457944864",
+      "classifier": {
+        "language": "TestLanguage",
+        "version": "0",
+        "key": "LinkTestConcept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2023.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "target"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [
+        "5390571771458026737"
+      ],
+      "parent": "5390571771457943718"
+    },
+    {
+      "id": "5390571771458026737",
+      "classifier": {
+        "language": "TestLanguage",
+        "version": "0",
+        "key": "TestAnnotation"
+      },
+      "properties": [],
+      "containments": [],
+      "references": [
+        {
+          "reference": {
+            "language": "TestLanguage",
+            "version": "0",
+            "key": "TestAnnotation-ref"
+          },
+          "targets": [
+            {
+              "resolveInfo": "INamedConcept",
+              "reference": "1169194658468"
+            }
+          ]
+        }
+      ],
+      "annotations": [],
+      "parent": "5390571771457944864"
+    }
+  ]
+}

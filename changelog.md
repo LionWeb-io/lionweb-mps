@@ -1,5 +1,9 @@
 # Changelog for LionWeb-MPS
 
+## next
+* Supports exporting in LionWeb version 2023.1 and LionWeb version 2024.1.
+* Supports _structured data types_.
+
 ## 0.3.0
 * Requires at least MPS 2025.1.
 * Requires at least Gradle 9.

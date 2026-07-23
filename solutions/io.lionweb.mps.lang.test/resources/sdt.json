@@ -1,0 +1,53 @@
+{
+  "serializationFormatVersion": "2024.1",
+  "languages": [
+    {
+      "key": "My-TestSdtLang",
+      "version": "a"
+    },
+    {
+      "key": "LionCore-builtins",
+      "version": "2024.1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "5390571771398277133",
+      "classifier": {
+        "language": "My-TestSdtLang",
+        "version": "a",
+        "key": "SdtConcept"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LionCore-builtins",
+            "version": "2024.1",
+            "key": "LionCore-builtins-INamed-name"
+          },
+          "value": "TestSdt"
+        },
+        {
+          "property": {
+            "language": "My-TestSdtLang",
+            "version": "a",
+            "key": "SdtConcept-string"
+          },
+          "value": "myString"
+        },
+        {
+          "property": {
+            "language": "My-TestSdtLang",
+            "version": "a",
+            "key": "SdtConcept-requiredTop"
+          },
+          "value": "{\"TopLevelSdt-string\":\"reqStr\",\"TopLevelSdt-integer\":\"1\",\"TopLevelSdt-enum\":\"SdtEnum-A\",\"TopLevelSdt-intermediate\":{\"IntermediateSdt-intermediateString\":\"reqIntermediate\",\"IntermediateSdt-first\":{\"NestedSdt-int\":\"2\"},\"IntermediateSdt-second\":{\"NestedSdt-int\":\"3\"}},\"TopLevelSdt-nested\":{\"NestedSdt-int\":\"4\"}}"
+        }
+      ],
+      "containments": [],
+      "references": [],
+      "annotations": [],
+      "parent": "5390571771398259219"
+    }
+  ]
+}

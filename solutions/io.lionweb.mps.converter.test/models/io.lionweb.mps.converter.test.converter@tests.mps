@@ -156,6 +156,12 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="01cf0d82-8d29-4fc4-be96-28abaf4ad33d" name="io.lionweb.mps.m3">
+      <concept id="1827273731857602488" name="io.lionweb.mps.m3.structure.Field" flags="ng" index="7Bp1Z">
+        <reference id="1827273731857608776" name="type" index="7Bruf" />
+      </concept>
+      <concept id="1827273731857602212" name="io.lionweb.mps.m3.structure.StructuredDataType" flags="ng" index="7Bp5z">
+        <child id="1827273731857602732" name="fields" index="7BpXF" />
+      </concept>
       <concept id="1313442573167736906" name="io.lionweb.mps.m3.structure.Annotation" flags="ng" index="2$GZ55">
         <reference id="1313442573167736909" name="extends" index="2$GZ52" />
         <reference id="1313442573167736907" name="annotates" index="2$GZ54" />
@@ -444,7 +450,7 @@
     <node concept="1qefOq" id="48csSBOZRSQ" role="1SKRRt">
       <node concept="2RzRRF" id="2fx6VTTnYmk" role="1qenE9">
         <property role="TrG5h" value="io.lionweb.mps.m3" />
-        <property role="3HH78N" value="2023.1" />
+        <property role="3HH78N" value="2024.1" />
         <property role="2RzON1" value="LionCore-M3" />
         <node concept="2RzPaY" id="7Cdxs9DYA_l" role="2RzR6B">
           <property role="2RzON1" value="IKeyed" />
@@ -672,6 +678,30 @@
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="2fx6VTTnYmE" resolve="Interface" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="1_rLWsuSGB_" role="2RzR6B">
+          <property role="2RzON1" value="StructuredDataType" />
+          <property role="TrG5h" value="StructuredDataType" />
+          <ref role="2RzPfO" node="2fx6VTTnYmR" resolve="DataType" />
+          <node concept="2RzOte" id="1_rLWsuSGBA" role="2RzPPN">
+            <property role="2RzON1" value="StructuredDataType-fields" />
+            <property role="TrG5h" value="fields" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="1_rLWsuSGBB" resolve="Field" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="1_rLWsuSGBB" role="2RzR6B">
+          <property role="2RzON1" value="Field" />
+          <property role="TrG5h" value="Field" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzQOr" id="1_rLWsuSGBC" role="2RzQ4z">
+            <ref role="2RzQOs" node="7Cdxs9DYA_l" resolve="IKeyed" />
+          </node>
+          <node concept="2RzOpR" id="1_rLWsuSGBD" role="2RzPPN">
+            <property role="2RzON1" value="Field-type" />
+            <property role="TrG5h" value="type" />
+            <ref role="2RzQvY" node="2fx6VTTnYmR" resolve="DataType" />
           </node>
         </node>
       </node>
@@ -1030,7 +1060,7 @@
     <node concept="1qefOq" id="48csSBPBtmM" role="1SKRRt">
       <node concept="2RzRRF" id="7Cdxs9E1gH1" role="1qenE9">
         <property role="TrG5h" value="io.lionweb.mps.m3" />
-        <property role="3HH78N" value="0" />
+        <property role="3HH78N" value="2024.1" />
         <property role="2RzON1" value="LionCore-M3" />
         <node concept="2RzPaY" id="7Cdxs9E1gH2" role="2RzR6B">
           <property role="2RzON1" value="IKeyed" />
@@ -1254,6 +1284,30 @@
             <property role="2RzO1C" value="true" />
             <property role="2RzOhW" value="true" />
             <ref role="2RzQvY" node="7Cdxs9E1gHo" resolve="Interface" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzIYBw0" role="2RzR6B">
+          <property role="2RzON1" value="StructuredDataType" />
+          <property role="TrG5h" value="StructuredDataType" />
+          <ref role="2RzPfO" node="7Cdxs9E1gHz" resolve="DataType" />
+          <node concept="2RzOte" id="3XWyWzIYBw1" role="2RzPPN">
+            <property role="2RzON1" value="StructuredDataType-fields" />
+            <property role="TrG5h" value="fields" />
+            <property role="2RzOhW" value="true" />
+            <ref role="2RzQvY" node="3XWyWzIYBw2" resolve="Field" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzIYBw2" role="2RzR6B">
+          <property role="2RzON1" value="Field" />
+          <property role="TrG5h" value="Field" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzQOr" id="3XWyWzIYBw3" role="2RzQ4z">
+            <ref role="2RzQOs" node="7Cdxs9E1gH2" resolve="IKeyed" />
+          </node>
+          <node concept="2RzOpR" id="3XWyWzIYBw4" role="2RzPPN">
+            <property role="2RzON1" value="Field-type" />
+            <property role="TrG5h" value="type" />
+            <ref role="2RzQvY" node="7Cdxs9E1gHz" resolve="DataType" />
           </node>
         </node>
       </node>
@@ -4636,6 +4690,456 @@
               <ref role="3cqZAo" node="GfTf1YP945" resolve="diff" />
             </node>
             <node concept="1v1jN8" id="GfTf1YP$_w" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="3XWyWzGSIAN">
+    <property role="TrG5h" value="TestSdt_LanguageNodes2LionCore" />
+    <node concept="1LZb2c" id="3XWyWzGSIAO" role="1SL9yI">
+      <property role="TrG5h" value="fromLanguageNodes" />
+      <node concept="3cqZAl" id="3XWyWzGSIAP" role="3clF45" />
+      <node concept="3clFbS" id="3XWyWzGSIAQ" role="3clF47">
+        <node concept="3cpWs8" id="3XWyWzGSIAR" role="3cqZAp">
+          <node concept="3cpWsn" id="3XWyWzGSIAS" role="3cpWs9">
+            <property role="TrG5h" value="converted" />
+            <node concept="A3Dl8" id="3XWyWzGSIAT" role="1tU5fm">
+              <node concept="3Tqbb2" id="3XWyWzGSIAU" role="A3Ik2">
+                <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3XWyWzGSIAV" role="33vP2m">
+              <node concept="2OqwBi" id="3XWyWzGSIAW" role="2Oq$k0">
+                <node concept="2ShNRf" id="3XWyWzGSIAX" role="2Oq$k0">
+                  <node concept="1pGfFk" id="3XWyWzGSIAY" role="2ShVmc">
+                    <ref role="37wK5l" to="gkni:48csSBOFwsp" resolve="ToLionCore" />
+                    <node concept="3xONca" id="3XWyWzGSIAZ" role="37wK5m">
+                      <ref role="3xOPvv" node="3XWyWzGSIDt" resolve="input" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="3XWyWzGSIB0" role="2OqNvi">
+                  <ref role="37wK5l" to="gkni:48csSBOFDnj" resolve="fromLanguageNodes" />
+                </node>
+              </node>
+              <node concept="ANE8D" id="3XWyWzGSIB1" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3XWyWzGSIB2" role="3cqZAp" />
+        <node concept="3vlDli" id="3XWyWzGSIB3" role="3cqZAp">
+          <node concept="2OqwBi" id="3XWyWzGSIB4" role="3tpDZA">
+            <node concept="37vLTw" id="3XWyWzGSIB5" role="2Oq$k0">
+              <ref role="3cqZAo" node="3XWyWzGSIAS" resolve="converted" />
+            </node>
+            <node concept="34oBXx" id="3XWyWzGSIB6" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="3XWyWzGSIB7" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3XWyWzGSIB8" role="3cqZAp" />
+        <node concept="3clFbF" id="3XWyWzGSIB9" role="3cqZAp">
+          <node concept="2YIFZM" id="3XWyWzGSIBa" role="3clFbG">
+            <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
+            <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+            <node concept="2ShNRf" id="3XWyWzGSIBb" role="37wK5m">
+              <node concept="Tc6Ow" id="3XWyWzGSIBc" role="2ShVmc">
+                <node concept="3Tqbb2" id="3XWyWzGSIBd" role="HW$YZ">
+                  <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
+                </node>
+                <node concept="3xONca" id="3XWyWzGSIBe" role="HW$Y0">
+                  <ref role="3xOPvv" node="3XWyWzGfMcp" resolve="lang" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3XWyWzGSIBf" role="3cqZAp">
+          <node concept="3cpWsn" id="3XWyWzGSIBg" role="3cpWs9">
+            <property role="TrG5h" value="actual" />
+            <node concept="2I9FWS" id="3XWyWzGSIBh" role="1tU5fm">
+              <ref role="2I9WkF" to="h3y3:2ju2syjkngz" resolve="Language" />
+            </node>
+            <node concept="2YIFZM" id="3XWyWzGSIBi" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
+              <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+              <node concept="37vLTw" id="3XWyWzGSIBj" role="37wK5m">
+                <ref role="3cqZAo" node="3XWyWzGSIAS" resolve="converted" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1PQTyP" id="3XWyWzGSIBk" role="3cqZAp">
+          <node concept="2OqwBi" id="3XWyWzGSIBl" role="JAdkl">
+            <node concept="37vLTw" id="3XWyWzGSIBm" role="2Oq$k0">
+              <ref role="3cqZAo" node="3XWyWzGSIBg" resolve="actual" />
+            </node>
+            <node concept="1uHKPH" id="3XWyWzGSIBn" role="2OqNvi" />
+          </node>
+          <node concept="3xONca" id="3XWyWzGSIBo" role="JA92f">
+            <ref role="3xOPvv" node="3XWyWzGfMcp" resolve="lang" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3XWyWzGSIDr" role="1SKRRt">
+      <node concept="qeN9c" id="3XWyWzGSIDs" role="1qenE9">
+        <property role="TrG5h" value="Convert LionWeb" />
+        <node concept="3xLA65" id="3XWyWzGSIDt" role="lGtFl">
+          <property role="TrG5h" value="input" />
+        </node>
+        <node concept="2V$Bhx" id="3XWyWzGSLc9" role="qeD2G">
+          <property role="2V$B1T" value="bad98056-795e-4229-bc62-724536f49fe6" />
+          <property role="2V$B1Q" value="io.lionweb.mps.converter.TestSdt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3XWyWzGSIDv" role="1SKRRt">
+      <node concept="2RzRRF" id="3XWyWzGfMco" role="1qenE9">
+        <property role="TrG5h" value="io.lionweb.mps.converter.TestSdt" />
+        <property role="3HH78N" value="a" />
+        <property role="2RzON1" value="My-TestSdtLang" />
+        <node concept="3xLA65" id="3XWyWzGfMcp" role="lGtFl">
+          <property role="TrG5h" value="lang" />
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGfWqf" role="2RzR6B">
+          <property role="2RzON1" value="IntermediateSdt" />
+          <property role="TrG5h" value="IntermediateSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGfWsm" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-intermediateString" />
+            <property role="TrG5h" value="intermediateString" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfWNC" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-first" />
+            <property role="TrG5h" value="first" />
+            <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfWND" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-second" />
+            <property role="TrG5h" value="second" />
+            <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
+          </node>
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGfWvR" role="2RzR6B">
+          <property role="2RzON1" value="NestedSdt" />
+          <property role="TrG5h" value="NestedSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGfWvT" role="7BpXF">
+            <property role="2RzON1" value="NestedSdt-int" />
+            <property role="TrG5h" value="int" />
+            <ref role="7Bruf" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzGfW$7" role="2RzR6B">
+          <property role="2RzON1" value="SdtConcept" />
+          <property role="TrG5h" value="SdtConcept" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="3XWyWzGfWUa" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-string" />
+            <property role="TrG5h" value="string" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzOte" id="3XWyWzGfWUj" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-nesting" />
+            <property role="TrG5h" value="nesting" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" node="3XWyWzGfW$7" resolve="SdtConcept" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGfWUd" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-optionalTop" />
+            <property role="TrG5h" value="optionalTop" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="3XWyWzGfWHV" resolve="TopLevelSdt" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGfWUg" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-requiredTop" />
+            <property role="TrG5h" value="requiredTop" />
+            <ref role="2Rx9Fl" node="3XWyWzGfWHV" resolve="TopLevelSdt" />
+          </node>
+          <node concept="2RzOpR" id="3XWyWzGfWUm" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-myself" />
+            <property role="TrG5h" value="myself" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" node="3XWyWzGfW$7" resolve="SdtConcept" />
+          </node>
+          <node concept="2RzQOr" id="3XWyWzGfWU8" role="2RzQ4z">
+            <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="3XWyWzGfWDI" role="2RzR6B">
+          <property role="2RzON1" value="SdtEnum" />
+          <property role="TrG5h" value="SdtEnum" />
+          <node concept="2RzSPr" id="3XWyWzGfWYG" role="2RzSVc">
+            <property role="2RzON1" value="SdtEnum-A" />
+            <property role="TrG5h" value="A" />
+          </node>
+          <node concept="2RzSPr" id="3XWyWzGfWYH" role="2RzSVc">
+            <property role="2RzON1" value="SdtEnum-B" />
+            <property role="TrG5h" value="B" />
+          </node>
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGfWHV" role="2RzR6B">
+          <property role="2RzON1" value="TopLevelSdt" />
+          <property role="TrG5h" value="TopLevelSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGfWHX" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-string" />
+            <property role="TrG5h" value="string" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfX0a" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-integer" />
+            <property role="TrG5h" value="integer" />
+            <ref role="7Bruf" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfX0b" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-boolean" />
+            <property role="TrG5h" value="boolean" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfX0c" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-enum" />
+            <property role="TrG5h" value="enum" />
+            <ref role="7Bruf" node="3XWyWzGfWDI" resolve="SdtEnum" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfX0d" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-intermediate" />
+            <property role="TrG5h" value="intermediate" />
+            <ref role="7Bruf" node="3XWyWzGfWqf" resolve="IntermediateSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGfX0e" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-nested" />
+            <property role="TrG5h" value="nested" />
+            <ref role="7Bruf" node="3XWyWzGfWvR" resolve="NestedSdt" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="3XWyWzGSIEl">
+    <property role="TrG5h" value="TestSdt_RuntimeLanguage2LionCore" />
+    <node concept="1LZb2c" id="3XWyWzGSIEm" role="1SL9yI">
+      <property role="TrG5h" value="fromRuntimeLanguage" />
+      <node concept="3cqZAl" id="3XWyWzGSIEn" role="3clF45" />
+      <node concept="3clFbS" id="3XWyWzGSIEo" role="3clF47">
+        <node concept="3cpWs8" id="3XWyWzGSIEp" role="3cqZAp">
+          <node concept="3cpWsn" id="3XWyWzGSIEq" role="3cpWs9">
+            <property role="TrG5h" value="converted" />
+            <node concept="A3Dl8" id="3XWyWzGSIEr" role="1tU5fm">
+              <node concept="3Tqbb2" id="3XWyWzGSIEs" role="A3Ik2">
+                <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3XWyWzGSIEt" role="33vP2m">
+              <node concept="2OqwBi" id="3XWyWzGSIEu" role="2Oq$k0">
+                <node concept="2ShNRf" id="3XWyWzGSIEv" role="2Oq$k0">
+                  <node concept="1pGfFk" id="3XWyWzGSIEw" role="2ShVmc">
+                    <ref role="37wK5l" to="gkni:48csSBOFwsp" resolve="ToLionCore" />
+                    <node concept="3xONca" id="3XWyWzGSIEx" role="37wK5m">
+                      <ref role="3xOPvv" node="3XWyWzGSIH4" resolve="input" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="3XWyWzGSIEy" role="2OqNvi">
+                  <ref role="37wK5l" to="gkni:2fx6VTTfDSs" resolve="fromRuntimeLanguages" />
+                  <node concept="3clFbT" id="3XWyWzGSIEz" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+              <node concept="ANE8D" id="3XWyWzGSIE$" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3XWyWzGSIE_" role="3cqZAp" />
+        <node concept="3vlDli" id="3XWyWzGSIEA" role="3cqZAp">
+          <node concept="2OqwBi" id="3XWyWzGSIEB" role="3tpDZA">
+            <node concept="37vLTw" id="3XWyWzGSIEC" role="2Oq$k0">
+              <ref role="3cqZAo" node="3XWyWzGSIEq" resolve="converted" />
+            </node>
+            <node concept="34oBXx" id="3XWyWzGSIED" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="3XWyWzGSIEE" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3XWyWzGSIEF" role="3cqZAp" />
+        <node concept="3clFbF" id="3XWyWzGSIEG" role="3cqZAp">
+          <node concept="2YIFZM" id="3XWyWzGSIEH" role="3clFbG">
+            <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
+            <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+            <node concept="2ShNRf" id="3XWyWzGSIEI" role="37wK5m">
+              <node concept="Tc6Ow" id="3XWyWzGSIEJ" role="2ShVmc">
+                <node concept="3Tqbb2" id="3XWyWzGSIEK" role="HW$YZ">
+                  <ref role="ehGHo" to="h3y3:2ju2syjkngz" resolve="Language" />
+                </node>
+                <node concept="3xONca" id="3XWyWzGSIEL" role="HW$Y0">
+                  <ref role="3xOPvv" node="3XWyWzGT0Fi" resolve="lang" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3XWyWzGSIEM" role="3cqZAp">
+          <node concept="3cpWsn" id="3XWyWzGSIEN" role="3cpWs9">
+            <property role="TrG5h" value="actual" />
+            <node concept="2I9FWS" id="3XWyWzGSIEO" role="1tU5fm">
+              <ref role="2I9WkF" to="h3y3:2ju2syjkngz" resolve="Language" />
+            </node>
+            <node concept="2YIFZM" id="3XWyWzGSIEP" role="33vP2m">
+              <ref role="37wK5l" to="jfqc:48csSBPyH1i" resolve="sort" />
+              <ref role="1Pybhc" to="jfqc:48csSBPyj1E" resolve="LanguageSorter" />
+              <node concept="37vLTw" id="3XWyWzGSIEQ" role="37wK5m">
+                <ref role="3cqZAo" node="3XWyWzGSIEq" resolve="converted" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3XWyWzGSIER" role="3cqZAp" />
+        <node concept="1PQTyP" id="3XWyWzGSIES" role="3cqZAp">
+          <node concept="2OqwBi" id="3XWyWzGSIET" role="JAdkl">
+            <node concept="37vLTw" id="3XWyWzGSIEU" role="2Oq$k0">
+              <ref role="3cqZAo" node="3XWyWzGSIEN" resolve="actual" />
+            </node>
+            <node concept="1uHKPH" id="3XWyWzGSIEV" role="2OqNvi" />
+          </node>
+          <node concept="3xONca" id="3XWyWzGSIEW" role="JA92f">
+            <ref role="3xOPvv" node="3XWyWzGT0Fi" resolve="lang" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3XWyWzGSIH2" role="1SKRRt">
+      <node concept="qeN9c" id="3XWyWzGSIH3" role="1qenE9">
+        <property role="TrG5h" value="Convert LionWeb" />
+        <node concept="3xLA65" id="3XWyWzGSIH4" role="lGtFl">
+          <property role="TrG5h" value="input" />
+        </node>
+        <node concept="2V$Bhx" id="3XWyWzGSNA5" role="qeD2G">
+          <property role="2V$B1T" value="bad98056-795e-4229-bc62-724536f49fe6" />
+          <property role="2V$B1Q" value="io.lionweb.mps.converter.TestSdt" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3XWyWzGSIH6" role="1SKRRt">
+      <node concept="2RzRRF" id="3XWyWzGT0Fh" role="1qenE9">
+        <property role="TrG5h" value="io.lionweb.mps.converter.TestSdt" />
+        <property role="3HH78N" value="a" />
+        <property role="2RzON1" value="My-TestSdtLang" />
+        <node concept="3xLA65" id="3XWyWzGT0Fi" role="lGtFl">
+          <property role="TrG5h" value="lang" />
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGT0Fj" role="2RzR6B">
+          <property role="2RzON1" value="IntermediateSdt" />
+          <property role="TrG5h" value="IntermediateSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGT0Fl" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-intermediateString" />
+            <property role="TrG5h" value="intermediateString" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0Fk" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-first" />
+            <property role="TrG5h" value="first" />
+            <ref role="7Bruf" node="3XWyWzGT0Fn" resolve="NestedSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0Fm" role="7BpXF">
+            <property role="2RzON1" value="IntermediateSdt-second" />
+            <property role="TrG5h" value="second" />
+            <ref role="7Bruf" node="3XWyWzGT0Fn" resolve="NestedSdt" />
+          </node>
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGT0Fn" role="2RzR6B">
+          <property role="2RzON1" value="NestedSdt" />
+          <property role="TrG5h" value="NestedSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGT0Fo" role="7BpXF">
+            <property role="2RzON1" value="NestedSdt-int" />
+            <property role="TrG5h" value="int" />
+            <ref role="7Bruf" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+        </node>
+        <node concept="2RzPWn" id="3XWyWzGT0Fp" role="2RzR6B">
+          <property role="2RzON1" value="SdtConcept" />
+          <property role="TrG5h" value="SdtConcept" />
+          <ref role="2RzPfO" to="2pzz:39$JcGFBN1$" resolve="Node" />
+          <node concept="2RzOeU" id="3XWyWzGT0Fq" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-string" />
+            <property role="TrG5h" value="string" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="2RzOte" id="3XWyWzGT0Fr" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-nesting" />
+            <property role="TrG5h" value="nesting" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" node="3XWyWzGT0Fp" resolve="SdtConcept" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGT0Fs" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-optionalTop" />
+            <property role="TrG5h" value="optionalTop" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2Rx9Fl" node="3XWyWzGT0Fz" resolve="TopLevelSdt" />
+          </node>
+          <node concept="2RzOeU" id="3XWyWzGT0Ft" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-requiredTop" />
+            <property role="TrG5h" value="requiredTop" />
+            <ref role="2Rx9Fl" node="3XWyWzGT0Fz" resolve="TopLevelSdt" />
+          </node>
+          <node concept="2RzOpR" id="3XWyWzGT0Fu" role="2RzPPN">
+            <property role="2RzON1" value="SdtConcept-myself" />
+            <property role="TrG5h" value="myself" />
+            <property role="2RzO1C" value="true" />
+            <ref role="2RzQvY" node="3XWyWzGT0Fp" resolve="SdtConcept" />
+          </node>
+          <node concept="2RzQOr" id="3XWyWzGT0Fv" role="2RzQ4z">
+            <ref role="2RzQOs" to="2pzz:6jTTMHCZNUU" resolve="INamed" />
+          </node>
+        </node>
+        <node concept="2RzSE8" id="3XWyWzGT0Fw" role="2RzR6B">
+          <property role="2RzON1" value="SdtEnum" />
+          <property role="TrG5h" value="SdtEnum" />
+          <node concept="2RzSPr" id="3XWyWzGT0Fx" role="2RzSVc">
+            <property role="2RzON1" value="SdtEnum-A" />
+            <property role="TrG5h" value="A" />
+          </node>
+          <node concept="2RzSPr" id="3XWyWzGT0Fy" role="2RzSVc">
+            <property role="2RzON1" value="SdtEnum-B" />
+            <property role="TrG5h" value="B" />
+          </node>
+        </node>
+        <node concept="7Bp5z" id="3XWyWzGT0Fz" role="2RzR6B">
+          <property role="2RzON1" value="TopLevelSdt" />
+          <property role="TrG5h" value="TopLevelSdt" />
+          <node concept="7Bp1Z" id="3XWyWzGT0F$" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-string" />
+            <property role="TrG5h" value="string" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJjX" resolve="String" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0F_" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-integer" />
+            <property role="TrG5h" value="integer" />
+            <ref role="7Bruf" to="2pzz:48csSBPfMBo" resolve="Integer" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0FA" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-boolean" />
+            <property role="TrG5h" value="boolean" />
+            <ref role="7Bruf" to="2pzz:2ju2syjnJk2" resolve="Boolean" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0FB" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-enum" />
+            <property role="TrG5h" value="enum" />
+            <ref role="7Bruf" node="3XWyWzGT0Fw" resolve="SdtEnum" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0FC" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-intermediate" />
+            <property role="TrG5h" value="intermediate" />
+            <ref role="7Bruf" node="3XWyWzGT0Fj" resolve="IntermediateSdt" />
+          </node>
+          <node concept="7Bp1Z" id="3XWyWzGT0FD" role="7BpXF">
+            <property role="2RzON1" value="TopLevelSdt-nested" />
+            <property role="TrG5h" value="nested" />
+            <ref role="7Bruf" node="3XWyWzGT0Fn" resolve="NestedSdt" />
           </node>
         </node>
       </node>

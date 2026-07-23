@@ -176,5 +176,18 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="5AGBwuF9V$w" role="lGtFl" />
   </node>
+  <node concept="1TIwiD" id="1_rLWsuCLc$">
+    <property role="EcuMT" value="1827273731855291172" />
+    <property role="TrG5h" value="LionWebStructuredDataType" />
+    <property role="34LRSv" value="LionWeb Structured Data Type" />
+    <ref role="1TJDcQ" node="5AGBwuF9V$v" resolve="ALionWebNodeAttribute" />
+    <node concept="M6xJ_" id="1_rLWsuCLjN" role="lGtFl">
+      <property role="Hh88m" value="lionWebStructuredDataType" />
+      <node concept="tn0Fv" id="1_rLWsuCLkQ" role="HhnKV" />
+      <node concept="trNpa" id="1_rLWsuCLt7" role="EQaZv">
+        <ref role="trN6q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

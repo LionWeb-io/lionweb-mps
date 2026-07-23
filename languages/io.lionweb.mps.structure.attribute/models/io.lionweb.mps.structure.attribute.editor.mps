@@ -26,11 +26,15 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -290,6 +294,29 @@
         <node concept="2iRfu4" id="5AGBwuDOQ8q" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="5AGBwuDPcLJ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1_rLWsuFhGt">
+    <ref role="1XX52x" to="234s:1_rLWsuCLc$" resolve="LionWebStructuredDataType" />
+    <node concept="3EZMnI" id="1_rLWsuFhHx" role="2wV5jI">
+      <node concept="3EZMnI" id="1_rLWsuFhNL" role="3EZMnx">
+        <node concept="3F0ifn" id="1_rLWsuFtY9" role="3EZMnx">
+          <property role="3F0ifm" value="@" />
+          <node concept="Vb9p2" id="1_rLWsuFu2j" role="3F10Kt">
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
+          </node>
+          <node concept="11LMrY" id="1_rLWsuFu5r" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="VPM3Z" id="1_rLWsuFhNN" role="3F10Kt" />
+        <node concept="PMmxH" id="1_rLWsuFhNO" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="2iRfu4" id="1_rLWsuFhNS" role="2iSdaV" />
+      </node>
+      <node concept="2SsqMj" id="1_rLWsuFhXd" role="3EZMnx" />
+      <node concept="2iRkQZ" id="1_rLWsuFhH$" role="2iSdaV" />
     </node>
   </node>
 </model>
