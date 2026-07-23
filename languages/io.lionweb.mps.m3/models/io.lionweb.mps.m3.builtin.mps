@@ -20,7 +20,6 @@
       </concept>
       <concept id="2656571587264861919" name="io.lionweb.mps.m3.structure.Concept" flags="ng" index="2RzPWn">
         <property id="2656571587264862414" name="abstract" index="2RzP46" />
-        <reference id="2656571587264862780" name="extends" index="2RzPfO" />
       </concept>
       <concept id="2656571587264869411" name="io.lionweb.mps.m3.structure.Language" flags="ng" index="2RzRRF">
         <property id="2526956841135898600" name="version" index="3HH78N" />
@@ -58,7 +57,6 @@
       <property role="2RzON1" value="LionCore-builtins-Node" />
       <property role="TrG5h" value="Node" />
       <property role="2RzP46" value="true" />
-      <ref role="2RzPfO" node="39$JcGFBN1$" resolve="Node" />
     </node>
     <node concept="2RzPaY" id="6jTTMHCZNUU" role="2RzR6B">
       <property role="2RzON1" value="LionCore-builtins-INamed" />
