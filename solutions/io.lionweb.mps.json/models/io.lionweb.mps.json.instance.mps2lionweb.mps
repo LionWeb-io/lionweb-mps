@@ -31,6 +31,7 @@
     <import index="2qhi" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.language(io.lionweb.lionweb.java/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wy2b" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:com.google.gson(io.lionweb.lionweb.java/)" />
+    <import index="fxn" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb.model(io.lionweb.lionweb.java/)" />
     <import index="6cj4" ref="9d6d7230-3178-4b3f-a837-7c0180c86207/java:io.lionweb(io.lionweb.lionweb.java/)" implicit="true" />
   </imports>
   <registry>
@@ -411,6 +412,14 @@
         <ref role="3uigEE" to="6peh:5JNiskj4R_R" resolve="IJsonConstants" />
       </node>
     </node>
+    <node concept="312cEg" id="QZBtfheWsm" role="jymVt">
+      <property role="TrG5h" value="internalReferenceResolver" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="QZBtfhePT$" role="1B3o_S" />
+      <node concept="3uibUv" id="QZBtfheWsl" role="1tU5fm">
+        <ref role="3uigEE" to="6peh:QZBtfhdGc2" resolve="InternalReferenceResolver" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5TNjoy1HdIS" role="jymVt" />
     <node concept="312cEg" id="48csSBNwcys" role="jymVt">
       <property role="TrG5h" value="inputNodes" />
@@ -690,6 +699,24 @@
             </node>
             <node concept="37vLTw" id="48csSBNwcyB" role="37vLTx">
               <ref role="3cqZAo" node="48csSBNwcti" resolve="inputNodes" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="QZBtfhf9nc" role="3cqZAp">
+          <node concept="37vLTI" id="QZBtfhfbhj" role="3clFbG">
+            <node concept="2ShNRf" id="QZBtfhfbV4" role="37vLTx">
+              <node concept="1pGfFk" id="QZBtfhfbUz" role="2ShVmc">
+                <ref role="37wK5l" to="6peh:QZBtfhdGd4" resolve="InternalReferenceResolver" />
+                <node concept="37vLTw" id="QZBtfhfcTn" role="37wK5m">
+                  <ref role="3cqZAo" node="5JNiskj75lI" resolve="jsonConstants" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="QZBtfhf9LM" role="37vLTJ">
+              <node concept="Xjq3P" id="QZBtfhf9na" role="2Oq$k0" />
+              <node concept="2OwXpG" id="QZBtfhfaxO" role="2OqNvi">
+                <ref role="2Oxat5" node="QZBtfheWsm" resolve="internalReferenceResolver" />
+              </node>
             </node>
           </node>
         </node>
@@ -3484,6 +3511,65 @@
               <node concept="3$u5V9" id="5AGBwuFpfYr" role="2OqNvi">
                 <node concept="1bVj0M" id="5AGBwuFpfYt" role="23t8la">
                   <node concept="3clFbS" id="5AGBwuFpfYu" role="1bW5cS">
+                    <node concept="3cpWs8" id="QZBtfhfKcN" role="3cqZAp">
+                      <node concept="3cpWsn" id="QZBtfhfKcO" role="3cpWs9">
+                        <property role="TrG5h" value="internalReferenceValue" />
+                        <node concept="3uibUv" id="QZBtfhfFEo" role="1tU5fm">
+                          <ref role="3uigEE" to="fxn:~ReferenceValue" resolve="ReferenceValue" />
+                        </node>
+                        <node concept="2OqwBi" id="QZBtfhfKcP" role="33vP2m">
+                          <node concept="37vLTw" id="QZBtfhfKcQ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="QZBtfheWsm" resolve="internalReferenceResolver" />
+                          </node>
+                          <node concept="liA8E" id="QZBtfhfKcR" role="2OqNvi">
+                            <ref role="37wK5l" to="6peh:QZBtfhe5hT" resolve="resolveInternal" />
+                            <node concept="2OqwBi" id="QZBtfhjuH1" role="37wK5m">
+                              <node concept="37vLTw" id="QZBtfhfKcS" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6r4IH3RnmjI" resolve="it" />
+                              </node>
+                              <node concept="liA8E" id="QZBtfhj_GU" role="2OqNvi">
+                                <ref role="37wK5l" to="mhbf:~SReference.getTargetNode()" resolve="getTargetNode" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="QZBtfhgdCY" role="3cqZAp">
+                      <node concept="3clFbS" id="QZBtfhgdD0" role="3clFbx">
+                        <node concept="3cpWs6" id="QZBtfgDCtl" role="3cqZAp">
+                          <node concept="2ShNRf" id="QZBtfgFvW3" role="3cqZAk">
+                            <node concept="1pGfFk" id="QZBtfgFABS" role="2ShVmc">
+                              <property role="373rjd" value="true" />
+                              <ref role="37wK5l" to="7que:~SerializedReferenceValue$Entry.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="SerializedReferenceValue.Entry" />
+                              <node concept="2OqwBi" id="QZBtfhgTB$" role="37wK5m">
+                                <node concept="37vLTw" id="QZBtfgKZ$a" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="QZBtfhfKcO" resolve="internalReferenceValue" />
+                                </node>
+                                <node concept="liA8E" id="QZBtfhgZDs" role="2OqNvi">
+                                  <ref role="37wK5l" to="fxn:~ReferenceValue.getReferredID()" resolve="getReferredID" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="QZBtfgGg3f" role="37wK5m">
+                                <node concept="37vLTw" id="QZBtfgGbf_" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="QZBtfhfKcO" resolve="internalReferenceValue" />
+                                </node>
+                                <node concept="liA8E" id="QZBtfgGnq1" role="2OqNvi">
+                                  <ref role="37wK5l" to="fxn:~ReferenceValue.getResolveInfo()" resolve="getResolveInfo" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3y3z36" id="QZBtfhgrru" role="3clFbw">
+                        <node concept="10Nm6u" id="QZBtfhgvt9" role="3uHU7w" />
+                        <node concept="37vLTw" id="QZBtfhgkvD" role="3uHU7B">
+                          <ref role="3cqZAo" node="QZBtfhfKcO" resolve="internalReferenceValue" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="QZBtfgEayl" role="3cqZAp" />
                     <node concept="3cpWs8" id="5glO5qKTvgS" role="3cqZAp">
                       <node concept="3cpWsn" id="5glO5qKTvgT" role="3cpWs9">
                         <property role="TrG5h" value="resolveInfo" />

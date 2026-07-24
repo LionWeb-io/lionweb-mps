@@ -122,8 +122,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "LionWeb.LionCore_builtins.INamed",
-              "reference": null
+              "resolveInfo": "INamed",
+              "reference": "LionCore-builtins-INamed"
             }
           ]
         }
