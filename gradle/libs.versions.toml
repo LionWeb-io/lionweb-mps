@@ -13,7 +13,7 @@ jbrVersion="21.0.6-b895.109"
 mpsExtensionsVersion="2025.1.+"
 apacheCliVersion="1.11.0"
 apacheExecVersion="1.6.+"
-lionwebJavaVersion="1.4.3"
+lionwebJavaVersion="1.4.4"
 usedGradleVersion="9.2.1"
 
 [plugins]
