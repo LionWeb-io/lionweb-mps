@@ -133,8 +133,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "String",
-              "reference": "LionCore-builtins-String-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.String",
+              "reference": null
             }
           ]
         }
@@ -324,8 +324,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "Integer",
-              "reference": "LionCore-builtins-Integer-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.Integer",
+              "reference": null
             }
           ]
         }
@@ -400,7 +400,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "reference": null
             }
           ]
         },
@@ -413,7 +413,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.INamed",
-              "reference": "LionCore-builtins-INamed-2024-1"
+              "reference": null
             }
           ]
         }
@@ -689,7 +689,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.String",
-              "reference": "LionCore-builtins-String-2024-1"
+              "reference": null
             }
           ]
         }
@@ -880,8 +880,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "Boolean",
-              "reference": "LionCore-builtins-Boolean-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.Boolean",
+              "reference": null
             }
           ]
         }
@@ -968,8 +968,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "Integer",
-              "reference": "LionCore-builtins-Integer-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.Integer",
+              "reference": null
             }
           ]
         }
@@ -1100,8 +1100,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "String",
-              "reference": "LionCore-builtins-String-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.String",
+              "reference": null
             }
           ]
         }

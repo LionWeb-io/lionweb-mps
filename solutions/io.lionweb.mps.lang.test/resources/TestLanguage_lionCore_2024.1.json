@@ -144,7 +144,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "reference": null
             }
           ]
         },
@@ -204,7 +204,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Boolean",
-              "reference": "LionCore-builtins-Boolean-2024-1"
+              "reference": null
             }
           ]
         }
@@ -256,7 +256,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Boolean",
-              "reference": "LionCore-builtins-Boolean-2024-1"
+              "reference": null
             }
           ]
         }
@@ -412,7 +412,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Integer",
-              "reference": "LionCore-builtins-Integer-2024-1"
+              "reference": null
             }
           ]
         }
@@ -464,7 +464,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Integer",
-              "reference": "LionCore-builtins-Integer-2024-1"
+              "reference": null
             }
           ]
         }
@@ -516,7 +516,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.String",
-              "reference": "LionCore-builtins-String-2024-1"
+              "reference": null
             }
           ]
         }
@@ -568,7 +568,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.String",
-              "reference": "LionCore-builtins-String-2024-1"
+              "reference": null
             }
           ]
         }
@@ -646,7 +646,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "reference": null
             }
           ]
         },
@@ -659,7 +659,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.INamed",
-              "reference": "LionCore-builtins-INamed-2024-1"
+              "reference": null
             }
           ]
         }
@@ -1211,7 +1211,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "reference": null
             }
           ]
         },
@@ -1224,7 +1224,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.INamed",
-              "reference": "LionCore-builtins-INamed-2024-1"
+              "reference": null
             }
           ]
         }
@@ -1399,8 +1399,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.Node",
+              "reference": null
             }
           ]
         },
@@ -1420,8 +1420,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "INamed",
-              "reference": "LionCore-builtins-INamed-2024-1"
+              "resolveInfo": "LionWeb.LionCore_builtins.INamed",
+              "reference": null
             }
           ]
         }
@@ -1481,7 +1481,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "reference": null
             }
           ]
         }
@@ -1541,7 +1541,7 @@
           "targets": [
             {
               "resolveInfo": "LionWeb.LionCore_builtins.Node",
-              "reference": "LionCore-builtins-Node-2024-1"
+              "reference": null
             }
           ]
         }

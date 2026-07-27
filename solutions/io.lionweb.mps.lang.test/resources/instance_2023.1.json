@@ -122,8 +122,8 @@
           },
           "targets": [
             {
-              "resolveInfo": "INamedConcept",
-              "reference": "1169194658468"
+              "resolveInfo": "INamed",
+              "reference": "LionCore-builtins-INamed"
             }
           ]
         }
