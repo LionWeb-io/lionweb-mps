@@ -182,23 +182,19 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="7Ovcrc9oLmr" role="1HemKq">
-            <node concept="398BVA" id="7Ovcrc9oLmd" role="3LXTmr">
-              <ref role="398BVh" node="3Dlb8T1lioB" resolve="lionweb-mps.home" />
-              <node concept="2Ry0Ak" id="7Ovcrc9oLme" role="iGT6I">
-                <property role="2Ry0Am" value="test-project-externalLib" />
-                <node concept="2Ry0Ak" id="7Ovcrc9oLmf" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7Ovcrc9oLmg" role="2Ry0An">
-                    <property role="2Ry0Am" value="DependsOnMpsExtensions" />
-                    <node concept="2Ry0Ak" id="7Ovcrc9oLmh" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
+          <node concept="3LXTmp" id="4NrdvK_Rnuc" role="1HemKq">
+            <node concept="55IIr" id="4NrdvK_Rnu8" role="3LXTmr">
+              <node concept="2Ry0Ak" id="4NrdvK_Rnu9" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="4NrdvK_Rnua" role="2Ry0An">
+                  <property role="2Ry0Am" value="DependsOnMpsExtensions" />
+                  <node concept="2Ry0Ak" id="4NrdvK_Rnub" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="7Ovcrc9oLms" role="3LXTna">
+            <node concept="3qWCbU" id="4NrdvK_Rnud" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>

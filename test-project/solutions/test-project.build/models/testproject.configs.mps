@@ -2,7 +2,7 @@
 <model ref="r:4ce4b4f0-a0cb-438b-9027-4193b13f6b6a(testproject.configs)">
   <persistence version="9" />
   <languages>
-    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="3" />
   </languages>
   <imports>
     <import index="cy3f" ref="r:242ddde1-c6a6-4260-9af7-da4f4fcea655(testproject.instance)" />
@@ -18,12 +18,13 @@
       <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
         <property id="5028875375328515031" name="path" index="VS7hl" />
       </concept>
+      <concept id="8225909431866117897" name="io.lionweb.mps.converter.lang.structure.AExportMpsLanguageToJson" flags="ng" index="3qKw82">
+        <property id="8225909431866118269" name="scope" index="3qKxPQ" />
+      </concept>
       <concept id="1622443184644647655" name="io.lionweb.mps.converter.lang.structure.ILanguageIdentityContainer" flags="ngI" index="3IuRAt">
         <child id="5066961138993587939" name="languages" index="qeD2G" />
       </concept>
-      <concept id="1622443184644647418" name="io.lionweb.mps.converter.lang.structure.ExportMpsLanguageToJson" flags="ng" index="3IuRE0">
-        <property id="548682208089002477" name="scope" index="2G9pTy" />
-      </concept>
+      <concept id="1622443184644647418" name="io.lionweb.mps.converter.lang.structure.ExportSLanguageToJson" flags="ng" index="3IuRE0" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
@@ -47,7 +48,7 @@
   <node concept="3IuRE0" id="rW84$ckaC5">
     <property role="TrG5h" value="Language" />
     <property role="VS7hl" value="${lionweb-mps.test-project}/actual/language.json" />
-    <property role="2G9pTy" value="utjSYFIcjG/fineGrainedClosure" />
+    <property role="3qKxPQ" value="utjSYFIcjG/fineGrainedClosure" />
     <node concept="2V$Bhx" id="rW84$ckaC6" role="qeD2G">
       <property role="2V$B1T" value="dfd2e6e9-5721-48d9-9de9-36bd54345950" />
       <property role="2V$B1Q" value="FooLanguage" />
