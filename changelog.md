@@ -1,10 +1,12 @@
 # Changelog for LionWeb-MPS
 
-## next
+## 0.4.0
 * Supports exporting in LionWeb version 2023.1 and LionWeb version 2024.1.
 * Supports _structured data types_.
 * Added warning when using specialized links in LionWeb-aware languages.
 * Added intentions on `LionWebLanguage` to synchronize rootable / partition flag.
+* Bump lionweb-java dependency to v1.4.5.
+* Bump apache-cli dependency to 1.11.0.
 
 ## 0.3.0
 * Requires at least MPS 2025.1.

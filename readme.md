@@ -146,7 +146,6 @@ The example assumes we merge `mps2025.1` into `mps2025.2`.
 Use the `publish` task to publish a _snapshot_ version (i.e., versions ending with `-SNAPSHOT`), and the `release` task to release an _official_ version.
 
 **Note that you must publish/release from branches named `mps<yyyy>.<n>` where `<yyyy>`, `<n>` are the major, resp. minor version numbers of the MPS version targeted.**
-Currently, `<yyyy>` = 2021, and `<n>` = 1, 2, or 3.
 
 In order to be able to publish or release, you need to do the following:
 
@@ -155,7 +154,7 @@ In order to be able to publish or release, you need to do the following:
 2. Ask to be added to the list of users authorized to release under `io.lionweb`.
   <!-- **Check**: is this still accurate? -->
 
-2. Create an _user token_ for Sonatype:
+2. Create a _user token_ for Sonatype:
   * Log in on [https://s01.oss.sonatype.org/](https://s01.oss.sonatype.org/) — which is **not** the same site as [Maven Central](https://central.sonatype.com/)! —, by clicking on the “Log in” button in the top-right corner 
   * Go to your profile by clicking on your username in the top-right corner, and selecting “Profile”
   * Click on the dropdown menu currently showing “Summary”, and select “User Token”
