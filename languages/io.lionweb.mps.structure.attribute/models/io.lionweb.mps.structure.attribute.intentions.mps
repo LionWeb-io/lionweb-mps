@@ -14,6 +14,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -24,6 +25,7 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <property id="2523873803623706117" name="isMultiline" index="hSjvv" />
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
@@ -55,7 +57,13 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -64,6 +72,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
@@ -118,6 +127,9 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
+      </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
@@ -150,6 +162,7 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
+      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1175845471038" name="jetbrains.mps.baseLanguage.collections.structure.ReverseOperation" flags="nn" index="35Qw8J" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
@@ -422,9 +435,13 @@
       <node concept="3clFbS" id="4Yo3buYlC$u" role="2VODD2">
         <node concept="3clFbF" id="4Yo3buYlCS0" role="3cqZAp">
           <node concept="2OqwBi" id="4Yo3buYlIof" role="3clFbG">
+            <property role="hSjvv" value="true" />
             <node concept="2OqwBi" id="4Yo3buYlFE7" role="2Oq$k0">
+              <property role="hSjvv" value="true" />
               <node concept="2OqwBi" id="4Yo3buYlDln" role="2Oq$k0">
+                <property role="hSjvv" value="true" />
                 <node concept="2OqwBi" id="4Yo3buYlD0C" role="2Oq$k0">
+                  <property role="hSjvv" value="true" />
                   <node concept="2Sf5sV" id="4Yo3buYlCRZ" role="2Oq$k0" />
                   <node concept="I4A8Y" id="4Yo3buYlDbY" role="2OqNvi" />
                 </node>
@@ -483,9 +500,13 @@
                               <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                               <node concept="WxPPo" id="4Yo3buYlMhP" role="28ntcv">
                                 <node concept="2OqwBi" id="4Yo3buYlVO4" role="WxPPp">
+                                  <property role="hSjvv" value="true" />
                                   <node concept="2OqwBi" id="4Yo3buYlR9W" role="2Oq$k0">
+                                    <property role="hSjvv" value="true" />
                                     <node concept="2OqwBi" id="4Yo3buYm4Pn" role="2Oq$k0">
+                                      <property role="hSjvv" value="true" />
                                       <node concept="2OqwBi" id="4Yo3buYlMxO" role="2Oq$k0">
+                                        <property role="hSjvv" value="true" />
                                         <node concept="37vLTw" id="4Yo3buYlMhK" role="2Oq$k0">
                                           <ref role="3cqZAo" node="6r4IH3Rnmeh" resolve="named" />
                                         </node>
@@ -562,8 +583,11 @@
       <node concept="3clFbS" id="4Yo3buYmcch" role="2VODD2">
         <node concept="3clFbF" id="4Yo3buYmcny" role="3cqZAp">
           <node concept="2OqwBi" id="4Yo3buYmcnz" role="3clFbG">
+            <property role="hSjvv" value="true" />
             <node concept="2OqwBi" id="4Yo3buYmcn_" role="2Oq$k0">
+              <property role="hSjvv" value="true" />
               <node concept="2OqwBi" id="4Yo3buYmcnA" role="2Oq$k0">
+                <property role="hSjvv" value="true" />
                 <node concept="2Sf5sV" id="4Yo3buYmcnB" role="2Oq$k0" />
                 <node concept="I4A8Y" id="4Yo3buYmcnC" role="2OqNvi" />
               </node>
@@ -596,9 +620,13 @@
                               <ref role="2pJxcJ" to="234s:6fYiNFad_a2" resolve="key" />
                               <node concept="WxPPo" id="4Yo3buYmco4" role="28ntcv">
                                 <node concept="2OqwBi" id="4Yo3buYmco5" role="WxPPp">
+                                  <property role="hSjvv" value="true" />
                                   <node concept="2OqwBi" id="4Yo3buYmco6" role="2Oq$k0">
+                                    <property role="hSjvv" value="true" />
                                     <node concept="2OqwBi" id="4Yo3buYmco7" role="2Oq$k0">
+                                      <property role="hSjvv" value="true" />
                                       <node concept="2OqwBi" id="4Yo3buYmco8" role="2Oq$k0">
+                                        <property role="hSjvv" value="true" />
                                         <node concept="37vLTw" id="4Yo3buYmco9" role="2Oq$k0">
                                           <ref role="3cqZAo" node="6r4IH3Rnmel" resolve="named" />
                                         </node>
@@ -779,6 +807,397 @@
                     </node>
                   </node>
                   <node concept="zfrQC" id="1_rLWsuF8Uf" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1xq__UTxq9$">
+    <property role="TrG5h" value="markRootableAsPartition" />
+    <ref role="2ZfgGC" to="234s:6fYiNFad_9U" resolve="LionWebLanguage" />
+    <node concept="2S6ZIM" id="1xq__UTxq9_" role="2ZfVej">
+      <node concept="3clFbS" id="1xq__UTxq9A" role="2VODD2">
+        <node concept="3clFbF" id="1xq__UTxqnm" role="3cqZAp">
+          <node concept="Xl_RD" id="1xq__UTxqnl" role="3clFbG">
+            <property role="Xl_RC" value="Mark All Rootable Concepts as Partitions" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1xq__UTxq9B" role="2ZfgGD">
+      <node concept="3clFbS" id="1xq__UTxq9C" role="2VODD2">
+        <node concept="3clFbF" id="1xq__UTxqE6" role="3cqZAp">
+          <node concept="2OqwBi" id="1xq__UTxOW8" role="3clFbG">
+            <property role="hSjvv" value="true" />
+            <node concept="2OqwBi" id="1xq__UTxDMd" role="2Oq$k0">
+              <property role="hSjvv" value="true" />
+              <node concept="2OqwBi" id="1xq__UTxvYr" role="2Oq$k0">
+                <property role="hSjvv" value="true" />
+                <node concept="2OqwBi" id="1xq__UTxrgK" role="2Oq$k0">
+                  <property role="hSjvv" value="true" />
+                  <node concept="2OqwBi" id="1xq__UTxqPc" role="2Oq$k0">
+                    <property role="hSjvv" value="true" />
+                    <node concept="2Sf5sV" id="1xq__UTxqE5" role="2Oq$k0" />
+                    <node concept="I4A8Y" id="1xq__UTxr55" role="2OqNvi" />
+                  </node>
+                  <node concept="2RRcyG" id="1xq__UTxrqO" role="2OqNvi">
+                    <node concept="chp4Y" id="1xq__UTxrrs" role="3MHsoP">
+                      <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="1xq__UTxAbD" role="2OqNvi">
+                  <node concept="1bVj0M" id="1xq__UTxAbF" role="23t8la">
+                    <node concept="3clFbS" id="1xq__UTxAbG" role="1bW5cS">
+                      <node concept="3clFbF" id="1xq__UTxAkk" role="3cqZAp">
+                        <node concept="2OqwBi" id="1xq__UTxAEi" role="3clFbG">
+                          <node concept="37vLTw" id="1xq__UTxAkj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1xq__UTxAbH" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="1xq__UTxDxp" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpce:fX9Ktp8" resolve="rootable" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="gl6BB" id="1xq__UTxAbH" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="1xq__UTxAbI" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3zZkjj" id="1xq__UTxF5s" role="2OqNvi">
+                <node concept="1bVj0M" id="1xq__UTxF5u" role="23t8la">
+                  <node concept="3clFbS" id="1xq__UTxF5v" role="1bW5cS">
+                    <node concept="3clFbF" id="1xq__UTxFjF" role="3cqZAp">
+                      <node concept="22lmx$" id="1xq__UTxMdB" role="3clFbG">
+                        <node concept="3fqX7Q" id="1xq__UTxOFe" role="3uHU7w">
+                          <node concept="2OqwBi" id="1xq__UTxOFg" role="3fr31v">
+                            <node concept="2OqwBi" id="1xq__UTxOFh" role="2Oq$k0">
+                              <node concept="37vLTw" id="1xq__UTxOFi" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1xq__UTxF5w" resolve="it" />
+                              </node>
+                              <node concept="3CFZ6_" id="1xq__UTxOFj" role="2OqNvi">
+                                <node concept="3CFYIy" id="1xq__UTxOFk" role="3CFYIz">
+                                  <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="1xq__UTxOFl" role="2OqNvi">
+                              <ref role="3TsBF5" to="234s:5AGBwuDOKMb" resolve="partition" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="1xq__UTxKNZ" role="3uHU7B">
+                          <node concept="2OqwBi" id="1xq__UTxFK_" role="2Oq$k0">
+                            <node concept="37vLTw" id="1xq__UTxFjE" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1xq__UTxF5w" resolve="it" />
+                            </node>
+                            <node concept="3CFZ6_" id="1xq__UTxKhI" role="2OqNvi">
+                              <node concept="3CFYIy" id="1xq__UTxKw1" role="3CFYIz">
+                                <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3w_OXm" id="1xq__UTxLf1" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gl6BB" id="1xq__UTxF5w" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1xq__UTxF5x" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="1xq__UTxQiK" role="2OqNvi">
+              <node concept="1bVj0M" id="1xq__UTxQiM" role="23t8la">
+                <node concept="3clFbS" id="1xq__UTxQiN" role="1bW5cS">
+                  <node concept="3clFbJ" id="1xq__UTxQxW" role="3cqZAp">
+                    <node concept="2OqwBi" id="1xq__UTxSA0" role="3clFbw">
+                      <node concept="2OqwBi" id="1xq__UTxRgN" role="2Oq$k0">
+                        <node concept="37vLTw" id="1xq__UTxQPh" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1xq__UTxQiO" resolve="it" />
+                        </node>
+                        <node concept="3CFZ6_" id="1xq__UTxS9I" role="2OqNvi">
+                          <node concept="3CFYIy" id="1xq__UTxSii" role="3CFYIz">
+                            <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3x8VRR" id="1xq__UTxT2t" role="2OqNvi" />
+                    </node>
+                    <node concept="3clFbS" id="1xq__UTxQxY" role="3clFbx">
+                      <node concept="3clFbF" id="1xq__UTxT9S" role="3cqZAp">
+                        <node concept="37vLTI" id="1xq__UTxVn8" role="3clFbG">
+                          <node concept="3clFbT" id="1xq__UTxVuv" role="37vLTx">
+                            <property role="3clFbU" value="true" />
+                          </node>
+                          <node concept="2OqwBi" id="1xq__UTxUbn" role="37vLTJ">
+                            <node concept="2OqwBi" id="1xq__UTxTlr" role="2Oq$k0">
+                              <node concept="37vLTw" id="1xq__UTxT9R" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1xq__UTxQiO" resolve="it" />
+                              </node>
+                              <node concept="3CFZ6_" id="1xq__UTxTKb" role="2OqNvi">
+                                <node concept="3CFYIy" id="1xq__UTxTRi" role="3CFYIz">
+                                  <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="1xq__UTxUOD" role="2OqNvi">
+                              <ref role="3TsBF5" to="234s:5AGBwuDOKMb" resolve="partition" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="1xq__UTxV_M" role="9aQIa">
+                      <node concept="3clFbS" id="1xq__UTxV_N" role="9aQI4">
+                        <node concept="3clFbF" id="1xq__UTxVIa" role="3cqZAp">
+                          <node concept="37vLTI" id="1xq__UTxXJe" role="3clFbG">
+                            <node concept="2pJPEk" id="1xq__UTxXU3" role="37vLTx">
+                              <node concept="2pJPED" id="1xq__UTxXU5" role="2pJPEn">
+                                <ref role="2pJxaS" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                                <node concept="2pJxcG" id="1xq__UTxY_G" role="2pJxcM">
+                                  <ref role="2pJxcJ" to="234s:5AGBwuDOKMb" resolve="partition" />
+                                  <node concept="WxPPo" id="1xq__UTxYHs" role="28ntcv">
+                                    <node concept="3clFbT" id="1xq__UTxYHr" role="WxPPp">
+                                      <property role="3clFbU" value="true" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="1xq__UTxW9S" role="37vLTJ">
+                              <node concept="37vLTw" id="1xq__UTxVI9" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1xq__UTxQiO" resolve="it" />
+                              </node>
+                              <node concept="3CFZ6_" id="1xq__UTxX3q" role="2OqNvi">
+                                <node concept="3CFYIy" id="1xq__UTxXe2" role="3CFYIz">
+                                  <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="1xq__UTxQiO" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1xq__UTxQiP" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="1xq__UTy0Zl" role="2ZfVeh">
+      <node concept="3clFbS" id="1xq__UTy0Zm" role="2VODD2">
+        <node concept="3clFbF" id="1xq__UTy1pi" role="3cqZAp">
+          <node concept="2OqwBi" id="1xq__UTy8wA" role="3clFbG">
+            <node concept="2OqwBi" id="1xq__UTy260" role="2Oq$k0">
+              <node concept="2OqwBi" id="1xq__UTy1EY" role="2Oq$k0">
+                <node concept="2Sf5sV" id="1xq__UTy1ph" role="2Oq$k0" />
+                <node concept="I4A8Y" id="1xq__UTy1UX" role="2OqNvi" />
+              </node>
+              <node concept="2RRcyG" id="1xq__UTy2ga" role="2OqNvi">
+                <node concept="chp4Y" id="1xq__UTy2vk" role="3MHsoP">
+                  <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="2HwmR7" id="1xq__UTydJt" role="2OqNvi">
+              <node concept="1bVj0M" id="1xq__UTydJv" role="23t8la">
+                <node concept="3clFbS" id="1xq__UTydJw" role="1bW5cS">
+                  <node concept="3clFbF" id="1xq__UTydOf" role="3cqZAp">
+                    <node concept="1Wc70l" id="1xq__UTzoxi" role="3clFbG">
+                      <node concept="3fqX7Q" id="1xq__UTzo$_" role="3uHU7w">
+                        <node concept="2OqwBi" id="1xq__UTzq6d" role="3fr31v">
+                          <node concept="2OqwBi" id="1xq__UTzpgR" role="2Oq$k0">
+                            <node concept="37vLTw" id="1xq__UTzoPe" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1xq__UTydJx" resolve="it" />
+                            </node>
+                            <node concept="3CFZ6_" id="1xq__UTzpw6" role="2OqNvi">
+                              <node concept="3CFYIy" id="1xq__UTzp_i" role="3CFYIz">
+                                <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="1xq__UTzqvZ" role="2OqNvi">
+                            <ref role="3TsBF5" to="234s:5AGBwuDOKMb" resolve="partition" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1xq__UTyeh0" role="3uHU7B">
+                        <node concept="37vLTw" id="1xq__UTydOe" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1xq__UTydJx" resolve="it" />
+                        </node>
+                        <node concept="3TrcHB" id="1xq__UTyfBE" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpce:fX9Ktp8" resolve="rootable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="1xq__UTydJx" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1xq__UTydJy" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1xq__UTxYWe">
+    <property role="TrG5h" value="markPartitionAsRootable" />
+    <ref role="2ZfgGC" to="234s:6fYiNFad_9U" resolve="LionWebLanguage" />
+    <node concept="2S6ZIM" id="1xq__UTxYWf" role="2ZfVej">
+      <node concept="3clFbS" id="1xq__UTxYWg" role="2VODD2">
+        <node concept="3clFbF" id="1xq__UTxYWh" role="3cqZAp">
+          <node concept="Xl_RD" id="1xq__UTxYWi" role="3clFbG">
+            <property role="Xl_RC" value="Mark Partition Concepts as Rootable" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1xq__UTxYWj" role="2ZfgGD">
+      <node concept="3clFbS" id="1xq__UTxYWk" role="2VODD2">
+        <node concept="3clFbF" id="1xq__UTxYWl" role="3cqZAp">
+          <node concept="2OqwBi" id="1xq__UTxYWm" role="3clFbG">
+            <property role="hSjvv" value="true" />
+            <node concept="2OqwBi" id="1xq__UTxYWn" role="2Oq$k0">
+              <property role="hSjvv" value="true" />
+              <node concept="2OqwBi" id="1xq__UTxYWp" role="2Oq$k0">
+                <property role="hSjvv" value="true" />
+                <node concept="2OqwBi" id="1xq__UTxYWq" role="2Oq$k0">
+                  <property role="hSjvv" value="true" />
+                  <node concept="2Sf5sV" id="1xq__UTxYWr" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="1xq__UTxYWs" role="2OqNvi" />
+                </node>
+                <node concept="2RRcyG" id="1xq__UTxYWt" role="2OqNvi">
+                  <node concept="chp4Y" id="1xq__UTxYWu" role="3MHsoP">
+                    <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3zZkjj" id="1xq__UTxYWC" role="2OqNvi">
+                <node concept="1bVj0M" id="1xq__UTxYWD" role="23t8la">
+                  <node concept="3clFbS" id="1xq__UTxYWE" role="1bW5cS">
+                    <node concept="3clFbF" id="1xq__UTxYWF" role="3cqZAp">
+                      <node concept="2OqwBi" id="1xq__UTxYWO" role="3clFbG">
+                        <node concept="2OqwBi" id="1xq__UTxYWP" role="2Oq$k0">
+                          <node concept="37vLTw" id="1xq__UTxYWQ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1xq__UTxYWU" resolve="it" />
+                          </node>
+                          <node concept="3CFZ6_" id="1xq__UTxYWR" role="2OqNvi">
+                            <node concept="3CFYIy" id="1xq__UTxYWS" role="3CFYIz">
+                              <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="1xq__UTyvea" role="2OqNvi">
+                          <ref role="3TsBF5" to="234s:5AGBwuDOKMb" resolve="partition" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="gl6BB" id="1xq__UTxYWU" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1xq__UTxYWV" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="1xq__UTxYWW" role="2OqNvi">
+              <node concept="1bVj0M" id="1xq__UTxYWX" role="23t8la">
+                <node concept="3clFbS" id="1xq__UTxYWY" role="1bW5cS">
+                  <node concept="3clFbF" id="1xq__UTyv$Z" role="3cqZAp">
+                    <node concept="37vLTI" id="1xq__UTyysH" role="3clFbG">
+                      <node concept="3clFbT" id="1xq__UTyyzL" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="2OqwBi" id="1xq__UTyvZc" role="37vLTJ">
+                        <node concept="37vLTw" id="1xq__UTyv$X" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1xq__UTxYXt" resolve="it" />
+                        </node>
+                        <node concept="3TrcHB" id="1xq__UTyxHE" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpce:fX9Ktp8" resolve="rootable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="1xq__UTxYXt" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1xq__UTxYXu" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="1xq__UTyfWr" role="2ZfVeh">
+      <node concept="3clFbS" id="1xq__UTyfWs" role="2VODD2">
+        <node concept="3clFbF" id="1xq__UTygmu" role="3cqZAp">
+          <node concept="2OqwBi" id="1xq__UTynBW" role="3clFbG">
+            <node concept="2OqwBi" id="1xq__UTyh9Q" role="2Oq$k0">
+              <node concept="2OqwBi" id="1xq__UTygCa" role="2Oq$k0">
+                <node concept="2Sf5sV" id="1xq__UTygmt" role="2Oq$k0" />
+                <node concept="I4A8Y" id="1xq__UTygWy" role="2OqNvi" />
+              </node>
+              <node concept="2RRcyG" id="1xq__UTyhua" role="2OqNvi">
+                <node concept="chp4Y" id="1xq__UTyhHk" role="3MHsoP">
+                  <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="2HwmR7" id="1xq__UTysQB" role="2OqNvi">
+              <node concept="1bVj0M" id="1xq__UTysQD" role="23t8la">
+                <node concept="3clFbS" id="1xq__UTysQE" role="1bW5cS">
+                  <node concept="3clFbF" id="1xq__UTysVp" role="3cqZAp">
+                    <node concept="1Wc70l" id="1xq__UTzs8n" role="3clFbG">
+                      <node concept="3fqX7Q" id="1xq__UTzsbM" role="3uHU7w">
+                        <node concept="2OqwBi" id="1xq__UTzsTt" role="3fr31v">
+                          <node concept="37vLTw" id="1xq__UTzssw" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1xq__UTysQF" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="1xq__UTzuqN" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpce:fX9Ktp8" resolve="rootable" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1xq__UTyupl" role="3uHU7B">
+                        <node concept="2OqwBi" id="1xq__UTytjL" role="2Oq$k0">
+                          <node concept="37vLTw" id="1xq__UTysVo" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1xq__UTysQF" resolve="it" />
+                          </node>
+                          <node concept="3CFZ6_" id="1xq__UTytZR" role="2OqNvi">
+                            <node concept="3CFYIy" id="1xq__UTyu74" role="3CFYIz">
+                              <ref role="3CFYIx" to="234s:5AGBwuDOKM4" resolve="LionWebPartitionConcept" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="1xq__UTyuVI" role="2OqNvi">
+                          <ref role="3TsBF5" to="234s:5AGBwuDOKMb" resolve="partition" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="1xq__UTysQF" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="1xq__UTysQG" role="1tU5fm" />
                 </node>
               </node>
             </node>
