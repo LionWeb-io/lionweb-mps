@@ -2556,5 +2556,40 @@
       <ref role="1YaFvo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
   </node>
+  <node concept="18kY7G" id="1xq__UTuFN4">
+    <property role="TrG5h" value="dontSpecializeLinks" />
+    <node concept="3clFbS" id="1xq__UTuFN5" role="18ibNy">
+      <node concept="3clFbJ" id="1xq__UTuFO2" role="3cqZAp">
+        <node concept="2OqwBi" id="1xq__UTuG_j" role="3clFbw">
+          <node concept="2OqwBi" id="1xq__UTuG5h" role="2Oq$k0">
+            <node concept="1YBJjd" id="1xq__UTuFOb" role="2Oq$k0">
+              <ref role="1YBMHb" node="1xq__UTuFN7" resolve="linkDeclaration" />
+            </node>
+            <node concept="3TrEf2" id="1xq__UTuGwD" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpce:fA0ks94" resolve="specializedLink" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="1xq__UTuGGh" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="1xq__UTuFO4" role="3clFbx">
+          <node concept="a7r0C" id="1xq__UTvSH6" role="3cqZAp">
+            <node concept="Xl_RD" id="1xq__UTvSH8" role="a7wSD">
+              <property role="Xl_RC" value="LionWeb does not support specialized links" />
+            </node>
+            <node concept="1YBJjd" id="1xq__UTvSH9" role="1urrMF">
+              <ref role="1YBMHb" node="1xq__UTuFN7" resolve="linkDeclaration" />
+            </node>
+            <node concept="AMVWa" id="1xq__UTvSHD" role="lGtFl">
+              <property role="TrG5h" value="specializedLinkUnsupported" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1xq__UTuFN7" role="1YuTPh">
+      <property role="TrG5h" value="linkDeclaration" />
+      <ref role="1YaFvo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+  </node>
 </model>
 

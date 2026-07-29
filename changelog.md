@@ -3,6 +3,7 @@
 ## next
 * Supports exporting in LionWeb version 2023.1 and LionWeb version 2024.1.
 * Supports _structured data types_.
+* Added warning when using specialized links in LionWeb-aware languages.
 
 ## 0.3.0
 * Requires at least MPS 2025.1.

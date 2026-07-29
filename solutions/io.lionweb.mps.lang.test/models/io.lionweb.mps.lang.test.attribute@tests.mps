@@ -94,6 +94,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -1502,6 +1503,71 @@
         <node concept="7CXmI" id="4Ffa7sMU2S9" role="lGtFl">
           <node concept="7OXhh" id="4Ffa7sMU2Sa" role="7EUXB">
             <property role="GvXf4" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="1xq__UTux6m">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="SpecializedLinks" />
+    <node concept="1qefOq" id="1xq__UTux8H" role="1SKRRt">
+      <node concept="1TIwiD" id="1xq__UTux9F" role="1qenE9">
+        <property role="EcuMT" value="1754880338397106795" />
+        <property role="TrG5h" value="Base" />
+        <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="1TJgyj" id="1xq__UTuxb$" role="1TKVEi">
+          <property role="IQ2ns" value="1754880338397106916" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="baseChild" />
+          <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+        <node concept="1TJgyj" id="1xq__UTuxdV" role="1TKVEi">
+          <property role="IQ2ns" value="1754880338397107067" />
+          <property role="20kJfa" value="baseRef" />
+          <property role="20lbJX" value="fLJekj4/_1" />
+          <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1xq__UTuxgi" role="1SKRRt">
+      <node concept="15s5l7" id="1xq__UTu_d3" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  SubConcept (target) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;target&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805233]&quot;;" />
+        <property role="huDt6" value="The reference  SubConcept (target) is out of search scope" />
+      </node>
+      <node concept="15s5l7" id="1xq__UTuzYK" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;reference scopes (reference scopes)&quot;;FLAVOUR_MESSAGE=&quot;The reference  Base (extends) is out of search scope&quot;;FLAVOUR_NODE_FEATURE=&quot;extends&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)/6836281137582805245]&quot;;" />
+        <property role="huDt6" value="The reference  Base (extends) is out of search scope" />
+      </node>
+      <node concept="1TIwiD" id="1xq__UTuxgM" role="1qenE9">
+        <property role="EcuMT" value="1754880338397107250" />
+        <property role="TrG5h" value="SubConcept" />
+        <ref role="1TJDcQ" node="1xq__UTux9F" resolve="Base" />
+        <node concept="1TJgyj" id="1xq__UTuzZH" role="1TKVEi">
+          <property role="IQ2ns" value="1754880338397118445" />
+          <property role="20lmBu" value="fLJjDmT/aggregation" />
+          <property role="20kJfa" value="baseChild" />
+          <ref role="20ksaX" node="1xq__UTuxb$" resolve="baseChild" />
+          <ref role="20lvS9" node="1xq__UTuxgM" resolve="SubConcept" />
+          <node concept="7CXmI" id="1xq__UTuAph" role="lGtFl">
+            <node concept="29bkU" id="1xq__UTvSRO" role="7EUXB">
+              <node concept="2PQEqo" id="1xq__UTvSRR" role="3lydCh">
+                <ref role="39XzEq" to="79ni:1xq__UTvSH6" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1TJgyj" id="1xq__UTu_dy" role="1TKVEi">
+          <property role="IQ2ns" value="1754880338397123426" />
+          <property role="20kJfa" value="baseRef" />
+          <ref role="20ksaX" node="1xq__UTuxdV" resolve="baseRef" />
+          <ref role="20lvS9" node="1xq__UTuxgM" resolve="SubConcept" />
+          <node concept="7CXmI" id="1xq__UTuAqf" role="lGtFl">
+            <node concept="29bkU" id="1xq__UTvSRS" role="7EUXB">
+              <node concept="2PQEqo" id="1xq__UTvSRV" role="3lydCh">
+                <ref role="39XzEq" to="79ni:1xq__UTvSH6" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
